@@ -1,0 +1,77 @@
+{
+  "id": "it-a2-u07-l1",
+  "unit": "it-a2-u07",
+  "title": "Pronto? Chi parla?",
+  "goal": "a nombrar el móvil, las llamadas y los mensajes para hablar por teléfono",
+  "emoji": "📞",
+  "photoQuery": "woman talking on mobile phone",
+  "vocab": [
+    { "id": "tel-pronto", "t": "Pronto?", "es": "¿Diga? / ¿Sí?", "emoji": "📞", "pos": "phrase", "note": "Solo al contestar al teléfono. Como adjetivo, pronto = listo.", "ex": { "t": "Pronto? Ciao Hugo, come stai?", "es": "¿Sí? Hola, Hugo, ¿qué tal estás?" } },
+    { "id": "tel-il-cellulare", "t": "il cellulare", "es": "el móvil", "emoji": "📱", "pos": "n", "note": "También se oye il telefonino.", "ex": { "t": "Ho lasciato il cellulare a casa.", "es": "Me he dejado el móvil en casa." } },
+    { "id": "tel-chiamare", "t": "chiamare", "es": "llamar", "emoji": "☎️", "pos": "v", "ex": { "t": "Chiamo mio figlio ogni domenica.", "es": "Llamo a mi hijo todos los domingos." } },
+    { "id": "tel-la-chiamata", "t": "la chiamata", "es": "la llamada", "emoji": "📲", "pos": "n", "ex": { "t": "Ho una chiamata persa di Hugo.", "es": "Tengo una llamada perdida de Hugo." } },
+    { "id": "tel-rispondere", "t": "rispondere", "es": "contestar, responder", "emoji": "🗣️", "pos": "v", "ex": { "t": "Perché non rispondi al telefono?", "es": "¿Por qué no contestas al teléfono?" } },
+    { "id": "tel-richiamare", "t": "richiamare", "es": "volver a llamar", "emoji": "🔁", "pos": "v", "ex": { "t": "Ti richiamo tra dieci minuti.", "es": "Te vuelvo a llamar dentro de diez minutos." } },
+    { "id": "tel-salvare", "t": "salvare il numero", "es": "guardar el número (en el móvil)", "emoji": "💾", "pos": "phrase", "ex": { "t": "Ho salvato il tuo numero nei contatti.", "es": "He guardado tu número en los contactos." } },
+    { "id": "tel-il-messaggio", "t": "il messaggio", "es": "el mensaje", "emoji": "💬", "pos": "n", "ex": { "t": "Ho ricevuto un messaggio su WhatsApp.", "es": "He recibido un mensaje por WhatsApp." } },
+    { "id": "tel-la-batteria-scarica", "t": "la batteria scarica", "es": "la batería descargada", "emoji": "🪫", "pos": "phrase", "ex": { "t": "Scusa, ho la batteria scarica.", "es": "Perdona, me he quedado sin batería." } },
+    { "id": "tel-squillare", "t": "squillare", "es": "sonar (el teléfono)", "emoji": "🔔", "pos": "v", "ex": { "t": "Il telefono squilla, rispondi tu?", "es": "Suena el teléfono, ¿contestas tú?" } }
+  ],
+  "grammar": "it-g-modali",
+  "pron": {
+    "title": "Las dobles de squillare y chiamata",
+    "tip": "Squillare tiene ll doble: alarga la l (squil-la-re). Y en chiamata, ch suena «k»: kia-ma-ta.",
+    "words": ["squillare", "cellulare", "chiamata", "richiamare", "messaggio"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "___? Chi parla?", "es": "¿Diga? ¿Quién es?", "options": ["Pronto", "Presto", "Subito"], "answer": "Pronto", "why": "Al contestar al teléfono se dice Pronto?", "g": "it-g-modali" },
+    { "id": "e2", "type": "choose", "q": "Scusa, non ___ parlare adesso.", "es": "Perdona, no puedo hablar ahora.", "options": ["posso", "può", "devo"], "answer": "posso", "why": "Io → posso.", "g": "it-g-modali" },
+    { "id": "e3", "type": "choose", "q": "Mi ___ richiamare più tardi?", "es": "¿Me puedes volver a llamar más tarde?", "options": ["puoi", "posso", "vuoi"], "answer": "puoi", "why": "Tu → puoi.", "g": "it-g-modali" },
+    { "id": "e4", "type": "choose", "q": "Ho una chiamata ___ di Hugo.", "es": "Tengo una llamada perdida de Hugo.", "options": ["persa", "perduto", "perso"], "answer": "persa", "why": "Llamada perdida = chiamata persa (femenino).", "g": "it-g-modali" },
+    { "id": "e5", "type": "fill", "q": "Il telefono ___, rispondi tu?", "es": "Suena el teléfono, ¿contestas tú?", "answer": ["squilla"], "bank": ["squilla", "suona", "chiama"], "why": "Para el teléfono se usa squillare: il telefono squilla.", "g": "it-g-modali" },
+    { "id": "e6", "type": "fill", "q": "Devo ___ la batteria.", "es": "Tengo que cargar la batería.", "answer": ["caricare"], "bank": ["caricare", "scaricare", "chiamare"], "why": "Cargar = caricare; scarica = descargada.", "g": "it-g-modali" },
+    { "id": "e7", "type": "fill", "q": "Mi ___ dare il tuo numero?", "es": "¿Me puedes dar tu número?", "answer": ["puoi"], "hint": "potere, tu", "why": "Para pedir algo a alguien de confianza: mi puoi…?", "g": "it-g-modali" },
+    { "id": "e8", "type": "error", "q": "Presto? Chi parla?", "wrong": "Presto", "fix": "Pronto", "why": "Al teléfono se dice Pronto? Presto significa temprano o pronto.", "g": "it-g-modali" },
+    { "id": "e9", "type": "error", "q": "Voglio chiamo mio figlio.", "wrong": "chiamo", "fix": "chiamare", "why": "Después de voglio va el infinitivo: voglio chiamare.", "g": "it-g-modali" },
+    { "id": "e10", "type": "order", "es": "Te vuelvo a llamar dentro de diez minutos.", "answer": "Ti richiamo tra dieci minuti", "extra": ["chiamata"], "why": "Ti va delante del verbo: ti richiamo.", "g": "it-g-modali" },
+    { "id": "e11", "type": "translate", "dir": "to", "q": "Perdona, me he quedado sin batería.", "answer": ["Scusa, ho la batteria scarica.", "Scusa, ho il cellulare scarico.", "Scusami, ho la batteria scarica."], "why": "Batteria scarica = batería descargada.", "g": "it-g-modali" },
+    { "id": "e12", "type": "translate", "dir": "from", "q": "Ho lasciato il cellulare a casa.", "answer": ["Me he dejado el móvil en casa.", "He dejado el móvil en casa.", "Me dejé el móvil en casa.", "Dejé el móvil en casa."], "why": "Il cellulare = el móvil.", "g": "it-g-modali" },
+    { "id": "e13", "type": "match", "pairs": [["il cellulare", "el móvil"], ["la chiamata", "la llamada"], ["richiamare", "volver a llamar"], ["squillare", "sonar"], ["rispondere", "contestar"]], "why": "Palabras del teléfono." },
+    { "id": "e14", "type": "situation", "context": "Suena tu móvil y no sabes quién es. Contestas.", "emoji": "📞", "options": ["Pronto? Chi parla?", "Ciao, sono pronta!", "Arrivederci!"], "answer": "Pronto? Chi parla?", "why": "Pronto? es el «¿Diga?» italiano.", "g": "it-g-modali" },
+    { "id": "e15", "type": "reading", "kind": "message", "title": "Mensaje de Hugo", "text": "Mamma, ti ho chiamato due volte ma non rispondi! Hai la batteria scarica? Richiamami quando puoi. Un bacio!", "questions": [
+      { "q": "¿Cuántas veces la ha llamado Hugo?", "options": ["Dos", "Una", "Tres"], "answer": "Dos" },
+      { "q": "¿Qué cree Hugo que pasa?", "options": ["Que tiene el móvil sin batería", "Que está enfadada", "Que está de viaje"], "answer": "Que tiene el móvil sin batería" },
+      { "q": "¿Qué le pide?", "options": ["Que le llame", "Que le escriba un correo", "Que vaya a verlo"], "answer": "Que le llame" }
+    ] }
+  ],
+  "dialog": {
+    "title": "Una llamada perdida",
+    "setting": "Yolanda devuelve la llamada a su hijo Hugo desde un tren en Italia",
+    "emoji": "🚆",
+    "lines": [
+      { "who": "Hugo", "t": "Pronto? Mamma, finalmente!", "es": "¿Sí? ¡Mamá, por fin!" },
+      { "who": "Yolanda", "t": "Ciao, tesoro! Ho visto la tua chiamata persa.", "es": "¡Hola, cariño! He visto tu llamada perdida." },
+      { "who": "Hugo", "t": "Ti ho chiamato due volte! Perché non hai risposto?", "es": "¡Te he llamado dos veces! ¿Por qué no has contestado?" },
+      { "who": "Yolanda", "t": "Avevo la batteria scarica. Ora sono in treno.", "es": "Tenía la batería descargada. Ahora estoy en el tren." },
+      { "who": "Hugo", "t": "Ah, ecco! Va tutto bene?", "es": "¡Ah, vale! ¿Va todo bien?" },
+      { "who": "Yolanda", "t": "Sì, benissimo. Ma qui non si sente bene.", "es": "Sí, muy bien. Pero aquí no se oye bien." },
+      { "who": "Hugo", "t": "Allora ti richiamo stasera, va bene?", "es": "Entonces te vuelvo a llamar esta noche, ¿vale?" },
+      { "who": "Yolanda", "t": "Perfetto. Un bacio!", "es": "Perfecto. ¡Un beso!" }
+    ],
+    "questions": [
+      { "q": "¿Por qué no contestó Yolanda?", "options": ["Tenía el móvil sin batería", "Estaba durmiendo", "No oyó el teléfono"], "answer": "Tenía el móvil sin batería" },
+      { "q": "¿Dónde está Yolanda?", "options": ["En el tren", "En casa", "En una tienda"], "answer": "En el tren" },
+      { "q": "¿Cuándo volverá a llamar Hugo?", "options": ["Esta noche", "Mañana", "Dentro de una hora"], "answer": "Esta noche" }
+    ]
+  },
+  "realLife": { "t": "Ti richiamo più tardi, va bene?", "es": "Te llamo luego, ¿vale?", "context": "Cuando te llaman y no puedes hablar en ese momento" },
+  "falseFriend": { "word": "salvare", "means": "guardar (un número, una foto, un archivo) y también rescatar", "looksLike": "salvar, rescatar (solo un sentido)", "emoji": "💾", "tip": "Ho salvato il tuo numero no es un rescate: ¡es que lo has guardado en el móvil!" },
+  "summary": [
+    "Al teléfono: Pronto? Chi parla?",
+    "Il cellulare, la chiamata (persa), il messaggio, il numero.",
+    "Chiamare, rispondere, richiamare; il telefono squilla.",
+    "Pedir con poder: Mi puoi richiamare?",
+    "Pronto = ¿diga? / listo; salvare il numero = guardar el número."
+  ],
+  "reviewed": false
+}

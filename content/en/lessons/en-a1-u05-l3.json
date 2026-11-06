@@ -1,0 +1,451 @@
+{
+  "id": "en-a1-u05-l3",
+  "unit": "en-a1-u05",
+  "title": "¿Qué hora es?",
+  "goal": "a preguntar y decir la hora, y a decir a qué hora es algo",
+  "emoji": "🕒",
+  "photoQuery": "old clock tower london",
+  "vocab": [
+    {
+      "id": "what-time-is-it",
+      "t": "What time is it?",
+      "es": "¿Qué hora es?",
+      "emoji": "⌚",
+      "pos": "phrase",
+      "ex": {
+        "t": "Excuse me, what time is it?",
+        "es": "Perdone, ¿qué hora es?"
+      },
+      "note": "Hora del reloj = time. Hour = una hora de 60 minutos."
+    },
+    {
+      "id": "oclock",
+      "t": "o'clock",
+      "es": "en punto",
+      "emoji": "🕐",
+      "pos": "adv",
+      "ex": {
+        "t": "It's nine o'clock.",
+        "es": "Son las nueve en punto."
+      }
+    },
+    {
+      "id": "half-past",
+      "t": "half past",
+      "es": "y media",
+      "emoji": "🕧",
+      "pos": "phrase",
+      "ex": {
+        "t": "It's half past ten.",
+        "es": "Son las diez y media."
+      },
+      "note": "Literalmente «media pasada de»: half past ten = 10:30."
+    },
+    {
+      "id": "quarter-past",
+      "t": "quarter past",
+      "es": "y cuarto",
+      "emoji": "🕒",
+      "pos": "phrase",
+      "ex": {
+        "t": "It's quarter past three.",
+        "es": "Son las tres y cuarto."
+      }
+    },
+    {
+      "id": "quarter-to",
+      "t": "quarter to",
+      "es": "menos cuarto",
+      "emoji": "🕘",
+      "pos": "phrase",
+      "ex": {
+        "t": "It's quarter to nine.",
+        "es": "Son las nueve menos cuarto."
+      }
+    },
+    {
+      "id": "at-ten",
+      "t": "at ten (o'clock)",
+      "es": "a las diez",
+      "emoji": "⏰",
+      "pos": "phrase",
+      "ex": {
+        "t": "The museum opens at ten.",
+        "es": "El museo abre a las diez."
+      }
+    },
+    {
+      "id": "am-pm",
+      "t": "a.m. / p.m.",
+      "es": "de la mañana / de la tarde",
+      "emoji": "🌗",
+      "pos": "other",
+      "ex": {
+        "t": "The shop closes at 6 p.m.",
+        "es": "La tienda cierra a las seis de la tarde."
+      },
+      "note": "a.m. = antes del mediodía; p.m. = después. En los horarios también verás 18:00."
+    },
+    {
+      "id": "a-clock",
+      "t": "a clock",
+      "es": "un reloj (de pared)",
+      "emoji": "🕰️",
+      "pos": "n",
+      "ex": {
+        "t": "The kitchen clock is slow.",
+        "es": "El reloj de la cocina va atrasado."
+      },
+      "note": "Reloj de pulsera = a watch."
+    }
+  ],
+  "grammar": "en-g-prep-time",
+  "pron": {
+    "title": "La ch de watch",
+    "tip": "Watch y chips llevan «ch» como en «chocolate». Wash y ships llevan «sh», el sonido de pedir silencio: «shhh». Si los cambias, ¡tu reloj se convierte en lavar!",
+    "words": [
+      "watch",
+      "o'clock",
+      "quarter",
+      "half past"
+    ],
+    "pairs": [
+      [
+        "watch",
+        "wash"
+      ],
+      [
+        "chips",
+        "ships"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "7:00",
+          "seven o'clock"
+        ],
+        [
+          "7:30",
+          "half past seven"
+        ],
+        [
+          "7:15",
+          "quarter past seven"
+        ],
+        [
+          "7:45",
+          "quarter to eight"
+        ],
+        [
+          "7:10",
+          "ten past seven"
+        ]
+      ],
+      "why": "Hasta la media: past (y). Desde la media: to (menos), con la hora siguiente."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "It's 8:30. It's ___ eight.",
+      "es": "Son las ocho y media.",
+      "options": [
+        "half past",
+        "half to",
+        "and half"
+      ],
+      "answer": "half past",
+      "why": "Las … y media = half past + la hora: half past eight."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "It's 9:45. It's quarter ___ ten.",
+      "es": "Son las diez menos cuarto.",
+      "options": [
+        "to",
+        "past",
+        "and"
+      ],
+      "answer": "to",
+      "why": "Menos cuarto = quarter to + la hora siguiente."
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "The museum opens ___ ten o'clock.",
+      "es": "El museo abre a las diez.",
+      "options": [
+        "at",
+        "in",
+        "on"
+      ],
+      "answer": "at",
+      "why": "Con la hora siempre at: at ten o'clock.",
+      "g": "en-g-prep-time"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "It's twelve ___.",
+      "es": "Son las doce en punto.",
+      "answer": [
+        "o'clock"
+      ],
+      "bank": [
+        "o'clock",
+        "clock",
+        "hour"
+      ],
+      "why": "En punto = o'clock, y solo con horas exactas."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "What ___ is it?",
+      "es": "¿Qué hora es?",
+      "answer": [
+        "time"
+      ],
+      "bank": [
+        "time",
+        "hour",
+        "clock"
+      ],
+      "why": "La hora del reloj es time. Hour es un periodo de 60 minutos."
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "Excuse me, what hour is it?",
+      "wrong": "hour",
+      "fix": "time",
+      "why": "Para preguntar la hora: What time is it?"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "The train is in five o'clock.",
+      "wrong": "in",
+      "fix": "at",
+      "why": "Con la hora usamos at: at five o'clock.",
+      "g": "en-g-prep-time"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Es la una y cuarto",
+      "answer": "It's quarter past one",
+      "extra": [
+        "to",
+        "and"
+      ],
+      "why": "Y cuarto = quarter past."
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "¿A qué hora es la cita?",
+      "answer": "What time is the appointment",
+      "extra": [
+        "hour",
+        "at"
+      ],
+      "why": "«¿A qué hora…?» = What time…? (el at suele desaparecer)."
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Escribe la hora con palabras",
+      "q": "It's 6:15.",
+      "answer": [
+        "It's quarter past six.",
+        "It's a quarter past six.",
+        "It's six fifteen."
+      ],
+      "why": "6:15 = quarter past six (o, más fácil, six fifteen)."
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Son las tres menos cuarto.",
+      "answer": [
+        "It's quarter to three.",
+        "It's a quarter to three.",
+        "It's two forty-five."
+      ],
+      "why": "Menos cuarto = quarter to."
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "from",
+      "q": "The shop closes at 5 p.m.",
+      "answer": [
+        "La tienda cierra a las cinco de la tarde.",
+        "La tienda cierra a las 5 de la tarde.",
+        "La tienda cierra a las cinco."
+      ],
+      "why": "At 5 p.m. = a las cinco de la tarde.",
+      "g": "en-g-prep-time"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Estás en la calle y quieres saber la hora. Te acercas a un señor.",
+      "emoji": "⌚",
+      "options": [
+        "Excuse me, what time is it?",
+        "Excuse me, what hour is it?",
+        "Excuse me, how much time is it?"
+      ],
+      "answer": "Excuse me, what time is it?",
+      "why": "Pregunta de siempre: What time is it?"
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Opening times",
+      "text": "GREENWICH BOOKSHOP\nMonday – Friday: 9 a.m. – 6 p.m.\nSaturday: 10 a.m. – 5 p.m.\nSunday: closed",
+      "questions": [
+        {
+          "q": "¿A qué hora abre el sábado?",
+          "options": [
+            "A las diez",
+            "A las nueve",
+            "A las seis"
+          ],
+          "answer": "A las diez"
+        },
+        {
+          "q": "¿Qué día está cerrada?",
+          "options": [
+            "El domingo",
+            "El lunes",
+            "El sábado"
+          ],
+          "answer": "El domingo"
+        },
+        {
+          "q": "¿A qué hora cierra de lunes a viernes?",
+          "options": [
+            "A las seis de la tarde",
+            "A las cinco de la tarde",
+            "A las nueve de la noche"
+          ],
+          "answer": "A las seis de la tarde"
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "minimal",
+      "pair": [
+        "watch",
+        "wash"
+      ],
+      "answer": "watch",
+      "es": [
+        "reloj / mirar",
+        "lavar"
+      ],
+      "why": "Watch termina en «ch» (chocolate); wash, en «sh» (shhh)."
+    }
+  ],
+  "dialog": {
+    "title": "¿A qué hora es la visita?",
+    "setting": "Delante del Observatorio de Greenwich, con un guía",
+    "emoji": "🕙",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Excuse me, what time is it?",
+        "es": "Perdone, ¿qué hora es?"
+      },
+      {
+        "who": "James",
+        "t": "It's quarter to ten.",
+        "es": "Son las diez menos cuarto."
+      },
+      {
+        "who": "Yolanda",
+        "t": "What time is the next tour?",
+        "es": "¿A qué hora es la próxima visita?"
+      },
+      {
+        "who": "James",
+        "t": "At half past ten.",
+        "es": "A las diez y media."
+      },
+      {
+        "who": "Yolanda",
+        "t": "And the gift shop? Is it open now?",
+        "es": "¿Y la tienda de regalos? ¿Está abierta ahora?"
+      },
+      {
+        "who": "James",
+        "t": "No, it opens at ten o'clock.",
+        "es": "No, abre a las diez en punto."
+      },
+      {
+        "who": "Yolanda",
+        "t": "So, fifteen minutes. Thank you!",
+        "es": "O sea, quince minutos. ¡Gracias!"
+      },
+      {
+        "who": "James",
+        "t": "You're welcome. Enjoy Greenwich!",
+        "es": "De nada. ¡Que disfrute de Greenwich!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué hora es al principio?",
+        "options": [
+          "Las diez menos cuarto",
+          "Las diez y cuarto",
+          "Las diez y media"
+        ],
+        "answer": "Las diez menos cuarto"
+      },
+      {
+        "q": "¿A qué hora es la visita?",
+        "options": [
+          "A las diez y media",
+          "A las diez",
+          "A las once"
+        ],
+        "answer": "A las diez y media"
+      },
+      {
+        "q": "¿Cuánto falta para que abra la tienda?",
+        "options": [
+          "Quince minutos",
+          "Media hora",
+          "Una hora"
+        ],
+        "answer": "Quince minutos"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Have you got the time, please?",
+    "es": "¿Tiene hora, por favor?",
+    "context": "Para preguntar la hora a alguien en la calle, con educación"
+  },
+  "summary": [
+    "¿Qué hora es? = What time is it? (no hour)",
+    "o'clock (en punto), half past (y media)",
+    "quarter past (y cuarto), quarter to (menos cuarto)",
+    "A las diez = at ten",
+    "a.m. por la mañana, p.m. por la tarde"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u05-l3"
+}

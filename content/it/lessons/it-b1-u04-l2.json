@@ -1,0 +1,78 @@
+{
+  "id": "it-b1-u04-l2",
+  "unit": "it-b1-u04",
+  "title": "Penso che sia buono",
+  "goal": "a decir «creo que es» y «creo que tiene» con penso che sia y penso che abbia",
+  "emoji": "🤔",
+  "photoQuery": "italian deli cured ham counter",
+  "vocab": [
+    { "id": "opin-penso-che", "t": "penso che…", "es": "pienso que…, creo que…", "emoji": "💡", "pos": "phrase", "ex": { "t": "Penso che il museo sia chiuso.", "es": "Creo que el museo está cerrado." } },
+    { "id": "opin-credo-che", "t": "credo che…", "es": "creo que…", "emoji": "🙂", "pos": "phrase", "ex": { "t": "Credo che Hugo abbia ragione.", "es": "Creo que Hugo tiene razón." } },
+    { "id": "opin-il-prosciutto-crudo", "t": "il prosciutto crudo", "es": "el jamón curado", "emoji": "🥓", "pos": "n", "note": "Il prosciutto cotto es el jamón york.", "ex": { "t": "Il prosciutto crudo di Parma è famoso.", "es": "El jamón curado de Parma es famoso." } },
+    { "id": "opin-il-parmigiano", "t": "il Parmigiano Reggiano", "es": "el queso parmesano", "emoji": "🧀", "pos": "n", "ex": { "t": "Il Parmigiano si grattugia sulla pasta.", "es": "El parmesano se ralla sobre la pasta." } },
+    { "id": "opin-stagionato", "t": "stagionato / stagionata", "es": "curado, madurado", "emoji": "⏳", "pos": "adj", "ex": { "t": "Penso che questo formaggio sia molto stagionato.", "es": "Creo que este queso está muy curado." } },
+    { "id": "opin-fresco", "t": "fresco / fresca", "es": "fresco", "emoji": "🥬", "pos": "adj", "ex": { "t": "Credo che il pesce sia fresco.", "es": "Creo que el pescado es fresco." } },
+    { "id": "opin-avere-ragione", "t": "avere ragione", "es": "tener razón", "emoji": "✔️", "pos": "phrase", "ex": { "t": "Penso che tu abbia ragione.", "es": "Creo que tienes razón." } },
+    { "id": "opin-avere-un-buon-sapore", "t": "avere un buon sapore", "es": "tener buen sabor, saber bien", "emoji": "👅", "pos": "phrase", "ex": { "t": "Credo che questo vino abbia un buon sapore.", "es": "Creo que este vino sabe bien." } }
+  ],
+  "grammar": "it-g-congiuntivo-intro",
+  "pron": {
+    "title": "Sia tiene dos sílabas",
+    "tip": "Di si-a, separando un poco las vocales, no «sya». Y en abbia la b es doble: ab-bia, con un pequeño golpe.",
+    "words": ["sia", "abbia", "penso che sia", "credo che abbia"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Penso che questo prosciutto ___ ottimo.", "es": "Creo que este jamón es buenísimo.", "options": ["sia", "è", "abbia"], "answer": "sia", "why": "Detrás de penso che va el congiuntivo de essere: sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e2", "type": "choose", "q": "Credo che il negozio ___ un buon prezzo.", "es": "Creo que la tienda tiene un buen precio.", "options": ["abbia", "ha", "sia"], "answer": "abbia", "why": "Tener → avere; tras credo che, congiuntivo: abbia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e3", "type": "choose", "q": "Penso che tu ___ stanca, Yolanda.", "es": "Creo que estás cansada, Yolanda.", "options": ["sia", "sei", "sono"], "answer": "sia", "why": "En el congiuntivo singular, io, tu y lui/lei usan la misma forma: sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e4", "type": "choose", "q": "Mio figlio pensa che io ___ ragione.", "es": "Mi hijo cree que tengo razón.", "options": ["abbia", "ho", "abbio"], "answer": "abbia", "why": "Io, tu, lui: abbia. No existe «abbio».", "g": "it-g-congiuntivo-intro" },
+    { "id": "e5", "type": "fill", "q": "Credo che il Parmigiano ___ molto stagionato.", "es": "Creo que el parmesano está muy curado.", "answer": ["sia"], "bank": ["sia", "abbia", "è"], "why": "Estar/ser curado = essere stagionato → che sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e6", "type": "fill", "q": "Penso che questa salsa ___ troppo sale.", "es": "Creo que esta salsa tiene demasiada sal.", "answer": ["abbia"], "bank": ["abbia", "sia", "ha"], "why": "Tener sal → avere: che abbia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e7", "type": "fill", "q": "Mi sembra che il pane non ___ fresco.", "es": "Me parece que el pan no es fresco.", "answer": ["sia"], "hint": "essere", "why": "Mi sembra che también pide congiuntivo: non sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e8", "type": "conjugate", "verb": "essere", "person": "lui", "tense": "congiuntivo presente", "q": "Credo che lui ___ a Parma.", "answer": ["sia"], "table": [["io", "sia"], ["tu", "sia"], ["lui / lei", "sia"]], "why": "Essere en congiuntivo singular: sia para todos.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e9", "type": "conjugate", "verb": "avere", "person": "tu", "tense": "congiuntivo presente", "q": "Penso che tu ___ fame.", "answer": ["abbia"], "table": [["io", "abbia"], ["tu", "abbia"], ["lui / lei", "abbia"]], "why": "Avere en congiuntivo singular: abbia para todos.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e10", "type": "error", "q": "Penso che il vino è troppo caro.", "wrong": "è", "fix": "sia", "why": "En italiano, penso che lleva congiuntivo: sia, aunque en español digamos «es».", "g": "it-g-congiuntivo-intro" },
+    { "id": "e11", "type": "error", "q": "Credo che Hugo ha ragione.", "wrong": "ha", "fix": "abbia", "why": "Credo che + congiuntivo: abbia ragione.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e12", "type": "transform", "instr": "Empieza con «Penso che»", "q": "Il ristorante è caro.", "answer": ["Penso che il ristorante sia caro."], "why": "È se convierte en sia detrás de penso che.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e13", "type": "transform", "instr": "Empieza con «Credo che»", "q": "La pasticceria ha dolci buonissimi.", "answer": ["Credo che la pasticceria abbia dolci buonissimi."], "why": "Ha se convierte en abbia detrás de credo che.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e14", "type": "order", "es": "Creo que este jamón es de Parma.", "answer": "Credo che questo prosciutto sia di Parma", "extra": ["è"], "why": "Credo che + sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e15", "type": "translate", "dir": "to", "q": "Creo que tienes razón.", "answer": ["Penso che tu abbia ragione.", "Credo che tu abbia ragione."], "why": "Tener razón = avere ragione → che tu abbia ragione. Pon tu, porque abbia vale para varias personas.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e16", "type": "situation", "context": "En el mercado, el pescado tiene un olor raro. Le dices a tu amiga lo que piensas.", "emoji": "🐟", "options": ["Penso che non sia fresco.", "Penso che non è fresco.", "Penso non sia fresco che."], "answer": "Penso che non sia fresco.", "why": "Penso che + non + sia: el non va delante del verbo.", "g": "it-g-congiuntivo-intro" }
+  ],
+  "dialog": {
+    "title": "¿Qué jamón compramos?",
+    "setting": "En una salumeria de Parma, Yolanda y su marido eligen jamón",
+    "emoji": "🥓",
+    "lines": [
+      { "who": "Marito", "t": "Quale prosciutto prendiamo? Questo costa di più.", "es": "¿Qué jamón cogemos? Este cuesta más." },
+      { "who": "Yolanda", "t": "Penso che sia più stagionato. Assaggiamo!", "es": "Creo que está más curado. ¡Probemos!" },
+      { "who": "Salumiere", "t": "Ecco, signora. Che ne pensa?", "es": "Aquí tiene, señora. ¿Qué le parece?" },
+      { "who": "Yolanda", "t": "Credo che abbia un sapore più intenso. Mi piace!", "es": "Creo que tiene un sabor más intenso. ¡Me gusta!" },
+      { "who": "Marito", "t": "Secondo me è un po' salato.", "es": "Para mí está un poco salado." },
+      { "who": "Yolanda", "t": "Ma no! Penso che tu non abbia ragione.", "es": "¡Qué va! Creo que no tienes razón." },
+      { "who": "Salumiere", "t": "Allora, due etti di questo?", "es": "Entonces, ¿doscientos gramos de este?" },
+      { "who": "Yolanda", "t": "Sì, e due etti dell'altro per mio marito!", "es": "¡Sí, y doscientos gramos del otro para mi marido!" }
+    ],
+    "questions": [
+      { "q": "¿Qué piensa Yolanda del jamón más caro?", "options": ["Que tiene un sabor más intenso", "Que está soso", "Que está salado"], "answer": "Que tiene un sabor más intenso" },
+      { "q": "¿Qué opina el marido?", "options": ["Que está un poco salado", "Que es barato", "Que está fresco"], "answer": "Que está un poco salado" },
+      { "q": "¿Cuánto compran de cada jamón?", "options": ["Doscientos gramos", "Medio kilo", "Un kilo"], "answer": "Doscientos gramos" }
+    ]
+  },
+  "realLife": { "t": "Che ne pensa?", "es": "¿Qué le parece?", "context": "Para pedir la opinión de alguien con educación (de usted)" },
+  "same": {
+    "text": "Como en español con «no creo que sea», en italiano usamos un modo especial para opinar: el congiuntivo. Y «sia» se parece a nuestro «sea».",
+    "examples": [
+      { "t": "Non credo che sia caro.", "es": "No creo que sea caro." },
+      { "t": "Credo che abbia ragione.", "es": "Creo que tiene razón." }
+    ]
+  },
+  "summary": [
+    "Penso che / credo che / mi sembra che + congiuntivo.",
+    "Essere → sia (io, tu, lui, lei).",
+    "Avere → abbia (io, tu, lui, lei).",
+    "Como sirve para varias personas, a menudo se añade el sujeto: che tu sia.",
+    "En español decimos «creo que es»; en italiano, penso che sia."
+  ],
+  "reviewed": false
+}

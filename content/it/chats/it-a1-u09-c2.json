@@ -1,0 +1,58 @@
+{
+  "id": "it-a1-u09-c2",
+  "unit": "it-a1-u09",
+  "title": "Ayuda en la cocina",
+  "setting": "Estás en casa de Giulia ayudándola a preparar la comida y no encuentras nada",
+  "emoji": "🍳",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, mi passi l'olio? È sul tavolo.", "es": "Yolanda, ¿me pasas el aceite? Está en la mesa." },
+      "options": [
+        { "t": "Ecco l'olio!", "es": "¡Aquí tienes el aceite!", "next": "n2", "ok": true },
+        { "t": "Ecco l'aceto!", "es": "¡Aquí tienes el vinagre!", "next": "n2", "ok": false, "feedback": "¡Ojo! L'aceto es el vinagre. El aceite es l'olio." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Grazie! Dove sono le cipolle? Le vedi?", "es": "¡Gracias! ¿Dónde están las cebollas? ¿Las ves?" },
+      "options": [
+        { "t": "Sì, sono nella borsa della spesa.", "es": "Sí, están en la bolsa de la compra.", "next": "n3", "ok": true },
+        { "t": "Sì, sono nel borsa della spesa.", "es": "Sí, están en la bolsa de la compra.", "next": "n3", "ok": false, "feedback": "Borsa es femenino: in + la = nella borsa." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Brava. Mi serve anche del basilico. C'è?", "es": "Muy bien. También necesito albahaca. ¿Hay?" },
+      "options": [
+        { "t": "Sì, c'è del basilico sul balcone.", "es": "Sí, hay albahaca en el balcón.", "next": "n4", "ok": true },
+        { "t": "Sì, c'è dello basilico sul balcone.", "es": "Sí, hay albahaca en el balcón.", "next": "n4", "ok": false, "feedback": "Il basilico → del basilico. Dello es para palabras con lo (lo zucchero)." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E il parmigiano? È nel frigo?", "es": "¿Y el parmesano? ¿Está en la nevera?" },
+      "options": [
+        { "t": "Sì, è nel frigo, vicino al latte.", "es": "Sí, está en la nevera, junto a la leche.", "next": "n5", "ok": true },
+        { "t": "Sì, è nello frigo, vicino allo latte.", "es": "Sí, está en la nevera, junto a la leche.", "next": "n5", "ok": false, "feedback": "Il frigo e il latte llevan il: nel frigo, al latte." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Perfetto. Prendi tu i piatti? Sono nell'armadio.", "es": "Perfecto. ¿Coges tú los platos? Están en el armario." },
+      "options": [
+        { "t": "Sì, prendo i piatti e li metto sul tavolo.", "es": "Sí, cojo los platos y los pongo en la mesa.", "next": "n6", "ok": true },
+        { "t": "Sì, prendo i piatti e li metto nel tavolo.", "es": "Sí, cojo los platos y los pongo en la mesa.", "next": "n6", "ok": false, "feedback": "Encima de la mesa es su: sul tavolo. Nel tavolo sería «dentro de la mesa»." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Che squadra! A tavola!", "es": "¡Qué equipo! ¡A la mesa!" },
+      "options": [
+        { "t": "A tavola! Buon appetito!", "es": "¡A la mesa! ¡Que aproveche!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

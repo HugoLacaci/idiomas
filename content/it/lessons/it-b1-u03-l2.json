@@ -1,0 +1,85 @@
+{
+  "id": "it-b1-u03-l2",
+  "unit": "it-b1-u03",
+  "title": "Come si fa?",
+  "goal": "a explicar una receta y costumbres con «si»: si mette, si mangia, si dice",
+  "emoji": "👩‍🍳",
+  "photoQuery": "tomato sauce pan stove kitchen",
+  "vocab": [
+    { "id": "cucina-la-pentola", "t": "la pentola", "es": "la olla", "emoji": "🫕", "pos": "n", "ex": { "t": "Metti l'acqua nella pentola grande.", "es": "Pon el agua en la olla grande." } },
+    { "id": "cucina-la-padella", "t": "la padella", "es": "la sartén", "emoji": "🍳", "pos": "n", "note": "¡Ojo! No es la paella.", "ex": { "t": "La cipolla si cuoce in padella.", "es": "La cebolla se hace en la sartén." } },
+    { "id": "cucina-tagliare", "t": "tagliare", "es": "cortar", "emoji": "🔪", "pos": "v", "ex": { "t": "Prima si taglia la cipolla a pezzetti.", "es": "Primero se corta la cebolla en trocitos." } },
+    { "id": "cucina-mescolare", "t": "mescolare", "es": "remover, mezclar", "emoji": "🥄", "pos": "v", "ex": { "t": "Il sugo si mescola ogni tanto.", "es": "La salsa se remueve de vez en cuando." } },
+    { "id": "cucina-aggiungere", "t": "aggiungere", "es": "añadir", "emoji": "➕", "pos": "v", "note": "Participio: aggiunto.", "ex": { "t": "Alla fine si aggiunge il basilico.", "es": "Al final se añade la albahaca." } },
+    { "id": "cucina-il-sale", "t": "il sale", "es": "la sal", "emoji": "🧂", "pos": "n", "note": "¡Ojo! En italiano es masculino: il sale.", "ex": { "t": "Il sale si mette quando l'acqua bolle.", "es": "La sal se echa cuando hierve el agua." } },
+    { "id": "cucina-cuocere", "t": "cuocere", "es": "cocer, cocinar", "emoji": "🔥", "pos": "v", "ex": { "t": "Il sugo si cuoce a fuoco basso.", "es": "La salsa se cuece a fuego lento." } },
+    { "id": "cucina-bollire", "t": "bollire", "es": "hervir", "emoji": "♨️", "pos": "v", "ex": { "t": "Quando l'acqua bolle, si butta la pasta.", "es": "Cuando el agua hierve, se echa la pasta." } },
+    { "id": "cucina-un-pizzico-di", "t": "un pizzico di", "es": "una pizca de", "emoji": "🤏", "pos": "phrase", "ex": { "t": "Basta un pizzico di sale.", "es": "Basta con una pizca de sal." } }
+  ],
+  "grammar": "it-g-si-impersonale",
+  "pron": {
+    "title": "Cuocere y cucina: c dura y c suave",
+    "tip": "Ca, co, cu suenan «k»: cucina, cuoco. Ce, ci suenan como «ch»: cuocere = «cuó-che-re», cipolla = «chi-pól-la».",
+    "words": ["cuocere", "la cucina", "la cipolla", "l'aceto", "il cuoco"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Come ___ il ragù? Me lo spieghi?", "es": "¿Cómo se hace el ragú? ¿Me lo explicas?", "options": ["si fa", "si fanno", "se fa"], "answer": "si fa", "why": "Il ragù es singular: si fa. Y en italiano es si, no se.", "g": "it-g-si-impersonale" },
+    { "id": "e2", "type": "choose", "q": "Prima ___ la cipolla a pezzetti.", "es": "Primero se corta la cebolla en trocitos.", "options": ["si taglia", "si tagliano", "taglia si"], "answer": "si taglia", "why": "La cipolla es singular: si taglia, con si delante del verbo.", "g": "it-g-si-impersonale" },
+    { "id": "e3", "type": "choose", "q": "In questo ristorante ___ benissimo!", "es": "¡En este restaurante se come de maravilla!", "options": ["si mangia", "si mangiano", "se mangia"], "answer": "si mangia", "why": "Sin cosa en plural, el verbo va en singular: si mangia.", "g": "it-g-si-impersonale" },
+    { "id": "e4", "type": "fill", "q": "Poi si ___ un pizzico di sale.", "es": "Luego se añade una pizca de sal.", "answer": ["aggiunge"], "bank": ["aggiunge", "aggiungono", "aggiungi"], "why": "Un pizzico di sale es singular: si aggiunge.", "g": "it-g-si-impersonale" },
+    { "id": "e5", "type": "fill", "q": "La pasta si ___ in acqua bollente con il sale.", "es": "La pasta se cuece en agua hirviendo con sal.", "answer": ["cuoce"], "bank": ["cuoce", "cuociono", "cuoci"], "why": "La pasta es singular: si cuoce.", "g": "it-g-si-impersonale" },
+    { "id": "e6", "type": "fill", "q": "Come si ___ «sartén» in italiano?", "es": "¿Cómo se dice «sartén» en italiano?", "answer": ["dice"], "hint": "dire", "why": "Como en español: ¿cómo se dice? → come si dice?", "g": "it-g-si-impersonale" },
+    { "id": "e7", "type": "error", "q": "In Italia se dice «buon appetito» prima di mangiare.", "wrong": "se", "fix": "si", "why": "El «se» impersonal en italiano se escribe si.", "g": "it-g-si-impersonale" },
+    { "id": "e8", "type": "error", "q": "Il sugo si mescolano ogni tanto.", "wrong": "mescolano", "fix": "mescola", "why": "Il sugo es singular: si mescola.", "g": "it-g-si-impersonale" },
+    { "id": "e9", "type": "order", "es": "¿Cómo se dice olla en italiano?", "answer": "Come si dice olla in italiano", "extra": ["se"], "why": "Come si dice…? es la pregunta más útil de todas.", "g": "it-g-si-impersonale" },
+    { "id": "e10", "type": "order", "es": "En esta casa se cena a las nueve.", "answer": "In questa casa si cena alle nove", "extra": ["ceno"], "why": "Si + verbo en tercera persona: si cena.", "g": "it-g-si-impersonale" },
+    { "id": "e11", "type": "transform", "instr": "Hazla impersonal con si", "q": "Tagliamo la cipolla.", "answer": ["Si taglia la cipolla."], "why": "Si + verbo como «lui/lei»: si taglia.", "g": "it-g-si-impersonale" },
+    { "id": "e12", "type": "transform", "instr": "Hazla impersonal con si", "q": "Qui la gente parla inglese.", "answer": ["Qui si parla inglese."], "why": "La gente en general → si: qui si parla inglese.", "g": "it-g-si-impersonale" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "Aquí se come muy bien.", "answer": ["Qui si mangia molto bene.", "Qui si mangia benissimo."], "why": "Se come → si mangia.", "g": "it-g-si-impersonale" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "Il sugo si cuoce a fuoco basso.", "answer": ["La salsa se cuece a fuego lento.", "La salsa se cocina a fuego lento.", "La salsa se hace a fuego lento.", "La salsa se cuece a fuego bajo."], "why": "Si cuoce = se cuece; a fuoco basso = a fuego lento.", "g": "it-g-si-impersonale" },
+    { "id": "e15", "type": "situation", "context": "Una amiga italiana te enseña a hacer pasta y no sabes cuánta sal poner.", "emoji": "🧂", "options": ["Quanto sale si mette?", "Quanto sale si mettono?", "Quanto sale se mette?"], "answer": "Quanto sale si mette?", "why": "Il sale es singular: si mette. Y siempre si, nunca se.", "g": "it-g-si-impersonale" },
+    { "id": "e16", "type": "reading", "kind": "text", "title": "Sugo al pomodoro", "text": "Si mette l'olio in padella con uno spicchio d'aglio. Si aggiunge il pomodoro e un pizzico di sale. Si cuoce a fuoco basso per venti minuti. Alla fine si aggiunge il basilico.", "questions": [
+      { "q": "¿Dónde se pone el aceite?", "options": ["En la sartén", "En la olla", "En un plato"], "answer": "En la sartén" },
+      { "q": "¿Cuánto tiempo se cuece?", "options": ["Veinte minutos", "Dos horas", "Cinco minutos"], "answer": "Veinte minutos" },
+      { "q": "¿Qué se añade al final?", "options": ["Albahaca", "Sal", "Ajo"], "answer": "Albahaca" }
+    ] }
+  ],
+  "dialog": {
+    "title": "Clase de cocina",
+    "setting": "En una clase de cocina en Bolonia, con la cocinera Rosa",
+    "emoji": "👩‍🍳",
+    "lines": [
+      { "who": "Rosa", "t": "Oggi facciamo il sugo per le tagliatelle. Pronte?", "es": "Hoy hacemos la salsa para los tallarines. ¿Listas?" },
+      { "who": "Yolanda", "t": "Prontissima! Come si comincia?", "es": "¡Listísima! ¿Cómo se empieza?" },
+      { "who": "Rosa", "t": "Prima si taglia la cipolla, molto fine.", "es": "Primero se corta la cebolla, muy fina." },
+      { "who": "Yolanda", "t": "E poi? Si mette in padella?", "es": "¿Y luego? ¿Se pone en la sartén?" },
+      { "who": "Rosa", "t": "No, in pentola, con un po' d'olio.", "es": "No, en la olla, con un poco de aceite." },
+      { "who": "Yolanda", "t": "E quanto sale si mette?", "es": "¿Y cuánta sal se pone?" },
+      { "who": "Rosa", "t": "Un pizzico. Poi si mescola ogni tanto.", "es": "Una pizca. Luego se remueve de vez en cuando." },
+      { "who": "Yolanda", "t": "E quanto tempo si cuoce?", "es": "¿Y cuánto tiempo se cuece?" },
+      { "who": "Rosa", "t": "Tanto! In cucina non si ha fretta.", "es": "¡Mucho! En la cocina no se tienen prisas." }
+    ],
+    "questions": [
+      { "q": "¿Dónde están?", "options": ["En una clase de cocina", "En un mercado", "En un restaurante"], "answer": "En una clase de cocina" },
+      { "q": "¿Qué se corta primero?", "options": ["La cebolla", "El tomate", "La carne"], "answer": "La cebolla" },
+      { "q": "¿Cuánta sal se pone?", "options": ["Una pizca", "Mucha", "Nada"], "answer": "Una pizca" }
+    ]
+  },
+  "realLife": { "t": "Come si dice … in italiano?", "es": "¿Cómo se dice … en italiano?", "context": "Para preguntar una palabra que no sabes" },
+  "same": {
+    "text": "Si mangia ≈ se come. El si impersonal funciona casi igual que nuestro «se»: habla de lo que hace la gente en general.",
+    "examples": [
+      { "t": "Qui si mangia bene.", "es": "Aquí se come bien." },
+      { "t": "Come si dice?", "es": "¿Cómo se dice?" },
+      { "t": "Qui non si fuma.", "es": "Aquí no se fuma." }
+    ]
+  },
+  "falseFriend": { "word": "la padella", "means": "la sartén", "looksLike": "la paella", "emoji": "🍳", "tip": "Curiosamente, las dos palabras vienen del latín patella (recipiente plano). Pero en Italia la padella es solo la sartén." },
+  "summary": [
+    "Si + verbo en tercera persona: si mangia, si dice, si fa.",
+    "En italiano se escribe si, nunca se.",
+    "Receta: si taglia, si mette, si aggiunge, si cuoce, si mescola.",
+    "La pentola = la olla; la padella = la sartén; il sale (masculino)."
+  ],
+  "reviewed": false
+}

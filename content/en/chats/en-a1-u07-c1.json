@@ -1,0 +1,63 @@
+{
+  "id": "en-a1-u07-c1",
+  "unit": "en-a1-u07",
+  "title": "¿Quién es tu amiga?",
+  "setting": "Emma ve una foto tuya con una amiga y te pregunta por ella.",
+  "emoji": "👭",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! Who's the woman in your photo?", "es": "¡Hola, Yolanda! ¿Quién es la mujer de tu foto?" },
+      "options": [
+        { "t": "She's my friend. She lives in my street.", "es": "Es mi amiga. Vive en mi calle.", "next": "n2", "ok": true },
+        { "t": "She's my friend. She live in my street.", "es": "Es mi amiga. Vive en mi calle.", "next": "n2", "ok": false, "feedback": "Con she el verbo lleva -s: she lives (suena /z/: «livz»)." },
+        { "t": "She's my friend. She is live in my street.", "es": "Es mi amiga. Vive en mi calle.", "next": "n2", "ok": false, "feedback": "No hace falta is: she lives." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "She looks nice! What does she do?", "es": "¡Parece maja! ¿A qué se dedica?" },
+      "options": [
+        { "t": "She's a nurse. She works in a hospital.", "es": "Es enfermera. Trabaja en un hospital.", "next": "n3", "ok": true },
+        { "t": "She's nurse. She works in a hospital.", "es": "Es enfermera. Trabaja en un hospital.", "next": "n3", "ok": false, "feedback": "Las profesiones llevan a: she's a nurse." },
+        { "t": "She's a nurse. She work in a hospital.", "es": "Es enfermera. Trabaja en un hospital.", "next": "n3", "ok": false, "feedback": "She works, con -s." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Does she work at night?", "es": "¿Trabaja de noche?" },
+      "options": [
+        { "t": "Yes, she does. On Mondays and Tuesdays.", "es": "Sí. Los lunes y los martes.", "next": "n4", "ok": true },
+        { "t": "Yes, she do. On Mondays and Tuesdays.", "es": "Sí. Los lunes y los martes.", "next": "n4", "ok": false, "feedback": "La respuesta corta con she es: Yes, she does." },
+        { "t": "Yes, she works. On Mondays and Tuesdays.", "es": "Sí. Los lunes y los martes.", "next": "n4", "ok": false, "feedback": "Se entiende, pero lo natural es la respuesta corta: Yes, she does." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "That's hard. Does she have children?", "es": "Qué duro. ¿Tiene hijos?" },
+      "options": [
+        { "t": "No, she doesn't. But she has a big dog!", "es": "No. ¡Pero tiene un perro enorme!", "next": "n5", "ok": true },
+        { "t": "No, she don't. But she has a big dog!", "es": "No. ¡Pero tiene un perro enorme!", "next": "n5", "ok": false, "feedback": "Con she: No, she doesn't. «She don't» es un error muy típico." },
+        { "t": "No, she doesn't. But she haves a big dog!", "es": "No. ¡Pero tiene un perro enorme!", "next": "n5", "ok": false, "feedback": "Have con she es has: she has a big dog." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "My brother has a big dog too. He doesn't walk it much!", "es": "Mi hermano también tiene un perro grande. ¡No lo saca mucho!" },
+      "options": [
+        { "t": "Ha ha! Does your brother live in London?", "es": "¡Ja, ja! ¿Tu hermano vive en Londres?", "next": "n6", "ok": true },
+        { "t": "Ha ha! Does your brother lives in London?", "es": "¡Ja, ja! ¿Tu hermano vive en Londres?", "next": "n6", "ok": false, "feedback": "Después de does, el verbo sin -s: Does your brother live…?" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Yes, he does. He has a flat near Camden Market.", "es": "Sí. Tiene un piso cerca de Camden Market." },
+      "options": [
+        { "t": "Lovely! Say hello to him from me.", "es": "¡Qué bien! Salúdalo de mi parte.", "next": "end", "ok": true },
+        { "t": "Lovely! Say hello to her from me.", "es": "¡Qué bien! Salúdalo de mi parte.", "next": "end", "ok": false, "feedback": "Hablamos del hermano (él): to him." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

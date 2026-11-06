@@ -1,0 +1,78 @@
+{
+  "id": "en-a1-u09-c2",
+  "unit": "en-a1-u09",
+  "title": "Cena en un restaurante",
+  "setting": "Hoy Emma trabaja de camarera en el restaurante de su tía, en Londres. Entras a cenar y te atiende ella.",
+  "emoji": "🍽️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Good evening! Welcome! How many people?", "es": "¡Buenas noches! ¡Bienvenida! ¿Cuántas personas?" },
+      "options": [
+        { "t": "A table for two, please. My son is coming.", "es": "Una mesa para dos, por favor. Viene mi hijo.", "next": "n2", "ok": true },
+        { "t": "Two table, please.", "es": "Dos mesa, por favor.", "next": "n2", "ok": false, "feedback": "Lo natural es A table for two, please: una mesa para dos." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Of course. Here's the menu. Would you like something to drink first?", "es": "Claro. Aquí tiene la carta. ¿Quiere algo de beber primero?" },
+      "options": [
+        { "t": "Yes, please. A bottle of sparkling water.", "es": "Sí, por favor. Una botella de agua con gas.", "next": "n3", "ok": true },
+        { "t": "Yes, please. A water with gas.", "es": "Sí, por favor. Un agua con gas.", "next": "n3", "ok": false, "feedback": "Agua con gas es sparkling water. «With gas» no se dice en inglés." },
+        { "t": "Do you like water?", "es": "¿Le gusta el agua?", "next": "n3", "ok": false, "feedback": "¡Le estás preguntando si le gusta el agua! Para pedir: Sparkling water, please." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "And what would you like for your starter?", "es": "¿Y qué quiere de primero?" },
+      "options": [
+        { "t": "I'd like the mushroom soup, please.", "es": "Querría la sopa de setas, por favor.", "next": "n4", "ok": true },
+        { "t": "What is the soup of the day?", "es": "¿Cuál es la sopa del día?", "next": "n3b", "ok": true },
+        { "t": "I'd like the soup mushroom.", "es": "Querría la sopa de setas.", "next": "n4", "ok": false, "feedback": "En inglés el «de» va delante: mushroom soup (sopa de setas)." }
+      ]
+    },
+    {
+      "id": "n3b",
+      "says": { "t": "Today it's mushroom soup. It's homemade!", "es": "Hoy es sopa de setas. ¡Es casera!" },
+      "options": [
+        { "t": "Lovely. The soup, please.", "es": "Qué bien. La sopa, por favor.", "next": "n4", "ok": true },
+        { "t": "Lovely. I'd like it the soup.", "es": "Qué bien. Querría la sopa.", "next": "n4", "ok": false, "feedback": "Sobra it: I'd like the soup." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "And for your main course?", "es": "¿Y de segundo?" },
+      "options": [
+        { "t": "Which dish is vegetarian?", "es": "¿Qué plato es vegetariano?", "next": "n5", "ok": true },
+        { "t": "Which plate is vegetarian?", "es": "¿Qué plato es vegetariano?", "next": "n5", "ok": false, "feedback": "¡Ojo! plate es el plato donde comes. El plato de comida es dish." },
+        { "t": "Which is vegetarian dish?", "es": "¿Cuál es el plato vegetariano?", "next": "n5", "ok": false, "feedback": "Mejor: Which dish is vegetarian? (which + cosa + is…)." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "The vegetable pie. It comes with chips or salad.", "es": "El pastel de verduras. Viene con patatas fritas o ensalada." },
+      "options": [
+        { "t": "The vegetable pie with salad, please.", "es": "El pastel de verduras con ensalada, por favor.", "next": "n6", "ok": true },
+        { "t": "The vegetable pie with crisps, please.", "es": "El pastel de verduras con patatas de bolsa, por favor.", "next": "n6", "ok": false, "feedback": "¡Crisps son patatas de bolsa! Las patatas fritas del plato son chips." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Excellent. Anything else?", "es": "Estupendo. ¿Algo más?" },
+      "options": [
+        { "t": "No, that's all for now, thank you.", "es": "No, de momento nada más, gracias.", "next": "n7", "ok": true },
+        { "t": "No, it's all.", "es": "No, es todo.", "next": "n7", "ok": false, "feedback": "La frase hecha es That's all, thanks." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "…Did you enjoy your meal?", "es": "…¿Le ha gustado la cena?" },
+      "options": [
+        { "t": "Yes, it was lovely! Could I have the bill, please?", "es": "¡Sí, estaba muy rica! ¿Me trae la cuenta, por favor?", "next": "end", "ok": true },
+        { "t": "Yes! Give me the check.", "es": "¡Sí! Deme la cuenta.", "next": "end", "ok": false, "feedback": "Suena brusco, y check es de EE. UU. En Londres: Could I have the bill, please?" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

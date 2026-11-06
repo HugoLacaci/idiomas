@@ -1,0 +1,61 @@
+{
+  "id": "en-a2-u09-c1",
+  "unit": "en-a2-u09",
+  "title": "Llamada a la consulta",
+  "setting": "Emma hace de recepcionista de una consulta médica para que practiques cómo pedir cita por teléfono.",
+  "emoji": "🩺",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Good morning, Hill Street Surgery. How can I help?", "es": "Buenos días, consulta de Hill Street. ¿En qué puedo ayudarle?" },
+      "options": [
+        { "t": "Hello. Could I make an appointment, please?", "es": "Hola. ¿Podría pedir cita, por favor?", "next": "n2", "ok": true },
+        { "t": "Hello. Give me an appointment.", "es": "Hola. Deme una cita.", "next": "n2", "ok": false, "feedback": "El imperativo suena brusco. Mejor: Could I make an appointment, please?" },
+        { "t": "Hello. Could I make a date, please?", "es": "Hola. ¿Podría pedir cita, por favor?", "next": "n2", "ok": false, "feedback": "Date es una cita romántica. Con el médico: appointment." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Of course. Could you spell your surname for me?", "es": "Claro. ¿Me deletrea su apellido?" },
+      "options": [
+        { "t": "Sorry, could you repeat that, please?", "es": "Perdone, ¿podría repetirlo, por favor?", "next": "n3", "ok": true },
+        { "t": "Sorry, could you repeat, please?", "es": "Perdone, ¿podría repetir, por favor?", "next": "n3", "ok": false, "feedback": "Repeat necesita un objeto: Could you repeat that?" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Your surname. Could you spell it, letter by letter?", "es": "Su apellido. ¿Podría deletrearlo, letra a letra?" },
+      "options": [
+        { "t": "Yes, of course. Let me say it slowly.", "es": "Sí, claro. Se lo digo despacio.", "next": "n4", "ok": true },
+        { "t": "Yes, of course. Let me say it slow.", "es": "Sí, claro. Se lo digo despacio.", "next": "n4", "ok": false, "feedback": "Cómo lo dices: adverbio, slowly." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Thank you. Is Thursday at ten OK for you?", "es": "Gracias. ¿Le va bien el jueves a las diez?" },
+      "options": [
+        { "t": "I'm sorry, I can't on Thursday. Could I come on Friday?", "es": "Lo siento, el jueves no puedo. ¿Podría ir el viernes?", "next": "n5", "ok": true },
+        { "t": "No, I couldn't. Friday.", "es": "No, no podría. El viernes.", "next": "n5", "ok": false, "feedback": "Suena seco. Mejor: I'm sorry, I can't… Could I come on Friday?" },
+        { "t": "I'm sorry, I can't on Thursday. Could I to come on Friday?", "es": "Lo siento, el jueves no puedo. ¿Podría ir el viernes?", "next": "n5", "ok": false, "feedback": "Después de could, sin to: Could I come…?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Yes, Friday at half past nine. Is that OK?", "es": "Sí, el viernes a las nueve y media. ¿Le va bien?" },
+      "options": [
+        { "t": "Perfect. Could you send me a text to remind me?", "es": "Perfecto. ¿Me podría mandar un mensaje para recordármelo?", "next": "n6", "ok": true },
+        { "t": "Perfect. Could you send me a text to record me?", "es": "Perfecto. ¿Me podría mandar un mensaje para recordármelo?", "next": "n6", "ok": false, "feedback": "¡Falso amigo! Record es grabar. Recordar a alguien = remind." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Of course. See you on Friday. Goodbye!", "es": "Por supuesto. Hasta el viernes. ¡Adiós!" },
+      "options": [
+        { "t": "Thank you very much. Goodbye!", "es": "Muchísimas gracias. ¡Adiós!", "next": "end", "ok": true },
+        { "t": "Thank you very much. Hang up!", "es": "Muchísimas gracias. ¡Cuelgue!", "next": "end", "ok": false, "feedback": "Hang up es colgar, no se dice para despedirse. Basta con Goodbye!" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

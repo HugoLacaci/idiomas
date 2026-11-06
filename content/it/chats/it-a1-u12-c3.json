@@ -1,0 +1,58 @@
+{
+  "id": "it-a1-u12-c3",
+  "unit": "it-a1-u12",
+  "title": "Un plan para el sábado",
+  "setting": "Giulia te propone un plan por mensaje para cuando vayas a Roma",
+  "emoji": "🎭",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, ti piace il teatro?", "es": "Yolanda, ¿te gusta el teatro?" },
+      "options": [
+        { "t": "Sì, adoro il teatro!", "es": "¡Sí, me encanta el teatro!", "next": "n2", "ok": true },
+        { "t": "Sì, mi piacciono il teatro!", "es": "¡Sí, me gustan el teatro!", "next": "n2", "ok": false, "feedback": "Il teatro es singular: mi piace." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Sabato c'è uno spettacolo divertente. Vieni?", "es": "El sábado hay un espectáculo divertido. ¿Vienes?" },
+      "options": [
+        { "t": "Volentieri! Grazie!", "es": "¡Con mucho gusto! ¡Gracias!", "next": "n3", "ok": true },
+        { "t": "Volentieri! Ho venuto!", "es": "¡Con mucho gusto! ¡He venido!", "next": "n3", "ok": false, "feedback": "Es un plan futuro, no pasado. Basta con volentieri!" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Prima facciamo una passeggiata? O preferisci un aperitivo?", "es": "¿Antes damos un paseo? ¿O prefieres un aperitivo?" },
+      "options": [
+        { "t": "Preferisco una passeggiata.", "es": "Prefiero un paseo.", "next": "n4", "ok": true },
+        { "t": "Prefero una passeggiata.", "es": "Prefiero un paseo.", "next": "n4", "ok": false, "feedback": "Preferire lleva -isc-: preferisco." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Va bene. A me piacciono tanto i giardini del centro.", "es": "Vale. A mí me gustan mucho los jardines del centro." },
+      "options": [
+        { "t": "Anche a me!", "es": "¡A mí también!", "next": "n5", "ok": true },
+        { "t": "Neanche a me!", "es": "¡A mí tampoco!", "next": "n5", "ok": false, "feedback": "Giulia dice algo positivo: para estar de acuerdo, anche a me." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Hai già visto uno spettacolo in Italia?", "es": "¿Ya has visto algún espectáculo en Italia?" },
+      "options": [
+        { "t": "Sì, ho visto un concerto a Taormina.", "es": "Sí, vi un concierto en Taormina.", "next": "n6", "ok": true },
+        { "t": "Sì, vedo un concerto a Taormina.", "es": "Sí, veo un concierto en Taormina.", "next": "n6", "ok": false, "feedback": "Ya pasó: ho visto." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Che fortuna! Allora a sabato!", "es": "¡Qué suerte! ¡Pues hasta el sábado!" },
+      "options": [
+        { "t": "A sabato, Giulia! Un abbraccio.", "es": "¡Hasta el sábado, Giulia! Un abrazo.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

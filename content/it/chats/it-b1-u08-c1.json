@@ -1,0 +1,60 @@
+{
+  "id": "it-b1-u08-c1",
+  "unit": "it-b1-u08",
+  "title": "La ciudad que más quieres",
+  "setting": "Giulia y tú paseáis por Roma y habláis de las ciudades de tu viaje por Italia",
+  "emoji": "❤️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, hai visto tante città. Qual è quella che ami di più?", "es": "Yolanda, has visto muchas ciudades. ¿Cuál es la que más quieres?" },
+      "options": [
+        { "t": "Roma, naturalmente! È la città che amo di più.", "es": "¡Roma, por supuesto! Es la ciudad que más quiero.", "next": "n2", "ok": true },
+        { "t": "Roma, naturalmente! È la città cui amo di più.", "es": "¡Roma, por supuesto! Es la ciudad que más quiero.", "next": "n2", "ok": false, "feedback": "Sin preposición se usa che: la città che amo." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che carina! E dopo Roma?", "es": "¡Qué maja! ¿Y después de Roma?" },
+      "options": [
+        { "t": "Perugia, la città in cui ho fatto il corso di italiano.", "es": "Perugia, la ciudad en la que hice el curso de italiano.", "next": "n3", "ok": true },
+        { "t": "Perugia, la città in che ho fatto il corso di italiano.", "es": "Perugia, la ciudad en la que hice el curso de italiano.", "next": "n3", "ok": false, "feedback": "Detrás de una preposición va cui: in cui." },
+        { "t": "Perugia, la città chi ho fatto il corso di italiano.", "es": "Perugia, la ciudad en la que hice el curso de italiano.", "next": "n3", "ok": false, "feedback": "Chi es «quien». Aquí hace falta in cui (en la que)." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Ah sì, me ne hai parlato. E cosa ti è piaciuto di più lì?", "es": "Ah, sí, me hablaste de ella. ¿Y qué es lo que más te gustó allí?" },
+      "options": [
+        { "t": "Quello che mi è piaciuto di più è la gente.", "es": "Lo que más me gustó es la gente.", "next": "n4", "ok": true },
+        { "t": "Lo che mi è piaciuto di più è la gente.", "es": "Lo que más me gustó es la gente.", "next": "n4", "ok": false, "feedback": "«Lo que» se dice quello che." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E la professoressa? Era simpatica?", "es": "¿Y la profesora? ¿Era simpática?" },
+      "options": [
+        { "t": "Sì, è la persona a cui devo di più.", "es": "Sí, es la persona a la que más le debo.", "next": "n5", "ok": true },
+        { "t": "Sì, è la persona che devo di più.", "es": "Sí, es la persona a la que más le debo.", "next": "n5", "ok": false, "feedback": "Dovere qualcosa a qualcuno: con preposición a → a cui." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "E c'è un posto dove vorresti tornare?", "es": "¿Y hay algún sitio al que te gustaría volver?" },
+      "options": [
+        { "t": "Sì, la Sardegna, dove ho visto un mare incredibile.", "es": "Sí, Cerdeña, donde vi un mar increíble.", "next": "n6", "ok": true },
+        { "t": "Sì, la Sardegna, che ho visto un mare incredibile.", "es": "Sí, Cerdeña, donde vi un mar increíble.", "next": "n6", "ok": false, "feedback": "Para un lugar donde pasa algo: dove (o in cui), no che." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Mi fai venire voglia di viaggiare! Mi mostri le foto?", "es": "¡Me das ganas de viajar! ¿Me enseñas las fotos?" },
+      "options": [
+        { "t": "Certo! Ecco le foto che ho fatto.", "es": "¡Claro! Aquí están las fotos que he hecho.", "next": "end", "ok": true },
+        { "t": "Certo! Ecco le foto cui ho fatto.", "es": "¡Claro! Aquí están las fotos que he hecho.", "next": "end", "ok": false, "feedback": "Fare le foto no lleva preposición: le foto che ho fatto." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

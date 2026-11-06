@@ -1,0 +1,164 @@
+{
+  "id": "it-g-congiuntivo-espressioni",
+  "lang": "it",
+  "level": "B1",
+  "title": "Spero che tu venga: el congiuntivo tras deseos y sentimientos",
+  "short": "Spero che, voglio che, sono contenta che, è importante che, bisogna che, è meglio che + congiuntivo; y di + infinitivo cuando el sujeto es el mismo.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Más allá de «penso che»",
+      "emoji": "🤞",
+      "text": "Ya dices *penso che sia*. El congiuntivo también va detrás de ==deseos, sentimientos y necesidades==: spero che, voglio che, è importante che…",
+      "examples": [
+        { "t": "Spero che tu ==venga== a Perugia.", "es": "Espero que vengas a Perugia.", "hl": "venga" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Las expresiones",
+      "emoji": "📌",
+      "text": "Estas expresiones + ==che== + otra persona → congiuntivo: spero che, voglio che, sono contenta che, è importante che, bisogna che, è meglio che.",
+      "examples": [
+        { "t": "È importante che voi ==parliate== molto.", "es": "Es importante que habléis mucho.", "hl": "parliate" },
+        { "t": "Bisogna che io ==trovi== un alloggio.", "es": "Hace falta que encuentre alojamiento.", "hl": "trovi" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Los regulares, completos",
+      "emoji": "📋",
+      "text": "Io, tu y lui son iguales: di ==che tu== para que se entienda. Noi es como el presente. Loro añade ==-no==.",
+      "table": {
+        "head": ["Persona", "parlare", "prendere", "partire"],
+        "rows": [
+          ["che io", "parl==i==", "prend==a==", "part==a=="],
+          ["che tu", "parl==i==", "prend==a==", "part==a=="],
+          ["che lui / lei", "parl==i==", "prend==a==", "part==a=="],
+          ["che noi", "parl==iamo==", "prend==iamo==", "part==iamo=="],
+          ["che voi", "parl==iate==", "prend==iate==", "part==iate=="],
+          ["che loro", "parl==ino==", "prend==ano==", "part==ano=="]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Irregulares de cada día",
+      "emoji": "⭐",
+      "text": "Muchos salen del «io» del presente: vado → ==vada==, faccio → ==faccia==, vengo → ==venga==, esco → ==esca==.",
+      "table": {
+        "head": ["Infinitivo", "che io / tu / lui", "che loro"],
+        "rows": [
+          ["essere", "==sia==", "==siano=="],
+          ["avere", "==abbia==", "==abbiano=="],
+          ["andare", "==vada==", "==vadano=="],
+          ["fare", "==faccia==", "==facciano=="],
+          ["potere", "==possa==", "==possano=="],
+          ["venire", "==venga==", "==vengano=="],
+          ["sapere", "==sappia==", "==sappiano=="],
+          ["dovere", "==debba==", "==debbano=="],
+          ["stare / dare", "==stia== / ==dia==", "==stiano== / ==diano=="],
+          ["volere / uscire", "==voglia== / ==esca==", "==vogliano== / ==escano=="]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "¿Che o di?",
+      "emoji": "⚖️",
+      "text": "Mismo sujeto → ==di + infinitivo==: spero di venire. Otra persona → ==che + congiuntivo==: spero che tu venga. Con voglio, è importante, bisogna, è meglio: infinitivo ==sin di==.",
+      "examples": [
+        { "t": "Sono contenta ==di essere== qui.", "es": "Me alegro de estar aquí.", "hl": "di essere" },
+        { "t": "Sono contenta ==che tu sia== qui.", "es": "Me alegro de que estés aquí.", "hl": "che tu sia" },
+        { "t": "È importante ==studiare== ogni giorno.", "es": "Es importante estudiar cada día.", "hl": "studiare" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Como en español… casi",
+      "emoji": "🇪🇸",
+      "text": "Espero que vengas → spero che tu ==venga==. Pero: «espero venir» → spero ==di== venire. Y «me alegro de que» → sono contenta ==che==, sin di.",
+      "examples": [
+        { "t": "Voglio che mio marito ==venga== con me.", "es": "Quiero que mi marido venga conmigo.", "hl": "venga" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ Spero che tu vieni → ✅ spero che tu ==venga==. ❌ Spero che io superi → ✅ spero ==di superare==. ❌ È importante di studiare → ✅ è importante ==studiare==."
+    },
+    {
+      "kind": "tip",
+      "title": "Truco: busca a la otra persona",
+      "emoji": "💡",
+      "text": "¿Hay ==otra persona== después? Che + congiuntivo. ¿Eres tú misma? Di + infinitivo. Y para desear suerte: ==Spero che vada tutto bene!==",
+      "examples": [
+        { "t": "Spero che vada tutto bene!", "es": "¡Espero que todo vaya bien!" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: espero que vengas, es importante que estudies, quiero que hables, me alegro de que estés aquí. Si el sujeto es el mismo: espero venir, quiero aprender, me alegro de estar aquí.",
+    "target": "En italiano igual: spero che tu venga, è importante che tu studi, voglio che tu parli, sono contenta che tu sia qui. Mismo sujeto: spero di venire, sono contenta di essere qui (con di), pero voglio imparare, è importante studiare (sin di). Io, tu y lui tienen la misma forma: añade el pronombre."
+  },
+  "errors": [
+    { "wrong": "Spero che tu vieni presto.", "right": "Spero che tu venga presto.", "why": "Tras spero che va congiuntivo: venga, no vieni." },
+    { "wrong": "Spero che io superi l'esame.", "right": "Spero di superare l'esame.", "why": "Si eres tú quien espera y quien aprueba, usa di + infinitivo." },
+    { "wrong": "È importante di studiare ogni giorno.", "right": "È importante studiare ogni giorno.", "why": "Con è importante, bisogna y è meglio, el infinitivo va sin di." },
+    { "wrong": "Voglio di imparare l'italiano.", "right": "Voglio imparare l'italiano.", "why": "Volere va directamente con el infinitivo, sin di." },
+    { "wrong": "Sono contenta che le lezioni sono la sera.", "right": "Sono contenta che le lezioni siano la sera.", "why": "Sono contenta che expresa un sentimiento: congiuntivo, siano." },
+    { "wrong": "Spero che studiano molto.", "right": "Spero che studino molto.", "why": "En congiuntivo los verbos en -are acaban en -ino con loro; -ano es el presente normal." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Spero che tu ___ bene.", "es": "Espero que estés bien.", "options": ["stia", "stai", "stare"], "answer": "stia", "why": "Spero che + congiuntivo. Stare → stia.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e2", "type": "choose", "q": "È importante che voi ___ attenzione.", "es": "Es importante que prestéis atención.", "options": ["facciate", "fate", "fare"], "answer": "facciate", "why": "Fare attenzione = prestar atención. Fare con voi en congiuntivo: facciate.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e3", "type": "choose", "q": "Voglio che loro ___ la verità.", "es": "Quiero que ellos sepan la verdad.", "options": ["sappiano", "sanno", "sapere"], "answer": "sappiano", "why": "Voglio che + congiuntivo. Sapere → sappiano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e4", "type": "choose", "q": "Sono contenta che tu ___ qui.", "es": "Me alegro de que estés aquí.", "options": ["sia", "sei", "essere"], "answer": "sia", "why": "Sono contenta che + congiuntivo. Essere con tu: sia.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e5", "type": "choose", "q": "Bisogna che noi ___ presto.", "es": "Hace falta que salgamos pronto.", "options": ["partiamo", "partiate", "partano"], "answer": "partiamo", "why": "Con noi, el congiuntivo es igual que el presente: partiamo.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e6", "type": "choose", "q": "È meglio che i ragazzi ___ a casa stasera.", "es": "Es mejor que los chicos se queden en casa esta noche.", "options": ["restino", "restano", "resti"], "answer": "restino", "why": "Verbos en -are con loro: -ino → restino.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e7", "type": "choose", "q": "Spero ___ venire anch'io.", "es": "Espero venir yo también.", "options": ["di", "che", "a"], "answer": "di", "why": "Mismo sujeto: spero di + infinitivo.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e8", "type": "choose", "q": "È importante ___ bene prima di un esame.", "es": "Es importante dormir bien antes de un examen.", "options": ["dormire", "di dormire", "che dormire"], "answer": "dormire", "why": "Consejo general: è importante + infinitivo, sin di.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e9", "type": "choose", "q": "Voglio ___ il congiuntivo quest'anno.", "es": "Quiero aprender el subjuntivo este año.", "options": ["imparare", "di imparare", "che impari"], "answer": "imparare", "why": "Volere + infinitivo directo, sin di.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e10", "type": "choose", "q": "Sono contenta ___ conoscerti!", "es": "¡Me alegro de conocerte!", "options": ["di", "che", "a"], "answer": "di", "why": "Mismo sujeto: sono contenta di + infinitivo.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e11", "type": "fill", "q": "Spero che le lezioni non ___ troppo difficili.", "es": "Espero que las clases no sean demasiado difíciles.", "answer": ["siano"], "bank": ["siano", "sono", "sia"], "why": "Spero che + congiuntivo. Le lezioni (loro) → siano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e12", "type": "fill", "q": "Voglio che mio figlio ___ in Italia con me.", "es": "Quiero que mi hijo venga a Italia conmigo.", "answer": ["venga"], "bank": ["venga", "viene", "venire"], "why": "Voglio che + otra persona: congiuntivo. Venire → venga.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e13", "type": "fill", "q": "È meglio che tu ___ un ombrello: piove.", "es": "Es mejor que cojas un paraguas: llueve.", "answer": ["prenda"], "bank": ["prenda", "prendi", "prendere"], "why": "Verbos en -ere: che tu prenda.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e14", "type": "fill", "q": "Bisogna che voi ___ il modulo entro venerdì.", "es": "Hace falta que rellenéis el formulario antes del viernes.", "answer": ["compiliate"], "bank": ["compiliate", "compilate", "compilino"], "why": "Con voi, -iate: compiliate.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e15", "type": "fill", "q": "Spero ___ rivederti presto.", "es": "Espero volver a verte pronto.", "answer": ["di"], "bank": ["di", "che", "per"], "why": "Mismo sujeto (yo espero, yo te veo): spero di + infinitivo.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e16", "type": "fill", "q": "Le mie amiche sperano che io ___ con loro in vacanza.", "es": "Mis amigas esperan que vaya con ellas de vacaciones.", "answer": ["vada"], "bank": ["vada", "vado", "andare"], "why": "Sperano che + otra persona: congiuntivo. Andare → vada.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e17", "type": "conjugate", "verb": "andare", "person": "loro", "tense": "congiuntivo presente", "q": "Spero che i miei amici ___ a Perugia in estate.", "answer": ["vadano"], "table": [["io / tu / lui", "vada"], ["noi", "andiamo"], ["voi", "andiate"], ["loro", "vadano"]], "why": "Andare: vada… vadano; noi y voi vuelven a and-: andiamo, andiate.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e18", "type": "conjugate", "verb": "potere", "person": "tu", "tense": "congiuntivo presente", "q": "Spero che tu ___ restare un giorno in più.", "answer": ["possa"], "why": "Potere en congiuntivo: possa (como posso).", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e19", "type": "conjugate", "verb": "fare", "person": "noi", "tense": "congiuntivo presente", "q": "È meglio che ___ una pausa.", "answer": ["facciamo"], "why": "Fare con noi: facciamo, igual que en presente.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e20", "type": "conjugate", "verb": "dare", "person": "lei", "tense": "congiuntivo presente", "q": "Spero che l'insegnante ci ___ meno compiti!", "answer": ["dia"], "why": "Dare en congiuntivo: dia.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e21", "type": "conjugate", "verb": "uscire", "person": "lei", "tense": "congiuntivo presente", "q": "Bisogna che Carmen ___ prima dal lavoro.", "answer": ["esca"], "why": "Uscire en congiuntivo: esca (como esco).", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e22", "type": "conjugate", "verb": "capire", "person": "loro", "tense": "congiuntivo presente", "q": "È importante che tutti ___ la regola.", "answer": ["capiscano"], "why": "Capire conserva -isc-: capisca, capiscano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e23", "type": "conjugate", "verb": "dovere", "person": "voi", "tense": "congiuntivo presente", "q": "Spero che non ___ aspettare molto.", "answer": ["dobbiate"], "why": "Dovere: debba… pero con voi, dobbiate.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e24", "type": "conjugate", "verb": "volere", "person": "loro", "tense": "congiuntivo presente", "q": "Sono contenta che i ragazzi ___ imparare l'italiano.", "answer": ["vogliano"], "why": "Volere: voglia, vogliano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e25", "type": "error", "q": "Spero che tu vieni a cena sabato.", "wrong": "vieni", "fix": "venga", "why": "Tras spero che, congiuntivo: venga.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e26", "type": "error", "q": "È meglio che loro partono domani.", "wrong": "partono", "fix": "partano", "why": "È meglio che + congiuntivo: partano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e27", "type": "error", "q": "Voglio che tu fai i compiti.", "wrong": "fai", "fix": "faccia", "why": "Voglio che + congiuntivo: faccia.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e28", "type": "error", "q": "Bisogna che noi andiate in segreteria.", "wrong": "andiate", "fix": "andiamo", "why": "Con noi: andiamo. Andiate es para voi.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e29", "type": "error", "q": "Sono contenta che le mie amiche studiano con me.", "wrong": "studiano", "fix": "studino", "why": "Congiuntivo de -are con loro: studino.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e30", "type": "error", "q": "Spero che i bambini stanno bene.", "wrong": "stanno", "fix": "stiano", "why": "Stare en congiuntivo: stiano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e31", "type": "transform", "instr": "Empieza con «Spero che…»", "q": "Mio marito viene con me.", "answer": ["Spero che mio marito venga con me."], "why": "Viene pasa a congiuntivo: venga.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e32", "type": "transform", "instr": "Empieza con «È importante che…»", "q": "Gli studenti sanno i verbi irregolari.", "answer": ["È importante che gli studenti sappiano i verbi irregolari."], "why": "Sanno → sappiano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e33", "type": "transform", "instr": "Ahora eres tú quien puede venir: usa «spero di» + infinitivo", "q": "Spero che tu possa venire.", "answer": ["Spero di poter venire.", "Spero di potere venire."], "why": "Mismo sujeto: spero di + infinitivo (poter venire).", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e34", "type": "transform", "instr": "Usa «voglio che» con el sujeto «voi»", "q": "Voglio parlare solo italiano.", "answer": ["Voglio che parliate solo italiano.", "Voglio che voi parliate solo italiano."], "why": "Otra persona (voi): che + congiuntivo, parliate.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e35", "type": "transform", "instr": "Usa «sono contenta che» con el sujeto «loro»", "q": "Sono contenta di essere qui.", "answer": ["Sono contenta che siano qui.", "Sono contenta che loro siano qui."], "why": "Otra persona: che + congiuntivo. Essere con loro: siano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e36", "type": "order", "es": "Espero que mis amigas puedan venir.", "answer": "Spero che le mie amiche possano venire", "extra": ["possono"], "why": "Potere con loro en congiuntivo: possano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e37", "type": "order", "es": "Es mejor salir temprano.", "answer": "È meglio uscire presto", "extra": ["di"], "why": "È meglio + infinitivo, sin di.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e38", "type": "order", "es": "Me alegro de que hagáis progresos.", "answer": "Sono contenta che facciate progressi", "extra": ["fate"], "why": "Fare con voi en congiuntivo: facciate.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e39", "type": "translate", "dir": "to", "q": "Espero que estés bien.", "answer": ["Spero che tu stia bene.", "Spero tu stia bene.", "Spero che stia bene."], "why": "Spero che + congiuntivo: tu stia.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e40", "type": "translate", "dir": "to", "q": "Es importante que vayáis a clase.", "answer": ["È importante che andiate a lezione.", "È importante che voi andiate a lezione.", "È importante che andiate in classe."], "why": "Andare con voi en congiuntivo: andiate.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e41", "type": "translate", "dir": "to", "q": "Espero aprobar el examen.", "answer": ["Spero di superare l'esame.", "Spero di passare l'esame."], "why": "Mismo sujeto: spero di + infinitivo.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e42", "type": "translate", "dir": "from", "q": "Voglio che i miei nipoti sappiano cucinare.", "answer": ["Quiero que mis nietos sepan cocinar."], "why": "Sappiano = sepan: congiuntivo, como en español.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e43", "type": "situation", "context": "Tu amiga italiana tiene mañana una entrevista de trabajo. ¿Qué le escribes?", "emoji": "💼", "options": ["Spero che vada tutto bene!", "Spero che va tutto bene!", "Spero di andare tutto bene!"], "answer": "Spero che vada tutto bene!", "why": "Spero che + congiuntivo: vada.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e44", "type": "situation", "context": "Quieres decir que te alegras de estar en Perugia.", "emoji": "😊", "options": ["Sono contenta di essere a Perugia!", "Sono contenta che sono a Perugia!", "Sono contenta che sia a Perugia!"], "answer": "Sono contenta di essere a Perugia!", "why": "Mismo sujeto: di + infinitivo. «Che sia» hablaría de otra persona.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e45", "type": "match", "pairs": [["che io vada", "que yo vaya"], ["che loro facciano", "que ellos hagan"], ["che tu possa", "que tú puedas"], ["che voi veniate", "que vengáis"], ["che noi sappiamo", "que sepamos"]], "why": "Formas irregulares del congiuntivo y su equivalente en español.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e46", "type": "fill", "q": "Sono contenta che le mie amiche ___ a trovarmi.", "es": "Me alegro de que mis amigas vengan a verme.", "answer": ["vengano"], "hint": "venire", "why": "Venire con loro en congiuntivo: vengano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e47", "type": "fill", "q": "È meglio che voi non ___ troppo tardi.", "es": "Es mejor que no salgáis demasiado tarde.", "answer": ["usciate"], "hint": "uscire", "why": "Uscire con voi: usciate (vuelve la u).", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e48", "type": "fill", "q": "Spero che il treno non ___ ritardo.", "es": "Espero que el tren no tenga retraso.", "answer": ["abbia"], "hint": "avere", "why": "Avere ritardo = llevar retraso. Spero che + congiuntivo: abbia.", "g": "it-g-congiuntivo-espressioni" }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "it-a2-u04-c1",
+  "unit": "it-a2-u04",
+  "title": "Giulia quiere saber cómo eras de pequeña",
+  "setting": "Giulia te llama por videollamada y te enseña una foto suya de niña",
+  "emoji": "🧸",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Guarda questa foto: ero io a sei anni! E tu, com'eri da piccola?", "es": "Mira esta foto: ¡era yo con seis años! ¿Y tú, cómo eras de pequeña?" },
+      "options": [
+        { "t": "Ero molto vivace e avevo le trecce.", "es": "Era muy inquieta y llevaba trenzas.", "next": "n2", "ok": true },
+        { "t": "Sono molto vivace e ho le trecce.", "es": "Soy muy inquieta y llevo trenzas.", "next": "n2", "ok": false, "feedback": "Hablas de cuando eras pequeña: ero, avevo." },
+        { "t": "Era molto vivace e aveva le trecce.", "es": "Era muy inquieta y llevaba trenzas.", "next": "n2", "ok": false, "feedback": "Hablas de ti: ero, avevo (con -o)." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che carina! E dove abitavi?", "es": "¡Qué mona! ¿Y dónde vivías?" },
+      "options": [
+        { "t": "Abitavo in un paese piccolo.", "es": "Vivía en un pueblo pequeño.", "next": "n3", "ok": true },
+        { "t": "Abitavo in una città vicino al mare.", "es": "Vivía en una ciudad cerca del mar.", "next": "n3", "ok": true },
+        { "t": "Ho abitato sempre in un paese piccolo.", "es": "Siempre viví en un pueblo pequeño.", "next": "n3", "ok": false, "feedback": "Para describir tu vida de niña, mejor el imperfetto: abitavo." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Quanti anni avevi quando hai cominciato la scuola?", "es": "¿Cuántos años tenías cuando empezaste el colegio?" },
+      "options": [
+        { "t": "Avevo sei anni.", "es": "Tenía seis años.", "next": "n4", "ok": true },
+        { "t": "Ero sei anni.", "es": "Tenía seis años.", "next": "n4", "ok": false, "feedback": "La edad va con avere: avevo sei anni." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E com'era la tua maestra?", "es": "¿Y cómo era tu maestra?" },
+      "options": [
+        { "t": "Era molto dolce e paziente.", "es": "Era muy dulce y paciente.", "next": "n5", "ok": true },
+        { "t": "Ero molto dolce e paziente.", "es": "Era muy dulce y paciente.", "next": "n5", "ok": false, "feedback": "Hablas de la maestra (lei): era. «Ero» es «yo era»." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Io invece avevo paura della mia maestra!", "es": "¡Pues yo le tenía miedo a mi maestra!" },
+      "options": [
+        { "t": "Davvero? Era così severa?", "es": "¿De verdad? ¿Tan estricta era?", "next": "n6", "ok": true },
+        { "t": "Davvero? È stata così severa?", "es": "¿De verdad? ¿Fue tan estricta?", "next": "n6", "ok": false, "feedback": "Para describir a una persona en el pasado usamos el imperfetto: era." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Sì, ma ora le voglio bene. Mi mandi una tua foto da piccola?", "es": "Sí, pero ahora le tengo cariño. ¿Me mandas una foto tuya de pequeña?" },
+      "options": [
+        { "t": "Certo! La cerco e te la mando.", "es": "¡Claro! La busco y te la mando.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

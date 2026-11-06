@@ -1,0 +1,417 @@
+{
+  "id": "en-a2-u04-l3",
+  "unit": "en-a2-u04",
+  "title": "Me quedé en casa y cociné",
+  "goal": "a contar en frases sencillas qué hiciste el fin de semana",
+  "emoji": "🗣️",
+  "photoQuery": "family sunday lunch table",
+  "vocab": [
+    {
+      "id": "wkend-stayed-in",
+      "t": "I stayed in",
+      "es": "me quedé en casa",
+      "emoji": "🛋️",
+      "pos": "phrase",
+      "ex": {
+        "t": "It rained, so I stayed in.",
+        "es": "Llovió, así que me quedé en casa."
+      }
+    },
+    {
+      "id": "wkend-visited-my-son",
+      "t": "I visited my son",
+      "es": "visité a mi hijo",
+      "emoji": "🏡",
+      "pos": "phrase",
+      "ex": {
+        "t": "On Saturday I visited my son.",
+        "es": "El sábado visité a mi hijo."
+      }
+    },
+    {
+      "id": "wkend-watched-a-film",
+      "t": "we watched a film",
+      "es": "vimos una peli",
+      "emoji": "🎞️",
+      "pos": "phrase",
+      "ex": {
+        "t": "We watched a film on the sofa.",
+        "es": "Vimos una peli en el sofá."
+      }
+    },
+    {
+      "id": "wkend-cooked-lunch",
+      "t": "I cooked lunch",
+      "es": "hice la comida",
+      "emoji": "🍲",
+      "pos": "phrase",
+      "ex": {
+        "t": "I cooked lunch for the whole family.",
+        "es": "Hice la comida para toda la familia."
+      }
+    },
+    {
+      "id": "wkend-walked-in-the-park",
+      "t": "we walked in the park",
+      "es": "paseamos por el parque",
+      "emoji": "🌳",
+      "pos": "phrase",
+      "ex": {
+        "t": "We walked in the park after lunch.",
+        "es": "Después de comer paseamos por el parque."
+      }
+    },
+    {
+      "id": "wkend-tidied-the-house",
+      "t": "I tidied the house",
+      "es": "ordené la casa",
+      "emoji": "🧹",
+      "pos": "phrase",
+      "ex": {
+        "t": "I tidied the house on Saturday morning.",
+        "es": "El sábado por la mañana ordené la casa."
+      }
+    },
+    {
+      "id": "wkend-played-cards",
+      "t": "we played cards",
+      "es": "jugamos a las cartas",
+      "emoji": "🃏",
+      "pos": "phrase",
+      "ex": {
+        "t": "We played cards with the neighbours.",
+        "es": "Jugamos a las cartas con los vecinos."
+      }
+    },
+    {
+      "id": "wkend-chatted",
+      "t": "we chatted",
+      "es": "charlamos",
+      "emoji": "💬",
+      "pos": "v",
+      "ex": {
+        "t": "We chatted for hours on the phone.",
+        "es": "Estuvimos horas charlando por teléfono."
+      }
+    },
+    {
+      "id": "wkend-relaxed",
+      "t": "I relaxed",
+      "es": "descansé, me relajé",
+      "emoji": "😌",
+      "pos": "v",
+      "ex": {
+        "t": "On Sunday I just relaxed.",
+        "es": "El domingo simplemente descansé."
+      }
+    },
+    {
+      "id": "wkend-argued",
+      "t": "we argued",
+      "es": "discutimos (nos peleamos)",
+      "emoji": "😤",
+      "pos": "v",
+      "ex": {
+        "t": "My grandchildren argued about the TV.",
+        "es": "Mis nietos discutieron por la tele."
+      },
+      "note": "¡Ojo! argue = discutir, enfadarse. Discuss = hablar de un tema, sin pelea."
+    }
+  ],
+  "grammar": "en-g-past-simple-regular",
+  "pron": {
+    "title": "argue y discuss",
+    "tip": "Argue suena «ÁR-giu»: acento al principio. Discuss suena «dis-KÁS»: acento al final. Recuerda: argue es discutir enfadados; discuss es hablar de un tema.",
+    "words": [
+      "argue",
+      "argued",
+      "discuss",
+      "discussed",
+      "chatted"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "It rained, so I ___ in.",
+      "options": [
+        "stayed",
+        "was stay",
+        "stay"
+      ],
+      "answer": "stayed",
+      "why": "Pasado de stay: stayed, sin was.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "On Saturday I ___ my son.",
+      "options": [
+        "visited",
+        "was visit",
+        "visit"
+      ],
+      "answer": "visited",
+      "why": "Visit + ed = visited.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "We ___ the trip at the meeting. Everyone was calm.",
+      "options": [
+        "discussed",
+        "argued"
+      ],
+      "answer": "discussed",
+      "why": "Hablar de un tema con calma = discuss. Argue es discutir enfadados."
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "The children ___ about the TV. They were angry!",
+      "options": [
+        "argued",
+        "discussed"
+      ],
+      "answer": "argued",
+      "why": "Discutir enfadados = argue."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "We ___ in the park after lunch. (walk)",
+      "es": "Paseamos por el parque después de comer.",
+      "answer": [
+        "walked"
+      ],
+      "bank": [
+        "walked",
+        "were walk",
+        "walk"
+      ],
+      "why": "Walk + ed = walked.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I ___ lunch for the whole family. (cook)",
+      "es": "Hice la comida para toda la familia.",
+      "answer": [
+        "cooked"
+      ],
+      "why": "Cook + ed = cooked.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "How ___ your weekend? — It was lovely.",
+      "es": "¿Qué tal tu fin de semana? — Estupendo.",
+      "answer": [
+        "was"
+      ],
+      "bank": [
+        "was",
+        "were",
+        "did"
+      ],
+      "why": "Your weekend = it: How was…?",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Yesterday I was relax at home.",
+      "wrong": "relax",
+      "fix": "relaxed",
+      "why": "Lo natural es I relaxed at home, sin was. (Was relaxed significa «estaba relajada».)",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "On Sunday we play cards with the neighbours.",
+      "wrong": "play",
+      "fix": "played",
+      "why": "Hablas del domingo pasado: played.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Llovió, así que me quedé en casa",
+      "answer": "It rained so I stayed in",
+      "extra": [
+        "was"
+      ],
+      "why": "Rained, stayed: los dos con -ed.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Vimos una peli en casa.",
+      "answer": [
+        "We watched a film at home.",
+        "We watched a movie at home."
+      ],
+      "why": "Watch + ed = watched.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "from",
+      "q": "We chatted for hours.",
+      "answer": [
+        "Charlamos durante horas.",
+        "Estuvimos horas charlando.",
+        "Hablamos durante horas.",
+        "Charlamos horas."
+      ],
+      "why": "Chat → chatted (se dobla la t).",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Tu amiga te pregunta por el domingo. No hiciste nada especial, solo descansaste.",
+      "emoji": "😌",
+      "options": [
+        "Nothing special. I just relaxed.",
+        "Nothing special. I was just relax.",
+        "Nothing special. I just relax yesterday."
+      ],
+      "answer": "Nothing special. I just relaxed.",
+      "why": "Pasado simple: relaxed.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e14",
+      "type": "match",
+      "pairs": [
+        [
+          "I stayed in",
+          "me quedé en casa"
+        ],
+        [
+          "I tidied the house",
+          "ordené la casa"
+        ],
+        [
+          "we played cards",
+          "jugamos a las cartas"
+        ],
+        [
+          "we argued",
+          "discutimos"
+        ],
+        [
+          "I relaxed",
+          "descansé"
+        ]
+      ],
+      "why": "Frases del fin de semana en pasado."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "I visited my son and we watched a film.",
+      "es": "Visité a mi hijo y vimos una peli."
+    }
+  ],
+  "dialog": {
+    "title": "¿Qué tal el finde?",
+    "setting": "El lunes, en clase de inglés, Yolanda charla con su compañero Tom",
+    "emoji": "☕",
+    "lines": [
+      {
+        "who": "Tom",
+        "t": "Hi Yolanda! How was your weekend?",
+        "es": "¡Hola, Yolanda! ¿Qué tal el fin de semana?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Very nice, thanks. I visited my son.",
+        "es": "Muy bien, gracias. Visité a mi hijo."
+      },
+      {
+        "who": "Tom",
+        "t": "Lovely! Was it a busy day?",
+        "es": "¡Qué bien! ¿Fue un día movido?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes! I cooked lunch and we walked in the park.",
+        "es": "¡Sí! Hice la comida y paseamos por el parque."
+      },
+      {
+        "who": "Tom",
+        "t": "And the grandchildren?",
+        "es": "¿Y los nietos?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "They played football. Then they argued about the TV!",
+        "es": "Jugaron al fútbol. ¡Luego discutieron por la tele!"
+      },
+      {
+        "who": "Tom",
+        "t": "Ha ha! Typical. My weekend was boring. I stayed in.",
+        "es": "¡Ja, ja! Lo típico. Mi fin de semana fue aburrido. Me quedé en casa."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Well, sometimes a quiet weekend is the best!",
+        "es": "Bueno, ¡a veces un fin de semana tranquilo es lo mejor!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿A quién visitó Yolanda?",
+        "options": [
+          "A su hijo",
+          "A su amiga",
+          "A Tom"
+        ],
+        "answer": "A su hijo"
+      },
+      {
+        "q": "¿Por qué discutieron los nietos?",
+        "options": [
+          "Por la tele",
+          "Por el fútbol",
+          "Por la comida"
+        ],
+        "answer": "Por la tele"
+      },
+      {
+        "q": "¿Qué hizo Tom?",
+        "options": [
+          "Se quedó en casa",
+          "Fue al parque",
+          "Cocinó"
+        ],
+        "answer": "Se quedó en casa"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Nothing special. I just relaxed.",
+    "es": "Nada especial. Solo descansé.",
+    "context": "Cuando te preguntan por un fin de semana tranquilo"
+  },
+  "summary": [
+    "Contar el finde: I stayed in, I visited my son, we watched a film",
+    "Verbo + -ed, sin was: I cooked, we walked",
+    "¡Ojo! argue = discutir enfadados · discuss = hablar de un tema",
+    "How was your weekend? — It was lovely / boring"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u04-l3"
+}

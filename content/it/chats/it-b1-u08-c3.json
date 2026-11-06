@@ -1,0 +1,67 @@
+{
+  "id": "it-b1-u08-c3",
+  "unit": "it-b1-u08",
+  "title": "Hasta pronto, Giulia",
+  "setting": "Giulia te acompaña al aeropuerto de Fiumicino para despedirse de ti",
+  "emoji": "✈️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Eccoci all'aeroporto. Non posso credere che tu parta già!", "es": "Ya estamos en el aeropuerto. ¡No me puedo creer que ya te vayas!" },
+      "options": [
+        { "t": "Neanch'io. Questo viaggio è stato indimenticabile.", "es": "Ni yo. Este viaje ha sido inolvidable.", "next": "n2", "ok": true },
+        { "t": "Neanch'io. Questo viaggio ha stato indimenticabile.", "es": "Ni yo. Este viaje ha sido inolvidable.", "next": "n2", "ok": false, "feedback": "Essere forma el pasado con essere: è stato." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "E cosa farai appena arrivi a casa?", "es": "¿Y qué harás nada más llegar a casa?" },
+      "options": [
+        { "t": "Darò i regali alla famiglia. A mio figlio Hugo glieli porto io!", "es": "Daré los regalos a la familia. ¡A mi hijo Hugo se los llevo yo!", "next": "n3", "ok": true },
+        { "t": "Darò i regali alla famiglia. A mio figlio Hugo gli li porto io!", "es": "Daré los regalos a la familia. ¡A mi hijo Hugo se los llevo yo!", "next": "n3", "ok": false, "feedback": "Gli + li se escribe junto y con e: glieli." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Spero che tu torni presto in Italia.", "es": "Espero que vuelvas pronto a Italia." },
+      "options": [
+        { "t": "Anch'io! E spero che tu venga a trovarmi in Spagna.", "es": "¡Yo también! Y espero que vengas a verme a España.", "next": "n4", "ok": true },
+        { "t": "Anch'io! E spero che tu vieni a trovarmi in Spagna.", "es": "¡Yo también! Y espero que vengas a verme a España.", "next": "n4", "ok": false, "feedback": "Spero che + congiuntivo: che tu venga." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Se avessi più ferie, verrei subito!", "es": "¡Si tuviera más vacaciones, iría ahora mismo!" },
+      "options": [
+        { "t": "Se venissi, ti porterei al mercato del mio quartiere.", "es": "Si vinieras, te llevaría al mercado de mi barrio.", "next": "n5", "ok": true },
+        { "t": "Se verresti, ti porterei al mercato del mio quartiere.", "es": "Si vinieras, te llevaría al mercado de mi barrio.", "next": "n5", "ok": false, "feedback": "Detrás de se no va el condicional: se venissi." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Che bello! Sai, sei stata un'amica speciale.", "es": "¡Qué bonito! ¿Sabes? Has sido una amiga especial." },
+      "options": [
+        { "t": "Anche tu. Sei l'amica con cui ho imparato di più.", "es": "Tú también. Eres la amiga con la que más he aprendido.", "next": "n6", "ok": true },
+        { "t": "Anche tu. Sei l'amica con che ho imparato di più.", "es": "Tú también. Eres la amiga con la que más he aprendido.", "next": "n6", "ok": false, "feedback": "Detrás de con va cui: con cui." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Dai, non piangere, se no piango anch'io! Ci scriviamo?", "es": "¡Venga, no llores, que si no lloro yo también! ¿Nos escribimos?" },
+      "options": [
+        { "t": "Certo, ogni settimana. Mi mancherai tanto!", "es": "Claro, cada semana. ¡Te echaré mucho de menos!", "next": "n7", "ok": true },
+        { "t": "Certo, ogni settimana. Ti mancherai tanto!", "es": "Claro, cada semana. ¡Te echaré mucho de menos!", "next": "n7", "ok": false, "feedback": "Te echaré de menos = mi mancherai (tú me faltarás)." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Anche tu. Buon viaggio, Yolanda! E continua a studiare!", "es": "Y yo a ti. ¡Buen viaje, Yolanda! ¡Y sigue estudiando!" },
+      "options": [
+        { "t": "Promesso! Grazie di tutto. Arrivederci, e a presto!", "es": "¡Prometido! Gracias por todo. ¡Adiós, y hasta pronto!", "next": "end", "ok": true },
+        { "t": "Promesso! Grazie per niente. Arrivederci, e a presto!", "es": "¡Prometido! Gracias por todo. ¡Adiós, y hasta pronto!", "next": "end", "ok": false, "feedback": "Gracias por todo = grazie di tutto. «Grazie per niente» suena a reproche." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

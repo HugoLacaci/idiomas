@@ -1,0 +1,527 @@
+[
+  {
+    "id": "UF1nqgmXwew",
+    "lang": "it",
+    "level": "A1",
+    "title": "Learn the Italian Alphabet: letters and sounds (Italian Pronunciation) (1/3)",
+    "channel": "Italy Made Easy",
+    "topic": "Las letras del alfabeto italiano y cómo suenan.",
+    "minutes": 5,
+    "unit": "it-a0-u00",
+    "questions": [
+      {"q": "¿Qué se aprende en este vídeo?", "options": ["El alfabeto italiano y sus sonidos", "Los números del 1 al 100", "Cómo pedir un café"], "answer": "El alfabeto italiano y sus sonidos"},
+      {"q": "¿En qué idioma explica el profesor?", "options": ["En español", "En inglés", "En francés"], "answer": "En inglés"},
+      {"q": "¿Qué parte de una serie es este vídeo?", "options": ["La última de diez", "Es un vídeo único", "La primera de tres"], "answer": "La primera de tres"}
+    ]
+  },
+  {
+    "id": "ieyLUxtwch4",
+    "lang": "it",
+    "level": "A1",
+    "title": "Introduce Yourself in Italian (for absolute beginners) | Super Easy Italian 48",
+    "channel": "Easy Italian",
+    "topic": "Frases básicas para presentarse en italiano: nombre, de dónde eres, a qué te dedicas.",
+    "minutes": 7,
+    "unit": "it-a1-u01",
+    "questions": [
+      {"q": "¿De qué trata el vídeo?", "options": ["De cómo presentarse", "De cómo pedir la cuenta", "De cómo comprar un billete"], "answer": "De cómo presentarse"},
+      {"q": "¿Para quién está pensado?", "options": ["Para nativos", "Para principiantes absolutos", "Para profesores"], "answer": "Para principiantes absolutos"},
+      {"q": "¿Qué frase esperas oír?", "options": ["Il conto, per favore", "Dov'è la stazione?", "Mi chiamo…"], "answer": "Mi chiamo…"}
+    ]
+  },
+  {
+    "id": "oFxkJWNnasM",
+    "lang": "it",
+    "level": "A1",
+    "title": "Scusi or Scusa? | Super Easy Italian 42",
+    "channel": "Easy Italian",
+    "topic": "Cuándo decir \"scusa\" (tú) y cuándo \"scusi\" (usted).",
+    "minutes": 8,
+    "unit": "it-a1-u01",
+    "grammar": "it-g-tu-lei",
+    "questions": [
+      {"q": "¿Qué dos palabras compara el vídeo?", "options": ["Scusi y scusa", "Ciao y salve", "Grazie y prego"], "answer": "Scusi y scusa"},
+      {"q": "¿Qué significan las dos?", "options": ["Gracias", "Perdón / disculpe", "Adiós"], "answer": "Perdón / disculpe"},
+      {"q": "¿Cuál usarías con un desconocido mayor?", "options": ["Scusa (tú)", "Ninguna", "Scusi (usted)"], "answer": "Scusi (usted)"}
+    ]
+  },
+  {
+    "id": "0NBggiaIK78",
+    "lang": "it",
+    "level": "A1",
+    "title": "The verb ESSERE (\"to be\" in Italian) - Beginner Italian Course: Lesson 13",
+    "channel": "Italy Made Easy",
+    "topic": "El verbo essere (ser/estar) y su conjugación en presente.",
+    "minutes": 6,
+    "unit": "it-a1-u01",
+    "grammar": "it-g-essere",
+    "questions": [
+      {"q": "¿Qué verbo se explica?", "options": ["Essere", "Avere", "Andare"], "answer": "Essere"},
+      {"q": "¿Qué significa essere?", "options": ["Tener", "Ser / estar", "Ir"], "answer": "Ser / estar"},
+      {"q": "¿Cómo se dice \"yo soy\"?", "options": ["Io ho", "Io sto", "Io sono"], "answer": "Io sono"}
+    ]
+  },
+  {
+    "id": "FTC4fRWez_w",
+    "lang": "it",
+    "level": "A1",
+    "title": "How to order a coffee in Italy? | Easy Italian 12",
+    "channel": "Easy Languages",
+    "topic": "En un bar italiano: cómo se pide un café y qué tipos de café hay.",
+    "minutes": 5,
+    "unit": "it-a1-u02",
+    "grammar": "it-g-vorrei",
+    "questions": [
+      {"q": "¿Qué se pide en el vídeo?", "options": ["Un café", "Una pizza", "Un billete de tren"], "answer": "Un café"},
+      {"q": "¿Dónde se pide normalmente un café en Italia?", "options": ["En la farmacia", "En el bar", "En la estación de tren"], "answer": "En el bar"},
+      {"q": "¿Qué frase sirve para pedir?", "options": ["Dov'è il bagno?", "Mi chiamo Yolanda", "Un caffè, per favore"], "answer": "Un caffè, per favore"}
+    ]
+  },
+  {
+    "id": "6-APugeNfxs",
+    "lang": "it",
+    "level": "A1",
+    "title": "Masculine and Feminine words???? - Beginner Italian Course: Lesson 3",
+    "channel": "Italy Made Easy",
+    "topic": "Palabras masculinas y femeninas en italiano y cómo reconocerlas por la terminación.",
+    "minutes": 12,
+    "unit": "it-a1-u02",
+    "grammar": "it-g-genere-numero",
+    "questions": [
+      {"q": "¿De qué trata la lección?", "options": ["Del masculino y el femenino", "De los verbos en pasado", "De las horas"], "answer": "Del masculino y el femenino"},
+      {"q": "¿En qué letra suelen terminar las palabras femeninas?", "options": ["-o", "-a", "-u"], "answer": "-a"},
+      {"q": "¿En qué letra suelen terminar las palabras masculinas?", "options": ["-a", "-i", "-o"], "answer": "-o"}
+    ]
+  },
+  {
+    "id": "6lwJWFddzKA",
+    "lang": "it",
+    "level": "A1",
+    "title": "How to Count to 100 in Italian | Super Easy Italian 20",
+    "channel": "Easy Italian",
+    "topic": "Contar hasta cien en italiano.",
+    "minutes": 7,
+    "unit": "it-a1-u03",
+    "grammar": "it-g-numeri",
+    "questions": [
+      {"q": "¿Hasta qué número se cuenta?", "options": ["Hasta 100", "Hasta 10", "Hasta 1000"], "answer": "Hasta 100"},
+      {"q": "¿Cómo se dice 100 en italiano?", "options": ["Mille", "Cento", "Dieci"], "answer": "Cento"},
+      {"q": "¿Cómo se dice 3 en italiano?", "options": ["Tri", "Trois", "Tre"], "answer": "Tre"}
+    ]
+  },
+  {
+    "id": "9QPSPm4k_gQ",
+    "lang": "it",
+    "level": "A1",
+    "title": "Telling Time in Italian: The Ultimate Guide for Beginners | Super Easy Italian 30",
+    "channel": "Easy Italian",
+    "topic": "Guía para principiantes para decir y preguntar la hora en italiano.",
+    "minutes": 14,
+    "unit": "it-a1-u03",
+    "grammar": "it-g-ora",
+    "questions": [
+      {"q": "¿Qué se aprende en el vídeo?", "options": ["A decir la hora", "A contar dinero", "A presentarse"], "answer": "A decir la hora"},
+      {"q": "¿Cómo se pregunta la hora?", "options": ["Quanto costa?", "Che ora è?", "Come stai?"], "answer": "Che ora è?"},
+      {"q": "¿Para quién es el vídeo?", "options": ["Para nivel avanzado", "Para niños pequeños", "Para principiantes"], "answer": "Para principiantes"}
+    ]
+  },
+  {
+    "id": "cA3KrffY9JI",
+    "lang": "it",
+    "level": "A1",
+    "title": "How to say \"the\" in Italian: il, la, lo, i, gli, le | Super Easy Italian 9",
+    "channel": "Easy Italian",
+    "topic": "Los artículos determinados italianos: il, lo, la, i, gli, le.",
+    "minutes": 11,
+    "unit": "it-a1-u04",
+    "grammar": "it-g-articoli-det",
+    "questions": [
+      {"q": "¿Qué se explica en el vídeo?", "options": ["Los artículos determinados (el, la…)", "Los verbos reflexivos", "Los colores"], "answer": "Los artículos determinados (el, la…)"},
+      {"q": "¿Cuál de estos es un artículo italiano?", "options": ["los", "gli", "the"], "answer": "gli"},
+      {"q": "¿Cómo se dice \"la casa\"?", "options": ["il casa", "lo casa", "la casa"], "answer": "la casa"}
+    ]
+  },
+  {
+    "id": "VD-k-zHCvM8",
+    "lang": "it",
+    "level": "A1",
+    "title": "Easy Italian: learn to talk about your family in Italian",
+    "channel": "Coffee Break Languages",
+    "topic": "Hablar de la familia en italiano: preguntar si tienes hermanos y contestar.",
+    "minutes": 3,
+    "unit": "it-a1-u04",
+    "questions": [
+      {"q": "¿De qué trata el vídeo?", "options": ["De la familia", "De la comida", "Del tiempo"], "answer": "De la familia"},
+      {"q": "¿Qué significa \"Hai fratelli?\"?", "options": ["¿Tienes hambre?", "¿Tienes hermanos?", "¿Tienes frío?"], "answer": "¿Tienes hermanos?"},
+      {"q": "¿Qué forma se usa en una situación formal?", "options": ["Hai fratelli?", "Avete fratelli?", "Ha fratelli?"], "answer": "Ha fratelli?"}
+    ]
+  },
+  {
+    "id": "UX8g7HONFn4",
+    "lang": "it",
+    "level": "A1",
+    "title": "How to Use \"C’è\" and \"Ci Sono\"   | Super Easy Italian 24",
+    "channel": "Easy Italian",
+    "topic": "Cómo decir \"hay\" en italiano: c'è (singular) y ci sono (plural).",
+    "minutes": 7,
+    "unit": "it-a1-u06",
+    "grammar": "it-g-ce-ci-sono",
+    "questions": [
+      {"q": "¿Qué significan c'è y ci sono?", "options": ["Hay", "Tengo", "Soy"], "answer": "Hay"},
+      {"q": "¿Cuál se usa con el plural?", "options": ["C'è", "Ci sono", "È"], "answer": "Ci sono"},
+      {"q": "¿Cuál es correcta?", "options": ["Ci sono un divano", "C'è due divani", "C'è un divano"], "answer": "C'è un divano"}
+    ]
+  },
+  {
+    "id": "OoOnAXHR7Uc",
+    "lang": "it",
+    "level": "A1",
+    "title": "How to Offer Food and Drinks in Italian - Italian Phrases for Restaurant Ordering",
+    "channel": "Italy Made Easy",
+    "topic": "Frases para ofrecer y pedir comida y bebida en un restaurante.",
+    "minutes": 5,
+    "unit": "it-a1-u07",
+    "questions": [
+      {"q": "¿Dónde se usan las frases del vídeo?", "options": ["En un restaurante", "En el hotel", "En la farmacia"], "answer": "En un restaurante"},
+      {"q": "¿Qué se aprende a ofrecer?", "options": ["Habitaciones", "Comida y bebida", "Billetes"], "answer": "Comida y bebida"},
+      {"q": "¿Qué frase es típica del camarero?", "options": ["Che ora è?", "Dove abiti?", "Cosa prendete?"], "answer": "Cosa prendete?"}
+    ]
+  },
+  {
+    "id": "UMtzevXxVAU",
+    "lang": "it",
+    "level": "A1",
+    "title": "Top 10 Phrases to Survive at the Station in Italian",
+    "channel": "Learn Italian with ItalianPod101.com",
+    "topic": "Diez frases imprescindibles para la estación de tren.",
+    "minutes": 7,
+    "unit": "it-a1-u08",
+    "questions": [
+      {"q": "¿Dónde se usan estas frases?", "options": ["En la estación", "En el mercado", "En el museo"], "answer": "En la estación"},
+      {"q": "¿Cuántas frases enseña?", "options": ["3", "10", "100"], "answer": "10"},
+      {"q": "¿Qué palabra italiana significa \"andén\"?", "options": ["biglietto", "bagaglio", "binario"], "answer": "binario"}
+    ]
+  },
+  {
+    "id": "_vQfO1CUxbg",
+    "lang": "it",
+    "level": "A1",
+    "title": "Italian Listening Comprehension - Deciding on a Hotel in Italy",
+    "channel": "Learn Italian with ItalianPod101.com",
+    "topic": "Ejercicio de comprensión: un diálogo para elegir hotel en Italia.",
+    "minutes": 3,
+    "unit": "it-a1-u10",
+    "questions": [
+      {"q": "¿Qué deciden las personas del vídeo?", "options": ["En qué hotel alojarse", "Qué tren coger", "Qué comer"], "answer": "En qué hotel alojarse"},
+      {"q": "¿Qué tipo de ejercicio es?", "options": ["De escritura", "De comprensión auditiva", "De gramática escrita"], "answer": "De comprensión auditiva"},
+      {"q": "¿Cómo se dice \"hotel\" en italiano?", "options": ["stazione", "negozio", "albergo"], "answer": "albergo"}
+    ]
+  },
+  {
+    "id": "frbK3WT3zMc",
+    "lang": "it",
+    "level": "A1",
+    "title": "Italian Listening Comprehension - Getting Italian Directions",
+    "channel": "Learn Italian with ItalianPod101.com",
+    "topic": "Ejercicio de comprensión: alguien pide y recibe indicaciones para llegar a un sitio.",
+    "minutes": 2,
+    "unit": "it-a1-u11",
+    "questions": [
+      {"q": "¿De qué trata el diálogo?", "options": ["De pedir direcciones", "De pedir comida", "De reservar una habitación"], "answer": "De pedir direcciones"},
+      {"q": "¿Qué significa \"a destra\"?", "options": ["A la izquierda", "A la derecha", "Todo recto"], "answer": "A la derecha"},
+      {"q": "¿Qué significa \"sempre dritto\"?", "options": ["Siempre cerca", "Muy lejos", "Todo recto"], "answer": "Todo recto"}
+    ]
+  },
+  {
+    "id": "_jgnBYGL-NA",
+    "lang": "it",
+    "level": "A1",
+    "title": "Mi Piace! Ti Piace? Use PIACERE to Talk About Different People | Super Easy Italian 38",
+    "channel": "Easy Italian",
+    "topic": "El verbo piacere (gustar) con distintas personas: mi piace, ti piace, gli piace…",
+    "minutes": 6,
+    "unit": "it-a1-u12",
+    "grammar": "it-g-mi-piace",
+    "questions": [
+      {"q": "¿Qué verbo se practica?", "options": ["Piacere (gustar)", "Potere (poder)", "Partire (salir)"], "answer": "Piacere (gustar)"},
+      {"q": "¿Qué significa \"Ti piace?\"?", "options": ["¿Lo tienes?", "¿Te gusta?", "¿Puedes?"], "answer": "¿Te gusta?"},
+      {"q": "¿A qué verbo español se parece en su uso?", "options": ["Tener", "Ir", "Gustar"], "answer": "Gustar"}
+    ]
+  },
+  {
+    "id": "ZTOV1aCoUKI",
+    "lang": "it",
+    "level": "A2",
+    "title": "Italian Past Tense: What Did You Do Yesterday? | Easy Italian 254",
+    "channel": "Easy Italian",
+    "topic": "Italianos cuentan lo que hicieron ayer: el passato prossimo en la calle.",
+    "minutes": 8,
+    "unit": "it-a2-u01",
+    "grammar": "it-g-passato-prossimo-avere",
+    "questions": [
+      {"q": "¿Qué pregunta guía el vídeo?", "options": ["¿Qué hiciste ayer?", "¿Qué harás mañana?", "¿Qué te gusta comer?"], "answer": "¿Qué hiciste ayer?"},
+      {"q": "¿Qué tiempo verbal se practica?", "options": ["El futuro", "El pasado", "El condicional"], "answer": "El pasado"},
+      {"q": "¿Cómo se dice \"he comido\"?", "options": ["Sono mangiato", "Mangerò", "Ho mangiato"], "answer": "Ho mangiato"}
+    ]
+  },
+  {
+    "id": "8feAcO1kjbI",
+    "lang": "it",
+    "level": "A2",
+    "title": "How to use Italian adverbs GIÀ, APPENA, MAI, ANCORA, PIÙ with Passato Prossimo (Subtitles)",
+    "channel": "Learn Italian with Lucrezia",
+    "topic": "Dónde colocar già, appena, mai, ancora y più con el passato prossimo.",
+    "minutes": 9,
+    "unit": "it-a2-u01",
+    "questions": [
+      {"q": "¿Con qué tiempo verbal se usan estos adverbios en el vídeo?", "options": ["Passato prossimo", "Futuro", "Imperativo"], "answer": "Passato prossimo"},
+      {"q": "¿Qué significa \"già\"?", "options": ["Nunca", "Ya", "Todavía no"], "answer": "Ya"},
+      {"q": "¿Qué significa \"mai\"?", "options": ["Más", "Ya", "Nunca"], "answer": "Nunca"}
+    ]
+  },
+  {
+    "id": "k3jiW_GdNb0",
+    "lang": "it",
+    "level": "A2",
+    "title": "Italian Christmas Traditions You Should Know! | Easy Italian 185",
+    "channel": "Easy Italian",
+    "topic": "Tradiciones navideñas italianas contadas por italianos en la calle.",
+    "minutes": 13,
+    "unit": "it-a2-u02",
+    "questions": [
+      {"q": "¿De qué fiesta se habla?", "options": ["La Navidad", "El Carnaval", "La Pascua"], "answer": "La Navidad"},
+      {"q": "¿Qué se cuenta sobre ella?", "options": ["Su historia en Inglaterra", "Sus tradiciones en Italia", "Sus precios"], "answer": "Sus tradiciones en Italia"},
+      {"q": "¿Cómo se dice \"Feliz Navidad\" en italiano?", "options": ["Buona Pasqua", "Buon compleanno", "Buon Natale"], "answer": "Buon Natale"}
+    ]
+  },
+  {
+    "id": "TyQqNv1aJVQ",
+    "lang": "it",
+    "level": "A2",
+    "title": "The imperfect tense in Italian: learn it with a game! | Easy Italian 34",
+    "channel": "Easy Italian",
+    "topic": "Aprender el imperfetto (\"cuando era pequeña…\") jugando.",
+    "minutes": 14,
+    "unit": "it-a2-u04",
+    "grammar": "it-g-imperfetto",
+    "questions": [
+      {"q": "¿Qué tiempo verbal se aprende?", "options": ["El imperfetto", "El futuro", "El presente"], "answer": "El imperfetto"},
+      {"q": "¿Cómo se aprende en el vídeo?", "options": ["Con una canción", "Con un juego", "Con un examen escrito"], "answer": "Con un juego"},
+      {"q": "¿Qué frase está en imperfetto?", "options": ["Domani andrò…", "Ieri sono andata…", "Quando ero piccola…"], "answer": "Quando ero piccola…"}
+    ]
+  },
+  {
+    "id": "y5Js_0-qqcQ",
+    "lang": "it",
+    "level": "A2",
+    "title": "Passato Prossimo o Imperfetto? Italian Past Tense Quiz!   | Super Easy Italian 66",
+    "channel": "Easy Italian",
+    "topic": "Un test para elegir entre passato prossimo e imperfetto.",
+    "minutes": 6,
+    "unit": "it-a2-u05",
+    "grammar": "it-g-imperfetto-vs-passato",
+    "questions": [
+      {"q": "¿Qué formato tiene el vídeo?", "options": ["Un test (quiz)", "Una receta", "Un paseo por la ciudad"], "answer": "Un test (quiz)"},
+      {"q": "¿Qué dos tiempos se comparan?", "options": ["Presente y futuro", "Passato prossimo e imperfetto", "Condicional y subjuntivo"], "answer": "Passato prossimo e imperfetto"},
+      {"q": "¿Cuál describe cómo era algo en el pasado?", "options": ["Il passato prossimo", "Il futuro", "L'imperfetto"], "answer": "L'imperfetto"}
+    ]
+  },
+  {
+    "id": "Cvp4SjagK_w",
+    "lang": "it",
+    "level": "A2",
+    "title": "How to Talk About Rain in Italian | Easy Italian 96",
+    "channel": "Easy Italian",
+    "topic": "Hablar de la lluvia y del mal tiempo en italiano.",
+    "minutes": 11,
+    "unit": "it-a2-u05",
+    "grammar": "it-g-fare-tempo",
+    "questions": [
+      {"q": "¿De qué tiempo atmosférico se habla?", "options": ["De la lluvia", "De la nieve", "Del calor"], "answer": "De la lluvia"},
+      {"q": "¿Cómo se dice \"llueve\"?", "options": ["Nevica", "Piove", "Fa caldo"], "answer": "Piove"},
+      {"q": "¿Qué objeto es útil cuando llueve?", "options": ["Il costume", "Gli occhiali da sole", "L'ombrello"], "answer": "L'ombrello"}
+    ]
+  },
+  {
+    "id": "Wc8S8uDBPG8",
+    "lang": "it",
+    "level": "A2",
+    "title": "Italian Vocabulary: Clothes and Accessories | Super Easy Italian 18",
+    "channel": "Easy Italian",
+    "topic": "Vocabulario de ropa y complementos en italiano.",
+    "minutes": 6,
+    "unit": "it-a2-u06",
+    "questions": [
+      {"q": "¿Qué vocabulario se aprende?", "options": ["Ropa y complementos", "Comida", "Partes de la casa"], "answer": "Ropa y complementos"},
+      {"q": "¿Qué significa \"la gonna\"?", "options": ["El abrigo", "La falda", "La camisa"], "answer": "La falda"},
+      {"q": "¿Qué significa \"le scarpe\"?", "options": ["Las gafas", "Los calcetines", "Los zapatos"], "answer": "Los zapatos"}
+    ]
+  },
+  {
+    "id": "MgPBaYc_2Gs",
+    "lang": "it",
+    "level": "A2",
+    "title": "Ouch! How to Talk About Aches and Pains in Italian | Super Easy Italian 39",
+    "channel": "Easy Italian",
+    "topic": "Cómo decir qué te duele en italiano.",
+    "minutes": 6,
+    "unit": "it-a2-u08",
+    "questions": [
+      {"q": "¿De qué trata el vídeo?", "options": ["De dolores y molestias", "De ropa", "De horarios"], "answer": "De dolores y molestias"},
+      {"q": "¿Cómo se dice \"me duele la cabeza\"?", "options": ["Ho fame", "Ho mal di testa", "Ho sonno"], "answer": "Ho mal di testa"},
+      {"q": "¿Dónde pedirías ayuda con esto?", "options": ["In stazione", "Al museo", "In farmacia"], "answer": "In farmacia"}
+    ]
+  },
+  {
+    "id": "pMuI9y2eAiw",
+    "lang": "it",
+    "level": "A2",
+    "title": "More and Less: How to Compare Things in Italian | Super Easy Italian 31",
+    "channel": "Easy Italian",
+    "topic": "Comparar cosas con più (más) y meno (menos).",
+    "minutes": 7,
+    "unit": "it-a2-u09",
+    "grammar": "it-g-comparativi",
+    "questions": [
+      {"q": "¿Qué se aprende a hacer?", "options": ["Comparar cosas", "Contar hasta cien", "Decir la hora"], "answer": "Comparar cosas"},
+      {"q": "¿Cómo se dice \"más\"?", "options": ["Meno", "Più", "Molto"], "answer": "Più"},
+      {"q": "¿Cómo se dice \"menos\"?", "options": ["Più", "Poco", "Meno"], "answer": "Meno"}
+    ]
+  },
+  {
+    "id": "PcRKQ9fv2l4",
+    "lang": "it",
+    "level": "A2",
+    "title": "The Easy Way to Talk About the Future in Italian | Super Easy Italian 35",
+    "channel": "Easy Italian",
+    "topic": "La forma más fácil de hablar del futuro en italiano.",
+    "minutes": 9,
+    "unit": "it-a2-u10",
+    "grammar": "it-g-futuro-semplice",
+    "questions": [
+      {"q": "¿De qué tiempo trata el vídeo?", "options": ["Del futuro", "Del pasado", "Del imperfetto"], "answer": "Del futuro"},
+      {"q": "¿Qué promete el título?", "options": ["Todas las excepciones", "Una forma fácil de hablar del futuro", "Un examen oficial"], "answer": "Una forma fácil de hablar del futuro"},
+      {"q": "¿Qué significa \"domani\"?", "options": ["Ayer", "Hoy", "Mañana"], "answer": "Mañana"}
+    ]
+  },
+  {
+    "id": "Ug8BllosCik",
+    "lang": "it",
+    "level": "B1",
+    "title": "What is the difference between ‘SI Impersonale’ and ‘SI Passivante’? 🇮🇹 (Subtitles)",
+    "channel": "Learn Italian with Lucrezia",
+    "topic": "Lucrezia explica la diferencia entre el si impersonal y el si pasivo.",
+    "minutes": 6,
+    "unit": "it-b1-u03",
+    "grammar": "it-g-si-impersonale",
+    "questions": [
+      {"q": "¿Qué palabra italiana es la protagonista?", "options": ["Si", "Ci", "Ne"], "answer": "Si"},
+      {"q": "¿Qué dos usos compara?", "options": ["Futuro y condicional", "Impersonal y pasivo", "Singular y plural"], "answer": "Impersonal y pasivo"},
+      {"q": "¿Qué significa \"Qui si mangia bene\"?", "options": ["Aquí comí bien", "Aquí comeré bien", "Aquí se come bien"], "answer": "Aquí se come bien"}
+    ]
+  },
+  {
+    "id": "MdvvnhzfAhI",
+    "lang": "it",
+    "level": "B1",
+    "title": "What is your favourite Italian food? | Easy Italian 37",
+    "channel": "Easy Italian",
+    "topic": "Entrevistas en la calle: los italianos cuentan cuál es su comida italiana favorita.",
+    "minutes": 10,
+    "unit": "it-b1-u03",
+    "questions": [
+      {"q": "¿Qué se pregunta a la gente?", "options": ["Su comida italiana favorita", "Su ciudad favorita", "Su color favorito"], "answer": "Su comida italiana favorita"},
+      {"q": "¿Dónde se graban las respuestas?", "options": ["En un estudio de radio", "En la calle", "En un aula"], "answer": "En la calle"},
+      {"q": "¿Qué pregunta oirás?", "options": ["Dov'è la stazione?", "Quanto costa il biglietto?", "Qual è il tuo piatto preferito?"], "answer": "Qual è il tuo piatto preferito?"}
+    ]
+  },
+  {
+    "id": "fEXm6hot3V8",
+    "lang": "it",
+    "level": "B1",
+    "title": "Street Food in Naples: How Much Can You Eat For €10? | Easy Italian 143",
+    "channel": "Easy Italian",
+    "topic": "Comida callejera en Nápoles: cuánto se puede comer con 10 euros.",
+    "minutes": 13,
+    "unit": "it-b1-u08",
+    "questions": [
+      {"q": "¿En qué ciudad se graba?", "options": ["Nápoles", "Milán", "Venecia"], "answer": "Nápoles"},
+      {"q": "¿Cuánto dinero hay para comer?", "options": ["100 euros", "10 euros", "1 euro"], "answer": "10 euros"},
+      {"q": "¿Qué tipo de comida protagoniza el vídeo?", "options": ["Comida de hospital", "Comida de avión", "Comida callejera"], "answer": "Comida callejera"}
+    ]
+  },
+  {
+    "id": "FPPKSiyywKk",
+    "lang": "it",
+    "level": "B1",
+    "title": "4 ERRORI con il CONGIUNTIVO che fanno tutti",
+    "channel": "Podcast Italiano",
+    "topic": "Cuatro errores muy comunes con el congiuntivo (subjuntivo), explicados en italiano.",
+    "minutes": 15,
+    "unit": "it-b1-u04",
+    "grammar": "it-g-congiuntivo-intro",
+    "questions": [
+      {"q": "¿De qué modo verbal trata el vídeo?", "options": ["El congiuntivo (subjuntivo)", "El imperativo", "El infinitivo"], "answer": "El congiuntivo (subjuntivo)"},
+      {"q": "¿Cuántos errores presenta?", "options": ["10", "4", "1"], "answer": "4"},
+      {"q": "¿Qué frase lleva congiuntivo?", "options": ["Penso che è bello", "Penso di bello", "Penso che sia bello"], "answer": "Penso che sia bello"}
+    ]
+  },
+  {
+    "id": "xfIBoj1_hTE",
+    "lang": "it",
+    "level": "B1",
+    "title": "Afraid to Speak Italian? Start With These Words | Super Easy Italian 95",
+    "channel": "Easy Italian",
+    "topic": "Palabras y muletillas para perder el miedo a hablar italiano.",
+    "minutes": 10,
+    "unit": "it-b1-u06",
+    "questions": [
+      {"q": "¿A quién va dirigido el vídeo?", "options": ["A quien tiene miedo de hablar italiano", "A cocineros", "A taxistas"], "answer": "A quien tiene miedo de hablar italiano"},
+      {"q": "¿Qué propone para empezar?", "options": ["Leer un libro entero", "Unas palabras útiles", "Ver una película sin subtítulos"], "answer": "Unas palabras útiles"},
+      {"q": "¿Cómo se dice \"hablar\" en italiano?", "options": ["Pensare", "Partire", "Parlare"], "answer": "Parlare"}
+    ]
+  },
+  {
+    "id": "MLnT9PWCxVc",
+    "lang": "it",
+    "level": "B1",
+    "title": "Italian vlog: momenti della mia vita a Roma (multiple subtitles)",
+    "channel": "Learn Italian with Lucrezia",
+    "topic": "Lucrezia nos lleva con ella un día de su vida cotidiana en Roma.",
+    "minutes": 13,
+    "unit": "it-b1-u08",
+    "questions": [
+      {"q": "¿En qué ciudad vive Lucrezia?", "options": ["Roma", "Florencia", "Turín"], "answer": "Roma"},
+      {"q": "¿Qué tipo de vídeo es?", "options": ["Una clase de gramática", "Un vlog de su vida diaria", "Un concurso"], "answer": "Un vlog de su vida diaria"},
+      {"q": "¿Qué ayuda ofrece el vídeo?", "options": ["Un examen final", "Una receta impresa", "Subtítulos en varios idiomas"], "answer": "Subtítulos en varios idiomas"}
+    ]
+  },
+  {
+    "id": "GFSDJJVF4xI",
+    "lang": "it",
+    "level": "B1",
+    "title": "Come si usa l'IMPERFETTO in italiano?",
+    "channel": "Podcast Italiano",
+    "topic": "Explicación completa en italiano de cuándo se usa el imperfetto.",
+    "minutes": 18,
+    "questions": [
+      {"q": "¿Qué tiempo verbal se explica?", "options": ["El imperfetto", "El futuro", "El congiuntivo"], "answer": "El imperfetto"},
+      {"q": "¿En qué idioma se explica?", "options": ["En inglés", "En italiano", "En español"], "answer": "En italiano"},
+      {"q": "¿Qué frase está en imperfetto?", "options": ["Domani giocherò", "Ieri ho giocato", "Da bambina giocavo in giardino"], "answer": "Da bambina giocavo in giardino"}
+    ]
+  },
+  {
+    "id": "JLFsaczl0ww",
+    "lang": "it",
+    "level": "B1",
+    "title": "Italian Market: What Italians Buy and Cook Each Week | Easy Italian 140",
+    "channel": "Easy Italian",
+    "topic": "En un mercado italiano: qué compran y cocinan los italianos cada semana.",
+    "minutes": 12,
+    "questions": [
+      {"q": "¿Dónde se graba el vídeo?", "options": ["En un mercado", "En un aeropuerto", "En un hospital"], "answer": "En un mercado"},
+      {"q": "¿Qué se pregunta a la gente?", "options": ["Dónde van de vacaciones", "Qué compran y cocinan cada semana", "Qué música escuchan"], "answer": "Qué compran y cocinan cada semana"},
+      {"q": "¿Cómo se dice \"mercado\" en italiano?", "options": ["Negozio", "Mercante", "Mercato"], "answer": "Mercato"}
+    ]
+  }
+]

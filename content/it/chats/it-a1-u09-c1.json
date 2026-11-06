@@ -1,0 +1,59 @@
+{
+  "id": "it-a1-u09-c1",
+  "unit": "it-a1-u09",
+  "title": "¿Qué has comprado?",
+  "setting": "Giulia te llama mientras vuelves del mercado con la cesta llena",
+  "emoji": "🧺",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda! Dove sei?", "es": "¡Hola, Yolanda! ¿Dónde estás?" },
+      "options": [
+        { "t": "Torno dal mercato!", "es": "¡Vuelvo del mercado!", "next": "n2", "ok": true },
+        { "t": "Torno da il mercato!", "es": "¡Vuelvo del mercado!", "next": "n2", "ok": false, "feedback": "Da + il se unen: dal mercato." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che brava! Cosa c'è di buono nella borsa?", "es": "¡Qué apañada! ¿Qué llevas de rico en la bolsa?" },
+      "options": [
+        { "t": "Delle pesche, dei pomodori e del pane.", "es": "Unos melocotones, unos tomates y pan.", "next": "n3", "ok": true },
+        { "t": "Dei pesche, delle pomodori e del pane.", "es": "Unos melocotones, unos tomates y pan.", "next": "n3", "ok": false, "feedback": "Le pesche → delle; i pomodori → dei." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Quante pesche?", "es": "¿Cuántos melocotones?" },
+      "options": [
+        { "t": "Un chilo di pesche.", "es": "Un kilo de melocotones.", "next": "n4", "ok": true },
+        { "t": "Un chilo delle pesche.", "es": "Un kilo de los melocotones.", "next": "n4", "ok": false, "feedback": "Después de una cantidad, solo di: un chilo di pesche." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E il pesce? Compri anche del pesce?", "es": "¿Y pescado? ¿También compras pescado?" },
+      "options": [
+        { "t": "No, oggi non compro pesce.", "es": "No, hoy no compro pescado.", "next": "n5", "ok": true },
+        { "t": "No, oggi non compro del pesce.", "es": "No, hoy no compro pescado.", "next": "n5", "ok": false, "feedback": "En negativa, el partitivo desaparece: non compro pesce." },
+        { "t": "No, oggi non compro pesche.", "es": "No, hoy no compro melocotones.", "next": "n5", "ok": false, "feedback": "¡Cuidado! Pesche son melocotones; el pescado es pesce." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "E dove metti la frutta a casa?", "es": "¿Y dónde pones la fruta en casa?" },
+      "options": [
+        { "t": "Nel cestino sul tavolo.", "es": "En la cesta, encima de la mesa.", "next": "n6", "ok": true },
+        { "t": "In il cestino su il tavolo.", "es": "En la cesta, encima de la mesa.", "next": "n6", "ok": false, "feedback": "In + il = nel, su + il = sul: nel cestino sul tavolo." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Perfetto! Allora stasera vengo da te per la cena?", "es": "¡Perfecto! ¿Entonces esta noche voy a tu casa a cenar?" },
+      "options": [
+        { "t": "Certo, vieni! Ti aspetto.", "es": "¡Claro, ven! Te espero.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

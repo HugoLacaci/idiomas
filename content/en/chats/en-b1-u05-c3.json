@@ -1,0 +1,61 @@
+{
+  "id": "en-b1-u05-c3",
+  "unit": "en-b1-u05",
+  "title": "Si pudieras vivir en cualquier sitio",
+  "setting": "Emma te manda una foto del puerto de Auckland y te propone un juego de preguntas imaginarias.",
+  "emoji": "⛵",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Look at this photo of Auckland! If you could live anywhere, where would you live?", "es": "¡Mira esta foto de Auckland! Si pudieras vivir en cualquier sitio, ¿dónde vivirías?" },
+      "options": [
+        { "t": "I'd live by the sea, maybe in Auckland!", "es": "Viviría junto al mar, ¡quizá en Auckland!", "next": "n2", "ok": true },
+        { "t": "I live by the sea, maybe in Auckland!", "es": "Viviría junto al mar, ¡quizá en Auckland!", "next": "n2", "ok": false, "feedback": "I live es «vivo». Para «viviría»: I'd live." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Nice! What would you do there every day?", "es": "¡Qué bien! ¿Qué harías allí cada día?" },
+      "options": [
+        { "t": "I'd go sailing and walk by the harbour.", "es": "Saldría a navegar y pasearía por el puerto.", "next": "n3", "ok": true },
+        { "t": "I'd going sailing and walk by the harbour.", "es": "Saldría a navegar y pasearía por el puerto.", "next": "n3", "ok": false, "feedback": "Después de I'd, forma base: I'd go." },
+        { "t": "I'd go sailing and walk by the illusion.", "es": "Saldría a navegar y pasearía por el puerto.", "next": "n3", "ok": false, "feedback": "Puerto = harbour. Illusion es un espejismo." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "And if you could speak another language perfectly, which one would you choose?", "es": "Y si pudieras hablar otro idioma perfectamente, ¿cuál elegirías?" },
+      "options": [
+        { "t": "English, of course! Then I'd talk to everyone.", "es": "¡El inglés, claro! Así hablaría con todo el mundo.", "next": "n4", "ok": true },
+        { "t": "English, of course! Then I'll talk to everyone.", "es": "¡El inglés, claro! Así hablaría con todo el mundo.", "next": "n4", "ok": false, "feedback": "Seguimos imaginando: I'd talk, no I'll talk." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ha ha! Your English is already very good. Would you learn Māori too?", "es": "¡Ja, ja! Tu inglés ya es muy bueno. ¿Aprenderías también maorí?" },
+      "options": [
+        { "t": "Yes, I would! I already know 'Kia ora'.", "es": "¡Sí! Ya sé decir «Kia ora».", "next": "n5", "ok": true },
+        { "t": "Yes, I'd! I already know 'Kia ora'.", "es": "¡Sí! Ya sé decir «Kia ora».", "next": "n5", "ok": false, "feedback": "En las respuestas cortas no se contrae: Yes, I would." },
+        { "t": "Yes, I will! I already know 'Kia ora'.", "es": "¡Sí! Ya sé decir «Kia ora».", "next": "n5", "ok": false, "feedback": "La pregunta es con would: Yes, I would." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Very good! Last question: if you were rich, would you stop cooking?", "es": "¡Muy bien! Última pregunta: si fueras rica, ¿dejarías de cocinar?" },
+      "options": [
+        { "t": "Not in a million years! I love cooking.", "es": "¡Ni loca! Me encanta cocinar.", "next": "n6", "ok": true },
+        { "t": "That would be great! I love cooking.", "es": "¡Ni loca! Me encanta cocinar.", "next": "n6", "ok": false, "feedback": "That would be great es «eso sería estupendo». Para «¡ni loca!»: Not in a million years!" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ha ha! Then if I visited you, you'd cook for me?", "es": "¡Ja, ja! Entonces, si fuera a verte, ¿me cocinarías?" },
+      "options": [
+        { "t": "Of course! I'd make you a paella.", "es": "¡Claro! Te haría una paella.", "next": "end", "ok": true },
+        { "t": "Of course! I'd made you a paella.", "es": "¡Claro! Te haría una paella.", "next": "end", "ok": false, "feedback": "Después de I'd, forma base: I'd make." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

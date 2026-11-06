@@ -1,0 +1,76 @@
+{
+  "id": "it-b1-u02-l3",
+  "unit": "it-b1-u02",
+  "title": "Ci penso io!",
+  "goal": "a pedir y hacer favores con frases hechas como «te lo llevo yo» o «¿me lo recoges?»",
+  "emoji": "💪",
+  "photoQuery": "parcel package on doorstep",
+  "vocab": [
+    { "id": "regalo-fare-un-favore", "t": "fare un favore", "es": "hacer un favor", "emoji": "🙋‍♀️", "pos": "phrase", "ex": { "t": "Mi fai un favore? Mi ritiri il pacco?", "es": "¿Me haces un favor? ¿Me recoges el paquete?" } },
+    { "id": "regalo-ritirare", "t": "ritirare", "es": "recoger (un paquete, una entrada)", "emoji": "📦", "pos": "v", "note": "¡Ojo! Falso amigo: en correos, ritirare = recoger.", "ex": { "t": "Domani ritiro i biglietti del concerto.", "es": "Mañana recojo las entradas del concierto." } },
+    { "id": "regalo-ci-penso-io", "t": "Ci penso io!", "es": "¡Yo me encargo!", "emoji": "💪", "pos": "phrase", "ex": { "t": "Il dolce per domenica? Ci penso io!", "es": "¿El postre para el domingo? ¡Yo me encargo!" } },
+    { "id": "regalo-non-ce-problema", "t": "Non c'è problema.", "es": "No hay problema.", "emoji": "👌", "pos": "phrase", "ex": { "t": "Non c'è problema, te lo porto io.", "es": "No hay problema, te lo llevo yo." } },
+    { "id": "regalo-figurati", "t": "Figurati!", "es": "¡No hay de qué! ¡Faltaría más!", "emoji": "🤗", "pos": "phrase", "note": "Con usted: Si figuri!", "ex": { "t": "Grazie mille! — Figurati!", "es": "¡Muchas gracias! — ¡No hay de qué!" } },
+    { "id": "regalo-te-lo-porto-io", "t": "Te lo porto io.", "es": "Te lo llevo yo.", "emoji": "🚶‍♀️", "pos": "phrase", "ex": { "t": "Hai dimenticato l'ombrello? Te lo porto io.", "es": "¿Te has olvidado el paraguas? Te lo llevo yo." } },
+    { "id": "regalo-lufficio-postale", "t": "l'ufficio postale", "es": "la oficina de correos", "emoji": "🏤", "pos": "n", "ex": { "t": "Il pacco è all'ufficio postale.", "es": "El paquete está en correos." } },
+    { "id": "regalo-dare-una-mano", "t": "dare una mano", "es": "echar una mano", "emoji": "🤝", "pos": "phrase", "ex": { "t": "Ti do una mano con le borse?", "es": "¿Te echo una mano con las bolsas?" } },
+    { "id": "regalo-sei-gentilissima", "t": "Sei gentilissima!", "es": "¡Eres un sol! ¡Qué amable eres!", "emoji": "🌞", "pos": "phrase", "note": "Para un hombre: gentilissimo.", "ex": { "t": "Mi hai portato il pane? Sei gentilissima!", "es": "¿Me has traído el pan? ¡Eres un sol!" } }
+  ],
+  "grammar": "it-g-pronomi-combinati",
+  "pron": {
+    "title": "Dammelo: la doble que se oye",
+    "tip": "Con da', fa', di' (imperativos cortos) la consonante del pronombre se dobla: dammelo, fammelo, dimmelo. Alarga un poco la m: «dam-mélo».",
+    "words": ["dammelo", "dimmelo", "fammi vedere", "portamelo"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Il pacco? Posso ___ io domani.", "es": "¿El paquete? Te lo puedo recoger yo mañana.", "options": ["ritirartelo", "ritirarti lo", "te ritirarlo"], "answer": "ritirartelo", "why": "Con infinitivo, los pronombres se pegan detrás: ritirar + te + lo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e2", "type": "choose", "q": "La tua bici? ___ puoi prestare per domani?", "es": "¿Tu bici? ¿Me la puedes prestar para mañana?", "options": ["Me la", "Mi la", "La mi"], "answer": "Me la", "why": "Con poter también pueden ir delante: me la puoi prestare.", "g": "it-g-pronomi-combinati" },
+    { "id": "e3", "type": "choose", "q": "Il libro? ___ subito, per favore!", "es": "¿El libro? ¡Dámelo enseguida, por favor!", "options": ["Dammelo", "Dammilo", "Dami lo"], "answer": "Dammelo", "why": "Da' + me + lo → dammelo: la m se dobla y mi pasa a me.", "g": "it-g-pronomi-combinati" },
+    { "id": "e4", "type": "fill", "q": "Le chiavi? Te ___ lascio dalla vicina.", "es": "¿Las llaves? Te las dejo en casa de la vecina.", "answer": ["le"], "bank": ["le", "li", "la"], "why": "Le chiavi es femenino plural: te le.", "g": "it-g-pronomi-combinati" },
+    { "id": "e5", "type": "fill", "q": "Hai dimenticato gli occhiali? Te ___ porto io!", "es": "¿Te has olvidado las gafas? ¡Te las llevo yo!", "answer": ["li"], "why": "Gli occhiali es masculino plural en italiano: te li.", "g": "it-g-pronomi-combinati" },
+    { "id": "e6", "type": "situation", "context": "Tu vecina se va de viaje y te pregunta si puedes recogerle un paquete.", "emoji": "📦", "options": ["Certo, te lo ritiro io!", "Certo, ti lo ritiro io!", "Certo, lo ti ritiro io!"], "answer": "Certo, te lo ritiro io!", "why": "Ti + lo → te lo, delante del verbo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e7", "type": "situation", "context": "Una amiga te da las gracias por ayudarla con la mudanza.", "emoji": "🤗", "options": ["Figurati!", "Fai un favore!", "Dammelo!"], "answer": "Figurati!", "why": "Figurati! es la respuesta natural a un «grazie»: ¡no hay de qué!" },
+    { "id": "e8", "type": "error", "q": "La lettera? Puoi mandarmilo oggi?", "wrong": "mandarmilo", "fix": "mandarmela", "why": "Mi pasa a me delante del otro pronombre, y lettera es femenino: mandarmela.", "g": "it-g-pronomi-combinati" },
+    { "id": "e9", "type": "error", "q": "Se vuoi, ti lo porto domani mattina.", "wrong": "ti", "fix": "te", "why": "Delante de lo, ti se convierte en te: te lo porto.", "g": "it-g-pronomi-combinati" },
+    { "id": "e10", "type": "order", "es": "¿Me lo puedes recoger mañana?", "answer": "Me lo puoi ritirare domani", "alt": ["Puoi ritirarmelo domani"], "extra": ["mi"], "why": "Con poter, los pronombres van delante (me lo puoi) o pegados al infinitivo (ritirarmelo).", "g": "it-g-pronomi-combinati" },
+    { "id": "e11", "type": "transform", "instr": "Pega los pronombres al infinitivo", "q": "Te lo posso portare stasera.", "answer": ["Posso portartelo stasera."], "why": "Portare pierde la e final y se pegan te + lo: portartelo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e12", "type": "transform", "instr": "Sustituye «la ricetta» por un pronombre", "q": "Mandami la ricetta!", "answer": ["Mandamela!"], "why": "Con el imperativo de tú, los pronombres se pegan: manda + me + la.", "g": "it-g-pronomi-combinati" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "No te preocupes, yo me encargo.", "answer": ["Non ti preoccupare, ci penso io.", "Non preoccuparti, ci penso io."], "why": "«Yo me encargo» se dice ci penso io." },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "Il pacco è all'ufficio postale: me lo ritiri tu?", "answer": ["El paquete está en correos: ¿me lo recoges tú?", "El paquete está en la oficina de correos: ¿me lo recoges tú?", "El paquete está en correos, ¿me lo recoges tú?"], "why": "Ritirare un pacco = recoger un paquete.", "g": "it-g-pronomi-combinati" },
+    { "id": "e15", "type": "reading", "kind": "message", "title": "Nota de la vecina", "text": "Cara Yolanda, domani parto per tre giorni. Mi ritiri il pacco all'ufficio postale? La ricevuta te la lascio nella cassetta della posta. E le piante? Me le annaffi tu? Sei gentilissima! Carla", "questions": [
+      { "q": "¿Cuántos días se va Carla?", "options": ["Tres", "Dos", "Una semana"], "answer": "Tres" },
+      { "q": "¿Dónde deja el resguardo?", "options": ["En el buzón", "Debajo de la puerta", "En correos"], "answer": "En el buzón" },
+      { "q": "¿Qué más le pide a Yolanda?", "options": ["Regar las plantas", "Dar de comer al gato", "Recoger las cartas"], "answer": "Regar las plantas" }
+    ] },
+    { "id": "e16", "type": "match", "pairs": [["Mi dai una mano?", "¿Me echas una mano?"], ["Figurati!", "¡No hay de qué!"], ["Ci penso io.", "Yo me encargo."], ["Non c'è problema.", "No hay problema."], ["Te lo porto io.", "Te lo llevo yo."]], "why": "Frases hechas para pedir y hacer favores." }
+  ],
+  "dialog": {
+    "title": "Un favor entre vecinos",
+    "setting": "En el rellano de un edificio de Roma, Yolanda habla con su vecino Marco",
+    "emoji": "🚪",
+    "lines": [
+      { "who": "Marco", "t": "Signora Yolanda, scusi, mi può fare un favore?", "es": "Señora Yolanda, perdone, ¿me puede hacer un favor?" },
+      { "who": "Yolanda", "t": "Certo, Marco. Mi dica.", "es": "Claro, Marco. Dígame." },
+      { "who": "Marco", "t": "Domani arriva un pacco, ma io sono al lavoro.", "es": "Mañana llega un paquete, pero yo estoy trabajando." },
+      { "who": "Yolanda", "t": "Non c'è problema, glielo ritiro io.", "es": "No hay problema, se lo recojo yo." },
+      { "who": "Marco", "t": "Grazie mille! E me lo può tenere fino a sera?", "es": "¡Muchas gracias! ¿Y me lo puede guardar hasta la noche?" },
+      { "who": "Yolanda", "t": "Certo. Quando torna, glielo porto.", "es": "Claro. Cuando vuelva, se lo llevo." },
+      { "who": "Marco", "t": "È gentilissima, signora.", "es": "Es usted muy amable, señora." },
+      { "who": "Yolanda", "t": "Si figuri! A cosa servono i vicini?", "es": "¡Faltaría más! ¿Para qué están los vecinos?" }
+    ],
+    "questions": [
+      { "q": "¿Qué llega mañana?", "options": ["Un paquete", "Una carta", "Un amigo"], "answer": "Un paquete" },
+      { "q": "¿Por qué no puede recogerlo Marco?", "options": ["Está trabajando", "Está de viaje", "Está enfermo"], "answer": "Está trabajando" },
+      { "q": "¿Cuándo le lleva Yolanda el paquete?", "options": ["Cuando Marco vuelve", "Por la mañana", "Al día siguiente"], "answer": "Cuando Marco vuelve" }
+    ]
+  },
+  "realLife": { "t": "Glielo ritiro io, non si preoccupi.", "es": "Se lo recojo yo, no se preocupe.", "context": "Para ofrecerte a recoger algo a un vecino al que hablas de usted" },
+  "falseFriend": { "word": "ritirare", "means": "recoger (un paquete, una entrada, el coche del taller)", "looksLike": "retirar", "emoji": "📦", "tip": "Ritiro il pacco = recojo el paquete. A veces también es retirar (ritirare i soldi = sacar dinero), pero en correos piensa siempre en «recoger»." },
+  "summary": [
+    "Favores: Mi fai un favore? Mi dai una mano?",
+    "Respuestas: Ci penso io! Non c'è problema. Figurati!",
+    "Con infinitivo, pegados: posso portartelo. Con imperativo de tú: mandamela, dammelo.",
+    "Ritirare un pacco = recoger un paquete."
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,84 @@
+{
+  "id": "it-a2-u04-l5",
+  "unit": "it-a2-u04",
+  "title": "Reto en Génova: la ricetta della nonna",
+  "goal": "a contar en un mensaje cómo era tu infancia y repasar todo el imperfetto",
+  "emoji": "🌿",
+  "photoQuery": "pesto basil marble mortar",
+  "vocab": [
+    { "id": "ricordi-il-pesto", "t": "il pesto", "es": "el pesto", "emoji": "🌿", "pos": "n", "ex": { "t": "A Genova si mangia il pesto con la pasta.", "es": "En Génova se come el pesto con pasta." } },
+    { "id": "ricordi-il-basilico", "t": "il basilico", "es": "la albahaca", "emoji": "🌱", "pos": "n", "ex": { "t": "Sul balcone c'era sempre il basilico.", "es": "En el balcón siempre había albahaca." } },
+    { "id": "ricordi-i-pinoli", "t": "i pinoli", "es": "los piñones", "emoji": "🌰", "pos": "n", "ex": { "t": "Nel pesto ci sono i pinoli.", "es": "En el pesto hay piñones." } },
+    { "id": "ricordi-il-mortaio", "t": "il mortaio", "es": "el mortero", "emoji": "🥣", "pos": "n", "ex": { "t": "La nonna usava un mortaio di marmo.", "es": "La abuela usaba un mortero de mármol." } },
+    { "id": "ricordi-la-ricetta", "t": "la ricetta", "es": "la receta", "emoji": "📜", "pos": "n", "ex": { "t": "Questa era la ricetta di mia nonna.", "es": "Esta era la receta de mi abuela." } },
+    { "id": "ricordi-il-porto", "t": "il porto", "es": "el puerto", "emoji": "⚓", "pos": "n", "ex": { "t": "Il porto di Genova è molto grande.", "es": "El puerto de Génova es muy grande." } },
+    { "id": "ricordi-raccontare", "t": "raccontare", "es": "contar (una historia)", "emoji": "🗣️", "pos": "v", "ex": { "t": "La nonna raccontava sempre storie.", "es": "La abuela siempre contaba historias." } },
+    { "id": "ricordi-il-cassetto", "t": "il cassetto", "es": "el cajón", "emoji": "🗄️", "pos": "n", "note": "¡Ojo! No es un casete: es el cajón.", "ex": { "t": "Le vecchie foto erano in un cassetto.", "es": "Las fotos viejas estaban en un cajón." } },
+    { "id": "ricordi-la-tasca", "t": "la tasca", "es": "el bolsillo", "emoji": "👖", "pos": "n", "note": "¡Ojo! No es un bar: es el bolsillo.", "ex": { "t": "Avevo sempre le caramelle in tasca.", "es": "Siempre llevaba caramelos en el bolsillo." } }
+  ],
+  "grammar": "it-g-imperfetto",
+  "pron": {
+    "title": "Repaso: gn y gli",
+    "tip": "Gn suena como nuestra ñ: «la-va-ña». Gli es una «ll» suave, con la lengua pegada al paladar: «fi-lli».",
+    "words": ["lavagna", "campagna", "bagno", "figli", "famiglia"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "message", "title": "Un mensaje desde Génova", "text": "Ciao Paola! Sono a Genova e ho mangiato il pesto. Che buono! Mi ricordo che da piccola avevo il basilico sul balcone. Mia madre cucinava e io la aiutavo. Era tutto più semplice!", "questions": [
+      { "q": "¿Dónde está Yolanda?", "options": ["En Génova", "En Florencia", "En Roma"], "answer": "En Génova" },
+      { "q": "¿Qué tenía en el balcón de pequeña?", "options": ["Albahaca", "Tomates", "Flores"], "answer": "Albahaca" },
+      { "q": "¿Qué hacía mientras su madre cocinaba?", "options": ["La ayudaba", "Jugaba fuera", "Veía la tele"], "answer": "La ayudaba" }
+    ], "g": "it-g-imperfetto" },
+    { "id": "e2", "type": "choose", "q": "La nonna ___ sempre storie bellissime.", "es": "La abuela siempre contaba historias preciosas.", "options": ["raccontava", "raccontavo", "racconta"], "answer": "raccontava", "why": "Costumbre del pasado, lei: raccontava.", "g": "it-g-imperfetto" },
+    { "id": "e3", "type": "choose", "q": "Sul balcone ___ sempre il basilico.", "es": "En el balcón siempre había albahaca.", "options": ["c'era", "c'erano", "era"], "answer": "c'era", "why": "Había (una cosa) = c'era.", "g": "it-g-imperfetto" },
+    { "id": "e4", "type": "choose", "q": "Quando ___ piccola, aiutavo in cucina.", "es": "Cuando era pequeña, ayudaba en la cocina.", "options": ["ero", "sono", "era"], "answer": "ero", "why": "Io → ero.", "g": "it-g-imperfetto" },
+    { "id": "e5", "type": "fill", "q": "La nonna ___ un mortaio di marmo.", "es": "La abuela usaba un mortero de mármol.", "answer": ["usava"], "bank": ["usava", "usavo", "usavano"], "why": "Lei → usava.", "g": "it-g-imperfetto" },
+    { "id": "e6", "type": "fill", "q": "Avevo sempre le caramelle in ___.", "es": "Siempre llevaba caramelos en el bolsillo.", "answer": ["tasca"], "bank": ["tasca", "cartella", "bar"], "why": "La tasca = el bolsillo.", "g": "it-g-imperfetto" },
+    { "id": "e7", "type": "fill", "q": "Io e mia madre ___ il pesto insieme.", "es": "Mi madre y yo hacíamos el pesto juntas.", "answer": ["facevamo", "preparavamo"], "hint": "fare", "why": "Io e mia madre = noi: facevamo.", "g": "it-g-imperfetto" },
+    { "id": "e8", "type": "conjugate", "verb": "essere", "person": "io", "tense": "imperfetto", "q": "Da piccola ___ sempre in cucina con la nonna.", "answer": ["ero", "stavo"], "why": "Io → ero (o stavo).", "g": "it-g-imperfetto" },
+    { "id": "e9", "type": "error", "q": "Quando ero piccola, mia madre cucinavo molto.", "wrong": "cucinavo", "fix": "cucinava", "why": "Mia madre = lei: cucinava.", "g": "it-g-imperfetto" },
+    { "id": "e10", "type": "error", "q": "Da bambina ero otto anni.", "wrong": "ero", "fix": "avevo", "why": "La edad va con avere: avevo otto anni.", "g": "it-g-imperfetto" },
+    { "id": "e11", "type": "transform", "instr": "Pásala al imperfetto", "q": "Mia nonna fa il pesto e io la guardo.", "answer": ["Mia nonna faceva il pesto e io la guardavo."], "why": "Fa → faceva; guardo → guardavo.", "g": "it-g-imperfetto" },
+    { "id": "e12", "type": "order", "es": "Esta era la receta de mi abuela.", "answer": "Questa era la ricetta di mia nonna", "extra": ["ero"], "why": "Questa (la ricetta) = lei: era.", "g": "it-g-imperfetto" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "De pequeña ayudaba a mi madre en la cocina.", "answer": ["Da piccola aiutavo mia madre in cucina.", "Da bambina aiutavo mia madre in cucina.", "Quando ero piccola aiutavo mia madre in cucina.", "Quando ero piccola, aiutavo mia madre in cucina."], "why": "Aiutare → aiutavo (io).", "g": "it-g-imperfetto" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "A quei tempi tutto era più semplice.", "answer": ["En aquellos tiempos todo era más sencillo.", "En aquella época todo era más sencillo.", "En aquellos tiempos todo era más simple."], "why": "Era = era; più semplice = más sencillo.", "g": "it-g-imperfetto" },
+    { "id": "e15", "type": "situation", "context": "En un restaurante de Génova, el camarero te pregunta si ya conocías el pesto. Le dices que de niña lo comías a menudo.", "emoji": "🍝", "options": ["Sì, da piccola lo mangiavo spesso.", "Sì, da piccola lo mangio spesso.", "Sì, da piccola lo mangiava spesso."], "answer": "Sì, da piccola lo mangiavo spesso.", "why": "Costumbre del pasado, hablando de ti: mangiavo.", "g": "it-g-imperfetto" },
+    { "id": "e16", "type": "match", "pairs": [["il basilico", "la albahaca"], ["i pinoli", "los piñones"], ["il mortaio", "el mortero"], ["la ricetta", "la receta"], ["la tasca", "el bolsillo"]], "why": "Palabras de la parada de Génova.", "g": "it-g-imperfetto" }
+  ],
+  "dialog": {
+    "title": "En una tienda de pesto",
+    "setting": "Yolanda entra en una tienda de pasta fresca en Génova y charla con la dueña, la señora Rina",
+    "emoji": "🌿",
+    "lines": [
+      { "who": "Rina", "t": "Buongiorno! Vuole assaggiare il nostro pesto?", "es": "¡Buenos días! ¿Quiere probar nuestro pesto?" },
+      { "who": "Yolanda", "t": "Sì, grazie! Mmm, è buonissimo.", "es": "¡Sí, gracias! Mmm, está buenísimo." },
+      { "who": "Rina", "t": "È la ricetta di mia nonna. Lei lo faceva nel mortaio.", "es": "Es la receta de mi abuela. Ella lo hacía en el mortero." },
+      { "who": "Yolanda", "t": "Che bello! Anche mia nonna cucinava tutto a mano.", "es": "¡Qué bonito! Mi abuela también lo cocinaba todo a mano." },
+      { "who": "Rina", "t": "Una volta le nonne non avevano fretta.", "es": "Antes las abuelas no tenían prisa." },
+      { "who": "Yolanda", "t": "È vero. E io da piccola la guardavo per ore.", "es": "Es verdad. Y yo de pequeña la miraba durante horas." },
+      { "who": "Rina", "t": "Allora le do un vasetto da portare a casa!", "es": "¡Pues le doy un tarrito para llevar a casa!" }
+    ],
+    "questions": [
+      { "q": "¿De quién es la receta?", "options": ["De la abuela de Rina", "De un cocinero famoso", "De la madre de Yolanda"], "answer": "De la abuela de Rina" },
+      { "q": "¿Dónde hacía el pesto la abuela de Rina?", "options": ["En el mortero", "En la batidora", "En el horno"], "answer": "En el mortero" },
+      { "q": "¿Qué le da Rina a Yolanda?", "options": ["Un tarrito de pesto", "Una receta escrita", "Una albahaca"], "answer": "Un tarrito de pesto" }
+    ]
+  },
+  "realLife": { "t": "Questo sapore mi ricorda la mia infanzia.", "es": "Este sabor me recuerda a mi infancia.", "context": "Para contar que una comida te trae recuerdos de niña" },
+  "falseFriend": { "word": "il cassetto", "means": "el cajón", "looksLike": "casete", "emoji": "🗄️", "tip": "«Le ricette della nonna sono nel cassetto» = las recetas de la abuela están en el cajón. La cinta de música de antes era «la cassetta»." },
+  "same": {
+    "text": "Muchas palabras de cocina son primas hermanas del español.",
+    "examples": [
+      { "t": "la ricetta", "es": "la receta" },
+      { "t": "il mortaio", "es": "el mortero" },
+      { "t": "il porto", "es": "el puerto" }
+    ]
+  },
+  "summary": [
+    "Imperfetto para recuerdos: da piccola aiutavo in cucina.",
+    "Costumbres: la nonna raccontava sempre storie.",
+    "Descripciones y edad: era tutto più semplice, avevo otto anni.",
+    "El pesto genovese: basilico, pinoli, formaggio y mortaio.",
+    "Il cassetto = el cajón (no «casete»); la tasca = el bolsillo."
+  ],
+  "reviewed": false
+}

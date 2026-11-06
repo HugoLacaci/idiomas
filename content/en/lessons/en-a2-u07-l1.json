@@ -1,0 +1,445 @@
+{
+  "id": "en-a2-u07-l1",
+  "unit": "en-a2-u07",
+  "title": "Mis aficiones",
+  "goal": "a nombrar tus aficiones favoritas en inglés",
+  "emoji": "💃",
+  "photoQuery": "women dancing salsa class",
+  "vocab": [
+    {
+      "id": "hobby-dancing",
+      "t": "dancing",
+      "es": "bailar, el baile",
+      "emoji": "💃",
+      "pos": "n",
+      "ex": {
+        "t": "Dancing is my favourite hobby.",
+        "es": "Bailar es mi afición favorita."
+      }
+    },
+    {
+      "id": "hobby-gardening",
+      "t": "gardening",
+      "es": "la jardinería, cuidar las plantas",
+      "emoji": "🌻",
+      "pos": "n",
+      "ex": {
+        "t": "My neighbour loves gardening.",
+        "es": "A mi vecina le encanta la jardinería."
+      }
+    },
+    {
+      "id": "hobby-reading",
+      "t": "reading",
+      "es": "leer, la lectura",
+      "emoji": "📖",
+      "pos": "n",
+      "ex": {
+        "t": "I enjoy reading in bed.",
+        "es": "Disfruto leyendo en la cama."
+      }
+    },
+    {
+      "id": "hobby-swimming",
+      "t": "swimming",
+      "es": "nadar, la natación",
+      "emoji": "🏊‍♀️",
+      "pos": "n",
+      "ex": {
+        "t": "Swimming is good for your back.",
+        "es": "Nadar es bueno para la espalda."
+      },
+      "note": "swim → swimming: la m se duplica."
+    },
+    {
+      "id": "hobby-walking",
+      "t": "walking",
+      "es": "caminar, pasear",
+      "emoji": "🚶‍♀️",
+      "pos": "n",
+      "ex": {
+        "t": "We go walking every Sunday.",
+        "es": "Salimos a caminar todos los domingos."
+      }
+    },
+    {
+      "id": "hobby-painting",
+      "t": "painting",
+      "es": "pintar, la pintura",
+      "emoji": "🎨",
+      "pos": "n",
+      "ex": {
+        "t": "My friend does painting classes.",
+        "es": "Mi amiga va a clases de pintura."
+      }
+    },
+    {
+      "id": "hobby-singing",
+      "t": "singing",
+      "es": "cantar, el canto",
+      "emoji": "🎤",
+      "pos": "n",
+      "ex": {
+        "t": "She loves singing in the car.",
+        "es": "Le encanta cantar en el coche."
+      }
+    },
+    {
+      "id": "hobby-knitting",
+      "t": "knitting",
+      "es": "hacer punto, tejer",
+      "emoji": "🧶",
+      "pos": "n",
+      "ex": {
+        "t": "Knitting is very relaxing.",
+        "es": "Hacer punto relaja mucho."
+      },
+      "note": "La k no suena: «níting»."
+    },
+    {
+      "id": "hobby-cooking",
+      "t": "cooking",
+      "es": "cocinar, la cocina",
+      "emoji": "🍳",
+      "pos": "n",
+      "ex": {
+        "t": "Cooking for my family makes me happy.",
+        "es": "Cocinar para mi familia me hace feliz."
+      }
+    },
+    {
+      "id": "hobby-free-time",
+      "t": "free time",
+      "es": "el tiempo libre",
+      "emoji": "🕰️",
+      "pos": "phrase",
+      "ex": {
+        "t": "What do you do in your free time?",
+        "es": "¿Qué haces en tu tiempo libre?"
+      }
+    }
+  ],
+  "grammar": "en-g-like-ing",
+  "pron": {
+    "title": "La terminación -ing",
+    "tip": "La -ing suena como una «in» nasal, con la lengua atrás: no pronuncies una g fuerte al final. Dancing suena «dánsin(g)», casi sin g.",
+    "words": [
+      "dancing",
+      "reading",
+      "swimming",
+      "singing",
+      "knitting"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I love ___ in my free time.",
+      "options": [
+        "dancing",
+        "dance",
+        "dances"
+      ],
+      "answer": "dancing",
+      "why": "Para hablar de aficiones, después de love usamos el verbo con -ing.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "___ is good for your back.",
+      "options": [
+        "Swimming",
+        "Swim",
+        "Swims"
+      ],
+      "answer": "Swimming",
+      "why": "Cuando la actividad es el sujeto, va con -ing: Swimming is…",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "q": "My neighbour loves ___. Her garden is beautiful.",
+      "es": "A mi vecina le encanta la jardinería. Su jardín es precioso.",
+      "answer": [
+        "gardening"
+      ],
+      "bank": [
+        "gardening",
+        "knitting",
+        "swimming"
+      ],
+      "why": "Un jardín bonito: gardening, la jardinería.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "She enjoys ___ jumpers for her grandchildren.",
+      "es": "Disfruta haciendo jerséis de punto para sus nietos.",
+      "answer": [
+        "knitting"
+      ],
+      "bank": [
+        "knitting",
+        "painting",
+        "walking"
+      ],
+      "why": "Los jerséis se hacen de punto: knitting.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "What do you do in your free ___?",
+      "es": "¿Qué haces en tu tiempo libre?",
+      "answer": [
+        "time"
+      ],
+      "why": "Tiempo libre = free time.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e6",
+      "type": "match",
+      "pairs": [
+        [
+          "dancing",
+          "bailar"
+        ],
+        [
+          "knitting",
+          "hacer punto"
+        ],
+        [
+          "gardening",
+          "jardinería"
+        ],
+        [
+          "painting",
+          "pintar"
+        ],
+        [
+          "singing",
+          "cantar"
+        ]
+      ],
+      "why": "Las aficiones en inglés suelen ir con -ing.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "Me encanta leer en la cama",
+      "answer": "I love reading in bed",
+      "extra": [
+        "read"
+      ],
+      "why": "love + verbo con -ing: love reading.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Salimos a caminar todos los domingos",
+      "answer": "We go walking every Sunday",
+      "extra": [
+        "walk"
+      ],
+      "why": "go + -ing para actividades: go walking, go swimming.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "I like dance salsa with my friends.",
+      "wrong": "dance",
+      "fix": "dancing",
+      "why": "Después de like, para aficiones, el verbo va con -ing: I like dancing.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Swiming is my favourite sport.",
+      "wrong": "Swiming",
+      "fix": "Swimming",
+      "why": "Swim termina en vocal + m: la m se duplica, swimming.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Me encanta cocinar.",
+      "answer": [
+        "I love cooking.",
+        "I love cooking",
+        "I love to cook."
+      ],
+      "why": "Me encanta = I love, y luego -ing: I love cooking.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "from",
+      "q": "Painting is very relaxing.",
+      "answer": [
+        "Pintar es muy relajante.",
+        "Pintar relaja mucho.",
+        "La pintura es muy relajante."
+      ],
+      "why": "Painting = pintar. Relaxing = relajante.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Una señora inglesa en el parque te pregunta: What do you do in your free time?",
+      "emoji": "🌳",
+      "options": [
+        "I go walking and I love gardening.",
+        "I go walk and I love garden.",
+        "I am walking and gardening."
+      ],
+      "answer": "I go walking and I love gardening.",
+      "why": "go walking y love gardening: aficiones con -ing.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Centro cívico: actividades",
+      "text": "COMMUNITY CENTRE\nMonday: Knitting club, 10 am\nWednesday: Salsa dancing, 7 pm\nFriday: Painting for beginners, 5 pm\nAll welcome!",
+      "questions": [
+        {
+          "q": "¿Qué día hay baile?",
+          "options": [
+            "El miércoles",
+            "El lunes",
+            "El viernes"
+          ],
+          "answer": "El miércoles"
+        },
+        {
+          "q": "¿A qué hora es el club de punto?",
+          "options": [
+            "A las 10 de la mañana",
+            "A las 7 de la tarde",
+            "A las 5 de la tarde"
+          ],
+          "answer": "A las 10 de la mañana"
+        },
+        {
+          "q": "¿Para quién es la clase de pintura?",
+          "options": [
+            "Para principiantes",
+            "Para expertos",
+            "Para niños"
+          ],
+          "answer": "Para principiantes"
+        }
+      ],
+      "why": "Fíjate en los días y las horas de cada actividad."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "In my free time I love dancing.",
+      "es": "En mi tiempo libre me encanta bailar."
+    }
+  ],
+  "dialog": {
+    "title": "Nuevas en el centro cívico",
+    "setting": "Yolanda se apunta a actividades en un centro cívico de Liverpool y habla con la recepcionista, Linda",
+    "emoji": "🏢",
+    "lines": [
+      {
+        "who": "Linda",
+        "t": "Hello! Are you new here?",
+        "es": "¡Hola! ¿Eres nueva aquí?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I am. What activities do you have?",
+        "es": "Sí. ¿Qué actividades tenéis?"
+      },
+      {
+        "who": "Linda",
+        "t": "We have painting, knitting and salsa dancing.",
+        "es": "Tenemos pintura, punto y baile de salsa."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Oh, I love dancing! When is the class?",
+        "es": "¡Ay, me encanta bailar! ¿Cuándo es la clase?"
+      },
+      {
+        "who": "Linda",
+        "t": "On Wednesdays at seven. Do you like painting too?",
+        "es": "Los miércoles a las siete. ¿También te gusta pintar?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Not really. But my friend enjoys it.",
+        "es": "No mucho. Pero mi amiga disfruta pintando."
+      },
+      {
+        "who": "Linda",
+        "t": "Bring her on Friday, then!",
+        "es": "¡Pues tráela el viernes!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Great idea. Thank you!",
+        "es": "Buena idea. ¡Gracias!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué le encanta a Yolanda?",
+        "options": [
+          "Bailar",
+          "Pintar",
+          "Hacer punto"
+        ],
+        "answer": "Bailar"
+      },
+      {
+        "q": "¿Cuándo es la clase de salsa?",
+        "options": [
+          "Los miércoles a las siete",
+          "Los viernes a las cinco",
+          "Los lunes a las diez"
+        ],
+        "answer": "Los miércoles a las siete"
+      },
+      {
+        "q": "¿A quién le gusta pintar?",
+        "options": [
+          "A la amiga de Yolanda",
+          "A Yolanda",
+          "A Linda"
+        ],
+        "answer": "A la amiga de Yolanda"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "What do you do in your free time?",
+    "es": "¿Qué haces en tu tiempo libre?",
+    "context": "Para conocer mejor a alguien y charlar de aficiones"
+  },
+  "summary": [
+    "Aficiones con -ing: dancing, reading, gardening, knitting",
+    "swim → swimming (la m se duplica)",
+    "go + -ing: go walking, go swimming",
+    "What do you do in your free time?"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u07-l1"
+}

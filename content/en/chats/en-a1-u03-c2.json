@@ -1,0 +1,61 @@
+{
+  "id": "en-a1-u03-c2",
+  "unit": "en-a1-u03",
+  "title": "De compras con Emma",
+  "setting": "Emma te acompaña a una tienda de regalos cerca de Westminster. Buscas recuerdos para la familia.",
+  "emoji": "🛍️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Look at these mugs! Do you like them?", "es": "¡Mira estas tazas! ¿Te gustan?" },
+      "options": [
+        { "t": "Yes! These mugs are lovely.", "es": "¡Sí! Estas tazas son preciosas.", "next": "n2", "ok": true },
+        { "t": "Yes! This mugs are lovely.", "es": "¡Sí! Estas tazas son preciosas.", "next": "n2", "ok": false, "feedback": "Mugs es plural: these mugs." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Who are they for?", "es": "¿Para quién son?" },
+      "options": [
+        { "t": "For my grandchildren.", "es": "Para mis nietos.", "next": "n3", "ok": true },
+        { "t": "For my grandchildrens.", "es": "Para mis nietos.", "next": "n3", "ok": false, "feedback": "Grandchildren ya es plural, sin -s." },
+        { "t": "For my grandchild.", "es": "Para mi nieto.", "next": "n3", "ok": false, "feedback": "Son varias tazas para varios nietos: plural, grandchildren." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "How lovely. And for Hugo? What about that T-shirt over there?", "es": "Qué bonito. ¿Y para Hugo? ¿Qué tal aquella camiseta de allí?" },
+      "options": [
+        { "t": "That T-shirt? Yes, the blue one.", "es": "¿Aquella camiseta? Sí, la azul.", "next": "n4", "ok": true },
+        { "t": "This T-shirt? Yes, the blue one.", "es": "¿Esta camiseta? Sí, la azul.", "next": "n4", "ok": false, "feedback": "La camiseta está lejos (over there): that." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Good choice. And for your neighbour?", "es": "Buena elección. ¿Y para tu vecina?" },
+      "options": [
+        { "t": "An umbrella. It always rains here!", "es": "Un paraguas. ¡Aquí siempre llueve!", "next": "n5", "ok": true },
+        { "t": "Umbrella. It always rains here!", "es": "Paraguas. ¡Aquí siempre llueve!", "next": "n5", "ok": false, "feedback": "Con un objeto en singular el inglés pone a/an: an umbrella." },
+        { "t": "A umbrella. It always rains here!", "es": "Un paraguas. ¡Aquí siempre llueve!", "next": "n5", "ok": false, "feedback": "Umbrella empieza por vocal: an umbrella." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "An umbrella! Great. The people here are very nice, don't you think?", "es": "¡Un paraguas! Genial. La gente de aquí es muy maja, ¿no crees?" },
+      "options": [
+        { "t": "Yes, the people are very friendly.", "es": "Sí, la gente es muy simpática.", "next": "n6", "ok": true },
+        { "t": "Yes, the people is very friendly.", "es": "Sí, la gente es muy simpática.", "next": "n6", "ok": false, "feedback": "People es plural en inglés: the people are." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "OK! That's the mugs, one T-shirt and one umbrella. Let's pay!", "es": "¡Vale! Las tazas, una camiseta y un paraguas. ¡Vamos a pagar!" },
+      "options": [
+        { "t": "Yes. Excuse me, how much are these?", "es": "Sí. Perdone, ¿cuánto cuestan estas cosas?", "next": "end", "ok": true },
+        { "t": "Yes. Excuse me, how much is these?", "es": "Sí. Perdone, ¿cuánto cuesta esto?", "next": "end", "ok": false, "feedback": "These es plural: how much are these?" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

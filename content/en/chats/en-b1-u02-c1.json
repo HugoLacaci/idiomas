@@ -1,0 +1,60 @@
+{
+  "id": "en-b1-u02-c1",
+  "unit": "en-b1-u02",
+  "title": "¿Ya te has descargado la app?",
+  "setting": "Emma te ha recomendado una aplicación para aprender recetas inglesas y te escribe para ver qué tal.",
+  "emoji": "📲",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! Have you downloaded the recipe app yet?", "es": "¡Hola, Yolanda! ¿Ya te has descargado la app de recetas?" },
+      "options": [
+        { "t": "Yes, I've just downloaded it!", "es": "¡Sí, me la acabo de descargar!", "next": "n2", "ok": true },
+        { "t": "Yes, I've downloaded it yet!", "es": "¡Sí, ya me la he descargado!", "next": "n2", "ok": false, "feedback": "Yet no va en frases afirmativas. Di I've already downloaded it o I've just downloaded it." },
+        { "t": "Yes, I just have download it!", "es": "¡Sí, me la acabo de descargar!", "next": "n2", "ok": false, "feedback": "Just va entre have y el participio: I've just downloaded it." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Great! Have you made an account yet?", "es": "¡Genial! ¿Ya te has hecho una cuenta?" },
+      "options": [
+        { "t": "Not yet. I can't remember my email password!", "es": "Todavía no. ¡No me acuerdo de la contraseña del correo!", "next": "n3", "ok": true },
+        { "t": "Yet not. I can't remember my email password!", "es": "Todavía no. ¡No me acuerdo de la contraseña del correo!", "next": "n3", "ok": false, "feedback": "Todavía no = Not yet (en ese orden)." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Oh dear! Have you asked your son for help?", "es": "¡Vaya! ¿Le has pedido ayuda a tu hijo?" },
+      "options": [
+        { "t": "Yes, I've already sent him a message.", "es": "Sí, ya le he mandado un mensaje.", "next": "n4", "ok": true },
+        { "t": "Yes, I've already send him a message.", "es": "Sí, ya le he mandado un mensaje.", "next": "n4", "ok": false, "feedback": "Detrás de have va el participio: sent (send, sent, sent)." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Has he answered yet?", "es": "¿Te ha contestado ya?" },
+      "options": [
+        { "t": "Yes, he has. He's just sent me a voice message.", "es": "Sí. Me acaba de mandar un audio.", "next": "n5", "ok": true },
+        { "t": "Yes, he did. He's just sent me a voice message.", "es": "Sí. Me acaba de mandar un audio.", "next": "n5", "ok": false, "feedback": "La pregunta lleva has: la respuesta corta es Yes, he has." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Perfect! Which recipe are you going to try first?", "es": "¡Perfecto! ¿Qué receta vas a probar primero?" },
+      "options": [
+        { "t": "Scones! I've never made them before.", "es": "¡Scones! Nunca los he hecho.", "next": "n6", "ok": true },
+        { "t": "Scones! I haven't never made them before.", "es": "¡Scones! Nunca los he hecho.", "next": "n6", "ok": false, "feedback": "Una sola negación: I've never made them." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Lovely! Send me a photo when they're ready.", "es": "¡Qué rico! Mándame una foto cuando estén listos." },
+      "options": [
+        { "t": "Of course! I'll send it to you on WhatsApp.", "es": "¡Claro! Te la mando por WhatsApp.", "next": "end", "ok": true },
+        { "t": "Of course! I've sent it to you tomorrow.", "es": "¡Claro! Te la mando mañana.", "next": "end", "ok": false, "feedback": "Hablas del futuro: I'll send it (te la mandaré)." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

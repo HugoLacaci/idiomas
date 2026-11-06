@@ -1,0 +1,101 @@
+{
+  "id": "en-b1-u08-l2",
+  "unit": "en-b1-u08",
+  "title": "Me dijo que estaba cansada",
+  "goal": "a contar lo que te dijo alguien con said y told, dando al verbo un paso atrás",
+  "emoji": "📞",
+  "photoQuery": "woman phone call window",
+  "vocab": [
+    { "id": "said-news", "t": "news", "es": "noticia, noticias", "emoji": "📰", "pos": "n",
+      "ex": { "t": "I've got some good news!", "es": "¡Tengo una buena noticia!" },
+      "note": "News va en singular: the news is good. Una noticia = a piece of news." },
+    { "id": "said-gossip", "t": "gossip", "es": "cotilleo; cotillear", "emoji": "🤫", "pos": "n",
+      "ex": { "t": "Have you heard the latest gossip?", "es": "¿Te has enterado del último cotilleo?" } },
+    { "id": "said-voice-message", "t": "voice message", "es": "mensaje de voz, audio", "emoji": "🎙️", "pos": "n",
+      "ex": { "t": "She sent me a five-minute voice message!", "es": "¡Me mandó un audio de cinco minutos!" } },
+    { "id": "said-text", "t": "text", "es": "mandar un mensaje (al móvil)", "emoji": "📱", "pos": "v",
+      "ex": { "t": "Text me when you get home.", "es": "Mándame un mensaje cuando llegues a casa." } },
+    { "id": "said-whisper", "t": "whisper", "es": "susurrar", "emoji": "🤐", "pos": "v",
+      "ex": { "t": "She whispered that it was a secret.", "es": "Susurró que era un secreto." } },
+    { "id": "said-shout", "t": "shout", "es": "gritar", "emoji": "📢", "pos": "v",
+      "ex": { "t": "Don't shout, I can hear you!", "es": "¡No grites, que te oigo!" } },
+    { "id": "said-apparently", "t": "apparently", "es": "por lo visto, al parecer", "emoji": "🤷", "pos": "adv",
+      "ex": { "t": "Apparently, the new baker is from Italy.", "es": "Por lo visto, el panadero nuevo es italiano." } },
+    { "id": "said-by-the-way", "t": "by the way", "es": "por cierto", "emoji": "👉", "pos": "phrase",
+      "ex": { "t": "By the way, your sister called.", "es": "Por cierto, ha llamado tu hermana." } }
+  ],
+  "grammar": "en-g-reported-speech-intro",
+  "pron": {
+    "title": "El was flojito",
+    "tip": "En el estilo indirecto, was casi no se oye: «uəs». She said she was tired → «shi-SED-shi-uəs-TAIRD». La fuerza va en said y en tired.",
+    "words": ["she was tired", "he was late", "it was a secret"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "My friend ___ me she was pregnant!", "options": ["told", "said", "say"], "answer": "told",
+      "why": "Con persona (me): told.", "g": "en-g-reported-speech-intro" },
+    { "id": "e2", "type": "choose", "q": "\"I'm exhausted.\" → She said she ___ exhausted.", "options": ["was", "is", "has"], "answer": "was",
+      "why": "Am → was: un paso atrás.", "g": "en-g-reported-speech-intro" },
+    { "id": "e3", "type": "choose", "q": "\"I work in a bank.\" → He said he ___ in a bank.", "options": ["worked", "works", "working"], "answer": "worked",
+      "why": "Presente simple → pasado simple.", "g": "en-g-reported-speech-intro" },
+    { "id": "e4", "type": "choose", "q": "\"We'll come at six.\" → They said they ___ come at six.", "options": ["would", "will", "did"], "answer": "would",
+      "why": "Will → would.", "g": "en-g-reported-speech-intro" },
+    { "id": "e5", "type": "fill", "q": "She ___ that the news was true.", "es": "Dijo que la noticia era verdad.", "answer": ["said"], "bank": ["said", "told", "asked"],
+      "why": "Sin persona: said.", "g": "en-g-reported-speech-intro" },
+    { "id": "e6", "type": "fill", "q": "\"I can't find my keys.\" → He said he ___ find his keys.", "es": "Dijo que no encontraba las llaves.", "answer": ["couldn't", "could not"],
+      "why": "Can't → couldn't.", "g": "en-g-reported-speech-intro" },
+    { "id": "e7", "type": "fill", "q": "\"I love your cooking.\" → He told me he loved ___ cooking.", "es": "Me dijo que le encantaba mi cocina.", "answer": ["my"], "bank": ["my", "your", "his"],
+      "why": "Your (lo que él dijo) → my (lo cuento yo).", "g": "en-g-reported-speech-intro" },
+    { "id": "e8", "type": "conjugate", "verb": "to be", "person": "they", "tense": "estilo indirecto (un paso atrás)", "q": "\"We're lost.\" → They said they ___ lost.", "answer": ["were"],
+      "why": "Are → were.", "g": "en-g-reported-speech-intro", "table": [["am / is", "was"], ["are", "were"]] },
+    { "id": "e9", "type": "error", "q": "My son told that he was coming home.", "wrong": "told", "fix": "said",
+      "why": "Sin persona detrás: said. (O told me.)", "g": "en-g-reported-speech-intro" },
+    { "id": "e10", "type": "error", "q": "She said she is very tired last night.", "wrong": "is", "fix": "was",
+      "why": "Lo dijo anoche: un paso atrás, was.", "g": "en-g-reported-speech-intro" },
+    { "id": "e11", "type": "transform", "instr": "Cuéntalo empezando por My friend said…", "q": "\"I'm moving to Málaga.\"", "answer": ["My friend said she was moving to Málaga.", "My friend said that she was moving to Málaga.", "My friend said he was moving to Málaga.", "My friend said that he was moving to Málaga."],
+      "why": "I'm moving → she was moving.", "g": "en-g-reported-speech-intro" },
+    { "id": "e12", "type": "transform", "instr": "Cuéntalo empezando por He told me…", "q": "\"I will text you.\"", "answer": ["He told me he would text me.", "He told me that he would text me."],
+      "why": "Will → would; you → me.", "g": "en-g-reported-speech-intro" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "Por lo visto, dijo que estaba muy contenta.", "answer": ["Apparently, she said she was very happy.", "Apparently she said she was very happy.", "Apparently, she said that she was very happy.", "Apparently she said that she was very happy."],
+      "why": "Apparently = por lo visto; estaba = was.", "g": "en-g-reported-speech-intro" },
+    { "id": "e14", "type": "situation", "context": "Tu amiga te mandó un audio: «I can't come tomorrow». Se lo cuentas a tu marido.", "emoji": "🎙️",
+      "options": ["She said she couldn't come.", "She said me she can't come.", "She told she couldn't come."], "answer": "She said she couldn't come.",
+      "why": "Said sin persona y can't → couldn't.", "g": "en-g-reported-speech-intro" },
+    { "id": "e15", "type": "reading", "kind": "message", "title": "WhatsApp de una amiga",
+      "text": "Guess who called me? Our old neighbour! She said she was coming to Spain in June. She told me she wanted to see everyone. Apparently, she's learning Spanish! By the way, she asked about you. 😊",
+      "questions": [
+        { "q": "¿Cuándo viene la antigua vecina a España?", "options": ["En junio", "En julio", "En Navidad"], "answer": "En junio" },
+        { "q": "¿Qué está aprendiendo la antigua vecina?", "options": ["Español", "A cocinar", "A conducir"], "answer": "Español" },
+        { "q": "¿Qué significa by the way?", "options": ["Por cierto", "Por el camino", "Por fin"], "answer": "Por cierto" }
+      ] },
+    { "id": "e16", "type": "order", "es": "Me dijo que estaba muy cansado", "answer": "He told me he was very tired", "extra": ["said"],
+      "why": "Me dijo = told me; estaba = was.", "g": "en-g-reported-speech-intro" }
+  ],
+  "dialog": {
+    "title": "El audio de cinco minutos",
+    "setting": "En un café de Londres, Yolanda le cuenta a Emma el audio que le ha mandado una amiga",
+    "emoji": "🎙️",
+    "lines": [
+      { "who": "Emma", "t": "Who sent you that long voice message?", "es": "¿Quién te ha mandado ese audio tan largo?" },
+      { "who": "Yolanda", "t": "My friend from the village. She has big news!", "es": "Mi amiga del pueblo. ¡Tiene una noticia gorda!" },
+      { "who": "Emma", "t": "Ooh, tell me! What did she say?", "es": "¡Uy, cuéntame! ¿Qué dijo?" },
+      { "who": "Yolanda", "t": "She said her daughter was getting married.", "es": "Dijo que su hija se casaba." },
+      { "who": "Emma", "t": "How lovely! When?", "es": "¡Qué bonito! ¿Cuándo?" },
+      { "who": "Yolanda", "t": "She told me the wedding was in September.", "es": "Me dijo que la boda era en septiembre." },
+      { "who": "Emma", "t": "Are you invited?", "es": "¿Estás invitada?" },
+      { "who": "Yolanda", "t": "Yes! She said she would send the invitation soon.", "es": "¡Sí! Dijo que me mandaría la invitación pronto." }
+    ],
+    "questions": [
+      { "q": "¿Quién se casa?", "options": ["La hija de la amiga", "La amiga", "Emma"], "answer": "La hija de la amiga" },
+      { "q": "¿Cuándo es la boda?", "options": ["En septiembre", "En junio", "En diciembre"], "answer": "En septiembre" },
+      { "q": "¿Qué va a mandar la amiga?", "options": ["La invitación", "Unas fotos", "Un regalo"], "answer": "La invitación" }
+    ]
+  },
+  "realLife": { "t": "She told me she was coming next week.", "es": "Me dijo que venía la semana que viene.", "context": "Para contarle a alguien lo que te dijo otra persona por teléfono" },
+  "summary": [
+    "said (sin persona) / told me (con persona)",
+    "Un paso atrás: am/is → was, are → were, will → would, can → could",
+    "Presente simple → pasado simple: I work → he worked",
+    "Para charlar: apparently, by the way, voice message, gossip"
+  ],
+  "reviewed": false
+}

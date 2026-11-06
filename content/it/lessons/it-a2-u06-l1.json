@@ -1,0 +1,76 @@
+{
+  "id": "it-a2-u06-l1",
+  "unit": "it-a2-u06",
+  "title": "Un giro per negozi",
+  "goal": "a nombrar la ropa, los colores y las tallas para ir de compras",
+  "emoji": "👗",
+  "photoQuery": "clothes shop window italy",
+  "vocab": [
+    { "id": "moda-la-gonna", "t": "la gonna", "es": "la falda", "emoji": "👗", "pos": "n", "ex": { "t": "Cerco una gonna lunga e blu.", "es": "Busco una falda larga y azul." } },
+    { "id": "moda-la-camicetta", "t": "la camicetta", "es": "la blusa", "emoji": "👚", "pos": "n", "ex": { "t": "Questa camicetta bianca è elegante.", "es": "Esta blusa blanca es elegante." } },
+    { "id": "moda-i-pantaloni", "t": "i pantaloni", "es": "los pantalones", "emoji": "👖", "pos": "n", "ex": { "t": "Mio marito vuole dei pantaloni grigi.", "es": "Mi marido quiere unos pantalones grises." } },
+    { "id": "moda-il-maglione", "t": "il maglione", "es": "el jersey", "emoji": "🧶", "pos": "n", "ex": { "t": "Il maglione rosso è per mio figlio.", "es": "El jersey rojo es para mi hijo." } },
+    { "id": "moda-la-giacca", "t": "la giacca", "es": "la chaqueta", "emoji": "🧥", "pos": "n", "ex": { "t": "Questa giacca nera è troppo pesante.", "es": "Esta chaqueta negra es demasiado gruesa." } },
+    { "id": "moda-il-vestito", "t": "il vestito", "es": "el vestido; el traje", "emoji": "👗", "pos": "n", "note": "Il vestito es el vestido de mujer y también el traje de hombre.", "ex": { "t": "Ho bisogno di un vestito per la festa.", "es": "Necesito un vestido para la fiesta." } },
+    { "id": "moda-le-scarpe", "t": "le scarpe", "es": "los zapatos", "emoji": "👠", "pos": "n", "ex": { "t": "Queste scarpe sono comode.", "es": "Estos zapatos son cómodos." } },
+    { "id": "moda-la-taglia", "t": "la taglia", "es": "la talla", "emoji": "📏", "pos": "n", "note": "Para los zapatos no se dice taglia, sino numero: porto il 38.", "ex": { "t": "Porto la taglia 42.", "es": "Uso la talla 42." } },
+    { "id": "moda-il-costume", "t": "il costume da bagno", "es": "el bañador", "emoji": "👙", "pos": "n", "ex": { "t": "Mi serve un costume da bagno nuovo.", "es": "Necesito un bañador nuevo." } },
+    { "id": "moda-il-colore", "t": "il colore", "es": "el color", "emoji": "🎨", "pos": "n", "ex": { "t": "Che colore preferisci?", "es": "¿Qué color prefieres?" } }
+  ],
+  "grammar": "it-g-aggettivi-accordo",
+  "pron": {
+    "title": "La gl de maglione",
+    "tip": "Gl delante de i suena parecido a nuestra «ll» bien pronunciada, con la lengua pegada al paladar: ma-llo-ne. Nunca «g-l».",
+    "words": ["maglione", "maglietta", "figlio", "voglio", "taglia"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Cerco una gonna ___.", "es": "Busco una falda negra.", "options": ["nera", "nero", "neri"], "answer": "nera", "why": "Gonna es femenino singular: nera.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e2", "type": "choose", "q": "Mio marito vuole dei pantaloni ___.", "es": "Mi marido quiere unos pantalones grises.", "options": ["grigi", "grigio", "grigie"], "answer": "grigi", "why": "Pantaloni es masculino plural: grigi.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e3", "type": "choose", "q": "Queste scarpe sono ___.", "es": "Estos zapatos son rojos.", "options": ["rosse", "rossi", "rosso"], "answer": "rosse", "why": "Scarpe es femenino plural en italiano: rosse.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e4", "type": "choose", "q": "Che ___ porta, signora?", "es": "¿Qué talla usa, señora?", "options": ["taglia", "colore", "costume"], "answer": "taglia", "why": "La talla de la ropa es la taglia.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e5", "type": "fill", "q": "Il maglione ___ è per mio figlio.", "es": "El jersey verde es para mi hijo.", "answer": ["verde"], "bank": ["verde", "verdi", "verda"], "why": "Los adjetivos en -e tienen una sola forma en singular: verde.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e6", "type": "fill", "q": "Ho bisogno di un ___ per la festa.", "es": "Necesito un vestido para la fiesta.", "answer": ["vestito"], "bank": ["vestito", "gonna", "scarpe"], "why": "Un vestito = un vestido.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e7", "type": "fill", "q": "Questa camicetta è ___.", "es": "Esta blusa es blanca.", "answer": ["bianca"], "hint": "bianco", "why": "Camicetta es femenino: bianca (la c sigue sonando dura).", "g": "it-g-aggettivi-accordo" },
+    { "id": "e8", "type": "error", "q": "Le scarpe nuove sono comodi.", "wrong": "comodi", "fix": "comode", "why": "Scarpe es femenino plural: comode.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e9", "type": "error", "q": "Porto il taglia 42.", "wrong": "il", "fix": "la", "why": "Taglia es femenino: la taglia.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e10", "type": "order", "es": "Busco una chaqueta negra para mi marido.", "answer": "Cerco una giacca nera per mio marito", "extra": ["nero"], "why": "El adjetivo de color va detrás y concuerda: giacca nera.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e11", "type": "translate", "dir": "to", "q": "Necesito un bañador nuevo.", "answer": ["Ho bisogno di un costume da bagno nuovo.", "Mi serve un costume da bagno nuovo.", "Ho bisogno di un costume nuovo.", "Mi serve un costume nuovo."], "why": "El bañador es il costume da bagno.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e12", "type": "transform", "instr": "Pásala al plural", "q": "La gonna rossa è bella.", "answer": ["Le gonne rosse sono belle."], "why": "La → le, -a → -e: le gonne rosse sono belle.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e13", "type": "match", "pairs": [["la gonna", "la falda"], ["il maglione", "el jersey"], ["la giacca", "la chaqueta"], ["le scarpe", "los zapatos"], ["la camicetta", "la blusa"]], "why": "Ropa básica para ir de tiendas." },
+    { "id": "e14", "type": "situation", "context": "En la zapatería te preguntan qué número usas. Usas el 38.", "emoji": "👠", "options": ["Porto il 38.", "Porto la taglia 38 di scarpe.", "Ho 38 anni."], "answer": "Porto il 38.", "why": "Para los zapatos se dice numero: porto il 38.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e15", "type": "reading", "kind": "sign", "title": "Cartel en un escaparate", "text": "Nuova collezione! Gonne, camicette e giacche. Tutte le taglie, dalla 38 alla 50. Costumi da bagno al primo piano.", "questions": [
+      { "q": "¿Qué hay en la primera planta?", "options": ["Bañadores", "Zapatos", "Jerséis"], "answer": "Bañadores" },
+      { "q": "¿Qué tallas tienen?", "options": ["De la 38 a la 50", "Solo la 42", "Solo tallas pequeñas"], "answer": "De la 38 a la 50" }
+    ] }
+  ],
+  "dialog": {
+    "title": "Escaparates en Milán",
+    "setting": "Yolanda pasea con su amiga Carla por una calle comercial de Milán",
+    "emoji": "🛍️",
+    "lines": [
+      { "who": "Carla", "t": "Guarda quella vetrina! Che belle gonne!", "es": "¡Mira ese escaparate! ¡Qué faldas tan bonitas!" },
+      { "who": "Yolanda", "t": "Mi piace la gonna blu. È lunga ed elegante.", "es": "Me gusta la falda azul. Es larga y elegante." },
+      { "who": "Carla", "t": "Che taglia porti?", "es": "¿Qué talla usas?" },
+      { "who": "Yolanda", "t": "Porto la 42. E tu?", "es": "Uso la 42. ¿Y tú?" },
+      { "who": "Carla", "t": "La 40. Io cerco un costume da bagno.", "es": "La 40. Yo busco un bañador." },
+      { "who": "Yolanda", "t": "Io invece cerco un maglione per mio figlio.", "es": "Yo, en cambio, busco un jersey para mi hijo." },
+      { "who": "Carla", "t": "Di che colore?", "es": "¿De qué color?" },
+      { "who": "Yolanda", "t": "Verde o grigio. Entriamo!", "es": "Verde o gris. ¡Entremos!" }
+    ],
+    "questions": [
+      { "q": "¿Qué falda le gusta a Yolanda?", "options": ["La azul", "La roja", "La negra"], "answer": "La azul" },
+      { "q": "¿Qué busca Carla?", "options": ["Un bañador", "Unos zapatos", "Una chaqueta"], "answer": "Un bañador" },
+      { "q": "¿Para quién es el jersey?", "options": ["Para el hijo de Yolanda", "Para Carla", "Para el marido de Carla"], "answer": "Para el hijo de Yolanda" }
+    ]
+  },
+  "realLife": { "t": "Do solo un'occhiata, grazie.", "es": "Solo estoy mirando, gracias.", "context": "Cuando entras en una tienda y la dependienta te ofrece ayuda" },
+  "falseFriend": { "word": "il costume", "means": "el bañador (costume da bagno) o el disfraz", "looksLike": "costumbre (en italiano: abitudine)", "emoji": "👙", "tip": "Si en verano te piden il costume, ¡llévate el bañador a la playa!" },
+  "summary": [
+    "Ropa: la gonna, la camicetta, i pantaloni, il maglione, la giacca, il vestito.",
+    "Le scarpe es femenino: le scarpe rosse.",
+    "El color va detrás y concuerda: una gonna nera, dei pantaloni grigi.",
+    "Taglia para la ropa, numero para los zapatos.",
+    "Il costume da bagno = el bañador."
+  ],
+  "reviewed": false
+}

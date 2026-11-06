@@ -1,0 +1,286 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/nunito';
+@import '@fontsource/dm-serif-display';
+@import '@fontsource-variable/playfair-display';
+
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+/* Tokens: cada idioma redefine las variables en [data-lang]. Tailwind las usa vía @theme. */
+@theme inline {
+  --color-bg: rgb(var(--bg));
+  --color-surface: rgb(var(--surface));
+  --color-surface-2: rgb(var(--surface-2));
+  --color-ink: rgb(var(--ink));
+  --color-ink-soft: rgb(var(--ink-soft));
+  --color-line: rgb(var(--line));
+  --color-primary: rgb(var(--primary));
+  --color-primary-ink: rgb(var(--primary-ink));
+  --color-primary-soft: rgb(var(--primary-soft));
+  --color-accent: rgb(var(--accent));
+  --color-accent-ink: rgb(var(--accent-ink));
+  --color-accent-soft: rgb(var(--accent-soft));
+  --color-pop: rgb(var(--pop));
+  --color-pop-ink: rgb(var(--pop-ink));
+  --color-good: rgb(var(--good));
+  --color-good-soft: rgb(var(--good-soft));
+  --color-bad: rgb(var(--bad));
+  --color-bad-soft: rgb(var(--bad-soft));
+  --color-hl: rgb(var(--hl));
+  --font-sans: 'Nunito Variable', 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: var(--display-font);
+}
+
+:root {
+  --font-scale: 1.1;
+  --display-font: 'DM Serif Display', Georgia, serif;
+  /* Neutro (pantalla de elegir idioma) */
+  --bg: 250 247 240;
+  --surface: 255 255 255;
+  --surface-2: 243 238 228;
+  --ink: 30 33 48;
+  --ink-soft: 76 79 96;
+  --line: 222 214 200;
+  --primary: 29 43 83;
+  --primary-ink: 255 255 255;
+  --primary-soft: 226 230 242;
+  --accent: 215 38 46;
+  --accent-ink: 255 255 255;
+  --accent-soft: 251 228 229;
+  --pop: 242 179 61;
+  --pop-ink: 29 43 83;
+  --good: 31 122 77;
+  --good-soft: 222 243 230;
+  --bad: 178 46 40;
+  --bad-soft: 252 232 230;
+  --hl: 215 38 46;
+  color-scheme: light;
+}
+
+/* ───── Inglés: "London & beyond" ───── */
+[data-lang='en'] {
+  --display-font: 'DM Serif Display', Georgia, serif;
+  --bg: 250 247 240; /* blanco roto #FAF7F0 */
+  --surface: 255 255 255;
+  --surface-2: 241 236 224;
+  --ink: 29 43 83; /* azul marino #1D2B53 */
+  --ink-soft: 72 82 112;
+  --line: 220 212 196;
+  --primary: 215 38 46; /* rojo bus #D7262E */
+  --primary-ink: 255 255 255;
+  --primary-soft: 251 226 227;
+  --accent: 29 43 83;
+  --accent-ink: 255 255 255;
+  --accent-soft: 226 230 242;
+  --pop: 242 179 61; /* mostaza */
+  --pop-ink: 29 43 83;
+  --good: 46 110 79; /* verde parque, algo oscurecido para AA */
+  --good-soft: 222 240 229;
+  --hl: 196 30 38;
+}
+
+/* ───── Italiano: "La dolce vita" ───── */
+[data-lang='it'] {
+  --display-font: 'Playfair Display Variable', 'Playfair Display', Georgia, serif;
+  --bg: 255 248 236; /* crema #FFF8EC */
+  --surface: 255 255 255;
+  --surface-2: 252 238 214;
+  --ink: 64 38 28;
+  --ink-soft: 110 78 62;
+  --line: 236 218 190;
+  --primary: 184 74 52; /* terracota #C8553D (oscurecida para AA con texto blanco) */
+  --primary-ink: 255 255 255;
+  --primary-soft: 250 228 220;
+  --accent: 35 106 157; /* azul Mediterráneo */
+  --accent-ink: 255 255 255;
+  --accent-soft: 223 237 248;
+  --pop: 244 211 94; /* limón */
+  --pop-ink: 64 38 28;
+  --good: 92 110 36; /* oliva */
+  --good-soft: 237 242 218;
+  --hl: 184 74 52;
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: 20 22 32;
+  --surface: 31 34 48;
+  --surface-2: 40 44 62;
+  --ink: 240 236 228;
+  --ink-soft: 190 188 200;
+  --line: 62 66 86;
+  --primary-soft: 70 36 40;
+  --accent-soft: 38 50 82;
+  --good: 120 205 150;
+  --good-soft: 28 60 44;
+  --bad: 255 140 130;
+  --bad-soft: 74 32 32;
+  --hl: 255 130 120;
+}
+[data-theme='dark'] [data-lang='en'] {
+  --bg: 18 24 44;
+  --surface: 29 38 66;
+  --surface-2: 38 49 82;
+  --ink: 246 241 230;
+  --ink-soft: 196 200 216;
+  --line: 58 70 104;
+  --accent: 242 179 61;
+  --accent-ink: 29 43 83;
+  --accent-soft: 52 60 92;
+  --primary-soft: 80 34 40;
+  --good: 120 205 150;
+  --good-soft: 28 60 44;
+  --hl: 255 140 130;
+}
+[data-theme='dark'] [data-lang='it'] {
+  --bg: 34 24 20;
+  --surface: 50 36 30;
+  --surface-2: 64 46 38;
+  --ink: 252 242 228;
+  --ink-soft: 216 196 180;
+  --line: 92 70 58;
+  --accent: 120 180 230;
+  --accent-ink: 20 30 40;
+  --accent-soft: 40 58 78;
+  --primary-soft: 84 44 34;
+  --pop-ink: 64 38 28;
+  --good: 190 210 120;
+  --good-soft: 52 58 30;
+  --hl: 255 160 130;
+}
+
+[data-contrast='high'] {
+  --ink: 0 0 0;
+  --ink-soft: 20 20 20;
+  --line: 60 60 60;
+  --bg: 255 255 255;
+}
+[data-theme='dark'][data-contrast='high'],
+[data-theme='dark'][data-contrast='high'] [data-lang] {
+  --ink: 255 255 255;
+  --ink-soft: 235 235 235;
+  --line: 200 200 200;
+  --bg: 0 0 0;
+}
+
+html {
+  font-size: calc(18px * var(--font-scale));
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background: rgb(var(--bg));
+}
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background: rgb(var(--bg));
+  color: rgb(var(--ink));
+  font-family: var(--font-sans);
+  line-height: 1.45;
+  overflow-x: hidden;
+  overscroll-behavior-y: none;
+}
+#root {
+  min-height: 100dvh;
+}
+button {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+input,
+textarea {
+  font-size: max(16px, 1rem); /* evita el zoom automático de iOS */
+}
+
+[data-motion='reduce'] *,
+[data-motion='reduce'] *::before,
+[data-motion='reduce'] *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+:focus-visible {
+  outline: 3px solid rgb(var(--pop));
+  outline-offset: 2px;
+  border-radius: 12px;
+}
+
+.font-display {
+  font-family: var(--display-font);
+  letter-spacing: 0.005em;
+}
+
+/* Resaltado de "la parte que cambia" en gramática */
+mark.hl {
+  background: transparent;
+  color: rgb(var(--hl));
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+  text-decoration-color: rgb(var(--pop));
+}
+
+.safe-top {
+  padding-top: max(env(safe-area-inset-top), 0px);
+}
+.safe-bottom {
+  padding-bottom: max(env(safe-area-inset-bottom), 0px);
+}
+.pb-nav {
+  padding-bottom: calc(88px + env(safe-area-inset-bottom));
+}
+
+/* Postal (inglés) y baldosa (italiano) */
+.postcard {
+  background: rgb(var(--surface));
+  border-radius: 20px;
+  border: 2px solid rgb(var(--line));
+  box-shadow: 0 2px 0 rgb(var(--line)), 0 10px 24px -14px rgb(0 0 0 / 0.25);
+}
+[data-lang='en'] .postcard {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgb(var(--primary)) 0 8px,
+    rgb(var(--surface)) 8px 16px,
+    rgb(var(--accent)) 16px 24px,
+    rgb(var(--surface)) 24px 32px
+  );
+  background-size: 100% 6px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: rgb(var(--surface));
+}
+[data-lang='it'] .postcard {
+  border-color: rgb(var(--accent) / 0.35);
+  box-shadow: 0 0 0 4px rgb(var(--surface)), 0 0 0 6px rgb(var(--accent) / 0.25), 0 12px 24px -14px rgb(0 0 0 / 0.3);
+}
+
+.stamp-edge {
+  --r: 5px;
+  mask:
+    radial-gradient(var(--r) at var(--r) var(--r), #0000 97%, #000) calc(-1 * var(--r)) calc(-1 * var(--r)) / calc(2 * var(--r)) calc(2 * var(--r)) round;
+}
+
+.ticket {
+  background: rgb(var(--surface));
+  border-radius: 16px;
+  border: 2px dashed rgb(var(--line));
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body,
+  html {
+    background: white !important;
+  }
+}

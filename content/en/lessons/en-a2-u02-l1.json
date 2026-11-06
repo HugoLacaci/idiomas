@@ -1,0 +1,454 @@
+{
+  "id": "en-a2-u02-l1",
+  "unit": "en-a2-u02",
+  "title": "Por los pasillos del súper",
+  "goal": "a nombrar la comida y las cosas del supermercado",
+  "emoji": "🛒",
+  "photoQuery": "supermarket aisle fresh vegetables",
+  "vocab": [
+    {
+      "id": "shop-bread",
+      "t": "bread",
+      "es": "el pan",
+      "emoji": "🍞",
+      "pos": "n",
+      "ex": {
+        "t": "We need some bread for breakfast.",
+        "es": "Necesitamos pan para el desayuno."
+      },
+      "note": "Incontable: some bread (nunca «a bread»)."
+    },
+    {
+      "id": "shop-milk",
+      "t": "milk",
+      "es": "la leche",
+      "emoji": "🥛",
+      "pos": "n",
+      "ex": {
+        "t": "There isn't any milk in the fridge.",
+        "es": "No hay leche en la nevera."
+      }
+    },
+    {
+      "id": "shop-eggs",
+      "t": "eggs",
+      "es": "los huevos",
+      "emoji": "🥚",
+      "pos": "n",
+      "ex": {
+        "t": "I need six eggs for the tortilla.",
+        "es": "Necesito seis huevos para la tortilla."
+      }
+    },
+    {
+      "id": "shop-rice",
+      "t": "rice",
+      "es": "el arroz",
+      "emoji": "🍚",
+      "pos": "n",
+      "ex": {
+        "t": "Rice is in aisle four.",
+        "es": "El arroz está en el pasillo cuatro."
+      },
+      "note": "Suena «ráis». Incontable."
+    },
+    {
+      "id": "shop-cheese",
+      "t": "cheese",
+      "es": "el queso",
+      "emoji": "🧀",
+      "pos": "n",
+      "ex": {
+        "t": "My grandson loves cheese.",
+        "es": "A mi nieto le encanta el queso."
+      }
+    },
+    {
+      "id": "shop-vegetables",
+      "t": "vegetables",
+      "es": "las verduras",
+      "emoji": "🥦",
+      "pos": "n",
+      "ex": {
+        "t": "The vegetables here are very fresh.",
+        "es": "Aquí las verduras son muy frescas."
+      },
+      "note": "Suena «véch-ta-bols»: solo tres sílabas."
+    },
+    {
+      "id": "shop-fruit",
+      "t": "fruit",
+      "es": "la fruta",
+      "emoji": "🍎",
+      "pos": "n",
+      "ex": {
+        "t": "I eat a lot of fruit.",
+        "es": "Como mucha fruta."
+      },
+      "note": "Normalmente incontable: some fruit, a piece of fruit."
+    },
+    {
+      "id": "shop-trolley",
+      "t": "trolley",
+      "es": "el carro",
+      "emoji": "🛒",
+      "pos": "n",
+      "ex": {
+        "t": "Can you push the trolley, please?",
+        "es": "¿Puedes empujar el carro, por favor?"
+      },
+      "note": "En EE. UU.: shopping cart."
+    },
+    {
+      "id": "shop-basket",
+      "t": "basket",
+      "es": "la cesta",
+      "emoji": "🧺",
+      "pos": "n",
+      "ex": {
+        "t": "I only need a basket today.",
+        "es": "Hoy solo necesito una cesta."
+      }
+    },
+    {
+      "id": "shop-checkout",
+      "t": "checkout",
+      "es": "la caja",
+      "emoji": "🧾",
+      "pos": "n",
+      "ex": {
+        "t": "There's a long queue at the checkout.",
+        "es": "Hay mucha cola en la caja."
+      }
+    }
+  ],
+  "grammar": "en-g-countable-uncountable",
+  "pron": {
+    "title": "Palabras que se comen sílabas",
+    "tip": "Los ingleses «se comen» letras: vegetables suena «véch-ta-bols» y chocolate suena «chók-let». Rice suena «ráis» y cheese «chiis», con la i larga.",
+    "words": [
+      "vegetables",
+      "chocolate",
+      "rice",
+      "cheese",
+      "trolley"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "We need ___ bread.",
+      "options": [
+        "some",
+        "a"
+      ],
+      "answer": "some",
+      "why": "Bread es incontable: some bread.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "I need six ___ for the tortilla.",
+      "options": [
+        "eggs",
+        "egg"
+      ],
+      "answer": "eggs",
+      "why": "Eggs se cuentan: six eggs, con -s.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "The rice ___ in aisle four.",
+      "options": [
+        "is",
+        "are"
+      ],
+      "answer": "is",
+      "why": "Rice es incontable: is.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Can you push the ___, please?",
+      "es": "¿Puedes empujar el carro, por favor?",
+      "answer": [
+        "trolley"
+      ],
+      "bank": [
+        "trolley",
+        "basket",
+        "checkout"
+      ],
+      "why": "El carro del súper = trolley."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "There's a long queue at the ___.",
+      "es": "Hay mucha cola en la caja.",
+      "answer": [
+        "checkout"
+      ],
+      "bank": [
+        "checkout",
+        "box",
+        "case"
+      ],
+      "why": "La caja del súper = checkout."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "The vegetables ___ very fresh today.",
+      "es": "Hoy las verduras están muy frescas.",
+      "answer": [
+        "are"
+      ],
+      "why": "Vegetables es contable plural: are.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e7",
+      "type": "match",
+      "pairs": [
+        [
+          "bread",
+          "el pan"
+        ],
+        [
+          "cheese",
+          "el queso"
+        ],
+        [
+          "rice",
+          "el arroz"
+        ],
+        [
+          "basket",
+          "la cesta"
+        ],
+        [
+          "checkout",
+          "la caja"
+        ]
+      ],
+      "why": "Palabras del supermercado."
+    },
+    {
+      "id": "e8",
+      "type": "match",
+      "pairs": [
+        [
+          "eggs",
+          "contable"
+        ],
+        [
+          "milk",
+          "incontable"
+        ],
+        [
+          "vegetables",
+          "contable"
+        ],
+        [
+          "rice",
+          "incontable"
+        ]
+      ],
+      "why": "¿Se cuentan con los dedos?",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Can I have a bread, please?",
+      "wrong": "a",
+      "fix": "some",
+      "why": "Bread no se cuenta: some bread.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "A mi nieto le encanta el queso",
+      "answer": "My grandson loves cheese",
+      "extra": [
+        "the"
+      ],
+      "why": "Hablando en general, sin the: loves cheese."
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Como mucha fruta.",
+      "answer": [
+        "I eat a lot of fruit.",
+        "I eat lots of fruit."
+      ],
+      "why": "Fruit es incontable: a lot of fruit, sin -s.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "from",
+      "q": "There isn't any milk in the fridge.",
+      "answer": [
+        "No hay leche en la nevera.",
+        "No hay leche en el frigorífico.",
+        "No queda leche en la nevera."
+      ],
+      "why": "isn't any = no hay."
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Solo vas a comprar tres cosas. ¿Qué coges en la entrada?",
+      "emoji": "🧺",
+      "options": [
+        "A basket.",
+        "A trolley.",
+        "A checkout."
+      ],
+      "answer": "A basket.",
+      "why": "Para poca compra, una cesta: a basket."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel del supermercado",
+      "text": "AISLE 3\nBread · Rice · Pasta\nFresh fruit and vegetables: AISLE 1\nMilk and cheese: AISLE 5",
+      "questions": [
+        {
+          "q": "¿Dónde está el arroz?",
+          "options": [
+            "Pasillo 3",
+            "Pasillo 1",
+            "Pasillo 5"
+          ],
+          "answer": "Pasillo 3"
+        },
+        {
+          "q": "¿Dónde están las verduras?",
+          "options": [
+            "Pasillo 1",
+            "Pasillo 3",
+            "Pasillo 5"
+          ],
+          "answer": "Pasillo 1"
+        },
+        {
+          "q": "¿Qué hay en el pasillo 5?",
+          "options": [
+            "Leche y queso",
+            "Pan y pasta",
+            "Fruta"
+          ],
+          "answer": "Leche y queso"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "We need some bread, milk and six eggs.",
+      "es": "Necesitamos pan, leche y seis huevos."
+    }
+  ],
+  "dialog": {
+    "title": "La lista de la compra",
+    "setting": "Yolanda y su amiga Marta hacen la compra juntas en el supermercado",
+    "emoji": "📝",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "OK, what's on the list?",
+        "es": "Bueno, ¿qué hay en la lista?"
+      },
+      {
+        "who": "Marta",
+        "t": "Bread, milk, eggs and some fruit.",
+        "es": "Pan, leche, huevos y fruta."
+      },
+      {
+        "who": "Yolanda",
+        "t": "How many eggs?",
+        "es": "¿Cuántos huevos?"
+      },
+      {
+        "who": "Marta",
+        "t": "A dozen. Your grandson wants a big tortilla!",
+        "es": "Una docena. ¡Tu nieto quiere una tortilla grande!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Ha ha! And cheese? He loves cheese.",
+        "es": "¡Ja, ja! ¿Y queso? Le encanta el queso."
+      },
+      {
+        "who": "Marta",
+        "t": "Yes, cheese too. Where's the rice?",
+        "es": "Sí, queso también. ¿Dónde está el arroz?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "In aisle three, next to the pasta.",
+        "es": "En el pasillo tres, al lado de la pasta."
+      },
+      {
+        "who": "Marta",
+        "t": "Perfect. Then we go to the checkout.",
+        "es": "Perfecto. Luego vamos a la caja."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuántos huevos compran?",
+        "options": [
+          "Doce",
+          "Seis",
+          "Tres"
+        ],
+        "answer": "Doce"
+      },
+      {
+        "q": "¿A quién le encanta el queso?",
+        "options": [
+          "Al nieto",
+          "A Marta",
+          "A Yolanda"
+        ],
+        "answer": "Al nieto"
+      },
+      {
+        "q": "¿Dónde está el arroz?",
+        "options": [
+          "En el pasillo tres",
+          "En la caja",
+          "Junto a la fruta"
+        ],
+        "answer": "En el pasillo tres"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Excuse me, where's the rice?",
+    "es": "Perdone, ¿dónde está el arroz?",
+    "context": "Para buscar algo en un supermercado"
+  },
+  "summary": [
+    "Comida: bread, milk, eggs, rice, cheese, fruit, vegetables",
+    "En el súper: trolley (carro), basket (cesta), checkout (caja)",
+    "Contables con -s (eggs); incontables sin a ni -s (bread, milk)",
+    "vegetables = «véch-ta-bols»"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u02-l1"
+}

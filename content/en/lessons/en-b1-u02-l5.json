@@ -1,0 +1,99 @@
+{
+  "id": "en-b1-u02-l5",
+  "unit": "en-b1-u02",
+  "title": "Reto: noticias desde Vancouver",
+  "goal": "a escribir al grupo de la familia contando lo que ya has hecho y lo que todavía no",
+  "emoji": "🏔️",
+  "photoQuery": "vancouver mountains harbour boats",
+  "vocab": [
+    { "id": "tech-group-chat", "t": "a group chat", "es": "un grupo (de WhatsApp)", "emoji": "👨‍👩‍👧", "pos": "n",
+      "ex": { "t": "I've posted the photos in the family group chat.", "es": "He puesto las fotos en el grupo de la familia." } },
+    { "id": "tech-share", "t": "share", "es": "compartir", "emoji": "🔗", "pos": "v",
+      "ex": { "t": "Can you share your location with me?", "es": "¿Me compartes tu ubicación?" } },
+    { "id": "tech-selfie", "t": "a selfie", "es": "un selfi", "emoji": "🤳", "pos": "n",
+      "ex": { "t": "We've taken a selfie with the mountains behind us.", "es": "Nos hemos hecho un selfi con las montañas detrás." } },
+    { "id": "tech-screenshot", "t": "a screenshot", "es": "una captura de pantalla", "emoji": "📸", "pos": "n",
+      "ex": { "t": "Send me a screenshot of the ticket.", "es": "Mándame una captura de pantalla del billete." } },
+    { "id": "tech-link", "t": "a link", "es": "un enlace", "emoji": "🔗", "pos": "n",
+      "ex": { "t": "I've just sent you the link to the video.", "es": "Te acabo de mandar el enlace del vídeo." } },
+    { "id": "tech-ski", "t": "ski", "es": "esquiar", "emoji": "⛷️", "pos": "v",
+      "ex": { "t": "In Vancouver you can ski and sail on the same day.", "es": "En Vancouver puedes esquiar y navegar el mismo día." } },
+    { "id": "tech-sail", "t": "sail", "es": "navegar (en barco de vela)", "emoji": "⛵", "pos": "v",
+      "ex": { "t": "We sailed around the bay this morning.", "es": "Esta mañana hemos navegado por la bahía." } },
+    { "id": "tech-ferry", "t": "a ferry", "es": "un ferri", "emoji": "⛴️", "pos": "n",
+      "ex": { "t": "We took the ferry to the island yesterday.", "es": "Ayer cogimos el ferri a la isla." } }
+  ],
+  "grammar": "en-g-pp-vs-past",
+  "pron": {
+    "title": "Vancouver y los grupos de consonantes",
+    "tip": "Vancouver se dice «van-KUU-ver», con la fuerza en el medio. En screenshot no metas una e al principio: «scriin», no «escriin».",
+    "words": ["Vancouver", "screenshot", "selfie", "share", "ski"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "message", "title": "Mensaje al grupo de la familia",
+      "text": "Hello everyone! We've been in Vancouver since Tuesday. Yesterday we took the ferry to Vancouver Island. This morning we sailed around the bay, and tomorrow we're going up the mountain to ski! I've already taken 300 photos. I haven't bought any souvenirs yet. Love, Mum",
+      "questions": [
+        { "q": "¿Desde cuándo están en Vancouver?", "options": ["Desde el martes", "Desde ayer", "Desde hace un mes"], "answer": "Desde el martes" },
+        { "q": "¿Qué hicieron ayer?", "options": ["Coger el ferri a la isla", "Esquiar", "Navegar por la bahía"], "answer": "Coger el ferri a la isla" },
+        { "q": "¿Qué no ha hecho todavía?", "options": ["Comprar recuerdos", "Hacer fotos", "Navegar"], "answer": "Comprar recuerdos" }
+      ] },
+    { "id": "e2", "type": "choose", "q": "We ___ the ferry to the island yesterday.", "options": ["took", "have taken", "take"], "answer": "took",
+      "why": "Yesterday: pasado simple.", "g": "en-g-pp-vs-past" },
+    { "id": "e3", "type": "choose", "q": "We've been in Vancouver ___ Tuesday.", "options": ["since", "for", "ago"], "answer": "since",
+      "why": "Tuesday es el momento de inicio: since.", "g": "en-g-for-since" },
+    { "id": "e4", "type": "choose", "q": "I haven't bought any souvenirs ___.", "options": ["yet", "already", "just"], "answer": "yet",
+      "why": "Negativa: not… yet = todavía no.", "g": "en-g-pp-just-already-yet" },
+    { "id": "e5", "type": "fill", "q": "I've ___ taken 300 photos!", "es": "¡Ya he hecho 300 fotos!", "answer": ["already"], "bank": ["already", "yet", "since"],
+      "why": "Ya, en afirmativa: already.", "g": "en-g-pp-just-already-yet" },
+    { "id": "e6", "type": "fill", "q": "I've just sent you the ___ to the hotel website.", "es": "Te acabo de mandar el enlace a la web del hotel.", "answer": ["link"], "bank": ["link", "screen", "group"],
+      "why": "Un enlace = a link.", "g": "en-g-pp-just-already-yet" },
+    { "id": "e7", "type": "fill", "q": "Can you send me a ___ of your boarding pass?", "es": "¿Me mandas una captura de la tarjeta de embarque?", "answer": ["screenshot"], "bank": ["screenshot", "selfie", "link"],
+      "why": "Captura de pantalla = screenshot.", "g": "en-g-pp-vs-past" },
+    { "id": "e8", "type": "conjugate", "verb": "to sail", "person": "we", "tense": "pasado simple", "q": "We ___ around the bay this morning. Now it's night.", "answer": ["sailed"],
+      "why": "La mañana ya terminó: pasado simple.", "g": "en-g-pp-vs-past" },
+    { "id": "e9", "type": "transform", "instr": "Hazla pregunta con When", "q": "You arrived in Vancouver.", "answer": ["When did you arrive in Vancouver?"],
+      "why": "When + did + verbo base.", "g": "en-g-pp-vs-past" },
+    { "id": "e10", "type": "error", "q": "Have you ever ski in the mountains?", "wrong": "ski", "fix": "skied",
+      "why": "Have + participio: skied.", "g": "en-g-pp-vs-past" },
+    { "id": "e11", "type": "error", "q": "We've been in Vancouver for Tuesday.", "wrong": "for", "fix": "since",
+      "why": "Tuesday es el día en que empezó: since Tuesday.", "g": "en-g-for-since" },
+    { "id": "e12", "type": "order", "es": "Ya he puesto las fotos en el grupo de la familia", "answer": "I have already posted the photos in the family group chat", "extra": ["yet"],
+      "why": "Already entre have y el participio.", "g": "en-g-pp-just-already-yet" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "Estamos en Vancouver desde hace tres días.", "answer": ["We've been in Vancouver for three days.", "We have been in Vancouver for three days."],
+      "why": "Empezó y sigue: present perfect + for.", "g": "en-g-for-since" },
+    { "id": "e14", "type": "situation", "context": "Tu hijo te escribe: «Have you skied yet?». Todavía no, vas mañana.", "emoji": "⛷️",
+      "options": ["Not yet! We're going tomorrow.", "Yes, I've skied tomorrow.", "No, I didn't ski since tomorrow."], "answer": "Not yet! We're going tomorrow.",
+      "why": "Todavía no = Not yet; para el plan de mañana, presente continuo.", "g": "en-g-pp-just-already-yet" },
+    { "id": "e15", "type": "match", "pairs": [["a group chat", "un grupo"], ["a selfie", "un selfi"], ["a screenshot", "una captura"], ["a link", "un enlace"], ["share", "compartir"]],
+      "why": "Vocabulario del móvil." },
+    { "id": "e16", "type": "speak", "t": "We've been here since Tuesday and we've already sailed around the bay.", "es": "Estamos aquí desde el martes y ya hemos navegado por la bahía.", "g": "en-g-pp-vs-past" }
+  ],
+  "dialog": {
+    "title": "Una videollamada desde Vancouver",
+    "setting": "Yolanda llama a Emma desde el paseo marítimo de Vancouver",
+    "emoji": "⛵",
+    "lines": [
+      { "who": "Emma", "t": "Yolanda! Where are you? I can see mountains and boats!", "es": "¡Yolanda! ¿Dónde estás? ¡Veo montañas y barcos!" },
+      { "who": "Yolanda", "t": "I'm in Vancouver! I've been here since Tuesday.", "es": "¡En Vancouver! Estoy aquí desde el martes." },
+      { "who": "Emma", "t": "How exciting! What have you done so far?", "es": "¡Qué emocionante! ¿Qué has hecho hasta ahora?" },
+      { "who": "Yolanda", "t": "We've seen Stanley Park, and we sailed this morning.", "es": "Hemos visto Stanley Park, y esta mañana hemos navegado." },
+      { "who": "Emma", "t": "Have you been up the mountains yet?", "es": "¿Ya habéis subido a las montañas?" },
+      { "who": "Yolanda", "t": "Not yet. We're going to ski tomorrow!", "es": "Todavía no. ¡Mañana vamos a esquiar!" },
+      { "who": "Emma", "t": "Sailing and skiing! Have you ever skied before?", "es": "¡Navegar y esquiar! ¿Has esquiado alguna vez?" },
+      { "who": "Yolanda", "t": "Once, in the Pyrenees, many years ago. Wish me luck!", "es": "Una vez, en el Pirineo, hace muchos años. ¡Deséame suerte!" }
+    ],
+    "questions": [
+      { "q": "¿Desde cuándo está Yolanda en Vancouver?", "options": ["Desde el martes", "Desde ayer", "Desde hace un mes"], "answer": "Desde el martes" },
+      { "q": "¿Qué ha hecho esta mañana?", "options": ["Navegar", "Esquiar", "Ir de compras"], "answer": "Navegar" },
+      { "q": "¿Cuándo esquió por última vez?", "options": ["Hace muchos años", "El año pasado", "Nunca"], "answer": "Hace muchos años" }
+    ]
+  },
+  "realLife": { "t": "I've just posted the photos in the group chat.", "es": "Acabo de poner las fotos en el grupo.", "context": "Para avisar a la familia de que ya has compartido las fotos del viaje" },
+  "summary": [
+    "Present perfect para lo que ya has hecho: I've already taken 300 photos",
+    "Pasado simple con momentos terminados: Yesterday we took the ferry",
+    "since Tuesday / for three days: lo que empezó y sigue",
+    "group chat, selfie, screenshot, link, share"
+  ],
+  "reviewed": false
+}

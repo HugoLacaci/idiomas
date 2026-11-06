@@ -1,0 +1,60 @@
+{
+  "id": "en-a1-u12-c3",
+  "unit": "en-a1-u12",
+  "title": "La despedida del A1",
+  "setting": "Último día del viaje por Londres. Emma y tú dais un paseo por Covent Garden y repasáis todo el viaje.",
+  "emoji": "🎓",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "So, it's your last day. What's your favourite place in London?", "es": "Bueno, es tu último día. ¿Cuál es tu sitio favorito de Londres?" },
+      "options": [
+        { "t": "Covent Garden! I love the street performers.", "es": "¡Covent Garden! Me encantan los artistas callejeros.", "next": "n2", "ok": true },
+        { "t": "Covent Garden! I love very much the performers.", "es": "¡Covent Garden! Me encantan los artistas.", "next": "n2", "ok": false, "feedback": "Very much va al final: I like the performers very much. Más fácil: I love the street performers." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Me too! And what time is your train tomorrow?", "es": "¡A mí también! ¿Y a qué hora sale tu tren mañana?" },
+      "options": [
+        { "t": "It's at ten in the morning.", "es": "Es a las diez de la mañana.", "next": "n3", "ok": true },
+        { "t": "Is at ten in the morning.", "es": "Es a las diez de la mañana.", "next": "n3", "ok": false, "feedback": "No olvides el sujeto: It's at ten." },
+        { "t": "It's on ten in the morning.", "es": "Es a las diez de la mañana.", "next": "n3", "ok": false, "feedback": "Con la hora se usa at: at ten." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Have you got presents for your family?", "es": "¿Tienes regalos para tu familia?" },
+      "options": [
+        { "t": "Yes, I have. I've got a souvenir for my grandson.", "es": "Sí. Tengo un recuerdo para mi nieto.", "next": "n4", "ok": true },
+        { "t": "Yes, I've got. A souvenir for my grandson.", "es": "Sí, tengo. Un recuerdo para mi nieto.", "next": "n4", "ok": false, "feedback": "Respuesta corta: Yes, I have." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Lovely. Would you like a last cup of tea?", "es": "Qué bien. ¿Te apetece un último té?" },
+      "options": [
+        { "t": "Yes, please! Let's go to the café in the market.", "es": "¡Sí, por favor! Vamos a la cafetería del mercado.", "next": "n5", "ok": true },
+        { "t": "Yes, I would like. Let's going to the café.", "es": "Sí, me gustaría. Vamos a la cafetería.", "next": "n5", "ok": false, "feedback": "Para aceptar: Yes, please! Y detrás de Let's, el verbo tal cual: Let's go." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Your English is great now. Can you come back next year?", "es": "Tu inglés ya es estupendo. ¿Puedes volver el año que viene?" },
+      "options": [
+        { "t": "I think so! I'd like to come back in spring.", "es": "¡Creo que sí! Me gustaría volver en primavera.", "next": "n6", "ok": true },
+        { "t": "Yes, I do! I'd like come back.", "es": "¡Sí! Me gustaría volver.", "next": "n6", "ok": false, "feedback": "Can you…? se contesta con can (Yes, I can) y con un verbo va to: I'd like to come back." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Wonderful! Let's keep in touch. Send me a message from Spain!", "es": "¡Maravilloso! Sigamos en contacto. ¡Mándame un mensaje desde España!" },
+      "options": [
+        { "t": "Of course! Thank you for everything, Emma. See you soon!", "es": "¡Claro! Gracias por todo, Emma. ¡Hasta pronto!", "next": "end", "ok": true },
+        { "t": "Of course! Thank you for all. See you soon!", "es": "¡Claro! Gracias por todo. ¡Hasta pronto!", "next": "end", "ok": false, "feedback": "Casi perfecto. «Gracias por todo» se dice Thank you for everything." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

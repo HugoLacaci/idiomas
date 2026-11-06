@@ -1,0 +1,59 @@
+{
+  "id": "it-a2-u04-c3",
+  "unit": "it-a2-u04",
+  "title": "Un sabor de la infancia en Génova",
+  "setting": "Estás en Génova y le escribes a Giulia por WhatsApp después de comer",
+  "emoji": "🌿",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Allora, com'è Genova? Hai mangiato il pesto?", "es": "Bueno, ¿qué tal Génova? ¿Has comido pesto?" },
+      "options": [
+        { "t": "Sì, buonissimo! Mi ricorda la mia infanzia.", "es": "¡Sí, buenísimo! Me recuerda a mi infancia.", "next": "n2", "ok": true },
+        { "t": "Sì, buonissimo! Mi ricordavo la mia infanzia.", "es": "¡Sí, buenísimo! Me acordaba de mi infancia.", "next": "n2", "ok": false, "feedback": "Ahora mismo te lo recuerda: mi ricorda, en presente." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Perché? Da piccola mangiavi il pesto?", "es": "¿Por qué? ¿De pequeña comías pesto?" },
+      "options": [
+        { "t": "No, ma c'era sempre il basilico in cucina.", "es": "No, pero siempre había albahaca en la cocina.", "next": "n3", "ok": true },
+        { "t": "No, ma c'erano sempre il basilico in cucina.", "es": "No, pero siempre había albahaca en la cocina.", "next": "n3", "ok": false, "feedback": "Il basilico es singular: c'era." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Che bello! E chi cucinava a casa tua?", "es": "¡Qué bonito! ¿Y quién cocinaba en tu casa?" },
+      "options": [
+        { "t": "Cucinavamo un po' tutti.", "es": "Cocinábamos un poco todos.", "next": "n4", "ok": true },
+        { "t": "Cucinava mia madre e io aiutavo.", "es": "Cocinaba mi madre y yo ayudaba.", "next": "n4", "ok": true },
+        { "t": "Cucinavo mia madre e io aiutava.", "es": "Cocinaba mi madre y yo ayudaba.", "next": "n4", "ok": false, "feedback": "Mia madre → cucinava; io → aiutavo." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Mia nonna invece faceva il pesto nel mortaio.", "es": "Mi abuela, en cambio, hacía el pesto en el mortero." },
+      "options": [
+        { "t": "Davvero? E tu la aiutavi?", "es": "¿De verdad? ¿Y tú la ayudabas?", "next": "n5", "ok": true },
+        { "t": "Davvero? E tu la aiutava?", "es": "¿De verdad? ¿Y tú la ayudabas?", "next": "n5", "ok": false, "feedback": "Con tu la terminación es -vi: aiutavi." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Sì, mettevo i pinoli e lei raccontava storie.", "es": "Sí, yo echaba los piñones y ella contaba historias." },
+      "options": [
+        { "t": "Che bel ricordo! Erano bei tempi.", "es": "¡Qué recuerdo tan bonito! Eran buenos tiempos.", "next": "n6", "ok": true },
+        { "t": "Che bel ricordo! Sono bei tempi.", "es": "¡Qué recuerdo tan bonito! Son buenos tiempos.", "next": "n6", "ok": false, "feedback": "Hablas del pasado: erano bei tempi." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Portami un vasetto di pesto, mi raccomando!", "es": "¡Tráeme un tarrito de pesto, eh, no te olvides!" },
+      "options": [
+        { "t": "Promesso! Ciao, a presto!", "es": "¡Prometido! ¡Adiós, hasta pronto!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

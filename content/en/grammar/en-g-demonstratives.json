@@ -1,0 +1,121 @@
+{
+  "id": "en-g-demonstratives",
+  "lang": "en",
+  "level": "A1",
+  "title": "This, that, these, those",
+  "short": "Este/esta = this; estos/estas = these; ese/aquel = that; esos/aquellos = those.",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "👉",
+      "title": "Señalar cosas",
+      "text": "Para señalar algo usamos ==this== (cerca) y ==that== (lejos). Con varias cosas: ==these== (cerca) y ==those== (lejos).",
+      "examples": [
+        { "t": "This is my bag.", "es": "Este es mi bolso.", "hl": "This" },
+        { "t": "That is your car.", "es": "Ese es tu coche.", "hl": "That" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "📋",
+      "title": "Las cuatro formas",
+      "text": "Solo hay que pensar dos cosas: ¿cerca o lejos? ¿una o varias?",
+      "table": {
+        "head": ["", "Una cosa", "Varias cosas"],
+        "rows": [
+          ["Cerca 🤲", "==this== key", "==these== keys"],
+          ["Lejos 👉", "==that== key", "==those== keys"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "emoji": "🔗",
+      "title": "Concuerdan con el verbo",
+      "text": "==This / that== van con **is**. ==These / those== van con **are**.",
+      "examples": [
+        { "t": "This is my phone.", "es": "Este es mi móvil.", "hl": "is" },
+        { "t": "These are my glasses.", "es": "Estas son mis gafas.", "hl": "are" },
+        { "t": "Are those your keys?", "es": "¿Son esas tus llaves?", "hl": "those" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "emoji": "🇪🇸",
+      "title": "Tres en español, dos en inglés",
+      "text": "En español tenemos **este, ese y aquel**. En inglés solo hay dos: ==this== (este) y ==that== (ese y aquel). Y no cambian con masculino o femenino.",
+      "examples": [
+        { "t": "that house over there", "es": "aquella casa de allí", "hl": "that" },
+        { "t": "this woman", "es": "esta mujer", "hl": "this" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "emoji": "🙋‍♀️",
+      "title": "Para presentar y por teléfono",
+      "text": "Para presentar a alguien se dice ==This is…== Al teléfono también: ==Hi, this is Yolanda==.",
+      "examples": [
+        { "t": "This is my son, Hugo.", "es": "Este es mi hijo, Hugo.", "hl": "This is" },
+        { "t": "Hello, this is Yolanda.", "es": "Hola, soy Yolanda.", "hl": "this is" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo con estos errores!",
+      "text": "❌ this keys → ✅ ==these== keys. ❌ These is my bag → ✅ ==This is== my bag. Al responder usa **it** o **they**: Is this your bag? Yes, ==it is==."
+    },
+    {
+      "kind": "tip",
+      "emoji": "💡",
+      "title": "This y these suenan distinto",
+      "text": "==this== tiene una «i» corta y una «s» normal. ==these== tiene una «i» larga y termina en «z» suave: «dhiiz». Alarga la i y lo notarán."
+    }
+  ],
+  "compare": {
+    "es": "En español hay tres distancias (este, ese, aquel) y cada una cambia con el género y el número (este, esta, estos, estas…).",
+    "target": "En inglés solo hay dos distancias (this = cerca, that = lejos) y solo cambian con el número: this/that (una cosa), these/those (varias)."
+  },
+  "errors": [
+    { "wrong": "This keys are mine.", "right": "These keys are mine.", "why": "Keys es plural, así que necesitas these." },
+    { "wrong": "These is my husband.", "right": "This is my husband.", "why": "Es una sola persona: this is." },
+    { "wrong": "Those is your shoes.", "right": "Those are your shoes.", "why": "Those es plural y va con are." },
+    { "wrong": "Is this your bag? Yes, this is.", "right": "Is this your bag? Yes, it is.", "why": "En las respuestas cortas cambiamos this/that por it." },
+    { "wrong": "I am Yolanda (al teléfono).", "right": "Hello, this is Yolanda.", "why": "Al teléfono los ingleses se presentan con this is." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "___ is my bag. (aquí, en mi mano)", "es": "Este es mi bolso.", "options": ["This", "These", "Those"], "answer": "This", "why": "Una cosa y cerca: this.", "g": "en-g-demonstratives" },
+    { "id": "e2", "type": "choose", "q": "___ are my keys. (aquí, en mi mano)", "es": "Estas son mis llaves.", "options": ["This", "These", "That"], "answer": "These", "why": "Varias cosas y cerca: these.", "g": "en-g-demonstratives" },
+    { "id": "e3", "type": "choose", "q": "Look at ___ house over there!", "es": "¡Mira aquella casa de allí!", "options": ["this", "that", "those"], "answer": "that", "why": "Una cosa y lejos: that.", "g": "en-g-demonstratives" },
+    { "id": "e4", "type": "choose", "q": "Are ___ your shoes over there?", "es": "¿Son esos tus zapatos de allí?", "options": ["those", "that", "this"], "answer": "those", "why": "Varias cosas y lejos: those.", "g": "en-g-demonstratives" },
+    { "id": "e5", "type": "choose", "q": "These ___ my grandchildren.", "es": "Estos son mis nietos.", "options": ["is", "are"], "answer": "are", "why": "These es plural: these are.", "g": "en-g-demonstratives" },
+    { "id": "e6", "type": "choose", "q": "That ___ a beautiful dress.", "es": "Ese es un vestido precioso.", "options": ["is", "are"], "answer": "is", "why": "That es singular: that is.", "g": "en-g-demonstratives" },
+    { "id": "e7", "type": "fill", "q": "___ is my son, Hugo.", "es": "Este es mi hijo, Hugo.", "answer": ["This"], "bank": ["This", "These", "Those"], "why": "Para presentar a una persona: this is.", "g": "en-g-demonstratives" },
+    { "id": "e8", "type": "fill", "q": "How much are ___ glasses here?", "es": "¿Cuánto cuestan estas gafas de aquí?", "answer": ["these"], "bank": ["this", "these", "that"], "why": "Glasses es plural y están cerca: these.", "g": "en-g-demonstratives" },
+    { "id": "e9", "type": "fill", "q": "Who is ___ man over there?", "es": "¿Quién es aquel hombre de allí?", "answer": ["that"], "bank": ["this", "that", "those"], "why": "Una persona lejos (over there): that.", "g": "en-g-demonstratives" },
+    { "id": "e10", "type": "fill", "q": "Hello, ___ is Yolanda. Is Hugo there?", "es": "Hola, soy Yolanda. ¿Está Hugo?", "answer": ["this"], "why": "Al teléfono decimos «this is» + tu nombre.", "g": "en-g-demonstratives" },
+    { "id": "e11", "type": "fill", "q": "Is this your umbrella? Yes, ___ is.", "es": "¿Es tuyo este paraguas? Sí.", "answer": ["it"], "why": "En la respuesta corta usamos it, no this.", "g": "en-g-demonstratives" },
+    { "id": "e12", "type": "fill", "q": "Are these your keys? Yes, ___ are.", "es": "¿Son tuyas estas llaves? Sí.", "answer": ["they"], "why": "En la respuesta corta en plural usamos they.", "g": "en-g-demonstratives" },
+    { "id": "e13", "type": "match", "pairs": [["this", "este / esta"], ["these", "estos / estas"], ["that", "ese / aquel"], ["those", "esos / aquellos"]], "why": "Cerca: this/these. Lejos: that/those.", "g": "en-g-demonstratives" },
+    { "id": "e14", "type": "error", "q": "This keys are on the table.", "wrong": "This", "fix": "These", "why": "Keys es plural: these keys.", "g": "en-g-demonstratives" },
+    { "id": "e15", "type": "error", "q": "These is my new mobile.", "wrong": "These", "fix": "This", "why": "Mobile es una sola cosa: this is.", "g": "en-g-demonstratives" },
+    { "id": "e16", "type": "error", "q": "Those flowers is beautiful.", "wrong": "is", "fix": "are", "why": "Flowers y those son plurales: are.", "g": "en-g-demonstratives" },
+    { "id": "e17", "type": "error", "q": "I love these dress.", "wrong": "these", "fix": "this", "why": "Dress es singular: this dress.", "g": "en-g-demonstratives" },
+    { "id": "e18", "type": "error", "q": "Is this your coat? Yes, that is.", "wrong": "that", "fix": "it", "why": "En la respuesta corta usamos it: Yes, it is.", "g": "en-g-demonstratives" },
+    { "id": "e19", "type": "transform", "instr": "Pásala a plural", "q": "This is my key.", "answer": ["These are my keys."], "why": "This → these, is → are, key → keys.", "g": "en-g-demonstratives" },
+    { "id": "e20", "type": "transform", "instr": "Pásala a plural", "q": "That bag is old.", "answer": ["Those bags are old."], "why": "That → those, bag → bags, is → are.", "g": "en-g-demonstratives" },
+    { "id": "e21", "type": "transform", "instr": "Pásala a singular", "q": "These cups are clean.", "answer": ["This cup is clean."], "why": "These → this, cups → cup, are → is.", "g": "en-g-demonstratives" },
+    { "id": "e22", "type": "transform", "instr": "Hazla pregunta", "q": "This is your phone.", "answer": ["Is this your phone?"], "why": "En la pregunta, is va delante: Is this…?", "g": "en-g-demonstratives" },
+    { "id": "e23", "type": "order", "es": "Estas son mis gafas", "answer": "These are my glasses", "extra": ["is", "this"], "why": "Glasses es plural: these are.", "g": "en-g-demonstratives" },
+    { "id": "e24", "type": "order", "es": "¿Es ese tu coche?", "answer": "Is that your car", "extra": ["those"], "why": "Pregunta: is delante. Un coche lejos: that.", "g": "en-g-demonstratives" },
+    { "id": "e25", "type": "order", "es": "Esta es mi amiga Lucía", "answer": "This is my friend Lucía", "extra": ["these"], "why": "Para presentar a una persona: this is.", "g": "en-g-demonstratives" },
+    { "id": "e26", "type": "translate", "dir": "to", "q": "Estos son mis nietos.", "answer": ["These are my grandchildren.", "These are my grandsons."], "why": "Plural y cerca: these are.", "g": "en-g-demonstratives" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "¿Cuánto cuesta ese bolso?", "answer": ["How much is that bag?", "How much does that bag cost?"], "why": "Un bolso que no está en tu mano: that.", "g": "en-g-demonstratives" },
+    { "id": "e28", "type": "translate", "dir": "from", "q": "Those shoes are very nice.", "answer": ["Esos zapatos son muy bonitos.", "Aquellos zapatos son muy bonitos.", "Esos zapatos son muy chulos."], "why": "Those = esos / aquellos.", "g": "en-g-demonstratives" },
+    { "id": "e29", "type": "situation", "context": "Presentas a tu marido a una amiga inglesa.", "emoji": "🤝", "options": ["This is my husband.", "Those are my husband.", "These is my husband."], "answer": "This is my husband.", "why": "Para presentar a alguien: This is…", "g": "en-g-demonstratives" },
+    { "id": "e30", "type": "situation", "context": "Llamas por teléfono al hotel de Londres.", "emoji": "📞", "options": ["Hello, this is Yolanda García.", "Hello, I am this Yolanda García.", "Hello, these is Yolanda García."], "answer": "Hello, this is Yolanda García.", "why": "Al teléfono te presentas con this is.", "g": "en-g-demonstratives" },
+    { "id": "e31", "type": "situation", "context": "En el mercado señalas unas naranjas lejos, al fondo del puesto.", "emoji": "🍊", "options": ["How much are those oranges?", "How much is that oranges?", "How much are this oranges?"], "answer": "How much are those oranges?", "why": "Varias cosas y lejos: those… are.", "g": "en-g-demonstratives" },
+    { "id": "e32", "type": "minimal", "pair": ["this", "these"], "answer": "these", "es": ["este", "estos"], "why": "These tiene la i larga y acaba en z suave.", "g": "en-g-demonstratives" }
+  ],
+  "reviewed": false
+}

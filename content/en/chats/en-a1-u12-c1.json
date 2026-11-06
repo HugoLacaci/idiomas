@@ -1,0 +1,60 @@
+{
+  "id": "en-a1-u12-c1",
+  "unit": "en-a1-u12",
+  "title": "Emma te presenta a su amigo",
+  "setting": "En la plaza de Covent Garden, Emma llega con un amigo suyo, Jack, y te lo presenta.",
+  "emoji": "🤝",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, let me introduce my friend Jack. Jack, this is Yolanda.", "es": "Yolanda, te presento a mi amigo Jack. Jack, esta es Yolanda." },
+      "options": [
+        { "t": "Hello, Jack! Nice to meet you.", "es": "¡Hola, Jack! Encantada de conocerte.", "next": "n2", "ok": true },
+        { "t": "Hello, Jack! Nice to know you.", "es": "¡Hola, Jack! Encantada de conocerte.", "next": "n2", "ok": false, "feedback": "Al conocer a alguien se dice Nice to meet you, no to know." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Nice to meet you too! Emma says you're from Spain. Are you from Madrid?", "es": "¡Igualmente! Emma dice que eres de España. ¿Eres de Madrid?" },
+      "options": [
+        { "t": "No, I'm not. I'm from a small town. What about you?", "es": "No. Soy de un pueblo pequeño. ¿Y tú?", "next": "n3", "ok": true },
+        { "t": "No, I don't. I'm from a small town.", "es": "No. Soy de un pueblo pequeño.", "next": "n3", "ok": false, "feedback": "La pregunta lleva are: No, I'm not." },
+        { "t": "No, I amn't.", "es": "No.", "next": "n3", "ok": false, "feedback": "Con I no existe amn't: No, I'm not." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "I'm from London. I live near here. Do you like Covent Garden?", "es": "Soy de Londres. Vivo cerca de aquí. ¿Te gusta Covent Garden?" },
+      "options": [
+        { "t": "Yes, I do! I like it very much.", "es": "¡Sí! Me gusta mucho.", "next": "n4", "ok": true },
+        { "t": "Yes, I like very much it.", "es": "Sí, me gusta mucho.", "next": "n4", "ok": false, "feedback": "Very much va al final: I like it very much. Y la respuesta corta: Yes, I do!" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Me too. I come here every Sunday. Do you know the name comes from a convent garden?", "es": "A mí también. Vengo todos los domingos. ¿Sabes que el nombre viene de un huerto de un convento?" },
+      "options": [
+        { "t": "Really? How interesting!", "es": "¿De verdad? ¡Qué interesante!", "next": "n5", "ok": true },
+        { "t": "Me neither!", "es": "¡Yo tampoco!", "next": "n5", "ok": false, "feedback": "Me neither es para estar de acuerdo con algo negativo. Para mostrar sorpresa: Really?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Yes! The monks of Westminster had a garden here. So, what do you do, Yolanda?", "es": "¡Sí! Los monjes de Westminster tenían aquí un huerto. Bueno, ¿y a qué te dedicas, Yolanda?" },
+      "options": [
+        { "t": "I'm on holiday now! I'm here to see London and practise my English.", "es": "¡Ahora estoy de vacaciones! He venido a ver Londres y a practicar mi inglés.", "next": "n6", "ok": true },
+        { "t": "I'm on holiday. Am here for see London.", "es": "Estoy de vacaciones. Estoy aquí para ver Londres.", "next": "n6", "ok": false, "feedback": "Falta el sujeto (I'm here) y para expresar finalidad se usa to: to see London." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Your English is very good! Let's have a drink together.", "es": "¡Tu inglés es muy bueno! Vamos a tomar algo juntos." },
+      "options": [
+        { "t": "Thank you! Yes, let's!", "es": "¡Gracias! ¡Sí, venga!", "next": "end", "ok": true },
+        { "t": "Thank you! Yes, let's to go!", "es": "¡Gracias! ¡Sí, vamos!", "next": "end", "ok": false, "feedback": "Sin to: Yes, let's! o Let's go!" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

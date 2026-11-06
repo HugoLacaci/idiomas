@@ -1,0 +1,62 @@
+{
+  "id": "en-b1-u05-c1",
+  "unit": "en-b1-u05",
+  "title": "¿Qué harías con la lotería?",
+  "setting": "Emma te escribe desde Londres: ha comprado un boleto de lotería y quiere saber qué harías tú si ganaras.",
+  "emoji": "🎟️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda! I've bought a lottery ticket. What would you do if you won?", "es": "¡Yolanda! He comprado un boleto de lotería. ¿Qué harías tú si ganaras?" },
+      "options": [
+        { "t": "I'd travel around the world!", "es": "¡Daría la vuelta al mundo!", "next": "n2", "ok": true },
+        { "t": "I will travel around the world!", "es": "¡Daría la vuelta al mundo!", "next": "n2", "ok": false, "feedback": "Es imaginario: I'd (I would), no I will." },
+        { "t": "I travelled around the world!", "es": "¡Daría la vuelta al mundo!", "next": "n2", "ok": false, "feedback": "Travelled es pasado. Para «daría»: I'd travel." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Lovely! Where would you go first?", "es": "¡Qué bonito! ¿Adónde irías primero?" },
+      "options": [
+        { "t": "I'd go to New Zealand. It's my dream.", "es": "Iría a Nueva Zelanda. Es mi sueño.", "next": "n3", "ok": true },
+        { "t": "I'd went to New Zealand. It's my dream.", "es": "Iría a Nueva Zelanda. Es mi sueño.", "next": "n3", "ok": false, "feedback": "Después de I'd, el verbo en su forma base: I'd go." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Great choice! Would you give up work?", "es": "¡Buena elección! ¿Dejarías de trabajar?" },
+      "options": [
+        { "t": "No, I wouldn't. I'd get bored.", "es": "No. Me aburriría.", "next": "n4", "ok": true },
+        { "t": "No, I won't. I'd get bored.", "es": "No. Me aburriría.", "next": "n4", "ok": false, "feedback": "Responde con el mismo verbo de la pregunta: Would you…? — No, I wouldn't." },
+        { "t": "No, I don't. I'd get bored.", "es": "No. Me aburriría.", "next": "n4", "ok": false, "feedback": "La pregunta es con would, así que: No, I wouldn't." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ha ha! And would you help your family?", "es": "¡Ja, ja! ¿Y ayudarías a tu familia?" },
+      "options": [
+        { "t": "Of course! I'd share the money with my son Hugo.", "es": "¡Claro! Repartiría el dinero con mi hijo Hugo.", "next": "n5", "ok": true },
+        { "t": "Of course! I'd to share the money with my son Hugo.", "es": "¡Claro! Repartiría el dinero con mi hijo Hugo.", "next": "n5", "ok": false, "feedback": "Después de I'd no va to: I'd share." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "That's sweet. I'd buy a little cottage by the sea.", "es": "Qué detalle. Yo me compraría una casita junto al mar." },
+      "options": [
+        { "t": "If I were you, I'd buy a big one!", "es": "¡Yo que tú, me compraría una grande!", "next": "n6", "ok": true },
+        { "t": "If I would be you, I'd buy a big one!", "es": "¡Yo que tú, me compraría una grande!", "next": "n6", "ok": false, "feedback": "Detrás de if nunca va would: If I were you." },
+        { "t": "If I am you, I'd buy a big one!", "es": "¡Yo que tú, me compraría una grande!", "next": "n6", "ok": false, "feedback": "Es imaginario (no eres ella): If I were you." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ha ha! Good idea. Well, first I need to win!", "es": "¡Ja, ja! Buena idea. ¡Bueno, primero tengo que ganar!" },
+      "options": [
+        { "t": "Good luck! If you win, I'll visit you.", "es": "¡Suerte! Si ganas, iré a verte.", "next": "end", "ok": true },
+        { "t": "Good luck! It's a big illusion for me.", "es": "¡Suerte! Me hace mucha ilusión.", "next": "end", "ok": false, "feedback": "¡Falso amigo! Illusion es un espejismo. Para la ilusión: I'm so excited." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

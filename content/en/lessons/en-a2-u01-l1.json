@@ -1,0 +1,440 @@
+{
+  "id": "en-a2-u01-l1",
+  "unit": "en-a2-u01",
+  "title": "¿Qué haces ahora?",
+  "goal": "a nombrar lo que haces en casa ahora mismo",
+  "emoji": "🏠",
+  "photoQuery": "kitchen cooking dinner home",
+  "vocab": [
+    {
+      "id": "now-cooking-dinner",
+      "t": "cooking dinner",
+      "es": "haciendo la cena",
+      "emoji": "🍳",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm cooking dinner for the family.",
+        "es": "Estoy haciendo la cena para la familia."
+      }
+    },
+    {
+      "id": "now-doing-the-washing-up",
+      "t": "doing the washing-up",
+      "es": "fregando los platos",
+      "emoji": "🍽️",
+      "pos": "phrase",
+      "ex": {
+        "t": "My husband is doing the washing-up.",
+        "es": "Mi marido está fregando los platos."
+      },
+      "note": "En EE. UU.: doing the dishes."
+    },
+    {
+      "id": "now-hanging-out-the-washing",
+      "t": "hanging out the washing",
+      "es": "tendiendo la ropa",
+      "emoji": "👕",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm hanging out the washing on the balcony.",
+        "es": "Estoy tendiendo la ropa en el balcón."
+      }
+    },
+    {
+      "id": "now-ironing",
+      "t": "ironing",
+      "es": "planchando",
+      "emoji": "🧺",
+      "pos": "v",
+      "ex": {
+        "t": "She's ironing a shirt.",
+        "es": "Está planchando una camisa."
+      },
+      "note": "Suena «áyerning»: la r casi no se oye."
+    },
+    {
+      "id": "now-having-a-shower",
+      "t": "having a shower",
+      "es": "duchándose",
+      "emoji": "🚿",
+      "pos": "phrase",
+      "ex": {
+        "t": "Hugo can't talk. He's having a shower.",
+        "es": "Hugo no puede hablar. Se está duchando."
+      },
+      "note": "En EE. UU.: taking a shower."
+    },
+    {
+      "id": "now-watching-tv",
+      "t": "watching TV",
+      "es": "viendo la tele",
+      "emoji": "📺",
+      "pos": "phrase",
+      "ex": {
+        "t": "The children are watching TV.",
+        "es": "Los niños están viendo la tele."
+      }
+    },
+    {
+      "id": "now-walking-the-dog",
+      "t": "walking the dog",
+      "es": "paseando al perro",
+      "emoji": "🐕",
+      "pos": "phrase",
+      "ex": {
+        "t": "My neighbour is walking the dog.",
+        "es": "Mi vecino está paseando al perro."
+      }
+    },
+    {
+      "id": "now-having-a-nap",
+      "t": "having a nap",
+      "es": "echándose la siesta",
+      "emoji": "😴",
+      "pos": "phrase",
+      "ex": {
+        "t": "Grandad is having a nap on the sofa.",
+        "es": "El abuelo se está echando la siesta en el sofá."
+      }
+    },
+    {
+      "id": "now-at-the-moment",
+      "t": "at the moment",
+      "es": "en este momento",
+      "emoji": "⏱️",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm very busy at the moment.",
+        "es": "Estoy muy liada en este momento."
+      }
+    },
+    {
+      "id": "now-right-now",
+      "t": "right now",
+      "es": "ahora mismo",
+      "emoji": "⚡",
+      "pos": "adv",
+      "ex": {
+        "t": "I'm on the bus right now.",
+        "es": "Ahora mismo estoy en el autobús."
+      }
+    }
+  ],
+  "grammar": "en-g-present-continuous",
+  "pron": {
+    "title": "La terminación -ing",
+    "tip": "-ing suena /ɪŋ/: una i corta y una n que se queda en la garganta, como la n de «tengo». ¡No añadas una «e» ni una «g» fuerte al final: cooking, no «cookingue»!",
+    "words": [
+      "cooking",
+      "ironing",
+      "watching",
+      "walking",
+      "having",
+      "doing"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I'm ___ dinner. Call me later!",
+      "options": [
+        "cooking",
+        "cook",
+        "cooks"
+      ],
+      "answer": "cooking",
+      "why": "Después de I'm, el verbo lleva -ing.",
+      "g": "en-g-present-continuous"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "My husband ___ doing the washing-up.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "answer": "is",
+      "why": "My husband = he: is.",
+      "g": "en-g-present-continuous"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "The children ___ watching TV.",
+      "options": [
+        "are",
+        "is"
+      ],
+      "answer": "are",
+      "why": "The children = they: are.",
+      "g": "en-g-present-continuous"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "She's ___ out the washing.",
+      "es": "Está tendiendo la ropa.",
+      "answer": [
+        "hanging"
+      ],
+      "bank": [
+        "hanging",
+        "hang",
+        "hangs"
+      ],
+      "why": "is + verbo-ing: hanging.",
+      "g": "en-g-present-continuous"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Grandad is having a ___ on the sofa.",
+      "es": "El abuelo se está echando la siesta en el sofá.",
+      "answer": [
+        "nap"
+      ],
+      "bank": [
+        "nap",
+        "shower",
+        "dog"
+      ],
+      "why": "Echarse la siesta = have a nap."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I'm very busy at the ___.",
+      "es": "Estoy muy liada en este momento.",
+      "answer": [
+        "moment"
+      ],
+      "why": "En este momento = at the moment."
+    },
+    {
+      "id": "e7",
+      "type": "match",
+      "pairs": [
+        [
+          "ironing",
+          "planchando"
+        ],
+        [
+          "walking the dog",
+          "paseando al perro"
+        ],
+        [
+          "having a shower",
+          "duchándose"
+        ],
+        [
+          "doing the washing-up",
+          "fregando los platos"
+        ],
+        [
+          "watching TV",
+          "viendo la tele"
+        ]
+      ],
+      "why": "Actividades de casa con -ing."
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Mi vecino está paseando al perro",
+      "answer": "My neighbour is walking the dog",
+      "extra": [
+        "walk"
+      ],
+      "why": "is + walking.",
+      "g": "en-g-present-continuous"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Estoy en el autobús ahora mismo",
+      "answer": "I'm on the bus right now",
+      "extra": [
+        "in"
+      ],
+      "alt": [
+        "Right now I'm on the bus"
+      ],
+      "why": "Right now suele ir al final."
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "Estoy planchando.",
+      "answer": [
+        "I'm ironing.",
+        "I am ironing.",
+        "I'm doing the ironing."
+      ],
+      "why": "Planchar = iron; ahora: I'm ironing.",
+      "g": "en-g-present-continuous"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "from",
+      "q": "He's having a shower.",
+      "answer": [
+        "Se está duchando.",
+        "Está duchándose.",
+        "Se está dando una ducha.",
+        "Está en la ducha."
+      ],
+      "why": "Have a shower = ducharse.",
+      "g": "en-g-present-continuous"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Tu hija te llama, pero estás tendiendo la ropa en el balcón.",
+      "emoji": "👕",
+      "options": [
+        "Sorry, I'm hanging out the washing.",
+        "Sorry, I hang out the washing.",
+        "Sorry, I'm hang out the washing."
+      ],
+      "answer": "Sorry, I'm hanging out the washing.",
+      "why": "Ahora mismo: I'm + hanging.",
+      "g": "en-g-present-continuous"
+    },
+    {
+      "id": "e13",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de la familia",
+      "text": "Hugo: Hi Mum! What are you doing?\nMum: I'm ironing and Dad is having a nap.\nHugo: Is the dog OK?\nMum: Yes, he's sleeping too!",
+      "questions": [
+        {
+          "q": "¿Qué está haciendo la madre?",
+          "options": [
+            "Planchando",
+            "Cocinando",
+            "Durmiendo"
+          ],
+          "answer": "Planchando"
+        },
+        {
+          "q": "¿Qué hace el padre?",
+          "options": [
+            "La siesta",
+            "La compra",
+            "Pasear al perro"
+          ],
+          "answer": "La siesta"
+        },
+        {
+          "q": "¿Y el perro?",
+          "options": [
+            "Está durmiendo",
+            "Está comiendo",
+            "Está en la calle"
+          ],
+          "answer": "Está durmiendo"
+        }
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "speak",
+      "t": "I'm cooking and my husband is watching TV.",
+      "es": "Yo estoy cocinando y mi marido está viendo la tele."
+    }
+  ],
+  "dialog": {
+    "title": "Una videollamada a la hora de la cena",
+    "setting": "Hugo llama a su madre por videollamada desde otra ciudad",
+    "emoji": "📲",
+    "lines": [
+      {
+        "who": "Hugo",
+        "t": "Hi Mum! Are you busy?",
+        "es": "¡Hola, mamá! ¿Estás liada?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "A little. I'm cooking dinner.",
+        "es": "Un poco. Estoy haciendo la cena."
+      },
+      {
+        "who": "Hugo",
+        "t": "What are you making?",
+        "es": "¿Qué estás preparando?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Lentils. Your favourite!",
+        "es": "Lentejas. ¡Tus favoritas!"
+      },
+      {
+        "who": "Hugo",
+        "t": "Lucky you! And where's Dad?",
+        "es": "¡Qué suerte! ¿Y dónde está papá?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "He's walking the dog right now.",
+        "es": "Ahora mismo está paseando al perro."
+      },
+      {
+        "who": "Hugo",
+        "t": "Ha ha! I'm watching the match with my friends.",
+        "es": "¡Ja, ja! Yo estoy viendo el partido con mis amigos."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Good night, love! Talk tomorrow.",
+        "es": "¡Buenas noches, cariño! Hablamos mañana."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué está cocinando Yolanda?",
+        "options": [
+          "Lentejas",
+          "Paella",
+          "Tortilla"
+        ],
+        "answer": "Lentejas"
+      },
+      {
+        "q": "¿Dónde está el padre?",
+        "options": [
+          "Paseando al perro",
+          "En la ducha",
+          "Viendo la tele"
+        ],
+        "answer": "Paseando al perro"
+      },
+      {
+        "q": "¿Qué está haciendo Hugo?",
+        "options": [
+          "Ver el partido con amigos",
+          "Ducharse",
+          "Cenar lentejas"
+        ],
+        "answer": "Ver el partido con amigos"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Sorry, I'm busy right now. Can I call you back?",
+    "es": "Perdona, ahora mismo estoy liada. ¿Te llamo luego?",
+    "context": "Cuando te llaman en mal momento"
+  },
+  "summary": [
+    "Para lo que pasa ahora: am / is / are + verbo-ing",
+    "Tareas de casa: cooking, ironing, doing the washing-up, hanging out the washing",
+    "Have + algo: having a shower, having a nap",
+    "Palabras pista: right now, at the moment"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u01-l1"
+}

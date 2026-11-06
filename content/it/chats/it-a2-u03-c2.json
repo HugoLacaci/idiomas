@@ -1,0 +1,59 @@
+{
+  "id": "it-a2-u03-c2",
+  "unit": "it-a2-u03",
+  "title": "Una mañana desastrosa",
+  "setting": "Has quedado con Giulia en un café de Roma y llegas tarde",
+  "emoji": "😅",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Eccoti, finalmente! Tutto bene?", "es": "¡Por fin llegas! ¿Todo bien?" },
+      "options": [
+        { "t": "Scusa! Mi sono svegliata tardi.", "es": "¡Perdona! Me he despertado tarde.", "next": "n2", "ok": true },
+        { "t": "Scusa! Mi ho svegliata tardi.", "es": "¡Perdona! Me he despertado tarde.", "next": "n2", "ok": false, "feedback": "Los reflexivos van con essere: mi sono svegliata." },
+        { "t": "Scusa! Mi sono svegliato tardi.", "es": "¡Perdona! Me he despertado tarde.", "next": "n2", "ok": false, "feedback": "Eres mujer: svegliata." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Non hai sentito la sveglia?", "es": "¿No has oído el despertador?" },
+      "options": [
+        { "t": "No, e anche mio marito si è addormentato di nuovo!", "es": "¡No, y mi marido también se ha vuelto a dormir!", "next": "n3", "ok": true },
+        { "t": "No, e anche mio marito si è addormentata di nuovo!", "es": "¡No, y mi marido también se ha vuelto a dormir!", "next": "n3", "ok": false, "feedback": "Tu marido es un hombre: addormentato." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Poverina! E poi?", "es": "¡Pobrecita! ¿Y luego?" },
+      "options": [
+        { "t": "Mi sono vestita in due minuti e sono uscita.", "es": "Me he vestido en dos minutos y he salido.", "next": "n4", "ok": true },
+        { "t": "Ho vestito in due minuti e sono uscita.", "es": "Me he vestido en dos minutos y he salido.", "next": "n4", "ok": false, "feedback": "Vestirse a una misma es reflexivo: mi sono vestita." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ma sei bellissima lo stesso! Ti sei truccata?", "es": "¡Pero estás guapísima igual! ¿Te has maquillado?" },
+      "options": [
+        { "t": "No, non mi sono truccata. Non c'era tempo!", "es": "No, no me he maquillado. ¡No había tiempo!", "next": "n5", "ok": true },
+        { "t": "No, mi non sono truccata. Non c'era tempo!", "es": "No, no me he maquillado. ¡No había tiempo!", "next": "n5", "ok": false, "feedback": "Non va delante del pronombre: non mi sono truccata." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Adesso siediti e riposati. Cosa prendi?", "es": "Ahora siéntate y descansa. ¿Qué tomas?" },
+      "options": [
+        { "t": "Un cappuccino, grazie. Adesso mi sento meglio!", "es": "Un capuchino, gracias. ¡Ahora me encuentro mejor!", "next": "n6", "ok": true },
+        { "t": "Un cappuccino, grazie. Adesso sento meglio!", "es": "Un capuchino, gracias. ¡Ahora me encuentro mejor!", "next": "n6", "ok": false, "feedback": "Encontrarse = sentirsi: mi sento meglio." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Brava. Domani metti due sveglie!", "es": "Muy bien. ¡Mañana pon dos despertadores!" },
+      "options": [
+        { "t": "Promesso! Domani mi alzo presto.", "es": "¡Prometido! Mañana me levanto temprano.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,133 @@
+{
+  "id": "it-g-sapere",
+  "lang": "it",
+  "level": "A1",
+  "title": "Sapere (y su diferencia con conoscere)",
+  "short": "Saber un dato o hacer algo es sapere; conocer un sitio o a alguien es conoscere.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "¿Sabe dónde está…?",
+      "emoji": "🤔",
+      "text": "De viaje preguntas mucho «¿sabe…?» y contestas «no lo sé». En italiano el verbo es **sapere**, y es irregular pero cortito.",
+      "examples": [
+        { "t": "Scusi, ==sa== dov'è l'ascensore?", "es": "Perdone, ¿sabe dónde está el ascensor?", "hl": "sa" },
+        { "t": "Non lo ==so==.", "es": "No lo sé.", "hl": "so" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Sapere y conoscere",
+      "emoji": "📋",
+      "text": "Sapere es irregular; conoscere es regular, pero ojo al sonido: conos**co** (k) y conos**ci** (sh).",
+      "table": {
+        "head": ["", "sapere (saber)", "conoscere (conocer)"],
+        "rows": [
+          ["io", "==so==", "conosco"],
+          ["tu", "==sai==", "conosci"],
+          ["lui / lei / Lei", "==sa==", "conosce"],
+          ["noi", "==sappiamo==", "conosciamo"],
+          ["voi", "sapete", "conoscete"],
+          ["loro", "==sanno==", "conoscono"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Sapere: datos y habilidades",
+      "emoji": "🧠",
+      "text": "Usa **sapere** para un dato (==sai dov'è…?==, ==so che…==) y para saber hacer algo: ==so nuotare==. Detrás puede ir un infinitivo, dove, perché, se, che…",
+      "examples": [
+        { "t": "==So== cucinare la paella.", "es": "Sé cocinar paella.", "hl": "So" },
+        { "t": "Non ==sappiamo== se c'è posto.", "es": "No sabemos si hay sitio.", "hl": "sappiamo" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Conoscere: personas y lugares",
+      "emoji": "🤝",
+      "text": "Usa **conoscere** con personas, ciudades, restaurantes… cosas que has visto o tratado: ==conosco Roma==, ==conosci mia sorella?==",
+      "examples": [
+        { "t": "==Conosce== un buon ristorante?", "es": "¿Conoce un buen restaurante?", "hl": "Conosce" },
+        { "t": "Non ==conosco== Catania.", "es": "No conozco Catania.", "hl": "conosco" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "¡Buena noticia! El reparto es igual que en español: saber / sapere, conocer / conoscere. Solo cambia la forma: yo sé = ==io so==.",
+      "examples": [
+        { "t": "==So== dov'è.", "es": "Sé dónde está.", "hl": "So" },
+        { "t": "==Conosco== la strada.", "es": "Conozco el camino.", "hl": "Conosco" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "Errores típicos",
+      "emoji": "⚠️",
+      "text": "Cuidado con estos:",
+      "examples": [
+        { "t": "❌ Io sé → ✅ Io ==so==", "es": "Yo sé", "hl": "so" },
+        { "t": "❌ So Roma → ✅ ==Conosco== Roma", "es": "Conozco Roma", "hl": "Conosco" },
+        { "t": "❌ Non so → ✅ Non ==lo== so (para responder)", "es": "No lo sé", "hl": "lo" }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Truco",
+      "emoji": "💡",
+      "text": "Memoriza dos frases de bolsillo: ==Scusi, sa dov'è…?== para preguntar, y ==Non lo so, mi dispiace== para contestar.",
+      "examples": [
+        { "t": "Non lo ==so==, mi dispiace.", "es": "No lo sé, lo siento.", "hl": "so" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: sé, sabes, sabe (datos y habilidades) y conozco, conoces (personas y lugares).",
+    "target": "En italiano igual: so, sai, sa (sapere) y conosco, conosci (conoscere). Yo sé = io so."
+  },
+  "errors": [
+    { "wrong": "Io sé dov'è la stazione.", "right": "Io so dov'è la stazione.", "why": "Yo sé es io so." },
+    { "wrong": "Sai mia sorella?", "right": "Conosci mia sorella?", "why": "A una persona se la conoce: conoscere." },
+    { "wrong": "Mio marito sa bene Palermo.", "right": "Mio marito conosce bene Palermo.", "why": "Una ciudad se conoce: conoscere." },
+    { "wrong": "Noi sapiamo nuotare.", "right": "Noi sappiamo nuotare.", "why": "Sappiamo lleva doble p." },
+    { "wrong": "Loro sapono la risposta.", "right": "Loro sanno la risposta.", "why": "Loro de sapere es sanno." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Io non ___ dov'è la chiave.", "es": "No sé dónde está la llave.", "options": ["so", "sé", "sa"], "answer": "so", "why": "Io de sapere: so.", "g": "it-g-sapere" },
+    { "id": "e2", "type": "choose", "q": "Tu ___ nuotare?", "es": "¿Sabes nadar?", "options": ["sai", "sa", "sei"], "answer": "sai", "why": "Tu de sapere: sai. (Sei es de essere.)", "g": "it-g-sapere" },
+    { "id": "e3", "type": "choose", "q": "Scusi, Lei ___ a che ora parte il treno?", "es": "Perdone, ¿sabe a qué hora sale el tren?", "options": ["sa", "sai", "so"], "answer": "sa", "why": "Lei (usted): sa.", "g": "it-g-sapere" },
+    { "id": "e4", "type": "choose", "q": "___ un buon albergo a Catania?", "es": "¿Conoces un buen hotel en Catania?", "options": ["Conosci", "Sai", "Conosce"], "answer": "Conosci", "why": "Un hotel es un lugar: conoscere. Con tu: conosci.", "g": "it-g-sapere" },
+    { "id": "e5", "type": "choose", "q": "Mia nipote ___ parlare inglese.", "es": "Mi nieta sabe hablar inglés.", "options": ["sa", "conosce", "sai"], "answer": "sa", "why": "Saber hacer algo: sapere + infinitivo.", "g": "it-g-sapere" },
+    { "id": "e6", "type": "choose", "q": "Io ___ bene Roma.", "es": "Conozco bien Roma.", "options": ["conosco", "so", "conosci"], "answer": "conosco", "why": "Una ciudad se conoce: conosco.", "g": "it-g-sapere" },
+    { "id": "e7", "type": "choose", "q": "Noi non ___ se c'è una camera libera.", "es": "No sabemos si hay una habitación libre.", "options": ["sappiamo", "sapiamo", "conosciamo"], "answer": "sappiamo", "why": "Un dato (si hay o no): sapere. Noi: sappiamo.", "g": "it-g-sapere" },
+    { "id": "e8", "type": "fill", "q": "Loro ___ cucinare molto bene.", "es": "Ellos saben cocinar muy bien.", "answer": ["sanno"], "bank": ["sanno", "sapono", "sano"], "why": "Loro de sapere: sanno, con doble n.", "g": "it-g-sapere" },
+    { "id": "e9", "type": "fill", "q": "Voi ___ la password del wifi?", "es": "¿Vosotros sabéis la contraseña del wifi?", "answer": ["sapete"], "bank": ["sapete", "sanete", "conoscete"], "why": "Un dato: sapere. Voi: sapete.", "g": "it-g-sapere" },
+    { "id": "e10", "type": "fill", "q": "Non lo ___, mi dispiace.", "es": "No lo sé, lo siento.", "answer": ["so"], "bank": ["so", "sono", "conosco"], "why": "No lo sé = non lo so.", "g": "it-g-sapere" },
+    { "id": "e11", "type": "fill", "q": "Tu ___ mio figlio Hugo?", "es": "¿Conoces a mi hijo Hugo?", "answer": ["conosci"], "bank": ["conosci", "sai", "conosce"], "why": "Una persona se conoce: conosci. Ojo: sin «a» delante de la persona.", "g": "it-g-sapere" },
+    { "id": "e12", "type": "fill", "q": "Lei ___ un buon ristorante qui vicino?", "es": "¿Usted conoce un buen restaurante aquí cerca?", "answer": ["conosce"], "why": "Un restaurante se conoce. Lei: conosce.", "g": "it-g-sapere" },
+    { "id": "e13", "type": "fill", "q": "Io non ___ guidare.", "es": "Yo no sé conducir.", "answer": ["so"], "why": "Saber hacer algo: so + infinitivo.", "g": "it-g-sapere" },
+    { "id": "e14", "type": "conjugate", "verb": "sapere", "person": "lui", "tense": "presente", "q": "Mio marito ___ dov'è il parcheggio.", "answer": ["sa"], "table": [["io", "so"], ["tu", "sai"], ["lui/lei", "?"]], "why": "Lui de sapere: sa.", "g": "it-g-sapere" },
+    { "id": "e15", "type": "conjugate", "verb": "sapere", "person": "noi", "tense": "presente", "q": "___ che la colazione è inclusa.", "answer": ["Sappiamo", "sappiamo"], "why": "Noi de sapere: sappiamo.", "g": "it-g-sapere" },
+    { "id": "e16", "type": "conjugate", "verb": "conoscere", "person": "loro", "tense": "presente", "q": "Le mie amiche ___ la Sicilia.", "answer": ["conoscono"], "why": "Loro de conoscere: conoscono.", "g": "it-g-sapere" },
+    { "id": "e17", "type": "conjugate", "verb": "conoscere", "person": "noi", "tense": "presente", "q": "Non ___ nessuno qui.", "answer": ["conosciamo"], "why": "Noi de conoscere: conosciamo.", "g": "it-g-sapere" },
+    { "id": "e18", "type": "conjugate", "verb": "sapere", "person": "tu", "tense": "presente", "q": "___ che giorno è oggi?", "answer": ["Sai", "sai"], "why": "Tu de sapere: sai.", "g": "it-g-sapere" },
+    { "id": "e19", "type": "order", "es": "Perdone, ¿sabe dónde está la recepción?", "answer": "Scusi sa dov'è la reception", "extra": ["conosce"], "why": "Saber dónde está algo: sapere.", "g": "it-g-sapere" },
+    { "id": "e20", "type": "order", "es": "No conozco a tu hermana.", "answer": "Non conosco tua sorella", "extra": ["a"], "why": "Conoscere va sin «a» delante de la persona.", "g": "it-g-sapere" },
+    { "id": "e21", "type": "order", "es": "Mi marido sabe cocinar.", "answer": "Mio marito sa cucinare", "extra": ["conosce"], "why": "Saber hacer algo: sa + infinitivo.", "g": "it-g-sapere" },
+    { "id": "e22", "type": "transform", "instr": "Hazla negativa", "q": "So dov'è la stazione.", "answer": ["Non so dov'è la stazione."], "why": "Non delante del verbo: non so.", "g": "it-g-sapere" },
+    { "id": "e23", "type": "transform", "instr": "Cámbiala a loro", "q": "Lei sa parlare italiano.", "answer": ["Loro sanno parlare italiano."], "why": "Loro de sapere: sanno.", "g": "it-g-sapere" },
+    { "id": "e24", "type": "transform", "instr": "Pásala a usted (Lei)", "q": "Sai dov'è il bagno?", "answer": ["Sa dov'è il bagno?", "Scusi, sa dov'è il bagno?"], "why": "Con Lei: sa.", "g": "it-g-sapere" },
+    { "id": "e25", "type": "error", "q": "Io sé parlare un po' d'italiano.", "wrong": "sé", "fix": "so", "why": "Yo sé = io so.", "g": "it-g-sapere" },
+    { "id": "e26", "type": "error", "q": "Sai mia amica Carla?", "wrong": "Sai", "fix": "Conosci", "why": "A las personas se las conoce: conosci.", "g": "it-g-sapere" },
+    { "id": "e27", "type": "error", "q": "Noi sapiamo la strada.", "wrong": "sapiamo", "fix": "sappiamo", "why": "Sappiamo va con doble p.", "g": "it-g-sapere" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "No lo sé.", "answer": ["Non lo so."], "why": "Lo va delante del verbo: non lo so.", "g": "it-g-sapere" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "¿Conoce Catania?", "answer": ["Conosce Catania?", "Lei conosce Catania?"], "why": "Una ciudad se conoce; con usted: conosce.", "g": "it-g-sapere" },
+    { "id": "e30", "type": "translate", "dir": "from", "q": "Sappiamo nuotare.", "answer": ["Sabemos nadar."], "why": "Sappiamo = sabemos.", "g": "it-g-sapere" },
+    { "id": "e31", "type": "situation", "context": "Un turista te pregunta por una calle y no tienes ni idea.", "emoji": "🤷", "options": ["Non lo so, mi dispiace.", "Non lo conosco, mi dispiace.", "Non sono, mi dispiace."], "answer": "Non lo so, mi dispiace.", "why": "No saber un dato: non lo so.", "g": "it-g-sapere" },
+    { "id": "e32", "type": "situation", "context": "Quieres que el recepcionista te recomiende un restaurante que él conozca.", "emoji": "🍝", "options": ["Conosce un buon ristorante?", "Sa un buon ristorante?", "Sai un buon ristorante?"], "answer": "Conosce un buon ristorante?", "why": "Un restaurante es un lugar: conoscere.", "g": "it-g-sapere" },
+    { "id": "e33", "type": "match", "pairs": [["so", "sé"], ["sai", "sabes"], ["sanno", "saben"], ["conosco", "conozco"], ["conosci", "conoces"]], "why": "Sapere = saber; conoscere = conocer." }
+  ],
+  "reviewed": false
+}

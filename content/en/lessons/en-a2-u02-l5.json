@@ -1,0 +1,444 @@
+{
+  "id": "en-a2-u02-l5",
+  "unit": "en-a2-u02",
+  "title": "Reto: un sábado en Portobello Road",
+  "goal": "a comprar en un mercado: preguntar si tienen algo, pedir cantidades y decir que solo estás mirando",
+  "emoji": "🧺",
+  "photoQuery": "portobello road market stalls",
+  "vocab": [
+    {
+      "id": "shop-stall",
+      "t": "stall",
+      "es": "el puesto",
+      "emoji": "⛺",
+      "pos": "n",
+      "ex": {
+        "t": "There are a lot of stalls on Saturdays.",
+        "es": "Los sábados hay muchos puestos."
+      }
+    },
+    {
+      "id": "shop-antiques",
+      "t": "antiques",
+      "es": "las antigüedades",
+      "emoji": "🏺",
+      "pos": "n",
+      "ex": {
+        "t": "This market is famous for its antiques.",
+        "es": "Este mercado es famoso por sus antigüedades."
+      }
+    },
+    {
+      "id": "shop-second-hand",
+      "t": "second-hand",
+      "es": "de segunda mano",
+      "emoji": "♻️",
+      "pos": "adj",
+      "ex": {
+        "t": "I love second-hand books.",
+        "es": "Me encantan los libros de segunda mano."
+      }
+    },
+    {
+      "id": "shop-homemade",
+      "t": "homemade",
+      "es": "casero",
+      "emoji": "🥧",
+      "pos": "adj",
+      "ex": {
+        "t": "Is this jam homemade?",
+        "es": "¿Esta mermelada es casera?"
+      }
+    },
+    {
+      "id": "shop-im-just-looking",
+      "t": "I'm just looking.",
+      "es": "Solo estoy mirando.",
+      "emoji": "👀",
+      "pos": "phrase",
+      "ex": {
+        "t": "No, thanks. I'm just looking.",
+        "es": "No, gracias. Solo estoy mirando."
+      }
+    },
+    {
+      "id": "shop-can-i-pay-by-card",
+      "t": "Can I pay by card?",
+      "es": "¿Puedo pagar con tarjeta?",
+      "emoji": "💳",
+      "pos": "phrase",
+      "ex": {
+        "t": "I haven't got any cash. Can I pay by card?",
+        "es": "No llevo efectivo. ¿Puedo pagar con tarjeta?"
+      }
+    },
+    {
+      "id": "shop-cash",
+      "t": "cash",
+      "es": "el efectivo",
+      "emoji": "💵",
+      "pos": "n",
+      "ex": {
+        "t": "Some stalls only take cash.",
+        "es": "Algunos puestos solo aceptan efectivo."
+      },
+      "note": "Incontable: some cash, not much cash."
+    },
+    {
+      "id": "shop-ill-take-it",
+      "t": "I'll take it.",
+      "es": "Me lo llevo.",
+      "emoji": "🤝",
+      "pos": "phrase",
+      "ex": {
+        "t": "It's beautiful. I'll take it.",
+        "es": "Es precioso. Me lo llevo."
+      }
+    }
+  ],
+  "grammar": "en-g-some-any",
+  "pron": {
+    "title": "Portobello Road",
+    "tip": "Portobello suena «por-te-BÉ-lou»: el golpe de voz va en BE. Road suena «róud», con una o que se desliza hacia u.",
+    "words": [
+      "Portobello Road",
+      "antiques",
+      "stall",
+      "homemade"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "message",
+      "title": "Mensaje a la familia",
+      "text": "Hi everyone! I'm at Portobello Road market. There are a lot of people and hundreds of stalls! I'm buying a few old postcards and a jar of homemade jam. I haven't got much cash, but some stalls take cards. 😊",
+      "questions": [
+        {
+          "q": "¿Cómo está el mercado?",
+          "options": [
+            "Lleno de gente",
+            "Casi vacío",
+            "Cerrado"
+          ],
+          "answer": "Lleno de gente"
+        },
+        {
+          "q": "¿Qué está comprando Yolanda?",
+          "options": [
+            "Postales y mermelada",
+            "Libros y miel",
+            "Fruta y queso"
+          ],
+          "answer": "Postales y mermelada"
+        },
+        {
+          "q": "¿Qué problema tiene?",
+          "options": [
+            "No lleva mucho efectivo",
+            "No encuentra el mercado",
+            "Está lloviendo"
+          ],
+          "answer": "No lleva mucho efectivo"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel de un puesto",
+      "text": "GRANNY'S KITCHEN\nHomemade jams and cakes\nNo preservatives!\nCash only, please",
+      "questions": [
+        {
+          "q": "¿Qué venden?",
+          "options": [
+            "Mermeladas y pasteles caseros",
+            "Antigüedades",
+            "Ropa de segunda mano"
+          ],
+          "answer": "Mermeladas y pasteles caseros"
+        },
+        {
+          "q": "¿Cómo se puede pagar?",
+          "options": [
+            "Solo en efectivo",
+            "Solo con tarjeta",
+            "Como quieras"
+          ],
+          "answer": "Solo en efectivo"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Have you got ___ old maps?",
+      "options": [
+        "any",
+        "some"
+      ],
+      "answer": "any",
+      "why": "Pregunta de verdad: any.",
+      "g": "en-g-some-any"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "There are ___ stalls on Saturdays.",
+      "options": [
+        "a lot of",
+        "much"
+      ],
+      "answer": "a lot of",
+      "why": "Afirmativa con contable: a lot of.",
+      "g": "en-g-much-many"
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "I haven't got ___ cash.",
+      "options": [
+        "much",
+        "many"
+      ],
+      "answer": "much",
+      "why": "Cash es incontable: much.",
+      "g": "en-g-much-many"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Would you like ___ cake? It's homemade.",
+      "es": "¿Quiere un poco de bizcocho? Es casero.",
+      "answer": [
+        "some"
+      ],
+      "bank": [
+        "some",
+        "any",
+        "many"
+      ],
+      "why": "Ofrecer: some.",
+      "g": "en-g-some-any"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "No, thanks. I'm just ___.",
+      "es": "No, gracias. Solo estoy mirando.",
+      "answer": [
+        "looking"
+      ],
+      "bank": [
+        "looking",
+        "seeing",
+        "watching"
+      ],
+      "why": "Solo estoy mirando = I'm just looking.",
+      "g": "en-g-present-continuous"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "q": "I'm buying a ___ postcards for my grandchildren.",
+      "es": "Estoy comprando unas cuantas postales para mis nietos.",
+      "answer": [
+        "few"
+      ],
+      "why": "Postcards se cuentan: a few.",
+      "g": "en-g-much-many"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Are there some antique shops near here?",
+      "wrong": "some",
+      "fix": "any",
+      "why": "Pregunta de verdad: any.",
+      "g": "en-g-some-any"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "The people at the market is very friendly.",
+      "wrong": "is",
+      "fix": "are",
+      "why": "People es plural: are.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "You've got some homemade jam.",
+      "answer": [
+        "Have you got any homemade jam?",
+        "Have you got any homemade jam"
+      ],
+      "why": "En pregunta, some → any.",
+      "g": "en-g-some-any"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "¿Puedo pagar con tarjeta?",
+      "answer": "Can I pay by card",
+      "extra": [
+        "with"
+      ],
+      "why": "Pagar con tarjeta = pay by card."
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "No llevo efectivo.",
+      "answer": [
+        "I haven't got any cash.",
+        "I don't have any cash.",
+        "I have no cash.",
+        "I haven't got any cash on me.",
+        "I don't have any cash on me."
+      ],
+      "why": "Negativa con any; cash = efectivo.",
+      "g": "en-g-some-any"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Un vendedor te pregunta «Can I help you?», pero solo estás curioseando.",
+      "emoji": "👀",
+      "options": [
+        "No, thanks. I'm just looking.",
+        "No, thanks. I just look.",
+        "No, thanks. I'm just watching."
+      ],
+      "answer": "No, thanks. I'm just looking.",
+      "why": "La frase fija es I'm just looking."
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "stall",
+          "puesto"
+        ],
+        [
+          "antiques",
+          "antigüedades"
+        ],
+        [
+          "second-hand",
+          "de segunda mano"
+        ],
+        [
+          "homemade",
+          "casero"
+        ],
+        [
+          "cash",
+          "efectivo"
+        ]
+      ],
+      "why": "Palabras del mercado."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Have you got any homemade jam? I'll take a jar.",
+      "es": "¿Tiene mermelada casera? Me llevo un tarro."
+    }
+  ],
+  "dialog": {
+    "title": "En un puesto de Portobello",
+    "setting": "Un sábado por la mañana, Yolanda pasea por el mercado de Portobello Road",
+    "emoji": "🏺",
+    "lines": [
+      {
+        "who": "Seller",
+        "t": "Hello! Can I help you?",
+        "es": "¡Hola! ¿Le puedo ayudar?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I'm just looking, thanks. Have you got any old teacups?",
+        "es": "Solo estoy mirando, gracias. ¿Tiene tazas de té antiguas?"
+      },
+      {
+        "who": "Seller",
+        "t": "Yes, I've got some lovely ones here.",
+        "es": "Sí, tengo unas preciosas aquí."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Oh, this blue one is beautiful!",
+        "es": "¡Ay, esta azul es preciosa!"
+      },
+      {
+        "who": "Seller",
+        "t": "It's very old. People love it.",
+        "es": "Es muy antigua. A la gente le encanta."
+      },
+      {
+        "who": "Yolanda",
+        "t": "I'll take it. Can I pay by card?",
+        "es": "Me la llevo. ¿Puedo pagar con tarjeta?"
+      },
+      {
+        "who": "Seller",
+        "t": "Sorry, cash only. There's a cash machine on the corner.",
+        "es": "Lo siento, solo efectivo. Hay un cajero en la esquina."
+      },
+      {
+        "who": "Yolanda",
+        "t": "No problem. I'm coming back in five minutes!",
+        "es": "No pasa nada. ¡Vuelvo en cinco minutos!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué busca Yolanda?",
+        "options": [
+          "Tazas de té antiguas",
+          "Libros viejos",
+          "Mermelada"
+        ],
+        "answer": "Tazas de té antiguas"
+      },
+      {
+        "q": "¿De qué color es la taza que le gusta?",
+        "options": [
+          "Azul",
+          "Blanca",
+          "Roja"
+        ],
+        "answer": "Azul"
+      },
+      {
+        "q": "¿Por qué tiene que ir al cajero?",
+        "options": [
+          "Solo aceptan efectivo",
+          "Ha perdido la tarjeta",
+          "La tarjeta no funciona"
+        ],
+        "answer": "Solo aceptan efectivo"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "I'm just looking, thanks.",
+    "es": "Solo estoy mirando, gracias.",
+    "context": "Cuando un vendedor te ofrece ayuda y solo curioseas"
+  },
+  "summary": [
+    "Mercado: stall, antiques, second-hand, homemade",
+    "Have you got any…? · Would you like some…?",
+    "I haven't got much cash · a lot of stalls · a few postcards",
+    "Frases útiles: I'm just looking · Can I pay by card? · I'll take it"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u02-l5"
+}

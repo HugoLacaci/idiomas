@@ -1,0 +1,59 @@
+{
+  "id": "it-b1-u03-c1",
+  "unit": "it-b1-u03",
+  "title": "La carbonara de Giulia",
+  "setting": "Giulia te enseña a hacer la carbonara en su cocina de Roma",
+  "emoji": "🍝",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Oggi ti insegno la vera carbonara romana!", "es": "¡Hoy te enseño la auténtica carbonara romana!" },
+      "options": [
+        { "t": "Che bello! Come si fa?", "es": "¡Qué bien! ¿Cómo se hace?", "next": "n2", "ok": true },
+        { "t": "Che bello! Come si fanno?", "es": "¡Qué bien! ¿Cómo se hace?", "next": "n2", "ok": false, "feedback": "La carbonara es una sola: come si fa?" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Prima si taglia il guanciale a pezzetti.", "es": "Primero se corta el guanciale (papada curada) en trocitos." },
+      "options": [
+        { "t": "E poi si cuoce in padella?", "es": "¿Y luego se hace en la sartén?", "next": "n3", "ok": true },
+        { "t": "E poi si cuociono in padella?", "es": "¿Y luego se hace en la sartén?", "next": "n3", "ok": false, "feedback": "Il guanciale es singular: si cuoce." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Sì, senza olio. Intanto si sbattono le uova con il pecorino.", "es": "Sí, sin aceite. Mientras, se baten los huevos con el queso pecorino." },
+      "options": [
+        { "t": "E la panna? Si mette?", "es": "¿Y la nata? ¿Se pone?", "next": "n4", "ok": true },
+        { "t": "E la panna? Si mettono?", "es": "¿Y la nata? ¿Se pone?", "next": "n4", "ok": false, "feedback": "La panna es singular: si mette." },
+        { "t": "E la panna? Se mette?", "es": "¿Y la nata? ¿Se pone?", "next": "n4", "ok": false, "feedback": "En italiano es si, no se: si mette." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "No! Nella carbonara la panna non si mette mai!", "es": "¡No! ¡En la carbonara nunca se pone nata!" },
+      "options": [
+        { "t": "Va bene, niente panna. E il pepe?", "es": "Vale, nada de nata. ¿Y la pimienta?", "next": "n5", "ok": true },
+        { "t": "Va bene, niente panna. E il pepe si mettono?", "es": "Vale, nada de nata. ¿Y la pimienta se pone?", "next": "n5", "ok": false, "feedback": "Il pepe es singular: si mette." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Tanto pepe nero! Poi si mescola tutto con la pasta, lontano dal fuoco.", "es": "¡Mucha pimienta negra! Luego se mezcla todo con la pasta, fuera del fuego." },
+      "options": [
+        { "t": "Mmm, che profumo! Si mangia subito?", "es": "Mmm, ¡qué olor! ¿Se come enseguida?", "next": "n6", "ok": true },
+        { "t": "Mmm, che profumo! Se mangia subito?", "es": "Mmm, ¡qué olor! ¿Se come enseguida?", "next": "n6", "ok": false, "feedback": "En italiano el impersonal es si: si mangia." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Sì, subito, bella calda! Buon appetito!", "es": "¡Sí, enseguida, bien calentita! ¡Que aproveche!" },
+      "options": [
+        { "t": "Grazie, altrettanto! A casa tua si mangia benissimo!", "es": "¡Gracias, igualmente! ¡En tu casa se come de maravilla!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

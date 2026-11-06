@@ -1,0 +1,129 @@
+{
+  "id": "it-g-mi-piace",
+  "lang": "it",
+  "level": "A1",
+  "title": "Mi piace / mi piacciono (me gusta / me gustan)",
+  "short": "Mi piace leggere, mi piacciono i film, ti piace?, anche a me, neanche a me.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Igual que «me gusta»",
+      "emoji": "❤️",
+      "text": "Buena noticia: los gustos en italiano funcionan casi igual que en español. «Me gusta» se dice ==mi piace==.",
+      "examples": [
+        { "t": "==Mi piace== il mare.", "es": "Me gusta el mar.", "hl": "Mi piace" },
+        { "t": "==Mi piace== cucinare.", "es": "Me gusta cocinar.", "hl": "Mi piace" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Una cosa o una acción",
+      "emoji": "1️⃣",
+      "text": "Con una sola cosa o con un verbo en infinitivo usamos ==piace==.",
+      "examples": [
+        { "t": "Mi ==piace== la musica.", "es": "Me gusta la música.", "hl": "piace" },
+        { "t": "Mi ==piace== ballare.", "es": "Me gusta bailar.", "hl": "piace" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Varias cosas",
+      "emoji": "🔢",
+      "text": "Si lo que te gusta es plural, el verbo también: ==piacciono==. Como «me gustan».",
+      "examples": [
+        { "t": "Mi ==piacciono== i libri gialli.", "es": "Me gustan las novelas policiacas.", "hl": "piacciono" },
+        { "t": "Mi ==piacciono== i fiori.", "es": "Me gustan las flores.", "hl": "piacciono" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "¿A quién le gusta?",
+      "emoji": "👥",
+      "text": "Cambia la palabrita de delante, como en español (me, te, le…).",
+      "table": {
+        "head": ["Persona", "Una cosa", "Varias cosas"],
+        "rows": [
+          ["a me (a mí)", "==mi== piace", "==mi== piacciono"],
+          ["a te (a ti)", "==ti== piace", "==ti== piacciono"],
+          ["a lui (a él)", "==gli== piace", "==gli== piacciono"],
+          ["a lei / a Lei (a ella / a usted)", "==le== piace", "==le== piacciono"],
+          ["a noi (a nosotros)", "==ci== piace", "==ci== piacciono"]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "Yo también, yo tampoco",
+      "emoji": "🤝",
+      "text": "«A mí también» = ==anche a me==. «A mí tampoco» = ==neanche a me==. «No me gusta» = ==non mi piace==.",
+      "examples": [
+        { "t": "Mi piace il cinema. — Anche a me!", "es": "Me gusta el cine. — ¡A mí también!" },
+        { "t": "Non mi piace il calcio. — Neanche a me.", "es": "No me gusta el fútbol. — A mí tampoco." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Mi piace i film* → ✅ Mi ==piacciono== i film. ❌ *Io piace* → ✅ ==Mi== piace. ❌ *Me piace* → ✅ ==Mi== piace."
+    },
+    {
+      "kind": "tip",
+      "title": "Truco",
+      "emoji": "💡",
+      "text": "Antes de hablar, mira lo que viene detrás: ¿una cosa o un verbo? ==piace==. ¿Varias cosas? ==piacciono==.",
+      "examples": [
+        { "t": "A mio marito piace il calcio.", "es": "A mi marido le gusta el fútbol." }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español decimos «me gusta el cine» y «me gustan las películas»: el verbo concuerda con lo que gusta.",
+    "target": "En italiano es igual: mi piace il cinema, mi piacciono i film. Me → mi, te → ti, le → gli (a él) / le (a ella)."
+  },
+  "errors": [
+    { "wrong": "Mi piace i film.", "right": "Mi piacciono i film.", "why": "I film es plural, así que el verbo va en plural: piacciono." },
+    { "wrong": "Io piace leggere.", "right": "Mi piace leggere.", "why": "Como en español, no se dice «yo gusta»: se dice mi piace (me gusta)." },
+    { "wrong": "Me piace la pizza.", "right": "Mi piace la pizza.", "why": "En italiano es mi, con i: mi piace." },
+    { "wrong": "Mi piacciono ballare e cantare.", "right": "Mi piace ballare e cantare.", "why": "Con verbos en infinitivo usamos siempre piace, aunque sean dos." },
+    { "wrong": "A mio marito gli piace il calcio.", "right": "A mio marito piace il calcio.", "why": "En español repetimos «a mi marido le gusta», pero en italiano basta con a mio marito piace (o solo gli piace)." },
+    { "wrong": "Anche io!", "right": "Anche a me!", "why": "Para contestar a «mi piace» decimos anche a me, igual que «a mí también»." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Mi ___ il mare.", "es": "Me gusta el mar.", "options": ["piace", "piacciono"], "answer": "piace", "why": "Il mare es una sola cosa: piace.", "g": "it-g-mi-piace" },
+    { "id": "e2", "type": "choose", "q": "Mi ___ i fiori.", "es": "Me gustan las flores.", "options": ["piace", "piacciono"], "answer": "piacciono", "why": "I fiori es plural: piacciono.", "g": "it-g-mi-piace" },
+    { "id": "e3", "type": "choose", "q": "Mi ___ leggere.", "es": "Me gusta leer.", "options": ["piace", "piacciono"], "answer": "piace", "why": "Con un verbo en infinitivo usamos piace.", "g": "it-g-mi-piace" },
+    { "id": "e4", "type": "choose", "q": "___ piace la musica?", "es": "¿Te gusta la música?", "options": ["Ti", "Tu", "Te"], "answer": "Ti", "why": "«Te gusta» se dice ti piace.", "g": "it-g-mi-piace" },
+    { "id": "e5", "type": "choose", "q": "Mio marito è sportivo: ___ piace il calcio.", "es": "Mi marido es deportista: le gusta el fútbol.", "options": ["gli", "le", "mi"], "answer": "gli", "why": "A él → gli piace.", "g": "it-g-mi-piace" },
+    { "id": "e6", "type": "choose", "q": "La mia amica è allegra: ___ piace ballare.", "es": "Mi amiga es alegre: le gusta bailar.", "options": ["le", "gli", "ti"], "answer": "le", "why": "A ella → le piace.", "g": "it-g-mi-piace" },
+    { "id": "e7", "type": "choose", "q": "Mi piace il cinema. — ___ a me!", "es": "Me gusta el cine. — ¡A mí también!", "options": ["Anche", "Neanche", "Non"], "answer": "Anche", "why": "«A mí también» = anche a me.", "g": "it-g-mi-piace" },
+    { "id": "e8", "type": "choose", "q": "Non mi piace il pesce. — ___ a me.", "es": "No me gusta el pescado. — A mí tampoco.", "options": ["Neanche", "Anche", "Sì"], "answer": "Neanche", "why": "Con algo negativo respondemos neanche a me (a mí tampoco).", "g": "it-g-mi-piace" },
+    { "id": "e9", "type": "fill", "q": "Mi ___ i libri gialli.", "es": "Me gustan las novelas policiacas.", "answer": ["piacciono"], "bank": ["piace", "piacciono", "piaccio"], "why": "I libri es plural: piacciono.", "g": "it-g-mi-piace" },
+    { "id": "e10", "type": "fill", "q": "Mi piace ___ in montagna.", "es": "Me gusta caminar por la montaña.", "answer": ["camminare"], "bank": ["camminare", "cammino", "camminato"], "why": "Después de mi piace, el verbo va en infinitivo.", "g": "it-g-mi-piace" },
+    { "id": "e11", "type": "fill", "q": "___ piace cucinare per la famiglia.", "es": "Me gusta cocinar para la familia.", "answer": ["Mi", "mi"], "bank": ["Mi", "Io", "Me"], "why": "«Me gusta» = mi piace.", "g": "it-g-mi-piace" },
+    { "id": "e12", "type": "fill", "q": "Ti ___ i film italiani?", "es": "¿Te gustan las películas italianas?", "answer": ["piacciono"], "hint": "plural", "why": "I film italiani es plural: ti piacciono.", "g": "it-g-mi-piace" },
+    { "id": "e13", "type": "fill", "q": "Marco suona sempre: ___ piace la chitarra.", "es": "Marco toca siempre: le gusta la guitarra.", "answer": ["gli"], "hint": "a él", "why": "A él → gli piace.", "g": "it-g-mi-piace" },
+    { "id": "e14", "type": "fill", "q": "A noi ___ piace viaggiare.", "es": "A nosotros nos gusta viajar.", "answer": ["ci"], "hint": "a nosotros", "why": "A noi → ci piace.", "g": "it-g-mi-piace" },
+    { "id": "e15", "type": "fill", "q": "Non mi ___ le serie tristi.", "es": "No me gustan las series tristes.", "answer": ["piacciono"], "why": "Le serie es plural: non mi piacciono.", "g": "it-g-mi-piace" },
+    { "id": "e16", "type": "error", "q": "Mi piace le canzoni italiane.", "wrong": "piace", "fix": "piacciono", "why": "Le canzoni es plural: mi piacciono.", "g": "it-g-mi-piace" },
+    { "id": "e17", "type": "error", "q": "Me piace la pizza.", "wrong": "Me", "fix": "Mi", "why": "En italiano es mi piace, con i.", "g": "it-g-mi-piace" },
+    { "id": "e18", "type": "error", "q": "Mi piacciono nuotare.", "wrong": "piacciono", "fix": "piace", "why": "Con un infinitivo usamos piace: mi piace nuotare.", "g": "it-g-mi-piace" },
+    { "id": "e19", "type": "error", "q": "Mio figlio è sportivo: le piace il calcio.", "wrong": "le", "fix": "gli", "why": "Mio figlio es él: gli piace.", "g": "it-g-mi-piace" },
+    { "id": "e20", "type": "transform", "instr": "Hazla negativa", "q": "Mi piace il calcio.", "answer": ["Non mi piace il calcio."], "why": "Non va delante de todo: non mi piace.", "g": "it-g-mi-piace" },
+    { "id": "e21", "type": "transform", "instr": "Pásala a plural (i film)", "q": "Mi piace il film.", "answer": ["Mi piacciono i film."], "why": "En plural: mi piacciono i film (film no cambia).", "g": "it-g-mi-piace" },
+    { "id": "e22", "type": "transform", "instr": "Hazla pregunta para «tú»", "q": "Mi piace ballare.", "answer": ["Ti piace ballare?"], "why": "Para preguntar a «tú»: ti piace…? y subimos el tono.", "g": "it-g-mi-piace" },
+    { "id": "e23", "type": "transform", "instr": "Cámbiala a «a él» (gli)", "q": "Mi piacciono i gatti.", "answer": ["Gli piacciono i gatti."], "why": "A él → gli; el verbo sigue en plural.", "g": "it-g-mi-piace" },
+    { "id": "e24", "type": "order", "es": "Me gusta mucho leer.", "answer": "Mi piace molto leggere", "alt": ["Mi piace leggere molto"], "extra": ["piacciono"], "why": "Mi piace + molto + infinitivo.", "g": "it-g-mi-piace" },
+    { "id": "e25", "type": "order", "es": "¿Te gustan las flores?", "answer": "Ti piacciono i fiori", "extra": ["piace"], "why": "I fiori es plural: piacciono.", "g": "it-g-mi-piace" },
+    { "id": "e26", "type": "order", "es": "No me gusta el fútbol.", "answer": "Non mi piace il calcio", "extra": ["io"], "why": "Non delante: non mi piace.", "g": "it-g-mi-piace" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "Me gusta la música.", "answer": ["Mi piace la musica.", "La musica mi piace."], "why": "Una cosa: mi piace.", "g": "it-g-mi-piace" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "Me gustan los perros.", "answer": ["Mi piacciono i cani.", "I cani mi piacciono."], "why": "Plural: mi piacciono i cani.", "g": "it-g-mi-piace" },
+    { "id": "e29", "type": "translate", "dir": "from", "q": "Neanche a me.", "answer": ["A mí tampoco.", "A mí tampoco", "Yo tampoco."], "why": "Neanche a me = a mí tampoco.", "g": "it-g-mi-piace" },
+    { "id": "e30", "type": "translate", "dir": "from", "q": "Le piace dipingere?", "answer": ["¿Le gusta pintar?", "¿A usted le gusta pintar?", "¿A ella le gusta pintar?"], "why": "Le piace = le gusta (a ella o a usted).", "g": "it-g-mi-piace" },
+    { "id": "e31", "type": "situation", "context": "Una amiga italiana te dice «Mi piace tanto il mare!». A ti también te encanta.", "emoji": "🌊", "options": ["Anche a me!", "Neanche a me!", "Anche io piace!"], "answer": "Anche a me!", "why": "Para decir «a mí también»: anche a me.", "g": "it-g-mi-piace" },
+    { "id": "e32", "type": "situation", "context": "En una cena te ofrecen anchoas y no te gustan nada. Lo dices con amabilidad.", "emoji": "🐟", "options": ["Grazie, ma non mi piacciono le acciughe.", "Grazie, ma non mi piace le acciughe.", "Grazie, ma io non piace acciughe."], "answer": "Grazie, ma non mi piacciono le acciughe.", "why": "Le acciughe es plural: non mi piacciono.", "g": "it-g-mi-piace" },
+    { "id": "e33", "type": "match", "pairs": [["Mi piace", "Me gusta"], ["Mi piacciono", "Me gustan"], ["Anche a me", "A mí también"], ["Neanche a me", "A mí tampoco"], ["Gli piace", "A él le gusta"]], "why": "Fíjate: piace con una cosa, piacciono con varias.", "g": "it-g-mi-piace" },
+    { "id": "e34", "type": "conjugate", "verb": "piacere", "person": "i libri (a me)", "tense": "presente", "q": "Mi ___ i libri di cucina.", "answer": ["piacciono"], "table": [["una cosa", "piace"], ["varias cosas", "piacciono"]], "why": "I libri es plural: piacciono.", "g": "it-g-mi-piace" }
+  ],
+  "reviewed": false
+}

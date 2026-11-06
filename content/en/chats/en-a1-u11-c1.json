@@ -1,0 +1,69 @@
+{
+  "id": "en-a1-u11-c1",
+  "unit": "en-a1-u11",
+  "title": "Emma te guía por teléfono",
+  "setting": "Sales del metro y no encuentras la cafetería donde has quedado con Emma. La llamas por teléfono.",
+  "emoji": "📱",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hello? Yolanda! Where are you?", "es": "¿Sí? ¡Yolanda! ¿Dónde estás?" },
+      "options": [
+        { "t": "Hi, Emma! I'm lost. I'm outside the station.", "es": "¡Hola, Emma! Me he perdido. Estoy fuera de la estación.", "next": "n2", "ok": true },
+        { "t": "Hi, Emma! I lost.", "es": "¡Hola, Emma! Me perdí.", "next": "n2", "ok": false, "feedback": "Para decir que estás perdida: I'm lost (con am)." },
+        { "t": "Hi! Am outside the station.", "es": "¡Hola! Estoy fuera de la estación.", "next": "n2", "ok": false, "feedback": "Falta el sujeto: I'm outside the station." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Don't worry! Can you see a bank?", "es": "¡No te preocupes! ¿Ves un banco?" },
+      "options": [
+        { "t": "Yes, I can. It's on the corner.", "es": "Sí. Está en la esquina.", "next": "n3", "ok": true },
+        { "t": "Yes, I see.", "es": "Sí, veo.", "next": "n3", "ok": false, "feedback": "Contesta con el verbo de la pregunta: Can you…? — Yes, I can." },
+        { "t": "Yes, is in the corner.", "es": "Sí, está en la esquina.", "next": "n3", "ok": false, "feedback": "Falta it y la preposición es on: It's on the corner." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Perfect. Walk to the bank and turn left.", "es": "Perfecto. Camina hasta el banco y gira a la izquierda." },
+      "options": [
+        { "t": "OK. Turn left at the bank. And then?", "es": "Vale. Giro a la izquierda en el banco. ¿Y luego?", "next": "n4", "ok": true },
+        { "t": "Sorry, can you say that again, please?", "es": "Perdona, ¿me lo puedes repetir, por favor?", "next": "n3b", "ok": true },
+        { "t": "OK. I turns left.", "es": "Vale. Giro a la izquierda.", "next": "n4", "ok": false, "feedback": "Con I el verbo no lleva -s: I turn left. O repite la instrucción: Turn left." }
+      ]
+    },
+    {
+      "id": "n3b",
+      "says": { "t": "Of course. Go to the bank. Then turn left.", "es": "Claro. Ve hasta el banco. Luego gira a la izquierda." },
+      "options": [
+        { "t": "Thank you. Turn left at the bank. And then?", "es": "Gracias. A la izquierda en el banco. ¿Y luego?", "next": "n4", "ok": true }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Go straight on. Don't cross the road. The café is next to a chemist's.", "es": "Sigue recto. No cruces la calle. La cafetería está al lado de una farmacia." },
+      "options": [
+        { "t": "Next to a chemist's. Is it far?", "es": "Al lado de una farmacia. ¿Está lejos?", "next": "n5", "ok": true },
+        { "t": "Next to a chemist's. It's far?", "es": "Al lado de una farmacia. ¿Está lejos?", "next": "n5", "ok": false, "feedback": "En las preguntas el verbo va delante: Is it far?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "No, it's a two-minute walk. I can see you now! Look right!", "es": "No, está a dos minutos andando. ¡Ya te veo! ¡Mira a la derecha!" },
+      "options": [
+        { "t": "Oh, yes! I can see you too! Hello!", "es": "¡Ah, sí! ¡Yo también te veo! ¡Hola!", "next": "n6", "ok": true },
+        { "t": "Oh, yes! I see you also.", "es": "¡Ah, sí! Te veo también.", "next": "n6", "ok": false, "feedback": "Se entiende, pero lo natural es: I can see you too! (too al final)." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Well done! Come in, let's have a hot chocolate.", "es": "¡Muy bien! Entra, vamos a tomar un chocolate caliente." },
+      "options": [
+        { "t": "Good idea! Let's have one.", "es": "¡Buena idea! Vamos a tomarlo.", "next": "end", "ok": true },
+        { "t": "Good idea! Let's to have one.", "es": "¡Buena idea! Vamos a tomarlo.", "next": "end", "ok": false, "feedback": "Detrás de Let's no va to: Let's have one." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

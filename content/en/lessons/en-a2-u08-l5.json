@@ -1,0 +1,421 @@
+{
+  "id": "en-a2-u08-l5",
+  "unit": "en-a2-u08",
+  "title": "Reto: un susto en Bath",
+  "goal": "a explicar qué te pasa, entender las normas y dar consejos en una situación real de viaje",
+  "emoji": "♨️",
+  "photoQuery": "roman baths bath england",
+  "vocab": [
+    {
+      "id": "doc-roman-baths",
+      "t": "the Roman Baths",
+      "es": "las termas romanas",
+      "emoji": "🏛️",
+      "pos": "n",
+      "ex": {
+        "t": "The Roman Baths are in the centre of Bath.",
+        "es": "Las termas romanas están en el centro de Bath."
+      }
+    },
+    {
+      "id": "doc-hot-spring",
+      "t": "a hot spring",
+      "es": "un manantial de agua caliente",
+      "emoji": "♨️",
+      "pos": "n",
+      "ex": {
+        "t": "The water comes from a hot spring.",
+        "es": "El agua sale de un manantial caliente."
+      }
+    },
+    {
+      "id": "doc-travel-insurance",
+      "t": "travel insurance",
+      "es": "el seguro de viaje",
+      "emoji": "🧳",
+      "pos": "phrase",
+      "ex": {
+        "t": "You should always have travel insurance.",
+        "es": "Siempre deberías tener seguro de viaje."
+      }
+    },
+    {
+      "id": "doc-health-card",
+      "t": "health card",
+      "es": "la tarjeta sanitaria",
+      "emoji": "💳",
+      "pos": "phrase",
+      "ex": {
+        "t": "Don't forget your health card.",
+        "es": "No olvides tu tarjeta sanitaria."
+      }
+    },
+    {
+      "id": "doc-twisted-ankle",
+      "t": "I've twisted my ankle.",
+      "es": "Me he torcido el tobillo.",
+      "emoji": "🦶",
+      "pos": "phrase",
+      "ex": {
+        "t": "Help! I've twisted my ankle.",
+        "es": "¡Ayuda! Me he torcido el tobillo."
+      }
+    },
+    {
+      "id": "doc-feel-better",
+      "t": "feel better",
+      "es": "encontrarse mejor",
+      "emoji": "🙂",
+      "pos": "phrase",
+      "ex": {
+        "t": "I feel much better today, thanks.",
+        "es": "Hoy me encuentro mucho mejor, gracias."
+      }
+    },
+    {
+      "id": "doc-slippery",
+      "t": "slippery",
+      "es": "resbaladizo",
+      "emoji": "⚠️",
+      "pos": "adj",
+      "ex": {
+        "t": "Be careful. The floor is slippery.",
+        "es": "Cuidado. El suelo resbala."
+      }
+    }
+  ],
+  "grammar": "en-g-should",
+  "pron": {
+    "title": "Bath y bath",
+    "tip": "La ciudad de Bath se pronuncia como la palabra bath (baño): en el sur de Inglaterra «baaz», con a larga y la th de «zapato». En el norte se oye más corta: «baz».",
+    "words": [
+      "Bath",
+      "Roman Baths",
+      "hot spring",
+      "slippery",
+      "ankle"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel en las termas",
+      "text": "THE ROMAN BATHS\nVisitors must not touch the water.\nYou must not run: the floor is slippery.\nYou don't have to book. Tickets at the door.\nChildren must stay with an adult.",
+      "questions": [
+        {
+          "q": "¿Se puede tocar el agua?",
+          "options": [
+            "No, está prohibido",
+            "Sí, siempre",
+            "Solo los niños"
+          ],
+          "answer": "No, está prohibido"
+        },
+        {
+          "q": "¿Hace falta reservar?",
+          "options": [
+            "No, no hace falta",
+            "Sí, siempre",
+            "Solo los fines de semana"
+          ],
+          "answer": "No, no hace falta"
+        },
+        {
+          "q": "¿Por qué no se puede correr?",
+          "options": [
+            "Porque el suelo resbala",
+            "Porque hay mucha gente",
+            "Porque está oscuro"
+          ],
+          "answer": "Porque el suelo resbala"
+        }
+      ],
+      "why": "Must not (mustn't) prohíbe; don't have to dice que no hace falta."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "You ___ run. The floor is slippery.",
+      "options": [
+        "mustn't",
+        "don't have to",
+        "should"
+      ],
+      "answer": "mustn't",
+      "why": "Está prohibido: mustn't.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Your ankle is very swollen. You ___ see a doctor.",
+      "options": [
+        "should",
+        "shouldn't",
+        "don't have to"
+      ],
+      "answer": "should",
+      "why": "Consejo: should + verbo.",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "We ___ book. Tickets are at the door.",
+      "options": [
+        "don't have to",
+        "mustn't",
+        "has to"
+      ],
+      "answer": "don't have to",
+      "why": "No es necesario: don't have to.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "You should always have travel ___.",
+      "es": "Siempre deberías tener seguro de viaje.",
+      "answer": [
+        "insurance"
+      ],
+      "bank": [
+        "insurance",
+        "assurance",
+        "card"
+      ],
+      "why": "Seguro de viaje = travel insurance.",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Do I ___ to show my passport?",
+      "es": "¿Tengo que enseñar el pasaporte?",
+      "answer": [
+        "have"
+      ],
+      "bank": [
+        "have",
+        "must",
+        "should"
+      ],
+      "why": "Pregunta: Do I have to…?",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "She shouldn't walks much today.",
+      "wrong": "walks",
+      "fix": "walk",
+      "why": "Después de shouldn't, el verbo en forma base, sin -s.",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "She have to stay in the hotel today.",
+      "wrong": "have",
+      "fix": "has",
+      "why": "Con she: has to.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Me he torcido el tobillo",
+      "answer": "I've twisted my ankle",
+      "extra": [
+        "me"
+      ],
+      "why": "En inglés se usa my: my ankle (no «the»).",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Da el consejo contrario (negativa)",
+      "q": "You should walk a lot today.",
+      "answer": [
+        "You shouldn't walk a lot today.",
+        "You should not walk a lot today."
+      ],
+      "why": "shouldn't + verbo base.",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Debería ir al médico?",
+      "answer": [
+        "Should I go to the doctor?",
+        "Should I go to the doctor's?",
+        "Should I see a doctor?",
+        "Should I go to the doctor"
+      ],
+      "why": "Pregunta: Should I + verbo?",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "from",
+      "q": "You don't have to pay. It's free.",
+      "answer": [
+        "No hace falta que pagues. Es gratis.",
+        "No tienes que pagar. Es gratis.",
+        "No hace falta pagar. Es gratis."
+      ],
+      "why": "Don't have to = no hace falta.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Te has torcido el tobillo en las termas. Pides ayuda a un empleado.",
+      "emoji": "🦶",
+      "options": [
+        "Excuse me, I've twisted my ankle. Can you help me?",
+        "Excuse me, I've twisted the ankle of me.",
+        "Excuse me, I must to sit down."
+      ],
+      "answer": "Excuse me, I've twisted my ankle. Can you help me?",
+      "why": "Dices qué te ha pasado y pides ayuda: help me."
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Tu nieto quiere tocar el agua de las termas. Le explicas la norma.",
+      "emoji": "🚫",
+      "options": [
+        "No, darling. You mustn't touch the water.",
+        "No, darling. You don't have to touch the water.",
+        "No, darling. You shouldn't to touch it."
+      ],
+      "answer": "No, darling. You mustn't touch the water.",
+      "why": "Es una prohibición: mustn't.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "mustn't",
+          "prohibido"
+        ],
+        [
+          "don't have to",
+          "no hace falta"
+        ],
+        [
+          "should",
+          "es buena idea"
+        ],
+        [
+          "shouldn't",
+          "no es buena idea"
+        ],
+        [
+          "have to",
+          "es obligatorio"
+        ]
+      ],
+      "why": "Repaso de la unidad: obligación, prohibición y consejo.",
+      "g": "en-g-should"
+    }
+  ],
+  "dialog": {
+    "title": "Un tropiezo en las termas",
+    "setting": "En las termas romanas de Bath, Yolanda se tuerce el tobillo. Le ayuda una empleada, Rachel",
+    "emoji": "♨️",
+    "lines": [
+      {
+        "who": "Rachel",
+        "t": "Oh dear! Are you all right?",
+        "es": "¡Vaya! ¿Está bien?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I've twisted my ankle. The floor is slippery.",
+        "es": "Me he torcido el tobillo. El suelo resbala."
+      },
+      {
+        "who": "Rachel",
+        "t": "You should sit down. Does it hurt a lot?",
+        "es": "Debería sentarse. ¿Le duele mucho?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "A bit. Do I have to go to hospital?",
+        "es": "Un poco. ¿Tengo que ir al hospital?"
+      },
+      {
+        "who": "Rachel",
+        "t": "I don't think so. But you shouldn't walk much today.",
+        "es": "Creo que no. Pero hoy no debería caminar mucho."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Oh no! I wanted to see the whole city.",
+        "es": "¡Ay, no! Quería ver toda la ciudad."
+      },
+      {
+        "who": "Rachel",
+        "t": "You can take the tour bus. You don't have to walk!",
+        "es": "Puede coger el autobús turístico. ¡No hace falta caminar!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Great idea. Thank you so much.",
+        "es": "Muy buena idea. Muchísimas gracias."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué le ha pasado a Yolanda?",
+        "options": [
+          "Se ha torcido el tobillo",
+          "Le duele la cabeza",
+          "Se ha resfriado"
+        ],
+        "answer": "Se ha torcido el tobillo"
+      },
+      {
+        "q": "¿Tiene que ir al hospital?",
+        "options": [
+          "Rachel cree que no",
+          "Sí, enseguida",
+          "Sí, mañana"
+        ],
+        "answer": "Rachel cree que no"
+      },
+      {
+        "q": "¿Qué le propone Rachel?",
+        "options": [
+          "Coger el autobús turístico",
+          "Volver al hotel",
+          "Bañarse en las termas"
+        ],
+        "answer": "Coger el autobús turístico"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Do I have to go to hospital?",
+    "es": "¿Tengo que ir al hospital?",
+    "context": "Para saber si algo es grave cuando estás de viaje"
+  },
+  "summary": [
+    "must / have to = obligación; mustn't = prohibido",
+    "don't have to = no hace falta",
+    "should / shouldn't = consejo",
+    "Bath: termas romanas sobre aguas calientes naturales"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u08-l5"
+}

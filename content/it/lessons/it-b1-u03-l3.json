@@ -1,0 +1,77 @@
+{
+  "id": "it-b1-u03-l3",
+  "unit": "it-b1-u03",
+  "title": "A tavola!",
+  "goal": "a hablar de costumbres en la mesa italiana: qué se hace y qué no se hace",
+  "emoji": "🍽️",
+  "photoQuery": "family lunch table pasta wine",
+  "vocab": [
+    { "id": "cucina-buon-appetito", "t": "Buon appetito!", "es": "¡Que aproveche!", "emoji": "🍽️", "pos": "phrase", "note": "Se contesta: Grazie, altrettanto! (igualmente).", "ex": { "t": "Buon appetito a tutti!", "es": "¡Que aproveche a todos!" } },
+    { "id": "cucina-cin-cin", "t": "Cin cin!", "es": "¡Chin chin!", "emoji": "🥂", "pos": "phrase", "ex": { "t": "Alla nostra amicizia! Cin cin!", "es": "¡Por nuestra amistad! ¡Chin chin!" } },
+    { "id": "cucina-fare-la-scarpetta", "t": "fare la scarpetta", "es": "mojar pan en la salsa", "emoji": "🍞", "pos": "phrase", "ex": { "t": "Con questo sugo si deve fare la scarpetta!", "es": "¡Con esta salsa hay que mojar pan!" } },
+    { "id": "cucina-fare-il-bis", "t": "fare il bis", "es": "repetir (servirse otra vez)", "emoji": "🔁", "pos": "phrase", "ex": { "t": "Era così buono che ho fatto il bis.", "es": "Estaba tan bueno que repetí." } },
+    { "id": "cucina-il-pasto", "t": "il pasto", "es": "la comida (cada una del día)", "emoji": "🍴", "pos": "n", "note": "¡Ojo! Falso amigo: no es la hierba.", "ex": { "t": "La colazione è il primo pasto della giornata.", "es": "El desayuno es la primera comida del día." } },
+    { "id": "cucina-il-tovagliolo", "t": "il tovagliolo", "es": "la servilleta", "emoji": "🧻", "pos": "n", "ex": { "t": "Mi passi un tovagliolo, per favore?", "es": "¿Me pasas una servilleta, por favor?" } },
+    { "id": "cucina-a-tavola", "t": "A tavola!", "es": "¡A la mesa! ¡A comer!", "emoji": "🪑", "pos": "phrase", "ex": { "t": "Ragazzi, a tavola! È pronto!", "es": "¡Chicos, a la mesa! ¡Está listo!" } },
+    { "id": "cucina-sono-piena", "t": "Sono piena!", "es": "¡Estoy llena!", "emoji": "😮‍💨", "pos": "phrase", "note": "Un hombre dice: sono pieno.", "ex": { "t": "No, grazie, sono piena!", "es": "No, gracias, ¡estoy llena!" } },
+    { "id": "cucina-il-coperto", "t": "il coperto", "es": "el servicio de mesa (en la cuenta)", "emoji": "🧾", "pos": "n", "note": "En muchas trattorie la cuenta incluye «coperto»: pan y servicio.", "ex": { "t": "Il pane è compreso nel coperto.", "es": "El pan está incluido en el servicio de mesa." } },
+    { "id": "cucina-lusanza", "t": "l'usanza", "es": "la costumbre", "emoji": "🏛️", "pos": "n", "ex": { "t": "È un'usanza molto antica.", "es": "Es una costumbre muy antigua." } }
+  ],
+  "grammar": "it-g-si-impersonale",
+  "pron": {
+    "title": "Buon: la u y la o juntas",
+    "tip": "En buon, cuoco o uovo, la u y la o se dicen de un tirón, en una sola sílaba: «buon», «cuó-co», «uó-vo».",
+    "words": ["buon appetito", "il cuoco", "l'uovo", "buonissimo"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "In Italia il cappuccino ___ a colazione, non dopo pranzo.", "es": "En Italia el capuchino se toma en el desayuno, no después de comer.", "options": ["si beve", "si bevono", "se beve"], "answer": "si beve", "why": "Il cappuccino es singular: si beve.", "g": "it-g-si-impersonale" },
+    { "id": "e2", "type": "choose", "q": "A tavola non ___ il cellulare!", "es": "¡En la mesa no se usa el móvil!", "options": ["si usa", "si usano", "usa si"], "answer": "si usa", "why": "Il cellulare es singular: si usa. El non va delante del si.", "g": "it-g-si-impersonale" },
+    { "id": "e3", "type": "choose", "q": "Prima di mangiare ___ «Buon appetito!».", "es": "Antes de comer se dice «¡Que aproveche!».", "options": ["si dice", "si dicono", "se dice"], "answer": "si dice", "why": "Si dice, igual que «se dice».", "g": "it-g-si-impersonale" },
+    { "id": "e4", "type": "fill", "q": "La pasta non si ___ con il coltello.", "es": "La pasta no se corta con el cuchillo.", "answer": ["taglia"], "bank": ["taglia", "tagliano", "tagli"], "why": "La pasta es singular: si taglia.", "g": "it-g-si-impersonale" },
+    { "id": "e5", "type": "fill", "q": "A casa mia si ___ alle due.", "es": "En mi casa se come a las dos.", "answer": ["pranza", "mangia"], "hint": "pranzare", "why": "Si + tercera persona: si pranza.", "g": "it-g-si-impersonale" },
+    { "id": "e6", "type": "situation", "context": "Te sirven una salsa buenísima y quieres mojar pan. Preguntas a tu anfitriona:", "emoji": "🍞", "options": ["Posso fare la scarpetta?", "Posso fare la scarpa?", "Posso fare il pasto?"], "answer": "Posso fare la scarpetta?", "why": "Mojar pan en la salsa se dice fare la scarpetta." },
+    { "id": "e7", "type": "situation", "context": "Todos levantan la copa para brindar.", "emoji": "🥂", "options": ["Cin cin!", "Buon appetito!", "A tavola!"], "answer": "Cin cin!", "why": "Para brindar: Cin cin! o Alla salute!" },
+    { "id": "e8", "type": "situation", "context": "Ya no puedes comer más y te ofrecen otro plato de pasta.", "emoji": "😮‍💨", "options": ["No, grazie, sono piena!", "No, grazie, sono pieno di fame!", "Sì, faccio la scarpetta!"], "answer": "No, grazie, sono piena!", "why": "Una mujer dice sono piena (un hombre, sono pieno)." },
+    { "id": "e9", "type": "match", "pairs": [["Buon appetito!", "¡Que aproveche!"], ["A tavola!", "¡A la mesa!"], ["fare il bis", "repetir"], ["il tovagliolo", "la servilleta"], ["il pasto", "la comida"]], "why": "Frases de la mesa italiana." },
+    { "id": "e10", "type": "error", "q": "Sul pesce non si metto il parmigiano.", "wrong": "metto", "fix": "mette", "why": "Con si impersonal, el verbo va en tercera persona: si mette.", "g": "it-g-si-impersonale" },
+    { "id": "e11", "type": "order", "es": "En Italia no se bebe capuchino después de comer.", "answer": "In Italia non si beve il cappuccino dopo pranzo", "extra": ["bevono"], "why": "Non va delante de si: non si beve.", "g": "it-g-si-impersonale" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "¡Que aproveche a todos!", "answer": ["Buon appetito a tutti!"], "why": "«¡Que aproveche!» = Buon appetito!" },
+    { "id": "e13", "type": "translate", "dir": "from", "q": "Il pasto più importante è il pranzo della domenica.", "answer": ["La comida más importante es la comida del domingo.", "La comida más importante es el almuerzo del domingo."], "why": "Il pasto = cada comida del día; il pranzo = la comida de mediodía." },
+    { "id": "e14", "type": "reading", "kind": "text", "title": "La mesa a la italiana", "text": "A tavola si comincia quando tutti hanno il piatto. Il cappuccino si beve solo a colazione. Il caffè si prende alla fine del pasto. E la scarpetta? In famiglia si fa, al ristorante elegante meglio di no!", "questions": [
+      { "q": "¿Cuándo se empieza a comer?", "options": ["Cuando todos tienen su plato", "Cuando llega el pan", "Cuando se sienta el más mayor"], "answer": "Cuando todos tienen su plato" },
+      { "q": "¿Cuándo se toma el capuchino?", "options": ["Solo en el desayuno", "Después de comer", "Por la noche"], "answer": "Solo en el desayuno" },
+      { "q": "¿Dónde se puede mojar pan sin problema?", "options": ["En familia", "En un restaurante elegante", "En ningún sitio"], "answer": "En familia" }
+    ] },
+    { "id": "e15", "type": "speak", "t": "Posso fare il bis? È buonissimo!", "es": "¿Puedo repetir? ¡Está buenísimo!" },
+    { "id": "e16", "type": "transform", "instr": "Hazla negativa", "q": "Qui si fuma.", "answer": ["Qui non si fuma."], "why": "Non va delante de si: non si fuma.", "g": "it-g-si-impersonale" }
+  ],
+  "dialog": {
+    "title": "La comida del domingo",
+    "setting": "Yolanda está invitada a comer el domingo en casa de su amiga italiana Anna",
+    "emoji": "🍝",
+    "lines": [
+      { "who": "Anna", "t": "A tavola! È pronto!", "es": "¡A la mesa! ¡Está listo!" },
+      { "who": "Yolanda", "t": "Che profumo! Buon appetito a tutti!", "es": "¡Qué olor tan bueno! ¡Que aproveche a todos!" },
+      { "who": "Anna", "t": "Grazie, altrettanto. Assaggia le lasagne, le ho fatte stamattina.", "es": "Gracias, igualmente. Prueba la lasaña, la he hecho esta mañana." },
+      { "who": "Yolanda", "t": "Buonissime! Posso fare la scarpetta?", "es": "¡Buenísima! ¿Puedo mojar pan?" },
+      { "who": "Anna", "t": "Certo! In famiglia si fa sempre.", "es": "¡Claro! En familia se hace siempre." },
+      { "who": "Yolanda", "t": "In Spagna si dice «mojar pan».", "es": "En España se dice «mojar pan»." },
+      { "who": "Anna", "t": "Vuoi fare il bis?", "es": "¿Quieres repetir?" },
+      { "who": "Yolanda", "t": "No, grazie, sono piena! Ma un caffè sì.", "es": "No, gracias, ¡estoy llena! Pero un café, sí." }
+    ],
+    "questions": [
+      { "q": "¿Quién ha hecho la lasaña?", "options": ["Anna", "Yolanda", "Un restaurante"], "answer": "Anna" },
+      { "q": "¿Cómo se dice «mojar pan» en italiano?", "options": ["Fare la scarpetta", "Fare il bis", "Buon appetito"], "answer": "Fare la scarpetta" },
+      { "q": "¿Repite Yolanda?", "options": ["No, está llena", "Sí, dos veces", "Sí, solo lasaña"], "answer": "No, está llena" }
+    ]
+  },
+  "realLife": { "t": "Buon appetito a tutti!", "es": "¡Que aproveche a todos!", "context": "Al sentarte a la mesa con italianos" },
+  "falseFriend": { "word": "il pasto", "means": "la comida (cada una de las del día)", "looksLike": "el pasto (la hierba)", "emoji": "🍴", "tip": "Tre pasti al giorno = tres comidas al día. Il pasto no tiene nada que ver con el campo ni con las vacas." },
+  "summary": [
+    "Frases de la mesa: A tavola! Buon appetito! Cin cin!",
+    "Fare la scarpetta = mojar pan; fare il bis = repetir.",
+    "Costumbres con si: il cappuccino si beve a colazione; la pasta non si taglia.",
+    "Il pasto = la comida (no el pasto del campo)."
+  ],
+  "reviewed": false
+}

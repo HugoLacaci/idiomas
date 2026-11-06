@@ -1,0 +1,60 @@
+{
+  "id": "en-a2-u06-c2",
+  "unit": "en-a2-u06",
+  "title": "Nos vemos en Londres",
+  "setting": "Emma te llama para quedar el día que llegas a Londres.",
+  "emoji": "📞",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "So you arrive on Friday! What time does your train get in?", "es": "¡Así que llegas el viernes! ¿A qué hora llega tu tren?" },
+      "options": [
+        { "t": "At three o'clock. I'll send you the details.", "es": "A las tres. Te mando los detalles.", "next": "n2", "ok": true },
+        { "t": "At three o'clock. I'll to send you the details.", "es": "A las tres. Te mando los detalles.", "next": "n2", "ok": false, "feedback": "Después de I'll, verbo sin to: I'll send." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Perfect. I'll meet you at the station.", "es": "Perfecto. Te espero en la estación." },
+      "options": [
+        { "t": "Thank you! That's very kind.", "es": "¡Gracias! Eres muy amable.", "next": "n3", "ok": true },
+        { "t": "Thank you! You will very kind.", "es": "¡Gracias! Eres muy amable.", "next": "n3", "ok": false, "feedback": "Aquí no hace falta will: That's very kind." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Your suitcase will be heavy. Shall I bring my car?", "es": "Tu maleta pesará. ¿Llevo el coche?" },
+      "options": [
+        { "t": "No, don't worry. I'll take a small one.", "es": "No, no te preocupes. Llevaré una pequeña.", "next": "n4", "ok": true },
+        { "t": "No, don't worry. I'll takes a small one.", "es": "No, no te preocupes. Llevaré una pequeña.", "next": "n4", "ok": false, "feedback": "Will + verbo base, sin -s: I'll take." },
+        { "t": "No, don't worry. I won't to take a big one.", "es": "No, no te preocupes. No llevaré una grande.", "next": "n4", "ok": false, "feedback": "Después de won't, verbo sin to: I won't take." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "OK. Will you be hungry when you arrive?", "es": "Vale. ¿Tendrás hambre cuando llegues?" },
+      "options": [
+        { "t": "Yes, I will! Let's have tea and cake.", "es": "¡Sí! Tomemos té con tarta.", "next": "n5", "ok": true },
+        { "t": "Yes, I am will! Let's have tea and cake.", "es": "¡Sí! Tomemos té con tarta.", "next": "n5", "ok": false, "feedback": "Respuesta corta: Yes, I will." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Great idea. I know a lovely tea room.", "es": "Buena idea. Conozco un salón de té precioso." },
+      "options": [
+        { "t": "Wonderful! I'll call you from the train.", "es": "¡Estupendo! Te llamo desde el tren.", "next": "n6", "ok": true },
+        { "t": "Wonderful! I calling you from the train.", "es": "¡Estupendo! Te llamo desde el tren.", "next": "n6", "ok": false, "feedback": "Para prometer algo: I'll call you." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Perfect. See you on Friday!", "es": "Perfecto. ¡Nos vemos el viernes!" },
+      "options": [
+        { "t": "See you soon, Emma!", "es": "¡Hasta pronto, Emma!", "next": "end", "ok": true },
+        { "t": "Will see you soon, Emma!", "es": "¡Hasta pronto, Emma!", "next": "end", "ok": false, "feedback": "La despedida fija es See you soon!" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

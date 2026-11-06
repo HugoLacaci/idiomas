@@ -1,0 +1,91 @@
+{
+  "id": "it-b1-u08-l1",
+  "unit": "it-b1-u08",
+  "title": "Le città del mio cuore",
+  "goal": "a hablar de tus ciudades favoritas, de tus recuerdos y de lo que echas de menos",
+  "emoji": "❤️",
+  "photoQuery": "rome old town alley evening",
+  "vocab": [
+    { "id": "citta-il-ricordo", "t": "il ricordo", "es": "el recuerdo", "emoji": "💭", "pos": "n", "ex": { "t": "Ho un bel ricordo di Trieste e del suo mare.", "es": "Tengo un bonito recuerdo de Trieste y de su mar." } },
+    { "id": "citta-la-nostalgia", "t": "la nostalgia", "es": "la nostalgia, la morriña", "emoji": "🥹", "pos": "n", "ex": { "t": "Quando torno in Spagna, sento un po' di nostalgia dell'Italia.", "es": "Cuando vuelvo a España, siento un poco de nostalgia de Italia." } },
+    { "id": "citta-sentirsi-a-casa", "t": "sentirsi a casa", "es": "sentirse como en casa", "emoji": "🏡", "pos": "phrase", "ex": { "t": "A Roma mi sento a casa.", "es": "En Roma me siento como en casa." } },
+    { "id": "citta-il-centro-storico", "t": "il centro storico", "es": "el casco antiguo", "emoji": "🏛️", "pos": "n", "ex": { "t": "Il centro storico di Perugia è pieno di scale e piazzette.", "es": "El casco antiguo de Perugia está lleno de escaleras y plazuelas." } },
+    { "id": "citta-il-vicolo", "t": "il vicolo", "es": "el callejón", "emoji": "🛤️", "pos": "n", "ex": { "t": "Mi piace perdermi nei vicoli di Trastevere.", "es": "Me gusta perderme por los callejones del Trastevere." } },
+    { "id": "citta-la-fontana", "t": "la fontana", "es": "la fuente", "emoji": "⛲", "pos": "n", "ex": { "t": "In quasi ogni piazza romana c'è una fontana.", "es": "En casi cada plaza romana hay una fuente." } },
+    { "id": "citta-emozionata", "t": "emozionata", "es": "emocionada", "emoji": "🥰", "pos": "adj", "ex": { "t": "Sono emozionata: domani torno a Roma!", "es": "Estoy emocionada: ¡mañana vuelvo a Roma!" }, "note": "Hablando de un hombre: emozionato." },
+    { "id": "citta-mi-manca", "t": "mi manca / mi mancano", "es": "lo echo de menos / los echo de menos", "emoji": "💔", "pos": "phrase", "ex": { "t": "Mi manca il caffè italiano e mi mancano le mie amiche.", "es": "Echo de menos el café italiano y echo de menos a mis amigas." }, "note": "Funciona como mi piace: lo que echas de menos es el sujeto." },
+    { "id": "citta-il-paesaggio", "t": "il paesaggio", "es": "el paisaje", "emoji": "🏞️", "pos": "n", "ex": { "t": "Il paesaggio delle Dolomiti mi ha lasciata senza parole.", "es": "El paisaje de los Dolomitas me dejó sin palabras." } },
+    { "id": "citta-la-gente", "t": "la gente", "es": "la gente", "emoji": "👥", "pos": "n", "ex": { "t": "La gente di Bologna è molto accogliente.", "es": "La gente de Bolonia es muy acogedora." }, "note": "Singular, como en español: la gente è." }
+  ],
+  "grammar": "it-g-mi-piace",
+  "pron": {
+    "title": "Città: doble t y acento final",
+    "tip": "Città lleva doble t (apóyate un poquito en ella) y el golpe de voz al final, como marca la tilde: cit-TÀ. Igual: università, felicità, libertà.",
+    "words": ["città", "università", "felicità", "libertà", "nostalgia"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Mi ___ tanto le mie amiche italiane.", "es": "Echo mucho de menos a mis amigas italianas.", "options": ["manca", "mancano", "manco"], "answer": "mancano", "why": "Le mie amiche es plural, así que el verbo va en plural: mi mancano.", "g": "it-g-mi-piace" },
+    { "id": "e2", "type": "choose", "q": "Mi ___ il profumo del caffè la mattina.", "es": "Echo de menos el olor del café por la mañana.", "options": ["manca", "mancano", "mancate"], "answer": "manca", "why": "Il profumo es singular: mi manca. Funciona igual que mi piace.", "g": "it-g-mi-piace" },
+    { "id": "e3", "type": "fill", "q": "A Roma mi sento a ___.", "es": "En Roma me siento como en casa.", "answer": ["casa"], "bank": ["casa", "cuore", "nostalgia"], "why": "Sentirsi a casa = sentirse como en casa. Fíjate: en italiano no hace falta «come».", "g": "it-g-riflessivi" },
+    { "id": "e4", "type": "fill", "q": "Domani torno in Italia: sono proprio ___!", "es": "Mañana vuelvo a Italia: ¡estoy muy emocionada!", "answer": ["emozionata"], "hint": "emocionada", "why": "Yolanda es mujer, así que el adjetivo acaba en -a: emozionata." },
+    { "id": "e5", "type": "match", "pairs": [["il ricordo", "el recuerdo"], ["il vicolo", "el callejón"], ["il paesaggio", "el paisaje"], ["la fontana", "la fuente"], ["il centro storico", "el casco antiguo"]], "why": "Palabras para hablar de tus ciudades favoritas." },
+    { "id": "e6", "type": "error", "q": "La gente di Perugia sono molto gentile.", "wrong": "sono", "fix": "è", "why": "La gente es singular, igual que en español: la gente è gentile." },
+    { "id": "e7", "type": "situation", "context": "Tu amiga italiana te pregunta qué echas de menos de Italia cuando estás en España.", "emoji": "💔", "options": ["Mi manca tutto: il cibo, la gente, le piazze!", "Io manco tutto: il cibo, la gente, le piazze!", "Mi mancano tutto: il cibo, la gente, le piazze!"], "answer": "Mi manca tutto: il cibo, la gente, le piazze!", "why": "Tutto es singular: mi manca tutto. El que echa de menos va con mi, como en mi piace.", "g": "it-g-mi-piace" },
+    { "id": "e8", "type": "translate", "dir": "to", "q": "Echo de menos Roma.", "answer": ["Mi manca Roma.", "Roma mi manca."], "why": "Lo que echas de menos es el sujeto: Roma mi manca (Roma «me falta»).", "g": "it-g-mi-piace" },
+    { "id": "e9", "type": "order", "es": "Me gusta perderme por los callejones del casco antiguo.", "answer": "Mi piace perdermi nei vicoli del centro storico", "extra": ["vicolo"], "why": "Nei = in + i. El pronombre se pega al infinitivo: perdermi.", "g": "it-g-mi-piace" },
+    { "id": "e10", "type": "reading", "kind": "message", "title": "WhatsApp de Paola", "text": "Ciao Yolanda! Qui a Roma fa ancora caldo. Ieri sono passata davanti alla Fontana di Trevi e ho pensato a te. Quando torni? Ci manchi tanto!", "questions": [
+      { "q": "¿Dónde está Paola?", "options": ["En Roma", "En Perugia", "En España"], "answer": "En Roma" },
+      { "q": "¿En quién pensó al pasar por la Fontana di Trevi?", "options": ["En Yolanda", "En su hija", "En nadie"], "answer": "En Yolanda" },
+      { "q": "¿Qué significa «Ci manchi tanto»?", "options": ["Te echamos mucho de menos", "Nos faltas mucho dinero", "Te esperamos mañana"], "answer": "Te echamos mucho de menos" }
+    ], "why": "Ci manchi = nos faltas, te echamos de menos." },
+    { "id": "e11", "type": "transform", "instr": "Pásala al plural (le mie amiche)", "q": "Mi manca la mia amica.", "answer": ["Mi mancano le mie amiche."], "why": "Si lo que echas de menos es plural, el verbo también: mi mancano.", "g": "it-g-mi-piace" },
+    { "id": "e12", "type": "choose", "q": "Il ___ di Perugia è tutto in salita.", "es": "El casco antiguo de Perugia es todo cuesta arriba.", "options": ["centro storico", "vicolo", "ricordo"], "answer": "centro storico", "why": "El casco antiguo de una ciudad = il centro storico." },
+    { "id": "e13", "type": "conjugate", "verb": "sentirsi", "person": "io", "tense": "presente", "q": "In questa città ___ davvero a casa.", "answer": ["mi sento"], "why": "Sentirsi es reflexivo: io mi sento, tu ti senti, lei si sente.", "g": "it-g-riflessivi" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "Ho un bel ricordo di quel viaggio.", "answer": ["Tengo un buen recuerdo de ese viaje.", "Tengo un bonito recuerdo de ese viaje.", "Tengo un bonito recuerdo de aquel viaje.", "Tengo un buen recuerdo de aquel viaje."], "why": "Avere un bel ricordo = tener un buen (bonito) recuerdo." },
+    { "id": "e15", "type": "speak", "t": "Ogni volta che torno in Italia, mi sento a casa.", "es": "Cada vez que vuelvo a Italia, me siento como en casa." }
+  ],
+  "dialog": {
+    "title": "¿Cuál es tu ciudad favorita?",
+    "setting": "Yolanda y su amiga Paola pasean por el Trastevere, en Roma, al atardecer",
+    "emoji": "🌆",
+    "lines": [
+      { "who": "Paola", "t": "Allora, Yolanda, dopo tutto questo viaggio, qual è la tua città preferita?", "es": "Bueno, Yolanda, después de todo este viaje, ¿cuál es tu ciudad favorita?" },
+      { "who": "Yolanda", "t": "Che domanda difficile! Ogni città ha qualcosa di speciale.", "es": "¡Qué pregunta tan difícil! Cada ciudad tiene algo especial." },
+      { "who": "Paola", "t": "Dai, scegline una!", "es": "¡Venga, elige una!" },
+      { "who": "Yolanda", "t": "Trieste per il mare, Bologna per la gente, Perugia per il cioccolato…", "es": "Trieste por el mar, Bolonia por la gente, Perugia por el chocolate…" },
+      { "who": "Paola", "t": "E Roma?", "es": "¿Y Roma?" },
+      { "who": "Yolanda", "t": "Roma è diversa: qui mi sento a casa.", "es": "Roma es distinta: aquí me siento como en casa." },
+      { "who": "Paola", "t": "E quando tornerai in Spagna, cosa ti mancherà?", "es": "Y cuando vuelvas a España, ¿qué echarás de menos?" },
+      { "who": "Yolanda", "t": "Mi mancheranno i vicoli, le fontane… e soprattutto tu!", "es": "Echaré de menos los callejones, las fuentes… ¡y sobre todo a ti!" }
+    ],
+    "questions": [
+      { "q": "¿Por qué le gusta Bolonia a Yolanda?", "options": ["Por la gente", "Por el mar", "Por el chocolate"], "answer": "Por la gente" },
+      { "q": "¿Cómo se siente Yolanda en Roma?", "options": ["Como en casa", "Cansada", "Perdida"], "answer": "Como en casa" },
+      { "q": "¿Qué echará de menos sobre todo?", "options": ["A Paola", "El tráfico", "El calor"], "answer": "A Paola" }
+    ]
+  },
+  "realLife": { "t": "Che bella città! Qui mi sento a casa.", "es": "¡Qué ciudad tan bonita! Aquí me siento como en casa.", "context": "Para decirle a alguien que te encanta su ciudad" },
+  "same": {
+    "text": "Muchas palabras de sentimientos y lugares son casi iguales.",
+    "examples": [
+      { "t": "la nostalgia", "es": "la nostalgia" },
+      { "t": "il monumento", "es": "el monumento" },
+      { "t": "la gente", "es": "la gente" }
+    ]
+  },
+  "falseFriend": {
+    "word": "la fermata",
+    "means": "la parada (del autobús, del tranvía)",
+    "looksLike": "firmada (en italiano, firmata)",
+    "emoji": "🚏",
+    "tip": "Scendo alla prossima fermata = me bajo en la próxima parada. Viene de fermare (parar); firmar es firmare."
+  },
+  "summary": [
+    "Lugares: il centro storico, il vicolo, la fontana, la piazza.",
+    "Sentimientos: il ricordo, la nostalgia, emozionata, sentirsi a casa.",
+    "Echar de menos: mi manca + singular, mi mancano + plural.",
+    "La gente es singular: la gente è simpatica.",
+    "¡Ojo! La fermata = la parada."
+  ],
+  "reviewed": false
+}

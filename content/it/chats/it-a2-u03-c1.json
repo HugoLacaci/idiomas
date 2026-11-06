@@ -1,0 +1,59 @@
+{
+  "id": "it-a2-u03-c1",
+  "unit": "it-a2-u03",
+  "title": "Giulia pregunta por tus mañanas",
+  "setting": "Giulia te escribe por WhatsApp un martes a primera hora",
+  "emoji": "⏰",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Buongiorno Yolanda! Sei già sveglia?", "es": "¡Buenos días, Yolanda! ¿Ya estás despierta?" },
+      "options": [
+        { "t": "Sì! Di solito mi sveglio alle sette.", "es": "¡Sí! Normalmente me despierto a las siete.", "next": "n2", "ok": true },
+        { "t": "Sì! Di solito sveglio alle sette.", "es": "¡Sí! Normalmente me despierto a las siete.", "next": "n2", "ok": false, "feedback": "Despertarse es reflexivo: mi sveglio." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Brava! E ti alzi subito?", "es": "¡Muy bien! ¿Y te levantas enseguida?" },
+      "options": [
+        { "t": "No, resto a letto cinque minuti e poi mi alzo.", "es": "No, me quedo cinco minutos en la cama y luego me levanto.", "next": "n3", "ok": true },
+        { "t": "No, resto a letto cinque minuti e poi ti alzi.", "es": "No, me quedo cinco minutos en la cama y luego me levanto.", "next": "n3", "ok": false, "feedback": "Hablas de ti: mi alzo." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Ti fai la doccia la mattina o la sera?", "es": "¿Te duchas por la mañana o por la noche?" },
+      "options": [
+        { "t": "La mattina. Mi faccio la doccia prima di colazione.", "es": "Por la mañana. Me ducho antes de desayunar.", "next": "n4", "ok": true },
+        { "t": "La mattina. Mi fa la doccia prima di colazione.", "es": "Por la mañana. Me ducho antes de desayunar.", "next": "n4", "ok": false, "feedback": "Io → mi faccio la doccia." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E tuo marito?", "es": "¿Y tu marido?" },
+      "options": [
+        { "t": "Lui si alza più tardi e si fa la barba.", "es": "Él se levanta más tarde y se afeita.", "next": "n5", "ok": true },
+        { "t": "Lui ci alza più tardi e ci fa la barba.", "es": "Él se levanta más tarde y se afeita.", "next": "n5", "ok": false, "feedback": "Lui → si alza, si fa." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Io invece mi trucco in macchina! Ahah!", "es": "¡Yo, en cambio, me maquillo en el coche! ¡Jaja!" },
+      "options": [
+        { "t": "Ahah! Io mi trucco solo quando esco.", "es": "¡Jaja! Yo solo me maquillo cuando salgo.", "next": "n6", "ok": true },
+        { "t": "Ahah! Io trucco solo quando esco.", "es": "¡Jaja! Yo solo me maquillo cuando salgo.", "next": "n6", "ok": false, "feedback": "Maquillarse a una misma: mi trucco." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Adesso devo andare. Buona giornata!", "es": "Ahora tengo que irme. ¡Que tengas un buen día!" },
+      "options": [
+        { "t": "Anche a te! A presto!", "es": "¡Igualmente! ¡Hasta pronto!", "next": "end", "ok": true },
+        { "t": "Anche a te! A pronto!", "es": "¡Igualmente! ¡Hasta pronto!", "next": "end", "ok": false, "feedback": "«Hasta pronto» es a presto. Pronto es «listo» o «¿diga?»." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

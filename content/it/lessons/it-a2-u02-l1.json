@@ -1,0 +1,474 @@
+{
+  "id": "it-a2-u02-l1",
+  "unit": "it-a2-u02",
+  "title": "Buon Natale!",
+  "goal": "a nombrar las fiestas del año y las cosas típicas de cada una",
+  "emoji": "🎄",
+  "photoQuery": "christmas market lights italy",
+  "vocab": [
+    {
+      "id": "festa-natale",
+      "t": "il Natale",
+      "es": "la Navidad",
+      "emoji": "🎄",
+      "pos": "n",
+      "ex": {
+        "t": "A Natale mangiamo tutti insieme.",
+        "es": "En Navidad comemos todos juntos."
+      }
+    },
+    {
+      "id": "festa-vigilia",
+      "t": "la Vigilia di Natale",
+      "es": "la Nochebuena",
+      "emoji": "🌟",
+      "pos": "n",
+      "ex": {
+        "t": "La Vigilia ceniamo con tutta la famiglia.",
+        "es": "En Nochebuena cenamos con toda la familia."
+      }
+    },
+    {
+      "id": "festa-capodanno",
+      "t": "il Capodanno",
+      "es": "el Año Nuevo, la Nochevieja",
+      "emoji": "🎆",
+      "pos": "n",
+      "ex": {
+        "t": "A Capodanno mangiamo le lenticchie.",
+        "es": "En Año Nuevo comemos lentejas."
+      },
+      "note": "En Italia, las lentejas de Fin de Año traen dinero, como nuestras uvas traen suerte."
+    },
+    {
+      "id": "festa-pasqua",
+      "t": "la Pasqua",
+      "es": "la Pascua, la Semana Santa",
+      "emoji": "🐣",
+      "pos": "n",
+      "ex": {
+        "t": "A Pasqua mangiamo la colomba.",
+        "es": "En Semana Santa comemos la colomba."
+      },
+      "note": "La colomba es un bizcocho dulce con forma de paloma."
+    },
+    {
+      "id": "festa-compleanno",
+      "t": "il compleanno",
+      "es": "el cumpleaños",
+      "emoji": "🎂",
+      "pos": "n",
+      "ex": {
+        "t": "Domani è il compleanno di mio marito.",
+        "es": "Mañana es el cumpleaños de mi marido."
+      }
+    },
+    {
+      "id": "festa-regalo",
+      "t": "il regalo",
+      "es": "el regalo",
+      "emoji": "🎁",
+      "pos": "n",
+      "ex": {
+        "t": "Ho comprato un regalo per mio figlio Hugo.",
+        "es": "He comprado un regalo para mi hijo Hugo."
+      }
+    },
+    {
+      "id": "festa-albero",
+      "t": "l'albero di Natale",
+      "es": "el árbol de Navidad",
+      "emoji": "🌲",
+      "pos": "n",
+      "ex": {
+        "t": "Abbiamo fatto l'albero di Natale in salotto.",
+        "es": "Hemos puesto el árbol de Navidad en el salón."
+      }
+    },
+    {
+      "id": "festa-presepe",
+      "t": "il presepe",
+      "es": "el belén",
+      "emoji": "⭐",
+      "pos": "n",
+      "ex": {
+        "t": "Il presepe di Napoli è famosissimo.",
+        "es": "El belén de Nápoles es famosísimo."
+      }
+    },
+    {
+      "id": "festa-tombola",
+      "t": "la tombola",
+      "es": "el bingo casero de Navidad",
+      "emoji": "🔢",
+      "pos": "n",
+      "ex": {
+        "t": "Dopo cena giochiamo a tombola.",
+        "es": "Después de cenar jugamos a la tombola."
+      }
+    },
+    {
+      "id": "festa-befana",
+      "t": "la Befana",
+      "es": "la Befana (la viejecita del 6 de enero)",
+      "emoji": "🧹",
+      "pos": "n",
+      "ex": {
+        "t": "La Befana porta i dolci ai bambini.",
+        "es": "La Befana trae dulces a los niños."
+      }
+    }
+  ],
+  "grammar": "it-g-passato-prossimo-essere",
+  "pron": {
+    "title": "Las dobles de Capodanno",
+    "tip": "En Capodanno, panettone y mezzanotte la consonante es doble: haz una pausa cortita antes, como si la apretaras. «Capo-dan-no».",
+    "words": [
+      "Capodanno",
+      "panettone",
+      "mezzanotte",
+      "tutti"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "il Natale",
+          "la Navidad"
+        ],
+        [
+          "la Pasqua",
+          "la Semana Santa"
+        ],
+        [
+          "il Capodanno",
+          "el Año Nuevo"
+        ],
+        [
+          "il compleanno",
+          "el cumpleaños"
+        ],
+        [
+          "la Vigilia di Natale",
+          "la Nochebuena"
+        ]
+      ],
+      "why": "Las fiestas principales del año."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Il 25 dicembre è ___.",
+      "es": "El 25 de diciembre es Navidad.",
+      "options": [
+        "Natale",
+        "Pasqua",
+        "Capodanno"
+      ],
+      "answer": "Natale",
+      "why": "El 25 de diciembre es Natale."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "A Pasqua in Italia si mangia la ___.",
+      "es": "En Semana Santa en Italia se come la colomba.",
+      "options": [
+        "colomba",
+        "tombola",
+        "Befana"
+      ],
+      "answer": "colomba",
+      "why": "La colomba es el dulce de Pascua, con forma de paloma."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "La ___ porta i dolci ai bambini il 6 gennaio.",
+      "es": "La Befana trae dulces a los niños el 6 de enero.",
+      "answer": [
+        "Befana"
+      ],
+      "bank": [
+        "Befana",
+        "Pasqua",
+        "tombola"
+      ],
+      "why": "La Befana llega la noche del 5 al 6 de enero, como nuestros Reyes."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Dopo il cenone giochiamo a ___.",
+      "es": "Después de la gran cena jugamos a la tombola.",
+      "answer": [
+        "tombola"
+      ],
+      "bank": [
+        "tombola",
+        "regalo",
+        "presepe"
+      ],
+      "why": "La tombola es el bingo casero de las fiestas."
+    },
+    {
+      "id": "e6",
+      "type": "situation",
+      "context": "Es el cumpleaños de una amiga italiana. ¿Qué le dices?",
+      "emoji": "🎂",
+      "options": [
+        "Tanti auguri!",
+        "Buon Natale!",
+        "Buona Pasqua!"
+      ],
+      "answer": "Tanti auguri!",
+      "why": "Para un cumpleaños se dice Tanti auguri!"
+    },
+    {
+      "id": "e7",
+      "type": "situation",
+      "context": "Es 24 de diciembre y saludas a tu vecina italiana.",
+      "emoji": "🎄",
+      "options": [
+        "Buon Natale!",
+        "Buon compleanno!",
+        "Buona notte!"
+      ],
+      "answer": "Buon Natale!",
+      "why": "En Navidad: Buon Natale!"
+    },
+    {
+      "id": "e8",
+      "type": "translate",
+      "dir": "to",
+      "q": "En Navidad comemos todos juntos.",
+      "answer": [
+        "A Natale mangiamo tutti insieme.",
+        "A Natale mangiamo tutte insieme.",
+        "A Natale mangiamo insieme."
+      ],
+      "why": "En Navidad = a Natale."
+    },
+    {
+      "id": "e9",
+      "type": "translate",
+      "dir": "from",
+      "q": "Abbiamo fatto l'albero di Natale.",
+      "answer": [
+        "Hemos puesto el árbol de Navidad.",
+        "Pusimos el árbol de Navidad.",
+        "Hemos hecho el árbol de Navidad.",
+        "Hemos montado el árbol de Navidad.",
+        "Montamos el árbol de Navidad."
+      ],
+      "why": "Fare l'albero = poner o montar el árbol."
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Ayer fui a comprar los regalos.",
+      "answer": "Ieri sono andata a comprare i regali",
+      "alt": [
+        "Sono andata a comprare i regali ieri"
+      ],
+      "extra": [
+        "ho"
+      ],
+      "why": "Andare va con essere: sono andata.",
+      "g": "it-g-passato-prossimo-essere"
+    },
+    {
+      "id": "e11",
+      "type": "choose",
+      "q": "A Natale mio figlio Hugo ___ venuto a casa.",
+      "es": "En Navidad mi hijo Hugo vino a casa.",
+      "options": [
+        "è",
+        "ha",
+        "sono"
+      ],
+      "answer": "è",
+      "why": "Venire va con essere: è venuto.",
+      "g": "it-g-passato-prossimo-essere"
+    },
+    {
+      "id": "e12",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de Giulia",
+      "text": "Ciao Yolanda! A Natale sono andata da mia madre a Napoli. Abbiamo fatto il presepe e giocato a tombola. Mio fratello è arrivato la Vigilia. E tu?",
+      "questions": [
+        {
+          "q": "¿Adónde fue Giulia en Navidad?",
+          "options": [
+            "A casa de su madre en Nápoles",
+            "A Siena",
+            "A España"
+          ],
+          "answer": "A casa de su madre en Nápoles"
+        },
+        {
+          "q": "¿A qué jugaron?",
+          "options": [
+            "A la tombola",
+            "A las cartas",
+            "Al fútbol"
+          ],
+          "answer": "A la tombola"
+        },
+        {
+          "q": "¿Cuándo llegó su hermano?",
+          "options": [
+            "En Nochebuena",
+            "En Año Nuevo",
+            "En Semana Santa"
+          ],
+          "answer": "En Nochebuena"
+        }
+      ],
+      "why": "Fíjate en sono andata (ella) y è arrivato (él)."
+    },
+    {
+      "id": "e13",
+      "type": "error",
+      "q": "A Capodanno ho andato a una festa.",
+      "wrong": "ho",
+      "fix": "sono",
+      "why": "Andare va con essere: sono andata / andato.",
+      "g": "it-g-passato-prossimo-essere"
+    },
+    {
+      "id": "e14",
+      "type": "speak",
+      "t": "Buon Natale e felice anno nuovo!",
+      "es": "¡Feliz Navidad y próspero año nuevo!"
+    },
+    {
+      "id": "e15",
+      "type": "transform",
+      "instr": "Pásala a passato prossimo (habla Yolanda)",
+      "q": "Vado al mercatino di Natale.",
+      "answer": [
+        "Sono andata al mercatino di Natale."
+      ],
+      "why": "Vado → sono andata.",
+      "g": "it-g-passato-prossimo-essere"
+    }
+  ],
+  "dialog": {
+    "title": "Un regalo para Hugo",
+    "setting": "En el mercadillo de Navidad de la piazza Navona, en Roma",
+    "emoji": "🎁",
+    "lines": [
+      {
+        "who": "Paola",
+        "t": "Buongiorno! Cerca un regalo di Natale?",
+        "es": "¡Buenos días! ¿Busca un regalo de Navidad?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, per mio figlio Hugo. È venuto a Roma con me.",
+        "es": "Sí, para mi hijo Hugo. Ha venido a Roma conmigo."
+      },
+      {
+        "who": "Paola",
+        "t": "Che bello! Conosce la Befana?",
+        "es": "¡Qué bien! ¿Conoce a la Befana?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, chi è?",
+        "es": "No, ¿quién es?"
+      },
+      {
+        "who": "Paola",
+        "t": "È una vecchietta. Il 6 gennaio porta i dolci ai bambini.",
+        "es": "Es una viejecita. El 6 de enero trae dulces a los niños."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Come i Re Magi in Spagna!",
+        "es": "¡Como los Reyes Magos en España!"
+      },
+      {
+        "who": "Paola",
+        "t": "Esatto! E a casa fate il presepe?",
+        "es": "¡Exacto! ¿Y en casa ponéis el belén?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, e anche l'albero. Prendo questa statuina per il presepe!",
+        "es": "Sí, y también el árbol. ¡Me llevo esta figurita para el belén!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Para quién busca Yolanda un regalo?",
+        "options": [
+          "Para su hijo Hugo",
+          "Para su marido",
+          "Para Paola"
+        ],
+        "answer": "Para su hijo Hugo"
+      },
+      {
+        "q": "¿Qué hace la Befana el 6 de enero?",
+        "options": [
+          "Trae dulces a los niños",
+          "Prepara la cena",
+          "Pone el árbol"
+        ],
+        "answer": "Trae dulces a los niños"
+      },
+      {
+        "q": "¿Qué compra Yolanda al final?",
+        "options": [
+          "Una figurita para el belén",
+          "Un panettone",
+          "Un árbol"
+        ],
+        "answer": "Una figurita para el belén"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Buon Natale e felice anno nuovo!",
+    "es": "¡Feliz Navidad y próspero año nuevo!",
+    "context": "Para felicitar las fiestas a tus amigos italianos por WhatsApp"
+  },
+  "same": {
+    "text": "Muchas palabras de fiesta son primas hermanas de las nuestras.",
+    "examples": [
+      {
+        "t": "il regalo",
+        "es": "el regalo"
+      },
+      {
+        "t": "la festa",
+        "es": "la fiesta"
+      },
+      {
+        "t": "il presepe",
+        "es": "el pesebre, el belén"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "la tombola",
+    "means": "el bingo casero que se juega en familia en Navidad",
+    "looksLike": "la tómbola (la rifa de la feria)",
+    "emoji": "🔢",
+    "tip": "En Navidad los italianos juegan a la tombola en casa, con cartones y números del 1 al 90, como un bingo."
+  },
+  "summary": [
+    "Fiestas: il Natale, la Vigilia, il Capodanno, la Pasqua, il compleanno.",
+    "Cosas típicas: l'albero, il presepe, la tombola, i regali.",
+    "La Befana trae dulces el 6 de enero, como nuestros Reyes.",
+    "Para felicitar: Buon Natale! Tanti auguri!"
+  ],
+  "reviewed": false,
+  "photo": "it-a2-u02-l1"
+}

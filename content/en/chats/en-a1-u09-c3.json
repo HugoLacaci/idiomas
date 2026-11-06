@@ -1,0 +1,68 @@
+{
+  "id": "en-a1-u09-c3",
+  "unit": "en-a1-u09",
+  "title": "De ruta por Borough Market",
+  "setting": "Emma te lleva a Borough Market, el gran mercado de comida junto al Támesis. Hay muchos puestos y mucha gente.",
+  "emoji": "🧺",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Welcome to Borough Market! It's very old. What would you like to see first?", "es": "¡Bienvenida a Borough Market! Es muy antiguo. ¿Qué te gustaría ver primero?" },
+      "options": [
+        { "t": "The cheese stalls, please! Where are they?", "es": "¡Los puestos de queso, por favor! ¿Dónde están?", "next": "n2", "ok": true },
+        { "t": "The cheese stalls! Where they are?", "es": "¡Los puestos de queso! ¿Dónde están?", "next": "n2", "ok": false, "feedback": "En la pregunta, are va delante: Where are they?" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Over there, next to the bread. Look, this man sells cheese from Wales.", "es": "Allí, al lado del pan. Mira, este señor vende queso de Gales." },
+      "options": [
+        { "t": "Excuse me, can I try some?", "es": "Perdone, ¿puedo probar un poco?", "next": "n3", "ok": true },
+        { "t": "Excuse me, I want try.", "es": "Perdone, quiero probar.", "next": "n3", "ok": false, "feedback": "Suena brusco y falta to. Mejor: Can I try some, please?" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "He says yes! So, what do you think?", "es": "¡Dice que sí! Bueno, ¿qué te parece?" },
+      "options": [
+        { "t": "It's very good! How much is it?", "es": "¡Está muy bueno! ¿Cuánto cuesta?", "next": "n4", "ok": true },
+        { "t": "It's very good! How much costs?", "es": "¡Está muy bueno! ¿Cuánto cuesta?", "next": "n4", "ok": false, "feedback": "Lo más fácil y correcto: How much is it?" },
+        { "t": "It's very good! How many is it?", "es": "¡Está muy bueno! ¿Cuántos es?", "next": "n4", "ok": false, "feedback": "Para el precio se usa how much, no how many." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Four pounds a piece. Who is it for?", "es": "Cuatro libras el trozo. ¿Para quién es?" },
+      "options": [
+        { "t": "It's for my son. He loves cheese.", "es": "Es para mi hijo. Le encanta el queso.", "next": "n5", "ok": true },
+        { "t": "Is for my son. He love cheese.", "es": "Es para mi hijo. Le encanta el queso.", "next": "n5", "ok": false, "feedback": "Dos detalles: falta it (It's for my son) y con he el verbo lleva -s (he loves)." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Sweet! Now I'm hungry. Would you like a hot sandwich?", "es": "¡Qué detalle! Ahora tengo hambre. ¿Te apetece un sándwich caliente?" },
+      "options": [
+        { "t": "Yes, please! What time is it? Is it lunchtime?", "es": "¡Sí, por favor! ¿Qué hora es? ¿Es la hora de comer?", "next": "n6", "ok": true },
+        { "t": "Yes, I'd like. What time it is?", "es": "Sí, me apetece. ¿Qué hora es?", "next": "n6", "ok": false, "feedback": "Acepta con Yes, please. Y en la pregunta is va delante: What time is it?" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "It's one o'clock. Perfect! Eat in or take away?", "es": "Es la una. ¡Perfecto! ¿Para tomar aquí o para llevar?" },
+      "options": [
+        { "t": "Take away. Why don't we eat by the river?", "es": "Para llevar. ¿Por qué no comemos junto al río?", "next": "n7", "ok": true },
+        { "t": "Take away. Why we don't eat by the river?", "es": "Para llevar. ¿Por qué no comemos junto al río?", "next": "n7", "ok": false, "feedback": "Orden de la pregunta: Why + don't + we + eat…?" }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Great idea! The river is just there. Come on!", "es": "¡Muy buena idea! El río está ahí mismo. ¡Vamos!" },
+      "options": [
+        { "t": "Let's go! Thank you, Emma. I love this market.", "es": "¡Vamos! Gracias, Emma. Me encanta este mercado.", "next": "end", "ok": true },
+        { "t": "Let's go! I'd love this market.", "es": "¡Vamos! Me encantaría este mercado.", "next": "end", "ok": false, "feedback": "Para lo que te gusta de verdad, sin 'd: I love this market." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

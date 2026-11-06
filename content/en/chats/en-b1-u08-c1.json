@@ -1,0 +1,45 @@
+{
+  "id": "en-b1-u08-c1",
+  "unit": "en-b1-u08",
+  "title": "¿Qué te dijo?",
+  "setting": "Emma quiere saber qué te contó por teléfono una amiga de España",
+  "emoji": "📞",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "Who was on the phone? You look excited!", "es": "¿Quién era al teléfono? ¡Pareces ilusionada!" },
+      "options": [
+        { "t": "My friend from Spain. She told me some great news.", "es": "Mi amiga de España. Me ha contado una noticia estupenda.", "next": "n2", "ok": true },
+        { "t": "My friend from Spain. She said me some great news.", "es": "(Mi amiga de España. Me ha dicho una noticia estupenda.)", "next": "n2", "ok": false, "feedback": "Con persona (me), el verbo es tell: She told me." }
+      ] },
+    { "id": "n2", "says": { "t": "I'm all ears! What did she say?", "es": "¡Soy toda oídos! ¿Qué dijo?" },
+      "options": [
+        { "t": "She said she was going to be a grandmother!", "es": "¡Dijo que iba a ser abuela!", "next": "n3", "ok": true },
+        { "t": "She told that she was going to be a grandmother!", "es": "(¡Dijo que iba a ser abuela!)", "next": "n3", "ok": false, "feedback": "Tell necesita persona. Sin persona: She said that…" }
+      ] },
+    { "id": "n3", "says": { "t": "How lovely! Is her daughter pregnant?", "es": "¡Qué bonito! ¿Está embarazada su hija?" },
+      "options": [
+        { "t": "Yes! She said the baby was due in March.", "es": "¡Sí! Dijo que salía de cuentas en marzo.", "next": "n4", "ok": true },
+        { "t": "Yes! She's very embarrassed.", "es": "(¡Sí! Tiene mucha vergüenza.)", "next": "n4", "ok": false, "feedback": "¡Ojo! Embarrassed es «con vergüenza». Embarazada es pregnant." }
+      ] },
+    { "id": "n4", "says": { "t": "Did she ask about your trip?", "es": "¿Te preguntó por el viaje?" },
+      "options": [
+        { "t": "Yes. She asked me if I was speaking English.", "es": "Sí. Me preguntó si hablaba inglés.", "next": "n5", "ok": true },
+        { "t": "Yes. She asked me if was I speaking English.", "es": "(Sí. Me preguntó si hablaba inglés.)", "next": "n5", "ok": false, "feedback": "En estilo indirecto, orden normal: if I was speaking." }
+      ] },
+    { "id": "n5", "says": { "t": "And what did you tell her?", "es": "¿Y tú qué le dijiste?" },
+      "options": [
+        { "t": "I told her I spoke English every day!", "es": "¡Le dije que hablaba inglés todos los días!", "next": "n6", "ok": true },
+        { "t": "I told her I speak English every day!", "es": "¡Le dije que hablo inglés todos los días!", "next": "n6", "ok": true, "feedback": "Muy bien también: si sigue siendo verdad, puedes dejar el presente." }
+      ] },
+    { "id": "n6", "says": { "t": "Ha ha! Did she believe you?", "es": "¡Ja, ja! ¿Te creyó?" },
+      "options": [
+        { "t": "Not really! She asked me to send her a video.", "es": "¡No mucho! Me pidió que le mandara un vídeo.", "next": "n7", "ok": true },
+        { "t": "Not really! She asked me send her a video.", "es": "(¡No mucho! Me pidió mandar un vídeo.)", "next": "n7", "ok": false, "feedback": "Pedir que alguien haga algo: asked me to + verbo." }
+      ] },
+    { "id": "n7", "says": { "t": "Then let's record one now!", "es": "¡Pues grabemos uno ahora!" },
+      "options": [
+        { "t": "Good idea! Let's do it.", "es": "¡Buena idea! Vamos a hacerlo.", "next": "end", "ok": true }
+      ] }
+  ],
+  "reviewed": false
+}

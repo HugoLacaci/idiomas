@@ -1,0 +1,472 @@
+{
+  "id": "it-a1-u03-l4",
+  "unit": "it-a1-u03",
+  "title": "Che ore sono?",
+  "goal": "a decir y preguntar la hora, y los días de la semana",
+  "emoji": "🕒",
+  "photoQuery": "old clock tower italian piazza",
+  "vocab": [
+    {
+      "id": "che-ore-sono",
+      "t": "Che ore sono?",
+      "es": "¿Qué hora es?",
+      "emoji": "🕐",
+      "pos": "phrase",
+      "note": "También: Che ora è?",
+      "ex": {
+        "t": "Scusi, che ore sono?",
+        "es": "Perdone, ¿qué hora es?"
+      }
+    },
+    {
+      "id": "e-un-quarto",
+      "t": "e un quarto",
+      "es": "y cuarto",
+      "emoji": "🕒",
+      "pos": "phrase",
+      "ex": {
+        "t": "Sono le tre e un quarto.",
+        "es": "Son las tres y cuarto."
+      }
+    },
+    {
+      "id": "e-mezza",
+      "t": "e mezza",
+      "es": "y media",
+      "emoji": "🕧",
+      "pos": "phrase",
+      "ex": {
+        "t": "Pranziamo all'una e mezza.",
+        "es": "Comemos a la una y media."
+      }
+    },
+    {
+      "id": "mezzogiorno",
+      "t": "mezzogiorno",
+      "es": "mediodía",
+      "emoji": "🕛",
+      "pos": "n",
+      "ex": {
+        "t": "È mezzogiorno: ho fame!",
+        "es": "Es mediodía: ¡tengo hambre!"
+      }
+    },
+    {
+      "id": "mezzanotte",
+      "t": "mezzanotte",
+      "es": "medianoche",
+      "emoji": "🌙",
+      "pos": "n",
+      "ex": {
+        "t": "Hugo chiama a mezzanotte.",
+        "es": "Hugo llama a medianoche."
+      }
+    },
+    {
+      "id": "lunedi",
+      "t": "lunedì",
+      "es": "lunes",
+      "emoji": "📅",
+      "pos": "n",
+      "ex": {
+        "t": "Lunedì ho il medico.",
+        "es": "El lunes tengo médico."
+      }
+    },
+    {
+      "id": "mercoledi",
+      "t": "mercoledì",
+      "es": "miércoles",
+      "emoji": "🗓️",
+      "pos": "n",
+      "ex": {
+        "t": "Mercoledì c'è il mercato.",
+        "es": "El miércoles hay mercado."
+      }
+    },
+    {
+      "id": "venerdi",
+      "t": "venerdì",
+      "es": "viernes",
+      "emoji": "🎉",
+      "pos": "n",
+      "ex": {
+        "t": "Venerdì arriva Hugo!",
+        "es": "¡El viernes llega Hugo!"
+      }
+    },
+    {
+      "id": "sabato",
+      "t": "sabato",
+      "es": "sábado",
+      "emoji": "🛍️",
+      "pos": "n",
+      "ex": {
+        "t": "Sabato pranziamo con i nipoti.",
+        "es": "El sábado comemos con los nietos."
+      }
+    },
+    {
+      "id": "domenica",
+      "t": "domenica",
+      "es": "domingo",
+      "emoji": "☀️",
+      "pos": "n",
+      "ex": {
+        "t": "Domenica la farmacia è chiusa.",
+        "es": "El domingo la farmacia está cerrada."
+      }
+    }
+  ],
+  "grammar": "it-g-ora",
+  "pron": {
+    "title": "Las consonantes dobles",
+    "tip": "Las dobles se alargan, como si hicieras una pausa mínima: set-te, ot-to, mil-le. Si no, cambia la palabra: sette (siete) y sete (sed).",
+    "words": [
+      "sette",
+      "otto",
+      "mille",
+      "mezzanotte"
+    ],
+    "pairs": [
+      [
+        "sette",
+        "sete"
+      ],
+      [
+        "nonno",
+        "nono"
+      ],
+      [
+        "carro",
+        "caro"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Scusi, che ore sono? — ___ le sei.",
+      "options": [
+        "Sono",
+        "È",
+        "Ha"
+      ],
+      "answer": "Sono",
+      "why": "Con todas las horas menos la una: sono le…",
+      "g": "it-g-ora"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Il museo apre ___ nove.",
+      "options": [
+        "alle",
+        "all'",
+        "a"
+      ],
+      "answer": "alle",
+      "why": "A las nueve = alle nove (a + le).",
+      "g": "it-g-ora"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "q": "È ___: andiamo a pranzo!",
+      "answer": [
+        "mezzogiorno"
+      ],
+      "bank": [
+        "mezzogiorno",
+        "mezzanotte",
+        "mezza"
+      ],
+      "why": "Para comer, las doce del día: mezzogiorno.",
+      "g": "it-g-ora"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "8:30 → Sono le otto e ___.",
+      "answer": [
+        "mezza",
+        "mezzo"
+      ],
+      "why": "Y media = e mezza.",
+      "g": "it-g-ora"
+    },
+    {
+      "id": "e5",
+      "type": "match",
+      "pairs": [
+        [
+          "lunes",
+          "lunedì"
+        ],
+        [
+          "martes",
+          "martedì"
+        ],
+        [
+          "miércoles",
+          "mercoledì"
+        ],
+        [
+          "jueves",
+          "giovedì"
+        ],
+        [
+          "viernes",
+          "venerdì"
+        ]
+      ],
+      "why": "De lunes a viernes acaban en -dì, con acento. Sabato y domenica no lo llevan."
+    },
+    {
+      "id": "e6",
+      "type": "order",
+      "es": "El sábado comemos con Hugo.",
+      "answer": "Sabato pranziamo con Hugo",
+      "extra": [
+        "Il"
+      ],
+      "why": "Para «el sábado» basta con sabato, sin artículo."
+    },
+    {
+      "id": "e7",
+      "type": "translate",
+      "dir": "to",
+      "q": "Son las tres y cuarto.",
+      "answer": [
+        "Sono le tre e un quarto",
+        "Sono le tre e quindici"
+      ],
+      "why": "Sono le tre + e un quarto.",
+      "g": "it-g-ora"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Il mercato è aperto lunedi.",
+      "wrong": "lunedi",
+      "fix": "lunedì",
+      "why": "Lunedì lleva acento en la ì final."
+    },
+    {
+      "id": "e9",
+      "type": "situation",
+      "context": "Quieres saber a qué hora sale el tren a Pompeya.",
+      "emoji": "🚆",
+      "options": [
+        "A che ora parte il treno per Pompei?",
+        "Che ore sono il treno?",
+        "Quanto parte il treno?"
+      ],
+      "answer": "A che ora parte il treno per Pompei?",
+      "why": "Para el horario: a che ora + verbo?",
+      "g": "it-g-ora"
+    },
+    {
+      "id": "e10",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Farmacia",
+      "text": "FARMACIA\nLunedì–venerdì: 8:30–19:30\nSabato: 9:00–13:00\nDomenica: chiuso",
+      "questions": [
+        {
+          "q": "¿Abre el domingo?",
+          "options": [
+            "No",
+            "Sí, por la mañana",
+            "Sí, todo el día"
+          ],
+          "answer": "No"
+        },
+        {
+          "q": "¿A qué hora cierra el sábado?",
+          "options": [
+            "A la una",
+            "A las siete y media",
+            "A las nueve"
+          ],
+          "answer": "A la una"
+        }
+      ],
+      "g": "it-g-ora"
+    },
+    {
+      "id": "e11",
+      "type": "minimal",
+      "pair": [
+        "sette",
+        "sete"
+      ],
+      "answer": "sete",
+      "es": [
+        "siete",
+        "sed"
+      ],
+      "why": "Sete (sed) tiene una sola t; sette (siete), doble."
+    },
+    {
+      "id": "e12",
+      "type": "minimal",
+      "pair": [
+        "nonno",
+        "nono"
+      ],
+      "answer": "nonno",
+      "es": [
+        "abuelo",
+        "noveno"
+      ],
+      "why": "Nonno (abuelo) alarga la n del medio: non-no."
+    },
+    {
+      "id": "e13",
+      "type": "speak",
+      "t": "Scusi, che ore sono?",
+      "es": "Perdone, ¿qué hora es?"
+    },
+    {
+      "id": "e14",
+      "type": "transform",
+      "instr": "Escribe la hora en letras",
+      "q": "9:30",
+      "answer": [
+        "Sono le nove e mezza",
+        "Sono le nove e mezzo",
+        "Sono le nove e trenta"
+      ],
+      "why": "Sono le nove + e mezza.",
+      "g": "it-g-ora"
+    },
+    {
+      "id": "e15",
+      "type": "choose",
+      "q": "Dopo giovedì viene ___.",
+      "options": [
+        "venerdì",
+        "mercoledì",
+        "domenica"
+      ],
+      "answer": "venerdì",
+      "why": "Después del jueves (giovedì) va el viernes (venerdì)."
+    }
+  ],
+  "dialog": {
+    "title": "¿A qué hora quedamos?",
+    "setting": "Por teléfono: Yolanda y su amiga italiana Paola",
+    "emoji": "📱",
+    "lines": [
+      {
+        "who": "Paola",
+        "t": "Ciao Yolanda! Ci vediamo domani?",
+        "es": "¡Hola, Yolanda! ¿Nos vemos mañana?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Domani è venerdì, vero?",
+        "es": "Mañana es viernes, ¿verdad?"
+      },
+      {
+        "who": "Paola",
+        "t": "Sì! Un caffè alle dieci?",
+        "es": "¡Sí! ¿Un café a las diez?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Alle dieci ho il medico.",
+        "es": "A las diez tengo médico."
+      },
+      {
+        "who": "Paola",
+        "t": "Allora a mezzogiorno?",
+        "es": "¿Entonces a mediodía?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfetto. Dove?",
+        "es": "Perfecto. ¿Dónde?"
+      },
+      {
+        "who": "Paola",
+        "t": "Al bar in piazza.",
+        "es": "En el bar de la plaza."
+      },
+      {
+        "who": "Yolanda",
+        "t": "A domani, allora! Ciao!",
+        "es": "¡Hasta mañana, entonces! ¡Adiós!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué día es mañana?",
+        "options": [
+          "Viernes",
+          "Sábado",
+          "Lunes"
+        ],
+        "answer": "Viernes"
+      },
+      {
+        "q": "¿Qué tiene Yolanda a las diez?",
+        "options": [
+          "Médico",
+          "Clase",
+          "Un tren"
+        ],
+        "answer": "Médico"
+      },
+      {
+        "q": "¿A qué hora quedan?",
+        "options": [
+          "A mediodía",
+          "A las diez",
+          "A medianoche"
+        ],
+        "answer": "A mediodía"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "A che ora chiude?",
+    "es": "¿A qué hora cierra?",
+    "context": "Antes de entrar en un museo, una tienda o una farmacia"
+  },
+  "same": {
+    "text": "Igual que en español: la hora se dice casi palabra por palabra.",
+    "examples": [
+      {
+        "t": "Sono le tre.",
+        "es": "Son las tres."
+      },
+      {
+        "t": "È l'una.",
+        "es": "Es la una."
+      },
+      {
+        "t": "Sono le sei meno un quarto.",
+        "es": "Son las seis menos cuarto."
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "presto",
+    "means": "temprano / pronto",
+    "looksLike": "presto (de prestar)",
+    "emoji": "🌅",
+    "tip": "Alle sei è presto! = ¡A las seis es temprano! Y A presto! = ¡Hasta pronto! Para «prestar» se dice prestare."
+  },
+  "summary": [
+    "Che ore sono? / Che ora è? = ¿Qué hora es?",
+    "Sono le tre, pero È l'una (y È mezzogiorno)",
+    "e un quarto, e mezza, meno un quarto",
+    "A qué hora: alle otto, all'una",
+    "Los días: lunedì… venerdì con acento; sabato, domenica sin él"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u03-l4"
+}

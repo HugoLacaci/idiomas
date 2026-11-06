@@ -1,0 +1,61 @@
+{
+  "id": "it-a1-u12-c1",
+  "unit": "it-a1-u12",
+  "title": "Giulia quiere saber tus gustos",
+  "setting": "Giulia te escribe por WhatsApp desde Roma un domingo por la tarde",
+  "emoji": "❤️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda! Cosa fai nel tempo libero?", "es": "¡Hola, Yolanda! ¿Qué haces en tu tiempo libre?" },
+      "options": [
+        { "t": "Leggo e cammino molto.", "es": "Leo y camino mucho.", "next": "n2", "ok": true },
+        { "t": "Leggere e camminare molto.", "es": "Leer y caminar mucho.", "next": "n2", "ok": false, "feedback": "Hablas de ti, así que conjuga: leggo, cammino." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Anch'io cammino tanto! Ti piace la musica?", "es": "¡Yo también camino mucho! ¿Te gusta la música?" },
+      "options": [
+        { "t": "Sì, mi piace tanto!", "es": "¡Sí, me gusta mucho!", "next": "n3", "ok": true },
+        { "t": "Sì, mi piacciono tanto!", "es": "¡Sí, me gustan mucho!", "next": "n3", "ok": false, "feedback": "La musica es una sola cosa: mi piace." },
+        { "t": "Sì, me piace tanto!", "es": "¡Sí, me gusta mucho!", "next": "n3", "ok": false, "feedback": "Casi: en italiano es mi piace, con i." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "E i film italiani?", "es": "¿Y las películas italianas?" },
+      "options": [
+        { "t": "Mi piacciono molto, soprattutto le commedie.", "es": "Me gustan mucho, sobre todo las comedias.", "next": "n4", "ok": true },
+        { "t": "Mi piace molto, soprattutto le commedie.", "es": "Me gusta mucho, sobre todo las comedias.", "next": "n4", "ok": false, "feedback": "I film es plural: mi piacciono." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Il calcio invece non mi piace per niente.", "es": "En cambio, el fútbol no me gusta nada." },
+      "options": [
+        { "t": "Neanche a me!", "es": "¡A mí tampoco!", "next": "n5", "ok": true },
+        { "t": "Anche a me!", "es": "¡A mí también!", "next": "n5", "ok": false, "feedback": "Giulia dice que no le gusta. Si a ti tampoco: neanche a me." },
+        { "t": "Neanche io piace!", "es": "¡Yo tampoco gusta!", "next": "n5", "ok": false, "feedback": "Con piacere se responde neanche a me." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ah, e a tuo marito piace il calcio?", "es": "Ah, ¿y a tu marido le gusta el fútbol?" },
+      "options": [
+        { "t": "Sì, gli piace tantissimo!", "es": "¡Sí, le encanta!", "next": "n6", "ok": true },
+        { "t": "Sì, le piace tantissimo!", "es": "¡Sí, le encanta!", "next": "n6", "ok": false, "feedback": "A él se dice gli piace; le piace es para ella." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Classico! Allora noi andiamo al cinema e lui guarda la partita!", "es": "¡Lo de siempre! ¡Pues nosotras al cine y él que vea el partido!" },
+      "options": [
+        { "t": "Perfetto! Mi piace l'idea.", "es": "¡Perfecto! Me gusta la idea.", "next": "end", "ok": true },
+        { "t": "Perfetto! Mi piacciono l'idea.", "es": "¡Perfecto! Me gustan la idea.", "next": "end", "ok": false, "feedback": "L'idea es una: mi piace." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

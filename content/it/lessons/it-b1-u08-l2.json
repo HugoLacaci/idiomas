@@ -1,0 +1,78 @@
+{
+  "id": "it-b1-u08-l2",
+  "unit": "it-b1-u08",
+  "title": "La città che amo",
+  "goal": "a unir dos ideas con che, el relativo que sirve para personas y cosas",
+  "emoji": "🔗",
+  "photoQuery": "rome rooftops view sunset",
+  "vocab": [
+    { "id": "citta-la-citta-che-amo", "t": "la città che amo", "es": "la ciudad que quiero", "emoji": "❤️", "pos": "phrase", "ex": { "t": "Roma è la città che amo di più.", "es": "Roma es la ciudad que más quiero." } },
+    { "id": "citta-il-posto", "t": "il posto", "es": "el sitio, el lugar", "emoji": "📍", "pos": "n", "ex": { "t": "Questo è il posto che preferisco per un caffè.", "es": "Este es el sitio que prefiero para tomar un café." }, "note": "Il posto también es el asiento: il mio posto sul treno." },
+    { "id": "citta-il-belvedere", "t": "il belvedere", "es": "el mirador", "emoji": "🔭", "pos": "n", "ex": { "t": "Dal belvedere del Gianicolo si vede tutta Roma.", "es": "Desde el mirador del Gianicolo se ve toda Roma." } },
+    { "id": "citta-lo-scorcio", "t": "lo scorcio", "es": "el rincón, la vista (de un trocito de ciudad)", "emoji": "🖼️", "pos": "n", "ex": { "t": "Da questo vicolo c'è uno scorcio bellissimo sulla cupola.", "es": "Desde este callejón hay una vista preciosa de la cúpula." } },
+    { "id": "citta-affascinante", "t": "affascinante", "es": "fascinante, encantador", "emoji": "✨", "pos": "adj", "ex": { "t": "Ravenna è una città piccola ma affascinante.", "es": "Rávena es una ciudad pequeña pero fascinante." } },
+    { "id": "citta-indimenticabile", "t": "indimenticabile", "es": "inolvidable", "emoji": "🌟", "pos": "adj", "ex": { "t": "È stato un viaggio indimenticabile.", "es": "Ha sido un viaje inolvidable." } },
+    { "id": "citta-il-tramonto", "t": "il tramonto", "es": "la puesta de sol, el atardecer", "emoji": "🌅", "pos": "n", "ex": { "t": "Il tramonto che abbiamo visto a Trieste era magnifico.", "es": "La puesta de sol que vimos en Trieste era magnífica." } },
+    { "id": "citta-la-guida", "t": "la guida", "es": "el / la guía; la guía (libro)", "emoji": "📖", "pos": "n", "ex": { "t": "La guida che ci ha accompagnato parlava anche spagnolo.", "es": "El guía que nos acompañó hablaba también español." }, "note": "Siempre femenina, aunque el guía sea un hombre: la guida." }
+  ],
+  "grammar": "it-g-pronomi-relativi",
+  "pron": {
+    "title": "Che y chi",
+    "tip": "Ch delante de e o i suena como nuestra «qu»: che = «que», chi = «qui». Nunca como la ch de «chocolate».",
+    "words": ["che", "chi", "anche", "perché", "chiesa"],
+    "pairs": [["che", "chi"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Roma è la città ___ amo di più.", "es": "Roma es la ciudad que más quiero.", "options": ["che", "cui", "chi"], "answer": "che", "why": "Che equivale a nuestro «que» y sirve para cosas y personas.", "g": "it-g-pronomi-relativi" },
+    { "id": "e2", "type": "choose", "q": "L'amica ___ vive a Roma mi scrive ogni giorno.", "es": "La amiga que vive en Roma me escribe cada día.", "options": ["che", "chi", "quale"], "answer": "che", "why": "Para personas también usamos che. Chi significa «quien» sin un nombre delante.", "g": "it-g-pronomi-relativi" },
+    { "id": "e3", "type": "choose", "q": "Il tramonto ___ abbiamo visto ieri era indimenticabile.", "es": "El atardecer que vimos ayer era inolvidable.", "options": ["che", "cui", "dove"], "answer": "che", "why": "Sin preposición delante, el relativo es che.", "g": "it-g-pronomi-relativi" },
+    { "id": "e4", "type": "fill", "q": "È un posto ___ consiglio a tutti.", "es": "Es un sitio que recomiendo a todo el mundo.", "answer": ["che"], "bank": ["che", "cui", "dove"], "why": "Il posto es lo que recomiendo (complemento directo): che.", "g": "it-g-pronomi-relativi" },
+    { "id": "e5", "type": "fill", "q": "Ho comprato la guida ___ mi hai consigliato.", "es": "He comprado la guía que me recomendaste.", "answer": ["che"], "why": "La guida es el objeto de consigliare: che, igual que «que».", "g": "it-g-pronomi-relativi" },
+    { "id": "e6", "type": "order", "es": "La ciudad que quiero es Roma.", "answer": "La città che amo è Roma", "extra": ["cui"], "why": "Che va justo después del nombre al que se refiere: la città che…", "g": "it-g-pronomi-relativi" },
+    { "id": "e7", "type": "transform", "instr": "Une las dos frases con che", "q": "Ho un'amica. L'amica vive a Perugia.", "answer": ["Ho un'amica che vive a Perugia."], "why": "Che sustituye a «l'amica» y evita repetirla.", "g": "it-g-pronomi-relativi" },
+    { "id": "e8", "type": "transform", "instr": "Une las dos frases con che", "q": "Ho visto un tramonto. Il tramonto era bellissimo.", "answer": ["Ho visto un tramonto che era bellissimo."], "why": "Che sustituye a «il tramonto»: un tramonto che era bellissimo.", "g": "it-g-pronomi-relativi" },
+    { "id": "e9", "type": "error", "q": "Questa è la piazza cui preferisco.", "wrong": "cui", "fix": "che", "why": "Sin preposición se usa che. Cui va siempre detrás de una preposición (in cui, con cui…).", "g": "it-g-pronomi-relativi" },
+    { "id": "e10", "type": "error", "q": "Mio figlio Hugo è il ragazzo chi parla con la guida.", "wrong": "chi", "fix": "che", "why": "Detrás de un nombre (il ragazzo) el relativo es che, aunque sea una persona.", "g": "it-g-pronomi-relativi" },
+    { "id": "e11", "type": "translate", "dir": "to", "q": "Es el sitio que prefiero.", "answer": ["È il posto che preferisco.", "È il luogo che preferisco."], "why": "Que → che: il posto che preferisco.", "g": "it-g-pronomi-relativi" },
+    { "id": "e12", "type": "translate", "dir": "from", "q": "Le persone che ho conosciuto in Italia sono indimenticabili.", "answer": ["Las personas que he conocido en Italia son inolvidables.", "Las personas que conocí en Italia son inolvidables.", "La gente que he conocido en Italia es inolvidable."], "why": "Che = que; indimenticabile = inolvidable.", "g": "it-g-pronomi-relativi" },
+    { "id": "e13", "type": "match", "pairs": [["La signora che abita qui", "è molto gentile."], ["Le foto che ho fatto", "sono bellissime."], ["Il treno che prendo", "parte alle nove."], ["Le amiche che mi aspettano", "sono al bar."]], "why": "Fíjate en singular y plural para unir cada principio con su final.", "g": "it-g-pronomi-relativi" },
+    { "id": "e14", "type": "situation", "context": "Quieres enseñarle a tu amiga la foto de la fuente que viste ayer.", "emoji": "📸", "options": ["Guarda la fontana che ho visto ieri!", "Guarda la fontana cui ho visto ieri!", "Guarda la fontana chi ho visto ieri!"], "answer": "Guarda la fontana che ho visto ieri!", "why": "La fontana es lo que viste: che, sin preposición.", "g": "it-g-pronomi-relativi" },
+    { "id": "e15", "type": "minimal", "pair": ["che", "chi"], "answer": "che", "es": ["que", "quien"], "why": "Che suena «que»; chi suena «qui»." },
+    { "id": "e16", "type": "speak", "t": "Roma è la città che amo di più.", "es": "Roma es la ciudad que más quiero." }
+  ],
+  "dialog": {
+    "title": "En el mirador",
+    "setting": "Yolanda sube al mirador del Gianicolo con Marco, un guía romano",
+    "emoji": "🔭",
+    "lines": [
+      { "who": "Marco", "t": "Ecco, signora: questo è il belvedere che preferisco a Roma.", "es": "Aquí está, señora: este es el mirador que más me gusta de Roma." },
+      { "who": "Yolanda", "t": "Che meraviglia! Quella cupola che si vede là è San Pietro?", "es": "¡Qué maravilla! ¿Esa cúpula que se ve allí es San Pedro?" },
+      { "who": "Marco", "t": "Sì, esatto. E le colline che vede in fondo sono i Castelli Romani.", "es": "Sí, exacto. Y las colinas que ve al fondo son los Castelli Romani." },
+      { "who": "Yolanda", "t": "Devo fare una foto per mio figlio Hugo, che adora Roma.", "es": "Tengo que hacer una foto para mi hijo Hugo, que adora Roma." },
+      { "who": "Marco", "t": "Aspetti il tramonto: è lo spettacolo che tutti vengono a vedere.", "es": "Espere a la puesta de sol: es el espectáculo que todos vienen a ver." },
+      { "who": "Yolanda", "t": "Va bene, aspetto. È un momento che non voglio perdere.", "es": "Vale, espero. Es un momento que no quiero perderme." },
+      { "who": "Marco", "t": "Brava! Sarà un ricordo indimenticabile.", "es": "¡Muy bien! Será un recuerdo inolvidable." }
+    ],
+    "questions": [
+      { "q": "¿Qué cúpula ve Yolanda?", "options": ["La de San Pedro", "La del Panteón", "La de Florencia"], "answer": "La de San Pedro" },
+      { "q": "¿Para quién hace la foto?", "options": ["Para su hijo Hugo", "Para su marido", "Para Marco"], "answer": "Para su hijo Hugo" },
+      { "q": "¿Qué espectáculo van a ver todos?", "options": ["La puesta de sol", "Un concierto", "Los fuegos artificiales"], "answer": "La puesta de sol" }
+    ]
+  },
+  "realLife": { "t": "È il posto più bello che abbia mai visto.", "es": "Es el sitio más bonito que he visto nunca.", "context": "Para expresar entusiasmo por un lugar (¡con un congiuntivo de regalo!)" },
+  "same": {
+    "text": "Che funciona como nuestro «que»: para personas y cosas.",
+    "examples": [
+      { "t": "la città che amo", "es": "la ciudad que quiero" },
+      { "t": "la gente che conosco", "es": "la gente que conozco" },
+      { "t": "il libro che leggo", "es": "el libro que leo" }
+    ]
+  },
+  "summary": [
+    "Che = que: une dos ideas y sirve para personas y cosas.",
+    "Che no cambia nunca: il posto che, le amiche che.",
+    "Sin preposición, che; cui solo va detrás de una preposición.",
+    "Chi = quien (sin nombre delante); detrás de un nombre, che."
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "en-b1-u01-c3",
+  "unit": "en-b1-u01",
+  "title": "Cosas que nunca he hecho",
+  "setting": "Emma y tú jugáis a «Nunca he…» por WhatsApp para practicar el inglés.",
+  "emoji": "🎲",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Let's play a game! I'll start: I've never ridden a horse. What about you?", "es": "¡Juguemos a algo! Empiezo yo: nunca he montado a caballo. ¿Y tú?" },
+      "options": [
+        { "t": "I have! I rode a horse on holiday last summer.", "es": "¡Yo sí! Monté a caballo en las vacaciones del verano pasado.", "next": "n2", "ok": true },
+        { "t": "I have! I've ridden a horse last summer.", "es": "¡Yo sí! Monté a caballo el verano pasado.", "next": "n2", "ok": false, "feedback": "Con last summer se usa pasado simple: I rode a horse last summer." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Wow! Your turn now.", "es": "¡Hala! Ahora te toca a ti." },
+      "options": [
+        { "t": "I've never flown in a helicopter.", "es": "Nunca he volado en helicóptero.", "next": "n3", "ok": true },
+        { "t": "I've never flew in a helicopter.", "es": "Nunca he volado en helicóptero.", "next": "n3", "ok": false, "feedback": "Detrás de have va el participio: flown (fly, flew, flown)." },
+        { "t": "I don't have never flown in a helicopter.", "es": "Nunca he volado en helicóptero.", "next": "n3", "ok": false, "feedback": "Una sola negación y con have: I've never flown." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Me neither! OK: I've never cooked paella. Have you ever cooked it?", "es": "¡Yo tampoco! Vale: nunca he hecho paella. ¿Tú la has hecho alguna vez?" },
+      "options": [
+        { "t": "Of course! I've cooked it hundreds of times.", "es": "¡Claro! La he hecho cientos de veces.", "next": "n4", "ok": true },
+        { "t": "Of course! I cook it hundreds of times.", "es": "¡Claro! La he hecho cientos de veces.", "next": "n4", "ok": false, "feedback": "Hablas de experiencias de tu vida: I've cooked it." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ha ha, you must teach me! Has your son ever cooked it?", "es": "¡Ja, ja, me tienes que enseñar! ¿Tu hijo la ha hecho alguna vez?" },
+      "options": [
+        { "t": "Yes, he has, but mine is better!", "es": "Sí, pero la mía está más rica.", "next": "n5", "ok": true },
+        { "t": "Yes, he have, but mine is better!", "es": "Sí, pero la mía está más rica.", "next": "n5", "ok": false, "feedback": "Con he: Yes, he has." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Of course it is! Last one: I've never seen the Northern Lights.", "es": "¡Claro que sí! La última: nunca he visto la aurora boreal." },
+      "options": [
+        { "t": "Me neither. It's on my bucket list!", "es": "Yo tampoco. ¡Está en mi lista de sueños!", "next": "n6", "ok": true },
+        { "t": "Me too. It's on my bucket list!", "es": "Yo tampoco. ¡Está en mi lista de sueños!", "next": "n6", "ok": false, "feedback": "Para estar de acuerdo con algo negativo se dice Me neither (yo tampoco)." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Shall we go to Canada together one day and see them?", "es": "¿Vamos juntas a Canadá algún día a verla?" },
+      "options": [
+        { "t": "I'd love to! It would be unforgettable.", "es": "¡Me encantaría! Sería inolvidable.", "next": "end", "ok": true },
+        { "t": "I love to! It would be unforgettable.", "es": "¡Me encantaría! Sería inolvidable.", "next": "end", "ok": false, "feedback": "Me encantaría = I'd love to (I would love to)." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

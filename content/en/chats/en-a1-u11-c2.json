@@ -1,0 +1,67 @@
+{
+  "id": "en-a1-u11-c2",
+  "unit": "en-a1-u11",
+  "title": "¿Qué hacemos hoy?",
+  "setting": "Desayunas con Emma en el hotel y decidís juntas el plan del día.",
+  "emoji": "🗓️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Good morning! It's a lovely day. What do you want to do?", "es": "¡Buenos días! Hace un día precioso. ¿Qué quieres hacer?" },
+      "options": [
+        { "t": "Let's go to the British Museum!", "es": "¡Vamos al Museo Británico!", "next": "n2", "ok": true },
+        { "t": "Let's going to the museum!", "es": "¡Vamos al museo!", "next": "n2", "ok": false, "feedback": "Detrás de Let's, el verbo tal cual: Let's go." },
+        { "t": "We go to museum?", "es": "¿Vamos al museo?", "next": "n2", "ok": false, "feedback": "Para proponer, usa Let's: Let's go to the museum!" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Great idea! It's free. How do we get there? Tube or bus?", "es": "¡Muy buena idea! Es gratis. ¿Cómo vamos? ¿Metro o autobús?" },
+      "options": [
+        { "t": "Let's take the bus. We can see the city.", "es": "Cojamos el autobús. Podemos ver la ciudad.", "next": "n3", "ok": true },
+        { "t": "Let's take the bus. We can to see the city.", "es": "Cojamos el autobús. Podemos ver la ciudad.", "next": "n3", "ok": false, "feedback": "Después de can no va to: We can see the city." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Perfect. And for lunch? Let's eat in the museum café.", "es": "Perfecto. ¿Y para comer? Comamos en la cafetería del museo." },
+      "options": [
+        { "t": "Hmm, let's not eat there. Let's have a picnic in a park.", "es": "Mmm, mejor no comamos allí. Hagamos un picnic en un parque.", "next": "n4", "ok": true },
+        { "t": "Hmm, let's don't eat there.", "es": "Mmm, mejor no comamos allí.", "next": "n4", "ok": false, "feedback": "La negativa es Let's not: let's not eat there." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "A picnic! Yes, let's! There's a nice square near the museum.", "es": "¡Un picnic! ¡Sí, venga! Hay una plaza bonita cerca del museo." },
+      "options": [
+        { "t": "Lovely! Let's buy some sandwiches first.", "es": "¡Qué bien! Compremos unos sándwiches primero.", "next": "n5", "ok": true },
+        { "t": "Lovely! Let's buys some sandwiches.", "es": "¡Qué bien! Compremos unos sándwiches.", "next": "n5", "ok": false, "feedback": "Let's + verbo sin -s: Let's buy." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "OK. And tonight? There's a free lecture at the museum.", "es": "Vale. ¿Y esta noche? Hay una conferencia gratis en el museo." },
+      "options": [
+        { "t": "A lecture? Hmm, I'm tired at night. Let's go back to the hotel.", "es": "¿Una conferencia? Mmm, por la noche estoy cansada. Volvamos al hotel.", "next": "n6", "ok": true },
+        { "t": "Oh, I love reading! Let's go.", "es": "¡Ay, me encanta leer! Vamos.", "next": "n5b", "ok": false, "feedback": "¡Ojo, falso amigo! A lecture es una conferencia, no una lectura." }
+      ]
+    },
+    {
+      "id": "n5b",
+      "says": { "t": "Ha! A lecture is a talk, not a book. Do you still want to go?", "es": "¡Ja! Una lecture es una charla, no un libro. ¿Aún quieres ir?" },
+      "options": [
+        { "t": "No, thanks. Let's go back to the hotel.", "es": "No, gracias. Volvamos al hotel.", "next": "n6", "ok": true }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Fine by me. Come on, finish your tea. Let's go!", "es": "Por mí, bien. Venga, termínate el té. ¡Vamos!" },
+      "options": [
+        { "t": "One minute! Don't go without me!", "es": "¡Un minuto! ¡No te vayas sin mí!", "next": "end", "ok": true },
+        { "t": "One minute! No go without me!", "es": "¡Un minuto! ¡No te vayas sin mí!", "next": "end", "ok": false, "feedback": "Imperativo negativo con Don't: Don't go without me!" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,67 @@
+{
+  "id": "it-a1-u08-c3",
+  "unit": "it-a1-u08",
+  "title": "¿Cómo te mueves por Roma?",
+  "setting": "Giulia te pregunta cómo vas a ir a ver la ciudad mañana",
+  "emoji": "🗺️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Domani cosa fai? Vai in centro?", "es": "¿Qué haces mañana? ¿Vas al centro?" },
+      "options": [
+        { "t": "Sì, vado in centro la mattina.", "es": "Sí, voy al centro por la mañana.", "next": "n2", "ok": true },
+        { "t": "Sì, vado a centro la mattina.", "es": "Sí, voy al centro por la mañana.", "next": "n2", "ok": false, "feedback": "Se dice in centro, sin artículo." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "E come vai? In metro?", "es": "¿Y cómo vas? ¿En metro?" },
+      "options": [
+        { "t": "No, vado a piedi. Mi piace camminare.", "es": "No, voy andando. Me gusta caminar.", "next": "n3", "ok": true },
+        { "t": "No, vado in piedi. Mi piace camminare.", "es": "No, voy andando. Me gusta caminar.", "next": "n3", "ok": false, "feedback": "Andando es a piedi. In piedi significa «de pie»." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Brava! E il pomeriggio?", "es": "¡Muy bien! ¿Y por la tarde?" },
+      "options": [
+        { "t": "Il pomeriggio vado da un'amica italiana.", "es": "Por la tarde voy a casa de una amiga italiana.", "next": "n4", "ok": true },
+        { "t": "Il pomeriggio vado a casa di un'amica italiana.", "es": "Por la tarde voy a casa de una amiga italiana.", "next": "n4", "ok": false, "feedback": "Se entiende, pero lo natural es da + persona: vado da un'amica." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E la prossima settimana? Resti a Roma?", "es": "¿Y la semana que viene? ¿Te quedas en Roma?" },
+      "options": [
+        { "t": "No, vado in Sicilia in treno.", "es": "No, voy a Sicilia en tren.", "next": "n5", "ok": true },
+        { "t": "No, vado a Sicilia in treno.", "es": "No, voy a Sicilia en tren.", "next": "n5", "ok": false, "feedback": "Sicilia es una región: in Sicilia." },
+        { "t": "No, vado in Palermo in treno.", "es": "No, voy a Palermo en tren.", "next": "n5", "ok": false, "feedback": "Palermo es una ciudad: a Palermo." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Che bello! Sai che il treno attraversa lo stretto sul traghetto?", "es": "¡Qué bonito! ¿Sabes que el tren cruza el estrecho en un ferry?" },
+      "options": [
+        { "t": "Sì! Che emozione!", "es": "¡Sí! ¡Qué emoción!", "next": "n6", "ok": true },
+        { "t": "Sì! Il treno va a piedi!", "es": "¡Sí! ¡El tren va andando!", "next": "n6", "ok": false, "feedback": "¡Ja, ja! El tren no va a pie: va sul traghetto, en el ferry." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Poi torni in Spagna in aereo?", "es": "¿Luego vuelves a España en avión?" },
+      "options": [
+        { "t": "Sì, torno in Spagna in aereo.", "es": "Sí, vuelvo a España en avión.", "next": "n7", "ok": true },
+        { "t": "Sì, torno a Spagna in aereo.", "es": "Sí, vuelvo a España en avión.", "next": "n7", "ok": false, "feedback": "España es un país: in Spagna." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Che viaggio! Mandami tante foto, eh!", "es": "¡Menudo viaje! ¡Mándame muchas fotos, eh!" },
+      "options": [
+        { "t": "Certo! Un bacio, Giulia!", "es": "¡Claro! ¡Un beso, Giulia!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

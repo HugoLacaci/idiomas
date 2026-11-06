@@ -1,0 +1,400 @@
+{
+  "id": "en-a2-u03-l5",
+  "unit": "en-a2-u03",
+  "title": "De compras por Oxford Street",
+  "goal": "a comprar un regalo comparando, eligiendo el mejor y pagando con soltura",
+  "emoji": "🛍️",
+  "photoQuery": "busy shopping street london",
+  "vocab": [
+    {
+      "id": "clothes-just-looking",
+      "t": "I'm just looking, thanks.",
+      "es": "Solo estoy mirando, gracias.",
+      "emoji": "👀",
+      "pos": "phrase",
+      "ex": {
+        "t": "Can I help you? — I'm just looking, thanks.",
+        "es": "¿La ayudo? — Solo estoy mirando, gracias."
+      }
+    },
+    {
+      "id": "clothes-shop-window",
+      "t": "the shop window",
+      "es": "el escaparate",
+      "emoji": "🪟",
+      "pos": "n",
+      "ex": {
+        "t": "I like the dress in the shop window.",
+        "es": "Me gusta el vestido del escaparate."
+      }
+    },
+    {
+      "id": "clothes-sale",
+      "t": "the sales",
+      "es": "las rebajas",
+      "emoji": "🏷️",
+      "pos": "n",
+      "ex": {
+        "t": "Everything is cheaper in the sales.",
+        "es": "En rebajas todo está más barato."
+      },
+      "note": "on sale = rebajado; the sales = la temporada de rebajas."
+    },
+    {
+      "id": "clothes-a-present",
+      "t": "a present",
+      "es": "un regalo",
+      "emoji": "🎁",
+      "pos": "n",
+      "ex": {
+        "t": "It's a present for my grandson.",
+        "es": "Es un regalo para mi nieto."
+      },
+      "note": "También: a gift."
+    },
+    {
+      "id": "clothes-gift-wrap",
+      "t": "Can you wrap it, please?",
+      "es": "¿Me lo envuelve, por favor?",
+      "emoji": "🎀",
+      "pos": "phrase",
+      "ex": {
+        "t": "It's a present. Can you wrap it, please?",
+        "es": "Es un regalo. ¿Me lo envuelve, por favor?"
+      },
+      "note": "La w de wrap no suena: «rap»."
+    },
+    {
+      "id": "clothes-pay-by-card",
+      "t": "Can I pay by card?",
+      "es": "¿Puedo pagar con tarjeta?",
+      "emoji": "💳",
+      "pos": "phrase",
+      "ex": {
+        "t": "Can I pay by card, please?",
+        "es": "¿Puedo pagar con tarjeta, por favor?"
+      }
+    },
+    {
+      "id": "clothes-receipt",
+      "t": "the receipt",
+      "es": "el tique, el recibo",
+      "emoji": "🧾",
+      "pos": "n",
+      "ex": {
+        "t": "Keep the receipt, please.",
+        "es": "Guarde el tique, por favor."
+      },
+      "note": "La p no suena: «ri-SIT»."
+    },
+    {
+      "id": "clothes-change-it",
+      "t": "Can I change it?",
+      "es": "¿Lo puedo cambiar?",
+      "emoji": "🔄",
+      "pos": "phrase",
+      "ex": {
+        "t": "If it doesn't fit, can I change it?",
+        "es": "Si no le queda bien, ¿lo puedo cambiar?"
+      }
+    }
+  ],
+  "grammar": "en-g-comparatives",
+  "pron": {
+    "title": "Letras mudas: receipt y wrap",
+    "tip": "En receipt no suena la p: «ri-SIT». En wrap no suena la w: «rap». ¡Y en Oxford Street el acento va al principio: «ÓX-fed»!",
+    "words": [
+      "receipt",
+      "wrap",
+      "Oxford Street",
+      "present"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "This jumper is ___ than the other one.",
+      "options": [
+        "softer",
+        "more soft",
+        "softest"
+      ],
+      "answer": "softer",
+      "why": "Comparamos dos: soft → softer.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "This bag is ___ than that one.",
+      "options": [
+        "bigger",
+        "more big",
+        "biggest"
+      ],
+      "answer": "bigger",
+      "why": "Big es corto: bigger, nunca more big.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "It's the ___ present for a grandma!",
+      "options": [
+        "best",
+        "most good",
+        "better"
+      ],
+      "answer": "best",
+      "why": "El mejor = the best.",
+      "g": "en-g-superlatives"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "I'd like the ___ in the window.",
+      "options": [
+        "red dress",
+        "dress red"
+      ],
+      "answer": "red dress",
+      "why": "Adjetivo delante: the red dress.",
+      "g": "en-g-adjective-order"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Can I pay ___ card?",
+      "es": "¿Puedo pagar con tarjeta?",
+      "answer": [
+        "by"
+      ],
+      "bank": [
+        "by",
+        "with",
+        "in"
+      ],
+      "why": "Pagar con tarjeta = pay by card."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Everything is ___ in the sales. (cheap)",
+      "es": "En rebajas todo está más barato.",
+      "answer": [
+        "cheaper"
+      ],
+      "why": "Cheap → cheaper.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "It's the most ___ shop on the street. (famous)",
+      "es": "Es la tienda más famosa de la calle.",
+      "answer": [
+        "famous"
+      ],
+      "why": "Famous es largo: the most famous.",
+      "g": "en-g-superlatives"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "This is the goodest shop on Oxford Street.",
+      "wrong": "goodest",
+      "fix": "best",
+      "why": "Good es irregular: the best (ni goodest ni most good).",
+      "g": "en-g-superlatives"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "I want two silks scarves for my friends.",
+      "wrong": "silks",
+      "fix": "silk",
+      "why": "El material funciona como adjetivo: no lleva -s. Two silk scarves.",
+      "g": "en-g-adjective-order"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "¿Me lo envuelve, por favor?",
+      "answer": "Can you wrap it please",
+      "extra": [
+        "wrapping"
+      ],
+      "why": "Wrap it = envolverlo; la w no suena."
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Hazla superlativa con «in the shop»",
+      "q": "This coat is warm.",
+      "answer": [
+        "This coat is the warmest in the shop."
+      ],
+      "why": "Warm → the warmest + in.",
+      "g": "en-g-superlatives"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Solo estoy mirando, gracias.",
+      "answer": [
+        "I'm just looking, thanks.",
+        "I'm just looking, thank you.",
+        "I am just looking, thanks.",
+        "I am just looking, thank you."
+      ],
+      "why": "Frase fija para cuando no necesitas ayuda."
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Compras un jersey para tu hijo pero no sabes si le quedará bien.",
+      "emoji": "🔄",
+      "options": [
+        "If it doesn't fit, can I change it?",
+        "If it doesn't fit, can I return the money?",
+        "If it doesn't suit, can I change?"
+      ],
+      "answer": "If it doesn't fit, can I change it?",
+      "why": "Fit = talla; change it = cambiarlo."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel en Oxford Street",
+      "text": "WINTER SALE — everything cheaper this week!\nOur warmest coats · the softest wool jumpers · leather boots for all the family\nChanging rooms: first floor · Keep your receipt to change items",
+      "questions": [
+        {
+          "q": "¿Qué pasa esta semana?",
+          "options": [
+            "Hay rebajas",
+            "La tienda cierra",
+            "Hay ropa nueva de verano"
+          ],
+          "answer": "Hay rebajas"
+        },
+        {
+          "q": "¿Dónde están los probadores?",
+          "options": [
+            "En la primera planta",
+            "En la planta baja",
+            "No hay"
+          ],
+          "answer": "En la primera planta"
+        },
+        {
+          "q": "¿Qué necesitas para cambiar algo?",
+          "options": [
+            "El tique",
+            "La tarjeta",
+            "La bolsa"
+          ],
+          "answer": "El tique"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "It's a present. Can you wrap it, please?",
+      "es": "Es un regalo. ¿Me lo envuelve, por favor?"
+    }
+  ],
+  "dialog": {
+    "title": "El mejor regalo",
+    "setting": "En una tienda de Oxford Street, Yolanda compra un pañuelo para su amiga",
+    "emoji": "🧣",
+    "lines": [
+      {
+        "who": "Assistant",
+        "t": "Good afternoon! Can I help you?",
+        "es": "¡Buenas tardes! ¿Puedo ayudarla?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, please. I need a present for a friend.",
+        "es": "Sí, por favor. Necesito un regalo para una amiga."
+      },
+      {
+        "who": "Assistant",
+        "t": "These silk scarves are very popular.",
+        "es": "Estos pañuelos de seda gustan mucho."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Is the green one cheaper than the blue one?",
+        "es": "¿El verde es más barato que el azul?"
+      },
+      {
+        "who": "Assistant",
+        "t": "Yes, it's in the sale. It's the cheapest one.",
+        "es": "Sí, está rebajado. Es el más barato."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Lovely. Can I change it after Christmas?",
+        "es": "Estupendo. ¿Lo puedo cambiar después de Navidad?"
+      },
+      {
+        "who": "Assistant",
+        "t": "Of course. Just keep the receipt.",
+        "es": "Claro. Solo guarde el tique."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Great. Can you wrap it, please? And can I pay by card?",
+        "es": "Genial. ¿Me lo envuelve, por favor? ¿Y puedo pagar con tarjeta?"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué compra Yolanda?",
+        "options": [
+          "Un pañuelo de seda",
+          "Un jersey de lana",
+          "Un bolso"
+        ],
+        "answer": "Un pañuelo de seda"
+      },
+      {
+        "q": "¿Por qué el verde es más barato?",
+        "options": [
+          "Está rebajado",
+          "Es más pequeño",
+          "Es de algodón"
+        ],
+        "answer": "Está rebajado"
+      },
+      {
+        "q": "¿Qué tiene que guardar para cambiarlo?",
+        "options": [
+          "El tique",
+          "La bolsa",
+          "La etiqueta"
+        ],
+        "answer": "El tique"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Can I change it if it doesn't fit?",
+    "es": "¿Lo puedo cambiar si no le queda bien?",
+    "context": "Al comprar ropa de regalo"
+  },
+  "summary": [
+    "Comparar dos: cheaper than, more comfortable than",
+    "El mejor: the best, the cheapest, the most beautiful",
+    "Adjetivos delante y en orden: a lovely green silk scarf",
+    "En la tienda: I'm just looking · Can I pay by card? · Can you wrap it?",
+    "Para cambiar: Keep the receipt · Can I change it?"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u03-l5"
+}

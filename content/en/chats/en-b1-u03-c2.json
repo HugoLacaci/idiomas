@@ -1,0 +1,66 @@
+{
+  "id": "en-b1-u03-c2",
+  "unit": "en-b1-u03",
+  "title": "¿Qué estabas haciendo?",
+  "setting": "Emma te llamó ayer tres veces y no lo cogiste. Hoy te escribe preocupada.",
+  "emoji": "📞",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda! I called you three times yesterday. Are you OK?", "es": "¡Yolanda! Ayer te llamé tres veces. ¿Estás bien?" },
+      "options": [
+        { "t": "Yes, sorry! I was having a very busy day.", "es": "¡Sí, perdona! Estaba teniendo un día muy ajetreado.", "next": "n2", "ok": true },
+        { "t": "Yes, sorry! I was have a very busy day.", "es": "¡Sí, perdona! Estaba teniendo un día muy ajetreado.", "next": "n2", "ok": false, "feedback": "Después de was, el verbo lleva -ing: I was having." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "What were you doing at ten in the morning?", "es": "¿Qué estabas haciendo a las diez de la mañana?" },
+      "options": [
+        { "t": "I was doing the shopping at the market.", "es": "Estaba haciendo la compra en el mercado.", "next": "n3", "ok": true },
+        { "t": "I did the shopping at the market.", "es": "Hice la compra en el mercado.", "next": "n3", "ok": false, "feedback": "Te pregunta qué estabas haciendo en ese momento: pasado continuo, I was doing." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "And at one o'clock?", "es": "¿Y a la una?" },
+      "options": [
+        { "t": "We were having lunch with some friends.", "es": "Estábamos comiendo con unos amigos.", "next": "n4", "ok": true },
+        { "t": "We was having lunch with some friends.", "es": "Estábamos comiendo con unos amigos.", "next": "n4", "ok": false, "feedback": "Con we: were having." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "And in the evening? I tried again at seven!", "es": "¿Y por la tarde? ¡Lo intenté otra vez a las siete!" },
+      "options": [
+        { "t": "Oh, I was looking after my grandchildren. They were making a lot of noise!", "es": "Ay, estaba cuidando a mis nietos. ¡Hacían mucho ruido!", "next": "n5", "ok": true },
+        { "t": "Oh, I looked after my grandchildren every day. They made a lot of noise!", "es": "Ay, cuidaba a mis nietos todos los días. ¡Hacían mucho ruido!", "next": "n5", "ok": false, "feedback": "Habla de lo que pasaba a las siete, no de una costumbre: I was looking after." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ha ha! So you didn't hear the phone.", "es": "¡Ja, ja! Así que no oíste el teléfono." },
+      "options": [
+        { "t": "No! While I was reading them a story, my phone was in my bag.", "es": "¡No! Mientras les leía un cuento, el móvil estaba en el bolso.", "next": "n6", "ok": true },
+        { "t": "No! While I read them a story, my phone were in my bag.", "es": "¡No! Mientras les leía un cuento, el móvil estaba en el bolso.", "next": "n6", "ok": false, "feedback": "While va con pasado continuo (I was reading), y my phone es singular: was." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Don't worry. I just wanted to tell you some news.", "es": "No te preocupes. Solo quería contarte una noticia." },
+      "options": [
+        { "t": "Really? Tell me! What happened?", "es": "¿De verdad? ¡Cuéntame! ¿Qué pasó?", "next": "n7", "ok": true },
+        { "t": "Really? Tell me! What was happening?", "es": "¿De verdad? ¡Cuéntame! ¿Qué estaba pasando?", "next": "n7", "ok": false, "feedback": "Para preguntar por un hecho concreto, pasado simple: What happened?" }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "I was walking in the park when I found a lost puppy. Now he's mine!", "es": "Estaba paseando por el parque cuando encontré un cachorro perdido. ¡Ahora es mío!" },
+      "options": [
+        { "t": "How lovely! Send me a photo, please!", "es": "¡Qué bonito! ¡Mándame una foto, por favor!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

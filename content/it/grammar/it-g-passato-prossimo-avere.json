@@ -1,0 +1,131 @@
+{
+  "id": "it-g-passato-prossimo-avere",
+  "lang": "it",
+  "level": "A2",
+  "title": "El passato prossimo con avere (he visitado / visité)",
+  "short": "Ho visitato, hai comprato, abbiamo ammirato: avere + participio para contar lo que hiciste.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Contar una visita",
+      "emoji": "🏛️",
+      "text": "Ya sabes decir *ho mangiato*. Ahora vamos a contarlo todo: quién, qué, cuándo. La forma es siempre ==avere + participio==.",
+      "examples": [
+        { "t": "Ieri ==abbiamo visitato== gli Uffizi.", "es": "Ayer visitamos los Uffizi.", "hl": "abbiamo visitato" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Todas las personas",
+      "emoji": "👥",
+      "text": "Cambia solo avere. El participio no se mueve.",
+      "table": {
+        "head": ["Persona", "Avere + participio", "Español"],
+        "rows": [
+          ["io", "==ho== visitato", "he visitado / visité"],
+          ["tu", "==hai== visitato", "has visitado / visitaste"],
+          ["lui / lei / Lei", "==ha== visitato", "ha visitado / visitó"],
+          ["noi", "==abbiamo== visitato", "hemos visitado / visitamos"],
+          ["voi", "==avete== visitato", "habéis visitado / visitasteis"],
+          ["loro", "==hanno== visitato", "han visitado / visitaron"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "El participio regular",
+      "emoji": "🔧",
+      "text": "-are → ==-ato== (ammirare → ammirato). -ere → ==-uto== (ricevere → ricevuto). -ire → ==-ito== (seguire → seguito).",
+      "examples": [
+        { "t": "Abbiamo seguito la guida.", "es": "Hemos seguido a la guía." },
+        { "t": "Ho ricevuto un messaggio di Hugo.", "es": "He recibido un mensaje de Hugo." }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Ayer, la semana pasada…",
+      "emoji": "🇪🇸",
+      "text": "En España: «hoy ==he visto==», pero «ayer ==vi==». En italiano hablado se usa el passato prossimo para los dos casos.",
+      "examples": [
+        { "t": "Oggi ho visto la cupola.", "es": "Hoy he visto la cúpula." },
+        { "t": "Ieri ho visto il David.", "es": "Ayer vi el David." }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Non, già, ancora, mai",
+      "emoji": "📍",
+      "text": "*Non* va delante. *Già* (ya), *ancora* (todavía) y *mai* (nunca) van ==entre avere y el participio==.",
+      "examples": [
+        { "t": "Ho ==già== comprato i biglietti.", "es": "Ya he comprado las entradas.", "hl": "già" },
+        { "t": "Non ho ==ancora== mangiato.", "es": "Todavía no he comido.", "hl": "ancora" },
+        { "t": "Non ho ==mai== visitato Pisa.", "es": "Nunca he visitado Pisa.", "hl": "mai" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Le amiche hanno comprate* → ✅ hanno ==comprato==. ❌ *Ho comprato già* → ✅ ho ==già== comprato. ❌ *Ieri visitai* → ✅ ieri ==ho visitato==."
+    },
+    {
+      "kind": "tip",
+      "title": "Para preguntar",
+      "emoji": "❓",
+      "text": "La pregunta tiene el mismo orden: solo ==sube la voz== al final. *Avete visitato il museo?*",
+      "examples": [
+        { "t": "Hai già visto la mostra?", "es": "¿Ya has visto la exposición?" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En España distinguimos «he visitado» (hoy, esta semana) y «visité» (ayer, el año pasado).",
+    "target": "En el italiano hablado de cada día se usa casi siempre el passato prossimo: oggi ho visitato, ieri ho visitato, l'anno scorso ho visitato."
+  },
+  "errors": [
+    { "wrong": "Le mie amiche hanno comprate le cartoline.", "right": "Le mie amiche hanno comprato le cartoline.", "why": "Con avere el participio no cambia: comprato, aunque el sujeto sea femenino o plural." },
+    { "wrong": "Ho visitato già il museo.", "right": "Ho già visitato il museo.", "why": "Già va entre avere y el participio: ho già visitato." },
+    { "wrong": "Non ho visitato mai Firenze.", "right": "Non ho mai visitato Firenze.", "why": "Mai también va en medio: non ho mai visitato." },
+    { "wrong": "Ieri ho pagato i biglietti e ho entrato.", "right": "Ieri ho pagato i biglietti e sono entrata.", "why": "Entrare no usa avere sino essere; lo verás en la próxima unidad." },
+    { "wrong": "Abbiamo seguuto la guida.", "right": "Abbiamo seguito la guida.", "why": "Seguire es de -ire: seguito." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Ieri ___ visitato gli Uffizi.", "es": "Ayer visité los Uffizi.", "options": ["ho", "sono", "hanno"], "answer": "ho", "why": "Io + avere: ho visitato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e2", "type": "choose", "q": "Le mie amiche ___ comprato tre cartoline.", "es": "Mis amigas han comprado tres postales.", "options": ["hanno", "abbiamo", "ha"], "answer": "hanno", "why": "Le mie amiche = loro: hanno.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e3", "type": "choose", "q": "Voi ___ ascoltato l'audioguida?", "es": "¿Vosotros habéis escuchado la audioguía?", "options": ["avete", "hanno", "abbiamo"], "answer": "avete", "why": "Voi → avete.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e4", "type": "choose", "q": "Io e mio marito abbiamo ___ la guida.", "es": "Mi marido y yo hemos seguido a la guía.", "options": ["seguito", "seguato", "seguuto"], "answer": "seguito", "why": "Seguire (-ire) → seguito.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e5", "type": "choose", "q": "Le ragazze hanno ___ le foto.", "es": "Las chicas han mirado las fotos.", "options": ["guardato", "guardate", "guardata"], "answer": "guardato", "why": "Con avere el participio no cambia: guardato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e6", "type": "choose", "q": "Ho ___ ammirato il quadro di Botticelli.", "es": "Ya he admirado el cuadro de Botticelli.", "options": ["già", "mai", "ancora"], "answer": "già", "why": "«Ya» = già, entre avere y el participio.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e7", "type": "choose", "q": "Non ho ___ visitato Pisa.", "es": "Nunca he visitado Pisa.", "options": ["mai", "già", "sempre"], "answer": "mai", "why": "«Nunca» = non… mai.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e8", "type": "choose", "q": "Il museo ___ ricevuto tanti visitatori.", "es": "El museo ha recibido muchos visitantes.", "options": ["ha", "hai", "ho"], "answer": "ha", "why": "Il museo = esso (3.ª persona): ha.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e9", "type": "fill", "q": "Ieri ___ visitato una mostra bellissima.", "es": "Ayer visitamos una exposición preciosa.", "answer": ["abbiamo"], "bank": ["abbiamo", "avete", "hanno"], "why": "Noi → abbiamo.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e10", "type": "fill", "q": "Hai ___ i biglietti online?", "es": "¿Has comprado las entradas por internet?", "answer": ["comprato"], "bank": ["comprato", "compruto", "comprate"], "why": "Comprare → comprato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e11", "type": "fill", "q": "Mio figlio ha ___ tutte le sale.", "es": "Mi hijo ha visitado todas las salas.", "answer": ["visitato"], "bank": ["visitato", "visitate", "visitito"], "why": "Visitare → visitato; con avere no cambia.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e12", "type": "fill", "q": "Non ho ___ capito la spiegazione della guida.", "es": "Todavía no he entendido la explicación de la guía.", "answer": ["ancora"], "bank": ["ancora", "già", "mai"], "why": "«Todavía no» = non… ancora.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e13", "type": "fill", "q": "Abbiamo ___ due ore al museo.", "es": "Hemos pasado dos horas en el museo.", "answer": ["passato"], "hint": "passare", "why": "Passare → passato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e14", "type": "fill", "q": "Loro hanno ___ al bar del museo.", "es": "Ellos han comido en el bar del museo.", "answer": ["pranzato", "mangiato"], "hint": "pranzare", "why": "Pranzare (comer a mediodía) → pranzato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e15", "type": "fill", "q": "Ho ___ il tuo messaggio solo stasera.", "es": "He recibido tu mensaje solo esta noche.", "answer": ["ricevuto"], "hint": "ricevere", "why": "Ricevere (-ere) → ricevuto.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e16", "type": "fill", "q": "Avete ___ la cupola del Duomo?", "es": "¿Habéis admirado la cúpula del Duomo?", "answer": ["ammirato"], "hint": "ammirare", "why": "Ammirare → ammirato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e17", "type": "error", "q": "Le mie amiche hanno pagate i biglietti.", "wrong": "pagate", "fix": "pagato", "why": "Con avere el participio no concuerda: pagato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e18", "type": "error", "q": "Noi hanno visitato il Duomo.", "wrong": "hanno", "fix": "abbiamo", "why": "Noi → abbiamo.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e19", "type": "error", "q": "Abbiamo seguuto la visita guidata.", "wrong": "seguuto", "fix": "seguito", "why": "Seguire es de -ire: seguito.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e20", "type": "error", "q": "Ieri visitai la Galleria dell'Accademia.", "wrong": "visitai", "fix": "visitato", "why": "En la conversación de cada día se dice ho visitato, también para ayer.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e21", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Visitiamo il museo.", "answer": ["Abbiamo visitato il museo."], "why": "Visitiamo → abbiamo visitato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e22", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Le mie amiche comprano un libro d'arte.", "answer": ["Le mie amiche hanno comprato un libro d'arte."], "why": "Comprano → hanno comprato (sin cambiar el participio).", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e23", "type": "transform", "instr": "Hazla negativa con «todavía» (ancora)", "q": "Ho visitato il museo.", "answer": ["Non ho ancora visitato il museo."], "why": "Non + ho + ancora + participio.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e24", "type": "transform", "instr": "Añade «già» (ya)", "q": "Abbiamo comprato i biglietti.", "answer": ["Abbiamo già comprato i biglietti."], "why": "Già va entre avere y el participio.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e25", "type": "transform", "instr": "Cambia el sujeto a «voi»", "q": "Hai ascoltato la guida?", "answer": ["Avete ascoltato la guida?"], "why": "Voi → avete.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e26", "type": "order", "es": "Nunca he visto un museo tan bonito.", "answer": "Non ho mai visto un museo così bello", "extra": ["già"], "why": "Non + ho + mai + participio.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e27", "type": "order", "es": "¿Habéis comprado ya las entradas?", "answer": "Avete già comprato i biglietti", "extra": ["hanno"], "why": "Avete + già + comprato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e28", "type": "order", "es": "Ayer mi marido y yo visitamos el Palacio Pitti.", "answer": "Ieri io e mio marito abbiamo visitato Palazzo Pitti", "alt": ["Io e mio marito ieri abbiamo visitato Palazzo Pitti", "Io e mio marito abbiamo visitato Palazzo Pitti ieri"], "extra": ["hanno"], "why": "Io e mio marito = noi: abbiamo visitato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "Ayer visitamos una exposición.", "answer": ["Ieri abbiamo visitato una mostra.", "Abbiamo visitato una mostra ieri."], "why": "En italiano hablado: abbiamo visitato, también para ayer.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "Todavía no he comido.", "answer": ["Non ho ancora mangiato."], "why": "Non + ho + ancora + mangiato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e31", "type": "translate", "dir": "from", "q": "Hanno ammirato i quadri per due ore.", "answer": ["Han admirado los cuadros durante dos horas.", "Admiraron los cuadros durante dos horas.", "Han admirado los cuadros dos horas.", "Admiraron los cuadros dos horas."], "why": "Hanno ammirato = han admirado / admiraron.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e32", "type": "situation", "context": "Una amiga te pregunta si ya has visto la exposición nueva. Todavía no.", "emoji": "🖼️", "options": ["No, non ho ancora visto la mostra.", "No, ho ancora non visto la mostra.", "No, non vedo mai la mostra."], "answer": "No, non ho ancora visto la mostra.", "why": "Todavía no = non + ho + ancora + participio.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e33", "type": "situation", "context": "En la taquilla, quieres decir que ya has pagado las entradas por internet.", "emoji": "🎟️", "options": ["Ho già pagato i biglietti online.", "Ho pagato già i biglietti online.", "Già pago i biglietti online."], "answer": "Ho già pagato i biglietti online.", "why": "Già va entre ho y pagato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e34", "type": "match", "pairs": [["io", "ho visitato"], ["tu", "hai visitato"], ["noi", "abbiamo visitato"], ["voi", "avete visitato"], ["loro", "hanno visitato"]], "why": "Solo cambia avere; visitato se queda igual.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e35", "type": "conjugate", "verb": "ascoltare", "person": "voi", "tense": "passato prossimo", "q": "___ l'audioguida in spagnolo?", "answer": ["Avete ascoltato", "avete ascoltato"], "table": [["noi", "abbiamo ascoltato"], ["voi", "avete ascoltato"], ["loro", "hanno ascoltato"]], "why": "Voi → avete ascoltato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e36", "type": "conjugate", "verb": "aspettare", "person": "loro", "tense": "passato prossimo", "q": "I ragazzi ___ in fila per un'ora.", "answer": ["hanno aspettato"], "why": "Loro → hanno aspettato.", "g": "it-g-passato-prossimo-avere" }
+  ],
+  "reviewed": false
+}

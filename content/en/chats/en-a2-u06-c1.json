@@ -1,0 +1,61 @@
+{
+  "id": "en-a2-u06-c1",
+  "unit": "en-a2-u06",
+  "title": "¿Qué vas a hacer en verano?",
+  "setting": "Emma te escribe por WhatsApp para preguntarte por tus vacaciones.",
+  "emoji": "☀️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! Have you got plans for the summer?", "es": "¡Hola, Yolanda! ¿Tienes planes para el verano?" },
+      "options": [
+        { "t": "Yes! I'm going to travel to England with my son.", "es": "¡Sí! Voy a viajar a Inglaterra con mi hijo.", "next": "n2", "ok": true },
+        { "t": "Yes! I going to travel to England with my son.", "es": "¡Sí! Voy a viajar a Inglaterra con mi hijo.", "next": "n2", "ok": false, "feedback": "Falta am: I'm going to travel." },
+        { "t": "Yes! I go to travel to England with my son.", "es": "¡Sí! Voy a viajar a Inglaterra con mi hijo.", "next": "n2", "ok": false, "feedback": "«Voy a» es I'm going to, no I go to." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "How exciting! When are you going to travel?", "es": "¡Qué ilusión! ¿Cuándo vas a viajar?" },
+      "options": [
+        { "t": "In July. I'm going to book the flight next week.", "es": "En julio. Voy a reservar el vuelo la semana que viene.", "next": "n3", "ok": true },
+        { "t": "In July. I'm going to book the flight the next week.", "es": "En julio. Voy a reservar el vuelo la semana que viene.", "next": "n3", "ok": false, "feedback": "Sin the: next week." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Are you going to stay in a hotel?", "es": "¿Te vas a quedar en un hotel?" },
+      "options": [
+        { "t": "No, I'm not. We're going to stay in a flat.", "es": "No. Nos vamos a quedar en un piso.", "next": "n4", "ok": true },
+        { "t": "No, I don't. We're going to stay in a flat.", "es": "No. Nos vamos a quedar en un piso.", "next": "n4", "ok": false, "feedback": "La pregunta lleva are, así que la respuesta corta es No, I'm not." },
+        { "t": "No, I'm not. We're going to stays in a flat.", "es": "No. Nos vamos a quedar en un piso.", "next": "n4", "ok": false, "feedback": "Después de going to, verbo base: stay." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Lovely! What are you going to do there?", "es": "¡Qué bien! ¿Qué vas a hacer allí?" },
+      "options": [
+        { "t": "We're going to go sightseeing in London.", "es": "Vamos a hacer turismo por Londres.", "next": "n5", "ok": true },
+        { "t": "We're going to make sightseeing in London.", "es": "Vamos a hacer turismo por Londres.", "next": "n5", "ok": false, "feedback": "Hacer turismo = go sightseeing, no «make»." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Then you can come and see me!", "es": "¡Entonces puedes venir a verme!" },
+      "options": [
+        { "t": "Of course! I can't wait!", "es": "¡Claro! ¡Qué ganas!", "next": "n6", "ok": true },
+        { "t": "Of course! I don't wait!", "es": "¡Claro! ¡Qué ganas!", "next": "n6", "ok": false, "feedback": "¡Qué ganas! se dice I can't wait!" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Me too! We're going to have a great time.", "es": "¡Y yo! Nos lo vamos a pasar genial." },
+      "options": [
+        { "t": "I'm really looking forward to it!", "es": "¡Tengo muchísimas ganas!", "next": "end", "ok": true },
+        { "t": "I'm really looking forward to see it!", "es": "¡Tengo muchísimas ganas!", "next": "end", "ok": false, "feedback": "Después de looking forward to va un nombre o -ing. Lo más sencillo: I'm really looking forward to it!" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,438 @@
+{
+  "id": "en-a1-u04-l1",
+  "unit": "en-a1-u04",
+  "title": "Las habitaciones de mi casa",
+  "goal": "a nombrar las habitaciones de tu casa y a decir cuántas hay",
+  "emoji": "🏠",
+  "photoQuery": "cosy living room sofa",
+  "vocab": [
+    {
+      "id": "a-flat",
+      "t": "a flat",
+      "es": "un piso",
+      "emoji": "🏢",
+      "pos": "n",
+      "ex": {
+        "t": "Hugo's flat is small but nice.",
+        "es": "El piso de Hugo es pequeño pero bonito."
+      },
+      "note": "En EE. UU.: apartment."
+    },
+    {
+      "id": "living-room",
+      "t": "the living room",
+      "es": "el salón",
+      "emoji": "🛋️",
+      "pos": "n",
+      "ex": {
+        "t": "We watch TV in the living room.",
+        "es": "Vemos la tele en el salón."
+      }
+    },
+    {
+      "id": "kitchen",
+      "t": "the kitchen",
+      "es": "la cocina",
+      "emoji": "🍳",
+      "pos": "n",
+      "ex": {
+        "t": "My kitchen is my favourite room.",
+        "es": "Mi cocina es mi habitación favorita."
+      }
+    },
+    {
+      "id": "bedroom",
+      "t": "a bedroom",
+      "es": "un dormitorio",
+      "emoji": "🛏️",
+      "pos": "n",
+      "ex": {
+        "t": "There are three bedrooms.",
+        "es": "Hay tres dormitorios."
+      }
+    },
+    {
+      "id": "bathroom",
+      "t": "the bathroom",
+      "es": "el cuarto de baño",
+      "emoji": "🛁",
+      "pos": "n",
+      "ex": {
+        "t": "The bathroom is upstairs.",
+        "es": "El baño está arriba."
+      }
+    },
+    {
+      "id": "dining-room",
+      "t": "the dining room",
+      "es": "el comedor",
+      "emoji": "🍽️",
+      "pos": "n",
+      "ex": {
+        "t": "We have Sunday lunch in the dining room.",
+        "es": "Comemos los domingos en el comedor."
+      }
+    },
+    {
+      "id": "garden",
+      "t": "a garden",
+      "es": "un jardín",
+      "emoji": "🌷",
+      "pos": "n",
+      "ex": {
+        "t": "There's a small garden with roses.",
+        "es": "Hay un jardín pequeño con rosas."
+      },
+      "note": "En EE. UU.: yard."
+    },
+    {
+      "id": "upstairs-downstairs",
+      "t": "upstairs / downstairs",
+      "es": "arriba / abajo (en casa)",
+      "emoji": "↕️",
+      "pos": "adv",
+      "ex": {
+        "t": "The kitchen is downstairs.",
+        "es": "La cocina está abajo."
+      }
+    },
+    {
+      "id": "a-room",
+      "t": "a room",
+      "es": "una habitación",
+      "emoji": "🚪",
+      "pos": "n",
+      "ex": {
+        "t": "How many rooms are there?",
+        "es": "¿Cuántas habitaciones hay?"
+      }
+    }
+  ],
+  "grammar": "en-g-there-is-are",
+  "pron": {
+    "title": "La th suave de there",
+    "tip": "En there, this o mother la lengua asoma entre los dientes y vibra, como la «d» suave de «nada» o «cada». No digas «der»: si pones la lengua detrás de los dientes, suena dare (atreverse).",
+    "words": [
+      "there",
+      "there's",
+      "they",
+      "mother",
+      "the bathroom"
+    ],
+    "pairs": [
+      [
+        "there",
+        "dare"
+      ],
+      [
+        "then",
+        "den"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "We sleep in the ___.",
+      "es": "Dormimos en el dormitorio.",
+      "options": [
+        "bedroom",
+        "kitchen",
+        "garden"
+      ],
+      "answer": "bedroom",
+      "why": "Para dormir: bedroom (bed = cama)."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "There ___ two bathrooms in my house.",
+      "es": "En mi casa hay dos baños.",
+      "options": [
+        "is",
+        "are"
+      ],
+      "answer": "are",
+      "why": "Dos baños: there are.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "There ___ a big kitchen.",
+      "es": "Hay una cocina grande.",
+      "options": [
+        "is",
+        "are"
+      ],
+      "answer": "is",
+      "why": "Una cocina: there is.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "I cook paella in the ___.",
+      "es": "Hago paella en la cocina.",
+      "answer": [
+        "kitchen"
+      ],
+      "bank": [
+        "kitchen",
+        "bathroom",
+        "bedroom"
+      ],
+      "why": "Se cocina en la cocina: kitchen."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Emma lives in a small ___ in London.",
+      "es": "Emma vive en un piso pequeño en Londres.",
+      "answer": [
+        "flat"
+      ],
+      "bank": [
+        "flat",
+        "garden",
+        "room"
+      ],
+      "why": "Piso = flat (en EE. UU. apartment)."
+    },
+    {
+      "id": "e6",
+      "type": "match",
+      "pairs": [
+        [
+          "living room",
+          "salón"
+        ],
+        [
+          "dining room",
+          "comedor"
+        ],
+        [
+          "bathroom",
+          "cuarto de baño"
+        ],
+        [
+          "garden",
+          "jardín"
+        ],
+        [
+          "upstairs",
+          "arriba"
+        ]
+      ]
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "In my house have four bedrooms.",
+      "wrong": "have",
+      "fix": "there are",
+      "why": "Para decir «hay» usamos there are, no have.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Hay un jardín pequeño",
+      "answer": "There's a small garden",
+      "extra": [
+        "have"
+      ],
+      "why": "Hay + una cosa = there's.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e9",
+      "type": "translate",
+      "dir": "to",
+      "q": "Hay tres dormitorios.",
+      "answer": [
+        "There are three bedrooms."
+      ],
+      "why": "Tres dormitorios: there are.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e10",
+      "type": "situation",
+      "context": "Hugo te enseña su piso nuevo por videollamada. Quieres saber cuántas habitaciones tiene.",
+      "emoji": "📱",
+      "options": [
+        "How many rooms are there?",
+        "How many rooms there are?",
+        "How much rooms are there?"
+      ],
+      "answer": "How many rooms are there?",
+      "why": "Pregunta: How many + plural + are there?",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e11",
+      "type": "reading",
+      "kind": "text",
+      "title": "Holiday flat in Brighton",
+      "text": "Lovely holiday flat near the sea. Two bedrooms, a living room, a small kitchen and one bathroom. There's a balcony but there isn't a garden.",
+      "questions": [
+        {
+          "q": "¿Cuántos dormitorios hay?",
+          "options": [
+            "Dos",
+            "Uno",
+            "Tres"
+          ],
+          "answer": "Dos"
+        },
+        {
+          "q": "¿Qué NO tiene el piso?",
+          "options": [
+            "Jardín",
+            "Balcón",
+            "Cocina"
+          ],
+          "answer": "Jardín"
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "type": "minimal",
+      "pair": [
+        "there",
+        "dare"
+      ],
+      "answer": "there",
+      "es": [
+        "allí",
+        "atreverse"
+      ],
+      "why": "There empieza con la lengua entre los dientes."
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "then",
+        "den"
+      ],
+      "answer": "then",
+      "es": [
+        "entonces",
+        "guarida"
+      ],
+      "why": "Then lleva la th suave; den, una d normal."
+    },
+    {
+      "id": "e14",
+      "type": "speak",
+      "t": "There are three bedrooms upstairs.",
+      "es": "Arriba hay tres dormitorios."
+    },
+    {
+      "id": "e15",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "There's a garden.",
+      "answer": [
+        "There isn't a garden.",
+        "There is not a garden.",
+        "There's no garden."
+      ],
+      "why": "Negativa en singular: there isn't.",
+      "g": "en-g-there-is-are"
+    }
+  ],
+  "dialog": {
+    "title": "La casa de Yolanda",
+    "setting": "Yolanda habla por teléfono con Emma, una amiga inglesa, sobre su casa del pueblo",
+    "emoji": "🏡",
+    "lines": [
+      {
+        "who": "Emma",
+        "t": "Is your house big?",
+        "es": "¿Tu casa es grande?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, quite big. There are four bedrooms.",
+        "es": "Sí, bastante. Hay cuatro dormitorios."
+      },
+      {
+        "who": "Emma",
+        "t": "Four! And how many bathrooms?",
+        "es": "¡Cuatro! ¿Y cuántos baños?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "There are two: one upstairs and one downstairs.",
+        "es": "Hay dos: uno arriba y otro abajo."
+      },
+      {
+        "who": "Emma",
+        "t": "Is there a garden?",
+        "es": "¿Hay jardín?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, there is. My grandchildren love it.",
+        "es": "Sí. A mis nietos les encanta."
+      },
+      {
+        "who": "Emma",
+        "t": "And your favourite room?",
+        "es": "¿Y tu habitación favorita?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "The kitchen, of course!",
+        "es": "¡La cocina, claro!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuántos dormitorios hay?",
+        "options": [
+          "Cuatro",
+          "Dos",
+          "Tres"
+        ],
+        "answer": "Cuatro"
+      },
+      {
+        "q": "¿Dónde están los baños?",
+        "options": [
+          "Uno arriba y otro abajo",
+          "Los dos arriba",
+          "Los dos abajo"
+        ],
+        "answer": "Uno arriba y otro abajo"
+      },
+      {
+        "q": "¿Cuál es la habitación favorita de Yolanda?",
+        "options": [
+          "La cocina",
+          "El jardín",
+          "El salón"
+        ],
+        "answer": "La cocina"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Come in! This is the living room.",
+    "es": "¡Pasa! Este es el salón.",
+    "context": "Cuando enseñas tu casa a una visita"
+  },
+  "summary": [
+    "Habitaciones: living room, kitchen, bedroom, bathroom, dining room, garden",
+    "Piso = flat (en EE. UU. apartment)",
+    "Hay = there is (una) / there are (varias), nunca have",
+    "th suave de there: lengua entre los dientes"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u04-l1"
+}

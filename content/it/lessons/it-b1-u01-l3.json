@@ -1,0 +1,86 @@
+{
+  "id": "it-b1-u01-l3",
+  "unit": "it-b1-u01",
+  "title": "Ti andrebbe un caffè?",
+  "goal": "a proponer planes con el condicional (ti andrebbe di…?, potremmo…, che ne diresti di…?) y a pedir café como en Trieste",
+  "emoji": "☕",
+  "photoQuery": "historic cafe interior coffee cup",
+  "vocab": [
+    { "id": "desideri-ti-andrebbe-di", "t": "Ti andrebbe di…?", "es": "¿Te apetecería…?", "emoji": "🙂", "pos": "phrase", "ex": { "t": "Ti andrebbe di prendere un caffè dopo il corso?", "es": "¿Te apetecería tomar un café después de clase?" } },
+    { "id": "desideri-che-ne-diresti-di", "t": "Che ne diresti di…?", "es": "¿Qué te parecería…?", "emoji": "💡", "pos": "phrase", "ex": { "t": "Che ne diresti di una passeggiata sul molo?", "es": "¿Qué te parecería un paseo por el muelle?" } },
+    { "id": "desideri-potremmo", "t": "Potremmo…", "es": "Podríamos…", "emoji": "👭", "pos": "phrase", "ex": { "t": "Potremmo vederci sabato in piazza.", "es": "Podríamos vernos el sábado en la plaza." } },
+    { "id": "desideri-un-nero", "t": "un nero", "es": "un café solo (en Trieste)", "emoji": "☕", "pos": "phrase", "ex": { "t": "Per me un nero, grazie.", "es": "Para mí un café solo, gracias." }, "note": "En Trieste el café tiene nombres propios: un nero es un espresso." },
+    { "id": "desideri-un-capo", "t": "un capo", "es": "un cortado (en Trieste)", "emoji": "🥛", "pos": "phrase", "ex": { "t": "Vorrei un capo in tazza, per favore.", "es": "Querría un cortado en taza, por favor." }, "note": "En el resto de Italia se dice un caffè macchiato." },
+    { "id": "desideri-fare-due-chiacchiere", "t": "fare due chiacchiere", "es": "charlar un rato", "emoji": "💬", "pos": "phrase", "ex": { "t": "Il giovedì facciamo due chiacchiere al caffè.", "es": "Los jueves charlamos un rato en el café." } },
+    { "id": "desideri-il-caffe-storico", "t": "il caffè storico", "es": "el café histórico", "emoji": "🏛️", "pos": "n", "ex": { "t": "In questo caffè storico venivano molti scrittori.", "es": "A este café histórico venían muchos escritores." } },
+    { "id": "desideri-il-tavolino", "t": "il tavolino", "es": "la mesita (de café)", "emoji": "🪑", "pos": "n", "ex": { "t": "Prendiamo quel tavolino vicino alla finestra?", "es": "¿Cogemos esa mesita junto a la ventana?" } },
+    { "id": "desideri-la-panna", "t": "la panna", "es": "la nata", "emoji": "🍦", "pos": "n", "ex": { "t": "Una cioccolata calda con panna, per favore.", "es": "Un chocolate caliente con nata, por favor." } }
+  ],
+  "grammar": "it-g-condizionale",
+  "pron": {
+    "title": "La cch de chiacchiere",
+    "tip": "Chi suena «qui» y cch es una k doble: kiak-kie-re. Apóyate en la doble: chiac-chie-re.",
+    "words": ["chiacchiere", "chiacchierare", "macchiato", "zucchero"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Ti ___ di prendere un caffè dopo il corso?", "es": "¿Te apetecería tomar un café después de clase?", "options": ["andrebbe", "andresti", "andrei"], "answer": "andrebbe", "why": "Ti andrebbe di…? El verbo va en tercera persona, como mi piace.", "g": "it-g-condizionale" },
+    { "id": "e2", "type": "choose", "q": "Che ne ___ di una passeggiata sul molo?", "es": "¿Qué te parecería un paseo por el muelle?", "options": ["diresti", "direbbe", "dirai"], "answer": "diresti", "why": "A una amiga (tu): che ne diresti?", "g": "it-g-condizionale" },
+    { "id": "e3", "type": "choose", "q": "A Trieste, per un caffè con un po' di latte, chiedi ___.", "es": "En Trieste, para un café con un poco de leche, pides…", "options": ["un capo", "un nero", "una panna"], "answer": "un capo", "why": "En Trieste el cortado es un capo.", "g": "it-g-condizionale" },
+    { "id": "e4", "type": "fill", "q": "___ vederci sabato in piazza.", "es": "Podríamos vernos el sábado en la plaza.", "answer": ["Potremmo"], "bank": ["Potremmo", "Potremo", "Potrebbero"], "why": "Propuesta: potremmo (doble m).", "g": "it-g-condizionale" },
+    { "id": "e5", "type": "fill", "q": "Una cioccolata calda con ___, per favore.", "es": "Un chocolate caliente con nata, por favor.", "answer": ["panna"], "bank": ["panna", "nata", "crema"], "why": "La nata = la panna.", "g": "it-g-condizionale" },
+    { "id": "e6", "type": "fill", "q": "Signora, Le ___ un dolce con il caffè?", "es": "Señora, ¿le apetecería un dulce con el café?", "answer": ["andrebbe"], "hint": "andare", "why": "Le andrebbe…? es la forma educada (Lei).", "g": "it-g-condizionale" },
+    { "id": "e7", "type": "error", "q": "Ti andresti di venire al caffè con noi?", "wrong": "andresti", "fix": "andrebbe", "why": "Ti andrebbe: el verbo concuerda con lo que apetece, no contigo.", "g": "it-g-condizionale" },
+    { "id": "e8", "type": "error", "q": "Potremo andare al caffè storico, che ne dici?", "wrong": "Potremo", "fix": "Potremmo", "why": "Para proponer: potremmo (podríamos), con doble m.", "g": "it-g-condizionale" },
+    { "id": "e9", "type": "transform", "instr": "Conviértela en una propuesta amable", "q": "Andiamo al caffè San Marco.", "answer": ["Potremmo andare al caffè San Marco.", "Ti andrebbe di andare al caffè San Marco?", "Che ne diresti di andare al caffè San Marco?"], "why": "Potremmo / ti andrebbe di / che ne diresti di + infinitivo.", "g": "it-g-condizionale" },
+    { "id": "e10", "type": "transform", "instr": "Pásala a la forma de Lei", "q": "Ti andrebbe un caffè?", "answer": ["Le andrebbe un caffè?"], "why": "Ti (tu) → Le (Lei).", "g": "it-g-condizionale" },
+    { "id": "e11", "type": "order", "es": "¿Qué te parecería un café en la plaza?", "answer": "Che ne diresti di un caffè in piazza", "extra": ["direbbe"], "why": "Che ne diresti di + algo.", "g": "it-g-condizionale" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Podríamos charlar un rato el jueves.", "answer": ["Potremmo fare due chiacchiere giovedì.", "Giovedì potremmo fare due chiacchiere."], "why": "Charlar un rato = fare due chiacchiere.", "g": "it-g-condizionale" },
+    { "id": "e13", "type": "translate", "dir": "from", "q": "Per me un nero, grazie.", "answer": ["Para mí un café solo, gracias.", "Para mí un solo, gracias."], "why": "En Trieste, un nero = un espresso.", "g": "it-g-condizionale" },
+    { "id": "e14", "type": "situation", "context": "Quieres proponer a tu compañera de curso tomar algo juntas después de clase.", "emoji": "☕", "options": ["Ti andrebbe di prendere qualcosa dopo il corso?", "Ti andresti prendere qualcosa dopo il corso?", "Prendi qualcosa dopo il corso!"], "answer": "Ti andrebbe di prendere qualcosa dopo il corso?", "why": "Ti andrebbe di + infinitivo: una propuesta suave.", "g": "it-g-condizionale" },
+    { "id": "e15", "type": "match", "pairs": [["un nero", "un café solo (Trieste)"], ["un capo", "un cortado (Trieste)"], ["la panna", "la nata"], ["il tavolino", "la mesita"], ["fare due chiacchiere", "charlar un rato"]], "why": "Para pedir y charlar en un café de Trieste.", "g": "it-g-condizionale" },
+    { "id": "e16", "type": "speak", "t": "Ti andrebbe di fare due chiacchiere al caffè?", "es": "¿Te apetecería charlar un rato en el café?" }
+  ],
+  "dialog": {
+    "title": "Tertulia en un café de Trieste",
+    "setting": "En un café histórico de Trieste, Yolanda queda con Franca y su amiga Nives",
+    "emoji": "☕",
+    "lines": [
+      { "who": "Franca", "t": "Che ne diresti di quel tavolino vicino alla finestra?", "es": "¿Qué te parecería esa mesita junto a la ventana?" },
+      { "who": "Yolanda", "t": "Perfetto! Cosa mi consigli di prendere?", "es": "¡Perfecto! ¿Qué me recomiendas tomar?" },
+      { "who": "Nives", "t": "Qui tutti chiedono un capo in b: un macchiato nel bicchiere.", "es": "Aquí todos piden un «capo in b»: un cortado en vaso." },
+      { "who": "Yolanda", "t": "Allora vorrei un capo in b, e una fetta di torta.", "es": "Entonces querría un «capo in b» y un trozo de tarta." },
+      { "who": "Franca", "t": "Con panna? Qui la fanno buonissima.", "es": "¿Con nata? Aquí la hacen buenísima." },
+      { "who": "Yolanda", "t": "Sì, grazie! Che bello fare due chiacchiere così.", "es": "¡Sí, gracias! Qué bonito charlar así." },
+      { "who": "Nives", "t": "Potremmo vederci ogni giovedì, finché resti a Trieste.", "es": "Podríamos vernos cada jueves, mientras sigas en Trieste." },
+      { "who": "Yolanda", "t": "Mi piacerebbe tantissimo! Ci sto.", "es": "¡Me encantaría! Me apunto." }
+    ],
+    "questions": [
+      { "q": "¿Qué pide Yolanda?", "options": ["Un cortado en vaso y tarta", "Un café solo", "Un chocolate"], "answer": "Un cortado en vaso y tarta" },
+      { "q": "¿Qué propone Nives?", "options": ["Verse cada jueves", "Ir a la playa", "Cenar juntas"], "answer": "Verse cada jueves" },
+      { "q": "¿Qué significa «Ci sto»?", "options": ["Me apunto", "Me quedo aquí", "Estoy cansada"], "answer": "Me apunto" }
+    ]
+  },
+  "realLife": { "t": "Ti andrebbe di prendere un caffè insieme?", "es": "¿Te apetecería tomar un café juntas?", "context": "Para proponer un plan a una amiga" },
+  "same": {
+    "text": "En la carta del café hay muchas palabras amigas.",
+    "examples": [
+      { "t": "la cioccolata", "es": "el chocolate (para beber)" },
+      { "t": "il cacao", "es": "el cacao" },
+      { "t": "la crema", "es": "la crema" }
+    ]
+  },
+  "falseFriend": {
+    "word": "la panna",
+    "means": "la nata",
+    "looksLike": "pana, la tela (en italiano, velluto a coste)",
+    "emoji": "🍦",
+    "tip": "Caffè con panna = café con nata. Un pantalón de pana es di velluto."
+  },
+  "summary": [
+    "Proponer: Ti andrebbe di…? Che ne diresti di…? Potremmo…",
+    "Con Lei: Le andrebbe un caffè?",
+    "En Trieste: un nero (solo), un capo (cortado).",
+    "La panna = la nata, no la pana."
+  ],
+  "reviewed": false
+}

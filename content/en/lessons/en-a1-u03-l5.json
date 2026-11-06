@@ -1,0 +1,429 @@
+{
+  "id": "en-a1-u03-l5",
+  "unit": "en-a1-u03",
+  "title": "Reto en Westminster: ¡he perdido el bolso!",
+  "goal": "a describir un objeto perdido (color, tamaño, qué lleva dentro) en la oficina de objetos perdidos",
+  "emoji": "🔔",
+  "photoQuery": "westminster clock tower river",
+  "vocab": [
+    {
+      "id": "lost-property",
+      "t": "lost property",
+      "es": "objetos perdidos",
+      "emoji": "🧳",
+      "pos": "n",
+      "ex": {
+        "t": "Where is the lost property office?",
+        "es": "¿Dónde está la oficina de objetos perdidos?"
+      },
+      "note": "En EE. UU.: lost and found."
+    },
+    {
+      "id": "ive-lost-my",
+      "t": "I've lost my…",
+      "es": "He perdido mi…",
+      "emoji": "😟",
+      "pos": "phrase",
+      "ex": {
+        "t": "I've lost my handbag.",
+        "es": "He perdido el bolso."
+      }
+    },
+    {
+      "id": "a-passport",
+      "t": "a passport",
+      "es": "un pasaporte",
+      "emoji": "🛂",
+      "pos": "n",
+      "ex": {
+        "t": "My passport is in the bag.",
+        "es": "Mi pasaporte está en el bolso."
+      }
+    },
+    {
+      "id": "a-ticket",
+      "t": "a ticket",
+      "es": "un billete / una entrada",
+      "emoji": "🎫",
+      "pos": "n",
+      "ex": {
+        "t": "Two tickets for the boat, please.",
+        "es": "Dos billetes para el barco, por favor."
+      }
+    },
+    {
+      "id": "a-map",
+      "t": "a map",
+      "es": "un mapa / un plano",
+      "emoji": "🗺️",
+      "pos": "n",
+      "ex": {
+        "t": "Have you got a map of London?",
+        "es": "¿Tiene un plano de Londres?"
+      }
+    },
+    {
+      "id": "a-wallet",
+      "t": "a wallet",
+      "es": "una cartera",
+      "emoji": "👝",
+      "pos": "n",
+      "ex": {
+        "t": "My husband's wallet is brown.",
+        "es": "La cartera de mi marido es marrón."
+      },
+      "note": "¡Ojo! «cartera» de colegio o de trabajo es a bag o a briefcase."
+    },
+    {
+      "id": "inside",
+      "t": "inside",
+      "es": "dentro",
+      "emoji": "📥",
+      "pos": "adv",
+      "ex": {
+        "t": "What's inside the bag?",
+        "es": "¿Qué hay dentro del bolso?"
+      }
+    },
+    {
+      "id": "a-bell",
+      "t": "a bell",
+      "es": "una campana",
+      "emoji": "🔔",
+      "pos": "n",
+      "ex": {
+        "t": "Big Ben is a bell, not a tower.",
+        "es": "Big Ben es una campana, no una torre."
+      }
+    }
+  ],
+  "grammar": "en-g-articles",
+  "pron": {
+    "title": "Repaso: frases enteras con schwa",
+    "tip": "En una frase entera los artículos casi desaparecen: «I've lost ə bag», «ðə bag is black». Di con fuerza las palabras importantes (lost, bag, black) y deja a y the flojitos. Así sonarás mucho más natural.",
+    "words": [
+      "I've lost a bag.",
+      "The bag is black.",
+      "It's an old wallet."
+    ],
+    "pairs": [
+      [
+        "a name",
+        "an aim"
+      ],
+      [
+        "this",
+        "these"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "ticket",
+      "title": "Lost property form",
+      "text": "LOST PROPERTY – Westminster Station\nItem: handbag\nColour: black\nSize: big\nInside: a passport, a purse, two tickets and some keys\nName: Yolanda García",
+      "questions": [
+        {
+          "q": "¿De qué color es el bolso?",
+          "options": [
+            "Negro",
+            "Marrón",
+            "Rojo"
+          ],
+          "answer": "Negro"
+        },
+        {
+          "q": "¿Cuántos billetes hay dentro?",
+          "options": [
+            "Dos",
+            "Uno",
+            "Ninguno"
+          ],
+          "answer": "Dos"
+        },
+        {
+          "q": "¿Qué NO hay dentro?",
+          "options": [
+            "El móvil",
+            "El pasaporte",
+            "Las llaves"
+          ],
+          "answer": "El móvil"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "I've lost ___ handbag.",
+      "es": "He perdido un bolso.",
+      "options": [
+        "a",
+        "an"
+      ],
+      "answer": "a",
+      "why": "Handbag empieza por sonido de consonante (la h suena): a handbag.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "It's ___ old black bag.",
+      "es": "Es un bolso negro viejo.",
+      "options": [
+        "a",
+        "an"
+      ],
+      "answer": "an",
+      "why": "Mira la palabra siguiente: old empieza por vocal, así que an.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Is ___ your bag, madam? (el empleado lo tiene en la mano)",
+      "es": "¿Es este su bolso, señora?",
+      "options": [
+        "this",
+        "these",
+        "those"
+      ],
+      "answer": "this",
+      "why": "Una cosa cerca: this.",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "There are two ___ inside: one for me and one for my husband.",
+      "es": "Dentro hay dos billetes: uno para mí y otro para mi marido.",
+      "answer": [
+        "tickets"
+      ],
+      "bank": [
+        "tickets",
+        "ticket",
+        "ticketes"
+      ],
+      "why": "Dos billetes: plural con -s.",
+      "g": "en-g-plurals"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "My ___ are inside too. I can't read without them!",
+      "es": "Mis gafas también están dentro. ¡No puedo leer sin ellas!",
+      "answer": [
+        "glasses"
+      ],
+      "bank": [
+        "glass",
+        "glasses",
+        "glasss"
+      ],
+      "why": "Gafas = glasses, siempre plural.",
+      "g": "en-g-plurals"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "My passport and my keys is in the bag.",
+      "wrong": "is",
+      "fix": "are",
+      "why": "Son dos cosas (pasaporte y llaves): are."
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "These bag is not mine.",
+      "wrong": "These",
+      "fix": "This",
+      "why": "Bag es singular: this bag.",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "He perdido mi bolso negro",
+      "answer": "I've lost my black bag",
+      "extra": [
+        "blacks"
+      ],
+      "why": "El color va delante y sin -s: my black bag."
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Pásala a plural",
+      "q": "This is my ticket.",
+      "answer": [
+        "These are my tickets."
+      ],
+      "why": "This → these, is → are, ticket → tickets.",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Es un bolso grande y negro.",
+      "answer": [
+        "It's a big black bag.",
+        "It is a big black bag.",
+        "It's a big black handbag.",
+        "It is a big black handbag."
+      ],
+      "why": "En inglés los adjetivos van delante del nombre: a big black bag.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Llegas a la oficina de objetos perdidos y quieres explicar qué te pasa.",
+      "emoji": "😟",
+      "options": [
+        "Hello, I've lost my bag.",
+        "Hello, I have a bag lost.",
+        "Hello, my bag is lose."
+      ],
+      "answer": "Hello, I've lost my bag.",
+      "why": "He perdido = I've lost."
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "El empleado te enseña un bolso marrón, pero el tuyo es negro.",
+      "emoji": "👜",
+      "options": [
+        "No, that isn't mine. Mine is black.",
+        "Yes, it's mine.",
+        "No, these aren't mine."
+      ],
+      "answer": "No, that isn't mine. Mine is black.",
+      "why": "Es un solo bolso: that; y explicas tu color."
+    },
+    {
+      "id": "e14",
+      "type": "match",
+      "pairs": [
+        [
+          "passport",
+          "pasaporte"
+        ],
+        [
+          "wallet",
+          "cartera"
+        ],
+        [
+          "ticket",
+          "billete"
+        ],
+        [
+          "map",
+          "plano"
+        ],
+        [
+          "bell",
+          "campana"
+        ]
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "I've lost my bag. It's big and black.",
+      "es": "He perdido el bolso. Es grande y negro."
+    }
+  ],
+  "dialog": {
+    "title": "En la oficina de objetos perdidos",
+    "setting": "En la estación de Westminster, junto al Big Ben",
+    "emoji": "🧳",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Hello. I've lost my handbag.",
+        "es": "Hola. He perdido el bolso."
+      },
+      {
+        "who": "Officer",
+        "t": "Oh dear. What colour is it?",
+        "es": "Vaya. ¿De qué color es?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "It's black. It's a big bag.",
+        "es": "Es negro. Es un bolso grande."
+      },
+      {
+        "who": "Officer",
+        "t": "What's inside?",
+        "es": "¿Qué hay dentro?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "My passport, a purse and two tickets.",
+        "es": "Mi pasaporte, un monedero y dos billetes."
+      },
+      {
+        "who": "Officer",
+        "t": "Is this your bag?",
+        "es": "¿Es este su bolso?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes! That's my bag! Thank you so much!",
+        "es": "¡Sí! ¡Ese es mi bolso! ¡Muchísimas gracias!"
+      },
+      {
+        "who": "Officer",
+        "t": "You're welcome. Enjoy London!",
+        "es": "De nada. ¡Disfrute de Londres!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué ha perdido Yolanda?",
+        "options": [
+          "El bolso",
+          "El pasaporte",
+          "Las llaves"
+        ],
+        "answer": "El bolso"
+      },
+      {
+        "q": "¿Cómo es?",
+        "options": [
+          "Grande y negro",
+          "Pequeño y rojo",
+          "Grande y marrón"
+        ],
+        "answer": "Grande y negro"
+      },
+      {
+        "q": "¿Recupera el bolso?",
+        "options": [
+          "Sí",
+          "No",
+          "No se sabe"
+        ],
+        "answer": "Sí"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Where is the lost property office?",
+    "es": "¿Dónde está la oficina de objetos perdidos?",
+    "context": "En una estación, un aeropuerto o un museo si pierdes algo"
+  },
+  "summary": [
+    "Explicar una pérdida: I've lost my bag",
+    "Describir: It's a big black bag (adjetivos delante y sin -s)",
+    "Repaso: a/an, plurales (tickets, glasses) y this/that/these/those",
+    "Curiosidad: Big Ben es la campana; la torre se llama Elizabeth Tower"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u03-l5"
+}

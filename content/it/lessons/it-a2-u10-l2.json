@@ -1,0 +1,88 @@
+{
+  "id": "it-a2-u10-l2",
+  "unit": "it-a2-u10",
+  "title": "Domani andremo a Venezia",
+  "goal": "a contar tus planes de viaje con el futuro: andrò, visiterò, faremo, sarà",
+  "emoji": "🗓️",
+  "photoQuery": "venice rialto bridge morning",
+  "vocab": [
+    { "id": "futuro-domani", "t": "domani", "es": "mañana", "emoji": "🌅", "pos": "adv", "ex": { "t": "Domani visiteremo il palazzo Ducale.", "es": "Mañana visitaremos el Palacio Ducal." } },
+    { "id": "futuro-dopodomani", "t": "dopodomani", "es": "pasado mañana", "emoji": "📆", "pos": "adv", "ex": { "t": "Dopodomani torneremo a casa.", "es": "Pasado mañana volveremos a casa." } },
+    { "id": "futuro-la-settimana-prossima", "t": "la settimana prossima", "es": "la semana que viene", "emoji": "➡️", "pos": "phrase", "ex": { "t": "La settimana prossima partirò per l'Italia.", "es": "La semana que viene saldré para Italia." } },
+    { "id": "futuro-l-anno-prossimo", "t": "l'anno prossimo", "es": "el año que viene", "emoji": "🎆", "pos": "phrase", "ex": { "t": "L'anno prossimo andremo al Carnevale.", "es": "El año que viene iremos al Carnaval." } },
+    { "id": "futuro-tra-due-giorni", "t": "tra due giorni", "es": "dentro de dos días", "emoji": "⏳", "pos": "phrase", "ex": { "t": "Tra due giorni sarò a Venezia!", "es": "¡Dentro de dos días estaré en Venecia!" }, "note": "También fra: fra due giorni. Significan lo mismo." },
+    { "id": "futuro-andro", "t": "andrò", "es": "iré", "emoji": "🚶‍♀️", "pos": "v", "ex": { "t": "Andrò a Venezia in treno.", "es": "Iré a Venecia en tren." } },
+    { "id": "futuro-faro", "t": "farò", "es": "haré", "emoji": "✅", "pos": "v", "ex": { "t": "Farò tante foto per mio figlio.", "es": "Haré muchas fotos para mi hijo." } },
+    { "id": "futuro-sara", "t": "sarà", "es": "será, estará", "emoji": "✨", "pos": "v", "ex": { "t": "Sarà un viaggio bellissimo.", "es": "Será un viaje precioso." } },
+    { "id": "futuro-visitare", "t": "visitare", "es": "visitar", "emoji": "🏛️", "pos": "v", "ex": { "t": "Visiteremo la basilica di San Marco.", "es": "Visitaremos la basílica de San Marcos." } }
+  ],
+  "grammar": "it-g-futuro-semplice",
+  "pron": {
+    "title": "El acento cae al final",
+    "tip": "En el futuro, io y lui llevan acento escrito y se dice fuerte al final: andrÒ, farÀ. Si no lo marcas, puedes decir otra palabra: faro es un faro.",
+    "words": ["andrò", "farò", "sarà", "visiterò"],
+    "pairs": [["farò", "faro"], ["sarà", "Sara"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Domani io ___ il palazzo Ducale.", "es": "Mañana visitaré el Palacio Ducal.", "options": ["visiterò", "visitarò", "visitavo"], "answer": "visiterò", "why": "Visitare → visiter- (la a pasa a e) + -ò.", "g": "it-g-futuro-semplice" },
+    { "id": "e2", "type": "choose", "q": "Tra due giorni ___ a Venezia!", "es": "¡Dentro de dos días estaremos en Venecia!", "options": ["saremo", "sarete", "siamo stati"], "answer": "saremo", "why": "Noi → saremo.", "g": "it-g-futuro-semplice" },
+    { "id": "e3", "type": "choose", "q": "Mio figlio Hugo ___ con noi?", "es": "¿Mi hijo Hugo vendrá con nosotros?", "options": ["verrà", "venirà", "verrò"], "answer": "verrà", "why": "Venire → verrà (lui).", "g": "it-g-futuro-semplice" },
+    { "id": "e4", "type": "choose", "q": "L'anno prossimo ___ il Carnevale.", "es": "El año que viene veremos el Carnaval.", "options": ["vedremo", "vederemo", "vedevamo"], "answer": "vedremo", "why": "Vedere → vedr-: vedremo.", "g": "it-g-futuro-semplice" },
+    { "id": "e5", "type": "fill", "q": "Dopodomani noi ___ a casa.", "es": "Pasado mañana volveremos a casa.", "answer": ["torneremo"], "bank": ["torneremo", "tornaremo", "torniamo"], "why": "Tornare → torner- + -emo.", "g": "it-g-futuro-semplice" },
+    { "id": "e6", "type": "fill", "q": "Io ___ tante foto per i miei nipoti.", "es": "Haré muchas fotos para mis nietos.", "answer": ["farò"], "bank": ["farò", "farà", "faccio"], "why": "Fare → farò (io).", "g": "it-g-futuro-semplice" },
+    { "id": "e7", "type": "fill", "q": "Le mie amiche ___ il treno delle otto.", "es": "Mis amigas cogerán el tren de las ocho.", "answer": ["prenderanno"], "hint": "prendere, loro", "why": "Loro → prenderanno.", "g": "it-g-futuro-semplice" },
+    { "id": "e8", "type": "conjugate", "verb": "andare", "person": "noi", "tense": "futuro", "q": "La settimana prossima ___ a Venezia.", "answer": ["andremo"], "table": [["io", "andrò"], ["tu", "andrai"], ["lui/lei", "andrà"], ["noi", "andremo"], ["voi", "andrete"], ["loro", "andranno"]], "why": "Noi → andremo.", "g": "it-g-futuro-semplice" },
+    { "id": "e9", "type": "conjugate", "verb": "avere", "person": "tu", "tense": "futuro", "q": "Domani ___ tempo per un caffè?", "answer": ["avrai"], "why": "Avere → avr- + -ai.", "g": "it-g-futuro-semplice" },
+    { "id": "e10", "type": "error", "q": "Domani mio marito pagarà il vaporetto.", "wrong": "pagarà", "fix": "pagherà", "why": "Pagare → pagherà: la a pasa a e y se añade h.", "g": "it-g-futuro-semplice" },
+    { "id": "e11", "type": "error", "q": "L'anno prossimo anderò al Carnevale.", "wrong": "anderò", "fix": "andrò", "why": "Andare es irregular: andrò.", "g": "it-g-futuro-semplice" },
+    { "id": "e12", "type": "transform", "instr": "Pásala a futuro", "q": "Visitiamo la basilica di San Marco.", "answer": ["Visiteremo la basilica di San Marco."], "why": "Visitiamo → visiteremo.", "g": "it-g-futuro-semplice" },
+    { "id": "e13", "type": "transform", "instr": "Pásala a futuro", "q": "Il viaggio è bellissimo.", "answer": ["Il viaggio sarà bellissimo."], "why": "È → sarà.", "g": "it-g-futuro-semplice" },
+    { "id": "e14", "type": "order", "es": "Dentro de dos días estaré en Venecia.", "answer": "Tra due giorni sarò a Venezia", "alt": ["Sarò a Venezia tra due giorni"], "extra": ["sono"], "why": "Tra due giorni = dentro de dos días; sarò = estaré.", "g": "it-g-futuro-semplice" },
+    { "id": "e15", "type": "translate", "dir": "to", "q": "El año que viene iré a Italia.", "answer": ["L'anno prossimo andrò in Italia.", "Andrò in Italia l'anno prossimo."], "why": "Andrò; y con países: in Italia.", "g": "it-g-futuro-semplice" },
+    { "id": "e16", "type": "minimal", "pair": ["farò", "faro"], "answer": "farò", "es": ["haré", "faro"], "why": "Farò lleva el golpe de voz al final." }
+  ],
+  "dialog": {
+    "title": "El plan de mañana",
+    "setting": "En la habitación del hotel en Venecia, Yolanda y su compañera de curso Lucia miran el mapa",
+    "emoji": "🗺️",
+    "lines": [
+      { "who": "Lucia", "t": "Cosa faremo domani?", "es": "¿Qué haremos mañana?" },
+      { "who": "Yolanda", "t": "La mattina visiteremo la basilica di San Marco.", "es": "Por la mañana visitaremos la basílica de San Marcos." },
+      { "who": "Lucia", "t": "E poi?", "es": "¿Y luego?" },
+      { "who": "Yolanda", "t": "Poi prenderemo il vaporetto per Rialto e mangeremo lì.", "es": "Luego cogeremos el vaporetto a Rialto y comeremos allí." },
+      { "who": "Lucia", "t": "Ci sarà tanta gente, secondo te?", "es": "¿Habrá mucha gente, tú crees?" },
+      { "who": "Yolanda", "t": "Sì, ma partiremo presto.", "es": "Sí, pero saldremos temprano." },
+      { "who": "Lucia", "t": "E dopodomani?", "es": "¿Y pasado mañana?" },
+      { "who": "Yolanda", "t": "Dopodomani andremo a Burano. Farò mille foto!", "es": "Pasado mañana iremos a Burano. ¡Haré mil fotos!" }
+    ],
+    "questions": [
+      { "q": "¿Qué visitarán por la mañana?", "options": ["La basílica de San Marcos", "Murano", "Un museo de vidrio"], "answer": "La basílica de San Marcos" },
+      { "q": "¿Cómo irán a Rialto?", "options": ["En vaporetto", "En góndola", "Andando"], "answer": "En vaporetto" },
+      { "q": "¿Qué harán pasado mañana?", "options": ["Ir a Burano", "Volver a casa", "Ir al Lido"], "answer": "Ir a Burano" }
+    ]
+  },
+  "realLife": { "t": "Domani visiteremo la città e la sera mangeremo pesce.", "es": "Mañana visitaremos la ciudad y por la noche comeremos pescado.", "context": "Para contar a alguien vuestro plan del día" },
+  "same": {
+    "text": "El futuro italiano se parece muchísimo al nuestro.",
+    "examples": [
+      { "t": "visiterò", "es": "visitaré" },
+      { "t": "partiremo", "es": "partiremos" },
+      { "t": "sarà", "es": "será" }
+    ]
+  },
+  "falseFriend": {
+    "word": "la tappa",
+    "means": "la etapa, la parada de un viaje",
+    "looksLike": "tapa (en italiano, coperchio; y la de bar, stuzzichino)",
+    "emoji": "📍",
+    "tip": "La prima tappa del viaggio sarà Venezia = la primera parada del viaje será Venecia. Nada de comer."
+  },
+  "summary": [
+    "Futuro: quita la -e y añade -ò, -ai, -à, -emo, -ete, -anno.",
+    "Los verbos en -are cambian la a por e: visiterò, tornerò.",
+    "Irregulares: andrò, farò, sarò, avrò, verrò, vedrò.",
+    "Marcadores: domani, dopodomani, tra due giorni, l'anno prossimo.",
+    "La tappa = la etapa, no la tapa."
+  ],
+  "reviewed": false
+}

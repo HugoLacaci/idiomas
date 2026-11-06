@@ -1,0 +1,446 @@
+{
+  "id": "it-a1-u05-l4",
+  "unit": "it-a1-u05",
+  "title": "Capisco! Verbos con -isc- y el sonido sc",
+  "goal": "a usar capire, finire, preferire y pulire, y a pronunciar bien sc",
+  "emoji": "💡",
+  "photoQuery": "fish market fresh seafood",
+  "vocab": [
+    {
+      "id": "non-capisco",
+      "t": "Non capisco.",
+      "es": "No entiendo.",
+      "emoji": "🤷‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Scusi, non capisco. Può ripetere?",
+        "es": "Perdone, no entiendo. ¿Puede repetir?"
+      }
+    },
+    {
+      "id": "finire",
+      "t": "finire",
+      "es": "terminar, acabar",
+      "emoji": "🏁",
+      "pos": "v",
+      "note": "Finisco, finisci, finisce, finiamo, finite, finiscono.",
+      "ex": {
+        "t": "Finisco di lavorare alle tre.",
+        "es": "Termino de trabajar a las tres."
+      }
+    },
+    {
+      "id": "preferire",
+      "t": "preferire",
+      "es": "preferir",
+      "emoji": "👍",
+      "pos": "v",
+      "ex": {
+        "t": "Preferisco il mare alla montagna.",
+        "es": "Prefiero el mar a la montaña."
+      }
+    },
+    {
+      "id": "pulire",
+      "t": "pulire",
+      "es": "limpiar",
+      "emoji": "🧽",
+      "pos": "v",
+      "ex": {
+        "t": "Il sabato pulisco la casa.",
+        "es": "Los sábados limpio la casa."
+      }
+    },
+    {
+      "id": "spedire",
+      "t": "spedire",
+      "es": "enviar (por correo)",
+      "emoji": "📦",
+      "pos": "v",
+      "ex": {
+        "t": "Spedisco un pacco a mio figlio.",
+        "es": "Envío un paquete a mi hijo."
+      }
+    },
+    {
+      "id": "il-pesce",
+      "t": "il pesce",
+      "es": "el pescado, el pez",
+      "emoji": "🐟",
+      "pos": "n",
+      "ex": {
+        "t": "A Bari il pesce è freschissimo.",
+        "es": "En Bari el pescado es fresquísimo."
+      }
+    },
+    {
+      "id": "esco-di-casa",
+      "t": "esco di casa",
+      "es": "salgo de casa",
+      "emoji": "🚪",
+      "pos": "phrase",
+      "note": "Uscire (salir) es irregular: lo verás con calma más adelante.",
+      "ex": {
+        "t": "Esco di casa alle nove.",
+        "es": "Salgo de casa a las nueve."
+      }
+    },
+    {
+      "id": "la-scuola",
+      "t": "la scuola",
+      "es": "la escuela, el colegio",
+      "emoji": "🏫",
+      "pos": "n",
+      "ex": {
+        "t": "Porto i nipoti a scuola.",
+        "es": "Llevo a los nietos al colegio."
+      }
+    }
+  ],
+  "grammar": "it-g-presente-isc",
+  "pron": {
+    "title": "Sc: esco, capisco… pero pesce",
+    "tip": "Sc + a/o/u suena «sk»: esco, capisco, scuola. Sc + e/i suena «sh» (como cuando pides silencio): pesce, capisci, uscire.",
+    "words": [
+      "esco",
+      "capisco",
+      "scuola",
+      "pesce",
+      "capisci",
+      "uscire"
+    ],
+    "pairs": [
+      [
+        "capisco",
+        "capisci"
+      ],
+      [
+        "pesce",
+        "pesca"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Scusi, non ___ bene.",
+      "es": "Perdone, no entiendo bien.",
+      "options": [
+        "capisco",
+        "capo",
+        "capiamo"
+      ],
+      "answer": "capisco",
+      "why": "Capire con io lleva -isc-: capisco.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "A che ora ___ di lavorare?",
+      "es": "¿A qué hora terminas de trabajar?",
+      "options": [
+        "finisci",
+        "fini",
+        "finisce"
+      ],
+      "answer": "finisci",
+      "why": "Tu → finisci.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Noi ___ la cucina insieme.",
+      "es": "Limpiamos la cocina juntas.",
+      "options": [
+        "puliamo",
+        "pulisciamo",
+        "puliscono"
+      ],
+      "answer": "puliamo",
+      "why": "Noi sin -isc-: puliamo.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e4",
+      "type": "conjugate",
+      "verb": "preferire",
+      "person": "lui",
+      "tense": "presente",
+      "q": "Hugo ___ il riso alla pasta.",
+      "answer": [
+        "preferisce"
+      ],
+      "table": [
+        [
+          "io",
+          "preferisco"
+        ],
+        [
+          "tu",
+          "preferisci"
+        ],
+        [
+          "lui",
+          "?"
+        ]
+      ],
+      "why": "Lui → preferisce.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e5",
+      "type": "conjugate",
+      "verb": "spedire",
+      "person": "loro",
+      "tense": "presente",
+      "q": "Le mie amiche ___ un regalo a Hugo.",
+      "answer": [
+        "spediscono"
+      ],
+      "why": "Loro → spediscono.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Io ___ il pesce alla carne.",
+      "es": "Prefiero el pescado a la carne.",
+      "answer": [
+        "preferisco"
+      ],
+      "bank": [
+        "preferisco",
+        "prefiero",
+        "preferiamo"
+      ],
+      "why": "Io → preferisco.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Voi ___ lo spagnolo?",
+      "es": "¿Entendéis el español?",
+      "answer": [
+        "capite"
+      ],
+      "bank": [
+        "capite",
+        "capiscite",
+        "capiscono"
+      ],
+      "why": "Voi sin -isc-: capite.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Cambia a «io»",
+      "q": "Lei pulisce la casa il sabato.",
+      "answer": [
+        "Io pulisco la casa il sabato.",
+        "Pulisco la casa il sabato."
+      ],
+      "why": "Io → pulisco.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Cambia a «noi»",
+      "q": "Finisco alle due.",
+      "answer": [
+        "Finiamo alle due.",
+        "Noi finiamo alle due."
+      ],
+      "why": "En noi no hay -isc-: finiamo.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Io prefiero il tè.",
+      "wrong": "prefiero",
+      "fix": "preferisco",
+      "why": "En italiano la raíz no cambia: preferisco.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "I bambini non capino.",
+      "wrong": "capino",
+      "fix": "capiscono",
+      "why": "Loro lleva -isc-: capiscono.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "No entiendo, ¿puede hablar más despacio?",
+      "answer": "Non capisco può parlare più piano",
+      "extra": [
+        "capo"
+      ],
+      "why": "Io → capisco; más despacio = più piano.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "Termino a las cinco.",
+      "answer": [
+        "Finisco alle cinque.",
+        "Io finisco alle cinque."
+      ],
+      "why": "Io → finisco.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "En el mercado de pescado de Bari el vendedor habla en dialecto y no entiendes nada.",
+      "emoji": "🐟",
+      "options": [
+        "Scusi, non capisco.",
+        "Scusi, non capisce.",
+        "Scusi, non capiamo bene il pesce."
+      ],
+      "answer": "Scusi, non capisco.",
+      "why": "Hablas de ti: io non capisco.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "pesce",
+        "pesca"
+      ],
+      "answer": "pesce",
+      "es": [
+        "pescado",
+        "melocotón / pesca"
+      ],
+      "why": "Sce suena «she»: pesce. Sca suena «ska»: pesca."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Non capisco. Può ripetere, per favore?",
+      "es": "No entiendo. ¿Puede repetir, por favor?"
+    }
+  ],
+  "dialog": {
+    "title": "En la pescadería",
+    "setting": "En el mercado del pescado de Bari, junto al puerto",
+    "emoji": "🐟",
+    "lines": [
+      {
+        "who": "Pescivendolo",
+        "t": "Signora, oggi il pesce è freschissimo!",
+        "es": "¡Señora, hoy el pescado está fresquísimo!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Scusi, non capisco bene. Più piano, per favore.",
+        "es": "Perdone, no entiendo bien. Más despacio, por favor."
+      },
+      {
+        "who": "Pescivendolo",
+        "t": "Il pesce è fresco! Preferisce le alici o le orate?",
+        "es": "¡El pescado es fresco! ¿Prefiere boquerones o doradas?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Preferisco le orate. Due, per favore.",
+        "es": "Prefiero las doradas. Dos, por favor."
+      },
+      {
+        "who": "Pescivendolo",
+        "t": "Le pulisco io?",
+        "es": "¿Se las limpio yo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, grazie! Così finisco prima.",
+        "es": "¡Sí, gracias! Así termino antes."
+      },
+      {
+        "who": "Pescivendolo",
+        "t": "Ecco a Lei. Buon pranzo!",
+        "es": "Aquí tiene. ¡Buena comida!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué le pide Yolanda al principio?",
+        "options": [
+          "Que hable más despacio",
+          "Que le dé boquerones",
+          "Que le haga un descuento"
+        ],
+        "answer": "Que hable más despacio"
+      },
+      {
+        "q": "¿Qué pescado prefiere Yolanda?",
+        "options": [
+          "Doradas",
+          "Boquerones",
+          "Salmón"
+        ],
+        "answer": "Doradas"
+      },
+      {
+        "q": "¿Qué hace el pescadero?",
+        "options": [
+          "Limpia el pescado",
+          "Cocina el pescado",
+          "Envía el pescado"
+        ],
+        "answer": "Limpia el pescado"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Scusi, non capisco. Può ripetere?",
+    "es": "Perdone, no entiendo. ¿Puede repetir?",
+    "context": "Cuando alguien te habla demasiado rápido"
+  },
+  "same": {
+    "text": "Igual que en español: el verbo te dice quién habla aunque no pongas «io» o «tu».",
+    "examples": [
+      {
+        "t": "Capisco.",
+        "es": "Entiendo."
+      },
+      {
+        "t": "Preferisci il tè?",
+        "es": "¿Prefieres té?"
+      },
+      {
+        "t": "Finiamo alle tre.",
+        "es": "Terminamos a las tres."
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "la pesca",
+    "means": "el melocotón (y también la pesca)",
+    "looksLike": "solo la pesca",
+    "emoji": "🍑",
+    "tip": "En la frutería, una pesca es un melocotón. ¡Y el pescado que compras es il pesce!"
+  },
+  "summary": [
+    "-isc-: capisco, capisci, capisce, capiamo, capite, capiscono",
+    "Noi y voi sin -isc-: finiamo, pulite",
+    "Verbos útiles: capire, finire, preferire, pulire, spedire",
+    "Sc + o/a/u = «sk» (esco); sc + e/i = «sh» (pesce)"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u05-l4"
+}

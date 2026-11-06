@@ -1,0 +1,134 @@
+{
+  "id": "it-g-comparativi",
+  "lang": "it",
+  "level": "A2",
+  "title": "Comparativos: più … di, meno … di, migliore",
+  "short": "Comparar ciudades, cosas y personas: più cara di, meno caro di, bella come, migliore, peggiore.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "¿Cuál es mejor?",
+      "emoji": "⚖️",
+      "text": "Para elegir viaje, hotel o restaurante, comparas: Milano è ==più== cara ==di== Napoli.",
+      "examples": [
+        { "t": "Milano è ==più cara di== Napoli.", "es": "Milán es más cara que Nápoles.", "hl": "più cara di" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Más, menos, igual",
+      "emoji": "📋",
+      "text": "Más que = ==più … di==. Menos que = ==meno … di==. Tan … como = ==come== / ==quanto==.",
+      "table": {
+        "head": ["", "Italiano", "Español"],
+        "rows": [
+          ["+", "Roma è ==più== grande ==di== Firenze.", "más grande que"],
+          ["−", "Firenze è ==meno== grande ==di== Roma.", "menos grande que"],
+          ["=", "Venezia è bella ==come== Firenze.", "tan bonita como"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Di se une al artículo",
+      "emoji": "🔗",
+      "text": "Si detrás hay artículo, di se fusiona: ==del== mare, ==della== città, ==dell'==aereo, ==dei== miei amici.",
+      "examples": [
+        { "t": "Il paese è più tranquillo ==della== città.", "es": "El pueblo es más tranquilo que la ciudad.", "hl": "della" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Cuándo se usa che",
+      "emoji": "🔀",
+      "text": "Usa ==che== al comparar dos verbos, dos adjetivos o con una preposición delante.",
+      "examples": [
+        { "t": "È più bello camminare ==che== correre.", "es": "Es más bonito caminar que correr.", "hl": "che" },
+        { "t": "Fa più caldo a Napoli ==che== a Milano.", "es": "Hace más calor en Nápoles que en Milán.", "hl": "che" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Mejor y peor",
+      "emoji": "🥇",
+      "text": "Con nombres: ==migliore== / ==peggiore==. Con verbos: ==meglio== / ==peggio==. ¡Nunca *più migliore*!",
+      "table": {
+        "head": ["", "Con un nombre", "Con un verbo"],
+        "rows": [
+          ["mejor", "un caffè ==migliore==", "sto ==meglio=="],
+          ["peor", "un tempo ==peggiore==", "dormo ==peggio=="]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "Nuestro «que» se convierte casi siempre en ==di==: más cara ==que== Milán → più cara ==di== Milano. Solo con verbos o preposiciones pasa a ==che==."
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *più cara que Milano* → ✅ più cara ==di== Milano. ❌ *più migliore* → ✅ ==migliore==. ❌ *di il mare* → ✅ ==del== mare. ❌ *è migliore andare* → ✅ è ==meglio== andare."
+    },
+    {
+      "kind": "tip",
+      "title": "Truco rápido",
+      "emoji": "💡",
+      "text": "¿Detrás va un nombre o un pronombre (Roma, te, il mare)? → ==di==. ¿Un verbo, un adjetivo o una preposición? → ==che==.",
+      "examples": [
+        { "t": "Sei più alta di me.", "es": "Eres más alta que yo." }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: más … que, menos … que, tan … como. Mejor y peor sirven para todo: un café mejor, duermo mejor.",
+    "target": "En italiano: più … di (o che con verbos y preposiciones), meno … di, come / quanto. Mejor = migliore con nombres y meglio con verbos; peor = peggiore / peggio."
+  },
+  "errors": [
+    { "wrong": "Milano è più cara que Napoli.", "right": "Milano è più cara di Napoli.", "why": "Delante de un nombre, «que» se dice di." },
+    { "wrong": "Questa pizza è più migliore.", "right": "Questa pizza è migliore.", "why": "Migliore ya significa «más bueno»." },
+    { "wrong": "Il lago è più tranquillo di il mare.", "right": "Il lago è più tranquillo del mare.", "why": "Di + il = del." },
+    { "wrong": "È migliore prendere il treno.", "right": "È meglio prendere il treno.", "why": "Con un verbo se usa meglio." },
+    { "wrong": "Sei più alta di io.", "right": "Sei più alta di me.", "why": "Detrás de di va el pronombre me, te, lui…" },
+    { "wrong": "Fa più caldo a Roma di a Milano.", "right": "Fa più caldo a Roma che a Milano.", "why": "Delante de una preposición (a) se usa che." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Roma è ___ grande di Firenze.", "es": "Roma es más grande que Florencia.", "options": ["più", "meno", "come"], "answer": "più", "why": "Más = più.", "g": "it-g-comparativi" },
+    { "id": "e2", "type": "choose", "q": "Firenze è più piccola ___ Roma.", "es": "Florencia es más pequeña que Roma.", "options": ["di", "che", "come"], "answer": "di", "why": "Delante de un nombre de ciudad: di.", "g": "it-g-comparativi" },
+    { "id": "e3", "type": "choose", "q": "Il pullman è meno veloce ___ treno.", "es": "El autocar es menos rápido que el tren.", "options": ["del", "di il", "che il"], "answer": "del", "why": "Di + il = del.", "g": "it-g-comparativi" },
+    { "id": "e4", "type": "choose", "q": "Mio figlio Hugo è più alto ___ me.", "es": "Mi hijo Hugo es más alto que yo.", "options": ["di", "che", "da"], "answer": "di", "why": "Con pronombre: più alto di me.", "g": "it-g-comparativi" },
+    { "id": "e5", "type": "choose", "q": "È più facile parlare ___ scrivere.", "es": "Es más fácil hablar que escribir.", "options": ["che", "di", "del"], "answer": "che", "why": "Comparas dos verbos: che.", "g": "it-g-comparativi" },
+    { "id": "e6", "type": "choose", "q": "Questo vino è ___ di quello.", "es": "Este vino es mejor que ese.", "options": ["migliore", "meglio", "più migliore"], "answer": "migliore", "why": "Con un nombre (vino): migliore.", "g": "it-g-comparativi" },
+    { "id": "e7", "type": "choose", "q": "Oggi sto ___ di ieri, grazie.", "es": "Hoy estoy mejor que ayer, gracias.", "options": ["meglio", "migliore", "più bene"], "answer": "meglio", "why": "Con un verbo (stare): meglio.", "g": "it-g-comparativi" },
+    { "id": "e8", "type": "fill", "q": "La Sardegna è più grande ___ Corsica.", "es": "Cerdeña es más grande que Córcega.", "answer": ["della"], "bank": ["della", "di", "che"], "why": "Di + la = della.", "g": "it-g-comparativi" },
+    { "id": "e9", "type": "fill", "q": "Il mio paese è bello ___ il tuo.", "es": "Mi pueblo es tan bonito como el tuyo.", "answer": ["come", "quanto"], "bank": ["come", "di", "più"], "why": "Tan … como = come / quanto.", "g": "it-g-comparativi" },
+    { "id": "e10", "type": "fill", "q": "In montagna fa più fresco ___ al mare.", "es": "En la montaña hace más fresco que en el mar.", "answer": ["che"], "bank": ["che", "di", "del"], "why": "Delante de una preposición (al) se usa che.", "g": "it-g-comparativi" },
+    { "id": "e11", "type": "fill", "q": "L'aereo è più caro ___ treno.", "es": "El avión es más caro que el tren.", "answer": ["del"], "hint": "di + il", "why": "Di + il = del.", "g": "it-g-comparativi" },
+    { "id": "e12", "type": "fill", "q": "Il tempo oggi è ___ di ieri: piove tantissimo.", "es": "El tiempo hoy es peor que ayer: llueve muchísimo.", "answer": ["peggiore"], "hint": "peor (con nombre)", "why": "Con un nombre (il tempo): peggiore.", "g": "it-g-comparativi" },
+    { "id": "e13", "type": "fill", "q": "Mio marito cucina ___ di me!", "es": "¡Mi marido cocina mejor que yo!", "answer": ["meglio"], "hint": "mejor (con verbo)", "why": "Con un verbo (cucinare): meglio.", "g": "it-g-comparativi" },
+    { "id": "e14", "type": "fill", "q": "Questo albergo è ___ caro di quello: costa 50 euro in meno.", "es": "Este hotel es menos caro que ese: cuesta 50 euros menos.", "answer": ["meno"], "hint": "menos", "why": "Menos = meno.", "g": "it-g-comparativi" },
+    { "id": "e15", "type": "error", "q": "Napoli è più caotica que Torino.", "wrong": "que", "fix": "di", "why": "En italiano: più caotica di Torino.", "g": "it-g-comparativi" },
+    { "id": "e16", "type": "error", "q": "Questo gelato è più migliore.", "wrong": "più", "fix": "molto", "why": "Migliore no lleva più. Puedes reforzarlo: molto migliore.", "g": "it-g-comparativi" },
+    { "id": "e17", "type": "error", "q": "È migliore partire presto.", "wrong": "migliore", "fix": "meglio", "why": "Con un verbo (partire): meglio.", "g": "it-g-comparativi" },
+    { "id": "e18", "type": "error", "q": "Le mie amiche sono più giovani di io.", "wrong": "io", "fix": "me", "why": "Detrás de di: me.", "g": "it-g-comparativi" },
+    { "id": "e19", "type": "error", "q": "Mi piace più leggere di guardare la tele.", "wrong": "di", "fix": "che", "why": "Comparas dos verbos: che.", "g": "it-g-comparativi" },
+    { "id": "e20", "type": "transform", "instr": "Dilo al revés con «meno»", "q": "Milano è più cara di Bologna.", "answer": ["Bologna è meno cara di Milano."], "why": "Si Milán es más cara, Bolonia es meno cara.", "g": "it-g-comparativi" },
+    { "id": "e21", "type": "transform", "instr": "Dilo al revés con «più»", "q": "Il paese è meno rumoroso della città.", "answer": ["La città è più rumorosa del paese."], "why": "La città → più rumorosa (femenino) del paese.", "g": "it-g-comparativi" },
+    { "id": "e22", "type": "transform", "instr": "Hazla igualdad con «come»", "q": "Verona è più bella di Padova.", "answer": ["Verona è bella come Padova.", "Verona è bella quanto Padova."], "why": "Tan … como = come / quanto.", "g": "it-g-comparativi" },
+    { "id": "e23", "type": "transform", "instr": "Cambia «buono» por la forma de «mejor»", "q": "Questo caffè è più buono di quello.", "answer": ["Questo caffè è migliore di quello."], "why": "Più buono = migliore (las dos son correctas, migliore es más elegante).", "g": "it-g-comparativi" },
+    { "id": "e24", "type": "order", "es": "El tren es más cómodo que el coche.", "answer": "Il treno è più comodo della macchina", "extra": ["che"], "why": "Di + la = della macchina.", "g": "it-g-comparativi" },
+    { "id": "e25", "type": "order", "es": "Hace más frío en Milán que en Roma.", "answer": "Fa più freddo a Milano che a Roma", "extra": ["di"], "why": "Con preposición (a Roma): che.", "g": "it-g-comparativi" },
+    { "id": "e26", "type": "order", "es": "Mi pueblo es tan bonito como Florencia.", "answer": "Il mio paese è bello come Firenze", "extra": ["più"], "why": "Bello come = tan bonito como.", "g": "it-g-comparativi" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "Venecia es más cara que Bolonia.", "answer": ["Venezia è più cara di Bologna."], "why": "Più cara di.", "g": "it-g-comparativi" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "Mi amiga es más alta que yo.", "answer": ["La mia amica è più alta di me."], "why": "Più alta di me.", "g": "it-g-comparativi" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "Es mejor reservar antes.", "answer": ["È meglio prenotare prima.", "Meglio prenotare prima."], "why": "Con verbo: è meglio.", "g": "it-g-comparativi" },
+    { "id": "e30", "type": "translate", "dir": "from", "q": "Il lago è meno affollato del mare.", "answer": ["El lago está menos lleno que el mar.", "En el lago hay menos gente que en el mar.", "El lago está menos abarrotado que el mar."], "why": "Meno affollato del = menos lleno que el.", "g": "it-g-comparativi" },
+    { "id": "e31", "type": "conjugate", "verb": "essere", "person": "loro", "tense": "presente", "q": "I treni italiani ___ più veloci degli autobus.", "answer": ["sono"], "why": "Loro → sono; y di + gli = degli.", "g": "it-g-comparativi" },
+    { "id": "e32", "type": "situation", "context": "Tu amiga te pregunta qué prefieres: Milán o el lago de Como. Prefieres el lago, que es más tranquilo.", "emoji": "🏞️", "options": ["Il lago, è più tranquillo di Milano.", "Il lago, è più tranquillo che Milano.", "Il lago, è tranquillo di Milano."], "answer": "Il lago, è più tranquillo di Milano.", "why": "Più tranquillo di + ciudad.", "g": "it-g-comparativi" },
+    { "id": "e33", "type": "situation", "context": "En la tienda te ofrecen dos bolsos. El rojo te gusta más y es más barato.", "emoji": "👜", "options": ["Prendo quella rossa: è migliore e più economica.", "Prendo quella rossa: è più migliore e economica.", "Prendo quella rossa: è meglio e più economica."], "answer": "Prendo quella rossa: è migliore e più economica.", "why": "Con un nombre (la borsa): migliore.", "g": "it-g-comparativi" },
+    { "id": "e34", "type": "match", "pairs": [["più … di", "más … que"], ["meno … di", "menos … que"], ["come", "tan … como"], ["migliore", "mejor (con nombre)"], ["meglio", "mejor (con verbo)"]], "why": "Las piezas de la comparación.", "g": "it-g-comparativi" }
+  ],
+  "reviewed": false
+}

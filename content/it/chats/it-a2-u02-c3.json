@@ -1,0 +1,60 @@
+{
+  "id": "it-a2-u02-c3",
+  "unit": "it-a2-u02",
+  "title": "Nochevieja con Giulia",
+  "setting": "El 1 de enero, Giulia te manda un audio para felicitarte el año",
+  "emoji": "🎆",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Buon anno, Yolanda! Tanti auguri!", "es": "¡Feliz año, Yolanda! ¡Muchas felicidades!" },
+      "options": [
+        { "t": "Grazie, altrettanto! Buon anno anche a te!", "es": "¡Gracias, igualmente! ¡Feliz año a ti también!", "next": "n2", "ok": true },
+        { "t": "Buona Pasqua anche a te!", "es": "¡Felices Pascuas a ti también!", "next": "n2", "ok": false, "feedback": "Es Año Nuevo: Buon anno! Para devolver el deseo, Grazie, altrettanto!" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Dove sei stata ieri sera?", "es": "¿Dónde estuviste anoche?" },
+      "options": [
+        { "t": "Sono stata a casa di amici.", "es": "Estuve en casa de unos amigos.", "next": "n3", "ok": true },
+        { "t": "Ho stata a casa di amici.", "es": "Estuve en casa de unos amigos.", "next": "n3", "ok": false, "feedback": "Stare va con essere: sono stata." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "In Spagna mangiate l'uva a mezzanotte, vero?", "es": "En España coméis uvas a medianoche, ¿verdad?" },
+      "options": [
+        { "t": "Sì, abbiamo mangiato dodici chicchi d'uva!", "es": "¡Sí, comimos doce uvas!", "next": "n4", "ok": true },
+        { "t": "Sì, siamo mangiati dodici chicchi d'uva!", "es": "¡Sí, comimos doce uvas!", "next": "n4", "ok": false, "feedback": "Mangiare va con avere: abbiamo mangiato." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Noi le lenticchie! E dopo mezzanotte?", "es": "¡Nosotros, las lentejas! ¿Y después de medianoche?" },
+      "options": [
+        { "t": "Io e le mie amiche siamo uscite a ballare.", "es": "Mis amigas y yo salimos a bailar.", "next": "n5", "ok": true },
+        { "t": "Io e le mie amiche siamo usciti a ballare.", "es": "Mis amigas y yo salimos a bailar.", "next": "n5", "ok": false, "feedback": "Solo mujeres: siamo uscite." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Brava! E tuo marito?", "es": "¡Muy bien! ¿Y tu marido?" },
+      "options": [
+        { "t": "Lui è rimasto a casa a dormire!", "es": "¡Él se quedó en casa durmiendo!", "next": "n6", "ok": true },
+        { "t": "Lui è rimasta a casa a dormire!", "es": "¡Él se quedó en casa durmiendo!", "next": "n6", "ok": false, "feedback": "Tu marido es un hombre: è rimasto." },
+        { "t": "Lui e rimasto a casa a dormire!", "es": "¡Él se quedó en casa durmiendo!", "next": "n6", "ok": false, "feedback": "El verbo lleva acento: è rimasto. Sin acento, e significa «y»." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ahah! A che ora sei tornata?", "es": "¡Jaja! ¿A qué hora volviste?" },
+      "options": [
+        { "t": "Sono tornata alle quattro. Che notte!", "es": "Volví a las cuatro. ¡Qué noche!", "next": "end", "ok": true },
+        { "t": "Sono tornato alle quattro. Che notte!", "es": "Volví a las cuatro. ¡Qué noche!", "next": "end", "ok": false, "feedback": "Eres mujer: sono tornata." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

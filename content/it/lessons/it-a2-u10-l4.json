@@ -1,0 +1,79 @@
+{
+  "id": "it-a2-u10-l4",
+  "unit": "it-a2-u10",
+  "title": "Murano? Ci andremo domani!",
+  "goal": "a usar ci para no repetir el lugar (ci vado, ci sono stata) y a marcar el acento final del futuro",
+  "emoji": "🏝️",
+  "photoQuery": "burano colorful houses canal",
+  "vocab": [
+    { "id": "futuro-ci-vado", "t": "Ci vado domani.", "es": "Voy (allí) mañana.", "emoji": "📍", "pos": "phrase", "ex": { "t": "Murano? Ci vado domani con le amiche.", "es": "¿Murano? Voy mañana con mis amigas." } },
+    { "id": "futuro-ci-sei-mai-stata", "t": "Ci sei mai stata?", "es": "¿Has estado alguna vez (allí)?", "emoji": "❓", "pos": "phrase", "ex": { "t": "Conosci Burano? Ci sei mai stata?", "es": "¿Conoces Burano? ¿Has estado alguna vez?" } },
+    { "id": "futuro-ci-torno-volentieri", "t": "Ci torno volentieri.", "es": "Vuelvo con mucho gusto.", "emoji": "😊", "pos": "phrase", "ex": { "t": "Venezia è magica: ci torno volentieri.", "es": "Venecia es mágica: vuelvo con mucho gusto." } },
+    { "id": "futuro-quanto-ci-vuole", "t": "Quanto ci vuole?", "es": "¿Cuánto se tarda?", "emoji": "⏱️", "pos": "phrase", "ex": { "t": "Quanto ci vuole in vaporetto fino a Murano?", "es": "¿Cuánto se tarda en vaporetto hasta Murano?" } },
+    { "id": "futuro-il-vetro", "t": "il vetro", "es": "el vidrio, el cristal", "emoji": "🏺", "pos": "n", "ex": { "t": "A Murano lavorano il vetro da secoli.", "es": "En Murano trabajan el vidrio desde hace siglos." } },
+    { "id": "futuro-il-merletto", "t": "il merletto", "es": "el encaje", "emoji": "🧵", "pos": "n", "ex": { "t": "Comprerò un merletto di Burano per mia madre.", "es": "Compraré un encaje de Burano para mi madre." } },
+    { "id": "futuro-la-laguna", "t": "la laguna", "es": "la laguna", "emoji": "🌅", "pos": "n", "ex": { "t": "Dal vaporetto vediamo tutta la laguna.", "es": "Desde el vaporetto vemos toda la laguna." } },
+    { "id": "futuro-il-traghetto", "t": "il traghetto", "es": "el ferri, el barco de pasaje", "emoji": "⛴️", "pos": "n", "ex": { "t": "Prenderemo il traghetto per il Lido.", "es": "Cogeremos el ferri al Lido." } }
+  ],
+  "grammar": "it-g-ci-locativo",
+  "pron": {
+    "title": "Acento final del futuro: andrò, farò, sarà",
+    "tip": "Golpea la última sílaba como en «iré» o «será». Sin ese golpe cambia la palabra: farò (haré) / faro (faro); sarà (será) / Sara (un nombre); però (pero) / pero (peral).",
+    "words": ["andrò", "farò", "sarà", "verrò", "potrà"],
+    "pairs": [["farò", "faro"], ["sarà", "Sara"], ["però", "pero"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Vai a Murano? Sì, ___ vado domani.", "es": "¿Vas a Murano? Sí, voy mañana.", "options": ["ci", "lo", "ne"], "answer": "ci", "why": "Ci sustituye al lugar: ci vado.", "g": "it-g-ci-locativo" },
+    { "id": "e2", "type": "choose", "q": "Sei mai stata a Burano? No, non ci sono ___ stata.", "es": "¿Has estado alguna vez en Burano? No, nunca he estado.", "options": ["mai", "già", "ancora"], "answer": "mai", "why": "Non… mai = nunca.", "g": "it-g-ci-locativo" },
+    { "id": "e3", "type": "choose", "q": "Il Lido è bello: ___ torneremo l'anno prossimo.", "es": "El Lido es bonito: volveremos el año que viene.", "options": ["ci", "lo", "gli"], "answer": "ci", "why": "Ci + futuro: ci torneremo.", "g": "it-g-ci-locativo" },
+    { "id": "e4", "type": "fill", "q": "Quanto ___ vuole fino a Murano?", "es": "¿Cuánto se tarda hasta Murano?", "answer": ["ci"], "bank": ["ci", "si", "ne"], "why": "Ci vuole = se tarda.", "g": "it-g-ci-locativo" },
+    { "id": "e5", "type": "fill", "q": "Il mercato di Rialto? ___ andiamo domattina.", "es": "¿El mercado de Rialto? Vamos mañana por la mañana.", "answer": ["Ci"], "bank": ["Ci", "Lo", "Ne"], "why": "Ci andiamo: no repites el lugar.", "g": "it-g-ci-locativo" },
+    { "id": "e6", "type": "fill", "q": "Venezia mi piace tanto: voglio ___ con mio figlio.", "es": "Venecia me gusta mucho: quiero volver con mi hijo.", "answer": ["tornarci", "ritornarci", "andarci"], "hint": "tornare + ci", "why": "Con infinitivo: tornarci.", "g": "it-g-ci-locativo" },
+    { "id": "e7", "type": "error", "q": "Venezia? Lo andrò l'anno prossimo.", "wrong": "Lo", "fix": "Ci", "why": "Para un lugar se usa ci: ci andrò.", "g": "it-g-ci-locativo" },
+    { "id": "e8", "type": "error", "q": "Ci non sono mai stata.", "wrong": "Ci", "fix": "Non", "why": "Non va primero: non ci sono mai stata.", "g": "it-g-ci-locativo" },
+    { "id": "e9", "type": "transform", "instr": "Sustituye el lugar por ci", "q": "Andremo a Burano in vaporetto.", "answer": ["Ci andremo in vaporetto."], "why": "A Burano → ci.", "g": "it-g-ci-locativo" },
+    { "id": "e10", "type": "transform", "instr": "Sustituye el lugar por ci", "q": "Sono stata al Lido da giovane.", "answer": ["Ci sono stata da giovane."], "why": "Al Lido → ci sono stata.", "g": "it-g-ci-locativo" },
+    { "id": "e11", "type": "order", "es": "¿Has estado alguna vez en Murano?", "answer": "Sei mai stata a Murano", "alt": ["A Murano ci sei mai stata"], "extra": ["già"], "why": "Sei mai stata…? = ¿has estado alguna vez…?", "g": "it-g-ci-locativo" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "¿Burano? Iremos mañana.", "answer": ["Burano? Ci andremo domani.", "Burano? Domani ci andremo."], "why": "Ci + andremo.", "g": "it-g-ci-locativo" },
+    { "id": "e13", "type": "translate", "dir": "from", "q": "Ci torno volentieri.", "answer": ["Vuelvo con mucho gusto.", "Vuelvo con gusto.", "Vuelvo encantada."], "why": "Ci torno = vuelvo (allí); volentieri = con gusto.", "g": "it-g-ci-locativo" },
+    { "id": "e14", "type": "situation", "context": "Una amiga te pregunta si irás al mercado de Rialto. Sí, irás mañana.", "emoji": "🐟", "options": ["Sì, ci andrò domani.", "Sì, andrò ci domani.", "Sì, lo andrò domani."], "answer": "Sì, ci andrò domani.", "why": "Ci delante del verbo: ci andrò.", "g": "it-g-ci-locativo" },
+    { "id": "e15", "type": "minimal", "pair": ["sarà", "Sara"], "answer": "sarà", "es": ["será", "Sara (nombre)"], "why": "Sarà lleva el acento al final." },
+    { "id": "e16", "type": "minimal", "pair": ["però", "pero"], "answer": "però", "es": ["pero", "peral"], "why": "Però (= pero) suena fuerte al final." }
+  ],
+  "dialog": {
+    "title": "¿Murano o Burano?",
+    "setting": "En un café junto al Gran Canal, Yolanda charla con su amiga veneciana Elena",
+    "emoji": "☕",
+    "lines": [
+      { "who": "Elena", "t": "Sei mai stata a Murano?", "es": "¿Has estado alguna vez en Murano?" },
+      { "who": "Yolanda", "t": "No, non ci sono mai stata. Ci andrò domani!", "es": "No, nunca he estado. ¡Iré mañana!" },
+      { "who": "Elena", "t": "Brava! Lì vedrai come lavorano il vetro.", "es": "¡Muy bien! Allí verás cómo trabajan el vidrio." },
+      { "who": "Yolanda", "t": "Quanto ci vuole in vaporetto?", "es": "¿Cuánto se tarda en vaporetto?" },
+      { "who": "Elena", "t": "Poco. E Burano? Ci andrai?", "es": "Poco. ¿Y Burano? ¿Irás?" },
+      { "who": "Yolanda", "t": "Sì, ci andremo dopodomani con le mie amiche.", "es": "Sí, iremos pasado mañana con mis amigas." },
+      { "who": "Elena", "t": "Le case colorate ti piaceranno tantissimo.", "es": "Las casas de colores te van a encantar." },
+      { "who": "Yolanda", "t": "E comprerò un merletto per mia madre!", "es": "¡Y compraré un encaje para mi madre!" }
+    ],
+    "questions": [
+      { "q": "¿Ha estado Yolanda en Murano?", "options": ["No, nunca", "Sí, una vez", "Sí, muchas veces"], "answer": "No, nunca" },
+      { "q": "¿Con quién irá a Burano?", "options": ["Con sus amigas", "Con Elena", "Con su hijo"], "answer": "Con sus amigas" },
+      { "q": "¿Qué comprará en Burano?", "options": ["Un encaje", "Un vaso de cristal", "Una máscara"], "answer": "Un encaje" }
+    ]
+  },
+  "realLife": { "t": "Sei mai stata a Venezia? Io ci sono stata due volte!", "es": "¿Has estado alguna vez en Venecia? ¡Yo he estado dos veces!", "context": "Para hablar de viajes con otras personas" },
+  "same": {
+    "text": "En la laguna hay palabras que ya conoces.",
+    "examples": [
+      { "t": "la laguna", "es": "la laguna" },
+      { "t": "la barca", "es": "la barca" },
+      { "t": "il pescatore", "es": "el pescador" }
+    ]
+  },
+  "summary": [
+    "Ci = allí: ci vado, ci andrò, ci sono stata.",
+    "Non ci vado; voglio andarci (o ci voglio andare).",
+    "Quanto ci vuole? = ¿Cuánto se tarda?",
+    "Futuro con acento al final: andrò, farò, sarà."
+  ],
+  "reviewed": false
+}

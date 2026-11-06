@@ -1,0 +1,59 @@
+{
+  "id": "it-b1-u04-c2",
+  "unit": "it-b1-u04",
+  "title": "¿Qué regalo compramos?",
+  "setting": "Estás con Giulia en una tienda de productos típicos de Roma buscando un regalo para tus amigas",
+  "emoji": "🎁",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Guarda quest'olio! Credi che sia un buon regalo?", "es": "¡Mira este aceite! ¿Crees que es un buen regalo?" },
+      "options": [
+        { "t": "Sì, ma penso che costi troppo.", "es": "Sí, pero creo que cuesta demasiado.", "next": "n2", "ok": true },
+        { "t": "Sì, ma penso che costa troppo.", "es": "Sí, pero creo que cuesta demasiado.", "next": "n2", "ok": false, "feedback": "Costare en congiuntivo es costi: penso che costi." },
+        { "t": "Sì, ma penso che costo troppo.", "es": "Sí, pero creo que cuesto demasiado.", "next": "n2", "ok": false, "feedback": "¡Así dirías que tú cuestas mucho! Es penso che costi." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "E questa pasta artigianale? È più conveniente.", "es": "¿Y esta pasta artesana? Está mejor de precio." },
+      "options": [
+        { "t": "Mi sembra che la qualità sia ottima.", "es": "Me parece que la calidad es excelente.", "next": "n3", "ok": true },
+        { "t": "Mi sembra che la qualità abbia ottima.", "es": "Me parece que la calidad tiene excelente.", "next": "n3", "ok": false, "feedback": "La calidad es buena: essere → sia, no abbia." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Il commesso dice che è fatta a mano. Ci credi?", "es": "El dependiente dice que está hecha a mano. ¿Te lo crees?" },
+      "options": [
+        { "t": "Penso di sì, ha una forma irregolare.", "es": "Creo que sí, tiene una forma irregular.", "next": "n4", "ok": true },
+        { "t": "Penso che sì, ha una forma irregolare.", "es": "Creo que sí, tiene una forma irregular.", "next": "n4", "ok": false, "feedback": "«Creo que sí» se dice penso di sì." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E per la tua amica che non mangia glutine?", "es": "¿Y para tu amiga que no come gluten?" },
+      "options": [
+        { "t": "Credo che quel negozio venda dolci senza glutine.", "es": "Creo que esa tienda vende dulces sin gluten.", "next": "n5", "ok": true },
+        { "t": "Credo che quel negozio vende dolci senza glutine.", "es": "Creo que esa tienda vende dulces sin gluten.", "next": "n5", "ok": false, "feedback": "Vendere (-ere) en congiuntivo: venda." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Sì, ma non so se è ancora aperto.", "es": "Sí, pero no sé si sigue abierto." },
+      "options": [
+        { "t": "Non credo che chiuda prima delle otto.", "es": "No creo que cierre antes de las ocho.", "next": "n6", "ok": true },
+        { "t": "Non credo che chiudi prima delle otto.", "es": "No creo que cierre antes de las ocho.", "next": "n6", "ok": false, "feedback": "Chiudere (-ere) → chiuda. Chiudi sería «tú cierras»." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Perfetto, allora andiamo!", "es": "¡Perfecto, pues vamos!" },
+      "options": [
+        { "t": "Andiamo! Secondo me le mie amiche saranno felici.", "es": "¡Vamos! Para mí mis amigas estarán felices.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

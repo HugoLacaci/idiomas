@@ -1,0 +1,418 @@
+{
+  "id": "en-a1-u08-l5",
+  "unit": "en-a1-u08",
+  "title": "Reto: un domingo en Hyde Park",
+  "goal": "a contar qué haces en el parque, con qué frecuencia y con qué tiempo",
+  "emoji": "🌳",
+  "photoQuery": "hyde park lake deckchairs",
+  "vocab": [
+    {
+      "id": "a-lake",
+      "t": "a lake",
+      "es": "un lago",
+      "emoji": "🏞️",
+      "pos": "n",
+      "ex": {
+        "t": "There's a big lake in Hyde Park.",
+        "es": "Hay un lago grande en Hyde Park."
+      }
+    },
+    {
+      "id": "have-a-picnic",
+      "t": "have a picnic",
+      "es": "hacer un pícnic, comer en el campo",
+      "emoji": "🧺",
+      "pos": "phrase",
+      "ex": {
+        "t": "We often have a picnic in summer.",
+        "es": "En verano a menudo comemos en el parque."
+      }
+    },
+    {
+      "id": "feed-the-ducks",
+      "t": "feed the ducks",
+      "es": "dar de comer a los patos",
+      "emoji": "🦆",
+      "pos": "phrase",
+      "ex": {
+        "t": "My grandson loves feeding the ducks.",
+        "es": "A mi nieto le encanta dar de comer a los patos."
+      }
+    },
+    {
+      "id": "ride-a-bike",
+      "t": "ride a bike",
+      "es": "montar en bici",
+      "emoji": "🚲",
+      "pos": "phrase",
+      "ex": {
+        "t": "I sometimes ride a bike by the river.",
+        "es": "A veces monto en bici junto al río."
+      }
+    },
+    {
+      "id": "a-deckchair",
+      "t": "a deckchair",
+      "es": "una tumbona, una hamaca",
+      "emoji": "🪑",
+      "pos": "n",
+      "ex": {
+        "t": "Let's sit in a deckchair and read.",
+        "es": "Vamos a sentarnos en una tumbona a leer."
+      }
+    },
+    {
+      "id": "a-bench",
+      "t": "a bench",
+      "es": "un banco (para sentarse)",
+      "emoji": "🛋️",
+      "pos": "n",
+      "ex": {
+        "t": "My friend and I sit on this bench.",
+        "es": "Mi amiga y yo nos sentamos en este banco."
+      },
+      "note": "El banco del dinero es a bank."
+    },
+    {
+      "id": "a-squirrel",
+      "t": "a squirrel",
+      "es": "una ardilla",
+      "emoji": "🐿️",
+      "pos": "n",
+      "ex": {
+        "t": "There are squirrels everywhere!",
+        "es": "¡Hay ardillas por todas partes!"
+      }
+    },
+    {
+      "id": "speak-in-public",
+      "t": "speak in public",
+      "es": "hablar en público",
+      "emoji": "🎤",
+      "pos": "phrase",
+      "ex": {
+        "t": "Anyone can speak in public here.",
+        "es": "Aquí cualquiera puede hablar en público."
+      }
+    }
+  ],
+  "grammar": "en-g-adverbs-frequency",
+  "pron": {
+    "title": "Repaso: el acento",
+    "tip": "Di estas palabras con la fuerza en el sitio correcto: PICnic, SQUIRrel, DECKchair, SOMEtimes, Usually. Y squirrel es difícil para todos: «skuí-rel», muy rápido.",
+    "words": [
+      "picnic",
+      "squirrel",
+      "deckchair",
+      "sometimes",
+      "usually"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel del parque",
+      "text": "WELCOME TO THE PARK\nPlease do not feed the squirrels.\nDeckchairs: March to October.\nBikes: only on the cycle paths.",
+      "questions": [
+        {
+          "q": "¿A qué animales no se debe dar de comer?",
+          "options": [
+            "A las ardillas",
+            "A los patos",
+            "A los perros"
+          ],
+          "answer": "A las ardillas"
+        },
+        {
+          "q": "¿Cuándo hay tumbonas?",
+          "options": [
+            "De marzo a octubre",
+            "Todo el año",
+            "Solo en invierno"
+          ],
+          "answer": "De marzo a octubre"
+        },
+        {
+          "q": "¿Por dónde pueden ir las bicis?",
+          "options": [
+            "Por el carril bici",
+            "Por todas partes",
+            "Por la hierba"
+          ],
+          "answer": "Por el carril bici"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "We ___ have a picnic when it's sunny.",
+      "options": [
+        "usually",
+        "are usually",
+        "usually are"
+      ],
+      "answer": "usually",
+      "why": "Verbo normal (have): el adverbio va delante.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "The lake ___ beautiful in autumn.",
+      "options": [
+        "is always",
+        "always is",
+        "always"
+      ],
+      "answer": "is always",
+      "why": "Con to be: is always.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "My grandson loves ___ the ducks.",
+      "options": [
+        "feeding",
+        "eating",
+        "riding"
+      ],
+      "answer": "feeding",
+      "why": "Dar de comer = feed."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I ___ ride a bike. I'm scared of the traffic!",
+      "es": "Nunca monto en bici. ¡Me da miedo el tráfico!",
+      "answer": [
+        "never"
+      ],
+      "bank": [
+        "never",
+        "always",
+        "often"
+      ],
+      "why": "Le da miedo: never.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Let's sit on that ___ under the tree.",
+      "es": "Vamos a sentarnos en ese banco debajo del árbol.",
+      "answer": [
+        "bench"
+      ],
+      "bank": [
+        "bench",
+        "bank",
+        "lake"
+      ],
+      "why": "Banco para sentarse = bench; bank es el del dinero."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "How ___ do you come to the park?",
+      "es": "¿Cada cuánto vienes al parque?",
+      "answer": [
+        "often"
+      ],
+      "why": "How often = ¿cada cuánto?",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e8",
+      "type": "conjugate",
+      "verb": "to go",
+      "person": "she",
+      "tense": "presente simple + often",
+      "q": "Emma often ___ running by the lake.",
+      "answer": [
+        "goes"
+      ],
+      "why": "Emma = she: goes.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "My friend sometimes feed the squirrels.",
+      "wrong": "feed",
+      "fix": "feeds",
+      "why": "My friend = she/he: feeds.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "We don't never sit on the grass.",
+      "wrong": "never",
+      "fix": "ever",
+      "why": "No se juntan dos negativas: We don't ever sit… o, más fácil, We never sit…",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Los domingos siempre hay mucha gente en el parque",
+      "answer": "The park is always busy on Sundays",
+      "extra": [
+        "are"
+      ],
+      "why": "Con to be: is always.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e12",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "She usually rides a bike in the park.",
+      "answer": [
+        "She doesn't usually ride a bike in the park.",
+        "She does not usually ride a bike in the park."
+      ],
+      "why": "doesn't + usually + ride (sin -s).",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "A menudo damos de comer a los patos.",
+      "answer": [
+        "We often feed the ducks.",
+        "We often feed the ducks"
+      ],
+      "why": "Often delante de feed.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "En Speakers' Corner un señor te pregunta si hablas en público alguna vez. Tú, ¡jamás!",
+      "emoji": "🎤",
+      "options": [
+        "No, I never speak in public!",
+        "No, I don't never speak in public!",
+        "No, I speak never in public!"
+      ],
+      "answer": "No, I never speak in public!",
+      "why": "Never delante del verbo y sin don't.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Hace sol y quieres proponer a tu amiga comer en el parque.",
+      "emoji": "🧺",
+      "options": [
+        "It's sunny. Let's have a picnic!",
+        "It makes sun. Let's have a picnic!",
+        "Is sunny. Let's do a picnic!"
+      ],
+      "answer": "It's sunny. Let's have a picnic!",
+      "why": "Hace sol = It's sunny; hacer un pícnic = have a picnic."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "I usually go for a walk in the park on Sundays.",
+      "es": "Normalmente doy un paseo por el parque los domingos."
+    }
+  ],
+  "dialog": {
+    "title": "Junto al lago",
+    "setting": "En una tumbona junto al lago de Hyde Park",
+    "emoji": "🦆",
+    "lines": [
+      {
+        "who": "Emma",
+        "t": "Do you like it here, Yolanda?",
+        "es": "¿Te gusta esto, Yolanda?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I love it! Do you often come here?",
+        "es": "¡Me encanta! ¿Vienes aquí a menudo?"
+      },
+      {
+        "who": "Emma",
+        "t": "Yes, I usually come on Sundays.",
+        "es": "Sí, suelo venir los domingos."
+      },
+      {
+        "who": "Yolanda",
+        "t": "What do you usually do?",
+        "es": "¿Y qué sueles hacer?"
+      },
+      {
+        "who": "Emma",
+        "t": "I sometimes ride a bike. I always feed the ducks!",
+        "es": "A veces monto en bici. ¡Siempre doy de comer a los patos!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "And Speakers' Corner? Do you speak there?",
+        "es": "¿Y Speakers' Corner? ¿Hablas allí?"
+      },
+      {
+        "who": "Emma",
+        "t": "Never! But I sometimes listen.",
+        "es": "¡Nunca! Pero a veces escucho."
+      },
+      {
+        "who": "Yolanda",
+        "t": "It's warm and sunny. Let's have a picnic!",
+        "es": "Hace buen tiempo y sol. ¡Vamos a hacer un pícnic!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuándo suele ir Emma al parque?",
+        "options": [
+          "Los domingos",
+          "Todos los días",
+          "Nunca"
+        ],
+        "answer": "Los domingos"
+      },
+      {
+        "q": "¿Qué hace Emma siempre?",
+        "options": [
+          "Dar de comer a los patos",
+          "Montar en bici",
+          "Hablar en público"
+        ],
+        "answer": "Dar de comer a los patos"
+      },
+      {
+        "q": "¿Habla Emma en Speakers' Corner?",
+        "options": [
+          "Nunca",
+          "A veces",
+          "Siempre"
+        ],
+        "answer": "Nunca"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Shall we sit on that bench?",
+    "es": "¿Nos sentamos en ese banco?",
+    "context": "Para proponer un descanso durante un paseo"
+  },
+  "summary": [
+    "En el parque: a lake, a bench, a deckchair, a squirrel",
+    "have a picnic, feed the ducks, ride a bike",
+    "Adverbio delante del verbo: I always feed the ducks",
+    "Con to be, detrás: The park is always busy",
+    "¿Cada cuánto? How often…? — Every Sunday"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u08-l5"
+}

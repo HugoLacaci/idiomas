@@ -1,0 +1,60 @@
+{
+  "id": "en-a1-u08-c3",
+  "unit": "en-a1-u08",
+  "title": "Un paseo por Hyde Park",
+  "setting": "Paseas con Emma por Hyde Park un domingo por la mañana.",
+  "emoji": "🌳",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Welcome to Hyde Park! Do you often go to parks in Spain?", "es": "¡Bienvenida a Hyde Park! ¿Vas a menudo a los parques en España?" },
+      "options": [
+        { "t": "Yes, I often go with my grandson.", "es": "Sí, voy a menudo con mi nieto.", "next": "n2", "ok": true },
+        { "t": "Yes, I go often with my grandson.", "es": "Sí, voy a menudo con mi nieto.", "next": "n2", "ok": false, "feedback": "Often va delante del verbo: I often go." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Look! That's the lake. People feed the ducks here.", "es": "¡Mira! Ese es el lago. La gente da de comer a los patos aquí." },
+      "options": [
+        { "t": "My grandson always feeds the ducks!", "es": "¡Mi nieto siempre da de comer a los patos!", "next": "n3", "ok": true },
+        { "t": "My grandson always feed the ducks!", "es": "¡Mi nieto siempre da de comer a los patos!", "next": "n3", "ok": false, "feedback": "My grandson = he: feeds, con -s." },
+        { "t": "My grandson feeds always the ducks!", "es": "¡Mi nieto siempre da de comer a los patos!", "next": "n3", "ok": false, "feedback": "Always va delante del verbo: always feeds." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "And that's Speakers' Corner. Anyone can speak in public there.", "es": "Y eso es Speakers' Corner. Allí cualquiera puede hablar en público." },
+      "options": [
+        { "t": "Really? Is it always busy?", "es": "¿En serio? ¿Siempre hay gente?", "next": "n4", "ok": true },
+        { "t": "Really? Does it always busy?", "es": "¿En serio? ¿Siempre hay gente?", "next": "n4", "ok": false, "feedback": "Busy es un adjetivo: va con to be. Is it always busy?" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "On Sundays, yes. Do you want to speak?", "es": "Los domingos, sí. ¿Quieres hablar?" },
+      "options": [
+        { "t": "No way! I never speak in public.", "es": "¡Ni hablar! Nunca hablo en público.", "next": "n5", "ok": true },
+        { "t": "No way! I don't never speak in public.", "es": "¡Ni hablar! Nunca hablo en público.", "next": "n5", "ok": false, "feedback": "Never ya es negativo: I never speak." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ha ha! Shall we sit in a deckchair?", "es": "¡Ja, ja! ¿Nos sentamos en una tumbona?" },
+      "options": [
+        { "t": "Good idea. It's warm and sunny!", "es": "Buena idea. ¡Hace buen tiempo y sol!", "next": "n6", "ok": true },
+        { "t": "Good idea. It's warm and sun!", "es": "Buena idea. ¡Hace buen tiempo y sol!", "next": "n6", "ok": false, "feedback": "Necesitamos el adjetivo: sunny (sun es el sol)." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "It's hardly ever this sunny here. We're lucky today!", "es": "Aquí casi nunca hace tanto sol. ¡Hoy tenemos suerte!" },
+      "options": [
+        { "t": "Then let's have a picnic!", "es": "¡Pues hagamos un pícnic!", "next": "end", "ok": true },
+        { "t": "Then let's make a picnic!", "es": "¡Pues hagamos un pícnic!", "next": "end", "ok": false, "feedback": "Hacer un pícnic = have a picnic." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

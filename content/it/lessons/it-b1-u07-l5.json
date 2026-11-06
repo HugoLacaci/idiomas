@@ -1,0 +1,90 @@
+{
+  "id": "it-b1-u07-l5",
+  "unit": "it-b1-u07",
+  "title": "Reto: un sueño en Cerdeña",
+  "goal": "a preguntar por un viaje a Cerdeña, hablar de precios y plazos y contar qué harías allí",
+  "emoji": "🗿",
+  "photoQuery": "sardinia nuraghe stone tower",
+  "vocab": [
+    { "id": "sogni-il-nuraghe", "t": "il nuraghe (i nuraghi)", "es": "el nuraghe (torre de piedra antigua)", "emoji": "🗿", "pos": "n", "ex": { "t": "In Sardegna ci sono migliaia di nuraghi.", "es": "En Cerdeña hay miles de nuraghi." }, "note": "Torres de piedra de hace más de 3.000 años." },
+    { "id": "sogni-l-acqua-cristallina", "t": "l'acqua cristallina", "es": "el agua cristalina", "emoji": "💧", "pos": "n", "ex": { "t": "L'acqua è così cristallina che si vedono i pesci.", "es": "El agua es tan cristalina que se ven los peces." } },
+    { "id": "sogni-la-costa-smeralda", "t": "la Costa Smeralda", "es": "la Costa Esmeralda", "emoji": "💎", "pos": "n", "ex": { "t": "La Costa Smeralda è nel nord-est della Sardegna.", "es": "La Costa Esmeralda está en el noreste de Cerdeña." } },
+    { "id": "sogni-il-pecorino-sardo", "t": "il pecorino sardo", "es": "el queso de oveja sardo", "emoji": "🧀", "pos": "n", "ex": { "t": "Compriamo un pezzo di pecorino sardo per mio figlio?", "es": "¿Compramos un trozo de queso de oveja sardo para mi hijo?" } },
+    { "id": "sogni-il-pane-carasau", "t": "il pane carasau", "es": "el pan carasau (fino y crujiente)", "emoji": "🫓", "pos": "n", "ex": { "t": "Il pane carasau è sottile e croccante.", "es": "El pan carasau es fino y crujiente." } },
+    { "id": "sogni-la-caletta", "t": "la caletta", "es": "la calita, la cala pequeña", "emoji": "🏝️", "pos": "n", "ex": { "t": "Abbiamo trovato una caletta tranquilla.", "es": "Hemos encontrado una calita tranquila." } },
+    { "id": "sogni-a-rate", "t": "a rate", "es": "a plazos", "emoji": "💳", "pos": "phrase", "ex": { "t": "Possiamo pagare il viaggio a rate?", "es": "¿Podemos pagar el viaje a plazos?" }, "note": "¡Falso amigo! La rata = el plazo, la cuota." },
+    { "id": "sogni-il-traghetto", "t": "il traghetto", "es": "el ferri", "emoji": "⛴️", "pos": "n", "ex": { "t": "Il traghetto per la Sardegna parte stasera.", "es": "El ferri a Cerdeña sale esta noche." } },
+    { "id": "sogni-noleggiare", "t": "noleggiare", "es": "alquilar (coche, barco)", "emoji": "🚗", "pos": "v", "ex": { "t": "Se noleggiassimo una macchina, vedremmo tutta l'isola.", "es": "Si alquiláramos un coche, veríamos toda la isla." } }
+  ],
+  "grammar": "it-g-periodo-ipotetico-intro",
+  "pron": {
+    "title": "Repaso: la melodía de la hipótesis",
+    "tip": "Si el «se» va delante, la voz sube en la coma y baja al final. Si va detrás, toda la frase baja suave: Andrei in Sardegna, se potessi.",
+    "words": ["Se potessi, tornerei in Sardegna.", "Andrei in Sardegna, se potessi.", "nuraghi", "carasau"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "email", "title": "Offerta: Sardegna da sogno", "text": "Sette notti in Sardegna, vicino alla Costa Smeralda. Volo, hotel e auto a noleggio: 1.200 euro a persona. Si può pagare in dieci rate senza interessi. Se prenotate entro maggio, la gita in barca alle calette è gratis!", "questions": [
+      { "q": "¿Cuántas noches dura el viaje?", "options": ["Siete", "Diez", "Cinco"], "answer": "Siete" },
+      { "q": "¿Cómo se puede pagar?", "options": ["En diez plazos sin intereses", "Solo en efectivo", "En dos plazos"], "answer": "En diez plazos sin intereses" },
+      { "q": "¿Qué regalan si reservas antes de mayo?", "options": ["La excursión en barco a las calas", "Una cena", "El coche"], "answer": "La excursión en barco a las calas" }
+    ], "why": "Rate = plazos; gita = excursión; entro maggio = antes de que acabe mayo." },
+    { "id": "e2", "type": "situation", "context": "En la agencia de viajes quieres saber si puedes pagar el viaje a plazos.", "emoji": "💳", "options": ["Posso pagare a rate?", "Posso pagare a ratti?", "Posso pagare con la rata?"], "answer": "Posso pagare a rate?", "why": "A plazos = a rate. Il ratto es la rata, el animal." },
+    { "id": "e3", "type": "choose", "q": "Se prenotate entro maggio, la gita ___ gratis.", "es": "Si reserváis antes de que acabe mayo, la excursión es gratis.", "options": ["è", "fosse", "sarebbe"], "answer": "è", "why": "Es una oferta real: se + presente → presente.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e4", "type": "choose", "q": "Se avessi una settimana libera, ___ in Sardegna.", "es": "Si tuviera una semana libre, iría a Cerdeña.", "options": ["andrei", "andassi", "vado"], "answer": "andrei", "why": "Hipótesis: se avessi… + condicional (andrei).", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e5", "type": "fill", "q": "Se ___ una macchina, vedremmo tutta l'isola.", "es": "Si alquiláramos un coche, veríamos toda la isla.", "answer": ["noleggiassimo"], "bank": ["noleggiassimo", "noleggeremmo", "noleggiamo"], "why": "Noleggiare con noi: noleggi- + -assimo.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e6", "type": "fill", "q": "Il ___ per Olbia parte stasera alle otto.", "es": "El ferri a Olbia sale esta noche a las ocho.", "answer": ["traghetto"], "why": "El ferri es il traghetto." },
+    { "id": "e7", "type": "match", "pairs": [["il nuraghe", "torre de piedra antigua"], ["il pane carasau", "pan fino y crujiente"], ["la caletta", "cala pequeña"], ["a rate", "a plazos"], ["il traghetto", "el ferri"]], "why": "Palabras para tu viaje a Cerdeña." },
+    { "id": "e8", "type": "error", "q": "Se fossi in Sardegna, mangerò pecorino ogni giorno.", "wrong": "mangerò", "fix": "mangerei", "why": "Con se fossi, el resultado va en condicional: mangerei.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e9", "type": "error", "q": "Se noleggiassimo una barca, andassimo nelle calette.", "wrong": "andassimo", "fix": "andremmo", "why": "El congiuntivo va detrás de se; la otra parte, en condicional: andremmo.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e10", "type": "translate", "dir": "to", "q": "Si pudiera, vería todos los nuraghi.", "answer": ["Se potessi, vedrei tutti i nuraghi.", "Se potessi vedrei tutti i nuraghi."], "why": "Si pudiera = se potessi; vería = vedrei.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e11", "type": "translate", "dir": "from", "q": "Se il mare è calmo, facciamo il giro in barca.", "answer": ["Si el mar está tranquilo, hacemos la excursión en barco.", "Si el mar está en calma, damos la vuelta en barco.", "Si el mar está tranquilo, damos una vuelta en barco.", "Si el mar está en calma, hacemos la excursión en barco."], "why": "Condición real: se + presente → presente, como en español.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e12", "type": "transform", "instr": "Conviértela en hipótesis", "q": "Se pago a rate, posso partire.", "answer": ["Se pagassi a rate, potrei partire.", "Se pagassi a rate potrei partire."], "why": "Pago → pagassi; posso → potrei.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e13", "type": "order", "es": "Si tuviéramos tiempo, iríamos a una cala.", "answer": "Se avessimo tempo andremmo in una caletta", "extra": ["avremmo"], "why": "Se avessimo (congiuntivo) + andremmo (condicional).", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e14", "type": "conjugate", "verb": "stare", "person": "io", "tense": "congiuntivo imperfetto", "q": "Se ___ meglio, farei il bagno anch'io.", "answer": ["stessi"], "why": "Stare es irregular: stessi, con e.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e15", "type": "situation", "context": "Giulia te pregunta qué harías en Cerdeña si tuvieras un solo día.", "emoji": "🏝️", "options": ["Se avessi un solo giorno, andrei al mare.", "Se avrei un solo giorno, andrei al mare.", "Se ho un solo giorno, andrei al mare."], "answer": "Se avessi un solo giorno, andrei al mare.", "why": "Hipótesis: se avessi + condicional. Nunca «se avrei».", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e16", "type": "speak", "t": "Se potessi, tornerei in Sardegna ogni estate.", "es": "Si pudiera, volvería a Cerdeña cada verano." }
+  ],
+  "dialog": {
+    "title": "En la agencia de viajes",
+    "setting": "Yolanda pregunta por un viaje a Cerdeña en una agencia de Roma",
+    "emoji": "🧳",
+    "lines": [
+      { "who": "Luca", "t": "Buongiorno! Come posso aiutarla?", "es": "¡Buenos días! ¿En qué puedo ayudarla?" },
+      { "who": "Yolanda", "t": "Vorrei informazioni su un viaggio in Sardegna, a giugno.", "es": "Querría información sobre un viaje a Cerdeña, en junio." },
+      { "who": "Luca", "t": "Abbiamo un'offerta: una settimana vicino alla Costa Smeralda.", "es": "Tenemos una oferta: una semana cerca de la Costa Esmeralda." },
+      { "who": "Yolanda", "t": "Che bello! Quanto costa? Si può pagare a rate?", "es": "¡Qué bonito! ¿Cuánto cuesta? ¿Se puede pagar a plazos?" },
+      { "who": "Luca", "t": "Sì, in dieci rate. E se prenota oggi, la gita in barca è gratis.", "es": "Sí, en diez plazos. Y si reserva hoy, la excursión en barco es gratis." },
+      { "who": "Yolanda", "t": "Se dipendesse da me, prenoterei subito. Ma devo chiedere a mio marito.", "es": "Si dependiera de mí, reservaría ya. Pero tengo que preguntar a mi marido." },
+      { "who": "Luca", "t": "Certo. Se vuole, le preparo un preventivo.", "es": "Claro. Si quiere, le preparo un presupuesto." },
+      { "who": "Yolanda", "t": "Perfetto, grazie! Se lui dice di sì, torno domani.", "es": "¡Perfecto, gracias! Si él dice que sí, vuelvo mañana." }
+    ],
+    "questions": [
+      { "q": "¿Adónde quiere viajar Yolanda?", "options": ["A Cerdeña", "A Sicilia", "A Trieste"], "answer": "A Cerdeña" },
+      { "q": "¿Qué regalan si reserva hoy?", "options": ["La excursión en barco", "El hotel", "El vuelo"], "answer": "La excursión en barco" },
+      { "q": "¿Por qué no reserva enseguida?", "options": ["Tiene que preguntar a su marido", "Es muy caro", "No le gusta el mar"], "answer": "Tiene que preguntar a su marido" }
+    ]
+  },
+  "realLife": { "t": "Si può pagare a rate?", "es": "¿Se puede pagar a plazos?", "context": "Para preguntar en una tienda o una agencia si puedes pagar a plazos" },
+  "same": {
+    "text": "Cerdeña se dice con palabras muy parecidas.",
+    "examples": [
+      { "t": "l'acqua cristallina", "es": "el agua cristalina" },
+      { "t": "l'isola", "es": "la isla" },
+      { "t": "la costa", "es": "la costa" }
+    ]
+  },
+  "falseFriend": {
+    "word": "la rata",
+    "means": "el plazo, la cuota (de un pago)",
+    "looksLike": "rata (en italiano, il ratto)",
+    "emoji": "💳",
+    "tip": "Pagare in tre rate = pagar en tres plazos. La rata, el animal, es il ratto; el ratón es il topo."
+  },
+  "summary": [
+    "Cerdeña: i nuraghi, l'acqua cristallina, la Costa Smeralda, il pecorino sardo, il pane carasau.",
+    "Para viajar: il traghetto, noleggiare, pagare a rate.",
+    "Real: Se prenota oggi, la gita è gratis. Hipótesis: Se potessi, prenoterei subito.",
+    "¡Ojo! La rata es el plazo de un pago; el animal es il ratto."
+  ],
+  "reviewed": false
+}

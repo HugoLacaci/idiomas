@@ -1,0 +1,450 @@
+{
+  "id": "en-a1-u08-l1",
+  "unit": "en-a1-u08",
+  "title": "Mis aficiones",
+  "goal": "a decir qué aficiones tienes y qué haces en tu tiempo libre",
+  "emoji": "🎨",
+  "photoQuery": "garden flowers watering can",
+  "vocab": [
+    {
+      "id": "a-hobby",
+      "t": "a hobby",
+      "es": "una afición",
+      "emoji": "⭐",
+      "pos": "n",
+      "ex": {
+        "t": "My favourite hobby is cooking.",
+        "es": "Mi afición favorita es cocinar."
+      }
+    },
+    {
+      "id": "gardening",
+      "t": "gardening",
+      "es": "la jardinería",
+      "emoji": "🌷",
+      "pos": "n",
+      "ex": {
+        "t": "I love gardening in spring.",
+        "es": "Me encanta la jardinería en primavera."
+      }
+    },
+    {
+      "id": "swimming",
+      "t": "swimming",
+      "es": "la natación, nadar",
+      "emoji": "🏊‍♀️",
+      "pos": "n",
+      "ex": {
+        "t": "Swimming is good for your back.",
+        "es": "Nadar es bueno para la espalda."
+      }
+    },
+    {
+      "id": "painting",
+      "t": "painting",
+      "es": "la pintura, pintar",
+      "emoji": "🎨",
+      "pos": "n",
+      "ex": {
+        "t": "My friend does painting classes.",
+        "es": "Mi amiga va a clases de pintura."
+      }
+    },
+    {
+      "id": "dancing",
+      "t": "dancing",
+      "es": "el baile, bailar",
+      "emoji": "💃",
+      "pos": "n",
+      "ex": {
+        "t": "We go dancing on Fridays.",
+        "es": "Vamos a bailar los viernes."
+      }
+    },
+    {
+      "id": "knitting",
+      "t": "knitting",
+      "es": "hacer punto",
+      "emoji": "🧶",
+      "pos": "n",
+      "ex": {
+        "t": "Knitting is very relaxing.",
+        "es": "Hacer punto es muy relajante."
+      },
+      "note": "La k no suena: «níting»."
+    },
+    {
+      "id": "play-cards",
+      "t": "play cards",
+      "es": "jugar a las cartas",
+      "emoji": "🃏",
+      "pos": "phrase",
+      "ex": {
+        "t": "We play cards after lunch.",
+        "es": "Jugamos a las cartas después de comer."
+      }
+    },
+    {
+      "id": "sing-in-a-choir",
+      "t": "sing in a choir",
+      "es": "cantar en un coro",
+      "emoji": "🎶",
+      "pos": "phrase",
+      "ex": {
+        "t": "My friend sings in a choir.",
+        "es": "Mi amiga canta en un coro."
+      },
+      "note": "Choir se dice «cuáia»."
+    },
+    {
+      "id": "go-to-the-cinema",
+      "t": "go to the cinema",
+      "es": "ir al cine",
+      "emoji": "🎬",
+      "pos": "phrase",
+      "ex": {
+        "t": "Do you often go to the cinema?",
+        "es": "¿Vas al cine a menudo?"
+      },
+      "note": "En EE. UU.: go to the movies."
+    },
+    {
+      "id": "do-yoga",
+      "t": "do yoga",
+      "es": "hacer yoga",
+      "emoji": "🧘‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "She does yoga on Tuesdays.",
+        "es": "Hace yoga los martes."
+      }
+    }
+  ],
+  "grammar": "en-g-adverbs-frequency",
+  "pron": {
+    "title": "La -ing no se acentúa",
+    "tip": "En las aficiones con -ing la fuerza va al principio, nunca en la -ing: GARdening, SWIMming, PAINting, DANcing, KNITting. La -ing final suena suave, sin «g» fuerte.",
+    "words": [
+      "gardening",
+      "swimming",
+      "painting",
+      "dancing",
+      "knitting"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "gardening",
+          "la jardinería"
+        ],
+        [
+          "swimming",
+          "la natación"
+        ],
+        [
+          "knitting",
+          "hacer punto"
+        ],
+        [
+          "dancing",
+          "el baile"
+        ],
+        [
+          "painting",
+          "la pintura"
+        ]
+      ],
+      "why": "Muchas aficiones terminan en -ing."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "I love ___. I have a lot of plants.",
+      "es": "Me encanta la jardinería. Tengo muchas plantas.",
+      "options": [
+        "gardening",
+        "swimming",
+        "dancing"
+      ],
+      "answer": "gardening",
+      "why": "Plantas → gardening."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "We ___ cards on Sunday afternoons.",
+      "options": [
+        "play",
+        "do",
+        "go"
+      ],
+      "answer": "play",
+      "why": "Con juegos usamos play: play cards."
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "She ___ yoga twice a week.",
+      "options": [
+        "does",
+        "plays",
+        "goes"
+      ],
+      "answer": "does",
+      "why": "Hacer yoga = do yoga; con she, does.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Let's go for a ___ in the park.",
+      "es": "Vamos a dar un paseo por el parque.",
+      "answer": [
+        "walk"
+      ],
+      "bank": [
+        "walk",
+        "walking",
+        "swim"
+      ],
+      "why": "Salir a pasear = go for a walk."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I ___ to the cinema with my grandson.",
+      "es": "Voy al cine con mi nieto.",
+      "answer": [
+        "go"
+      ],
+      "bank": [
+        "go",
+        "do",
+        "play"
+      ],
+      "why": "Ir al cine = go to the cinema."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "My favourite ___ is reading.",
+      "es": "Mi afición favorita es leer.",
+      "answer": [
+        "hobby"
+      ],
+      "why": "Afición = hobby."
+    },
+    {
+      "id": "e8",
+      "type": "choose",
+      "q": "I ___ go to the cinema. I love films!",
+      "es": "Voy al cine a menudo. ¡Me encantan las películas!",
+      "options": [
+        "often",
+        "never",
+        "hardly ever"
+      ],
+      "answer": "often",
+      "why": "Le encantan: a menudo, often.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "My friend do yoga on Tuesdays.",
+      "wrong": "do",
+      "fix": "does",
+      "why": "My friend = she: does.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "We go swim on Saturdays.",
+      "wrong": "swim",
+      "fix": "swimming",
+      "why": "Ir a nadar = go swimming (con -ing)."
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Salgo a pasear todas las tardes",
+      "answer": "I go for a walk every evening",
+      "extra": [
+        "to"
+      ],
+      "why": "Go for a walk + every evening al final."
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Me encanta bailar.",
+      "answer": [
+        "I love dancing.",
+        "I love to dance.",
+        "I love dancing"
+      ],
+      "why": "Love + -ing: I love dancing."
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "from",
+      "q": "Knitting is very relaxing.",
+      "answer": [
+        "Hacer punto es muy relajante.",
+        "Tejer es muy relajante."
+      ],
+      "why": "Knitting = hacer punto."
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Una señora inglesa te pregunta: «What are your hobbies?»",
+      "emoji": "🌷",
+      "options": [
+        "I like gardening and reading.",
+        "I like garden and read.",
+        "My hobbies is gardening."
+      ],
+      "answer": "I like gardening and reading.",
+      "why": "Las aficiones con -ing: I like gardening."
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Centro cívico",
+      "text": "COMMUNITY CENTRE – THIS WEEK\nMonday: Knitting club 10 am\nWednesday: Yoga 6 pm\nFriday: Dancing 7 pm\nCards every afternoon",
+      "questions": [
+        {
+          "q": "¿Qué día hay yoga?",
+          "options": [
+            "El miércoles",
+            "El lunes",
+            "El viernes"
+          ],
+          "answer": "El miércoles"
+        },
+        {
+          "q": "¿Cuándo se juega a las cartas?",
+          "options": [
+            "Todas las tardes",
+            "Solo el viernes",
+            "Por la mañana"
+          ],
+          "answer": "Todas las tardes"
+        },
+        {
+          "q": "¿A qué hora es el club de punto?",
+          "options": [
+            "A las 10",
+            "A las 6",
+            "A las 7"
+          ],
+          "answer": "A las 10"
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "I love gardening and swimming.",
+      "es": "Me encanta la jardinería y nadar."
+    }
+  ],
+  "dialog": {
+    "title": "El tiempo libre",
+    "setting": "En un banco del parque, Yolanda charla con una señora inglesa",
+    "emoji": "🌳",
+    "lines": [
+      {
+        "who": "Joan",
+        "t": "Do you live here, or are you on holiday?",
+        "es": "¿Vive aquí o está de vacaciones?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I'm on holiday. I love this park!",
+        "es": "Estoy de vacaciones. ¡Me encanta este parque!"
+      },
+      {
+        "who": "Joan",
+        "t": "Me too. I go for a walk here every day.",
+        "es": "A mí también. Vengo a pasear aquí todos los días."
+      },
+      {
+        "who": "Yolanda",
+        "t": "What are your hobbies?",
+        "es": "¿Qué aficiones tiene?"
+      },
+      {
+        "who": "Joan",
+        "t": "Gardening and knitting. And you?",
+        "es": "La jardinería y hacer punto. ¿Y usted?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I love cooking and dancing.",
+        "es": "Me encanta cocinar y bailar."
+      },
+      {
+        "who": "Joan",
+        "t": "Dancing! There's a class on Fridays at the community centre.",
+        "es": "¡Bailar! Hay una clase los viernes en el centro cívico."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Great! I can go this week.",
+        "es": "¡Genial! Puedo ir esta semana."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cada cuánto pasea Joan por el parque?",
+        "options": [
+          "Todos los días",
+          "Los viernes",
+          "Nunca"
+        ],
+        "answer": "Todos los días"
+      },
+      {
+        "q": "¿Qué aficiones tiene Joan?",
+        "options": [
+          "Jardinería y punto",
+          "Bailar y cocinar",
+          "Nadar y leer"
+        ],
+        "answer": "Jardinería y punto"
+      },
+      {
+        "q": "¿Cuándo es la clase de baile?",
+        "options": [
+          "Los viernes",
+          "Los lunes",
+          "Hoy"
+        ],
+        "answer": "Los viernes"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "What do you do in your free time?",
+    "es": "¿Qué haces en tu tiempo libre?",
+    "context": "Para conocer mejor a alguien y hablar de aficiones"
+  },
+  "summary": [
+    "Aficiones con -ing: gardening, swimming, dancing, knitting",
+    "play cards, do yoga, go for a walk, go to the cinema",
+    "I love / I like + -ing: I love dancing",
+    "Acento al principio: GARdening, SWIMming"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u08-l1"
+}

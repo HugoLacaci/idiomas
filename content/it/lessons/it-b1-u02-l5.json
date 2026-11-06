@@ -1,0 +1,83 @@
+{
+  "id": "it-b1-u02-l5",
+  "unit": "it-b1-u02",
+  "title": "Reto: regali dalle Dolomiti",
+  "goal": "a comprar recuerdos en la montaña, decir para quién son y pedir que te los envíen",
+  "emoji": "🏔️",
+  "photoQuery": "alpine christmas market wooden stalls",
+  "vocab": [
+    { "id": "regalo-il-ricordo", "t": "il ricordo", "es": "el recuerdo", "emoji": "🧲", "pos": "n", "ex": { "t": "Compro un piccolo ricordo per ogni nipote.", "es": "Compro un pequeño recuerdo para cada nieto." } },
+    { "id": "regalo-il-mercatino-di-natale", "t": "il mercatino di Natale", "es": "el mercadillo de Navidad", "emoji": "🎄", "pos": "n", "ex": { "t": "Il mercatino di Natale di Bolzano è molto famoso.", "es": "El mercadillo de Navidad de Bolzano es muy famoso." } },
+    { "id": "regalo-lo-speck", "t": "lo speck", "es": "el speck (jamón ahumado)", "emoji": "🥓", "pos": "n", "ex": { "t": "Lo speck? Gliene porto un bel pezzo.", "es": "¿El speck? Le llevo un buen trozo." } },
+    { "id": "regalo-di-legno", "t": "di legno", "es": "de madera", "emoji": "🪵", "pos": "adj", "ex": { "t": "Questi giocattoli di legno sono bellissimi.", "es": "Estos juguetes de madera son preciosos." } },
+    { "id": "regalo-fatto-a-mano", "t": "fatto a mano", "es": "hecho a mano", "emoji": "🧶", "pos": "adj", "note": "En femenino: fatta a mano.", "ex": { "t": "La sciarpa è fatta a mano.", "es": "La bufanda está hecha a mano." } },
+    { "id": "regalo-spedire", "t": "spedire", "es": "enviar (por correo)", "emoji": "📮", "pos": "v", "note": "Va con -isc: spedisco, spedisci.", "ex": { "t": "Glielo spedisco in Spagna la settimana prossima.", "es": "Se lo envío a España la semana que viene." } },
+    { "id": "regalo-la-cartolina", "t": "la cartolina", "es": "la postal", "emoji": "🏞️", "pos": "n", "ex": { "t": "Mando una cartolina alle mie amiche.", "es": "Mando una postal a mis amigas." } },
+    { "id": "regalo-il-tedesco", "t": "il tedesco", "es": "el alemán (idioma)", "emoji": "🇩🇪", "pos": "n", "ex": { "t": "A Bolzano molti parlano italiano e tedesco.", "es": "En Bolzano muchos hablan italiano y alemán." } }
+  ],
+  "grammar": "it-g-pronomi-combinati",
+  "pron": {
+    "title": "Repaso: glie- y sce-",
+    "tip": "Junta los dos sonidos difíciles de la unidad: la gl suave de glielo y el «sh» de scelgo. Dilo despacio y luego rápido.",
+    "words": ["glielo scelgo io", "gliela spedisco", "lo sci", "gliene porto"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "text", "title": "Le Dolomiti", "text": "Le Dolomiti sono montagne del nord-est d'Italia. Dal 2009 sono Patrimonio dell'Umanità dell'UNESCO. Al tramonto le rocce diventano rosa. A Bolzano molte persone parlano italiano e tedesco.", "questions": [
+      { "q": "¿Desde cuándo son Patrimonio de la Humanidad?", "options": ["Desde 2009", "Desde 1999", "Desde 2019"], "answer": "Desde 2009" },
+      { "q": "¿Qué pasa al atardecer?", "options": ["Las rocas se vuelven rosas", "Nieva", "Cierran los refugios"], "answer": "Las rocas se vuelven rosas" },
+      { "q": "¿Qué idiomas se hablan en Bolzano?", "options": ["Italiano y alemán", "Italiano y francés", "Solo italiano"], "answer": "Italiano y alemán" }
+    ] },
+    { "id": "e2", "type": "situation", "context": "En el mercadillo, la vendedora te pregunta: «Glielo incarto?». Quieres que sí te lo envuelva.", "emoji": "🎁", "options": ["Sì, me lo incarti, grazie.", "Sì, mi lo incarti, grazie.", "Sì, lo me incarti, grazie."], "answer": "Sì, me lo incarti, grazie.", "why": "Mi + lo → me lo, delante del imperativo de usted (incarti).", "g": "it-g-pronomi-combinati" },
+    { "id": "e3", "type": "situation", "context": "Has comprado un belén de madera y pesa mucho. Quieres que te lo envíen a España.", "emoji": "📮", "options": ["Me lo può spedire in Spagna?", "Mi lo può spedire in Spagna?", "Può spedirmi lo in Spagna?"], "answer": "Me lo può spedire in Spagna?", "why": "Me lo delante de può, o todo pegado: può spedirmelo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e4", "type": "choose", "q": "Questa cartolina è per le mie amiche: ___ spedisco oggi.", "es": "Esta postal es para mis amigas: se la envío hoy.", "options": ["gliela", "le la", "gliele"], "answer": "gliela", "why": "A ellas (glie-) + la cartolina (la) → gliela.", "g": "it-g-pronomi-combinati" },
+    { "id": "e5", "type": "choose", "q": "Lo speck? A mio marito ___ porto un bel pezzo.", "es": "¿El speck? A mi marido le llevo un buen trozo.", "options": ["gliene", "glielo", "ne gli"], "answer": "gliene", "why": "Con una cantidad (un pezzo) se usa ne: gli + ne → gliene.", "g": "it-g-pronomi-combinati" },
+    { "id": "e6", "type": "fill", "q": "I giocattoli di legno? Ai nipoti ___ porto io.", "es": "¿Los juguetes de madera? A los nietos se los llevo yo.", "answer": ["glieli"], "bank": ["glieli", "gliele", "glielo"], "why": "Giocattoli es masculino plural: glieli.", "g": "it-g-pronomi-combinati" },
+    { "id": "e7", "type": "fill", "q": "La sciarpa fatta a mano? Te ___ regalo!", "es": "¿La bufanda hecha a mano? ¡Te la regalo!", "answer": ["la"], "why": "La sciarpa → la; ti + la → te la.", "g": "it-g-pronomi-combinati" },
+    { "id": "e8", "type": "conjugate", "verb": "spedire", "person": "io", "tense": "presente", "q": "Domani ___ il pacco ai miei nipoti.", "answer": ["spedisco"], "table": [["io", "spedisco"], ["tu", "spedisci"], ["lui/lei", "spedisce"], ["noi", "spediamo"]], "why": "Spedire va con -isc: io spedisco." },
+    { "id": "e9", "type": "error", "q": "Le cartoline? Gliele ho spedito ieri.", "wrong": "spedito", "fix": "spedite", "why": "Con le delante, el participio concuerda: le cartoline → spedite.", "g": "it-g-pronomi-combinati" },
+    { "id": "e10", "type": "error", "q": "Il presepe? Mi lo hanno fatto a mano.", "wrong": "Mi", "fix": "Me", "why": "Delante de lo, mi cambia a me: me l'hanno fatto.", "g": "it-g-pronomi-combinati" },
+    { "id": "e11", "type": "order", "es": "¿Me lo puede enviar a España?", "answer": "Me lo può spedire in Spagna", "alt": ["Può spedirmelo in Spagna"], "extra": ["a"], "why": "Para países se usa in: in Spagna. Me lo va delante de può.", "g": "it-g-pronomi-combinati" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Es un regalo: ¿me lo envuelve, por favor?", "answer": ["È un regalo: me lo incarta, per favore?", "È un regalo, me lo incarta, per favore?", "È un regalo: me lo può incartare, per favore?", "È un regalo: può incartarmelo, per favore?"], "why": "Con usted: me lo incarta? o me lo può incartare?", "g": "it-g-pronomi-combinati" },
+    { "id": "e13", "type": "translate", "dir": "from", "q": "A Bolzano molti parlano tedesco.", "answer": ["En Bolzano muchos hablan alemán.", "En Bolzano mucha gente habla alemán."], "why": "Il tedesco = el alemán." },
+    { "id": "e14", "type": "transform", "instr": "Contesta usando pronombres combinados", "q": "Hai mandato le foto a Hugo? Sì, …", "answer": ["Sì, gliele ho mandate.", "Gliele ho mandate."], "why": "A Hugo + le foto → gliele; el participio concuerda: mandate.", "g": "it-g-pronomi-combinati" },
+    { "id": "e15", "type": "match", "pairs": [["glielo", "se lo"], ["me la", "me la"], ["ce li", "nos los"], ["ve le", "os las"], ["te lo", "te lo"]], "why": "Repaso de pronombres combinados.", "g": "it-g-pronomi-combinati" },
+    { "id": "e16", "type": "speak", "t": "Gliel'ho comprato sulle Dolomiti.", "es": "Se lo compré en las Dolomitas." }
+  ],
+  "dialog": {
+    "title": "En el mercadillo de Bolzano",
+    "setting": "En un puesto del mercadillo de Navidad de Bolzano",
+    "emoji": "🎄",
+    "lines": [
+      { "who": "Venditrice", "t": "Grüß Gott! Buongiorno! Cerca qualcosa?", "es": "¡Grüß Gott! ¡Buenos días! ¿Busca algo?" },
+      { "who": "Yolanda", "t": "Buongiorno! Che belli questi angioletti di legno!", "es": "¡Buenos días! ¡Qué bonitos estos angelitos de madera!" },
+      { "who": "Venditrice", "t": "Sono fatti a mano qui in Alto Adige.", "es": "Están hechos a mano aquí, en el Alto Adigio." },
+      { "who": "Yolanda", "t": "Ne prendo tre, per i miei nipoti.", "es": "Me llevo tres, para mis nietos." },
+      { "who": "Venditrice", "t": "Glieli incarto separati?", "es": "¿Se los envuelvo por separado?" },
+      { "who": "Yolanda", "t": "Sì, grazie. Me li può anche spedire in Spagna?", "es": "Sí, gracias. ¿Me los puede enviar también a España?" },
+      { "who": "Venditrice", "t": "Mi dispiace, non spediamo. Ma l'ufficio postale è qui vicino.", "es": "Lo siento, no hacemos envíos. Pero correos está aquí al lado." },
+      { "who": "Yolanda", "t": "Va bene, allora li spedisco io domani.", "es": "Vale, entonces los envío yo mañana." }
+    ],
+    "questions": [
+      { "q": "¿Qué compra Yolanda?", "options": ["Tres angelitos de madera", "Una bufanda", "Speck"], "answer": "Tres angelitos de madera" },
+      { "q": "¿Cómo se los envuelven?", "options": ["Por separado", "Todos juntos", "No se los envuelven"], "answer": "Por separado" },
+      { "q": "¿Quién los envía a España?", "options": ["Yolanda, desde correos", "La vendedora", "Nadie"], "answer": "Yolanda, desde correos" }
+    ]
+  },
+  "realLife": { "t": "Me lo può spedire in Spagna?", "es": "¿Me lo puede enviar a España?", "context": "En una tienda, para que te envíen la compra a casa" },
+  "same": {
+    "text": "Muchas palabras de la montaña son casi iguales en los dos idiomas. ¡Te van a sonar enseguida!",
+    "examples": [
+      { "t": "la montagna", "es": "la montaña" },
+      { "t": "il rifugio", "es": "el refugio" },
+      { "t": "la pista", "es": "la pista" },
+      { "t": "il ricordo", "es": "el recuerdo" }
+    ]
+  },
+  "summary": [
+    "Para comprar recuerdos: Me lo può incartare? Me lo può spedire in Spagna?",
+    "Glielo, gliela, glieli, gliele, gliene: para él, ella, usted y ellos.",
+    "En pasado, el participio concuerda: gliele ho spedite.",
+    "Dolomitas: Patrimonio de la Humanidad desde 2009; en Bolzano se habla también alemán."
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,85 @@
+{
+  "id": "it-a2-u03-l2",
+  "unit": "it-a2-u03",
+  "title": "Il pomeriggio mi riposo",
+  "goal": "a conjugar los verbos reflexivos en presente: mi, ti, si, ci, vi, si",
+  "emoji": "🛋️",
+  "photoQuery": "cozy sofa afternoon nap",
+  "vocab": [
+    { "id": "rifl-addormentarsi", "t": "addormentarsi", "es": "dormirse", "emoji": "💤", "pos": "v", "ex": { "t": "La sera mi addormento sul divano.", "es": "Por la noche me duermo en el sofá." } },
+    { "id": "rifl-riposarsi", "t": "riposarsi", "es": "descansar", "emoji": "🛋️", "pos": "v", "ex": { "t": "Il pomeriggio mi riposo un'ora.", "es": "Por la tarde descanso una hora." }, "note": "En español «descansar» no lleva «me»; en italiano sí: mi riposo." },
+    { "id": "rifl-prepararsi", "t": "prepararsi", "es": "prepararse, arreglarse", "emoji": "🪞", "pos": "v", "ex": { "t": "Ci prepariamo per la cena.", "es": "Nos arreglamos para la cena." } },
+    { "id": "rifl-sbrigarsi", "t": "sbrigarsi", "es": "darse prisa", "emoji": "🏃‍♀️", "pos": "v", "ex": { "t": "Mi sbrigo, il treno parte alle otto!", "es": "¡Me doy prisa, el tren sale a las ocho!" } },
+    { "id": "rifl-annoiarsi", "t": "annoiarsi", "es": "aburrirse", "emoji": "🥱", "pos": "v", "ex": { "t": "Mio marito si annoia nei negozi.", "es": "Mi marido se aburre en las tiendas." } },
+    { "id": "rifl-divertirsi", "t": "divertirsi", "es": "divertirse, pasarlo bien", "emoji": "😄", "pos": "v", "ex": { "t": "Con le amiche mi diverto sempre.", "es": "Con mis amigas siempre me lo paso bien." } },
+    { "id": "rifl-sentirsi", "t": "sentirsi", "es": "sentirse, encontrarse", "emoji": "🙂", "pos": "v", "ex": { "t": "Oggi mi sento benissimo.", "es": "Hoy me encuentro estupendamente." } },
+    { "id": "rifl-arrabbiarsi", "t": "arrabbiarsi", "es": "enfadarse", "emoji": "😠", "pos": "v", "ex": { "t": "Non ti arrabbiare, è solo un gioco!", "es": "¡No te enfades, es solo un juego!" } }
+  ],
+  "grammar": "it-g-riflessivi",
+  "pron": {
+    "title": "La z de alzarsi",
+    "tip": "La z italiana no es nuestra «z»: suena «ts», como en «pizza». Al-tsar-si, mi al-tso.",
+    "words": ["alzarsi", "mi alzo", "pranzo", "grazie"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "La sera mio marito ___ addormenta davanti alla tele.", "es": "Por la noche mi marido se duerme delante de la tele.", "options": ["si", "mi", "ci"], "answer": "si", "why": "Lui → si.", "g": "it-g-riflessivi" },
+    { "id": "e2", "type": "choose", "q": "Noi ___ divertiamo molto alle feste.", "es": "Nos divertimos mucho en las fiestas.", "options": ["ci", "vi", "si"], "answer": "ci", "why": "Noi → ci.", "g": "it-g-riflessivi" },
+    { "id": "e3", "type": "choose", "q": "Come ti ___ oggi?", "es": "¿Cómo te encuentras hoy?", "options": ["senti", "sento", "sente"], "answer": "senti", "why": "Tu → ti senti.", "g": "it-g-riflessivi" },
+    { "id": "e4", "type": "fill", "q": "Il pomeriggio io ___ riposo un'ora.", "es": "Por la tarde descanso una hora.", "answer": ["mi"], "bank": ["mi", "si", "vi"], "why": "Io → mi riposo.", "g": "it-g-riflessivi" },
+    { "id": "e5", "type": "fill", "q": "Voi ___ annoiate al museo?", "es": "¿Os aburrís en el museo?", "answer": ["vi"], "bank": ["vi", "ci", "si"], "why": "Voi → vi annoiate.", "g": "it-g-riflessivi" },
+    { "id": "e6", "type": "fill", "q": "Le mie amiche si ___ per la festa.", "es": "Mis amigas se arreglan para la fiesta.", "answer": ["preparano", "truccano", "vestono"], "hint": "prepararsi", "why": "Loro → si preparano.", "g": "it-g-riflessivi" },
+    { "id": "e7", "type": "conjugate", "verb": "sbrigarsi", "person": "noi", "tense": "presente", "q": "___ o perdiamo il treno!", "answer": ["Ci sbrighiamo", "ci sbrighiamo"], "table": [["io", "mi sbrigo"], ["tu", "ti sbrighi"], ["noi", "ci sbrighiamo"]], "why": "Noi → ci sbrighiamo (con h para mantener el sonido de la g).", "g": "it-g-riflessivi" },
+    { "id": "e8", "type": "conjugate", "verb": "arrabbiarsi", "person": "lui", "tense": "presente", "q": "Mio marito non ___ mai.", "answer": ["si arrabbia"], "why": "Lui → si arrabbia.", "g": "it-g-riflessivi" },
+    { "id": "e9", "type": "error", "q": "Io e le mie amiche si divertiamo molto.", "wrong": "si", "fix": "ci", "why": "Noi → ci divertiamo.", "g": "it-g-riflessivi" },
+    { "id": "e10", "type": "error", "q": "Tu ti annoia in campagna?", "wrong": "annoia", "fix": "annoi", "why": "Tu → ti annoi.", "g": "it-g-riflessivi" },
+    { "id": "e11", "type": "transform", "instr": "Cambia el sujeto a «loro»", "q": "Mi riposo dopo pranzo.", "answer": ["Si riposano dopo pranzo.", "Loro si riposano dopo pranzo."], "why": "Loro → si riposano.", "g": "it-g-riflessivi" },
+    { "id": "e12", "type": "order", "es": "Los domingos nunca me aburro.", "answer": "La domenica non mi annoio mai", "alt": ["Non mi annoio mai la domenica"], "extra": ["si"], "why": "Non + mi + verbo + mai.", "g": "it-g-riflessivi" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "Hoy me encuentro muy bien.", "answer": ["Oggi mi sento molto bene.", "Oggi mi sento benissimo.", "Mi sento molto bene oggi."], "why": "Encontrarse = sentirsi: mi sento.", "g": "it-g-riflessivi" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "Mio marito si annoia nei negozi.", "answer": ["Mi marido se aburre en las tiendas."], "why": "Annoiarsi = aburrirse, no enojarse.", "g": "it-g-riflessivi" },
+    { "id": "e15", "type": "situation", "context": "Tu amiga está nerviosa porque llegáis tarde. Quieres decirle «¡No te enfades!».", "emoji": "😠", "options": ["Non ti arrabbiare!", "Non mi arrabbiare!", "Non ti annoiare!"], "answer": "Non ti arrabbiare!", "why": "Enfadarse = arrabbiarsi; annoiarsi es aburrirse.", "g": "it-g-riflessivi" },
+    { "id": "e16", "type": "match", "pairs": [["mi riposo", "descanso"], ["mi annoio", "me aburro"], ["mi arrabbio", "me enfado"], ["mi diverto", "me divierto"], ["mi sbrigo", "me doy prisa"]], "why": "Fíjate: annoiarsi es aburrirse.", "g": "it-g-riflessivi" }
+  ],
+  "dialog": {
+    "title": "Tardes tranquilas",
+    "setting": "Por teléfono, Yolanda charla con Paola, una amiga de Roma",
+    "emoji": "📞",
+    "lines": [
+      { "who": "Paola", "t": "Ciao Yolanda! Come ti senti oggi?", "es": "¡Hola, Yolanda! ¿Cómo te encuentras hoy?" },
+      { "who": "Yolanda", "t": "Bene, ma la sera mi addormento sul divano!", "es": "Bien, ¡pero por la noche me duermo en el sofá!" },
+      { "who": "Paola", "t": "Anche mio marito si addormenta davanti alla tele.", "es": "Mi marido también se duerme delante de la tele." },
+      { "who": "Yolanda", "t": "Il pomeriggio mi riposo un'ora. E voi?", "es": "Por la tarde descanso una hora. ¿Y vosotros?" },
+      { "who": "Paola", "t": "Noi ci rilassiamo in giardino. Ti annoi in città?", "es": "Nosotros nos relajamos en el jardín. ¿Te aburres en la ciudad?" },
+      { "who": "Yolanda", "t": "No, mai! Con le amiche mi diverto molto.", "es": "¡No, nunca! Con mis amigas me lo paso muy bien." },
+      { "who": "Paola", "t": "Brava! Sabato vi preparate per la festa di Carla?", "es": "¡Muy bien! ¿El sábado os arregláis para la fiesta de Carla?" },
+      { "who": "Yolanda", "t": "Sì! Ci prepariamo insieme a casa mia.", "es": "¡Sí! Nos arreglamos juntas en mi casa." }
+    ],
+    "questions": [
+      { "q": "¿Dónde se duerme Yolanda por la noche?", "options": ["En el sofá", "En el jardín", "En el tren"], "answer": "En el sofá" },
+      { "q": "¿Dónde se relaja la familia de Paola?", "options": ["En el jardín", "En la playa", "En el centro"], "answer": "En el jardín" },
+      { "q": "¿Dónde se arreglarán el sábado?", "options": ["En casa de Yolanda", "En casa de Carla", "En la peluquería"], "answer": "En casa de Yolanda" }
+    ]
+  },
+  "realLife": { "t": "Scusa, mi sbrigo e arrivo!", "es": "¡Perdona, me doy prisa y llego!", "context": "Cuando alguien te espera y vas un poco tarde" },
+  "same": {
+    "text": "Muchos reflexivos son iguales que en español.",
+    "examples": [
+      { "t": "divertirsi", "es": "divertirse" },
+      { "t": "prepararsi", "es": "prepararse" },
+      { "t": "sentirsi", "es": "sentirse" }
+    ]
+  },
+  "falseFriend": {
+    "word": "annoiarsi",
+    "means": "aburrirse",
+    "looksLike": "enojarse (en italiano, arrabbiarsi)",
+    "emoji": "🥱",
+    "tip": "Mi annoio = me aburro. Si te enfadas, di mi arrabbio."
+  },
+  "summary": [
+    "Presente: mi riposo, ti senti, si annoia, ci divertiamo, vi preparate, si arrabbiano.",
+    "Non va delante del pronombre: non mi annoio.",
+    "Riposarsi (descansar) es reflexivo en italiano.",
+    "Annoiarsi = aburrirse; arrabbiarsi = enfadarse."
+  ],
+  "reviewed": false
+}

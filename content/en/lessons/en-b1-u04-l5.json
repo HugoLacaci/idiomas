@@ -1,0 +1,101 @@
+{
+  "id": "en-b1-u04-l5",
+  "unit": "en-b1-u04",
+  "title": "Reto en Melbourne: cuatro estaciones en un día",
+  "goal": "a organizar un día de viaje con un tiempo que cambia, usando if, unless y when",
+  "emoji": "🚋",
+  "photoQuery": "melbourne tram city street",
+  "vocab": [
+    { "id": "cond-tram", "t": "a tram", "es": "un tranvía", "emoji": "🚋", "pos": "n",
+      "ex": { "t": "If we take the tram, we'll get there faster.", "es": "Si cogemos el tranvía, llegaremos antes." },
+      "note": "En EE. UU.: streetcar." },
+    { "id": "cond-four-seasons", "t": "four seasons in one day", "es": "cuatro estaciones en un día", "emoji": "🌦️", "pos": "phrase",
+      "ex": { "t": "Melbourne can have four seasons in one day.", "es": "En Melbourne puede haber cuatro estaciones en un día." } },
+    { "id": "cond-wear-layers", "t": "to wear layers", "es": "vestirse por capas", "emoji": "🧥", "pos": "phrase",
+      "ex": { "t": "If you wear layers, you'll be fine all day.", "es": "Si vas por capas, estarás bien todo el día." } },
+    { "id": "cond-raincoat", "t": "a raincoat", "es": "un chubasquero, un impermeable", "emoji": "🌂", "pos": "n",
+      "ex": { "t": "Pack a raincoat, just in case.", "es": "Mete un chubasquero, por si acaso." } },
+    { "id": "cond-sunglasses", "t": "sunglasses", "es": "las gafas de sol", "emoji": "🕶️", "pos": "n",
+      "ex": { "t": "If the sun comes out, you'll need sunglasses.", "es": "Si sale el sol, necesitarás gafas de sol." } },
+    { "id": "cond-free-tram-zone", "t": "the free tram zone", "es": "la zona de tranvía gratis", "emoji": "🎟️", "pos": "n",
+      "ex": { "t": "In the city centre, the tram is free.", "es": "En el centro, el tranvía es gratis." } },
+    { "id": "cond-weather-app", "t": "the weather app", "es": "la aplicación del tiempo", "emoji": "📱", "pos": "n",
+      "ex": { "t": "I'll check the weather app before we leave.", "es": "Miraré la aplicación del tiempo antes de salir." } },
+    { "id": "cond-change-your-mind", "t": "to change your mind", "es": "cambiar de idea", "emoji": "🔄", "pos": "phrase",
+      "ex": { "t": "If you change your mind, call me.", "es": "Si cambias de idea, llámame." } }
+  ],
+  "grammar": "en-g-zero-first-conditional",
+  "pron": {
+    "title": "Melbourne no suena como se escribe",
+    "tip": "Los australianos dicen «MÉL-ben»: la fuerza al principio y la segunda parte muy corta. Y tram suena con a abierta: «tram».",
+    "words": ["Melbourne", "tram", "raincoat", "layers", "sunglasses"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "If you ___ layers, you'll be comfortable all day.", "options": ["wear", "will wear", "wore"], "answer": "wear",
+      "why": "Parte del if en presente: if you wear.", "g": "en-g-zero-first-conditional" },
+    { "id": "e2", "type": "choose", "q": "If the sun comes out, we ___ a walk by the river.", "options": ["will take", "take to", "took"], "answer": "will take",
+      "why": "Consecuencia futura: we'll take.", "g": "en-g-zero-first-conditional" },
+    { "id": "e3", "type": "choose", "q": "We'll take the tram ___ it's sunny. Then we'll walk.", "options": ["unless", "if", "when"], "answer": "unless",
+      "why": "Unless = a menos que: cogeremos el tranvía salvo que haga sol.", "g": "en-g-zero-first-conditional" },
+    { "id": "e4", "type": "choose", "q": "In Melbourne, if you don't like the weather, wait ten minutes. It ___!", "options": ["changes", "will changing", "changed"], "answer": "changes",
+      "why": "Algo que pasa siempre allí: presente.", "g": "en-g-zero-first-conditional" },
+    { "id": "e5", "type": "fill", "q": "If it ___ cold this afternoon, I'll put on my jumper.", "es": "Si hace frío esta tarde, me pondré el jersey.", "answer": ["gets", "is", "'s"], "bank": ["gets", "will get", "get"],
+      "why": "If + presente: if it gets cold.", "g": "en-g-zero-first-conditional" },
+    { "id": "e6", "type": "fill", "q": "You won't pay for the tram ___ you stay in the city centre.", "es": "No pagarás el tranvía si te quedas en el centro.", "answer": ["if"], "bank": ["if", "unless", "so"],
+      "why": "Condición normal: if.", "g": "en-g-zero-first-conditional" },
+    { "id": "e7", "type": "fill", "q": "I'll send you a photo when we ___ to the gardens.", "es": "Te mandaré una foto cuando lleguemos a los jardines.", "answer": ["get"], "hint": "llegar",
+      "why": "Después de when, presente: when we get.", "g": "en-g-zero-first-conditional" },
+    { "id": "e8", "type": "reading", "kind": "message", "title": "Mensaje de Emma",
+      "text": "Hi Yolanda! Welcome to Melbourne! Pack a raincoat AND sunglasses: the weather changes all the time. If you stay in the city centre, the trams are free. If it rains, visit the museum. If it's sunny, walk to the botanic gardens. Enjoy!",
+      "questions": [
+        { "q": "¿Qué le aconseja meter en la maleta?", "options": ["Chubasquero y gafas de sol", "Solo paraguas", "Un abrigo"], "answer": "Chubasquero y gafas de sol" },
+        { "q": "¿Cuándo es gratis el tranvía?", "options": ["Si se queda en el centro", "Los domingos", "Siempre"], "answer": "Si se queda en el centro" },
+        { "q": "¿Qué hacer si llueve?", "options": ["Visitar el museo", "Ir a los jardines", "Quedarse en el hotel"], "answer": "Visitar el museo" }
+      ],
+      "why": "If + presente, y un imperativo como consecuencia: If it rains, visit the museum.", "g": "en-g-zero-first-conditional" },
+    { "id": "e9", "type": "transform", "instr": "Escribe un consejo con if + imperativo", "q": "It rains. → Visit the museum.", "answer": ["If it rains, visit the museum.", "Visit the museum if it rains."],
+      "why": "Para aconsejar: if + presente, imperativo.", "g": "en-g-zero-first-conditional" },
+    { "id": "e10", "type": "transform", "instr": "Escríbela con unless", "q": "We'll walk if it doesn't rain.", "answer": ["We'll walk unless it rains.", "We will walk unless it rains."],
+      "why": "if it doesn't rain = unless it rains.", "g": "en-g-zero-first-conditional" },
+    { "id": "e11", "type": "error", "q": "If we'll miss the tram, I'll call a taxi.", "wrong": "we'll", "fix": "we",
+      "why": "Después de if no va will: if we miss the tram. El will va en la otra parte: I'll call.", "g": "en-g-zero-first-conditional" },
+    { "id": "e12", "type": "order", "es": "Si cambias de idea llámame", "answer": "If you change your mind call me", "extra": ["will"],
+      "why": "If + presente, imperativo.", "g": "en-g-zero-first-conditional" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "Si sale el sol, iremos a los jardines.", "answer": ["If the sun comes out, we'll go to the gardens.", "If the sun comes out, we will go to the gardens.", "If it's sunny, we'll go to the gardens.", "If it is sunny, we will go to the gardens."],
+      "why": "If + presente (comes out), will + go.", "g": "en-g-zero-first-conditional" },
+    { "id": "e14", "type": "situation", "context": "En Melbourne, tu amiga quiere ir andando, pero está nublado. Propones coger el tranvía si empieza a llover.", "emoji": "🚋",
+      "options": ["If it starts to rain, we'll take the tram.", "If it will start to rain, we take the tram.", "If it starts to rain, we took the tram."], "answer": "If it starts to rain, we'll take the tram.",
+      "why": "If + presente, will + verbo.", "g": "en-g-zero-first-conditional" },
+    { "id": "e15", "type": "conjugate", "verb": "to need", "person": "you", "tense": "will", "q": "If the sun comes out, you ___ sunglasses.", "answer": ["will need", "'ll need"],
+      "why": "Consecuencia futura: will need.", "g": "en-g-zero-first-conditional" },
+    { "id": "e16", "type": "speak", "t": "If it rains, we'll take the tram. If it's sunny, we'll walk.", "es": "Si llueve, cogeremos el tranvía. Si hace sol, iremos andando.", "g": "en-g-zero-first-conditional" }
+  ],
+  "dialog": {
+    "title": "Un día loco en Melbourne",
+    "setting": "En un café de Melbourne, Yolanda planea el día con Jack, el camarero",
+    "emoji": "☕",
+    "lines": [
+      { "who": "Jack", "t": "Here's your flat white. Are you visiting Melbourne?", "es": "Aquí tienes tu café con leche. ¿Estás visitando Melbourne?" },
+      { "who": "Yolanda", "t": "Yes! I want to see the botanic gardens today.", "es": "¡Sí! Hoy quiero ver el jardín botánico." },
+      { "who": "Jack", "t": "Good idea, but take a raincoat. It might rain later.", "es": "Buena idea, pero coge un chubasquero. Puede que llueva luego." },
+      { "who": "Yolanda", "t": "But it's sunny now!", "es": "¡Pero ahora hace sol!" },
+      { "who": "Jack", "t": "This is Melbourne: four seasons in one day!", "es": "Esto es Melbourne: ¡cuatro estaciones en un día!" },
+      { "who": "Yolanda", "t": "OK. If it rains, I'll go to a museum instead.", "es": "Vale. Si llueve, iré a un museo en su lugar." },
+      { "who": "Jack", "t": "And take the tram. If you stay in the centre, it's free.", "es": "Y coge el tranvía. Si te quedas en el centro, es gratis." },
+      { "who": "Yolanda", "t": "Free trams? I love this city already!", "es": "¿Tranvías gratis? ¡Ya me encanta esta ciudad!" }
+    ],
+    "questions": [
+      { "q": "¿Qué quiere ver Yolanda?", "options": ["El jardín botánico", "El museo", "La playa"], "answer": "El jardín botánico" },
+      { "q": "¿Qué hará si llueve?", "options": ["Ir a un museo", "Volver al hotel", "Coger un taxi"], "answer": "Ir a un museo" },
+      { "q": "¿Cuándo es gratis el tranvía?", "options": ["En el centro", "Por la noche", "Los fines de semana"], "answer": "En el centro" }
+    ]
+  },
+  "realLife": { "t": "If it rains, what do you recommend?", "es": "Si llueve, ¿qué me recomiendas?", "context": "Para pedir ideas en la recepción del hotel o en un café" },
+  "summary": [
+    "If + presente, will: If it rains, I'll go to a museum",
+    "If + presente, imperativo: If it rains, visit the museum",
+    "unless = if not; when / as soon as + presente",
+    "Melbourne: cuatro estaciones en un día y tranvías gratis en el centro"
+  ],
+  "reviewed": false
+}

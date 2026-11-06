@@ -1,0 +1,408 @@
+{
+  "id": "en-a1-u07-l2",
+  "unit": "en-a1-u07",
+  "title": "Ella trabaja, él vive",
+  "goal": "a poner la -s al verbo cuando hablas de él o de ella",
+  "emoji": "🐍",
+  "photoQuery": "woman reading newspaper cafe",
+  "vocab": [
+    {
+      "id": "she-lives",
+      "t": "she lives",
+      "es": "ella vive",
+      "emoji": "🏡",
+      "pos": "v",
+      "ex": {
+        "t": "My sister lives in Bilbao.",
+        "es": "Mi hermana vive en Bilbao."
+      }
+    },
+    {
+      "id": "he-watches",
+      "t": "he watches",
+      "es": "él ve, él mira",
+      "emoji": "📺",
+      "pos": "v",
+      "ex": {
+        "t": "He watches the news at nine.",
+        "es": "Ve las noticias a las nueve."
+      },
+      "note": "watch + es: suena «uóchis»."
+    },
+    {
+      "id": "she-goes",
+      "t": "she goes",
+      "es": "ella va",
+      "emoji": "🚶‍♀️",
+      "pos": "v",
+      "ex": {
+        "t": "She goes to work by train.",
+        "es": "Va a trabajar en tren."
+      }
+    },
+    {
+      "id": "he-has",
+      "t": "he has",
+      "es": "él tiene",
+      "emoji": "🤲",
+      "pos": "v",
+      "ex": {
+        "t": "My grandson has a new tablet.",
+        "es": "Mi nieto tiene una tableta nueva."
+      },
+      "note": "have → has (nunca «haves»)."
+    },
+    {
+      "id": "she-studies",
+      "t": "she studies",
+      "es": "ella estudia",
+      "emoji": "📚",
+      "pos": "v",
+      "ex": {
+        "t": "My niece studies nursing.",
+        "es": "Mi sobrina estudia enfermería."
+      }
+    },
+    {
+      "id": "he-finishes",
+      "t": "he finishes",
+      "es": "él termina",
+      "emoji": "🏁",
+      "pos": "v",
+      "ex": {
+        "t": "He finishes work at six.",
+        "es": "Termina de trabajar a las seis."
+      }
+    },
+    {
+      "id": "she-does-the-shopping",
+      "t": "she does the shopping",
+      "es": "ella hace la compra",
+      "emoji": "🛒",
+      "pos": "phrase",
+      "ex": {
+        "t": "My friend does the shopping on Mondays.",
+        "es": "Mi amiga hace la compra los lunes."
+      }
+    },
+    {
+      "id": "he-plays",
+      "t": "he plays",
+      "es": "él juega, él toca",
+      "emoji": "⚽",
+      "pos": "v",
+      "ex": {
+        "t": "My grandson plays football.",
+        "es": "Mi nieto juega al fútbol."
+      }
+    }
+  ],
+  "grammar": "en-g-present-simple-3rd",
+  "pron": {
+    "title": "has, does, goes",
+    "tip": "Fíjate en tres verbos muy usados: has suena «jas» (h suave), does suena «das» y goes suena «gous». ¡No digas «dos» ni «goes» como en español!",
+    "words": [
+      "has",
+      "does",
+      "goes",
+      "studies",
+      "plays"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "My sister ___ in Bilbao.",
+      "options": [
+        "live",
+        "lives"
+      ],
+      "answer": "lives",
+      "why": "My sister = she: lives, con -s.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "My grandson ___ a new tablet.",
+      "options": [
+        "has",
+        "have",
+        "haves"
+      ],
+      "answer": "has",
+      "why": "Con he/she/it, have se convierte en has.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "They ___ in a big house.",
+      "options": [
+        "live",
+        "lives"
+      ],
+      "answer": "live",
+      "why": "Con they el verbo va sin -s.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "She ___ to the gym after work.",
+      "es": "Va al gimnasio después del trabajo.",
+      "answer": [
+        "goes"
+      ],
+      "bank": [
+        "goes",
+        "gos",
+        "go"
+      ],
+      "why": "Go + es = goes.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "He ___ the news every night.",
+      "es": "Ve las noticias todas las noches.",
+      "answer": [
+        "watches"
+      ],
+      "bank": [
+        "watches",
+        "watchs",
+        "watch"
+      ],
+      "why": "Después de -ch añadimos -es: watches.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "My niece ___ nursing in Madrid.",
+      "es": "Mi sobrina estudia enfermería en Madrid.",
+      "answer": [
+        "studies"
+      ],
+      "why": "Study: la y cambia a -ies.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e7",
+      "type": "conjugate",
+      "verb": "to finish",
+      "person": "he",
+      "tense": "presente simple",
+      "q": "He ___ work at six.",
+      "answer": [
+        "finishes"
+      ],
+      "table": [
+        [
+          "-s",
+          "works, lives"
+        ],
+        [
+          "-es",
+          "watches, finishes, goes"
+        ],
+        [
+          "-ies",
+          "studies"
+        ],
+        [
+          "irregular",
+          "has"
+        ]
+      ],
+      "why": "Finish termina en -sh: finishes.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e8",
+      "type": "conjugate",
+      "verb": "to play",
+      "person": "she",
+      "tense": "presente simple",
+      "q": "She ___ the piano.",
+      "answer": [
+        "plays"
+      ],
+      "why": "Vocal + y: solo -s, plays.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "My friend haves a small dog.",
+      "wrong": "haves",
+      "fix": "has",
+      "why": "Have es irregular: has.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "He watchs football on Sundays.",
+      "wrong": "watchs",
+      "fix": "watches",
+      "why": "Watch termina en -ch: watches.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Empieza con «My friend»",
+      "q": "I do the shopping on Mondays.",
+      "answer": [
+        "My friend does the shopping on Mondays."
+      ],
+      "why": "Do → does con he/she.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "Mi nieto juega al fútbol",
+      "answer": "My grandson plays football",
+      "extra": [
+        "play"
+      ],
+      "why": "My grandson = he: plays.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "live",
+          "lives"
+        ],
+        [
+          "finish",
+          "finishes"
+        ],
+        [
+          "study",
+          "studies"
+        ],
+        [
+          "do",
+          "does"
+        ],
+        [
+          "have",
+          "has"
+        ]
+      ],
+      "why": "-s, -es, -ies o irregular.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "Ella termina de trabajar a las cinco.",
+      "answer": [
+        "She finishes work at five.",
+        "She finishes work at 5.",
+        "She finishes work at five o'clock."
+      ],
+      "why": "Termina = finishes (-sh + es).",
+      "g": "en-g-present-simple-3rd"
+    }
+  ],
+  "dialog": {
+    "title": "La vecina nueva",
+    "setting": "En el rellano, Yolanda y Carmen, del tercero, hablan de la vecina nueva",
+    "emoji": "🚪",
+    "lines": [
+      {
+        "who": "Carmen",
+        "t": "Do you know the new neighbour?",
+        "es": "¿Conoces a la vecina nueva?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes! Her name is Claire. She's English.",
+        "es": "¡Sí! Se llama Claire. Es inglesa."
+      },
+      {
+        "who": "Carmen",
+        "t": "Does she work?",
+        "es": "¿Trabaja?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, she teaches English at a school.",
+        "es": "Sí, enseña inglés en un colegio."
+      },
+      {
+        "who": "Carmen",
+        "t": "And her husband?",
+        "es": "¿Y su marido?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "He's a cook. He finishes very late.",
+        "es": "Es cocinero. Termina muy tarde."
+      },
+      {
+        "who": "Carmen",
+        "t": "They have a dog, too.",
+        "es": "También tienen un perro."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, and the dog watches TV with them!",
+        "es": "¡Sí, y el perro ve la tele con ellos!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿De dónde es la vecina?",
+        "options": [
+          "De Inglaterra",
+          "De Italia",
+          "De España"
+        ],
+        "answer": "De Inglaterra"
+      },
+      {
+        "q": "¿En qué trabaja ella?",
+        "options": [
+          "Profesora de inglés",
+          "Cocinera",
+          "Médica"
+        ],
+        "answer": "Profesora de inglés"
+      },
+      {
+        "q": "¿Quién termina muy tarde?",
+        "options": [
+          "El marido",
+          "Claire",
+          "El perro"
+        ],
+        "answer": "El marido"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "She lives next door.",
+    "es": "Vive en la puerta de al lado.",
+    "context": "Para hablar de una vecina"
+  },
+  "summary": [
+    "He / she / it: verbo + s → she works, he lives",
+    "-ch, -sh, -o + es → watches, finishes, goes",
+    "Consonante + y → ies: studies (pero plays)",
+    "have → has; do → does"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u07-l2"
+}

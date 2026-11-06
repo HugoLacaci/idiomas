@@ -1,0 +1,61 @@
+{
+  "id": "en-b1-u05-c2",
+  "unit": "en-b1-u05",
+  "title": "Yo que tú…",
+  "setting": "Emma tiene un pequeño dilema y te pide consejo por mensaje.",
+  "emoji": "🫶",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, can I ask you for some advice?", "es": "Yolanda, ¿te puedo pedir un consejo?" },
+      "options": [
+        { "t": "Of course! What's the matter?", "es": "¡Claro! ¿Qué te pasa?", "next": "n2", "ok": true },
+        { "t": "Of course! Give me an advice.", "es": "¡Claro! Pídeme un consejo.", "next": "n2", "ok": false, "feedback": "Advice es incontable: nunca «an advice». Y además, la que pide consejo es Emma." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "My boss has offered me a job in Edinburgh. But I love London!", "es": "Mi jefa me ha ofrecido un trabajo en Edimburgo. ¡Pero me encanta Londres!" },
+      "options": [
+        { "t": "Is it a better job?", "es": "¿Es un trabajo mejor?", "next": "n3", "ok": true },
+        { "t": "Is it a more good job?", "es": "¿Es un trabajo mejor?", "next": "n3", "ok": false, "feedback": "Good es irregular: better." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Yes, much better. What would you do if you were me?", "es": "Sí, mucho mejor. ¿Qué harías tú en mi lugar?" },
+      "options": [
+        { "t": "If I were you, I'd take it.", "es": "Yo que tú, lo aceptaría.", "next": "n4", "ok": true },
+        { "t": "If I were you, I take it.", "es": "Yo que tú, lo aceptaría.", "next": "n4", "ok": false, "feedback": "Falta would: I'd take it." },
+        { "t": "If I were you, I'll take it.", "es": "Yo que tú, lo aceptaría.", "next": "n4", "ok": false, "feedback": "Con If I were you, el consejo va con I'd, no I'll." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Really? But I'd miss my friends.", "es": "¿En serio? Pero echaría de menos a mis amigos." },
+      "options": [
+        { "t": "I know. But they could visit you!", "es": "Ya. ¡Pero ellos podrían ir a verte!", "next": "n5", "ok": true },
+        { "t": "I know. But they can visited you!", "es": "Ya. ¡Pero ellos podrían ir a verte!", "next": "n5", "ok": false, "feedback": "Después de could o can, el verbo en forma base: could visit." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "True. And Edinburgh is beautiful. Would you visit me too?", "es": "Es verdad. Y Edimburgo es precioso. ¿Tú también vendrías a verme?" },
+      "options": [
+        { "t": "I'd love to!", "es": "¡Me encantaría!", "next": "n6", "ok": true },
+        { "t": "I'd love!", "es": "¡Me encantaría!", "next": "n6", "ok": false, "feedback": "Love necesita algo detrás: I'd love to!" },
+        { "t": "I'd rather to!", "es": "¡Me encantaría!", "next": "n6", "ok": false, "feedback": "I'd rather es «preferiría». Para «me encantaría»: I'd love to." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Thank you, Yolanda. I think I'll say yes!", "es": "Gracias, Yolanda. ¡Creo que voy a decir que sí!" },
+      "options": [
+        { "t": "Great! If I were you, I wouldn't worry.", "es": "¡Genial! Yo que tú, no me preocuparía.", "next": "end", "ok": true },
+        { "t": "Great! If I was you, I don't worry.", "es": "¡Genial! Yo que tú, no me preocuparía.", "next": "end", "ok": false, "feedback": "Mejor were, y el consejo negativo va con wouldn't: I wouldn't worry." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

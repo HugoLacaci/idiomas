@@ -1,0 +1,45 @@
+{
+  "id": "en-b1-u08-c2",
+  "unit": "en-b1-u08",
+  "title": "¿Dónde están mis gafas?",
+  "setting": "Última tarde en Londres: Emma te ayuda a hacer la maleta y a encontrarlo todo",
+  "emoji": "🧳",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "What are you doing on the floor, Yolanda?", "es": "¿Qué haces en el suelo, Yolanda?" },
+      "options": [
+        { "t": "I'm looking for my glasses!", "es": "¡Estoy buscando las gafas!", "next": "n2", "ok": true },
+        { "t": "I'm looking after my glasses!", "es": "(¡Estoy cuidando las gafas!)", "next": "n2", "ok": false, "feedback": "Look after es cuidar. Buscar es look for." }
+      ] },
+    { "id": "n2", "says": { "t": "Er… they're on your head!", "es": "Eh… ¡las llevas en la cabeza!" },
+      "options": [
+        { "t": "Oh no! I'm so embarrassed!", "es": "¡Ay, no! ¡Qué vergüenza!", "next": "n3", "ok": true },
+        { "t": "Oh no! I'm so pregnant!", "es": "(¡Ay, no! ¡Estoy tan embarazada!)", "next": "n3", "ok": false, "feedback": "Ja, ja. Para «qué vergüenza»: I'm so embarrassed." }
+      ] },
+    { "id": "n3", "says": { "t": "Ha ha! The TV is still on. Shall I turn it off?", "es": "¡Ja, ja! La tele sigue encendida. ¿La apago?" },
+      "options": [
+        { "t": "Yes, please. Turn it off.", "es": "Sí, por favor. Apágala.", "next": "n4", "ok": true },
+        { "t": "Yes, please. Turn off it.", "es": "(Sí, por favor. Apágala.)", "next": "n4", "ok": false, "feedback": "Con pronombre, va en medio: turn it off." }
+      ] },
+    { "id": "n4", "says": { "t": "Your suitcase is very full. Have you got space?", "es": "Tu maleta está muy llena. ¿Tienes sitio?" },
+      "options": [
+        { "t": "No, I've run out of space!", "es": "¡No, me he quedado sin sitio!", "next": "n5", "ok": true },
+        { "t": "No, I've run out space!", "es": "(¡No, me he quedado sin sitio!)", "next": "n5", "ok": false, "feedback": "Quedarse sin algo lleva of: run out of space." }
+      ] },
+    { "id": "n5", "says": { "t": "What time do you need to get up tomorrow?", "es": "¿A qué hora tienes que levantarte mañana?" },
+      "options": [
+        { "t": "At seven. We're setting off at nine.", "es": "A las siete. Salimos a las nueve.", "next": "n6", "ok": true },
+        { "t": "At seven. We're setting up at nine.", "es": "(A las siete. Montamos a las nueve.)", "next": "n6", "ok": false, "feedback": "Salir de viaje = set off. Set up es montar algo." }
+      ] },
+    { "id": "n6", "says": { "t": "I'll pick you up at the hotel, then.", "es": "Entonces te recojo en el hotel." },
+      "options": [
+        { "t": "Thank you! I'm looking forward to the train.", "es": "¡Gracias! Tengo ganas de ir en tren.", "next": "n7", "ok": true },
+        { "t": "Thank you! I'm looking forward to take the train.", "es": "(¡Gracias! Tengo ganas de coger el tren.)", "next": "n7", "ok": false, "feedback": "Detrás de look forward to va un nombre o -ing: to taking the train." }
+      ] },
+    { "id": "n7", "says": { "t": "Now get some sleep. Big day tomorrow!", "es": "Ahora a dormir. ¡Mañana es un gran día!" },
+      "options": [
+        { "t": "Good night, Emma. See you tomorrow!", "es": "Buenas noches, Emma. ¡Hasta mañana!", "next": "end", "ok": true }
+      ] }
+  ],
+  "reviewed": false
+}

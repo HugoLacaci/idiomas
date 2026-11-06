@@ -1,0 +1,142 @@
+{
+  "id": "it-g-passato-prossimo-essere",
+  "lang": "it",
+  "level": "A2",
+  "title": "Passato prossimo con essere: qué verbos lo llevan (sono andata)",
+  "short": "Sono andata, è arrivato, siamo tornati: los verbos de ir, venir, quedarse y cambiar usan essere.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "¡No siempre es avere!",
+      "emoji": "🎄",
+      "text": "Ya dices *ho mangiato*. Pero para «he ido» el italiano no usa avere, sino ==essere==: *sono andata*. Literalmente, «soy ida».",
+      "examples": [
+        { "t": "A Natale ==sono andata== a messa.", "es": "En Navidad fui a misa.", "hl": "sono andata" },
+        { "t": "Mio figlio Hugo ==è tornato== a casa.", "es": "Mi hijo Hugo ha vuelto a casa.", "hl": "è tornato" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Los verbos que van con essere",
+      "emoji": "📋",
+      "text": "Apréndete esta lista. Son pocos, pero se usan muchísimo.",
+      "table": {
+        "head": ["Verbo", "Español", "Participio"],
+        "rows": [
+          ["andare", "ir", "==andato=="],
+          ["venire", "venir", "==venuto=="],
+          ["arrivare", "llegar", "==arrivato=="],
+          ["partire", "salir de viaje, irse", "==partito=="],
+          ["tornare", "volver", "==tornato=="],
+          ["uscire", "salir", "==uscito=="],
+          ["entrare", "entrar", "==entrato=="],
+          ["restare / rimanere", "quedarse", "==restato== / ==rimasto=="],
+          ["stare / essere", "estar / ser", "==stato=="],
+          ["nascere", "nacer", "==nato=="],
+          ["piacere", "gustar", "==piaciuto=="]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "El truco: ir, quedarse, cambiar",
+      "emoji": "🧭",
+      "text": "Van con essere los verbos de ==ir de un sitio a otro==, de ==quedarse== y de ==cambiar== (nacer, hacerse mayor). Si haces algo a algo (comer pasta), es avere.",
+      "examples": [
+        { "t": "Sono uscita. / Ho mangiato il panettone.", "es": "He salido. / He comido panettone." }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Essere en todas las personas",
+      "emoji": "👥",
+      "text": "El participio termina como el sujeto: ==-o, -a, -i, -e==.",
+      "table": {
+        "head": ["Persona", "Forma", "Español"],
+        "rows": [
+          ["io", "==sono== andato / andata", "he ido / fui"],
+          ["tu", "==sei== andato / andata", "has ido / fuiste"],
+          ["lui / lei", "==è== andato / andata", "ha ido / fue"],
+          ["noi", "==siamo== andati / andate", "hemos ido / fuimos"],
+          ["voi", "==siete== andati / andate", "habéis ido / fuisteis"],
+          ["loro", "==sono== andati / andate", "han ido / fueron"]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "En español siempre «haber»",
+      "emoji": "🇪🇸",
+      "text": "Nosotras decimos «he comido» y «he ido» con el mismo verbo. El italiano los separa: ==ho mangiato== pero ==sono andata==.",
+      "examples": [
+        { "t": "Ho comprato i regali e sono tornata a casa.", "es": "He comprado los regalos y he vuelto a casa." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Ho andato* → ✅ ==sono andata==. ❌ *Ho uscito* → ✅ ==sono uscita==. ❌ *Sono camminata* → ✅ ==ho camminato==: caminar, viajar y bailar van con avere."
+    },
+    {
+      "kind": "tip",
+      "title": "Sono stata = he estado",
+      "emoji": "💡",
+      "text": "*Essere* y *stare* comparten pasado: ==sono stata==. Sirve para «he estado» y «he sido».",
+      "examples": [
+        { "t": "Sono stata a Siena per il Palio.", "es": "He estado en Siena para el Palio." },
+        { "t": "È stata una bella festa.", "es": "Ha sido una fiesta bonita." }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español todos los verbos usan «haber»: he comido, he ido, he llegado, me he quedado.",
+    "target": "En italiano los verbos de movimiento hacia un lugar, de quedarse y de cambio usan essere: sono andata, sono arrivata, sono rimasta, sono nata."
+  },
+  "errors": [
+    { "wrong": "A Pasqua ho andato in Italia.", "right": "A Pasqua sono andata in Italia.", "why": "Andare va con essere: sono andata (y si eres mujer, con -a)." },
+    { "wrong": "Mio marito ha uscito con gli amici.", "right": "Mio marito è uscito con gli amici.", "why": "Uscire (salir) es un verbo de movimiento: va con essere." },
+    { "wrong": "Siamo ballati tutta la notte.", "right": "Abbiamo ballato tutta la notte.", "why": "Ballare no te lleva a ningún sitio: va con avere." },
+    { "wrong": "Ho stato a Roma a Capodanno.", "right": "Sono stata a Roma a Capodanno.", "why": "Stare y essere hacen el pasado con essere: sono stata." },
+    { "wrong": "Ieri sono restata a casa e sono cucinato.", "right": "Ieri sono restata a casa e ho cucinato.", "why": "Restare va con essere, pero cucinare va con avere." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "A Natale io ___ andata a messa.", "es": "En Navidad fui a misa.", "options": ["sono", "ho", "è"], "answer": "sono", "why": "Andare va con essere: io sono andata.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e2", "type": "choose", "q": "Mio figlio Hugo ___ tornato per le feste.", "es": "Mi hijo Hugo ha vuelto para las fiestas.", "options": ["è", "ha", "sono"], "answer": "è", "why": "Tornare va con essere; lui → è.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e3", "type": "choose", "q": "Ieri sera ___ mangiato il panettone.", "es": "Anoche comimos panettone.", "options": ["abbiamo", "siamo", "sono"], "answer": "abbiamo", "why": "Mangiare (comer algo) va con avere.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e4", "type": "choose", "q": "Le mie amiche ___ arrivate tardi alla festa.", "es": "Mis amigas llegaron tarde a la fiesta.", "options": ["sono", "hanno", "siamo"], "answer": "sono", "why": "Arrivare va con essere; loro → sono.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e5", "type": "choose", "q": "Tu ___ uscita a Capodanno?", "es": "¿Saliste en Nochevieja?", "options": ["sei", "hai", "è"], "answer": "sei", "why": "Uscire va con essere; tu → sei.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e6", "type": "choose", "q": "Io e mio marito ___ ballato fino all'una.", "es": "Mi marido y yo bailamos hasta la una.", "options": ["abbiamo", "siamo", "sono"], "answer": "abbiamo", "why": "Ballare no indica ir a un sitio: va con avere.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e7", "type": "choose", "q": "La festa ___ stata bellissima.", "es": "La fiesta ha sido preciosa.", "options": ["è", "ha", "sono"], "answer": "è", "why": "Essere hace su pasado con essere: è stata.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e8", "type": "choose", "q": "Voi ___ rimasti a casa a Pasqua?", "es": "¿Os quedasteis en casa en Semana Santa?", "options": ["siete", "avete", "sono"], "answer": "siete", "why": "Rimanere (quedarse) va con essere; voi → siete.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e9", "type": "fill", "q": "Il treno ___ partito alle otto.", "es": "El tren ha salido a las ocho.", "answer": ["è"], "bank": ["è", "ha", "sono"], "why": "Partire va con essere; il treno → è.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e10", "type": "fill", "q": "Noi ___ andati a vedere la processione.", "es": "Fuimos a ver la procesión.", "answer": ["siamo"], "bank": ["siamo", "abbiamo", "siete"], "why": "Andare + noi → siamo andati.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e11", "type": "fill", "q": "I miei amici ___ venuti a cena la Vigilia.", "es": "Mis amigos vinieron a cenar en Nochebuena.", "answer": ["sono"], "bank": ["sono", "hanno", "è"], "why": "Venire va con essere; loro → sono.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e12", "type": "fill", "q": "Ho comprato i regali e ___ tornata a casa.", "es": "He comprado los regalos y he vuelto a casa.", "answer": ["sono"], "bank": ["sono", "ho", "è"], "why": "Comprare va con avere, pero tornare con essere.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e13", "type": "fill", "q": "Sono ___ in chiesa alle undici.", "es": "Entré en la iglesia a las once.", "answer": ["entrata", "entrato"], "hint": "entrare", "why": "Entrare → entrato/entrata, con essere.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e14", "type": "fill", "q": "Mio marito è ___ a comprare il pane.", "es": "Mi marido ha salido a comprar el pan.", "answer": ["uscito", "andato"], "hint": "uscire", "why": "Uscire → uscito; mio marito es masculino.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e15", "type": "fill", "q": "Il pranzo di Natale mi è ___ molto.", "es": "La comida de Navidad me gustó mucho.", "answer": ["piaciuto"], "hint": "piacere", "why": "Piacere va con essere: è piaciuto.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e16", "type": "fill", "q": "Siamo ___ a Siena tre giorni.", "es": "Nos quedamos tres días en Siena.", "answer": ["rimasti", "rimaste", "restati", "restate", "stati", "state"], "hint": "rimanere", "why": "Rimanere tiene participio irregular: rimasto, rimasti.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e17", "type": "error", "q": "A Pasqua ho andato al mare.", "wrong": "ho", "fix": "sono", "why": "Andare va con essere: sono andata / andato.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e18", "type": "error", "q": "Mio figlio ha arrivato ieri sera.", "wrong": "ha", "fix": "è", "why": "Arrivare va con essere: è arrivato.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e19", "type": "error", "q": "Siamo cucinato per tutta la famiglia.", "wrong": "Siamo", "fix": "Abbiamo", "why": "Cucinare va con avere: abbiamo cucinato.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e20", "type": "error", "q": "Ho stata a Roma per Capodanno.", "wrong": "Ho", "fix": "Sono", "why": "Stare y essere van con essere: sono stata.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e21", "type": "error", "q": "Le mie amiche sono rimanute a casa.", "wrong": "rimanute", "fix": "rimaste", "why": "Rimanere tiene participio irregular: rimasto, rimaste.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e22", "type": "transform", "instr": "Pásala a passato prossimo (habla Yolanda)", "q": "Vado alla processione.", "answer": ["Sono andata alla processione."], "why": "Vado → sono andata (Yolanda es mujer: -a).", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e23", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Mio marito esce con gli amici.", "answer": ["Mio marito è uscito con gli amici."], "why": "Esce → è uscito.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e24", "type": "transform", "instr": "Pásala a passato prossimo", "q": "I nostri amici arrivano alle nove.", "answer": ["I nostri amici sono arrivati alle nove."], "why": "Arrivano → sono arrivati.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e25", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Compriamo la colomba e torniamo a casa.", "answer": ["Abbiamo comprato la colomba e siamo tornati a casa.", "Abbiamo comprato la colomba e siamo tornate a casa."], "why": "Comprare con avere; tornare con essere.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e26", "type": "order", "es": "Mi hijo Hugo vino a comer en Navidad.", "answer": "Mio figlio Hugo è venuto a pranzo a Natale", "alt": ["A Natale mio figlio Hugo è venuto a pranzo"], "extra": ["ha"], "why": "Venire va con essere: è venuto.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e27", "type": "order", "es": "Esta Semana Santa me he quedado en casa.", "answer": "Questa Pasqua sono rimasta a casa", "extra": ["ho"], "why": "Rimanere va con essere: sono rimasta.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "He ido a Siena con mi marido.", "answer": ["Sono andata a Siena con mio marito.", "Sono andata a Siena con mio marito"], "why": "Andare + essere; habla Yolanda: andata.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "Mis amigas llegaron tarde.", "answer": ["Le mie amiche sono arrivate tardi.", "Le mie amiche sono arrivate in ritardo."], "why": "Arrivare + essere; amiche → arrivate.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e30", "type": "translate", "dir": "from", "q": "È stata una bella festa.", "answer": ["Ha sido una fiesta bonita.", "Fue una fiesta bonita.", "Ha sido una bonita fiesta.", "Fue una bonita fiesta.", "Ha sido una fiesta preciosa.", "Fue una fiesta preciosa."], "why": "È stata = ha sido / fue.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e31", "type": "conjugate", "verb": "partire", "person": "noi", "tense": "passato prossimo", "q": "Il 26 dicembre ___ per la montagna.", "answer": ["siamo partiti", "siamo partite"], "table": [["io", "sono partito/a"], ["noi", "siamo partiti/e"], ["loro", "sono partiti/e"]], "why": "Partire va con essere: siamo partiti.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e32", "type": "conjugate", "verb": "tornare", "person": "lei", "tense": "passato prossimo", "q": "La mia amica ___ dalla Sicilia ieri.", "answer": ["è tornata"], "why": "Lei → è tornata.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e33", "type": "situation", "context": "Giulia te pregunta qué hiciste en Nochevieja. Te quedaste en casa con tu familia.", "emoji": "🏠", "options": ["Sono rimasta a casa con la famiglia.", "Ho rimasto a casa con la famiglia.", "Rimango a casa con la famiglia."], "answer": "Sono rimasta a casa con la famiglia.", "why": "Rimanere va con essere, y tú eres mujer: sono rimasta.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e34", "type": "situation", "context": "Llamas a una amiga y quieres saber si ya ha llegado a Roma.", "emoji": "📞", "options": ["Sei già arrivata a Roma?", "Hai già arrivata a Roma?", "Sei già arrivare a Roma?"], "answer": "Sei già arrivata a Roma?", "why": "Arrivare + essere: sei arrivata.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e35", "type": "match", "pairs": [["andare", "andato"], ["venire", "venuto"], ["rimanere", "rimasto"], ["nascere", "nato"], ["essere", "stato"]], "why": "Estos participios van con essere; varios son irregulares.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e36", "type": "match", "pairs": [["sono uscita", "he salido"], ["ho mangiato", "he comido"], ["sono rimasta", "me he quedado"], ["ho ballato", "he bailado"], ["sono arrivata", "he llegado"]], "why": "Ir, salir, llegar, quedarse: essere. Comer, bailar: avere.", "g": "it-g-passato-prossimo-essere" }
+  ],
+  "reviewed": false
+}

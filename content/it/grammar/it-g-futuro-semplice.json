@@ -1,0 +1,139 @@
+{
+  "id": "it-g-futuro-semplice",
+  "lang": "it",
+  "level": "A2",
+  "title": "El futuro simple: andrò, farò, sarà",
+  "short": "Domani andremo a Venezia: el futuro italiano se forma casi como el español y lleva el acento al final.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Hablar de tus planes",
+      "emoji": "🧳",
+      "text": "Para contar lo que harás mañana o el verano que viene, el italiano tiene un futuro muy parecido al nuestro: ==andrò== = iré.",
+      "examples": [
+        { "t": "L'anno prossimo ==andrò== a Venezia.", "es": "El año que viene iré a Venecia.", "hl": "andrò" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Las terminaciones",
+      "emoji": "📋",
+      "text": "Quita la -e final del infinitivo y añade ==-ò, -ai, -à, -emo, -ete, -anno==. En los verbos en -are, la a cambia a ==e==.",
+      "table": {
+        "head": ["Persona", "visitare", "prendere", "partire"],
+        "rows": [
+          ["io", "visit==erò==", "prend==erò==", "part==irò=="],
+          ["tu", "visit==erai==", "prend==erai==", "part==irai=="],
+          ["lui / lei / Lei", "visit==erà==", "prend==erà==", "part==irà=="],
+          ["noi", "visit==eremo==", "prend==eremo==", "part==iremo=="],
+          ["voi", "visit==erete==", "prend==erete==", "part==irete=="],
+          ["loro", "visit==eranno==", "prend==eranno==", "part==iranno=="]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Los irregulares más útiles",
+      "emoji": "⭐",
+      "text": "Cambia la raíz, pero las terminaciones son las mismas. Apréndete la forma de ==io== y el resto sale solo.",
+      "table": {
+        "head": ["Infinitivo", "io", "noi"],
+        "rows": [
+          ["essere", "==sarò==", "saremo"],
+          ["avere", "==avrò==", "avremo"],
+          ["andare", "==andrò==", "andremo"],
+          ["fare", "==farò==", "faremo"],
+          ["venire", "==verrò==", "verremo"],
+          ["vedere", "==vedrò==", "vedremo"],
+          ["potere / dovere", "==potrò== / ==dovrò==", "potremo / dovremo"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Ortografía: c, g e i",
+      "emoji": "✏️",
+      "text": "Para conservar el sonido: cercare → cerc==h==erò, pagare → pag==h==erò. Y la i de -ciare/-giare desaparece: mangiare → ==mangerò==.",
+      "examples": [
+        { "t": "Pagheremo con la carta.", "es": "Pagaremos con tarjeta." },
+        { "t": "A Venezia mangerò tanto pesce.", "es": "En Venecia comeré mucho pescado." }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Igual que en español… casi",
+      "emoji": "🇪🇸",
+      "text": "Iré → ==andrò==; haré → ==farò==; será → ==sarà==. Como en español, el acento cae al final en io y lui: ¡márcalo bien al hablar!",
+      "examples": [
+        { "t": "Domani farà bel tempo.", "es": "Mañana hará buen tiempo." },
+        { "t": "Saremo a casa per cena.", "es": "Estaremos en casa para la cena." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *visitarò* → ✅ visit==e==rò. ❌ *anderò* → ✅ ==andrò==. ❌ *venirò* → ✅ ==verrò==. ❌ *cercerò* → ✅ cerc==h==erò."
+    },
+    {
+      "kind": "tip",
+      "title": "Futuro para suponer",
+      "emoji": "💡",
+      "text": "Como en español, el futuro también sirve para suponer: ==Sarà stanca== = estará cansada. Y para planes muy cercanos, el presente también vale: Domani parto.",
+      "examples": [
+        { "t": "Hugo non risponde: sarà al lavoro.", "es": "Hugo no contesta: estará en el trabajo." }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: iré, harás, será, vendremos. El acento va al final en yo y él: iré, irá.",
+    "target": "En italiano: andrò, farai, sarà, verremo. Los verbos en -are cambian la a por e (visiterò) y el acento escrito va en io y lui: farò, farà."
+  },
+  "errors": [
+    { "wrong": "Domani visitarò il museo.", "right": "Domani visiterò il museo.", "why": "En los verbos en -are la a se convierte en e: visiterò." },
+    { "wrong": "L'estate prossima anderò a Venezia.", "right": "L'estate prossima andrò a Venezia.", "why": "Andare es irregular: andrò, andrai, andrà…" },
+    { "wrong": "Mio figlio venirà con noi.", "right": "Mio figlio verrà con noi.", "why": "Venire es irregular: verrò, verrai, verrà (con doble r)." },
+    { "wrong": "Cercerò un albergo vicino al centro.", "right": "Cercherò un albergo vicino al centro.", "why": "Para que la c siga sonando como k, se añade una h: cercherò." },
+    { "wrong": "Domani mangiarò il risotto.", "right": "Domani mangerò il risotto.", "why": "Mangiare pierde la i y la a pasa a e: mangerò." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Domani io ___ a Venezia.", "es": "Mañana iré a Venecia.", "options": ["andrò", "anderò", "andavo"], "answer": "andrò", "why": "Andare es irregular en futuro: andrò.", "g": "it-g-futuro-semplice" },
+    { "id": "e2", "type": "choose", "q": "L'anno prossimo mio figlio Hugo ___ in Italia.", "es": "El año que viene mi hijo Hugo estará en Italia.", "options": ["sarà", "sarò", "è stato"], "answer": "sarà", "why": "Lui → sarà, con acento en la a.", "g": "it-g-futuro-semplice" },
+    { "id": "e3", "type": "choose", "q": "Noi ___ il treno delle nove.", "es": "Cogeremos el tren de las nueve.", "options": ["prenderemo", "prenderete", "prenderanno"], "answer": "prenderemo", "why": "Noi → -emo: prenderemo.", "g": "it-g-futuro-semplice" },
+    { "id": "e4", "type": "choose", "q": "Tu cosa ___ quest'estate?", "es": "¿Tú qué harás este verano?", "options": ["farai", "farà", "fai"], "answer": "farai", "why": "Tu → -ai: farai.", "g": "it-g-futuro-semplice" },
+    { "id": "e5", "type": "choose", "q": "Le mie amiche ___ con noi in gondola.", "es": "Mis amigas vendrán con nosotros en góndola.", "options": ["verranno", "veniranno", "verrà"], "answer": "verranno", "why": "Venire → verr- y loro → -anno: verranno.", "g": "it-g-futuro-semplice" },
+    { "id": "e6", "type": "choose", "q": "Domani ___ bel tempo a Venezia.", "es": "Mañana hará buen tiempo en Venecia.", "options": ["farà", "farò", "fa"], "answer": "farà", "why": "Para el tiempo usamos fare en tercera persona: farà bel tempo.", "g": "it-g-futuro-semplice" },
+    { "id": "e7", "type": "choose", "q": "Voi quando ___ in Spagna?", "es": "¿Vosotros cuándo volveréis a España?", "options": ["tornerete", "tornarete", "torneremo"], "answer": "tornerete", "why": "Tornare → torner- (la a pasa a e); voi → -ete.", "g": "it-g-futuro-semplice" },
+    { "id": "e8", "type": "choose", "q": "Hugo non risponde: ___ al lavoro.", "es": "Hugo no contesta: estará en el trabajo.", "options": ["sarà", "è stato", "era"], "answer": "sarà", "why": "El futuro también sirve para suponer, como «estará» en español.", "g": "it-g-futuro-semplice" },
+    { "id": "e9", "type": "fill", "q": "Io ___ un albergo vicino a piazza San Marco.", "es": "Buscaré un hotel cerca de la plaza de San Marcos.", "answer": ["cercherò"], "bank": ["cercherò", "cercerò", "cercavo"], "why": "Cercare → cercherò: la h mantiene el sonido de k.", "g": "it-g-futuro-semplice" },
+    { "id": "e10", "type": "fill", "q": "Mio marito ___ i biglietti online.", "es": "Mi marido pagará los billetes por internet.", "answer": ["pagherà"], "bank": ["pagherà", "pagerà", "paga"], "why": "Pagare → pagherà, con h para que la g suene dura.", "g": "it-g-futuro-semplice" },
+    { "id": "e11", "type": "fill", "q": "Stasera ___ il risotto al nero di seppia.", "es": "Esta noche comeremos el risotto con tinta de sepia.", "answer": ["mangeremo"], "bank": ["mangeremo", "mangiaremo", "mangiamo"], "why": "Mangiare pierde la i en futuro: mangeremo.", "g": "it-g-futuro-semplice" },
+    { "id": "e12", "type": "fill", "q": "Domani ___ il ponte di Rialto.", "es": "Mañana veré el puente de Rialto.", "answer": ["vedrò", "visiterò"], "hint": "vedere", "why": "Vedere es irregular: vedrò.", "g": "it-g-futuro-semplice" },
+    { "id": "e13", "type": "fill", "q": "Non ___ tempo per tutto, Venezia è grande!", "es": "¡No tendremos tiempo para todo, Venecia es grande!", "answer": ["avremo"], "hint": "avere, noi", "why": "Avere → avr-: avremo.", "g": "it-g-futuro-semplice" },
+    { "id": "e14", "type": "fill", "q": "Tu ___ venire con noi a Murano?", "es": "¿Tú podrás venir con nosotros a Murano?", "answer": ["potrai"], "hint": "potere", "why": "Potere → potr-: potrai.", "g": "it-g-futuro-semplice" },
+    { "id": "e15", "type": "fill", "q": "Domani ___ alzarci presto per il vaporetto.", "es": "Mañana tendremos que levantarnos temprano para el vaporetto.", "answer": ["dovremo"], "hint": "dovere, noi", "why": "Dovere → dovr-: dovremo.", "g": "it-g-futuro-semplice" },
+    { "id": "e16", "type": "fill", "q": "I miei nipoti ___ a Venezia in treno.", "es": "Mis nietos llegarán a Venecia en tren.", "answer": ["arriveranno"], "hint": "arrivare", "why": "Arrivare → arriver- + -anno.", "g": "it-g-futuro-semplice" },
+    { "id": "e17", "type": "error", "q": "Domani visitarò il palazzo Ducale.", "wrong": "visitarò", "fix": "visiterò", "why": "En los verbos en -are la a pasa a e: visiterò.", "g": "it-g-futuro-semplice" },
+    { "id": "e18", "type": "error", "q": "Mio figlio venirà a trovarmi a maggio.", "wrong": "venirà", "fix": "verrà", "why": "Venire es irregular: verrà.", "g": "it-g-futuro-semplice" },
+    { "id": "e19", "type": "error", "q": "Quest'estate anderemo al mare.", "wrong": "anderemo", "fix": "andremo", "why": "Andare → andr-: andremo.", "g": "it-g-futuro-semplice" },
+    { "id": "e20", "type": "error", "q": "Domani io sarà a Venezia.", "wrong": "sarà", "fix": "sarò", "why": "Con io: sarò (sarà es para lui/lei).", "g": "it-g-futuro-semplice" },
+    { "id": "e21", "type": "error", "q": "Le mie amiche cercerranno un ristorante.", "wrong": "cercerranno", "fix": "cercheranno", "why": "Cercare → cercher- con h, y una sola r: cercheranno.", "g": "it-g-futuro-semplice" },
+    { "id": "e22", "type": "transform", "instr": "Pásala a futuro", "q": "Vado a Venezia in treno.", "answer": ["Andrò a Venezia in treno."], "why": "Vado → andrò.", "g": "it-g-futuro-semplice" },
+    { "id": "e23", "type": "transform", "instr": "Pásala a futuro", "q": "Facciamo un giro in gondola.", "answer": ["Faremo un giro in gondola."], "why": "Facciamo → faremo.", "g": "it-g-futuro-semplice" },
+    { "id": "e24", "type": "transform", "instr": "Pásala a futuro", "q": "Mio marito prenota l'albergo.", "answer": ["Mio marito prenoterà l'albergo."], "why": "Prenota → prenoterà.", "g": "it-g-futuro-semplice" },
+    { "id": "e25", "type": "transform", "instr": "Pásala a futuro", "q": "Le mie amiche vengono con me.", "answer": ["Le mie amiche verranno con me."], "why": "Vengono → verranno.", "g": "it-g-futuro-semplice" },
+    { "id": "e26", "type": "transform", "instr": "Pásala a futuro", "q": "Siete stanchi dopo il viaggio.", "answer": ["Sarete stanchi dopo il viaggio."], "why": "Siete → sarete.", "g": "it-g-futuro-semplice" },
+    { "id": "e27", "type": "conjugate", "verb": "partire", "person": "noi", "tense": "futuro", "q": "Venerdì ___ per Venezia.", "answer": ["partiremo"], "table": [["io", "partirò"], ["tu", "partirai"], ["lui/lei", "partirà"], ["noi", "partiremo"], ["voi", "partirete"], ["loro", "partiranno"]], "why": "Noi → partiremo.", "g": "it-g-futuro-semplice" },
+    { "id": "e28", "type": "conjugate", "verb": "essere", "person": "loro", "tense": "futuro", "q": "I miei nipoti ___ contentissimi.", "answer": ["saranno"], "table": [["io", "sarò"], ["tu", "sarai"], ["lui/lei", "sarà"], ["noi", "saremo"], ["voi", "sarete"], ["loro", "saranno"]], "why": "Loro → saranno.", "g": "it-g-futuro-semplice" },
+    { "id": "e29", "type": "conjugate", "verb": "restare", "person": "io", "tense": "futuro", "q": "A Venezia ___ tre giorni.", "answer": ["resterò", "starò", "rimarrò"], "why": "Restare → resterò (la a pasa a e).", "g": "it-g-futuro-semplice" },
+    { "id": "e30", "type": "conjugate", "verb": "bere", "person": "noi", "tense": "futuro", "q": "Stasera ___ uno spritz in campo.", "answer": ["berremo"], "why": "Bere es irregular: berrò, berrai… berremo.", "g": "it-g-futuro-semplice" },
+    { "id": "e31", "type": "order", "es": "El verano que viene iremos a Venecia.", "answer": "L'estate prossima andremo a Venezia", "alt": ["Andremo a Venezia l'estate prossima"], "extra": ["andiamo"], "why": "Andremo = iremos.", "g": "it-g-futuro-semplice" },
+    { "id": "e32", "type": "order", "es": "¿Qué harás mañana?", "answer": "Cosa farai domani", "alt": ["Domani cosa farai"], "extra": ["farà"], "why": "Tu → farai.", "g": "it-g-futuro-semplice" },
+    { "id": "e33", "type": "translate", "dir": "to", "q": "Mañana visitaré Murano.", "answer": ["Domani visiterò Murano.", "Visiterò Murano domani."], "why": "Visitare → visiterò.", "g": "it-g-futuro-semplice" },
+    { "id": "e34", "type": "translate", "dir": "to", "q": "Mi hijo Hugo vendrá con nosotros.", "answer": ["Mio figlio Hugo verrà con noi."], "why": "Venire → verrà.", "g": "it-g-futuro-semplice" },
+    { "id": "e35", "type": "translate", "dir": "from", "q": "Saremo a casa per cena.", "answer": ["Estaremos en casa para la cena.", "Estaremos en casa para cenar.", "Estaremos en casa a la hora de cenar."], "why": "Saremo = estaremos / seremos.", "g": "it-g-futuro-semplice" },
+    { "id": "e36", "type": "situation", "context": "Tu amiga italiana te pregunta qué harás en vacaciones. Vas a ir a Venecia con tu marido.", "emoji": "🛶", "options": ["Andrò a Venezia con mio marito.", "Anderò a Venezia con mio marito.", "Andavo a Venezia con mio marito."], "answer": "Andrò a Venezia con mio marito.", "why": "Futuro de andare con io: andrò.", "g": "it-g-futuro-semplice" },
+    { "id": "e37", "type": "match", "pairs": [["essere", "sarò"], ["avere", "avrò"], ["fare", "farò"], ["venire", "verrò"], ["vedere", "vedrò"]], "why": "Los irregulares cambian la raíz; las terminaciones no cambian.", "g": "it-g-futuro-semplice" }
+  ],
+  "reviewed": false
+}

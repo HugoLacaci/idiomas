@@ -1,0 +1,462 @@
+{
+  "id": "it-a2-u04-l3",
+  "unit": "it-a2-u04",
+  "title": "A quei tempi…",
+  "goal": "a usar frases hechas para contar recuerdos: da bambina, di solito, a quei tempi, mi ricordo che…",
+  "emoji": "📻",
+  "photoQuery": "vintage family photos album",
+  "vocab": [
+    {
+      "id": "ricordi-quando-ero-piccola",
+      "t": "quando ero piccola",
+      "es": "cuando era pequeña",
+      "emoji": "👧",
+      "pos": "phrase",
+      "ex": {
+        "t": "Quando ero piccola, avevo paura dei cani.",
+        "es": "Cuando era pequeña, tenía miedo a los perros."
+      }
+    },
+    {
+      "id": "ricordi-da-bambina",
+      "t": "da bambina",
+      "es": "de niña",
+      "emoji": "🧒",
+      "pos": "phrase",
+      "ex": {
+        "t": "Da bambina ero molto timida.",
+        "es": "De niña era muy tímida."
+      }
+    },
+    {
+      "id": "ricordi-di-solito",
+      "t": "di solito",
+      "es": "normalmente, solía…",
+      "emoji": "🔁",
+      "pos": "phrase",
+      "ex": {
+        "t": "Di solito pranzavamo alle due.",
+        "es": "Normalmente comíamos a las dos."
+      }
+    },
+    {
+      "id": "ricordi-ogni-estate",
+      "t": "ogni estate",
+      "es": "cada verano",
+      "emoji": "☀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Ogni estate andavamo al mare.",
+        "es": "Cada verano íbamos a la playa."
+      }
+    },
+    {
+      "id": "ricordi-a-quei-tempi",
+      "t": "a quei tempi",
+      "es": "en aquellos tiempos",
+      "emoji": "⏳",
+      "pos": "phrase",
+      "ex": {
+        "t": "A quei tempi non c'era il cellulare.",
+        "es": "En aquellos tiempos no había móvil."
+      }
+    },
+    {
+      "id": "ricordi-mi-ricordo",
+      "t": "mi ricordo che…",
+      "es": "me acuerdo de que…",
+      "emoji": "💭",
+      "pos": "phrase",
+      "ex": {
+        "t": "Mi ricordo che la casa era sempre piena.",
+        "es": "Me acuerdo de que la casa estaba siempre llena."
+      }
+    },
+    {
+      "id": "ricordi-cera-cerano",
+      "t": "c'era / c'erano",
+      "es": "había",
+      "emoji": "👉",
+      "pos": "phrase",
+      "ex": {
+        "t": "In piazza c'erano sempre bambini.",
+        "es": "En la plaza siempre había niños."
+      }
+    },
+    {
+      "id": "ricordi-lasilo",
+      "t": "l'asilo",
+      "es": "la guardería, la escuela infantil",
+      "emoji": "🧸",
+      "pos": "n",
+      "note": "¡Ojo! No es un asilo de ancianos.",
+      "ex": {
+        "t": "All'asilo dormivamo dopo pranzo.",
+        "es": "En la guardería dormíamos después de comer."
+      }
+    },
+    {
+      "id": "ricordi-che-nostalgia",
+      "t": "che nostalgia!",
+      "es": "¡qué nostalgia!",
+      "emoji": "🥹",
+      "pos": "phrase",
+      "ex": {
+        "t": "Guarda questa foto, che nostalgia!",
+        "es": "Mira esta foto, ¡qué nostalgia!"
+      }
+    }
+  ],
+  "grammar": "it-g-imperfetto",
+  "pron": {
+    "title": "C'era: la c suave",
+    "tip": "Delante de e o i, la c suena «ch», como en «chico»: c'era = «chera». Y c'erano tiene el acento en la «che».",
+    "words": [
+      "c'era",
+      "c'erano",
+      "dicevo",
+      "facevo",
+      "cinema"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "A quei tempi non ___ il cellulare.",
+      "es": "En aquellos tiempos no había móvil.",
+      "options": [
+        "c'era",
+        "c'erano",
+        "c'è"
+      ],
+      "answer": "c'era",
+      "why": "Il cellulare es singular: c'era.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "In piazza ___ sempre tanti bambini.",
+      "es": "En la plaza siempre había muchos niños.",
+      "options": [
+        "c'erano",
+        "c'era",
+        "erano"
+      ],
+      "answer": "c'erano",
+      "why": "Tanti bambini es plural: c'erano.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Di solito ___ alle due.",
+      "es": "Normalmente comíamos a las dos.",
+      "options": [
+        "pranzavamo",
+        "abbiamo pranzato",
+        "pranziamo"
+      ],
+      "answer": "pranzavamo",
+      "why": "Di solito indica costumbre: imperfetto.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "___ bambina ero molto timida.",
+      "es": "De niña era muy tímida.",
+      "answer": [
+        "Da",
+        "da"
+      ],
+      "bank": [
+        "Da",
+        "Di",
+        "A"
+      ],
+      "why": "«De niña» = da bambina.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Mi ___ che la casa era sempre piena.",
+      "es": "Me acuerdo de que la casa estaba siempre llena.",
+      "answer": [
+        "ricordo"
+      ],
+      "bank": [
+        "ricordo",
+        "ricordavo",
+        "ricorda"
+      ],
+      "why": "Ahora te acuerdas: mi ricordo, en presente.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Ogni ___ andavamo al mare.",
+      "es": "Cada verano íbamos a la playa.",
+      "answer": [
+        "estate"
+      ],
+      "hint": "verano",
+      "why": "Ogni estate = cada verano.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e7",
+      "type": "match",
+      "pairs": [
+        [
+          "di solito",
+          "normalmente"
+        ],
+        [
+          "a quei tempi",
+          "en aquellos tiempos"
+        ],
+        [
+          "ogni estate",
+          "cada verano"
+        ],
+        [
+          "da bambina",
+          "de niña"
+        ],
+        [
+          "c'erano",
+          "había"
+        ]
+      ],
+      "why": "Frases para hablar de recuerdos.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Da bambina sono molto timida.",
+      "wrong": "sono",
+      "fix": "ero",
+      "why": "Hablas del pasado: ero.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "A quei tempi non c'erano la televisione a colori.",
+      "wrong": "c'erano",
+      "fix": "c'era",
+      "why": "La televisione es singular: c'era.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Pásala al imperfetto",
+      "q": "Di solito pranziamo dalla nonna.",
+      "answer": [
+        "Di solito pranzavamo dalla nonna."
+      ],
+      "why": "Pranziamo → pranzavamo.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Pásala al imperfetto",
+      "q": "In paese c'è un solo negozio.",
+      "answer": [
+        "In paese c'era un solo negozio."
+      ],
+      "why": "C'è → c'era.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "En aquellos tiempos no había móvil.",
+      "answer": "A quei tempi non c'era il cellulare",
+      "alt": [
+        "Non c'era il cellulare a quei tempi"
+      ],
+      "extra": [
+        "c'è"
+      ],
+      "why": "En el pasado: c'era.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "En la guardería dormíamos después de comer.",
+      "answer": [
+        "All'asilo dormivamo dopo pranzo.",
+        "All'asilo dormivamo dopo il pranzo.",
+        "Dopo pranzo all'asilo dormivamo."
+      ],
+      "why": "La guardería = l'asilo; noi → dormivamo.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "from",
+      "q": "Ogni estate andavamo al mare.",
+      "answer": [
+        "Cada verano íbamos a la playa.",
+        "Todos los veranos íbamos a la playa.",
+        "Cada verano íbamos al mar."
+      ],
+      "why": "Andavamo = íbamos.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Tu amiga te enseña una foto antigua de una plaza llena de gente. Sientes mucha nostalgia.",
+      "emoji": "🥹",
+      "options": [
+        "Che nostalgia!",
+        "Che peccato!",
+        "Che fame!"
+      ],
+      "answer": "Che nostalgia!",
+      "why": "Che nostalgia! = ¡qué nostalgia!",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e16",
+      "type": "reading",
+      "kind": "message",
+      "title": "Un audio de WhatsApp",
+      "text": "Ciao Yolanda! Ho trovato una foto della mia classe. A quei tempi la scuola era piccola e c'erano solo dieci bambini. Di solito tornavamo a casa a piedi. Che nostalgia!",
+      "questions": [
+        {
+          "q": "¿Qué ha encontrado la amiga?",
+          "options": [
+            "Una foto de su clase",
+            "Un cuaderno viejo",
+            "Una muñeca"
+          ],
+          "answer": "Una foto de su clase"
+        },
+        {
+          "q": "¿Cuántos niños había en la clase?",
+          "options": [
+            "Diez",
+            "Veinte",
+            "Cinco"
+          ],
+          "answer": "Diez"
+        },
+        {
+          "q": "¿Cómo volvían a casa?",
+          "options": [
+            "Andando",
+            "En autobús",
+            "En bici"
+          ],
+          "answer": "Andando"
+        }
+      ],
+      "g": "it-g-imperfetto"
+    }
+  ],
+  "dialog": {
+    "title": "Recuerdos en la cocina",
+    "setting": "Yolanda cocina con su amiga italiana Lucia y hablan de cuando eran niñas",
+    "emoji": "🍲",
+    "lines": [
+      {
+        "who": "Lucia",
+        "t": "Questo profumo! Mi ricordo della cucina di mia nonna.",
+        "es": "¡Este olor! Me acuerdo de la cocina de mi abuela."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Anch'io! Da bambina stavo sempre in cucina.",
+        "es": "¡Yo también! De niña estaba siempre en la cocina."
+      },
+      {
+        "who": "Lucia",
+        "t": "E cosa facevi?",
+        "es": "¿Y qué hacías?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Di solito guardavo e assaggiavo tutto!",
+        "es": "Normalmente miraba y lo probaba todo."
+      },
+      {
+        "who": "Lucia",
+        "t": "A quei tempi le nonne cucinavano tutto il giorno.",
+        "es": "En aquellos tiempos las abuelas cocinaban todo el día."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, e la domenica c'erano sempre tanti piatti.",
+        "es": "Sí, y los domingos siempre había muchos platos."
+      },
+      {
+        "who": "Lucia",
+        "t": "Che nostalgia!",
+        "es": "¡Qué nostalgia!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Dónde estaba siempre Yolanda de niña?",
+        "options": [
+          "En la cocina",
+          "En el patio",
+          "En el colegio"
+        ],
+        "answer": "En la cocina"
+      },
+      {
+        "q": "¿Qué hacía normalmente?",
+        "options": [
+          "Miraba y lo probaba todo",
+          "Fregaba los platos",
+          "Leía cuentos"
+        ],
+        "answer": "Miraba y lo probaba todo"
+      },
+      {
+        "q": "¿Qué pasaba los domingos?",
+        "options": [
+          "Había muchos platos",
+          "Comían fuera",
+          "No cocinaban"
+        ],
+        "answer": "Había muchos platos"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "A quei tempi era tutto diverso.",
+    "es": "En aquellos tiempos todo era distinto.",
+    "context": "Para comparar el pasado con el presente en una charla con amigos"
+  },
+  "falseFriend": {
+    "word": "l'asilo",
+    "means": "la guardería, la escuela infantil",
+    "looksLike": "asilo",
+    "emoji": "🧸",
+    "tip": "En Italia, l'asilo (o asilo nido) es donde van los niños pequeños. Una residencia de ancianos es una «casa di riposo»."
+  },
+  "summary": [
+    "Da bambina / quando ero piccola = de niña, cuando era pequeña.",
+    "Di solito, ogni estate, a quei tempi: piden imperfetto.",
+    "C'era (singular) / c'erano (plural) = había.",
+    "Mi ricordo che… = me acuerdo de que…",
+    "L'asilo = la guardería (no un asilo de ancianos)."
+  ],
+  "reviewed": false,
+  "photo": "it-a2-u04-l3"
+}

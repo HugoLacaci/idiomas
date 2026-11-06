@@ -1,0 +1,60 @@
+{
+  "id": "it-a1-u06-c3",
+  "unit": "it-a1-u06",
+  "title": "Giulia, de visita en tu casa",
+  "setting": "Giulia ha venido a España y se queda en tu casa unos días",
+  "emoji": "🧳",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Buongiorno, Yolanda! Scusa, dov'è il caffè?", "es": "¡Buenos días, Yolanda! Perdona, ¿dónde está el café?" },
+      "options": [
+        { "t": "È in cucina, in un cassetto.", "es": "Está en la cocina, en un cajón.", "next": "n2", "ok": true },
+        { "t": "È a cucina, in un cassetto.", "es": "Está en la cocina, en un cajón.", "next": "n2", "ok": false, "feedback": "Con habitaciones usamos in: in cucina." },
+        { "t": "C'è in cucina, in un cassetto.", "es": "Hay en la cocina, en un cajón.", "next": "n2", "ok": false, "feedback": "Para decir dónde está algo concreto usamos è: è in cucina." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Trovato! E le tazze?", "es": "¡Encontrado! ¿Y las tazas?" },
+      "options": [
+        { "t": "Sono su uno scaffale, sopra il lavandino.", "es": "Están en una estantería, encima del fregadero.", "next": "n3", "ok": true },
+        { "t": "Sono per uno scaffale, sopra il lavandino.", "es": "Están para una estantería…", "next": "n3", "ok": false, "feedback": "Encima de algo es su: su uno scaffale. Per es «para» o «por»." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Grazie! Che cosa facciamo oggi?", "es": "¡Gracias! ¿Qué hacemos hoy?" },
+      "options": [
+        { "t": "Pranziamo da un'amica, a Toledo.", "es": "Comemos en casa de una amiga, en Toledo.", "next": "n4", "ok": true },
+        { "t": "Pranziamo da un'amica, in Toledo.", "es": "Comemos en casa de una amiga, en Toledo.", "next": "n4", "ok": false, "feedback": "Con ciudades usamos a: a Toledo." },
+        { "t": "Pranziamo di un'amica, a Toledo.", "es": "Comemos de una amiga, en Toledo.", "next": "n4", "ok": false, "feedback": "«En casa de» se dice da: da un'amica." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Che bello! Porto un regalo. Per chi è il vino?", "es": "¡Qué bien! Llevo un regalo. ¿Para quién es el vino?" },
+      "options": [
+        { "t": "Il vino è per lei.", "es": "El vino es para ella.", "next": "n5", "ok": true },
+        { "t": "Il vino è para lei.", "es": "El vino es para ella.", "next": "n5", "ok": false, "feedback": "«Para» se dice per: per lei." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "A che ora parte il treno?", "es": "¿A qué hora sale el tren?" },
+      "options": [
+        { "t": "Tra un'ora. Andiamo!", "es": "Dentro de una hora. ¡Vamos!", "next": "n6", "ok": true },
+        { "t": "In un'ora fa. Andiamo!", "es": "Hace una hora. ¡Vamos!", "next": "n6", "ok": false, "feedback": "«Dentro de una hora» se dice tra un'ora (o fra un'ora)." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Perfetto! Mi piace tanto stare a casa tua.", "es": "¡Perfecto! Me gusta mucho estar en tu casa." },
+      "options": [
+        { "t": "Grazie, Giulia! Casa mia è casa tua.", "es": "¡Gracias, Giulia! Mi casa es tu casa.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

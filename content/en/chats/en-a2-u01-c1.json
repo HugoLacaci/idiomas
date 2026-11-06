@@ -1,0 +1,61 @@
+{
+  "id": "en-a2-u01-c1",
+  "unit": "en-a2-u01",
+  "title": "¿Qué estás haciendo?",
+  "setting": "Emma te escribe por WhatsApp un domingo por la tarde.",
+  "emoji": "📱",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! What are you doing?", "es": "¡Hola, Yolanda! ¿Qué estás haciendo?" },
+      "options": [
+        { "t": "Hi Emma! I'm making a cake.", "es": "¡Hola, Emma! Estoy haciendo un bizcocho.", "next": "n2", "ok": true },
+        { "t": "Hi Emma! I make a cake.", "es": "¡Hola, Emma! Estoy haciendo un bizcocho.", "next": "n2", "ok": false, "feedback": "Para lo que pasa ahora usamos am + -ing: I'm making a cake." },
+        { "t": "Hi Emma! I'm makeing a cake.", "es": "¡Hola, Emma! Estoy haciendo un bizcocho.", "next": "n2", "ok": false, "feedback": "Casi: make pierde la -e → making." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Yum! Is it for a special day?", "es": "¡Qué rico! ¿Es para un día especial?" },
+      "options": [
+        { "t": "Yes! My grandson is coming tomorrow.", "es": "¡Sí! Mi nieto viene mañana.", "next": "n3", "ok": true },
+        { "t": "Yes! My grandson are coming tomorrow.", "es": "¡Sí! Mi nieto viene mañana.", "next": "n3", "ok": false, "feedback": "My grandson = he: is coming." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "How lovely! And where's your husband?", "es": "¡Qué bonito! ¿Y dónde está tu marido?" },
+      "options": [
+        { "t": "He's watching the football on TV.", "es": "Está viendo el fútbol en la tele.", "next": "n4", "ok": true },
+        { "t": "He watching the football on TV.", "es": "Está viendo el fútbol en la tele.", "next": "n4", "ok": false, "feedback": "Falta is: He's (He is) watching." },
+        { "t": "He's watch the football on TV.", "es": "Está viendo el fútbol en la tele.", "next": "n4", "ok": false, "feedback": "Después de he's, el verbo con -ing: watching." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ha ha! My husband is doing the same thing!", "es": "¡Ja, ja! ¡Mi marido está haciendo lo mismo!" },
+      "options": [
+        { "t": "Typical! What are you doing?", "es": "¡Lo de siempre! ¿Y tú qué haces?", "next": "n5", "ok": true },
+        { "t": "Typical! What you are doing?", "es": "¡Lo de siempre! ¿Y tú qué haces?", "next": "n5", "ok": false, "feedback": "En la pregunta, are va delante de you: What are you doing?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "I'm sitting in the garden. It isn't raining for once!", "es": "Estoy sentada en el jardín. ¡Por una vez no llueve!" },
+      "options": [
+        { "t": "Lucky you! Enjoy the sun.", "es": "¡Qué suerte! Disfruta del sol.", "next": "n6", "ok": true },
+        { "t": "Lucky you! Are you enjoy the sun?", "es": "¡Qué suerte! ¿Estás disfrutando del sol?", "next": "n6", "ok": false, "feedback": "Faltaría -ing: Are you enjoying the sun?" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Thanks! Send me a photo of the cake later.", "es": "¡Gracias! Luego mándame una foto del bizcocho." },
+      "options": [
+        { "t": "Of course! Bye for now.", "es": "¡Claro! Hasta luego.", "next": "end", "ok": true },
+        { "t": "Of course! I'm send you a photo.", "es": "¡Claro! Te mando una foto.", "next": "end", "ok": false, "feedback": "I'm + send no funciona. Lo más sencillo aquí: «Of course! Bye for now.»" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

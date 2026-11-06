@@ -1,0 +1,102 @@
+{
+  "id": "en-a2-u02-l3",
+  "unit": "en-a2-u02",
+  "title": "Una botella, una lata, un paquete",
+  "goal": "a pedir envases y cantidades, y a usar some y any",
+  "emoji": "🥫",
+  "photoQuery": "jars tins pantry shelf food",
+  "vocab": [
+    { "id": "shop-a-bottle-of", "t": "a bottle of", "es": "una botella de", "emoji": "🍾", "pos": "phrase",
+      "ex": { "t": "A bottle of olive oil, please.", "es": "Una botella de aceite de oliva, por favor." } },
+    { "id": "shop-a-carton-of", "t": "a carton of", "es": "un cartón / un brik de", "emoji": "🧃", "pos": "phrase",
+      "ex": { "t": "We need two cartons of milk.", "es": "Necesitamos dos briks de leche." } },
+    { "id": "shop-a-tin-of", "t": "a tin of", "es": "una lata de", "emoji": "🥫", "pos": "phrase",
+      "ex": { "t": "There's a tin of tomatoes in the cupboard.", "es": "Hay una lata de tomate en el armario." },
+      "note": "En EE. UU.: a can of." },
+    { "id": "shop-a-packet-of", "t": "a packet of", "es": "un paquete de", "emoji": "📦", "pos": "phrase",
+      "ex": { "t": "Can you buy a packet of biscuits?", "es": "¿Puedes comprar un paquete de galletas?" } },
+    { "id": "shop-a-jar-of", "t": "a jar of", "es": "un tarro de", "emoji": "🍯", "pos": "phrase",
+      "ex": { "t": "I'd like a jar of honey.", "es": "Quería un tarro de miel." } },
+    { "id": "shop-a-bag-of", "t": "a bag of", "es": "una bolsa de", "emoji": "🛍️", "pos": "phrase",
+      "ex": { "t": "A bag of potatoes, please.", "es": "Una bolsa de patatas, por favor." } },
+    { "id": "shop-a-kilo-of", "t": "a kilo of", "es": "un kilo de", "emoji": "⚖️", "pos": "phrase",
+      "ex": { "t": "Half a kilo of strawberries, please.", "es": "Medio kilo de fresas, por favor." } },
+    { "id": "shop-anything-else", "t": "Anything else?", "es": "¿Algo más?", "emoji": "➕", "pos": "phrase",
+      "ex": { "t": "Anything else? — No, that's all, thanks.", "es": "¿Algo más? — No, nada más, gracias." } },
+    { "id": "shop-preservatives", "t": "preservatives", "es": "los conservantes", "emoji": "🧪", "pos": "n",
+      "ex": { "t": "This jam hasn't got any preservatives.", "es": "Esta mermelada no lleva conservantes." },
+      "note": "¡Ojo, falso amigo! Preservative = conservante. «Preservativo» en inglés es condom." }
+  ],
+  "grammar": "en-g-some-any",
+  "pron": {
+    "title": "La «of» que casi no se oye",
+    "tip": "En a bottle of, a tin of… la palabra of suena muy débil, casi «ev»: «a bótel ev milk». Únela a la palabra anterior.",
+    "words": ["a bottle of water", "a tin of tomatoes", "a packet of biscuits", "a jar of honey"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Is there ___ milk in the fridge?", "options": ["any", "some"], "answer": "any",
+      "why": "Pregunta de verdad: any.", "g": "en-g-some-any" },
+    { "id": "e2", "type": "choose", "q": "Would you like ___ biscuits?", "options": ["some", "any"], "answer": "some",
+      "why": "Ofrecer: some.", "g": "en-g-some-any" },
+    { "id": "e3", "type": "choose", "q": "A ___ of tomatoes, please.", "options": ["tin", "loaf", "piece"], "answer": "tin",
+      "why": "Los tomates en conserva vienen en lata: a tin of.", "g": "en-g-countable-uncountable" },
+    { "id": "e4", "type": "fill", "q": "This jam hasn't got ___ preservatives.", "es": "Esta mermelada no lleva conservantes.", "answer": ["any"], "bank": ["any", "some", "no"],
+      "why": "Negativa: hasn't got any.", "g": "en-g-some-any" },
+    { "id": "e5", "type": "fill", "q": "I'd like a ___ of honey.", "es": "Quería un tarro de miel.", "answer": ["jar"], "bank": ["jar", "bag", "carton"],
+      "why": "Tarro = jar.", "g": "en-g-countable-uncountable" },
+    { "id": "e6", "type": "fill", "q": "We need two ___ of milk.", "es": "Necesitamos dos briks de leche.", "answer": ["cartons"], "bank": ["cartons", "carton", "milks"],
+      "why": "El plural va en el envase: two cartons of milk.", "g": "en-g-countable-uncountable" },
+    { "id": "e7", "type": "fill", "q": "There are ___ apples in the bowl.", "es": "Hay manzanas en el frutero.", "answer": ["some"],
+      "why": "Afirmativa: some.", "g": "en-g-some-any" },
+    { "id": "e8", "type": "match", "pairs": [["a bottle of", "olive oil"], ["a tin of", "tuna"], ["a packet of", "biscuits"], ["a jar of", "jam"], ["a bag of", "potatoes"]],
+      "why": "Cada producto con su envase.", "g": "en-g-countable-uncountable" },
+    { "id": "e9", "type": "error", "q": "Have you got some fresh fish today?", "wrong": "some", "fix": "any",
+      "why": "Pregunta de verdad: any.", "g": "en-g-some-any" },
+    { "id": "e10", "type": "transform", "instr": "Hazla negativa", "q": "There's some honey.", "answer": ["There isn't any honey.", "There is not any honey.", "There's no honey."],
+      "why": "some → any en negativa.", "g": "en-g-some-any" },
+    { "id": "e11", "type": "order", "es": "¿Me da una botella de agua?", "answer": "Can I have a bottle of water", "extra": ["any"],
+      "why": "Pedir: Can I have…?", "g": "en-g-countable-uncountable" },
+    { "id": "e12", "type": "translate", "dir": "from", "q": "Anything else? — No, that's all, thanks.", "answer": ["¿Algo más? — No, nada más, gracias.", "¿Algo más? — No, eso es todo, gracias."],
+      "why": "Anything else? = ¿Algo más?" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "Este pan no lleva conservantes.", "answer": ["This bread hasn't got any preservatives.", "This bread doesn't have any preservatives.", "This bread has no preservatives.", "There aren't any preservatives in this bread."],
+      "why": "Conservante = preservative; negativa con any.", "g": "en-g-some-any" },
+    { "id": "e14", "type": "situation", "context": "En la tienda de comestibles, la dependienta te pregunta «Anything else?» y ya has terminado.", "emoji": "🧾",
+      "options": ["No, that's all, thanks.", "No, there isn't some.", "Yes, nothing."], "answer": "No, that's all, thanks.",
+      "why": "Para decir que ya está: That's all, thanks." },
+    { "id": "e15", "type": "reading", "kind": "message", "title": "Lista de la compra por WhatsApp",
+      "text": "Shopping list 🛒\n- a loaf of bread\n- 2 cartons of milk\n- a tin of tuna\n- some apples\nWe don't need any eggs. We've got a lot!",
+      "questions": [
+        { "q": "¿Cuántos briks de leche hay que comprar?", "options": ["Dos", "Uno", "Ninguno"], "answer": "Dos" },
+        { "q": "¿Qué viene en lata?", "options": ["El atún", "La leche", "Las manzanas"], "answer": "El atún" },
+        { "q": "¿Por qué no hay que comprar huevos?", "options": ["Porque ya tienen muchos", "Porque no hay en la tienda", "Porque no les gustan"], "answer": "Porque ya tienen muchos" }
+      ] }
+  ],
+  "dialog": {
+    "title": "En la tienda de la esquina",
+    "setting": "Yolanda compra en una pequeña tienda de comestibles de Londres",
+    "emoji": "🏪",
+    "lines": [
+      { "who": "Shopkeeper", "t": "Hello! Can I help you?", "es": "¡Hola! ¿Le puedo ayudar?" },
+      { "who": "Yolanda", "t": "Yes. Have you got any olive oil?", "es": "Sí. ¿Tiene aceite de oliva?" },
+      { "who": "Shopkeeper", "t": "Yes, here's a bottle. It's Spanish!", "es": "Sí, aquí tiene una botella. ¡Es español!" },
+      { "who": "Yolanda", "t": "Perfect. And a jar of honey, please.", "es": "Perfecto. Y un tarro de miel, por favor." },
+      { "who": "Shopkeeper", "t": "This one is local. It hasn't got any preservatives.", "es": "Esta es de aquí. No lleva conservantes." },
+      { "who": "Yolanda", "t": "Lovely. Have you got any fresh bread?", "es": "Estupendo. ¿Tiene pan del día?" },
+      { "who": "Shopkeeper", "t": "Sorry, there isn't any left. Anything else?", "es": "Lo siento, no queda. ¿Algo más?" },
+      { "who": "Yolanda", "t": "No, that's all, thanks.", "es": "No, nada más, gracias." }
+    ],
+    "questions": [
+      { "q": "¿De dónde es el aceite?", "options": ["De España", "De Inglaterra", "De Italia"], "answer": "De España" },
+      { "q": "¿Qué no lleva la miel?", "options": ["Conservantes", "Azúcar", "Etiqueta"], "answer": "Conservantes" },
+      { "q": "¿Por qué no compra pan?", "options": ["No queda", "Es muy caro", "No le gusta"], "answer": "No queda" }
+    ]
+  },
+  "realLife": { "t": "Have you got any…? — No, that's all, thanks.", "es": "¿Tiene…? — No, nada más, gracias.", "context": "Para comprar en una tienda pequeña" },
+  "summary": [
+    "Envases: a bottle / carton / tin / packet / jar / bag of",
+    "some en afirmativas, ofrecimientos y peticiones",
+    "any en negativas y preguntas: Have you got any…?",
+    "¡Ojo! preservatives = conservantes"
+  ],
+  "reviewed": false
+}

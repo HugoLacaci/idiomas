@@ -1,0 +1,93 @@
+{
+  "id": "en-a1-u08-l2",
+  "unit": "en-a1-u08",
+  "title": "Siempre, a veces, nunca",
+  "goal": "a decir con qué frecuencia haces las cosas y dónde va esa palabra en la frase",
+  "emoji": "🔁",
+  "photoQuery": "calendar notebook coffee cup",
+  "vocab": [
+    { "id": "always", "t": "always", "es": "siempre", "emoji": "💯", "pos": "adv",
+      "ex": { "t": "I always drink coffee with milk.", "es": "Siempre tomo el café con leche." } },
+    { "id": "usually", "t": "usually", "es": "normalmente, suelo", "emoji": "🙂", "pos": "adv",
+      "ex": { "t": "I usually cook on Sundays.", "es": "Normalmente cocino los domingos." } },
+    { "id": "often", "t": "often", "es": "a menudo", "emoji": "🔂", "pos": "adv",
+      "ex": { "t": "My grandson often visits me.", "es": "Mi nieto viene a verme a menudo." },
+      "note": "Normalmente la t no suena: «ófen»." },
+    { "id": "sometimes", "t": "sometimes", "es": "a veces", "emoji": "🌗", "pos": "adv",
+      "ex": { "t": "I sometimes go dancing.", "es": "A veces voy a bailar." } },
+    { "id": "hardly-ever", "t": "hardly ever", "es": "casi nunca", "emoji": "🤏", "pos": "adv",
+      "ex": { "t": "I hardly ever watch football.", "es": "Casi nunca veo el fútbol." } },
+    { "id": "never", "t": "never", "es": "nunca", "emoji": "🚫", "pos": "adv",
+      "ex": { "t": "I never drink beer.", "es": "Nunca bebo cerveza." } },
+    { "id": "how-often", "t": "How often…?", "es": "¿Con qué frecuencia…?, ¿Cada cuánto…?", "emoji": "❓", "pos": "phrase",
+      "ex": { "t": "How often do you swim?", "es": "¿Cada cuánto nadas?" } }
+  ],
+  "grammar": "en-g-adverbs-frequency",
+  "pron": {
+    "title": "La fuerza al principio",
+    "tip": "Todos estos adverbios se acentúan en la primera sílaba: ALways, Usually, OFten, SOMEtimes, NEVer. Y often casi siempre se dice sin t: «ófen».",
+    "words": ["always", "usually", "often", "sometimes", "never"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "match", "pairs": [["always", "siempre"], ["usually", "normalmente"], ["sometimes", "a veces"], ["hardly ever", "casi nunca"], ["never", "nunca"]],
+      "why": "De más a menos frecuencia.", "g": "en-g-adverbs-frequency" },
+    { "id": "e2", "type": "choose", "q": "I go swimming every day. I ___ go swimming.", "options": ["always", "sometimes", "never"], "answer": "always",
+      "why": "Todos los días = siempre.", "g": "en-g-adverbs-frequency" },
+    { "id": "e3", "type": "choose", "q": "I don't like football. I ___ watch it.", "options": ["never", "usually", "often"], "answer": "never",
+      "why": "No le gusta: never.", "g": "en-g-adverbs-frequency" },
+    { "id": "e4", "type": "situation", "context": "Quieres decir «Normalmente cocino». ¿Cuál es el orden correcto?", "emoji": "🍲", "options": ["I usually cook", "I cook usually", "Usually cook I"], "answer": "I usually cook",
+      "why": "Sujeto + adverbio + verbo.", "g": "en-g-adverbs-frequency" },
+    { "id": "e5", "type": "fill", "q": "I ___ have tea at five. Every day!", "es": "Siempre tomo té a las cinco. ¡Todos los días!", "answer": ["always"], "bank": ["always", "sometimes", "never"],
+      "why": "Todos los días = always.", "g": "en-g-adverbs-frequency" },
+    { "id": "e6", "type": "fill", "q": "We ___ eat fish, about once a month.", "es": "Casi nunca comemos pescado, una vez al mes más o menos.", "answer": ["hardly ever", "rarely"], "bank": ["hardly ever", "always", "usually"],
+      "why": "Una vez al mes es poco: hardly ever.", "g": "en-g-adverbs-frequency" },
+    { "id": "e7", "type": "fill", "q": "How ___ do you go to the cinema?", "es": "¿Cada cuánto vas al cine?", "answer": ["often"],
+      "why": "¿Con qué frecuencia? = How often?", "g": "en-g-adverbs-frequency" },
+    { "id": "e8", "type": "conjugate", "verb": "to go", "person": "she", "tense": "presente simple + usually", "q": "She usually ___ to the market on Saturdays.", "answer": ["goes"],
+      "why": "El adverbio no cambia nada: con she, goes.", "g": "en-g-present-simple-3rd" },
+    { "id": "e9", "type": "error", "q": "How often does she goes swimming?", "wrong": "goes", "fix": "go",
+      "why": "Después de does, el verbo sin -es: How often does she go…?", "g": "en-g-do-does" },
+    { "id": "e10", "type": "error", "q": "My friend often call me at night.", "wrong": "call", "fix": "calls",
+      "why": "My friend = she/he: calls, aunque haya un adverbio.", "g": "en-g-adverbs-frequency" },
+    { "id": "e11", "type": "order", "es": "A veces juego a las cartas con mis amigas", "answer": "I sometimes play cards with my friends", "extra": ["do"],
+      "why": "Sujeto + sometimes + verbo.", "g": "en-g-adverbs-frequency" },
+    { "id": "e12", "type": "order", "es": "Nunca veo la tele por la mañana", "answer": "I never watch TV in the morning", "extra": ["don't"],
+      "why": "Never ya es negativo: sin don't.", "g": "en-g-adverbs-frequency" },
+    { "id": "e13", "type": "transform", "instr": "Añade «sometimes» en su sitio", "q": "My grandson helps me in the garden.", "answer": ["My grandson sometimes helps me in the garden.", "Sometimes my grandson helps me in the garden."],
+      "why": "Sometimes delante del verbo (o al principio).", "g": "en-g-adverbs-frequency" },
+    { "id": "e14", "type": "translate", "dir": "to", "q": "Normalmente salgo a pasear por la tarde.", "answer": ["I usually go for a walk in the afternoon.", "I usually go for a walk in the evening.", "Usually I go for a walk in the afternoon."],
+      "why": "Usually delante de go.", "g": "en-g-adverbs-frequency" },
+    { "id": "e15", "type": "situation", "context": "Te preguntan si comes carne. No la comes nunca.", "emoji": "🥦",
+      "options": ["I never eat meat.", "I don't never eat meat.", "I eat never meat."], "answer": "I never eat meat.",
+      "why": "Never va delante del verbo y sin don't.", "g": "en-g-adverbs-frequency" },
+    { "id": "e16", "type": "speak", "t": "I usually go for a walk, but I never run.", "es": "Normalmente salgo a pasear, pero nunca corro." }
+  ],
+  "dialog": {
+    "title": "Una encuesta en la calle",
+    "setting": "Una chica hace una encuesta sobre el tiempo libre en una calle de Londres",
+    "emoji": "📋",
+    "lines": [
+      { "who": "Lucy", "t": "Excuse me, can I ask you some questions?", "es": "Perdone, ¿le puedo hacer unas preguntas?" },
+      { "who": "Yolanda", "t": "Yes, of course.", "es": "Sí, claro." },
+      { "who": "Lucy", "t": "How often do you go to the cinema?", "es": "¿Cada cuánto va al cine?" },
+      { "who": "Yolanda", "t": "Hmm, I hardly ever go. I watch films at home.", "es": "Mmm, casi nunca voy. Veo pelis en casa." },
+      { "who": "Lucy", "t": "Do you do any sport?", "es": "¿Hace algún deporte?" },
+      { "who": "Yolanda", "t": "I usually go swimming on Mondays.", "es": "Normalmente voy a nadar los lunes." },
+      { "who": "Lucy", "t": "And do you read?", "es": "¿Y lee?" },
+      { "who": "Yolanda", "t": "Yes! I always read in bed.", "es": "¡Sí! Siempre leo en la cama." }
+    ],
+    "questions": [
+      { "q": "¿Cada cuánto va Yolanda al cine?", "options": ["Casi nunca", "Siempre", "A menudo"], "answer": "Casi nunca" },
+      { "q": "¿Qué deporte hace?", "options": ["Natación", "Yoga", "Ninguno"], "answer": "Natación" },
+      { "q": "¿Dónde lee siempre?", "options": ["En la cama", "En el parque", "En el autobús"], "answer": "En la cama" }
+    ]
+  },
+  "realLife": { "t": "How often do you come here?", "es": "¿Cada cuánto vienes por aquí?", "context": "Para charlar con alguien en el parque, la piscina o una clase" },
+  "summary": [
+    "always > usually > often > sometimes > hardly ever > never",
+    "El adverbio va delante del verbo: I usually cook",
+    "Never ya es negativo: I never eat meat (sin don't)",
+    "¿Cada cuánto? = How often…?"
+  ],
+  "reviewed": false
+}

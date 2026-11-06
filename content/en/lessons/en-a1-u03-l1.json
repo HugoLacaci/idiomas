@@ -1,0 +1,90 @@
+{
+  "id": "en-a1-u03-l1",
+  "unit": "en-a1-u03",
+  "title": "¿Qué llevas en el bolso?",
+  "goal": "a nombrar las cosas que llevas siempre encima: bolso, llaves, gafas, móvil…",
+  "emoji": "👜",
+  "photoQuery": "handbag keys glasses table",
+  "vocab": [
+    { "id": "handbag", "t": "a handbag", "es": "un bolso", "emoji": "👜", "pos": "n",
+      "ex": { "t": "My handbag is on the chair.", "es": "Mi bolso está en la silla." },
+      "note": "En EE. UU.: purse." },
+    { "id": "house-keys", "t": "the keys", "es": "las llaves", "emoji": "🔑", "pos": "n",
+      "ex": { "t": "Where are the keys?", "es": "¿Dónde están las llaves?" } },
+    { "id": "reading-glasses", "t": "glasses", "es": "las gafas", "emoji": "👓", "pos": "n",
+      "ex": { "t": "I need my glasses to read.", "es": "Necesito las gafas para leer." },
+      "note": "Siempre en plural: my glasses are…" },
+    { "id": "mobile-phone", "t": "a mobile (phone)", "es": "un móvil", "emoji": "📱", "pos": "n",
+      "ex": { "t": "My mobile is in my bag.", "es": "Mi móvil está en el bolso." },
+      "note": "En EE. UU.: cell phone." },
+    { "id": "purse", "t": "a purse", "es": "un monedero", "emoji": "👛", "pos": "n",
+      "ex": { "t": "I've got ten euros in my purse.", "es": "Tengo diez euros en el monedero." },
+      "note": "¡Ojo! En EE. UU. purse es «bolso». Cartera de hombre: wallet." },
+    { "id": "umbrella", "t": "an umbrella", "es": "un paraguas", "emoji": "☂️", "pos": "n",
+      "ex": { "t": "Take an umbrella. It's raining.", "es": "Coge un paraguas. Está lloviendo." } },
+    { "id": "wristwatch", "t": "a watch", "es": "un reloj (de pulsera)", "emoji": "⌚", "pos": "n",
+      "ex": { "t": "This watch is from Hugo.", "es": "Este reloj es de Hugo." },
+      "note": "Reloj de pared: a clock." },
+    { "id": "tissues", "t": "tissues", "es": "pañuelos de papel", "emoji": "🤧", "pos": "n",
+      "ex": { "t": "Have you got any tissues?", "es": "¿Tienes pañuelos de papel?" } },
+    { "id": "carpet", "t": "a carpet", "es": "una alfombra / moqueta", "emoji": "🟫", "pos": "n",
+      "ex": { "t": "My keys are on the carpet!", "es": "¡Mis llaves están en la alfombra!" },
+      "note": "¡Ojo, falso amigo! Carpet NO es carpeta. Carpeta = folder." },
+    { "id": "whats-in-your-bag", "t": "What's in your bag?", "es": "¿Qué llevas en el bolso?", "emoji": "❓", "pos": "phrase",
+      "ex": { "t": "What's in your bag, Mum?", "es": "¿Qué llevas en el bolso, mamá?" } }
+  ],
+  "grammar": "en-g-articles",
+  "pron": {
+    "title": "La «a» flojita (schwa)",
+    "tip": "En una frase, a y an casi no suenan: son una «e» muy corta y relajada, como un suspiro. No digas «ei bag», di «ə bag». Fíjate: «a name» y «an aim» suenan casi igual; solo cambia dónde va la n.",
+    "words": ["a bag", "an umbrella", "a watch", "an apple"],
+    "pairs": [["a name", "an aim"], ["a nice cream", "an ice cream"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "I've got ___ umbrella in my bag.", "es": "Llevo un paraguas en el bolso.", "options": ["a", "an"], "answer": "an", "why": "Umbrella empieza por sonido de vocal: an umbrella.", "g": "en-g-articles" },
+    { "id": "e2", "type": "choose", "q": "Is that ___ new watch?", "es": "¿Es ese un reloj nuevo?", "options": ["a", "an"], "answer": "a", "why": "New empieza por consonante: a new watch.", "g": "en-g-articles" },
+    { "id": "e3", "type": "fill", "q": "Where are my ___? I can't read the menu!", "es": "¿Dónde están mis gafas? ¡No puedo leer la carta!", "answer": ["glasses"], "bank": ["glasses", "glass", "keys"], "why": "Gafas = glasses, siempre en plural.", "g": "en-g-plurals" },
+    { "id": "e4", "type": "fill", "q": "My ___ is in my bag. Call me!", "es": "Mi móvil está en el bolso. ¡Llámame!", "answer": ["mobile", "phone", "mobile phone"], "bank": ["mobile", "purse", "umbrella"], "why": "Para llamar a alguien necesitas el móvil: mobile." },
+    { "id": "e5", "type": "match", "pairs": [["handbag", "bolso"], ["purse", "monedero"], ["keys", "llaves"], ["watch", "reloj"], ["tissues", "pañuelos de papel"]] },
+    { "id": "e6", "type": "situation", "context": "Vas a salir de casa y está lloviendo. Tu marido te dice algo.", "emoji": "🌧️", "options": ["Take an umbrella!", "Take your glasses!", "Take a tissue!"], "answer": "Take an umbrella!", "why": "Cuando llueve se lleva paraguas: umbrella." },
+    { "id": "e7", "type": "reading", "kind": "message", "title": "WhatsApp de Hugo", "text": "Hi Mum! I think my keys are at your house. Are they in the kitchen? And my black umbrella? Love, Hugo x", "questions": [
+        { "q": "¿Qué cree Hugo que se ha dejado en casa de su madre?", "options": ["Las llaves", "El móvil", "Las gafas"], "answer": "Las llaves" },
+        { "q": "¿De qué color es su paraguas?", "options": ["Negro", "Rojo", "Azul"], "answer": "Negro" }
+      ] },
+    { "id": "e8", "type": "minimal", "pair": ["a name", "an aim"], "answer": "an aim", "es": ["un nombre", "un objetivo"], "why": "Escucha dónde va la n: «an aim» tiene la n delante de la vocal." },
+    { "id": "e9", "type": "minimal", "pair": ["a nice cream", "an ice cream"], "answer": "an ice cream", "es": ["una crema buena", "un helado"], "why": "En «an ice cream» la n va pegada a an; en «a nice cream» empieza la palabra nice." },
+    { "id": "e10", "type": "speak", "t": "What's in your bag?", "es": "¿Qué llevas en el bolso?" },
+    { "id": "e11", "type": "order", "es": "Tengo un paraguas y un monedero", "answer": "I've got an umbrella and a purse", "extra": ["the"], "why": "an umbrella (vocal) y a purse (consonante).", "g": "en-g-articles" },
+    { "id": "e12", "type": "error", "q": "I've got a umbrella.", "wrong": "a", "fix": "an", "why": "Umbrella empieza por vocal: an umbrella.", "g": "en-g-articles" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "Mis llaves están en el bolso.", "answer": ["My keys are in my bag.", "My keys are in the bag.", "My keys are in my handbag.", "My keys are in the handbag."], "why": "Keys es plural: are. En inglés se suele decir «my bag» en lugar de «el bolso»." },
+    { "id": "e14", "type": "choose", "q": "I haven't got a watch. I look at my ___.", "es": "No tengo reloj. Miro el móvil.", "options": ["phone", "purse", "tissues"], "answer": "phone", "why": "Para ver la hora sin reloj, miramos el móvil." },
+    { "id": "e15", "type": "choose", "q": "The doctor's papers are in a blue ___.", "es": "Los papeles del médico están en una carpeta azul.", "options": ["folder", "carpet"], "answer": "folder", "why": "¡Falso amigo! Carpeta = folder. Carpet es alfombra." }
+  ],
+  "dialog": {
+    "title": "¿Dónde están mis gafas?",
+    "setting": "En casa de Yolanda, antes de salir hacia el mercado",
+    "emoji": "👓",
+    "lines": [
+      { "who": "Yolanda", "t": "Hugo, where are my glasses?", "es": "Hugo, ¿dónde están mis gafas?" },
+      { "who": "Hugo", "t": "Are they in your bag?", "es": "¿Están en tu bolso?" },
+      { "who": "Yolanda", "t": "No. My purse and my keys are here.", "es": "No. Aquí están mi monedero y mis llaves." },
+      { "who": "Hugo", "t": "And your mobile?", "es": "¿Y tu móvil?" },
+      { "who": "Yolanda", "t": "Yes, the mobile is here too.", "es": "Sí, el móvil también está aquí." },
+      { "who": "Hugo", "t": "Mum… your glasses are on your head!", "es": "Mamá… ¡tienes las gafas en la cabeza!" },
+      { "who": "Yolanda", "t": "Oh no! Thank you, love.", "es": "¡Ay, no! Gracias, cariño." }
+    ],
+    "questions": [
+      { "q": "¿Qué busca Yolanda?", "options": ["Las gafas", "Las llaves", "El paraguas"], "answer": "Las gafas" },
+      { "q": "¿Qué hay en el bolso?", "options": ["El monedero, las llaves y el móvil", "Solo el móvil", "Las gafas"], "answer": "El monedero, las llaves y el móvil" },
+      { "q": "¿Dónde están las gafas al final?", "options": ["En su cabeza", "En la cocina", "En el coche"], "answer": "En su cabeza" }
+    ]
+  },
+  "realLife": { "t": "I can't find my keys!", "es": "¡No encuentro las llaves!", "context": "Cuando buscas algo antes de salir de casa (o en el hotel)" },
+  "summary": [
+    "Objetos de cada día: handbag, purse, keys, glasses, mobile, umbrella, watch",
+    "Gafas siempre en plural: my glasses are…",
+    "a + sonido de consonante (a watch), an + sonido de vocal (an umbrella)",
+    "a y an se dicen muy flojito: «ə bag»"
+  ],
+  "reviewed": false
+}

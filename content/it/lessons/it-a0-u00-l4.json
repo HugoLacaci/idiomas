@@ -1,0 +1,515 @@
+{
+  "id": "it-a0-u00-l4",
+  "unit": "it-a0-u00",
+  "title": "Pesce y scusi: el sonido sc",
+  "goal": "a leer sc: «sh» delante de e, i y «sk» delante de a, o, u o de h",
+  "emoji": "🐟",
+  "photoQuery": "fresh fish market italy",
+  "vocab": [
+    {
+      "id": "il-pesce",
+      "t": "il pesce",
+      "es": "el pescado / el pez",
+      "emoji": "🐟",
+      "pos": "n",
+      "ex": {
+        "t": "Oggi c'è pesce fresco.",
+        "es": "Hoy hay pescado fresco."
+      },
+      "note": "Sce suena «she»: «peshe»."
+    },
+    {
+      "id": "la-piscina",
+      "t": "la piscina",
+      "es": "la piscina",
+      "emoji": "🏊",
+      "pos": "n",
+      "ex": {
+        "t": "L'hotel ha una piscina.",
+        "es": "El hotel tiene piscina."
+      }
+    },
+    {
+      "id": "il-prosciutto",
+      "t": "il prosciutto",
+      "es": "el jamón",
+      "emoji": "🍖",
+      "pos": "n",
+      "ex": {
+        "t": "Un panino al prosciutto, per favore.",
+        "es": "Un bocadillo de jamón, por favor."
+      },
+      "note": "La i no suena: «proshutto»."
+    },
+    {
+      "id": "scusi",
+      "t": "scusi",
+      "es": "perdone",
+      "emoji": "🙋‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Scusi, dov'è la stazione?",
+        "es": "Perdone, ¿dónde está la estación?"
+      }
+    },
+    {
+      "id": "la-scuola",
+      "t": "la scuola",
+      "es": "la escuela / el colegio",
+      "emoji": "🏫",
+      "pos": "n",
+      "ex": {
+        "t": "Mia nipote va a scuola.",
+        "es": "Mi nieta va al colegio."
+      }
+    },
+    {
+      "id": "le-scarpe",
+      "t": "le scarpe",
+      "es": "los zapatos",
+      "emoji": "👠",
+      "pos": "n",
+      "ex": {
+        "t": "Belle scarpe!",
+        "es": "¡Qué zapatos tan bonitos!"
+      }
+    },
+    {
+      "id": "lo-sci",
+      "t": "lo sci",
+      "es": "el esquí",
+      "emoji": "⛷️",
+      "pos": "n",
+      "ex": {
+        "t": "Hugo ama lo sci.",
+        "es": "A Hugo le encanta el esquí."
+      }
+    },
+    {
+      "id": "la-sciarpa",
+      "t": "la sciarpa",
+      "es": "la bufanda",
+      "emoji": "🧣",
+      "pos": "n",
+      "ex": {
+        "t": "Una sciarpa di seta.",
+        "es": "Una bufanda de seda."
+      },
+      "note": "Y fíjate: seta en italiano es la seda."
+    },
+    {
+      "id": "non-capisco",
+      "t": "non capisco",
+      "es": "no entiendo",
+      "emoji": "🤷‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Scusi, non capisco.",
+        "es": "Perdone, no entiendo."
+      }
+    }
+  ],
+  "pron": {
+    "title": "sce, sci = «sh» · sca, sco, scu, sche, schi = «sk»",
+    "tip": "Delante de e o i, sc suena como «sh» (pesce = «peshe»). Delante de a, o, u, o con h, suena «sk»: scuola, schiena. En sci + vocal la i no suena: prosciutto = «proshutto».",
+    "words": [
+      "pesce",
+      "piscina",
+      "prosciutto",
+      "scuola",
+      "schiena"
+    ],
+    "pairs": [
+      [
+        "pesce",
+        "pesche"
+      ],
+      [
+        "scena",
+        "schiena"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "minimal",
+      "pair": [
+        "pesce",
+        "pesche"
+      ],
+      "answer": "pesche",
+      "es": [
+        "el pescado",
+        "los melocotones"
+      ],
+      "why": "Pesce suena «peshe»; pesche, con h, suena «peske»."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Oggi mangiamo ___.",
+      "es": "Hoy comemos pescado.",
+      "options": [
+        "pesce",
+        "pesche",
+        "pece"
+      ],
+      "answer": "pesce",
+      "why": "Pesce («peshe») es el pescado; pesche («peske») son melocotones."
+    },
+    {
+      "id": "e3",
+      "type": "speak",
+      "t": "Pesce fresco e pesche dolci!",
+      "es": "¡Pescado fresco y melocotones dulces!"
+    },
+    {
+      "id": "e4",
+      "type": "minimal",
+      "pair": [
+        "scena",
+        "schiena"
+      ],
+      "answer": "scena",
+      "es": [
+        "la escena",
+        "la espalda"
+      ],
+      "why": "Scena suena «shena»; schiena, con h, suena «skiena»."
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "Mia nipote va a ___.",
+      "es": "Mi nieta va al colegio.",
+      "options": [
+        "scuola",
+        "sciuola",
+        "shuola"
+      ],
+      "answer": "scuola",
+      "why": "Delante de u, sc suena «sk»: scuola."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "___, dov'è la stazione?",
+      "es": "Perdone, ¿dónde está la estación?",
+      "answer": [
+        "Scusi"
+      ],
+      "bank": [
+        "Scusi",
+        "Sciusi",
+        "Escusi"
+      ],
+      "why": "Scusi («skusi») = perdone. En italiano no se pone e delante de s + consonante."
+    },
+    {
+      "id": "e7",
+      "type": "match",
+      "pairs": [
+        [
+          "pesce",
+          "pescado"
+        ],
+        [
+          "pesche",
+          "melocotones"
+        ],
+        [
+          "scarpe",
+          "zapatos"
+        ],
+        [
+          "sciarpa",
+          "bufanda"
+        ],
+        [
+          "scuola",
+          "colegio"
+        ]
+      ],
+      "why": "Fíjate en si suenan «sh» o «sk»."
+    },
+    {
+      "id": "e8",
+      "type": "minimal",
+      "pair": [
+        "capisci",
+        "capisco"
+      ],
+      "answer": "capisco",
+      "es": [
+        "entiendes",
+        "entiendo"
+      ],
+      "why": "Capisci termina en «shi»; capisco, en «sko»."
+    },
+    {
+      "id": "e9",
+      "type": "choose",
+      "q": "Un panino al ___, per favore.",
+      "es": "Un bocadillo de jamón, por favor.",
+      "options": [
+        "prosciutto",
+        "proshutto",
+        "proscutto"
+      ],
+      "answer": "prosciutto",
+      "why": "El sonido «shu» se escribe sciu: prosciutto."
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Perdone, no entiendo.",
+      "answer": "Scusi non capisco",
+      "extra": [
+        "pesce"
+      ],
+      "why": "Scusi = perdone; non capisco = no entiendo."
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Un panino al proshutto.",
+      "wrong": "proshutto",
+      "fix": "prosciutto",
+      "es": "Un bocadillo de jamón.",
+      "why": "En italiano no se escribe «sh»: ese sonido es sci delante de a, o, u."
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "q": "Non ___ bene l'italiano.",
+      "es": "No entiendo bien el italiano.",
+      "answer": [
+        "capisco"
+      ],
+      "bank": [
+        "capisco",
+        "capischo",
+        "capiscio"
+      ],
+      "why": "Sco suena «sko»: capisco."
+    },
+    {
+      "id": "e13",
+      "type": "speak",
+      "t": "Scusi, dov'è l'uscita?",
+      "es": "Perdone, ¿dónde está la salida?"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "Hoy hay pescado fresco.",
+      "answer": [
+        "Oggi c'è pesce fresco",
+        "C'è pesce fresco oggi"
+      ],
+      "why": "Hay = c'è; pescado = pesce."
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Una señora te habla muy deprisa en italiano y no la entiendes. ¿Qué le dices?",
+      "emoji": "🤷‍♀️",
+      "options": [
+        "Scusi, non capisco.",
+        "Grazie mille!",
+        "Belle scarpe!"
+      ],
+      "answer": "Scusi, non capisco.",
+      "why": "Para decir que no entiendes: Scusi, non capisco."
+    },
+    {
+      "id": "e16",
+      "type": "minimal",
+      "pair": [
+        "conosce",
+        "conosco"
+      ],
+      "answer": "conosce",
+      "es": [
+        "conoce",
+        "conozco"
+      ],
+      "why": "Conosce termina en «she»; conosco, en «sko»."
+    },
+    {
+      "id": "e17",
+      "type": "order",
+      "es": "El hotel tiene piscina.",
+      "answer": "L'hotel ha una piscina",
+      "extra": [
+        "pesce"
+      ],
+      "why": "Piscina se escribe y se dice casi como en español: «pishina»."
+    },
+    {
+      "id": "e18",
+      "type": "translate",
+      "dir": "from",
+      "q": "Belle scarpe!",
+      "answer": [
+        "¡Qué zapatos tan bonitos!",
+        "Bonitos zapatos",
+        "Qué zapatos más bonitos",
+        "Zapatos bonitos"
+      ],
+      "why": "Scarpe = zapatos; belle = bonitas."
+    },
+    {
+      "id": "e19",
+      "type": "speak",
+      "t": "Una sciarpa per mia nipote.",
+      "es": "Una bufanda para mi nieta."
+    },
+    {
+      "id": "e20",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Al mercato",
+      "text": "PESCE FRESCO\nPesche: 2 € al chilo\nUscita →",
+      "questions": [
+        {
+          "q": "¿Qué venden fresco?",
+          "options": [
+            "Pescado",
+            "Jamón",
+            "Zapatos"
+          ],
+          "answer": "Pescado"
+        },
+        {
+          "q": "¿Qué significa «Uscita»?",
+          "options": [
+            "Salida",
+            "Entrada",
+            "Escuela"
+          ],
+          "answer": "Salida"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "title": "En el mercado",
+    "setting": "En un puesto de pescado de un mercado de Roma",
+    "emoji": "🐟",
+    "lines": [
+      {
+        "who": "Franco",
+        "t": "Buongiorno, signora! Pesce fresco!",
+        "es": "¡Buenos días, señora! ¡Pescado fresco!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Scusi, che pesce è questo?",
+        "es": "Perdone, ¿qué pescado es este?"
+      },
+      {
+        "who": "Franco",
+        "t": "È orata. Buonissima!",
+        "es": "Es dorada. ¡Buenísima!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Scusi, non capisco. Orata?",
+        "es": "Perdone, no entiendo. ¿Orata?"
+      },
+      {
+        "who": "Franco",
+        "t": "Sì, orata. In spagnolo... dorada!",
+        "es": "Sí, orata. En español… ¡dorada!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Ah, capisco! Due, per favore.",
+        "es": "¡Ah, entiendo! Dos, por favor."
+      },
+      {
+        "who": "Franco",
+        "t": "Ecco a Lei. Buona giornata!",
+        "es": "Aquí tiene. ¡Que tenga buen día!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie, buona giornata!",
+        "es": "¡Gracias, buen día!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué compra Yolanda?",
+        "options": [
+          "Dorada",
+          "Melocotones",
+          "Jamón"
+        ],
+        "answer": "Dorada"
+      },
+      {
+        "q": "¿Qué dice Yolanda cuando no entiende?",
+        "options": [
+          "Scusi, non capisco",
+          "Grazie mille",
+          "Prego"
+        ],
+        "answer": "Scusi, non capisco"
+      },
+      {
+        "q": "¿Cuántas compra?",
+        "options": [
+          "Dos",
+          "Una",
+          "Cinco"
+        ],
+        "answer": "Dos"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Scusi, può ripetere?",
+    "es": "Perdone, ¿puede repetir?",
+    "context": "Cuando no has entendido algo y quieres que te lo repitan"
+  },
+  "same": {
+    "text": "Igual que en español, pero sin la e del principio: scuola = escuela, sci = esquí.",
+    "examples": [
+      {
+        "t": "la piscina",
+        "es": "la piscina"
+      },
+      {
+        "t": "la scuola",
+        "es": "la escuela"
+      },
+      {
+        "t": "lo sci",
+        "es": "el esquí"
+      },
+      {
+        "t": "la scena",
+        "es": "la escena"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "subito",
+    "means": "enseguida, ahora mismo",
+    "looksLike": "súbito (de repente)",
+    "emoji": "⏱️",
+    "tip": "Si el camarero dice «Subito!», te está diciendo «¡Ahora mismo!». Nada repentino: ¡solo que ya viene!"
+  },
+  "summary": [
+    "sce, sci suenan «sh»: pesce, piscina",
+    "sca, sco, scu suenan «sk»: scuola, scusi",
+    "sche, schi también suenan «sk»: pesche, schiena",
+    "Para no perderte: Scusi, non capisco"
+  ],
+  "reviewed": false,
+  "photo": "it-a0-u00-l4"
+}

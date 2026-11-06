@@ -1,0 +1,59 @@
+{
+  "id": "it-a2-u08-c3",
+  "unit": "it-a2-u08",
+  "title": "Ahora la malita es Giulia",
+  "setting": "Giulia te escribe por WhatsApp: se ha puesto mala y te pide consejos",
+  "emoji": "🤒",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda… oggi sto male. Ho la febbre!", "es": "Hola, Yolanda… hoy estoy mala. ¡Tengo fiebre!" },
+      "options": [
+        { "t": "Oh no! Stai a letto e riposati.", "es": "¡Oh, no! Quédate en la cama y descansa.", "next": "n2", "ok": true },
+        { "t": "Oh no! Stia a letto e si riposi.", "es": "¡Oh, no! Quédese en la cama y descanse.", "next": "n2", "ok": false, "feedback": "Giulia es tu amiga: de tú. Stai a letto e riposati." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Ma devo andare al lavoro…", "es": "Pero tengo que ir al trabajo…" },
+      "options": [
+        { "t": "Non andare! Chiama in ufficio.", "es": "¡No vayas! Llama a la oficina.", "next": "n3", "ok": true },
+        { "t": "Non vai! Chiama in ufficio.", "es": "¡No vayas! Llama a la oficina.", "next": "n3", "ok": false, "feedback": "Negativo con tú: non + infinitivo → non andare." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Hai ragione. E la medicina? Ne ho una qui.", "es": "Tienes razón. ¿Y la medicina? Tengo una aquí." },
+      "options": [
+        { "t": "Leggi il foglietto e prendila dopo pranzo.", "es": "Lee el prospecto y tómatela después de comer.", "next": "n4", "ok": true },
+        { "t": "Leggi il foglietto e la prendi dopo pranzo.", "es": "Lee el prospecto y te la tomas después de comer.", "next": "n4", "ok": false, "feedback": "En el imperativo de tú, el pronombre va pegado: prendila." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ok. Mi sento anche molto stanca.", "es": "Vale. También me siento muy cansada." },
+      "options": [
+        { "t": "Dormi un po' e bevi tanta acqua.", "es": "Duerme un poco y bebe mucha agua.", "next": "n5", "ok": true },
+        { "t": "Dorma un po' e beva tanta acqua.", "es": "Duerma un poco y beba mucha agua.", "next": "n5", "ok": false, "feedback": "Eso es de usted. A Giulia: dormi, bevi." },
+        { "t": "Non dormire troppo, guarda la tele.", "es": "No duermas demasiado, mira la tele.", "next": "n5", "ok": false, "feedback": "Bien construido, pero con fiebre lo mejor es descansar: dormi un po'." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Grazie, sei come una mamma!", "es": "¡Gracias, eres como una madre!" },
+      "options": [
+        { "t": "Ahah! Fammi sapere come stai stasera.", "es": "¡Jaja! Dime cómo estás esta noche.", "next": "n6", "ok": true },
+        { "t": "Ahah! Fami sapere come stai stasera.", "es": "¡Jaja! Dime cómo estás esta noche.", "next": "n6", "ok": false, "feedback": "Fa' + mi dobla la m: fammi." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Certo. Un abbraccio!", "es": "Claro. ¡Un abrazo!" },
+      "options": [
+        { "t": "Un abbraccio a te. Buona guarigione!", "es": "Otro para ti. ¡Que te mejores!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

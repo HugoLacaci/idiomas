@@ -1,0 +1,1051 @@
+[
+  {
+    "id": "en-a1-u01",
+    "lang": "en",
+    "level": "A1",
+    "n": 1,
+    "title": "Hola, soy Yolanda",
+    "theme": "Presentarse, saludar, países",
+    "emoji": "👋",
+    "stop": {
+      "name": "Trafalgar Square",
+      "curiosity": "La columna de Nelson recuerda la batalla de Trafalgar (1805), contra la flota franco-española.",
+      "photo": "stop-en-a1-u01"
+    },
+    "grammar": [
+      "en-g-to-be",
+      "en-g-subject-pronouns"
+    ],
+    "lessons": [
+      "en-a1-u01-l1",
+      "en-a1-u01-l2",
+      "en-a1-u01-l3",
+      "en-a1-u01-l4",
+      "en-a1-u01-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Hola, soy Yolanda",
+      "badge": "Saludos",
+      "badgeEmoji": "🤝"
+    },
+    "chats": [
+      "en-a1-u01-c1",
+      "en-a1-u01-c2",
+      "en-a1-u01-c3"
+    ]
+  },
+  {
+    "id": "en-a1-u02",
+    "lang": "en",
+    "level": "A1",
+    "n": 2,
+    "title": "Mi familia",
+    "theme": "La familia: hijos, nietos, pareja",
+    "emoji": "👨‍👩‍👧‍👦",
+    "stop": {
+      "name": "Buckingham Palace",
+      "curiosity": "Cuando el rey está dentro ondea el estandarte real en lugar de la bandera británica.",
+      "photo": "stop-en-a1-u02"
+    },
+    "grammar": [
+      "en-g-possessive-adj",
+      "en-g-possessive-s",
+      "en-g-have-got"
+    ],
+    "lessons": [
+      "en-a1-u02-l1",
+      "en-a1-u02-l2",
+      "en-a1-u02-l3",
+      "en-a1-u02-l4",
+      "en-a1-u02-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Mi familia",
+      "badge": "Familia",
+      "badgeEmoji": "💂"
+    },
+    "chats": [
+      "en-a1-u02-c1",
+      "en-a1-u02-c2",
+      "en-a1-u02-c3"
+    ]
+  },
+  {
+    "id": "en-a1-u03",
+    "lang": "en",
+    "level": "A1",
+    "n": 3,
+    "title": "Cosas de todos los días",
+    "theme": "Objetos personales y de la casa",
+    "emoji": "👜",
+    "stop": {
+      "name": "Westminster y Big Ben",
+      "curiosity": "Big Ben es el nombre de la campana; la torre se llama Elizabeth Tower desde 2012.",
+      "photo": "stop-en-a1-u03"
+    },
+    "grammar": [
+      "en-g-articles",
+      "en-g-plurals",
+      "en-g-demonstratives"
+    ],
+    "lessons": [
+      "en-a1-u03-l1",
+      "en-a1-u03-l2",
+      "en-a1-u03-l3",
+      "en-a1-u03-l4",
+      "en-a1-u03-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Cosas de todos los días",
+      "badge": "Cosas",
+      "badgeEmoji": "🔔"
+    },
+    "chats": [
+      "en-a1-u03-c1",
+      "en-a1-u03-c2",
+      "en-a1-u03-c3"
+    ]
+  },
+  {
+    "id": "en-a1-u04",
+    "lang": "en",
+    "level": "A1",
+    "n": 4,
+    "title": "Mi casa",
+    "theme": "La casa y los muebles",
+    "emoji": "🏠",
+    "stop": {
+      "name": "Notting Hill",
+      "curiosity": "Cada agosto acoge uno de los carnavales callejeros más grandes de Europa.",
+      "photo": "stop-en-a1-u04"
+    },
+    "grammar": [
+      "en-g-there-is-are",
+      "en-g-prep-place"
+    ],
+    "lessons": [
+      "en-a1-u04-l1",
+      "en-a1-u04-l2",
+      "en-a1-u04-l3",
+      "en-a1-u04-l4",
+      "en-a1-u04-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Mi casa",
+      "badge": "Hogar",
+      "badgeEmoji": "🏡"
+    },
+    "chats": [
+      "en-a1-u04-c1",
+      "en-a1-u04-c2",
+      "en-a1-u04-c3"
+    ]
+  },
+  {
+    "id": "en-a1-u05",
+    "lang": "en",
+    "level": "A1",
+    "n": 5,
+    "title": "Números, horas y fechas",
+    "theme": "Edad, precios, la hora, días y meses",
+    "emoji": "🕒",
+    "stop": {
+      "name": "Greenwich",
+      "curiosity": "Por aquí pasa el meridiano 0 y de aquí viene la hora GMT.",
+      "photo": "stop-en-a1-u05"
+    },
+    "grammar": [
+      "en-g-prep-time",
+      "en-g-how-old"
+    ],
+    "lessons": [
+      "en-a1-u05-l1",
+      "en-a1-u05-l2",
+      "en-a1-u05-l3",
+      "en-a1-u05-l4",
+      "en-a1-u05-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Números, horas y fechas",
+      "badge": "Hora exacta",
+      "badgeEmoji": "🕰️"
+    },
+    "chats": [
+      "en-a1-u05-c1",
+      "en-a1-u05-c2",
+      "en-a1-u05-c3"
+    ]
+  },
+  {
+    "id": "en-a1-u06",
+    "lang": "en",
+    "level": "A1",
+    "n": 6,
+    "title": "Mi día",
+    "theme": "Rutina diaria (yo, tú, nosotros)",
+    "emoji": "☀️",
+    "stop": {
+      "name": "St Paul's Cathedral",
+      "curiosity": "La reconstruyó Christopher Wren tras el Gran Incendio de Londres de 1666.",
+      "photo": "stop-en-a1-u06"
+    },
+    "grammar": [
+      "en-g-present-simple"
+    ],
+    "lessons": [
+      "en-a1-u06-l1",
+      "en-a1-u06-l2",
+      "en-a1-u06-l3",
+      "en-a1-u06-l4",
+      "en-a1-u06-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Mi día",
+      "badge": "Rutina",
+      "badgeEmoji": "⛪"
+    },
+    "chats": [
+      "en-a1-u06-c1",
+      "en-a1-u06-c2",
+      "en-a1-u06-c3"
+    ]
+  },
+  {
+    "id": "en-a1-u07",
+    "lang": "en",
+    "level": "A1",
+    "n": 7,
+    "title": "Él trabaja, ella vive",
+    "theme": "Hablar de otras personas: trabajo y hábitos",
+    "emoji": "💼",
+    "stop": {
+      "name": "Camden Market",
+      "curiosity": "Sus mercadillos se extienden junto al canal de Regent's Canal.",
+      "photo": "stop-en-a1-u07"
+    },
+    "grammar": [
+      "en-g-present-simple-3rd",
+      "en-g-do-does"
+    ],
+    "lessons": [
+      "en-a1-u07-l1",
+      "en-a1-u07-l2",
+      "en-a1-u07-l3",
+      "en-a1-u07-l4",
+      "en-a1-u07-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Él trabaja, ella vive",
+      "badge": "Trabajo",
+      "badgeEmoji": "🛍️"
+    },
+    "chats": [
+      "en-a1-u07-c1",
+      "en-a1-u07-c2",
+      "en-a1-u07-c3"
+    ]
+  },
+  {
+    "id": "en-a1-u08",
+    "lang": "en",
+    "level": "A1",
+    "n": 8,
+    "title": "¿Con qué frecuencia?",
+    "theme": "Aficiones y el tiempo que hace",
+    "emoji": "🌦️",
+    "stop": {
+      "name": "Hyde Park",
+      "curiosity": "En su Speakers' Corner cualquiera puede subirse a hablar en público.",
+      "photo": "stop-en-a1-u08"
+    },
+    "grammar": [
+      "en-g-adverbs-frequency"
+    ],
+    "lessons": [
+      "en-a1-u08-l1",
+      "en-a1-u08-l2",
+      "en-a1-u08-l3",
+      "en-a1-u08-l4",
+      "en-a1-u08-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: ¿Con qué frecuencia?",
+      "badge": "Frecuencia",
+      "badgeEmoji": "🌳"
+    },
+    "chats": [
+      "en-a1-u08-c1",
+      "en-a1-u08-c2",
+      "en-a1-u08-c3"
+    ]
+  },
+  {
+    "id": "en-a1-u09",
+    "lang": "en",
+    "level": "A1",
+    "n": 9,
+    "title": "¿Qué le pongo?",
+    "theme": "Comida, bebida, cafetería y restaurante",
+    "emoji": "🍽️",
+    "stop": {
+      "name": "Borough Market",
+      "curiosity": "Es uno de los mercados de comida más antiguos de Londres.",
+      "photo": "stop-en-a1-u09"
+    },
+    "grammar": [
+      "en-g-would-like",
+      "en-g-wh-questions"
+    ],
+    "lessons": [
+      "en-a1-u09-l1",
+      "en-a1-u09-l2",
+      "en-a1-u09-l3",
+      "en-a1-u09-l4",
+      "en-a1-u09-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: ¿Qué le pongo?",
+      "badge": "Buen provecho",
+      "badgeEmoji": "🧀"
+    },
+    "chats": [
+      "en-a1-u09-c1",
+      "en-a1-u09-c2",
+      "en-a1-u09-c3"
+    ]
+  },
+  {
+    "id": "en-a1-u10",
+    "lang": "en",
+    "level": "A1",
+    "n": 10,
+    "title": "Sé hacer muchas cosas",
+    "theme": "Habilidades y aficiones",
+    "emoji": "🎨",
+    "stop": {
+      "name": "South Bank y London Eye",
+      "curiosity": "La noria mide 135 m y se inauguró para celebrar el año 2000.",
+      "photo": "stop-en-a1-u10"
+    },
+    "grammar": [
+      "en-g-can"
+    ],
+    "lessons": [
+      "en-a1-u10-l1",
+      "en-a1-u10-l2",
+      "en-a1-u10-l3",
+      "en-a1-u10-l4",
+      "en-a1-u10-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Sé hacer muchas cosas",
+      "badge": "Habilidades",
+      "badgeEmoji": "🎡"
+    },
+    "chats": [
+      "en-a1-u10-c1",
+      "en-a1-u10-c2",
+      "en-a1-u10-c3"
+    ]
+  },
+  {
+    "id": "en-a1-u11",
+    "lang": "en",
+    "level": "A1",
+    "n": 11,
+    "title": "Por la ciudad",
+    "theme": "Pedir y dar direcciones, transporte",
+    "emoji": "🗺️",
+    "stop": {
+      "name": "Piccadilly Circus",
+      "curiosity": "Su nombre viene de los piccadills, cuellos de encaje que vendía un sastre del siglo XVII.",
+      "photo": "stop-en-a1-u11"
+    },
+    "grammar": [
+      "en-g-imperative",
+      "en-g-lets"
+    ],
+    "lessons": [
+      "en-a1-u11-l1",
+      "en-a1-u11-l2",
+      "en-a1-u11-l3",
+      "en-a1-u11-l4",
+      "en-a1-u11-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Por la ciudad",
+      "badge": "Orientación",
+      "badgeEmoji": "🧭"
+    },
+    "chats": [
+      "en-a1-u11-c1",
+      "en-a1-u11-c2",
+      "en-a1-u11-c3"
+    ]
+  },
+  {
+    "id": "en-a1-u12",
+    "lang": "en",
+    "level": "A1",
+    "n": 12,
+    "title": "Repaso en Covent Garden",
+    "theme": "Conversación completa: presentarse, preguntar, contestar",
+    "emoji": "💬",
+    "stop": {
+      "name": "Covent Garden",
+      "curiosity": "Su nombre viene del \"convent garden\", el huerto de los monjes de la abadía de Westminster.",
+      "photo": "stop-en-a1-u12"
+    },
+    "grammar": [
+      "en-g-word-order",
+      "en-g-short-answers"
+    ],
+    "lessons": [
+      "en-a1-u12-l1",
+      "en-a1-u12-l2",
+      "en-a1-u12-l3",
+      "en-a1-u12-l4",
+      "en-a1-u12-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Repaso en Covent Garden",
+      "badge": "Conversación",
+      "badgeEmoji": "🎭"
+    },
+    "chats": [
+      "en-a1-u12-c1",
+      "en-a1-u12-c2",
+      "en-a1-u12-c3"
+    ]
+  },
+  {
+    "id": "en-a2-u01",
+    "lang": "en",
+    "level": "A2",
+    "n": 1,
+    "title": "¿Qué estás haciendo?",
+    "theme": "Lo que pasa ahora vs lo habitual; mensajes",
+    "emoji": "📱",
+    "stop": {
+      "name": "Tower Bridge",
+      "curiosity": "Muchos turistas lo confunden con London Bridge, que es un puente mucho más sencillo.",
+      "photo": "stop-en-a2-u01"
+    },
+    "grammar": [
+      "en-g-present-continuous",
+      "en-g-simple-vs-continuous"
+    ],
+    "lessons": [
+      "en-a2-u01-l1",
+      "en-a2-u01-l2",
+      "en-a2-u01-l3",
+      "en-a2-u01-l4",
+      "en-a2-u01-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: ¿Qué estás haciendo?",
+      "badge": "Ahora mismo",
+      "badgeEmoji": "🌉"
+    },
+    "chats": [
+      "en-a2-u01-c1",
+      "en-a2-u01-c2",
+      "en-a2-u01-c3"
+    ]
+  },
+  {
+    "id": "en-a2-u02",
+    "lang": "en",
+    "level": "A2",
+    "n": 2,
+    "title": "En el supermercado",
+    "theme": "Comprar comida, cantidades, envases",
+    "emoji": "🛒",
+    "stop": {
+      "name": "Portobello Road",
+      "curiosity": "Los sábados se llena con su famoso mercado de antigüedades.",
+      "photo": "stop-en-a2-u02"
+    },
+    "grammar": [
+      "en-g-countable-uncountable",
+      "en-g-some-any",
+      "en-g-much-many"
+    ],
+    "lessons": [
+      "en-a2-u02-l1",
+      "en-a2-u02-l2",
+      "en-a2-u02-l3",
+      "en-a2-u02-l4",
+      "en-a2-u02-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: En el supermercado",
+      "badge": "Compras",
+      "badgeEmoji": "🥫"
+    },
+    "chats": [
+      "en-a2-u02-c1",
+      "en-a2-u02-c2",
+      "en-a2-u02-c3"
+    ]
+  },
+  {
+    "id": "en-a2-u03",
+    "lang": "en",
+    "level": "A2",
+    "n": 3,
+    "title": "Ropa y tallas",
+    "theme": "Comprar ropa, comparar",
+    "emoji": "👗",
+    "stop": {
+      "name": "Oxford Street",
+      "curiosity": "Es una de las calles comerciales con más tráfico de peatones de Europa.",
+      "photo": "stop-en-a2-u03"
+    },
+    "grammar": [
+      "en-g-comparatives",
+      "en-g-superlatives",
+      "en-g-adjective-order"
+    ],
+    "lessons": [
+      "en-a2-u03-l1",
+      "en-a2-u03-l2",
+      "en-a2-u03-l3",
+      "en-a2-u03-l4",
+      "en-a2-u03-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Ropa y tallas",
+      "badge": "Moda",
+      "badgeEmoji": "🛍️"
+    },
+    "chats": [
+      "en-a2-u03-c1",
+      "en-a2-u03-c2",
+      "en-a2-u03-c3"
+    ]
+  },
+  {
+    "id": "en-a2-u04",
+    "lang": "en",
+    "level": "A2",
+    "n": 4,
+    "title": "El fin de semana pasado",
+    "theme": "Contar lo que hiciste",
+    "emoji": "📅",
+    "stop": {
+      "name": "Edimburgo",
+      "curiosity": "Su castillo se alza sobre la roca de un antiguo volcán apagado.",
+      "photo": "stop-en-a2-u04"
+    },
+    "grammar": [
+      "en-g-past-be",
+      "en-g-past-simple-regular"
+    ],
+    "lessons": [
+      "en-a2-u04-l1",
+      "en-a2-u04-l2",
+      "en-a2-u04-l3",
+      "en-a2-u04-l4",
+      "en-a2-u04-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: El fin de semana pasado",
+      "badge": "Fin de semana",
+      "badgeEmoji": "🏰"
+    },
+    "chats": [
+      "en-a2-u04-c1",
+      "en-a2-u04-c2",
+      "en-a2-u04-c3"
+    ]
+  },
+  {
+    "id": "en-a2-u05",
+    "lang": "en",
+    "level": "A2",
+    "n": 5,
+    "title": "Historias y recuerdos",
+    "theme": "Narrar viajes y anécdotas",
+    "emoji": "📖",
+    "stop": {
+      "name": "York",
+      "curiosity": "Los vikingos la llamaron Jorvik y aún conserva gran parte de su muralla.",
+      "photo": "stop-en-a2-u05"
+    },
+    "grammar": [
+      "en-g-past-simple-irregular",
+      "en-g-past-did"
+    ],
+    "lessons": [
+      "en-a2-u05-l1",
+      "en-a2-u05-l2",
+      "en-a2-u05-l3",
+      "en-a2-u05-l4",
+      "en-a2-u05-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Historias y recuerdos",
+      "badge": "Historias",
+      "badgeEmoji": "🛡️"
+    },
+    "chats": [
+      "en-a2-u05-c1",
+      "en-a2-u05-c2",
+      "en-a2-u05-c3"
+    ]
+  },
+  {
+    "id": "en-a2-u06",
+    "lang": "en",
+    "level": "A2",
+    "n": 6,
+    "title": "Mis planes",
+    "theme": "Planes, vacaciones, predicciones",
+    "emoji": "🧳",
+    "stop": {
+      "name": "Oxford",
+      "curiosity": "Tiene la universidad más antigua del mundo de habla inglesa.",
+      "photo": "stop-en-a2-u06"
+    },
+    "grammar": [
+      "en-g-going-to",
+      "en-g-will"
+    ],
+    "lessons": [
+      "en-a2-u06-l1",
+      "en-a2-u06-l2",
+      "en-a2-u06-l3",
+      "en-a2-u06-l4",
+      "en-a2-u06-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Mis planes",
+      "badge": "Planes",
+      "badgeEmoji": "🎓"
+    },
+    "chats": [
+      "en-a2-u06-c1",
+      "en-a2-u06-c2",
+      "en-a2-u06-c3"
+    ]
+  },
+  {
+    "id": "en-a2-u07",
+    "lang": "en",
+    "level": "A2",
+    "n": 7,
+    "title": "Me encanta bailar",
+    "theme": "Gustos y aficiones con verbos",
+    "emoji": "💃",
+    "stop": {
+      "name": "Liverpool",
+      "curiosity": "Es la ciudad de los Beatles, que tocaban en el Cavern Club.",
+      "photo": "stop-en-a2-u07"
+    },
+    "grammar": [
+      "en-g-like-ing",
+      "en-g-object-pronouns"
+    ],
+    "lessons": [
+      "en-a2-u07-l1",
+      "en-a2-u07-l2",
+      "en-a2-u07-l3",
+      "en-a2-u07-l4",
+      "en-a2-u07-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Me encanta bailar",
+      "badge": "Aficiones",
+      "badgeEmoji": "🎸"
+    },
+    "chats": [
+      "en-a2-u07-c1",
+      "en-a2-u07-c2",
+      "en-a2-u07-c3"
+    ]
+  },
+  {
+    "id": "en-a2-u08",
+    "lang": "en",
+    "level": "A2",
+    "n": 8,
+    "title": "En el médico",
+    "theme": "Salud, cuerpo, farmacia, consejos",
+    "emoji": "🩺",
+    "stop": {
+      "name": "Bath",
+      "curiosity": "Conserva unas termas romanas construidas sobre aguas calientes naturales.",
+      "photo": "stop-en-a2-u08"
+    },
+    "grammar": [
+      "en-g-must-have-to",
+      "en-g-should"
+    ],
+    "lessons": [
+      "en-a2-u08-l1",
+      "en-a2-u08-l2",
+      "en-a2-u08-l3",
+      "en-a2-u08-l4",
+      "en-a2-u08-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: En el médico",
+      "badge": "Salud",
+      "badgeEmoji": "♨️"
+    },
+    "chats": [
+      "en-a2-u08-c1",
+      "en-a2-u08-c2",
+      "en-a2-u08-c3"
+    ]
+  },
+  {
+    "id": "en-a2-u09",
+    "lang": "en",
+    "level": "A2",
+    "n": 9,
+    "title": "Al teléfono",
+    "theme": "Llamadas, mensajes, pedir favores",
+    "emoji": "☎️",
+    "stop": {
+      "name": "Dublín",
+      "curiosity": "El Libro de Kells, un manuscrito medieval decorado, se guarda en el Trinity College.",
+      "photo": "stop-en-a2-u09"
+    },
+    "grammar": [
+      "en-g-adverbs-manner",
+      "en-g-could-requests"
+    ],
+    "lessons": [
+      "en-a2-u09-l1",
+      "en-a2-u09-l2",
+      "en-a2-u09-l3",
+      "en-a2-u09-l4",
+      "en-a2-u09-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Al teléfono",
+      "badge": "Teléfono",
+      "badgeEmoji": "📜"
+    },
+    "chats": [
+      "en-a2-u09-c1",
+      "en-a2-u09-c2",
+      "en-a2-u09-c3"
+    ]
+  },
+  {
+    "id": "en-a2-u10",
+    "lang": "en",
+    "level": "A2",
+    "n": 10,
+    "title": "Aeropuerto y hotel",
+    "theme": "Volar, alojarse, quejarse con educación",
+    "emoji": "✈️",
+    "stop": {
+      "name": "Nueva York",
+      "curiosity": "La Estatua de la Libertad fue un regalo de Francia inaugurado en 1886.",
+      "photo": "stop-en-a2-u10"
+    },
+    "grammar": [
+      "en-g-too-enough",
+      "en-g-prep-movement"
+    ],
+    "lessons": [
+      "en-a2-u10-l1",
+      "en-a2-u10-l2",
+      "en-a2-u10-l3",
+      "en-a2-u10-l4",
+      "en-a2-u10-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Aeropuerto y hotel",
+      "badge": "Viajera",
+      "badgeEmoji": "🗽"
+    },
+    "chats": [
+      "en-a2-u10-c1",
+      "en-a2-u10-c2",
+      "en-a2-u10-c3"
+    ]
+  },
+  {
+    "id": "en-b1-u01",
+    "lang": "en",
+    "level": "B1",
+    "n": 1,
+    "title": "¿Has estado alguna vez…?",
+    "theme": "Experiencias de viaje y vacaciones",
+    "emoji": "🌍",
+    "stop": {
+      "name": "Toronto",
+      "curiosity": "La CN Tower fue durante décadas la estructura independiente más alta del mundo.",
+      "photo": "stop-en-b1-u01"
+    },
+    "grammar": [
+      "en-g-present-perfect",
+      "en-g-pp-ever-never"
+    ],
+    "lessons": [
+      "en-b1-u01-l1",
+      "en-b1-u01-l2",
+      "en-b1-u01-l3",
+      "en-b1-u01-l4",
+      "en-b1-u01-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: ¿Has estado alguna vez…?",
+      "badge": "Experiencias",
+      "badgeEmoji": "🍁"
+    },
+    "chats": [
+      "en-b1-u01-c1",
+      "en-b1-u01-c2",
+      "en-b1-u01-c3"
+    ]
+  },
+  {
+    "id": "en-b1-u02",
+    "lang": "en",
+    "level": "B1",
+    "n": 2,
+    "title": "¿Ya lo has hecho?",
+    "theme": "Tecnología básica: móvil, apps, mensajes",
+    "emoji": "💻",
+    "stop": {
+      "name": "Vancouver",
+      "curiosity": "Está rodeada de montañas y mar, y se puede esquiar y navegar el mismo día.",
+      "photo": "stop-en-b1-u02"
+    },
+    "grammar": [
+      "en-g-pp-just-already-yet",
+      "en-g-for-since",
+      "en-g-pp-vs-past"
+    ],
+    "lessons": [
+      "en-b1-u02-l1",
+      "en-b1-u02-l2",
+      "en-b1-u02-l3",
+      "en-b1-u02-l4",
+      "en-b1-u02-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: ¿Ya lo has hecho?",
+      "badge": "Tecnología",
+      "badgeEmoji": "🏔️"
+    },
+    "chats": [
+      "en-b1-u02-c1",
+      "en-b1-u02-c2",
+      "en-b1-u02-c3"
+    ]
+  },
+  {
+    "id": "en-b1-u03",
+    "lang": "en",
+    "level": "B1",
+    "n": 3,
+    "title": "Cuando era pequeña",
+    "theme": "Recuerdos de infancia, cómo era la vida antes",
+    "emoji": "🧸",
+    "stop": {
+      "name": "Sídney",
+      "curiosity": "Su Ópera es Patrimonio de la Humanidad desde 2007.",
+      "photo": "stop-en-b1-u03"
+    },
+    "grammar": [
+      "en-g-used-to",
+      "en-g-past-continuous"
+    ],
+    "lessons": [
+      "en-b1-u03-l1",
+      "en-b1-u03-l2",
+      "en-b1-u03-l3",
+      "en-b1-u03-l4",
+      "en-b1-u03-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Cuando era pequeña",
+      "badge": "Recuerdos",
+      "badgeEmoji": "🦘"
+    },
+    "chats": [
+      "en-b1-u03-c1",
+      "en-b1-u03-c2",
+      "en-b1-u03-c3"
+    ]
+  },
+  {
+    "id": "en-b1-u04",
+    "lang": "en",
+    "level": "B1",
+    "n": 4,
+    "title": "Si llueve, nos quedamos",
+    "theme": "El tiempo, planes y consecuencias",
+    "emoji": "☔",
+    "stop": {
+      "name": "Melbourne",
+      "curiosity": "Es famosa por cambiar de tiempo varias veces en un mismo día y por su gran red de tranvías.",
+      "photo": "stop-en-b1-u04"
+    },
+    "grammar": [
+      "en-g-zero-first-conditional"
+    ],
+    "lessons": [
+      "en-b1-u04-l1",
+      "en-b1-u04-l2",
+      "en-b1-u04-l3",
+      "en-b1-u04-l4",
+      "en-b1-u04-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Si llueve, nos quedamos",
+      "badge": "Condiciones",
+      "badgeEmoji": "🚋"
+    },
+    "chats": [
+      "en-b1-u04-c1",
+      "en-b1-u04-c2",
+      "en-b1-u04-c3"
+    ]
+  },
+  {
+    "id": "en-b1-u05",
+    "lang": "en",
+    "level": "B1",
+    "n": 5,
+    "title": "Si me tocara la lotería",
+    "theme": "Deseos, sueños, consejos",
+    "emoji": "🍀",
+    "stop": {
+      "name": "Auckland",
+      "curiosity": "En Nueva Zelanda el maorí es lengua oficial junto al inglés.",
+      "photo": "stop-en-b1-u05"
+    },
+    "grammar": [
+      "en-g-second-conditional"
+    ],
+    "lessons": [
+      "en-b1-u05-l1",
+      "en-b1-u05-l2",
+      "en-b1-u05-l3",
+      "en-b1-u05-l4",
+      "en-b1-u05-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Si me tocara la lotería",
+      "badge": "Sueños",
+      "badgeEmoji": "🥝"
+    },
+    "chats": [
+      "en-b1-u05-c1",
+      "en-b1-u05-c2",
+      "en-b1-u05-c3"
+    ]
+  },
+  {
+    "id": "en-b1-u06",
+    "lang": "en",
+    "level": "B1",
+    "n": 6,
+    "title": "Se celebra así",
+    "theme": "Celebraciones y tradiciones (Navidad, cumpleaños, Acción de Gracias)",
+    "emoji": "🎄",
+    "stop": {
+      "name": "Ciudad del Cabo",
+      "curiosity": "La Table Mountain, con su cima plana, domina toda la ciudad.",
+      "photo": "stop-en-b1-u06"
+    },
+    "grammar": [
+      "en-g-passive-basic"
+    ],
+    "lessons": [
+      "en-b1-u06-l1",
+      "en-b1-u06-l2",
+      "en-b1-u06-l3",
+      "en-b1-u06-l4",
+      "en-b1-u06-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Se celebra así",
+      "badge": "Celebraciones",
+      "badgeEmoji": "⛰️"
+    },
+    "chats": [
+      "en-b1-u06-c1",
+      "en-b1-u06-c2",
+      "en-b1-u06-c3"
+    ]
+  },
+  {
+    "id": "en-b1-u07",
+    "lang": "en",
+    "level": "B1",
+    "n": 7,
+    "title": "La gente que quiero",
+    "theme": "Emociones, describir personas",
+    "emoji": "❤️",
+    "stop": {
+      "name": "San Francisco",
+      "curiosity": "El Golden Gate está pintado de un color llamado International Orange.",
+      "photo": "stop-en-b1-u07"
+    },
+    "grammar": [
+      "en-g-relative-clauses",
+      "en-g-question-tags"
+    ],
+    "lessons": [
+      "en-b1-u07-l1",
+      "en-b1-u07-l2",
+      "en-b1-u07-l3",
+      "en-b1-u07-l4",
+      "en-b1-u07-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: La gente que quiero",
+      "badge": "Emociones",
+      "badgeEmoji": "🌁"
+    },
+    "chats": [
+      "en-b1-u07-c1",
+      "en-b1-u07-c2",
+      "en-b1-u07-c3"
+    ]
+  },
+  {
+    "id": "en-b1-u08",
+    "lang": "en",
+    "level": "B1",
+    "n": 8,
+    "title": "Me dijo que…",
+    "theme": "Contar conversaciones y noticias; cerrar el viaje",
+    "emoji": "🗣️",
+    "stop": {
+      "name": "Londres, St Pancras",
+      "curiosity": "De esta estación salen los trenes Eurostar que cruzan bajo el canal de la Mancha.",
+      "photo": "stop-en-b1-u08"
+    },
+    "grammar": [
+      "en-g-reported-speech-intro",
+      "en-g-phrasal-verbs"
+    ],
+    "lessons": [
+      "en-b1-u08-l1",
+      "en-b1-u08-l2",
+      "en-b1-u08-l3",
+      "en-b1-u08-l4",
+      "en-b1-u08-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Me dijo que…",
+      "badge": "Gran viaje",
+      "badgeEmoji": "🚄"
+    },
+    "chats": [
+      "en-b1-u08-c1",
+      "en-b1-u08-c2",
+      "en-b1-u08-c3"
+    ]
+  }
+]

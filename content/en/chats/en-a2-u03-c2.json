@@ -1,0 +1,62 @@
+{
+  "id": "en-a2-u03-c2",
+  "unit": "en-a2-u03",
+  "title": "Paseo por Oxford Street",
+  "setting": "Emma te acompaña de compras por Oxford Street y te enseña sus tiendas favoritas.",
+  "emoji": "🛍️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Welcome to Oxford Street! It's the busiest street in London.", "es": "¡Bienvenida a Oxford Street! Es la calle con más gente de Londres." },
+      "options": [
+        { "t": "Wow! There are so many people!", "es": "¡Hala! ¡Cuánta gente!", "next": "n2", "ok": true },
+        { "t": "Wow! There is so many people!", "es": "¡Hala! ¡Cuánta gente!", "next": "n2", "ok": false, "feedback": "People es plural: there are." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "This is my favourite shop. It's the biggest on the street.", "es": "Esta es mi tienda favorita. Es la más grande de la calle." },
+      "options": [
+        { "t": "Is it the most expensive, too?", "es": "¿También es la más cara?", "next": "n3", "ok": true },
+        { "t": "Is it the expensivest, too?", "es": "¿También es la más cara?", "next": "n3", "ok": false, "feedback": "Expensive es largo: the most expensive." },
+        { "t": "Is it the more expensive, too?", "es": "¿También es la más cara?", "next": "n3", "ok": false, "feedback": "Para «la más» usamos the most, no the more." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "No! It's one of the cheapest. What do you need?", "es": "¡No! Es de las más baratas. ¿Qué necesitas?" },
+      "options": [
+        { "t": "I need the most comfortable trainers in London!", "es": "¡Necesito las zapatillas más cómodas de Londres!", "next": "n4", "ok": true },
+        { "t": "I need the most comfortable trainers of London!", "es": "¡Necesito las zapatillas más cómodas de Londres!", "next": "n4", "ok": false, "feedback": "Con lugares, «de» = in: in London." },
+        { "t": "I need the comfortablest trainers in London!", "es": "¡Necesito las zapatillas más cómodas de Londres!", "next": "n4", "ok": false, "feedback": "Comfortable es largo: the most comfortable." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ha ha! For walking? What size are you?", "es": "¡Ja, ja! ¿Para andar? ¿Qué número usas?" },
+      "options": [
+        { "t": "I'm a thirty-eight in Spain.", "es": "En España uso el 38.", "next": "n5", "ok": true },
+        { "t": "I have thirty-eight in Spain.", "es": "En España uso el 38.", "next": "n5", "ok": false, "feedback": "Para la talla usamos to be: I'm a thirty-eight." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Look, these white ones are the best for walking.", "es": "Mira, estas blancas son las mejores para andar." },
+      "options": [
+        { "t": "They're lovely. Can I try them on?", "es": "Son preciosas. ¿Me las puedo probar?", "next": "n6", "ok": true },
+        { "t": "They're lovely. Can I try on them?", "es": "Son preciosas. ¿Me las puedo probar?", "next": "n6", "ok": false, "feedback": "Con them, va en medio: try them on." },
+        { "t": "They're lovely. Can I prove them?", "es": "Son preciosas. ¿Me las puedo probar?", "next": "n6", "ok": false, "feedback": "Probarse ropa = try on. Prove es «demostrar»." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "How are they?", "es": "¿Qué tal?" },
+      "options": [
+        { "t": "Perfect! They're the most comfortable shoes in the world.", "es": "¡Perfectas! Son el calzado más cómodo del mundo.", "next": "end", "ok": true },
+        { "t": "Perfect! They're the most good shoes in the world.", "es": "¡Perfectas! Son los mejores zapatos del mundo.", "next": "end", "ok": false, "feedback": "Good → the best, nunca the most good." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

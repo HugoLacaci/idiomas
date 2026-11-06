@@ -1,0 +1,61 @@
+{
+  "id": "it-a1-u02-c1",
+  "unit": "it-a1-u02",
+  "title": "Un caffè con Giulia",
+  "setting": "Giulia te invita a desayunar en un bar de Nápoles",
+  "emoji": "☕",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda! Andiamo al bar? Offro io!", "es": "¡Hola, Yolanda! ¿Vamos al bar? ¡Invito yo!" },
+      "options": [
+        { "t": "Sì, grazie! Che gentile!", "es": "¡Sí, gracias! ¡Qué amable!", "next": "n2", "ok": true },
+        { "t": "Prego!", "es": "¡De nada!", "next": "n2", "ok": false, "feedback": "Prego se usa para responder a un «grazie». Aquí lo natural es dar las gracias: «Grazie! Che gentile!»." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Allora, cosa prendi?", "es": "Bueno, ¿qué tomas?" },
+      "options": [
+        { "t": "Vorrei un cappuccino e un cornetto.", "es": "Quería un capuchino y un cruasán.", "next": "n3", "ok": true },
+        { "t": "Voglio cappuccino.", "es": "Quiero capuchino.", "next": "n3", "ok": false, "feedback": "Se entiende, pero suena brusco y le falta el artículo. Mejor: «Vorrei un cappuccino»." },
+        { "t": "Vorrei una cappuccino.", "es": "Quería un capuchino.", "next": "n3", "ok": false, "feedback": "Cappuccino es masculino: un cappuccino." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Il cornetto lo vuoi vuoto, alla crema o al burro?", "es": "¿El cruasán lo quieres solo, de crema o de mantequilla?" },
+      "options": [
+        { "t": "Al burro, grazie.", "es": "De mantequilla, gracias.", "next": "n4", "ok": true },
+        { "t": "Alla crema, per favore.", "es": "De crema, por favor.", "next": "n4", "ok": true },
+        { "t": "Al burro? No, non mangio animali!", "es": "¿De burro? ¡No, no como animales!", "next": "n4", "ok": false, "feedback": "¡Ojo, falso amigo! Burro es mantequilla, no el animal (que es l'asino)." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Perfetto. Io prendo solo un caffè. Vado alla cassa a pagare.", "es": "Perfecto. Yo tomo solo un café. Voy a la caja a pagar." },
+      "options": [
+        { "t": "Grazie mille, Giulia!", "es": "¡Muchas gracias, Giulia!", "next": "n5", "ok": true },
+        { "t": "Ciao, arrivederci!", "es": "¡Hola, adiós!", "next": "n5", "ok": false, "feedback": "Giulia solo va a la caja, ¡no se marcha! Dale las gracias: «Grazie mille!»." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ecco lo scontrino. Lo diamo al barista. Ti piace il cappuccino?", "es": "Aquí está el tique. Se lo damos al camarero. ¿Te gusta el capuchino?" },
+      "options": [
+        { "t": "Sì, è buonissimo!", "es": "¡Sí, está buenísimo!", "next": "n6", "ok": true },
+        { "t": "Sì, è una buonissimo.", "es": "Sí, es un buenísimo.", "next": "n6", "ok": false, "feedback": "Aquí no hace falta artículo: «Sì, è buonissimo!»." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Brava! Domani ti porto a provare la sfogliatella.", "es": "¡Muy bien! Mañana te llevo a probar la sfogliatella." },
+      "options": [
+        { "t": "Che bello! A domani!", "es": "¡Qué bien! ¡Hasta mañana!", "next": "end", "ok": true },
+        { "t": "Buonanotte!", "es": "¡Buenas noches!", "next": "end", "ok": false, "feedback": "Es por la mañana, en el desayuno. Mejor: «A domani!» (hasta mañana)." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

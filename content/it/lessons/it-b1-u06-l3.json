@@ -1,0 +1,94 @@
+{
+  "id": "it-b1-u06-l3",
+  "unit": "it-b1-u06",
+  "title": "In bocca al lupo!",
+  "goal": "a desear suerte, expresar esperanzas y miedos, y animar a alguien antes de un examen",
+  "emoji": "🍀",
+  "photoQuery": "four leaf clover luck",
+  "vocab": [
+    { "id": "studio-in-bocca-al-lupo", "t": "In bocca al lupo!", "es": "¡Mucha suerte!", "emoji": "🍀", "pos": "phrase", "ex": { "t": "Domani hai l'esame? In bocca al lupo!", "es": "¿Mañana tienes el examen? ¡Mucha suerte!" }, "note": "Literalmente: «en la boca del lobo». Se responde: Crepi!" },
+    { "id": "studio-crepi", "t": "Crepi!", "es": "¡Gracias! (respuesta a «In bocca al lupo»)", "emoji": "🐺", "pos": "phrase", "ex": { "t": "– In bocca al lupo! – Crepi!", "es": "–¡Mucha suerte! –¡Gracias!" }, "note": "Significa «¡que muera (el lobo)!». No digas grazie: trae mala suerte, según la tradición." },
+    { "id": "studio-spero-di-si", "t": "Spero di sì!", "es": "¡Eso espero!", "emoji": "🤞", "pos": "phrase", "ex": { "t": "– Verrai a Perugia? – Spero di sì!", "es": "–¿Vendrás a Perugia? –¡Eso espero!" }, "note": "Lo contrario: spero di no." },
+    { "id": "studio-magari", "t": "Magari!", "es": "¡Ojalá!", "emoji": "🙏", "pos": "phrase", "ex": { "t": "– Vai in Italia quest'estate? – Magari!", "es": "–¿Vas a Italia este verano? –¡Ojalá!" } },
+    { "id": "studio-non-vedo-l-ora", "t": "Non vedo l'ora di…", "es": "Estoy deseando…", "emoji": "⏳", "pos": "phrase", "ex": { "t": "Non vedo l'ora di tornare in Italia.", "es": "Estoy deseando volver a Italia." } },
+    { "id": "studio-ce-la-faccio", "t": "Ce la faccio!", "es": "¡Puedo con ello!", "emoji": "💪", "pos": "phrase", "ex": { "t": "Il congiuntivo è difficile, ma ce la faccio!", "es": "El subjuntivo es difícil, ¡pero puedo con ello!" }, "note": "Para animar a otra persona: ce la fai!" },
+    { "id": "studio-avere-paura-di", "t": "avere paura di sbagliare", "es": "tener miedo de equivocarse", "emoji": "😟", "pos": "phrase", "ex": { "t": "Quando parlo, ho sempre paura di sbagliare.", "es": "Cuando hablo, siempre tengo miedo de equivocarme." } },
+    { "id": "studio-che-peccato", "t": "Che peccato che…", "es": "¡Qué pena que…!", "emoji": "😢", "pos": "phrase", "ex": { "t": "Che peccato che il corso finisca a maggio!", "es": "¡Qué pena que el curso termine en mayo!" }, "note": "También lleva congiuntivo: finisca." },
+    { "id": "studio-la-matricola", "t": "la matricola", "es": "el / la estudiante de primer año", "emoji": "🧑‍🎓", "pos": "n", "ex": { "t": "Le matricole cercano l'aula il primo giorno.", "es": "Los novatos buscan el aula el primer día." }, "note": "¡Ojo! Falso amigo: la matrícula es l'iscrizione." },
+    { "id": "studio-fare-progressi", "t": "fare progressi", "es": "hacer progresos, avanzar", "emoji": "📈", "pos": "phrase", "ex": { "t": "In questi mesi ho fatto molti progressi.", "es": "En estos meses he avanzado mucho." } }
+  ],
+  "grammar": "it-g-congiuntivo-espressioni",
+  "pron": {
+    "title": "Magari y in bocca al lupo",
+    "tip": "Magari lleva el acento en la a del medio: ma-GA-ri. En bocca se oye bien la doble c: boc-ca, con una pequeña pausa antes.",
+    "words": ["magari", "in bocca al lupo", "crepi", "non vedo l'ora", "ce la faccio"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "match", "pairs": [["In bocca al lupo!", "¡Mucha suerte!"], ["Magari!", "¡Ojalá!"], ["Spero di sì!", "¡Eso espero!"], ["Ce la faccio!", "¡Puedo con ello!"], ["Che peccato!", "¡Qué pena!"]], "why": "Frases hechas muy útiles para hablar de esperanzas y deseos." },
+    { "id": "e2", "type": "situation", "context": "Tu amiga tiene mañana el examen de conducir. ¿Qué le dices?", "emoji": "🚗", "options": ["In bocca al lupo!", "Crepi!", "Che peccato!"], "answer": "In bocca al lupo!", "why": "Para desear suerte: In bocca al lupo! Ella te responderá: Crepi!" },
+    { "id": "e3", "type": "situation", "context": "Antes de tu examen, Carmen te dice «In bocca al lupo!». ¿Qué respondes?", "emoji": "🐺", "options": ["Crepi!", "Magari!", "Spero di no!"], "answer": "Crepi!", "why": "La respuesta tradicional es Crepi! (¡que muera el lobo!)." },
+    { "id": "e4", "type": "choose", "q": "Non vedo l'ora ___ andare a Perugia!", "es": "¡Estoy deseando ir a Perugia!", "options": ["di", "che", "a"], "answer": "di", "why": "Non vedo l'ora di + infinitivo." },
+    { "id": "e5", "type": "choose", "q": "Che peccato che tu non ___ venire al corso!", "es": "¡Qué pena que no puedas venir al curso!", "options": ["possa", "puoi", "potere"], "answer": "possa", "why": "Che peccato che expresa un sentimiento y lleva congiuntivo. Potere → possa.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e6", "type": "fill", "q": "Ho paura ___ sbagliare quando parlo.", "es": "Tengo miedo de equivocarme cuando hablo.", "answer": ["di"], "bank": ["di", "che", "a"], "why": "Avere paura di + infinitivo cuando quien tiene miedo y quien se equivoca es la misma persona.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e7", "type": "fill", "q": "Sono contenta che tu ___ tanti progressi!", "es": "¡Me alegro de que hagas tantos progresos!", "answer": ["faccia"], "bank": ["faccia", "fai", "fare"], "why": "Sono contenta che + congiuntivo. Fare → (che tu) faccia.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e8", "type": "fill", "q": "– Verrai a Perugia con noi? – Spero di ___!", "es": "–¿Vendrás a Perugia con nosotras? –¡Eso espero!", "answer": ["sì", "si"], "why": "Spero di sì = eso espero. Lo contrario: spero di no." },
+    { "id": "e9", "type": "order", "es": "Estoy deseando hablar italiano en Perugia.", "answer": "Non vedo l'ora di parlare italiano a Perugia", "extra": ["che"], "why": "Non vedo l'ora di + infinitivo. Con ciudades: a Perugia." },
+    { "id": "e10", "type": "error", "q": "Ho paura che il professore parla troppo in fretta.", "wrong": "parla", "fix": "parli", "why": "Avere paura che + otra persona → congiuntivo: che il professore parli.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e11", "type": "error", "q": "Sono contenta per essere qui con voi.", "wrong": "per", "fix": "di", "why": "Me alegro de estar = sono contenta di essere: di + infinitivo.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "¡Mucha suerte con el examen!", "answer": ["In bocca al lupo per l'esame!", "Buona fortuna per l'esame!"], "why": "In bocca al lupo es lo más italiano; buona fortuna también vale." },
+    { "id": "e13", "type": "translate", "dir": "from", "q": "Che peccato che le mie amiche non vengano!", "answer": ["¡Qué pena que mis amigas no vengan!", "¡Qué lástima que mis amigas no vengan!"], "why": "Che peccato che = qué pena que. Vengano es congiuntivo, como «vengan».", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e14", "type": "reading", "kind": "message", "title": "WhatsApp de Carmen", "text": "Ciao Yolanda! Domani hai l'esame, vero? In bocca al lupo! Sono sicura che andrà benissimo. È importante che tu dorma bene stanotte e che non beva troppo caffè. Mi scrivi dopo? Un abbraccio, Carmen", "questions": [
+      { "q": "¿Qué tiene Yolanda mañana?", "options": ["Un examen", "Un viaje", "Una cita con el médico"], "answer": "Un examen" },
+      { "q": "¿Qué le aconseja Carmen?", "options": ["Dormir bien y no tomar mucho café", "Estudiar toda la noche", "Llegar muy temprano"], "answer": "Dormir bien y no tomar mucho café" },
+      { "q": "¿Qué le pide al final?", "options": ["Que le escriba después", "Que la llame antes", "Que le preste el libro"], "answer": "Que le escriba después" }
+    ] },
+    { "id": "e15", "type": "speak", "t": "Non vedo l'ora di parlare italiano senza paura!", "es": "¡Estoy deseando hablar italiano sin miedo!" },
+    { "id": "e16", "type": "transform", "instr": "Ahora es la otra persona quien aprueba: usa «spero che tu…»", "q": "Spero di superare l'esame.", "answer": ["Spero che tu superi l'esame."], "why": "Si cambia el sujeto, che + congiuntivo: che tu superi.", "g": "it-g-congiuntivo-espressioni" }
+  ],
+  "dialog": {
+    "title": "La noche antes del examen",
+    "setting": "Yolanda habla por teléfono con Carmen, su compañera del curso",
+    "emoji": "📞",
+    "lines": [
+      { "who": "Carmen", "t": "Allora, sei pronta per domani?", "es": "Bueno, ¿estás preparada para mañana?" },
+      { "who": "Yolanda", "t": "Spero di sì! Ma ho un po' paura di sbagliare.", "es": "¡Eso espero! Pero me da un poco de miedo equivocarme." },
+      { "who": "Carmen", "t": "Dai, ce la fai! Hai fatto tanti progressi.", "es": "¡Venga, puedes con ello! Has avanzado mucho." },
+      { "who": "Yolanda", "t": "Magari! L'orale mi preoccupa più dello scritto.", "es": "¡Ojalá! El oral me preocupa más que el escrito." },
+      { "who": "Carmen", "t": "È normale. È importante che tu parli con calma.", "es": "Es normal. Es importante que hables con calma." },
+      { "who": "Yolanda", "t": "Hai ragione. E tu, non vedi l'ora di finire?", "es": "Tienes razón. Y tú, ¿estás deseando terminar?" },
+      { "who": "Carmen", "t": "Sì! Poi festeggiamo con un gelato, va bene?", "es": "¡Sí! Luego lo celebramos con un helado, ¿vale?" },
+      { "who": "Yolanda", "t": "Perfetto! Grazie, sei un tesoro.", "es": "¡Perfecto! Gracias, eres un sol." },
+      { "who": "Carmen", "t": "In bocca al lupo, allora!", "es": "¡Pues mucha suerte!" },
+      { "who": "Yolanda", "t": "Crepi!", "es": "¡Gracias!" }
+    ],
+    "questions": [
+      { "q": "¿Qué parte del examen preocupa más a Yolanda?", "options": ["El oral", "El escrito", "La gramática"], "answer": "El oral" },
+      { "q": "¿Qué le aconseja Carmen?", "options": ["Hablar con calma", "Estudiar toda la noche", "No presentarse"], "answer": "Hablar con calma" },
+      { "q": "¿Cómo lo van a celebrar?", "options": ["Con un helado", "Con una cena", "Con un viaje"], "answer": "Con un helado" }
+    ]
+  },
+  "realLife": { "t": "– In bocca al lupo! – Crepi!", "es": "–¡Mucha suerte! –¡Gracias!", "context": "Para desear suerte antes de un examen o una entrevista, y para responder" },
+  "same": {
+    "text": "Algunas frases de ánimo se dicen casi igual que en español.",
+    "examples": [
+      { "t": "fare progressi", "es": "hacer progresos" },
+      { "t": "avere paura di sbagliare", "es": "tener miedo de equivocarse" },
+      { "t": "Spero di sì!", "es": "¡Espero que sí!" }
+    ]
+  },
+  "falseFriend": {
+    "word": "la matricola",
+    "means": "el / la estudiante de primer año, el novato",
+    "looksLike": "la matrícula (en italiano, l'iscrizione; la del coche es la targa)",
+    "emoji": "🧑‍🎓",
+    "tip": "Le matricole = los novatos de la universidad. Para «hacer la matrícula» se dice fare l'iscrizione o iscriversi."
+  },
+  "summary": [
+    "Desear suerte: In bocca al lupo! → Crepi!",
+    "Esperanzas: Spero di sì!, Magari!, Non vedo l'ora di…",
+    "Miedos y penas: ho paura di sbagliare, che peccato che + congiuntivo.",
+    "Animar: Ce la fai! Hai fatto tanti progressi.",
+    "La matricola = novato de universidad, no la matrícula."
+  ],
+  "reviewed": false
+}

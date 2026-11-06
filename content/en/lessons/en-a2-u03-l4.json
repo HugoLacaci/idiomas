@@ -1,0 +1,423 @@
+{
+  "id": "en-a2-u03-l4",
+  "unit": "en-a2-u03",
+  "title": "Un jersey azul de lana",
+  "goal": "a describir la ropa con varios adjetivos en el orden correcto",
+  "emoji": "🧵",
+  "photoQuery": "colourful wool fabric rolls",
+  "vocab": [
+    {
+      "id": "clothes-cotton",
+      "t": "cotton",
+      "es": "algodón",
+      "emoji": "☁️",
+      "pos": "n",
+      "ex": {
+        "t": "I want a white cotton shirt.",
+        "es": "Quiero una camisa blanca de algodón."
+      }
+    },
+    {
+      "id": "clothes-wool",
+      "t": "wool",
+      "es": "lana",
+      "emoji": "🐑",
+      "pos": "n",
+      "ex": {
+        "t": "This wool jumper is lovely and warm.",
+        "es": "Este jersey de lana es precioso y abriga."
+      },
+      "note": "Suena «wul», con u corta. También: woollen."
+    },
+    {
+      "id": "clothes-leather",
+      "t": "leather",
+      "es": "cuero, piel",
+      "emoji": "👜",
+      "pos": "n",
+      "ex": {
+        "t": "She has a black leather bag.",
+        "es": "Tiene un bolso negro de piel."
+      }
+    },
+    {
+      "id": "clothes-silk",
+      "t": "silk",
+      "es": "seda",
+      "emoji": "🎀",
+      "pos": "n",
+      "ex": {
+        "t": "It's a pretty silk scarf.",
+        "es": "Es un pañuelo de seda muy bonito."
+      }
+    },
+    {
+      "id": "clothes-denim",
+      "t": "denim",
+      "es": "tela vaquera",
+      "emoji": "👖",
+      "pos": "n",
+      "ex": {
+        "t": "My grandson loves his denim jacket.",
+        "es": "A mi nieto le encanta su chaqueta vaquera."
+      }
+    },
+    {
+      "id": "clothes-fabric",
+      "t": "fabric",
+      "es": "tela, tejido",
+      "emoji": "🧵",
+      "pos": "n",
+      "ex": {
+        "t": "What fabric is this dress?",
+        "es": "¿De qué tela es este vestido?"
+      },
+      "note": "¡Ojo! Falso amigo: fabric = tela. Fábrica = factory."
+    },
+    {
+      "id": "clothes-striped",
+      "t": "striped",
+      "es": "de rayas",
+      "emoji": "🦓",
+      "pos": "adj",
+      "ex": {
+        "t": "I love your striped T-shirt!",
+        "es": "¡Me encanta tu camiseta de rayas!"
+      }
+    },
+    {
+      "id": "clothes-plain",
+      "t": "plain",
+      "es": "liso, de un solo color",
+      "emoji": "⬜",
+      "pos": "adj",
+      "ex": {
+        "t": "I prefer a plain blue shirt.",
+        "es": "Prefiero una camisa azul lisa."
+      }
+    }
+  ],
+  "grammar": "en-g-adjective-order",
+  "pron": {
+    "title": "-er y -est: la vocal perezosa",
+    "tip": "La -er de bigger suena como una «a» muy débil (schwa, /ə/) y la r no se pronuncia: «BÍ-ga». La -est suena «-ist»: biggest = «BÍ-guist». El acento va siempre en la primera parte.",
+    "words": [
+      "bigger",
+      "biggest",
+      "warmer",
+      "warmest",
+      "cheaper",
+      "cheapest"
+    ],
+    "pairs": [
+      [
+        "bigger",
+        "biggest"
+      ],
+      [
+        "taller",
+        "tallest"
+      ],
+      [
+        "nicer",
+        "nicest"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I'm looking for a ___.",
+      "options": [
+        "blue dress",
+        "dress blue"
+      ],
+      "answer": "blue dress",
+      "why": "El adjetivo va delante del nombre.",
+      "g": "en-g-adjective-order"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "She's wearing a ___ shirt.",
+      "options": [
+        "white cotton",
+        "cotton white"
+      ],
+      "answer": "white cotton",
+      "why": "Color antes que material.",
+      "g": "en-g-adjective-order"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "What a ___ scarf!",
+      "options": [
+        "lovely red",
+        "red lovely"
+      ],
+      "answer": "lovely red",
+      "why": "Opinión antes que color.",
+      "g": "en-g-adjective-order"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "My grandson wants a ___ jacket. (denim, new)",
+      "es": "Mi nieto quiere una chaqueta vaquera nueva.",
+      "answer": [
+        "new denim"
+      ],
+      "bank": [
+        "new denim",
+        "denim new"
+      ],
+      "why": "Edad (new) antes que material (denim).",
+      "g": "en-g-adjective-order"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I need two ___ T-shirts for the summer. (plain)",
+      "es": "Necesito dos camisetas lisas para el verano.",
+      "answer": [
+        "plain"
+      ],
+      "bank": [
+        "plain",
+        "plains"
+      ],
+      "why": "El adjetivo no cambia en plural.",
+      "g": "en-g-adjective-order"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "What ___ is this dress? — It's silk.",
+      "es": "¿De qué tela es este vestido? — De seda.",
+      "answer": [
+        "fabric"
+      ],
+      "bank": [
+        "fabric",
+        "factory",
+        "material of"
+      ],
+      "why": "Tela = fabric. ¡Fábrica es factory!"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "These are my favourites trainers.",
+      "wrong": "favourites",
+      "fix": "favourite",
+      "why": "Favourite es adjetivo aquí: no lleva -s aunque trainers sea plural.",
+      "g": "en-g-adjective-order"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "She has some nices leather boots.",
+      "wrong": "nices",
+      "fix": "nice",
+      "why": "Los adjetivos no llevan -s: nice leather boots.",
+      "g": "en-g-adjective-order"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Un bolso grande de cuero negro",
+      "answer": "a big black leather bag",
+      "extra": [
+        "of"
+      ],
+      "why": "Tamaño, color, material, nombre.",
+      "g": "en-g-adjective-order"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Me encanta tu bufanda de rayas nueva",
+      "answer": "I love your new striped scarf",
+      "extra": [
+        "stripeds"
+      ],
+      "why": "Edad (new) antes del dibujo (striped).",
+      "g": "en-g-adjective-order"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Añade «wool» en el sitio correcto",
+      "q": "I want a warm grey jumper.",
+      "answer": [
+        "I want a warm grey wool jumper."
+      ],
+      "why": "El material, justo antes del nombre.",
+      "g": "en-g-adjective-order"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "una camisa azul lisa",
+      "answer": [
+        "a plain blue shirt"
+      ],
+      "why": "Liso (plain) suele ir antes del color: a plain blue shirt.",
+      "g": "en-g-adjective-order"
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "cotton",
+          "algodón"
+        ],
+        [
+          "wool",
+          "lana"
+        ],
+        [
+          "leather",
+          "cuero"
+        ],
+        [
+          "silk",
+          "seda"
+        ],
+        [
+          "fabric",
+          "tela"
+        ]
+      ],
+      "why": "Materiales y el falso amigo fabric."
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "bigger",
+        "biggest"
+      ],
+      "answer": "biggest",
+      "es": [
+        "más grande",
+        "el más grande"
+      ],
+      "why": "Biggest termina en «-ist», con s y t al final: «BÍ-guist»."
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "taller",
+        "tallest"
+      ],
+      "answer": "taller",
+      "es": [
+        "más alto",
+        "el más alto"
+      ],
+      "why": "Taller acaba en una «a» débil sin r: «TÓ-la»."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "I'd like a big black leather bag.",
+      "es": "Quería un bolso grande de cuero negro."
+    }
+  ],
+  "dialog": {
+    "title": "El regalo del nieto",
+    "setting": "En una tienda de ropa infantil, Yolanda busca un regalo para su nieto",
+    "emoji": "🎁",
+    "lines": [
+      {
+        "who": "Assistant",
+        "t": "Are you looking for something special?",
+        "es": "¿Busca algo especial?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, a present for my grandson.",
+        "es": "Sí, un regalo para mi nieto."
+      },
+      {
+        "who": "Assistant",
+        "t": "We have this lovely red wool jumper.",
+        "es": "Tenemos este jersey rojo de lana precioso."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Hmm, wool is a bit warm for him.",
+        "es": "Mmm, la lana le da un poco de calor."
+      },
+      {
+        "who": "Assistant",
+        "t": "What about this striped cotton T-shirt?",
+        "es": "¿Y esta camiseta de rayas de algodón?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Oh, that's nice! What fabric is the jacket?",
+        "es": "¡Ay, qué mona! ¿De qué tela es la chaqueta?"
+      },
+      {
+        "who": "Assistant",
+        "t": "It's denim. It's our most popular jacket.",
+        "es": "Es vaquera. Es nuestra chaqueta más vendida."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfect. The T-shirt and the small denim jacket, please.",
+        "es": "Perfecto. La camiseta y la chaqueta vaquera pequeña, por favor."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Por qué no quiere el jersey de lana?",
+        "options": [
+          "Le da calor al niño",
+          "Es muy caro",
+          "No le gusta el rojo"
+        ],
+        "answer": "Le da calor al niño"
+      },
+      {
+        "q": "¿Cómo es la camiseta?",
+        "options": [
+          "De rayas y de algodón",
+          "Lisa y de lana",
+          "Roja y de seda"
+        ],
+        "answer": "De rayas y de algodón"
+      },
+      {
+        "q": "¿De qué es la chaqueta?",
+        "options": [
+          "Vaquera",
+          "De cuero",
+          "De lana"
+        ],
+        "answer": "Vaquera"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "What fabric is it?",
+    "es": "¿De qué tela es?",
+    "context": "Para preguntar el tejido de una prenda antes de comprarla"
+  },
+  "summary": [
+    "El adjetivo va delante y no cambia: a red dress, red shoes",
+    "Orden: opinión, tamaño, edad, color, material + nombre",
+    "Materiales: cotton, wool, leather, silk, denim",
+    "¡Ojo! fabric = tela; fábrica = factory",
+    "bigger «BÍ-ga», biggest «BÍ-guist»"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u03-l4"
+}

@@ -1,0 +1,126 @@
+{
+  "id": "it-g-genere-numero",
+  "lang": "it",
+  "level": "A1",
+  "title": "Género y número de los sustantivos",
+  "short": "Masculino y femenino, singular y plural: un cornetto → due cornetti, una pasta → due paste.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Uno o dos cafés",
+      "emoji": "☕",
+      "text": "Si en el bar pides para ti y para Hugo, necesitas el **plural**. En italiano el plural **no lleva -s**: cambia la última vocal.",
+      "examples": [
+        { "t": "un cornett==o== → due cornett==i==", "es": "un cruasán → dos cruasanes" },
+        { "t": "una past==a== → due past==e==", "es": "un pastelito → dos pastelitos" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Masculino y femenino",
+      "emoji": "⚖️",
+      "text": "Igual que en español: casi todas las palabras en **-o** son masculinas y en **-a**, femeninas. Las de **-e** pueden ser de los dos.",
+      "examples": [
+        { "t": "il cornett==o==", "es": "el cruasán (masculino)" },
+        { "t": "la tazz==a==", "es": "la taza (femenino)" },
+        { "t": "il latt==e== · la nott==e==", "es": "la leche (masc.) · la noche (fem.)" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Cómo se forma el plural",
+      "emoji": "📋",
+      "text": "Solo cambia la **última vocal**.",
+      "table": {
+        "head": ["Singular", "Plural", "Ejemplo"],
+        "rows": [
+          ["-o", "==-i==", "cornetto → cornett==i=="],
+          ["-a", "==-e==", "pasta → past==e=="],
+          ["-e", "==-i==", "bicchiere → bicchier==i=="]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Las que no cambian",
+      "emoji": "🔒",
+      "text": "Las palabras que acaban en **vocal con acento** o en **consonante** no cambian en plural: ==due caffè==, ==due tè==, ==due bar==.",
+      "examples": [
+        { "t": "un caffè → due ==caffè==", "es": "un café → dos cafés" },
+        { "t": "uno spritz → due ==spritz==", "es": "un spritz → dos spritz" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Español vs italiano",
+      "emoji": "🇪🇸",
+      "text": "En español añadimos **-s**: dos capuchinos. En italiano cambiamos la vocal: due cappuccin==i==. ¡Nunca *cappuccinos*!",
+      "examples": [
+        { "t": "Due cappuccini e due paste.", "es": "Dos capuchinos y dos pastelitos." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "Errores típicos",
+      "emoji": "⚠️",
+      "text": "❌ *due cornettos* → ✅ ==due cornetti==. ❌ *due pastas* → ✅ ==due paste==. ❌ *due caffi* → ✅ ==due caffè== (no cambia)."
+    },
+    {
+      "kind": "tip",
+      "title": "Truco de la abuela",
+      "emoji": "💡",
+      "text": "Piensa en **-o → -i** y **-a → -e**, como en *spaghetti* o *lasagne*. ¡Ya conoces muchos plurales italianos de la cocina!",
+      "examples": [
+        { "t": "spaghett==i==, lasagn==e==, tortellin==i==", "es": "palabras que ya usas en plural" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español el plural se hace añadiendo -s o -es: café → cafés, cruasán → cruasanes, taza → tazas.",
+    "target": "En italiano se cambia la última vocal: -o → -i (cornetti), -a → -e (paste), -e → -i (bicchieri). Las palabras con acento final o en consonante no cambian (caffè, bar)."
+  },
+  "errors": [
+    { "wrong": "due cornettos", "right": "due cornetti", "why": "En italiano el plural no lleva -s: la -o se convierte en -i." },
+    { "wrong": "due pastas", "right": "due paste", "why": "Las palabras en -a hacen el plural en -e." },
+    { "wrong": "due caffi", "right": "due caffè", "why": "Caffè termina en vocal con acento, así que no cambia en plural." },
+    { "wrong": "due bicchiere", "right": "due bicchieri", "why": "Las palabras en -e hacen el plural en -i." },
+    { "wrong": "due bari", "right": "due bar", "why": "Las palabras que acaban en consonante no cambian." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Due ___, per favore.", "es": "Dos cruasanes, por favor.", "options": ["cornetti", "cornettos", "cornette"], "answer": "cornetti", "why": "Cornetto acaba en -o: el plural es en -i, cornetti.", "g": "it-g-genere-numero" },
+    { "id": "e2", "type": "choose", "q": "Tre ___ alla crema.", "es": "Tres pastelitos de crema.", "options": ["paste", "pasti", "pastas"], "answer": "paste", "why": "Pasta acaba en -a: el plural es en -e, paste.", "g": "it-g-genere-numero" },
+    { "id": "e3", "type": "choose", "q": "Due ___ macchiati.", "es": "Dos cafés cortados.", "options": ["caffè", "caffi", "caffès"], "answer": "caffè", "why": "Caffè lleva acento en la última vocal: no cambia en plural.", "g": "it-g-genere-numero" },
+    { "id": "e4", "type": "choose", "q": "Due ___ d'acqua.", "es": "Dos vasos de agua.", "options": ["bicchieri", "bicchiere", "bicchieras"], "answer": "bicchieri", "why": "Bicchiere acaba en -e: el plural es en -i.", "g": "it-g-genere-numero" },
+    { "id": "e5", "type": "choose", "q": "In piazza ci sono tre ___.", "es": "En la plaza hay tres bares.", "options": ["bar", "bari", "bars"], "answer": "bar", "why": "Bar acaba en consonante: no cambia en plural.", "g": "it-g-genere-numero" },
+    { "id": "e6", "type": "choose", "q": "Quattro ___ per i nipoti.", "es": "Cuatro zumos para los nietos.", "options": ["succhi", "succi", "succos"], "answer": "succhi", "why": "Succo hace succhi: se añade la h para mantener el sonido «k».", "g": "it-g-genere-numero" },
+    { "id": "e7", "type": "choose", "q": "La ___ è calda.", "es": "La taza está caliente.", "options": ["tazza", "tazzo", "tazze"], "answer": "tazza", "why": "Tazza es femenina y singular (la), así que termina en -a.", "g": "it-g-genere-numero" },
+    { "id": "e8", "type": "choose", "q": "Il ___ è freddo.", "es": "La leche está fría.", "options": ["latte", "latti", "latta"], "answer": "latte", "why": "Latte es masculino en italiano: il latte. Ojo, en español es «la leche».", "g": "it-g-genere-numero" },
+    { "id": "e9", "type": "fill", "q": "Due cappuccino → due ___", "answer": ["cappuccini"], "bank": ["cappuccini", "cappuccinos", "cappuccine"], "why": "-o → -i: cappuccini.", "g": "it-g-genere-numero" },
+    { "id": "e10", "type": "fill", "q": "Una spremuta → due ___", "answer": ["spremute"], "bank": ["spremute", "spremuti", "spremutas"], "why": "-a → -e: spremute.", "g": "it-g-genere-numero" },
+    { "id": "e11", "type": "fill", "q": "Un tè → due ___", "answer": ["tè"], "bank": ["tè", "tei", "tès"], "why": "Tè tiene acento final: no cambia.", "g": "it-g-genere-numero" },
+    { "id": "e12", "type": "fill", "q": "Un panino → tre ___", "answer": ["panini"], "why": "Panino acaba en -o: el plural es panini.", "g": "it-g-genere-numero" },
+    { "id": "e13", "type": "fill", "q": "Una brioche → due ___", "answer": ["brioche"], "hint": "palabra francesa", "why": "Brioche es una palabra extranjera: no cambia en plural.", "g": "it-g-genere-numero" },
+    { "id": "e14", "type": "fill", "q": "Una bottiglia → due ___", "answer": ["bottiglie"], "why": "-a → -e: bottiglie.", "g": "it-g-genere-numero" },
+    { "id": "e15", "type": "fill", "q": "Un cucchiaino → due ___", "answer": ["cucchiaini"], "why": "-o → -i: cucchiaini.", "g": "it-g-genere-numero" },
+    { "id": "e16", "type": "error", "q": "Vorrei due cornettos.", "wrong": "cornettos", "fix": "cornetti", "why": "El plural italiano no lleva -s: cornetti.", "g": "it-g-genere-numero" },
+    { "id": "e17", "type": "error", "q": "Prendiamo tre pastas.", "wrong": "pastas", "fix": "paste", "why": "Pasta → paste: la -a se convierte en -e.", "g": "it-g-genere-numero" },
+    { "id": "e18", "type": "error", "q": "Due caffi, per favore.", "wrong": "caffi", "fix": "caffè", "why": "Caffè no cambia en plural porque acaba en vocal con acento.", "g": "it-g-genere-numero" },
+    { "id": "e19", "type": "error", "q": "Ci sono due bicchiere sul tavolo.", "wrong": "bicchiere", "fix": "bicchieri", "why": "Bicchiere en plural es bicchieri: -e → -i.", "g": "it-g-genere-numero" },
+    { "id": "e20", "type": "error", "q": "Ho due nipotes.", "wrong": "nipotes", "fix": "nipoti", "why": "Nipote acaba en -e: el plural es nipoti.", "g": "it-g-genere-numero" },
+    { "id": "e21", "type": "transform", "instr": "Ponlo en plural (due)", "q": "un cornetto", "answer": ["due cornetti"], "why": "-o → -i.", "g": "it-g-genere-numero" },
+    { "id": "e22", "type": "transform", "instr": "Ponlo en plural (due)", "q": "una pasta", "answer": ["due paste"], "why": "-a → -e.", "g": "it-g-genere-numero" },
+    { "id": "e23", "type": "transform", "instr": "Ponlo en plural (tre)", "q": "un caffè", "answer": ["tre caffè"], "why": "Caffè no cambia.", "g": "it-g-genere-numero" },
+    { "id": "e24", "type": "transform", "instr": "Ponlo en singular (un / una)", "q": "due spremute", "answer": ["una spremuta"], "why": "-e → -a: spremuta, que es femenina: una.", "g": "it-g-genere-numero" },
+    { "id": "e25", "type": "transform", "instr": "Ponlo en singular (un / uno / una)", "q": "due bicchieri", "answer": ["un bicchiere"], "why": "Bicchieri viene de bicchiere (masculino): un bicchiere.", "g": "it-g-genere-numero" },
+    { "id": "e26", "type": "order", "es": "Dos capuchinos y dos cruasanes, por favor.", "answer": "Due cappuccini e due cornetti per favore", "extra": ["cappuccinos"], "why": "-o → -i en los dos: cappuccini, cornetti.", "g": "it-g-genere-numero" },
+    { "id": "e27", "type": "order", "es": "Tres cafés y tres vasos de agua.", "answer": "Tre caffè e tre bicchieri d'acqua", "extra": ["caffi"], "why": "Caffè no cambia; bicchiere → bicchieri.", "g": "it-g-genere-numero" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "dos zumos de naranja naturales", "answer": ["due spremute d'arancia", "due spremute"], "why": "Spremuta → spremute.", "g": "it-g-genere-numero" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "dos bocadillos", "answer": ["due panini"], "why": "Panino → panini.", "g": "it-g-genere-numero" },
+    { "id": "e30", "type": "translate", "dir": "from", "q": "due tè e due paste", "answer": ["dos tés y dos pastelitos", "dos tés y dos pasteles"], "why": "Tè no cambia; paste es el plural de pasta (pastelito).", "g": "it-g-genere-numero" },
+    { "id": "e31", "type": "match", "pairs": [["cornetto", "cornetti"], ["pasta", "paste"], ["caffè", "caffè"], ["bicchiere", "bicchieri"], ["bar", "bar"]], "why": "-o → -i, -a → -e, -e → -i; acento final y consonante: igual.", "g": "it-g-genere-numero" },
+    { "id": "e32", "type": "choose", "q": "___ latte per il cappuccino è caldo.", "es": "La leche para el capuchino está caliente.", "options": ["Il", "La"], "answer": "Il", "why": "Se dice il latte: en italiano es masculino, aunque en español sea «la leche».", "g": "it-g-genere-numero" },
+    { "id": "e33", "type": "situation", "context": "Estás en el bar con tu marido. Queréis dos capuchinos.", "emoji": "☕", "options": ["Due cappuccini, per favore.", "Due cappuccinos, per favore.", "Due cappuccine, per favore."], "answer": "Due cappuccini, per favore.", "why": "Cappuccino → cappuccini.", "g": "it-g-genere-numero" },
+    { "id": "e34", "type": "situation", "context": "Hugo y tú queréis dos cafés solos.", "emoji": "☕", "options": ["Due caffè, per favore.", "Due caffi, per favore.", "Due caffès, per favore."], "answer": "Due caffè, per favore.", "why": "Caffè es invariable: un caffè, due caffè.", "g": "it-g-genere-numero" }
+  ],
+  "reviewed": false
+}

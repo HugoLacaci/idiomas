@@ -1,0 +1,76 @@
+{
+  "id": "it-a2-u05-l5",
+  "unit": "it-a2-u05",
+  "title": "Reto en las Cinque Terre: una gita… così così",
+  "goal": "a contar una excursión que salió regular, mezclando el tiempo, el imperfetto y el passato prossimo",
+  "emoji": "🌊",
+  "photoQuery": "cinque terre colorful houses sea",
+  "vocab": [
+    { "id": "meteo-il-battello", "t": "il battello", "es": "el barco (de pasajeros)", "emoji": "⛴️", "pos": "n", "ex": { "t": "Abbiamo preso il battello per Vernazza.", "es": "Cogimos el barco para Vernazza." } },
+    { "id": "meteo-le-onde", "t": "le onde", "es": "las olas", "emoji": "🌊", "pos": "n", "ex": { "t": "Le onde erano altissime.", "es": "Las olas eran altísimas." } },
+    { "id": "meteo-il-mare-mosso", "t": "il mare mosso", "es": "el mar movido, picado", "emoji": "🌀", "pos": "phrase", "ex": { "t": "Il mare era mosso e il battello non è partito.", "es": "El mar estaba picado y el barco no salió." } },
+    { "id": "meteo-la-spiaggia", "t": "la spiaggia", "es": "la playa", "emoji": "🏖️", "pos": "n", "ex": { "t": "A Monterosso c'è una bella spiaggia.", "es": "En Monterosso hay una playa bonita." } },
+    { "id": "meteo-il-costume", "t": "il costume (da bagno)", "es": "el bañador", "emoji": "👙", "pos": "n", "note": "¡Ojo! No es «costumbre»: es el bañador.", "ex": { "t": "Ho dimenticato il costume in albergo!", "es": "¡Me he dejado el bañador en el hotel!" } },
+    { "id": "meteo-la-crema-solare", "t": "la crema solare", "es": "la crema solar", "emoji": "🧴", "pos": "n", "ex": { "t": "Metti la crema solare, il sole è forte.", "es": "Ponte crema solar, el sol pega fuerte." } },
+    { "id": "meteo-per-fortuna", "t": "per fortuna", "es": "por suerte", "emoji": "🍀", "pos": "phrase", "ex": { "t": "Per fortuna c'era il treno.", "es": "Por suerte había tren." } },
+    { "id": "meteo-purtroppo", "t": "purtroppo", "es": "por desgracia, desgraciadamente", "emoji": "😕", "pos": "adv", "ex": { "t": "Purtroppo pioveva tutto il giorno.", "es": "Por desgracia llovía todo el día." } },
+    { "id": "meteo-cosi-cosi", "t": "così così", "es": "regular, así así", "emoji": "🤷", "pos": "phrase", "ex": { "t": "Com'è andata la gita? Così così.", "es": "¿Qué tal la excursión? Regular." } },
+    { "id": "meteo-stanca-morta", "t": "stanco morto / stanca morta", "es": "muerto / muerta de cansancio", "emoji": "😩", "pos": "phrase", "note": "¡Ojo! Stanco no es «estanco»: es cansado.", "ex": { "t": "Alla fine della gita ero stanca morta.", "es": "Al final de la excursión estaba muerta de cansancio." } }
+  ],
+  "grammar": "it-g-imperfetto-vs-passato",
+  "pron": {
+    "title": "Repaso: gg y cc",
+    "tip": "Spiaggia, oggi, pioggia: gg + i = «y» fuerte y larga. Faccia, ghiaccio: cc + i = «ch» larga. Alarga siempre las dobles.",
+    "words": ["spiaggia", "pioggia", "oggi", "ghiaccio", "faccio"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "message", "title": "Un mensaje a Giulia", "text": "Ciao Giulia! Oggi siamo andati alle Cinque Terre. Al mattino c'era il sole e faceva caldo. Volevamo prendere il battello, ma il mare era mosso. Per fortuna c'era il treno! Poi a Vernazza ha cominciato a piovere. Una gita così così, ma che panorama!", "questions": [
+      { "q": "¿Qué tiempo hacía por la mañana?", "options": ["Sol y calor", "Lluvia", "Niebla"], "answer": "Sol y calor" },
+      { "q": "¿Por qué no cogieron el barco?", "options": ["El mar estaba picado", "Era muy caro", "Llegaron tarde"], "answer": "El mar estaba picado" },
+      { "q": "¿Qué pasó en Vernazza?", "options": ["Empezó a llover", "Se perdieron", "Comieron pesto"], "answer": "Empezó a llover" }
+    ], "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e2", "type": "choose", "q": "Il mare ___ mosso, così abbiamo preso il treno.", "es": "El mar estaba picado, así que cogimos el tren.", "options": ["era", "è stato", "è"], "answer": "era", "why": "Cómo estaba el mar (escenario): era.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e3", "type": "choose", "q": "A Vernazza ___ a piovere.", "es": "En Vernazza empezó a llover.", "options": ["ha cominciato", "cominciava", "comincia"], "answer": "ha cominciato", "why": "Un hecho que cambia la historia: ha cominciato.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e4", "type": "choose", "q": "Al mattino ___ caldo e c'era il sole.", "es": "Por la mañana hacía calor y hacía sol.", "options": ["faceva", "era", "c'era"], "answer": "faceva", "why": "Calor con fare, en imperfetto: faceva caldo.", "g": "it-g-fare-tempo" },
+    { "id": "e5", "type": "fill", "q": "Ho dimenticato il ___ in albergo, niente bagno!", "es": "Me he dejado el bañador en el hotel, ¡nada de baño!", "answer": ["costume"], "bank": ["costume", "battello", "ombrello"], "why": "Il costume = el bañador.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e6", "type": "fill", "q": "___ c'era il treno!", "es": "¡Por suerte había tren!", "answer": ["Per fortuna", "per fortuna"], "bank": ["Per fortuna", "Purtroppo", "All'improvviso"], "why": "Por suerte = per fortuna.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e7", "type": "fill", "q": "Io e mio marito ___ il treno per Vernazza.", "es": "Mi marido y yo cogimos el tren para Vernazza.", "answer": ["abbiamo preso"], "hint": "prendere", "why": "Un hecho: abbiamo preso (participio irregular).", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e8", "type": "error", "q": "Purtroppo il battello non è partito perché le onde sono alte.", "wrong": "sono", "fix": "erano", "why": "Cómo estaban las olas es el escenario: erano alte.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e9", "type": "error", "q": "Quando siamo arrivati a Manarola, fa freddo.", "wrong": "fa", "fix": "faceva", "why": "El tiempo en el pasado: faceva freddo.", "g": "it-g-fare-tempo" },
+    { "id": "e10", "type": "transform", "instr": "Pásala al pasado (soy Yolanda)", "q": "Il cielo è grigio, ma faccio il bagno lo stesso.", "answer": ["Il cielo era grigio, ma ho fatto il bagno lo stesso.", "Il cielo era grigio ma ho fatto il bagno lo stesso."], "why": "Era (escenario) + ho fatto (lo que hiciste).", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e11", "type": "order", "es": "Por desgracia llovía y las olas eran altas.", "answer": "Purtroppo pioveva e le onde erano alte", "extra": ["ha piovuto"], "why": "Dos descripciones del escenario: pioveva, erano.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Cuando llegamos a la playa, hacía viento.", "answer": ["Quando siamo arrivati in spiaggia, c'era vento.", "Quando siamo arrivati in spiaggia c'era vento.", "Quando siamo arrivati alla spiaggia, c'era vento.", "Quando siamo arrivati in spiaggia, tirava vento."], "why": "Siamo arrivati (hecho) + c'era vento (escenario).", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e13", "type": "situation", "context": "Al volver, Giulia te pregunta qué tal la excursión. No fue perfecta, pero tampoco mala.", "emoji": "🤷", "options": ["Così così, ma che panorama!", "Benissimo, non ha piovuto mai!", "Bene, grazie, e tu?"], "answer": "Così così, ma che panorama!", "why": "Così così = regular, así así.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e14", "type": "match", "pairs": [["il battello", "el barco"], ["le onde", "las olas"], ["il costume", "el bañador"], ["purtroppo", "por desgracia"], ["per fortuna", "por suerte"]], "why": "Palabras de la parada de las Cinque Terre.", "g": "it-g-imperfetto-vs-passato" }
+  ],
+  "dialog": {
+    "title": "De vuelta en el hotel",
+    "setting": "Por la noche, en un hotel de La Spezia, Yolanda cuenta su día al recepcionista, Matteo",
+    "emoji": "🏨",
+    "lines": [
+      { "who": "Matteo", "t": "Bentornata, signora! Com'è andata la gita?", "es": "¡Bienvenida de nuevo, señora! ¿Qué tal la excursión?" },
+      { "who": "Yolanda", "t": "Così così! Al mattino c'era un sole bellissimo.", "es": "¡Regular! Por la mañana hacía un sol precioso." },
+      { "who": "Matteo", "t": "E avete preso il battello?", "es": "¿Y cogieron el barco?" },
+      { "who": "Yolanda", "t": "No, il mare era mosso e non è partito.", "es": "No, el mar estaba picado y no salió." },
+      { "who": "Matteo", "t": "Che peccato! E poi?", "es": "¡Qué pena! ¿Y luego?" },
+      { "who": "Yolanda", "t": "Abbiamo preso il treno, ma a Vernazza ha piovuto.", "es": "Cogimos el tren, pero en Vernazza llovió." },
+      { "who": "Matteo", "t": "Purtroppo oggi faceva un tempo pazzo!", "es": "¡Por desgracia hoy hacía un tiempo loco!" },
+      { "who": "Yolanda", "t": "Sì, ma i paesini erano stupendi!", "es": "¡Sí, pero los pueblecitos eran preciosos!" }
+    ],
+    "questions": [
+      { "q": "¿Qué tiempo hacía por la mañana?", "options": ["Un sol precioso", "Llovía", "Niebla"], "answer": "Un sol precioso" },
+      { "q": "¿Por qué no salió el barco?", "options": ["El mar estaba picado", "Había huelga", "Era tarde"], "answer": "El mar estaba picado" },
+      { "q": "¿Qué le encantó a Yolanda?", "options": ["Los pueblecitos", "El barco", "La lluvia"], "answer": "Los pueblecitos" }
+    ]
+  },
+  "realLife": { "t": "Com'è andata la gita? Così così, ma che panorama!", "es": "¿Qué tal la excursión? Regular, ¡pero qué vistas!", "context": "Para contar un día de viaje que no salió perfecto" },
+  "falseFriend": { "word": "stanco / stanca", "means": "cansado / cansada", "looksLike": "estanco", "emoji": "😩", "tip": "«Ero stanca morta» = estaba muerta de cansancio. Y el estanco, en Italia, es «il tabaccaio» (con una T en la puerta)." },
+  "summary": [
+    "Contar una excursión: c'era il sole (escenario), abbiamo preso il treno (hecho).",
+    "Il mare mosso, le onde, il battello, la spiaggia.",
+    "Per fortuna / purtroppo = por suerte / por desgracia.",
+    "Così così = regular.",
+    "Stanca morta = muerta de cansancio (stanco no es «estanco»)."
+  ],
+  "reviewed": false
+}

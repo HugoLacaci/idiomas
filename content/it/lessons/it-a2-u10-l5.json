@@ -1,0 +1,78 @@
+{
+  "id": "it-a2-u10-l5",
+  "unit": "it-a2-u10",
+  "title": "Reto: el viaje a Venecia",
+  "goal": "a organizar un viaje completo a Venecia: contar el plan, reservar con educación y hablar de los sitios con ci",
+  "emoji": "🎭",
+  "photoQuery": "venice carnival mask lagoon",
+  "vocab": [
+    { "id": "futuro-l-itinerario", "t": "l'itinerario", "es": "el itinerario, la ruta", "emoji": "🗺️", "pos": "n", "ex": { "t": "Ho preparato l'itinerario per tre giorni.", "es": "He preparado la ruta para tres días." } },
+    { "id": "futuro-la-cartina", "t": "la cartina", "es": "el plano, el mapa", "emoji": "🧭", "pos": "n", "ex": { "t": "Senza cartina mi perderò di sicuro!", "es": "¡Sin plano me perderé seguro!" } },
+    { "id": "futuro-perdersi", "t": "perdersi", "es": "perderse", "emoji": "🌀", "pos": "v", "ex": { "t": "A Venezia è bello perdersi tra le calli.", "es": "En Venecia es bonito perderse entre las callejuelas." } },
+    { "id": "futuro-il-campo", "t": "il campo", "es": "la plaza (en Venecia)", "emoji": "⛲", "pos": "n", "ex": { "t": "Ci vediamo in campo Santa Margherita.", "es": "Nos vemos en la plaza de Santa Margherita." }, "note": "En Venecia, la única «piazza» es la de San Marco; las demás plazas son campi." },
+    { "id": "futuro-l-acqua-alta", "t": "l'acqua alta", "es": "la marea alta (que inunda calles)", "emoji": "💧", "pos": "n", "ex": { "t": "Con l'acqua alta serviranno gli stivali.", "es": "Con la marea alta harán falta botas." } },
+    { "id": "futuro-il-carnevale", "t": "il Carnevale", "es": "el Carnaval", "emoji": "🎭", "pos": "n", "ex": { "t": "Un giorno vedrò il Carnevale di Venezia.", "es": "Algún día veré el Carnaval de Venecia." } },
+    { "id": "futuro-la-maschera", "t": "la maschera", "es": "la máscara", "emoji": "🎭", "pos": "n", "ex": { "t": "Comprerò una maschera per mia nipote.", "es": "Compraré una máscara para mi nieta." } },
+    { "id": "futuro-il-ritardo", "t": "in ritardo", "es": "con retraso, tarde", "emoji": "⏰", "pos": "phrase", "ex": { "t": "Il treno è in ritardo, arriveremo tardi.", "es": "El tren va con retraso, llegaremos tarde." } }
+  ],
+  "grammar": "it-g-futuro-semplice",
+  "pron": {
+    "title": "La sch de maschera",
+    "tip": "Sch suena como «sk»: MA-ske-ra. Nunca como la «sh» inglesa. Igual en scherzo o schiena.",
+    "words": ["maschera", "schiena", "scherzo", "tedeschi"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "email", "title": "Correo de un hotel de Venecia", "text": "Gentile signora, confermiamo la Sua prenotazione: camera doppia con vista sul canale, tre notti, colazione inclusa. Dalla stazione potrà prendere il vaporetto: la fermata è a due passi dall'albergo. In caso di acqua alta, Le daremo gli stivali. A presto!", "questions": [ { "q": "¿Qué tipo de habitación ha reservado?", "options": ["Doble con vistas al canal", "Individual", "Doble sin vistas"], "answer": "Doble con vistas al canal" }, { "q": "¿Cómo puede llegar desde la estación?", "options": ["En vaporetto", "En taxi de tierra", "En autobús"], "answer": "En vaporetto" }, { "q": "¿Qué le darán si hay marea alta?", "options": ["Botas", "Un paraguas", "Un mapa"], "answer": "Botas" } ], "g": "it-g-futuro-semplice" },
+    { "id": "e2", "type": "choose", "q": "Domani ___ il palazzo Ducale e poi il ponte dei Sospiri.", "es": "Mañana veremos el Palacio Ducal y luego el puente de los Suspiros.", "options": ["vedremo", "vederemo", "vedevamo"], "answer": "vedremo", "why": "Vedere → vedremo.", "g": "it-g-futuro-semplice" },
+    { "id": "e3", "type": "choose", "q": "Scusi, ___ indicarmi la fermata del vaporetto?", "es": "Perdone, ¿podría indicarme la parada del vaporetto?", "options": ["potrebbe", "potresti", "può essere"], "answer": "potrebbe", "why": "Con un desconocido: potrebbe.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e4", "type": "choose", "q": "Campo Santa Margherita? ___ siamo stati ieri sera.", "es": "¿La plaza de Santa Margherita? Estuvimos anoche.", "options": ["Ci", "Lo", "Ne"], "answer": "Ci", "why": "Ci siamo stati = estuvimos allí.", "g": "it-g-ci-locativo" },
+    { "id": "e5", "type": "fill", "q": "Senza cartina mi ___ di sicuro!", "es": "¡Sin plano me perderé seguro!", "answer": ["perderò"], "bank": ["perderò", "perdevo", "perderà"], "why": "Perdersi en futuro, io: mi perderò.", "g": "it-g-futuro-semplice" },
+    { "id": "e6", "type": "fill", "q": "Mi ___ vedere il Carnevale, un giorno.", "es": "Me gustaría ver el Carnaval algún día.", "answer": ["piacerebbe"], "bank": ["piacerebbe", "piacerei", "piace"], "why": "Mi piacerebbe = me gustaría.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e7", "type": "fill", "q": "Il treno è in ritardo: ___ tardi in albergo.", "es": "El tren va con retraso: llegaremos tarde al hotel.", "answer": ["arriveremo"], "hint": "arrivare, noi", "why": "Arrivare → arriveremo.", "g": "it-g-futuro-semplice" },
+    { "id": "e8", "type": "error", "q": "Domani comprarò una maschera per mia nipote.", "wrong": "comprarò", "fix": "comprerò", "why": "Comprare → comprerò (a → e).", "g": "it-g-futuro-semplice" },
+    { "id": "e9", "type": "error", "q": "Buonasera, voglio un tavolo per due.", "wrong": "voglio", "fix": "vorrei", "why": "En el restaurante: vorrei, más amable.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e10", "type": "transform", "instr": "Sustituye el lugar por ci y pásala a futuro", "q": "Vado a Burano.", "answer": ["Ci andrò."], "why": "A Burano → ci; vado → andrò.", "g": "it-g-ci-locativo" },
+    { "id": "e11", "type": "transform", "instr": "Pásala a futuro", "q": "Con l'acqua alta servono gli stivali.", "answer": ["Con l'acqua alta serviranno gli stivali."], "why": "Servono → serviranno.", "g": "it-g-futuro-semplice" },
+    { "id": "e12", "type": "order", "es": "Algún día volveré a Venecia.", "answer": "Un giorno tornerò a Venezia", "alt": ["Tornerò a Venezia un giorno"], "extra": ["torno"], "why": "Tornerò = volveré.", "g": "it-g-futuro-semplice" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "Querría una mesa con vistas al canal.", "answer": ["Vorrei un tavolo con vista sul canale."], "why": "Vorrei + lo que pides.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "A Venezia è bello perdersi tra le calli.", "answer": ["En Venecia es bonito perderse entre las callejuelas.", "En Venecia es bonito perderse entre las calles."], "why": "Calli = las calles de Venecia.", "g": "it-g-futuro-semplice" },
+    { "id": "e15", "type": "situation", "context": "Tu amiga italiana te pregunta si has estado alguna vez en Venecia. Sí, y volverás el año que viene.", "emoji": "🛶", "options": ["Sì, ci sono stata e ci tornerò l'anno prossimo.", "Sì, sono ci stata e torno ci l'anno prossimo.", "Sì, la sono stata e la tornerò."], "answer": "Sì, ci sono stata e ci tornerò l'anno prossimo.", "why": "Ci + passato prossimo y ci + futuro.", "g": "it-g-ci-locativo" },
+    { "id": "e16", "type": "match", "pairs": [["andrò", "iré"], ["vorrei", "querría"], ["ci sono stata", "he estado allí"], ["potrebbe…?", "¿podría…?"], ["sarà", "será"]], "why": "Lo más importante de la unidad.", "g": "it-g-futuro-semplice" }
+  ],
+  "dialog": {
+    "title": "Último día en Venecia",
+    "setting": "En un campo veneciano, Yolanda habla con una vendedora de máscaras, la signora Rosa",
+    "emoji": "🎭",
+    "lines": [
+      { "who": "Rosa", "t": "Buongiorno! Prima volta a Venezia?", "es": "¡Buenos días! ¿Primera vez en Venecia?" },
+      { "who": "Yolanda", "t": "No, ci sono stata da giovane. Ma ci tornerò ancora!", "es": "No, estuve de joven. ¡Pero volveré otra vez!" },
+      { "who": "Rosa", "t": "Che bello! Cerca una maschera?", "es": "¡Qué bien! ¿Busca una máscara?" },
+      { "who": "Yolanda", "t": "Sì, vorrei una maschera per mia nipote.", "es": "Sí, querría una máscara para mi nieta." },
+      { "who": "Rosa", "t": "Questa con le piume le piacerà molto.", "es": "Esta con plumas le gustará mucho." },
+      { "who": "Yolanda", "t": "È bellissima! Potrebbe incartarla, per favore?", "es": "¡Es preciosa! ¿Podría envolverla, por favor?" },
+      { "who": "Rosa", "t": "Certo. Verrà al Carnevale, un giorno?", "es": "Claro. ¿Vendrá al Carnaval algún día?" },
+      { "who": "Yolanda", "t": "Mi piacerebbe tanto! Forse l'anno prossimo.", "es": "¡Me gustaría muchísimo! Quizá el año que viene." }
+    ],
+    "questions": [
+      { "q": "¿Es la primera vez que Yolanda va a Venecia?", "options": ["No, estuvo de joven", "Sí, es la primera vez", "No, va todos los años"], "answer": "No, estuvo de joven" },
+      { "q": "¿Para quién es la máscara?", "options": ["Para su nieta", "Para su hijo", "Para una amiga"], "answer": "Para su nieta" },
+      { "q": "¿Qué le pide Yolanda a Rosa?", "options": ["Que la envuelva", "Que le haga descuento", "Que se la mande a casa"], "answer": "Que la envuelva" }
+    ]
+  },
+  "realLife": { "t": "Ci sono stata da giovane, ma ci tornerò l'anno prossimo!", "es": "Estuve de joven, ¡pero volveré el año que viene!", "context": "Para contar que repetirás un viaje" },
+  "same": {
+    "text": "Fiesta y disfraces: palabras de la familia.",
+    "examples": [
+      { "t": "la maschera", "es": "la máscara" },
+      { "t": "l'itinerario", "es": "el itinerario" },
+      { "t": "le piume", "es": "las plumas" }
+    ]
+  },
+  "summary": [
+    "Planes con el futuro: domani vedremo, un giorno tornerò.",
+    "Pedir con educación: vorrei, potrebbe, mi piacerebbe.",
+    "Ci de lugar: ci sono stata, ci tornerò.",
+    "Venecia: il campo, le calli, l'acqua alta, il Carnevale, la maschera."
+  ],
+  "reviewed": false
+}

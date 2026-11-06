@@ -1,0 +1,58 @@
+{
+  "id": "it-a1-u11-c1",
+  "unit": "it-a1-u11",
+  "title": "¿Dónde está via Garibaldi?",
+  "setting": "Paseando por Roma, preguntas a Giulia, que pasa por allí, cómo llegar a una calle",
+  "emoji": "🧭",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao! Hai bisogno di aiuto?", "es": "¡Hola! ¿Necesitas ayuda?" },
+      "options": [
+        { "t": "Sì, grazie! Dov'è via Garibaldi?", "es": "¡Sí, gracias! ¿Dónde está la calle Garibaldi?", "next": "n2", "ok": true },
+        { "t": "Sì, grazie! Dove sono via Garibaldi?", "es": "¡Sí, gracias! ¿Dónde están la calle Garibaldi?", "next": "n2", "ok": false, "feedback": "Es una sola calle: dov'è." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Non è lontano. Vedi la chiesa? Vai dritto fino alla chiesa.", "es": "No está lejos. ¿Ves la iglesia? Sigue recto hasta la iglesia." },
+      "options": [
+        { "t": "Fino alla chiesa, va bene.", "es": "Hasta la iglesia, vale.", "next": "n3", "ok": true },
+        { "t": "Fino della chiesa, va bene.", "es": "Hasta la iglesia, vale.", "next": "n3", "ok": false, "feedback": "Hasta = fino a: fino alla chiesa." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Poi gira a destra e attraversa il ponte.", "es": "Luego gira a la derecha y cruza el puente." },
+      "options": [
+        { "t": "A destra e poi il ponte. E dopo?", "es": "A la derecha y luego el puente. ¿Y después?", "next": "n4", "ok": true },
+        { "t": "A sinistra e poi il ponte. E dopo?", "es": "A la izquierda y luego el puente. ¿Y después?", "next": "n4", "ok": false, "feedback": "Giulia ha dicho a destra: a la derecha. Sinistra es izquierda." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Dopo il ponte, prendi la prima a sinistra. È via Garibaldi!", "es": "Después del puente, coge la primera a la izquierda. ¡Es la calle Garibaldi!" },
+      "options": [
+        { "t": "Perfetto! È lontano a piedi?", "es": "¡Perfecto! ¿Está lejos andando?", "next": "n5", "ok": true },
+        { "t": "Perfetto! È largo a piedi?", "es": "¡Perfecto! ¿Es largo andando?", "next": "n5", "ok": false, "feedback": "Largo en italiano es «ancho». Para la distancia: è lontano?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "No, dieci minuti. Ma non prendere il taxi, è inutile!", "es": "No, diez minutos. Pero no cojas el taxi, ¡no hace falta!" },
+      "options": [
+        { "t": "Va bene, vado a piedi. Grazie mille!", "es": "Vale, voy andando. ¡Muchas gracias!", "next": "n6", "ok": true },
+        { "t": "Va bene, prendo il taxi.", "es": "Vale, cojo el taxi.", "next": "n6", "ok": false, "feedback": "Giulia ha dicho non prendere il taxi: no lo cojas. ¡Son solo diez minutos!" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Figurati! Buona passeggiata!", "es": "¡De nada! ¡Buen paseo!" },
+      "options": [
+        { "t": "Grazie, ciao!", "es": "¡Gracias, chao!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,469 @@
+{
+  "id": "en-a2-u04-l4",
+  "unit": "en-a2-u04",
+  "title": "worked, lived, visited",
+  "goal": "a escribir el pasado con -ed y a pronunciarlo bien: /t/, /d/ o /ɪd/",
+  "emoji": "👂",
+  "photoQuery": "woman gardening sunny garden",
+  "vocab": [
+    {
+      "id": "wkend-worked",
+      "t": "worked",
+      "es": "trabajé, trabajó…",
+      "emoji": "💼",
+      "pos": "v",
+      "ex": {
+        "t": "My son worked on Saturday.",
+        "es": "Mi hijo trabajó el sábado."
+      },
+      "note": "Suena /t/: «uorkt», una sílaba."
+    },
+    {
+      "id": "wkend-shopped",
+      "t": "shopped",
+      "es": "compré, fui de compras",
+      "emoji": "🛒",
+      "pos": "v",
+      "ex": {
+        "t": "We shopped at the market.",
+        "es": "Compramos en el mercado."
+      },
+      "note": "Se dobla la p. Suena /t/: «shopt»."
+    },
+    {
+      "id": "wkend-washed",
+      "t": "washed",
+      "es": "lavé, lavó…",
+      "emoji": "🧺",
+      "pos": "v",
+      "ex": {
+        "t": "I washed the car on Sunday.",
+        "es": "El domingo lavé el coche."
+      },
+      "note": "Suena /t/: «uosht»."
+    },
+    {
+      "id": "wkend-cleaned",
+      "t": "cleaned",
+      "es": "limpié, limpió…",
+      "emoji": "🧽",
+      "pos": "v",
+      "ex": {
+        "t": "I cleaned the kitchen after lunch.",
+        "es": "Limpié la cocina después de comer."
+      },
+      "note": "Suena /d/: «klind»."
+    },
+    {
+      "id": "wkend-phoned",
+      "t": "phoned",
+      "es": "llamé por teléfono",
+      "emoji": "📞",
+      "pos": "v",
+      "ex": {
+        "t": "I phoned my friend last night.",
+        "es": "Anoche llamé a mi amiga."
+      },
+      "note": "Suena /d/: «found»."
+    },
+    {
+      "id": "wkend-listened",
+      "t": "listened",
+      "es": "escuché",
+      "emoji": "🎧",
+      "pos": "v",
+      "ex": {
+        "t": "We listened to the radio in the car.",
+        "es": "Escuchamos la radio en el coche."
+      },
+      "note": "La t no suena: «LÍ-send»."
+    },
+    {
+      "id": "wkend-painted",
+      "t": "painted",
+      "es": "pinté",
+      "emoji": "🎨",
+      "pos": "v",
+      "ex": {
+        "t": "My grandson painted a picture for me.",
+        "es": "Mi nieto me pintó un dibujo."
+      },
+      "note": "Suena /ɪd/: «PÉIN-tid», dos sílabas."
+    },
+    {
+      "id": "wkend-waited",
+      "t": "waited",
+      "es": "esperé",
+      "emoji": "⏱️",
+      "pos": "v",
+      "ex": {
+        "t": "We waited for the bus for ages.",
+        "es": "Esperamos el autobús una eternidad."
+      },
+      "note": "Suena /ɪd/: «UÉI-tid»."
+    },
+    {
+      "id": "wkend-planted",
+      "t": "planted",
+      "es": "planté",
+      "emoji": "🌱",
+      "pos": "v",
+      "ex": {
+        "t": "I planted tomatoes in the garden.",
+        "es": "Planté tomates en el huerto."
+      },
+      "note": "Suena /ɪd/: «PLÁN-tid»."
+    },
+    {
+      "id": "wkend-studied",
+      "t": "studied",
+      "es": "estudié",
+      "emoji": "📖",
+      "pos": "v",
+      "ex": {
+        "t": "I studied English for an hour.",
+        "es": "Estudié inglés una hora."
+      },
+      "note": "y → ied. Suena /d/: «STÁ-did»."
+    }
+  ],
+  "grammar": "en-g-past-simple-regular",
+  "pron": {
+    "title": "La -ed: /t/, /d/ o /ɪd/",
+    "tip": "Nunca digas «-ed» como en español. Tras k, p, s, sh, ch suena /t/ (worked «uorkt»). Tras t o d añade sílaba, /ɪd/ (visited «VÍ-si-tid»). En el resto, /d/ (lived «livd»).",
+    "words": [
+      "worked",
+      "washed",
+      "lived",
+      "cleaned",
+      "visited",
+      "waited"
+    ],
+    "pairs": [
+      [
+        "work",
+        "worked"
+      ],
+      [
+        "paint",
+        "painted"
+      ],
+      [
+        "clean",
+        "cleaned"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I ___ the kitchen after lunch.",
+      "options": [
+        "cleaned",
+        "was clean",
+        "cleaning"
+      ],
+      "answer": "cleaned",
+      "why": "Pasado simple: cleaned, sin was.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "We ___ at the market on Saturday.",
+      "options": [
+        "shopped",
+        "shoped",
+        "shopt"
+      ],
+      "answer": "shopped",
+      "why": "Shop: vocal + consonante, se dobla la p.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "I ___ English for an hour.",
+      "options": [
+        "studied",
+        "studyed",
+        "studed"
+      ],
+      "answer": "studied",
+      "why": "Consonante + y → -ied.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "We ___ for the bus for twenty minutes. (wait)",
+      "es": "Esperamos el autobús veinte minutos.",
+      "answer": [
+        "waited"
+      ],
+      "bank": [
+        "waited",
+        "waitted",
+        "were wait"
+      ],
+      "why": "Wait + ed = waited (no se dobla: dos vocales antes de la t).",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I ___ tomatoes in the garden. (plant)",
+      "es": "Planté tomates en el huerto.",
+      "answer": [
+        "planted"
+      ],
+      "why": "Plant + ed = planted.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "My friend ___ me last night. (phone)",
+      "es": "Mi amiga me llamó anoche.",
+      "answer": [
+        "phoned"
+      ],
+      "why": "Phone acaba en -e: solo -d.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e7",
+      "type": "conjugate",
+      "verb": "to wash",
+      "person": "she",
+      "tense": "pasado simple",
+      "q": "She ___ the car on Sunday.",
+      "answer": [
+        "washed"
+      ],
+      "table": [
+        [
+          "/t/",
+          "worked, washed, shopped"
+        ],
+        [
+          "/d/",
+          "cleaned, phoned, studied"
+        ],
+        [
+          "/ɪd/",
+          "painted, waited, planted"
+        ]
+      ],
+      "why": "Wash + ed = washed. Igual con todas las personas.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "My grandson painteded a picture for me.",
+      "wrong": "painteded",
+      "fix": "painted",
+      "why": "Solo una -ed: painted. Suena «PÉIN-tid».",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Last Sunday I listen to the radio all morning.",
+      "wrong": "listen",
+      "fix": "listened",
+      "why": "Last Sunday pide pasado: listened.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e10",
+      "type": "match",
+      "pairs": [
+        [
+          "washed",
+          "/t/"
+        ],
+        [
+          "shopped",
+          "/t/"
+        ],
+        [
+          "phoned",
+          "/d/"
+        ],
+        [
+          "listened",
+          "/d/"
+        ],
+        [
+          "waited",
+          "/ɪd/"
+        ]
+      ],
+      "why": "/t/ tras sonidos sordos (sh, p); /ɪd/ tras t o d; /d/ en el resto.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e11",
+      "type": "minimal",
+      "pair": [
+        "I work on Saturdays",
+        "I worked on Saturday"
+      ],
+      "answer": "I worked on Saturday",
+      "es": [
+        "Trabajo los sábados",
+        "Trabajé el sábado"
+      ],
+      "why": "La -ed de worked es una /t/ cortita: «uorkt»."
+    },
+    {
+      "id": "e12",
+      "type": "minimal",
+      "pair": [
+        "paint",
+        "painted"
+      ],
+      "answer": "painted",
+      "es": [
+        "pintar",
+        "pinté"
+      ],
+      "why": "Painted tiene una sílaba más: «PÉIN-tid»."
+    },
+    {
+      "id": "e13",
+      "type": "transform",
+      "instr": "Pásala al pasado con «yesterday»",
+      "q": "I wash the dishes.",
+      "answer": [
+        "I washed the dishes yesterday.",
+        "Yesterday I washed the dishes.",
+        "Yesterday, I washed the dishes."
+      ],
+      "why": "Wash + ed = washed.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e14",
+      "type": "order",
+      "es": "Mi nieto me pintó un dibujo",
+      "answer": "My grandson painted a picture for me",
+      "extra": [
+        "was"
+      ],
+      "why": "Sujeto + painted + resto.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e15",
+      "type": "translate",
+      "dir": "to",
+      "q": "El domingo limpié la casa.",
+      "answer": [
+        "On Sunday I cleaned the house.",
+        "I cleaned the house on Sunday.",
+        "On Sunday, I cleaned the house."
+      ],
+      "why": "Clean + ed = cleaned (suena «klind»).",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "I worked, I cleaned and I painted.",
+      "es": "Trabajé, limpié y pinté."
+    }
+  ],
+  "dialog": {
+    "title": "Un sábado en el huerto",
+    "setting": "Yolanda le cuenta su fin de semana a Emma por videollamada",
+    "emoji": "🌱",
+    "lines": [
+      {
+        "who": "Emma",
+        "t": "Hi Yolanda! Was your weekend busy?",
+        "es": "¡Hola, Yolanda! ¿Tuviste un fin de semana movido?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Very! On Saturday I planted tomatoes.",
+        "es": "¡Mucho! El sábado planté tomates."
+      },
+      {
+        "who": "Emma",
+        "t": "In your garden?",
+        "es": "¿En tu jardín?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes. Then I washed the car and cleaned the kitchen.",
+        "es": "Sí. Luego lavé el coche y limpié la cocina."
+      },
+      {
+        "who": "Emma",
+        "t": "Wow! And on Sunday?",
+        "es": "¡Madre mía! ¿Y el domingo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "My grandson visited me. We painted together.",
+        "es": "Vino a verme mi nieto. Pintamos juntos."
+      },
+      {
+        "who": "Emma",
+        "t": "How lovely! I just studied for my exam.",
+        "es": "¡Qué bonito! Yo solo estudié para mi examen."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Good luck, Emma!",
+        "es": "¡Mucha suerte, Emma!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué plantó Yolanda?",
+        "options": [
+          "Tomates",
+          "Flores",
+          "Patatas"
+        ],
+        "answer": "Tomates"
+      },
+      {
+        "q": "¿Qué hizo con su nieto?",
+        "options": [
+          "Pintaron",
+          "Lavaron el coche",
+          "Estudiaron"
+        ],
+        "answer": "Pintaron"
+      },
+      {
+        "q": "¿Qué hizo Emma?",
+        "options": [
+          "Estudió",
+          "Trabajó",
+          "Pintó"
+        ],
+        "answer": "Estudió"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "I phoned you yesterday.",
+    "es": "Te llamé ayer.",
+    "context": "Para decirle a alguien que intentaste hablar con él"
+  },
+  "summary": [
+    "Pasado regular: verbo + -ed, igual para todos",
+    "Ortografía: live → lived · study → studied · stop → stopped",
+    "/t/ worked, washed · /d/ cleaned, phoned · /ɪd/ painted, waited",
+    "Solo /ɪd/ (tras t o d) añade una sílaba"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u04-l4"
+}

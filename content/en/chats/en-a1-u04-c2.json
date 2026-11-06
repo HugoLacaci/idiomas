@@ -1,0 +1,59 @@
+{
+  "id": "en-a1-u04-c2",
+  "unit": "en-a1-u04",
+  "title": "Emma no encuentra nada",
+  "setting": "Emma está en tu casa de visita y te pregunta dónde están las cosas.",
+  "emoji": "🔍",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, where are the cups?", "es": "Yolanda, ¿dónde están las tazas?" },
+      "options": [
+        { "t": "They're in the cupboard, next to the fridge.", "es": "Están en el armario, al lado de la nevera.", "next": "n2", "ok": true },
+        { "t": "They're on the cupboard, next to the fridge.", "es": "Están en el armario, al lado de la nevera.", "next": "n2", "ok": false, "feedback": "Dentro del armario: in the cupboard. On sería encima." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Got them! And the milk?", "es": "¡Ya las tengo! ¿Y la leche?" },
+      "options": [
+        { "t": "It's in the fridge.", "es": "Está en la nevera.", "next": "n3", "ok": true },
+        { "t": "There is in the fridge.", "es": "Está en la nevera.", "next": "n3", "ok": false, "feedback": "Para decir dónde está algo concreto usamos it's: It's in the fridge." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Thanks. Oh! There's a cat under the table!", "es": "Gracias. ¡Ay! ¡Hay un gato debajo de la mesa!" },
+      "options": [
+        { "t": "Ha ha! That's my neighbour's cat.", "es": "¡Ja, ja! Ese es el gato de mi vecina.", "next": "n4", "ok": true },
+        { "t": "Ha ha! Those are my neighbour's cat.", "es": "¡Ja, ja! Ese es el gato de mi vecina.", "next": "n4", "ok": false, "feedback": "Es un solo gato: that's (that is)." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "He's lovely! Where's the toilet, please?", "es": "¡Es precioso! ¿Dónde está el servicio, por favor?" },
+      "options": [
+        { "t": "It's upstairs, between the two bedrooms.", "es": "Está arriba, entre los dos dormitorios.", "next": "n5", "ok": true },
+        { "t": "It's upstairs, between the two bedroom.", "es": "Está arriba, entre los dos dormitorios.", "next": "n5", "ok": false, "feedback": "Dos dormitorios: plural, bedrooms." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Thanks! Is there a towel in the bathroom?", "es": "¡Gracias! ¿Hay toalla en el baño?" },
+      "options": [
+        { "t": "Yes, there is. It's on the shelf.", "es": "Sí. Está en la balda.", "next": "n6", "ok": true },
+        { "t": "Yes, it has. It's on the shelf.", "es": "Sí. Está en la balda.", "next": "n6", "ok": false, "feedback": "Respuesta corta de Is there…?: Yes, there is." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Your house is lovely, Yolanda. I feel at home!", "es": "Tu casa es preciosa, Yolanda. ¡Me siento como en casa!" },
+      "options": [
+        { "t": "Thank you! Make yourself at home.", "es": "¡Gracias! Estás en tu casa.", "next": "end", "ok": true },
+        { "t": "Thank you! You are in your house.", "es": "¡Gracias! Estás en tu casa.", "next": "end", "ok": false, "feedback": "Traducido palabra por palabra no funciona. Se dice Make yourself at home." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

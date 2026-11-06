@@ -1,0 +1,82 @@
+{
+  "id": "it-a2-u07-l5",
+  "unit": "it-a2-u07",
+  "title": "Mi fai un favore?",
+  "goal": "a pedir favores por teléfono y WhatsApp, dejar mensajes de voz y contar qué está pasando",
+  "emoji": "🙏",
+  "photoQuery": "turin city square arcades",
+  "vocab": [
+    { "id": "tel-mi-fai-un-favore", "t": "Mi fai un favore?", "es": "¿Me haces un favor?", "emoji": "🙏", "pos": "phrase", "ex": { "t": "Mi fai un favore? Chiami tu il ristorante?", "es": "¿Me haces un favor? ¿Llamas tú al restaurante?" } },
+    { "id": "tel-ti-dispiace", "t": "Ti dispiace…?", "es": "¿Te importa…?", "emoji": "😊", "pos": "phrase", "ex": { "t": "Ti dispiace richiamarmi stasera?", "es": "¿Te importa volver a llamarme esta noche?" } },
+    { "id": "tel-prestare", "t": "prestare", "es": "prestar, dejar", "emoji": "🤝", "pos": "v", "ex": { "t": "Mi presti il caricabatterie?", "es": "¿Me dejas el cargador?" } },
+    { "id": "tel-la-videochiamata", "t": "la videochiamata", "es": "la videollamada", "emoji": "🎥", "pos": "n", "ex": { "t": "Stasera facciamo una videochiamata con Hugo.", "es": "Esta noche hacemos una videollamada con Hugo." } },
+    { "id": "tel-la-segreteria", "t": "la segreteria telefonica", "es": "el buzón de voz, el contestador", "emoji": "📼", "pos": "n", "ex": { "t": "Ti ho lasciato un messaggio in segreteria.", "es": "Te he dejado un mensaje en el buzón de voz." } },
+    { "id": "tel-il-gruppo", "t": "il gruppo", "es": "el grupo (de WhatsApp)", "emoji": "👩‍👩‍👧", "pos": "n", "ex": { "t": "Scrivo nel gruppo delle amiche.", "es": "Escribo en el grupo de las amigas." } },
+    { "id": "tel-la-posizione", "t": "mandare la posizione", "es": "mandar la ubicación", "emoji": "📍", "pos": "phrase", "ex": { "t": "Mi mandi la posizione dell'hotel?", "es": "¿Me mandas la ubicación del hotel?" } },
+    { "id": "tel-il-caricabatterie", "t": "il caricabatterie", "es": "el cargador", "emoji": "🔌", "pos": "n", "ex": { "t": "Ho dimenticato il caricabatterie in albergo.", "es": "Me he olvidado el cargador en el hotel." } }
+  ],
+  "grammar": "it-g-pronomi-indiretti",
+  "pron": {
+    "title": "Gli y le en la frase",
+    "tip": "Gli y le van pegados al verbo, sin pausa: gli-scrivo, le-mando. Dilo todo como una sola palabra.",
+    "words": ["gli presto", "le mando", "ci scrivi", "mi presti", "vi richiamo"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "___ presti il caricabatterie?", "es": "¿Me dejas el cargador?", "options": ["Mi", "Ti", "Gli"], "answer": "Mi", "why": "A mí → mi.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e2", "type": "choose", "q": "Hugo non risponde. ___ lascio un messaggio in segreteria.", "es": "Hugo no contesta. Le dejo un mensaje en el buzón.", "options": ["Gli", "Le", "Lo"], "answer": "Gli", "why": "A Hugo (él) → gli.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e3", "type": "choose", "q": "Mia amica è in treno. Sta ___ un libro.", "es": "Mi amiga está en el tren. Está leyendo un libro.", "options": ["leggendo", "leggiando", "letto"], "answer": "leggendo", "why": "Leggere → leggendo.", "g": "it-g-stare-gerundio" },
+    { "id": "e4", "type": "choose", "q": "Ragazze, ___ mando la posizione del ristorante.", "es": "Chicas, os mando la ubicación del restaurante.", "options": ["vi", "ci", "gli"], "answer": "vi", "why": "A vosotras → vi.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e5", "type": "fill", "q": "Ti ___ richiamarmi stasera?", "es": "¿Te importa volver a llamarme esta noche?", "answer": ["dispiace"], "bank": ["dispiace", "piace", "serve"], "why": "Ti dispiace…? = ¿te importa…?", "g": "it-g-pronomi-indiretti" },
+    { "id": "e6", "type": "fill", "q": "La vicina? ___ ho prestato il mio caricabatterie.", "es": "¿La vecina? Le he dejado mi cargador.", "answer": ["Le"], "bank": ["Le", "Gli", "La"], "why": "A ella → le. Con le el participio no cambia: prestato.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e7", "type": "fill", "q": "Mi fai un ___? Chiami tu il taxi?", "es": "¿Me haces un favor? ¿Llamas tú al taxi?", "answer": ["favore"], "why": "Un favor = un favore.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e8", "type": "error", "q": "Mio figlio? Le faccio una videochiamata.", "wrong": "Le", "fix": "Gli", "why": "A tu hijo (él) → gli.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e9", "type": "error", "q": "Gli scrivo a Hugo stasera.", "wrong": "Gli", "fix": "Io", "why": "Si ya dices «a Hugo», no repitas gli. Mejor: Io scrivo a Hugo, o Gli scrivo.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e10", "type": "order", "es": "(A Hugo) le he dejado un mensaje en el buzón de voz.", "answer": "Gli ho lasciato un messaggio in segreteria", "extra": ["lasciata"], "why": "Gli/le + ho lasciato: el participio no cambia.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e11", "type": "transform", "instr": "Cambia «a mia amica» por un pronombre", "q": "Presto la sciarpa a mia amica.", "answer": ["Le presto la sciarpa."], "why": "A una mujer → le.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "¿Me mandas la ubicación?", "answer": ["Mi mandi la posizione?"], "why": "A mí → mi; ubicación = posizione.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e13", "type": "reading", "kind": "message", "title": "Audio de WhatsApp de Yolanda a Hugo", "text": "Ciao tesoro! Ti ho chiamato ma non rispondi. Siamo a Torino, stiamo passeggiando sotto i portici. Mi fai un favore? Mi mandi il numero dell'hotel? Ho dimenticato il caricabatterie! Ti richiamo stasera.", "questions": [
+      { "q": "¿Dónde está Yolanda?", "options": ["En Turín", "En Milán", "En casa"], "answer": "En Turín" },
+      { "q": "¿Qué está haciendo ahora?", "options": ["Pasear bajo los soportales", "Cenar", "Hacer la maleta"], "answer": "Pasear bajo los soportales" },
+      { "q": "¿Qué favor le pide a Hugo?", "options": ["Que le mande el número del hotel", "Que le compre un cargador", "Que la recoja"], "answer": "Que le mande el número del hotel" }
+    ] },
+    { "id": "e14", "type": "situation", "context": "Tu amiga te llama, pero estás conduciendo. Le dices que la llamas luego.", "emoji": "🚗", "options": ["Sto guidando, ti richiamo dopo!", "Guido, ti richiamo ieri!", "Sono guidando, ti richiamo dopo!"], "answer": "Sto guidando, ti richiamo dopo!", "why": "Ahora mismo: sto guidando.", "g": "it-g-stare-gerundio" },
+    { "id": "e15", "type": "situation", "context": "En el hotel te has quedado sin batería. Le pides un cargador a la recepcionista.", "emoji": "🔌", "options": ["Scusi, mi può prestare un caricabatterie?", "Scusi, le può prestare un caricabatterie?", "Scusi, mi presto un caricabatterie?"], "answer": "Scusi, mi può prestare un caricabatterie?", "why": "Me (a mí) + può prestare, en forma educada.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e16", "type": "match", "pairs": [["Mi fai un favore?", "¿Me haces un favor?"], ["Ti dispiace?", "¿Te importa?"], ["la videochiamata", "la videollamada"], ["il caricabatterie", "el cargador"], ["la segreteria", "el buzón de voz"]], "why": "Frases para pedir favores." }
+  ],
+  "dialog": {
+    "title": "Un favor desde Turín",
+    "setting": "Yolanda está de viaje en Turín y llama por teléfono a una amiga italiana",
+    "emoji": "🏛️",
+    "lines": [
+      { "who": "Chiara", "t": "Pronto? Yolanda! Dove sei?", "es": "¿Sí? ¡Yolanda! ¿Dónde estás?" },
+      { "who": "Yolanda", "t": "A Torino! Stiamo visitando il Museo Egizio.", "es": "¡En Turín! Estamos visitando el Museo Egipcio." },
+      { "who": "Chiara", "t": "Che bello! Ti serve qualcosa?", "es": "¡Qué bien! ¿Necesitas algo?" },
+      { "who": "Yolanda", "t": "Sì, mi fai un favore? Mi dai il numero di quel ristorante?", "es": "Sí, ¿me haces un favor? ¿Me das el número de aquel restaurante?" },
+      { "who": "Chiara", "t": "Certo, aspetta… ti mando la posizione.", "es": "Claro, espera… te mando la ubicación." },
+      { "who": "Yolanda", "t": "Grazie! E a tuo marito puoi dire una cosa?", "es": "¡Gracias! ¿Y le puedes decir una cosa a tu marido?" },
+      { "who": "Chiara", "t": "Certo, cosa gli dico?", "es": "Claro, ¿qué le digo?" },
+      { "who": "Yolanda", "t": "Digli che i suoi consigli sono perfetti!", "es": "¡Dile que sus consejos son perfectos!" }
+    ],
+    "questions": [
+      { "q": "¿Qué está visitando Yolanda?", "options": ["El Museo Egipcio", "La catedral", "Un mercado"], "answer": "El Museo Egipcio" },
+      { "q": "¿Qué le manda Chiara?", "options": ["La ubicación del restaurante", "Una foto", "El horario del museo"], "answer": "La ubicación del restaurante" },
+      { "q": "¿Qué le dice Yolanda al marido de Chiara?", "options": ["Que sus consejos son perfectos", "Que lo llamará mañana", "Que le ha comprado un regalo"], "answer": "Que sus consejos son perfectos" }
+    ]
+  },
+  "realLife": { "t": "Mi fai un favore?", "es": "¿Me haces un favor?", "context": "Para pedir ayuda a una amiga o a tu familia por teléfono" },
+  "same": {
+    "text": "Para pedir favores, el italiano funciona como el español: pronombre + verbo y una pregunta amable.",
+    "examples": [
+      { "t": "Mi presti…?", "es": "¿Me prestas…?" },
+      { "t": "Mi mandi…?", "es": "¿Me mandas…?" },
+      { "t": "Mi fai un favore?", "es": "¿Me haces un favor?" }
+    ]
+  },
+  "summary": [
+    "Pedir favores: Mi fai un favore? Ti dispiace…? Mi presti…?",
+    "Gli para él, le para ella, Le para usted.",
+    "Qué pasa ahora: stiamo visitando, sto guidando.",
+    "La segreteria, la videochiamata, il caricabatterie, mandare la posizione."
+  ],
+  "reviewed": false
+}

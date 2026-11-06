@@ -1,0 +1,67 @@
+{
+  "id": "en-b1-u03-c1",
+  "unit": "en-b1-u03",
+  "title": "¿A qué jugabas de pequeña?",
+  "setting": "Emma está preparando una charla sobre juegos infantiles y te pregunta por los tuyos.",
+  "emoji": "🧸",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! Can I ask you about your childhood?", "es": "¡Hola, Yolanda! ¿Puedo preguntarte por tu infancia?" },
+      "options": [
+        { "t": "Of course! I had a very happy childhood.", "es": "¡Claro! Tuve una infancia muy feliz.", "next": "n2", "ok": true },
+        { "t": "Of course! I had a very happy infancy.", "es": "¡Claro! Tuve una infancia muy feliz.", "next": "n2", "ok": false, "feedback": "Infancy es la primera etapa, cuando eres bebé. Para la niñez se dice childhood." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Lovely! What games did you use to play?", "es": "¡Qué bien! ¿A qué solías jugar?" },
+      "options": [
+        { "t": "I used to play hide-and-seek and marbles.", "es": "Jugaba al escondite y a las canicas.", "next": "n3", "ok": true },
+        { "t": "I use to play hide-and-seek and marbles.", "es": "Jugaba al escondite y a las canicas.", "next": "n3", "ok": false, "feedback": "En afirmativa se escribe used to, con -d, aunque no se oiga." },
+        { "t": "I was used to play hide-and-seek and marbles.", "es": "Jugaba al escondite y a las canicas.", "next": "n3", "ok": false, "feedback": "Was used to significa «estaba acostumbrada». Para «jugaba», I used to play." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Where did you use to play? At home?", "es": "¿Dónde jugabais? ¿En casa?" },
+      "options": [
+        { "t": "No, in the street. There weren't many cars.", "es": "No, en la calle. No había muchos coches.", "next": "n4", "ok": true },
+        { "t": "No, in the street. There wasn't many cars.", "es": "No, en la calle. No había muchos coches.", "next": "n4", "ok": false, "feedback": "Cars es plural: there weren't." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Did you use to get pocket money?", "es": "¿Te daban paga?" },
+      "options": [
+        { "t": "Yes, a little. I used to spend it all on sweets!", "es": "Sí, un poco. ¡Me la gastaba toda en chuches!", "next": "n5", "ok": true },
+        { "t": "Yes, a little. I used to spending it all on sweets!", "es": "Sí, un poco. ¡Me la gastaba toda en chuches!", "next": "n5", "ok": false, "feedback": "Después de used to, el verbo en forma base: used to spend." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ha ha! Me too. Do you still eat sweets?", "es": "¡Ja, ja! Yo también. ¿Todavía comes chuches?" },
+      "options": [
+        { "t": "Not any more. I prefer chocolate now!", "es": "Ya no. ¡Ahora prefiero el chocolate!", "next": "n6", "ok": true },
+        { "t": "Not more. I prefer chocolate now!", "es": "Ya no. ¡Ahora prefiero el chocolate!", "next": "n6", "ok": false, "feedback": "«Ya no» se dice not… any more: Not any more." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "And what do children play nowadays in Spain?", "es": "¿Y a qué juegan hoy en día los niños en España?" },
+      "options": [
+        { "t": "Nowadays they play with tablets. Things have changed a lot.", "es": "Hoy en día juegan con tabletas. Las cosas han cambiado mucho.", "next": "n7", "ok": true },
+        { "t": "Actually they play with tablets. Things have changed a lot.", "es": "Actualmente juegan con tabletas. Las cosas han cambiado mucho.", "next": "n7", "ok": false, "feedback": "¡Falso amigo! Actually = en realidad. «Actualmente» es nowadays." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Thank you, Yolanda! This is perfect for my talk.", "es": "¡Gracias, Yolanda! Esto es perfecto para mi charla." },
+      "options": [
+        { "t": "You're welcome! It was nice to remember the good old days.", "es": "¡De nada! Ha sido bonito recordar los buenos tiempos.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,59 @@
+{
+  "id": "it-a2-u10-c3",
+  "unit": "it-a2-u10",
+  "title": "¿Has estado alguna vez?",
+  "setting": "De vuelta en casa, Giulia te pregunta por los sitios de Venecia que has visto y los que te quedan",
+  "emoji": "🏝️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Bentornata! Sei stata a Murano?", "es": "¡Bienvenida! ¿Has estado en Murano?" },
+      "options": [
+        { "t": "Sì, ci sono stata martedì.", "es": "Sí, estuve el martes.", "next": "n2", "ok": true },
+        { "t": "Sì, sono ci stata martedì.", "es": "Sí, estuve el martes.", "next": "n2", "ok": false, "feedback": "Ci va delante de todo el verbo: ci sono stata." },
+        { "t": "Sì, ne sono stata martedì.", "es": "Sí, estuve el martes.", "next": "n2", "ok": false, "feedback": "Para un lugar se usa ci, no ne." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "E come ci sei andata?", "es": "¿Y cómo fuiste?" },
+      "options": [
+        { "t": "Ci sono andata in vaporetto.", "es": "Fui en vaporetto.", "next": "n3", "ok": true },
+        { "t": "Ci ho andato in vaporetto.", "es": "Fui en vaporetto.", "next": "n3", "ok": false, "feedback": "Andare va con essere: ci sono andata." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "E al Lido? Ci sei andata?", "es": "¿Y al Lido? ¿Fuiste?" },
+      "options": [
+        { "t": "No, non ci sono andata. Non c'era tempo.", "es": "No, no fui. No había tiempo.", "next": "n4", "ok": true },
+        { "t": "No, ci non sono andata. Non c'era tempo.", "es": "No, no fui. No había tiempo.", "next": "n4", "ok": false, "feedback": "Non va siempre delante: non ci sono andata." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Peccato! Ci tornerai, allora?", "es": "¡Qué pena! Entonces, ¿volverás?" },
+      "options": [
+        { "t": "Sì, ci tornerò l'anno prossimo!", "es": "¡Sí, volveré el año que viene!", "next": "n5", "ok": true },
+        { "t": "Sì, tornerò ci l'anno prossimo!", "es": "¡Sí, volveré el año que viene!", "next": "n5", "ok": false, "feedback": "Ci va delante del verbo conjugado: ci tornerò." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "E quanto ci vuole da Venezia a casa tua?", "es": "¿Y cuánto se tarda de Venecia a tu casa?" },
+      "options": [
+        { "t": "In aereo ci vogliono poche ore.", "es": "En avión se tardan pocas horas.", "next": "n6", "ok": true },
+        { "t": "In aereo ci vuole poche ore.", "es": "En avión se tardan pocas horas.", "next": "n6", "ok": false, "feedback": "Con un plural (poche ore) se dice ci vogliono." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Allora la prossima volta ci andiamo insieme!", "es": "¡Entonces la próxima vez vamos juntas!" },
+      "options": [
+        { "t": "Che bello! Ci andremo insieme.", "es": "¡Qué bien! Iremos juntas.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

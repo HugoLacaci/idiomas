@@ -1,0 +1,422 @@
+{
+  "id": "it-a1-u01-l2",
+  "unit": "it-a1-u01",
+  "title": "Io, tu, lui, lei: quién es quién",
+  "goal": "a usar los pronombres personales (yo, tú, él, ella…) en italiano",
+  "emoji": "👥",
+  "photoQuery": "family dinner table italy",
+  "vocab": [
+    {
+      "id": "io",
+      "t": "io",
+      "es": "yo",
+      "emoji": "🙋‍♀️",
+      "pos": "other",
+      "ex": {
+        "t": "Io sono Yolanda.",
+        "es": "Yo soy Yolanda."
+      }
+    },
+    {
+      "id": "tu",
+      "t": "tu",
+      "es": "tú",
+      "emoji": "👉",
+      "pos": "other",
+      "ex": {
+        "t": "Tu sei Giulia?",
+        "es": "¿Tú eres Giulia?"
+      },
+      "note": "Sin acento."
+    },
+    {
+      "id": "lui",
+      "t": "lui",
+      "es": "él",
+      "emoji": "👨",
+      "pos": "other",
+      "ex": {
+        "t": "Lui è Hugo, mio figlio.",
+        "es": "Él es Hugo, mi hijo."
+      }
+    },
+    {
+      "id": "lei",
+      "t": "lei",
+      "es": "ella",
+      "emoji": "👩",
+      "pos": "other",
+      "ex": {
+        "t": "Lei è Carmen, la mia amica.",
+        "es": "Ella es Carmen, mi amiga."
+      },
+      "note": "Con mayúscula, Lei también es «usted»."
+    },
+    {
+      "id": "noi",
+      "t": "noi",
+      "es": "nosotros / nosotras",
+      "emoji": "👨‍👩‍👦",
+      "pos": "other",
+      "ex": {
+        "t": "Noi siamo spagnoli.",
+        "es": "Nosotros somos españoles."
+      }
+    },
+    {
+      "id": "voi",
+      "t": "voi",
+      "es": "vosotros / vosotras",
+      "emoji": "👥",
+      "pos": "other",
+      "ex": {
+        "t": "Voi siete italiani?",
+        "es": "¿Vosotros sois italianos?"
+      }
+    },
+    {
+      "id": "loro",
+      "t": "loro",
+      "es": "ellos / ellas",
+      "emoji": "🧑‍🤝‍🧑",
+      "pos": "other",
+      "ex": {
+        "t": "Loro sono i miei nipoti.",
+        "es": "Ellos son mis nietos."
+      }
+    },
+    {
+      "id": "il-signore",
+      "t": "il signore",
+      "es": "el señor",
+      "emoji": "🎩",
+      "pos": "n",
+      "ex": {
+        "t": "Il signore è molto gentile.",
+        "es": "El señor es muy amable."
+      }
+    },
+    {
+      "id": "la-signora",
+      "t": "la signora",
+      "es": "la señora",
+      "emoji": "👒",
+      "pos": "n",
+      "ex": {
+        "t": "Buongiorno, signora Rossi!",
+        "es": "¡Buenos días, señora Rossi!"
+      }
+    }
+  ],
+  "grammar": "it-g-pronomi-soggetto",
+  "pron": {
+    "title": "Lui, lei, io: cada vocal se oye",
+    "tip": "En lui y lei se dicen las dos vocales seguidas, sin perder ninguna: «lu-i», y «lei» como nuestra «ley». En io, la i y la o se oyen claras: «ío».",
+    "words": [
+      "io",
+      "lui",
+      "lei",
+      "noi",
+      "voi",
+      "loro"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ è mio figlio Hugo.",
+      "es": "Él es mi hijo Hugo.",
+      "options": [
+        "Lui",
+        "Lei",
+        "Io"
+      ],
+      "answer": "Lui",
+      "g": "it-g-pronomi-soggetto",
+      "why": "Para un hombre se usa lui (él)."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "q": "___ siamo in vacanza.",
+      "es": "Nosotros estamos de vacaciones.",
+      "answer": [
+        "Noi"
+      ],
+      "bank": [
+        "Noi",
+        "Voi",
+        "Loro"
+      ],
+      "g": "it-g-pronomi-soggetto",
+      "why": "Noi = nosotros / nosotras. Va con siamo."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "___ è mia sorella.",
+      "es": "Ella es mi hermana.",
+      "options": [
+        "Lei",
+        "Lui",
+        "Loro"
+      ],
+      "answer": "Lei",
+      "g": "it-g-pronomi-soggetto",
+      "why": "Para una mujer se usa lei (ella)."
+    },
+    {
+      "id": "e4",
+      "type": "transform",
+      "instr": "Quita el pronombre: en italiano también se puede omitir.",
+      "q": "Io sono spagnola.",
+      "answer": [
+        "Sono spagnola",
+        "Sono spagnola."
+      ],
+      "g": "it-g-pronomi-soggetto",
+      "why": "Como en español, el verbo ya dice quién es: sono = (yo) soy."
+    },
+    {
+      "id": "e5",
+      "type": "situation",
+      "context": "Señalas a tu hijo en una foto y se lo presentas a Giulia.",
+      "emoji": "📱",
+      "options": [
+        "Lui è Hugo.",
+        "Lei è Hugo.",
+        "Io sono Hugo."
+      ],
+      "answer": "Lui è Hugo.",
+      "g": "it-g-pronomi-soggetto",
+      "why": "Hugo es un hombre: lui (él)."
+    },
+    {
+      "id": "e6",
+      "type": "order",
+      "es": "Nosotros somos españoles.",
+      "answer": "Noi siamo spagnoli",
+      "extra": [
+        "voi"
+      ],
+      "g": "it-g-pronomi-soggetto",
+      "why": "Noi (nosotros) va con siamo."
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "Lei è mio marito.",
+      "wrong": "Lei",
+      "fix": "Lui",
+      "es": "Él es mi marido.",
+      "g": "it-g-pronomi-soggetto",
+      "why": "Para un hombre se usa lui; lei es para una mujer."
+    },
+    {
+      "id": "e8",
+      "type": "choose",
+      "q": "Hugo e Marco? ___ sono al bar.",
+      "es": "¿Hugo y Marco? Ellos están en el bar.",
+      "options": [
+        "Loro",
+        "Noi",
+        "Voi"
+      ],
+      "answer": "Loro",
+      "g": "it-g-pronomi-soggetto",
+      "why": "Loro = ellos / ellas."
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "q": "E ___, come ti chiami?",
+      "es": "Y tú, ¿cómo te llamas?",
+      "answer": [
+        "tu"
+      ],
+      "hint": "tú",
+      "g": "it-g-pronomi-soggetto",
+      "why": "Tú = tu, sin acento en italiano."
+    },
+    {
+      "id": "e10",
+      "type": "match",
+      "pairs": [
+        [
+          "io",
+          "yo"
+        ],
+        [
+          "tu",
+          "tú"
+        ],
+        [
+          "noi",
+          "nosotros"
+        ],
+        [
+          "voi",
+          "vosotros"
+        ],
+        [
+          "loro",
+          "ellos / ellas"
+        ]
+      ],
+      "g": "it-g-pronomi-soggetto",
+      "why": "Casi todos se parecen mucho al español."
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Ella es mi amiga Carmen.",
+      "answer": [
+        "Lei è la mia amica Carmen",
+        "È la mia amica Carmen"
+      ],
+      "g": "it-g-pronomi-soggetto",
+      "why": "Ella = lei. Mi amiga = la mia amica."
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "¿Vosotros sois italianos?",
+      "answer": "Voi siete italiani",
+      "extra": [
+        "noi"
+      ],
+      "g": "it-g-pronomi-soggetto",
+      "why": "Voi (vosotros) va con siete."
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "from",
+      "q": "Loro sono i miei nipoti.",
+      "answer": [
+        "Ellos son mis nietos",
+        "Ellos son mis sobrinos",
+        "Son mis nietos",
+        "Son mis sobrinos"
+      ],
+      "g": "it-g-pronomi-soggetto",
+      "why": "Nipoti puede ser nietos o sobrinos: el contexto lo aclara."
+    },
+    {
+      "id": "e14",
+      "type": "speak",
+      "t": "Io sono Yolanda e lui è Hugo.",
+      "es": "Yo soy Yolanda y él es Hugo."
+    }
+  ],
+  "dialog": {
+    "title": "Fotos en el móvil",
+    "setting": "En una terraza de Roma, enseñando fotos del móvil",
+    "emoji": "📱",
+    "lines": [
+      {
+        "who": "Giulia",
+        "t": "Chi è lui?",
+        "es": "¿Quién es él?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Lui è Hugo, mio figlio.",
+        "es": "Él es Hugo, mi hijo."
+      },
+      {
+        "who": "Giulia",
+        "t": "E lei chi è?",
+        "es": "¿Y ella quién es?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Lei è Carmen, la mia migliore amica.",
+        "es": "Ella es Carmen, mi mejor amiga."
+      },
+      {
+        "who": "Giulia",
+        "t": "E loro? Sono i tuoi nipoti?",
+        "es": "¿Y ellos? ¿Son tus nietos?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, loro sono i figli di Carmen.",
+        "es": "No, ellos son los hijos de Carmen."
+      },
+      {
+        "who": "Giulia",
+        "t": "Che belle foto!",
+        "es": "¡Qué fotos tan bonitas!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Quién es Hugo?",
+        "options": [
+          "El hijo de Yolanda",
+          "El marido de Carmen",
+          "Un amigo"
+        ],
+        "answer": "El hijo de Yolanda"
+      },
+      {
+        "q": "¿Quién es Carmen?",
+        "options": [
+          "La mejor amiga de Yolanda",
+          "La hermana de Giulia",
+          "La nieta de Yolanda"
+        ],
+        "answer": "La mejor amiga de Yolanda"
+      },
+      {
+        "q": "¿De quién son los niños de la foto?",
+        "options": [
+          "De Carmen",
+          "De Yolanda",
+          "De Giulia"
+        ],
+        "answer": "De Carmen"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Lui è mio figlio.",
+    "es": "Él es mi hijo.",
+    "context": "Para presentar a tu hijo o enseñar su foto"
+  },
+  "same": {
+    "text": "Igual que en español, el pronombre se puede omitir, porque el verbo ya dice quién es.",
+    "examples": [
+      {
+        "t": "Sono Yolanda.",
+        "es": "Soy Yolanda."
+      },
+      {
+        "t": "Siamo spagnoli.",
+        "es": "Somos españoles."
+      },
+      {
+        "t": "Sei italiana?",
+        "es": "¿Eres italiana?"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "Lei (con mayúscula)",
+    "means": "usted",
+    "looksLike": "ella",
+    "emoji": "🎩",
+    "tip": "Lei también es «usted». Así que «Lei è spagnola?» puede ser «¿Usted es española?»: el contexto te lo dirá."
+  },
+  "summary": [
+    "io, tu, lui, lei, noi, voi, loro = yo, tú, él, ella, nosotros, vosotros, ellos",
+    "Tu (tú) no lleva acento",
+    "Loro sirve para ellos y para ellas",
+    "Como en español, el pronombre casi siempre se omite"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u01-l2"
+}

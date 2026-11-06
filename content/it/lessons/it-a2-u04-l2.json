@@ -1,0 +1,450 @@
+{
+  "id": "it-a2-u04-l2",
+  "unit": "it-a2-u04",
+  "title": "Giocavo in cortile",
+  "goal": "a formar el imperfetto (giocavo, avevo, dormivo) para contar a qué jugabas de pequeña",
+  "emoji": "🪀",
+  "photoQuery": "children playing jump rope street",
+  "vocab": [
+    {
+      "id": "ricordi-giocare-a-nascondino",
+      "t": "giocare a nascondino",
+      "es": "jugar al escondite",
+      "emoji": "🙈",
+      "pos": "phrase",
+      "ex": {
+        "t": "Giocavamo a nascondino in cortile.",
+        "es": "Jugábamos al escondite en el patio."
+      }
+    },
+    {
+      "id": "ricordi-saltare-la-corda",
+      "t": "saltare la corda",
+      "es": "saltar a la comba",
+      "emoji": "🪢",
+      "pos": "phrase",
+      "ex": {
+        "t": "Io e le mie amiche saltavamo la corda.",
+        "es": "Mis amigas y yo saltábamos a la comba."
+      }
+    },
+    {
+      "id": "ricordi-andare-in-bicicletta",
+      "t": "andare in bicicletta",
+      "es": "montar en bici",
+      "emoji": "🚲",
+      "pos": "phrase",
+      "ex": {
+        "t": "D'estate andavo sempre in bicicletta.",
+        "es": "En verano siempre montaba en bici."
+      }
+    },
+    {
+      "id": "ricordi-la-bambola",
+      "t": "la bambola",
+      "es": "la muñeca",
+      "emoji": "🪆",
+      "pos": "n",
+      "ex": {
+        "t": "Avevo una bambola con i capelli biondi.",
+        "es": "Tenía una muñeca con el pelo rubio."
+      }
+    },
+    {
+      "id": "ricordi-la-palla",
+      "t": "la palla",
+      "es": "la pelota",
+      "emoji": "⚽",
+      "pos": "n",
+      "ex": {
+        "t": "I bambini giocavano a palla in strada.",
+        "es": "Los niños jugaban a la pelota en la calle."
+      }
+    },
+    {
+      "id": "ricordi-le-figurine",
+      "t": "le figurine",
+      "es": "los cromos",
+      "emoji": "🃏",
+      "pos": "n",
+      "ex": {
+        "t": "Il mio compagno di banco collezionava le figurine.",
+        "es": "Mi compañero de pupitre coleccionaba cromos."
+      }
+    },
+    {
+      "id": "ricordi-i-cartoni-animati",
+      "t": "i cartoni animati",
+      "es": "los dibujos animados",
+      "emoji": "📺",
+      "pos": "n",
+      "ex": {
+        "t": "Il sabato guardavo i cartoni animati.",
+        "es": "Los sábados veía los dibujos animados."
+      }
+    },
+    {
+      "id": "ricordi-disegnare",
+      "t": "disegnare",
+      "es": "dibujar",
+      "emoji": "🖍️",
+      "pos": "v",
+      "ex": {
+        "t": "Disegnavo sempre case e fiori.",
+        "es": "Siempre dibujaba casas y flores."
+      }
+    },
+    {
+      "id": "ricordi-abitare",
+      "t": "abitare",
+      "es": "vivir (en un sitio)",
+      "emoji": "🏡",
+      "pos": "v",
+      "ex": {
+        "t": "Da piccola abitavo in un paese.",
+        "es": "De pequeña vivía en un pueblo."
+      }
+    }
+  ],
+  "grammar": "it-g-imperfetto",
+  "pron": {
+    "title": "La gi de giocare",
+    "tip": "Gio suena como una «y» fuerte, casi «yo» con fuerza: «yo-ca-re». Y el acento de giocavo va en la «ca», como en «jugaba».",
+    "words": [
+      "giocare",
+      "giocavo",
+      "giocavamo",
+      "giornale",
+      "giardino"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Da piccola ___ sempre in bicicletta.",
+      "es": "De pequeña siempre montaba en bici.",
+      "options": [
+        "andavo",
+        "andava",
+        "vado"
+      ],
+      "answer": "andavo",
+      "why": "Io, en el pasado y por costumbre: andavo.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Io e le mie amiche ___ la corda.",
+      "es": "Mis amigas y yo saltábamos a la comba.",
+      "options": [
+        "saltavamo",
+        "saltavano",
+        "saltavate"
+      ],
+      "answer": "saltavamo",
+      "why": "Io e le mie amiche = noi: saltavamo.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "I bambini ___ a palla in strada.",
+      "es": "Los niños jugaban a la pelota en la calle.",
+      "options": [
+        "giocavano",
+        "giocavamo",
+        "giocava"
+      ],
+      "answer": "giocavano",
+      "why": "I bambini = loro: giocavano.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Il mio compagno di banco ___ le figurine.",
+      "es": "Mi compañero de pupitre coleccionaba cromos.",
+      "options": [
+        "collezionava",
+        "collezionavo",
+        "collezionavi"
+      ],
+      "answer": "collezionava",
+      "why": "Lui → -va: collezionava.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Il sabato ___ i cartoni animati.",
+      "es": "Los sábados veía los dibujos animados.",
+      "answer": [
+        "guardavo"
+      ],
+      "bank": [
+        "guardavo",
+        "guardava",
+        "guardo"
+      ],
+      "why": "Io, costumbre del pasado: guardavo.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Tu ___ con le bambole?",
+      "es": "¿Tú jugabas con muñecas?",
+      "answer": [
+        "giocavi"
+      ],
+      "bank": [
+        "giocavi",
+        "giocavo",
+        "giocate"
+      ],
+      "why": "Tu → -vi: giocavi.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Da bambina ___ in un paese piccolo.",
+      "es": "De niña vivía en un pueblo pequeño.",
+      "answer": [
+        "abitavo",
+        "vivevo"
+      ],
+      "hint": "abitare",
+      "why": "Abitare → abitavo (io).",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "q": "Il pomeriggio ___ un'ora.",
+      "es": "Por la tarde dormía una hora.",
+      "answer": [
+        "dormivo"
+      ],
+      "hint": "dormire",
+      "why": "Dormire (-ire) → dormivo.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e9",
+      "type": "conjugate",
+      "verb": "disegnare",
+      "person": "io",
+      "tense": "imperfetto",
+      "q": "___ sempre case e fiori.",
+      "answer": [
+        "Disegnavo",
+        "disegnavo"
+      ],
+      "table": [
+        [
+          "io",
+          "disegnavo"
+        ],
+        [
+          "tu",
+          "disegnavi"
+        ],
+        [
+          "lei",
+          "disegnava"
+        ]
+      ],
+      "why": "Disegnare → disegnavo.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e10",
+      "type": "conjugate",
+      "verb": "avere",
+      "person": "noi",
+      "tense": "imperfetto",
+      "q": "___ un cane bianco e nero.",
+      "answer": [
+        "Avevamo",
+        "avevamo"
+      ],
+      "why": "Avere → avevamo (noi).",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Da piccola giocava a nascondino con gli amici.",
+      "wrong": "giocava",
+      "fix": "giocavo",
+      "why": "Hablas de ti (io): giocavo, con -o.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "Voi guardavano i cartoni animati?",
+      "wrong": "guardavano",
+      "fix": "guardavate",
+      "why": "Voi → guardavate.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e13",
+      "type": "transform",
+      "instr": "Pásala al imperfetto",
+      "q": "Gioco a nascondino con i miei amici.",
+      "answer": [
+        "Giocavo a nascondino con i miei amici."
+      ],
+      "why": "Gioco → giocavo.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e14",
+      "type": "order",
+      "es": "Jugábamos al escondite en el patio.",
+      "answer": "Giocavamo a nascondino in cortile",
+      "alt": [
+        "In cortile giocavamo a nascondino"
+      ],
+      "extra": [
+        "giocavano"
+      ],
+      "why": "Noi → giocavamo.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e15",
+      "type": "translate",
+      "dir": "to",
+      "q": "De pequeña tenía una muñeca.",
+      "answer": [
+        "Da piccola avevo una bambola.",
+        "Quando ero piccola avevo una bambola.",
+        "Quando ero piccola, avevo una bambola.",
+        "Da bambina avevo una bambola."
+      ],
+      "why": "Avere → avevo; la muñeca = la bambola.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e16",
+      "type": "situation",
+      "context": "Tu nieto te pregunta si veías dibujos animados de pequeña. Le dices que sí, los sábados.",
+      "emoji": "📺",
+      "options": [
+        "Sì, li guardavo il sabato.",
+        "Sì, li guardo il sabato.",
+        "Sì, li guardava il sabato."
+      ],
+      "answer": "Sì, li guardavo il sabato.",
+      "why": "Una costumbre del pasado, hablando de ti: guardavo.",
+      "g": "it-g-imperfetto"
+    }
+  ],
+  "dialog": {
+    "title": "¿A qué jugabas?",
+    "setting": "Yolanda y su vecina italiana Teresa miran jugar a unos niños en un parque",
+    "emoji": "🛝",
+    "lines": [
+      {
+        "who": "Teresa",
+        "t": "Guarda quei bambini! Tu a cosa giocavi da piccola?",
+        "es": "¡Mira esos niños! ¿Tú a qué jugabas de pequeña?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Saltavo la corda e giocavo a nascondino.",
+        "es": "Saltaba a la comba y jugaba al escondite."
+      },
+      {
+        "who": "Teresa",
+        "t": "Anch'io! E avevi una bambola?",
+        "es": "¡Yo también! ¿Y tenías una muñeca?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, una bambola con i capelli biondi.",
+        "es": "Sí, una muñeca con el pelo rubio."
+      },
+      {
+        "who": "Teresa",
+        "t": "Noi giocavamo sempre in strada, non c'erano macchine.",
+        "es": "Nosotros jugábamos siempre en la calle, no había coches."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Vero! E la sera guardavamo i cartoni animati.",
+        "es": "¡Es verdad! Y por la noche veíamos los dibujos."
+      },
+      {
+        "who": "Teresa",
+        "t": "Erano altri tempi!",
+        "es": "¡Eran otros tiempos!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿A qué jugaba Yolanda?",
+        "options": [
+          "A la comba y al escondite",
+          "Al fútbol",
+          "A las cartas"
+        ],
+        "answer": "A la comba y al escondite"
+      },
+      {
+        "q": "¿Cómo era la muñeca?",
+        "options": [
+          "Con el pelo rubio",
+          "Muy grande",
+          "De trapo"
+        ],
+        "answer": "Con el pelo rubio"
+      },
+      {
+        "q": "¿Por qué podían jugar en la calle?",
+        "options": [
+          "No había coches",
+          "La calle era un parque",
+          "Su madre lo vigilaba"
+        ],
+        "answer": "No había coches"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Erano altri tempi!",
+    "es": "¡Eran otros tiempos!",
+    "context": "Para comentar con nostalgia cómo era la vida antes"
+  },
+  "same": {
+    "text": "Las terminaciones del imperfetto recuerdan muchísimo a las nuestras: -avo ≈ «-aba».",
+    "examples": [
+      {
+        "t": "giocavo",
+        "es": "jugaba"
+      },
+      {
+        "t": "disegnavamo",
+        "es": "dibujábamos"
+      },
+      {
+        "t": "saltavano",
+        "es": "saltaban"
+      }
+    ]
+  },
+  "summary": [
+    "Imperfetto: quita -re y añade -vo, -vi, -va, -vamo, -vate, -vano.",
+    "Giocare → giocavo, avere → avevo, dormire → dormivo.",
+    "Se usa para costumbres: d'estate andavo in bicicletta.",
+    "Juegos: nascondino, saltare la corda, la bambola, la palla."
+  ],
+  "reviewed": false,
+  "photo": "it-a2-u04-l2"
+}

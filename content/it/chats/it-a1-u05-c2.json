@@ -1,0 +1,59 @@
+{
+  "id": "it-a1-u05-c2",
+  "unit": "it-a1-u05",
+  "title": "¿Y tú qué haces por la tarde?",
+  "setting": "Giulia y tú comparáis vuestras tardes y noches por WhatsApp",
+  "emoji": "🌙",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Cosa fai il pomeriggio, Yolanda?", "es": "¿Qué haces por la tarde, Yolanda?" },
+      "options": [
+        { "t": "Il pomeriggio leggo un libro o dormo un po'.", "es": "Por la tarde leo un libro o duermo un poco.", "next": "n2", "ok": true },
+        { "t": "Il pomeriggio leggio un libro o dormio un po'.", "es": "Por la tarde leo un libro o duermo un poco.", "next": "n2", "ok": false, "feedback": "Con io: leggo y dormo, sin i." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "La siesta, che bello! Io finisco di lavorare alle sei.", "es": "¡La siesta, qué bien! Yo termino de trabajar a las seis." },
+      "options": [
+        { "t": "E dopo cosa fai?", "es": "¿Y después qué haces?", "next": "n3", "ok": true },
+        { "t": "E dopo cosa faccio?", "es": "¿Y después qué hago?", "next": "n3", "ok": false, "feedback": "Le preguntas a ella (tu): cosa fai?" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Prendo l'autobus e torno a casa. Tu cucini la sera?", "es": "Cojo el autobús y vuelvo a casa. ¿Tú cocinas por la noche?" },
+      "options": [
+        { "t": "Sì, cucino sempre io. Mio marito pulisce la cucina.", "es": "Sí, siempre cocino yo. Mi marido limpia la cocina.", "next": "n4", "ok": true },
+        { "t": "Sì, cucino sempre io. Mio marito pule la cucina.", "es": "Sí, siempre cocino yo. Mi marido limpia la cocina.", "next": "n4", "ok": false, "feedback": "Pulire lleva -isc-: lui pulisce." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Bravo tuo marito! E a che ora cenate?", "es": "¡Qué bien tu marido! ¿Y a qué hora cenáis?" },
+      "options": [
+        { "t": "Ceniamo alle nove e mezza.", "es": "Cenamos a las nueve y media.", "next": "n5", "ok": true },
+        { "t": "Cenamo alle nove e mezza.", "es": "Cenamos a las nueve y media.", "next": "n5", "ok": false, "feedback": "Noi siempre acaba en -iamo: ceniamo." },
+        { "t": "Cenano alle nove e mezza.", "es": "Cenan a las nueve y media.", "next": "n5", "ok": false, "feedback": "Hablas de vosotros (noi): ceniamo." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Così tardi! Noi ceniamo alle otto. E dopo cena?", "es": "¡Qué tarde! Nosotros cenamos a las ocho. ¿Y después de cenar?" },
+      "options": [
+        { "t": "Guardiamo un film o una serie.", "es": "Vemos una película o una serie.", "next": "n6", "ok": true },
+        { "t": "Guardiamo i piatti nell'armadio.", "es": "Guardamos los platos en el armario.", "next": "n6", "ok": false, "feedback": "¡Falso amigo! Guardare es mirar. Guardar los platos es mettere via i piatti." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Anche noi! Allora buona serata!", "es": "¡Nosotros también! ¡Pues que paséis buena noche!" },
+      "options": [
+        { "t": "Buona serata anche a voi!", "es": "¡Buena noche a vosotros también!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

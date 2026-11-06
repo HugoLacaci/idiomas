@@ -1,0 +1,137 @@
+{
+  "id": "en-g-articles",
+  "lang": "en",
+  "level": "A1",
+  "title": "Los artículos a / an / the",
+  "short": "Un, una = a / an (según el sonido); el, la, los, las = the; y cuándo no se pone nada.",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "👜",
+      "title": "Tres palabritas muy pequeñas",
+      "text": "En inglés hay solo tres artículos: ==a==, ==an== y ==the==. No cambian con masculino o femenino. ¡Mucho más fácil que en español!",
+      "examples": [
+        { "t": "a bag", "es": "un bolso", "hl": "a" },
+        { "t": "an umbrella", "es": "un paraguas", "hl": "an" },
+        { "t": "the keys", "es": "las llaves", "hl": "the" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "emoji": "🔤",
+      "title": "¿A o an? Manda el sonido",
+      "text": "Usa ==a== antes de un sonido de consonante y ==an== antes de un sonido de vocal. Fíjate en cómo **suena**, no en cómo se escribe.",
+      "examples": [
+        { "t": "a phone", "es": "un móvil", "hl": "a" },
+        { "t": "an orange", "es": "una naranja", "hl": "an" },
+        { "t": "an hour", "es": "una hora (la h no suena)", "hl": "an" },
+        { "t": "a university", "es": "una universidad (suena «iu»)", "hl": "a" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "📋",
+      "title": "Los artículos de un vistazo",
+      "text": "**A/an** solo va con una cosa (singular). **The** vale para todo: singular y plural.",
+      "table": {
+        "head": ["", "Singular", "Plural"],
+        "rows": [
+          ["Una cosa cualquiera", "==a== bag / ==an== apple", "bags / apples (sin artículo)"],
+          ["Una cosa concreta", "==the== bag", "==the== bags"],
+          ["En general", "—", "I like cats. (sin artículo)"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "emoji": "🎯",
+      "title": "¿Cuándo usamos the?",
+      "text": "Con algo concreto, que ya conocemos o que ya hemos nombrado. La primera vez: ==a==. La segunda vez: ==the==.",
+      "examples": [
+        { "t": "I've got a car. The car is red.", "es": "Tengo un coche. El coche es rojo.", "hl": "The" },
+        { "t": "Where are the keys?", "es": "¿Dónde están las llaves?", "hl": "the" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "emoji": "🇪🇸",
+      "title": "Español e inglés: diferencias",
+      "text": "En español decimos «==el== café me encanta». En inglés, si hablas **en general**, no hay artículo: ==I love coffee==. Y para profesiones sí lo hay: ==She's a nurse==.",
+      "examples": [
+        { "t": "Life is beautiful.", "es": "La vida es bonita.", "hl": "Life" },
+        { "t": "My neighbour is a teacher.", "es": "Mi vecino es profesor.", "hl": "a" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo con estos errores!",
+      "text": "Son los más típicos en España: ❌ He is doctor → ✅ He is ==a== doctor. ❌ a umbrella → ✅ ==an== umbrella. ❌ The dogs are nice (en general) → ✅ Dogs are nice."
+    },
+    {
+      "kind": "rule",
+      "emoji": "🏠",
+      "title": "Frases sin the",
+      "text": "Algunas expresiones van sin artículo: ==at home==, ==go to bed==, ==have breakfast==, ==by bus==.",
+      "examples": [
+        { "t": "I'm at home.", "es": "Estoy en casa.", "hl": "at home" },
+        { "t": "We have lunch at two.", "es": "Comemos a las dos.", "hl": "have lunch" }
+      ]
+    },
+    {
+      "kind": "tip",
+      "emoji": "💡",
+      "title": "Truco de pronunciación",
+      "text": "Normalmente **a** y **the** se dicen muy flojito, casi «e» y «de»: ==ə bag==, ==ðə keys==. Antes de vocal, the suena «di»: ==the apple== (/ði/)."
+    }
+  ],
+  "compare": {
+    "es": "En español el artículo cambia (el, la, los, las, un, una, unos, unas) y lo usamos para hablar en general («me gusta el té»). Con profesiones no ponemos «un» («es médico»).",
+    "target": "En inglés solo hay a/an (uno, singular) y the (concreto, singular o plural). Para hablar en general no se pone artículo (I like tea) y con profesiones siempre a/an (She's a doctor)."
+  },
+  "errors": [
+    { "wrong": "My neighbour is engineer.", "right": "My neighbour is an engineer.", "why": "Con profesiones en singular el inglés siempre pone a/an. Y engineer empieza por sonido de vocal: an." },
+    { "wrong": "I've got a umbrella.", "right": "I've got an umbrella.", "why": "Umbrella empieza por sonido de vocal, así que va an." },
+    { "wrong": "The coffee is my favourite drink.", "right": "Coffee is my favourite drink.", "why": "Hablas del café en general, no de un café concreto: sin the." },
+    { "wrong": "I'm in the home.", "right": "I'm at home.", "why": "«En casa» es una expresión fija: at home, sin artículo." },
+    { "wrong": "It's an university.", "right": "It's a university.", "why": "University suena «iu», como una consonante: por eso va a." },
+    { "wrong": "I've got a keys.", "right": "I've got some keys.", "why": "A/an solo va con una cosa. Con plural no se pone a." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "I've got ___ bag.", "es": "Tengo un bolso.", "options": ["a", "an"], "answer": "a", "why": "Bag empieza por sonido de consonante (b): a bag.", "g": "en-g-articles" },
+    { "id": "e2", "type": "choose", "q": "She's got ___ umbrella.", "es": "Ella tiene un paraguas.", "options": ["a", "an"], "answer": "an", "why": "Umbrella empieza por sonido de vocal: an umbrella.", "g": "en-g-articles" },
+    { "id": "e3", "type": "choose", "q": "I want ___ apple, please.", "es": "Quiero una manzana, por favor.", "options": ["a", "an", "the"], "answer": "an", "why": "Una manzana cualquiera y con sonido de vocal: an apple.", "g": "en-g-articles" },
+    { "id": "e4", "type": "choose", "q": "Wait ___ hour, please.", "es": "Espera una hora, por favor.", "options": ["a", "an"], "answer": "an", "why": "En hour la h no suena; empieza por sonido de vocal: an hour.", "g": "en-g-articles" },
+    { "id": "e5", "type": "choose", "q": "Emma works at ___ university in London.", "es": "Emma trabaja en una universidad de Londres.", "options": ["a", "an"], "answer": "a", "why": "University suena «iu», sonido de consonante: a university.", "g": "en-g-articles" },
+    { "id": "e6", "type": "choose", "q": "My daughter is ___ nurse.", "es": "Mi hija es enfermera. (— = sin artículo)", "options": ["a", "the", "—"], "answer": "a", "why": "Con profesiones el inglés pone a/an, aunque en español no ponemos nada.", "g": "en-g-articles" },
+    { "id": "e7", "type": "fill", "q": "I've got a mobile. ___ mobile is new.", "es": "Tengo un móvil. El móvil es nuevo.", "answer": ["The"], "bank": ["The", "A", "An"], "why": "La segunda vez que hablamos de algo ya es concreto: the.", "g": "en-g-articles" },
+    { "id": "e8", "type": "fill", "q": "Where are ___ keys? I can't find them.", "es": "¿Dónde están las llaves? No las encuentro.", "answer": ["the"], "bank": ["the", "a", "an"], "why": "Son unas llaves concretas, las de casa: the keys.", "g": "en-g-articles" },
+    { "id": "e9", "type": "fill", "q": "My grandson has got ___ orange jumper.", "es": "Mi nieto tiene un jersey naranja.", "answer": ["an"], "bank": ["a", "an", "the"], "why": "Mira la palabra que va justo detrás: orange empieza por sonido de vocal.", "g": "en-g-articles" },
+    { "id": "e10", "type": "fill", "q": "It's ___ old house.", "es": "Es una casa vieja.", "answer": ["an"], "why": "El artículo depende de la palabra siguiente: old empieza por vocal, así que an.", "g": "en-g-articles" },
+    { "id": "e11", "type": "fill", "q": "It's ___ big flat.", "es": "Es un piso grande.", "answer": ["a"], "why": "Big empieza por sonido de consonante: a big flat.", "g": "en-g-articles" },
+    { "id": "e12", "type": "fill", "q": "I'm ___ home today.", "es": "Hoy estoy en casa.", "answer": ["at"], "why": "«En casa» se dice at home, sin artículo.", "g": "en-g-articles" },
+    { "id": "e13", "type": "match", "pairs": [["an egg", "un huevo"], ["a house", "una casa"], ["an hour", "una hora"], ["a uniform", "un uniforme"], ["an umbrella", "un paraguas"]], "why": "Mira el primer sonido: vocal → an (an egg, an hour); consonante → a (a house, a uniform).", "g": "en-g-articles" },
+    { "id": "e14", "type": "error", "q": "He is a engineer.", "wrong": "a", "fix": "an", "why": "Engineer empieza por sonido de vocal: an engineer.", "g": "en-g-articles" },
+    { "id": "e15", "type": "error", "q": "My neighbour is doctor in Madrid.", "wrong": "doctor", "fix": "a doctor", "why": "Con profesiones hace falta a/an: my neighbour is a doctor.", "g": "en-g-articles" },
+    { "id": "e16", "type": "error", "q": "I've got a apple for my grandson.", "wrong": "a", "fix": "an", "why": "Apple empieza por sonido de vocal: an apple.", "g": "en-g-articles" },
+    { "id": "e17", "type": "error", "q": "She has got an car.", "wrong": "an", "fix": "a", "why": "Car empieza por sonido de consonante: a car.", "g": "en-g-articles" },
+    { "id": "e18", "type": "error", "q": "She is an teacher.", "wrong": "an", "fix": "a", "why": "Teacher empieza por sonido de consonante: a teacher.", "g": "en-g-articles" },
+    { "id": "e19", "type": "order", "es": "Mi hija es profesora", "answer": "My daughter is a teacher", "extra": ["the"], "why": "Profesión con a: is a teacher.", "g": "en-g-articles" },
+    { "id": "e20", "type": "order", "es": "Las llaves están en el bolso", "answer": "The keys are in the bag", "extra": ["a"], "why": "Llaves y bolso concretos: the.", "g": "en-g-articles" },
+    { "id": "e21", "type": "order", "es": "Me gusta el té", "answer": "I like tea", "extra": ["the"], "why": "En general, sin artículo: I like tea.", "g": "en-g-articles" },
+    { "id": "e22", "type": "transform", "instr": "Cambia la palabra por «umbrella» y ajusta el artículo", "q": "I've got a bag.", "answer": ["I've got an umbrella.", "I have got an umbrella.", "I have an umbrella."], "why": "Umbrella empieza por vocal, así que a pasa a an.", "g": "en-g-articles" },
+    { "id": "e23", "type": "transform", "instr": "Habla en general (quita el artículo y pon el plural)", "q": "I like the cat.", "answer": ["I like cats."], "why": "Para hablar en general se usa el plural sin artículo: I like cats.", "g": "en-g-articles" },
+    { "id": "e24", "type": "transform", "instr": "Segunda frase: habla de la misma cosa", "q": "I've got a new phone. ___ phone is black.", "answer": ["The phone is black.", "I've got a new phone. The phone is black."], "why": "La segunda vez que nombras algo pasa a ser concreto: the.", "g": "en-g-articles" },
+    { "id": "e25", "type": "translate", "dir": "to", "q": "Mi vecina es ingeniera.", "answer": ["My neighbour is an engineer.", "My neighbour's an engineer.", "My neighbor is an engineer."], "why": "Profesión con artículo, y an porque engineer empieza por vocal.", "g": "en-g-articles" },
+    { "id": "e26", "type": "translate", "dir": "to", "q": "Me encanta el café.", "answer": ["I love coffee.", "I really like coffee."], "why": "El café en general: sin artículo.", "g": "en-g-articles" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "Estoy en casa.", "answer": ["I'm at home.", "I am at home."], "why": "Expresión fija sin artículo: at home.", "g": "en-g-articles" },
+    { "id": "e28", "type": "translate", "dir": "from", "q": "The bag is on the chair.", "answer": ["El bolso está en la silla.", "El bolso está encima de la silla."], "why": "The equivale a el / la.", "g": "en-g-articles" },
+    { "id": "e29", "type": "situation", "context": "En una tienda quieres un paraguas, porque está lloviendo.", "emoji": "☔", "options": ["I'd like an umbrella, please.", "I'd like a umbrella, please.", "I'd like umbrella, please."], "answer": "I'd like an umbrella, please.", "why": "Un paraguas cualquiera, con sonido de vocal: an umbrella.", "g": "en-g-articles" },
+    { "id": "e30", "type": "situation", "context": "Le dices a una vecina inglesa a qué se dedica tu amiga Carmen (es arquitecta).", "emoji": "👷", "options": ["Carmen is an architect.", "Carmen is architect.", "Carmen is the architect."], "answer": "Carmen is an architect.", "why": "Profesión con a/an; architect empieza por vocal: an.", "g": "en-g-articles" },
+    { "id": "e31", "type": "situation", "context": "Buscas las llaves de casa y le preguntas a tu marido.", "emoji": "🔑", "options": ["Where are the keys?", "Where are keys?", "Where are a keys?"], "answer": "Where are the keys?", "why": "Son unas llaves concretas (las de casa): the keys.", "g": "en-g-articles" },
+    { "id": "e32", "type": "choose", "q": "___ life is short. Enjoy it!", "es": "La vida es corta. ¡Disfrútala! (— = sin artículo)", "options": ["The", "—"], "answer": "—", "why": "La vida en general: en inglés sin artículo. Life is short.", "g": "en-g-articles" },
+    { "id": "e33", "type": "choose", "q": "Can you close ___ door, please?", "es": "¿Puedes cerrar la puerta, por favor?", "options": ["a", "the"], "answer": "the", "why": "Es la puerta de la habitación, concreta: the door.", "g": "en-g-articles" },
+    { "id": "e34", "type": "fill", "q": "My granddaughter wants ___ ice cream.", "es": "Mi nieta quiere un helado.", "answer": ["an"], "bank": ["a", "an", "the"], "why": "Ice empieza por sonido de vocal: an ice cream.", "g": "en-g-articles" }
+  ],
+  "reviewed": false
+}

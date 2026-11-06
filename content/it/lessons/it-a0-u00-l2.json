@@ -1,0 +1,490 @@
+{
+  "id": "it-a0-u00-l2",
+  "unit": "it-a0-u00",
+  "title": "Cena, chiesa, gelato: la c y la g",
+  "goal": "a leer la c y la g delante de cada vocal: ce, ci, che, chi, ge, gi, ghe, ghi",
+  "emoji": "⛪",
+  "photoQuery": "italian church piazza sunset",
+  "vocab": [
+    {
+      "id": "la-cena",
+      "t": "la cena",
+      "es": "la cena",
+      "emoji": "🍽️",
+      "pos": "n",
+      "ex": {
+        "t": "La cena è pronta!",
+        "es": "¡La cena está lista!"
+      },
+      "note": "Ce se lee «che»: «chena»."
+    },
+    {
+      "id": "la-cucina",
+      "t": "la cucina",
+      "es": "la cocina",
+      "emoji": "🍳",
+      "pos": "n",
+      "ex": {
+        "t": "Amo la cucina italiana.",
+        "es": "Me encanta la cocina italiana."
+      }
+    },
+    {
+      "id": "la-chiesa",
+      "t": "la chiesa",
+      "es": "la iglesia",
+      "emoji": "⛪",
+      "pos": "n",
+      "ex": {
+        "t": "La chiesa è bellissima.",
+        "es": "La iglesia es preciosa."
+      },
+      "note": "Chi se lee «qui»: «quiesa»."
+    },
+    {
+      "id": "il-gelato",
+      "t": "il gelato",
+      "es": "el helado",
+      "emoji": "🍦",
+      "pos": "n",
+      "ex": {
+        "t": "Un gelato al limone, per favore.",
+        "es": "Un helado de limón, por favor."
+      }
+    },
+    {
+      "id": "i-funghi",
+      "t": "i funghi",
+      "es": "las setas / los champiñones",
+      "emoji": "🍄",
+      "pos": "n",
+      "ex": {
+        "t": "Pizza con funghi, grazie.",
+        "es": "Pizza con champiñones, gracias."
+      },
+      "note": "Ghi se lee «gui»."
+    },
+    {
+      "id": "il-formaggio",
+      "t": "il formaggio",
+      "es": "el queso",
+      "emoji": "🧀",
+      "pos": "n",
+      "ex": {
+        "t": "Il formaggio è buonissimo.",
+        "es": "El queso está buenísimo."
+      }
+    },
+    {
+      "id": "il-cioccolato",
+      "t": "il cioccolato",
+      "es": "el chocolate",
+      "emoji": "🍫",
+      "pos": "n",
+      "ex": {
+        "t": "Hugo ama il cioccolato.",
+        "es": "A Hugo le encanta el chocolate."
+      }
+    },
+    {
+      "id": "cinque",
+      "t": "cinque",
+      "es": "cinco",
+      "emoji": "5️⃣",
+      "pos": "other",
+      "ex": {
+        "t": "Cinque caffè, per favore!",
+        "es": "¡Cinco cafés, por favor!"
+      }
+    },
+    {
+      "id": "anche",
+      "t": "anche",
+      "es": "también",
+      "emoji": "➕",
+      "pos": "adv",
+      "ex": {
+        "t": "Anche Hugo ama il gelato.",
+        "es": "A Hugo también le encanta el helado."
+      }
+    }
+  ],
+  "pron": {
+    "title": "ce, ci / che, chi · ge, gi / ghe, ghi",
+    "tip": "Delante de e, i: ce, ci suenan como nuestra «ch» (cena = «chena») y ge, gi como una «y» muy fuerte (gelato). Con h suenan duras: che, chi = «que, qui»; ghe, ghi = «gue, gui».",
+    "words": [
+      "cena",
+      "ciao",
+      "chiesa",
+      "gelato",
+      "funghi"
+    ],
+    "pairs": [
+      [
+        "Cina",
+        "china"
+      ],
+      [
+        "giro",
+        "ghiro"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "minimal",
+      "pair": [
+        "ci",
+        "chi"
+      ],
+      "answer": "chi",
+      "es": [
+        "nos / ahí",
+        "quién"
+      ],
+      "why": "Ci suena «chi» (como en chico); chi suena «qui»."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "La ___ è pronta!",
+      "es": "¡La cena está lista!",
+      "options": [
+        "cena",
+        "chena",
+        "scena"
+      ],
+      "answer": "cena",
+      "why": "Delante de e, la c ya suena «ch»: cena. No hace falta nada más."
+    },
+    {
+      "id": "e3",
+      "type": "speak",
+      "t": "Ciao, ci vediamo a cena!",
+      "es": "¡Adiós, nos vemos en la cena!"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Andiamo in ___.",
+      "es": "Vamos a la iglesia.",
+      "options": [
+        "chiesa",
+        "ciesa",
+        "quiesa"
+      ],
+      "answer": "chiesa",
+      "why": "Para el sonido «qui» el italiano escribe chi: chiesa."
+    },
+    {
+      "id": "e5",
+      "type": "minimal",
+      "pair": [
+        "Cina",
+        "china"
+      ],
+      "answer": "Cina",
+      "es": [
+        "China (el país)",
+        "cuesta / pendiente"
+      ],
+      "why": "Cina se lee «china», como en español; china, con h, se lee «quina»."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Hugo ama il ___.",
+      "es": "A Hugo le encanta el chocolate.",
+      "answer": [
+        "cioccolato"
+      ],
+      "bank": [
+        "cioccolato",
+        "ciocolato",
+        "chiocolato"
+      ],
+      "why": "Cio suena «cho» (la i no se oye) y lleva doble c: cioccolato."
+    },
+    {
+      "id": "e7",
+      "type": "choose",
+      "q": "Un ___ al limone, per favore.",
+      "es": "Un helado de limón, por favor.",
+      "options": [
+        "gelato",
+        "jelato",
+        "yelato"
+      ],
+      "answer": "gelato",
+      "why": "Ese sonido de «y» fuerte se escribe con g delante de e: gelato."
+    },
+    {
+      "id": "e8",
+      "type": "match",
+      "pairs": [
+        [
+          "ce / ci",
+          "como «che / chi» de chico"
+        ],
+        [
+          "che / chi",
+          "como «que / qui»"
+        ],
+        [
+          "ge / gi",
+          "como una «y» muy fuerte"
+        ],
+        [
+          "ghe / ghi",
+          "como «gue / gui»"
+        ]
+      ],
+      "why": "La h hace que la c y la g suenen duras."
+    },
+    {
+      "id": "e9",
+      "type": "minimal",
+      "pair": [
+        "giro",
+        "ghiro"
+      ],
+      "answer": "ghiro",
+      "es": [
+        "la vuelta / el paseo",
+        "el lirón"
+      ],
+      "why": "Giro empieza con «y» fuerte; ghiro, con «gui»."
+    },
+    {
+      "id": "e10",
+      "type": "choose",
+      "q": "Pizza ai ___.",
+      "es": "Pizza de champiñones.",
+      "options": [
+        "funghi",
+        "fungi",
+        "funqui"
+      ],
+      "answer": "funghi",
+      "why": "Para que la g suene dura delante de i se pone una h: funghi."
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Andiamo in ciesa domenica.",
+      "wrong": "ciesa",
+      "fix": "chiesa",
+      "es": "Vamos a la iglesia el domingo.",
+      "why": "«Ciesa» se leería «chesa». Para «quie» hace falta la h: chiesa."
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "q": "Amo la ___ italiana.",
+      "es": "Me encanta la cocina italiana.",
+      "answer": [
+        "cucina"
+      ],
+      "bank": [
+        "cucina",
+        "cuchina",
+        "cocina"
+      ],
+      "why": "Cucina: ci suena «chi», así que se dice «cuchina»."
+    },
+    {
+      "id": "e13",
+      "type": "order",
+      "es": "Un helado de chocolate, por favor.",
+      "answer": "Un gelato al cioccolato per favore",
+      "extra": [
+        "chiesa"
+      ],
+      "why": "Un helado de… = un gelato al…"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "Cinco cafés, por favor.",
+      "answer": [
+        "Cinque caffè, per favore",
+        "Cinque caffè per favore"
+      ],
+      "why": "Caffè no cambia en plural: un caffè, cinque caffè."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Che bella chiesa!",
+      "es": "¡Qué iglesia tan bonita!"
+    },
+    {
+      "id": "e16",
+      "type": "minimal",
+      "pair": [
+        "amici",
+        "amiche"
+      ],
+      "answer": "amiche",
+      "es": [
+        "amigos",
+        "amigas"
+      ],
+      "why": "Amici suena «amichi»; amiche, con h, suena «amique»."
+    },
+    {
+      "id": "e17",
+      "type": "situation",
+      "context": "Estás en una heladería de Roma y te apetece un helado de chocolate. ¿Qué dices?",
+      "emoji": "🍦",
+      "options": [
+        "Un gelato al cioccolato, per favore.",
+        "Un formaggio al cioccolato, per favore.",
+        "Una cena al cioccolato, per favore."
+      ],
+      "answer": "Un gelato al cioccolato, per favore.",
+      "why": "Gelato es helado; formaggio es queso y cena, la cena."
+    },
+    {
+      "id": "e18",
+      "type": "order",
+      "es": "La iglesia es preciosa.",
+      "answer": "La chiesa è bellissima",
+      "extra": [
+        "cena"
+      ],
+      "why": "Chiesa = iglesia; bellissima = preciosa."
+    },
+    {
+      "id": "e19",
+      "type": "translate",
+      "dir": "from",
+      "q": "Anche Hugo ama il gelato.",
+      "answer": [
+        "A Hugo también le encanta el helado",
+        "Hugo también ama el helado",
+        "A Hugo también le gusta el helado"
+      ],
+      "why": "Anche = también."
+    },
+    {
+      "id": "e20",
+      "type": "speak",
+      "t": "Funghi e formaggio, grazie.",
+      "es": "Champiñones y queso, gracias."
+    }
+  ],
+  "dialog": {
+    "title": "En la heladería",
+    "setting": "En una heladería del centro de Roma",
+    "emoji": "🍦",
+    "lines": [
+      {
+        "who": "Luca",
+        "t": "Ciao! Che gelato vuoi?",
+        "es": "¡Hola! ¿Qué helado quieres?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Cioccolato e... che cos'è questo?",
+        "es": "Chocolate y… ¿qué es esto?"
+      },
+      {
+        "who": "Luca",
+        "t": "È pistacchio.",
+        "es": "Es pistacho."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Anche pistacchio, grazie!",
+        "es": "¡También pistacho, gracias!"
+      },
+      {
+        "who": "Luca",
+        "t": "Cioccolato e pistacchio. Ecco!",
+        "es": "Chocolate y pistacho. ¡Aquí tienes!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Che buono! Grazie, ciao!",
+        "es": "¡Qué rico! ¡Gracias, adiós!"
+      },
+      {
+        "who": "Luca",
+        "t": "Prego, ciao! Buona serata!",
+        "es": "¡De nada, adiós! ¡Buena tarde!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Dónde está Yolanda?",
+        "options": [
+          "En una heladería",
+          "En una iglesia",
+          "En un restaurante"
+        ],
+        "answer": "En una heladería"
+      },
+      {
+        "q": "¿Qué sabores pide?",
+        "options": [
+          "Chocolate y pistacho",
+          "Chocolate y limón",
+          "Queso y pera"
+        ],
+        "answer": "Chocolate y pistacho"
+      },
+      {
+        "q": "¿Cómo suena «cch» en «pistacchio»?",
+        "options": [
+          "Como «k»",
+          "Como «ch»"
+        ],
+        "answer": "Como «k»"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Che buono!",
+    "es": "¡Qué rico!",
+    "context": "Cuando pruebas algo delicioso en un restaurante o en casa"
+  },
+  "same": {
+    "text": "Igual que en español: ca, co, cu y ga, go, gu suenan exactamente como aquí.",
+    "examples": [
+      {
+        "t": "la cosa",
+        "es": "la cosa"
+      },
+      {
+        "t": "il gatto",
+        "es": "el gato"
+      },
+      {
+        "t": "la cura",
+        "es": "la cura"
+      },
+      {
+        "t": "il gusto",
+        "es": "el gusto"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "caldo",
+    "means": "caliente",
+    "looksLike": "caldo (la sopa)",
+    "emoji": "🔥",
+    "tip": "En los grifos italianos, la C es de «caldo»: ¡agua caliente! El caldo de sopa es «il brodo»."
+  },
+  "summary": [
+    "ce, ci suenan «che, chi»: cena, ciao",
+    "che, chi suenan «que, qui»: chiesa",
+    "ge, gi suenan como una «y» fuerte: gelato",
+    "ghe, ghi suenan «gue, gui»: funghi"
+  ],
+  "reviewed": false,
+  "photo": "it-a0-u00-l2"
+}

@@ -1,0 +1,415 @@
+{
+  "id": "en-a1-u11-l3",
+  "unit": "en-a1-u11",
+  "title": "Perdone, ¿cómo llego a…?",
+  "goal": "a preguntar el camino con educación y entender la respuesta",
+  "emoji": "🙋",
+  "photoQuery": "tourist map city street",
+  "vocab": [
+    {
+      "id": "city-how-do-i-get-to",
+      "t": "How do I get to…?",
+      "es": "¿Cómo llego a…?",
+      "emoji": "❓",
+      "pos": "phrase",
+      "ex": {
+        "t": "How do I get to the river?",
+        "es": "¿Cómo llego al río?"
+      }
+    },
+    {
+      "id": "city-is-it-far",
+      "t": "Is it far?",
+      "es": "¿Está lejos?",
+      "emoji": "📏",
+      "pos": "phrase",
+      "ex": {
+        "t": "Is it far? — No, it's very near.",
+        "es": "¿Está lejos? — No, está muy cerca."
+      }
+    },
+    {
+      "id": "city-five-minute-walk",
+      "t": "It's a five-minute walk.",
+      "es": "Está a cinco minutos andando.",
+      "emoji": "🚶‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "The park? It's a five-minute walk.",
+        "es": "¿El parque? Está a cinco minutos andando."
+      },
+      "note": "¡Ojo! minute va sin -s: a five-minute walk."
+    },
+    {
+      "id": "city-nearest",
+      "t": "Where's the nearest…?",
+      "es": "¿Dónde está el… más cercano?",
+      "emoji": "📍",
+      "pos": "phrase",
+      "ex": {
+        "t": "Where's the nearest Tube station?",
+        "es": "¿Dónde está la estación de metro más cercana?"
+      }
+    },
+    {
+      "id": "city-im-lost",
+      "t": "I'm lost.",
+      "es": "Me he perdido.",
+      "emoji": "😵‍💫",
+      "pos": "phrase",
+      "ex": {
+        "t": "Excuse me, I'm lost. Can you help me?",
+        "es": "Perdone, me he perdido. ¿Me puede ayudar?"
+      }
+    },
+    {
+      "id": "city-show-me-on-the-map",
+      "t": "Can you show me on the map?",
+      "es": "¿Me lo enseña en el plano?",
+      "emoji": "🗺️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Sorry, can you show me on the map?",
+        "es": "Perdone, ¿me lo enseña en el plano?"
+      }
+    },
+    {
+      "id": "city-cant-miss-it",
+      "t": "You can't miss it.",
+      "es": "No tiene pérdida.",
+      "emoji": "🎯",
+      "pos": "phrase",
+      "ex": {
+        "t": "It's a big red building. You can't miss it.",
+        "es": "Es un edificio rojo grande. No tiene pérdida."
+      }
+    },
+    {
+      "id": "city-not-from-here",
+      "t": "Sorry, I'm not from here.",
+      "es": "Lo siento, no soy de aquí.",
+      "emoji": "🤷‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Sorry, I'm not from here. Ask in that shop.",
+        "es": "Lo siento, no soy de aquí. Pregunte en esa tienda."
+      }
+    },
+    {
+      "id": "city-this-way",
+      "t": "this way",
+      "es": "por aquí, en esta dirección",
+      "emoji": "👉",
+      "pos": "phrase",
+      "ex": {
+        "t": "The station? It's this way.",
+        "es": "¿La estación? Es por aquí."
+      }
+    }
+  ],
+  "grammar": "en-g-imperative",
+  "pron": {
+    "title": "Get to: dos palabras que se juntan",
+    "tip": "Al hablar rápido, «How do I get to…?» suena casi «hau-du-ai-GE-tu». La t de get y la de to se unen en una sola. Practica despacio y luego más rápido.",
+    "words": [
+      "How do I get to the station?",
+      "Is it far?",
+      "I'm lost."
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "How do I ___ to the British Museum?",
+      "es": "¿Cómo llego al Museo Británico?",
+      "options": [
+        "get",
+        "go to",
+        "arrive"
+      ],
+      "answer": "get",
+      "why": "Para preguntar el camino: How do I get to…?",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Where's the ___ chemist's?",
+      "es": "¿Dónde está la farmacia más cercana?",
+      "options": [
+        "nearest",
+        "near",
+        "nearer"
+      ],
+      "answer": "nearest",
+      "why": "El más cercano = the nearest."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "It's a ten-___ walk.",
+      "es": "Está a diez minutos andando.",
+      "options": [
+        "minute",
+        "minutes",
+        "minute's"
+      ],
+      "answer": "minute",
+      "why": "Delante de walk, minute va sin -s: a ten-minute walk."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Is it ___ ? — No, it's very near.",
+      "es": "¿Está lejos? — No, está muy cerca.",
+      "answer": [
+        "far"
+      ],
+      "bank": [
+        "far",
+        "long",
+        "near"
+      ],
+      "why": "Lejos = far."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "___ worry, I can show you.",
+      "es": "No se preocupe, se lo enseño.",
+      "answer": [
+        "Don't",
+        "Do not"
+      ],
+      "bank": [
+        "Don't",
+        "No",
+        "Not"
+      ],
+      "why": "Imperativo negativo: Don't worry.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Excuse me, I'm ___ . Can you help me?",
+      "es": "Perdone, me he perdido. ¿Me puede ayudar?",
+      "answer": [
+        "lost"
+      ],
+      "why": "Estar perdida = to be lost: I'm lost."
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "¿Cómo llego a la estación?",
+      "answer": "How do I get to the station",
+      "extra": [
+        "go"
+      ],
+      "why": "How do I get to + lugar.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "¿Me lo puede enseñar en el plano?",
+      "answer": "Can you show me on the map",
+      "extra": [
+        "in"
+      ],
+      "why": "En el plano = on the map.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Excuse me, how I get to the river?",
+      "wrong": "I",
+      "fix": "do I",
+      "why": "Pregunta con presente: How do I get…?",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Sorry, I'm not of here.",
+      "wrong": "of",
+      "fix": "from",
+      "why": "Ser de un sitio = to be from."
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Hazla más amable con please",
+      "q": "Show me on the map.",
+      "answer": [
+        "Please show me on the map.",
+        "Show me on the map, please.",
+        "Show me on the map please."
+      ],
+      "why": "Con please, el imperativo suena amable.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Un turista te pregunta por una calle, pero tú tampoco eres de Londres.",
+      "emoji": "🤷‍♀️",
+      "options": [
+        "Sorry, I'm not from here.",
+        "Sorry, I not from here.",
+        "Sorry, I don't from here."
+      ],
+      "answer": "Sorry, I'm not from here.",
+      "why": "Negativa de to be: I'm not from here.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Te explican el camino, pero no lo entiendes y llevas un plano.",
+      "emoji": "🗺️",
+      "options": [
+        "Can you show me on the map, please?",
+        "You show me map?",
+        "Show map me."
+      ],
+      "answer": "Can you show me on the map, please?",
+      "why": "Para pedir con educación: Can you…, please?",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e14",
+      "type": "match",
+      "pairs": [
+        [
+          "Is it far?",
+          "No, it's a five-minute walk."
+        ],
+        [
+          "How do I get to the bank?",
+          "Turn left at the corner."
+        ],
+        [
+          "Where's the nearest bus stop?",
+          "It's this way."
+        ],
+        [
+          "Thank you!",
+          "You're welcome."
+        ]
+      ],
+      "why": "Preguntas y respuestas por la calle."
+    },
+    {
+      "id": "e15",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Está lejos?",
+      "answer": [
+        "Is it far?",
+        "Is it far"
+      ],
+      "why": "¿Está lejos? = Is it far?",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Excuse me, how do I get to the river?",
+      "es": "Perdone, ¿cómo llego al río?"
+    }
+  ],
+  "dialog": {
+    "title": "Perdida cerca del río",
+    "setting": "En una calle cerca del Támesis; Yolanda pregunta a una señora",
+    "emoji": "😵‍💫",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Excuse me, I'm lost. How do I get to the river?",
+        "es": "Perdone, me he perdido. ¿Cómo llego al río?"
+      },
+      {
+        "who": "Woman",
+        "t": "The river? It's this way. Go straight on.",
+        "es": "¿El río? Es por aquí. Siga recto."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Is it far?",
+        "es": "¿Está lejos?"
+      },
+      {
+        "who": "Woman",
+        "t": "No, it's a ten-minute walk.",
+        "es": "No, está a diez minutos andando."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sorry, can you show me on the map?",
+        "es": "Perdone, ¿me lo enseña en el plano?"
+      },
+      {
+        "who": "Woman",
+        "t": "Of course. We're here. Take the second left.",
+        "es": "Claro. Estamos aquí. Coja la segunda a la izquierda."
+      },
+      {
+        "who": "Woman",
+        "t": "Then cross the road. You can't miss it.",
+        "es": "Luego cruce la calle. No tiene pérdida."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Thank you very much!",
+        "es": "¡Muchas gracias!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Adónde quiere ir Yolanda?",
+        "options": [
+          "Al río",
+          "Al museo",
+          "A la estación"
+        ],
+        "answer": "Al río"
+      },
+      {
+        "q": "¿Cuánto tarda andando?",
+        "options": [
+          "Diez minutos",
+          "Cinco minutos",
+          "Media hora"
+        ],
+        "answer": "Diez minutos"
+      },
+      {
+        "q": "¿Qué le pide Yolanda a la señora?",
+        "options": [
+          "Que se lo enseñe en el plano",
+          "Que la acompañe",
+          "Que llame a un taxi"
+        ],
+        "answer": "Que se lo enseñe en el plano"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Excuse me, how do I get to the station?",
+    "es": "Perdone, ¿cómo llego a la estación?",
+    "context": "Para preguntar el camino a cualquier persona por la calle"
+  },
+  "summary": [
+    "How do I get to…? = ¿Cómo llego a…?",
+    "Is it far? — It's a five-minute walk.",
+    "Where's the nearest…? = ¿Dónde está el… más cercano?",
+    "I'm lost / Sorry, I'm not from here",
+    "Don't worry / You can't miss it"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u11-l3"
+}

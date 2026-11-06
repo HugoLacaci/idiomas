@@ -1,0 +1,80 @@
+{
+  "id": "it-b1-u01-l1",
+  "unit": "it-b1-u01",
+  "title": "Il mio sogno nel cassetto",
+  "goal": "a hablar de tus deseos y sueños: lo que te gustaría hacer, aprender y ver",
+  "emoji": "💭",
+  "photoQuery": "trieste seaside square sunset",
+  "vocab": [
+    { "id": "desideri-il-desiderio", "t": "il desiderio", "es": "el deseo", "emoji": "🌠", "pos": "n", "ex": { "t": "Il mio desiderio più grande è viaggiare con tutta la famiglia.", "es": "Mi mayor deseo es viajar con toda la familia." } },
+    { "id": "desideri-il-sogno", "t": "il sogno", "es": "el sueño", "emoji": "☁️", "pos": "n", "ex": { "t": "Vedere l'Italia intera è il mio sogno.", "es": "Ver Italia entera es mi sueño." } },
+    { "id": "desideri-sognare", "t": "sognare", "es": "soñar", "emoji": "💤", "pos": "v", "ex": { "t": "Sogno di vivere qualche mese vicino al mare.", "es": "Sueño con vivir unos meses cerca del mar." }, "note": "Soñar con algo = sognare di + infinitivo." },
+    { "id": "desideri-mi-piacerebbe-tanto", "t": "Mi piacerebbe tanto…", "es": "Me gustaría muchísimo…", "emoji": "💖", "pos": "phrase", "ex": { "t": "Mi piacerebbe tanto imparare a ballare il tango.", "es": "Me gustaría muchísimo aprender a bailar tango." } },
+    { "id": "desideri-magari", "t": "Magari!", "es": "¡Ojalá!", "emoji": "🤞", "pos": "phrase", "ex": { "t": "Vieni a Trieste con noi? Magari!", "es": "¿Vienes a Trieste con nosotros? ¡Ojalá!" } },
+    { "id": "desideri-avere-voglia-di", "t": "avere voglia di…", "es": "tener ganas de…", "emoji": "😋", "pos": "phrase", "ex": { "t": "Ho voglia di un caffè e di due chiacchiere.", "es": "Tengo ganas de un café y de charlar un rato." } },
+    { "id": "desideri-andare-in-pensione", "t": "andare in pensione", "es": "jubilarse", "emoji": "🏖️", "pos": "phrase", "ex": { "t": "Quando andrà in pensione, mio marito vorrebbe viaggiare.", "es": "Cuando se jubile, mi marido querría viajar." } },
+    { "id": "desideri-imparare", "t": "imparare", "es": "aprender", "emoji": "📚", "pos": "v", "ex": { "t": "Vorrei imparare l'italiano molto bene.", "es": "Querría aprender italiano muy bien." } },
+    { "id": "desideri-un-giorno", "t": "un giorno", "es": "algún día", "emoji": "🌈", "pos": "phrase", "ex": { "t": "Un giorno mi piacerebbe vedere l'aurora boreale.", "es": "Algún día me gustaría ver la aurora boreal." } },
+    { "id": "desideri-realizzare", "t": "realizzare un sogno", "es": "cumplir un sueño", "emoji": "🏆", "pos": "phrase", "ex": { "t": "Con questo viaggio realizzerò un sogno.", "es": "Con este viaje cumpliré un sueño." } }
+  ],
+  "grammar": "it-g-condizionale",
+  "pron": {
+    "title": "La gn de sogno y sognare",
+    "tip": "Gn suena como nuestra ñ: so-ño, so-ña-re. Es fácil para ti: piensa en «sueño» y suena perfecto.",
+    "words": ["sogno", "sognare", "bagno", "insegnare"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Il mio ___ è vivere qualche mese in Italia.", "es": "Mi sueño es vivir unos meses en Italia.", "options": ["sogno", "sognare", "magari"], "answer": "sogno", "why": "El sueño (sustantivo) = il sogno.", "g": "it-g-condizionale" },
+    { "id": "e2", "type": "choose", "q": "Mi ___ tanto imparare a suonare il pianoforte.", "es": "Me gustaría muchísimo aprender a tocar el piano.", "options": ["piacerebbe", "piacerei", "piaceva"], "answer": "piacerebbe", "why": "Mi piacerebbe = me gustaría.", "g": "it-g-condizionale" },
+    { "id": "e3", "type": "choose", "q": "Vieni in Italia con noi? ___!", "es": "¿Vienes a Italia con nosotros? ¡Ojalá!", "options": ["Magari", "Pure", "Allora"], "answer": "Magari", "why": "Magari! = ¡ojalá!", "g": "it-g-condizionale" },
+    { "id": "e4", "type": "choose", "q": "Ho ___ di una cioccolata calda.", "es": "Tengo ganas de un chocolate caliente.", "options": ["voglia", "sogno", "desiderio"], "answer": "voglia", "why": "Tener ganas de = avere voglia di.", "g": "it-g-condizionale" },
+    { "id": "e5", "type": "fill", "q": "Quando andrò in ___, viaggerò di più.", "es": "Cuando me jubile, viajaré más.", "answer": ["pensione"], "bank": ["pensione", "vacanza", "voglia"], "why": "Jubilarse = andare in pensione.", "g": "it-g-condizionale" },
+    { "id": "e6", "type": "fill", "q": "Sogno ___ vedere Trieste con le mie amiche.", "es": "Sueño con ver Trieste con mis amigas.", "answer": ["di"], "bank": ["di", "con", "a"], "why": "Sognare di + infinitivo (no «con»).", "g": "it-g-condizionale" },
+    { "id": "e7", "type": "fill", "q": "Io ___ imparare a nuotare meglio.", "es": "Yo querría aprender a nadar mejor.", "answer": ["vorrei"], "hint": "volere, condicional", "why": "Io → vorrei.", "g": "it-g-condizionale" },
+    { "id": "e8", "type": "match", "pairs": [["il sogno", "el sueño"], ["il desiderio", "el deseo"], ["Magari!", "¡Ojalá!"], ["andare in pensione", "jubilarse"], ["avere voglia di", "tener ganas de"]], "why": "Palabras para hablar de deseos.", "g": "it-g-condizionale" },
+    { "id": "e9", "type": "error", "q": "Sogno con vivere vicino al mare.", "wrong": "con", "fix": "di", "why": "En italiano se sueña di: sogno di vivere.", "g": "it-g-condizionale" },
+    { "id": "e10", "type": "error", "q": "Ho ganas di un caffè.", "wrong": "ganas", "fix": "voglia", "why": "Tener ganas = avere voglia.", "g": "it-g-condizionale" },
+    { "id": "e11", "type": "order", "es": "Algún día me gustaría vivir en Italia.", "answer": "Un giorno mi piacerebbe vivere in Italia", "alt": ["Mi piacerebbe vivere in Italia un giorno"], "extra": ["piacerei"], "why": "Mi piacerebbe + infinitivo.", "g": "it-g-condizionale" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Mi sueño es ver toda Italia.", "answer": ["Il mio sogno è vedere tutta l'Italia.", "Il mio sogno è vedere l'Italia intera."], "why": "Mi sueño = il mio sogno (con artículo).", "g": "it-g-condizionale" },
+    { "id": "e13", "type": "translate", "dir": "from", "q": "Ho voglia di due chiacchiere con le amiche.", "answer": ["Tengo ganas de charlar con las amigas.", "Tengo ganas de charlar un rato con mis amigas.", "Tengo ganas de charlar con mis amigas."], "why": "Due chiacchiere = una charla, charlar un rato.", "g": "it-g-condizionale" },
+    { "id": "e14", "type": "situation", "context": "Una amiga te dice: «¿Y si un día nos vamos juntas a Trieste?». Te encanta la idea.", "emoji": "🤞", "options": ["Magari! Mi piacerebbe tanto.", "Magari! Mi piace tanto ieri.", "Pure! Mi piacerei tanto."], "answer": "Magari! Mi piacerebbe tanto.", "why": "Magari = ojalá; mi piacerebbe = me gustaría.", "g": "it-g-condizionale" },
+    { "id": "e15", "type": "reading", "kind": "message", "title": "Mensaje de Yolanda a su grupo de amigas", "text": "Ragazze, ho un sogno: un viaggio insieme a Trieste! Mi piacerebbe prendere un caffè in un caffè storico e passeggiare sul mare. Ho tanta voglia di stare con voi. Chi viene? Magari a settembre!", "questions": [ { "q": "¿Adónde le gustaría ir a Yolanda?", "options": ["A Trieste", "A Venecia", "A Roma"], "answer": "A Trieste" }, { "q": "¿Qué le gustaría hacer allí?", "options": ["Tomar un café y pasear junto al mar", "Ir de compras", "Visitar museos de arte moderno"], "answer": "Tomar un café y pasear junto al mar" }, { "q": "¿Cuándo propone ir?", "options": ["Quizá en septiembre", "En Navidad", "Mañana"], "answer": "Quizá en septiembre" } ], "g": "it-g-condizionale" },
+    { "id": "e16", "type": "speak", "t": "Un giorno mi piacerebbe vivere vicino al mare.", "es": "Algún día me gustaría vivir cerca del mar." }
+  ],
+  "dialog": {
+    "title": "Sueños en la terraza",
+    "setting": "En una terraza de Trieste, Yolanda charla con Franca, una señora triestina que ha conocido en el viaje",
+    "emoji": "🌅",
+    "lines": [
+      { "who": "Franca", "t": "Che bella vista, vero? Lei ha un sogno nel cassetto?", "es": "Qué vista tan bonita, ¿verdad? ¿Usted tiene algún sueño pendiente?" },
+      { "who": "Yolanda", "t": "Sì! Mi piacerebbe vivere qualche mese in Italia.", "es": "¡Sí! Me gustaría vivir unos meses en Italia." },
+      { "who": "Franca", "t": "Magari a Trieste! E la Sua famiglia?", "es": "¡Ojalá en Trieste! ¿Y su familia?" },
+      { "who": "Yolanda", "t": "Mio marito sogna di andare in pensione e viaggiare.", "es": "Mi marido sueña con jubilarse y viajar." },
+      { "who": "Franca", "t": "E Lei cosa vorrebbe imparare qui?", "es": "¿Y usted qué querría aprender aquí?" },
+      { "who": "Yolanda", "t": "L'italiano, prima di tutto! E poi a cucinare i piatti di qui.", "es": "¡El italiano, antes que nada! Y luego a cocinar los platos de aquí." },
+      { "who": "Franca", "t": "Brava! Allora un giorno realizzerà il Suo sogno.", "es": "¡Muy bien! Entonces algún día cumplirá su sueño." },
+      { "who": "Yolanda", "t": "Magari! Ho tanta voglia di provarci.", "es": "¡Ojalá! Tengo muchas ganas de intentarlo." }
+    ],
+    "questions": [
+      { "q": "¿Qué le gustaría a Yolanda?", "options": ["Vivir unos meses en Italia", "Abrir un restaurante", "Comprarse un barco"], "answer": "Vivir unos meses en Italia" },
+      { "q": "¿Con qué sueña su marido?", "options": ["Con jubilarse y viajar", "Con aprender italiano", "Con cocinar"], "answer": "Con jubilarse y viajar" },
+      { "q": "¿Qué quiere aprender Yolanda además del italiano?", "options": ["A cocinar platos de allí", "A navegar", "A bailar"], "answer": "A cocinar platos de allí" }
+    ]
+  },
+  "realLife": { "t": "Il mio sogno? Mi piacerebbe vivere qualche mese in Italia.", "es": "¿Mi sueño? Me gustaría vivir unos meses en Italia.", "context": "Cuando alguien te pregunta por tus sueños" },
+  "same": {
+    "text": "Los deseos se dicen casi igual en los dos idiomas.",
+    "examples": [
+      { "t": "il desiderio", "es": "el deseo" },
+      { "t": "la speranza", "es": "la esperanza" },
+      { "t": "realizzare", "es": "realizar, cumplir" }
+    ]
+  },
+  "summary": [
+    "Deseos: il sogno, il desiderio, avere voglia di, sognare di.",
+    "Mi piacerebbe + infinitivo = me gustaría.",
+    "Magari! = ¡Ojalá!",
+    "Un sogno nel cassetto = un sueño guardado, pendiente."
+  ],
+  "reviewed": false
+}

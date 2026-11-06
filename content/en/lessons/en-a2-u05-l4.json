@@ -1,0 +1,434 @@
+{
+  "id": "en-a2-u05-l4",
+  "unit": "en-a2-u05",
+  "title": "¿Fuiste? No, no fui",
+  "goal": "a preguntar y negar en pasado con did y didn't",
+  "emoji": "❓",
+  "photoQuery": "train journey window countryside",
+  "vocab": [
+    {
+      "id": "story-did-you-go",
+      "t": "Did you go…?",
+      "es": "¿Fuiste…?",
+      "emoji": "❓",
+      "pos": "phrase",
+      "ex": {
+        "t": "Did you go to the beach last summer?",
+        "es": "¿Fuiste a la playa el verano pasado?"
+      }
+    },
+    {
+      "id": "story-i-didnt-go",
+      "t": "I didn't go.",
+      "es": "No fui.",
+      "emoji": "🙅‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "I didn't go to the party. I was tired.",
+        "es": "No fui a la fiesta. Estaba cansada."
+      }
+    },
+    {
+      "id": "story-did-you-enjoy-it",
+      "t": "Did you enjoy it?",
+      "es": "¿Te gustó? ¿Lo disfrutaste?",
+      "emoji": "😊",
+      "pos": "phrase",
+      "ex": {
+        "t": "You went to the concert? Did you enjoy it?",
+        "es": "¿Fuiste al concierto? ¿Te gustó?"
+      }
+    },
+    {
+      "id": "story-where-did-you-stay",
+      "t": "Where did you stay?",
+      "es": "¿Dónde te alojaste?",
+      "emoji": "🏨",
+      "pos": "phrase",
+      "ex": {
+        "t": "Where did you stay in Paris?",
+        "es": "¿Dónde os alojasteis en París?"
+      }
+    },
+    {
+      "id": "story-how-did-you-get-there",
+      "t": "How did you get there?",
+      "es": "¿Cómo llegaste allí?",
+      "emoji": "🚆",
+      "pos": "phrase",
+      "ex": {
+        "t": "How did you get there? By train?",
+        "es": "¿Cómo llegasteis? ¿En tren?"
+      }
+    },
+    {
+      "id": "story-what-did-you-do",
+      "t": "What did you do?",
+      "es": "¿Qué hiciste?",
+      "emoji": "🤔",
+      "pos": "phrase",
+      "ex": {
+        "t": "What did you do at the weekend?",
+        "es": "¿Qué hiciste el fin de semana?"
+      },
+      "note": "En EE. UU.: on the weekend."
+    },
+    {
+      "id": "story-i-didnt-have-time",
+      "t": "I didn't have time.",
+      "es": "No tuve tiempo.",
+      "emoji": "⏰",
+      "pos": "phrase",
+      "ex": {
+        "t": "I didn't have time to see the museum.",
+        "es": "No tuve tiempo de ver el museo."
+      }
+    },
+    {
+      "id": "story-was-it-expensive",
+      "t": "Was it expensive?",
+      "es": "¿Fue caro? ¿Era caro?",
+      "emoji": "💷",
+      "pos": "phrase",
+      "ex": {
+        "t": "Was it expensive to eat out in London?",
+        "es": "¿Era caro comer fuera en Londres?"
+      }
+    }
+  ],
+  "grammar": "en-g-past-did",
+  "pron": {
+    "title": "was y were: débiles y fuertes",
+    "tip": "En mitad de la frase, was suena «uəz» y were «uə», casi sin vocal: It was cold («it-uəz-cold»). Solo suenan fuertes al final: Yes, it was («uoz»). Las negativas wasn't y weren't siempre suenan claras.",
+    "words": [
+      "It was cold.",
+      "We were tired.",
+      "Yes, it was.",
+      "Yes, we were."
+    ],
+    "pairs": [
+      [
+        "was",
+        "wasn't"
+      ],
+      [
+        "were",
+        "weren't"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ you go to the market yesterday?",
+      "options": [
+        "Did",
+        "Do",
+        "Were"
+      ],
+      "answer": "Did",
+      "why": "Pregunta en pasado con un verbo normal: Did.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "I didn't ___ the museum. It was closed.",
+      "options": [
+        "visit",
+        "visited",
+        "visits"
+      ],
+      "answer": "visit",
+      "why": "Después de didn't, el verbo en forma base.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Where did you ___ in Paris?",
+      "options": [
+        "stay",
+        "stayed",
+        "staying"
+      ],
+      "answer": "stay",
+      "why": "Did ya marca el pasado: stay, sin -ed.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "___ it expensive?",
+      "options": [
+        "Was",
+        "Did",
+        "Were"
+      ],
+      "answer": "Was",
+      "why": "Con expensive usamos to be: Was it…? Sin did.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "We ___ have time for lunch.",
+      "es": "No tuvimos tiempo para comer.",
+      "answer": [
+        "didn't",
+        "did not"
+      ],
+      "why": "Negativa en pasado: didn't + have.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "How did you ___ there? By train?",
+      "es": "¿Cómo llegasteis? ¿En tren?",
+      "answer": [
+        "get"
+      ],
+      "bank": [
+        "get",
+        "got",
+        "gets"
+      ],
+      "why": "Did + get (forma base).",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Did you enjoy the concert? — Yes, I ___.",
+      "es": "¿Te gustó el concierto? — Sí.",
+      "answer": [
+        "did"
+      ],
+      "bank": [
+        "did",
+        "was",
+        "enjoyed"
+      ],
+      "why": "Respuesta corta: Yes, I did.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "She went to York.",
+      "answer": [
+        "Did she go to York?"
+      ],
+      "why": "went → Did… go.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "We saw the cathedral.",
+      "answer": [
+        "We didn't see the cathedral.",
+        "We did not see the cathedral."
+      ],
+      "why": "saw → didn't see.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "I didn't went to the party.",
+      "wrong": "went",
+      "fix": "go",
+      "why": "Didn't + go: una sola marca de pasado.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Did you saw the sea from the hotel?",
+      "wrong": "saw",
+      "fix": "see",
+      "why": "Did + see, no saw.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "¿Qué hiciste el fin de semana?",
+      "answer": "What did you do at the weekend",
+      "extra": [
+        "made"
+      ],
+      "why": "What + did + you + do.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Te lo pasaste bien?",
+      "answer": [
+        "Did you have a good time?",
+        "Did you have a great time?",
+        "Did you enjoy it?",
+        "Did you have fun?"
+      ],
+      "why": "Did + you + have a good time.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "It was cold.",
+        "It wasn't cold."
+      ],
+      "answer": "It wasn't cold.",
+      "es": [
+        "Hacía frío.",
+        "No hacía frío."
+      ],
+      "why": "Was es débil; wasn't se oye claro, con la n y la t.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "We were tired, but it was lovely.",
+      "es": "Estábamos cansados, pero fue precioso.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e16",
+      "type": "situation",
+      "context": "Tu hijo vuelve de Londres. Quieres saber dónde durmió.",
+      "emoji": "🏨",
+      "options": [
+        "Where did you stay?",
+        "Where you stayed?",
+        "Where did you stayed?"
+      ],
+      "answer": "Where did you stay?",
+      "why": "Where + did + you + stay.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e17",
+      "type": "match",
+      "pairs": [
+        [
+          "Did you go?",
+          "Yes, I did."
+        ],
+        [
+          "Was it nice?",
+          "Yes, it was."
+        ],
+        [
+          "Were they tired?",
+          "No, they weren't."
+        ],
+        [
+          "Did she call?",
+          "No, she didn't."
+        ]
+      ],
+      "why": "Did → did; was/were → was/were.",
+      "g": "en-g-past-did"
+    }
+  ],
+  "dialog": {
+    "title": "De vuelta de Edimburgo",
+    "setting": "Yolanda y Emma hablan por videollamada después de un viaje de Emma",
+    "emoji": "🏰",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Hi Emma! Did you go to Edinburgh in the end?",
+        "es": "¡Hola, Emma! ¿Al final fuiste a Edimburgo?"
+      },
+      {
+        "who": "Emma",
+        "t": "Yes, I did! I came back on Monday.",
+        "es": "¡Sí! Volví el lunes."
+      },
+      {
+        "who": "Yolanda",
+        "t": "How did you get there?",
+        "es": "¿Cómo fuiste?"
+      },
+      {
+        "who": "Emma",
+        "t": "By train. It was a long journey, but beautiful.",
+        "es": "En tren. Fue un viaje largo, pero precioso."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Where did you stay?",
+        "es": "¿Dónde te alojaste?"
+      },
+      {
+        "who": "Emma",
+        "t": "With a friend. We didn't pay for a hotel!",
+        "es": "En casa de una amiga. ¡No pagamos hotel!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Lucky you! Did you see the castle?",
+        "es": "¡Qué suerte! ¿Viste el castillo?"
+      },
+      {
+        "who": "Emma",
+        "t": "No, we didn't. We didn't have time!",
+        "es": "No. ¡No tuvimos tiempo!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cómo viajó Emma?",
+        "options": [
+          "En tren",
+          "En avión",
+          "En coche"
+        ],
+        "answer": "En tren"
+      },
+      {
+        "q": "¿Dónde se alojó?",
+        "options": [
+          "En casa de una amiga",
+          "En un hotel",
+          "En un camping"
+        ],
+        "answer": "En casa de una amiga"
+      },
+      {
+        "q": "¿Vio el castillo?",
+        "options": [
+          "No, no tuvo tiempo",
+          "Sí, dos veces",
+          "Sí, por la noche"
+        ],
+        "answer": "No, no tuvo tiempo"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Did you have a good trip?",
+    "es": "¿Qué tal el viaje?",
+    "context": "Para recibir a alguien que vuelve de viaje"
+  },
+  "summary": [
+    "Preguntar en pasado: Did + sujeto + verbo base → Did you go?",
+    "Negar en pasado: didn't + verbo base → I didn't go",
+    "Una sola marca de pasado: nunca «didn't went» ni «Did you saw?»",
+    "Con was/were no hay did: Was it expensive? Were you tired?",
+    "was y were suenan débiles en mitad de la frase"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u05-l4"
+}

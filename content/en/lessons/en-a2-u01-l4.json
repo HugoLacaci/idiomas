@@ -1,0 +1,420 @@
+{
+  "id": "en-a2-u01-l4",
+  "unit": "en-a2-u01",
+  "title": "Siempre o ahora",
+  "goal": "a distinguir lo que haces siempre de lo que haces ahora, y los verbos que no llevan -ing",
+  "emoji": "🔁",
+  "photoQuery": "woman thinking window morning tea",
+  "vocab": [
+    {
+      "id": "now-know",
+      "t": "know",
+      "es": "saber, conocer",
+      "emoji": "💡",
+      "pos": "v",
+      "ex": {
+        "t": "I know your sister. She's lovely.",
+        "es": "Conozco a tu hermana. Es un encanto."
+      },
+      "note": "Verbo de estado: nunca «I'm knowing». La k no suena."
+    },
+    {
+      "id": "now-understand",
+      "t": "understand",
+      "es": "entender",
+      "emoji": "🧐",
+      "pos": "v",
+      "ex": {
+        "t": "Sorry, I don't understand.",
+        "es": "Perdona, no lo entiendo."
+      }
+    },
+    {
+      "id": "now-want",
+      "t": "want",
+      "es": "querer",
+      "emoji": "🙋‍♀️",
+      "pos": "v",
+      "ex": {
+        "t": "My grandson wants an ice cream now.",
+        "es": "Mi nieto quiere un helado ahora."
+      }
+    },
+    {
+      "id": "now-need",
+      "t": "need",
+      "es": "necesitar",
+      "emoji": "🆘",
+      "pos": "v",
+      "ex": {
+        "t": "I need some help with my phone.",
+        "es": "Necesito ayuda con el móvil."
+      }
+    },
+    {
+      "id": "now-remember",
+      "t": "remember",
+      "es": "acordarse, recordar",
+      "emoji": "🧠",
+      "pos": "v",
+      "ex": {
+        "t": "I don't remember his name.",
+        "es": "No me acuerdo de su nombre."
+      }
+    },
+    {
+      "id": "now-prefer",
+      "t": "prefer",
+      "es": "preferir",
+      "emoji": "⚖️",
+      "pos": "v",
+      "ex": {
+        "t": "I prefer tea in the afternoon.",
+        "es": "Por la tarde prefiero té."
+      }
+    },
+    {
+      "id": "now-usually",
+      "t": "usually",
+      "es": "normalmente",
+      "emoji": "🔁",
+      "pos": "adv",
+      "ex": {
+        "t": "I usually do the shopping on Fridays.",
+        "es": "Normalmente hago la compra los viernes."
+      }
+    },
+    {
+      "id": "now-today",
+      "t": "today",
+      "es": "hoy",
+      "emoji": "📅",
+      "pos": "adv",
+      "ex": {
+        "t": "Today I'm working from home.",
+        "es": "Hoy estoy trabajando desde casa."
+      }
+    }
+  ],
+  "grammar": "en-g-simple-vs-continuous",
+  "pron": {
+    "title": "n o ng: thin / thing",
+    "tip": "La n de thin toca los dientes con la punta de la lengua. La ng de thing se hace atrás, en la garganta, y no suena la g. Es el mismo sonido del final de -ing.",
+    "pairs": [
+      [
+        "thin",
+        "thing"
+      ],
+      [
+        "sin",
+        "sing"
+      ],
+      [
+        "win",
+        "wing"
+      ],
+      [
+        "ran",
+        "rang"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I ___ the shopping on Fridays.",
+      "options": [
+        "usually do",
+        "'m usually doing"
+      ],
+      "answer": "usually do",
+      "why": "Usually + presente simple: es una costumbre.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Today I ___ from home.",
+      "options": [
+        "'m working",
+        "work"
+      ],
+      "answer": "'m working",
+      "why": "Today = algo de hoy, de este momento: presente continuo.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "My grandson ___ an ice cream.",
+      "options": [
+        "wants",
+        "is wanting"
+      ],
+      "answer": "wants",
+      "why": "Want es de estado: no lleva -ing.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Sorry, I ___.",
+      "options": [
+        "don't understand",
+        "'m not understanding"
+      ],
+      "answer": "don't understand",
+      "why": "Understand es de estado: I don't understand.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I ___ some help with my phone.",
+      "es": "Necesito ayuda con el móvil.",
+      "answer": [
+        "need"
+      ],
+      "bank": [
+        "need",
+        "'m needing",
+        "needing"
+      ],
+      "why": "Need es de estado: I need.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "She ___ tea, but today she's having coffee.",
+      "es": "Normalmente prefiere té, pero hoy toma café.",
+      "answer": [
+        "prefers"
+      ],
+      "bank": [
+        "prefers",
+        "is preferring",
+        "prefer"
+      ],
+      "why": "Prefer es de estado y con she lleva -s: prefers.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Look! It ___ snowing!",
+      "es": "¡Mira! ¡Está nevando!",
+      "answer": [
+        "is",
+        "'s"
+      ],
+      "why": "Look! = ahora mismo: it is snowing.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e8",
+      "type": "conjugate",
+      "verb": "to know",
+      "person": "I",
+      "tense": "presente simple",
+      "q": "I ___ the answer.",
+      "answer": [
+        "know"
+      ],
+      "why": "Know nunca va con -ing: I know.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Shh! Grandad sleeps on the sofa.",
+      "wrong": "sleeps",
+      "fix": "is sleeping",
+      "why": "Shh! indica que pasa ahora mismo: Grandad is sleeping.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Do you remembering my friend Ana?",
+      "wrong": "remembering",
+      "fix": "remember",
+      "why": "Remember es de estado: Do you remember…?",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Corrige la frase",
+      "q": "I'm knowing your son.",
+      "answer": [
+        "I know your son.",
+        "I know your son"
+      ],
+      "why": "Know es de estado: I know.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "Hoy mi marido está cocinando",
+      "answer": "Today my husband is cooking",
+      "extra": [
+        "cooks"
+      ],
+      "alt": [
+        "My husband is cooking today"
+      ],
+      "why": "Today = presente continuo.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "No me acuerdo de su nombre.",
+      "answer": [
+        "I don't remember his name.",
+        "I don't remember her name.",
+        "I do not remember his name.",
+        "I do not remember her name.",
+        "I can't remember his name.",
+        "I can't remember her name."
+      ],
+      "why": "Remember es de estado: I don't remember.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "thin",
+        "thing"
+      ],
+      "answer": "thing",
+      "es": [
+        "delgado",
+        "cosa"
+      ],
+      "why": "Thing termina en ng, como -ing."
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "win",
+        "wing"
+      ],
+      "answer": "win",
+      "es": [
+        "ganar",
+        "ala"
+      ],
+      "why": "Win termina en n: la lengua toca los dientes."
+    },
+    {
+      "id": "e16",
+      "type": "situation",
+      "context": "Tu hijo te pregunta si quieres un café. Sí, ahora te apetece.",
+      "emoji": "☕",
+      "options": [
+        "Yes, I want one, thanks.",
+        "Yes, I'm wanting one, thanks.",
+        "Yes, I wanting one, thanks."
+      ],
+      "answer": "Yes, I want one, thanks.",
+      "why": "Want no va con -ing.",
+      "g": "en-g-simple-vs-continuous"
+    }
+  ],
+  "dialog": {
+    "title": "Hoy es diferente",
+    "setting": "Yolanda se encuentra a su vecino Tomás en el ascensor un lunes por la mañana",
+    "emoji": "🛗",
+    "lines": [
+      {
+        "who": "Tomás",
+        "t": "Morning! You usually go to the gym on Mondays.",
+        "es": "¡Buenos días! Los lunes sueles ir al gimnasio."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, but today I'm going to the doctor's.",
+        "es": "Sí, pero hoy voy al médico."
+      },
+      {
+        "who": "Tomás",
+        "t": "Oh! Are you OK?",
+        "es": "¡Vaya! ¿Estás bien?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I need a new prescription. And you?",
+        "es": "Sí, necesito una receta nueva. ¿Y tú?"
+      },
+      {
+        "who": "Tomás",
+        "t": "I'm walking to the park. I walk every day now.",
+        "es": "Voy andando al parque. Ahora camino todos los días."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Good for you! Do you know the new café there?",
+        "es": "¡Muy bien! ¿Conoces la cafetería nueva de allí?"
+      },
+      {
+        "who": "Tomás",
+        "t": "Yes, I know it. I love their cakes!",
+        "es": "Sí, la conozco. ¡Me encantan sus pasteles!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Me too! Have a nice walk.",
+        "es": "¡A mí también! Que disfrutes del paseo."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué hace Yolanda normalmente los lunes?",
+        "options": [
+          "Va al gimnasio",
+          "Va al médico",
+          "Va al parque"
+        ],
+        "answer": "Va al gimnasio"
+      },
+      {
+        "q": "¿Por qué va al médico hoy?",
+        "options": [
+          "Necesita una receta",
+          "Le duele la cabeza",
+          "Acompaña a su hijo"
+        ],
+        "answer": "Necesita una receta"
+      },
+      {
+        "q": "¿Qué le encanta a Tomás?",
+        "options": [
+          "Los pasteles de la cafetería",
+          "El gimnasio",
+          "Los lunes"
+        ],
+        "answer": "Los pasteles de la cafetería"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Sorry, I don't understand. Can you say it again?",
+    "es": "Perdona, no lo entiendo. ¿Puedes repetirlo?",
+    "context": "Cuando no entiendes a alguien"
+  },
+  "summary": [
+    "Hábitos (every day, usually) → presente simple: I walk",
+    "Ahora (now, today, Look!) → presente continuo: I'm walking",
+    "Sin -ing: know, understand, want, need, remember, prefer, like",
+    "ng de thing ≠ n de thin"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u01-l4"
+}

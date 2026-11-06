@@ -1,0 +1,450 @@
+{
+  "id": "en-a1-u02-l1",
+  "unit": "en-a1-u02",
+  "title": "Esta es mi familia",
+  "goal": "a nombrar a tu familia: padres, hijos, hermanos y pareja",
+  "emoji": "👨‍👩‍👧‍👦",
+  "photoQuery": "family dinner table home",
+  "vocab": [
+    {
+      "id": "mother",
+      "t": "mother / mum",
+      "es": "madre / mamá",
+      "emoji": "👩",
+      "pos": "n",
+      "ex": {
+        "t": "My mum is a great cook.",
+        "es": "Mi madre cocina de maravilla."
+      },
+      "note": "Mum es británico; en EE. UU. dicen mom."
+    },
+    {
+      "id": "father",
+      "t": "father / dad",
+      "es": "padre / papá",
+      "emoji": "👨",
+      "pos": "n",
+      "ex": {
+        "t": "My dad is from Toledo.",
+        "es": "Mi padre es de Toledo."
+      }
+    },
+    {
+      "id": "son",
+      "t": "son",
+      "es": "hijo",
+      "emoji": "👦",
+      "pos": "n",
+      "ex": {
+        "t": "This is my son, Hugo.",
+        "es": "Este es mi hijo, Hugo."
+      }
+    },
+    {
+      "id": "daughter",
+      "t": "daughter",
+      "es": "hija",
+      "emoji": "👧",
+      "pos": "n",
+      "ex": {
+        "t": "Her daughter is a nurse.",
+        "es": "Su hija es enfermera."
+      },
+      "note": "Se pronuncia /ˈdɔːtə/: la gh no suena."
+    },
+    {
+      "id": "husband",
+      "t": "husband",
+      "es": "marido",
+      "emoji": "🤵",
+      "pos": "n",
+      "ex": {
+        "t": "Carmen's husband is very nice.",
+        "es": "El marido de Carmen es muy majo."
+      }
+    },
+    {
+      "id": "wife",
+      "t": "wife",
+      "es": "mujer, esposa",
+      "emoji": "👰",
+      "pos": "n",
+      "ex": {
+        "t": "Emma is Peter's wife.",
+        "es": "Emma es la mujer de Peter."
+      }
+    },
+    {
+      "id": "brother",
+      "t": "brother",
+      "es": "hermano",
+      "emoji": "🧔",
+      "pos": "n",
+      "ex": {
+        "t": "My brother lives in Bilbao.",
+        "es": "Mi hermano vive en Bilbao."
+      }
+    },
+    {
+      "id": "sister",
+      "t": "sister",
+      "es": "hermana",
+      "emoji": "👩‍🦰",
+      "pos": "n",
+      "ex": {
+        "t": "My sister is my best friend.",
+        "es": "Mi hermana es mi mejor amiga."
+      }
+    },
+    {
+      "id": "parents",
+      "t": "parents",
+      "es": "los padres (padre y madre)",
+      "emoji": "👫",
+      "pos": "n",
+      "ex": {
+        "t": "My parents are in the village.",
+        "es": "Mis padres están en el pueblo."
+      },
+      "note": "¡Ojo, falso amigo! Los parientes son relatives."
+    },
+    {
+      "id": "children",
+      "t": "children",
+      "es": "hijos, niños",
+      "emoji": "🧒",
+      "pos": "n",
+      "ex": {
+        "t": "Emma has got two children.",
+        "es": "Emma tiene dos hijos."
+      },
+      "note": "Singular: a child. Coloquial: kids."
+    }
+  ],
+  "grammar": "en-g-possessive-adj",
+  "pron": {
+    "title": "La th suave de mother",
+    "tip": "En mother, father y brother la th suena parecida a la d suave de «cada» o «nada»: punta de la lengua entre los dientes y con voz. No es una d dura como la de «dedo» al empezar.",
+    "words": [
+      "mother",
+      "father",
+      "brother",
+      "the",
+      "this"
+    ],
+    "pairs": [
+      [
+        "then",
+        "den"
+      ],
+      [
+        "though",
+        "dough"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "This is my ___, Hugo. He's very tall.",
+      "options": [
+        "son",
+        "daughter",
+        "wife"
+      ],
+      "answer": "son",
+      "why": "Hugo es un chico (he): son, hijo."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "My ___ is my mum's husband.",
+      "options": [
+        "dad",
+        "brother",
+        "son"
+      ],
+      "answer": "dad",
+      "why": "El marido de tu madre es tu padre: dad."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "q": "My mum and dad are my ___.",
+      "answer": [
+        "parents"
+      ],
+      "bank": [
+        "parents",
+        "relatives",
+        "children"
+      ],
+      "why": "Padre y madre = parents. Relatives son los parientes (tíos, primos…)."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Jack is Emma's son and Sophie is her ___.",
+      "answer": [
+        "daughter"
+      ],
+      "bank": [
+        "daughter",
+        "son",
+        "mother"
+      ],
+      "why": "Hija = daughter."
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "Emma has got two ___: Jack and Sophie.",
+      "options": [
+        "children",
+        "childs",
+        "child"
+      ],
+      "answer": "children",
+      "why": "El plural de child es irregular: children. Nunca «childs»."
+    },
+    {
+      "id": "e6",
+      "type": "match",
+      "pairs": [
+        [
+          "mother",
+          "madre"
+        ],
+        [
+          "father",
+          "padre"
+        ],
+        [
+          "husband",
+          "marido"
+        ],
+        [
+          "wife",
+          "mujer"
+        ],
+        [
+          "sister",
+          "hermana"
+        ]
+      ]
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "Esta es mi madre",
+      "answer": "This is my mother",
+      "extra": [
+        "me"
+      ],
+      "why": "Mi = my. Me significa «me, a mí».",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e8",
+      "type": "translate",
+      "dir": "to",
+      "q": "Mis padres están en el pueblo.",
+      "answer": [
+        "My parents are in the village.",
+        "My parents are in the town."
+      ],
+      "why": "Mis padres = my parents. El posesivo my no cambia en plural.",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e9",
+      "type": "translate",
+      "dir": "from",
+      "q": "My husband is in the kitchen.",
+      "answer": [
+        "Mi marido está en la cocina.",
+        "Mi marido está en la cocina",
+        "Mi esposo está en la cocina."
+      ],
+      "why": "Husband = marido. Kitchen = cocina (la habitación)."
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "My relatives are my mum and dad.",
+      "wrong": "relatives",
+      "fix": "parents",
+      "why": "Padre y madre son parents. Relatives significa «parientes»."
+    },
+    {
+      "id": "e11",
+      "type": "minimal",
+      "pair": [
+        "then",
+        "den"
+      ],
+      "answer": "then",
+      "es": [
+        "entonces",
+        "guarida"
+      ],
+      "why": "Has oído la th suave, con la lengua entre los dientes: then."
+    },
+    {
+      "id": "e12",
+      "type": "minimal",
+      "pair": [
+        "though",
+        "dough"
+      ],
+      "answer": "dough",
+      "es": [
+        "aunque",
+        "masa"
+      ],
+      "why": "Era una d dura, con la lengua detrás de los dientes: dough (masa de pan)."
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Le enseñas a una amiga inglesa una foto de tus nietos.",
+      "emoji": "📱",
+      "options": [
+        "These are my grandchildren.",
+        "These are my grandchilds.",
+        "These are my parents."
+      ],
+      "answer": "These are my grandchildren.",
+      "why": "Nietos = grandchildren (plural irregular, como children). Parents son tus padres."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "text",
+      "title": "La familia de Emma",
+      "text": "My name is Emma. My husband is Peter. We've got a son, Jack, and a daughter, Sophie. My mum, Mary, is 80.",
+      "questions": [
+        {
+          "q": "¿Cómo se llama el marido de Emma?",
+          "options": [
+            "Peter",
+            "Jack",
+            "Mary"
+          ],
+          "answer": "Peter"
+        },
+        {
+          "q": "¿Cuántos hijos tiene Emma?",
+          "options": [
+            "Dos",
+            "Uno",
+            "Tres"
+          ],
+          "answer": "Dos"
+        },
+        {
+          "q": "¿Quién es Mary?",
+          "options": [
+            "La madre de Emma",
+            "La hija de Emma"
+          ],
+          "answer": "La madre de Emma"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "My mother, my father and my brother.",
+      "es": "Mi madre, mi padre y mi hermano."
+    }
+  ],
+  "dialog": {
+    "title": "Fotos en el móvil",
+    "setting": "En una cafetería; Yolanda le enseña a Emma fotos de su familia",
+    "emoji": "📸",
+    "lines": [
+      {
+        "who": "Emma",
+        "t": "Is that your family?",
+        "es": "¿Esa es tu familia?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes! This is my son, Hugo.",
+        "es": "¡Sí! Este es mi hijo, Hugo."
+      },
+      {
+        "who": "Emma",
+        "t": "He's very handsome! And who's she?",
+        "es": "¡Qué guapo! ¿Y quién es ella?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "She's Carmen, my best friend.",
+        "es": "Es Carmen, mi mejor amiga."
+      },
+      {
+        "who": "Emma",
+        "t": "She's lovely. Are these your parents?",
+        "es": "Es encantadora. ¿Estos son tus padres?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, they are. My mum and dad.",
+        "es": "Sí. Mi madre y mi padre."
+      },
+      {
+        "who": "Emma",
+        "t": "What a beautiful family!",
+        "es": "¡Qué familia tan bonita!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Thank you! And your family?",
+        "es": "¡Gracias! ¿Y tu familia?"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Quién es Hugo?",
+        "options": [
+          "El hijo de Yolanda",
+          "El marido de Yolanda"
+        ],
+        "answer": "El hijo de Yolanda"
+      },
+      {
+        "q": "¿Quién es Carmen?",
+        "options": [
+          "La mejor amiga de Yolanda",
+          "La hermana de Hugo"
+        ],
+        "answer": "La mejor amiga de Yolanda"
+      },
+      {
+        "q": "¿Quién sale en la última foto?",
+        "options": [
+          "Los padres de Yolanda",
+          "Los nietos de Yolanda"
+        ],
+        "answer": "Los padres de Yolanda"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "This is my son, Hugo.",
+    "es": "Este es mi hijo, Hugo.",
+    "context": "Para presentar a alguien de tu familia"
+  },
+  "summary": [
+    "Padres e hijos: mother (mum), father (dad), son, daughter",
+    "Pareja y hermanos: husband, wife, brother, sister",
+    "Parents = padre y madre (los parientes son relatives)",
+    "Child → children (plural irregular)",
+    "La th de mother suena suave, con la lengua entre los dientes"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u02-l1"
+}

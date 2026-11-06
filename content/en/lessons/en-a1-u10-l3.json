@@ -1,0 +1,453 @@
+{
+  "id": "en-a1-u10-l3",
+  "unit": "en-a1-u10",
+  "title": "En mi tiempo libre…",
+  "goal": "a contar tus aficiones con frases hechas y a apuntarte a una actividad",
+  "emoji": "🌱",
+  "photoQuery": "community garden vegetables gardening",
+  "vocab": [
+    {
+      "id": "in-my-free-time",
+      "t": "in my free time",
+      "es": "en mi tiempo libre",
+      "emoji": "🕰️",
+      "pos": "phrase",
+      "ex": {
+        "t": "In my free time I read.",
+        "es": "En mi tiempo libre leo."
+      }
+    },
+    {
+      "id": "im-good-at",
+      "t": "I'm good at…",
+      "es": "se me da bien…",
+      "emoji": "👍",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm good at cooking.",
+        "es": "Se me da bien cocinar."
+      },
+      "note": "Detrás va -ing: good at cooking."
+    },
+    {
+      "id": "grow-vegetables",
+      "t": "grow vegetables",
+      "es": "cultivar verduras, tener huerto",
+      "emoji": "🥕",
+      "pos": "phrase",
+      "ex": {
+        "t": "I grow tomatoes and peppers.",
+        "es": "Cultivo tomates y pimientos."
+      }
+    },
+    {
+      "id": "photography",
+      "t": "photography",
+      "es": "la fotografía",
+      "emoji": "📷",
+      "pos": "n",
+      "ex": {
+        "t": "My son is into photography.",
+        "es": "A mi hijo le gusta mucho la fotografía."
+      },
+      "note": "El acento va en «to»: pho-TO-graphy."
+    },
+    {
+      "id": "yoga",
+      "t": "yoga",
+      "es": "yoga",
+      "emoji": "🧘",
+      "pos": "n",
+      "ex": {
+        "t": "I do yoga twice a week.",
+        "es": "Hago yoga dos veces por semana."
+      },
+      "note": "Se dice do yoga, no play yoga."
+    },
+    {
+      "id": "a-choir",
+      "t": "a choir",
+      "es": "un coro",
+      "emoji": "🎶",
+      "pos": "n",
+      "ex": {
+        "t": "I sing in a choir.",
+        "es": "Canto en un coro."
+      },
+      "note": "Se pronuncia «kuaia»: la ch suena k."
+    },
+    {
+      "id": "join-a-club",
+      "t": "join a club",
+      "es": "apuntarse a un club",
+      "emoji": "🤝",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'd like to join a walking club.",
+        "es": "Me gustaría apuntarme a un club de senderismo."
+      }
+    },
+    {
+      "id": "a-walking-club",
+      "t": "a walking club",
+      "es": "un club de senderismo",
+      "emoji": "🥾",
+      "pos": "n",
+      "ex": {
+        "t": "Our walking club meets on Sundays.",
+        "es": "Nuestro club de senderismo queda los domingos."
+      }
+    },
+    {
+      "id": "attend-a-class",
+      "t": "attend a class",
+      "es": "asistir a una clase",
+      "emoji": "🏫",
+      "pos": "phrase",
+      "ex": {
+        "t": "I attend a painting class.",
+        "es": "Asisto a una clase de pintura."
+      },
+      "note": "¡Ojo! Asistir = attend. Assist en inglés significa ayudar."
+    },
+    {
+      "id": "assist",
+      "t": "assist",
+      "es": "ayudar (formal)",
+      "emoji": "🆘",
+      "pos": "v",
+      "ex": {
+        "t": "Nurses assist the doctor.",
+        "es": "Las enfermeras ayudan al médico."
+      },
+      "note": "Falso amigo: assist = ayudar; asistir a algo = attend."
+    }
+  ],
+  "grammar": "en-g-can",
+  "pron": {
+    "title": "La ch que suena k",
+    "tip": "En algunas palabras la ch inglesa suena k: choir («kuaia»), school, chemist. Y en photography el golpe de voz va en «to»: pho-TO-gra-phy.",
+    "words": [
+      "choir",
+      "school",
+      "photography",
+      "photo"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "attend",
+          "asistir"
+        ],
+        [
+          "assist",
+          "ayudar"
+        ],
+        [
+          "join",
+          "apuntarse"
+        ],
+        [
+          "gardening",
+          "huerto, jardinería"
+        ],
+        [
+          "a choir",
+          "un coro"
+        ]
+      ],
+      "why": "¡Ojo con el falso amigo! Assist es ayudar; asistir es attend."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "I ___ a cooking class on Tuesdays.",
+      "es": "Asisto a una clase de cocina los martes.",
+      "options": [
+        "attend",
+        "assist",
+        "help"
+      ],
+      "answer": "attend",
+      "why": "Asistir a una clase = attend a class. Assist es ayudar."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "I'm good at ___.",
+      "es": "Se me da bien cocinar.",
+      "options": [
+        "cooking",
+        "cook",
+        "to cook"
+      ],
+      "answer": "cooking",
+      "why": "Después de good at, el verbo con -ing."
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "My friend ___ yoga every morning.",
+      "es": "Mi amiga hace yoga todas las mañanas.",
+      "options": [
+        "does",
+        "plays",
+        "makes"
+      ],
+      "answer": "does",
+      "why": "Yoga va con do: she does yoga."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I'd like to ___ a walking club.",
+      "es": "Me gustaría apuntarme a un club de senderismo.",
+      "answer": [
+        "join"
+      ],
+      "bank": [
+        "join",
+        "attend",
+        "assist"
+      ],
+      "why": "Apuntarse a un club = join a club."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "In my free ___ I go for a walk.",
+      "es": "En mi tiempo libre salgo a pasear.",
+      "answer": [
+        "time"
+      ],
+      "why": "Tiempo libre = free time."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Can you ___ in the choir? We need voices!",
+      "es": "¿Sabes cantar en el coro? ¡Necesitamos voces!",
+      "answer": [
+        "sing"
+      ],
+      "bank": [
+        "sing",
+        "sings",
+        "to sing"
+      ],
+      "why": "Can + verbo tal cual: can sing.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Se me da bien la jardinería",
+      "answer": "I'm good at gardening",
+      "extra": [
+        "in"
+      ],
+      "why": "Ser bueno en algo = be good at."
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Puedes apuntarte en recepción",
+      "answer": "You can join at reception",
+      "extra": [
+        "to"
+      ],
+      "why": "can + verbo sin to.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "I assist a painting class on Fridays.",
+      "wrong": "assist",
+      "fix": "attend",
+      "why": "Falso amigo: asistir a una clase = attend. Assist significa ayudar."
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "My husband plays yoga with me.",
+      "wrong": "plays",
+      "fix": "does",
+      "why": "Yoga va con do: he does yoga."
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "En mi tiempo libre hago punto.",
+      "answer": [
+        "In my free time I knit.",
+        "In my free time, I knit.",
+        "I knit in my free time."
+      ],
+      "why": "Tiempo libre = free time; hacer punto = knit."
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "from",
+      "q": "Can I join the choir?",
+      "answer": [
+        "¿Puedo apuntarme al coro?",
+        "¿Me puedo apuntar al coro?",
+        "¿Puedo unirme al coro?",
+        "¿Puedo entrar en el coro?"
+      ],
+      "why": "Can I…? = ¿Puedo…? Join = apuntarse, unirse.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "En el centro cultural quieres preguntar si puedes apuntarte a la clase de pintura.",
+      "emoji": "🎨",
+      "options": [
+        "Can I join the painting class?",
+        "Can I assist the painting class?",
+        "Do I can join the painting class?"
+      ],
+      "answer": "Can I join the painting class?",
+      "why": "Pedir permiso: Can I…? Apuntarse = join.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "text",
+      "title": "Anuncio del club",
+      "text": "GREEN FINGERS GARDENING CLUB\nDo you love plants? Can you grow tomatoes? Or can't you? Don't worry!\nWe meet every Saturday morning in the park.\nAll ages welcome. Join today!",
+      "questions": [
+        {
+          "q": "¿De qué es el club?",
+          "options": [
+            "De jardinería",
+            "De cocina",
+            "De fotografía"
+          ],
+          "answer": "De jardinería"
+        },
+        {
+          "q": "¿Cuándo se reúnen?",
+          "options": [
+            "Los sábados por la mañana",
+            "Los domingos por la tarde",
+            "Cada día"
+          ],
+          "answer": "Los sábados por la mañana"
+        },
+        {
+          "q": "¿Hay que saber cultivar para apuntarse?",
+          "options": [
+            "No, no importa",
+            "Sí, es obligatorio"
+          ],
+          "answer": "No, no importa"
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "In my free time I sing in a choir.",
+      "es": "En mi tiempo libre canto en un coro."
+    }
+  ],
+  "dialog": {
+    "title": "En el centro cultural",
+    "setting": "En la recepción de un centro cultural de Londres",
+    "emoji": "🏫",
+    "lines": [
+      {
+        "who": "Receptionist",
+        "t": "Hello! Can I help you?",
+        "es": "¡Hola! ¿En qué puedo ayudarla?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes. I'd like to join a class.",
+        "es": "Sí. Me gustaría apuntarme a una clase."
+      },
+      {
+        "who": "Receptionist",
+        "t": "What are you into? Art, music, sport?",
+        "es": "¿Qué le gusta? ¿Arte, música, deporte?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I love singing. Is there a choir?",
+        "es": "Me encanta cantar. ¿Hay coro?"
+      },
+      {
+        "who": "Receptionist",
+        "t": "Yes, on Wednesday evenings. Can you read music?",
+        "es": "Sí, los miércoles por la tarde. ¿Sabe leer partituras?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, I can't. Is that a problem?",
+        "es": "No. ¿Es un problema?"
+      },
+      {
+        "who": "Receptionist",
+        "t": "Not at all! You can learn with us.",
+        "es": "¡Para nada! Puede aprender con nosotros."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Wonderful! Where can I sign?",
+        "es": "¡Estupendo! ¿Dónde firmo?"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿A qué se quiere apuntar Yolanda?",
+        "options": [
+          "Al coro",
+          "A yoga",
+          "A pintura"
+        ],
+        "answer": "Al coro"
+      },
+      {
+        "q": "¿Qué día es el coro?",
+        "options": [
+          "El miércoles",
+          "El lunes",
+          "El sábado"
+        ],
+        "answer": "El miércoles"
+      },
+      {
+        "q": "¿Sabe Yolanda leer partituras?",
+        "options": [
+          "No",
+          "Sí"
+        ],
+        "answer": "No"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "I'd like to join a class. Can I sign up here?",
+    "es": "Me gustaría apuntarme a una clase. ¿Puedo inscribirme aquí?",
+    "context": "Para apuntarte a una actividad en un centro cultural o un gimnasio"
+  },
+  "summary": [
+    "in my free time = en mi tiempo libre",
+    "I'm good at + -ing: I'm good at cooking",
+    "do yoga, play tennis, go for a walk",
+    "Falso amigo: assist = ayudar; asistir = attend",
+    "Apuntarse = join: Can I join the choir?"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u10-l3"
+}

@@ -1,0 +1,132 @@
+{
+  "id": "en-g-plurals",
+  "lang": "en",
+  "level": "A1",
+  "title": "El plural: bags, glasses, children, people",
+  "short": "Casi siempre se añade -s, pero hay plurales con -es, -ies, -ves y algunos totalmente irregulares.",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "🛍️",
+      "title": "Una cosa, dos cosas",
+      "text": "Como en español, para hablar de más de una cosa casi siempre añadimos ==-s==. ¡Esto ya lo sabes hacer!",
+      "examples": [
+        { "t": "one bag, two bags", "es": "un bolso, dos bolsos", "hl": "bags" },
+        { "t": "one key, three keys", "es": "una llave, tres llaves", "hl": "keys" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "📋",
+      "title": "Las reglas de ortografía",
+      "text": "Según cómo termina la palabra, el plural cambia un poco.",
+      "table": {
+        "head": ["Termina en…", "Plural", "Ejemplo"],
+        "rows": [
+          ["casi todo", "+ ==s==", "phone → phone==s=="],
+          ["-s, -ss, -sh, -ch, -x", "+ ==es==", "glass → glass==es==, watch → watch==es=="],
+          ["consonante + -y", "-y → ==ies==", "city → cit==ies=="],
+          ["vocal + -y", "+ ==s==", "key → key==s==, day → day==s=="],
+          ["-f / -fe", "→ ==ves==", "knife → kni==ves==, shelf → shel==ves=="]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "emoji": "👨‍👩‍👧‍👦",
+      "title": "Los plurales rebeldes",
+      "text": "Estos no llevan -s. Hay que aprenderlos de memoria, pero son muy pocos y muy útiles.",
+      "table": {
+        "head": ["Uno", "Varios", "Español"],
+        "rows": [
+          ["child", "==children==", "niño / niños, hijos"],
+          ["person", "==people==", "persona / personas, gente"],
+          ["man", "==men==", "hombre / hombres"],
+          ["woman", "==women==", "mujer / mujeres"],
+          ["foot", "==feet==", "pie / pies"],
+          ["tooth", "==teeth==", "diente / dientes"]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "emoji": "🇪🇸",
+      "title": "La gente ES… pero people ARE",
+      "text": "«La gente» en español es singular. En inglés ==people== es plural: ==people are==. Y en inglés los adjetivos **nunca** llevan -s: ==red bags==, no «reds bags».",
+      "examples": [
+        { "t": "People are very friendly here.", "es": "La gente es muy simpática aquí.", "hl": "are" },
+        { "t": "I've got two new bags.", "es": "Tengo dos bolsos nuevos.", "hl": "new" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "emoji": "👓",
+      "title": "Siempre en plural",
+      "text": "Algunas cosas «dobles» van siempre en plural: ==glasses== (gafas), ==trousers== (pantalones), ==scissors== (tijeras). Por eso: ==my glasses are== on the table.",
+      "examples": [
+        { "t": "Where are my glasses?", "es": "¿Dónde están mis gafas?", "hl": "are" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo con estos errores!",
+      "text": "❌ two childrens → ✅ two ==children==. ❌ The people is nice → ✅ The people ==are== nice. ❌ informations → ✅ ==information== (sin -s). ❌ reds shoes → ✅ ==red== shoes."
+    },
+    {
+      "kind": "tip",
+      "emoji": "💡",
+      "title": "Cómo suena la -s",
+      "text": "La -s suena «s» en ==books==, «z» suave en ==bags== y «iz» en ==glasses==, ==watches==. Con -es después de s, sh, ch o x se añade una sílaba."
+    }
+  ],
+  "compare": {
+    "es": "En español el plural se hace con -s o -es y el adjetivo también va en plural (bolsos rojos). «La gente» es singular.",
+    "target": "En inglés el plural se hace con -s/-es (y -ies, -ves), pero el adjetivo no cambia (red bags). People, children, men, women son plurales irregulares: people are, children are."
+  },
+  "errors": [
+    { "wrong": "I've got three childrens.", "right": "I've got three children.", "why": "Children ya es plural; no lleva -s." },
+    { "wrong": "The people is very nice.", "right": "The people are very nice.", "why": "People es plural en inglés, así que va con are." },
+    { "wrong": "I've got two reds bags.", "right": "I've got two red bags.", "why": "En inglés los adjetivos nunca van en plural." },
+    { "wrong": "Can you give me some informations?", "right": "Can you give me some information?", "why": "Information no tiene plural en inglés." },
+    { "wrong": "My glass are on the table.", "right": "My glasses are on the table.", "why": "Las gafas (glasses) siempre van en plural." },
+    { "wrong": "There are two citys.", "right": "There are two cities.", "why": "Consonante + y: la y cambia a ies (city → cities)." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "I've got two ___.", "es": "Tengo dos bolsos.", "options": ["bag", "bags", "bages"], "answer": "bags", "why": "La mayoría de palabras solo añaden -s: bags.", "g": "en-g-plurals" },
+    { "id": "e2", "type": "choose", "q": "There are three ___ on the table.", "es": "Hay tres relojes en la mesa.", "options": ["watchs", "watches", "watch"], "answer": "watches", "why": "Si termina en -ch, se añade -es: watches.", "g": "en-g-plurals" },
+    { "id": "e3", "type": "choose", "q": "Emma's two ___ are in London.", "es": "Los dos hijos de Emma están en Londres.", "options": ["childs", "children", "childrens"], "answer": "children", "why": "El plural de child es children, sin -s.", "g": "en-g-plurals" },
+    { "id": "e4", "type": "choose", "q": "The people here ___ very kind.", "es": "La gente de aquí es muy amable.", "options": ["is", "are"], "answer": "are", "why": "People es plural en inglés: people are.", "g": "en-g-plurals" },
+    { "id": "e5", "type": "choose", "q": "Where are my ___?", "es": "¿Dónde están mis llaves?", "options": ["keys", "keies", "key"], "answer": "keys", "why": "Vocal + y solo añade -s: key → keys.", "g": "en-g-plurals" },
+    { "id": "e6", "type": "choose", "q": "We visit two ___ on holiday.", "es": "Visitamos dos ciudades en vacaciones.", "options": ["citys", "cities", "city"], "answer": "cities", "why": "Consonante + y: la y pasa a ies. City → cities.", "g": "en-g-plurals" },
+    { "id": "e7", "type": "conjugate", "verb": "child", "person": "plural", "tense": "plural", "q": "My grandchildren are lovely ___.", "answer": ["children"], "table": [["Singular", "Plural"], ["child", "?"], ["person", "people"]], "why": "Child → children, plural irregular.", "g": "en-g-plurals" },
+    { "id": "e8", "type": "conjugate", "verb": "woman", "person": "plural", "tense": "plural", "q": "Three ___ are in the shop.", "answer": ["women"], "table": [["Singular", "Plural"], ["man", "men"], ["woman", "?"]], "why": "Woman → women. Se pronuncia «uímin».", "g": "en-g-plurals" },
+    { "id": "e9", "type": "conjugate", "verb": "knife", "person": "plural", "tense": "plural", "q": "The ___ are in the drawer.", "answer": ["knives"], "table": [["Singular", "Plural"], ["shelf", "shelves"], ["knife", "?"]], "why": "Las palabras en -f/-fe cambian a -ves: knife → knives.", "g": "en-g-plurals" },
+    { "id": "e10", "type": "conjugate", "verb": "tooth", "person": "plural", "tense": "plural", "q": "Brush your ___, please!", "answer": ["teeth"], "table": [["Singular", "Plural"], ["foot", "feet"], ["tooth", "?"]], "why": "Tooth → teeth, igual que foot → feet.", "g": "en-g-plurals" },
+    { "id": "e11", "type": "fill", "q": "I need two ___ of milk.", "es": "Necesito dos botellas de leche.", "answer": ["bottles"], "bank": ["bottles", "bottle", "bottleses"], "why": "Bottle solo añade -s: bottles.", "g": "en-g-plurals" },
+    { "id": "e12", "type": "fill", "q": "I've got five ___ in my kitchen.", "es": "Tengo cinco cajas en la cocina.", "answer": ["boxes"], "bank": ["boxs", "boxes", "boxies"], "why": "Si termina en -x, se añade -es: boxes.", "g": "en-g-plurals" },
+    { "id": "e13", "type": "fill", "q": "There are ten ___ in the class.", "es": "Hay diez personas en la clase.", "answer": ["people"], "bank": ["persons", "people", "peoples"], "why": "El plural normal de person es people.", "g": "en-g-plurals" },
+    { "id": "e14", "type": "fill", "q": "Carmen has got two grandsons and one ___.", "es": "Carmen tiene dos nietos y una nieta.", "answer": ["granddaughter"], "why": "Una sola nieta: singular, sin -s.", "g": "en-g-plurals" },
+    { "id": "e15", "type": "fill", "q": "My ___ hurt after the walk.", "es": "Me duelen los pies después del paseo.", "answer": ["feet"], "why": "Foot → feet, plural irregular.", "g": "en-g-plurals" },
+    { "id": "e16", "type": "fill", "q": "The books are on the ___.", "es": "Los libros están en las estanterías.", "answer": ["shelves"], "why": "Shelf termina en -f: shelf → shelves.", "g": "en-g-plurals" },
+    { "id": "e17", "type": "match", "pairs": [["child", "children"], ["man", "men"], ["person", "people"], ["foot", "feet"], ["wife", "wives"]], "why": "Son plurales irregulares: hay que aprenderlos de memoria.", "g": "en-g-plurals" },
+    { "id": "e18", "type": "error", "q": "Her two childrens live in Madrid.", "wrong": "childrens", "fix": "children", "why": "Children ya es plural; nunca lleva -s.", "g": "en-g-plurals" },
+    { "id": "e19", "type": "error", "q": "The people is very friendly.", "wrong": "is", "fix": "are", "why": "People es plural: the people are.", "g": "en-g-plurals" },
+    { "id": "e20", "type": "error", "q": "I like those blues shoes.", "wrong": "blues", "fix": "blue", "why": "Los adjetivos en inglés no tienen plural: blue shoes.", "g": "en-g-plurals" },
+    { "id": "e21", "type": "error", "q": "We need some new knifes.", "wrong": "knifes", "fix": "knives", "why": "Knife → knives: la f cambia a v.", "g": "en-g-plurals" },
+    { "id": "e22", "type": "error", "q": "Thank you for the informations.", "wrong": "informations", "fix": "information", "why": "Information nunca lleva -s en inglés.", "g": "en-g-plurals" },
+    { "id": "e23", "type": "transform", "instr": "Pásala a plural", "q": "The bag is red.", "answer": ["The bags are red."], "why": "Bag → bags, is → are, y red no cambia.", "g": "en-g-plurals" },
+    { "id": "e24", "type": "transform", "instr": "Pásala a plural", "q": "The child is happy.", "answer": ["The children are happy."], "why": "Child → children, is → are.", "g": "en-g-plurals" },
+    { "id": "e25", "type": "transform", "instr": "Pásala a plural", "q": "The woman is from Spain.", "answer": ["The women are from Spain."], "why": "Woman → women, is → are.", "g": "en-g-plurals" },
+    { "id": "e26", "type": "transform", "instr": "Pásala a singular", "q": "The dishes are clean.", "answer": ["The dish is clean."], "why": "Dishes → dish (quitamos -es), are → is.", "g": "en-g-plurals" },
+    { "id": "e27", "type": "order", "es": "Mis nietos son muy simpáticos", "answer": "My grandchildren are very nice", "extra": ["is", "nices"], "why": "Grandchildren es plural (are) y nice no cambia.", "g": "en-g-plurals" },
+    { "id": "e28", "type": "order", "es": "Hay muchas personas en el mercado", "answer": "There are a lot of people at the market", "extra": ["persons"], "why": "El plural de person es people.", "g": "en-g-plurals" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "Margaret tiene tres hijos y siete nietos.", "answer": ["Margaret has got three children and seven grandchildren.", "Margaret's got three children and seven grandchildren.", "Margaret has three children and seven grandchildren.", "Margaret has got three kids and seven grandchildren."], "why": "Hijos (en general) = children; nietos = grandchildren.", "g": "en-g-plurals" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "La gente es muy amable.", "answer": ["People are very kind.", "People are very nice.", "People are very friendly.", "The people are very kind.", "The people are very nice.", "The people are very friendly."], "why": "People es plural: people are.", "g": "en-g-plurals" },
+    { "id": "e31", "type": "translate", "dir": "from", "q": "Where are my glasses?", "answer": ["¿Dónde están mis gafas?"], "why": "Glasses = gafas, siempre en plural.", "g": "en-g-plurals" },
+    { "id": "e32", "type": "situation", "context": "En la farmacia, la farmacéutica te pregunta cuántos niños hay en la familia. Hay dos.", "emoji": "💊", "options": ["Two children.", "Two childrens.", "Two child."], "answer": "Two children.", "why": "Child → children, sin -s.", "g": "en-g-plurals" },
+    { "id": "e33", "type": "situation", "context": "Quieres decir que la gente de Londres es simpática.", "emoji": "🇬🇧", "options": ["People in London are nice.", "People in London is nice.", "Peoples in London are nice."], "answer": "People in London are nice.", "why": "People ya es plural y va con are.", "g": "en-g-plurals" },
+    { "id": "e34", "type": "choose", "q": "My ___ are on my head!", "es": "¡Tengo las gafas en la cabeza!", "options": ["glass", "glasses"], "answer": "glasses", "why": "Gafas = glasses, siempre en plural.", "g": "en-g-plurals" }
+  ],
+  "reviewed": false
+}

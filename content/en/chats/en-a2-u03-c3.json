@@ -1,0 +1,61 @@
+{
+  "id": "en-a2-u03-c3",
+  "unit": "en-a2-u03",
+  "title": "Un regalo para tu nieto",
+  "setting": "Emma te pregunta qué le has comprado a tu nieto en Londres.",
+  "emoji": "🎁",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "So, what present do you have for your grandson?", "es": "Bueno, ¿qué regalo tienes para tu nieto?" },
+      "options": [
+        { "t": "A lovely blue football shirt!", "es": "¡Una camiseta de fútbol azul preciosa!", "next": "n2", "ok": true },
+        { "t": "A shirt football blue lovely!", "es": "¡Una camiseta de fútbol azul preciosa!", "next": "n2", "ok": false, "feedback": "En inglés los adjetivos van delante: a lovely blue football shirt." },
+        { "t": "A blue lovely football shirt!", "es": "¡Una camiseta de fútbol azul preciosa!", "next": "n2", "ok": false, "feedback": "La opinión va primero: a lovely blue…" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Great! What size is it?", "es": "¡Genial! ¿De qué talla es?" },
+      "options": [
+        { "t": "It's a bigger size. He's growing fast!", "es": "Es una talla más grande. ¡Está creciendo muy rápido!", "next": "n3", "ok": true },
+        { "t": "It's a more big size. He's growing fast!", "es": "Es una talla más grande. ¡Está creciendo muy rápido!", "next": "n3", "ok": false, "feedback": "Big → bigger, nunca more big." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Clever! Anything else?", "es": "¡Bien pensado! ¿Algo más?" },
+      "options": [
+        { "t": "Yes, some warm wool socks.", "es": "Sí, unos calcetines de lana calentitos.", "next": "n4", "ok": true },
+        { "t": "Yes, some warms wool socks.", "es": "Sí, unos calcetines de lana calentitos.", "next": "n4", "ok": false, "feedback": "Los adjetivos no llevan -s: warm wool socks." },
+        { "t": "Yes, some socks of wool warm.", "es": "Sí, unos calcetines de lana calentitos.", "next": "n4", "ok": false, "feedback": "Todo delante y sin of: warm wool socks." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Socks? Children don't usually like socks!", "es": "¿Calcetines? ¡A los niños no les suelen gustar los calcetines!" },
+      "options": [
+        { "t": "These are the funniest socks in the shop. They have dinosaurs!", "es": "Son los calcetines más divertidos de la tienda. ¡Tienen dinosaurios!", "next": "n5", "ok": true },
+        { "t": "These are the most funny socks of the shop. They have dinosaurs!", "es": "Son los calcetines más divertidos de la tienda. ¡Tienen dinosaurios!", "next": "n5", "ok": false, "feedback": "Funny → the funniest, y «de la tienda» = in the shop." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Dinosaurs! That's the best present ever!", "es": "¡Dinosaurios! ¡Es el mejor regalo del mundo!" },
+      "options": [
+        { "t": "I hope so! And they're cheaper than the shirt.", "es": "¡Eso espero! Y son más baratos que la camiseta.", "next": "n6", "ok": true },
+        { "t": "I hope so! And they're cheapest than the shirt.", "es": "¡Eso espero! Y son más baratos que la camiseta.", "next": "n6", "ok": false, "feedback": "Comparamos dos cosas con than: cheaper than." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "You're a great grandma, Yolanda.", "es": "Eres una abuela estupenda, Yolanda." },
+      "options": [
+        { "t": "Thank you, Emma! That's very kind.", "es": "¡Gracias, Emma! Qué amable.", "next": "end", "ok": true },
+        { "t": "Thank you, Emma! That's very kindly.", "es": "¡Gracias, Emma! Qué amable.", "next": "end", "ok": false, "feedback": "Después de that's va un adjetivo: very kind." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

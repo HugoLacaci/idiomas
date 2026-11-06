@@ -1,0 +1,451 @@
+{
+  "id": "en-a2-u05-l5",
+  "unit": "en-a2-u05",
+  "title": "Reto: un fin de semana en York",
+  "goal": "a contar una escapada a York y responder preguntas sobre ella",
+  "emoji": "🏰",
+  "photoQuery": "york city walls medieval",
+  "vocab": [
+    {
+      "id": "story-city-walls",
+      "t": "the city walls",
+      "es": "la muralla",
+      "emoji": "🏰",
+      "pos": "n",
+      "ex": {
+        "t": "We walked along the old city walls.",
+        "es": "Paseamos por la antigua muralla."
+      }
+    },
+    {
+      "id": "story-cathedral",
+      "t": "the cathedral",
+      "es": "la catedral",
+      "emoji": "⛪",
+      "pos": "n",
+      "ex": {
+        "t": "The cathedral was enormous and very beautiful.",
+        "es": "La catedral era enorme y preciosa."
+      },
+      "note": "La catedral de York se llama York Minster."
+    },
+    {
+      "id": "story-narrow-street",
+      "t": "a narrow street",
+      "es": "una calle estrecha",
+      "emoji": "🏘️",
+      "pos": "n",
+      "ex": {
+        "t": "We got lost in a narrow street.",
+        "es": "Nos perdimos en una calle estrecha."
+      }
+    },
+    {
+      "id": "story-the-vikings",
+      "t": "the Vikings",
+      "es": "los vikingos",
+      "emoji": "⛵",
+      "pos": "n",
+      "ex": {
+        "t": "The Vikings lived here a long time ago.",
+        "es": "Los vikingos vivieron aquí hace mucho tiempo."
+      }
+    },
+    {
+      "id": "story-souvenir",
+      "t": "a souvenir",
+      "es": "un recuerdo (de viaje)",
+      "emoji": "🧸",
+      "pos": "n",
+      "ex": {
+        "t": "I bought a souvenir for my grandson.",
+        "es": "Compré un recuerdo para mi nieto."
+      }
+    },
+    {
+      "id": "story-tea-room",
+      "t": "a tea room",
+      "es": "un salón de té",
+      "emoji": "🫖",
+      "pos": "n",
+      "ex": {
+        "t": "We had tea and cake in a tea room.",
+        "es": "Tomamos té y tarta en un salón de té."
+      }
+    },
+    {
+      "id": "story-weekend-away",
+      "t": "a weekend away",
+      "es": "una escapada de fin de semana",
+      "emoji": "🧳",
+      "pos": "phrase",
+      "ex": {
+        "t": "We had a weekend away in York.",
+        "es": "Hicimos una escapada de fin de semana a York."
+      }
+    },
+    {
+      "id": "story-it-rained-all-day",
+      "t": "It rained all day.",
+      "es": "Llovió todo el día.",
+      "emoji": "🌧️",
+      "pos": "phrase",
+      "ex": {
+        "t": "On Sunday it rained all day.",
+        "es": "El domingo llovió todo el día."
+      }
+    }
+  ],
+  "grammar": "en-g-past-did",
+  "pron": {
+    "title": "York, walk, walls",
+    "tip": "York se dice «iok», con una o larga; en inglés británico la r casi no suena. Igual pasa en walk («uok») y walls («uols»).",
+    "words": [
+      "York",
+      "walk",
+      "walls",
+      "bought",
+      "saw"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "email",
+      "title": "Un fin de semana en York",
+      "text": "Hi Emma,\nWe had a weekend away in York. We went by train from London. On Saturday we walked along the city walls. Then we saw the cathedral. It was enormous! We didn't visit the Viking museum. We didn't have time. On Sunday it rained all day, so we sat in a tea room. I bought a souvenir for my grandson.\nLove, Yolanda",
+      "questions": [
+        {
+          "q": "¿Cómo fueron a York?",
+          "options": [
+            "En tren",
+            "En coche",
+            "En autocar"
+          ],
+          "answer": "En tren"
+        },
+        {
+          "q": "¿Qué no visitaron?",
+          "options": [
+            "El museo vikingo",
+            "La catedral",
+            "La muralla"
+          ],
+          "answer": "El museo vikingo"
+        },
+        {
+          "q": "¿Qué hicieron el domingo?",
+          "options": [
+            "Estuvieron en un salón de té",
+            "Pasearon por la muralla",
+            "Fueron a la playa"
+          ],
+          "answer": "Estuvieron en un salón de té"
+        }
+      ],
+      "why": "Fíjate en los pasados: went, saw, sat, bought, y en didn't + verbo base.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "The Vikings ___ the city Jorvik.",
+      "options": [
+        "called",
+        "calls",
+        "call"
+      ],
+      "answer": "called",
+      "why": "Hace mucho tiempo: pasado. Call es regular: called.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "We ___ a lot of photos of the cathedral.",
+      "options": [
+        "took",
+        "take",
+        "taked"
+      ],
+      "answer": "took",
+      "why": "Take → took.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Did you ___ the Viking museum?",
+      "options": [
+        "visit",
+        "visited",
+        "visiting"
+      ],
+      "answer": "visit",
+      "why": "Did + verbo base.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "We ___ go to the museum. We didn't have time.",
+      "es": "No fuimos al museo. No tuvimos tiempo.",
+      "answer": [
+        "didn't",
+        "did not"
+      ],
+      "why": "Negativa: didn't + go.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I ___ a souvenir for my grandson.",
+      "es": "Compré un recuerdo para mi nieto.",
+      "answer": [
+        "bought"
+      ],
+      "bank": [
+        "bought",
+        "buyed",
+        "buy"
+      ],
+      "why": "Buy → bought.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "On Sunday it ___ all day.",
+      "es": "El domingo llovió todo el día.",
+      "answer": [
+        "rained"
+      ],
+      "hint": "rain",
+      "why": "Rain es regular: rained.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "You had a good time in York.",
+      "answer": [
+        "Did you have a good time in York?"
+      ],
+      "why": "had → Did… have.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "We took the bus.",
+      "answer": [
+        "We didn't take the bus.",
+        "We did not take the bus."
+      ],
+      "why": "took → didn't take.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "We didn't saw the castle.",
+      "wrong": "saw",
+      "fix": "see",
+      "why": "Después de didn't, forma base: see.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "My friend comed with me to York.",
+      "wrong": "comed",
+      "fix": "came",
+      "why": "Come es irregular: came.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "¿Cuánto tiempo os quedasteis en York?",
+      "answer": "How long did you stay in York",
+      "extra": [
+        "stayed"
+      ],
+      "why": "How long + did + you + stay.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "En la estación de York, una señora te cuenta que ha visto la catedral. Le preguntas si le gustó.",
+      "emoji": "⛪",
+      "options": [
+        "Did you like the cathedral?",
+        "Did you liked the cathedral?",
+        "You like the cathedral yesterday?"
+      ],
+      "answer": "Did you like the cathedral?",
+      "why": "Did + you + like (sin -ed).",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "Fuimos a York en tren.",
+      "answer": [
+        "We went to York by train.",
+        "We went to York on the train.",
+        "We travelled to York by train."
+      ],
+      "why": "Fuimos = went. En tren = by train.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e15",
+      "type": "translate",
+      "dir": "from",
+      "q": "We didn't have time.",
+      "answer": [
+        "No tuvimos tiempo.",
+        "No teníamos tiempo."
+      ],
+      "why": "didn't have = no tuvimos.",
+      "g": "en-g-past-did"
+    },
+    {
+      "id": "e16",
+      "type": "conjugate",
+      "verb": "to sit",
+      "person": "we",
+      "tense": "pasado simple",
+      "q": "We ___ in a lovely tea room.",
+      "answer": [
+        "sat"
+      ],
+      "why": "Sit → sat.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e17",
+      "type": "match",
+      "pairs": [
+        [
+          "the city walls",
+          "la muralla"
+        ],
+        [
+          "a narrow street",
+          "una calle estrecha"
+        ],
+        [
+          "a souvenir",
+          "un recuerdo"
+        ],
+        [
+          "a tea room",
+          "un salón de té"
+        ],
+        [
+          "a weekend away",
+          "una escapada"
+        ]
+      ],
+      "why": "Vocabulario para contar tu escapada.",
+      "g": "en-g-past-simple-irregular"
+    }
+  ],
+  "dialog": {
+    "title": "¿Qué tal York, mamá?",
+    "setting": "Su hijo Hugo llama a Yolanda al volver ella de York",
+    "emoji": "📞",
+    "lines": [
+      {
+        "who": "Hugo",
+        "t": "Hi Mum! How was York?",
+        "es": "¡Hola, mamá! ¿Qué tal York?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Lovely! We walked along the city walls.",
+        "es": "¡Precioso! Paseamos por la muralla."
+      },
+      {
+        "who": "Hugo",
+        "t": "Did you see the cathedral?",
+        "es": "¿Visteis la catedral?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, we did. It was enormous!",
+        "es": "Sí. ¡Era enorme!"
+      },
+      {
+        "who": "Hugo",
+        "t": "Did you visit the Viking museum?",
+        "es": "¿Visitasteis el museo vikingo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, we didn't. There was a long queue.",
+        "es": "No. Había una cola muy larga."
+      },
+      {
+        "who": "Hugo",
+        "t": "What a pity! Did you buy me anything?",
+        "es": "¡Qué pena! ¿Me comprasteis algo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Of course! I bought you a Viking hat!",
+        "es": "¡Claro! ¡Te compré un casco vikingo!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Por dónde pasearon?",
+        "options": [
+          "Por la muralla",
+          "Por la playa",
+          "Por el río"
+        ],
+        "answer": "Por la muralla"
+      },
+      {
+        "q": "¿Por qué no entraron en el museo vikingo?",
+        "options": [
+          "Había mucha cola",
+          "Estaba cerrado",
+          "Era caro"
+        ],
+        "answer": "Había mucha cola"
+      },
+      {
+        "q": "¿Qué le compró a Hugo?",
+        "options": [
+          "Un casco vikingo",
+          "Una taza",
+          "Un libro"
+        ],
+        "answer": "Un casco vikingo"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "It was worth it.",
+    "es": "Mereció la pena.",
+    "context": "Para valorar un viaje o una excursión"
+  },
+  "summary": [
+    "York: los vikingos la llamaron Jorvik y aún conserva gran parte de su muralla",
+    "Contar la escapada: We went… We saw… I bought…",
+    "Negar y preguntar: We didn't visit… Did you see…?",
+    "Vocabulario: city walls, cathedral, souvenir, tea room"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u05-l5"
+}

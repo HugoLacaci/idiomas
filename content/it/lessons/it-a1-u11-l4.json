@@ -1,0 +1,466 @@
+{
+  "id": "it-a1-u11-l4",
+  "unit": "it-a1-u11",
+  "title": "Qui vicino, di fronte alla chiesa",
+  "goal": "a decir dónde está algo: cerca, lejos, delante, detrás, al lado, enfrente",
+  "emoji": "📍",
+  "photoQuery": "pharmacy sign old italian street",
+  "vocab": [
+    {
+      "id": "dir-qui",
+      "t": "qui",
+      "es": "aquí",
+      "emoji": "📍",
+      "pos": "adv",
+      "note": "También qua. Sin tilde.",
+      "ex": {
+        "t": "La farmacia è qui.",
+        "es": "La farmacia está aquí."
+      }
+    },
+    {
+      "id": "dir-li",
+      "t": "lì",
+      "es": "allí, ahí",
+      "emoji": "👉",
+      "pos": "adv",
+      "note": "También là. Con tilde: lì (allí); sin ella, li es otra palabra.",
+      "ex": {
+        "t": "Il bar è lì, a destra.",
+        "es": "El bar está allí, a la derecha."
+      }
+    },
+    {
+      "id": "dir-vicino-a",
+      "t": "vicino a",
+      "es": "cerca de",
+      "emoji": "🤏",
+      "pos": "other",
+      "ex": {
+        "t": "L'albergo è vicino al porto.",
+        "es": "El hotel está cerca del puerto."
+      }
+    },
+    {
+      "id": "dir-lontano-da",
+      "t": "lontano da",
+      "es": "lejos de",
+      "emoji": "🔭",
+      "pos": "other",
+      "ex": {
+        "t": "Il teatro è lontano dal centro?",
+        "es": "¿El teatro está lejos del centro?"
+      }
+    },
+    {
+      "id": "dir-davanti-a",
+      "t": "davanti a",
+      "es": "delante de",
+      "emoji": "⬆️",
+      "pos": "other",
+      "ex": {
+        "t": "Ci vediamo davanti alla chiesa.",
+        "es": "Nos vemos delante de la iglesia."
+      }
+    },
+    {
+      "id": "dir-dietro",
+      "t": "dietro",
+      "es": "detrás (de)",
+      "emoji": "⬇️",
+      "pos": "other",
+      "ex": {
+        "t": "Il parcheggio è dietro l'albergo.",
+        "es": "El aparcamiento está detrás del hotel."
+      }
+    },
+    {
+      "id": "dir-accanto-a",
+      "t": "accanto a",
+      "es": "al lado de",
+      "emoji": "↔️",
+      "pos": "other",
+      "ex": {
+        "t": "La farmacia è accanto al bar.",
+        "es": "La farmacia está al lado del bar."
+      }
+    },
+    {
+      "id": "dir-di-fronte-a",
+      "t": "di fronte a",
+      "es": "enfrente de",
+      "emoji": "🔄",
+      "pos": "other",
+      "ex": {
+        "t": "Il museo è di fronte alla stazione.",
+        "es": "El museo está enfrente de la estación."
+      }
+    },
+    {
+      "id": "dir-in-fondo-a",
+      "t": "in fondo a",
+      "es": "al fondo de, al final de",
+      "emoji": "🔚",
+      "pos": "other",
+      "ex": {
+        "t": "La chiesa è in fondo alla via.",
+        "es": "La iglesia está al final de la calle."
+      }
+    }
+  ],
+  "grammar": "it-g-avverbi-luogo",
+  "pron": {
+    "title": "La s sonora entre vocales: casa, chiesa",
+    "tip": "En gran parte de Italia, una s sola entre dos vocales zumba como una abeja: casa, chiesa, museo. La ss doble suena seca, como la nuestra: cassa, rossa. ¡Escucha la diferencia!",
+    "words": [
+      "casa",
+      "chiesa",
+      "museo",
+      "Siracusa",
+      "cassa"
+    ],
+    "pairs": [
+      [
+        "casa",
+        "cassa"
+      ],
+      [
+        "rosa",
+        "rossa"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "La farmacia è vicino ___ bar.",
+      "es": "La farmacia está cerca del bar.",
+      "options": [
+        "al",
+        "del",
+        "dal"
+      ],
+      "answer": "al",
+      "why": "Vicino va con a: vicino a + il = vicino al.",
+      "g": "it-g-avverbi-luogo"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Il porto è lontano ___ albergo?",
+      "es": "¿El puerto está lejos del hotel?",
+      "options": [
+        "dall'",
+        "all'",
+        "dell'"
+      ],
+      "answer": "dall'",
+      "why": "Lontano va con da: da + l' = dall'.",
+      "g": "it-g-avverbi-luogo"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Ci vediamo davanti ___ chiesa.",
+      "es": "Nos vemos delante de la iglesia.",
+      "options": [
+        "alla",
+        "della",
+        "la"
+      ],
+      "answer": "alla",
+      "why": "Davanti a + la = davanti alla. En español «de», en italiano «a».",
+      "g": "it-g-avverbi-luogo"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Il museo è di fronte ___ stazione.",
+      "es": "El museo está enfrente de la estación.",
+      "answer": [
+        "alla"
+      ],
+      "bank": [
+        "alla",
+        "della",
+        "dalla"
+      ],
+      "why": "Di fronte a + la = di fronte alla.",
+      "g": "it-g-avverbi-luogo"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "La fermata è ___ al museo.",
+      "es": "La parada está al lado del museo.",
+      "answer": [
+        "accanto"
+      ],
+      "bank": [
+        "accanto",
+        "lontano",
+        "dietro"
+      ],
+      "why": "Al lado de = accanto a.",
+      "g": "it-g-avverbi-luogo"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "La chiesa è in ___ alla via.",
+      "es": "La iglesia está al final de la calle.",
+      "answer": [
+        "fondo"
+      ],
+      "hint": "al final de",
+      "why": "Al final de la calle = in fondo alla via.",
+      "g": "it-g-avverbi-luogo"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Vieni ___, Hugo! Qui c'è un bar.",
+      "es": "¡Ven aquí, Hugo! Aquí hay un bar.",
+      "answer": [
+        "qui",
+        "qua"
+      ],
+      "why": "Aquí = qui o qua.",
+      "g": "it-g-avverbi-luogo"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "L'albergo è vicino del porto.",
+      "wrong": "del",
+      "fix": "al",
+      "why": "En italiano es vicino a: vicino al porto.",
+      "g": "it-g-avverbi-luogo"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "La farmacia è lontana di qui.",
+      "wrong": "di",
+      "fix": "da",
+      "why": "Lejos de = lontano da.",
+      "g": "it-g-avverbi-luogo"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "El aparcamiento está detrás del hotel.",
+      "answer": "Il parcheggio è dietro l'albergo",
+      "extra": [
+        "del"
+      ],
+      "why": "Dietro puede ir directamente con el sustantivo: dietro l'albergo.",
+      "g": "it-g-avverbi-luogo"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "La farmacia está al lado del bar.",
+      "answer": [
+        "La farmacia è accanto al bar."
+      ],
+      "why": "Al lado de = accanto a; a + il = al.",
+      "g": "it-g-avverbi-luogo"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "from",
+      "q": "Il teatro non è lontano.",
+      "answer": [
+        "El teatro no está lejos."
+      ],
+      "why": "Lontano = lejos.",
+      "g": "it-g-avverbi-luogo"
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "casa",
+        "cassa"
+      ],
+      "answer": "casa",
+      "es": [
+        "casa",
+        "caja (para pagar)"
+      ],
+      "why": "Casa tiene una s sonora que zumba; cassa, doble y seca."
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "rosa",
+        "rossa"
+      ],
+      "answer": "rossa",
+      "es": [
+        "rosa",
+        "roja"
+      ],
+      "why": "Rossa, con ss seca, es «roja»."
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Quedas con tus amigas en la plaza. Quieres decir: «Nos vemos delante de la iglesia».",
+      "emoji": "⛪",
+      "options": [
+        "Ci vediamo davanti alla chiesa.",
+        "Ci vediamo davanti della chiesa.",
+        "Ci vediamo dietro di chiesa."
+      ],
+      "answer": "Ci vediamo davanti alla chiesa.",
+      "why": "Davanti a + la = davanti alla.",
+      "g": "it-g-avverbi-luogo"
+    },
+    {
+      "id": "e16",
+      "type": "match",
+      "pairs": [
+        [
+          "vicino a",
+          "cerca de"
+        ],
+        [
+          "lontano da",
+          "lejos de"
+        ],
+        [
+          "accanto a",
+          "al lado de"
+        ],
+        [
+          "di fronte a",
+          "enfrente de"
+        ],
+        [
+          "dietro",
+          "detrás"
+        ]
+      ],
+      "why": "Fíjate en la preposición de cada una."
+    }
+  ],
+  "dialog": {
+    "title": "¿Dónde está la farmacia?",
+    "setting": "Yolanda necesita una farmacia y pregunta a un señor mayor en una calle de Siracusa",
+    "emoji": "💊",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Scusi, c'è una farmacia qui vicino?",
+        "es": "Perdone, ¿hay una farmacia aquí cerca?"
+      },
+      {
+        "who": "Signor Rosario",
+        "t": "Sì, non è lontano. Vede la chiesa?",
+        "es": "Sí, no está lejos. ¿Ve la iglesia?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Quella lì, in fondo alla via?",
+        "es": "¿Aquella de allí, al final de la calle?"
+      },
+      {
+        "who": "Signor Rosario",
+        "t": "Esatto. La farmacia è accanto alla chiesa.",
+        "es": "Exacto. La farmacia está al lado de la iglesia."
+      },
+      {
+        "who": "Yolanda",
+        "t": "A destra o a sinistra?",
+        "es": "¿A la derecha o a la izquierda?"
+      },
+      {
+        "who": "Signor Rosario",
+        "t": "A sinistra, di fronte al bar.",
+        "es": "A la izquierda, enfrente del bar."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie! È aperta adesso?",
+        "es": "¡Gracias! ¿Está abierta ahora?"
+      },
+      {
+        "who": "Signor Rosario",
+        "t": "Sì, sì. Buona giornata, signora!",
+        "es": "Sí, sí. ¡Buen día, señora!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué busca Yolanda?",
+        "options": [
+          "Una farmacia",
+          "Una iglesia",
+          "Un bar"
+        ],
+        "answer": "Una farmacia"
+      },
+      {
+        "q": "¿Dónde está?",
+        "options": [
+          "Al lado de la iglesia",
+          "Detrás del bar",
+          "Lejos del centro"
+        ],
+        "answer": "Al lado de la iglesia"
+      },
+      {
+        "q": "¿Qué hay enfrente de la farmacia?",
+        "options": [
+          "Un bar",
+          "Un museo",
+          "Una parada"
+        ],
+        "answer": "Un bar"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Scusi, c'è una farmacia qui vicino?",
+    "es": "Perdone, ¿hay una farmacia aquí cerca?",
+    "context": "Cuando necesitas algo urgente y no conoces el barrio"
+  },
+  "same": {
+    "text": "Muchas expresiones de lugar se parecen mucho, pero ojo: casi todas van con a donde nosotros ponemos de.",
+    "examples": [
+      {
+        "t": "vicino al bar",
+        "es": "cerca del bar"
+      },
+      {
+        "t": "davanti alla chiesa",
+        "es": "delante de la iglesia"
+      },
+      {
+        "t": "lontano dal centro",
+        "es": "lejos del centro"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "largo / larga",
+    "means": "ancho / ancha",
+    "looksLike": "largo (de longitud)",
+    "emoji": "↔️",
+    "tip": "Una via larga es una calle ancha. Una calle larga es una via lunga."
+  },
+  "summary": [
+    "Qui = aquí; lì = allí.",
+    "Con a: vicino a, davanti a, accanto a, di fronte a, in fondo a.",
+    "Con da: lontano da (lontano dal centro).",
+    "La s sola entre vocales zumba (casa); la ss es seca (cassa)."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u11-l4"
+}

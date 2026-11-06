@@ -1,0 +1,77 @@
+{
+  "id": "it-b1-u02-l2",
+  "unit": "it-b1-u02",
+  "title": "Te lo presto!",
+  "goal": "a decir «me lo», «te la», «nos los» y «os las» en italiano para prestar y regalar cosas",
+  "emoji": "🤝",
+  "photoQuery": "jewellery box necklace earrings",
+  "vocab": [
+    { "id": "regalo-prestare", "t": "prestare", "es": "prestar", "emoji": "🤝", "pos": "v", "ex": { "t": "Mi presti la tua sciarpa per stasera?", "es": "¿Me prestas tu bufanda para esta noche?" } },
+    { "id": "regalo-restituire", "t": "restituire", "es": "devolver", "emoji": "🔁", "pos": "v", "note": "Va con -isc: restituisco, restituisci.", "ex": { "t": "Te lo restituisco domani, promesso.", "es": "Te lo devuelvo mañana, prometido." } },
+    { "id": "regalo-mandare", "t": "mandare", "es": "mandar, enviar", "emoji": "📮", "pos": "v", "ex": { "t": "Ti mando le foto su WhatsApp.", "es": "Te mando las fotos por WhatsApp." } },
+    { "id": "regalo-la-collana", "t": "la collana", "es": "el collar", "emoji": "📿", "pos": "n", "ex": { "t": "Questa collana me l'ha regalata mio figlio Hugo.", "es": "Este collar me lo regaló mi hijo Hugo." } },
+    { "id": "regalo-gli-orecchini", "t": "gli orecchini", "es": "los pendientes", "emoji": "💎", "pos": "n", "ex": { "t": "Gli orecchini d'argento? Te li presto volentieri.", "es": "¿Los pendientes de plata? Te los presto con gusto." } },
+    { "id": "regalo-il-profumo", "t": "il profumo", "es": "el perfume; el olor", "emoji": "🌸", "pos": "n", "ex": { "t": "Che buon profumo! Me lo regali?", "es": "¡Qué perfume tan bueno! ¿Me lo regalas?" } },
+    { "id": "regalo-il-gioco", "t": "il gioco", "es": "el juego; el juguete", "emoji": "🧸", "pos": "n", "ex": { "t": "Il gioco nuovo? Ce l'hanno regalato i nonni.", "es": "¿El juego nuevo? Nos lo han regalado los abuelos." } },
+    { "id": "regalo-volentieri", "t": "volentieri", "es": "con mucho gusto", "emoji": "😊", "pos": "adv", "ex": { "t": "Ti aiuto volentieri.", "es": "Te ayudo con mucho gusto." } }
+  ],
+  "grammar": "it-g-pronomi-combinati",
+  "pron": {
+    "title": "Me lo, te la: todo de un tirón",
+    "tip": "Los dos pronombres se dicen pegados, como una sola palabra y sin pausa: «melo-présti?», «tela-régalo». La fuerza va en el verbo, no en el pronombre.",
+    "words": ["me lo presti", "te la regalo", "ce li mandi", "ve le porto"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Ti piace la mia sciarpa? ___ presto volentieri.", "es": "¿Te gusta mi bufanda? Te la presto con gusto.", "options": ["Te la", "Ti la", "La ti"], "answer": "Te la", "why": "Ti + la → te la: la i de ti se convierte en e.", "g": "it-g-pronomi-combinati" },
+    { "id": "e2", "type": "choose", "q": "Il libro? ___ restituisci domani?", "es": "¿El libro? ¿Me lo devuelves mañana?", "options": ["Me lo", "Mi lo", "Lo mi"], "answer": "Me lo", "why": "Mi + lo → me lo. Primero «a quién», luego «qué».", "g": "it-g-pronomi-combinati" },
+    { "id": "e3", "type": "choose", "q": "I dolci? Nostra zia ___ manda ogni Natale.", "es": "¿Los dulces? Nuestra tía nos los manda cada Navidad.", "options": ["ce li", "ci li", "ce le"], "answer": "ce li", "why": "Ci + li → ce li. I dolci es masculino plural: li.", "g": "it-g-pronomi-combinati" },
+    { "id": "e4", "type": "choose", "q": "Le foto? ___ mando su WhatsApp, ragazzi.", "es": "¿Las fotos? Os las mando por WhatsApp, chicos.", "options": ["Ve le", "Vi le", "Ve li"], "answer": "Ve le", "why": "Vi + le → ve le. Foto es femenino: le foto.", "g": "it-g-pronomi-combinati" },
+    { "id": "e5", "type": "fill", "q": "Gli orecchini? Te ___ presto per la festa.", "es": "¿Los pendientes? Te los presto para la fiesta.", "answer": ["li"], "bank": ["li", "le", "lo"], "why": "Gli orecchini es masculino plural: te li.", "g": "it-g-pronomi-combinati" },
+    { "id": "e6", "type": "fill", "q": "La torta di mele? Me ___ prepari per domenica?", "es": "¿La tarta de manzana? ¿Me la preparas para el domingo?", "answer": ["la"], "bank": ["la", "lo", "le"], "why": "La torta es femenino singular: me la.", "g": "it-g-pronomi-combinati" },
+    { "id": "e7", "type": "fill", "q": "Se ti piace il mio profumo, ___ lo regalo.", "es": "Si te gusta mi perfume, te lo regalo.", "answer": ["te"], "hint": "a ti", "why": "Delante de lo, ti se convierte en te: te lo regalo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e8", "type": "error", "q": "Il giornale? Mi lo porti, per favore?", "wrong": "Mi", "fix": "Me", "why": "Delante de lo, mi cambia a me: me lo porti?", "g": "it-g-pronomi-combinati" },
+    { "id": "e9", "type": "error", "q": "La collana? Te lo presto volentieri.", "wrong": "lo", "fix": "la", "why": "La collana es femenino: te la presto.", "g": "it-g-pronomi-combinati" },
+    { "id": "e10", "type": "order", "es": "Te lo devuelvo mañana.", "answer": "Te lo restituisco domani", "extra": ["ti"], "why": "Te lo va delante del verbo, igual que en español.", "g": "it-g-pronomi-combinati" },
+    { "id": "e11", "type": "match", "pairs": [["mi + lo", "me lo"], ["ti + la", "te la"], ["ci + li", "ce li"], ["vi + le", "ve le"]], "why": "Mi, ti, ci, vi cambian la i por e delante de lo, la, li, le.", "g": "it-g-pronomi-combinati" },
+    { "id": "e12", "type": "transform", "instr": "Sustituye «il libro» por un pronombre", "q": "Ti presto il libro.", "answer": ["Te lo presto."], "why": "Ti + lo → te lo presto.", "g": "it-g-pronomi-combinati" },
+    { "id": "e13", "type": "transform", "instr": "Sustituye «la sciarpa» por un pronombre", "q": "Mi regali la sciarpa?", "answer": ["Me la regali?"], "why": "Mi + la → me la regali?", "g": "it-g-pronomi-combinati" },
+    { "id": "e14", "type": "translate", "dir": "to", "q": "¿La receta? Te la mando esta noche.", "answer": ["La ricetta? Te la mando stasera.", "La ricetta? Te la mando questa sera."], "why": "La ricetta → la; ti + la → te la.", "g": "it-g-pronomi-combinati" },
+    { "id": "e15", "type": "translate", "dir": "from", "q": "Le foto dei bambini? Me le mandi?", "answer": ["¿Las fotos de los niños? ¿Me las mandas?", "¿Las fotos de los niños? ¿Me las envías?"], "why": "Me le = me las (foto es femenino).", "g": "it-g-pronomi-combinati" },
+    { "id": "e16", "type": "situation", "context": "Una amiga admira tus pendientes y te dice que le encantan. Quieres prestárselos para una fiesta.", "emoji": "💎", "options": ["Te li presto per la festa!", "Ti li presto per la festa!", "Li te presto per la festa!"], "answer": "Te li presto per la festa!", "why": "Ti + li → te li, y siempre delante del verbo.", "g": "it-g-pronomi-combinati" }
+  ],
+  "dialog": {
+    "title": "Una boda y nada que ponerse",
+    "setting": "Por teléfono, Yolanda habla con su amiga Paola, que tiene una boda el sábado",
+    "emoji": "📞",
+    "lines": [
+      { "who": "Paola", "t": "Yolanda, sabato vado a un matrimonio e non ho niente da mettere!", "es": "Yolanda, el sábado voy a una boda ¡y no tengo nada que ponerme!" },
+      { "who": "Yolanda", "t": "Ti piace il mio vestito blu? Te lo presto.", "es": "¿Te gusta mi vestido azul? Te lo presto." },
+      { "who": "Paola", "t": "Davvero? Grazie! E gli orecchini d'argento?", "es": "¿De verdad? ¡Gracias! ¿Y los pendientes de plata?" },
+      { "who": "Yolanda", "t": "Certo, te li porto domani mattina.", "es": "Claro, te los llevo mañana por la mañana." },
+      { "who": "Paola", "t": "Sei un tesoro. Te li restituisco lunedì.", "es": "Eres un tesoro. Te los devuelvo el lunes." },
+      { "who": "Yolanda", "t": "Tranquilla. Ma mi mandi una foto della festa?", "es": "Tranquila. Pero ¿me mandas una foto de la fiesta?" },
+      { "who": "Paola", "t": "Te ne mando dieci, promesso!", "es": "¡Te mando diez, prometido!" }
+    ],
+    "questions": [
+      { "q": "¿Qué le presta Yolanda a Paola?", "options": ["Un vestido y unos pendientes", "Un bolso y un collar", "Unos zapatos"], "answer": "Un vestido y unos pendientes" },
+      { "q": "¿Cuándo los devuelve Paola?", "options": ["El lunes", "El sábado", "Mañana"], "answer": "El lunes" },
+      { "q": "¿Qué le pide Yolanda a cambio?", "options": ["Una foto de la fiesta", "Un regalo", "Un café"], "answer": "Una foto de la fiesta" }
+    ]
+  },
+  "realLife": { "t": "Te lo presto volentieri.", "es": "Te lo presto con mucho gusto.", "context": "Cuando una amiga te pide algo prestado" },
+  "same": {
+    "text": "El orden es el mismo que en español: primero «a quién» y después «qué». Me lo, te la, ce li… como «me lo, te la, nos los».",
+    "examples": [
+      { "t": "Me lo dai?", "es": "¿Me lo das?" },
+      { "t": "Te la presto.", "es": "Te la presto." },
+      { "t": "Ce lo dici?", "es": "¿Nos lo dices?" }
+    ]
+  },
+  "summary": [
+    "Mi, ti, ci, vi + lo/la/li/le → me lo, te la, ce li, ve le.",
+    "Primero «a quién», luego «qué», como en español.",
+    "Van delante del verbo: te lo presto, me la regali?",
+    "Prestare = prestar; restituire = devolver (restituisco)."
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,100 @@
+{
+  "id": "en-b1-u08-l5",
+  "unit": "en-b1-u08",
+  "title": "Hasta pronto, Londres",
+  "goal": "a despedirte con cariño, contar lo que te dijeron y repasar todo el viaje",
+  "emoji": "🚄",
+  "photoQuery": "st pancras station clock roof",
+  "vocab": [
+    { "id": "said-platform", "t": "platform", "es": "andén", "emoji": "🚉", "pos": "n",
+      "ex": { "t": "The train leaves from platform five.", "es": "El tren sale del andén cinco." } },
+    { "id": "said-say-goodbye", "t": "say goodbye", "es": "despedirse", "emoji": "👋", "pos": "phrase",
+      "ex": { "t": "I hate saying goodbye at stations.", "es": "Odio despedirme en las estaciones." } },
+    { "id": "said-see-you-soon", "t": "See you soon!", "es": "¡Hasta pronto!", "emoji": "🔜", "pos": "phrase",
+      "ex": { "t": "See you soon, and thanks for everything!", "es": "¡Hasta pronto, y gracias por todo!" } },
+    { "id": "said-take-care", "t": "Take care!", "es": "¡Cuídate!", "emoji": "💛", "pos": "phrase",
+      "ex": { "t": "Take care, and say hello to your family.", "es": "Cuídate, y saluda a tu familia de mi parte." } },
+    { "id": "said-safe-journey", "t": "Have a safe journey!", "es": "¡Buen viaje!", "emoji": "🧳", "pos": "phrase",
+      "ex": { "t": "Have a safe journey! Text me when you arrive.", "es": "¡Buen viaje! Mándame un mensaje cuando llegues." } },
+    { "id": "said-come-back", "t": "come back", "es": "volver", "emoji": "🔁", "pos": "phrase",
+      "ex": { "t": "Promise me you'll come back next year.", "es": "Prométeme que volverás el año que viene." } },
+    { "id": "said-thanks-for-everything", "t": "Thank you for everything.", "es": "Gracias por todo.", "emoji": "🙏", "pos": "phrase",
+      "ex": { "t": "Thank you for everything. You've been wonderful.", "es": "Gracias por todo. Has sido maravillosa." } },
+    { "id": "said-never-forget", "t": "I'll never forget it.", "es": "Nunca lo olvidaré.", "emoji": "💝", "pos": "phrase",
+      "ex": { "t": "It was a wonderful trip. I'll never forget it.", "es": "Ha sido un viaje maravilloso. Nunca lo olvidaré." } }
+  ],
+  "grammar": "en-g-reported-speech-intro",
+  "pron": {
+    "title": "Repaso final: despedidas con cariño",
+    "tip": "En las despedidas, la voz baja suave al final y alargamos un poco la palabra importante: Take CAAARE ↘. See you SOON ↘. Sonríe al decirlo: ¡se nota en la voz!",
+    "words": ["Take care!", "See you soon!", "Thank you for everything.", "Have a safe journey!"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "message", "title": "Una nota de Emma",
+      "text": "Dear Yolanda, when we met, you told me you were nervous about speaking English. Look at you now! You've talked to strangers, told stories and made friends. I'm so proud of you. Don't give up, and come back soon. Love, Emma ❤️",
+      "questions": [
+        { "q": "¿Qué le dijo Yolanda a Emma cuando se conocieron?", "options": ["Que le daba miedo hablar inglés", "Que no quería viajar", "Que ya hablaba muy bien"], "answer": "Que le daba miedo hablar inglés" },
+        { "q": "¿Cómo se siente Emma?", "options": ["Muy orgullosa de Yolanda", "Preocupada", "Decepcionada"], "answer": "Muy orgullosa de Yolanda" },
+        { "q": "¿Qué le pide Emma?", "options": ["Que no se rinda y que vuelva pronto", "Que le escriba en español", "Que le compre un regalo"], "answer": "Que no se rinda y que vuelva pronto" }
+      ] },
+    { "id": "e2", "type": "choose", "q": "Emma ___ me she would miss me.", "options": ["told", "said", "asked"], "answer": "told",
+      "why": "Con persona (me): told.", "g": "en-g-reported-speech-intro" },
+    { "id": "e3", "type": "choose", "q": "She asked me ___ I would come back.", "options": ["if", "that", "what"], "answer": "if",
+      "why": "Pregunta de sí o no: asked me if.", "g": "en-g-reported-speech-intro" },
+    { "id": "e4", "type": "choose", "q": "It was a wonderful trip, ___?", "options": ["wasn't it", "didn't it", "isn't it"], "answer": "wasn't it",
+      "why": "Was → wasn't it?", "g": "en-g-question-tags" },
+    { "id": "e5", "type": "choose", "q": "Emma is the friend ___ showed me London.", "options": ["who", "which", "where"], "answer": "who",
+      "why": "Persona: who.", "g": "en-g-relative-clauses" },
+    { "id": "e6", "type": "fill", "q": "\"I'll write to you.\" → She promised she ___ write to me.", "es": "Prometió que me escribiría.", "answer": ["would", "'d"],
+      "why": "Will → would.", "g": "en-g-reported-speech-intro" },
+    { "id": "e7", "type": "fill", "q": "I'm already looking ___ to my next trip.", "es": "Ya tengo ganas de mi próximo viaje.", "answer": ["forward"], "bank": ["forward", "for", "after"],
+      "why": "Tener ganas de = look forward to.", "g": "en-g-phrasal-verbs" },
+    { "id": "e8", "type": "fill", "q": "This is the station ___ the Eurostar leaves for Paris.", "es": "Esta es la estación de donde sale el Eurostar para París.", "answer": ["where"], "bank": ["where", "which", "who"],
+      "why": "Lugar: where.", "g": "en-g-relative-clauses" },
+    { "id": "e9", "type": "error", "q": "Emma said me that she was proud of me.", "wrong": "said", "fix": "told",
+      "why": "Con persona (me): told me.", "g": "en-g-reported-speech-intro" },
+    { "id": "e10", "type": "error", "q": "I was so embarrassed to leave. I'll miss everyone.", "wrong": "embarrassed", "fix": "sad",
+      "why": "Embarrassed es «con vergüenza». Para la pena de irte: sad." },
+    { "id": "e11", "type": "transform", "instr": "Cuéntalo empezando por Emma told me…", "q": "\"You are a great student.\"", "answer": ["Emma told me I was a great student.", "Emma told me that I was a great student."],
+      "why": "You are → I was.", "g": "en-g-reported-speech-intro" },
+    { "id": "e12", "type": "situation", "context": "Emma te acompaña al andén. Es el último momento antes de subir al tren.", "emoji": "🚄",
+      "options": ["Thank you for everything, Emma. I'll never forget it.", "Thank you for all, Emma. I never forget it.", "Thanks for everything, Emma. I'll never forgetting it."], "answer": "Thank you for everything, Emma. I'll never forget it.",
+      "why": "Gracias por todo = thank you for everything; nunca lo olvidaré = I'll never forget it." },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "Prométeme que volverás.", "answer": ["Promise me you'll come back.", "Promise me that you'll come back.", "Promise me you will come back.", "Promise me that you will come back."],
+      "why": "Volver = come back.", "g": "en-g-phrasal-verbs" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "She told me to come back soon.", "answer": ["Me dijo que volviera pronto.", "Me dijo que volviese pronto.", "Me pidió que volviera pronto."],
+      "why": "Told me to… = me dijo que + subjuntivo.", "g": "en-g-reported-speech-intro" },
+    { "id": "e15", "type": "order", "es": "Eres la amiga que me enseñó Londres", "answer": "You're the friend who showed me London", "extra": ["which"],
+      "why": "Persona: who.", "g": "en-g-relative-clauses" },
+    { "id": "e16", "type": "speak", "t": "Thank you for everything. See you soon!", "es": "Gracias por todo. ¡Hasta pronto!" }
+  ],
+  "dialog": {
+    "title": "Despedida en St Pancras",
+    "setting": "En la estación de St Pancras, junto a la gran estatua de una pareja abrazándose, Emma despide a Yolanda",
+    "emoji": "🫂",
+    "lines": [
+      { "who": "Emma", "t": "Look at that statue. It's called The Meeting Place.", "es": "Mira esa estatua. Se llama The Meeting Place (El lugar del encuentro)." },
+      { "who": "Yolanda", "t": "A couple hugging. It's perfect for today, isn't it?", "es": "Una pareja abrazándose. Es perfecta para hoy, ¿verdad?" },
+      { "who": "Emma", "t": "It is. Do you remember what you told me on the first day?", "es": "Lo es. ¿Te acuerdas de lo que me dijiste el primer día?" },
+      { "who": "Yolanda", "t": "I said I was too old to learn English!", "es": "¡Dije que era demasiado mayor para aprender inglés!" },
+      { "who": "Emma", "t": "And now you tell stories, joke and make friends in English.", "es": "Y ahora cuentas historias, bromeas y haces amigos en inglés." },
+      { "who": "Yolanda", "t": "Because you never let me give up. Thank you for everything.", "es": "Porque tú nunca me dejaste rendirme. Gracias por todo." },
+      { "who": "Emma", "t": "Come here, give me a hug. Have a safe journey!", "es": "Ven aquí, dame un abrazo. ¡Buen viaje!" },
+      { "who": "Yolanda", "t": "Take care, Emma. See you soon. I'll never forget this.", "es": "Cuídate, Emma. Hasta pronto. Nunca olvidaré esto." }
+    ],
+    "questions": [
+      { "q": "¿Qué representa la estatua?", "options": ["Una pareja abrazándose", "Un tren", "Una reina"], "answer": "Una pareja abrazándose" },
+      { "q": "¿Qué dijo Yolanda el primer día?", "options": ["Que era demasiado mayor para aprender inglés", "Que Londres era frío", "Que no le gustaban los trenes"], "answer": "Que era demasiado mayor para aprender inglés" },
+      { "q": "¿Por qué le da las gracias Yolanda a Emma?", "options": ["Por no dejarla rendirse", "Por el billete", "Por la comida"], "answer": "Por no dejarla rendirse" }
+    ]
+  },
+  "realLife": { "t": "Thank you for everything. I'll never forget it.", "es": "Gracias por todo. Nunca lo olvidaré.", "context": "Para despedirte de alguien que te ha cuidado durante un viaje" },
+  "summary": [
+    "Despedirse: Take care!, See you soon!, Have a safe journey!",
+    "Contar lo que te dijeron: She told me I was… / She asked me if…",
+    "Repaso del viaje: who / where, isn't it?, give up, look forward to",
+    "St Pancras: aquí sale el Eurostar, que cruza bajo el canal de la Mancha",
+    "¡Lo has conseguido, Yolanda! Ya te defiendes en inglés. Keep going!"
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,460 @@
+{
+  "id": "en-a2-u06-l5",
+  "unit": "en-a2-u06",
+  "title": "Reto: un día en Oxford",
+  "goal": "a organizar una excursión a Oxford y contar tus planes",
+  "emoji": "🎓",
+  "photoQuery": "oxford university college architecture",
+  "vocab": [
+    {
+      "id": "plan-the-university",
+      "t": "the university",
+      "es": "la universidad",
+      "emoji": "🎓",
+      "pos": "n",
+      "ex": {
+        "t": "Oxford has a very old university.",
+        "es": "Oxford tiene una universidad muy antigua."
+      }
+    },
+    {
+      "id": "plan-a-college",
+      "t": "a college",
+      "es": "un colegio universitario",
+      "emoji": "🏫",
+      "pos": "n",
+      "ex": {
+        "t": "We're going to visit a beautiful college.",
+        "es": "Vamos a visitar un colegio universitario precioso."
+      },
+      "note": "En Oxford, un college es una parte de la universidad, no un colegio de niños."
+    },
+    {
+      "id": "plan-the-library",
+      "t": "the library",
+      "es": "la biblioteca",
+      "emoji": "📚",
+      "pos": "n",
+      "ex": {
+        "t": "The old library is amazing.",
+        "es": "La biblioteca antigua es impresionante."
+      },
+      "note": "¡Ojo! library = biblioteca; librería = bookshop."
+    },
+    {
+      "id": "plan-go-punting",
+      "t": "go punting",
+      "es": "pasear en batea",
+      "emoji": "🛶",
+      "pos": "phrase",
+      "ex": {
+        "t": "We're going to go punting on the river.",
+        "es": "Vamos a pasear en batea por el río."
+      },
+      "note": "Una batea (punt) es una barca plana que se empuja con una pértiga."
+    },
+    {
+      "id": "plan-a-guided-tour",
+      "t": "a guided tour",
+      "es": "una visita guiada",
+      "emoji": "🗣️",
+      "pos": "n",
+      "ex": {
+        "t": "I'm going to book a guided tour in Spanish.",
+        "es": "Voy a reservar una visita guiada en español."
+      }
+    },
+    {
+      "id": "plan-a-day-trip",
+      "t": "a day trip",
+      "es": "una excursión de un día",
+      "emoji": "🗺️",
+      "pos": "n",
+      "ex": {
+        "t": "We're going to take a day trip to Oxford.",
+        "es": "Vamos a hacer una excursión de un día a Oxford."
+      }
+    },
+    {
+      "id": "plan-by-coach",
+      "t": "by coach",
+      "es": "en autocar",
+      "emoji": "🚌",
+      "pos": "phrase",
+      "ex": {
+        "t": "We'll go by coach. It's cheaper.",
+        "es": "Iremos en autocar. Es más barato."
+      },
+      "note": "Coach = autocar de viaje; bus = autobús urbano. En EE. UU. se dice bus para los dos."
+    },
+    {
+      "id": "plan-the-weather-forecast",
+      "t": "the weather forecast",
+      "es": "el pronóstico del tiempo",
+      "emoji": "🌦️",
+      "pos": "n",
+      "ex": {
+        "t": "The weather forecast says it'll be sunny.",
+        "es": "El pronóstico dice que hará sol."
+      }
+    }
+  ],
+  "grammar": "en-g-going-to",
+  "pron": {
+    "title": "ÓXford, CÁMbridge",
+    "tip": "Oxford lleva la fuerza en la primera sílaba, «ÓKS-fəd», y la segunda casi desaparece. Igual Cambridge: «KÉIM-brich».",
+    "words": [
+      "Oxford",
+      "Cambridge",
+      "college",
+      "library",
+      "university"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "email",
+      "title": "Nuestro día en Oxford",
+      "text": "Hi Emma!\nNext Saturday my son and I are going to visit Oxford. We're going to go by coach. First, we're going to see a college and the old library. Then we're going to go punting on the river. The weather forecast says it'll be sunny. I think it'll be a perfect day! Will you come with us?\nLove, Yolanda",
+      "questions": [
+        {
+          "q": "¿Cómo van a ir a Oxford?",
+          "options": [
+            "En autocar",
+            "En tren",
+            "En coche"
+          ],
+          "answer": "En autocar"
+        },
+        {
+          "q": "¿Qué van a hacer después de ver la biblioteca?",
+          "options": [
+            "Pasear en batea",
+            "Comer",
+            "Ir de compras"
+          ],
+          "answer": "Pasear en batea"
+        },
+        {
+          "q": "¿Qué dice el pronóstico?",
+          "options": [
+            "Que hará sol",
+            "Que lloverá",
+            "Que hará frío"
+          ],
+          "answer": "Que hará sol"
+        }
+      ],
+      "why": "Planes con going to; opinión y pronóstico con will.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "We're going to ___ punting on the river.",
+      "options": [
+        "go",
+        "do",
+        "make"
+      ],
+      "answer": "go",
+      "why": "Pasear en batea = go punting.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "The forecast says it ___ be sunny.",
+      "options": [
+        "will",
+        "wills",
+        "is going"
+      ],
+      "answer": "will",
+      "why": "Pronóstico: will + be.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Look at that queue! We ___ be late.",
+      "options": [
+        "are going to",
+        "will to",
+        "going to"
+      ],
+      "answer": "are going to",
+      "why": "Lo estás viendo (la cola): going to, con are.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I'm going to book a guided ___.",
+      "es": "Voy a reservar una visita guiada.",
+      "answer": [
+        "tour"
+      ],
+      "bank": [
+        "tour",
+        "visit",
+        "trip"
+      ],
+      "why": "Visita guiada = guided tour.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "We'll go by ___. It's cheaper than the train.",
+      "es": "Iremos en autocar. Es más barato que el tren.",
+      "answer": [
+        "coach"
+      ],
+      "bank": [
+        "coach",
+        "couch",
+        "cart"
+      ],
+      "why": "Autocar = coach. ¡Ojo! couch es un sofá.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e7",
+      "type": "conjugate",
+      "verb": "to be (going to)",
+      "person": "my son and I",
+      "tense": "futuro con going to",
+      "q": "My son and I ___ going to visit Oxford.",
+      "answer": [
+        "are"
+      ],
+      "why": "My son and I = we: are.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "You're going to visit the library.",
+      "answer": [
+        "Are you going to visit the library?"
+      ],
+      "why": "Are va delante.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "It will rain on Saturday.",
+      "answer": [
+        "It won't rain on Saturday.",
+        "It will not rain on Saturday."
+      ],
+      "why": "will → won't.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "We're going to visiting a college.",
+      "wrong": "visiting",
+      "fix": "visit",
+      "why": "Going to + verbo base.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "I think it wills be sunny.",
+      "wrong": "wills",
+      "fix": "will",
+      "why": "Will nunca lleva -s.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Estás en Oxford y empieza a llover. Tu hijo no lleva paraguas. Te ofreces a compartir el tuyo.",
+      "emoji": "☂️",
+      "options": [
+        "I'll share my umbrella with you.",
+        "I'm share my umbrella with you.",
+        "I will to share my umbrella."
+      ],
+      "answer": "I'll share my umbrella with you.",
+      "why": "Ofrecimiento en el momento: I'll.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Ya habéis reservado la visita guiada para las diez. Se lo cuentas a una amiga.",
+      "emoji": "🗓️",
+      "options": [
+        "We're going to do a guided tour at ten.",
+        "We will to do a guided tour at ten.",
+        "We going to do a guided tour at ten."
+      ],
+      "answer": "We're going to do a guided tour at ten.",
+      "why": "Plan ya reservado: going to.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e14",
+      "type": "order",
+      "es": "Vamos a coger el autocar a Oxford",
+      "answer": "We're going to take the coach to Oxford",
+      "extra": [
+        "will"
+      ],
+      "why": "We're going to + take.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e15",
+      "type": "translate",
+      "dir": "to",
+      "q": "Creo que te encantará Oxford.",
+      "answer": [
+        "I think you'll love Oxford.",
+        "I think you will love Oxford."
+      ],
+      "why": "Opinión: I think + will.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e16",
+      "type": "translate",
+      "dir": "from",
+      "q": "We're going to go punting.",
+      "answer": [
+        "Vamos a pasear en batea.",
+        "Vamos a ir a pasear en batea.",
+        "Vamos a montar en batea."
+      ],
+      "why": "We're going to = vamos a.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e17",
+      "type": "match",
+      "pairs": [
+        [
+          "a college",
+          "un colegio universitario"
+        ],
+        [
+          "the library",
+          "la biblioteca"
+        ],
+        [
+          "a guided tour",
+          "una visita guiada"
+        ],
+        [
+          "by coach",
+          "en autocar"
+        ],
+        [
+          "the weather forecast",
+          "el pronóstico del tiempo"
+        ]
+      ],
+      "why": "Vocabulario para tu excursión a Oxford.",
+      "g": "en-g-going-to"
+    }
+  ],
+  "dialog": {
+    "title": "Organizando la excursión",
+    "setting": "Yolanda y su hijo Hugo planean el sábado en Oxford mientras desayunan",
+    "emoji": "🥐",
+    "lines": [
+      {
+        "who": "Hugo",
+        "t": "So, what are we going to do in Oxford, Mum?",
+        "es": "Bueno, mamá, ¿qué vamos a hacer en Oxford?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I'm going to book a guided tour of a college.",
+        "es": "Voy a reservar una visita guiada a un college."
+      },
+      {
+        "who": "Hugo",
+        "t": "Good idea. Are we going to go punting too?",
+        "es": "Buena idea. ¿También vamos a pasear en batea?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes! But you're going to do the hard work!",
+        "es": "¡Sí! ¡Pero el trabajo duro lo vas a hacer tú!"
+      },
+      {
+        "who": "Hugo",
+        "t": "Ha ha! OK. How are we going to get there?",
+        "es": "¡Ja, ja! Vale. ¿Cómo vamos a ir?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "By coach. It's cheaper than the train.",
+        "es": "En autocar. Es más barato que el tren."
+      },
+      {
+        "who": "Hugo",
+        "t": "And what does the weather forecast say?",
+        "es": "¿Y qué dice el pronóstico del tiempo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "It'll be sunny. It's going to be perfect!",
+        "es": "Hará sol. ¡Va a ser perfecto!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué va a reservar Yolanda?",
+        "options": [
+          "Una visita guiada",
+          "Un hotel",
+          "Un restaurante"
+        ],
+        "answer": "Una visita guiada"
+      },
+      {
+        "q": "¿Quién va a hacer el trabajo duro en la batea?",
+        "options": [
+          "Hugo",
+          "Yolanda",
+          "Un guía"
+        ],
+        "answer": "Hugo"
+      },
+      {
+        "q": "¿Por qué van en autocar?",
+        "options": [
+          "Es más barato",
+          "Es más rápido",
+          "No hay tren"
+        ],
+        "answer": "Es más barato"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "What time does the next coach to Oxford leave?",
+    "es": "¿A qué hora sale el próximo autocar a Oxford?",
+    "context": "En la estación de autobuses"
+  },
+  "summary": [
+    "Oxford tiene la universidad más antigua del mundo de habla inglesa",
+    "Planes decididos: We're going to visit a college",
+    "Ofrecer y opinar en el momento: I'll share my umbrella. I think you'll love it.",
+    "Vocabulario: college, library, guided tour, go punting, by coach"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u06-l5"
+}

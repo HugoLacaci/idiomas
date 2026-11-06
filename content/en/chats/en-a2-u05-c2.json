@@ -1,0 +1,69 @@
+{
+  "id": "en-a2-u05-c2",
+  "unit": "en-a2-u05",
+  "title": "Un viaje que recuerdas",
+  "setting": "Emma y tú tomáis un té y ella te pregunta por tu mejor viaje.",
+  "emoji": "🫖",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "What was your best holiday, Yolanda?", "es": "¿Cuáles fueron tus mejores vacaciones, Yolanda?" },
+      "options": [
+        { "t": "I think it was our trip to Italy.", "es": "Creo que nuestro viaje a Italia.", "next": "n2", "ok": true },
+        { "t": "I think it is our trip to Italy last year.", "es": "Creo que nuestro viaje a Italia del año pasado.", "next": "n2", "ok": false, "feedback": "Hablas de un viaje pasado: it was." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Oh, lovely! When did you go?", "es": "¡Qué bonito! ¿Cuándo fuisteis?" },
+      "options": [
+        { "t": "We went ten years ago.", "es": "Fuimos hace diez años.", "next": "n3", "ok": true },
+        { "t": "We went ago ten years.", "es": "Fuimos hace diez años.", "next": "n3", "ok": false, "feedback": "Ago va detrás del tiempo: ten years ago." },
+        { "t": "We did went ten years ago.", "es": "Fuimos hace diez años.", "next": "n3", "ok": false, "feedback": "En la afirmativa no hace falta did: We went." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Where did you stay?", "es": "¿Dónde os alojasteis?" },
+      "options": [
+        { "t": "We stayed in a small hotel in Florence.", "es": "Nos alojamos en un hotel pequeño en Florencia.", "next": "n4", "ok": true },
+        { "t": "We did stay in a small hotel in Florence.", "es": "Nos alojamos en un hotel pequeño en Florencia.", "next": "n4", "ok": false, "feedback": "Para contar algo normal, sin did: We stayed." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Did you see the famous bridge?", "es": "¿Visteis el puente famoso?" },
+      "options": [
+        { "t": "Yes, we did. We saw it at sunset.", "es": "Sí. Lo vimos al atardecer.", "next": "n5", "ok": true },
+        { "t": "Yes, we saw. We saw it at sunset.", "es": "Sí. Lo vimos al atardecer.", "next": "n5", "ok": false, "feedback": "Respuesta corta con did: Yes, we did." },
+        { "t": "Yes, we did. We seed it at sunset.", "es": "Sí. Lo vimos al atardecer.", "next": "n5", "ok": false, "feedback": "See es irregular: saw." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Wonderful! Was the food good?", "es": "¡Estupendo! ¿Y la comida estaba buena?" },
+      "options": [
+        { "t": "It was amazing! I ate pasta every day.", "es": "¡Increíble! Comí pasta todos los días.", "next": "n6", "ok": true },
+        { "t": "It did amazing! I ate pasta every day.", "es": "¡Increíble! Comí pasta todos los días.", "next": "n6", "ok": false, "feedback": "Con adjetivos usamos be: It was amazing." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Did you have any problems?", "es": "¿Tuvisteis algún problema?" },
+      "options": [
+        { "t": "No, we didn't. Well, we got lost once!", "es": "No. Bueno, ¡nos perdimos una vez!", "next": "n7", "ok": true },
+        { "t": "No, we didn't had problems.", "es": "No, no tuvimos problemas.", "next": "n7", "ok": false, "feedback": "Después de didn't, forma base: we didn't have problems." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Ha ha! That's part of the fun.", "es": "¡Ja, ja! Eso es parte de la gracia." },
+      "options": [
+        { "t": "Exactly! We had a great time.", "es": "¡Exacto! Nos lo pasamos genial.", "next": "end", "ok": true },
+        { "t": "Exactly! We have a great time.", "es": "¡Exacto! Nos lo pasamos genial.", "next": "end", "ok": false, "feedback": "El viaje ya pasó: We had a great time." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

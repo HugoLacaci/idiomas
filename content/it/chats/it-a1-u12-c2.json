@@ -1,0 +1,60 @@
+{
+  "id": "it-a1-u12-c2",
+  "unit": "it-a1-u12",
+  "title": "¿Qué hiciste el fin de semana?",
+  "setting": "Lunes por la mañana: Giulia te escribe para cotillear sobre tu fin de semana",
+  "emoji": "📅",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Buongiorno! Cosa hai fatto il fine settimana?", "es": "¡Buenos días! ¿Qué hiciste el fin de semana?" },
+      "options": [
+        { "t": "Sabato ho ballato con mio marito.", "es": "El sábado bailé con mi marido.", "next": "n2", "ok": true },
+        { "t": "Sabato ballo con mio marito.", "es": "El sábado bailo con mi marido.", "next": "n2", "ok": false, "feedback": "Ya ha pasado: ho ballato." },
+        { "t": "Sabato ho ballado con mio marito.", "es": "El sábado bailé con mi marido.", "next": "n2", "ok": false, "feedback": "El participio lleva t: ballato." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che bello! E domenica?", "es": "¡Qué bien! ¿Y el domingo?" },
+      "options": [
+        { "t": "Domenica ho cucinato per tutta la famiglia.", "es": "El domingo cociné para toda la familia.", "next": "n3", "ok": true },
+        { "t": "Domenica io cucinato per tutta la famiglia.", "es": "El domingo cociné para toda la familia.", "next": "n3", "ok": false, "feedback": "Falta avere: ho cucinato." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Brava! Cosa hai preparato?", "es": "¡Muy bien! ¿Qué preparaste?" },
+      "options": [
+        { "t": "Ho preparato la paella!", "es": "¡Preparé paella!", "next": "n4", "ok": true },
+        { "t": "Ho preparuto la paella!", "es": "¡Preparé paella!", "next": "n4", "ok": false, "feedback": "Preparare es de -are: preparato." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Mmm! Io ieri sera ho visto un film con mia sorella.", "es": "¡Mmm! Yo anoche vi una película con mi hermana." },
+      "options": [
+        { "t": "Ah sì? Che film hai visto?", "es": "¿Ah, sí? ¿Qué película viste?", "next": "n5", "ok": true },
+        { "t": "Ah sì? Che film hai vedito?", "es": "¿Ah, sí? ¿Qué película viste?", "next": "n5", "ok": false, "feedback": "Vedere tiene participio especial: hai visto." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Un giallo! Bello, ma ho dormito poco. E tu hai dormito bene?", "es": "¡Una policiaca! Buena, pero he dormido poco. ¿Y tú has dormido bien?" },
+      "options": [
+        { "t": "Sì, ho dormito benissimo.", "es": "Sí, he dormido muy bien.", "next": "n6", "ok": true },
+        { "t": "Sì, ho dormato benissimo.", "es": "Sí, he dormido muy bien.", "next": "n6", "ok": false, "feedback": "Dormire es de -ire: dormito." },
+        { "t": "No, ho non dormito.", "es": "No, no he dormido.", "next": "n6", "ok": false, "feedback": "Non va delante: non ho dormito." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Beata te! Buona settimana, Yolanda!", "es": "¡Qué suerte tienes! ¡Buena semana, Yolanda!" },
+      "options": [
+        { "t": "Grazie, anche a te!", "es": "¡Gracias, igualmente!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

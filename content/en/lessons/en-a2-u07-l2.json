@@ -1,0 +1,418 @@
+{
+  "id": "en-a2-u07-l2",
+  "unit": "en-a2-u07",
+  "title": "Me encanta, lo odio",
+  "goal": "a decir lo que te gusta, te encanta u odias hacer con like, love y hate + -ing",
+  "emoji": "❤️",
+  "photoQuery": "woman reading book armchair",
+  "vocab": [
+    {
+      "id": "hobby-i-love",
+      "t": "I love…",
+      "es": "me encanta…",
+      "emoji": "😍",
+      "pos": "phrase",
+      "ex": {
+        "t": "I love listening to music.",
+        "es": "Me encanta escuchar música."
+      }
+    },
+    {
+      "id": "hobby-i-like",
+      "t": "I like…",
+      "es": "me gusta…",
+      "emoji": "🙂",
+      "pos": "phrase",
+      "ex": {
+        "t": "I like watching old films.",
+        "es": "Me gusta ver películas antiguas."
+      }
+    },
+    {
+      "id": "hobby-i-enjoy",
+      "t": "I enjoy…",
+      "es": "disfruto…",
+      "emoji": "😊",
+      "pos": "phrase",
+      "ex": {
+        "t": "I enjoy cooking for my family.",
+        "es": "Disfruto cocinando para mi familia."
+      },
+      "note": "Enjoy siempre va con -ing: nunca «enjoy to cook»."
+    },
+    {
+      "id": "hobby-i-dont-mind",
+      "t": "I don't mind…",
+      "es": "no me importa…",
+      "emoji": "😐",
+      "pos": "phrase",
+      "ex": {
+        "t": "I don't mind ironing.",
+        "es": "No me importa planchar."
+      }
+    },
+    {
+      "id": "hobby-i-dont-like",
+      "t": "I don't like…",
+      "es": "no me gusta…",
+      "emoji": "🙁",
+      "pos": "phrase",
+      "ex": {
+        "t": "I don't like driving at night.",
+        "es": "No me gusta conducir de noche."
+      }
+    },
+    {
+      "id": "hobby-i-hate",
+      "t": "I hate…",
+      "es": "odio…",
+      "emoji": "😖",
+      "pos": "phrase",
+      "ex": {
+        "t": "I hate waiting at the bus stop.",
+        "es": "Odio esperar en la parada del autobús."
+      }
+    },
+    {
+      "id": "hobby-listening-to-music",
+      "t": "listening to music",
+      "es": "escuchar música",
+      "emoji": "🎧",
+      "pos": "phrase",
+      "ex": {
+        "t": "My son loves listening to music.",
+        "es": "A mi hijo le encanta escuchar música."
+      },
+      "note": "Listen siempre lleva to: listen to music."
+    },
+    {
+      "id": "hobby-watching-films",
+      "t": "watching films",
+      "es": "ver películas",
+      "emoji": "🎬",
+      "pos": "phrase",
+      "ex": {
+        "t": "We enjoy watching films on Saturdays.",
+        "es": "Disfrutamos viendo películas los sábados."
+      },
+      "note": "En EE. UU.: movies."
+    }
+  ],
+  "grammar": "en-g-like-ing",
+  "pron": {
+    "title": "love y like",
+    "tip": "En love la o suena como una «a» corta: «lav». En like, la i suena «ai»: «laik». ¡No digas «lov» ni «lik»!",
+    "words": [
+      "love",
+      "like",
+      "hate",
+      "enjoy",
+      "mind"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I enjoy ___ for my family.",
+      "options": [
+        "cooking",
+        "cook",
+        "to cook"
+      ],
+      "answer": "cooking",
+      "why": "Enjoy siempre va seguido de -ing.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "My husband hates ___ the shopping.",
+      "options": [
+        "doing",
+        "do",
+        "does"
+      ],
+      "answer": "doing",
+      "why": "Después de hate, para hablar de lo que odias en general, usamos -ing.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "She ___ watching films on Saturdays.",
+      "options": [
+        "loves",
+        "love",
+        "loving"
+      ],
+      "answer": "loves",
+      "why": "Con she, el verbo del presente lleva -s: she loves.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e4",
+      "type": "conjugate",
+      "verb": "to swim",
+      "person": "-ing",
+      "tense": "forma -ing",
+      "q": "My grandson loves ___ in the sea.",
+      "answer": [
+        "swimming"
+      ],
+      "table": [
+        [
+          "+ing",
+          "read → reading"
+        ],
+        [
+          "-e + ing",
+          "dance → dancing"
+        ],
+        [
+          "doble consonante",
+          "swim → swimming"
+        ]
+      ],
+      "why": "Swim: vocal corta + m, así que la m se duplica: swimming.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e5",
+      "type": "conjugate",
+      "verb": "to dance",
+      "person": "-ing",
+      "tense": "forma -ing",
+      "q": "We love ___ at weddings.",
+      "answer": [
+        "dancing"
+      ],
+      "why": "Dance termina en -e: la quitamos y añadimos -ing.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e6",
+      "type": "conjugate",
+      "verb": "to drive",
+      "person": "-ing",
+      "tense": "forma -ing",
+      "q": "I don't like ___ in the city.",
+      "answer": [
+        "driving"
+      ],
+      "why": "Drive pierde la -e: driving.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "I don't ___ ironing. It's relaxing.",
+      "es": "No me importa planchar. Es relajante.",
+      "answer": [
+        "mind"
+      ],
+      "bank": [
+        "mind",
+        "hate",
+        "enjoys"
+      ],
+      "why": "No me importa = I don't mind.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "q": "My son loves listening ___ music.",
+      "es": "A mi hijo le encanta escuchar música.",
+      "answer": [
+        "to"
+      ],
+      "why": "Listen siempre lleva to delante de lo que escuchas.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "I enjoy to read in the garden.",
+      "wrong": "read",
+      "fix": "reading",
+      "why": "Enjoy no admite to + verbo: I enjoy reading.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "My sister love walking by the sea.",
+      "wrong": "love",
+      "fix": "loves",
+      "why": "My sister = she: loves, con -s.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Odio esperar en el médico",
+      "answer": "I hate waiting at the doctor's",
+      "extra": [
+        "wait"
+      ],
+      "why": "hate + -ing: hate waiting.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e12",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "I like driving at night.",
+      "answer": [
+        "I don't like driving at night.",
+        "I do not like driving at night."
+      ],
+      "why": "Negativa con I: don't like + -ing.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "A mi amiga le encanta bailar.",
+      "answer": [
+        "My friend loves dancing.",
+        "My friend loves to dance."
+      ],
+      "why": "En inglés la persona va delante: My friend loves dancing.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e14",
+      "type": "match",
+      "pairs": [
+        [
+          "😍",
+          "I love"
+        ],
+        [
+          "🙂",
+          "I like"
+        ],
+        [
+          "😐",
+          "I don't mind"
+        ],
+        [
+          "🙁",
+          "I don't like"
+        ],
+        [
+          "😖",
+          "I hate"
+        ]
+      ],
+      "why": "De más a menos: love, like, don't mind, don't like, hate.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Tu nieto te pregunta si te gusta jugar a videojuegos. No te gusta nada.",
+      "emoji": "🎮",
+      "options": [
+        "No, I hate playing video games!",
+        "No, I hate play video games!",
+        "No, I am hating video games!"
+      ],
+      "answer": "No, I hate playing video games!",
+      "why": "hate + -ing: I hate playing.",
+      "g": "en-g-like-ing"
+    }
+  ],
+  "dialog": {
+    "title": "Gustos en familia",
+    "setting": "Yolanda habla por videollamada con su hijo Hugo sobre el fin de semana",
+    "emoji": "📱",
+    "lines": [
+      {
+        "who": "Hugo",
+        "t": "Mum, what do you want to do this weekend?",
+        "es": "Mamá, ¿qué quieres hacer este fin de semana?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I'd love to go walking in the mountains.",
+        "es": "Me encantaría ir a caminar a la montaña."
+      },
+      {
+        "who": "Hugo",
+        "t": "Hmm, I don't really enjoy walking.",
+        "es": "Mmm, a mí no me gusta mucho caminar."
+      },
+      {
+        "who": "Yolanda",
+        "t": "What about watching a film at home?",
+        "es": "¿Y si vemos una película en casa?"
+      },
+      {
+        "who": "Hugo",
+        "t": "Yes! I love watching films with you.",
+        "es": "¡Sí! Me encanta ver películas contigo."
+      },
+      {
+        "who": "Yolanda",
+        "t": "And I don't mind cooking dinner.",
+        "es": "Y a mí no me importa hacer la cena."
+      },
+      {
+        "who": "Hugo",
+        "t": "Perfect. I hate washing up, so I'll do it!",
+        "es": "Perfecto. Odio fregar, ¡así que fregaré yo!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Ha ha! That's a deal.",
+        "es": "¡Ja, ja! Trato hecho."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué le gustaría hacer a Yolanda?",
+        "options": [
+          "Caminar por la montaña",
+          "Ir al cine",
+          "Fregar"
+        ],
+        "answer": "Caminar por la montaña"
+      },
+      {
+        "q": "¿Qué le encanta a Hugo?",
+        "options": [
+          "Ver películas con su madre",
+          "Caminar",
+          "Cocinar"
+        ],
+        "answer": "Ver películas con su madre"
+      },
+      {
+        "q": "¿Quién va a fregar?",
+        "options": [
+          "Hugo",
+          "Yolanda",
+          "Nadie"
+        ],
+        "answer": "Hugo"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "I really enjoy dancing.",
+    "es": "Disfruto mucho bailando.",
+    "context": "Para contar con entusiasmo una afición"
+  },
+  "summary": [
+    "love / like / enjoy / don't mind / hate + -ing",
+    "Enjoy siempre con -ing: I enjoy reading",
+    "dance → dancing; swim → swimming",
+    "Con he/she: she loves, he hates"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u07-l2"
+}

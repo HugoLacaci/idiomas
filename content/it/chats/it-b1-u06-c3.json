@@ -1,0 +1,67 @@
+{
+  "id": "it-b1-u06-c3",
+  "unit": "it-b1-u06",
+  "title": "Planes para Perugia",
+  "setting": "Le cuentas a Giulia, en un café de Roma, que este verano vas a estudiar a Perugia",
+  "emoji": "🍫",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Allora, è vero che vai a studiare a Perugia?", "es": "Bueno, ¿es verdad que vas a estudiar a Perugia?" },
+      "options": [
+        { "t": "Sì! Spero di partire a luglio.", "es": "¡Sí! Espero salir en julio.", "next": "n2", "ok": true },
+        { "t": "Sì! Spero che io parta a luglio.", "es": "¡Sí! Espero salir en julio.", "next": "n2", "ok": false, "feedback": "Si eres tú quien espera y quien sale: spero di partire." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che bello! All'Università per Stranieri? È famosissima.", "es": "¡Qué bien! ¿En la Universidad para Extranjeros? Es famosísima." },
+      "options": [
+        { "t": "Sì, insegna l'italiano agli stranieri dal 1925.", "es": "Sí, enseña italiano a extranjeros desde 1925.", "next": "n3", "ok": true },
+        { "t": "Sì, insegna l'italiano agli stranieri dal 1825.", "es": "Sí, enseña italiano a extranjeros desde 1825.", "next": "n3", "ok": false, "feedback": "Casi: es desde 1925, hace ya un siglo." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "E dove dormi? Hai già un alloggio?", "es": "¿Y dónde vas a dormir? ¿Ya tienes alojamiento?" },
+      "options": [
+        { "t": "Non ancora. Bisogna che io lo trovi presto.", "es": "Todavía no. Hace falta que lo encuentre pronto.", "next": "n4", "ok": true },
+        { "t": "Non ancora. Bisogna che io lo trovo presto.", "es": "Todavía no. Hace falta que lo encuentre pronto.", "next": "n4", "ok": false, "feedback": "Bisogna che + congiuntivo: trovare → (che io) trovi." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Mia cugina vive a Perugia. Vuoi che le chieda qualcosa?", "es": "Mi prima vive en Perugia. ¿Quieres que le pregunte algo?" },
+      "options": [
+        { "t": "Sì, grazie! È meglio che io conosca qualcuno lì.", "es": "¡Sí, gracias! Es mejor que conozca a alguien allí.", "next": "n5", "ok": true },
+        { "t": "Sì, grazie! È meglio che io conosco qualcuno lì.", "es": "¡Sí, gracias! Es mejor que conozca a alguien allí.", "next": "n5", "ok": false, "feedback": "È meglio che + congiuntivo: conoscere → conosca." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Certo. E tuo marito viene con te?", "es": "Claro. ¿Y tu marido va contigo?" },
+      "options": [
+        { "t": "Spero di sì! Voglio che veda anche lui l'Umbria.", "es": "¡Eso espero! Quiero que él también vea Umbría.", "next": "n6", "ok": true },
+        { "t": "Spero di sì! Voglio che vede anche lui l'Umbria.", "es": "¡Eso espero! Quiero que él también vea Umbría.", "next": "n6", "ok": false, "feedback": "Voglio che + congiuntivo: vedere → veda." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Allora dovete assaggiare i Baci: li fanno proprio a Perugia!", "es": "Entonces tenéis que probar los Baci: ¡los hacen justo en Perugia!" },
+      "options": [
+        { "t": "Lo so! E voglio che le mie amiche li provino.", "es": "¡Lo sé! Y quiero que mis amigas los prueben.", "next": "n7", "ok": true },
+        { "t": "Lo so! E voglio che le mie amiche li provano.", "es": "¡Lo sé! Y quiero que mis amigas los prueben.", "next": "n7", "ok": false, "feedback": "Verbos en -are con loro: provino (congiuntivo)." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Sono contenta che tu faccia questa esperienza. Mi mandi qualche foto?", "es": "Me alegro de que vivas esta experiencia. ¿Me mandas alguna foto?" },
+      "options": [
+        { "t": "Certo! Spero che ti piacciano.", "es": "¡Claro! Espero que te gusten.", "next": "end", "ok": true },
+        { "t": "Certo! Spero che ti piacciono.", "es": "¡Claro! Espero que te gusten.", "next": "end", "ok": false, "feedback": "Piacere en congiuntivo, con las fotos (plural): piacciano." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

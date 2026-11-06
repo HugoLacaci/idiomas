@@ -1,0 +1,61 @@
+{
+  "id": "en-a1-u08-c2",
+  "unit": "en-a1-u08",
+  "title": "¿Qué tiempo hace por ahí?",
+  "setting": "Emma te escribe un día de lluvia en Londres y te pregunta por el tiempo en España.",
+  "emoji": "🌧️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "It's raining again in London! What's the weather like in Spain?", "es": "¡Otra vez llueve en Londres! ¿Qué tiempo hace en España?" },
+      "options": [
+        { "t": "It's sunny and warm today.", "es": "Hoy hace sol y buena temperatura.", "next": "n2", "ok": true },
+        { "t": "It makes sun and warm today.", "es": "Hoy hace sol y buena temperatura.", "next": "n2", "ok": false, "feedback": "El tiempo va con It's: It's sunny. Nunca «it makes»." },
+        { "t": "Is sunny and warm today.", "es": "Hoy hace sol y buena temperatura.", "next": "n2", "ok": false, "feedback": "En inglés hace falta el sujeto: It's sunny." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Lucky you! Is it always sunny there?", "es": "¡Qué suerte! ¿Allí siempre hace sol?" },
+      "options": [
+        { "t": "No, but it's usually sunny in summer.", "es": "No, pero en verano suele hacer sol.", "next": "n3", "ok": true },
+        { "t": "No, but it usually is sunny in summer.", "es": "No, pero en verano suele hacer sol.", "next": "n3", "ok": false, "feedback": "Con to be el adverbio va detrás: it's usually sunny." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Does it snow in your town?", "es": "¿Nieva en tu pueblo?" },
+      "options": [
+        { "t": "It hardly ever snows.", "es": "Casi nunca nieva.", "next": "n4", "ok": true },
+        { "t": "It hardly never snows.", "es": "Casi nunca nieva.", "next": "n4", "ok": false, "feedback": "Casi nunca = hardly ever." },
+        { "t": "It hardly ever snow.", "es": "Casi nunca nieva.", "next": "n4", "ok": false, "feedback": "It lleva -s: it snows." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Here it's often grey in winter. I'm always cold!", "es": "Aquí en invierno suele estar gris. ¡Siempre tengo frío!" },
+      "options": [
+        { "t": "Poor you! Take your umbrella. It's sensible!", "es": "¡Pobre! Coge el paraguas. ¡Es lo sensato!", "next": "n5", "ok": true },
+        { "t": "Poor you! Take your umbrella. It's sensitive!", "es": "¡Pobre! Coge el paraguas. ¡Es lo sensato!", "next": "n5", "ok": false, "feedback": "Sensato = sensible. Sensitive significa «sensible» (que siente mucho)." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ha ha, I always have my umbrella! What's your favourite season?", "es": "¡Ja, ja, siempre llevo el paraguas! ¿Cuál es tu estación favorita?" },
+      "options": [
+        { "t": "Autumn. I love the colours.", "es": "El otoño. Me encantan los colores.", "next": "n6", "ok": true },
+        { "t": "The autumn. I love the colours.", "es": "El otoño. Me encantan los colores.", "next": "n6", "ok": false, "feedback": "En general las estaciones van sin the: Autumn." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Me too! Speak soon, Yolanda.", "es": "¡A mí también! Hablamos pronto, Yolanda." },
+      "options": [
+        { "t": "Bye, Emma! Stay warm!", "es": "¡Adiós, Emma! ¡No pases frío!", "next": "end", "ok": true },
+        { "t": "Bye, Emma! Stay hot!", "es": "¡Adiós, Emma! ¡No pases frío!", "next": "end", "ok": false, "feedback": "Para «abrígate, no pases frío» decimos Stay warm." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

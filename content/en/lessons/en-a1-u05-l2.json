@@ -1,0 +1,425 @@
+{
+  "id": "en-a1-u05-l2",
+  "unit": "en-a1-u05",
+  "title": "¿Tienes 60 años? En inglés, ¡los eres!",
+  "goal": "a preguntar y decir la edad con el verbo to be, sin el famoso «I have 60 years»",
+  "emoji": "🎂",
+  "photoQuery": "birthday cake candles table",
+  "vocab": [
+    {
+      "id": "how-old-are-you",
+      "t": "How old are you?",
+      "es": "¿Cuántos años tienes?",
+      "emoji": "❓",
+      "pos": "phrase",
+      "ex": {
+        "t": "How old are you, Emma? – I'm thirty-five.",
+        "es": "¿Cuántos años tienes, Emma? – Treinta y cinco."
+      },
+      "note": "Literalmente: «¿Cómo de viejo eres?». Se usa con to be, nunca con have."
+    },
+    {
+      "id": "years-old",
+      "t": "… years old",
+      "es": "… años (de edad)",
+      "emoji": "🔢",
+      "pos": "phrase",
+      "ex": {
+        "t": "My neighbour is eighty years old.",
+        "es": "Mi vecina tiene ochenta años."
+      },
+      "note": "Puedes decir I'm sixty o I'm sixty years old. Nunca «I'm sixty years» a secas."
+    },
+    {
+      "id": "sixty",
+      "t": "sixty",
+      "es": "sesenta",
+      "emoji": "6️⃣",
+      "pos": "n",
+      "ex": {
+        "t": "Sixty minutes is an hour.",
+        "es": "Sesenta minutos son una hora."
+      }
+    },
+    {
+      "id": "a-birthday",
+      "t": "a birthday",
+      "es": "un cumpleaños",
+      "emoji": "🎈",
+      "pos": "n",
+      "ex": {
+        "t": "It's my grandson's birthday today.",
+        "es": "Hoy es el cumpleaños de mi nieto."
+      }
+    },
+    {
+      "id": "happy-birthday",
+      "t": "Happy birthday!",
+      "es": "¡Feliz cumpleaños!",
+      "emoji": "🥳",
+      "pos": "phrase",
+      "ex": {
+        "t": "Happy birthday, Hugo! Lots of love.",
+        "es": "¡Feliz cumpleaños, Hugo! Un beso muy grande."
+      }
+    },
+    {
+      "id": "a-birthday-cake",
+      "t": "a birthday cake",
+      "es": "una tarta de cumpleaños",
+      "emoji": "🎂",
+      "pos": "n",
+      "ex": {
+        "t": "I make the birthday cake.",
+        "es": "Yo hago la tarta de cumpleaños."
+      }
+    },
+    {
+      "id": "a-candle",
+      "t": "a candle",
+      "es": "una vela",
+      "emoji": "🕯️",
+      "pos": "n",
+      "ex": {
+        "t": "Blow out the candles!",
+        "es": "¡Sopla las velas!"
+      }
+    },
+    {
+      "id": "young-old",
+      "t": "young / old",
+      "es": "joven / mayor",
+      "emoji": "🧓",
+      "pos": "adj",
+      "ex": {
+        "t": "My husband isn't old. He's young at heart!",
+        "es": "Mi marido no es mayor. ¡Es joven de espíritu!"
+      },
+      "note": "Para personas, old puede sonar brusco: es más amable older (mayor)."
+    }
+  ],
+  "grammar": "en-g-how-old",
+  "pron": {
+    "title": "La «o» de old",
+    "tip": "Old, cold y phone no llevan nuestra o: empiezan con una «e» flojita y se deslizan hacia «u»: «euld». En cambio, caught o law tienen una o larga y redonda.",
+    "words": [
+      "old",
+      "cold",
+      "phone",
+      "hello"
+    ],
+    "pairs": [
+      [
+        "coat",
+        "caught"
+      ],
+      [
+        "low",
+        "law"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "My neighbour ___ eighty.",
+      "es": "Mi vecina tiene ochenta años.",
+      "options": [
+        "is",
+        "has",
+        "have"
+      ],
+      "answer": "is",
+      "why": "La edad va con to be: she is eighty. Nunca has.",
+      "g": "en-g-how-old"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "How old ___ you?",
+      "es": "¿Cuántos años tienes?",
+      "options": [
+        "are",
+        "have",
+        "do"
+      ],
+      "answer": "are",
+      "why": "Preguntamos la edad con to be: How old are you?",
+      "g": "en-g-how-old"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Emma is thirty-five ___ old.",
+      "es": "Emma tiene treinta y cinco años.",
+      "options": [
+        "years",
+        "year",
+        "age"
+      ],
+      "answer": "years",
+      "why": "Más de un año: years old.",
+      "g": "en-g-how-old"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "How ___ is your grandson?",
+      "es": "¿Cuántos años tiene tu nieto?",
+      "answer": [
+        "old"
+      ],
+      "bank": [
+        "old",
+        "many",
+        "much"
+      ],
+      "why": "La edad se pregunta con How old…?",
+      "g": "en-g-how-old"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "The baby is one ___ old.",
+      "es": "El bebé tiene un año.",
+      "answer": [
+        "year"
+      ],
+      "bank": [
+        "year",
+        "years",
+        "age"
+      ],
+      "why": "Un solo año: one year old, sin -s.",
+      "g": "en-g-how-old"
+    },
+    {
+      "id": "e6",
+      "type": "error",
+      "q": "I have fifty years old.",
+      "wrong": "have",
+      "fix": "am",
+      "why": "En inglés la edad se «es»: I am fifty (years old).",
+      "g": "en-g-how-old"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "My friend is seventy year old.",
+      "wrong": "year",
+      "fix": "years",
+      "why": "Setenta años: plural, years old.",
+      "g": "en-g-how-old"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "¿Cuántos años tiene tu nieta?",
+      "answer": "How old is your granddaughter",
+      "extra": [
+        "many",
+        "has"
+      ],
+      "why": "How old + is + la persona.",
+      "g": "en-g-how-old"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Mi amiga tiene cincuenta y cinco años",
+      "answer": "My friend is fifty-five years old",
+      "extra": [
+        "has"
+      ],
+      "why": "Edad = to be + número + years old.",
+      "g": "en-g-how-old"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Pregunta la edad de esa persona (How old…?)",
+      "q": "Your sister is forty.",
+      "answer": [
+        "How old is your sister?",
+        "How old's your sister?"
+      ],
+      "why": "How old va delante y luego el verbo: How old is your sister?",
+      "g": "en-g-how-old"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Mi vecino tiene setenta años.",
+      "answer": [
+        "My neighbour is seventy.",
+        "My neighbour is seventy years old.",
+        "My neighbour's seventy.",
+        "My neighbour's seventy years old."
+      ],
+      "why": "Con to be: is seventy (years old).",
+      "g": "en-g-how-old"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "from",
+      "q": "How old are you?",
+      "answer": [
+        "¿Cuántos años tienes?",
+        "¿Qué edad tienes?",
+        "¿Cuántos años tiene usted?"
+      ],
+      "why": "How old are you? = ¿Cuántos años tienes?",
+      "g": "en-g-how-old"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Un niño inglés en el parque te dice su edad. ¿Qué frase es correcta?",
+      "emoji": "🧒",
+      "options": [
+        "I'm five.",
+        "I have five years.",
+        "I've got five years."
+      ],
+      "answer": "I'm five.",
+      "why": "La edad con to be: I'm five.",
+      "g": "en-g-how-old"
+    },
+    {
+      "id": "e14",
+      "type": "match",
+      "pairs": [
+        [
+          "How old are you?",
+          "I'm forty-two."
+        ],
+        [
+          "How old is the baby?",
+          "She's one."
+        ],
+        [
+          "Happy birthday!",
+          "Thank you!"
+        ],
+        [
+          "How old is your dog?",
+          "It's six."
+        ]
+      ],
+      "why": "A How old…? se contesta con to be + número."
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "coat",
+        "caught"
+      ],
+      "answer": "coat",
+      "es": [
+        "abrigo",
+        "cogió / pilló"
+      ],
+      "why": "Coat se desliza «euh-u»; caught es una o larga y redonda."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Happy birthday! How old are you today?",
+      "es": "¡Feliz cumpleaños! ¿Cuántos años cumples hoy?"
+    }
+  ],
+  "dialog": {
+    "title": "¡Siete velas!",
+    "setting": "En una cafetería de Londres, una señora celebra el cumpleaños de su hija",
+    "emoji": "🎂",
+    "lines": [
+      {
+        "who": "Sarah",
+        "t": "It's my daughter's birthday today!",
+        "es": "¡Hoy es el cumpleaños de mi hija!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Happy birthday! How old is she?",
+        "es": "¡Feliz cumpleaños! ¿Cuántos años tiene?"
+      },
+      {
+        "who": "Sarah",
+        "t": "She's seven. Look, seven candles!",
+        "es": "Tiene siete. ¡Mira, siete velas!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "What a lovely cake!",
+        "es": "¡Qué tarta tan bonita!"
+      },
+      {
+        "who": "Sarah",
+        "t": "Thank you. And you? How old are you?",
+        "es": "Gracias. ¿Y tú? ¿Cuántos años tienes?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Oh, that's a secret!",
+        "es": "¡Ay, eso es un secreto!"
+      },
+      {
+        "who": "Sarah",
+        "t": "Ha ha! You're young at heart.",
+        "es": "¡Ja, ja! Eres joven de espíritu."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Exactly. Many happy returns, sweetheart!",
+        "es": "Exacto. ¡Que cumplas muchos más, cariño!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuántos años cumple la hija de Sarah?",
+        "options": [
+          "Siete",
+          "Seis",
+          "Once"
+        ],
+        "answer": "Siete"
+      },
+      {
+        "q": "¿Qué hay en la tarta?",
+        "options": [
+          "Siete velas",
+          "Una foto",
+          "Fresas"
+        ],
+        "answer": "Siete velas"
+      },
+      {
+        "q": "¿Dice Yolanda su edad?",
+        "options": [
+          "No, es un secreto",
+          "Sí, sesenta",
+          "Sí, treinta"
+        ],
+        "answer": "No, es un secreto"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Many happy returns!",
+    "es": "¡Que cumplas muchos más!",
+    "context": "Para felicitar un cumpleaños de forma muy británica"
+  },
+  "summary": [
+    "La edad va con to be: I'm sixty, she's seven",
+    "Pregunta: How old are you? / How old is he?",
+    "years old es opcional, pero nunca «sixty years» solo",
+    "❌ I have 60 years → ✅ I'm 60",
+    "Felicitar: Happy birthday! / Many happy returns!"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u05-l2"
+}

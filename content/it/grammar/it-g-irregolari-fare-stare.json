@@ -1,0 +1,137 @@
+{
+  "id": "it-g-irregolari-fare-stare",
+  "lang": "it",
+  "level": "A1",
+  "title": "Irregulares fare, stare, dare y bere",
+  "short": "Faccio, sto, do, bevo: cuatro verbos de todos los días.",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "🍷",
+      "title": "Cuatro verbos de la mesa",
+      "text": "Fare (hacer), stare (estar), dare (dar) y bere (beber) se usan a todas horas. Son irregulares, pero se parecen entre sí.",
+      "examples": [
+        { "t": "Che cosa bevi?", "es": "¿Qué bebes?", "hl": "bevi" },
+        { "t": "Come stai?", "es": "¿Cómo estás?", "hl": "stai" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "📋",
+      "title": "Fare y stare",
+      "text": "Fíjate: stare va casi igual que dare.",
+      "table": {
+        "head": ["Persona", "fare (hacer)", "stare (estar)"],
+        "rows": [
+          ["io", "==faccio==", "==sto=="],
+          ["tu", "==fai==", "==stai=="],
+          ["lui / lei / Lei", "==fa==", "==sta=="],
+          ["noi", "==facciamo==", "==stiamo=="],
+          ["voi", "==fate==", "==state=="],
+          ["loro", "==fanno==", "==stanno=="]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "emoji": "📋",
+      "title": "Dare y bere",
+      "text": "Bere es fácil: usa la raíz ==bev-== y las terminaciones de -ere.",
+      "table": {
+        "head": ["Persona", "dare (dar)", "bere (beber)"],
+        "rows": [
+          ["io", "==do==", "==bevo=="],
+          ["tu", "==dai==", "==bevi=="],
+          ["lui / lei / Lei", "==dà==", "==beve=="],
+          ["noi", "==diamo==", "==beviamo=="],
+          ["voi", "==date==", "==bevete=="],
+          ["loro", "==danno==", "==bevono=="]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "emoji": "✍️",
+      "title": "Dà con tilde",
+      "text": "==Dà== (da, del verbo dare) lleva tilde para no confundirse con ==da== (desde, en casa de). Mi ==dà== il conto? / Vado ==da== Hugo."
+    },
+    {
+      "kind": "compare",
+      "emoji": "🇪🇸",
+      "title": "Stare no es siempre «estar»",
+      "text": "Stare sirve para cómo estás y para quedarse: ==sto== bene, ==sto== a casa. Pero para el lugar se usa essere: ==sono== in cucina.",
+      "examples": [
+        { "t": "Come sta, signora?", "es": "¿Cómo está, señora?", "hl": "sta" },
+        { "t": "Sono al ristorante.", "es": "Estoy en el restaurante.", "hl": "Sono" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "emoji": "☀️",
+      "title": "Fare en frases hechas",
+      "text": "Con fare decimos el tiempo y muchas costumbres: ==fa== caldo, ==fa== freddo, ==fare== colazione (desayunar), ==fare== la spesa (hacer la compra), ==fare== una passeggiata (dar un paseo)."
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo!",
+      "text": "❌ io fago → ✅ io ==faccio==. ❌ io bero → ✅ io ==bevo==. ❌ mi da il conto → ✅ mi ==dà== il conto. ❌ è caldo (el tiempo) → ✅ ==fa== caldo."
+    },
+    {
+      "kind": "tip",
+      "emoji": "💡",
+      "title": "Truco",
+      "text": "Stare y dare son gemelos: ==sto/do, stai/dai, stanno/danno==. Si te sabes uno, te sabes el otro."
+    }
+  ],
+  "compare": {
+    "es": "¿Cómo estás? Estoy bien. Hace calor. Desayuno a las ocho. ¿Me da la cuenta? Bebemos vino tinto.",
+    "target": "Come stai? Sto bene. Fa caldo. Faccio colazione alle otto. Mi dà il conto? Beviamo vino rosso. Ojo: «desayunar» es fare colazione y el tiempo va con fare."
+  },
+  "errors": [
+    { "wrong": "Io fago colazione.", "right": "Io faccio colazione.", "why": "Fare con io es faccio, con doble c." },
+    { "wrong": "Io bero acqua.", "right": "Io bevo acqua.", "why": "Bere se conjuga con la raíz bev-: bevo, bevi, beve…" },
+    { "wrong": "Mi da il conto?", "right": "Mi dà il conto?", "why": "Del verbo dare se escribe dà, con tilde." },
+    { "wrong": "Oggi è caldo.", "right": "Oggi fa caldo.", "why": "Para el tiempo usamos fare: fa caldo, fa freddo." },
+    { "wrong": "Sto in cucina.", "right": "Sono in cucina.", "why": "Para decir dónde estás, lo normal es essere; «sto in cucina» se oye en el sur, pero mejor sono." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "conjugate", "verb": "fare", "person": "io", "tense": "presente", "q": "Io ___ la spesa il sabato.", "es": "Yo hago la compra los sábados.", "answer": ["faccio"], "why": "Fare con io: faccio.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e2", "type": "conjugate", "verb": "fare", "person": "tu", "tense": "presente", "q": "Che cosa ___ stasera?", "es": "¿Qué haces esta noche?", "answer": ["fai"], "why": "Fare con tu: fai.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e3", "type": "conjugate", "verb": "fare", "person": "loro", "tense": "presente", "q": "I bambini ___ colazione.", "es": "Los niños desayunan.", "answer": ["fanno"], "why": "Fare con loro: fanno.", "g": "it-g-irregolari-fare-stare", "table": [["io", "faccio"], ["tu", "fai"], ["lui/lei", "fa"], ["noi", "facciamo"], ["voi", "fate"], ["loro", "fanno"]] },
+    { "id": "e4", "type": "conjugate", "verb": "stare", "person": "tu", "tense": "presente", "q": "Ciao Hugo, come ___?", "answer": ["stai"], "why": "Stare con tu: stai.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e5", "type": "conjugate", "verb": "stare", "person": "noi", "tense": "presente", "q": "Oggi ___ a casa, piove.", "es": "Hoy nos quedamos en casa, llueve.", "answer": ["stiamo"], "why": "Stare con noi: stiamo. Stare a casa = quedarse en casa.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e6", "type": "conjugate", "verb": "stare", "person": "loro", "tense": "presente", "q": "I miei amici ___ bene.", "answer": ["stanno"], "why": "Stare con loro: stanno.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e7", "type": "conjugate", "verb": "dare", "person": "io", "tense": "presente", "q": "Io ___ un regalo a mio figlio.", "es": "Yo le doy un regalo a mi hijo.", "answer": ["do"], "why": "Dare con io: do.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e8", "type": "conjugate", "verb": "dare", "person": "Lei", "tense": "presente", "q": "Scusi, mi ___ il menù?", "es": "Perdone, ¿me da la carta?", "answer": ["dà"], "why": "Dare con usted: dà, con tilde.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e9", "type": "conjugate", "verb": "bere", "person": "io", "tense": "presente", "q": "Io ___ un caffè ogni mattina.", "answer": ["bevo"], "why": "Bere con io: bevo.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e10", "type": "conjugate", "verb": "bere", "person": "voi", "tense": "presente", "q": "Voi che cosa ___?", "es": "¿Vosotras qué bebéis?", "answer": ["bevete"], "why": "Bere con voi: bevete.", "g": "it-g-irregolari-fare-stare", "table": [["io", "bevo"], ["tu", "bevi"], ["lui/lei", "beve"], ["noi", "beviamo"], ["voi", "bevete"], ["loro", "bevono"]] },
+    { "id": "e11", "type": "conjugate", "verb": "bere", "person": "loro", "tense": "presente", "q": "I ragazzi ___ una birra.", "answer": ["bevono"], "why": "Bere con loro: bevono.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e12", "type": "choose", "q": "Oggi ___ freddo.", "es": "Hoy hace frío.", "options": ["fa", "è", "sta"], "answer": "fa", "why": "El tiempo va con fare: fa freddo.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e13", "type": "choose", "q": "Buongiorno, signora! Come ___?", "options": ["sta", "stai", "è"], "answer": "sta", "why": "De usted: come sta?", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e14", "type": "choose", "q": "Mi ___ il conto, per favore?", "options": ["dà", "da", "do"], "answer": "dà", "why": "Verbo dare, tercera persona (usted): dà.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e15", "type": "choose", "q": "Noi ___ colazione al bar.", "options": ["facciamo", "faciamo", "fammo"], "answer": "facciamo", "why": "Fare con noi: facciamo, con doble c.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e16", "type": "choose", "q": "Io ___ in cucina.", "es": "Estoy en la cocina.", "options": ["sono", "sto"], "answer": "sono", "why": "Para el lugar usamos essere: sono in cucina.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e17", "type": "fill", "q": "Mio figlio ___ solo acqua.", "es": "Mi hijo solo bebe agua.", "answer": ["beve"], "bank": ["beve", "bere", "bevi"], "why": "Bere con lui: beve.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e18", "type": "fill", "q": "Dopo cena ___ una passeggiata.", "es": "Después de cenar damos un paseo.", "answer": ["facciamo"], "bank": ["facciamo", "diamo", "stiamo"], "why": "«Dar un paseo» se dice fare una passeggiata.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e19", "type": "fill", "q": "Voi ___ bene?", "es": "¿Vosotros estáis bien?", "answer": ["state"], "bank": ["state", "siete", "stanno"], "why": "Stare con voi: state.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e20", "type": "error", "q": "Io fago una foto.", "wrong": "fago", "fix": "faccio", "why": "Fare con io: faccio.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e21", "type": "error", "q": "Noi beriamo vino bianco.", "wrong": "beriamo", "fix": "beviamo", "why": "Bere usa la raíz bev-: beviamo.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e22", "type": "error", "q": "Oggi è molto caldo.", "wrong": "è", "fix": "fa", "why": "Para el tiempo usamos fare: fa molto caldo.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e23", "type": "error", "q": "Loro stano a casa stasera.", "wrong": "stano", "fix": "stanno", "why": "Stanno lleva doble n, como danno y fanno.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e24", "type": "transform", "instr": "Cámbiala a «noi»", "q": "Io bevo un tè.", "answer": ["Noi beviamo un tè."], "why": "Bere con noi: beviamo.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e25", "type": "transform", "instr": "Cámbiala a «loro»", "q": "Lei fa la spesa.", "answer": ["Loro fanno la spesa."], "why": "Fare con loro: fanno.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e26", "type": "transform", "instr": "Pregunta de usted (Lei)", "q": "Come stai?", "answer": ["Come sta?"], "why": "De usted usamos la tercera persona: come sta?", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e27", "type": "order", "es": "¿Qué bebes esta noche?", "answer": "Che cosa bevi stasera", "extra": ["beve"], "why": "Bere con tu: bevi.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e28", "type": "order", "es": "Hoy hace calor.", "answer": "Oggi fa caldo", "extra": ["è"], "why": "El tiempo con fare.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "Estoy bien, gracias.", "answer": ["Sto bene, grazie.", "Sto bene grazie."], "why": "Para el estado: sto bene.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e30", "type": "translate", "dir": "from", "q": "Facciamo colazione insieme?", "answer": ["¿Desayunamos juntas?", "¿Desayunamos juntos?"], "why": "Fare colazione = desayunar.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e31", "type": "match", "pairs": [["fare colazione", "desayunar"], ["fa freddo", "hace frío"], ["stare a casa", "quedarse en casa"], ["dare la mancia", "dar propina"], ["bere qualcosa", "tomar algo"]], "why": "Frases hechas con los cuatro verbos.", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e32", "type": "situation", "context": "Te encuentras a tu vecina italiana mayor. Le preguntas, de usted, cómo está.", "emoji": "👵", "options": ["Buongiorno, signora! Come sta?", "Buongiorno, signora! Come stai?", "Buongiorno, signora! Come è?"], "answer": "Buongiorno, signora! Come sta?", "why": "De usted: come sta?", "g": "it-g-irregolari-fare-stare" },
+    { "id": "e33", "type": "reading", "kind": "message", "title": "WhatsApp de Giulia", "text": "Ciao Yolanda! Come stai? Qui a Roma fa un caldo terribile. Stasera io e mio marito facciamo una cena con gli amici: beviamo un buon vino e stiamo in terrazza. Tu che cosa fai?", "questions": [
+      { "q": "¿Qué tiempo hace en Roma?", "options": ["Mucho calor", "Frío", "Llueve"], "answer": "Mucho calor" },
+      { "q": "¿Dónde van a estar Giulia y sus amigos?", "options": ["En la terraza", "En un restaurante", "En la cocina"], "answer": "En la terraza" }
+    ], "why": "Fa un caldo terribile = hace un calor terrible; stiamo in terrazza = estamos en la terraza.", "g": "it-g-irregolari-fare-stare" }
+  ],
+  "reviewed": false
+}

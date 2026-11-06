@@ -1,0 +1,472 @@
+{
+  "id": "it-a1-u04-l1",
+  "unit": "it-a1-u04",
+  "title": "Ecco la mia famiglia",
+  "goal": "a nombrar a los miembros de tu familia en italiano",
+  "emoji": "👨‍👩‍👧‍👦",
+  "photoQuery": "family dinner table italy",
+  "vocab": [
+    {
+      "id": "la-famiglia",
+      "t": "la famiglia",
+      "es": "la familia",
+      "emoji": "👨‍👩‍👧‍👦",
+      "pos": "n",
+      "ex": {
+        "t": "La mia famiglia è grande.",
+        "es": "Mi familia es grande."
+      }
+    },
+    {
+      "id": "i-genitori",
+      "t": "i genitori",
+      "es": "los padres (padre y madre)",
+      "emoji": "👫",
+      "pos": "n",
+      "note": "¡Ojo! «Los padres» es i genitori, no i parenti.",
+      "ex": {
+        "t": "I genitori di Giulia abitano al paese.",
+        "es": "Los padres de Giulia viven en el pueblo."
+      }
+    },
+    {
+      "id": "la-madre",
+      "t": "la madre",
+      "es": "la madre",
+      "emoji": "👩",
+      "pos": "n",
+      "ex": {
+        "t": "Mia madre cucina benissimo.",
+        "es": "Mi madre cocina de maravilla."
+      }
+    },
+    {
+      "id": "il-padre",
+      "t": "il padre",
+      "es": "el padre",
+      "emoji": "👨",
+      "pos": "n",
+      "ex": {
+        "t": "Il padre di Giulia si chiama Antonio.",
+        "es": "El padre de Giulia se llama Antonio."
+      }
+    },
+    {
+      "id": "il-figlio",
+      "t": "il figlio",
+      "es": "el hijo",
+      "emoji": "👦",
+      "pos": "n",
+      "ex": {
+        "t": "Mio figlio si chiama Hugo.",
+        "es": "Mi hijo se llama Hugo."
+      }
+    },
+    {
+      "id": "la-figlia",
+      "t": "la figlia",
+      "es": "la hija",
+      "emoji": "👧",
+      "pos": "n",
+      "ex": {
+        "t": "Anna ha una figlia.",
+        "es": "Anna tiene una hija."
+      }
+    },
+    {
+      "id": "il-marito",
+      "t": "il marito",
+      "es": "el marido",
+      "emoji": "🤵",
+      "pos": "n",
+      "ex": {
+        "t": "Mio marito lavora molto.",
+        "es": "Mi marido trabaja mucho."
+      }
+    },
+    {
+      "id": "la-moglie",
+      "t": "la moglie",
+      "es": "la mujer, la esposa",
+      "emoji": "👰",
+      "pos": "n",
+      "note": "Plural: le mogli.",
+      "ex": {
+        "t": "La moglie di Marco è spagnola.",
+        "es": "La mujer de Marco es española."
+      }
+    },
+    {
+      "id": "il-nipote",
+      "t": "il nipote / la nipote",
+      "es": "el nieto / la nieta (y también sobrino/a)",
+      "emoji": "🧒",
+      "pos": "n",
+      "note": "Nipote significa a la vez nieto y sobrino. El contexto lo aclara.",
+      "ex": {
+        "t": "Giulia ha due nipoti.",
+        "es": "Giulia tiene dos nietos."
+      }
+    },
+    {
+      "id": "i-nonni",
+      "t": "i nonni",
+      "es": "los abuelos",
+      "emoji": "👴👵",
+      "pos": "n",
+      "ex": {
+        "t": "I nonni sono in giardino.",
+        "es": "Los abuelos están en el jardín."
+      }
+    }
+  ],
+  "grammar": "it-g-articoli-det",
+  "pron": {
+    "title": "La gl de figlio y famiglia",
+    "tip": "Gl delante de i suena casi como nuestra ll bien pronunciada (como en «calle» dicho con cuidado): fi-llo, fami-llia. Pega la lengua al paladar.",
+    "words": [
+      "figlio",
+      "figlia",
+      "famiglia",
+      "moglie",
+      "figli"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Hugo è il ___ di Yolanda.",
+      "es": "Hugo es el hijo de Yolanda.",
+      "options": [
+        "figlio",
+        "marito",
+        "nonno"
+      ],
+      "answer": "figlio",
+      "why": "El hijo es il figlio.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Il padre e la madre sono i ___.",
+      "es": "El padre y la madre son los padres.",
+      "options": [
+        "parenti",
+        "genitori",
+        "nonni"
+      ],
+      "answer": "genitori",
+      "why": "¡Ojo! Los padres son i genitori; i parenti son los parientes."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "La ___ di Marco si chiama Elena.",
+      "es": "La mujer de Marco se llama Elena.",
+      "options": [
+        "moglie",
+        "marito",
+        "figlio"
+      ],
+      "answer": "moglie",
+      "why": "La esposa es la moglie (con gl)."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Il figlio di mio figlio è mio ___.",
+      "es": "El hijo de mi hijo es mi nieto.",
+      "answer": [
+        "nipote"
+      ],
+      "bank": [
+        "nipote",
+        "nonno",
+        "zio"
+      ],
+      "why": "Nieto se dice nipote (y sobrino también)."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "___ famiglia di Yolanda è spagnola.",
+      "es": "La familia de Yolanda es española.",
+      "answer": [
+        "La"
+      ],
+      "bank": [
+        "La",
+        "Il",
+        "Le"
+      ],
+      "why": "Famiglia es femenino singular: la.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "___ nonni abitano a Toledo.",
+      "es": "Los abuelos viven en Toledo.",
+      "answer": [
+        "I"
+      ],
+      "bank": [
+        "I",
+        "Gli",
+        "Le"
+      ],
+      "why": "Nonni empieza por consonante: i nonni.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e7",
+      "type": "match",
+      "pairs": [
+        [
+          "il padre",
+          "el padre"
+        ],
+        [
+          "la moglie",
+          "la esposa"
+        ],
+        [
+          "il nipote",
+          "el nieto / sobrino"
+        ],
+        [
+          "i genitori",
+          "los padres"
+        ],
+        [
+          "i parenti",
+          "los parientes"
+        ]
+      ],
+      "why": "Fíjate en genitori y parenti: no significan lo mismo."
+    },
+    {
+      "id": "e8",
+      "type": "translate",
+      "dir": "to",
+      "q": "mi hijo",
+      "answer": [
+        "mio figlio"
+      ],
+      "why": "Hijo = figlio. Con un familiar no ponemos artículo: mio figlio.",
+      "g": "it-g-possessivi"
+    },
+    {
+      "id": "e9",
+      "type": "translate",
+      "dir": "from",
+      "q": "I genitori di Hugo",
+      "answer": [
+        "Los padres de Hugo"
+      ],
+      "why": "I genitori = los padres."
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "La mujer de Marco es española.",
+      "answer": "La moglie di Marco è spagnola",
+      "extra": [
+        "il"
+      ],
+      "why": "Moglie es femenino: la moglie."
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "I parenti di Marco sono Rita e Paolo.",
+      "wrong": "parenti",
+      "fix": "genitori",
+      "why": "El padre y la madre son i genitori; parenti son todos los parientes."
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Enseñas una foto de tu hijo a una señora en el tren.",
+      "emoji": "📱",
+      "options": [
+        "Questo è mio figlio.",
+        "Questo è mio padre.",
+        "Questa è mia figlia."
+      ],
+      "answer": "Questo è mio figlio.",
+      "why": "Figlio = hijo, y es masculino: questo."
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "figli",
+        "fili"
+      ],
+      "answer": "figli",
+      "es": [
+        "hijos",
+        "hilos"
+      ],
+      "why": "En figli la gl suena como una ll; en fili es una l normal."
+    },
+    {
+      "id": "e14",
+      "type": "speak",
+      "t": "Ecco la mia famiglia.",
+      "es": "Aquí está mi familia."
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "message",
+      "title": "Mensaje de Yolanda",
+      "text": "Ciao Giulia! Domenica pranzo con la famiglia: mio figlio Hugo, gli zii e i cugini. Tanti parenti!",
+      "questions": [
+        {
+          "q": "¿Cuándo es la comida?",
+          "options": [
+            "El domingo",
+            "El sábado",
+            "Hoy"
+          ],
+          "answer": "El domingo"
+        },
+        {
+          "q": "¿Quiénes son «i cugini»?",
+          "options": [
+            "Los primos",
+            "Los padres",
+            "Los nietos"
+          ],
+          "answer": "Los primos"
+        },
+        {
+          "q": "¿Qué significa «Tanti parenti»?",
+          "options": [
+            "Muchos parientes",
+            "Muchos padres",
+            "Muchos hijos"
+          ],
+          "answer": "Muchos parientes"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "title": "Una foto en el móvil",
+    "setting": "En una terraza de Amalfi, Yolanda enseña fotos a Giulia",
+    "emoji": "📱",
+    "lines": [
+      {
+        "who": "Giulia",
+        "t": "Chi è questo ragazzo?",
+        "es": "¿Quién es este chico?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "È mio figlio Hugo.",
+        "es": "Es mi hijo Hugo."
+      },
+      {
+        "who": "Giulia",
+        "t": "Che bello! Assomiglia a te!",
+        "es": "¡Qué guapo! ¡Se parece a ti!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, ha i miei occhi.",
+        "es": "Sí, tiene mis ojos."
+      },
+      {
+        "who": "Giulia",
+        "t": "E questi signori?",
+        "es": "¿Y estos señores?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sono i genitori di una mia amica.",
+        "es": "Son los padres de una amiga mía."
+      },
+      {
+        "who": "Giulia",
+        "t": "Hai una famiglia bellissima!",
+        "es": "¡Tienes una familia preciosa!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie, Giulia!",
+        "es": "¡Gracias, Giulia!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué dice Giulia de Hugo?",
+        "options": [
+          "Que se parece a Yolanda",
+          "Que es muy alto",
+          "Que vive en Italia"
+        ],
+        "answer": "Que se parece a Yolanda"
+      },
+      {
+        "q": "¿Quiénes son los señores de la foto?",
+        "options": [
+          "Los padres de una amiga de Yolanda",
+          "Los padres de Yolanda",
+          "Unos parientes lejanos"
+        ],
+        "answer": "Los padres de una amiga de Yolanda"
+      },
+      {
+        "q": "¿Qué dice Giulia de la familia?",
+        "options": [
+          "Que es preciosa",
+          "Que es pequeña",
+          "Que es muy grande"
+        ],
+        "answer": "Que es preciosa"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Questo è mio figlio.",
+    "es": "Este es mi hijo.",
+    "context": "Para presentar a tu hijo o enseñar su foto"
+  },
+  "same": {
+    "text": "Igual que en español: muchas palabras de familia se parecen mucho.",
+    "examples": [
+      {
+        "t": "la madre",
+        "es": "la madre"
+      },
+      {
+        "t": "il padre",
+        "es": "el padre"
+      },
+      {
+        "t": "la famiglia",
+        "es": "la familia"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "i parenti",
+    "means": "los parientes (tíos, primos…)",
+    "looksLike": "los padres",
+    "emoji": "👪",
+    "tip": "Tus padres son i genitori. I parenti son todos los familiares en general."
+  },
+  "summary": [
+    "Familia: madre, padre, figlio, figlia, marito, moglie",
+    "Nipote = nieto y también sobrino",
+    "Los padres = i genitori (¡no i parenti!)",
+    "Gl de figlio y famiglia suena como una ll"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u04-l1"
+}

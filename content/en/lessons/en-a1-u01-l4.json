@@ -1,0 +1,434 @@
+{
+  "id": "en-a1-u01-l4",
+  "unit": "en-a1-u01",
+  "title": "Él, ella… y el famoso it",
+  "goal": "a usar he, she, it, we, they y a no olvidar nunca el sujeto",
+  "emoji": "🌧️",
+  "photoQuery": "rainy london street umbrella",
+  "vocab": [
+    {
+      "id": "he",
+      "t": "he",
+      "es": "él",
+      "emoji": "👨",
+      "pos": "other",
+      "ex": {
+        "t": "He's my son.",
+        "es": "Es mi hijo."
+      }
+    },
+    {
+      "id": "she",
+      "t": "she",
+      "es": "ella",
+      "emoji": "👩",
+      "pos": "other",
+      "ex": {
+        "t": "She's my friend Carmen.",
+        "es": "Es mi amiga Carmen."
+      }
+    },
+    {
+      "id": "it",
+      "t": "it",
+      "es": "(cosa, animal, el tiempo)",
+      "emoji": "📱",
+      "pos": "other",
+      "ex": {
+        "t": "It's my new phone.",
+        "es": "Es mi móvil nuevo."
+      },
+      "note": "En español no se dice nada; en inglés, it es obligatorio."
+    },
+    {
+      "id": "we",
+      "t": "we",
+      "es": "nosotros, nosotras",
+      "emoji": "👭",
+      "pos": "other",
+      "ex": {
+        "t": "We're in London.",
+        "es": "Estamos en Londres."
+      }
+    },
+    {
+      "id": "they",
+      "t": "they",
+      "es": "ellos, ellas",
+      "emoji": "👥",
+      "pos": "other",
+      "ex": {
+        "t": "They're from Italy.",
+        "es": "Son de Italia."
+      }
+    },
+    {
+      "id": "its-raining",
+      "t": "It's raining.",
+      "es": "Está lloviendo.",
+      "emoji": "🌧️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Take an umbrella. It's raining.",
+        "es": "Coge un paraguas. Está lloviendo."
+      }
+    },
+    {
+      "id": "its-cold",
+      "t": "It's cold.",
+      "es": "Hace frío.",
+      "emoji": "🥶",
+      "pos": "phrase",
+      "ex": {
+        "t": "It's very cold today.",
+        "es": "Hoy hace mucho frío."
+      }
+    },
+    {
+      "id": "its-sunny",
+      "t": "It's sunny.",
+      "es": "Hace sol.",
+      "emoji": "☀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "It's sunny in Spain today.",
+        "es": "Hoy hace sol en España."
+      }
+    },
+    {
+      "id": "its-late",
+      "t": "It's late.",
+      "es": "Es tarde.",
+      "emoji": "⏰",
+      "pos": "phrase",
+      "ex": {
+        "t": "Goodnight, Hugo. It's late.",
+        "es": "Buenas noches, Hugo. Es tarde."
+      }
+    }
+  ],
+  "grammar": "en-g-subject-pronouns",
+  "pron": {
+    "title": "he y she; his y he's",
+    "tip": "He empieza con un soplo (/hiː/); she, con el sonido de mandar callar: «shhh» (/ʃiː/). Y fíjate en la vocal: his es corta, he's es larga, como it (corta) y eat (larga).",
+    "words": [
+      "he",
+      "she",
+      "he's",
+      "his",
+      "it's"
+    ],
+    "pairs": [
+      [
+        "he",
+        "she"
+      ],
+      [
+        "his",
+        "he's"
+      ],
+      [
+        "it",
+        "eat"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Hugo is my son. ___ is very tall.",
+      "options": [
+        "He",
+        "She",
+        "It"
+      ],
+      "answer": "He",
+      "why": "Hugo es un hombre, así que usamos he (él).",
+      "g": "en-g-subject-pronouns"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Emma is from London. ___ is very nice.",
+      "options": [
+        "She",
+        "He",
+        "It"
+      ],
+      "answer": "She",
+      "why": "Emma es una mujer: she (ella).",
+      "g": "en-g-subject-pronouns"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Hugo and I are in a café. ___ are happy.",
+      "options": [
+        "We",
+        "They",
+        "You"
+      ],
+      "answer": "We",
+      "why": "Hugo y yo = nosotros: we.",
+      "g": "en-g-subject-pronouns"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "___ is raining today.",
+      "answer": [
+        "It"
+      ],
+      "bank": [
+        "It",
+        "He",
+        "There"
+      ],
+      "why": "Para hablar del tiempo el inglés necesita un sujeto: It is raining. En español no decimos nada.",
+      "g": "en-g-subject-pronouns"
+    },
+    {
+      "id": "e5",
+      "type": "transform",
+      "instr": "Cambia el sujeto por un pronombre",
+      "q": "Emma and Tom are British.",
+      "answer": [
+        "They are British.",
+        "They're British."
+      ],
+      "why": "Emma y Tom = ellos: they.",
+      "g": "en-g-subject-pronouns"
+    },
+    {
+      "id": "e6",
+      "type": "transform",
+      "instr": "Cambia el sujeto por un pronombre",
+      "q": "Carmen is a nurse.",
+      "answer": [
+        "She is a nurse.",
+        "She's a nurse."
+      ],
+      "why": "Carmen es una mujer: she.",
+      "g": "en-g-subject-pronouns"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "Emma is my friend. He is English.",
+      "wrong": "He",
+      "fix": "She",
+      "why": "Emma es una mujer, así que hay que decir she, no he.",
+      "g": "en-g-subject-pronouns"
+    },
+    {
+      "id": "e8",
+      "type": "translate",
+      "dir": "to",
+      "q": "Está lloviendo.",
+      "answer": [
+        "It's raining.",
+        "It is raining."
+      ],
+      "why": "El sujeto es obligatorio, también con el tiempo: It's raining. «Is raining» está mal.",
+      "g": "en-g-subject-pronouns"
+    },
+    {
+      "id": "e9",
+      "type": "translate",
+      "dir": "to",
+      "q": "Hace frío.",
+      "answer": [
+        "It's cold.",
+        "It is cold."
+      ],
+      "why": "En inglés el frío no «se hace»: It is cold (literalmente, «está frío»).",
+      "g": "en-g-subject-pronouns"
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "Ella es enfermera.",
+      "answer": [
+        "She's a nurse.",
+        "She is a nurse."
+      ],
+      "why": "Ella = she, y la profesión lleva a: a nurse.",
+      "g": "en-g-subject-pronouns"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Estamos en Londres",
+      "answer": "We are in London",
+      "extra": [
+        "Is"
+      ],
+      "why": "Primero el sujeto (we) y luego el verbo (are). Nunca empieces solo con el verbo.",
+      "g": "en-g-subject-pronouns"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Miras por la ventana del hotel y llueve. Se lo dices a tu amiga.",
+      "emoji": "🪟",
+      "options": [
+        "It's raining.",
+        "Is raining.",
+        "Raining."
+      ],
+      "answer": "It's raining.",
+      "why": "Sin it la frase está coja: It's raining.",
+      "g": "en-g-subject-pronouns"
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "he",
+        "she"
+      ],
+      "answer": "she",
+      "es": [
+        "él",
+        "ella"
+      ],
+      "why": "Has oído «shhh» al principio: she."
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "his",
+        "he's"
+      ],
+      "answer": "he's",
+      "es": [
+        "su (de él)",
+        "él es / está"
+      ],
+      "why": "He's tiene la vocal larga, como en he. His es corta."
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "I",
+          "yo"
+        ],
+        [
+          "you",
+          "tú / usted / vosotros"
+        ],
+        [
+          "he",
+          "él"
+        ],
+        [
+          "she",
+          "ella"
+        ],
+        [
+          "they",
+          "ellos / ellas"
+        ]
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "It's cold, but it's sunny.",
+      "es": "Hace frío, pero hace sol."
+    }
+  ],
+  "dialog": {
+    "title": "Una videollamada",
+    "setting": "Hugo, de viaje en Londres, llama a su madre; Yolanda está en España",
+    "emoji": "📱",
+    "lines": [
+      {
+        "who": "Hugo",
+        "t": "Hi, Mum! How are you?",
+        "es": "¡Hola, mamá! ¿Qué tal estás?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I'm fine, love. And you?",
+        "es": "Bien, cariño. ¿Y tú?"
+      },
+      {
+        "who": "Hugo",
+        "t": "I'm OK, but I'm tired.",
+        "es": "Bien, pero estoy cansado."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Is it cold in London?",
+        "es": "¿Hace frío en Londres?"
+      },
+      {
+        "who": "Hugo",
+        "t": "Yes, it's very cold. And it's raining.",
+        "es": "Sí, hace mucho frío. Y está lloviendo."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Oh no! Here it's sunny and warm.",
+        "es": "¡Vaya! Aquí hace sol y calor."
+      },
+      {
+        "who": "Hugo",
+        "t": "Lucky you! Where are you now?",
+        "es": "¡Qué suerte! ¿Dónde estás ahora?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I'm at the market with Carmen.",
+        "es": "Estoy en el mercado con Carmen."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cómo está Hugo?",
+        "options": [
+          "Cansado",
+          "Enfermo",
+          "Muy contento"
+        ],
+        "answer": "Cansado"
+      },
+      {
+        "q": "¿Qué tiempo hace en Londres?",
+        "options": [
+          "Frío y lluvia",
+          "Sol y calor"
+        ],
+        "answer": "Frío y lluvia"
+      },
+      {
+        "q": "¿Dónde está Yolanda?",
+        "options": [
+          "En el mercado",
+          "En casa",
+          "En Londres"
+        ],
+        "answer": "En el mercado"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "It's lovely to see you!",
+    "es": "¡Qué alegría verte!",
+    "context": "Cuando ves a alguien querido (o en una videollamada)"
+  },
+  "summary": [
+    "Pronombres: I, you, he, she, it, we, they",
+    "En inglés el sujeto es obligatorio: It's raining (nunca «Is raining»)",
+    "It para cosas, animales y el tiempo: It's cold, it's sunny",
+    "he (soplo) y she («shhh») suenan distinto"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u01-l4"
+}

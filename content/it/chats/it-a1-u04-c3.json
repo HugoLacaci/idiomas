@@ -1,0 +1,60 @@
+{
+  "id": "it-a1-u04-c3",
+  "unit": "it-a1-u04",
+  "title": "Te presento a mi familia",
+  "setting": "En la boda de Chiara, en Amalfi: le presentas a Giulia a tu hijo y a una amiga",
+  "emoji": "💒",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, benvenuta! Sei qui con la tua famiglia?", "es": "¡Yolanda, bienvenida! ¿Estás aquí con tu familia?" },
+      "options": [
+        { "t": "Sì! Ti presento mio figlio Hugo.", "es": "¡Sí! Te presento a mi hijo Hugo.", "next": "n2", "ok": true },
+        { "t": "Sì! Ti presento il mio figlio Hugo.", "es": "¡Sí! Te presento a mi hijo Hugo.", "next": "n2", "ok": false, "feedback": "Con un familiar en singular: mio figlio, sin artículo." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Piacere, Hugo! E la signora è tua madre?", "es": "¡Encantada, Hugo! ¿Y la señora es tu madre?" },
+      "options": [
+        { "t": "No, è la mia amica Carmen.", "es": "No, es mi amiga Carmen.", "next": "n3", "ok": true },
+        { "t": "No, è il mio amica Carmen.", "es": "No, es mi amiga Carmen.", "next": "n3", "ok": false, "feedback": "Amica es femenino: la mia amica." },
+        { "t": "No, è la mia amico Carmen.", "es": "No, es mi amigo Carmen.", "next": "n3", "ok": false, "feedback": "Amico es amigo; amiga es amica." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Ah, la tua amica! E suo marito?", "es": "¡Ah, tu amiga! ¿Y su marido?" },
+      "options": [
+        { "t": "Suo marito è al bar con i bambini.", "es": "Su marido está en el bar con los niños.", "next": "n4", "ok": true },
+        { "t": "Sua marito è al bar con i bambini.", "es": "Su marido está en el bar con los niños.", "next": "n4", "ok": false, "feedback": "Suo/sua concuerda con marito, que es masculino: suo marito." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "I bambini sono i tuoi nipoti?", "es": "¿Los niños son tus nietos?" },
+      "options": [
+        { "t": "No, sono i figli di Carmen!", "es": "No, ¡son los hijos de Carmen!", "next": "n5", "ok": true },
+        { "t": "No, sono le figli di Carmen!", "es": "No, ¡son los hijos de Carmen!", "next": "n5", "ok": false, "feedback": "Figli es masculino plural: i figli." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ah, i figli di Carmen! Come sono?", "es": "¡Ah, los hijos de Carmen! ¿Cómo son?" },
+      "options": [
+        { "t": "Sono biondi e molto bravi.", "es": "Son rubios y muy buenos.", "next": "n6", "ok": true },
+        { "t": "Sono biondos e molto bravos.", "es": "Son rubios y muy buenos.", "next": "n6", "ok": false, "feedback": "En italiano el plural no lleva -s: biondi, bravi." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Perfetto! Adesso tutti a tavola: facciamo una foto di famiglia!", "es": "¡Perfecto! Ahora todos a la mesa: ¡hagamos una foto de familia!" },
+      "options": [
+        { "t": "Sì! Auguri agli sposi!", "es": "¡Sí! ¡Felicidades a los novios!", "next": "end", "ok": true },
+        { "t": "Sì! Auguri alle sposi!", "es": "¡Sí! ¡Felicidades a los novios!", "next": "end", "ok": false, "feedback": "Sposi es masculino plural con s + consonante: agli sposi." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

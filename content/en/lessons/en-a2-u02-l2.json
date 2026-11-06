@@ -1,0 +1,419 @@
+{
+  "id": "en-a2-u02-l2",
+  "unit": "en-a2-u02",
+  "title": "Un pan no, a loaf of bread",
+  "goal": "a distinguir lo que se cuenta de lo que no, y las palabras trampa como news o people",
+  "emoji": "🥖",
+  "photoQuery": "bakery bread loaves shelf",
+  "vocab": [
+    {
+      "id": "shop-a-loaf-of-bread",
+      "t": "a loaf of bread",
+      "es": "una barra / un pan",
+      "emoji": "🥖",
+      "pos": "phrase",
+      "ex": {
+        "t": "Can I have a loaf of bread, please?",
+        "es": "¿Me da un pan, por favor?"
+      },
+      "note": "Plural: two loaves of bread."
+    },
+    {
+      "id": "shop-a-piece-of",
+      "t": "a piece of",
+      "es": "un trozo de",
+      "emoji": "🍰",
+      "pos": "phrase",
+      "ex": {
+        "t": "Would you like a piece of cake?",
+        "es": "¿Quieres un trozo de tarta?"
+      }
+    },
+    {
+      "id": "shop-news",
+      "t": "the news",
+      "es": "las noticias",
+      "emoji": "📰",
+      "pos": "n",
+      "ex": {
+        "t": "The news is on at nine.",
+        "es": "Las noticias son a las nueve."
+      },
+      "note": "¡Ojo! Va en singular: the news is."
+    },
+    {
+      "id": "shop-people",
+      "t": "people",
+      "es": "la gente, las personas",
+      "emoji": "👥",
+      "pos": "n",
+      "ex": {
+        "t": "People are very friendly here.",
+        "es": "La gente aquí es muy simpática."
+      },
+      "note": "¡Ojo! Es plural: people are. Nunca «peoples»."
+    },
+    {
+      "id": "shop-information",
+      "t": "information",
+      "es": "la información",
+      "emoji": "ℹ️",
+      "pos": "n",
+      "ex": {
+        "t": "I need some information about the market.",
+        "es": "Necesito información sobre el mercado."
+      },
+      "note": "Nunca «informations»."
+    },
+    {
+      "id": "shop-advice",
+      "t": "advice",
+      "es": "los consejos",
+      "emoji": "🗣️",
+      "pos": "n",
+      "ex": {
+        "t": "My friend always gives me good advice.",
+        "es": "Mi amiga siempre me da buenos consejos."
+      },
+      "note": "Incontable: some advice, a piece of advice."
+    },
+    {
+      "id": "shop-money",
+      "t": "money",
+      "es": "el dinero",
+      "emoji": "💶",
+      "pos": "n",
+      "ex": {
+        "t": "I haven't got much money on me.",
+        "es": "No llevo mucho dinero encima."
+      }
+    },
+    {
+      "id": "shop-pasta",
+      "t": "pasta",
+      "es": "la pasta",
+      "emoji": "🍝",
+      "pos": "n",
+      "ex": {
+        "t": "The pasta is next to the rice.",
+        "es": "La pasta está al lado del arroz."
+      },
+      "note": "Incontable, como en español: the pasta is."
+    }
+  ],
+  "grammar": "en-g-countable-uncountable",
+  "pron": {
+    "title": "news y people",
+    "tip": "News suena «niuuz», con una z zumbando al final, no «nius». People suena «píipol»: la e es una i larga y la o casi no se oye.",
+    "words": [
+      "news",
+      "people",
+      "information",
+      "advice",
+      "loaf"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "The news ___ on at nine.",
+      "options": [
+        "is",
+        "are"
+      ],
+      "answer": "is",
+      "why": "News es singular: the news is.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "People ___ very friendly here.",
+      "options": [
+        "are",
+        "is"
+      ],
+      "answer": "are",
+      "why": "People es plural: are.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Would you like a ___ of cake?",
+      "options": [
+        "piece",
+        "loaf",
+        "bottle"
+      ],
+      "answer": "piece",
+      "why": "Un trozo = a piece of.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "My friend gives me good ___.",
+      "options": [
+        "advice",
+        "advices"
+      ],
+      "answer": "advice",
+      "why": "Advice es incontable: sin -s.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Can I have two ___ of bread, please?",
+      "es": "¿Me da dos panes, por favor?",
+      "answer": [
+        "loaves"
+      ],
+      "bank": [
+        "loaves",
+        "loafs",
+        "breads"
+      ],
+      "why": "El plural de loaf es loaves (f → ves).",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I need some ___ about the trains.",
+      "es": "Necesito información sobre los trenes.",
+      "answer": [
+        "information"
+      ],
+      "bank": [
+        "information",
+        "informations",
+        "an information"
+      ],
+      "why": "Information: sin -s y sin an.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "The pasta ___ next to the rice.",
+      "es": "La pasta está al lado del arroz.",
+      "answer": [
+        "is",
+        "'s"
+      ],
+      "why": "Pasta es incontable: is.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "There are many peoples in the supermarket.",
+      "wrong": "peoples",
+      "fix": "people",
+      "why": "People ya es plural: sin -s.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "The news are on the radio.",
+      "wrong": "are",
+      "fix": "is",
+      "why": "News va con is.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Can you give me an advice?",
+      "wrong": "an",
+      "fix": "some",
+      "why": "Advice es incontable: some advice.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Corrige la frase",
+      "q": "I'd like a bread and a cheese.",
+      "answer": [
+        "I'd like a loaf of bread and a piece of cheese.",
+        "I'd like some bread and some cheese.",
+        "I would like a loaf of bread and a piece of cheese.",
+        "I'd like a loaf of bread and some cheese."
+      ],
+      "why": "Bread y cheese no llevan a: some o un envase.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "La gente de mi pueblo es muy amable",
+      "answer": "The people in my village are very kind",
+      "extra": [
+        "is"
+      ],
+      "why": "People + are.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "Las noticias son buenas.",
+      "answer": [
+        "The news is good.",
+        "The news is good"
+      ],
+      "why": "News en singular: is.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e14",
+      "type": "conjugate",
+      "verb": "to be",
+      "person": "the money",
+      "tense": "presente",
+      "q": "The money ___ in my bag.",
+      "answer": [
+        "is"
+      ],
+      "why": "Money es incontable: is.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "En la oficina de turismo de Londres quieres información del mercado.",
+      "emoji": "ℹ️",
+      "options": [
+        "Can I have some information about the market?",
+        "Can I have some informations about the market?",
+        "Can I have an information about the market?"
+      ],
+      "answer": "Can I have some information about the market?",
+      "why": "Information: some information.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e16",
+      "type": "match",
+      "pairs": [
+        [
+          "a loaf of",
+          "bread"
+        ],
+        [
+          "a piece of",
+          "cake"
+        ],
+        [
+          "some",
+          "advice"
+        ],
+        [
+          "the news",
+          "is"
+        ],
+        [
+          "people",
+          "are"
+        ]
+      ],
+      "why": "Las parejas que debes recordar.",
+      "g": "en-g-countable-uncountable"
+    }
+  ],
+  "dialog": {
+    "title": "En la panadería",
+    "setting": "Yolanda compra pan en una panadería de barrio en Londres",
+    "emoji": "🥐",
+    "lines": [
+      {
+        "who": "Baker",
+        "t": "Good morning! What would you like?",
+        "es": "¡Buenos días! ¿Qué desea?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "A loaf of brown bread, please.",
+        "es": "Un pan integral, por favor."
+      },
+      {
+        "who": "Baker",
+        "t": "Anything else?",
+        "es": "¿Algo más?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, two pieces of carrot cake.",
+        "es": "Sí, dos trozos de tarta de zanahoria."
+      },
+      {
+        "who": "Baker",
+        "t": "Lovely. Are you on holiday?",
+        "es": "Muy bien. ¿Está de vacaciones?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes. The people here are very kind!",
+        "es": "Sí. ¡La gente aquí es muy amable!"
+      },
+      {
+        "who": "Baker",
+        "t": "Thank you! Here's some information about our cooking classes.",
+        "es": "¡Gracias! Aquí tiene información sobre nuestras clases de cocina."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Great, thanks. Have a nice day!",
+        "es": "Estupendo, gracias. ¡Que tenga un buen día!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué pan compra Yolanda?",
+        "options": [
+          "Integral",
+          "Blanco",
+          "De molde"
+        ],
+        "answer": "Integral"
+      },
+      {
+        "q": "¿Cuántos trozos de tarta pide?",
+        "options": [
+          "Dos",
+          "Uno",
+          "Tres"
+        ],
+        "answer": "Dos"
+      },
+      {
+        "q": "¿De qué le dan información?",
+        "options": [
+          "De clases de cocina",
+          "Del mercado",
+          "De los trenes"
+        ],
+        "answer": "De clases de cocina"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "A loaf of bread, please.",
+    "es": "Un pan, por favor.",
+    "context": "Para pedir pan en una panadería"
+  },
+  "summary": [
+    "Incontables sin a ni -s: bread, milk, money, information, advice",
+    "Para contarlas: a loaf of bread, a piece of cake",
+    "the news is (singular) · people are (plural)",
+    "Nunca: a bread, informations, peoples"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u02-l2"
+}

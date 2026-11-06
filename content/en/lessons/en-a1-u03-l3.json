@@ -1,0 +1,450 @@
+{
+  "id": "en-a1-u03-l3",
+  "unit": "en-a1-u03",
+  "title": "Regalos de colores para los nietos",
+  "goal": "a decir colores, contar cosas en plural y comprar regalos en un mercadillo",
+  "emoji": "🎨",
+  "photoQuery": "colourful market stall scarves",
+  "vocab": [
+    {
+      "id": "red",
+      "t": "red",
+      "es": "rojo",
+      "emoji": "🔴",
+      "pos": "adj",
+      "ex": {
+        "t": "Two red bags, please.",
+        "es": "Dos bolsos rojos, por favor."
+      },
+      "note": "El color no cambia en plural: red bags."
+    },
+    {
+      "id": "blue",
+      "t": "blue",
+      "es": "azul",
+      "emoji": "🔵",
+      "pos": "adj",
+      "ex": {
+        "t": "My grandson loves blue.",
+        "es": "A mi nieto le encanta el azul."
+      }
+    },
+    {
+      "id": "green",
+      "t": "green",
+      "es": "verde",
+      "emoji": "🟢",
+      "pos": "adj",
+      "ex": {
+        "t": "The green scarf is lovely.",
+        "es": "La bufanda verde es preciosa."
+      }
+    },
+    {
+      "id": "yellow",
+      "t": "yellow",
+      "es": "amarillo",
+      "emoji": "🟡",
+      "pos": "adj",
+      "ex": {
+        "t": "A yellow umbrella for the rain.",
+        "es": "Un paraguas amarillo para la lluvia."
+      }
+    },
+    {
+      "id": "black-white",
+      "t": "black and white",
+      "es": "negro y blanco",
+      "emoji": "⚫",
+      "pos": "adj",
+      "ex": {
+        "t": "London taxis are often black.",
+        "es": "Los taxis de Londres suelen ser negros."
+      }
+    },
+    {
+      "id": "what-colour",
+      "t": "What colour is it?",
+      "es": "¿De qué color es?",
+      "emoji": "🎨",
+      "pos": "phrase",
+      "ex": {
+        "t": "Your new car? What colour is it?",
+        "es": "¿Tu coche nuevo? ¿De qué color es?"
+      },
+      "note": "En EE. UU. se escribe color."
+    },
+    {
+      "id": "how-many",
+      "t": "How many…?",
+      "es": "¿Cuántos/as…?",
+      "emoji": "🔢",
+      "pos": "phrase",
+      "ex": {
+        "t": "How many grandchildren have you got?",
+        "es": "¿Cuántos nietos tienes?"
+      }
+    },
+    {
+      "id": "here-you-are",
+      "t": "Here you are.",
+      "es": "Aquí tiene. / Toma.",
+      "emoji": "🤲",
+      "pos": "phrase",
+      "ex": {
+        "t": "Here you are. Five pounds.",
+        "es": "Aquí tiene. Cinco libras."
+      }
+    },
+    {
+      "id": "a-scarf",
+      "t": "a scarf (scarves)",
+      "es": "una bufanda / un pañuelo (bufandas)",
+      "emoji": "🧣",
+      "pos": "n",
+      "ex": {
+        "t": "These scarves are very soft.",
+        "es": "Estas bufandas son muy suaves."
+      }
+    }
+  ],
+  "grammar": "en-g-plurals",
+  "pron": {
+    "title": "La -s del plural: s, z o iz",
+    "tip": "La -s final suena «s» después de p, t, k (books, cups), «z» suave después de casi todo lo demás (bags, keys) y añade una sílaba «iz» después de s, sh, ch, x (glasses, watches, boxes). ¡No te comas la -s! Sin ella, no es plural.",
+    "words": [
+      "cups",
+      "bags",
+      "keys",
+      "glasses",
+      "watches",
+      "boxes"
+    ],
+    "pairs": [
+      [
+        "bag",
+        "bags"
+      ],
+      [
+        "watch",
+        "watches"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Carmen has got three ___.",
+      "es": "Carmen tiene tres nietos.",
+      "options": [
+        "grandchild",
+        "grandchildren",
+        "grandchildrens"
+      ],
+      "answer": "grandchildren",
+      "why": "Grandchild → grandchildren, sin -s.",
+      "g": "en-g-plurals"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "How many ___ are there?",
+      "es": "¿Cuántas bufandas hay?",
+      "options": [
+        "scarfs",
+        "scarves",
+        "scarve"
+      ],
+      "answer": "scarves",
+      "why": "Scarf termina en -f: scarf → scarves.",
+      "g": "en-g-plurals"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "I want two ___ bags.",
+      "es": "Quiero dos bolsos azules.",
+      "options": [
+        "blue",
+        "blues"
+      ],
+      "answer": "blue",
+      "why": "Los colores (y todos los adjetivos) no llevan -s en inglés.",
+      "g": "en-g-plurals"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "The ___ in the market are very nice.",
+      "es": "La gente del mercado es muy maja.",
+      "answer": [
+        "people"
+      ],
+      "bank": [
+        "people",
+        "peoples",
+        "persons"
+      ],
+      "why": "La gente = people, y es plural.",
+      "g": "en-g-plurals"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "These two ___ are for my grandsons.",
+      "es": "Estos dos relojes son para mis nietos.",
+      "answer": [
+        "watches"
+      ],
+      "bank": [
+        "watchs",
+        "watches",
+        "watch"
+      ],
+      "why": "Termina en -ch: se añade -es.",
+      "g": "en-g-plurals"
+    },
+    {
+      "id": "e6",
+      "type": "match",
+      "pairs": [
+        [
+          "red",
+          "rojo"
+        ],
+        [
+          "yellow",
+          "amarillo"
+        ],
+        [
+          "green",
+          "verde"
+        ],
+        [
+          "blue",
+          "azul"
+        ],
+        [
+          "black",
+          "negro"
+        ]
+      ]
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "I've got two greens scarves.",
+      "wrong": "greens",
+      "fix": "green",
+      "why": "Los colores nunca van en plural: green scarves.",
+      "g": "en-g-plurals"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "The children is in the garden.",
+      "wrong": "is",
+      "fix": "are",
+      "why": "Children es plural: the children are.",
+      "g": "en-g-plurals"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "¿De qué color es tu bolso?",
+      "answer": "What colour is your bag",
+      "extra": [
+        "how"
+      ],
+      "why": "¿De qué color…? = What colour…?"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Pásala a plural",
+      "q": "The red box is for Hugo.",
+      "answer": [
+        "The red boxes are for Hugo."
+      ],
+      "why": "Box → boxes (-x + es), is → are; red no cambia.",
+      "g": "en-g-plurals"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Cuántos nietos tienes?",
+      "answer": [
+        "How many grandchildren have you got?",
+        "How many grandchildren do you have?"
+      ],
+      "why": "How many + plural: grandchildren.",
+      "g": "en-g-plurals"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "En el mercadillo, la vendedora te da la bufanda y tú le das el dinero.",
+      "emoji": "💷",
+      "options": [
+        "Here you are.",
+        "Here you is.",
+        "You are here."
+      ],
+      "answer": "Here you are.",
+      "why": "Al dar algo a alguien se dice Here you are."
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "bag",
+        "bags"
+      ],
+      "answer": "bags",
+      "es": [
+        "bolso",
+        "bolsos"
+      ],
+      "why": "Escucha la «z» suave al final: bags."
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "watch",
+        "watches"
+      ],
+      "answer": "watches",
+      "es": [
+        "reloj",
+        "relojes"
+      ],
+      "why": "Watches tiene una sílaba más: «wo-chiz»."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "How much are these scarves?",
+      "es": "¿Cuánto cuestan estas bufandas?"
+    },
+    {
+      "id": "e16",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel del puesto",
+      "text": "SCARVES – £8 each\n2 scarves for £14!\nAll colours: red, blue, green and yellow",
+      "questions": [
+        {
+          "q": "¿Cuánto cuestan dos bufandas?",
+          "options": [
+            "14 libras",
+            "8 libras",
+            "16 libras"
+          ],
+          "answer": "14 libras"
+        },
+        {
+          "q": "¿Cuál de estos colores NO aparece?",
+          "options": [
+            "Negro",
+            "Rojo",
+            "Verde"
+          ],
+          "answer": "Negro"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "title": "En el mercadillo",
+    "setting": "En un puesto de un mercadillo de Londres",
+    "emoji": "🧣",
+    "lines": [
+      {
+        "who": "Seller",
+        "t": "Hello! Can I help you?",
+        "es": "¡Hola! ¿Puedo ayudarla?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes. How much are the scarves?",
+        "es": "Sí. ¿Cuánto cuestan las bufandas?"
+      },
+      {
+        "who": "Seller",
+        "t": "Eight pounds each. Two for fourteen.",
+        "es": "Ocho libras cada una. Dos por catorce."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Two, please. For my grandchildren.",
+        "es": "Dos, por favor. Para mis nietos."
+      },
+      {
+        "who": "Seller",
+        "t": "Lovely! What colours?",
+        "es": "¡Qué bien! ¿De qué colores?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "A blue one and a red one.",
+        "es": "Una azul y una roja."
+      },
+      {
+        "who": "Seller",
+        "t": "Here you are. Fourteen pounds, please.",
+        "es": "Aquí tiene. Catorce libras, por favor."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Here you are. Thank you!",
+        "es": "Aquí tiene. ¡Gracias!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuántas bufandas compra Yolanda?",
+        "options": [
+          "Dos",
+          "Una",
+          "Tres"
+        ],
+        "answer": "Dos"
+      },
+      {
+        "q": "¿Para quién son?",
+        "options": [
+          "Para sus nietos",
+          "Para Hugo",
+          "Para ella"
+        ],
+        "answer": "Para sus nietos"
+      },
+      {
+        "q": "¿De qué colores son?",
+        "options": [
+          "Azul y roja",
+          "Verde y amarilla",
+          "Negra y blanca"
+        ],
+        "answer": "Azul y roja"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Have you got this in blue?",
+    "es": "¿Lo tiene en azul?",
+    "context": "Para pedir otro color en una tienda"
+  },
+  "summary": [
+    "Colores: red, blue, green, yellow, black, white",
+    "Plural con -s / -es: bags, watches, boxes; scarf → scarves",
+    "Irregulares: children, grandchildren, people (siempre con are)",
+    "Los colores no llevan -s: two red bags",
+    "Frases: What colour is it? · How many…? · Here you are."
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u03-l3"
+}

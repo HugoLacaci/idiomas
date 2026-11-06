@@ -1,0 +1,58 @@
+{
+  "id": "it-a2-u04-c2",
+  "unit": "it-a2-u04",
+  "title": "Juegos de antes",
+  "setting": "Giulia y tú paseáis por un parque de Roma lleno de niños",
+  "emoji": "🪀",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Guarda quei bambini con il tablet! Noi giocavamo in strada.", "es": "¡Mira esos niños con la tableta! Nosotros jugábamos en la calle." },
+      "options": [
+        { "t": "Anche noi! Giocavamo a nascondino.", "es": "¡Nosotros también! Jugábamos al escondite.", "next": "n2", "ok": true },
+        { "t": "Anche noi! Giochiamo a nascondino.", "es": "¡Nosotros también! Jugamos al escondite.", "next": "n2", "ok": false, "feedback": "Es un recuerdo de antes: giocavamo." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Io saltavo la corda per ore. E tu?", "es": "Yo saltaba a la comba durante horas. ¿Y tú?" },
+      "options": [
+        { "t": "Io preferivo andare in bicicletta.", "es": "Yo prefería montar en bici.", "next": "n3", "ok": true },
+        { "t": "Io preferiva andare in bicicletta.", "es": "Yo prefería montar en bici.", "next": "n3", "ok": false, "feedback": "Con io la terminación es -vo: preferivo." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "E la sera cosa facevate in famiglia?", "es": "¿Y por la noche qué hacíais en familia?" },
+      "options": [
+        { "t": "Guardavamo la televisione tutti insieme.", "es": "Veíamos la tele todos juntos.", "next": "n4", "ok": true },
+        { "t": "Guardavano la televisione tutti insieme.", "es": "Veían la tele todos juntos.", "next": "n4", "ok": false, "feedback": "Hablas de tu familia contigo (noi): guardavamo." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "A quei tempi c'era solo un canale, vero?", "es": "En aquellos tiempos solo había un canal, ¿verdad?" },
+      "options": [
+        { "t": "Sì, e non c'erano i cellulari!", "es": "¡Sí, y no había móviles!", "next": "n5", "ok": true },
+        { "t": "Sì, e non c'era i cellulari!", "es": "¡Sí, y no había móviles!", "next": "n5", "ok": false, "feedback": "I cellulari es plural: c'erano." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "E cosa mangiavi per merenda?", "es": "¿Y qué merendabas?" },
+      "options": [
+        { "t": "Di solito mangiavo pane e cioccolato.", "es": "Normalmente comía pan con chocolate.", "next": "n6", "ok": true },
+        { "t": "Di solito ho mangiato pane e cioccolato.", "es": "Normalmente comí pan con chocolate.", "next": "n6", "ok": false, "feedback": "Di solito habla de una costumbre: imperfetto, mangiavo." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Pane e cioccolato! Che nostalgia!", "es": "¡Pan con chocolate! ¡Qué nostalgia!" },
+      "options": [
+        { "t": "Erano altri tempi!", "es": "¡Eran otros tiempos!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

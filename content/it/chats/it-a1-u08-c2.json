@@ -1,0 +1,59 @@
+{
+  "id": "it-a1-u08-c2",
+  "unit": "it-a1-u08",
+  "title": "Te espero en el andén",
+  "setting": "Giulia te llama: ya está en la estación y tú aún no has llegado",
+  "emoji": "🚉",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Pronto, Yolanda? Io sono già in stazione. Dove sei?", "es": "¿Diga? ¿Yolanda? Yo ya estoy en la estación. ¿Dónde estás?" },
+      "options": [
+        { "t": "Sono in autobus, arrivo tra cinque minuti!", "es": "Estoy en el autobús, ¡llego dentro de cinco minutos!", "next": "n2", "ok": true },
+        { "t": "Sono a autobus, arrivo tra cinque minuti!", "es": "Estoy en el autobús, ¡llego dentro de cinco minutos!", "next": "n2", "ok": false, "feedback": "Con los transportes se usa in: sono in autobus." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Tranquilla, il treno è in ritardo di dieci minuti.", "es": "Tranquila, el tren lleva diez minutos de retraso." },
+      "options": [
+        { "t": "Meno male! Da che binario parte?", "es": "¡Menos mal! ¿De qué vía sale?", "next": "n3", "ok": true },
+        { "t": "Meno male! È libero il binario?", "es": "¡Menos mal! ¿Está libre la vía?", "next": "n3", "ok": false, "feedback": "Para saber la vía se pregunta: da che binario parte?" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Dal binario sei. Ti aspetto lì, vicino al bar.", "es": "De la vía seis. Te espero allí, junto al bar." },
+      "options": [
+        { "t": "Perfetto, vengo subito al binario sei.", "es": "Perfecto, voy enseguida a la vía seis.", "next": "n4", "ok": true },
+        { "t": "Perfetto, vado subito da binario sei.", "es": "Perfecto, voy enseguida a la vía seis.", "next": "n4", "ok": false, "feedback": "Vas hacia donde está Giulia: vengo. Y da se usa con personas, no con la vía." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Hai il biglietto? Ricordati di convalidarlo!", "es": "¿Tienes el billete? ¡Acuérdate de validarlo!" },
+      "options": [
+        { "t": "Sì, ho il biglietto. Lo convalido adesso.", "es": "Sí, tengo el billete. Lo valido ahora.", "next": "n5", "ok": true },
+        { "t": "Sì, ho la coincidenza. La convalido adesso.", "es": "Sí, tengo el enlace. Lo valido ahora.", "next": "n5", "ok": false, "feedback": "La coincidenza es el enlace con otro tren; lo que validas es il biglietto." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Brava! Ah, ecco l'autobus... ti vedo! Scendi qui?", "es": "¡Muy bien! Ah, ahí está el autobús… ¡te veo! ¿Te bajas aquí?" },
+      "options": [
+        { "t": "Sì, scendo adesso!", "es": "¡Sí, me bajo ahora!", "next": "n6", "ok": true },
+        { "t": "Sì, salgo adesso!", "es": "¡Sí, me bajo ahora!", "next": "n6", "ok": false, "feedback": "¡Ojo! Salire es subir. Para bajar del autobús: scendo." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Eccoti! Andiamo, il treno arriva!", "es": "¡Aquí estás! ¡Vamos, que llega el tren!" },
+      "options": [
+        { "t": "Andiamo! Saliamo sul treno.", "es": "¡Vamos! Subimos al tren.", "next": "end", "ok": true },
+        { "t": "Andiamo! Usciamo sul treno.", "es": "¡Vamos! Salimos al tren.", "next": "end", "ok": false, "feedback": "Subir al tren es salire: saliamo sul treno." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

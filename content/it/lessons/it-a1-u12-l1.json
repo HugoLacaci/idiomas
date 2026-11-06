@@ -1,0 +1,84 @@
+{
+  "id": "it-a1-u12-l1",
+  "unit": "it-a1-u12",
+  "title": "Nel tempo libero…",
+  "goal": "a nombrar tus aficiones y decir qué haces en tu tiempo libre",
+  "emoji": "🎸",
+  "photoQuery": "woman painting watercolor hobby",
+  "vocab": [
+    { "id": "tempo-il-tempo-libero", "t": "il tempo libero", "es": "el tiempo libre", "emoji": "🕰️", "pos": "n", "ex": { "t": "Nel tempo libero leggo molto.", "es": "En mi tiempo libre leo mucho." } },
+    { "id": "tempo-leggere", "t": "leggere", "es": "leer", "emoji": "📖", "pos": "v", "ex": { "t": "Leggo un libro ogni sera.", "es": "Leo un libro cada noche." } },
+    { "id": "tempo-ballare", "t": "ballare", "es": "bailar", "emoji": "💃", "pos": "v", "ex": { "t": "Il sabato ballo con mio marito.", "es": "Los sábados bailo con mi marido." } },
+    { "id": "tempo-cantare", "t": "cantare", "es": "cantar", "emoji": "🎤", "pos": "v", "ex": { "t": "Canto in un coro.", "es": "Canto en un coro." } },
+    { "id": "tempo-nuotare", "t": "nuotare", "es": "nadar", "emoji": "🏊", "pos": "v", "ex": { "t": "D'estate nuoto al mare.", "es": "En verano nado en el mar." } },
+    { "id": "tempo-camminare", "t": "camminare", "es": "caminar, andar", "emoji": "🚶‍♀️", "pos": "v", "ex": { "t": "Cammino un'ora ogni mattina.", "es": "Camino una hora cada mañana." } },
+    { "id": "tempo-suonare-la-chitarra", "t": "suonare la chitarra", "es": "tocar la guitarra", "emoji": "🎸", "pos": "phrase", "note": "¡Ojo! Los instrumentos se «suenan»: suonare il piano, suonare la chitarra. Toccare es tocar con la mano.", "ex": { "t": "Mio figlio suona la chitarra.", "es": "Mi hijo toca la guitarra." } },
+    { "id": "tempo-dipingere", "t": "dipingere", "es": "pintar (cuadros)", "emoji": "🎨", "pos": "v", "ex": { "t": "Il martedì dipingo con le mie amiche.", "es": "Los martes pinto con mis amigas." } },
+    { "id": "tempo-il-calcio", "t": "il calcio", "es": "el fútbol", "emoji": "⚽", "pos": "n", "ex": { "t": "Mio marito guarda il calcio in tv.", "es": "Mi marido ve el fútbol en la tele." } },
+    { "id": "tempo-la-squadra", "t": "la squadra", "es": "el equipo", "emoji": "🏆", "pos": "n", "note": "¡Ojo, falso amigo! No es una escuadra.", "ex": { "t": "Qual è la tua squadra?", "es": "¿Cuál es tu equipo?" } }
+  ],
+  "grammar": "it-g-presente-are",
+  "pron": {
+    "title": "El sonido uo",
+    "tip": "En suonare, nuotare o buono, la u y la o se dicen juntas y rápidas, como en nuestro «cuota»: «suo-na-re», «nuo-ta-re».",
+    "words": ["suonare", "nuotare", "buono", "suono", "nuoto"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Nel tempo libero ___ un libro.", "es": "En mi tiempo libre leo un libro.", "options": ["leggo", "leggi", "legge"], "answer": "leggo", "why": "Con io, el verbo termina en -o: leggo.", "g": "it-g-presente-ere-ire" },
+    { "id": "e2", "type": "choose", "q": "Il sabato io e mio marito ___.", "es": "Los sábados mi marido y yo bailamos.", "options": ["balliamo", "ballano", "ballo"], "answer": "balliamo", "why": "Io e mio marito = noi: balliamo.", "g": "it-g-presente-are" },
+    { "id": "e3", "type": "choose", "q": "Mio figlio suona ___ chitarra.", "es": "Mi hijo toca la guitarra.", "options": ["la", "il", "lo"], "answer": "la", "why": "Chitarra es femenina: la chitarra.", "g": "it-g-articoli-det" },
+    { "id": "e4", "type": "fill", "q": "D'estate ___ al mare.", "es": "En verano nado en el mar.", "answer": ["nuoto"], "bank": ["nuoto", "nuoti", "nuotare"], "why": "Io → nuoto.", "g": "it-g-presente-are" },
+    { "id": "e5", "type": "fill", "q": "Mio figlio ___ la chitarra.", "es": "Mi hijo toca la guitarra.", "answer": ["suona"], "bank": ["suona", "tocca", "suono"], "why": "Los instrumentos se tocan con suonare: lui suona.", "g": "it-g-presente-are" },
+    { "id": "e6", "type": "fill", "q": "Ogni mattina ___ un'ora.", "es": "Cada mañana camino una hora.", "answer": ["cammino"], "hint": "camminare, io", "why": "Io → cammino.", "g": "it-g-presente-are" },
+    { "id": "e7", "type": "error", "q": "Mio figlio tocca la chitarra.", "wrong": "tocca", "fix": "suona", "why": "Para instrumentos usamos suonare: suona la chitarra.", "g": "it-g-presente-are" },
+    { "id": "e8", "type": "error", "q": "Le mie amiche ballono il sabato.", "wrong": "ballono", "fix": "ballano", "why": "Los verbos en -are hacen loro en -ano: ballano.", "g": "it-g-presente-are" },
+    { "id": "e9", "type": "transform", "instr": "Hazla negativa", "q": "Gioco a tennis.", "answer": ["Non gioco a tennis."], "why": "Non va delante del verbo.", "g": "it-g-presente-are" },
+    { "id": "e10", "type": "order", "es": "En mi tiempo libre camino mucho.", "answer": "Nel tempo libero cammino molto", "alt": ["Cammino molto nel tempo libero"], "extra": ["camminare"], "why": "Nel tempo libero + verbo conjugado.", "g": "it-g-presente-are" },
+    { "id": "e11", "type": "translate", "dir": "to", "q": "Mi marido ve el fútbol.", "answer": ["Mio marito guarda il calcio.", "Mio marito guarda la partita."], "why": "Fútbol = il calcio; ver la tele = guardare.", "g": "it-g-presente-are" },
+    { "id": "e12", "type": "translate", "dir": "from", "q": "Qual è la tua squadra?", "answer": ["¿Cuál es tu equipo?"], "why": "La squadra = el equipo (falso amigo)." },
+    { "id": "e13", "type": "match", "pairs": [["ballare", "bailar"], ["nuotare", "nadar"], ["dipingere", "pintar"], ["camminare", "caminar"], ["la squadra", "el equipo"]], "why": "Ojo con squadra: es el equipo." },
+    { "id": "e14", "type": "situation", "context": "Una vecina italiana te pregunta: «Cosa fai nel tempo libero?». A ti te encanta leer y caminar.", "emoji": "🌳", "options": ["Leggo e cammino.", "Leggere e camminare io.", "Legge e cammina."], "answer": "Leggo e cammino.", "why": "Hablas de ti: leggo, cammino (io).", "g": "it-g-presente-are" },
+    { "id": "e15", "type": "reading", "kind": "message", "title": "WhatsApp de Paola", "text": "Ciao Yolanda! Nel tempo libero io dipingo e canto in un coro. Mio marito nuota in piscina. E tu cosa fai?", "questions": [
+      { "q": "¿Qué hace Paola?", "options": ["Pinta y canta", "Nada y baila", "Lee y camina"], "answer": "Pinta y canta" },
+      { "q": "¿Dónde nada su marido?", "options": ["En la piscina", "En el mar", "En el lago"], "answer": "En la piscina" }
+    ], "why": "Dipingo = pinto; nuota in piscina = nada en la piscina." },
+    { "id": "e16", "type": "speak", "t": "Nel tempo libero leggo e cammino.", "es": "En mi tiempo libre leo y camino." }
+  ],
+  "dialog": {
+    "title": "Aficiones en el parque",
+    "setting": "En un parque de Roma, Yolanda charla con Paola, una señora que pasea cada día",
+    "emoji": "🌳",
+    "lines": [
+      { "who": "Paola", "t": "Cammini ogni giorno qui?", "es": "¿Caminas aquí todos los días?" },
+      { "who": "Yolanda", "t": "Sì, cammino un'ora ogni mattina.", "es": "Sí, camino una hora cada mañana." },
+      { "who": "Paola", "t": "Brava! E cosa fai nel tempo libero?", "es": "¡Muy bien! ¿Y qué haces en tu tiempo libre?" },
+      { "who": "Yolanda", "t": "Leggo tanto e ballo con mio marito.", "es": "Leo mucho y bailo con mi marido." },
+      { "who": "Paola", "t": "Che bello! Io canto in un coro.", "es": "¡Qué bonito! Yo canto en un coro." },
+      { "who": "Yolanda", "t": "E tuo marito?", "es": "¿Y tu marido?" },
+      { "who": "Paola", "t": "Lui guarda il calcio. Sempre!", "es": "Él ve el fútbol. ¡Siempre!" },
+      { "who": "Yolanda", "t": "Anche il mio! Qual è la sua squadra?", "es": "¡El mío también! ¿Cuál es su equipo?" }
+    ],
+    "questions": [
+      { "q": "¿Cuánto camina Yolanda cada mañana?", "options": ["Una hora", "Dos horas", "Media hora"], "answer": "Una hora" },
+      { "q": "¿Qué hace Paola en su tiempo libre?", "options": ["Canta en un coro", "Pinta", "Nada"], "answer": "Canta en un coro" },
+      { "q": "¿Qué tienen en común los maridos?", "options": ["Ven el fútbol", "Tocan la guitarra", "Bailan"], "answer": "Ven el fútbol" }
+    ]
+  },
+  "realLife": { "t": "Cosa fai nel tempo libero?", "es": "¿Qué haces en tu tiempo libre?", "context": "Para conocer mejor a alguien en una charla tranquila" },
+  "same": {
+    "text": "Muchas aficiones se parecen al español y los verbos en -are se conjugan como ya sabes.",
+    "examples": [
+      { "t": "Canto.", "es": "Canto." },
+      { "t": "Cammino molto.", "es": "Camino mucho." },
+      { "t": "Gioco a tennis.", "es": "Juego al tenis." }
+    ]
+  },
+  "falseFriend": { "word": "la squadra", "means": "el equipo (de fútbol, de trabajo…)", "looksLike": "escuadra", "emoji": "🏆", "tip": "La squadra del cuore es el equipo de tus amores, no una escuadra." },
+  "summary": [
+    "Aficiones: leggere, ballare, cantare, nuotare, camminare, dipingere.",
+    "Instrumentos con suonare: suono la chitarra (no tocco).",
+    "Il calcio es el fútbol y la squadra, el equipo.",
+    "Para preguntar: Cosa fai nel tempo libero?"
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,429 @@
+{
+  "id": "it-a1-u02-l2",
+  "unit": "it-a1-u02",
+  "title": "Un, uno, una, un'",
+  "goal": "a decir «un / una» en italiano con sus cuatro formas",
+  "emoji": "🥐",
+  "photoQuery": "cappuccino croissant breakfast table",
+  "vocab": [
+    {
+      "id": "bar-uno-spuntino",
+      "t": "uno spuntino",
+      "es": "un tentempié",
+      "emoji": "🥪",
+      "pos": "n",
+      "ex": {
+        "t": "Alle undici faccio uno spuntino.",
+        "es": "A las once tomo un tentempié."
+      }
+    },
+    {
+      "id": "bar-uno-yogurt",
+      "t": "uno yogurt",
+      "es": "un yogur",
+      "emoji": "🥣",
+      "pos": "n",
+      "ex": {
+        "t": "Per mio nipote uno yogurt.",
+        "es": "Para mi nieto un yogur."
+      }
+    },
+    {
+      "id": "bar-uno-scontrino",
+      "t": "lo scontrino",
+      "es": "el tique (de compra)",
+      "emoji": "🧾",
+      "pos": "n",
+      "note": "En muchos bares se paga primero y se da el scontrino en la barra.",
+      "ex": {
+        "t": "Ecco lo scontrino.",
+        "es": "Aquí tiene el tique."
+      }
+    },
+    {
+      "id": "bar-un-aranciata",
+      "t": "un'aranciata",
+      "es": "una naranjada (refresco)",
+      "emoji": "🍊",
+      "pos": "n",
+      "ex": {
+        "t": "Un'aranciata fresca, per favore.",
+        "es": "Una naranjada fresquita, por favor."
+      }
+    },
+    {
+      "id": "bar-un-acqua",
+      "t": "un'acqua minerale",
+      "es": "un agua mineral",
+      "emoji": "💧",
+      "pos": "n",
+      "ex": {
+        "t": "Un'acqua minerale naturale.",
+        "es": "Un agua mineral sin gas."
+      }
+    },
+    {
+      "id": "bar-la-brioche",
+      "t": "una brioche",
+      "es": "un bollo / un cruasán (en el norte)",
+      "emoji": "🥐",
+      "pos": "n",
+      "ex": {
+        "t": "A Milano prendo una brioche.",
+        "es": "En Milán tomo un cruasán."
+      }
+    },
+    {
+      "id": "bar-il-succo",
+      "t": "un succo di frutta",
+      "es": "un zumo (de bote)",
+      "emoji": "🧃",
+      "pos": "n",
+      "ex": {
+        "t": "Un succo di pesca per la bambina.",
+        "es": "Un zumo de melocotón para la niña."
+      }
+    },
+    {
+      "id": "bar-la-pasta-dolce",
+      "t": "una pasta",
+      "es": "un pastelito",
+      "emoji": "🧁",
+      "pos": "n",
+      "note": "En el bar, «una pasta» es un dulce, no macarrones.",
+      "ex": {
+        "t": "Una pasta alla crema, grazie.",
+        "es": "Un pastelito de crema, gracias."
+      }
+    },
+    {
+      "id": "bar-un-amica",
+      "t": "un'amica",
+      "es": "una amiga",
+      "emoji": "👭",
+      "pos": "n",
+      "ex": {
+        "t": "Sono al bar con un'amica.",
+        "es": "Estoy en el bar con una amiga."
+      }
+    }
+  ],
+  "grammar": "it-g-articoli-indet",
+  "pron": {
+    "title": "La z de zucchero",
+    "tip": "La z italiana no es como nuestra z: suena «ts» o «ds». Zucchero suena casi «dsúkero». Y uno zucchero se dice seguido, sin pausa.",
+    "words": [
+      "zucchero",
+      "uno zucchero",
+      "tazza",
+      "pizza"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Vorrei ___ spuntino.",
+      "options": [
+        "un",
+        "uno",
+        "una"
+      ],
+      "answer": "uno",
+      "why": "Spuntino empieza por s + consonante: uno.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Per me ___ acqua minerale.",
+      "options": [
+        "una",
+        "un'",
+        "un"
+      ],
+      "answer": "un'",
+      "why": "Acqua es femenina y empieza por vocal: un'acqua.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Ecco ___ pasta per te.",
+      "es": "Aquí tienes un pastelito.",
+      "options": [
+        "una",
+        "un",
+        "uno"
+      ],
+      "answer": "una",
+      "why": "Pasta es femenina: una pasta.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Mia nipote vuole ___ yogurt.",
+      "answer": [
+        "uno"
+      ],
+      "bank": [
+        "un",
+        "uno",
+        "una"
+      ],
+      "why": "Delante de y: uno yogurt.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Prendo ___ succo di frutta.",
+      "answer": [
+        "un"
+      ],
+      "bank": [
+        "un",
+        "uno",
+        "un'"
+      ],
+      "why": "Succo empieza por s + vocal: un succo.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e6",
+      "type": "error",
+      "q": "Sono al bar con una amica.",
+      "wrong": "una",
+      "fix": "un'",
+      "why": "Delante de vocal, una se convierte en un': un'amica.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "Faccio un spuntino.",
+      "wrong": "un",
+      "fix": "uno",
+      "why": "Spuntino empieza por sp-: uno spuntino.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Cambia «succo» por «aranciata»",
+      "q": "Vorrei un succo.",
+      "answer": [
+        "Vorrei un'aranciata."
+      ],
+      "why": "Aranciata es femenina y empieza por vocal: un'aranciata.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Un yogur y un agua mineral.",
+      "answer": "Uno yogurt e un'acqua minerale",
+      "extra": [
+        "una"
+      ],
+      "why": "Uno delante de y; un' delante de femenino con vocal.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "un pastelito y un tentempié",
+      "answer": [
+        "una pasta e uno spuntino"
+      ],
+      "why": "Una pasta (femenino), uno spuntino (sp-).",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e11",
+      "type": "match",
+      "pairs": [
+        [
+          "uno",
+          "scontrino"
+        ],
+        [
+          "un'",
+          "amica"
+        ],
+        [
+          "una",
+          "brioche"
+        ],
+        [
+          "un",
+          "succo"
+        ]
+      ],
+      "why": "Cada palabra con su artículo.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "En el bar te piden el tique de la caja. ¿Qué dices al dárselo?",
+      "emoji": "🧾",
+      "options": [
+        "Ecco lo scontrino.",
+        "Ecco il burro.",
+        "Ecco la cassa."
+      ],
+      "answer": "Ecco lo scontrino.",
+      "why": "Scontrino = tique; ecco = aquí tiene."
+    },
+    {
+      "id": "e13",
+      "type": "speak",
+      "t": "Vorrei uno spuntino e un'aranciata.",
+      "es": "Quería un tentempié y una naranjada."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de Hugo",
+      "text": "Mamma, sono al bar con un'amica. Prendo uno spuntino e un succo. Tu vuoi una pasta?",
+      "questions": [
+        {
+          "q": "¿Con quién está Hugo?",
+          "options": [
+            "Con una amiga",
+            "Con un amigo",
+            "Con su padre"
+          ],
+          "answer": "Con una amiga"
+        },
+        {
+          "q": "¿Qué le ofrece a su madre?",
+          "options": [
+            "Un pastelito",
+            "Un zumo",
+            "Macarrones"
+          ],
+          "answer": "Un pastelito"
+        }
+      ],
+      "why": "Una pasta en el bar es un pastelito."
+    }
+  ],
+  "dialog": {
+    "title": "Merienda con los nietos",
+    "setting": "En un bar de Nápoles, a media tarde, con los nietos",
+    "emoji": "🧃",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Buonasera! Vorrei uno yogurt e un succo.",
+        "es": "¡Buenas tardes! Quería un yogur y un zumo."
+      },
+      {
+        "who": "Barista",
+        "t": "Succo di pesca o di pera?",
+        "es": "¿Zumo de melocotón o de pera?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Di pesca, per il bambino.",
+        "es": "De melocotón, para el niño."
+      },
+      {
+        "who": "Barista",
+        "t": "E per la bambina?",
+        "es": "¿Y para la niña?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Un'aranciata, grazie.",
+        "es": "Una naranjada, gracias."
+      },
+      {
+        "who": "Barista",
+        "t": "E per lei, signora?",
+        "es": "¿Y para usted, señora?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Per me una pasta alla crema.",
+        "es": "Para mí un pastelito de crema."
+      },
+      {
+        "who": "Barista",
+        "t": "Benissimo, arriva subito!",
+        "es": "¡Muy bien, enseguida llega!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿De qué es el zumo del niño?",
+        "options": [
+          "De melocotón",
+          "De pera",
+          "De naranja"
+        ],
+        "answer": "De melocotón"
+      },
+      {
+        "q": "¿Qué toma la niña?",
+        "options": [
+          "Una naranjada",
+          "Un yogur",
+          "Un agua"
+        ],
+        "answer": "Una naranjada"
+      },
+      {
+        "q": "¿Qué pide Yolanda para ella?",
+        "options": [
+          "Un pastelito de crema",
+          "Un plato de pasta",
+          "Un café"
+        ],
+        "answer": "Un pastelito de crema"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Un'acqua naturale, per favore.",
+    "es": "Un agua sin gas, por favor.",
+    "context": "Para pedir agua sin gas en un bar o restaurante (con gas: frizzante)"
+  },
+  "same": {
+    "text": "Un y una funcionan casi igual que en español. Solo hay dos formas nuevas: uno (sp-, st-, z…) y un' (femenino + vocal).",
+    "examples": [
+      {
+        "t": "un succo",
+        "es": "un zumo"
+      },
+      {
+        "t": "una pasta",
+        "es": "un pastelito"
+      },
+      {
+        "t": "un bambino",
+        "es": "un niño"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "una pasta",
+    "means": "un pastelito (en el bar o la pastelería)",
+    "looksLike": "la pasta (macarrones, espaguetis)",
+    "emoji": "🧁",
+    "tip": "En el bar, «una pasta» es un dulce. Los macarrones también son pasta, pero no se piden en el bar."
+  },
+  "summary": [
+    "un: casi todas las palabras masculinas (un caffè, un amico).",
+    "uno: masculinas con s + consonante, z, y (uno spuntino, uno zucchero, uno yogurt).",
+    "una: femeninas (una pasta); un': femeninas con vocal (un'aranciata).",
+    "Una pasta en el bar es un pastelito."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u02-l2"
+}

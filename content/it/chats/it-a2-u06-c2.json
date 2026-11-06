@@ -1,0 +1,67 @@
+{
+  "id": "it-a2-u06-c2",
+  "unit": "it-a2-u06",
+  "title": "En el probador",
+  "setting": "Te pruebas un vestido para una boda. Giulia te espera fuera del probador",
+  "emoji": "🪞",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Allora? Hai provato il vestito rosso?", "es": "¿Qué? ¿Te has probado el vestido rojo?" },
+      "options": [
+        { "t": "Sì, l'ho provato, ma è un po' stretto.", "es": "Sí, me lo he probado, pero es un poco estrecho.", "next": "n2", "ok": true },
+        { "t": "Sì, lo ho provato, ma è un po' stretto.", "es": "Sí, me lo he probado, pero es un poco estrecho.", "next": "n2", "ok": false, "feedback": "Lo + ho se une: l'ho provato." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Chiedo una taglia più grande alla commessa?", "es": "¿Le pido una talla más grande a la dependienta?" },
+      "options": [
+        { "t": "Sì, grazie! Porto la 44.", "es": "¡Sí, gracias! Uso la 44.", "next": "n3", "ok": true },
+        { "t": "Sì, grazie! Ho la 44.", "es": "¡Sí, gracias! Uso la 44.", "next": "n3", "ok": false, "feedback": "Para la talla se usa portare: porto la 44." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Ecco la 44. Come ti sta?", "es": "Aquí está la 44. ¿Qué tal te queda?" },
+      "options": [
+        { "t": "Adesso mi sta bene! Che ne pensi?", "es": "¡Ahora me queda bien! ¿Qué te parece?", "next": "n4", "ok": true },
+        { "t": "Adesso sto bene! Che ne pensi?", "es": "¡Ahora me queda bien! ¿Qué te parece?", "next": "n4", "ok": false, "feedback": "Sto bene = estoy bien. Para la ropa: mi sta bene." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Sei bellissima! Ma il rosso è perfetto per un matrimonio?", "es": "¡Estás guapísima! Pero ¿el rojo es perfecto para una boda?" },
+      "options": [
+        { "t": "Hai ragione. Ce l'ha in un altro colore?", "es": "Tienes razón. ¿Lo tiene en otro color?", "next": "n5", "ok": true },
+        { "t": "Hai ragione. Ce l'ha in un'altra taglia?", "es": "Tienes razón. ¿Lo tiene en otro color?", "next": "n5", "ok": false, "feedback": "Taglia es la talla. Para el color: in un altro colore." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "La commessa dice che c'è anche blu. Lo provi?", "es": "La dependienta dice que también está en azul. ¿Te lo pruebas?" },
+      "options": [
+        { "t": "Sì, voglio provarlo!", "es": "¡Sí, quiero probármelo!", "next": "n6", "ok": true },
+        { "t": "Sì, voglio provarla!", "es": "¡Sí, quiero probármelo!", "next": "n6", "ok": false, "feedback": "Il vestito es masculino: provarlo." },
+        { "t": "Sì, voglio lo provare!", "es": "¡Sí, quiero probármelo!", "next": "n6", "ok": false, "feedback": "El pronombre va pegado al infinitivo (provarlo) o delante de todo (lo voglio provare)." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Il blu ti sta d'incanto! Allora?", "es": "¡El azul te queda de maravilla! ¿Entonces?" },
+      "options": [
+        { "t": "Lo prendo!", "es": "¡Me lo quedo!", "next": "n7", "ok": true },
+        { "t": "Ne prendo!", "es": "¡Me lo quedo!", "next": "n7", "ok": false, "feedback": "Es un vestido concreto: lo prendo." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Evviva! Ora servono le scarpe…", "es": "¡Bien! Ahora hacen falta los zapatos…" },
+      "options": [
+        { "t": "Le cerchiamo domani!", "es": "¡Los buscamos mañana!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

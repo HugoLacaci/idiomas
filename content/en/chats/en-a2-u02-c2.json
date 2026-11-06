@@ -1,0 +1,52 @@
+{
+  "id": "en-a2-u02-c2",
+  "unit": "en-a2-u02",
+  "title": "¿Qué hay en la nevera?",
+  "setting": "Estás en casa de Emma. Ella abre la nevera para preparar la merienda.",
+  "emoji": "🧊",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Would you like some tea, Yolanda?", "es": "¿Quieres un té, Yolanda?" },
+      "options": [
+        { "t": "Yes, please! With a little milk.", "es": "¡Sí, por favor! Con un poco de leche.", "next": "n2", "ok": true },
+        { "t": "Yes, please! With a few milk.", "es": "¡Sí, por favor! Con un poco de leche.", "next": "n2", "ok": false, "feedback": "Milk no se cuenta: a little milk." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Oh no! There isn't any milk.", "es": "¡Oh, no! No hay leche." },
+      "options": [
+        { "t": "No problem. Have you got any lemon?", "es": "No pasa nada. ¿Tienes limón?", "next": "n3", "ok": true },
+        { "t": "No problem. Have you got some lemon?", "es": "No pasa nada. ¿Tienes limón?", "next": "n3", "ok": false, "feedback": "Es una pregunta de verdad (no sabes si hay): any lemon." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Yes, I've got some lemons. Would you like a biscuit too?", "es": "Sí, tengo limones. ¿Quieres también una galleta?" },
+      "options": [
+        { "t": "Yes, please. I love biscuits!", "es": "Sí, por favor. ¡Me encantan las galletas!", "next": "n4", "ok": true },
+        { "t": "Yes, please. I'm loving biscuits!", "es": "Sí, por favor. ¡Me encantan las galletas!", "next": "n4", "ok": false, "feedback": "Love es un verbo de sentimiento: I love biscuits, sin -ing." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Here you are. And what do you usually have in your fridge in Spain?", "es": "Toma. ¿Y qué sueles tener en la nevera en España?" },
+      "options": [
+        { "t": "I always have some cheese and a lot of fruit.", "es": "Siempre tengo queso y mucha fruta.", "next": "n5", "ok": true },
+        { "t": "I always have any cheese and a lot of fruit.", "es": "Siempre tengo queso y mucha fruta.", "next": "n5", "ok": false, "feedback": "Es una afirmativa: some cheese." },
+        { "t": "I always have some cheeses and a lot of fruits.", "es": "Siempre tengo queso y mucha fruta.", "next": "n5", "ok": false, "feedback": "Cheese y fruit, hablando en general, son incontables: some cheese, a lot of fruit." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Lovely! Have you got any photos of your kitchen?", "es": "¡Qué bien! ¿Tienes fotos de tu cocina?" },
+      "options": [
+        { "t": "Yes, I've got some on my phone. Look!", "es": "Sí, tengo algunas en el móvil. ¡Mira!", "next": "end", "ok": true },
+        { "t": "Yes, I've got any on my phone. Look!", "es": "Sí, tengo algunas en el móvil. ¡Mira!", "next": "end", "ok": false, "feedback": "En afirmativa usamos some: I've got some." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

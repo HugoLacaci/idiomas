@@ -1,0 +1,95 @@
+{
+  "id": "it-b1-u06-l1",
+  "unit": "it-b1-u06",
+  "title": "Il mio corso d'italiano",
+  "goal": "a hablar de tu curso de italiano, tus estudios y tus objetivos",
+  "emoji": "📚",
+  "photoQuery": "notebook pen coffee study desk",
+  "vocab": [
+    { "id": "studio-il-corso", "t": "il corso d'italiano", "es": "el curso de italiano", "emoji": "📚", "pos": "n", "ex": { "t": "Il corso d'italiano è il martedì e il giovedì.", "es": "El curso de italiano es los martes y los jueves." } },
+    { "id": "studio-l-insegnante", "t": "l'insegnante", "es": "el profesor, la profesora", "emoji": "👩‍🏫", "pos": "n", "ex": { "t": "La mia insegnante è paziente e molto simpatica.", "es": "Mi profesora es paciente y muy simpática." }, "note": "Vale para hombre y mujer: il / la insegnante. También se dice il professore / la professoressa." },
+    { "id": "studio-i-compiti", "t": "i compiti", "es": "los deberes", "emoji": "📝", "pos": "n", "ex": { "t": "Faccio i compiti la sera, dopo cena.", "es": "Hago los deberes por la noche, después de cenar." } },
+    { "id": "studio-l-esame", "t": "l'esame", "es": "el examen", "emoji": "📋", "pos": "n", "ex": { "t": "A giugno ho l'esame di livello B1.", "es": "En junio tengo el examen de nivel B1." }, "note": "Sin n final. Plural: gli esami." },
+    { "id": "studio-superare", "t": "superare un esame", "es": "aprobar un examen", "emoji": "✅", "pos": "v", "ex": { "t": "Spero di superare l'esame a giugno.", "es": "Espero aprobar el examen en junio." }, "note": "Aprobar un examen = superare (o passare) un esame. Approvare es aprobar una ley o una idea." },
+    { "id": "studio-iscriversi", "t": "iscriversi", "es": "apuntarse, matricularse", "emoji": "✍️", "pos": "v", "ex": { "t": "Mi sono iscritta a un corso online.", "es": "Me he apuntado a un curso online." } },
+    { "id": "studio-la-laurea", "t": "la laurea", "es": "el título universitario, la carrera", "emoji": "🎓", "pos": "n", "ex": { "t": "Dopo la laurea, molti ragazzi studiano all'estero.", "es": "Después de la carrera, muchos chicos estudian en el extranjero." }, "note": "¡Ojo! Falso amigo: no es «laurel»." },
+    { "id": "studio-la-speranza", "t": "la speranza", "es": "la esperanza", "emoji": "🌈", "pos": "n", "ex": { "t": "La mia speranza è parlare con gli italiani senza paura.", "es": "Mi esperanza es hablar con los italianos sin miedo." } },
+    { "id": "studio-l-obiettivo", "t": "l'obiettivo", "es": "el objetivo", "emoji": "🎯", "pos": "n", "ex": { "t": "Il mio obiettivo è leggere un libro in italiano.", "es": "Mi objetivo es leer un libro en italiano." } },
+    { "id": "studio-il-livello", "t": "il livello", "es": "el nivel", "emoji": "📶", "pos": "n", "ex": { "t": "Quest'anno voglio arrivare al livello B1.", "es": "Este año quiero llegar al nivel B1." } }
+  ],
+  "grammar": "it-g-congiuntivo-intro",
+  "pron": {
+    "title": "Sc: scuola, iscriversi / scegliere",
+    "tip": "Sca, sco, scu y scr suenan sk: scuola, iscriversi. Sce y sci suenan como un «sh» suave, como para pedir silencio: scegliere, lasciare.",
+    "words": ["scuola", "iscriversi", "scrivere", "scegliere", "lasciare"],
+    "pairs": [["scena", "schiena"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "match", "pairs": [["il corso", "el curso"], ["i compiti", "los deberes"], ["l'esame", "el examen"], ["la laurea", "el título universitario"], ["la speranza", "la esperanza"]], "why": "Palabras básicas para hablar de tus estudios." },
+    { "id": "e2", "type": "choose", "q": "Stasera devo fare i ___ di grammatica.", "es": "Esta noche tengo que hacer los deberes de gramática.", "options": ["compiti", "corsi", "esami"], "answer": "compiti", "why": "Los deberes son i compiti, y se dice fare i compiti." },
+    { "id": "e3", "type": "choose", "q": "Mi sono ___ a un corso d'italiano online.", "es": "Me he apuntado a un curso de italiano online.", "options": ["iscritta", "iscritto", "scritta"], "answer": "iscritta", "why": "Iscriversi va con essere y concuerda contigo, que eres mujer: mi sono iscritta.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e4", "type": "fill", "q": "Spero di ___ l'esame a giugno.", "es": "Espero aprobar el examen en junio.", "answer": ["superare", "passare"], "bank": ["superare", "approvare", "iscrivere"], "why": "Aprobar un examen = superare un esame. Approvare se usa para leyes o ideas." },
+    { "id": "e5", "type": "fill", "q": "Il mio ___ è parlare bene entro un anno.", "es": "Mi objetivo es hablar bien en un año.", "answer": ["obiettivo", "scopo"], "hint": "objetivo", "why": "Objetivo = l'obiettivo, con -bi- y doble t." },
+    { "id": "e6", "type": "error", "q": "Domani ho un esamen di italiano.", "wrong": "esamen", "fix": "esame", "why": "En italiano es l'esame, sin n final. Plural: gli esami." },
+    { "id": "e7", "type": "error", "q": "La mia insegnante è molto pazienta.", "wrong": "pazienta", "fix": "paziente", "why": "Los adjetivos en -e no cambian en femenino: lui è paziente, lei è paziente.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e8", "type": "conjugate", "verb": "essere", "person": "lui / lei", "tense": "congiuntivo presente", "q": "Penso che il corso ___ molto utile.", "answer": ["sia"], "why": "Repaso: tras penso che va congiuntivo. Essere → sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e9", "type": "choose", "q": "Credo che la mia insegnante ___ ragione.", "es": "Creo que mi profesora tiene razón.", "options": ["abbia", "ha", "sia"], "answer": "abbia", "why": "Credo che + congiuntivo. Avere ragione → che lei abbia ragione.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e10", "type": "order", "es": "Este año quiero llegar al nivel B1.", "answer": "Quest'anno voglio arrivare al livello B1", "extra": ["di"], "why": "Voglio va directamente con el infinitivo, sin di: voglio arrivare." },
+    { "id": "e11", "type": "translate", "dir": "to", "q": "Me he apuntado a un curso de italiano.", "answer": ["Mi sono iscritta a un corso d'italiano.", "Mi sono iscritta a un corso di italiano."], "why": "Apuntarse = iscriversi; como eres mujer, mi sono iscritta." },
+    { "id": "e12", "type": "translate", "dir": "from", "q": "La mia speranza è parlare senza paura.", "answer": ["Mi esperanza es hablar sin miedo."], "why": "La speranza = la esperanza; senza paura = sin miedo." },
+    { "id": "e13", "type": "situation", "context": "Una amiga italiana te pregunta por qué estudias italiano. ¿Qué le dices?", "emoji": "💬", "options": ["Perché amo l'Italia e voglio parlare con la gente.", "Perché ho la laurea in italiano.", "Perché il corso è chiuso."], "answer": "Perché amo l'Italia e voglio parlare con la gente.", "why": "Perché… responde a «¿por qué?». Voglio parlare = quiero hablar." },
+    { "id": "e14", "type": "reading", "kind": "message", "title": "Mensaje de la profesora", "text": "Cara Yolanda, il corso ricomincia lunedì alle 18. Porta il libro e il quaderno dei compiti. L'esame finale è a giugno. A presto! Marta", "questions": [
+      { "q": "¿Cuándo vuelve a empezar el curso?", "options": ["El lunes a las 18", "El martes a las 18", "El lunes a las 8"], "answer": "El lunes a las 18" },
+      { "q": "¿Qué tiene que llevar Yolanda?", "options": ["El libro y el cuaderno de deberes", "Un diccionario", "Nada"], "answer": "El libro y el cuaderno de deberes" },
+      { "q": "¿Cuándo es el examen final?", "options": ["En junio", "En septiembre", "En diciembre"], "answer": "En junio" }
+    ] },
+    { "id": "e15", "type": "minimal", "pair": ["scena", "schiena"], "answer": "scena", "es": ["escena", "espalda"], "why": "Sce suena como «sh»: scena. Sche suena sk: schiena." },
+    { "id": "e16", "type": "speak", "t": "Spero di superare l'esame di livello B1.", "es": "Espero aprobar el examen de nivel B1." }
+  ],
+  "dialog": {
+    "title": "Me apunto al curso",
+    "setting": "En la secretaría de una escuela de idiomas: Yolanda se apunta a un curso de italiano",
+    "emoji": "✍️",
+    "lines": [
+      { "who": "Chiara", "t": "Buongiorno! Vuole iscriversi a un corso?", "es": "¡Buenos días! ¿Quiere apuntarse a un curso?" },
+      { "who": "Yolanda", "t": "Sì, al corso d'italiano. Penso di avere un livello A2.", "es": "Sí, al curso de italiano. Creo que tengo un nivel A2." },
+      { "who": "Chiara", "t": "Perfetto. Perché studia l'italiano?", "es": "Perfecto. ¿Por qué estudia italiano?" },
+      { "who": "Yolanda", "t": "Per viaggiare in Italia e leggere libri in italiano.", "es": "Para viajar por Italia y leer libros en italiano." },
+      { "who": "Chiara", "t": "Qual è il suo obiettivo per quest'anno?", "es": "¿Cuál es su objetivo para este año?" },
+      { "who": "Yolanda", "t": "Vorrei superare l'esame B1 a giugno.", "es": "Me gustaría aprobar el examen B1 en junio." },
+      { "who": "Chiara", "t": "Benissimo. Le lezioni sono il martedì e il giovedì sera.", "es": "Muy bien. Las clases son los martes y los jueves por la tarde." },
+      { "who": "Yolanda", "t": "Ci sono molti compiti?", "es": "¿Hay muchos deberes?" },
+      { "who": "Chiara", "t": "Un po', ma l'insegnante è bravissima. Spero che si trovi bene!", "es": "Un poco, pero la profesora es buenísima. ¡Espero que esté a gusto!" }
+    ],
+    "questions": [
+      { "q": "¿Qué nivel cree tener Yolanda?", "options": ["A2", "B1", "A1"], "answer": "A2" },
+      { "q": "¿Cuál es su objetivo para este año?", "options": ["Aprobar el examen B1 en junio", "Sacarse una carrera", "Trabajar en Italia"], "answer": "Aprobar el examen B1 en junio" },
+      { "q": "¿Qué días son las clases?", "options": ["Martes y jueves por la tarde", "Lunes y miércoles", "Solo los sábados"], "answer": "Martes y jueves por la tarde" }
+    ]
+  },
+  "realLife": { "t": "Vorrei iscrivermi al corso d'italiano, per favore.", "es": "Quería apuntarme al curso de italiano, por favor.", "context": "Para apuntarte a un curso en una escuela o una universidad" },
+  "same": {
+    "text": "Muchas palabras de los estudios se parecen mucho al español.",
+    "examples": [
+      { "t": "l'esame", "es": "el examen" },
+      { "t": "il corso", "es": "el curso" },
+      { "t": "l'obiettivo", "es": "el objetivo" },
+      { "t": "la speranza", "es": "la esperanza" }
+    ]
+  },
+  "falseFriend": {
+    "word": "la laurea",
+    "means": "el título universitario, la carrera terminada",
+    "looksLike": "laurel (en italiano, l'alloro)",
+    "emoji": "🎓",
+    "tip": "Prendere la laurea = sacarse la carrera. Curiosamente, el día de la graduación los italianos llevan una corona de laurel… ¡pero la planta se llama alloro!"
+  },
+  "summary": [
+    "Estudios: il corso, l'insegnante, i compiti, l'esame, il livello.",
+    "Aprobar un examen = superare un esame (no approvare).",
+    "Apuntarse = iscriversi: mi sono iscritta a un corso.",
+    "Objetivos: il mio obiettivo è… / la mia speranza è…",
+    "La laurea = el título universitario, no el laurel."
+  ],
+  "reviewed": false
+}

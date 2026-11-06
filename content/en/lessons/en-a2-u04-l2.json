@@ -1,0 +1,407 @@
+{
+  "id": "en-a2-u04-l2",
+  "unit": "en-a2-u04",
+  "title": "¿Dónde estabas? ¿Qué tal fue?",
+  "goal": "a usar was y were para afirmar, negar y preguntar",
+  "emoji": "❓",
+  "photoQuery": "cinema seats popcorn evening",
+  "vocab": [
+    {
+      "id": "wkend-at-the-cinema",
+      "t": "at the cinema",
+      "es": "en el cine",
+      "emoji": "🎬",
+      "pos": "phrase",
+      "ex": {
+        "t": "We were at the cinema on Friday.",
+        "es": "El viernes estuvimos en el cine."
+      },
+      "note": "En EE. UU.: at the movies."
+    },
+    {
+      "id": "wkend-at-a-wedding",
+      "t": "at a wedding",
+      "es": "en una boda",
+      "emoji": "💒",
+      "pos": "phrase",
+      "ex": {
+        "t": "I was at a wedding on Saturday.",
+        "es": "El sábado estuve en una boda."
+      }
+    },
+    {
+      "id": "wkend-in-the-countryside",
+      "t": "in the countryside",
+      "es": "en el campo",
+      "emoji": "🌳",
+      "pos": "phrase",
+      "ex": {
+        "t": "We were in the countryside all weekend.",
+        "es": "Estuvimos en el campo todo el fin de semana."
+      }
+    },
+    {
+      "id": "wkend-boring",
+      "t": "boring",
+      "es": "aburrido",
+      "emoji": "😴",
+      "pos": "adj",
+      "ex": {
+        "t": "The film was boring.",
+        "es": "La peli fue un rollo."
+      }
+    },
+    {
+      "id": "wkend-fun",
+      "t": "fun",
+      "es": "divertido",
+      "emoji": "🥳",
+      "pos": "adj",
+      "ex": {
+        "t": "The party was great fun!",
+        "es": "¡La fiesta fue muy divertida!"
+      },
+      "note": "It was fun = fue divertido."
+    },
+    {
+      "id": "wkend-crowded",
+      "t": "crowded",
+      "es": "abarrotado",
+      "emoji": "👥",
+      "pos": "adj",
+      "ex": {
+        "t": "The beach was very crowded.",
+        "es": "La playa estaba abarrotada."
+      }
+    },
+    {
+      "id": "wkend-i-was-born",
+      "t": "I was born in…",
+      "es": "Nací en…",
+      "emoji": "👶",
+      "pos": "phrase",
+      "ex": {
+        "t": "I was born in a small village.",
+        "es": "Nací en un pueblo pequeño."
+      },
+      "note": "Siempre en pasado: I was born (nunca «I am born»)."
+    },
+    {
+      "id": "wkend-how-was-it",
+      "t": "How was it?",
+      "es": "¿Qué tal fue? ¿Qué tal estuvo?",
+      "emoji": "🤔",
+      "pos": "phrase",
+      "ex": {
+        "t": "You were in Edinburgh? How was it?",
+        "es": "¿Estuviste en Edimburgo? ¿Qué tal?"
+      }
+    }
+  ],
+  "grammar": "en-g-past-be",
+  "pron": {
+    "title": "wasn't y weren't",
+    "tip": "Wasn't suena «UÓS-ent»; weren't suena «uernt», una sola sílaba y sin r. En la respuesta corta se pronuncian fuerte: Yes, I WAS. No, they WEREN'T.",
+    "words": [
+      "wasn't",
+      "weren't",
+      "Yes, I was",
+      "No, they weren't"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ you at the cinema on Friday?",
+      "options": [
+        "Were",
+        "Was"
+      ],
+      "answer": "Were",
+      "why": "Pregunta con you: Were you…?",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "The film ___ very good. It was boring.",
+      "options": [
+        "wasn't",
+        "weren't"
+      ],
+      "answer": "wasn't",
+      "why": "The film = it: wasn't.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "I ___ born in a small village.",
+      "options": [
+        "was",
+        "am",
+        "were"
+      ],
+      "answer": "was",
+      "why": "Nacer: I was born.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Was the wedding fun? — Yes, it ___.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "answer": "was",
+      "why": "Respuesta corta con it: Yes, it was.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "My friends ___ at the party. They were ill.",
+      "es": "Mis amigas no estuvieron en la fiesta. Estaban malas.",
+      "answer": [
+        "weren't",
+        "were not"
+      ],
+      "why": "Negativa con they: weren't.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "___ your grandson at the beach with you?",
+      "es": "¿Estuvo tu nieto en la playa contigo?",
+      "answer": [
+        "Was"
+      ],
+      "bank": [
+        "Was",
+        "Were",
+        "Did"
+      ],
+      "why": "Your grandson = he: Was…?",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Were you tired? — No, I ___.",
+      "es": "¿Estabas cansada? — No.",
+      "answer": [
+        "wasn't",
+        "was not"
+      ],
+      "why": "Respuesta corta negativa con I: No, I wasn't.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e8",
+      "type": "conjugate",
+      "verb": "to be",
+      "person": "we",
+      "tense": "pasado",
+      "q": "We ___ in the countryside all weekend.",
+      "answer": [
+        "were"
+      ],
+      "table": [
+        [
+          "I / he / she / it",
+          "was · wasn't"
+        ],
+        [
+          "you / we / they",
+          "were · weren't"
+        ]
+      ],
+      "why": "Con we: were.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Was you at the wedding?",
+      "wrong": "Was",
+      "fix": "Were",
+      "why": "Con you siempre were.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "I am born in Spain.",
+      "wrong": "am",
+      "fix": "was",
+      "why": "Nací = I was born.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "The beach was crowded.",
+      "answer": [
+        "The beach wasn't crowded.",
+        "The beach was not crowded."
+      ],
+      "why": "Was + not = wasn't.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e12",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "They were at home.",
+      "answer": [
+        "Were they at home?",
+        "Were they at home"
+      ],
+      "why": "Were delante del sujeto.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e13",
+      "type": "order",
+      "es": "¿Qué tal fue la boda?",
+      "answer": "How was the wedding",
+      "extra": [
+        "were",
+        "did"
+      ],
+      "why": "How + was + the wedding.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "La película no fue muy buena.",
+      "answer": [
+        "The film wasn't very good.",
+        "The film was not very good.",
+        "The movie wasn't very good."
+      ],
+      "why": "Negativa con it: wasn't.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "Were you at home?",
+          "Yes, I was."
+        ],
+        [
+          "Was the film good?",
+          "No, it wasn't."
+        ],
+        [
+          "Were they tired?",
+          "Yes, they were."
+        ],
+        [
+          "Was she at the party?",
+          "No, she wasn't."
+        ]
+      ],
+      "why": "La respuesta repite was o were.",
+      "g": "en-g-past-be"
+    }
+  ],
+  "dialog": {
+    "title": "Una boda con viento",
+    "setting": "Yolanda llama por teléfono a su amiga Rosa el domingo por la noche",
+    "emoji": "💒",
+    "lines": [
+      {
+        "who": "Rosa",
+        "t": "Hi Yolanda! Were you at the wedding yesterday?",
+        "es": "¡Hola, Yolanda! ¿Estuviste ayer en la boda?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I was. It was beautiful!",
+        "es": "Sí. ¡Fue preciosa!"
+      },
+      {
+        "who": "Rosa",
+        "t": "Was the weather good?",
+        "es": "¿Hizo buen tiempo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, it wasn't. It was cold and windy.",
+        "es": "No. Hacía frío y viento."
+      },
+      {
+        "who": "Rosa",
+        "t": "Oh no! Were there many people?",
+        "es": "¡Vaya! ¿Había mucha gente?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, about two hundred. It was very crowded.",
+        "es": "Sí, unas doscientas personas. Estaba abarrotado."
+      },
+      {
+        "who": "Rosa",
+        "t": "And the food? How was it?",
+        "es": "¿Y la comida? ¿Qué tal?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Delicious! And the music was great fun.",
+        "es": "¡Riquísima! Y la música fue muy divertida."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuándo fue la boda?",
+        "options": [
+          "Ayer",
+          "Hace una semana",
+          "Hoy"
+        ],
+        "answer": "Ayer"
+      },
+      {
+        "q": "¿Qué tiempo hizo?",
+        "options": [
+          "Frío y viento",
+          "Sol y calor",
+          "Lluvia"
+        ],
+        "answer": "Frío y viento"
+      },
+      {
+        "q": "¿Qué le pareció la comida?",
+        "options": [
+          "Riquísima",
+          "Aburrida",
+          "Escasa"
+        ],
+        "answer": "Riquísima"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Were you at home yesterday?",
+    "es": "¿Estuviste en casa ayer?",
+    "context": "Para preguntar a alguien dónde estuvo"
+  },
+  "summary": [
+    "Negativa: wasn't / weren't",
+    "Pregunta: Was it…? Were you…? How was it?",
+    "Respuestas cortas: Yes, I was. No, they weren't.",
+    "Nací = I was born"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u04-l2"
+}

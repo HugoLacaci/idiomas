@@ -1,0 +1,59 @@
+{
+  "id": "en-a2-u08-c3",
+  "unit": "en-a2-u08",
+  "title": "En la farmacia",
+  "setting": "Hoy Emma trabaja en una farmacia (a chemist's) del centro de Bath. Entras porque tienes ampollas en los pies de tanto caminar.",
+  "emoji": "💊",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hello! Can I help you?", "es": "¡Hola! ¿Puedo ayudarle?" },
+      "options": [
+        { "t": "Yes, please. My feet hurt. I walked a lot yesterday.", "es": "Sí, por favor. Me duelen los pies. Ayer caminé mucho.", "next": "n2", "ok": true },
+        { "t": "Yes, please. My feet hurts. I walked a lot yesterday.", "es": "Sí, por favor. Me duelen los pies. Ayer caminé mucho.", "next": "n2", "ok": false, "feedback": "My feet = they: hurt, sin -s." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Oh dear! Have you got blisters?", "es": "¡Vaya! ¿Tiene ampollas?" },
+      "options": [
+        { "t": "Yes, I have. Have you got something for them?", "es": "Sí. ¿Tiene algo para ellas?", "next": "n3", "ok": true },
+        { "t": "Yes, I have. Have you got something for they?", "es": "Sí. ¿Tiene algo para ellas?", "next": "n3", "ok": false, "feedback": "Después de for: them." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "These special plasters are very good. You should change them every day.", "es": "Estas tiritas especiales van muy bien. Debería cambiarlas cada día." },
+      "options": [
+        { "t": "Great. I'll take them. Do I need a prescription?", "es": "Genial. Me las llevo. ¿Necesito receta?", "next": "n4", "ok": true },
+        { "t": "Great. I'll take them. Do I need a recipe?", "es": "Genial. Me las llevo. ¿Necesito receta?", "next": "n4", "ok": false, "feedback": "Recipe es receta de cocina. La receta médica es a prescription." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "No, you don't have to show a prescription for plasters.", "es": "No, no hace falta receta para las tiritas." },
+      "options": [
+        { "t": "Good. Should I wear different shoes?", "es": "Bien. ¿Debería ponerme otros zapatos?", "next": "n5", "ok": true },
+        { "t": "Good. Should I to wear different shoes?", "es": "Bien. ¿Debería ponerme otros zapatos?", "next": "n5", "ok": false, "feedback": "Después de should no va to: Should I wear…?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Yes, comfortable ones. You shouldn't wear new shoes for long walks.", "es": "Sí, unos cómodos. No debería ponerse zapatos nuevos para paseos largos." },
+      "options": [
+        { "t": "You're right. I bought these shoes on Monday!", "es": "Tiene razón. ¡Me compré estos zapatos el lunes!", "next": "n6", "ok": true },
+        { "t": "You're right. I buyed these shoes on Monday!", "es": "Tiene razón. ¡Me compré estos zapatos el lunes!", "next": "n6", "ok": false, "feedback": "Buy es irregular: bought." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ha ha! That's £4.50, please. I hope your feet feel better soon.", "es": "¡Ja, ja! Son 4,50 libras, por favor. Espero que los pies se mejoren pronto." },
+      "options": [
+        { "t": "Here you are. Thank you so much!", "es": "Aquí tiene. ¡Muchísimas gracias!", "next": "end", "ok": true },
+        { "t": "Here you are. You mustn't give me a bag.", "es": "Aquí tiene. No me dé bolsa.", "next": "end", "ok": false, "feedback": "Mustn't suena a prohibición y es muy brusco. Mejor: «I don't need a bag, thanks»." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

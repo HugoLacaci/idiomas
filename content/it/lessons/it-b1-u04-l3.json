@@ -1,0 +1,87 @@
+{
+  "id": "it-b1-u04-l3",
+  "unit": "it-b1-u04",
+  "title": "Sono d'accordo… o no",
+  "goal": "a decir si estás de acuerdo, preguntar opiniones y matizar lo que piensas",
+  "emoji": "🗣️",
+  "photoQuery": "friends dinner table italian trattoria",
+  "vocab": [
+    { "id": "opin-che-ne-pensi", "t": "Che ne pensi?", "es": "¿Qué te parece?, ¿qué opinas?", "emoji": "❓", "pos": "phrase", "note": "De usted: Che ne pensa?", "ex": { "t": "Ho comprato questo olio. Che ne pensi?", "es": "He comprado este aceite. ¿Qué te parece?" } },
+    { "id": "opin-sono-daccordo", "t": "sono d'accordo", "es": "estoy de acuerdo", "emoji": "🤝", "pos": "phrase", "ex": { "t": "Sono d'accordo con te.", "es": "Estoy de acuerdo contigo." } },
+    { "id": "opin-non-sono-daccordo", "t": "non sono d'accordo", "es": "no estoy de acuerdo", "emoji": "🙅‍♀️", "pos": "phrase", "ex": { "t": "Scusa, ma non sono d'accordo.", "es": "Perdona, pero no estoy de acuerdo." } },
+    { "id": "opin-mi-sembra-che", "t": "mi sembra che…", "es": "me parece que…", "emoji": "👀", "pos": "phrase", "ex": { "t": "Mi sembra che il bar sia chiuso.", "es": "Me parece que el bar está cerrado." } },
+    { "id": "opin-penso-di-si", "t": "penso di sì / penso di no", "es": "creo que sí / creo que no", "emoji": "↕️", "pos": "phrase", "note": "¡Ojo! Se dice di sì, no «che sì».", "ex": { "t": "È aperto il museo? Penso di sì.", "es": "¿Está abierto el museo? Creo que sí." } },
+    { "id": "opin-dipende", "t": "dipende", "es": "depende", "emoji": "⚖️", "pos": "phrase", "ex": { "t": "Ti piace il vino rosso? Dipende!", "es": "¿Te gusta el vino tinto? ¡Depende!" } },
+    { "id": "opin-vale-la-pena", "t": "vale la pena", "es": "merece la pena", "emoji": "🌟", "pos": "phrase", "ex": { "t": "Parma vale la pena, davvero.", "es": "Parma merece la pena, de verdad." } },
+    { "id": "opin-non-mi-convince", "t": "non mi convince", "es": "no me convence", "emoji": "🤨", "pos": "phrase", "ex": { "t": "Questo ristorante non mi convince.", "es": "Este restaurante no me convence." } },
+    { "id": "opin-morbido", "t": "morbido / morbida", "es": "blando, tierno, suave", "emoji": "🧈", "pos": "adj", "note": "¡Falso amigo! No tiene nada que ver con el morbo.", "ex": { "t": "Preferisco un formaggio morbido.", "es": "Prefiero un queso tierno." } }
+  ],
+  "grammar": "it-g-congiuntivo-intro",
+  "pron": {
+    "title": "La doble c de d'accordo",
+    "tip": "D'accordo lleva cc doble: d'ac-cor-do, con una pausa breve antes de la segunda c. Y se pronuncia todo junto: dac-còr-do.",
+    "words": ["d'accordo", "sono d'accordo", "dipende", "vale la pena"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Hai ragione, sono ___ con te.", "es": "Tienes razón, estoy de acuerdo contigo.", "options": ["d'accordo", "dipende", "convinto"], "answer": "d'accordo", "why": "Estar de acuerdo = essere d'accordo.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e2", "type": "choose", "q": "Il treno è in ritardo? Penso ___ sì.", "es": "¿El tren va con retraso? Creo que sí.", "options": ["di", "che", "a"], "answer": "di", "why": "«Creo que sí» se dice penso di sì.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e3", "type": "choose", "q": "Mi sembra che la cena ___ pronta.", "es": "Me parece que la cena está lista.", "options": ["sia", "è", "abbia"], "answer": "sia", "why": "Mi sembra che + congiuntivo: sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e4", "type": "fill", "q": "Questo vestito non mi ___: è troppo caro.", "es": "Este vestido no me convence: es demasiado caro.", "answer": ["convince"], "bank": ["convince", "piace", "sembra"], "why": "No me convence = non mi convince.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e5", "type": "fill", "q": "Il viaggio è lungo, ma vale la ___.", "es": "El viaje es largo, pero merece la pena.", "answer": ["pena"], "bank": ["pena", "voglia", "volta"], "why": "Merecer la pena = valere la pena.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e6", "type": "fill", "q": "Ho fatto la torta di mele. Che ne ___?", "es": "He hecho la tarta de manzana. ¿Qué te parece?", "answer": ["pensi"], "hint": "pensare, tu", "why": "Con tu: che ne pensi?", "g": "it-g-congiuntivo-intro" },
+    { "id": "e7", "type": "match", "pairs": [["Che ne pensi?", "¿Qué te parece?"], ["Dipende.", "Depende."], ["Penso di no.", "Creo que no."], ["Vale la pena.", "Merece la pena."], ["Non mi convince.", "No me convence."]], "why": "Frases fijas para opinar." },
+    { "id": "e8", "type": "error", "q": "Il museo è aperto? Penso che sì.", "wrong": "che", "fix": "di", "why": "En italiano se dice penso di sì, no «penso che sì».", "g": "it-g-congiuntivo-intro" },
+    { "id": "e9", "type": "error", "q": "Mi sembra che il gelato è troppo dolce.", "wrong": "è", "fix": "sia", "why": "Mi sembra che lleva congiuntivo: sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e10", "type": "order", "es": "No estoy de acuerdo contigo.", "answer": "Non sono d'accordo con te", "extra": ["ho"], "why": "Se usa essere: non sono d'accordo.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e11", "type": "translate", "dir": "to", "q": "Me parece que el queso es muy blando.", "answer": ["Mi sembra che il formaggio sia molto morbido."], "why": "Mi sembra che + sia; blando = morbido.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e12", "type": "translate", "dir": "from", "q": "Secondo me, Parma vale la pena.", "answer": ["Para mí, Parma merece la pena.", "En mi opinión, Parma merece la pena.", "Para mí, Parma vale la pena."], "why": "Valere la pena = merecer la pena.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e13", "type": "situation", "context": "Tu amiga dice que el restaurante de la esquina es el mejor. Tú no lo crees.", "emoji": "🍽️", "options": ["Mah, non sono d'accordo.", "Sì, vale la pena.", "Penso di sì."], "answer": "Mah, non sono d'accordo.", "why": "Para discrepar con suavidad: Mah, non sono d'accordo.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e14", "type": "situation", "context": "Te preguntan si te gusta el pescado. A veces sí y a veces no.", "emoji": "🐟", "options": ["Dipende!", "Vale la pena!", "Sono d'accordo!"], "answer": "Dipende!", "why": "Dipende = depende: ni sí ni no.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e15", "type": "transform", "instr": "Cambia «Secondo me» por «Mi sembra che»", "q": "Secondo me il caffè è freddo.", "answer": ["Mi sembra che il caffè sia freddo."], "why": "Con secondo me va è; con mi sembra che, sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e16", "type": "speak", "t": "Che ne pensi? Secondo me vale la pena.", "es": "¿Qué te parece? Para mí merece la pena." }
+  ],
+  "dialog": {
+    "title": "Opiniones en la trattoria",
+    "setting": "Yolanda cena con su amiga Paola en una trattoria de Parma",
+    "emoji": "🍷",
+    "lines": [
+      { "who": "Paola", "t": "Allora, che ne pensi degli anolini?", "es": "Bueno, ¿qué te parecen los anolini?" },
+      { "who": "Yolanda", "t": "Sono squisiti! Mi sembra che il brodo sia fatto in casa.", "es": "¡Están riquísimos! Me parece que el caldo es casero." },
+      { "who": "Paola", "t": "Penso di sì. Qui cucinano come una volta.", "es": "Creo que sí. Aquí cocinan como antes." },
+      { "who": "Yolanda", "t": "Il formaggio, invece, non mi convince. È troppo morbido.", "es": "El queso, en cambio, no me convence. Está demasiado blando." },
+      { "who": "Paola", "t": "Non sono d'accordo! Per me è perfetto.", "es": "¡No estoy de acuerdo! Para mí es perfecto." },
+      { "who": "Yolanda", "t": "Dipende dai gusti. E il vino?", "es": "Depende de los gustos. ¿Y el vino?" },
+      { "who": "Paola", "t": "Credo che sia il Lambrusco della casa.", "es": "Creo que es el lambrusco de la casa." },
+      { "who": "Yolanda", "t": "Allora brindiamo! Questo posto vale la pena.", "es": "¡Pues brindemos! Este sitio merece la pena." }
+    ],
+    "questions": [
+      { "q": "¿Qué piensa Yolanda del caldo?", "options": ["Que es casero", "Que está soso", "Que es de bote"], "answer": "Que es casero" },
+      { "q": "¿Qué no convence a Yolanda?", "options": ["El queso", "El vino", "Los anolini"], "answer": "El queso" },
+      { "q": "¿Están de acuerdo sobre el queso?", "options": ["No", "Sí", "No lo prueban"], "answer": "No" }
+    ]
+  },
+  "realLife": { "t": "Scusa, ma non sono d'accordo.", "es": "Perdona, pero no estoy de acuerdo.", "context": "Para discrepar con educación en una conversación con amigos" },
+  "falseFriend": {
+    "word": "morbido / morbida",
+    "means": "blando, tierno, suave",
+    "looksLike": "morboso",
+    "emoji": "🧸",
+    "tip": "Un pane morbido es un pan tierno y una coperta morbida, una manta suave. No tiene nada de morbo."
+  },
+  "same": {
+    "text": "Muchas frases para opinar son casi calcadas del español.",
+    "examples": [
+      { "t": "Dipende.", "es": "Depende." },
+      { "t": "Vale la pena.", "es": "Vale la pena." },
+      { "t": "Non mi convince.", "es": "No me convence." }
+    ]
+  },
+  "summary": [
+    "Preguntar: Che ne pensi? / Che ne pensa?",
+    "Responder: sono d'accordo, non sono d'accordo, dipende.",
+    "Creo que sí / no = penso di sì / penso di no.",
+    "Mi sembra che + congiuntivo: mi sembra che sia pronto.",
+    "¡Ojo! Morbido = blando, tierno."
+  ],
+  "reviewed": false
+}

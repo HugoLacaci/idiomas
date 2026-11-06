@@ -1,0 +1,461 @@
+{
+  "id": "it-a1-u07-l5",
+  "unit": "it-a1-u07",
+  "title": "Reto en Lecce: una cena completa",
+  "goal": "a pedir una comida entera, del entrante a la cuenta",
+  "emoji": "⛪",
+  "photoQuery": "lecce baroque church stone",
+  "vocab": [
+    {
+      "id": "rist-le-orecchiette",
+      "t": "le orecchiette",
+      "es": "las orecchiette (pasta típica de Apulia)",
+      "emoji": "🍝",
+      "pos": "n",
+      "note": "Su nombre significa «orejitas», por su forma.",
+      "ex": {
+        "t": "In Puglia mangiamo le orecchiette.",
+        "es": "En Apulia comemos orecchiette."
+      }
+    },
+    {
+      "id": "rist-il-pasticciotto",
+      "t": "il pasticciotto",
+      "es": "el pasticciotto (pastelito de crema de Lecce)",
+      "emoji": "🥮",
+      "pos": "n",
+      "ex": {
+        "t": "A colazione prendo un pasticciotto.",
+        "es": "Para desayunar tomo un pasticciotto."
+      }
+    },
+    {
+      "id": "rist-la-pietra-leccese",
+      "t": "la pietra leccese",
+      "es": "la piedra de Lecce",
+      "emoji": "🪨",
+      "pos": "n",
+      "ex": {
+        "t": "Le chiese sono di pietra leccese.",
+        "es": "Las iglesias son de piedra de Lecce."
+      }
+    },
+    {
+      "id": "rist-siamo-in-due",
+      "t": "Siamo in due.",
+      "es": "Somos dos.",
+      "emoji": "✌️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Buonasera, siamo in due.",
+        "es": "Buenas noches, somos dos."
+      }
+    },
+    {
+      "id": "rist-buon-appetito",
+      "t": "Buon appetito!",
+      "es": "¡Que aproveche!",
+      "emoji": "😋",
+      "pos": "phrase",
+      "ex": {
+        "t": "Ecco le orecchiette. Buon appetito!",
+        "es": "Aquí tienen las orecchiette. ¡Que aproveche!"
+      }
+    },
+    {
+      "id": "rist-il-conto-per-favore",
+      "t": "Il conto, per favore.",
+      "es": "La cuenta, por favor.",
+      "emoji": "🧾",
+      "pos": "phrase",
+      "note": "Il conto es masculino, aunque «la cuenta» sea femenina.",
+      "ex": {
+        "t": "Scusi, il conto, per favore.",
+        "es": "Perdone, la cuenta, por favor."
+      }
+    },
+    {
+      "id": "rist-il-coperto",
+      "t": "il coperto",
+      "es": "el cubierto (lo que se cobra por persona: pan, mantel…)",
+      "emoji": "🍞",
+      "pos": "n",
+      "ex": {
+        "t": "Il coperto è incluso?",
+        "es": "¿El cubierto está incluido?"
+      }
+    },
+    {
+      "id": "rist-la-mancia",
+      "t": "la mancia",
+      "es": "la propina",
+      "emoji": "🪙",
+      "pos": "n",
+      "note": "¡Ojo! No es «mancha» (mancha = macchia).",
+      "ex": {
+        "t": "Lasciamo una mancia?",
+        "es": "¿Dejamos propina?"
+      }
+    },
+    {
+      "id": "rist-pagare-con-la-carta",
+      "t": "Posso pagare con la carta?",
+      "es": "¿Puedo pagar con tarjeta?",
+      "emoji": "💳",
+      "pos": "phrase",
+      "ex": {
+        "t": "Scusi, posso pagare con la carta?",
+        "es": "Perdone, ¿puedo pagar con tarjeta?"
+      }
+    }
+  ],
+  "grammar": "it-g-irregolari-fare-stare",
+  "pron": {
+    "title": "La z de pizza en una frase",
+    "tip": "Repite despacio y luego rápido: «Una pizza e una spremuta, grazie». La zz de pizza es fuerte, «ts», y la z de grazie también suena «ts».",
+    "words": [
+      "pizza",
+      "grazie",
+      "spremuta",
+      "zucchine",
+      "zuppa"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Buonasera, ___ in due.",
+      "es": "Buenas noches, somos dos.",
+      "options": [
+        "siamo",
+        "stiamo",
+        "facciamo"
+      ],
+      "answer": "siamo",
+      "why": "Para decir cuántos sois: siamo in due, in tre…",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Scusi, ___ il conto, per favore.",
+      "options": [
+        "il",
+        "la",
+        "lo"
+      ],
+      "answer": "il",
+      "why": "Conto es masculino: il conto (en español, «la cuenta»).",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e3",
+      "type": "conjugate",
+      "verb": "bere",
+      "person": "noi",
+      "tense": "presente",
+      "q": "Noi ___ un vino locale.",
+      "es": "Nosotras bebemos un vino de aquí.",
+      "answer": [
+        "beviamo"
+      ],
+      "why": "Bere con noi: beviamo.",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e4",
+      "type": "conjugate",
+      "verb": "dare",
+      "person": "Lei",
+      "tense": "presente",
+      "q": "Scusi, mi ___ un tovagliolo?",
+      "answer": [
+        "dà"
+      ],
+      "why": "Dare con usted: dà, con tilde.",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e5",
+      "type": "conjugate",
+      "verb": "fare",
+      "person": "noi",
+      "tense": "presente",
+      "q": "Dopo cena ___ una passeggiata.",
+      "es": "Después de cenar damos un paseo.",
+      "answer": [
+        "facciamo"
+      ],
+      "why": "Fare con noi: facciamo. «Dar un paseo» = fare una passeggiata.",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Lasciamo una ___ al cameriere?",
+      "es": "¿Le dejamos una propina al camarero?",
+      "answer": [
+        "mancia"
+      ],
+      "bank": [
+        "mancia",
+        "macchia",
+        "mano"
+      ],
+      "why": "La propina es la mancia; la macchia es una mancha."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Il pasticciotto è ___.",
+      "es": "El pasticciotto está buenísimo.",
+      "answer": [
+        "buonissimo"
+      ],
+      "bank": [
+        "buonissimo",
+        "buonissima",
+        "buonissime"
+      ],
+      "why": "Pasticciotto es masculino: buonissimo.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Scusi, la conto per favore.",
+      "wrong": "la",
+      "fix": "il",
+      "why": "En italiano es il conto, masculino.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Io facio tante foto in centro.",
+      "wrong": "facio",
+      "fix": "faccio",
+      "why": "Faccio se escribe con doble c.",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "¿Puedo pagar con tarjeta?",
+      "answer": "Posso pagare con la carta",
+      "extra": [
+        "per"
+      ],
+      "why": "Pagare con la carta = pagar con tarjeta."
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "De postre, un pasticciotto.",
+      "answer": [
+        "Come dolce, un pasticciotto.",
+        "Per dolce, un pasticciotto.",
+        "Come dolce un pasticciotto."
+      ],
+      "why": "Postre = dolce; come / per dolce = de postre."
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Habéis terminado. Quieres saber si en la cuenta está incluido el cubierto.",
+      "emoji": "🧾",
+      "options": [
+        "Scusi, il coperto è incluso?",
+        "Scusi, la coperta è inclusa?",
+        "Scusi, il cugino è incluso?"
+      ],
+      "answer": "Scusi, il coperto è incluso?",
+      "why": "Il coperto es lo que se cobra por persona; la coperta es una manta."
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "Siamo in due.",
+          "Somos dos."
+        ],
+        [
+          "Buon appetito!",
+          "¡Que aproveche!"
+        ],
+        [
+          "la mancia",
+          "la propina"
+        ],
+        [
+          "il coperto",
+          "el cubierto (por persona)"
+        ],
+        [
+          "Il conto, per favore.",
+          "La cuenta, por favor."
+        ]
+      ],
+      "why": "Frases de una cena completa."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "menu",
+      "title": "Osteria del Barocco · Lecce",
+      "text": "Menù del giorno. Antipasto: verdure grigliate. Primo: orecchiette al pomodoro. Secondo: polpette al sugo. Contorno: patate al forno. Dolce: pasticciotto. Acqua e vino della casa inclusi. Coperto incluso.",
+      "questions": [
+        {
+          "q": "¿Qué hay de postre?",
+          "options": [
+            "Pasticciotto",
+            "Tiramisú",
+            "Fruta"
+          ],
+          "answer": "Pasticciotto"
+        },
+        {
+          "q": "¿Qué está incluido?",
+          "options": [
+            "El agua, el vino y el cubierto",
+            "Solo el agua",
+            "Nada"
+          ],
+          "answer": "El agua, el vino y el cubierto"
+        },
+        {
+          "q": "¿Cuál es el segundo?",
+          "options": [
+            "Albóndigas con tomate",
+            "Orecchiette",
+            "Verduras a la parrilla"
+          ],
+          "answer": "Albóndigas con tomate"
+        }
+      ],
+      "why": "Polpette al sugo = albóndigas en salsa de tomate."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Buonasera, siamo in due. Che cosa ci consiglia?",
+      "es": "Buenas noches, somos dos. ¿Qué nos recomienda?"
+    }
+  ],
+  "dialog": {
+    "title": "La última cena en Lecce",
+    "setting": "En una osteria del centro histórico de Lecce",
+    "emoji": "⛪",
+    "lines": [
+      {
+        "who": "Cameriera",
+        "t": "Buonasera! Quanti siete?",
+        "es": "¡Buenas noches! ¿Cuántos son?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Siamo in due. Che cosa ci consiglia?",
+        "es": "Somos dos. ¿Qué nos recomienda?"
+      },
+      {
+        "who": "Cameriera",
+        "t": "Le orecchiette e, come dolce, il pasticciotto.",
+        "es": "Las orecchiette y, de postre, el pasticciotto."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfetto. E beviamo un vino rosso locale.",
+        "es": "Perfecto. Y bebemos un tinto de aquí."
+      },
+      {
+        "who": "Cameriera",
+        "t": "Ecco a voi. Buon appetito!",
+        "es": "Aquí tienen. ¡Que aproveche!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "È tutto buonissimo! Mi dà il conto, per favore?",
+        "es": "¡Está todo buenísimo! ¿Me da la cuenta, por favor?"
+      },
+      {
+        "who": "Cameriera",
+        "t": "Certo. Paga in contanti o con la carta?",
+        "es": "Claro. ¿Paga en efectivo o con tarjeta?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Con la carta. E questa è la mancia per lei.",
+        "es": "Con tarjeta. Y esta es la propina para usted."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué recomienda la camarera de postre?",
+        "options": [
+          "El pasticciotto",
+          "El tiramisú",
+          "Un helado"
+        ],
+        "answer": "El pasticciotto"
+      },
+      {
+        "q": "¿Qué beben?",
+        "options": [
+          "Vino tinto de la zona",
+          "Cerveza",
+          "Agua con gas"
+        ],
+        "answer": "Vino tinto de la zona"
+      },
+      {
+        "q": "¿Cómo paga Yolanda?",
+        "options": [
+          "Con tarjeta",
+          "En efectivo",
+          "No paga"
+        ],
+        "answer": "Con tarjeta"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Posso pagare con la carta?",
+    "es": "¿Puedo pagar con tarjeta?",
+    "context": "Antes de pedir la cuenta, sobre todo en sitios pequeños"
+  },
+  "same": {
+    "text": "Para pedir la cuenta y pagar, muchas frases se parecen a las nuestras.",
+    "examples": [
+      {
+        "t": "Posso pagare?",
+        "es": "¿Puedo pagar?"
+      },
+      {
+        "t": "in contanti",
+        "es": "en efectivo (al contado)"
+      },
+      {
+        "t": "È incluso?",
+        "es": "¿Está incluido?"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "la mancia",
+    "means": "la propina",
+    "looksLike": "la mancha (en italiano: la macchia)",
+    "emoji": "🪙",
+    "tip": "«Lasciare la mancia» = dejar propina. Si te manchas de tomate, eso es una macchia."
+  },
+  "summary": [
+    "Llegar: Siamo in due. · Pedir consejo: Che cosa ci consiglia?",
+    "Comer: Buon appetito! · È tutto buonissimo!",
+    "Pagar: Mi dà il conto? · Posso pagare con la carta?",
+    "La mancia = la propina; il coperto = lo que se cobra por persona."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u07-l5"
+}

@@ -1,0 +1,123 @@
+{
+  "id": "it-g-pronomi-relativi",
+  "lang": "it",
+  "level": "B1",
+  "title": "Los relativos: che, cui, dove",
+  "short": "Para unir dos ideas: che (que), preposición + cui (en el que, con quien…), dove (donde) y quello che (lo que).",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Dos frases, una sola",
+      "emoji": "🔗",
+      "text": "«Tengo una amiga. Mi amiga vive en Roma.» Mejor en una: ==Ho un'amica che vive a Roma.== El relativo une las ideas y evita repetir.",
+      "examples": [
+        { "t": "Roma è la città ==che== amo.", "es": "Roma es la ciudad que quiero.", "hl": "che" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Che: el comodín",
+      "emoji": "🃏",
+      "text": "==Che== = que. Sirve para personas y cosas, singular y plural, y no cambia nunca. Va cuando ==no hay preposición== delante.",
+      "examples": [
+        { "t": "L'amica ==che== mi aspetta.", "es": "La amiga que me espera." },
+        { "t": "Le foto ==che== ho fatto.", "es": "Las fotos que he hecho." }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Preposición + cui",
+      "emoji": "📋",
+      "text": "Si hay preposición, ==che== se convierte en ==cui==. Cui tampoco cambia nunca.",
+      "table": {
+        "head": ["Italiano", "Español", "Ejemplo"],
+        "rows": [
+          ["==in== cui", "en el que", "la città in cui vivo"],
+          ["==con== cui", "con el que / quien", "l'amica con cui viaggio"],
+          ["==di== cui", "del que / de quien", "il libro di cui parlo"],
+          ["==a== cui", "al que / a quien", "la persona a cui scrivo"],
+          ["==per== cui", "por el que", "il motivo per cui studio"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Dove y quello che",
+      "emoji": "📍",
+      "text": "Para lugares, ==dove== = in cui. Y nuestro «lo que» es ==quello che== (o ciò che).",
+      "examples": [
+        { "t": "Il paese ==dove== sono nata.", "es": "El pueblo donde nací." },
+        { "t": "==Quello che== amo di più è il mare.", "es": "Lo que más quiero es el mar." }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Más fácil que en español",
+      "emoji": "🇪🇸",
+      "text": "Nosotros decimos «el que, la que, los que, quien». En italiano basta ==cui==: la amiga con la que → l'amica ==con cui==; los amigos con los que → gli amici ==con cui==."
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *in che* → ✅ ==in cui==. ❌ *il ragazzo chi* → ✅ il ragazzo ==che==. ❌ *lo che* → ✅ ==quello che==. ❌ *la piazza cui amo* → ✅ la piazza ==che== amo."
+    },
+    {
+      "kind": "tip",
+      "title": "El truco de la preposición",
+      "emoji": "💡",
+      "text": "Pregúntate: ¿hay preposición delante? ==No== → che. ==Sí== → cui. ¿Es un lugar? Puedes usar ==dove==.",
+      "examples": [
+        { "t": "La trattoria ==di cui== ti ho parlato.", "es": "La trattoria de la que te hablé." }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: que, el que, la que, los que, quien, donde, lo que. El artículo cambia según el género y el número (con la que, con los que).",
+    "target": "En italiano: che (sin preposición), preposición + cui (invariable: con cui, in cui, di cui), dove para lugares y quello che para «lo que». Cui nunca cambia."
+  },
+  "errors": [
+    { "wrong": "È la città in che sono nata.", "right": "È la città in cui sono nata.", "why": "Detrás de una preposición nunca va che: in cui." },
+    { "wrong": "Il ragazzo chi parla è mio figlio.", "right": "Il ragazzo che parla è mio figlio.", "why": "Detrás de un nombre el relativo es che, también para personas." },
+    { "wrong": "Lo che mi piace è la gente.", "right": "Quello che mi piace è la gente.", "why": "«Lo que» se dice quello che (o ciò che)." },
+    { "wrong": "Questa è la piazza cui preferisco.", "right": "Questa è la piazza che preferisco.", "why": "Sin preposición se usa che; cui solo va con preposición." },
+    { "wrong": "L'amica con la quale che viaggio.", "right": "L'amica con cui viaggio.", "why": "Basta con cui. (Con la quale existe, pero es más formal y nunca lleva che.)" }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Ho un'amica ___ vive a Roma.", "es": "Tengo una amiga que vive en Roma.", "options": ["che", "cui", "chi"], "answer": "che", "why": "Sin preposición: che, también para personas.", "g": "it-g-pronomi-relativi" },
+    { "id": "e2", "type": "choose", "q": "Il gelato ___ ho mangiato era squisito.", "es": "El helado que me comí estaba buenísimo.", "options": ["che", "cui", "dove"], "answer": "che", "why": "Il gelato es lo que me comí, sin preposición: che.", "g": "it-g-pronomi-relativi" },
+    { "id": "e3", "type": "choose", "q": "Le amiche ___ ho conosciuto a Bologna mi scrivono spesso.", "es": "Las amigas que conocí en Bolonia me escriben a menudo.", "options": ["che", "chi", "cui"], "answer": "che", "why": "Che no cambia en plural: le amiche che…", "g": "it-g-pronomi-relativi" },
+    { "id": "e4", "type": "choose", "q": "Questa è la casa ___ abita la mia amica Paola.", "es": "Esta es la casa en la que vive mi amiga Paola.", "options": ["in cui", "che", "di cui"], "answer": "in cui", "why": "Se vive «en» una casa: in cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e5", "type": "choose", "q": "Il libro ___ ti ho parlato è sul tavolo.", "es": "El libro del que te hablé está en la mesa.", "options": ["di cui", "che", "a cui"], "answer": "di cui", "why": "Parlare di qualcosa → di cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e6", "type": "choose", "q": "La signora ___ ho chiesto informazioni è stata gentilissima.", "es": "La señora a la que pedí información fue amabilísima.", "options": ["a cui", "che", "con cui"], "answer": "a cui", "why": "Chiedere a qualcuno → a cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e7", "type": "choose", "q": "Gli amici ___ sono andata in Sardegna sono simpaticissimi.", "es": "Los amigos con los que fui a Cerdeña son simpatiquísimos.", "options": ["con cui", "con che", "con chi"], "answer": "con cui", "why": "Con + cui, aunque en español digamos «con los que».", "g": "it-g-pronomi-relativi" },
+    { "id": "e8", "type": "choose", "q": "___ mi serve è un buon caffè.", "es": "Lo que necesito es un buen café.", "options": ["Quello che", "Lo che", "Che"], "answer": "Quello che", "why": "Lo que = quello che.", "g": "it-g-pronomi-relativi" },
+    { "id": "e9", "type": "fill", "q": "La guida ___ ci ha accompagnato era bravissima.", "es": "El guía que nos acompañó era buenísimo.", "answer": ["che"], "bank": ["che", "cui", "chi"], "why": "Sin preposición: che.", "g": "it-g-pronomi-relativi" },
+    { "id": "e10", "type": "fill", "q": "Il motivo per ___ sono qui è semplice.", "es": "El motivo por el que estoy aquí es sencillo.", "answer": ["cui"], "bank": ["cui", "che", "quale"], "why": "Detrás de per: cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e11", "type": "fill", "q": "Il paese ___ sono cresciuta è piccolissimo.", "es": "El pueblo donde crecí es pequeñísimo.", "answer": ["dove", "in cui"], "hint": "donde", "why": "Para lugares: dove (o in cui).", "g": "it-g-pronomi-relativi" },
+    { "id": "e12", "type": "fill", "q": "Non capisco ___ dice.", "es": "No entiendo lo que dice.", "answer": ["quello che", "ciò che"], "hint": "lo que", "why": "Lo que = quello che / ciò che.", "g": "it-g-pronomi-relativi" },
+    { "id": "e13", "type": "fill", "q": "È un ristorante ___ consiglio a tutti.", "es": "Es un restaurante que recomiendo a todo el mundo.", "answer": ["che"], "why": "Il ristorante es el complemento directo, sin preposición: che.", "g": "it-g-pronomi-relativi" },
+    { "id": "e14", "type": "fill", "q": "La collega con ___ lavoro è di Napoli.", "es": "La compañera con la que trabajo es de Nápoles.", "answer": ["cui"], "why": "Con + cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e15", "type": "error", "q": "La città in che vivo è tranquilla.", "wrong": "che", "fix": "cui", "why": "Detrás de in va cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e16", "type": "error", "q": "La donna chi canta è la mia vicina.", "wrong": "chi", "fix": "che", "why": "Detrás de un nombre (la donna) el relativo es che.", "g": "it-g-pronomi-relativi" },
+    { "id": "e17", "type": "error", "q": "Lo che dici è vero.", "wrong": "Lo", "fix": "Quello", "why": "Lo que = quello che.", "g": "it-g-pronomi-relativi" },
+    { "id": "e18", "type": "error", "q": "Il film cui abbiamo visto era lungo.", "wrong": "cui", "fix": "che", "why": "Vedere un film no lleva preposición: che.", "g": "it-g-pronomi-relativi" },
+    { "id": "e19", "type": "error", "q": "Ecco le amiche di che ti ho parlato.", "wrong": "che", "fix": "cui", "why": "Detrás de di va cui: di cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e20", "type": "order", "es": "La amiga con la que viajo se llama Paola.", "answer": "L'amica con cui viaggio si chiama Paola", "extra": ["che"], "why": "Con la que = con cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e21", "type": "order", "es": "Lo que más me gusta es la gente.", "answer": "Quello che mi piace di più è la gente", "extra": ["lo"], "why": "Lo que = quello che.", "g": "it-g-pronomi-relativi" },
+    { "id": "e22", "type": "order", "es": "Es el hotel en el que dormimos el año pasado.", "answer": "È l'albergo in cui abbiamo dormito l'anno scorso", "alt": ["È l'albergo dove abbiamo dormito l'anno scorso"], "extra": ["che"], "why": "En el que = in cui (o dove, porque es un lugar).", "g": "it-g-pronomi-relativi" },
+    { "id": "e23", "type": "transform", "instr": "Une las dos frases con che", "q": "Ho letto un libro. Il libro parla di Roma.", "answer": ["Ho letto un libro che parla di Roma."], "why": "Che sustituye a «il libro».", "g": "it-g-pronomi-relativi" },
+    { "id": "e24", "type": "transform", "instr": "Une las dos frases con con cui", "q": "Ecco la signora. Ho parlato con la signora.", "answer": ["Ecco la signora con cui ho parlato."], "why": "Con la signora → con cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e25", "type": "transform", "instr": "Une las dos frases con di cui", "q": "Questo è il quartiere. Ti ho parlato del quartiere.", "answer": ["Questo è il quartiere di cui ti ho parlato."], "why": "Del quartiere → di cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e26", "type": "transform", "instr": "Cambia in cui por dove", "q": "Questa è la piazza in cui ci siamo conosciute.", "answer": ["Questa è la piazza dove ci siamo conosciute."], "why": "Para lugares, in cui = dove.", "g": "it-g-pronomi-relativi" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "Es la ciudad que más quiero.", "answer": ["È la città che amo di più.", "È la città che amo di più di tutte."], "why": "Que → che, sin preposición.", "g": "it-g-pronomi-relativi" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "La persona a la que escribo vive en Roma.", "answer": ["La persona a cui scrivo vive a Roma."], "why": "A la que = a cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e29", "type": "translate", "dir": "from", "q": "Il motivo per cui studio italiano è l'amore per l'Italia.", "answer": ["El motivo por el que estudio italiano es el amor por Italia.", "La razón por la que estudio italiano es el amor por Italia.", "El motivo por el que estudio italiano es mi amor por Italia."], "why": "Il motivo per cui = el motivo por el que.", "g": "it-g-pronomi-relativi" },
+    { "id": "e30", "type": "match", "pairs": [["l'amica con cui", "la amiga con la que"], ["il libro di cui", "el libro del que"], ["la città in cui", "la ciudad en la que"], ["quello che", "lo que"], ["la persona a cui", "la persona a la que"]], "why": "La preposición va delante y cui no cambia.", "g": "it-g-pronomi-relativi" },
+    { "id": "e31", "type": "situation", "context": "Le enseñas a una amiga la foto de la trattoria de la que le habías hablado.", "emoji": "🍝", "options": ["Ecco la trattoria di cui ti ho parlato!", "Ecco la trattoria che ti ho parlato!", "Ecco la trattoria di che ti ho parlato!"], "answer": "Ecco la trattoria di cui ti ho parlato!", "why": "Parlare di → di cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e32", "type": "situation", "context": "En una tienda no encuentras lo que buscas y lo dices.", "emoji": "🛍️", "options": ["Non trovo quello che cerco.", "Non trovo lo che cerco.", "Non trovo cui cerco."], "answer": "Non trovo quello che cerco.", "why": "Lo que busco = quello che cerco.", "g": "it-g-pronomi-relativi" },
+    { "id": "e33", "type": "choose", "q": "Il giorno ___ sono arrivata a Roma pioveva.", "es": "El día en que llegué a Roma llovía.", "options": ["in cui", "a cui", "di cui"], "answer": "in cui", "why": "Para el momento en que pasa algo: in cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e34", "type": "fill", "q": "Sono le persone a ___ voglio più bene.", "es": "Son las personas a las que más quiero.", "answer": ["cui"], "why": "Voler bene a qualcuno → a cui.", "g": "it-g-pronomi-relativi" }
+  ],
+  "reviewed": false
+}

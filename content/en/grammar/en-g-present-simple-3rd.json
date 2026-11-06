@@ -1,0 +1,137 @@
+{
+  "id": "en-g-present-simple-3rd",
+  "lang": "en",
+  "level": "A1",
+  "title": "Presente simple en 3.ª persona (-s, -es)",
+  "short": "Con he, she e it el verbo lleva -s: she works, he lives, it rains.",
+  "story": [
+    { "kind": "intro", "title": "La -s que no se puede olvidar", "emoji": "🐍",
+      "text": "Para hablar de **otra persona** (he, she) o de una cosa (it), el verbo en presente lleva una ==-s== al final.",
+      "examples": [
+        { "t": "I work in a shop. My brother works in an office.", "es": "Yo trabajo en una tienda. Mi hermano trabaja en una oficina.", "hl": "works" },
+        { "t": "My friend lives in Madrid.", "es": "Mi amiga vive en Madrid.", "hl": "lives" }
+      ] },
+    { "kind": "table", "title": "Solo cambia una persona", "emoji": "📋",
+      "text": "I, you, we y they: el verbo tal cual. **He, she, it**: verbo + ==s==.",
+      "table": {
+        "head": ["Persona", "work", "live", "read"],
+        "rows": [
+          ["I / you / we / they", "work", "live", "read"],
+          ["he / she / it", "work==s==", "live==s==", "read==s=="]
+        ]
+      } },
+    { "kind": "rule", "title": "¿-s, -es o -ies?", "emoji": "✏️",
+      "text": "Casi siempre ==-s==. Después de **-ch, -sh, -s, -x, -o**: ==-es==. Consonante + y: ==-ies==. Y **have** cambia: ==has==.",
+      "examples": [
+        { "t": "watch → watches · go → goes · do → does", "es": "ver → ve · ir → va · hacer → hace", "hl": "es" },
+        { "t": "study → studies · but play → plays", "es": "estudiar → estudia · pero jugar → juega", "hl": "ies" },
+        { "t": "My grandson has a cat.", "es": "Mi nieto tiene un gato.", "hl": "has" }
+      ] },
+    { "kind": "table", "title": "Las cuatro formas con she", "emoji": "🔄",
+      "text": "En la negativa y en la pregunta aparece **does** y la -s ==se va del verbo==.",
+      "table": {
+        "head": ["", "Afirmativa", "Negativa", "Pregunta", "Respuesta corta"],
+        "rows": [
+          ["I / you / we / they", "They work.", "They ==don't== work.", "==Do== they work?", "Yes, they do. / No, they don't."],
+          ["he / she / it", "She work==s==.", "She ==doesn't== work.", "==Does== she work?", "Yes, she does. / No, she doesn't."]
+        ]
+      } },
+    { "kind": "rule", "title": "Cómo suena la -s", "emoji": "👂",
+      "text": "Tres sonidos: ==/s/== tras p, k, t (works, gets); ==/z/== tras sonidos suaves (lives, plays, goes); ==/ɪz/==, una sílaba más, tras ch, sh, s, ge (watches, finishes, closes).",
+      "examples": [
+        { "t": "She works. He lives. It closes.", "es": "Ella trabaja. Él vive. Cierra.", "hl": "closes" }
+      ] },
+    { "kind": "compare", "title": "Así en español, así en inglés", "emoji": "🇪🇸",
+      "text": "En español cada persona tiene su forma: trabajo, trabajas, trabaja, trabajamos… En inglés casi todo es igual, ==solo cambia he / she / it==.",
+      "examples": [
+        { "t": "I work, you work, she works, we work.", "es": "Trabajo, trabajas, trabaja, trabajamos.", "hl": "works" }
+      ] },
+    { "kind": "errors", "title": "Errores típicos", "emoji": "⚠️",
+      "text": "❌ My brother work in Madrid. ✅ My brother ==works== in Madrid.\n❌ She haves a dog. ✅ She ==has== a dog.\n❌ He studys English. ✅ He ==studies== English." },
+    { "kind": "tip", "title": "Truco de la serpiente", "emoji": "💡",
+      "text": "Cuando digas **he, she, it** o el nombre de una persona, piensa en una serpiente: el verbo termina en ==sss==." }
+  ],
+  "compare": {
+    "es": "En español el verbo cambia con cada persona (trabajo, trabajas, trabaja, trabajamos, trabajan) y la terminación nos dice quién hace la acción.",
+    "target": "En inglés el verbo es igual para casi todos (I work, you work, they work). Solo con he, she o it añadimos -s o -es: she works, he watches. Y have pasa a has."
+  },
+  "errors": [
+    { "wrong": "My brother work in an office.", "right": "My brother works in an office.", "why": "My brother = he: el verbo lleva -s." },
+    { "wrong": "She haves two grandchildren.", "right": "She has two grandchildren.", "why": "Have es irregular: con he/she/it es has." },
+    { "wrong": "He studys at night.", "right": "He studies at night.", "why": "Consonante + y: la y cambia a -ies." },
+    { "wrong": "My friend gos to the gym.", "right": "My friend goes to the gym.", "why": "Go y do añaden -es: goes, does." },
+    { "wrong": "She watchs TV.", "right": "She watches TV.", "why": "Después de -ch se añade -es, y suena una sílaba más: /ɪz/." },
+    { "wrong": "He plaies tennis.", "right": "He plays tennis.", "why": "Vocal + y solo añade -s: plays." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "My brother ___ in an office.", "options": ["work", "works"], "answer": "works",
+      "why": "My brother = he: el verbo lleva -s.", "g": "en-g-present-simple-3rd" },
+    { "id": "e2", "type": "choose", "q": "I ___ in a shop.", "options": ["work", "works"], "answer": "work",
+      "why": "Con I el verbo va sin -s: I work.", "g": "en-g-present-simple-3rd" },
+    { "id": "e3", "type": "choose", "q": "My friend ___ in Seville.", "options": ["live", "lives", "livs"], "answer": "lives",
+      "why": "My friend = she o he: lives.", "g": "en-g-present-simple-3rd" },
+    { "id": "e4", "type": "choose", "q": "My grandson ___ a new bike.", "options": ["have", "has", "haves"], "answer": "has",
+      "why": "Have con he/she/it se convierte en has.", "g": "en-g-present-simple-3rd" },
+    { "id": "e5", "type": "choose", "q": "We ___ tea in the morning.", "options": ["drink", "drinks"], "answer": "drink",
+      "why": "Con we el verbo no cambia: we drink.", "g": "en-g-present-simple-3rd" },
+    { "id": "e6", "type": "choose", "q": "It ___ a lot in London.", "options": ["rain", "rains", "raines"], "answer": "rains",
+      "why": "It también lleva -s: it rains (llueve).", "g": "en-g-present-simple-3rd" },
+    { "id": "e7", "type": "fill", "q": "She ___ TV after dinner.", "es": "Ella ve la tele después de cenar.", "answer": ["watches"], "bank": ["watches", "watchs", "watch"],
+      "why": "Watch termina en -ch: añade -es (watches).", "g": "en-g-present-simple-3rd" },
+    { "id": "e8", "type": "fill", "q": "My friend ___ English at night.", "es": "Mi amiga estudia inglés por la noche.", "answer": ["studies"], "bank": ["studies", "studys", "study"],
+      "why": "Study: consonante + y → studies.", "g": "en-g-present-simple-3rd" },
+    { "id": "e9", "type": "fill", "q": "My sister ___ to work by bus.", "es": "Mi hermana va a trabajar en autobús.", "answer": ["goes"], "bank": ["goes", "gos", "go"],
+      "why": "Go añade -es: goes.", "g": "en-g-present-simple-3rd" },
+    { "id": "e10", "type": "fill", "q": "My grandson ___ football on Saturdays.", "es": "Mi nieto juega al fútbol los sábados.", "answer": ["plays"],
+      "why": "Play termina en vocal + y: solo -s (plays).", "g": "en-g-present-simple-3rd" },
+    { "id": "e11", "type": "fill", "q": "The shop ___ at eight.", "es": "La tienda cierra a las ocho.", "answer": ["closes"],
+      "why": "The shop = it: closes, que suena con una sílaba más /ɪz/.", "g": "en-g-present-simple-3rd" },
+    { "id": "e12", "type": "fill", "q": "My friend ___ a lot of books.", "es": "Mi amiga lee muchos libros.", "answer": ["reads"],
+      "why": "Read + s = reads.", "g": "en-g-present-simple-3rd" },
+    { "id": "e13", "type": "conjugate", "verb": "to work", "person": "he", "tense": "presente simple", "q": "He ___ in a hospital.", "answer": ["works"],
+      "table": [["I / you / we / they", "work"], ["he / she / it", "works"]],
+      "why": "Con he: works.", "g": "en-g-present-simple-3rd" },
+    { "id": "e14", "type": "conjugate", "verb": "to finish", "person": "she", "tense": "presente simple", "q": "She ___ work at five.", "answer": ["finishes"],
+      "why": "Finish termina en -sh: finishes.", "g": "en-g-present-simple-3rd" },
+    { "id": "e15", "type": "conjugate", "verb": "to do", "person": "he", "tense": "presente simple", "q": "He ___ the shopping on Fridays.", "answer": ["does"],
+      "why": "Do con he/she/it: does (suena «das»).", "g": "en-g-present-simple-3rd" },
+    { "id": "e16", "type": "conjugate", "verb": "to have", "person": "she", "tense": "presente simple", "q": "She ___ lunch at two.", "answer": ["has"],
+      "why": "Have → has con she. Have lunch = comer.", "g": "en-g-present-simple-3rd" },
+    { "id": "e17", "type": "conjugate", "verb": "to fix", "person": "he", "tense": "presente simple", "q": "My neighbour ___ cars.", "answer": ["fixes"],
+      "why": "Fix termina en -x: fixes.", "g": "en-g-present-simple-3rd" },
+    { "id": "e18", "type": "transform", "instr": "Empieza con «My sister»", "q": "I live in Barcelona.", "answer": ["My sister lives in Barcelona."],
+      "why": "My sister = she: live → lives.", "g": "en-g-present-simple-3rd" },
+    { "id": "e19", "type": "transform", "instr": "Empieza con «She»", "q": "I watch the news.", "answer": ["She watches the news."],
+      "why": "Watch → watches con she.", "g": "en-g-present-simple-3rd" },
+    { "id": "e20", "type": "transform", "instr": "Empieza con «He»", "q": "We have a big garden.", "answer": ["He has a big garden."],
+      "why": "Have → has con he.", "g": "en-g-present-simple-3rd" },
+    { "id": "e21", "type": "transform", "instr": "Empieza con «My grandson»", "q": "They study at school.", "answer": ["My grandson studies at school."],
+      "why": "Study → studies con una sola persona.", "g": "en-g-present-simple-3rd" },
+    { "id": "e22", "type": "error", "q": "My daughter work in a bank.", "wrong": "work", "fix": "works",
+      "why": "My daughter = she: works.", "g": "en-g-present-simple-3rd" },
+    { "id": "e23", "type": "error", "q": "He haves three grandchildren.", "wrong": "haves", "fix": "has",
+      "why": "Have es irregular: has.", "g": "en-g-present-simple-3rd" },
+    { "id": "e24", "type": "error", "q": "She studys Italian on Mondays.", "wrong": "studys", "fix": "studies",
+      "why": "Consonante + y → -ies: studies.", "g": "en-g-present-simple-3rd" },
+    { "id": "e25", "type": "error", "q": "My friends lives near the market.", "wrong": "lives", "fix": "live",
+      "why": "My friends son varias personas (they): live, sin -s.", "g": "en-g-present-simple-3rd" },
+    { "id": "e26", "type": "order", "es": "Mi hermano trabaja en Londres", "answer": "My brother works in London", "extra": ["work"],
+      "why": "Sujeto + verbo con -s + lugar.", "g": "en-g-present-simple-3rd" },
+    { "id": "e27", "type": "order", "es": "Ella tiene una tienda pequeña", "answer": "She has a small shop", "extra": ["have"],
+      "why": "Con she: has. El adjetivo va antes del nombre.", "g": "en-g-present-simple-3rd" },
+    { "id": "e28", "type": "order", "es": "Mi nieto ve dibujos animados", "answer": "My grandson watches cartoons", "extra": ["watchs"],
+      "why": "Watch → watches.", "g": "en-g-present-simple-3rd" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "Mi amiga vive en Valencia.", "answer": ["My friend lives in Valencia.", "My friend lives in Valencia"],
+      "why": "Vive = lives (con -s).", "g": "en-g-present-simple-3rd" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "Mi hijo trabaja mucho.", "answer": ["My son works a lot.", "My son works hard.", "My son works a lot"],
+      "why": "My son = he: works.", "g": "en-g-present-simple-3rd" },
+    { "id": "e31", "type": "translate", "dir": "from", "q": "She goes to the market on Saturdays.", "answer": ["Ella va al mercado los sábados.", "Va al mercado los sábados."],
+      "why": "Goes = va.", "g": "en-g-present-simple-3rd" },
+    { "id": "e32", "type": "match", "pairs": [["work", "works"], ["watch", "watches"], ["study", "studies"], ["have", "has"], ["go", "goes"]],
+      "why": "-s normal, -es tras ch/o, -ies tras consonante + y, y have → has.", "g": "en-g-present-simple-3rd" },
+    { "id": "e33", "type": "situation", "context": "Una vecina inglesa te pregunta por tu hermana. Quieres decir que vive en Londres.", "emoji": "🏙️",
+      "options": ["My sister lives in London.", "My sister live in London.", "My sister is live in London."], "answer": "My sister lives in London.",
+      "why": "My sister = she: lives, sin is.", "g": "en-g-present-simple-3rd" }
+  ],
+  "reviewed": false
+}

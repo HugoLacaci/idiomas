@@ -1,0 +1,68 @@
+{
+  "id": "it-a1-u02-c2",
+  "unit": "it-a1-u02",
+  "title": "¿Cappuccino por la tarde?",
+  "setting": "Por la tarde, Giulia y tú paráis en un bar después de comer",
+  "emoji": "🕓",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Che caldo! Ci fermiamo al bar?", "es": "¡Qué calor! ¿Paramos en el bar?" },
+      "options": [
+        { "t": "Sì, volentieri!", "es": "¡Sí, con mucho gusto!", "next": "n2", "ok": true },
+        { "t": "No, non ho fame di caldo.", "es": "No, no tengo hambre de caldo.", "next": "n2", "ok": false, "feedback": "¡Ojo! Caldo significa calor o caliente, no el caldo de sopa (que es il brodo)." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Io prendo un caffè. E tu?", "es": "Yo tomo un café. ¿Y tú?" },
+      "options": [
+        { "t": "Anch'io un caffè, grazie.", "es": "Yo también un café, gracias.", "next": "n4", "ok": true },
+        { "t": "Un cappuccino, per favore.", "es": "Un capuchino, por favor.", "next": "n3", "ok": false, "feedback": "Se puede pedir, ¡claro! Pero los italianos lo toman casi solo por la mañana. Giulia te lo explica." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Un cappuccino alle quattro? Noi lo beviamo solo la mattina, ma va bene!", "es": "¿Un capuchino a las cuatro? Nosotros lo tomamos solo por la mañana, ¡pero vale!" },
+      "options": [
+        { "t": "Ah, allora un caffè!", "es": "¡Ah, entonces un café!", "next": "n4", "ok": true },
+        { "t": "Allora vorrei un latte.", "es": "Entonces quería un café con leche.", "next": "n4", "ok": false, "feedback": "Un latte en Italia es un vaso de leche, no un café con leche. Mejor pide «un caffè»." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Vuoi anche un bicchiere d'acqua?", "es": "¿Quieres también un vaso de agua?" },
+      "options": [
+        { "t": "Sì, un bicchiere d'acqua naturale.", "es": "Sí, un vaso de agua sin gas.", "next": "n5", "ok": true },
+        { "t": "Sì, un vaso d'acqua.", "es": "Sí, un vaso de agua.", "next": "n5", "ok": false, "feedback": "¡Falso amigo! Un vaso en italiano es un jarrón. Para beber: un bicchiere." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Prendiamo anche qualcosa da mangiare? Due paste?", "es": "¿Tomamos también algo de comer? ¿Dos pastelitos?" },
+      "options": [
+        { "t": "Sì, due paste alla crema!", "es": "¡Sí, dos pastelitos de crema!", "next": "n6", "ok": true },
+        { "t": "Sì, due pastas!", "es": "¡Sí, dos pastelitos!", "next": "n6", "ok": false, "feedback": "En italiano el plural no lleva -s: pasta → paste." },
+        { "t": "No, la pasta la mangio a pranzo.", "es": "No, la pasta la como al mediodía.", "next": "n6", "ok": false, "feedback": "En el bar, «una pasta» es un pastelito, ¡no un plato de macarrones!" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Vado io alla cassa. Al banco o al tavolo?", "es": "Voy yo a la caja. ¿En la barra o en la mesa?" },
+      "options": [
+        { "t": "Al banco, è più veloce.", "es": "En la barra, es más rápido.", "next": "n7", "ok": true },
+        { "t": "Al tavolo, così ci sediamo.", "es": "En la mesa, así nos sentamos.", "next": "n7", "ok": true }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Ecco qua! Buon caffè, Yolanda!", "es": "¡Aquí está! ¡Que aproveche el café, Yolanda!" },
+      "options": [
+        { "t": "Grazie, Giulia! Anche a te!", "es": "¡Gracias, Giulia! ¡Igualmente!", "next": "end", "ok": true },
+        { "t": "Prego, Giulia!", "es": "¡De nada, Giulia!", "next": "end", "ok": false, "feedback": "Prego responde a un «grazie». Aquí toca: «Grazie! Anche a te!»." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

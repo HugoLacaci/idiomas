@@ -1,0 +1,448 @@
+{
+  "id": "en-a1-u06-l1",
+  "unit": "en-a1-u06",
+  "title": "Mi rutina, de la mañana a la noche",
+  "goal": "a nombrar las cosas que haces cada día, desde que te levantas hasta que te acuestas",
+  "emoji": "⏰",
+  "photoQuery": "morning coffee window sunlight",
+  "vocab": [
+    {
+      "id": "wake-up",
+      "t": "wake up",
+      "es": "despertarse",
+      "emoji": "⏰",
+      "pos": "v",
+      "ex": {
+        "t": "I wake up at seven.",
+        "es": "Me despierto a las siete."
+      }
+    },
+    {
+      "id": "get-up",
+      "t": "get up",
+      "es": "levantarse",
+      "emoji": "🛏️",
+      "pos": "v",
+      "ex": {
+        "t": "We get up early.",
+        "es": "Nos levantamos temprano."
+      },
+      "note": "Wake up = abrir los ojos; get up = salir de la cama."
+    },
+    {
+      "id": "have-a-shower",
+      "t": "have a shower",
+      "es": "ducharse",
+      "emoji": "🚿",
+      "pos": "v",
+      "ex": {
+        "t": "I have a shower in the morning.",
+        "es": "Me ducho por la mañana."
+      },
+      "note": "En EE. UU.: take a shower."
+    },
+    {
+      "id": "get-dressed",
+      "t": "get dressed",
+      "es": "vestirse",
+      "emoji": "👗",
+      "pos": "v",
+      "ex": {
+        "t": "I get dressed after breakfast.",
+        "es": "Me visto después de desayunar."
+      }
+    },
+    {
+      "id": "have-breakfast",
+      "t": "have breakfast",
+      "es": "desayunar",
+      "emoji": "🥐",
+      "pos": "v",
+      "ex": {
+        "t": "We have breakfast in the kitchen.",
+        "es": "Desayunamos en la cocina."
+      }
+    },
+    {
+      "id": "go-shopping",
+      "t": "go shopping",
+      "es": "ir de compras / hacer la compra",
+      "emoji": "🛒",
+      "pos": "v",
+      "ex": {
+        "t": "I go shopping on Saturdays.",
+        "es": "Hago la compra los sábados."
+      }
+    },
+    {
+      "id": "cook-v",
+      "t": "cook",
+      "es": "cocinar",
+      "emoji": "🍳",
+      "pos": "v",
+      "ex": {
+        "t": "I cook for the whole family.",
+        "es": "Cocino para toda la familia."
+      }
+    },
+    {
+      "id": "have-dinner",
+      "t": "have dinner",
+      "es": "cenar",
+      "emoji": "🍽️",
+      "pos": "v",
+      "ex": {
+        "t": "In Spain we have dinner late.",
+        "es": "En España cenamos tarde."
+      }
+    },
+    {
+      "id": "go-to-bed",
+      "t": "go to bed",
+      "es": "acostarse",
+      "emoji": "🌙",
+      "pos": "v",
+      "ex": {
+        "t": "I go to bed at midnight.",
+        "es": "Me acuesto a medianoche."
+      },
+      "note": "Sin the: go to bed."
+    }
+  ],
+  "grammar": "en-g-present-simple",
+  "pron": {
+    "title": "Palabras que se pegan: get up, have a…",
+    "tip": "En inglés las palabras se unen cuando la siguiente empieza por vocal: get up suena «ge-tap», have a shower suena «ha-va shower», wake up suena «wei-kap». ¡No hagas pausas entre ellas!",
+    "words": [
+      "get up",
+      "wake up",
+      "have a shower",
+      "get dressed"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "wake up",
+          "despertarse"
+        ],
+        [
+          "get up",
+          "levantarse"
+        ],
+        [
+          "get dressed",
+          "vestirse"
+        ],
+        [
+          "have dinner",
+          "cenar"
+        ],
+        [
+          "go to bed",
+          "acostarse"
+        ]
+      ],
+      "why": "Muchas acciones de la rutina se forman con get, have y go."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "I ___ breakfast at eight.",
+      "es": "Desayuno a las ocho.",
+      "options": [
+        "have",
+        "take",
+        "do"
+      ],
+      "answer": "have",
+      "why": "Las comidas van con have: have breakfast, have lunch, have dinner.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "We ___ to bed at eleven.",
+      "es": "Nos acostamos a las once.",
+      "options": [
+        "go",
+        "get",
+        "have"
+      ],
+      "answer": "go",
+      "why": "Acostarse = go to bed.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "I get ___ after my shower.",
+      "es": "Me visto después de la ducha.",
+      "options": [
+        "dressed",
+        "dress",
+        "up"
+      ],
+      "answer": "dressed",
+      "why": "Vestirse = get dressed."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I wake ___ at seven, but I get up at half past.",
+      "es": "Me despierto a las siete, pero me levanto a y media.",
+      "answer": [
+        "up"
+      ],
+      "bank": [
+        "up",
+        "on",
+        "in"
+      ],
+      "why": "Despertarse = wake up."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "We go ___ on Saturday morning.",
+      "es": "Hacemos la compra el sábado por la mañana.",
+      "answer": [
+        "shopping"
+      ],
+      "bank": [
+        "shopping",
+        "shop",
+        "shops"
+      ],
+      "why": "Ir de compras = go shopping."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "I have a shower ___ the morning.",
+      "es": "Me ducho por la mañana.",
+      "answer": [
+        "in"
+      ],
+      "bank": [
+        "in",
+        "on",
+        "at"
+      ],
+      "why": "Partes del día con in: in the morning.",
+      "g": "en-g-prep-time"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "I take breakfast at eight.",
+      "wrong": "take",
+      "fix": "have",
+      "why": "Aunque en español «tomamos» el desayuno, en inglés las comidas van con have: have breakfast."
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Get up at seven every day.",
+      "wrong": "Get",
+      "fix": "I get",
+      "why": "En inglés hace falta decir quién: I get up.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Me levanto a las siete y media",
+      "answer": "I get up at half past seven",
+      "extra": [
+        "in",
+        "and"
+      ],
+      "why": "Sujeto + get up + at + hora.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Cenamos a las nueve",
+      "answer": "We have dinner at nine",
+      "extra": [
+        "take",
+        "on"
+      ],
+      "why": "Cenar = have dinner.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e12",
+      "type": "transform",
+      "instr": "Cambia I por We",
+      "q": "I cook lunch at two.",
+      "answer": [
+        "We cook lunch at two."
+      ],
+      "why": "Con we el verbo no cambia.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "Me ducho por la noche.",
+      "answer": [
+        "I have a shower at night.",
+        "I shower at night.",
+        "I take a shower at night."
+      ],
+      "why": "Ducharse = have a shower; por la noche = at night.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de Emma",
+      "text": "Hi Yolanda! My day is very busy. I wake up at six, I have a shower and I have breakfast at half past six. I go to work by bus. In the evening I cook and we have dinner at seven. I go to bed at ten. And you?",
+      "questions": [
+        {
+          "q": "¿A qué hora se despierta Emma?",
+          "options": [
+            "A las seis",
+            "A las siete",
+            "A las seis y media"
+          ],
+          "answer": "A las seis"
+        },
+        {
+          "q": "¿Cómo va a trabajar?",
+          "options": [
+            "En autobús",
+            "Andando",
+            "En coche"
+          ],
+          "answer": "En autobús"
+        },
+        {
+          "q": "¿A qué hora cenan?",
+          "options": [
+            "A las siete",
+            "A las nueve",
+            "A las diez"
+          ],
+          "answer": "A las siete"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Emma te pregunta qué haces nada más levantarte. Tú primero te duchas.",
+      "emoji": "🚿",
+      "options": [
+        "I have a shower.",
+        "I have shower.",
+        "I make a shower."
+      ],
+      "answer": "I have a shower.",
+      "why": "Ducharse = have a shower (con a)."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "I get up, I have a shower and I have breakfast.",
+      "es": "Me levanto, me ducho y desayuno."
+    }
+  ],
+  "dialog": {
+    "title": "¿A qué hora cenáis?",
+    "setting": "En el hotel, Yolanda charla con la recepcionista sobre horarios",
+    "emoji": "🍽️",
+    "lines": [
+      {
+        "who": "Lucy",
+        "t": "Good evening! Dinner is from six to nine.",
+        "es": "¡Buenas tardes! La cena es de seis a nueve."
+      },
+      {
+        "who": "Yolanda",
+        "t": "From six? That's very early for me!",
+        "es": "¿Desde las seis? ¡Es muy pronto para mí!"
+      },
+      {
+        "who": "Lucy",
+        "t": "What time do you have dinner in Spain?",
+        "es": "¿A qué hora cenáis en España?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "We have dinner at nine or ten.",
+        "es": "Cenamos a las nueve o a las diez."
+      },
+      {
+        "who": "Lucy",
+        "t": "Wow! And what time do you go to bed?",
+        "es": "¡Hala! ¿Y a qué hora os acostáis?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "At midnight, more or less.",
+        "es": "A medianoche, más o menos."
+      },
+      {
+        "who": "Lucy",
+        "t": "I go to bed at ten!",
+        "es": "¡Yo me acuesto a las diez!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Then I have dinner at eight here. A Spanish compromise!",
+        "es": "Entonces aquí ceno a las ocho. ¡Un término medio español!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Desde qué hora se sirve la cena en el hotel?",
+        "options": [
+          "Desde las seis",
+          "Desde las ocho",
+          "Desde las nueve"
+        ],
+        "answer": "Desde las seis"
+      },
+      {
+        "q": "¿A qué hora se acuesta Lucy?",
+        "options": [
+          "A las diez",
+          "A medianoche",
+          "A las nueve"
+        ],
+        "answer": "A las diez"
+      },
+      {
+        "q": "¿A qué hora decide cenar Yolanda en el hotel?",
+        "options": [
+          "A las ocho",
+          "A las seis",
+          "A las diez"
+        ],
+        "answer": "A las ocho"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "What time is breakfast?",
+    "es": "¿A qué hora es el desayuno?",
+    "context": "Al llegar a un hotel"
+  },
+  "summary": [
+    "Rutina: wake up, get up, get dressed, go to bed",
+    "Comidas con have: have breakfast, have dinner",
+    "Ducharse = have a shower (en EE. UU. take a shower)",
+    "Siempre con sujeto: I get up at seven"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u06-l1"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "it-a2-u03-l4",
+  "unit": "it-a2-u03",
+  "title": "Stamattina mi sono svegliata presto",
+  "goal": "a contar tu mañana en pasado con los reflexivos (mi sono alzata) y a pronunciar bien la gl",
+  "emoji": "🪞",
+  "photoQuery": "bathroom mirror towel morning light",
+  "vocab": [
+    { "id": "rifl-cuscino", "t": "il cuscino", "es": "la almohada, el cojín", "emoji": "🛌", "pos": "n", "ex": { "t": "Il cuscino dell'albergo è troppo alto.", "es": "La almohada del hotel es demasiado alta." } },
+    { "id": "rifl-specchio", "t": "lo specchio", "es": "el espejo", "emoji": "🪞", "pos": "n", "ex": { "t": "Mi sono guardata allo specchio.", "es": "Me he mirado en el espejo." } },
+    { "id": "rifl-asciugamano", "t": "l'asciugamano", "es": "la toalla", "emoji": "🧺", "pos": "n", "ex": { "t": "Mi serve un asciugamano pulito.", "es": "Necesito una toalla limpia." } },
+    { "id": "rifl-asciugarsi", "t": "asciugarsi i capelli", "es": "secarse el pelo", "emoji": "💨", "pos": "phrase", "ex": { "t": "Mi sono asciugata i capelli in fretta.", "es": "Me he secado el pelo deprisa." } },
+    { "id": "rifl-phon", "t": "il phon", "es": "el secador de pelo", "emoji": "🔌", "pos": "n", "ex": { "t": "Il phon è nel cassetto del bagno.", "es": "El secador está en el cajón del baño." } },
+    { "id": "rifl-mettersi", "t": "mettersi", "es": "ponerse (ropa)", "emoji": "🧥", "pos": "v", "ex": { "t": "Mi sono messa il cappotto nuovo.", "es": "Me he puesto el abrigo nuevo." }, "note": "Participio irregular: messo / messa." },
+    { "id": "rifl-pigiama", "t": "il pigiama", "es": "el pijama", "emoji": "🩳", "pos": "n", "ex": { "t": "Mio marito si è messo il pigiama.", "es": "Mi marido se ha puesto el pijama." } },
+    { "id": "rifl-ciabatte", "t": "le ciabatte", "es": "las zapatillas de casa", "emoji": "🩴", "pos": "n", "ex": { "t": "Dove sono le mie ciabatte?", "es": "¿Dónde están mis zapatillas?" } }
+  ],
+  "grammar": "it-g-riflessivi",
+  "pron": {
+    "title": "Gl, l y ll: figli, fili, molle",
+    "tip": "En figli y moglie la lengua se aplasta contra el paladar (gl). En fili es una l normal; en molle, una l doble y larga. Escucha y repite.",
+    "words": ["mi sono svegliata", "moglie", "figli", "voglio"],
+    "pairs": [["figli", "fili"], ["voglio", "volo"], ["moglie", "molle"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "minimal", "pair": ["figli", "fili"], "answer": "figli", "es": ["hijos", "hilos"], "why": "Figli lleva gl: la lengua se aplasta en el paladar." },
+    { "id": "e2", "type": "minimal", "pair": ["voglio", "volo"], "answer": "voglio", "es": ["quiero", "vuelo"], "why": "Voglio, con gl: «vó-llo»." },
+    { "id": "e3", "type": "choose", "q": "Stamattina mi ___ svegliata alle sei.", "es": "Esta mañana me he despertado a las seis.", "options": ["sono", "ho", "sei"], "answer": "sono", "why": "Reflexivo en pasado: mi sono svegliata.", "g": "it-g-riflessivi" },
+    { "id": "e4", "type": "choose", "q": "Mio marito si è ___ la barba.", "es": "Mi marido se ha afeitado.", "options": ["fatto", "fatta", "fatti"], "answer": "fatto", "why": "Mio marito: masculino singular, fatto.", "g": "it-g-riflessivi" },
+    { "id": "e5", "type": "choose", "q": "Ieri sera ci ___ addormentati presto.", "es": "Anoche nos dormimos pronto.", "options": ["siamo", "abbiamo", "sono"], "answer": "siamo", "why": "Noi → ci siamo addormentati.", "g": "it-g-riflessivi" },
+    { "id": "e6", "type": "fill", "q": "Le mie amiche si sono ___ alla festa.", "es": "Mis amigas se han divertido en la fiesta.", "answer": ["divertite"], "bank": ["divertite", "divertiti", "divertita"], "why": "Le amiche: femenino plural, divertite.", "g": "it-g-riflessivi" },
+    { "id": "e7", "type": "fill", "q": "Mio figlio Hugo si è ___ tardi.", "es": "Mi hijo Hugo se ha levantado tarde.", "answer": ["alzato"], "bank": ["alzato", "alzata", "alzati"], "why": "Hugo: masculino singular, alzato.", "g": "it-g-riflessivi" },
+    { "id": "e8", "type": "fill", "q": "Mi sono ___ i capelli con il phon.", "es": "Me he secado el pelo con el secador.", "answer": ["asciugata", "asciugato", "asciugati"], "hint": "asciugarsi", "why": "Asciugarsi → mi sono asciugata (habla una mujer).", "g": "it-g-riflessivi" },
+    { "id": "e9", "type": "error", "q": "Stamattina mi ho lavata con l'acqua fredda.", "wrong": "ho", "fix": "sono", "why": "Los reflexivos van con essere: mi sono lavata.", "g": "it-g-riflessivi" },
+    { "id": "e10", "type": "error", "q": "Mio marito si è messa il pigiama.", "wrong": "messa", "fix": "messo", "why": "Mio marito es masculino: si è messo.", "g": "it-g-riflessivi" },
+    { "id": "e11", "type": "transform", "instr": "Pásala a passato prossimo (habla Yolanda)", "q": "Mi metto le ciabatte.", "answer": ["Mi sono messa le ciabatte.", "Mi sono messe le ciabatte."], "why": "Mettersi → mi sono messa (participio irregular).", "g": "it-g-riflessivi" },
+    { "id": "e12", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Ci prepariamo per uscire.", "answer": ["Ci siamo preparati per uscire.", "Ci siamo preparate per uscire."], "why": "Ci prepariamo → ci siamo preparati.", "g": "it-g-riflessivi" },
+    { "id": "e13", "type": "order", "es": "Me he mirado en el espejo.", "answer": "Mi sono guardata allo specchio", "alt": ["Mi sono guardata nello specchio"], "extra": ["ho"], "why": "Guardarsi → mi sono guardata.", "g": "it-g-riflessivi" },
+    { "id": "e14", "type": "translate", "dir": "to", "q": "Esta mañana me he levantado a las siete.", "answer": ["Stamattina mi sono alzata alle sette.", "Questa mattina mi sono alzata alle sette.", "Mi sono alzata alle sette stamattina."], "why": "Me he levantado = mi sono alzata.", "g": "it-g-riflessivi" },
+    { "id": "e15", "type": "conjugate", "verb": "svegliarsi", "person": "voi", "tense": "passato prossimo", "q": "A che ora ___ stamattina?", "answer": ["vi siete svegliati", "vi siete svegliate"], "table": [["noi", "ci siamo svegliati/e"], ["voi", "vi siete svegliati/e"], ["loro", "si sono svegliati/e"]], "why": "Voi → vi siete svegliati.", "g": "it-g-riflessivi" },
+    { "id": "e16", "type": "situation", "context": "Llegas tarde al curso de italiano. La profesora te pregunta qué ha pasado.", "emoji": "😅", "options": ["Scusi, non ho sentito la sveglia e mi sono alzata tardi.", "Scusi, non ho sentito la sveglia e mi ho alzata tardi.", "Scusi, non ho sentito la sveglia e sono alzata tardi."], "answer": "Scusi, non ho sentito la sveglia e mi sono alzata tardi.", "why": "Sentire va con avere; alzarsi con mi + sono.", "g": "it-g-riflessivi" }
+  ],
+  "dialog": {
+    "title": "Desayuno en el hotel",
+    "setting": "En el comedor de un hotel de Florencia, Yolanda habla con Marco, el camarero",
+    "emoji": "☕",
+    "lines": [
+      { "who": "Marco", "t": "Buongiorno, signora! Si è svegliata presto oggi!", "es": "¡Buenos días, señora! ¡Hoy se ha despertado temprano!" },
+      { "who": "Yolanda", "t": "Sì, mi sono alzata alle sei. Non ho dormito bene.", "es": "Sí, me he levantado a las seis. No he dormido bien." },
+      { "who": "Marco", "t": "Mi dispiace! Il cuscino è scomodo?", "es": "¡Lo siento! ¿La almohada es incómoda?" },
+      { "who": "Yolanda", "t": "Un po'. E mio marito si è addormentato con la tele accesa!", "es": "Un poco. ¡Y mi marido se ha dormido con la tele encendida!" },
+      { "who": "Marco", "t": "Ahah! E lui dov'è adesso?", "es": "¡Jaja! ¿Y dónde está ahora?" },
+      { "who": "Yolanda", "t": "Si è fatto la doccia e adesso si veste.", "es": "Se ha duchado y ahora se está vistiendo." },
+      { "who": "Marco", "t": "Vi siete preparati per la gita a Pisa?", "es": "¿Se han preparado para la excursión a Pisa?" },
+      { "who": "Yolanda", "t": "Quasi! Un cappuccino, per favore, e partiamo.", "es": "¡Casi! Un capuchino, por favor, y nos vamos." }
+    ],
+    "questions": [
+      { "q": "¿A qué hora se ha levantado Yolanda?", "options": ["A las seis", "A las ocho", "A las diez"], "answer": "A las seis" },
+      { "q": "¿Cómo se durmió su marido?", "options": ["Con la tele encendida", "En el sofá", "Muy tarde"], "answer": "Con la tele encendida" },
+      { "q": "¿Adónde van de excursión?", "options": ["A Pisa", "A Siena", "A Roma"], "answer": "A Pisa" }
+    ]
+  },
+  "realLife": { "t": "Scusa, mi sono svegliata tardi!", "es": "¡Perdona, me he despertado tarde!", "context": "Para disculparte cuando llegas tarde a una cita" },
+  "same": {
+    "text": "Muchas cosas del baño se dicen casi igual.",
+    "examples": [
+      { "t": "il pigiama", "es": "el pijama" },
+      { "t": "Mi sono lavata.", "es": "Me he lavado." },
+      { "t": "Mi sono vestita.", "es": "Me he vestido." }
+    ]
+  },
+  "falseFriend": {
+    "word": "il cuscino",
+    "means": "la almohada (y también el cojín del sofá)",
+    "looksLike": "el cojín (solo el del sofá)",
+    "emoji": "🛌",
+    "tip": "En el hotel, si quieres otra almohada, pide un altro cuscino. Para la cama y para el sofá, la misma palabra."
+  },
+  "summary": [
+    "Reflexivos en pasado, siempre con essere: mi sono alzata, si è fatto la doccia.",
+    "El participio concuerda: mio marito si è messo, le amiche si sono divertite.",
+    "Participios irregulares: fatto, messo.",
+    "Gl de figli y moglie: la lengua contra el paladar."
+  ],
+  "reviewed": false
+}

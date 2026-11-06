@@ -1,0 +1,445 @@
+{
+  "id": "it-a1-u05-l1",
+  "unit": "it-a1-u05",
+  "title": "La mattina, il pomeriggio, la sera",
+  "goal": "a nombrar las partes del día y lo que haces en cada una",
+  "emoji": "⏰",
+  "photoQuery": "italian breakfast cappuccino cornetto",
+  "vocab": [
+    {
+      "id": "la-mattina",
+      "t": "la mattina",
+      "es": "la mañana / por la mañana",
+      "emoji": "🌅",
+      "pos": "n",
+      "ex": {
+        "t": "La mattina bevo un caffè.",
+        "es": "Por la mañana me tomo un café."
+      }
+    },
+    {
+      "id": "il-pomeriggio",
+      "t": "il pomeriggio",
+      "es": "la tarde / por la tarde",
+      "emoji": "🌤️",
+      "pos": "n",
+      "ex": {
+        "t": "Il pomeriggio guardo i nipoti.",
+        "es": "Por la tarde cuido de los nietos."
+      }
+    },
+    {
+      "id": "la-sera",
+      "t": "la sera",
+      "es": "la noche (antes de dormir) / por la noche",
+      "emoji": "🌙",
+      "pos": "n",
+      "note": "La sera es desde que anochece hasta que te acuestas; la notte es cuando duermes.",
+      "ex": {
+        "t": "La sera ceniamo alle nove.",
+        "es": "Por la noche cenamos a las nueve."
+      }
+    },
+    {
+      "id": "faccio-colazione",
+      "t": "faccio colazione",
+      "es": "desayuno",
+      "emoji": "🥐",
+      "pos": "phrase",
+      "ex": {
+        "t": "Faccio colazione al bar.",
+        "es": "Desayuno en el bar."
+      }
+    },
+    {
+      "id": "lavorare",
+      "t": "lavorare",
+      "es": "trabajar",
+      "emoji": "💼",
+      "pos": "v",
+      "ex": {
+        "t": "Chiara lavora e studia.",
+        "es": "Chiara trabaja y estudia."
+      }
+    },
+    {
+      "id": "cucinare",
+      "t": "cucinare",
+      "es": "cocinar",
+      "emoji": "🍳",
+      "pos": "v",
+      "ex": {
+        "t": "Cucino il pranzo per tutti.",
+        "es": "Cocino la comida para todos."
+      }
+    },
+    {
+      "id": "pranzare",
+      "t": "pranzare",
+      "es": "comer (al mediodía)",
+      "emoji": "🍝",
+      "pos": "v",
+      "note": "Il pranzo = la comida del mediodía.",
+      "ex": {
+        "t": "Pranziamo all'una e mezza.",
+        "es": "Comemos a la una y media."
+      }
+    },
+    {
+      "id": "cenare",
+      "t": "cenare",
+      "es": "cenar",
+      "emoji": "🍽️",
+      "pos": "v",
+      "ex": {
+        "t": "In Italia ceniamo presto.",
+        "es": "En Italia cenamos pronto."
+      }
+    },
+    {
+      "id": "guardare-la-tv",
+      "t": "guardare la TV",
+      "es": "ver la tele",
+      "emoji": "📺",
+      "pos": "phrase",
+      "note": "¡Falso amigo! Guardare = mirar, ver. Guardar algo = mettere via.",
+      "ex": {
+        "t": "La sera guardo la TV.",
+        "es": "Por la noche veo la tele."
+      }
+    },
+    {
+      "id": "faccio-la-spesa",
+      "t": "faccio la spesa",
+      "es": "hago la compra",
+      "emoji": "🛒",
+      "pos": "phrase",
+      "ex": {
+        "t": "Il sabato faccio la spesa al mercato.",
+        "es": "Los sábados hago la compra en el mercado."
+      }
+    }
+  ],
+  "grammar": "it-g-presente-are",
+  "pron": {
+    "title": "La c de cucinare y colazione",
+    "tip": "C ante e / i suena «ch»: cucinare, cena. Ante a / o / u suena «k»: colazione, cucina (la primera c). Fíjate: cu-ci-na tiene las dos.",
+    "words": [
+      "cucinare",
+      "cena",
+      "colazione",
+      "cucina",
+      "cioccolato"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "La ___ faccio colazione.",
+      "es": "Por la mañana desayuno.",
+      "options": [
+        "mattina",
+        "sera",
+        "notte"
+      ],
+      "answer": "mattina",
+      "why": "El desayuno es por la mañana: la mattina."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Il ___ guardo i nipoti.",
+      "es": "Por la tarde cuido de los nietos.",
+      "options": [
+        "pomeriggio",
+        "mattina",
+        "sera"
+      ],
+      "answer": "pomeriggio",
+      "why": "La tarde es il pomeriggio (masculino, con il)."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Io ___ per tutta la famiglia.",
+      "es": "Yo cocino para toda la familia.",
+      "options": [
+        "cucino",
+        "cucina",
+        "cucini"
+      ],
+      "answer": "cucino",
+      "why": "Con io el verbo acaba en -o.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "La sera ___ la TV con mio marito.",
+      "es": "Por la noche veo la tele con mi marido.",
+      "answer": [
+        "guardo"
+      ],
+      "bank": [
+        "guardo",
+        "guarda",
+        "guardi"
+      ],
+      "why": "Io → guardo. Guardare = mirar, ver.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "A che ora ___ in Spagna?",
+      "es": "¿A qué hora coméis en España?",
+      "answer": [
+        "pranzate"
+      ],
+      "bank": [
+        "pranzate",
+        "pranzano",
+        "pranzo"
+      ],
+      "why": "Voi → -ate: pranzate.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Marco ___ in un'università.",
+      "es": "Marco trabaja en una universidad.",
+      "answer": [
+        "lavora"
+      ],
+      "why": "Marco = lui → lavora.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e7",
+      "type": "match",
+      "pairs": [
+        [
+          "la mattina",
+          "por la mañana"
+        ],
+        [
+          "il pomeriggio",
+          "por la tarde"
+        ],
+        [
+          "la sera",
+          "por la noche"
+        ],
+        [
+          "il pranzo",
+          "la comida del mediodía"
+        ],
+        [
+          "la cena",
+          "la cena"
+        ]
+      ],
+      "why": "Las partes del día y las comidas."
+    },
+    {
+      "id": "e8",
+      "type": "translate",
+      "dir": "to",
+      "q": "Por la noche ceno a las nueve.",
+      "answer": [
+        "La sera ceno alle nove.",
+        "Di sera ceno alle nove."
+      ],
+      "why": "Por la noche = la sera; io → ceno.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e9",
+      "type": "translate",
+      "dir": "from",
+      "q": "Il sabato faccio la spesa.",
+      "answer": [
+        "Los sábados hago la compra",
+        "El sábado hago la compra"
+      ],
+      "why": "Faccio la spesa = hago la compra."
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Desayuno en el bar.",
+      "answer": "Faccio colazione al bar",
+      "extra": [
+        "fa"
+      ],
+      "why": "Fare colazione = desayunar; io faccio."
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Dopo cena guardo i vestiti nell'armadio.",
+      "wrong": "guardo",
+      "fix": "metto",
+      "why": "¡Falso amigo! Guardare es mirar; para guardar algo se usa mettere (via)."
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Una amiga italiana te pregunta qué haces por la tarde. Tú ves la tele.",
+      "emoji": "📺",
+      "options": [
+        "Il pomeriggio guardo la TV.",
+        "Il pomeriggio metto via la TV.",
+        "La mattina guardo la TV."
+      ],
+      "answer": "Il pomeriggio guardo la TV.",
+      "why": "Por la tarde = il pomeriggio; ver la tele = guardare la TV."
+    },
+    {
+      "id": "e13",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "Lavoro il pomeriggio.",
+      "answer": [
+        "Non lavoro il pomeriggio."
+      ],
+      "why": "Non delante del verbo.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "ci",
+        "chi"
+      ],
+      "answer": "chi",
+      "es": [
+        "ahí, nos",
+        "quién"
+      ],
+      "why": "Chi lleva h: suena «ki». Ci sin h suena «chi»."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "La mattina faccio colazione al bar.",
+      "es": "Por la mañana desayuno en el bar."
+    }
+  ],
+  "dialog": {
+    "title": "¿Qué haces durante el día?",
+    "setting": "Yolanda y Giulia charlan en una videollamada",
+    "emoji": "💻",
+    "lines": [
+      {
+        "who": "Giulia",
+        "t": "Yolanda, cosa fai la mattina?",
+        "es": "Yolanda, ¿qué haces por la mañana?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Faccio colazione e poi faccio la spesa.",
+        "es": "Desayuno y luego hago la compra."
+      },
+      {
+        "who": "Giulia",
+        "t": "E il pomeriggio?",
+        "es": "¿Y por la tarde?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Il pomeriggio cucino e parlo con Hugo.",
+        "es": "Por la tarde cocino y hablo con Hugo."
+      },
+      {
+        "who": "Giulia",
+        "t": "A che ora cenate?",
+        "es": "¿A qué hora cenáis?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Ceniamo alle nove e mezza.",
+        "es": "Cenamos a las nueve y media."
+      },
+      {
+        "who": "Giulia",
+        "t": "Così tardi? Noi ceniamo alle otto!",
+        "es": "¿Tan tarde? ¡Nosotros cenamos a las ocho!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Eh, siamo spagnoli!",
+        "es": "¡Es que somos españoles!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué hace Yolanda por la mañana?",
+        "options": [
+          "Desayuna y hace la compra",
+          "Trabaja",
+          "Ve la tele"
+        ],
+        "answer": "Desayuna y hace la compra"
+      },
+      {
+        "q": "¿Con quién habla por la tarde?",
+        "options": [
+          "Con Hugo",
+          "Con su madre",
+          "Con Giulia"
+        ],
+        "answer": "Con Hugo"
+      },
+      {
+        "q": "¿A qué hora cena Giulia?",
+        "options": [
+          "A las ocho",
+          "A las nueve y media",
+          "A las siete"
+        ],
+        "answer": "A las ocho"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "A che ora pranzate?",
+    "es": "¿A qué hora coméis?",
+    "context": "Para saber el horario de las comidas cuando visitas a una familia italiana"
+  },
+  "same": {
+    "text": "Igual que en español: muchos verbos de la rutina se parecen un montón.",
+    "examples": [
+      {
+        "t": "cucinare",
+        "es": "cocinar"
+      },
+      {
+        "t": "cenare",
+        "es": "cenar"
+      },
+      {
+        "t": "la cena",
+        "es": "la cena"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "guardare",
+    "means": "mirar, ver (guardo la TV)",
+    "looksLike": "guardar",
+    "emoji": "👀",
+    "tip": "Guardare = mirar. Para guardar algo en un cajón se dice mettere via: metto via i piatti."
+  },
+  "summary": [
+    "Partes del día: la mattina, il pomeriggio, la sera",
+    "Comidas: colazione, pranzo, cena",
+    "Verbos: lavorare, cucinare, pranzare, cenare",
+    "Guardare = mirar, ver (¡no guardar!)"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u05-l1"
+}

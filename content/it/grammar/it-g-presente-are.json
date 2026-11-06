@@ -1,0 +1,137 @@
+{
+  "id": "it-g-presente-are",
+  "lang": "it",
+  "level": "A1",
+  "title": "El presente de los verbos en -are",
+  "short": "Parlo, parli, parla…: el grupo más grande de verbos, muy parecido a nuestro -ar.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Tu día en verbos",
+      "emoji": "☀️",
+      "text": "La mayoría de verbos italianos acaban en **-are**, como nuestros verbos en -ar: **parlare** (hablar), **cucinare** (cocinar), **lavorare** (trabajar). ¡Y se conjugan casi igual!",
+      "examples": [
+        { "t": "Io ==cucino== la paella.", "es": "Yo cocino la paella.", "hl": "cucino" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Parlare (hablar)",
+      "emoji": "🗣️",
+      "text": "Quita **-are** y añade la terminación. Fíjate en lo que cambia.",
+      "table": {
+        "head": ["Persona", "Italiano", "Español"],
+        "rows": [
+          ["io", "parl==o==", "hablo"],
+          ["tu", "parl==i==", "hablas"],
+          ["lui / lei / Lei", "parl==a==", "habla"],
+          ["noi", "parl==iamo==", "hablamos"],
+          ["voi", "parl==ate==", "habláis"],
+          ["loro", "parl==ano==", "hablan"]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "Casi como en español",
+      "emoji": "🇪🇸",
+      "text": "Io parl**o** = yo habl**o**. Pero **tu** acaba en ==-i== (no en -as) y **noi** en ==-iamo== (no en -amos).",
+      "examples": [
+        { "t": "Tu ==lavori== troppo!", "es": "¡Tú trabajas demasiado!", "hl": "lavori" },
+        { "t": "Noi ==mangiamo== alle due.", "es": "Nosotros comemos a las dos.", "hl": "mangiamo" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "La negación: non",
+      "emoji": "🚫",
+      "text": "Para negar, pon **non** delante del verbo, como nuestro «no».",
+      "examples": [
+        { "t": "Hugo ==non== guarda la TV.", "es": "Hugo no ve la tele.", "hl": "non" },
+        { "t": "==Non== lavoro il sabato.", "es": "No trabajo los sábados.", "hl": "Non" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Pequeños cambios de letra",
+      "emoji": "✏️",
+      "text": "**cercare, pagare**: añaden h para mantener el sonido: cerc==hi==, pag==hiamo==. **mangiare, studiare**: no repiten la i: mang==i==, stud==iamo==.",
+      "table": {
+        "head": ["", "tu", "noi"],
+        "rows": [
+          ["cercare", "cerc==hi==", "cerc==hiamo=="],
+          ["pagare", "pag==hi==", "pag==hiamo=="],
+          ["mangiare", "mang==i==", "mang==iamo=="]
+        ]
+      }
+    },
+    {
+      "kind": "errors",
+      "title": "Errores típicos",
+      "emoji": "⚠️",
+      "text": "Cuidado con la -s española en tu y con decir «parlamo».",
+      "examples": [
+        { "t": "❌ tu parlas → ✅ tu ==parli==", "es": "tú hablas", "hl": "parli" },
+        { "t": "❌ noi parlamo → ✅ noi ==parliamo==", "es": "nosotros hablamos", "hl": "parliamo" },
+        { "t": "❌ tu cerci → ✅ tu ==cerchi==", "es": "tú buscas", "hl": "cerchi" }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Truco del acento",
+      "emoji": "💡",
+      "text": "En **loro** el acento va donde en io: ==PAR==lano, ==LA==vorano, ==CU==cinano. No digas «parLAno».",
+      "examples": [
+        { "t": "I miei nipoti ==giocano== in giardino.", "es": "Mis nietos juegan en el jardín.", "hl": "giocano" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "Hablar: hablo, hablas, habla, hablamos, habláis, hablan.",
+    "target": "Parlare: parlo, parli, parla, parliamo, parlate, parlano. El sujeto (io, tu…) se puede omitir, como en español."
+  },
+  "errors": [
+    { "wrong": "tu parlas", "right": "tu parli", "why": "En italiano la persona tu acaba en -i, nunca en -s." },
+    { "wrong": "noi parlamo", "right": "noi parliamo", "why": "Noi siempre acaba en -iamo." },
+    { "wrong": "tu cerci", "right": "tu cerchi", "why": "Cercare añade h para mantener el sonido /k/." },
+    { "wrong": "tu mangii", "right": "tu mangi", "why": "Mangiare no repite la i: mangi." },
+    { "wrong": "io no lavoro", "right": "io non lavoro", "why": "La negación italiana es non." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Io ___ in un ufficio.", "es": "Yo trabajo en una oficina.", "options": ["lavoro", "lavori", "lavora"], "answer": "lavoro", "why": "Con io, el verbo acaba en -o: lavoro.", "g": "it-g-presente-are" },
+    { "id": "e2", "type": "choose", "q": "Tu ___ molto bene!", "es": "¡Tú cocinas muy bien!", "options": ["cucinas", "cucini", "cucina"], "answer": "cucini", "why": "Con tu, el verbo acaba en -i: cucini.", "g": "it-g-presente-are" },
+    { "id": "e3", "type": "choose", "q": "Mio figlio ___ cinese.", "es": "Mi hijo estudia chino.", "options": ["studia", "studi", "studiano"], "answer": "studia", "why": "Lui (mio figlio) → -a: studia.", "g": "it-g-presente-are" },
+    { "id": "e4", "type": "choose", "q": "Noi ___ alle nove.", "es": "Cenamos a las nueve.", "options": ["ceniamo", "cenamo", "cenano"], "answer": "ceniamo", "why": "Con noi: -iamo, ceniamo.", "g": "it-g-presente-are" },
+    { "id": "e5", "type": "choose", "q": "I nonni ___ la TV la sera.", "es": "Los abuelos ven la tele por la noche.", "options": ["guarda", "guardano", "guardate"], "answer": "guardano", "why": "Loro (i nonni) → -ano: guardano.", "g": "it-g-presente-are" },
+    { "id": "e6", "type": "choose", "q": "Voi ___ italiano?", "es": "¿Vosotros habláis italiano?", "options": ["parlate", "parlano", "parlati"], "answer": "parlate", "why": "Voi → -ate: parlate.", "g": "it-g-presente-are" },
+    { "id": "e7", "type": "conjugate", "verb": "lavorare", "person": "lei", "tense": "presente", "q": "Mia sorella ___ in farmacia.", "answer": ["lavora"], "table": [["io", "lavoro"], ["tu", "lavori"], ["lui/lei", "?"]], "why": "Lei → -a: lavora.", "g": "it-g-presente-are" },
+    { "id": "e8", "type": "conjugate", "verb": "mangiare", "person": "tu", "tense": "presente", "q": "A che ora ___?", "answer": ["mangi"], "why": "Mangiare no repite la i: tu mangi.", "g": "it-g-presente-are" },
+    { "id": "e9", "type": "conjugate", "verb": "cercare", "person": "noi", "tense": "presente", "q": "___ un ristorante tranquillo.", "answer": ["Cerchiamo"], "why": "Cercare añade h ante i: cerchiamo.", "g": "it-g-presente-are" },
+    { "id": "e10", "type": "conjugate", "verb": "pagare", "person": "tu", "tense": "presente", "q": "___ tu o pago io?", "answer": ["Paghi"], "why": "Pagare añade h para mantener el sonido /g/: paghi.", "g": "it-g-presente-are" },
+    { "id": "e11", "type": "conjugate", "verb": "abitare", "person": "loro", "tense": "presente", "q": "I miei genitori ___ al paese.", "answer": ["abitano"], "why": "Loro → -ano: abitano.", "g": "it-g-presente-are" },
+    { "id": "e12", "type": "conjugate", "verb": "comprare", "person": "io", "tense": "presente", "q": "Il sabato ___ il pesce al mercato.", "answer": ["compro"], "why": "Io → -o: compro.", "g": "it-g-presente-are" },
+    { "id": "e13", "type": "fill", "q": "Hugo ___ con me su WhatsApp ogni giorno.", "es": "Hugo habla conmigo por WhatsApp cada día.", "answer": ["parla"], "bank": ["parla", "parli", "parlo"], "why": "Hugo es lui: parla.", "g": "it-g-presente-are" },
+    { "id": "e14", "type": "fill", "q": "Le mie amiche ___ al bar alle cinque.", "es": "Mis amigas llegan al bar a las cinco.", "answer": ["arrivano"], "bank": ["arrivano", "arrivate", "arriva"], "why": "Le mie amiche = loro → -ano: arrivano.", "g": "it-g-presente-are" },
+    { "id": "e15", "type": "fill", "q": "Io ___ la radio in cucina.", "es": "Yo escucho la radio en la cocina.", "answer": ["ascolto"], "bank": ["ascolto", "ascolti", "ascolta"], "why": "Io → -o: ascolto.", "g": "it-g-presente-are" },
+    { "id": "e16", "type": "fill", "q": "Tu ___ i nipoti a scuola?", "es": "¿Tú llevas a los nietos al colegio?", "answer": ["porti"], "why": "Portare con tu: porti.", "g": "it-g-presente-are" },
+    { "id": "e17", "type": "fill", "q": "Noi ___ a casa alle sei.", "es": "Volvemos a casa a las seis.", "answer": ["torniamo"], "why": "Tornare con noi: torniamo.", "g": "it-g-presente-are" },
+    { "id": "e18", "type": "transform", "instr": "Hazla negativa", "q": "Lavoro il sabato.", "answer": ["Non lavoro il sabato."], "why": "Non va delante del verbo.", "g": "it-g-presente-are" },
+    { "id": "e19", "type": "transform", "instr": "Cambia a «noi»", "q": "Io cucino la cena.", "answer": ["Noi cuciniamo la cena.", "Cuciniamo la cena."], "why": "Noi → -iamo: cuciniamo.", "g": "it-g-presente-are" },
+    { "id": "e20", "type": "transform", "instr": "Cambia a «tu»", "q": "Lei mangia molta frutta.", "answer": ["Tu mangi molta frutta.", "Mangi molta frutta."], "why": "Tu → -i, y mangiare no repite la i: mangi.", "g": "it-g-presente-are" },
+    { "id": "e21", "type": "transform", "instr": "Cambia a «loro»", "q": "Mio nipote studia molto.", "answer": ["I miei nipoti studiano molto.", "Loro studiano molto."], "why": "Loro → -ano: studiano.", "g": "it-g-presente-are" },
+    { "id": "e22", "type": "error", "q": "Tu parlas molto bene l'italiano!", "wrong": "parlas", "fix": "parli", "why": "Con tu el verbo acaba en -i: parli.", "g": "it-g-presente-are" },
+    { "id": "e23", "type": "error", "q": "Noi mangiamo e poi guardamo un film.", "wrong": "guardamo", "fix": "guardiamo", "why": "Noi siempre acaba en -iamo: guardiamo.", "g": "it-g-presente-are" },
+    { "id": "e24", "type": "error", "q": "Yolanda no lavora il lunedì.", "wrong": "no", "fix": "non", "why": "En italiano la negación es non.", "g": "it-g-presente-are" },
+    { "id": "e25", "type": "error", "q": "Tu cerci le chiavi?", "wrong": "cerci", "fix": "cerchi", "why": "Cercare añade h: cerchi.", "g": "it-g-presente-are" },
+    { "id": "e26", "type": "order", "es": "Cocino para toda la familia.", "answer": "Cucino per tutta la famiglia", "extra": ["cucina"], "why": "Io → cucino.", "g": "it-g-presente-are" },
+    { "id": "e27", "type": "order", "es": "Mis nietos no ven la tele.", "answer": "I miei nipoti non guardano la TV", "extra": ["no"], "why": "Loro → guardano; negación con non.", "g": "it-g-presente-are" },
+    { "id": "e28", "type": "order", "es": "¿Habláis español?", "answer": "Parlate spagnolo", "extra": ["parlano"], "why": "Voi → parlate.", "g": "it-g-presente-are" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "Trabajo por la mañana.", "answer": ["Lavoro la mattina.", "Io lavoro la mattina.", "Lavoro di mattina."], "why": "Io → lavoro. Por la mañana = la mattina.", "g": "it-g-presente-are" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "¿Dónde vives?", "answer": ["Dove abiti?", "Dove abiti tu?"], "why": "Abitare con tu: abiti.", "g": "it-g-presente-are" },
+    { "id": "e31", "type": "translate", "dir": "from", "q": "Pranziamo alle due.", "answer": ["Comemos a las dos", "Almorzamos a las dos"], "why": "Pranzare = comer al mediodía; noi → pranziamo.", "g": "it-g-presente-are" },
+    { "id": "e32", "type": "match", "pairs": [["io", "parlo"], ["tu", "parli"], ["lei", "parla"], ["noi", "parliamo"], ["loro", "parlano"]], "why": "Cada persona tiene su terminación: -o, -i, -a, -iamo, -ate, -ano.", "g": "it-g-presente-are" },
+    { "id": "e33", "type": "situation", "context": "En la caja del bar quieres decir que pagas tú.", "emoji": "💶", "options": ["Pago io!", "Paga io!", "Paghi io!"], "answer": "Pago io!", "why": "Con io: pago.", "g": "it-g-presente-are" },
+    { "id": "e34", "type": "situation", "context": "Tu amiga italiana te pregunta qué haces por la tarde. Tú cuidas de tus nietos.", "emoji": "👵", "options": ["Guardo i miei nipoti.", "Guarda i miei nipoti.", "Guardi i miei nipoti."], "answer": "Guardo i miei nipoti.", "why": "Io → guardo. Guardare i bambini también significa cuidarlos.", "g": "it-g-presente-are" }
+  ],
+  "reviewed": false
+}

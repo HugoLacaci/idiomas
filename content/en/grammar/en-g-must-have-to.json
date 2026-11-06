@@ -1,0 +1,141 @@
+{
+  "id": "en-g-must-have-to",
+  "lang": "en",
+  "level": "A2",
+  "title": "must y have to; mustn't y don't have to",
+  "short": "I must go. She has to wait. You mustn't smoke (prohibido). You don't have to pay (no hace falta).",
+  "story": [
+    { "kind": "intro", "title": "Tengo que…", "emoji": "📌",
+      "text": "Para decir «tengo que» el inglés tiene dos formas: ==must== y ==have to==. En afirmativa significan casi lo mismo.",
+      "examples": [
+        { "t": "I must call my son.", "es": "Tengo que llamar a mi hijo.", "hl": "must" },
+        { "t": "I have to fill in a form.", "es": "Tengo que rellenar un formulario.", "hl": "have to" }
+      ] },
+    { "kind": "table", "title": "must: nunca cambia", "emoji": "🧱",
+      "text": "==must== + verbo base. Sin to, sin -s, igual para todas las personas.",
+      "table": {
+        "head": ["", "Afirmativa", "Negativa"],
+        "rows": [
+          ["I / you / we / they", "I ==must== go.", "I ==mustn't== go."],
+          ["he / she / it", "She ==must== go.", "She ==mustn't== go."]
+        ]
+      } },
+    { "kind": "table", "title": "have to: como un verbo normal", "emoji": "🔄",
+      "text": "==have to== cambia con la persona y usa ==do / does== para negar y preguntar.",
+      "table": {
+        "head": ["", "Afirmativa", "Negativa", "Pregunta"],
+        "rows": [
+          ["I / you / we / they", "I ==have to== wait.", "I ==don't have to== wait.", "==Do== I ==have to== wait?"],
+          ["he / she / it", "She ==has to== wait.", "She ==doesn't have to== wait.", "==Does== she ==have to== wait?"]
+        ]
+      } },
+    { "kind": "rule", "title": "¿must o have to?", "emoji": "⚖️",
+      "text": "==must==: lo decides tú o es una norma escrita (carteles). ==have to==: una obligación que viene de fuera (el trabajo, el médico). Al hablar, have to es más frecuente.",
+      "examples": [
+        { "t": "I must drink more water.", "es": "Tengo que beber más agua (me lo digo yo).", "hl": "must" },
+        { "t": "My son has to work on Sundays.", "es": "Mi hijo tiene que trabajar los domingos.", "hl": "has to" }
+      ] },
+    { "kind": "rule", "title": "¡Cuidado con la negativa!", "emoji": "🚦",
+      "text": "==mustn't== = está ==prohibido==. ==don't have to== = ==no hace falta==, puedes elegir. ¡Significan cosas muy distintas!",
+      "examples": [
+        { "t": "You mustn't smoke here.", "es": "Aquí no se puede fumar.", "hl": "mustn't" },
+        { "t": "You don't have to pay. It's free.", "es": "No hace falta pagar. Es gratis.", "hl": "don't have to" }
+      ] },
+    { "kind": "compare", "title": "Así en español, así en inglés", "emoji": "🇪🇸",
+      "text": "«No tienes que venir» puede ser prohibición o no necesidad. En inglés hay que elegir: ==You mustn't come== (prohibido) o ==You don't have to come== (no hace falta)." },
+    { "kind": "errors", "title": "Errores típicos", "emoji": "⚠️",
+      "text": "❌ I must to go. ✅ I ==must go==.\n❌ She musts wait. ✅ She ==must== wait.\n❌ He have to work. ✅ He ==has to== work.\n❌ Must I to pay? ✅ ==Do I have to== pay?" },
+    { "kind": "tip", "title": "Truco y pasado", "emoji": "💡",
+      "text": "mustn't = 🚫 prohibido. don't have to = 🤷 como quieras. Y en pasado solo hay una forma: ==had to==: I had to wait an hour.",
+      "examples": [
+        { "t": "Yesterday I had to go to the GP.", "es": "Ayer tuve que ir al médico.", "hl": "had to" }
+      ] }
+  ],
+  "compare": {
+    "es": "En español decimos «tener que» o «deber» para la obligación, y «no tener que» puede significar tanto prohibición como no necesidad, según el contexto.",
+    "target": "En inglés usamos must (sin to, sin -s) o have to (has to con he/she). En negativa hay que elegir: mustn't = prohibido; don't have to = no hace falta. En pasado: had to."
+  },
+  "errors": [
+    { "wrong": "I must to go to the doctor.", "right": "I must go to the doctor.", "why": "Después de must no va to." },
+    { "wrong": "She musts wait.", "right": "She must wait.", "why": "Must nunca lleva -s." },
+    { "wrong": "He have to work today.", "right": "He has to work today.", "why": "Con he/she: has to." },
+    { "wrong": "You mustn't pay. It's free.", "right": "You don't have to pay. It's free.", "why": "Si no es necesario, es don't have to; mustn't es prohibido." },
+    { "wrong": "Do I must bring my passport?", "right": "Do I have to bring my passport?", "why": "Must no usa do. Para preguntar, lo normal es Do I have to…?" },
+    { "wrong": "She doesn't has to come.", "right": "She doesn't have to come.", "why": "Después de doesn't, have vuelve a su forma base." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "I ___ go to the bank today.", "options": ["must", "must to", "musts"], "answer": "must",
+      "why": "Must + verbo, sin to.", "g": "en-g-must-have-to" },
+    { "id": "e2", "type": "choose", "q": "She ___ to take the bus to work.", "options": ["has", "have", "must"], "answer": "has",
+      "why": "Con she: has to.", "g": "en-g-must-have-to" },
+    { "id": "e3", "type": "choose", "q": "They ___ to get up at six.", "options": ["have", "has"], "answer": "have",
+      "why": "Con they: have to.", "g": "en-g-must-have-to" },
+    { "id": "e4", "type": "choose", "q": "You ___ use your phone in the cinema. It's not allowed.", "options": ["mustn't", "don't have to"], "answer": "mustn't",
+      "why": "No está permitido: mustn't.", "g": "en-g-must-have-to" },
+    { "id": "e5", "type": "choose", "q": "It's Sunday. I ___ get up early.", "options": ["don't have to", "mustn't"], "answer": "don't have to",
+      "why": "Es domingo, no hace falta madrugar: don't have to.", "g": "en-g-must-have-to" },
+    { "id": "e6", "type": "choose", "q": "My grandson ___ go to school on Saturdays.", "options": ["doesn't have to", "don't have to", "mustn't"], "answer": "doesn't have to",
+      "why": "No es necesario y con he: doesn't have to.", "g": "en-g-must-have-to" },
+    { "id": "e7", "type": "choose", "q": "___ your husband have to work tomorrow?", "options": ["Does", "Do", "Must"], "answer": "Does",
+      "why": "Pregunta con he: Does… have to?", "g": "en-g-must-have-to" },
+    { "id": "e8", "type": "choose", "q": "Yesterday I ___ wait an hour at the GP's.", "options": ["had to", "must", "have to"], "answer": "had to",
+      "why": "En pasado: had to.", "g": "en-g-must-have-to" },
+    { "id": "e9", "type": "conjugate", "verb": "have to", "person": "she", "tense": "presente", "q": "My sister ___ take the dog out every morning.", "answer": ["has to"],
+      "table": [["I / you / we / they", "have to"], ["he / she / it", "has to"], ["pasado", "had to"]],
+      "why": "My sister = she: has to.", "g": "en-g-must-have-to" },
+    { "id": "e10", "type": "conjugate", "verb": "have to", "person": "I", "tense": "pasado", "q": "Last week I ___ go to the chemist's twice.", "answer": ["had to"],
+      "why": "En pasado: had to, igual para todos.", "g": "en-g-must-have-to" },
+    { "id": "e11", "type": "conjugate", "verb": "have to", "person": "he", "tense": "presente, negativa", "q": "He ___ cook tonight. We're going out.", "answer": ["doesn't have to", "does not have to"],
+      "why": "No hace falta, con he: doesn't have to.", "g": "en-g-must-have-to" },
+    { "id": "e12", "type": "fill", "q": "You ___ touch the paintings. It's forbidden.", "es": "No se pueden tocar los cuadros. Está prohibido.", "answer": ["mustn't", "must not"], "bank": ["mustn't", "don't have to", "must"],
+      "why": "Prohibido: mustn't.", "g": "en-g-must-have-to" },
+    { "id": "e13", "type": "fill", "q": "You ___ bring food. There's a café.", "es": "No hace falta traer comida. Hay una cafetería.", "answer": ["don't have to", "do not have to"], "bank": ["don't have to", "mustn't", "has to"],
+      "why": "No es necesario: don't have to.", "g": "en-g-must-have-to" },
+    { "id": "e14", "type": "fill", "q": "Do I ___ to pay now or later?", "es": "¿Tengo que pagar ahora o después?", "answer": ["have"], "bank": ["have", "has", "must"],
+      "why": "Do I have to…?", "g": "en-g-must-have-to" },
+    { "id": "e15", "type": "fill", "q": "Passengers ___ show their tickets.", "es": "Los pasajeros deben enseñar el billete.", "answer": ["must", "have to"],
+      "why": "Norma escrita: must (o have to).", "g": "en-g-must-have-to" },
+    { "id": "e16", "type": "fill", "q": "Does she have ___ work late today?", "es": "¿Tiene que trabajar hasta tarde hoy?", "answer": ["to"],
+      "why": "Have to siempre lleva to.", "g": "en-g-must-have-to" },
+    { "id": "e17", "type": "error", "q": "She musts take her tablets.", "wrong": "musts", "fix": "must",
+      "why": "Must no lleva -s.", "g": "en-g-must-have-to" },
+    { "id": "e18", "type": "error", "q": "He have to see the doctor.", "wrong": "have", "fix": "has",
+      "why": "Con he: has to.", "g": "en-g-must-have-to" },
+    { "id": "e19", "type": "error", "q": "She doesn't has to come today.", "wrong": "has", "fix": "have",
+      "why": "Después de doesn't: have.", "g": "en-g-must-have-to" },
+    { "id": "e20", "type": "error", "q": "Do your friend have to work?", "wrong": "Do", "fix": "Does",
+      "why": "Your friend = he/she: Does.", "g": "en-g-must-have-to" },
+    { "id": "e21", "type": "error", "q": "Yesterday I have to stay at home.", "wrong": "have", "fix": "had",
+      "why": "Yesterday = pasado: had to.", "g": "en-g-must-have-to" },
+    { "id": "e22", "type": "transform", "instr": "Hazla negativa (= no hace falta)", "q": "She has to work tomorrow.", "answer": ["She doesn't have to work tomorrow.", "She does not have to work tomorrow."],
+      "why": "doesn't have to + verbo.", "g": "en-g-must-have-to" },
+    { "id": "e23", "type": "transform", "instr": "Hazla pregunta", "q": "You have to fill in a form.", "answer": ["Do you have to fill in a form?", "Do you have to fill in a form"],
+      "why": "Do + you + have to…?", "g": "en-g-must-have-to" },
+    { "id": "e24", "type": "transform", "instr": "Ponla en pasado", "q": "I have to wait for the bus.", "answer": ["I had to wait for the bus."],
+      "why": "Pasado de have to: had to.", "g": "en-g-must-have-to" },
+    { "id": "e25", "type": "transform", "instr": "Hazla negativa (= prohibido)", "q": "You must park here.", "answer": ["You mustn't park here.", "You must not park here."],
+      "why": "Prohibido: mustn't.", "g": "en-g-must-have-to" },
+    { "id": "e26", "type": "order", "es": "Tengo que llamar a mi hijo", "answer": "I must call my son", "extra": ["to"],
+      "alt": ["I have to call my son"],
+      "why": "Must + verbo, sin to.", "g": "en-g-must-have-to" },
+    { "id": "e27", "type": "order", "es": "No hace falta que te des prisa", "answer": "You don't have to hurry", "extra": ["mustn't"],
+      "why": "No hace falta = don't have to.", "g": "en-g-must-have-to" },
+    { "id": "e28", "type": "order", "es": "¿Tiene que trabajar tu hija el sábado?", "answer": "Does your daughter have to work on Saturday", "extra": ["has"],
+      "why": "Does + sujeto + have to + verbo.", "g": "en-g-must-have-to" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "Aquí no se puede fumar.", "answer": ["You mustn't smoke here.", "You must not smoke here.", "You can't smoke here."],
+      "why": "Prohibido: mustn't.", "g": "en-g-must-have-to" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "Mi marido tiene que trabajar hoy.", "answer": ["My husband has to work today.", "My husband must work today."],
+      "why": "My husband = he: has to.", "g": "en-g-must-have-to" },
+    { "id": "e31", "type": "translate", "dir": "from", "q": "You don't have to come with me.", "answer": ["No hace falta que vengas conmigo.", "No tienes que venir conmigo.", "No hace falta que venga conmigo."],
+      "why": "Don't have to = no hace falta.", "g": "en-g-must-have-to" },
+    { "id": "e32", "type": "situation", "context": "En un museo, tu nieto quiere tocar una estatua. Le dices que está prohibido.", "emoji": "🗿",
+      "options": ["You mustn't touch it.", "You don't have to touch it.", "You must to not touch it."], "answer": "You mustn't touch it.",
+      "why": "Prohibido: mustn't.", "g": "en-g-must-have-to" },
+    { "id": "e33", "type": "situation", "context": "Una amiga se ofrece a llevarte en coche, pero tú puedes ir andando. Le dices que no hace falta.", "emoji": "🚗",
+      "options": ["Thanks, but you don't have to.", "Thanks, but you mustn't.", "Thanks, but you don't must."], "answer": "Thanks, but you don't have to.",
+      "why": "No hace falta = you don't have to.", "g": "en-g-must-have-to" },
+    { "id": "e34", "type": "match", "pairs": [["You mustn't smoke.", "Prohibido fumar."], ["You don't have to pay.", "No hace falta pagar."], ["I must go.", "Me tengo que ir."], ["She has to work.", "Tiene que trabajar."], ["I had to wait.", "Tuve que esperar."]],
+      "why": "Obligación, prohibición, no necesidad y pasado.", "g": "en-g-must-have-to" }
+  ],
+  "reviewed": false
+}

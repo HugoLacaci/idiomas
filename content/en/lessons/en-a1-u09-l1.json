@@ -1,0 +1,470 @@
+{
+  "id": "en-a1-u09-l1",
+  "unit": "en-a1-u09",
+  "title": "Fish and chips y mucho más",
+  "goal": "a nombrar la comida y la bebida típicas de una cafetería inglesa",
+  "emoji": "🍟",
+  "photoQuery": "fish and chips plate",
+  "vocab": [
+    {
+      "id": "a-sandwich",
+      "t": "a sandwich",
+      "es": "un sándwich, un bocadillo",
+      "emoji": "🥪",
+      "pos": "n",
+      "ex": {
+        "t": "A cheese sandwich, please.",
+        "es": "Un sándwich de queso, por favor."
+      }
+    },
+    {
+      "id": "chips",
+      "t": "chips",
+      "es": "patatas fritas (de sartén)",
+      "emoji": "🍟",
+      "pos": "n",
+      "ex": {
+        "t": "Fish and chips for two.",
+        "es": "Pescado con patatas para dos."
+      },
+      "note": "En EE. UU.: fries. ¡Ojo! En el Reino Unido chips son las patatas fritas del plato."
+    },
+    {
+      "id": "crisps",
+      "t": "crisps",
+      "es": "patatas fritas de bolsa",
+      "emoji": "🥔",
+      "pos": "n",
+      "ex": {
+        "t": "My grandson loves crisps.",
+        "es": "A mi nieto le encantan las patatas de bolsa."
+      },
+      "note": "En EE. UU.: chips. En el Reino Unido, crisps."
+    },
+    {
+      "id": "soup",
+      "t": "soup",
+      "es": "sopa, crema",
+      "emoji": "🍲",
+      "pos": "n",
+      "ex": {
+        "t": "The soup is very hot.",
+        "es": "La sopa está muy caliente."
+      }
+    },
+    {
+      "id": "fish",
+      "t": "fish",
+      "es": "pescado, pez",
+      "emoji": "🐟",
+      "pos": "n",
+      "ex": {
+        "t": "I eat fish on Fridays.",
+        "es": "Como pescado los viernes."
+      }
+    },
+    {
+      "id": "chicken",
+      "t": "chicken",
+      "es": "pollo",
+      "emoji": "🍗",
+      "pos": "n",
+      "ex": {
+        "t": "Roast chicken with potatoes.",
+        "es": "Pollo asado con patatas."
+      }
+    },
+    {
+      "id": "salad",
+      "t": "salad",
+      "es": "ensalada",
+      "emoji": "🥗",
+      "pos": "n",
+      "ex": {
+        "t": "A green salad, please.",
+        "es": "Una ensalada verde, por favor."
+      }
+    },
+    {
+      "id": "a-slice-of-cake",
+      "t": "a slice of cake",
+      "es": "un trozo de bizcocho / de tarta",
+      "emoji": "🍰",
+      "pos": "n",
+      "ex": {
+        "t": "A slice of lemon cake, please.",
+        "es": "Un trozo de bizcocho de limón, por favor."
+      }
+    },
+    {
+      "id": "orange-juice",
+      "t": "orange juice",
+      "es": "zumo de naranja",
+      "emoji": "🧃",
+      "pos": "n",
+      "ex": {
+        "t": "Fresh orange juice for breakfast.",
+        "es": "Zumo de naranja natural para desayunar."
+      }
+    },
+    {
+      "id": "still-or-sparkling",
+      "t": "still or sparkling?",
+      "es": "¿sin gas o con gas?",
+      "emoji": "💧",
+      "pos": "phrase",
+      "ex": {
+        "t": "Water? Still or sparkling?",
+        "es": "¿Agua? ¿Sin gas o con gas?"
+      }
+    }
+  ],
+  "grammar": "en-g-would-like",
+  "pron": {
+    "title": "ch de chips y sh de ship",
+    "tip": "La ch inglesa suena como la nuestra: «chips». La sh es como mandar callar: «shhh». Cuidado: chips son patatas; ships son barcos.",
+    "words": [
+      "chips",
+      "cheese",
+      "chicken",
+      "fish",
+      "shop"
+    ],
+    "pairs": [
+      [
+        "chips",
+        "ships"
+      ],
+      [
+        "chop",
+        "shop"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "chips",
+          "patatas fritas del plato"
+        ],
+        [
+          "crisps",
+          "patatas de bolsa"
+        ],
+        [
+          "soup",
+          "sopa"
+        ],
+        [
+          "chicken",
+          "pollo"
+        ],
+        [
+          "salad",
+          "ensalada"
+        ]
+      ],
+      "why": "Ojo con chips y crisps: en el Reino Unido son cosas distintas."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Fish and ___, please.",
+      "es": "Pescado con patatas fritas, por favor.",
+      "options": [
+        "chips",
+        "crisps",
+        "chops"
+      ],
+      "answer": "chips",
+      "why": "El plato típico es fish and chips: patatas de sartén."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "A packet of ___ for my grandson, please.",
+      "es": "Una bolsa de patatas fritas para mi nieto, por favor.",
+      "options": [
+        "crisps",
+        "chips",
+        "soup"
+      ],
+      "answer": "crisps",
+      "why": "Las patatas de bolsa en el Reino Unido son crisps."
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Water? Still or ___?",
+      "es": "¿Agua? ¿Sin gas o con gas?",
+      "options": [
+        "sparkling",
+        "hot",
+        "sweet"
+      ],
+      "answer": "sparkling",
+      "why": "Agua con gas = sparkling water; sin gas = still water."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "A slice ___ chocolate cake, please.",
+      "es": "Un trozo de tarta de chocolate, por favor.",
+      "answer": [
+        "of"
+      ],
+      "bank": [
+        "of",
+        "for",
+        "in"
+      ],
+      "why": "Un trozo de… = a slice of…",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I'd ___ the chicken salad, please.",
+      "es": "Querría la ensalada de pollo, por favor.",
+      "answer": [
+        "like"
+      ],
+      "bank": [
+        "like",
+        "want",
+        "likes"
+      ],
+      "why": "Para pedir: I'd like… (querría).",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "Querría una sopa y un sándwich",
+      "answer": "I'd like a soup and a sandwich",
+      "extra": [
+        "want"
+      ],
+      "why": "I'd like + lo que pides.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Un zumo de naranja, por favor",
+      "answer": "An orange juice please",
+      "extra": [
+        "a"
+      ],
+      "why": "Orange empieza por vocal: an orange juice."
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "My friend would like a orange juice.",
+      "wrong": "a",
+      "fix": "an",
+      "why": "Orange empieza por sonido de vocal: an orange juice."
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "Un sándwich de pollo, por favor.",
+      "answer": [
+        "A chicken sandwich, please.",
+        "A chicken sandwich please.",
+        "A chicken sandwich, please"
+      ],
+      "why": "En inglés el «de» va delante: chicken sandwich (sándwich de pollo)."
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "from",
+      "q": "The soup is very hot.",
+      "answer": [
+        "La sopa está muy caliente.",
+        "La sopa está muy caliente",
+        "La crema está muy caliente."
+      ],
+      "why": "Hot = caliente (o picante, según el contexto)."
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Te ofrecen agua y la quieres con gas.",
+      "emoji": "💧",
+      "options": [
+        "Sparkling, please.",
+        "With gas, please.",
+        "Gas water, please."
+      ],
+      "answer": "Sparkling, please.",
+      "why": "Agua con gas = sparkling water. «With gas» no se dice."
+    },
+    {
+      "id": "e13",
+      "type": "transform",
+      "instr": "Hazla más educada con I'd like",
+      "q": "I want fish and chips.",
+      "answer": [
+        "I'd like fish and chips.",
+        "I would like fish and chips.",
+        "I'd like fish and chips, please.",
+        "I would like fish and chips, please."
+      ],
+      "why": "I want suena brusco; I'd like es lo natural.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "chips",
+        "ships"
+      ],
+      "answer": "chips",
+      "es": [
+        "patatas fritas",
+        "barcos"
+      ],
+      "why": "Ch suena como en español; sh es como mandar callar."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Fish and chips and a sparkling water, please.",
+      "es": "Pescado con patatas y un agua con gas, por favor."
+    },
+    {
+      "id": "e16",
+      "type": "reading",
+      "kind": "menu",
+      "title": "The Riverside Café",
+      "text": "SOUP OF THE DAY – tomato – £4\nCHICKEN SANDWICH – £5\nFISH AND CHIPS – £9\nSLICE OF CAKE – lemon or chocolate – £3\nDRINKS: tea, coffee, orange juice, still or sparkling water",
+      "questions": [
+        {
+          "q": "¿De qué es la sopa del día?",
+          "options": [
+            "De tomate",
+            "De pollo",
+            "De pescado"
+          ],
+          "answer": "De tomate"
+        },
+        {
+          "q": "¿Qué es lo más caro?",
+          "options": [
+            "El pescado con patatas",
+            "El sándwich",
+            "La tarta"
+          ],
+          "answer": "El pescado con patatas"
+        },
+        {
+          "q": "¿De qué sabores hay tarta?",
+          "options": [
+            "Limón o chocolate",
+            "Fresa o limón",
+            "Solo chocolate"
+          ],
+          "answer": "Limón o chocolate"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "title": "La merienda de la abuela",
+    "setting": "En una cafetería junto al río, en Londres",
+    "emoji": "🍰",
+    "lines": [
+      {
+        "who": "Waitress",
+        "t": "Hello! What would you like?",
+        "es": "¡Hola! ¿Qué le pongo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "A tea and a slice of cake, please.",
+        "es": "Un té y un trozo de bizcocho, por favor."
+      },
+      {
+        "who": "Waitress",
+        "t": "Lemon or chocolate?",
+        "es": "¿De limón o de chocolate?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Lemon, please. And for my grandson…",
+        "es": "De limón, por favor. Y para mi nieto…"
+      },
+      {
+        "who": "Grandson",
+        "t": "Crisps, Grandma! And orange juice!",
+        "es": "¡Patatas, abuela! ¡Y zumo de naranja!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "A sandwich and an orange juice, please.",
+        "es": "Un sándwich y un zumo de naranja, por favor."
+      },
+      {
+        "who": "Waitress",
+        "t": "No crisps?",
+        "es": "¿Sin patatas?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No crisps today!",
+        "es": "¡Hoy nada de patatas!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿De qué es el bizcocho de Yolanda?",
+        "options": [
+          "De limón",
+          "De chocolate",
+          "De naranja"
+        ],
+        "answer": "De limón"
+      },
+      {
+        "q": "¿Qué quiere el nieto?",
+        "options": [
+          "Patatas de bolsa y zumo",
+          "Sopa y agua",
+          "Pescado"
+        ],
+        "answer": "Patatas de bolsa y zumo"
+      },
+      {
+        "q": "¿Qué pide Yolanda para él?",
+        "options": [
+          "Un sándwich y un zumo",
+          "Patatas y zumo",
+          "Un té"
+        ],
+        "answer": "Un sándwich y un zumo"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Still water, please. No ice.",
+    "es": "Agua sin gas, por favor. Sin hielo.",
+    "context": "Para pedir agua en una cafetería o un restaurante"
+  },
+  "summary": [
+    "chips = patatas fritas del plato; crisps = patatas de bolsa",
+    "a slice of cake = un trozo de bizcocho o tarta",
+    "Agua: still (sin gas) o sparkling (con gas)",
+    "Para pedir: I'd like…, please",
+    "ch (chips) no es sh (ships)"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u09-l1"
+}

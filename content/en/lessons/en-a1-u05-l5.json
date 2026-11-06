@@ -1,0 +1,456 @@
+{
+  "id": "en-a1-u05-l5",
+  "unit": "en-a1-u05",
+  "title": "Reto en Greenwich: fechas, horarios y el meridiano 0",
+  "goal": "a decir fechas, entender un billete y organizar una excursión con horas y días",
+  "emoji": "🕰️",
+  "photoQuery": "greenwich observatory river thames",
+  "vocab": [
+    {
+      "id": "january",
+      "t": "January",
+      "es": "enero",
+      "emoji": "❄️",
+      "pos": "n",
+      "ex": {
+        "t": "It's very cold in January.",
+        "es": "En enero hace mucho frío."
+      },
+      "note": "Los meses van con mayúscula: January, February, March, April, May, June, July, August, September, October, November, December."
+    },
+    {
+      "id": "august",
+      "t": "August",
+      "es": "agosto",
+      "emoji": "🏖️",
+      "pos": "n",
+      "ex": {
+        "t": "We go to the beach in August.",
+        "es": "En agosto vamos a la playa."
+      }
+    },
+    {
+      "id": "whats-the-date",
+      "t": "What's the date today?",
+      "es": "¿A qué fecha estamos hoy?",
+      "emoji": "📆",
+      "pos": "phrase",
+      "ex": {
+        "t": "What's the date today? – It's the third of May.",
+        "es": "¿Qué día es hoy? – Es 3 de mayo."
+      }
+    },
+    {
+      "id": "the-first",
+      "t": "the first / second / third",
+      "es": "el primero / el dos / el tres (fechas)",
+      "emoji": "🥇",
+      "pos": "phrase",
+      "ex": {
+        "t": "The party is on the first of June.",
+        "es": "La fiesta es el uno de junio."
+      },
+      "note": "Las fechas se dicen con ordinales: the first, the second, the third, the fourth…"
+    },
+    {
+      "id": "an-appointment",
+      "t": "an appointment",
+      "es": "una cita (médico, peluquería…)",
+      "emoji": "🩺",
+      "pos": "n",
+      "ex": {
+        "t": "I've got an appointment at four.",
+        "es": "Tengo cita a las cuatro."
+      }
+    },
+    {
+      "id": "a-calendar",
+      "t": "a calendar",
+      "es": "un calendario",
+      "emoji": "🗓️",
+      "pos": "n",
+      "ex": {
+        "t": "The birthdays are on the calendar.",
+        "es": "Los cumpleaños están en el calendario."
+      }
+    },
+    {
+      "id": "in-summer",
+      "t": "in summer",
+      "es": "en verano",
+      "emoji": "🌞",
+      "pos": "phrase",
+      "ex": {
+        "t": "London is beautiful in summer.",
+        "es": "Londres es precioso en verano."
+      },
+      "note": "Estaciones con in: in spring, in summer, in autumn, in winter."
+    },
+    {
+      "id": "a-timetable",
+      "t": "a timetable",
+      "es": "un horario (de trenes, barcos…)",
+      "emoji": "🚆",
+      "pos": "n",
+      "ex": {
+        "t": "Look at the boat timetable.",
+        "es": "Mira el horario de los barcos."
+      },
+      "note": "En EE. UU.: a schedule."
+    }
+  ],
+  "grammar": "en-g-prep-time",
+  "pron": {
+    "title": "La «er» de first, third y birthday",
+    "tip": "First, third, thirty, birthday y Thursday tienen el mismo sonido: una «e» neutra y larga, con la boca relajada. En inglés británico la r no suena. Compara: first (primero) y fast (rápido, con «a» larga).",
+    "words": [
+      "first",
+      "third",
+      "birthday",
+      "Thursday"
+    ],
+    "pairs": [
+      [
+        "first",
+        "fast"
+      ],
+      [
+        "birth",
+        "bath"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "text",
+      "title": "Welcome to Greenwich!",
+      "text": "At the Royal Observatory you can stand on the Prime Meridian, longitude 0°: one foot in the east and one foot in the west! Look up at the red ball on the roof. Every day at one o'clock it drops. It's a time signal for ships from 1833.",
+      "questions": [
+        {
+          "q": "¿A qué hora cae la bola roja?",
+          "options": [
+            "A la una",
+            "A las doce",
+            "A las tres"
+          ],
+          "answer": "A la una"
+        },
+        {
+          "q": "¿Para quién era la señal horaria?",
+          "options": [
+            "Para los barcos",
+            "Para los trenes",
+            "Para los colegios"
+          ],
+          "answer": "Para los barcos"
+        },
+        {
+          "q": "¿Qué puedes hacer en el meridiano?",
+          "options": [
+            "Poner un pie en el este y otro en el oeste",
+            "Subir a un barco",
+            "Comprar relojes"
+          ],
+          "answer": "Poner un pie en el este y otro en el oeste"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "The red ball drops ___ one o'clock.",
+      "es": "La bola roja cae a la una.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "at",
+      "why": "Hora: at one o'clock.",
+      "g": "en-g-prep-time"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Our trip is ___ 14 June.",
+      "es": "Nuestra excursión es el 14 de junio.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "answer": "on",
+      "why": "Fecha concreta (día + mes): on 14 June.",
+      "g": "en-g-prep-time"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "London is lovely ___ summer.",
+      "es": "Londres es precioso en verano.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": "in",
+      "why": "Estaciones con in: in summer.",
+      "g": "en-g-prep-time"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "The party is ___ the fifth of May.",
+      "es": "La fiesta es el cinco de mayo.",
+      "answer": [
+        "on"
+      ],
+      "bank": [
+        "on",
+        "in",
+        "at"
+      ],
+      "why": "Con fechas: on the fifth of May.",
+      "g": "en-g-prep-time"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Today is the ___ of June.",
+      "es": "Hoy es tres de junio.",
+      "answer": [
+        "third"
+      ],
+      "bank": [
+        "third",
+        "three",
+        "thirty"
+      ],
+      "why": "Las fechas llevan ordinal: the third (no the three)."
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "The boat trip is in Saturday.",
+      "wrong": "in",
+      "fix": "on",
+      "why": "Con días de la semana: on Saturday.",
+      "g": "en-g-prep-time"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Christmas Day is on December.",
+      "wrong": "on",
+      "fix": "in",
+      "why": "Solo el mes, sin día: in December. (Pero on 25 December.)",
+      "g": "en-g-prep-time"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Mi cita es el tres de marzo",
+      "answer": "My appointment is on the third of March",
+      "extra": [
+        "in",
+        "three"
+      ],
+      "why": "Fecha con on y ordinal: on the third of March.",
+      "g": "en-g-prep-time"
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "Hoy es uno de agosto.",
+      "answer": [
+        "It's the first of August.",
+        "Today is the first of August.",
+        "It's the first of August today.",
+        "Today's the first of August.",
+        "It's 1 August.",
+        "It's August the first."
+      ],
+      "why": "Las fechas con ordinal: the first of August."
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Escribe la fecha como se dice en voz alta",
+      "q": "25 December",
+      "answer": [
+        "the twenty-fifth of December",
+        "December the twenty-fifth",
+        "the twenty fifth of December"
+      ],
+      "why": "En británico se dice the + ordinal + of + mes: the twenty-fifth of December."
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "En la taquilla del barco quieres saber a qué hora sale el próximo.",
+      "emoji": "⛴️",
+      "options": [
+        "What time is the next boat?",
+        "What hour is the next boat?",
+        "When time is the next boat?"
+      ],
+      "answer": "What time is the next boat?",
+      "why": "¿A qué hora…? = What time…?",
+      "g": "en-g-prep-time"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Escribes a tu hijo Hugo por WhatsApp: llegas el viernes por la tarde.",
+      "emoji": "💬",
+      "options": [
+        "I arrive on Friday afternoon.",
+        "I arrive in Friday afternoon.",
+        "I arrive at Friday in the afternoon."
+      ],
+      "answer": "I arrive on Friday afternoon.",
+      "why": "Día + parte del día: on Friday afternoon.",
+      "g": "en-g-prep-time"
+    },
+    {
+      "id": "e14",
+      "type": "match",
+      "pairs": [
+        [
+          "January",
+          "enero"
+        ],
+        [
+          "April",
+          "abril"
+        ],
+        [
+          "August",
+          "agosto"
+        ],
+        [
+          "October",
+          "octubre"
+        ],
+        [
+          "December",
+          "diciembre"
+        ]
+      ],
+      "why": "Los meses se parecen mucho al español, pero van con mayúscula."
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "birth",
+        "bath"
+      ],
+      "answer": "birth",
+      "es": [
+        "nacimiento",
+        "baño"
+      ],
+      "why": "Birth tiene la «e» neutra de first; bath, una «a» larga y abierta."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "The boat to Greenwich is at half past ten.",
+      "es": "El barco a Greenwich es a las diez y media."
+    }
+  ],
+  "dialog": {
+    "title": "Un pie en cada mitad del mundo",
+    "setting": "En la línea del meridiano de Greenwich, con un guía",
+    "emoji": "🌐",
+    "lines": [
+      {
+        "who": "Oliver",
+        "t": "This is the Prime Meridian. Longitude zero!",
+        "es": "Este es el meridiano cero. ¡Longitud cero!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "So I'm in the east and in the west?",
+        "es": "¿O sea, que estoy en el este y en el oeste?"
+      },
+      {
+        "who": "Oliver",
+        "t": "Yes! One foot in each.",
+        "es": "¡Sí! Un pie en cada lado."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Wonderful. What time is it now?",
+        "es": "Maravilloso. ¿Qué hora es ahora?"
+      },
+      {
+        "who": "Oliver",
+        "t": "It's five to one. Look at the red ball on the roof.",
+        "es": "Es la una menos cinco. Mire la bola roja del tejado."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Why?",
+        "es": "¿Por qué?"
+      },
+      {
+        "who": "Oliver",
+        "t": "It drops at one o'clock every day.",
+        "es": "Cae a la una en punto todos los días."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Let's wait! It's perfect for a video for my grandchildren.",
+        "es": "¡Esperemos! Es perfecto para un vídeo para mis nietos."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué hora es?",
+        "options": [
+          "La una menos cinco",
+          "La una y cinco",
+          "Las doce"
+        ],
+        "answer": "La una menos cinco"
+      },
+      {
+        "q": "¿Cuándo cae la bola?",
+        "options": [
+          "A la una, todos los días",
+          "Solo los domingos",
+          "A las doce de la noche"
+        ],
+        "answer": "A la una, todos los días"
+      },
+      {
+        "q": "¿Para quién quiere Yolanda el vídeo?",
+        "options": [
+          "Para sus nietos",
+          "Para el guía",
+          "Para su vecina"
+        ],
+        "answer": "Para sus nietos"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Two tickets for Saturday, please.",
+    "es": "Dos entradas para el sábado, por favor.",
+    "context": "En una taquilla de museo, barco o teatro"
+  },
+  "summary": [
+    "Fechas con ordinal y on: on the third of March",
+    "in + meses y estaciones: in August, in summer",
+    "Horarios: What time is the next boat? – At half past ten",
+    "Escucha first, third, Thursday: «e» neutra y larga",
+    "Curiosidad: por Greenwich pasa el meridiano 0; de aquí viene la hora GMT"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u05-l5"
+}

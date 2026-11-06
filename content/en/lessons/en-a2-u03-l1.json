@@ -1,0 +1,102 @@
+{
+  "id": "en-a2-u03-l1",
+  "unit": "en-a2-u03",
+  "title": "Jerséis, pantalones y zapatillas",
+  "goal": "a nombrar la ropa de todos los días en inglés británico",
+  "emoji": "👚",
+  "photoQuery": "clothes shop rail jumpers",
+  "vocab": [
+    { "id": "clothes-jumper", "t": "a jumper", "es": "un jersey", "emoji": "🧶", "pos": "n",
+      "ex": { "t": "This jumper is very warm.", "es": "Este jersey abriga mucho." },
+      "note": "En EE. UU.: sweater." },
+    { "id": "clothes-trousers", "t": "trousers", "es": "los pantalones", "emoji": "👖", "pos": "n",
+      "ex": { "t": "These trousers are too long.", "es": "Estos pantalones me quedan largos." },
+      "note": "Siempre en plural: these trousers are… En EE. UU.: pants." },
+    { "id": "clothes-trainers", "t": "trainers", "es": "las zapatillas de deporte", "emoji": "👟", "pos": "n",
+      "ex": { "t": "My grandson wants new trainers.", "es": "Mi nieto quiere zapatillas nuevas." },
+      "note": "En EE. UU.: sneakers." },
+    { "id": "clothes-coat", "t": "a coat", "es": "un abrigo", "emoji": "🧥", "pos": "n",
+      "ex": { "t": "I need a coat for London.", "es": "Necesito un abrigo para Londres." } },
+    { "id": "clothes-dress", "t": "a dress", "es": "un vestido", "emoji": "👗", "pos": "n",
+      "ex": { "t": "That dress is lovely!", "es": "¡Ese vestido es precioso!" } },
+    { "id": "clothes-shirt", "t": "a shirt", "es": "una camisa", "emoji": "👔", "pos": "n",
+      "ex": { "t": "My son needs a white shirt.", "es": "Mi hijo necesita una camisa blanca." } },
+    { "id": "clothes-skirt", "t": "a skirt", "es": "una falda", "emoji": "👘", "pos": "n",
+      "ex": { "t": "I like this skirt.", "es": "Me gusta esta falda." } },
+    { "id": "clothes-scarf", "t": "a scarf", "es": "una bufanda, un pañuelo", "emoji": "🧣", "pos": "n",
+      "ex": { "t": "It's cold. Take your scarf.", "es": "Hace frío. Coge la bufanda." } },
+    { "id": "clothes-a-pair-of", "t": "a pair of", "es": "un par de", "emoji": "🧦", "pos": "phrase",
+      "ex": { "t": "I'd like a pair of socks.", "es": "Quería un par de calcetines." },
+      "note": "Para cosas de dos partes: a pair of trousers, a pair of shoes." }
+  ],
+  "grammar": "en-g-demonstratives",
+  "pron": {
+    "title": "shirt, skirt, jumper",
+    "tip": "Shirt y skirt tienen el sonido /ɜː/: una «e» larga y relajada, con la boca medio abierta, sin pronunciar la r. La j de jumper suena como la «y» fuerte de «¡yo!»: «yámpa».",
+    "words": ["shirt", "skirt", "jumper", "trousers", "scarf"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "___ trousers are too long.", "options": ["These", "This"], "answer": "These",
+      "why": "Trousers es plural en inglés: these trousers.", "g": "en-g-demonstratives" },
+    { "id": "e2", "type": "choose", "q": "I like ___ jumper. It's so soft!", "options": ["this", "these"], "answer": "this",
+      "why": "Un solo jersey, cerca de ti: this.", "g": "en-g-demonstratives" },
+    { "id": "e3", "type": "choose", "q": "My trainers ___ very old.", "options": ["are", "is"], "answer": "are",
+      "why": "Trainers es plural: are.", "g": "en-g-demonstratives" },
+    { "id": "e4", "type": "fill", "q": "I need a ___ of shoes for the wedding.", "es": "Necesito un par de zapatos para la boda.", "answer": ["pair"], "bank": ["pair", "par", "couple"],
+      "why": "Un par de = a pair of." },
+    { "id": "e5", "type": "fill", "q": "Look at ___ dress in the window! (allí)", "es": "¡Mira ese vestido del escaparate!", "answer": ["that"], "bank": ["that", "this", "those"],
+      "why": "Lejos y singular: that.", "g": "en-g-demonstratives" },
+    { "id": "e6", "type": "fill", "q": "It's cold today. Wear your ___.", "es": "Hoy hace frío. Ponte el abrigo.", "answer": ["coat"], "bank": ["coat", "skirt", "trainers"],
+      "why": "Para el frío: a coat, un abrigo." },
+    { "id": "e7", "type": "match", "pairs": [["jumper", "jersey"], ["trousers", "pantalones"], ["trainers", "zapatillas"], ["skirt", "falda"], ["scarf", "bufanda"]],
+      "why": "Ropa básica en inglés británico." },
+    { "id": "e8", "type": "error", "q": "This trousers are very comfortable.", "wrong": "This", "fix": "These",
+      "why": "Trousers es plural: these trousers.", "g": "en-g-demonstratives" },
+    { "id": "e9", "type": "error", "q": "My grandson needs a new trouser.", "wrong": "trouser", "fix": "trousers",
+      "why": "Trousers siempre va en plural (o a pair of trousers)." },
+    { "id": "e10", "type": "order", "es": "Quería un par de calcetines", "answer": "I'd like a pair of socks", "extra": ["two"],
+      "why": "Un par de = a pair of." },
+    { "id": "e11", "type": "translate", "dir": "to", "q": "Este jersey es precioso.", "answer": ["This jumper is lovely.", "This jumper is beautiful.", "This jumper is very nice.", "This jumper is gorgeous."],
+      "why": "Jersey = jumper en Reino Unido.", "g": "en-g-demonstratives" },
+    { "id": "e12", "type": "translate", "dir": "from", "q": "Those trainers are my grandson's.", "answer": ["Esas zapatillas son de mi nieto.", "Aquellas zapatillas son de mi nieto."],
+      "why": "Those = esas/aquellas; trainers = zapatillas.", "g": "en-g-demonstratives" },
+    { "id": "e13", "type": "situation", "context": "En una tienda de Londres ves unos pantalones que te gustan, en la percha a tu lado.", "emoji": "👖",
+      "options": ["I like these trousers.", "I like this trousers.", "I like these trouser."], "answer": "I like these trousers.",
+      "why": "Cerca y plural: these trousers.", "g": "en-g-demonstratives" },
+    { "id": "e14", "type": "reading", "kind": "message", "title": "Mensaje de tu hijo",
+      "text": "Hi Mum! London is cold in winter, so bring a coat, a scarf and a warm jumper. Trainers are fine for walking. Love, Hugo",
+      "questions": [
+        { "q": "¿Por qué tiene que llevar abrigo?", "options": ["Porque en invierno hace frío", "Porque llueve", "Porque hay una boda"], "answer": "Porque en invierno hace frío" },
+        { "q": "¿Qué calzado recomienda para caminar?", "options": ["Zapatillas", "Botas", "Sandalias"], "answer": "Zapatillas" }
+      ] },
+    { "id": "e15", "type": "speak", "t": "I'd like a pair of trousers, please.", "es": "Quería unos pantalones, por favor." }
+  ],
+  "dialog": {
+    "title": "¿Qué me llevo a Londres?",
+    "setting": "Yolanda hace la maleta para un viaje a Londres y habla por videollamada con su hijo Hugo",
+    "emoji": "🧳",
+    "lines": [
+      { "who": "Hugo", "t": "Mum, is your suitcase ready?", "es": "Mamá, ¿tienes la maleta lista?" },
+      { "who": "Yolanda", "t": "Almost. I have two jumpers and these trousers.", "es": "Casi. Tengo dos jerséis y estos pantalones." },
+      { "who": "Hugo", "t": "Good. Take a warm coat, too.", "es": "Bien. Llévate también un abrigo calentito." },
+      { "who": "Yolanda", "t": "And this dress for the restaurant?", "es": "¿Y este vestido para el restaurante?" },
+      { "who": "Hugo", "t": "Yes, it's lovely. And comfortable shoes!", "es": "Sí, es precioso. ¡Y zapatos cómodos!" },
+      { "who": "Yolanda", "t": "I have my trainers. They're very comfortable.", "es": "Tengo mis zapatillas. Son muy cómodas." },
+      { "who": "Hugo", "t": "Perfect. Don't forget a scarf!", "es": "Perfecto. ¡No olvides una bufanda!" },
+      { "who": "Yolanda", "t": "Here it is: my red scarf.", "es": "Aquí está: mi bufanda roja." }
+    ],
+    "questions": [
+      { "q": "¿Cuántos jerséis lleva Yolanda?", "options": ["Dos", "Uno", "Tres"], "answer": "Dos" },
+      { "q": "¿Para qué es el vestido?", "options": ["Para el restaurante", "Para el museo", "Para el avión"], "answer": "Para el restaurante" },
+      { "q": "¿De qué color es la bufanda?", "options": ["Roja", "Azul", "Negra"], "answer": "Roja" }
+    ]
+  },
+  "realLife": { "t": "Where are the jumpers, please?", "es": "¿Dónde están los jerséis, por favor?", "context": "Para buscar algo en unos grandes almacenes" },
+  "summary": [
+    "Ropa británica: jumper, trousers, trainers, coat, dress, skirt, shirt, scarf",
+    "Trousers y trainers son plurales: these trousers are…",
+    "Un par de = a pair of: a pair of socks",
+    "this / that (uno) · these / those (varios)"
+  ],
+  "reviewed": false
+}

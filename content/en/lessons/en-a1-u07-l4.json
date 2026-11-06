@@ -1,0 +1,395 @@
+{
+  "id": "en-a1-u07-l4",
+  "unit": "en-a1-u07",
+  "title": "¿Conduce? No, no conduce",
+  "goal": "a preguntar y negar con does y doesn't, y a pronunciar bien la -s",
+  "emoji": "❓",
+  "photoQuery": "red double decker bus driver",
+  "vocab": [
+    {
+      "id": "does-she-work",
+      "t": "Does she work?",
+      "es": "¿Trabaja (ella)?",
+      "emoji": "❓",
+      "pos": "phrase",
+      "ex": {
+        "t": "Does she work on Saturdays?",
+        "es": "¿Trabaja los sábados?"
+      }
+    },
+    {
+      "id": "she-doesnt-drive",
+      "t": "She doesn't drive.",
+      "es": "No conduce.",
+      "emoji": "🚫",
+      "pos": "phrase",
+      "ex": {
+        "t": "My friend doesn't drive. She walks.",
+        "es": "Mi amiga no conduce. Va andando."
+      }
+    },
+    {
+      "id": "yes-she-does",
+      "t": "Yes, she does.",
+      "es": "Sí.",
+      "emoji": "✅",
+      "pos": "phrase",
+      "ex": {
+        "t": "Does she like tea? — Yes, she does.",
+        "es": "¿Le gusta el té? — Sí."
+      }
+    },
+    {
+      "id": "no-he-doesnt",
+      "t": "No, he doesn't.",
+      "es": "No.",
+      "emoji": "❌",
+      "pos": "phrase",
+      "ex": {
+        "t": "Does he cook? — No, he doesn't.",
+        "es": "¿Cocina? — No."
+      }
+    },
+    {
+      "id": "she-cooks",
+      "t": "she cooks",
+      "es": "ella cocina",
+      "emoji": "🍳",
+      "pos": "v",
+      "ex": {
+        "t": "She cooks paella on Sundays.",
+        "es": "Hace paella los domingos."
+      },
+      "note": "La -s suena /s/: «cuks»."
+    },
+    {
+      "id": "he-drives",
+      "t": "he drives",
+      "es": "él conduce",
+      "emoji": "🚗",
+      "pos": "v",
+      "ex": {
+        "t": "He drives a taxi in Madrid.",
+        "es": "Conduce un taxi en Madrid."
+      },
+      "note": "La -s suena /z/, como una abeja: «draivz»."
+    },
+    {
+      "id": "she-teaches",
+      "t": "she teaches",
+      "es": "ella enseña, da clase",
+      "emoji": "👩‍🏫",
+      "pos": "v",
+      "ex": {
+        "t": "She teaches maths at a school.",
+        "es": "Da clase de matemáticas en un colegio."
+      },
+      "note": "Una sílaba más: «tí-chis» /ɪz/."
+    },
+    {
+      "id": "it-closes",
+      "t": "it closes",
+      "es": "cierra",
+      "emoji": "🔒",
+      "pos": "v",
+      "ex": {
+        "t": "The bakery closes at two.",
+        "es": "La panadería cierra a las dos."
+      },
+      "note": "Una sílaba más: «clóu-sis» /ɪz/."
+    }
+  ],
+  "grammar": "en-g-do-does",
+  "pron": {
+    "title": "Tres sonidos para la -s",
+    "tip": "Después de p, k, t, f la -s suena /s/ (works, cooks). Después de sonidos suaves suena /z/, como una abeja (lives, drives, goes). Después de ch, sh, s, z o ge se añade una sílaba: /ɪz/ (watches, finishes, closes).",
+    "words": [
+      "works",
+      "cooks",
+      "lives",
+      "drives",
+      "watches",
+      "closes"
+    ],
+    "pairs": [
+      [
+        "work",
+        "works"
+      ],
+      [
+        "close",
+        "closes"
+      ],
+      [
+        "watch",
+        "watches"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ she drive?",
+      "options": [
+        "Does",
+        "Do",
+        "Is"
+      ],
+      "answer": "Does",
+      "why": "Con she: Does she…?",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "My friend ___ eat meat.",
+      "options": [
+        "doesn't",
+        "don't",
+        "isn't"
+      ],
+      "answer": "doesn't",
+      "why": "Con she/he: doesn't. ¡Nunca «she don't»!",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Does he ___ a taxi?",
+      "options": [
+        "drive",
+        "drives"
+      ],
+      "answer": "drive",
+      "why": "Después de does, el verbo sin -s.",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Does your sister cook? — Yes, she ___.",
+      "es": "¿Tu hermana cocina? — Sí.",
+      "answer": [
+        "does"
+      ],
+      "bank": [
+        "does",
+        "do",
+        "cooks"
+      ],
+      "why": "Respuesta corta: Yes, she does.",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "The bakery ___ open on Sundays.",
+      "es": "La panadería no abre los domingos.",
+      "answer": [
+        "doesn't",
+        "does not"
+      ],
+      "why": "The bakery = it: doesn't + open.",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e6",
+      "type": "error",
+      "q": "She don't work on Fridays.",
+      "wrong": "don't",
+      "fix": "doesn't",
+      "why": "Con she: doesn't.",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "Does your grandson likes school?",
+      "wrong": "likes",
+      "fix": "like",
+      "why": "La -s ya está en does: like.",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "She teaches at a school.",
+      "answer": [
+        "Does she teach at a school?",
+        "Does she teach at a school"
+      ],
+      "why": "Does + she + teach (sin -es).",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "He drives to work.",
+      "answer": [
+        "He doesn't drive to work.",
+        "He does not drive to work."
+      ],
+      "why": "doesn't + drive.",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "¿A qué hora cierra la panadería?",
+      "answer": "What time does the bakery close",
+      "extra": [
+        "closes"
+      ],
+      "why": "What time + does + it + close.",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e11",
+      "type": "minimal",
+      "pair": [
+        "work",
+        "works"
+      ],
+      "answer": "works",
+      "es": [
+        "trabajo",
+        "trabaja"
+      ],
+      "why": "Has oído la -s final /s/: works."
+    },
+    {
+      "id": "e12",
+      "type": "minimal",
+      "pair": [
+        "close",
+        "closes"
+      ],
+      "answer": "closes",
+      "es": [
+        "cierro",
+        "cierra"
+      ],
+      "why": "Closes tiene una sílaba más: «clóu-sis»."
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "works",
+          "/s/"
+        ],
+        [
+          "cooks",
+          "/s/"
+        ],
+        [
+          "lives",
+          "/z/"
+        ],
+        [
+          "drives",
+          "/z/"
+        ],
+        [
+          "watches",
+          "/ɪz/"
+        ]
+      ],
+      "why": "/s/ tras k, t, p; /z/ tras sonidos suaves; /ɪz/ tras ch, sh, s."
+    },
+    {
+      "id": "e14",
+      "type": "speak",
+      "t": "She watches TV, but she doesn't cook.",
+      "es": "Ve la tele, pero no cocina."
+    }
+  ],
+  "dialog": {
+    "title": "¿Quién nos lleva?",
+    "setting": "Por teléfono, Emma necesita a alguien que las lleve en coche al mercado",
+    "emoji": "📞",
+    "lines": [
+      {
+        "who": "Emma",
+        "t": "Does your neighbour drive?",
+        "es": "¿Tu vecina conduce?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, she doesn't. She takes the bus.",
+        "es": "No. Coge el autobús."
+      },
+      {
+        "who": "Emma",
+        "t": "And her husband? Does he drive?",
+        "es": "¿Y su marido? ¿Conduce?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, he does. He drives a taxi!",
+        "es": "Sí. ¡Conduce un taxi!"
+      },
+      {
+        "who": "Emma",
+        "t": "Does he work at night?",
+        "es": "¿Trabaja de noche?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, he doesn't. He finishes at six.",
+        "es": "No. Termina a las seis."
+      },
+      {
+        "who": "Emma",
+        "t": "Perfect. Then he can help us.",
+        "es": "Perfecto. Entonces nos puede ayudar."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cómo va la vecina a los sitios?",
+        "options": [
+          "En autobús",
+          "En coche",
+          "Andando"
+        ],
+        "answer": "En autobús"
+      },
+      {
+        "q": "¿En qué trabaja el marido de la vecina?",
+        "options": [
+          "Taxista",
+          "Cocinero",
+          "Médico"
+        ],
+        "answer": "Taxista"
+      },
+      {
+        "q": "¿A qué hora termina?",
+        "options": [
+          "A las seis",
+          "Por la noche",
+          "A las dos"
+        ],
+        "answer": "A las seis"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "What time does it close?",
+    "es": "¿A qué hora cierra?",
+    "context": "Para preguntar el horario de una tienda, un museo o la farmacia"
+  },
+  "summary": [
+    "Pregunta: Does she work? — Yes, she does. / No, she doesn't.",
+    "Negativa: She doesn't drive (nunca «she don't»)",
+    "Con does/doesn't el verbo pierde la -s",
+    "La -s suena /s/ (works), /z/ (lives) o /ɪz/ (watches)"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u07-l4"
+}

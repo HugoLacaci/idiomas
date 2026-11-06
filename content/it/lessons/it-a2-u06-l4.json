@@ -1,0 +1,79 @@
+{
+  "id": "it-a2-u06-l4",
+  "unit": "it-a2-u06",
+  "title": "Quante ne vuole?",
+  "goal": "a decir cuántas cosas quieres con «ne» y a hablar de los materiales de la ropa",
+  "emoji": "🧦",
+  "photoQuery": "folded wool scarves shop shelf",
+  "vocab": [
+    { "id": "moda-il-cotone", "t": "il cotone", "es": "el algodón", "emoji": "☁️", "pos": "n", "ex": { "t": "È una maglietta di cotone.", "es": "Es una camiseta de algodón." } },
+    { "id": "moda-la-lana", "t": "la lana", "es": "la lana", "emoji": "🧶", "pos": "n", "ex": { "t": "Cerco un maglione di lana.", "es": "Busco un jersey de lana." } },
+    { "id": "moda-la-seta", "t": "la seta", "es": "la seda", "emoji": "🧣", "pos": "n", "ex": { "t": "Questa camicetta è di seta.", "es": "Esta blusa es de seda." } },
+    { "id": "moda-la-pelle", "t": "la pelle", "es": "la piel, el cuero", "emoji": "👜", "pos": "n", "ex": { "t": "Vorrei una cintura di pelle.", "es": "Querría un cinturón de piel." } },
+    { "id": "moda-un-paio-di", "t": "un paio di", "es": "un par de", "emoji": "👟", "pos": "phrase", "note": "En plural es irregular: due paia.", "ex": { "t": "Ho comprato un paio di scarpe.", "es": "He comprado un par de zapatos." } },
+    { "id": "moda-i-calzini", "t": "i calzini", "es": "los calcetines", "emoji": "🧦", "pos": "n", "ex": { "t": "Mio marito ha bisogno di calzini.", "es": "Mi marido necesita calcetines." } },
+    { "id": "moda-la-sciarpa", "t": "la sciarpa", "es": "la bufanda", "emoji": "🧣", "pos": "n", "ex": { "t": "Questa sciarpa è morbidissima.", "es": "Esta bufanda es suavísima." } },
+    { "id": "moda-la-cintura", "t": "la cintura", "es": "el cinturón", "emoji": "🪢", "pos": "n", "ex": { "t": "La cintura nera va con tutto.", "es": "El cinturón negro pega con todo." } }
+  ],
+  "grammar": "it-g-ne-partitivo",
+  "pron": {
+    "title": "Apóstrofo y enlace: l'ho presa",
+    "tip": "Lo + ho se une en l'ho, y la h no suena: «lo». L'ho presa suena «lo-presa», todo seguido, sin pausa.",
+    "words": ["l'ho presa", "l'ho visto", "l'hai provata", "l'abbiamo comprato", "ne ho due"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Calzini? ___ prendo tre paia.", "es": "¿Calcetines? Me llevo tres pares.", "options": ["Ne", "Li", "Lo"], "answer": "Ne", "why": "Con una cantidad (tre paia) se usa ne.", "g": "it-g-ne-partitivo" },
+    { "id": "e2", "type": "choose", "q": "Quante sciarpe vuole? ___ voglio due.", "es": "¿Cuántas bufandas quiere? Quiero dos.", "options": ["Ne", "Le", "La"], "answer": "Ne", "why": "Cuando dices cuántas, necesitas ne: ne voglio due.", "g": "it-g-ne-partitivo" },
+    { "id": "e3", "type": "choose", "q": "Le magliette di cotone? ___ prendo tutte!", "es": "¿Las camisetas de algodón? ¡Me las llevo todas!", "options": ["Le", "Ne", "Li"], "answer": "Le", "why": "Si te llevas todas, es la cosa entera: le prendo tutte.", "g": "it-g-ne-partitivo" },
+    { "id": "e4", "type": "choose", "q": "Questa camicetta è di ___.", "es": "Esta blusa es de seda.", "options": ["seta", "sete", "sega"], "answer": "seta", "why": "La seda = la seta.", "g": "it-g-ne-partitivo" },
+    { "id": "e5", "type": "fill", "q": "Cinture? Non ___ ho.", "es": "¿Cinturones? No tengo.", "answer": ["ne"], "bank": ["ne", "le", "la"], "why": "Non ne ho = no tengo (ninguno).", "g": "it-g-ne-partitivo" },
+    { "id": "e6", "type": "fill", "q": "Quanti maglioni hai? Ne ___ cinque.", "es": "¿Cuántos jerséis tienes? Tengo cinco.", "answer": ["ho"], "bank": ["ho", "è", "hai"], "why": "Ne ho cinque = tengo cinco.", "g": "it-g-ne-partitivo" },
+    { "id": "e7", "type": "fill", "q": "Mi piacciono questi calzini. ___ prendo un paio.", "es": "Me gustan estos calcetines. Me llevo un par.", "answer": ["Ne"], "hint": "cantidad", "why": "Un paio es una parte: ne prendo un paio.", "g": "it-g-ne-partitivo" },
+    { "id": "e8", "type": "error", "q": "Quante sciarpe vuole? Le voglio due.", "wrong": "Le", "fix": "Ne", "why": "Con un número no se usa le sino ne: ne voglio due.", "g": "it-g-ne-partitivo" },
+    { "id": "e9", "type": "error", "q": "Ho comprato un paia di scarpe.", "wrong": "paia", "fix": "paio", "why": "Singular: un paio. El plural es due paia.", "g": "it-g-ne-partitivo" },
+    { "id": "e10", "type": "order", "es": "Me llevo dos de lana.", "answer": "Ne prendo due di lana", "extra": ["le"], "why": "Ne + verbo + número: ne prendo due.", "g": "it-g-ne-partitivo" },
+    { "id": "e11", "type": "transform", "instr": "Contesta con ne y el número 3", "q": "Quante magliette compri?", "answer": ["Ne compro tre.", "Ne compro 3."], "why": "Ne va delante del verbo y el número al final: ne compro tre.", "g": "it-g-ne-partitivo" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "¿Calcetines? No tengo.", "answer": ["Calzini? Non ne ho."], "why": "Para decir que no tienes ninguno: non ne ho.", "g": "it-g-ne-partitivo" },
+    { "id": "e13", "type": "translate", "dir": "from", "q": "Ne vorrei un paio di lana.", "answer": ["Querría un par de lana.", "Quería un par de lana.", "Me gustaría un par de lana."], "why": "Ne no se traduce aquí; un paio = un par.", "g": "it-g-ne-partitivo" },
+    { "id": "e14", "type": "minimal", "pair": ["l'ho presa", "la presa"], "answer": "l'ho presa", "es": ["la he cogido", "la toma"], "why": "L'ho suena «lo»: l'ho presa." },
+    { "id": "e15", "type": "speak", "t": "La sciarpa di seta? L'ho presa!", "es": "¿La bufanda de seda? ¡Me la he llevado!" },
+    { "id": "e16", "type": "situation", "context": "La dependienta te pregunta cuántos pares de calcetines quieres. Quieres dos.", "emoji": "🧦", "options": ["Ne voglio due paia.", "Li voglio due paia.", "Voglio due paio."], "answer": "Ne voglio due paia.", "why": "Ne + cantidad, y el plural de paio es paia.", "g": "it-g-ne-partitivo" }
+  ],
+  "dialog": {
+    "title": "En la mercería",
+    "setting": "Yolanda compra regalos en una pequeña tienda de Milán",
+    "emoji": "🧣",
+    "lines": [
+      { "who": "Commessa", "t": "Buongiorno, signora. Cosa cerca?", "es": "Buenos días, señora. ¿Qué busca?" },
+      { "who": "Yolanda", "t": "Delle sciarpe di lana per le mie amiche.", "es": "Unas bufandas de lana para mis amigas." },
+      { "who": "Commessa", "t": "Ecco. Quante ne vuole?", "es": "Aquí tiene. ¿Cuántas quiere?" },
+      { "who": "Yolanda", "t": "Ne prendo tre: una rossa, una blu e una grigia.", "es": "Me llevo tres: una roja, una azul y una gris." },
+      { "who": "Commessa", "t": "Desidera altro?", "es": "¿Desea algo más?" },
+      { "who": "Yolanda", "t": "Sì, calzini di cotone per mio marito.", "es": "Sí, calcetines de algodón para mi marido." },
+      { "who": "Commessa", "t": "Mi dispiace, oggi non ne abbiamo.", "es": "Lo siento, hoy no tenemos." },
+      { "who": "Yolanda", "t": "Non importa. Allora basta così, grazie.", "es": "No importa. Entonces ya está, gracias." }
+    ],
+    "questions": [
+      { "q": "¿Cuántas bufandas compra Yolanda?", "options": ["Tres", "Dos", "Una"], "answer": "Tres" },
+      { "q": "¿De qué son las bufandas?", "options": ["De lana", "De seda", "De algodón"], "answer": "De lana" },
+      { "q": "¿Por qué no compra calcetines?", "options": ["Porque no tienen", "Porque son caros", "Porque no le gustan"], "answer": "Porque no tienen" }
+    ]
+  },
+  "realLife": { "t": "Ne prendo due, grazie.", "es": "Me llevo dos, gracias.", "context": "Para decir cuántas unidades quieres en una tienda o en el mercado" },
+  "same": {
+    "text": "Los materiales se dicen casi igual que en español, y también con «di»: de lana, di lana.",
+    "examples": [
+      { "t": "di lana", "es": "de lana" },
+      { "t": "di cotone", "es": "de algodón" },
+      { "t": "di seta", "es": "de seda" }
+    ]
+  },
+  "summary": [
+    "Ne sustituye a una parte o cantidad: ne prendo due.",
+    "Non ne ho = no tengo (ninguno).",
+    "Todo entero → lo, la, li, le: le prendo tutte.",
+    "Materiales con di: di lana, di cotone, di seta, di pelle.",
+    "Un paio, due paia."
+  ],
+  "reviewed": false
+}

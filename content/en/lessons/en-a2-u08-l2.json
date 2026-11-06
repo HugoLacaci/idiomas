@@ -1,0 +1,431 @@
+{
+  "id": "en-a2-u08-l2",
+  "unit": "en-a2-u08",
+  "title": "Tengo que ir al médico",
+  "goal": "a decir lo que tienes que hacer con must y have to",
+  "emoji": "🩺",
+  "photoQuery": "doctor surgery waiting room",
+  "vocab": [
+    {
+      "id": "doc-gp",
+      "t": "a GP",
+      "es": "el médico de cabecera",
+      "emoji": "👩‍⚕️",
+      "pos": "n",
+      "ex": {
+        "t": "I have to see my GP tomorrow.",
+        "es": "Mañana tengo que ir a mi médico de cabecera."
+      },
+      "note": "Se dice «yi-pi». En EE. UU.: family doctor."
+    },
+    {
+      "id": "doc-surgery",
+      "t": "the surgery",
+      "es": "el centro de salud, la consulta",
+      "emoji": "🏥",
+      "pos": "n",
+      "ex": {
+        "t": "The surgery opens at eight.",
+        "es": "El centro de salud abre a las ocho."
+      },
+      "note": "En el Reino Unido, surgery es la consulta del médico, no solo «cirugía»."
+    },
+    {
+      "id": "doc-appointment",
+      "t": "an appointment",
+      "es": "una cita",
+      "emoji": "📅",
+      "pos": "n",
+      "ex": {
+        "t": "I'd like to make an appointment, please.",
+        "es": "Quería pedir cita, por favor."
+      }
+    },
+    {
+      "id": "doc-receptionist",
+      "t": "the receptionist",
+      "es": "el/la recepcionista",
+      "emoji": "💁‍♀️",
+      "pos": "n",
+      "ex": {
+        "t": "The receptionist is very kind.",
+        "es": "La recepcionista es muy amable."
+      }
+    },
+    {
+      "id": "doc-fill-in",
+      "t": "fill in a form",
+      "es": "rellenar un formulario",
+      "emoji": "📝",
+      "pos": "phrase",
+      "ex": {
+        "t": "You have to fill in this form.",
+        "es": "Tiene que rellenar este formulario."
+      }
+    },
+    {
+      "id": "doc-waiting-room",
+      "t": "the waiting room",
+      "es": "la sala de espera",
+      "emoji": "🪑",
+      "pos": "n",
+      "ex": {
+        "t": "Please wait in the waiting room.",
+        "es": "Espere en la sala de espera, por favor."
+      }
+    },
+    {
+      "id": "doc-prescription",
+      "t": "a prescription",
+      "es": "una receta (médica)",
+      "emoji": "📄",
+      "pos": "n",
+      "ex": {
+        "t": "You must take this prescription to the chemist's.",
+        "es": "Tiene que llevar esta receta a la farmacia."
+      },
+      "note": "La receta de cocina es a recipe."
+    },
+    {
+      "id": "doc-on-time",
+      "t": "on time",
+      "es": "a la hora, puntual",
+      "emoji": "⏰",
+      "pos": "phrase",
+      "ex": {
+        "t": "You must arrive on time.",
+        "es": "Tiene que llegar a la hora."
+      }
+    }
+  ],
+  "grammar": "en-g-must-have-to",
+  "pron": {
+    "title": "must y have to",
+    "tip": "Must suena «mast», con la u como una a corta. En have to, la v suena casi como f: «háfta». Has to suena «jásta».",
+    "words": [
+      "must",
+      "have to",
+      "has to",
+      "appointment",
+      "surgery"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I ___ go to the doctor. I feel ill.",
+      "options": [
+        "must",
+        "musts",
+        "must to"
+      ],
+      "answer": "must",
+      "why": "Must va con el verbo directamente, sin to y sin -s.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "She ___ to wait in the waiting room.",
+      "options": [
+        "has",
+        "have",
+        "must"
+      ],
+      "answer": "has",
+      "why": "Con she: has to.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "You ___ fill in this form, please.",
+      "options": [
+        "have to",
+        "has to",
+        "must to"
+      ],
+      "answer": "have to",
+      "why": "Con you: have to + verbo.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e4",
+      "type": "conjugate",
+      "verb": "have to",
+      "person": "he",
+      "tense": "presente",
+      "q": "My son ___ work on Saturdays.",
+      "answer": [
+        "has to"
+      ],
+      "table": [
+        [
+          "I / you / we / they",
+          "have to"
+        ],
+        [
+          "he / she / it",
+          "has to"
+        ]
+      ],
+      "why": "My son = he: has to.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e5",
+      "type": "conjugate",
+      "verb": "have to",
+      "person": "we",
+      "tense": "presente",
+      "q": "We ___ be at the surgery at nine.",
+      "answer": [
+        "have to",
+        "must"
+      ],
+      "why": "Con we: have to (o must).",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I'd like to make an ___, please.",
+      "es": "Quería pedir cita, por favor.",
+      "answer": [
+        "appointment"
+      ],
+      "bank": [
+        "appointment",
+        "prescription",
+        "surgery"
+      ],
+      "why": "Pedir cita = make an appointment."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "You must arrive ___ time.",
+      "es": "Tiene que llegar a la hora.",
+      "answer": [
+        "on"
+      ],
+      "bank": [
+        "on",
+        "in",
+        "at"
+      ],
+      "why": "A la hora, puntual = on time.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "My husband have to take his tablets.",
+      "wrong": "have",
+      "fix": "has",
+      "why": "My husband = he: has to.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "She musts see a doctor today.",
+      "wrong": "musts",
+      "fix": "must",
+      "why": "Must nunca lleva -s, ni siquiera con she.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Tengo que ir al médico",
+      "answer": "I must go to the doctor",
+      "extra": [
+        "musts"
+      ],
+      "alt": [
+        "I must go to the doctor's"
+      ],
+      "why": "Must + verbo sin to: must go.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Tiene que rellenar un formulario",
+      "answer": "She has to fill in a form",
+      "extra": [
+        "have"
+      ],
+      "why": "She has to + verbo.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e12",
+      "type": "transform",
+      "instr": "Empieza con «My friend»",
+      "q": "I have to see the GP.",
+      "answer": [
+        "My friend has to see the GP.",
+        "My friend has to see her GP.",
+        "My friend has to see his GP."
+      ],
+      "why": "My friend = he/she: has to.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "Tengo que pedir cita.",
+      "answer": [
+        "I have to make an appointment.",
+        "I must make an appointment.",
+        "I need to make an appointment."
+      ],
+      "why": "Tengo que = I have to / I must.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Llamas al centro de salud en Inglaterra para pedir cita con el médico.",
+      "emoji": "☎️",
+      "options": [
+        "Hello, I'd like to make an appointment, please.",
+        "Hello, I must to see a doctor.",
+        "Hello, I want a recipe, please."
+      ],
+      "answer": "Hello, I'd like to make an appointment, please.",
+      "why": "Lo más educado: I'd like to make an appointment. Y nunca must to.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel en la consulta",
+      "text": "WELCOME TO HILLSIDE SURGERY\nAll patients must speak to the receptionist.\nNew patients have to fill in a form.\nPlease switch off your mobile phone.",
+      "questions": [
+        {
+          "q": "¿Con quién tienen que hablar todos los pacientes?",
+          "options": [
+            "Con la recepcionista",
+            "Con el médico",
+            "Con la enfermera"
+          ],
+          "answer": "Con la recepcionista"
+        },
+        {
+          "q": "¿Quién tiene que rellenar un formulario?",
+          "options": [
+            "Los pacientes nuevos",
+            "Todos",
+            "Nadie"
+          ],
+          "answer": "Los pacientes nuevos"
+        },
+        {
+          "q": "¿Qué hay que hacer con el móvil?",
+          "options": [
+            "Apagarlo",
+            "Dejarlo en recepción",
+            "Cargarlo"
+          ],
+          "answer": "Apagarlo"
+        }
+      ],
+      "why": "Must y have to indican obligación en los carteles."
+    }
+  ],
+  "dialog": {
+    "title": "Pedir cita por teléfono",
+    "setting": "Yolanda, de visita en Inglaterra, llama a un centro de salud. Le atiende la recepcionista, Karen",
+    "emoji": "☎️",
+    "lines": [
+      {
+        "who": "Karen",
+        "t": "Good morning, Hillside Surgery. How can I help?",
+        "es": "Buenos días, centro de salud Hillside. ¿En qué puedo ayudarle?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Hello. I'd like to make an appointment, please.",
+        "es": "Hola. Quería pedir cita, por favor."
+      },
+      {
+        "who": "Karen",
+        "t": "Are you a patient here?",
+        "es": "¿Es usted paciente de aquí?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, I'm on holiday. I'm Spanish.",
+        "es": "No, estoy de vacaciones. Soy española."
+      },
+      {
+        "who": "Karen",
+        "t": "OK. You have to fill in a form first.",
+        "es": "Vale. Primero tiene que rellenar un formulario."
+      },
+      {
+        "who": "Yolanda",
+        "t": "No problem. When can I see a doctor?",
+        "es": "No hay problema. ¿Cuándo puede verme un médico?"
+      },
+      {
+        "who": "Karen",
+        "t": "Today at four. You must arrive ten minutes early.",
+        "es": "Hoy a las cuatro. Tiene que llegar diez minutos antes."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfect. Thank you very much.",
+        "es": "Perfecto. Muchas gracias."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Por qué llama Yolanda?",
+        "options": [
+          "Para pedir cita",
+          "Para pedir una receta",
+          "Para cancelar una cita"
+        ],
+        "answer": "Para pedir cita"
+      },
+      {
+        "q": "¿Qué tiene que hacer primero?",
+        "options": [
+          "Rellenar un formulario",
+          "Pagar",
+          "Ir a la farmacia"
+        ],
+        "answer": "Rellenar un formulario"
+      },
+      {
+        "q": "¿A qué hora tiene que llegar?",
+        "options": [
+          "A las cuatro menos diez",
+          "A las cuatro y diez",
+          "A las cuatro en punto"
+        ],
+        "answer": "A las cuatro menos diez"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "I'd like to make an appointment, please.",
+    "es": "Quería pedir cita, por favor.",
+    "context": "Para pedir cita en el médico, la peluquería o el dentista"
+  },
+  "summary": [
+    "must + verbo (sin to, sin -s): I must go",
+    "have to / has to + verbo: She has to wait",
+    "GP = médico de cabecera; surgery = centro de salud",
+    "make an appointment = pedir cita"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u08-l2"
+}

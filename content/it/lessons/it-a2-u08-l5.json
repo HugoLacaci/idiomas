@@ -1,0 +1,81 @@
+{
+  "id": "it-a2-u08-l5",
+  "unit": "it-a2-u08",
+  "title": "Reto en el Lago de Como",
+  "goal": "a resolver un pequeño problema de salud de viaje: explicar qué te pasa, entender consejos y darlos",
+  "emoji": "⛵",
+  "photoQuery": "lake como villa boats mountains",
+  "vocab": [
+    { "id": "salute-prendila", "t": "Prendila!", "es": "¡Tómatela!", "emoji": "💊", "pos": "phrase", "ex": { "t": "La medicina? Prendila dopo cena.", "es": "¿La medicina? Tómatela después de cenar." } },
+    { "id": "salute-dimmi", "t": "Dimmi.", "es": "Dime.", "emoji": "👂", "pos": "phrase", "ex": { "t": "Dimmi, come ti senti?", "es": "Dime, ¿cómo te encuentras?" }, "note": "Di' + mi = dimmi, con doble m." },
+  { "id": "salute-la-scottatura", "t": "la scottatura", "es": "la quemadura (del sol)", "emoji": "☀️", "pos": "n", "ex": { "t": "Ho una scottatura sulle spalle.", "es": "Tengo una quemadura en los hombros." } },
+    { "id": "salute-la-crema-solare", "t": "la crema solare", "es": "la crema solar", "emoji": "🧴", "pos": "n", "ex": { "t": "Mettiti la crema solare in barca!", "es": "¡Ponte crema solar en el barco!" } },
+    { "id": "salute-la-puntura", "t": "la puntura di zanzara", "es": "la picadura de mosquito", "emoji": "🦟", "pos": "n", "ex": { "t": "Ho tante punture di zanzara sulle gambe.", "es": "Tengo muchas picaduras de mosquito en las piernas." }, "note": "Puntura también es una inyección." },
+    { "id": "salute-stare-meglio", "t": "stare meglio", "es": "encontrarse mejor", "emoji": "📈", "pos": "phrase", "ex": { "t": "Oggi sto molto meglio, grazie.", "es": "Hoy me encuentro mucho mejor, gracias." } },
+    { "id": "salute-il-pronto-soccorso", "t": "il pronto soccorso", "es": "urgencias", "emoji": "🚑", "pos": "n", "ex": { "t": "Il pronto soccorso è aperto sempre.", "es": "Urgencias está siempre abierto." } },
+    { "id": "salute-buona-guarigione", "t": "Buona guarigione!", "es": "¡Que te mejores!", "emoji": "💐", "pos": "phrase", "ex": { "t": "Buona guarigione, e riposati!", "es": "¡Que te mejores, y descansa!" } }
+  ],
+  "grammar": "it-g-imperativo-tu",
+  "pron": {
+    "title": "La entonación de una orden amable",
+    "tip": "Una orden cariñosa baja al final y se dice con calma: «Prendila, dai». Una pregunta sube: «La prendi?».",
+    "words": ["prendila", "dimmi", "fammi sapere", "stai tranquilla"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "La medicina? ___ dopo pranzo!", "es": "¿La medicina? ¡Tómatela después de comer!", "options": ["Prendila", "La prendi", "Prendala"], "answer": "Prendila", "why": "Imperativo de tú + la, todo junto: prendila.", "g": "it-g-imperativo-tu" },
+    { "id": "e2", "type": "choose", "q": "Hugo, ___ come stai!", "es": "Hugo, ¡dime cómo estás!", "options": ["dimmi", "dimi", "mi dica"], "answer": "dimmi", "why": "Di' + mi = dimmi, con doble m.", "g": "it-g-imperativo-tu" },
+    { "id": "e3", "type": "choose", "q": "Signora, la crema ___ due volte al giorno.", "es": "Señora, la crema póngasela dos veces al día.", "options": ["la metta", "mettila", "la metti"], "answer": "la metta", "why": "Con Lei el pronombre va delante: la metta.", "g": "it-g-imperativo-lei" },
+    { "id": "e4", "type": "fill", "q": "Le pastiglie? ___ con un bicchiere d'acqua.", "es": "¿Las pastillas? Tómatelas con un vaso de agua.", "answer": ["Prendile"], "bank": ["Prendile", "Prendila", "Prendilo"], "why": "Le pastiglie: femenino plural → prendile.", "g": "it-g-imperativo-tu" },
+    { "id": "e5", "type": "fill", "q": "Lo sciroppo? Non ___ prima di dormire.", "es": "¿El jarabe? No te lo tomes antes de dormir.", "answer": ["prenderlo"], "bank": ["prenderlo", "prendilo", "lo prendi"], "why": "Negativo: non + infinitivo + lo pegado → non prenderlo.", "g": "it-g-imperativo-tu" },
+    { "id": "e6", "type": "error", "q": "Ho mal di testa: dimi cosa prendo.", "wrong": "dimi", "fix": "dimmi", "why": "Con di' la m se dobla: dimmi.", "g": "it-g-imperativo-tu" },
+    { "id": "e7", "type": "transform", "instr": "Sustituye «la crema solare» por un pronombre", "q": "Metti la crema solare!", "answer": ["Mettila!", "Mettila"], "why": "La crema → la, pegado al final: mettila.", "g": "it-g-imperativo-tu" },
+    { "id": "e8", "type": "transform", "instr": "Pásala de tú a usted (Lei)", "q": "Dimmi, cosa ti fa male?", "answer": ["Mi dica, cosa le fa male?"], "why": "Dimmi → mi dica; ti → le (a usted).", "g": "it-g-imperativo-lei" },
+    { "id": "e9", "type": "order", "es": "Llámame mañana y dime cómo estás.", "answer": "Chiamami domani e dimmi come stai", "extra": ["mi"], "why": "Pronombre pegado: chiamami, dimmi.", "g": "it-g-imperativo-tu" },
+    { "id": "e10", "type": "translate", "dir": "to", "q": "¡Que te mejores!", "answer": ["Buona guarigione!", "Guarisci presto!"], "why": "La fórmula típica es «Buona guarigione!».", "g": "it-g-imperativo-tu" },
+    { "id": "e11", "type": "translate", "dir": "from", "q": "Oggi sto molto meglio, grazie.", "answer": ["Hoy estoy mucho mejor, gracias.", "Hoy me encuentro mucho mejor, gracias."], "why": "Stare meglio = encontrarse mejor.", "g": "it-g-imperativo-tu" },
+    { "id": "e12", "type": "situation", "context": "Estás de viaje en el lago de Como y te has quemado con el sol. Entras en la farmacia.", "emoji": "☀️", "options": ["Buongiorno, avete qualcosa per le scottature?", "Ciao, dammi una crema!", "Buongiorno, sono costipata dal sole."], "answer": "Buongiorno, avete qualcosa per le scottature?", "why": "Saludo formal + «Avete qualcosa per…?». ¡Y costipata es estreñida!", "g": "it-g-imperativo-lei" },
+    { "id": "e13", "type": "speak", "t": "Mi fa male la gola. Cosa mi consiglia?", "es": "Me duele la garganta. ¿Qué me aconseja?" },
+    { "id": "e14", "type": "reading", "kind": "message", "title": "Mensaje de una amiga", "text": "Yolanda, come stai? Ieri in barca hai preso tanto sole! Mettiti la crema e non stare al sole oggi. Se hai la febbre, chiamami e andiamo dal medico. Un abbraccio, Marta", "questions": [
+      { "q": "¿Qué pasó ayer?", "options": ["Yolanda tomó mucho sol en el barco", "Yolanda se cayó", "Yolanda comió algo malo"], "answer": "Yolanda tomó mucho sol en el barco" },
+      { "q": "¿Qué le aconseja Marta?", "options": ["Ponerse la crema y no tomar el sol", "Bañarse en el lago", "Tomar café"], "answer": "Ponerse la crema y no tomar el sol" },
+      { "q": "¿Qué hará Marta si Yolanda tiene fiebre?", "options": ["Acompañarla al médico", "Llevarle un jarabe", "Nada"], "answer": "Acompañarla al médico" }
+    ] }
+  ],
+  "dialog": {
+    "title": "Una amiga cuidadosa",
+    "setting": "En un hotel junto al lago de Como, Yolanda habla con su amiga Marta",
+    "emoji": "⛵",
+    "lines": [
+      { "who": "Marta", "t": "Yolanda, sei tutta rossa! Dimmi, ti fa male?", "es": "¡Yolanda, estás roja entera! Dime, ¿te duele?" },
+      { "who": "Yolanda", "t": "Sì, le spalle. Ho preso troppo sole.", "es": "Sí, los hombros. He tomado demasiado sol." },
+      { "who": "Marta", "t": "Hai la crema? Mettila subito.", "es": "¿Tienes la crema? Póntela enseguida." },
+      { "who": "Yolanda", "t": "L'ho dimenticata in Spagna!", "es": "¡Me la he olvidado en España!" },
+      { "who": "Marta", "t": "Non preoccuparti, andiamo in farmacia.", "es": "No te preocupes, vamos a la farmacia." },
+      { "who": "Farmacista", "t": "Buongiorno. Mi dica.", "es": "Buenos días. Dígame." },
+      { "who": "Yolanda", "t": "Avete qualcosa per le scottature?", "es": "¿Tienen algo para las quemaduras?" },
+      { "who": "Farmacista", "t": "Sì, questa crema. Domani non stia al sole.", "es": "Sí, esta crema. Mañana no esté al sol." }
+    ],
+    "questions": [
+      { "q": "¿Dónde le duele a Yolanda?", "options": ["En los hombros", "En la espalda", "En los pies"], "answer": "En los hombros" },
+      { "q": "¿Dónde se dejó la crema?", "options": ["En España", "En el barco", "En el hotel"], "answer": "En España" },
+      { "q": "¿Qué le dice la farmacéutica?", "options": ["Que mañana no esté al sol", "Que vaya a urgencias", "Que se bañe"], "answer": "Que mañana no esté al sol" }
+    ]
+  },
+  "realLife": { "t": "Fammi sapere come stai, mi raccomando!", "es": "Dime algo de cómo estás, ¡no te olvides!", "context": "Para despedirte de alguien de la familia que está malo" },
+  "same": {
+    "text": "Muchas cosas del botiquín de viaje se dicen casi igual.",
+    "examples": [
+      { "t": "la crema solare", "es": "la crema solar" },
+      { "t": "la febbre", "es": "la fiebre" },
+      { "t": "il medico", "es": "el médico" }
+    ]
+  },
+  "summary": [
+    "Con tú, el pronombre va pegado: prendila, mettila, dimmi, chiamami.",
+    "Con usted (Lei) va delante: la metta, mi dica, si riposi.",
+    "En negativo con tú: non prenderlo (o non lo prendere).",
+    "Para la farmacia: Avete qualcosa per le scottature?",
+    "Para despedirte: Buona guarigione!"
+  ],
+  "reviewed": false
+}

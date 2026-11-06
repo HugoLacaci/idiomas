@@ -1,0 +1,58 @@
+{
+  "id": "it-a1-u11-c2",
+  "unit": "it-a1-u11",
+  "title": "¿Dónde estás?",
+  "setting": "Habéis quedado para cenar y Giulia te llama: no encuentra el restaurante",
+  "emoji": "📱",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, aiuto! Dov'è il ristorante? Io sono in piazza.", "es": "¡Yolanda, socorro! ¿Dónde está el restaurante? Yo estoy en la plaza." },
+      "options": [
+        { "t": "Tranquilla! Vedi la fontana?", "es": "¡Tranquila! ¿Ves la fuente?", "next": "n2", "ok": true },
+        { "t": "Tranquilla! Vede la fontana, signora?", "es": "¡Tranquila! ¿Ve la fuente, señora?", "next": "n2", "ok": false, "feedback": "Giulia es tu amiga: háblale de tú (vedi)." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Sì, sono davanti alla fontana.", "es": "Sí, estoy delante de la fuente." },
+      "options": [
+        { "t": "Bene. Attraversa la piazza e gira a sinistra.", "es": "Bien. Cruza la plaza y gira a la izquierda.", "next": "n3", "ok": true },
+        { "t": "Bene. Attraversi la piazza e giri a sinistra.", "es": "Bien. Cruce la plaza y gire a la izquierda.", "next": "n3", "ok": false, "feedback": "Eso es de usted. Con tu amiga: attraversa, gira." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "A sinistra… c'è una farmacia. Giro qui?", "es": "A la izquierda… hay una farmacia. ¿Giro aquí?" },
+      "options": [
+        { "t": "No, non girare! Vai dritto ancora un po'.", "es": "¡No, no gires! Sigue recto un poco más.", "next": "n4", "ok": true },
+        { "t": "No, non gira! Vai dritto ancora un po'.", "es": "¡No, no gires! Sigue recto un poco más.", "next": "n4", "ok": false, "feedback": "El negativo de tú es non + infinitivo: non girare." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ok, vado dritto. Vedo un bar all'angolo.", "es": "Vale, sigo recto. Veo un bar en la esquina." },
+      "options": [
+        { "t": "Il ristorante è accanto al bar!", "es": "¡El restaurante está al lado del bar!", "next": "n5", "ok": true },
+        { "t": "Il ristorante è accanto del bar!", "es": "¡El restaurante está al lado del bar!", "next": "n5", "ok": false, "feedback": "Accanto va con a: accanto al bar." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ah, lo vedo! Ma la porta è chiusa…", "es": "¡Ah, lo veo! Pero la puerta está cerrada…" },
+      "options": [
+        { "t": "No, non è chiusa: devi tirare, non spingere!", "es": "No, no está cerrada: ¡tienes que tirar, no empujar!", "next": "n6", "ok": true },
+        { "t": "Devi tirare la porta via!", "es": "¡Tienes que tirar la puerta a la basura!", "next": "n6", "ok": false, "feedback": "Tirare aquí es «tirar de la puerta hacia ti». ¡No hace falta tirarla!" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ahah, sono dentro! Ti vedo, sei lì al tavolo!", "es": "¡Jaja, estoy dentro! ¡Te veo, estás allí en la mesa!" },
+      "options": [
+        { "t": "Sì, sono qui! Vieni!", "es": "¡Sí, estoy aquí! ¡Ven!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

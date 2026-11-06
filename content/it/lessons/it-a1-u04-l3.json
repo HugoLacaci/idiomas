@@ -1,0 +1,85 @@
+{
+  "id": "it-a1-u04-l3",
+  "unit": "it-a1-u04",
+  "title": "Hai figli? Parlar di famiglia",
+  "goal": "a preguntar y contar cosas de tu familia con mi, tu, su",
+  "emoji": "💬",
+  "photoQuery": "grandmother grandchildren kitchen",
+  "vocab": [
+    { "id": "hai-figli", "t": "Hai figli?", "es": "¿Tienes hijos?", "emoji": "❓", "pos": "phrase", "ex": { "t": "Hai figli? — Sì, ho un figlio.", "es": "¿Tienes hijos? — Sí, tengo un hijo." } },
+    { "id": "sei-sposata", "t": "Sei sposata?", "es": "¿Estás casada?", "emoji": "💍", "pos": "phrase", "note": "A un hombre: Sei sposato?", "ex": { "t": "Sei sposata? — Sì, da trent'anni.", "es": "¿Estás casada? — Sí, desde hace treinta años." } },
+    { "id": "sono-divorziata", "t": "Sono divorziata.", "es": "Estoy divorciada.", "emoji": "📄", "pos": "phrase", "ex": { "t": "Carla è divorziata e vive con sua figlia.", "es": "Carla está divorciada y vive con su hija." } },
+    { "id": "sono-vedova", "t": "Sono vedova.", "es": "Soy viuda.", "emoji": "🕊️", "pos": "phrase", "note": "En masculino: vedovo.", "ex": { "t": "La mia vicina è vedova.", "es": "Mi vecina es viuda." } },
+    { "id": "quanti-nipoti-hai", "t": "Quanti nipoti hai?", "es": "¿Cuántos nietos tienes?", "emoji": "🔢", "pos": "phrase", "ex": { "t": "Quanti nipoti hai? — Ne ho tre.", "es": "¿Cuántos nietos tienes? — Tengo tres." } },
+    { "id": "come-si-chiama-tuo-figlio", "t": "Come si chiama tuo figlio?", "es": "¿Cómo se llama tu hijo?", "emoji": "🏷️", "pos": "phrase", "ex": { "t": "Come si chiama tuo figlio? — Hugo.", "es": "¿Cómo se llama tu hijo? — Hugo." } },
+    { "id": "il-fidanzato", "t": "il fidanzato / la fidanzata", "es": "el novio / la novia", "emoji": "💑", "pos": "n", "note": "Se usa para cualquier novio, no solo para el prometido.", "ex": { "t": "La fidanzata di Marco è simpatica.", "es": "La novia de Marco es simpática." } },
+    { "id": "il-mio-la-mia", "t": "il mio / la mia", "es": "mi (con artículo)", "emoji": "👉", "pos": "other", "ex": { "t": "La mia casa è piccola.", "es": "Mi casa es pequeña." } }
+  ],
+  "grammar": "it-g-possessivi",
+  "pron": {
+    "title": "Las dobles de mamma y nonna",
+    "tip": "Las consonantes dobles se mantienen un instante más: mam-ma, non-na. Si las dices simples, suena a otra palabra (nona = novena).",
+    "words": ["mamma", "nonna", "nonno", "sorella", "fratello"],
+    "pairs": [["nonna", "nona"], ["papà", "pappa"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Come si chiama ___ figlio?", "es": "¿Cómo se llama tu hijo?", "options": ["tuo", "il tuo", "tua"], "answer": "tuo", "why": "Familiar en singular: tuo figlio, sin artículo.", "g": "it-g-possessivi" },
+    { "id": "e2", "type": "choose", "q": "___ nipoti sono a scuola.", "es": "Mis nietos están en el colegio.", "options": ["Miei", "I miei", "Le mie"], "answer": "I miei", "why": "Familiares en plural: con artículo, i miei.", "g": "it-g-possessivi" },
+    { "id": "e3", "type": "choose", "q": "Questo è ___ telefono nuovo.", "es": "Este es mi móvil nuevo.", "options": ["mio", "il mio", "la mia"], "answer": "il mio", "why": "Telefono es una cosa: il mio.", "g": "it-g-possessivi" },
+    { "id": "e4", "type": "fill", "q": "Sei ___? — No, sono divorziata.", "es": "¿Estás casada? — No, estoy divorciada.", "answer": ["sposata"], "bank": ["sposata", "sposato", "vedovo"], "why": "Hablamos con una mujer: sposata.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e5", "type": "fill", "q": "Marco e ___ fidanzata vivono a Milano.", "es": "Marco y su novia viven en Milán.", "answer": ["la sua"], "bank": ["la sua", "sua", "suo"], "why": "Fidanzata no se trata como familiar cercano: lleva artículo, la sua.", "g": "it-g-possessivi" },
+    { "id": "e6", "type": "fill", "q": "Giulia chiama ___ sorella.", "es": "Giulia llama a su hermana.", "answer": ["sua"], "why": "Sorella es femenino y familiar en singular: sua.", "g": "it-g-possessivi" },
+    { "id": "e7", "type": "transform", "instr": "Hazla pregunta con «tu»", "q": "Ho un figlio.", "answer": ["Hai un figlio?", "Hai figli?"], "why": "Ho (yo tengo) → hai (tú tienes)." },
+    { "id": "e8", "type": "transform", "instr": "Pásalo a plural", "q": "mia sorella", "answer": ["le mie sorelle"], "why": "En plural vuelve el artículo: le mie sorelle.", "g": "it-g-possessivi" },
+    { "id": "e9", "type": "error", "q": "I mie nipoti sono grandi.", "wrong": "mie", "fix": "miei", "why": "Nipoti (nietos) es masculino plural: i miei nipoti.", "g": "it-g-possessivi" },
+    { "id": "e10", "type": "error", "q": "Yolanda e sua marito sono in Italia.", "wrong": "sua", "fix": "suo", "why": "Suo concuerda con marito (masculino), no con Yolanda.", "g": "it-g-possessivi" },
+    { "id": "e11", "type": "order", "es": "¿Cuántos nietos tienes?", "answer": "Quanti nipoti hai", "extra": ["sei"], "why": "Quanti + nombre + verbo avere: hai." },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "¿Tienes hijos?", "answer": ["Hai figli?", "Ha figli?"], "why": "Con tú: hai; con usted: ha." },
+    { "id": "e13", "type": "situation", "context": "Una señora italiana le pregunta «È sposata?» a tu amiga Carmen, que es viuda. ¿Qué responde Carmen?", "emoji": "🕊️", "options": ["Sono vedova.", "Sono vedovo.", "Sono fidanzata."], "answer": "Sono vedova.", "why": "Carmen es mujer: vedova, en femenino." },
+    { "id": "e14", "type": "speak", "t": "Mio figlio si chiama Hugo.", "es": "Mi hijo se llama Hugo." },
+    { "id": "e15", "type": "minimal", "pair": ["nonna", "nona"], "answer": "nonna", "es": ["abuela", "novena"], "why": "Nonna tiene doble n: se mantiene un poco más." }
+  ],
+  "dialog": {
+    "title": "En el tren a Sorrento",
+    "setting": "Yolanda charla con una señora italiana, Rosa, en el tren",
+    "emoji": "🚆",
+    "lines": [
+      { "who": "Rosa", "t": "Lei è spagnola? È qui in vacanza?", "es": "¿Usted es española? ¿Está aquí de vacaciones?" },
+      { "who": "Yolanda", "t": "Sì, con le mie amiche.", "es": "Sí, con mis amigas." },
+      { "who": "Rosa", "t": "Ha figli?", "es": "¿Tiene hijos?" },
+      { "who": "Yolanda", "t": "Sì, mio figlio si chiama Hugo.", "es": "Sí, mi hijo se llama Hugo." },
+      { "who": "Rosa", "t": "Io ho due figlie e quattro nipoti!", "es": "¡Yo tengo dos hijas y cuatro nietos!" },
+      { "who": "Yolanda", "t": "Che bello! Come si chiamano?", "es": "¡Qué bonito! ¿Cómo se llaman?" },
+      { "who": "Rosa", "t": "Ecco, guardi la foto: Matteo, Sara, Luca e Giorgia.", "es": "Mire la foto: Matteo, Sara, Luca y Giorgia." },
+      { "who": "Yolanda", "t": "I suoi nipoti sono bellissimi!", "es": "¡Sus nietos son guapísimos!" }
+    ],
+    "questions": [
+      { "q": "¿Con quién viaja Yolanda?", "options": ["Con sus amigas", "Con su hijo", "Sola"], "answer": "Con sus amigas" },
+      { "q": "¿Cuántos nietos tiene Rosa?", "options": ["Cuatro", "Dos", "Uno"], "answer": "Cuatro" },
+      { "q": "¿Por qué Yolanda dice «I suoi nipoti»?", "options": ["Porque habla de usted y es plural", "Porque son de Yolanda", "Porque es singular"], "answer": "Porque habla de usted y es plural" }
+    ]
+  },
+  "realLife": { "t": "Come si chiamano i suoi nipoti?", "es": "¿Cómo se llaman sus nietos?", "context": "Para mostrar interés por la familia de alguien a quien tratas de usted" },
+  "same": {
+    "text": "Igual que en español: preguntamos por la familia casi con las mismas palabras.",
+    "examples": [
+      { "t": "Sono divorziata.", "es": "Estoy divorciada." },
+      { "t": "Sono vedova.", "es": "Soy viuda." },
+      { "t": "Quanti nipoti hai?", "es": "¿Cuántos nietos tienes?" }
+    ]
+  },
+  "falseFriend": {
+    "word": "il fidanzato",
+    "means": "el novio (cualquier novio)",
+    "looksLike": "el prometido",
+    "emoji": "💑",
+    "tip": "En italiano fidanzato se usa para cualquier pareja, aunque no haya boda a la vista."
+  },
+  "summary": [
+    "Preguntar: Hai figli? Sei sposata? Quanti nipoti hai?",
+    "Familiar en singular sin artículo: mio figlio, sua sorella",
+    "En plural y con cosas, con artículo: i miei nipoti, il mio telefono",
+    "Suo / sua concuerdan con lo que se posee"
+  ],
+  "reviewed": false
+}

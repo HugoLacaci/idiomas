@@ -1,0 +1,60 @@
+{
+  "id": "it-a2-u02-c2",
+  "unit": "it-a2-u02",
+  "title": "Giulia quiere saber de tu Semana Santa",
+  "setting": "Después de Semana Santa, Giulia te llama por videollamada",
+  "emoji": "🐣",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Buona Pasqua in ritardo! Dove sei andata?", "es": "¡Felices Pascuas con retraso! ¿Adónde fuiste?" },
+      "options": [
+        { "t": "Sono andata al paese con mio marito.", "es": "Fui al pueblo con mi marido.", "next": "n2", "ok": true },
+        { "t": "Sono andato al paese con mio marito.", "es": "Fui al pueblo con mi marido.", "next": "n2", "ok": false, "feedback": "Eres mujer: sono andata." },
+        { "t": "Ho andato al paese con mio marito.", "es": "Fui al pueblo con mi marido.", "next": "n2", "ok": false, "feedback": "Andare va con essere: sono andata." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Quando siete partiti?", "es": "¿Cuándo salisteis?" },
+      "options": [
+        { "t": "Siamo partiti mercoledì sera.", "es": "Salimos el miércoles por la noche.", "next": "n3", "ok": true },
+        { "t": "Siamo partite mercoledì sera.", "es": "Salimos el miércoles por la noche.", "next": "n3", "ok": false, "feedback": "Tu marido y tú: grupo mixto, siamo partiti." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "In Spagna ci sono le processioni, vero? Le hai viste?", "es": "En España hay procesiones, ¿verdad? ¿Las viste?" },
+      "options": [
+        { "t": "Sì, siamo usciti a vederle il Venerdì Santo.", "es": "Sí, salimos a verlas el Viernes Santo.", "next": "n4", "ok": true },
+        { "t": "Sì, abbiamo usciti a vederle il Venerdì Santo.", "es": "Sí, salimos a verlas el Viernes Santo.", "next": "n4", "ok": false, "feedback": "Uscire va con essere: siamo usciti." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Che bello! E le tue amiche sono venute?", "es": "¡Qué bonito! ¿Y vinieron tus amigas?" },
+      "options": [
+        { "t": "Sì, sono venute sabato.", "es": "Sí, vinieron el sábado.", "next": "n5", "ok": true },
+        { "t": "Sì, sono venuti sabato.", "es": "Sí, vinieron el sábado.", "next": "n5", "ok": false, "feedback": "Le amiche: femenino plural, venute." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Io ho mangiato troppa colomba! E tu?", "es": "¡Yo he comido demasiada colomba! ¿Y tú?" },
+      "options": [
+        { "t": "Io troppe torrijas! Sono un dolce spagnolo di Pasqua.", "es": "¡Yo demasiadas torrijas! Son un dulce español de Semana Santa.", "next": "n6", "ok": true },
+        { "t": "Io sono mangiata troppe torrijas!", "es": "¡Yo he comido demasiadas torrijas!", "next": "n6", "ok": false, "feedback": "Mangiare va con avere: ho mangiato." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Torrijas? Devi darmi la ricetta! Quando sei tornata?", "es": "¿Torrijas? ¡Tienes que darme la receta! ¿Cuándo volviste?" },
+      "options": [
+        { "t": "Sono tornata lunedì. Ti mando la ricetta!", "es": "Volví el lunes. ¡Te mando la receta!", "next": "end", "ok": true },
+        { "t": "Ho tornato lunedì. Ti mando la ricetta!", "es": "Volví el lunes. ¡Te mando la receta!", "next": "end", "ok": false, "feedback": "Tornare va con essere: sono tornata." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

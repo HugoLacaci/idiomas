@@ -1,0 +1,56 @@
+{
+  "id": "it-a1-u03-c3",
+  "unit": "it-a1-u03",
+  "title": "Fotos de la familia",
+  "setting": "En casa de Giulia, mirando fotos en tu móvil",
+  "emoji": "📸",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Che bella foto! Chi è questo bambino?", "es": "¡Qué foto tan bonita! ¿Quién es este niño?" },
+      "options": [
+        { "t": "È il figlio della mia vicina.", "es": "Es el hijo de mi vecina.", "next": "n2", "ok": true },
+        { "t": "Chi è il figlio della mia vicina.", "es": "Quién es el hijo de mi vecina.", "next": "n1", "ok": false, "feedback": "Chi sirve para preguntar. Para responder: È il figlio della mia vicina." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che carino! Quanti anni ha?", "es": "¡Qué mono! ¿Cuántos años tiene?" },
+      "options": [
+        { "t": "Ha sei anni.", "es": "Tiene seis años.", "next": "n3", "ok": true },
+        { "t": "È sei anni.", "es": "Es seis años.", "next": "n2", "ok": false, "feedback": "La edad va con avere, como en español: ha sei anni." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "E tu hai figli?", "es": "¿Y tú tienes hijos?" },
+      "options": [
+        { "t": "Sì, ho un figlio: Hugo.", "es": "Sí, tengo un hijo: Hugo.", "next": "n4", "ok": true },
+        { "t": "Sì, o un figlio: Hugo.", "es": "Sí, o un hijo: Hugo.", "next": "n3", "ok": false, "feedback": "Tengo se escribe ho, con h (aunque no suene)." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Hugo! Che bel nome. Scusa, che ore sono?", "es": "¡Hugo! Qué nombre tan bonito. Perdona, ¿qué hora es?" },
+      "options": [
+        { "t": "Sono le dieci.", "es": "Son las diez.", "next": "n6", "ok": true },
+        { "t": "È le dieci.", "es": "Es las diez.", "next": "n4", "ok": false, "feedback": "Con todas las horas menos la una: sono le dieci." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Già le dieci! E tu, hai fame?", "es": "¡Ya son las diez! Y tú, ¿tienes hambre?" },
+      "options": [
+        { "t": "Sì, un po'. Perché?", "es": "Sí, un poco. ¿Por qué?", "next": "n7", "ok": true },
+        { "t": "Sì, un po'. Perche?", "es": "Sí, un poco. ¿Por qué?", "next": "n6", "ok": false, "feedback": "Perché lleva acento en la é final." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Perché ho una torta in frigo! Arrivo subito.", "es": "¡Porque tengo una tarta en la nevera! Vuelvo enseguida." },
+      "next": "end"
+    }
+  ],
+  "reviewed": false
+}

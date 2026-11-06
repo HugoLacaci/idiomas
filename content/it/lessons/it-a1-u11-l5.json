@@ -1,0 +1,82 @@
+{
+  "id": "it-a1-u11-l5",
+  "unit": "it-a1-u11",
+  "title": "Reto: un paseo por Siracusa",
+  "goal": "a moverte sola por una ciudad: preguntar, entender las indicaciones y explicar dónde estás",
+  "emoji": "🏛️",
+  "photoQuery": "Syracuse Ortigia old town sea",
+  "vocab": [
+    { "id": "dir-il-centro-storico", "t": "il centro storico", "es": "el casco antiguo", "emoji": "🏘️", "pos": "n", "ex": { "t": "Il centro storico è su un'isola.", "es": "El casco antiguo está en una isla." } },
+    { "id": "dir-il-duomo", "t": "il duomo", "es": "la catedral", "emoji": "⛪", "pos": "n", "note": "Masculino en italiano: il duomo.", "ex": { "t": "Il duomo è in piazza.", "es": "La catedral está en la plaza." } },
+    { "id": "dir-il-teatro-greco", "t": "il teatro greco", "es": "el teatro griego", "emoji": "🎭", "pos": "n", "ex": { "t": "Vorrei vedere il teatro greco.", "es": "Quisiera ver el teatro griego." } },
+    { "id": "dir-il-lungomare", "t": "il lungomare", "es": "el paseo marítimo", "emoji": "🌊", "pos": "n", "ex": { "t": "Passeggiamo sul lungomare.", "es": "Paseamos por el paseo marítimo." } },
+    { "id": "dir-la-fontana", "t": "la fontana", "es": "la fuente", "emoji": "⛲", "pos": "n", "ex": { "t": "Ci vediamo alla fontana.", "es": "Nos vemos en la fuente." } },
+    { "id": "dir-l-ufficio-turistico", "t": "l'ufficio turistico", "es": "la oficina de turismo", "emoji": "ℹ️", "pos": "n", "ex": { "t": "All'ufficio turistico hanno le mappe.", "es": "En la oficina de turismo tienen mapas." } },
+    { "id": "dir-sono-qui", "t": "Sono qui.", "es": "Estoy aquí.", "emoji": "📍", "pos": "phrase", "ex": { "t": "Sono qui, davanti alla fontana.", "es": "Estoy aquí, delante de la fuente." } },
+    { "id": "dir-segui", "t": "segui", "es": "sigue", "emoji": "👣", "pos": "v", "note": "De seguire (-ire): segui.", "ex": { "t": "Segui il lungomare fino al porto.", "es": "Sigue el paseo marítimo hasta el puerto." } }
+  ],
+  "grammar": "it-g-avverbi-luogo",
+  "pron": {
+    "title": "Repaso: s sonora y zz",
+    "tip": "Junta los sonidos de la unidad: la s que zumba de Siracusa y chiesa, y la zz «ts» de piazza. Repite despacio: «La chiesa è in piazza».",
+    "words": ["Siracusa", "chiesa", "piazza", "museo", "stazione"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "message", "title": "WhatsApp de una amiga", "text": "Ciao Yolanda! Sono al duomo. Vieni? Dall'albergo vai dritto fino alla piazza, poi gira a sinistra. Il duomo è in fondo, di fronte alla fontana. Non prendere l'autobus, è vicino!", "questions": [
+      { "q": "¿Dónde está la amiga?", "options": ["En la catedral", "En el hotel", "En la fuente"], "answer": "En la catedral" },
+      { "q": "¿Qué tiene que hacer Yolanda en la plaza?", "options": ["Girar a la izquierda", "Girar a la derecha", "Coger el autobús"], "answer": "Girar a la izquierda" },
+      { "q": "¿Qué hay enfrente de la catedral?", "options": ["Una fuente", "Una farmacia", "El puerto"], "answer": "Una fuente" }
+    ] },
+    { "id": "e2", "type": "situation", "context": "Quieres ir al teatro griego y no sabes si se puede ir andando. Preguntas en la oficina de turismo.", "emoji": "🎭", "options": ["Scusi, il teatro greco è lontano? Posso andare a piedi?", "Scusi, il teatro greco è lungo?", "Scusi, dove sono il teatro greco?"], "answer": "Scusi, il teatro greco è lontano? Posso andare a piedi?", "why": "Lejos = lontano; ir andando = andare a piedi.", "g": "it-g-avverbi-luogo" },
+    { "id": "e3", "type": "situation", "context": "Tu amiga te llama perdida. Estás delante de la fuente y quieres que venga.", "emoji": "📱", "options": ["Sono qui, davanti alla fontana. Vieni!", "Sono lì, dietro di fontana. Venga!", "Sei qui, davanti alla fontana."], "answer": "Sono qui, davanti alla fontana. Vieni!", "why": "Yo estoy aquí = sono qui; a una amiga, de tú: vieni.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e4", "type": "choose", "q": "___ il lungomare fino al porto.", "es": "Sigue el paseo marítimo hasta el puerto.", "options": ["Segui", "Segua", "Seguire"], "answer": "Segui", "why": "Seguire (-ire) con tu: segui.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e5", "type": "choose", "q": "L'ufficio turistico è ___ al duomo.", "es": "La oficina de turismo está al lado de la catedral.", "options": ["accanto", "lontano", "dietro di"], "answer": "accanto", "why": "Al lado de = accanto a: accanto al duomo.", "g": "it-g-avverbi-luogo" },
+    { "id": "e6", "type": "fill", "q": "Non ___ l'autobus, andiamo a piedi!", "es": "No cojas el autobús, ¡vamos andando!", "answer": ["prendere"], "bank": ["prendere", "prendi", "prenda"], "why": "Negativo de tú: non + infinitivo.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e7", "type": "fill", "q": "Il centro storico non è lontano ___ qui.", "es": "El casco antiguo no está lejos de aquí.", "answer": ["da"], "bank": ["da", "di", "a"], "why": "Lontano da: lejos de.", "g": "it-g-avverbi-luogo" },
+    { "id": "e8", "type": "fill", "q": "___ la piazza e gira a destra.", "es": "Cruza la plaza y gira a la derecha.", "answer": ["Attraversa", "attraversa"], "hint": "attraversare, tú", "why": "-are con tu: attraversa.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e9", "type": "order", "es": "La catedral está enfrente de la fuente.", "answer": "Il duomo è di fronte alla fontana", "extra": ["della"], "why": "Di fronte a + la = di fronte alla.", "g": "it-g-avverbi-luogo" },
+    { "id": "e10", "type": "order", "es": "Sigue recto y luego gira a la izquierda.", "answer": "Vai dritto e poi gira a sinistra", "extra": ["giri"], "why": "Dos órdenes de tú: vai, gira.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e11", "type": "translate", "dir": "to", "q": "¿Hay una oficina de turismo aquí cerca?", "answer": ["C'è un ufficio turistico qui vicino?", "C'è un ufficio turistico vicino?"], "why": "Ufficio es masculino: un ufficio. Aquí cerca = qui vicino.", "g": "it-g-avverbi-luogo" },
+    { "id": "e12", "type": "translate", "dir": "from", "q": "Segui il lungomare.", "answer": ["Sigue el paseo marítimo.", "Sigue por el paseo marítimo."], "why": "Segui = sigue; lungomare = paseo marítimo.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e13", "type": "error", "q": "Il teatro è vicino della stazione.", "wrong": "della", "fix": "alla", "why": "Vicino a: vicino alla stazione.", "g": "it-g-avverbi-luogo" },
+    { "id": "e14", "type": "transform", "instr": "Hazla negativa", "q": "Gira a destra.", "answer": ["Non girare a destra."], "why": "Non + infinitivo con tú.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e15", "type": "match", "pairs": [["il duomo", "la catedral"], ["il lungomare", "el paseo marítimo"], ["la fontana", "la fuente"], ["il centro storico", "el casco antiguo"], ["l'ufficio turistico", "la oficina de turismo"]], "why": "Lugares de un paseo turístico." },
+    { "id": "e16", "type": "speak", "t": "Sono qui, davanti alla fontana.", "es": "Estoy aquí, delante de la fuente." }
+  ],
+  "dialog": {
+    "title": "En la oficina de turismo",
+    "setting": "Yolanda entra en la oficina de turismo de Siracusa con un plano en la mano",
+    "emoji": "ℹ️",
+    "lines": [
+      { "who": "Yolanda", "t": "Buongiorno. Vorrei vedere il teatro greco.", "es": "Buenos días. Quisiera ver el teatro griego." },
+      { "who": "Anna", "t": "Certo! È un po' lontano dal centro.", "es": "¡Claro! Está un poco lejos del centro." },
+      { "who": "Yolanda", "t": "Posso andare a piedi?", "es": "¿Puedo ir andando?" },
+      { "who": "Anna", "t": "Sì, ma è mezz'ora. C'è anche l'autobus.", "es": "Sí, pero es media hora. También hay autobús." },
+      { "who": "Yolanda", "t": "E dov'è la fermata?", "es": "¿Y dónde está la parada?" },
+      { "who": "Anna", "t": "Qui davanti, accanto alla fontana.", "es": "Aquí delante, al lado de la fuente." },
+      { "who": "Yolanda", "t": "Perfetto. E il duomo?", "es": "Perfecto. ¿Y la catedral?" },
+      { "who": "Anna", "t": "È vicinissimo: in fondo alla via, a destra.", "es": "Está cerquísima: al final de la calle, a la derecha." }
+    ],
+    "questions": [
+      { "q": "¿Qué quiere ver Yolanda?", "options": ["El teatro griego", "El puerto", "Un museo"], "answer": "El teatro griego" },
+      { "q": "¿Dónde está la parada?", "options": ["Al lado de la fuente", "Detrás de la catedral", "En el puerto"], "answer": "Al lado de la fuente" },
+      { "q": "¿Dónde está la catedral?", "options": ["Al final de la calle, a la derecha", "Lejos del centro", "Enfrente del teatro"], "answer": "Al final de la calle, a la derecha" }
+    ]
+  },
+  "realLife": { "t": "È lontano? Posso andare a piedi?", "es": "¿Está lejos? ¿Puedo ir andando?", "context": "Antes de decidir si coges un taxi o vas paseando" },
+  "same": {
+    "text": "Siracusa guarda mucha historia griega, y muchas palabras de cultura se parecen al español.",
+    "examples": [
+      { "t": "il teatro greco", "es": "el teatro griego" },
+      { "t": "la fontana", "es": "la fuente" },
+      { "t": "il centro storico", "es": "el centro histórico" }
+    ]
+  },
+  "summary": [
+    "Preguntar: È lontano? Posso andare a piedi? Dov'è la fermata?",
+    "Indicar: vai dritto, gira a sinistra, segui il lungomare, non prendere l'autobus.",
+    "Situar: vicino a, accanto a, di fronte a, in fondo a, lontano da.",
+    "Decir dónde estás: Sono qui, davanti alla fontana."
+  ],
+  "reviewed": false
+}

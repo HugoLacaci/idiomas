@@ -1,0 +1,425 @@
+{
+  "id": "en-a1-u10-l5",
+  "unit": "en-a1-u10",
+  "title": "Reto: un día en South Bank",
+  "goal": "a usar can para hablar de lo que se puede hacer en un sitio, pedir permiso y contar lo que sabes hacer",
+  "emoji": "🎡",
+  "photoQuery": "london eye river thames",
+  "vocab": [
+    {
+      "id": "the-river",
+      "t": "the river",
+      "es": "el río",
+      "emoji": "🌊",
+      "pos": "n",
+      "ex": {
+        "t": "We can walk along the river.",
+        "es": "Podemos pasear junto al río."
+      }
+    },
+    {
+      "id": "the-big-wheel",
+      "t": "the big wheel",
+      "es": "la noria",
+      "emoji": "🎡",
+      "pos": "n",
+      "ex": {
+        "t": "The London Eye is a big wheel.",
+        "es": "El London Eye es una noria."
+      }
+    },
+    {
+      "id": "the-view",
+      "t": "the view",
+      "es": "la vista",
+      "emoji": "🏙️",
+      "pos": "n",
+      "ex": {
+        "t": "The view from the top is amazing.",
+        "es": "La vista desde arriba es increíble."
+      }
+    },
+    {
+      "id": "a-street-artist",
+      "t": "a street artist",
+      "es": "un artista callejero",
+      "emoji": "🎭",
+      "pos": "n",
+      "ex": {
+        "t": "That street artist can juggle!",
+        "es": "¡Ese artista callejero sabe hacer malabares!"
+      }
+    },
+    {
+      "id": "juggle",
+      "t": "juggle",
+      "es": "hacer malabares",
+      "emoji": "🤹",
+      "pos": "v",
+      "ex": {
+        "t": "He can juggle with five balls.",
+        "es": "Sabe hacer malabares con cinco pelotas."
+      }
+    },
+    {
+      "id": "a-boat-trip",
+      "t": "a boat trip",
+      "es": "un paseo en barco",
+      "emoji": "⛴️",
+      "pos": "n",
+      "ex": {
+        "t": "You can take a boat trip on the Thames.",
+        "es": "Puedes dar un paseo en barco por el Támesis."
+      }
+    },
+    {
+      "id": "you-can-see",
+      "t": "you can see…",
+      "es": "se ve…, puedes ver…",
+      "emoji": "👀",
+      "pos": "phrase",
+      "ex": {
+        "t": "From here you can see Big Ben.",
+        "es": "Desde aquí se ve el Big Ben."
+      }
+    },
+    {
+      "id": "skateboarding",
+      "t": "skateboarding",
+      "es": "el monopatín",
+      "emoji": "🛹",
+      "pos": "n",
+      "ex": {
+        "t": "My grandson loves skateboarding.",
+        "es": "A mi nieto le encanta el monopatín."
+      }
+    }
+  ],
+  "grammar": "en-g-can",
+  "pron": {
+    "title": "Repaso: ¿can o can't?",
+    "tip": "Escucha el final de la frase: si can casi desaparece, es afirmativa. Si oyes «kaant» largo y fuerte, es negativa. Y di tú también can flojito: «yu kən si».",
+    "words": [
+      "You can see the river.",
+      "You can't park here.",
+      "Can I take a photo?",
+      "Yes, you can."
+    ],
+    "pairs": [
+      [
+        "You can park here.",
+        "You can't park here."
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "From the London Eye you ___ see all of London.",
+      "es": "Desde el London Eye puedes ver todo Londres.",
+      "options": [
+        "can",
+        "can to",
+        "cans"
+      ],
+      "answer": "can",
+      "why": "Posibilidad: you can see.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Sorry, you ___ take photos in the museum.",
+      "es": "Lo siento, no se pueden hacer fotos en el museo.",
+      "options": [
+        "can't",
+        "don't can",
+        "not can"
+      ],
+      "answer": "can't",
+      "why": "Prohibición: you can't.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Let's sit on that ___.",
+      "es": "Sentémonos en ese banco.",
+      "options": [
+        "bench",
+        "bank",
+        "bin"
+      ],
+      "answer": "bench",
+      "why": "Banco para sentarse = bench; bank es el del dinero."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "That man can ___ with five balls!",
+      "es": "¡Ese hombre sabe hacer malabares con cinco pelotas!",
+      "answer": [
+        "juggle"
+      ],
+      "bank": [
+        "juggle",
+        "juggles",
+        "to juggle"
+      ],
+      "why": "can + verbo tal cual: can juggle.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "You can take a boat ___ on the river.",
+      "es": "Puedes dar un paseo en barco por el río.",
+      "answer": [
+        "trip"
+      ],
+      "why": "Paseo en barco = boat trip."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "___ my grandson ride his skateboard here?",
+      "es": "¿Puede mi nieto montar en monopatín aquí?",
+      "answer": [
+        "Can",
+        "Could"
+      ],
+      "bank": [
+        "Can",
+        "Does",
+        "Is"
+      ],
+      "why": "Pedir permiso: Can + sujeto + verbo?",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "Desde aquí se ve el río",
+      "answer": "You can see the river from here",
+      "extra": [
+        "to"
+      ],
+      "why": "Se ve… = you can see…",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "¿Podría hacernos una foto?",
+      "answer": "Could you take a photo of us",
+      "extra": [
+        "do"
+      ],
+      "why": "Pedir un favor amable: Could you…?",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "My grandson can rides a skateboard.",
+      "wrong": "rides",
+      "fix": "ride",
+      "why": "Detrás de can, el verbo sin -s.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Can we buy tickets here? — Yes, you do.",
+      "wrong": "do",
+      "fix": "can",
+      "why": "La respuesta corta repite can: Yes, you can.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "We can buy tickets online.",
+      "answer": [
+        "Can we buy tickets online?",
+        "Can we buy tickets online"
+      ],
+      "why": "Can delante del sujeto: Can we…?",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "No sé nadar, pero sé bailar.",
+      "answer": [
+        "I can't swim, but I can dance.",
+        "I can't swim but I can dance.",
+        "I cannot swim, but I can dance."
+      ],
+      "why": "No sé = can't; sé = can.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "En la cola del London Eye no sabes si puedes pagar con tarjeta.",
+      "emoji": "💳",
+      "options": [
+        "Can I pay by card here?",
+        "I can pay by card here?",
+        "Do I can pay by card?"
+      ],
+      "answer": "Can I pay by card here?",
+      "why": "Pregunta de permiso: Can I…?",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Un turista te pregunta «Can you speak English?» y sabes un poco.",
+      "emoji": "🗣️",
+      "options": [
+        "Yes, a little.",
+        "Yes, I can't.",
+        "Yes, I know."
+      ],
+      "answer": "Yes, a little.",
+      "why": "Si sabes un poco: Yes, a little.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Información en South Bank",
+      "text": "WELCOME TO SOUTH BANK\nYou can: walk by the river · watch street artists · see the London Eye · eat at the food market (Fri–Sun)\nYou can't: ride bikes on this path · feed the birds",
+      "questions": [
+        {
+          "q": "¿Qué días hay mercado de comida?",
+          "options": [
+            "De viernes a domingo",
+            "Todos los días",
+            "Solo el lunes"
+          ],
+          "answer": "De viernes a domingo"
+        },
+        {
+          "q": "¿Qué no se puede hacer?",
+          "options": [
+            "Montar en bici por este camino",
+            "Pasear junto al río",
+            "Ver artistas"
+          ],
+          "answer": "Montar en bici por este camino"
+        },
+        {
+          "q": "¿Se puede dar de comer a los pájaros?",
+          "options": [
+            "No",
+            "Sí"
+          ],
+          "answer": "No"
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "From the London Eye you can see all of London.",
+      "es": "Desde el London Eye se ve todo Londres."
+    }
+  ],
+  "dialog": {
+    "title": "Junto a la noria",
+    "setting": "En South Bank, al lado del London Eye, con un nieto",
+    "emoji": "🎡",
+    "lines": [
+      {
+        "who": "Grandson",
+        "t": "Grandma, can we go on the big wheel?",
+        "es": "Abuela, ¿podemos subir a la noria?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, we can! It's 135 metres high.",
+        "es": "¡Sí! Mide 135 metros."
+      },
+      {
+        "who": "Grandson",
+        "t": "Wow! Can we see our hotel from the top?",
+        "es": "¡Hala! ¿Se ve nuestro hotel desde arriba?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I think so. You can see all of London.",
+        "es": "Creo que sí. Se ve todo Londres."
+      },
+      {
+        "who": "Grandson",
+        "t": "Look! That man can juggle with fire!",
+        "es": "¡Mira! ¡Ese señor sabe hacer malabares con fuego!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Amazing! I can't do that.",
+        "es": "¡Increíble! Yo no sé hacer eso."
+      },
+      {
+        "who": "Grandson",
+        "t": "But you can make the best paella!",
+        "es": "¡Pero sabes hacer la mejor paella!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "That's true! Come on, let's go up.",
+        "es": "¡Eso es verdad! Venga, subamos."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuánto mide la noria?",
+        "options": [
+          "135 metros",
+          "100 metros",
+          "200 metros"
+        ],
+        "answer": "135 metros"
+      },
+      {
+        "q": "¿Qué sabe hacer el artista?",
+        "options": [
+          "Malabares con fuego",
+          "Cantar",
+          "Pintar"
+        ],
+        "answer": "Malabares con fuego"
+      },
+      {
+        "q": "¿Qué sabe hacer la abuela, según el nieto?",
+        "options": [
+          "La mejor paella",
+          "Malabares",
+          "Nadar"
+        ],
+        "answer": "La mejor paella"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Excuse me, where can I buy tickets?",
+    "es": "Perdone, ¿dónde puedo comprar las entradas?",
+    "context": "En la entrada de un monumento o atracción"
+  },
+  "summary": [
+    "Lo que se puede hacer: You can see the river",
+    "Lo que no se puede: You can't ride bikes here",
+    "Permiso: Can I pay by card?",
+    "Favor: Could you take a photo of us?",
+    "bench (banco para sentarse) ≠ bank (banco del dinero)"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u10-l5"
+}

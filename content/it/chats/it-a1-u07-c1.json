@@ -1,0 +1,59 @@
+{
+  "id": "it-a1-u07-c1",
+  "unit": "it-a1-u07",
+  "title": "Cena en la trattoria con Giulia",
+  "setting": "Giulia te lleva a su trattoria favorita de Roma",
+  "emoji": "🍝",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Eccoci! Questa trattoria è la mia preferita. Hai fame?", "es": "¡Ya estamos! Esta trattoria es mi favorita. ¿Tienes hambre?" },
+      "options": [
+        { "t": "Sì, ho tanta fame!", "es": "¡Sí, tengo mucha hambre!", "next": "n2", "ok": true },
+        { "t": "Sì, sono tanta fame!", "es": "Sí, soy mucha hambre.", "next": "n2", "ok": false, "feedback": "El hambre va con avere, como en español: ho fame." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Allora prendiamo un antipasto. Poi che cosa prendi come primo?", "es": "Entonces tomamos un entrante. ¿Y luego qué tomas de primero?" },
+      "options": [
+        { "t": "Come primo vorrei la carbonara.", "es": "De primero querría la carbonara.", "next": "n3", "ok": true },
+        { "t": "Come cugino vorrei la carbonara.", "es": "De primo querría la carbonara.", "next": "n3", "ok": false, "feedback": "¡Falso amigo! El primer plato es il primo. Il cugino es tu primo de la familia." },
+        { "t": "Come primo voglio la carbonara!", "es": "¡De primero quiero la carbonara!", "next": "n3", "ok": false, "feedback": "Se entiende, pero vorrei es más educado para pedir." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Ottima scelta! E come secondo?", "es": "¡Muy buena elección! ¿Y de segundo?" },
+      "options": [
+        { "t": "Niente secondo, grazie. Solo un contorno.", "es": "Nada de segundo, gracias. Solo una guarnición.", "next": "n4", "ok": true },
+        { "t": "Come secondo, il tiramisù.", "es": "De segundo, el tiramisú.", "next": "n4", "ok": false, "feedback": "El tiramisú es il dolce (el postre). Il secondo es carne o pescado." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ecco il cameriere. Ordini tu?", "es": "Aquí está el camarero. ¿Pides tú?" },
+      "options": [
+        { "t": "Sì. Scusi, vorremmo ordinare.", "es": "Sí. Perdone, queríamos pedir.", "next": "n5", "ok": true },
+        { "t": "Sì. Scusi, il conto, per favore.", "es": "Sí. Perdone, la cuenta, por favor.", "next": "n5", "ok": false, "feedback": "Il conto es la cuenta: se pide al final. Para pedir la comida: vorremmo ordinare." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Perfetto! Guarda, oggi c'è il tiramisù. Lo vuoi?", "es": "¡Perfecto! Mira, hoy hay tiramisú. ¿Lo quieres?" },
+      "options": [
+        { "t": "Sì, come dolce prendo il tiramisù.", "es": "Sí, de postre tomo el tiramisú.", "next": "n6", "ok": true },
+        { "t": "Sì, come contorno prendo il tiramisù.", "es": "Sí, de guarnición tomo el tiramisú.", "next": "n6", "ok": false, "feedback": "Il contorno son verduras o patatas. El postre es il dolce." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Brava! Ordini come un'italiana!", "es": "¡Muy bien! ¡Pides como una italiana!" },
+      "options": [
+        { "t": "Grazie, Giulia! Buon appetito!", "es": "¡Gracias, Giulia! ¡Que aproveche!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

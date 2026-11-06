@@ -1,0 +1,60 @@
+{
+  "id": "it-a1-u05-c1",
+  "unit": "it-a1-u05",
+  "title": "Tu mañana",
+  "setting": "Giulia te llama por la mañana desde Roma",
+  "emoji": "🌅",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Buongiorno, Yolanda! A che ora fai colazione?", "es": "¡Buenos días, Yolanda! ¿A qué hora desayunas?" },
+      "options": [
+        { "t": "Faccio colazione alle otto.", "es": "Desayuno a las ocho.", "next": "n2", "ok": true },
+        { "t": "Fa colazione alle otto.", "es": "Desayuna a las ocho.", "next": "n2", "ok": false, "feedback": "Hablas de ti: faccio colazione." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "E cosa mangi?", "es": "¿Y qué comes?" },
+      "options": [
+        { "t": "Mangio pane con pomodoro e prendo un caffè.", "es": "Como pan con tomate y me tomo un café.", "next": "n3", "ok": true },
+        { "t": "Mangia pane con pomodoro e prende un caffè.", "es": "Come pan con tomate y toma un café.", "next": "n3", "ok": false, "feedback": "Con io: mangio y prendo, terminados en -o." },
+        { "t": "Mangio pane con pomodoro e prendio un caffè.", "es": "Como pan con tomate y tomo un café.", "next": "n3", "ok": false, "feedback": "Prendere con io es prendo, sin i." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Pane con pomodoro, che buono! E poi?", "es": "¡Pan con tomate, qué rico! ¿Y luego?" },
+      "options": [
+        { "t": "Poi faccio la spesa al mercato.", "es": "Luego hago la compra en el mercado.", "next": "n4", "ok": true },
+        { "t": "Poi guardo la spesa al mercato.", "es": "Luego miro la compra en el mercado.", "next": "n4", "ok": false, "feedback": "Hacer la compra es fare la spesa: faccio la spesa." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Io invece lavoro la mattina. Tu lavori?", "es": "Yo en cambio trabajo por la mañana. ¿Tú trabajas?" },
+      "options": [
+        { "t": "No, non lavoro. Sono in pensione.", "es": "No, no trabajo. Estoy jubilada.", "next": "n5", "ok": true },
+        { "t": "No, no lavoro. Sono in pensione.", "es": "No, no trabajo. Estoy jubilada.", "next": "n5", "ok": false, "feedback": "La negación delante del verbo es non: non lavoro." },
+        { "t": "Sì, lavori in un ufficio.", "es": "Sí, trabajas en una oficina.", "next": "n5", "ok": false, "feedback": "Hablas de ti: lavoro, no lavori." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Che fortuna! E a che ora parli con Hugo?", "es": "¡Qué suerte! ¿Y a qué hora hablas con Hugo?" },
+      "options": [
+        { "t": "Parlo con Hugo la sera, dopo cena.", "es": "Hablo con Hugo por la noche, después de cenar.", "next": "n6", "ok": true },
+        { "t": "Parli con Hugo la sera, dopo cena.", "es": "Hablas con Hugo por la noche, después de cenar.", "next": "n6", "ok": false, "feedback": "Hablas de ti: parlo, no parli." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Che bello! Buona giornata, cara!", "es": "¡Qué bien! ¡Que tengas un buen día, querida!" },
+      "options": [
+        { "t": "Grazie, anche a te! Ciao!", "es": "¡Gracias, igualmente! ¡Adiós!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

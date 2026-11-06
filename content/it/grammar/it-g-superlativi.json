@@ -1,0 +1,127 @@
+{
+  "id": "it-g-superlativi",
+  "lang": "it",
+  "level": "A2",
+  "title": "Superlativos: il più bello, bellissimo",
+  "short": "Decir que algo es el más … (il più bello d'Italia) o muy, muy … (bellissimo, ottimo).",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "¡Lo más de lo más!",
+      "emoji": "🏆",
+      "text": "De viaje todo te parece precioso: è ==bellissimo==! Y a veces quieres decir que algo es ==il più bello== de todos.",
+      "examples": [
+        { "t": "È il lago ==più bello d'==Italia.", "es": "Es el lago más bonito de Italia.", "hl": "più bello d'" },
+        { "t": "Il gelato è ==buonissimo==!", "es": "¡El helado está buenísimo!", "hl": "buonissimo" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "El más … de",
+      "emoji": "🥇",
+      "text": "Artículo + nombre + ==più / meno== + adjetivo + ==di==. El artículo no se repite.",
+      "table": {
+        "head": ["Italiano", "Español"],
+        "rows": [
+          ["il fiume ==più== lungo ==d'==Italia", "el río más largo de Italia"],
+          ["la città ==più== bella ==del== mondo", "la ciudad más bonita del mundo"],
+          ["l'albergo ==meno== caro ==della== zona", "el hotel menos caro de la zona"]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Muy, muy: -issimo",
+      "emoji": "✨",
+      "text": "Quita la última vocal y añade ==-issimo / -issima / -issimi / -issime==.",
+      "table": {
+        "head": ["Adjetivo", "Superlativo", "Español"],
+        "rows": [
+          ["bello", "bell==issimo==", "bellísimo"],
+          ["buona", "buon==issima==", "buenísima"],
+          ["cari", "car==issimi==", "carísimos"],
+          ["grandi", "grand==issime==", "grandísimas"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Los especiales",
+      "emoji": "⭐",
+      "text": "Buono → ==ottimo== (buenísimo) y ==il migliore== (el mejor). Cattivo → ==pessimo== y ==il peggiore==.",
+      "examples": [
+        { "t": "È la pizzeria ==migliore== del quartiere.", "es": "Es la mejor pizzería del barrio.", "hl": "migliore" },
+        { "t": "Un caffè ==ottimo==!", "es": "¡Un café buenísimo!", "hl": "ottimo" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Como en español",
+      "emoji": "🇪🇸",
+      "text": "Bellísimo = ==bellissimo==, carísimo = ==carissimo==. Pero en italiano se usa mucho más: hasta *tantissimo*, *benissimo*, *prestissimo*.",
+      "examples": [
+        { "t": "Grazie, sto benissimo!", "es": "¡Gracias, estoy muy bien!" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *più bellissimo* → ✅ ==bellissimo==. ❌ *la più bella que* → ✅ la più bella ==di==. ❌ *la città la più bella* → ✅ la città ==più bella==. ❌ *molto ottimo* → ✅ ==ottimo==."
+    },
+    {
+      "kind": "tip",
+      "title": "Para quedar genial",
+      "emoji": "💡",
+      "text": "Para dar las gracias o alabar una comida: ==buonissimo!==, ==bravissima!==, ==grazie mille, gentilissimo!=="
+    }
+  ],
+  "compare": {
+    "es": "En español: el más bonito de Italia; bellísimo, carísimo. El mejor, el peor.",
+    "target": "En italiano: il più bello d'Italia (sin repetir artículo tras el nombre: la città più bella); bellissimo, carissimo, que se usan muchísimo; ottimo, il migliore, pessimo, il peggiore."
+  },
+  "errors": [
+    { "wrong": "È un posto più bellissimo.", "right": "È un posto bellissimo.", "why": "-issimo ya es «muy»: no lleva più." },
+    { "wrong": "È la città più bella que Italia.", "right": "È la città più bella d'Italia.", "why": "El más … de = il più … di." },
+    { "wrong": "È la piazza la più grande di Roma.", "right": "È la piazza più grande di Roma.", "why": "Después del nombre no se repite el artículo." },
+    { "wrong": "Questa pasta è molto buonissima.", "right": "Questa pasta è buonissima.", "why": "-issimo no se combina con molto." },
+    { "wrong": "Le spiagge sono bellissimi.", "right": "Le spiagge sono bellissime.", "why": "Le spiagge: femenino plural → bellissime." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "La Sicilia è l'isola più grande ___ Mediterraneo.", "es": "Sicilia es la isla más grande del Mediterráneo.", "options": ["del", "che il", "nel"], "answer": "del", "why": "El más … de = il più … di (di + il = del).", "g": "it-g-superlativi" },
+    { "id": "e2", "type": "choose", "q": "Il Monte Bianco è la montagna più ___ delle Alpi.", "es": "El Mont Blanc es la montaña más alta de los Alpes.", "options": ["alta", "alto", "altissima"], "answer": "alta", "why": "La montagna: femenino → più alta.", "g": "it-g-superlativi" },
+    { "id": "e3", "type": "choose", "q": "Questa spiaggia è ___!", "es": "¡Esta playa es preciosa!", "options": ["bellissima", "bellissimo", "più bellissima"], "answer": "bellissima", "why": "La spiaggia: femenino → bellissima.", "g": "it-g-superlativi" },
+    { "id": "e4", "type": "choose", "q": "I ristoranti in centro sono ___.", "es": "Los restaurantes del centro son carísimos.", "options": ["carissimi", "carissime", "carissimo"], "answer": "carissimi", "why": "I ristoranti: masculino plural → carissimi.", "g": "it-g-superlativi" },
+    { "id": "e5", "type": "choose", "q": "È la pizzeria ___ del quartiere.", "es": "Es la mejor pizzería del barrio.", "options": ["migliore", "più buonissima", "meglio"], "answer": "migliore", "why": "La mejor = la migliore.", "g": "it-g-superlativi" },
+    { "id": "e6", "type": "choose", "q": "È la città ___ bella del mondo.", "es": "Es la ciudad más bonita del mundo.", "options": ["più", "la più", "molto"], "answer": "più", "why": "Después del nombre no se repite el artículo: la città più bella.", "g": "it-g-superlativi" },
+    { "id": "e7", "type": "fill", "q": "Il Po è il fiume più lungo ___ paese.", "es": "El Po es el río más largo del país.", "answer": ["del"], "bank": ["del", "che il", "nel"], "why": "Il più … di: di + il = del paese.", "g": "it-g-superlativi" },
+    { "id": "e8", "type": "fill", "q": "Il gelato di questo bar è ___.", "es": "El helado de este bar está buenísimo.", "answer": ["buonissimo", "ottimo"], "bank": ["buonissimo", "buonissima", "più buonissimo"], "why": "Il gelato: masculino → buonissimo.", "g": "it-g-superlativi" },
+    { "id": "e9", "type": "fill", "q": "Le colline toscane sono ___.", "es": "Las colinas toscanas son bellísimas.", "answer": ["bellissime"], "hint": "bello + -issimo", "why": "Le colline: femenino plural → bellissime.", "g": "it-g-superlativi" },
+    { "id": "e10", "type": "fill", "q": "Il lago di Garda è il lago più ___ d'Italia.", "es": "El lago de Garda es el lago más grande de Italia.", "answer": ["grande"], "hint": "grande", "why": "Il più grande d'Italia.", "g": "it-g-superlativi" },
+    { "id": "e11", "type": "fill", "q": "Grazie, signora, è ___!", "es": "¡Gracias, señora, es usted amabilísima!", "answer": ["gentilissima"], "hint": "gentile + -issimo", "why": "Gentile → gentilissima (quitas la -e).", "g": "it-g-superlativi" },
+    { "id": "e12", "type": "fill", "q": "È stata la giornata ___ del viaggio: pioggia tutto il giorno!", "es": "Ha sido el peor día del viaje: ¡lluvia todo el día!", "answer": ["peggiore"], "bank": ["peggiore", "migliore", "peggio"], "why": "El peor = il peggiore (la giornata peggiore).", "g": "it-g-superlativi" },
+    { "id": "e13", "type": "fill", "q": "È l'albergo ___ caro della zona: solo 50 euro.", "es": "Es el hotel menos caro de la zona: solo 50 euros.", "answer": ["meno"], "hint": "menos", "why": "El menos … = il meno …", "g": "it-g-superlativi" },
+    { "id": "e14", "type": "error", "q": "È un paese più bellissimo.", "wrong": "bellissimo", "fix": "bello", "why": "Nunca più + -issimo: o più bello, o bellissimo.", "g": "it-g-superlativi" },
+    { "id": "e15", "type": "error", "q": "È la piazza più famosa che Roma.", "wrong": "che", "fix": "di", "why": "El más … de = il più … di: la più famosa di Roma.", "g": "it-g-superlativi" },
+    { "id": "e16", "type": "error", "q": "Le spiagge della Sardegna sono bellissimi.", "wrong": "bellissimi", "fix": "bellissime", "why": "Le spiagge: femenino plural.", "g": "it-g-superlativi" },
+    { "id": "e17", "type": "error", "q": "Questa pasta è molto buonissima.", "wrong": "molto", "fix": "davvero", "why": "-issimo no va con molto. Puedes reforzar con davvero.", "g": "it-g-superlativi" },
+    { "id": "e18", "type": "error", "q": "È il ristorante migliore della città: è ottimissimo!", "wrong": "ottimissimo", "fix": "ottimo", "why": "Ottimo ya significa «buenísimo»: no lleva -issimo.", "g": "it-g-superlativi" },
+    { "id": "e19", "type": "transform", "instr": "Cámbiala con -issimo", "q": "Il caffè è molto buono.", "answer": ["Il caffè è buonissimo."], "why": "Molto buono = buonissimo.", "g": "it-g-superlativi" },
+    { "id": "e20", "type": "transform", "instr": "Cámbiala con -issimo", "q": "Le strade sono molto strette.", "answer": ["Le strade sono strettissime."], "why": "Strette → strettissime.", "g": "it-g-superlativi" },
+    { "id": "e21", "type": "transform", "instr": "Cámbiala con «molto»", "q": "Il viaggio è stato lunghissimo.", "answer": ["Il viaggio è stato molto lungo."], "why": "Lunghissimo = molto lungo.", "g": "it-g-superlativi" },
+    { "id": "e22", "type": "transform", "instr": "Hazla superlativo con «il più … di»", "q": "Il Duomo è una chiesa famosa. (Milano)", "answer": ["Il Duomo è la chiesa più famosa di Milano."], "why": "La chiesa più famosa di Milano.", "g": "it-g-superlativi" },
+    { "id": "e23", "type": "order", "es": "Es el pueblo más bonito de la región.", "answer": "È il paese più bello della regione", "extra": ["che"], "why": "Il paese + più bello + della regione.", "g": "it-g-superlativi" },
+    { "id": "e24", "type": "order", "es": "Esta playa es la menos concurrida de la costa.", "answer": "Questa spiaggia è la meno affollata della costa", "extra": ["più"], "why": "La meno + adjetivo + della.", "g": "it-g-superlativi" },
+    { "id": "e25", "type": "order", "es": "La comida ha estado buenísima.", "answer": "Il pranzo è stato buonissimo", "extra": ["molto"], "why": "Il pranzo: masculino → buonissimo.", "g": "it-g-superlativi" },
+    { "id": "e26", "type": "translate", "dir": "to", "q": "Es la ciudad más bonita de Italia.", "answer": ["È la città più bella d'Italia.", "È la città più bella di Italia."], "why": "La città più bella d'Italia.", "g": "it-g-superlativi" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "¡El helado está buenísimo!", "answer": ["Il gelato è buonissimo!", "Il gelato è ottimo!"], "why": "Buonissimo u ottimo.", "g": "it-g-superlativi" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "Es la mejor pizza del barrio.", "answer": ["È la pizza migliore del quartiere.", "È la migliore pizza del quartiere.", "È la miglior pizza del quartiere."], "why": "La migliore puede ir antes o después del nombre.", "g": "it-g-superlativi" },
+    { "id": "e29", "type": "translate", "dir": "from", "q": "Grazie, sei gentilissima!", "answer": ["¡Gracias, eres amabilísima!", "¡Gracias, eres muy amable!", "¡Gracias, eres un encanto!"], "why": "Gentilissima = amabilísima.", "g": "it-g-superlativi" },
+    { "id": "e30", "type": "conjugate", "verb": "essere", "person": "lei", "tense": "passato prossimo", "q": "La gita ___ bellissima!", "answer": ["è stata"], "why": "La gita (lei) → è stata, femenino.", "g": "it-g-superlativi" },
+    { "id": "e31", "type": "situation", "context": "Has comido en casa de una amiga italiana y la lasaña estaba riquísima.", "emoji": "🍝", "options": ["Le lasagne erano buonissime!", "Le lasagne erano più buonissime!", "Le lasagne erano buonissimi!"], "answer": "Le lasagne erano buonissime!", "why": "Le lasagne: femenino plural → buonissime.", "g": "it-g-superlativi" },
+    { "id": "e32", "type": "situation", "context": "Un italiano te pregunta cuál es el sitio más bonito de tu región. Tú crees que es tu pueblo.", "emoji": "🏘️", "options": ["Il mio paese è il posto più bello della regione!", "Il mio paese è il posto più bello che la regione!", "Il mio paese è il posto il più bello di regione!"], "answer": "Il mio paese è il posto più bello della regione!", "why": "Il posto più bello della regione.", "g": "it-g-superlativi" },
+    { "id": "e33", "type": "match", "pairs": [["bello", "bellissimo"], ["buono", "ottimo"], ["cattivo", "pessimo"], ["caro", "carissimo"], ["grande", "grandissimo"]], "why": "Adjetivo → superlativo.", "g": "it-g-superlativi" },
+    { "id": "e34", "type": "match", "pairs": [["il migliore", "el mejor"], ["il peggiore", "el peor"], ["il più bello", "el más bonito"], ["il meno caro", "el menos caro"], ["benissimo", "muy bien"]], "why": "Superlativos útiles.", "g": "it-g-superlativi" }
+  ],
+  "reviewed": false
+}

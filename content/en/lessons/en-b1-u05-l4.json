@@ -1,0 +1,102 @@
+{
+  "id": "en-b1-u05-l4",
+  "unit": "en-b1-u05",
+  "title": "Si pudiera… y la contracción I'd",
+  "goal": "a hacer preguntas imaginarias, a distinguir el primer y el segundo condicional y a pronunciar I'd",
+  "emoji": "🗣️",
+  "photoQuery": "sailing boat harbour sunset",
+  "vocab": [
+    { "id": "dream-move-abroad", "t": "move abroad", "es": "irse a vivir al extranjero", "emoji": "✈️", "pos": "phrase",
+      "ex": { "t": "Would you move abroad if you were younger?", "es": "¿Te irías a vivir al extranjero si fueras más joven?" } },
+    { "id": "dream-go-sailing", "t": "go sailing", "es": "salir a navegar", "emoji": "⛵", "pos": "phrase",
+      "ex": { "t": "If I lived by the sea, I'd go sailing every weekend.", "es": "Si viviera junto al mar, saldría a navegar cada fin de semana." } },
+    { "id": "dream-volunteer", "t": "volunteer", "es": "hacer voluntariado, ofrecerse", "emoji": "🙋‍♀️", "pos": "v",
+      "ex": { "t": "If I had more free time, I'd volunteer at the library.", "es": "Si tuviera más tiempo libre, haría voluntariado en la biblioteca." } },
+    { "id": "dream-free-time", "t": "free time", "es": "tiempo libre", "emoji": "⏳", "pos": "n",
+      "ex": { "t": "What would you do with more free time?", "es": "¿Qué harías con más tiempo libre?" } },
+    { "id": "dream-open-cafe", "t": "open a café", "es": "abrir una cafetería", "emoji": "☕", "pos": "phrase",
+      "ex": { "t": "If I could start again, I'd open a café.", "es": "Si pudiera empezar de nuevo, abriría una cafetería." } },
+    { "id": "dream-famous", "t": "famous", "es": "famoso, famosa", "emoji": "🌟", "pos": "adj",
+      "ex": { "t": "If I were famous, I'd hate the photographers.", "es": "Si fuera famosa, odiaría a los fotógrafos." } },
+    { "id": "dream-lucky", "t": "lucky", "es": "con suerte, afortunado", "emoji": "🍀", "pos": "adj",
+      "ex": { "t": "I feel very lucky with my family.", "es": "Me siento muy afortunada con mi familia." } },
+    { "id": "dream-choose", "t": "choose", "es": "elegir", "emoji": "👉", "pos": "v",
+      "ex": { "t": "If you could choose any country, which would you choose?", "es": "Si pudieras elegir cualquier país, ¿cuál elegirías?" } }
+  ],
+  "grammar": "en-g-second-conditional",
+  "pron": {
+    "title": "La contracción I'd",
+    "tip": "I'd suena «aid»: la d es muy corta y casi se pega al verbo siguiente («aidlaik»). Escucha la diferencia entre I'd go (iría) e I go (voy).",
+    "words": ["I'd", "you'd", "she'd", "we'd", "they'd"],
+    "pairs": [["I'd go", "I go"], ["I'd like", "I like"], ["we'd stay", "we stay"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "minimal", "pair": ["I'd go", "I go"], "answer": "I'd go", "es": ["iría", "voy"],
+      "why": "En I'd go se oye una d muy corta antes de go." },
+    { "id": "e2", "type": "minimal", "pair": ["we'd stay", "we stay"], "answer": "we stay", "es": ["nos quedaríamos", "nos quedamos"],
+      "why": "Sin d: we stay (presente)." },
+    { "id": "e3", "type": "choose", "q": "If you could choose any country, which ___ you choose?", "options": ["would", "will", "do"], "answer": "would",
+      "why": "Pregunta imaginaria: which would you choose?", "g": "en-g-second-conditional" },
+    { "id": "e4", "type": "choose", "q": "If it's sunny tomorrow, we ___ go to the beach.", "options": ["'ll", "'d", "would"], "answer": "'ll",
+      "why": "Mañana puede hacer sol de verdad: primer condicional (will).", "g": "en-g-second-conditional" },
+    { "id": "e5", "type": "choose", "q": "If I ___ twenty again, I'd move abroad.", "options": ["were", "am", "will be"], "answer": "were",
+      "why": "No tienes veinte años: imaginario, If I were.", "g": "en-g-second-conditional" },
+    { "id": "e6", "type": "choose", "q": "If my grandson ___ his homework, he can play later.", "options": ["finishes", "finished", "would finish"], "answer": "finishes",
+      "why": "Es real y posible (con can): primer condicional, presente.", "g": "en-g-second-conditional" },
+    { "id": "e7", "type": "fill", "q": "If I ___ start again, I'd open a café.", "answer": ["could"], "bank": ["could", "can", "would"],
+      "why": "Pasado de can: could.", "g": "en-g-second-conditional" },
+    { "id": "e8", "type": "fill", "q": "___ you move abroad if you were younger?", "answer": ["Would"], "bank": ["Would", "Will", "Did"],
+      "why": "Pregunta: Would + sujeto + verbo.", "g": "en-g-second-conditional" },
+    { "id": "e9", "type": "conjugate", "verb": "to volunteer", "person": "she", "tense": "condicional (would)", "q": "If she had more free time, she ___ at the hospital.", "answer": ["would volunteer", "'d volunteer"],
+      "why": "Would + volunteer (igual para todas las personas).", "g": "en-g-second-conditional" },
+    { "id": "e10", "type": "transform", "instr": "Hazla pregunta", "q": "You would go sailing in Auckland.",
+      "answer": ["Would you go sailing in Auckland?"],
+      "why": "Would delante del sujeto.", "g": "en-g-second-conditional" },
+    { "id": "e11", "type": "transform", "instr": "Escribe la forma larga", "q": "If I were famous, I'd hate it.",
+      "answer": ["If I were famous, I would hate it."],
+      "why": "I'd = I would.", "g": "en-g-second-conditional" },
+    { "id": "e12", "type": "error", "q": "If she were here, she'll know what to do.", "wrong": "she'll", "fix": "she'd",
+      "why": "Imaginario (no está aquí): she'd = she would.", "g": "en-g-second-conditional" },
+    { "id": "e13", "type": "order", "es": "¿Qué harías con más tiempo libre?", "answer": "What would you do with more free time", "extra": ["will"],
+      "why": "What + would + you + do…?", "g": "en-g-second-conditional" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "If I could choose, I'd live by the sea.",
+      "answer": ["Si pudiera elegir, viviría junto al mar.", "Si pudiese elegir, viviría junto al mar.", "Si pudiera elegir, viviría al lado del mar."],
+      "why": "Could = pudiera; I'd live = viviría.", "g": "en-g-second-conditional" },
+    { "id": "e15", "type": "reading", "kind": "text", "title": "Encuesta en una revista",
+      "text": "We asked our readers: what would you do if you had a year off? Most people said they'd travel. Many said they'd volunteer. One reader wrote: 'I'd open a little café by the sea and bake cakes all day.'",
+      "questions": [
+        { "q": "¿Qué preguntó la revista?", "options": ["Qué harían con un año libre", "Dónde trabajan", "Cuánto ganan"], "answer": "Qué harían con un año libre" },
+        { "q": "¿Qué dijo la mayoría?", "options": ["Que viajarían", "Que dormirían", "Que trabajarían más"], "answer": "Que viajarían" },
+        { "q": "¿Qué haría la lectora del final?", "options": ["Abrir una cafetería junto al mar", "Aprender a navegar", "Escribir un libro"], "answer": "Abrir una cafetería junto al mar" }
+      ], "g": "en-g-second-conditional" },
+    { "id": "e16", "type": "speak", "t": "If I could choose any country, I'd choose New Zealand.", "es": "Si pudiera elegir cualquier país, elegiría Nueva Zelanda.", "g": "en-g-second-conditional" }
+  ],
+  "dialog": {
+    "title": "El juego de las preguntas",
+    "setting": "Yolanda juega con su nieto a hacerse preguntas imaginarias en el coche",
+    "emoji": "🚗",
+    "lines": [
+      { "who": "Grandson", "t": "Grandma, if you could fly, where would you go?", "es": "Abuela, si pudieras volar, ¿adónde irías?" },
+      { "who": "Yolanda", "t": "I'd fly to New Zealand. It's so far by plane!", "es": "Volaría a Nueva Zelanda. ¡Está tan lejos en avión!" },
+      { "who": "Grandson", "t": "And if you were famous, what would you be?", "es": "¿Y si fueras famosa, qué serías?" },
+      { "who": "Yolanda", "t": "A famous cook, of course! And you?", "es": "¡Una cocinera famosa, claro! ¿Y tú?" },
+      { "who": "Grandson", "t": "I'd be a footballer. If I were rich, I'd buy you a café.", "es": "Yo sería futbolista. Si fuera rico, te compraría una cafetería." },
+      { "who": "Yolanda", "t": "How lovely! I'd bake cakes for everyone.", "es": "¡Qué bonito! Haría tartas para todo el mundo." },
+      { "who": "Grandson", "t": "If we finish the game, can we have ice cream?", "es": "Si terminamos el juego, ¿podemos tomar un helado?" },
+      { "who": "Yolanda", "t": "If you're good, we'll stop for one. Deal!", "es": "Si te portas bien, paramos a tomar uno. ¡Trato hecho!" }
+    ],
+    "questions": [
+      { "q": "¿Adónde volaría Yolanda?", "options": ["A Nueva Zelanda", "A Londres", "A Italia"], "answer": "A Nueva Zelanda" },
+      { "q": "¿Qué sería Yolanda si fuera famosa?", "options": ["Cocinera", "Cantante", "Futbolista"], "answer": "Cocinera" },
+      { "q": "¿Qué pasará si el nieto se porta bien?", "options": ["Pararán a tomar un helado", "Irán a la playa", "Comprarán una tarta"], "answer": "Pararán a tomar un helado" }
+    ]
+  },
+  "realLife": { "t": "I'd love to, but I can't.", "es": "Me encantaría, pero no puedo.", "context": "Para rechazar con cariño una invitación" },
+  "summary": [
+    "Preguntas imaginarias: What would you do if…? Where would you go if…?",
+    "Can → could: If I could choose, I'd…",
+    "Real y posible → If + presente, will · Imaginario → If + pasado, would",
+    "I'd suena «aid»: I'd go (iría) ≠ I go (voy)"
+  ],
+  "reviewed": false
+}

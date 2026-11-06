@@ -1,0 +1,85 @@
+{
+  "id": "it-a2-u08-l2",
+  "unit": "it-a2-u08",
+  "title": "Bevi tanta acqua e riposati!",
+  "goal": "a dar consejos a alguien de confianza con el imperativo de tú: bevi, riposati, non uscire",
+  "emoji": "🍵",
+  "photoQuery": "cup of herbal tea blanket sofa",
+  "vocab": [
+    { "id": "salute-riposarsi", "t": "riposarsi", "es": "descansar", "emoji": "🛋️", "pos": "v", "ex": { "t": "Riposati un po', amore.", "es": "Descansa un poco, cariño." } },
+    { "id": "salute-stare-a-letto", "t": "stare a letto", "es": "guardar cama, quedarse en la cama", "emoji": "🛏️", "pos": "phrase", "ex": { "t": "Con la febbre è meglio stare a letto.", "es": "Con fiebre es mejor quedarse en la cama." } },
+    { "id": "salute-bere-acqua", "t": "bere tanta acqua", "es": "beber mucha agua", "emoji": "💧", "pos": "phrase", "ex": { "t": "Bevi tanta acqua, mi raccomando.", "es": "Bebe mucha agua, de verdad te lo digo." } },
+    { "id": "salute-la-medicina", "t": "la medicina", "es": "la medicina, el medicamento", "emoji": "💊", "pos": "n", "ex": { "t": "Hai preso la medicina?", "es": "¿Te has tomado la medicina?" } },
+    { "id": "salute-la-pastiglia", "t": "la pastiglia", "es": "la pastilla", "emoji": "⚪", "pos": "n", "ex": { "t": "Prendi una pastiglia dopo cena.", "es": "Tómate una pastilla después de cenar." } },
+    { "id": "salute-lo-sciroppo", "t": "lo sciroppo", "es": "el jarabe", "emoji": "🥄", "pos": "n", "ex": { "t": "Lo sciroppo per la tosse è nel cassetto.", "es": "El jarabe para la tos está en el cajón." }, "note": "¡Ojo! No es «sirope»." },
+    { "id": "salute-coprirsi", "t": "coprirsi", "es": "abrigarse, taparse", "emoji": "🧣", "pos": "v", "ex": { "t": "Fa freddo: copriti bene!", "es": "Hace frío: ¡abrígate bien!" } },
+    { "id": "salute-preoccuparsi", "t": "preoccuparsi", "es": "preocuparse", "emoji": "😟", "pos": "v", "ex": { "t": "Non preoccuparti, sto meglio.", "es": "No te preocupes, estoy mejor." } },
+    { "id": "salute-mi-raccomando", "t": "mi raccomando", "es": "por favor, no te olvides (consejo cariñoso)", "emoji": "☝️", "pos": "phrase", "ex": { "t": "Chiamami stasera, mi raccomando!", "es": "Llámame esta noche, ¡no te olvides!" }, "note": "Muy de madre italiana: refuerza un consejo." }
+  ],
+  "grammar": "it-g-imperativo-tu",
+  "pron": {
+    "title": "El acento no se mueve",
+    "tip": "Al pegar pronombres, el acento se queda donde estaba: RI-po-sa → ri-PO-sa-ti, PREN-di → PREN-di-la. No lo muevas al final.",
+    "words": ["riposati", "prendila", "copriti", "chiamami"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Hugo, ___ tanta acqua!", "es": "Hugo, ¡bebe mucha agua!", "options": ["bevi", "beve", "bere"], "answer": "bevi", "why": "Imperativo de tú de bere: bevi.", "g": "it-g-imperativo-tu" },
+    { "id": "e2", "type": "choose", "q": "Hai la febbre: non ___ stasera!", "es": "Tienes fiebre: ¡no salgas esta noche!", "options": ["uscire", "esci", "esca"], "answer": "uscire", "why": "Negativo con tú: non + infinitivo → non uscire.", "g": "it-g-imperativo-tu" },
+    { "id": "e3", "type": "choose", "q": "Sei stanco? ___ un po'!", "es": "¿Estás cansado? ¡Descansa un poco!", "options": ["Riposati", "Ti riposi", "Riposarti"], "answer": "Riposati", "why": "En el imperativo afirmativo el pronombre va pegado al final: riposati.", "g": "it-g-imperativo-tu" },
+    { "id": "e4", "type": "fill", "q": "Amore, ___ la medicina dopo cena.", "es": "Cariño, tómate la medicina después de cenar.", "answer": ["prendi"], "bank": ["prendi", "prende", "prendere"], "why": "Prendere con tú: prendi.", "g": "it-g-imperativo-tu" },
+    { "id": "e5", "type": "fill", "q": "Fa freddo fuori: ___ bene!", "es": "Hace frío fuera: ¡abrígate bien!", "answer": ["copriti"], "hint": "coprirsi", "why": "Copri + ti, todo junto: copriti.", "g": "it-g-imperativo-tu" },
+    { "id": "e6", "type": "fill", "q": "Non ___ caffè, se hai mal di pancia.", "es": "No bebas café si te duele la tripa.", "answer": ["bere"], "bank": ["bere", "bevi", "beva"], "why": "Negativo con tú: non + infinitivo (non bere).", "g": "it-g-imperativo-tu" },
+    { "id": "e7", "type": "error", "q": "Non esci con questo freddo!", "wrong": "esci", "fix": "uscire", "why": "El negativo de tú es non + infinitivo: non uscire.", "g": "it-g-imperativo-tu" },
+    { "id": "e8", "type": "error", "q": "Mangi qualcosa di leggero, Hugo!", "wrong": "Mangi", "fix": "Mangia", "why": "Con tú, los verbos en -are acaban en -a: mangia.", "g": "it-g-imperativo-tu" },
+    { "id": "e9", "type": "transform", "instr": "Hazla negativa", "q": "Prendi l'autobus.", "answer": ["Non prendere l'autobus."], "why": "Non + infinitivo: non prendere.", "g": "it-g-imperativo-tu" },
+    { "id": "e10", "type": "transform", "instr": "Hazla afirmativa", "q": "Non stare a letto tutto il giorno.", "answer": ["Stai a letto tutto il giorno.", "Sta' a letto tutto il giorno."], "why": "Stare con tú: stai o sta'.", "g": "it-g-imperativo-tu" },
+    { "id": "e11", "type": "order", "es": "No te preocupes, estoy bien.", "answer": "Non preoccuparti sto bene", "alt": ["Non ti preoccupare sto bene"], "extra": ["preoccupati"], "why": "En negativo el pronombre puede ir al final (preoccuparti) o delante (ti preoccupare).", "g": "it-g-imperativo-tu" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Bebe mucha agua y descansa.", "answer": ["Bevi tanta acqua e riposati.", "Bevi molta acqua e riposati."], "why": "Bevi + riposati (pronombre pegado).", "g": "it-g-imperativo-tu" },
+    { "id": "e13", "type": "situation", "context": "Tu marido tose mucho y quiere ir al bar con los amigos. Le aconsejas que no salga.", "emoji": "🤧", "options": ["Non uscire, resta a casa!", "Non esci, resti a casa!", "Esci, resta a casa!"], "answer": "Non uscire, resta a casa!", "why": "Non + infinitivo para prohibir; resta para aconsejar.", "g": "it-g-imperativo-tu" },
+    { "id": "e14", "type": "conjugate", "verb": "riposarsi", "person": "tu", "tense": "imperativo", "q": "Hai lavorato tanto: ___!", "answer": ["riposati"], "table": [["mangiare", "mangia"], ["prendere", "prendi"], ["dormire", "dormi"], ["riposarsi", "riposati"]], "why": "Riposa + ti = riposati.", "g": "it-g-imperativo-tu" },
+    { "id": "e15", "type": "match", "pairs": [["bevi", "bebe"], ["copriti", "abrígate"], ["non uscire", "no salgas"], ["riposati", "descansa"], ["non preoccuparti", "no te preocupes"]], "why": "Consejos de madre en italiano.", "g": "it-g-imperativo-tu" }
+  ],
+  "dialog": {
+    "title": "Hugo tiene gripe",
+    "setting": "Yolanda habla por videollamada con su hijo Hugo, que está malo",
+    "emoji": "📱",
+    "lines": [
+      { "who": "Hugo", "t": "Ciao mamma. Ho la febbre da ieri.", "es": "Hola, mamá. Tengo fiebre desde ayer." },
+      { "who": "Yolanda", "t": "Oh no! Stai a letto e riposati.", "es": "¡Oh, no! Quédate en la cama y descansa." },
+      { "who": "Hugo", "t": "Sì, ma devo andare a lavorare.", "es": "Sí, pero tengo que ir a trabajar." },
+      { "who": "Yolanda", "t": "No, non andare! Chiama in ufficio.", "es": "¡No, no vayas! Llama a la oficina." },
+      { "who": "Hugo", "t": "Va bene. E cosa mangio?", "es": "Vale. ¿Y qué como?" },
+      { "who": "Yolanda", "t": "Mangia un brodo caldo e bevi tanta acqua.", "es": "Come un caldo calentito y bebe mucha agua." },
+      { "who": "Hugo", "t": "Agli ordini, mamma!", "es": "¡A sus órdenes, mamá!" },
+      { "who": "Yolanda", "t": "E chiamami stasera, mi raccomando!", "es": "Y llámame esta noche, ¡no te olvides!" }
+    ],
+    "questions": [
+      { "q": "¿Desde cuándo tiene fiebre Hugo?", "options": ["Desde ayer", "Desde hace una semana", "Desde esta mañana"], "answer": "Desde ayer" },
+      { "q": "¿Qué le dice Yolanda sobre el trabajo?", "options": ["Que no vaya", "Que vaya pronto", "Que trabaje desde la cama"], "answer": "Que no vaya" },
+      { "q": "¿Qué tiene que hacer Hugo esta noche?", "options": ["Llamar a su madre", "Ir al médico", "Cenar fuera"], "answer": "Llamar a su madre" }
+    ]
+  },
+  "realLife": { "t": "Riposati e chiamami, mi raccomando!", "es": "Descansa y llámame, ¡no te olvides!", "context": "Para despedirte de un hijo o una amiga que está malita" },
+  "same": {
+    "text": "El imperativo de tú afirmativo se parece muchísimo al nuestro.",
+    "examples": [
+      { "t": "prendi", "es": "toma, coge" },
+      { "t": "mangia", "es": "come" },
+      { "t": "dormi", "es": "duerme" }
+    ]
+  },
+  "falseFriend": {
+    "word": "lo sciroppo",
+    "means": "el jarabe",
+    "looksLike": "sirope (para las tortitas)",
+    "emoji": "🥄",
+    "tip": "En la farmacia, lo sciroppo per la tosse es el jarabe para la tos. El sirope dulce se dice sciroppo d'acero o salsa."
+  },
+  "summary": [
+    "Imperativo de tú: mangia (-are), prendi (-ere), dormi (-ire).",
+    "Negativo: non + infinitivo → non uscire, non bere.",
+    "Los pronombres van pegados: riposati, copriti, chiamami.",
+    "Lo sciroppo es el jarabe, no el sirope."
+  ],
+  "reviewed": false
+}

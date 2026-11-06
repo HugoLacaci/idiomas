@@ -1,0 +1,472 @@
+{
+  "id": "it-a1-u05-l2",
+  "unit": "it-a1-u05",
+  "title": "Parlo, parli, parla: los verbos en -are",
+  "goal": "a contar lo que haces cada día con los verbos en -are",
+  "emoji": "🗣️",
+  "photoQuery": "woman cooking pasta kitchen",
+  "vocab": [
+    {
+      "id": "parlare",
+      "t": "parlare",
+      "es": "hablar",
+      "emoji": "🗣️",
+      "pos": "v",
+      "ex": {
+        "t": "Parlo con Hugo ogni sera.",
+        "es": "Hablo con Hugo cada noche."
+      }
+    },
+    {
+      "id": "abitare",
+      "t": "abitare",
+      "es": "vivir (en un sitio)",
+      "emoji": "🏠",
+      "pos": "v",
+      "ex": {
+        "t": "Abito in un paese vicino a Madrid.",
+        "es": "Vivo en un pueblo cerca de Madrid."
+      }
+    },
+    {
+      "id": "ascoltare",
+      "t": "ascoltare",
+      "es": "escuchar",
+      "emoji": "🎧",
+      "pos": "v",
+      "ex": {
+        "t": "Ascolto la radio in macchina.",
+        "es": "Escucho la radio en el coche."
+      }
+    },
+    {
+      "id": "comprare",
+      "t": "comprare",
+      "es": "comprar",
+      "emoji": "🛍️",
+      "pos": "v",
+      "ex": {
+        "t": "Compro il pane la mattina.",
+        "es": "Compro el pan por la mañana."
+      }
+    },
+    {
+      "id": "aspettare",
+      "t": "aspettare",
+      "es": "esperar (a alguien)",
+      "emoji": "⏳",
+      "pos": "v",
+      "ex": {
+        "t": "Aspetto l'autobus.",
+        "es": "Espero el autobús."
+      }
+    },
+    {
+      "id": "studiare",
+      "t": "studiare",
+      "es": "estudiar",
+      "emoji": "📚",
+      "pos": "v",
+      "note": "Tu studi, noi studiamo: no se repite la i.",
+      "ex": {
+        "t": "Studio italiano con il telefono.",
+        "es": "Estudio italiano con el móvil."
+      }
+    },
+    {
+      "id": "giocare",
+      "t": "giocare",
+      "es": "jugar",
+      "emoji": "⚽",
+      "pos": "v",
+      "note": "Tu giochi, noi giochiamo: se añade h.",
+      "ex": {
+        "t": "I nipoti giocano in giardino.",
+        "es": "Los nietos juegan en el jardín."
+      }
+    },
+    {
+      "id": "chiamare",
+      "t": "chiamare",
+      "es": "llamar",
+      "emoji": "📞",
+      "pos": "v",
+      "ex": {
+        "t": "Chiamo mia sorella dopo pranzo.",
+        "es": "Llamo a mi hermana después de comer."
+      }
+    },
+    {
+      "id": "tornare",
+      "t": "tornare",
+      "es": "volver",
+      "emoji": "↩️",
+      "pos": "v",
+      "ex": {
+        "t": "Torno a casa alle sette.",
+        "es": "Vuelvo a casa a las siete."
+      }
+    }
+  ],
+  "grammar": "it-g-presente-are",
+  "pron": {
+    "title": "El acento de parlano",
+    "tip": "En loro el acento no va en -ano: va donde en io. Di PAR-la-no, A-bi-ta-no, GIO-ca-no. Nada de «parLAno».",
+    "words": [
+      "parlano",
+      "abitano",
+      "giocano",
+      "studiano",
+      "lavorano"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Io ___ in un paese piccolo.",
+      "es": "Yo vivo en un pueblo pequeño.",
+      "options": [
+        "abito",
+        "abiti",
+        "abita"
+      ],
+      "answer": "abito",
+      "why": "Io → -o: abito.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Tu ___ la radio?",
+      "es": "¿Escuchas la radio?",
+      "options": [
+        "ascoltas",
+        "ascolti",
+        "ascolta"
+      ],
+      "answer": "ascolti",
+      "why": "Tu → -i, nunca -s: ascolti.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Noi ___ a carte la domenica.",
+      "es": "Jugamos a las cartas los domingos.",
+      "options": [
+        "giochiamo",
+        "giociamo",
+        "giocamo"
+      ],
+      "answer": "giochiamo",
+      "why": "Giocare añade h ante i: giochiamo.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e4",
+      "type": "conjugate",
+      "verb": "chiamare",
+      "person": "lei",
+      "tense": "presente",
+      "q": "Mia madre mi ___ ogni giorno.",
+      "answer": [
+        "chiama"
+      ],
+      "table": [
+        [
+          "io",
+          "chiamo"
+        ],
+        [
+          "tu",
+          "chiami"
+        ],
+        [
+          "lei",
+          "?"
+        ]
+      ],
+      "why": "Lei → -a: chiama.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e5",
+      "type": "conjugate",
+      "verb": "aspettare",
+      "person": "noi",
+      "tense": "presente",
+      "q": "___ il treno per Napoli.",
+      "answer": [
+        "Aspettiamo"
+      ],
+      "why": "Noi → -iamo: aspettiamo.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e6",
+      "type": "conjugate",
+      "verb": "studiare",
+      "person": "tu",
+      "tense": "presente",
+      "q": "Tu ___ italiano?",
+      "answer": [
+        "studi"
+      ],
+      "why": "Studiare no repite la i: studi.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "I miei nipoti ___ a calcio.",
+      "es": "Mis nietos juegan al fútbol.",
+      "answer": [
+        "giocano"
+      ],
+      "bank": [
+        "giocano",
+        "giochano",
+        "gioca"
+      ],
+      "why": "Loro → -ano: giocano (sin h, porque va seguido de a).",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "q": "Voi ___ il pane al forno?",
+      "es": "¿Compráis el pan en la panadería?",
+      "answer": [
+        "comprate"
+      ],
+      "bank": [
+        "comprate",
+        "comprano",
+        "compriamo"
+      ],
+      "why": "Voi → -ate: comprate.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "q": "Hugo ___ a casa a Natale.",
+      "es": "Hugo vuelve a casa en Navidad.",
+      "answer": [
+        "torna"
+      ],
+      "why": "Hugo = lui → torna.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Cambia a «noi»",
+      "q": "Io parlo italiano.",
+      "answer": [
+        "Noi parliamo italiano.",
+        "Parliamo italiano."
+      ],
+      "why": "Noi → parliamo.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "Mio marito cucina.",
+      "answer": [
+        "Mio marito non cucina."
+      ],
+      "why": "Non va delante del verbo.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "Tu abitas a Madrid?",
+      "wrong": "abitas",
+      "fix": "abiti",
+      "why": "Tu → -i: abiti.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e13",
+      "type": "error",
+      "q": "Noi parlamo con Hugo stasera.",
+      "wrong": "parlamo",
+      "fix": "parliamo",
+      "why": "Noi → -iamo: parliamo.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e14",
+      "type": "order",
+      "es": "Llamo a mi hijo por la noche.",
+      "answer": "Chiamo mio figlio la sera",
+      "extra": [
+        "chiama"
+      ],
+      "why": "Io → chiamo; mio figlio sin artículo.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e15",
+      "type": "translate",
+      "dir": "to",
+      "q": "Esperamos el autobús.",
+      "answer": [
+        "Aspettiamo l'autobus.",
+        "Noi aspettiamo l'autobus."
+      ],
+      "why": "Noi → aspettiamo. Esperar a algo/alguien = aspettare.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e16",
+      "type": "reading",
+      "kind": "message",
+      "title": "Mensaje de Hugo",
+      "text": "Ciao mamma! Qui lavoro la mattina e studio il pomeriggio. La sera cucino con i miei amici. Chiamo domenica!",
+      "questions": [
+        {
+          "q": "¿Qué hace Hugo por la tarde?",
+          "options": [
+            "Estudia",
+            "Trabaja",
+            "Cocina"
+          ],
+          "answer": "Estudia"
+        },
+        {
+          "q": "¿Con quién cocina?",
+          "options": [
+            "Con sus amigos",
+            "Con su madre",
+            "Solo"
+          ],
+          "answer": "Con sus amigos"
+        },
+        {
+          "q": "¿Cuándo llama?",
+          "options": [
+            "El domingo",
+            "El sábado",
+            "Esta noche"
+          ],
+          "answer": "El domingo"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "title": "En la parada del autobús",
+    "setting": "En una parada de autobús de Bari, Yolanda habla con una señora",
+    "emoji": "🚌",
+    "lines": [
+      {
+        "who": "Signora Lucia",
+        "t": "Anche Lei aspetta il 12?",
+        "es": "¿Usted también espera el 12?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì. Lei abita qui?",
+        "es": "Sí. ¿Usted vive aquí?"
+      },
+      {
+        "who": "Signora Lucia",
+        "t": "Sì, ma lavoro in centro. E Lei?",
+        "es": "Sí, pero trabajo en el centro. ¿Y usted?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sono spagnola. Studio italiano!",
+        "es": "Soy española. ¡Estudio italiano!"
+      },
+      {
+        "who": "Signora Lucia",
+        "t": "Brava! Parla molto bene.",
+        "es": "¡Muy bien! Habla muy bien."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie! Parlo un po' ogni giorno.",
+        "es": "¡Gracias! Hablo un poco cada día."
+      },
+      {
+        "who": "Signora Lucia",
+        "t": "Ecco, l'autobus arriva!",
+        "es": "¡Mire, ya llega el autobús!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué autobús esperan?",
+        "options": [
+          "El 12",
+          "El 2",
+          "El 20"
+        ],
+        "answer": "El 12"
+      },
+      {
+        "q": "¿Dónde trabaja la señora Lucia?",
+        "options": [
+          "En el centro",
+          "En casa",
+          "En el mercado"
+        ],
+        "answer": "En el centro"
+      },
+      {
+        "q": "¿Qué dice la señora del italiano de Yolanda?",
+        "options": [
+          "Que habla muy bien",
+          "Que no entiende",
+          "Que habla rápido"
+        ],
+        "answer": "Que habla muy bien"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Studio italiano.",
+    "es": "Estudio italiano.",
+    "context": "Cuando un italiano te pregunta por qué hablas su idioma"
+  },
+  "same": {
+    "text": "Igual que en español: la persona io acaba en -o, como nuestro «yo hablo», y lui/lei en -a.",
+    "examples": [
+      {
+        "t": "io parlo",
+        "es": "yo hablo"
+      },
+      {
+        "t": "io compro",
+        "es": "yo compro"
+      },
+      {
+        "t": "lei cucina",
+        "es": "ella cocina"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "fermare",
+    "means": "parar, detener (l'autobus ferma qui)",
+    "looksLike": "firmar",
+    "emoji": "🛑",
+    "tip": "Fermare es parar: la fermata es la parada del autobús. Firmar se dice firmare."
+  },
+  "summary": [
+    "-are: -o, -i, -a, -iamo, -ate, -ano",
+    "Tu siempre en -i: parli, abiti, ascolti",
+    "Giocare y cercare añaden h: giochi, cerchi",
+    "Negación: non + verbo",
+    "En loro, acento atrás: PARlano"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u05-l2"
+}

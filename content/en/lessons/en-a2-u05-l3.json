@@ -1,0 +1,463 @@
+{
+  "id": "en-a2-u05-l3",
+  "unit": "en-a2-u05",
+  "title": "¡No te lo vas a creer!",
+  "goal": "a contar una anécdota con orden y emoción: de repente, después, al final",
+  "emoji": "🤩",
+  "photoQuery": "two women talking coffee",
+  "vocab": [
+    {
+      "id": "story-guess-what",
+      "t": "Guess what!",
+      "es": "¿A que no sabes qué?",
+      "emoji": "🤩",
+      "pos": "phrase",
+      "ex": {
+        "t": "Guess what! I met an old friend in Madrid.",
+        "es": "¿A que no sabes qué? Me encontré a una vieja amiga en Madrid."
+      }
+    },
+    {
+      "id": "story-what-happened",
+      "t": "What happened?",
+      "es": "¿Qué pasó?",
+      "emoji": "❓",
+      "pos": "phrase",
+      "ex": {
+        "t": "What happened? You look tired.",
+        "es": "¿Qué ha pasado? Pareces cansada."
+      }
+    },
+    {
+      "id": "story-suddenly",
+      "t": "suddenly",
+      "es": "de repente",
+      "emoji": "⚡",
+      "pos": "adv",
+      "ex": {
+        "t": "Suddenly, the bus stopped in the middle of the road.",
+        "es": "De repente, el autobús paró en mitad de la carretera."
+      }
+    },
+    {
+      "id": "story-after-that",
+      "t": "after that",
+      "es": "después de eso",
+      "emoji": "➡️",
+      "pos": "phrase",
+      "ex": {
+        "t": "After that, we went for a coffee.",
+        "es": "Después de eso, fuimos a tomar un café."
+      }
+    },
+    {
+      "id": "story-in-the-end",
+      "t": "in the end",
+      "es": "al final",
+      "emoji": "🏁",
+      "pos": "phrase",
+      "ex": {
+        "t": "In the end, we found the hotel.",
+        "es": "Al final, encontramos el hotel."
+      }
+    },
+    {
+      "id": "story-it-was-amazing",
+      "t": "It was amazing!",
+      "es": "¡Fue increíble!",
+      "emoji": "✨",
+      "pos": "phrase",
+      "ex": {
+        "t": "We saw the sunset. It was amazing!",
+        "es": "Vimos la puesta de sol. ¡Fue increíble!"
+      }
+    },
+    {
+      "id": "story-two-days-ago",
+      "t": "two days ago",
+      "es": "hace dos días",
+      "emoji": "⏳",
+      "pos": "phrase",
+      "ex": {
+        "t": "I came back from Paris two days ago.",
+        "es": "Volví de París hace dos días."
+      },
+      "note": "ago va detrás: two days ago, a week ago, a long time ago."
+    },
+    {
+      "id": "story-notice",
+      "t": "notice",
+      "es": "darse cuenta, fijarse; un aviso",
+      "emoji": "👁️",
+      "pos": "v",
+      "ex": {
+        "t": "Suddenly I noticed my bag wasn't there.",
+        "es": "De repente me di cuenta de que mi bolso no estaba."
+      },
+      "note": "¡Ojo, falso amigo! notice no es «noticia». La noticia = the news."
+    },
+    {
+      "id": "story-the-news",
+      "t": "the news",
+      "es": "las noticias, la noticia",
+      "emoji": "📰",
+      "pos": "n",
+      "ex": {
+        "t": "My son told me the good news.",
+        "es": "Mi hijo me contó la buena noticia."
+      },
+      "note": "News va con verbo en singular: The news is good."
+    }
+  ],
+  "grammar": "en-g-past-simple-irregular",
+  "pron": {
+    "title": "La u de guess",
+    "tip": "En guess la u no suena: se dice «ges». Pasa lo mismo en guest («gest») y guide («gaid»).",
+    "words": [
+      "guess",
+      "guest",
+      "guide",
+      "suddenly",
+      "ago"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I came back from Paris two days ___.",
+      "options": [
+        "ago",
+        "before",
+        "past"
+      ],
+      "answer": "ago",
+      "why": "Hace dos días = two days ago (ago va detrás).",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "My son told me the good ___.",
+      "options": [
+        "news",
+        "notice",
+        "new"
+      ],
+      "answer": "news",
+      "why": "Noticia = news. Notice es un falso amigo.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "___, the lights went out.",
+      "options": [
+        "Suddenly",
+        "Sudden",
+        "Ago"
+      ],
+      "answer": "Suddenly",
+      "why": "De repente = suddenly (con -ly).",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "We walked for hours. In the ___, we found the hotel.",
+      "es": "Caminamos horas. Al final, encontramos el hotel.",
+      "answer": [
+        "end"
+      ],
+      "bank": [
+        "end",
+        "final",
+        "finish"
+      ],
+      "why": "Al final = in the end.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Suddenly I ___ that my bag wasn't there.",
+      "es": "De repente me di cuenta de que mi bolso no estaba.",
+      "answer": [
+        "noticed",
+        "realised",
+        "realized"
+      ],
+      "bank": [
+        "noticed",
+        "knew",
+        "news"
+      ],
+      "why": "Darse cuenta = notice. En pasado: noticed.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Guess ___! I met an old friend in Madrid.",
+      "es": "¿A que no sabes qué? Me encontré a una vieja amiga en Madrid.",
+      "answer": [
+        "what"
+      ],
+      "why": "Guess what! es la forma típica de empezar una noticia.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e7",
+      "type": "situation",
+      "context": "Quieres empezar a contarle a tu amiga una noticia emocionante.",
+      "emoji": "🤩",
+      "options": [
+        "Guess what!",
+        "Notice what!",
+        "What happened?"
+      ],
+      "answer": "Guess what!",
+      "why": "Guess what! = ¿A que no sabes qué?",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e8",
+      "type": "situation",
+      "context": "Tu amiga llega con cara de susto. Quieres saber qué ha pasado.",
+      "emoji": "😟",
+      "options": [
+        "What happened?",
+        "What happens yesterday?",
+        "Guess what!"
+      ],
+      "answer": "What happened?",
+      "why": "¿Qué ha pasado? = What happened?",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "I heard some good notice on the radio.",
+      "wrong": "notice",
+      "fix": "news",
+      "why": "Noticia = news. Notice es aviso o darse cuenta.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "We meeted a nice man on the train.",
+      "wrong": "meeted",
+      "fix": "met",
+      "why": "Meet es irregular: met.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Al final cogimos un taxi",
+      "answer": "In the end we took a taxi",
+      "alt": [
+        "We took a taxi in the end"
+      ],
+      "extra": [
+        "final"
+      ],
+      "why": "In the end + took (pasado de take).",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "Volví de Roma hace una semana",
+      "answer": "I came back from Rome a week ago",
+      "extra": [
+        "before"
+      ],
+      "why": "Ago va al final: a week ago.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e13",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de una amiga",
+      "text": "Guess what! Yesterday I went to the market and saw Lola, my old teacher! We had a coffee and she told me all her news. After that, we went for a walk. It was amazing!",
+      "questions": [
+        {
+          "q": "¿A quién vio en el mercado?",
+          "options": [
+            "A su antigua profesora",
+            "A su hermana",
+            "A una vecina"
+          ],
+          "answer": "A su antigua profesora"
+        },
+        {
+          "q": "¿Qué hicieron primero?",
+          "options": [
+            "Tomaron un café",
+            "Dieron un paseo",
+            "Comieron"
+          ],
+          "answer": "Tomaron un café"
+        },
+        {
+          "q": "¿Qué hicieron después?",
+          "options": [
+            "Dieron un paseo",
+            "Fueron al cine",
+            "Compraron fruta"
+          ],
+          "answer": "Dieron un paseo"
+        }
+      ],
+      "why": "Fíjate en los pasados: went, saw, had, told.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Qué pasó? — Perdí el bolso.",
+      "answer": [
+        "What happened? — I lost my bag.",
+        "What happened? I lost my bag.",
+        "What happened? - I lost my bag.",
+        "What happened? — I lost my handbag.",
+        "What happened? I lost my handbag."
+      ],
+      "why": "Lose → lost. En inglés decimos «mi bolso»: my bag.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "suddenly",
+          "de repente"
+        ],
+        [
+          "in the end",
+          "al final"
+        ],
+        [
+          "after that",
+          "después de eso"
+        ],
+        [
+          "two days ago",
+          "hace dos días"
+        ],
+        [
+          "notice",
+          "darse cuenta"
+        ]
+      ],
+      "why": "Palabras para ordenar una historia.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e16",
+      "type": "transform",
+      "instr": "Pásala a pasado",
+      "q": "Suddenly my phone rings.",
+      "answer": [
+        "Suddenly my phone rang.",
+        "Suddenly, my phone rang."
+      ],
+      "why": "Ring es irregular: rang.",
+      "g": "en-g-past-simple-irregular"
+    }
+  ],
+  "dialog": {
+    "title": "La cartera perdida",
+    "setting": "Yolanda habla por teléfono con su amiga Pilar",
+    "emoji": "👛",
+    "lines": [
+      {
+        "who": "Pilar",
+        "t": "Hi Yolanda! You sound happy. What happened?",
+        "es": "¡Hola, Yolanda! Se te oye contenta. ¿Qué ha pasado?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Guess what! I found a wallet in the street yesterday.",
+        "es": "¿A que no sabes qué? Ayer encontré una cartera en la calle."
+      },
+      {
+        "who": "Pilar",
+        "t": "Really? What did you do?",
+        "es": "¿En serio? ¿Y qué hiciste?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I took it to the police station.",
+        "es": "La llevé a la comisaría."
+      },
+      {
+        "who": "Pilar",
+        "t": "Good for you!",
+        "es": "¡Muy bien hecho!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "And in the end, the owner came to my house!",
+        "es": "¡Y al final el dueño vino a mi casa!"
+      },
+      {
+        "who": "Pilar",
+        "t": "No way! What did he say?",
+        "es": "¡No me digas! ¿Y qué te dijo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "He said thank you and gave me some flowers.",
+        "es": "Me dio las gracias y me regaló unas flores."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué encontró Yolanda?",
+        "options": [
+          "Una cartera",
+          "Un móvil",
+          "Unas llaves"
+        ],
+        "answer": "Una cartera"
+      },
+      {
+        "q": "¿Dónde la llevó?",
+        "options": [
+          "A la comisaría",
+          "Al banco",
+          "A su casa"
+        ],
+        "answer": "A la comisaría"
+      },
+      {
+        "q": "¿Qué le regaló el dueño?",
+        "options": [
+          "Unas flores",
+          "Dinero",
+          "Bombones"
+        ],
+        "answer": "Unas flores"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Let me tell you what happened.",
+    "es": "Deja que te cuente lo que pasó.",
+    "context": "Para empezar a contar una anécdota"
+  },
+  "summary": [
+    "Empezar una anécdota: Guess what! / What happened?",
+    "Ordenar la historia: suddenly, after that, in the end",
+    "Hace + tiempo = tiempo + ago: two days ago",
+    "¡Falso amigo! notice = darse cuenta o aviso; noticia = news"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u05-l3"
+}

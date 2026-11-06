@@ -1,0 +1,76 @@
+{
+  "id": "it-a2-u06-l5",
+  "unit": "it-a2-u06",
+  "title": "Regali da Milano",
+  "goal": "a comprar regalos, pagar, pedir el ticket y contar lo que has comprado",
+  "emoji": "🎁",
+  "photoQuery": "milan galleria shopping arcade",
+  "vocab": [
+    { "id": "moda-il-regalo", "t": "il regalo", "es": "el regalo", "emoji": "🎁", "pos": "n", "ex": { "t": "È un regalo per mio figlio Hugo.", "es": "Es un regalo para mi hijo Hugo." } },
+    { "id": "moda-la-borsa", "t": "la borsa", "es": "el bolso", "emoji": "👜", "pos": "n", "ex": { "t": "Ho comprato una borsa di pelle.", "es": "He comprado un bolso de piel." } },
+    { "id": "moda-i-saldi", "t": "i saldi", "es": "las rebajas", "emoji": "🏷️", "pos": "n", "ex": { "t": "A gennaio ci sono i saldi.", "es": "En enero hay rebajas." } },
+    { "id": "moda-lo-sconto", "t": "lo sconto", "es": "el descuento", "emoji": "💸", "pos": "n", "ex": { "t": "C'è uno sconto del venti per cento.", "es": "Hay un descuento del veinte por ciento." } },
+    { "id": "moda-la-vetrina", "t": "la vetrina", "es": "el escaparate", "emoji": "🪟", "pos": "n", "ex": { "t": "Mi piace la borsa in vetrina.", "es": "Me gusta el bolso del escaparate." } },
+    { "id": "moda-lo-scontrino", "t": "lo scontrino", "es": "el tique de compra", "emoji": "🧾", "pos": "n", "ex": { "t": "Tenga lo scontrino per il cambio.", "es": "Guarde el tique para el cambio." } },
+    { "id": "moda-un-pacchetto-regalo", "t": "un pacchetto regalo", "es": "un paquete de regalo", "emoji": "🎀", "pos": "phrase", "ex": { "t": "Mi può fare un pacchetto regalo?", "es": "¿Me lo puede envolver para regalo?" } },
+    { "id": "moda-cambiare", "t": "cambiare", "es": "cambiar", "emoji": "🔄", "pos": "v", "ex": { "t": "Posso cambiarla se non va bene?", "es": "¿Puedo cambiarlo si no queda bien?" } }
+  ],
+  "grammar": "it-g-pronomi-diretti",
+  "pron": {
+    "title": "Sc de sconto y scontrino",
+    "tip": "Sc delante de o suena «sk»: sconto, scontrino. Nada de «s» suave: s-k-o-n-to.",
+    "words": ["sconto", "scontrino", "scarpe", "sciarpa", "scegliere"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "La borsa? L'ho ___ in centro.", "es": "¿El bolso? Lo he comprado en el centro.", "options": ["comprata", "comprato", "comprati"], "answer": "comprata", "why": "Con lo/la/li/le delante, el participio concuerda: la borsa → l'ho comprata.", "g": "it-g-pronomi-diretti" },
+    { "id": "e2", "type": "choose", "q": "I calzini? ___ ho presi ieri.", "es": "¿Los calcetines? Los compré ayer.", "options": ["Li", "L'", "Ne"], "answer": "Li", "why": "Li no se apostrofa: li ho presi.", "g": "it-g-pronomi-diretti" },
+    { "id": "e3", "type": "choose", "q": "Le scarpe? Le ho ___ ai saldi.", "es": "¿Los zapatos? Los compré en las rebajas.", "options": ["comprate", "comprato", "comprati"], "answer": "comprate", "why": "Le scarpe es femenino plural: le ho comprate.", "g": "it-g-pronomi-diretti" },
+    { "id": "e4", "type": "choose", "q": "Mi può fare un ___ regalo?", "es": "¿Me lo envuelve para regalo?", "options": ["pacchetto", "scontrino", "sconto"], "answer": "pacchetto", "why": "Envolver para regalo = fare un pacchetto regalo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e5", "type": "fill", "q": "Il maglione per Hugo? L'ho ___ ieri.", "es": "¿El jersey para Hugo? Lo cogí ayer.", "answer": ["preso"], "bank": ["preso", "presa", "prendato"], "why": "Prendere → preso, masculino como il maglione.", "g": "it-g-pronomi-diretti" },
+    { "id": "e6", "type": "fill", "q": "La gonna? ___ ho provata, ma è stretta.", "es": "¿La falda? Me la he probado, pero es estrecha.", "answer": ["L'"], "bank": ["L'", "Li", "Ne"], "why": "La + ho → l'ho, con apóstrofo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e7", "type": "fill", "q": "Le sciarpe? Le ho ___ alle mie amiche.", "es": "¿Las bufandas? Se las he regalado a mis amigas.", "answer": ["regalate"], "hint": "regalare", "why": "Le sciarpe, femenino plural: regalate.", "g": "it-g-pronomi-diretti" },
+    { "id": "e8", "type": "error", "q": "La borsa? L'ho comprato in vetrina.", "wrong": "comprato", "fix": "comprata", "why": "L' es la (la borsa): el participio va en femenino.", "g": "it-g-pronomi-diretti" },
+    { "id": "e9", "type": "error", "q": "I jeans? Li ho comprato ai saldi.", "wrong": "comprato", "fix": "comprati", "why": "Li → participio en -i: li ho comprati.", "g": "it-g-pronomi-diretti" },
+    { "id": "e10", "type": "order", "es": "¿El bolso? Lo he visto en el escaparate.", "answer": "La borsa L'ho vista in vetrina", "alt": ["La borsa l'ho vista in vetrina"], "extra": ["visto"], "why": "La borsa → l'ho vista, en femenino.", "g": "it-g-pronomi-diretti" },
+    { "id": "e11", "type": "transform", "instr": "Pásala a passato prossimo", "q": "La giacca? La prendo.", "answer": ["La giacca? L'ho presa."], "why": "La prendo → l'ho presa: apóstrofo y participio en femenino.", "g": "it-g-pronomi-diretti" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "¿Las camisetas? Las he comprado en las rebajas.", "answer": ["Le magliette? Le ho comprate ai saldi.", "Le magliette? Le ho comprate in saldo."], "why": "Le magliette → le ho comprate.", "g": "it-g-pronomi-diretti" },
+    { "id": "e13", "type": "reading", "kind": "message", "title": "WhatsApp de Yolanda a sus amigas", "text": "Ciao ragazze! Oggi a Milano ho fatto shopping. Ho visto una borsa bellissima in vetrina e l'ho presa: c'era il trenta per cento di sconto! Ho comprato anche tre sciarpe di seta. Le ho prese per voi! 😘", "questions": [
+      { "q": "¿Por qué compró el bolso?", "options": ["Tenía un descuento", "Era un regalo de Hugo", "Lo necesitaba para el viaje"], "answer": "Tenía un descuento" },
+      { "q": "¿Para quién son las bufandas?", "options": ["Para sus amigas", "Para su marido", "Para ella"], "answer": "Para sus amigas" },
+      { "q": "¿De qué son las bufandas?", "options": ["De seda", "De lana", "De algodón"], "answer": "De seda" }
+    ] },
+    { "id": "e14", "type": "situation", "context": "Pagas un jersey para tu hijo y quieres que te lo envuelvan.", "emoji": "🎀", "options": ["Mi può fare un pacchetto regalo?", "Mi può dare uno sconto?", "Dov'è il camerino?"], "answer": "Mi può fare un pacchetto regalo?", "why": "Pacchetto regalo = envuelto para regalo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e15", "type": "situation", "context": "Has comprado unos zapatos y quieres asegurarte de poder cambiarlos.", "emoji": "🔄", "options": ["Posso cambiarle se non vanno bene?", "Posso cambiarli se non vanno bene?", "Posso cambiarla se non va bene?"], "answer": "Posso cambiarle se non vanno bene?", "why": "Le scarpe es femenino plural: cambiarle.", "g": "it-g-pronomi-diretti" },
+    { "id": "e16", "type": "match", "pairs": [["la borsa", "el bolso"], ["i saldi", "las rebajas"], ["lo sconto", "el descuento"], ["lo scontrino", "el tique"], ["la vetrina", "el escaparate"]], "why": "Palabras para comprar regalos." }
+  ],
+  "dialog": {
+    "title": "En la caja",
+    "setting": "Yolanda paga sus regalos en una tienda de la Galleria de Milán",
+    "emoji": "🧾",
+    "lines": [
+      { "who": "Commessa", "t": "Ha trovato tutto, signora?", "es": "¿Lo ha encontrado todo, señora?" },
+      { "who": "Yolanda", "t": "Sì, prendo questa borsa e due cinture.", "es": "Sí, me llevo este bolso y dos cinturones." },
+      { "who": "Commessa", "t": "La borsa è in saldo, c'è uno sconto.", "es": "El bolso está rebajado, tiene descuento." },
+      { "who": "Yolanda", "t": "Che bello! Mi può fare un pacchetto regalo?", "es": "¡Qué bien! ¿Me lo puede envolver para regalo?" },
+      { "who": "Commessa", "t": "Certo. Per chi è?", "es": "Claro. ¿Para quién es?" },
+      { "who": "Yolanda", "t": "Le cinture per mio marito. La borsa è per me!", "es": "Los cinturones, para mi marido. ¡El bolso es para mí!" },
+      { "who": "Commessa", "t": "Ecco lo scontrino. Lo tenga per il cambio.", "es": "Aquí tiene el tique. Guárdelo para el cambio." },
+      { "who": "Yolanda", "t": "Grazie mille. Arrivederci!", "es": "Muchísimas gracias. ¡Adiós!" }
+    ],
+    "questions": [
+      { "q": "¿Qué está rebajado?", "options": ["El bolso", "Los cinturones", "Todo"], "answer": "El bolso" },
+      { "q": "¿Para quién es el bolso?", "options": ["Para Yolanda", "Para su marido", "Para una amiga"], "answer": "Para Yolanda" },
+      { "q": "¿Para qué debe guardar el tique?", "options": ["Para el cambio", "Para un sorteo", "Para el hotel"], "answer": "Para el cambio" }
+    ]
+  },
+  "realLife": { "t": "L'ho presa ai saldi!", "es": "¡Lo pillé en las rebajas!", "context": "Para presumir con tus amigas de una buena compra" },
+  "falseFriend": { "word": "la borsa", "means": "el bolso (y también la Bolsa de valores)", "looksLike": "bolsa de plástico (en italiano: il sacchetto o la busta)", "emoji": "👜", "tip": "En la caja te preguntan: Vuole un sacchetto? Ese es la bolsa. La borsa es tu bolso." },
+  "summary": [
+    "Pasado con pronombre: l'ho presa, l'ho comprato, li ho presi, le ho comprate.",
+    "Lo y la se apostrofan delante de ho: l'ho. Li y le, nunca.",
+    "Frases de caja: Mi può fare un pacchetto regalo? Lo scontrino, per favore.",
+    "I saldi = las rebajas; lo sconto = el descuento.",
+    "La borsa = el bolso; la bolsa = il sacchetto."
+  ],
+  "reviewed": false
+}

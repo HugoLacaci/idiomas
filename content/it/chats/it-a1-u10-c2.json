@@ -1,0 +1,67 @@
+{
+  "id": "it-a1-u10-c2",
+  "unit": "it-a1-u10",
+  "title": "Algo no funciona",
+  "setting": "Giulia, de recepcionista, contesta tu llamada: hay un problema en la habitación",
+  "emoji": "🔧",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Reception, buonasera. Mi dica!", "es": "Recepción, buenas noches. ¡Dígame!" },
+      "options": [
+        { "t": "Buonasera, l'aria condizionata non funziona.", "es": "Buenas noches, el aire acondicionado no funciona.", "next": "n2", "ok": true },
+        { "t": "Buonasera, l'aria condizionata non lavora.", "es": "Buenas noches, el aire acondicionado no trabaja.", "next": "n2", "ok": false, "feedback": "Para un aparato se dice non funziona; lavorare es trabajar una persona." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Mi dispiace! Qual è il numero della camera?", "es": "¡Lo siento! ¿Cuál es el número de la habitación?" },
+      "options": [
+        { "t": "È la camera ventuno.", "es": "Es la habitación veintiuno.", "next": "n3", "ok": true },
+        { "t": "È la macchina ventuno.", "es": "Es el coche veintiuno.", "next": "n3", "ok": false, "feedback": "La habitación es la camera. La macchina es el coche." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Va bene. Sa se il telecomando ha le pile?", "es": "Muy bien. ¿Sabe si el mando tiene pilas?" },
+      "options": [
+        { "t": "Non lo so, mi dispiace.", "es": "No lo sé, lo siento.", "next": "n4", "ok": true },
+        { "t": "Non lo conosco, mi dispiace.", "es": "No lo conozco, lo siento.", "next": "n4", "ok": false, "feedback": "Es un dato, así que se usa sapere: non lo so." },
+        { "t": "No lo sé, mi dispiace.", "es": "No lo sé, lo siento.", "next": "n4", "ok": false, "feedback": "Casi: en italiano es non lo so." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Nessun problema. Mando subito un tecnico.", "es": "No pasa nada. Mando ahora mismo a un técnico." },
+      "options": [
+        { "t": "Grazie. Posso avere anche un asciugamano?", "es": "Gracias. ¿Puedo tener también una toalla?", "next": "n5", "ok": true },
+        { "t": "Grazie. Posso di avere un asciugamano?", "es": "Gracias. ¿Puedo tener una toalla?", "next": "n5", "ok": false, "feedback": "Detrás de posso va el infinitivo directo: posso avere." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Certo. E la camera è tranquilla?", "es": "Claro. ¿Y la habitación es tranquila?" },
+      "options": [
+        { "t": "No, è un po' rumorosa: c'è la strada.", "es": "No, es un poco ruidosa: está la calle.", "next": "n6", "ok": true },
+        { "t": "No, è un po' rumoroso.", "es": "No, es un poco ruidosa.", "next": "n6", "ok": false, "feedback": "Camera es femenino: rumorosa." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Domani può cambiare camera, se vuole. C'è una camera libera sul giardino.", "es": "Mañana puede cambiar de habitación, si quiere. Hay una libre que da al jardín." },
+      "options": [
+        { "t": "Sì, grazie! Vorrei cambiare camera.", "es": "¡Sí, gracias! Quisiera cambiar de habitación.", "next": "n7", "ok": true },
+        { "t": "Sì, grazie! Devo cambiare la camera io.", "es": "¡Sí, gracias! Tengo que cambiar yo la habitación.", "next": "n7", "ok": false, "feedback": "Para aceptar con educación: vorrei cambiare camera." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Perfetto, allora domani mattina. Buonanotte, signora!", "es": "Perfecto, entonces mañana por la mañana. ¡Buenas noches, señora!" },
+      "options": [
+        { "t": "Grazie, buonanotte!", "es": "¡Gracias, buenas noches!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

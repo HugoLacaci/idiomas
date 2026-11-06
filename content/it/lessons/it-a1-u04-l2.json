@@ -1,0 +1,446 @@
+{
+  "id": "it-a1-u04-l2",
+  "unit": "it-a1-u04",
+  "title": "Il, lo, la… y toda la familia",
+  "goal": "a usar el, la, los, las en italiano con hermanos, tíos, primos y suegros",
+  "emoji": "👪",
+  "photoQuery": "family photo album vintage",
+  "vocab": [
+    {
+      "id": "il-fratello",
+      "t": "il fratello",
+      "es": "el hermano",
+      "emoji": "👬",
+      "pos": "n",
+      "ex": {
+        "t": "Il fratello di Giulia è simpatico.",
+        "es": "El hermano de Giulia es simpático."
+      }
+    },
+    {
+      "id": "la-sorella",
+      "t": "la sorella",
+      "es": "la hermana",
+      "emoji": "👭",
+      "pos": "n",
+      "ex": {
+        "t": "Le sorelle di Carmen abitano a Bilbao.",
+        "es": "Las hermanas de Carmen viven en Bilbao."
+      }
+    },
+    {
+      "id": "lo-zio",
+      "t": "lo zio / la zia",
+      "es": "el tío / la tía",
+      "emoji": "🧔",
+      "pos": "n",
+      "note": "Ante z se usa lo: lo zio, gli zii.",
+      "ex": {
+        "t": "Lo zio Pepe fa la paella.",
+        "es": "El tío Pepe hace la paella."
+      }
+    },
+    {
+      "id": "il-cugino",
+      "t": "il cugino / la cugina",
+      "es": "el primo / la prima",
+      "emoji": "🧑‍🤝‍🧑",
+      "pos": "n",
+      "ex": {
+        "t": "I cugini arrivano domenica.",
+        "es": "Los primos llegan el domingo."
+      }
+    },
+    {
+      "id": "i-parenti",
+      "t": "i parenti",
+      "es": "los parientes, la familia",
+      "emoji": "👪",
+      "pos": "n",
+      "note": "¡Falso amigo! No significa «los padres».",
+      "ex": {
+        "t": "A Natale vediamo tutti i parenti.",
+        "es": "En Navidad vemos a todos los parientes."
+      }
+    },
+    {
+      "id": "la-suocera",
+      "t": "la suocera / il suocero",
+      "es": "la suegra / el suegro",
+      "emoji": "👵",
+      "pos": "n",
+      "ex": {
+        "t": "La suocera di Anna è molto gentile.",
+        "es": "La suegra de Anna es muy amable."
+      }
+    },
+    {
+      "id": "il-genero",
+      "t": "il genero",
+      "es": "el yerno",
+      "emoji": "🤵",
+      "pos": "n",
+      "note": "¡Ojo! No es «el género».",
+      "ex": {
+        "t": "Il genero di Carmen è italiano.",
+        "es": "El yerno de Carmen es italiano."
+      }
+    },
+    {
+      "id": "la-nuora",
+      "t": "la nuora",
+      "es": "la nuera",
+      "emoji": "👩",
+      "pos": "n",
+      "ex": {
+        "t": "La nuora di Rosa è medico.",
+        "es": "La nuera de Rosa es médica."
+      }
+    },
+    {
+      "id": "gli-amici",
+      "t": "gli amici / le amiche",
+      "es": "los amigos / las amigas",
+      "emoji": "🥂",
+      "pos": "n",
+      "ex": {
+        "t": "Gli amici di Hugo sono al bar.",
+        "es": "Los amigos de Hugo están en el bar."
+      }
+    }
+  ],
+  "grammar": "it-g-articoli-det",
+  "pron": {
+    "title": "La z de zio",
+    "tip": "La z italiana no es nuestra z: suena «ds» o «ts», como una pequeña explosión. Zio suena casi «dsío».",
+    "words": [
+      "zio",
+      "zia",
+      "zii",
+      "pizza",
+      "grazie"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ zio di Carmen abita a Siviglia.",
+      "es": "El tío de Carmen vive en Sevilla.",
+      "options": [
+        "Il",
+        "Lo",
+        "L'"
+      ],
+      "answer": "Lo",
+      "why": "Ante z va lo: lo zio.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "___ cugini arrivano alle tre.",
+      "es": "Los primos llegan a las tres.",
+      "options": [
+        "I",
+        "Gli",
+        "Le"
+      ],
+      "answer": "I",
+      "why": "Cugini empieza por consonante normal: i cugini.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "___ amica di Carmen è italiana.",
+      "es": "La amiga de Carmen es italiana.",
+      "options": [
+        "La",
+        "L'",
+        "Lo"
+      ],
+      "answer": "L'",
+      "why": "Femenino ante vocal: l'amica.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "___ zii di Giulia sono simpatici.",
+      "es": "Los tíos de Giulia son simpáticos.",
+      "answer": [
+        "Gli"
+      ],
+      "bank": [
+        "I",
+        "Gli",
+        "Le"
+      ],
+      "why": "Lo zio en plural es gli zii.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "___ sorelle di Carmen cucinano insieme.",
+      "es": "Las hermanas de Carmen cocinan juntas.",
+      "answer": [
+        "Le"
+      ],
+      "bank": [
+        "Le",
+        "La",
+        "Gli"
+      ],
+      "why": "Femenino plural: siempre le.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "___ genero di Pilar è di Roma.",
+      "es": "El yerno de Pilar es de Roma.",
+      "answer": [
+        "Il"
+      ],
+      "why": "Genero empieza por consonante normal: il genero.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e7",
+      "type": "transform",
+      "instr": "Pásalo a plural",
+      "q": "l'amico di Hugo",
+      "answer": [
+        "gli amici di Hugo"
+      ],
+      "why": "L'amico → gli amici.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Pásalo a plural",
+      "q": "la cugina",
+      "answer": [
+        "le cugine"
+      ],
+      "why": "La → le y cugina → cugine.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Il zio Pepe fa la paella.",
+      "wrong": "Il",
+      "fix": "Lo",
+      "why": "Zio empieza por z: lo zio.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "I amici di Yolanda sono al bar.",
+      "wrong": "I",
+      "fix": "Gli",
+      "why": "Amici empieza por vocal: gli amici.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Los tíos y los primos están aquí.",
+      "answer": "Gli zii e i cugini sono qui",
+      "extra": [
+        "lo"
+      ],
+      "why": "Gli zii (ante z) e i cugini (consonante).",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "la hermana y el hermano",
+      "answer": [
+        "la sorella e il fratello"
+      ],
+      "why": "Sorella es femenino (la) y fratello masculino (il).",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "from",
+      "q": "Il genero di Rosa",
+      "answer": [
+        "El yerno de Rosa"
+      ],
+      "why": "Genero es un falso amigo: significa yerno."
+    },
+    {
+      "id": "e14",
+      "type": "match",
+      "pairs": [
+        [
+          "il fratello",
+          "el hermano"
+        ],
+        [
+          "la nuora",
+          "la nuera"
+        ],
+        [
+          "il genero",
+          "el yerno"
+        ],
+        [
+          "lo zio",
+          "el tío"
+        ],
+        [
+          "la suocera",
+          "la suegra"
+        ]
+      ],
+      "why": "Repasa la familia política: genero, nuora, suocera."
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Llegan a casa tus amigos y quieres presentarlos a una vecina italiana.",
+      "emoji": "🚪",
+      "options": [
+        "Ecco gli amici!",
+        "Ecco i amici!",
+        "Ecco le amici!"
+      ],
+      "answer": "Ecco gli amici!",
+      "why": "Amici: masculino plural ante vocal, gli.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e16",
+      "type": "minimal",
+      "pair": [
+        "zio",
+        "Dio"
+      ],
+      "answer": "zio",
+      "es": [
+        "tío",
+        "Dios"
+      ],
+      "why": "La z de zio suena «ds», no una d suave."
+    }
+  ],
+  "dialog": {
+    "title": "La comida del domingo",
+    "setting": "En casa de los suegros de Marco, en Positano",
+    "emoji": "🍝",
+    "lines": [
+      {
+        "who": "Marco",
+        "t": "Yolanda, ti presento i miei parenti.",
+        "es": "Yolanda, te presento a mis parientes."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Piacere! Chi è la signora?",
+        "es": "¡Encantada! ¿Quién es la señora?"
+      },
+      {
+        "who": "Marco",
+        "t": "È la suocera di mio fratello.",
+        "es": "Es la suegra de mi hermano."
+      },
+      {
+        "who": "Yolanda",
+        "t": "E i ragazzi?",
+        "es": "¿Y los chicos?"
+      },
+      {
+        "who": "Marco",
+        "t": "Sono i cugini. E lo zio Franco!",
+        "es": "Son los primos. ¡Y el tío Franco!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Che famiglia grande!",
+        "es": "¡Qué familia tan grande!"
+      },
+      {
+        "who": "Marco",
+        "t": "Sì, e tutti parlano tanto!",
+        "es": "¡Sí, y todos hablan mucho!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿A quién presenta Marco?",
+        "options": [
+          "A sus parientes",
+          "A sus padres",
+          "A sus amigos"
+        ],
+        "answer": "A sus parientes"
+      },
+      {
+        "q": "¿Quién es la señora?",
+        "options": [
+          "La suegra del hermano de Marco",
+          "La madre de Marco",
+          "La tía de Yolanda"
+        ],
+        "answer": "La suegra del hermano de Marco"
+      },
+      {
+        "q": "¿Cómo se llama el tío?",
+        "options": [
+          "Franco",
+          "Marco",
+          "Pepe"
+        ],
+        "answer": "Franco"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Ti presento mia sorella.",
+    "es": "Te presento a mi hermana.",
+    "context": "Para presentar a un familiar a alguien"
+  },
+  "same": {
+    "text": "Igual que en español: los artículos sirven para lo mismo, y el femenino plural siempre es uno solo.",
+    "examples": [
+      {
+        "t": "la zia",
+        "es": "la tía"
+      },
+      {
+        "t": "le sorelle",
+        "es": "las hermanas"
+      },
+      {
+        "t": "la nuora",
+        "es": "la nuera"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "il genero",
+    "means": "el yerno",
+    "looksLike": "el género",
+    "emoji": "🤵",
+    "tip": "Il genero es el marido de tu hija. Y la nuora, la mujer de tu hijo."
+  },
+  "summary": [
+    "Masculino: il / lo / l' → plural i / gli",
+    "Femenino: la / l' → plural le",
+    "Lo y gli ante z, s + consonante, gn, ps: lo zio, gli zii",
+    "Familia política: suocera, genero, nuora"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u04-l2"
+}

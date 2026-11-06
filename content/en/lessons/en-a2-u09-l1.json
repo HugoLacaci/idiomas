@@ -1,0 +1,446 @@
+{
+  "id": "en-a2-u09-l1",
+  "unit": "en-a2-u09",
+  "title": "¿Me oyes? Se corta…",
+  "goal": "a usar las palabras básicas del teléfono: llamar, colgar, dejar un mensaje y hablar de la batería o la cobertura",
+  "emoji": "📱",
+  "photoQuery": "woman talking mobile phone window",
+  "vocab": [
+    {
+      "id": "phone-mobile",
+      "t": "mobile (phone)",
+      "es": "el móvil",
+      "emoji": "📱",
+      "pos": "n",
+      "ex": {
+        "t": "My mobile is in my bag.",
+        "es": "Tengo el móvil en el bolso."
+      },
+      "note": "En EE. UU.: cell phone."
+    },
+    {
+      "id": "phone-call",
+      "t": "to call / to ring",
+      "es": "llamar (por teléfono)",
+      "emoji": "📞",
+      "pos": "v",
+      "ex": {
+        "t": "I'll call my son Hugo tonight.",
+        "es": "Esta noche llamaré a mi hijo Hugo."
+      },
+      "note": "Sin to: call someone (no call to someone). Ring es muy británico."
+    },
+    {
+      "id": "phone-ring-back",
+      "t": "to call back / to ring back",
+      "es": "devolver la llamada",
+      "emoji": "🔁",
+      "pos": "phrase",
+      "ex": {
+        "t": "Can you call me back in ten minutes?",
+        "es": "¿Me llamas en diez minutos?"
+      }
+    },
+    {
+      "id": "phone-hang-up",
+      "t": "to hang up",
+      "es": "colgar",
+      "emoji": "📴",
+      "pos": "phrase",
+      "ex": {
+        "t": "Don't hang up! I'm still here.",
+        "es": "¡No cuelgues! Sigo aquí."
+      }
+    },
+    {
+      "id": "phone-leave-message",
+      "t": "to leave a message",
+      "es": "dejar un mensaje",
+      "emoji": "📝",
+      "pos": "phrase",
+      "ex": {
+        "t": "She isn't answering. I'll leave a message.",
+        "es": "No contesta. Le dejaré un mensaje."
+      }
+    },
+    {
+      "id": "phone-voicemail",
+      "t": "voicemail",
+      "es": "el buzón de voz",
+      "emoji": "📩",
+      "pos": "n",
+      "ex": {
+        "t": "I listened to your voicemail this morning.",
+        "es": "Esta mañana escuché tu mensaje en el buzón de voz."
+      }
+    },
+    {
+      "id": "phone-text",
+      "t": "a text / to text",
+      "es": "un mensaje (SMS) / escribir un mensaje",
+      "emoji": "💬",
+      "pos": "n",
+      "ex": {
+        "t": "Text me when you arrive, please.",
+        "es": "Escríbeme cuando llegues, por favor."
+      }
+    },
+    {
+      "id": "phone-battery",
+      "t": "battery",
+      "es": "la batería",
+      "emoji": "🔋",
+      "pos": "n",
+      "ex": {
+        "t": "My battery is low. I need my charger.",
+        "es": "Me queda poca batería. Necesito el cargador."
+      }
+    },
+    {
+      "id": "phone-signal",
+      "t": "signal",
+      "es": "la cobertura",
+      "emoji": "📶",
+      "pos": "n",
+      "ex": {
+        "t": "There's no signal in the village.",
+        "es": "En el pueblo no hay cobertura."
+      },
+      "note": "¡Ojo! Cobertura no es cover: es signal o reception."
+    },
+    {
+      "id": "phone-wrong-number",
+      "t": "wrong number",
+      "es": "número equivocado",
+      "emoji": "❌",
+      "pos": "phrase",
+      "ex": {
+        "t": "Sorry, I think you've got the wrong number.",
+        "es": "Perdone, creo que se ha equivocado de número."
+      }
+    }
+  ],
+  "grammar": "en-g-can",
+  "pron": {
+    "title": "El sonido «ou» de phone",
+    "tip": "La o de phone, mobile, go o home no es una o española: es un diptongo suave, como «ou». Phone suena «foun», no «fon».",
+    "words": [
+      "phone",
+      "mobile",
+      "hold on",
+      "go",
+      "home",
+      "only"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "My ___ is dead. Can I use your phone?",
+      "options": [
+        "battery",
+        "signal",
+        "voicemail"
+      ],
+      "answer": "battery",
+      "why": "Cuando el móvil se queda sin batería decimos: my battery is dead."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Sorry, I think you've got the ___ number.",
+      "options": [
+        "wrong",
+        "false",
+        "bad"
+      ],
+      "answer": "wrong",
+      "why": "«Número equivocado» es wrong number. False significa «falso»."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "q": "She isn't answering. I'll leave a ___.",
+      "es": "No contesta. Le dejaré un mensaje.",
+      "answer": [
+        "message"
+      ],
+      "bank": [
+        "message",
+        "letter",
+        "note"
+      ],
+      "why": "Dejar un mensaje = leave a message."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Can you ___ me back later? I'm driving.",
+      "es": "¿Me llamas luego? Estoy conduciendo.",
+      "answer": [
+        "call",
+        "ring",
+        "phone"
+      ],
+      "why": "Devolver la llamada: call back o ring back.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e5",
+      "type": "match",
+      "pairs": [
+        [
+          "hang up",
+          "colgar"
+        ],
+        [
+          "call back",
+          "devolver la llamada"
+        ],
+        [
+          "voicemail",
+          "buzón de voz"
+        ],
+        [
+          "signal",
+          "cobertura"
+        ],
+        [
+          "text",
+          "mensaje (SMS)"
+        ]
+      ],
+      "why": "Las palabras básicas del teléfono."
+    },
+    {
+      "id": "e6",
+      "type": "situation",
+      "context": "Estás en el pueblo hablando con Hugo y casi no le oyes: hay poca cobertura.",
+      "emoji": "📶",
+      "options": [
+        "Sorry, the signal is very bad here.",
+        "Sorry, the cover is very bad here.",
+        "Sorry, the battery is very bad here."
+      ],
+      "answer": "Sorry, the signal is very bad here.",
+      "why": "Cobertura del móvil = signal. Cover es «tapa» o «portada»."
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "¿Puedo hablar con el médico, por favor?",
+      "answer": "Can I speak to the doctor please",
+      "extra": [
+        "at"
+      ],
+      "why": "Al teléfono: Can I speak to…? (hablar con = speak to).",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e8",
+      "type": "translate",
+      "dir": "to",
+      "q": "Te llamo luego.",
+      "answer": [
+        "I'll call you later.",
+        "I'll ring you later.",
+        "I'll phone you later.",
+        "I will call you later.",
+        "I'll call you later"
+      ],
+      "why": "Llamar a alguien: call you, sin to."
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Don't hang down! I'm still here.",
+      "wrong": "down",
+      "fix": "up",
+      "why": "Colgar el teléfono es hang up."
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "You can call me back.",
+      "answer": [
+        "Can you call me back?",
+        "Can you call me back"
+      ],
+      "why": "En pregunta, can va delante: Can you…?",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e11",
+      "type": "reading",
+      "kind": "message",
+      "title": "Mensaje de Hugo",
+      "text": "Hi Mum! I can't talk now, I'm in a meeting. My battery is low too. I'll text you tonight. Love, Hugo",
+      "questions": [
+        {
+          "q": "¿Por qué no puede hablar Hugo?",
+          "options": [
+            "Está en una reunión",
+            "Está conduciendo",
+            "Está en el médico"
+          ],
+          "answer": "Está en una reunión"
+        },
+        {
+          "q": "¿Qué le pasa al móvil?",
+          "options": [
+            "Le queda poca batería",
+            "No tiene cobertura",
+            "Está roto"
+          ],
+          "answer": "Le queda poca batería"
+        },
+        {
+          "q": "¿Cuándo escribirá?",
+          "options": [
+            "Esta noche",
+            "Mañana",
+            "En diez minutos"
+          ],
+          "answer": "Esta noche"
+        }
+      ],
+      "why": "Low battery = poca batería; I'll text you = te escribiré."
+    },
+    {
+      "id": "e12",
+      "type": "conjugate",
+      "verb": "to text",
+      "person": "my son",
+      "tense": "presente simple",
+      "q": "My son ___ me every morning.",
+      "answer": [
+        "texts"
+      ],
+      "why": "My son = he: en presente simple el verbo lleva -s: texts.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e13",
+      "type": "choose",
+      "q": "I'm sorry, I can't ___ you. Can you speak up?",
+      "options": [
+        "hear",
+        "listen",
+        "sound"
+      ],
+      "answer": "hear",
+      "why": "Oír = hear. Listen es «escuchar» con atención."
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Contestas al teléfono y preguntan por alguien que no vive en tu casa.",
+      "emoji": "☎️",
+      "options": [
+        "Sorry, wrong number.",
+        "Sorry, bad number.",
+        "Sorry, no number."
+      ],
+      "answer": "Sorry, wrong number.",
+      "why": "Se ha equivocado de número: wrong number."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Hello, can I speak to the doctor, please?",
+      "es": "Hola, ¿puedo hablar con el médico, por favor?",
+      "why": "Frase clave para llamar a la consulta."
+    }
+  ],
+  "dialog": {
+    "title": "Se corta",
+    "setting": "Yolanda llama a su hijo Hugo, que va en el tren",
+    "emoji": "🚆",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Hi Hugo! Can you hear me?",
+        "es": "¡Hola, Hugo! ¿Me oyes?"
+      },
+      {
+        "who": "Hugo",
+        "t": "Hi Mum! Not very well. I'm on the train.",
+        "es": "¡Hola, mamá! No muy bien. Voy en el tren."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sorry, you're breaking up.",
+        "es": "Perdona, se corta."
+      },
+      {
+        "who": "Hugo",
+        "t": "The signal is bad here. And my battery is low.",
+        "es": "Aquí hay poca cobertura. Y me queda poca batería."
+      },
+      {
+        "who": "Yolanda",
+        "t": "OK. Can you call me back later?",
+        "es": "Vale. ¿Me llamas luego?"
+      },
+      {
+        "who": "Hugo",
+        "t": "Yes, I'll call you at eight.",
+        "es": "Sí, te llamo a las ocho."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfect. Text me if there's a problem.",
+        "es": "Perfecto. Escríbeme si hay algún problema."
+      },
+      {
+        "who": "Hugo",
+        "t": "Sure. Bye, Mum!",
+        "es": "Claro. ¡Adiós, mamá!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Dónde está Hugo?",
+        "options": [
+          "En el tren",
+          "En casa",
+          "En el trabajo"
+        ],
+        "answer": "En el tren"
+      },
+      {
+        "q": "¿Qué dos problemas tiene?",
+        "options": [
+          "Poca cobertura y poca batería",
+          "No tiene móvil",
+          "Está enfermo"
+        ],
+        "answer": "Poca cobertura y poca batería"
+      },
+      {
+        "q": "¿A qué hora llamará?",
+        "options": [
+          "A las ocho",
+          "A las diez",
+          "Mañana"
+        ],
+        "answer": "A las ocho"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Sorry, you're breaking up.",
+    "es": "Perdona, se corta (no te oigo bien).",
+    "context": "Cuando la llamada se oye entrecortada"
+  },
+  "summary": [
+    "call / ring = llamar; call back = devolver la llamada; hang up = colgar",
+    "leave a message, voicemail, text = mensaje",
+    "battery = batería; signal = cobertura (¡no cover!)",
+    "Sorry, wrong number. = Se ha equivocado de número."
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u09-l1"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "it-b1-u04-c3",
+  "unit": "it-b1-u04",
+  "title": "¿Merece la pena ir?",
+  "setting": "Giulia te pregunta qué te pareció Parma porque quiere ir un fin de semana",
+  "emoji": "🏰",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Voglio andare a Parma un weekend. Vale la pena?", "es": "Quiero ir a Parma un fin de semana. ¿Merece la pena?" },
+      "options": [
+        { "t": "Sì! Penso che sia una città bellissima.", "es": "¡Sí! Creo que es una ciudad preciosa.", "next": "n2", "ok": true },
+        { "t": "Sì! Penso che sei una città bellissima.", "es": "¡Sí! Creo que eres una ciudad preciosa.", "next": "n2", "ok": false, "feedback": "Hablas de la ciudad, no de Giulia: penso che (la città) sia." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "E dove mangio? Conosci un posto buono?", "es": "¿Y dónde como? ¿Conoces un sitio bueno?" },
+      "options": [
+        { "t": "Sì, una trattoria piccola. Credo che abbia i migliori anolini.", "es": "Sí, una trattoria pequeña. Creo que tiene los mejores anolini.", "next": "n3", "ok": true },
+        { "t": "Sì, una trattoria piccola. Credo che sia i migliori anolini.", "es": "Sí, una trattoria pequeña. Creo que es los mejores anolini.", "next": "n3", "ok": false, "feedback": "La trattoria tiene los anolini: avere → abbia." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "È cara?", "es": "¿Es cara?" },
+      "options": [
+        { "t": "No, mi sembra che il rapporto qualità-prezzo sia ottimo.", "es": "No, me parece que la relación calidad-precio es excelente.", "next": "n4", "ok": true },
+        { "t": "No, mi sembra che il rapporto qualità-prezzo è ottimo.", "es": "No, me parece que la relación calidad-precio es excelente.", "next": "n4", "ok": false, "feedback": "Mi sembra che + sia." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E il servizio com'è?", "es": "¿Y qué tal el servicio?" },
+      "options": [
+        { "t": "Secondo me è un po' lento, ma molto gentile.", "es": "Para mí es un poco lento, pero muy amable.", "next": "n5", "ok": true },
+        { "t": "Secondo me sia un po' lento, ma molto gentile.", "es": "Para mí es un poco lento, pero muy amable.", "next": "n5", "ok": false, "feedback": "Con secondo me no se usa el congiuntivo: secondo me è." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Vado in treno da Roma. Ci vuole tanto?", "es": "Voy en tren desde Roma. ¿Se tarda mucho?" },
+      "options": [
+        { "t": "Non credo che ci voglia molto con l'alta velocità.", "es": "No creo que se tarde mucho con el tren de alta velocidad.", "next": "n6", "ok": true },
+        { "t": "Non credo che ci vuole molto con l'alta velocità.", "es": "No creo que se tarde mucho con el tren de alta velocidad.", "next": "n6", "ok": false, "feedback": "Non credo che + congiuntivo: ci voglia." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Grazie! Ti porto un pezzo di culatello.", "es": "¡Gracias! Te traigo un trozo de culatello." },
+      "options": [
+        { "t": "Che gentile! Penso che tu abbia buon gusto.", "es": "¡Qué amable! Creo que tienes buen gusto.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

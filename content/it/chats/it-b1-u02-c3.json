@@ -1,0 +1,58 @@
+{
+  "id": "it-b1-u02-c3",
+  "unit": "it-b1-u02",
+  "title": "Postales desde las Dolomitas",
+  "setting": "Estás de vacaciones en las Dolomitas y Giulia te escribe por WhatsApp",
+  "emoji": "🏔️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Allora, come sono le Dolomiti?", "es": "Bueno, ¿cómo son las Dolomitas?" },
+      "options": [
+        { "t": "Bellissime! Al tramonto diventano rosa.", "es": "¡Preciosas! Al atardecer se vuelven rosas.", "next": "n2", "ok": true },
+        { "t": "Bellissimi! Al tramonto diventano rosa.", "es": "¡Preciosas! Al atardecer se vuelven rosas.", "next": "n2", "ok": false, "feedback": "Le Dolomiti es femenino plural: bellissime." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che meraviglia! Hai fatto delle foto?", "es": "¡Qué maravilla! ¿Has hecho fotos?" },
+      "options": [
+        { "t": "Sì, tantissime! Te le mando stasera.", "es": "¡Sí, muchísimas! Te las mando esta noche.", "next": "n3", "ok": true },
+        { "t": "Sì, tantissime! Te li mando stasera.", "es": "¡Sí, muchísimas! Te las mando esta noche.", "next": "n3", "ok": false, "feedback": "Le foto es femenino plural: te le mando." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "E hai comprato qualcosa per tuo figlio Hugo?", "es": "¿Y has comprado algo para tu hijo Hugo?" },
+      "options": [
+        { "t": "Sì, un berretto di lana. Gliel'ho preso al mercatino.", "es": "Sí, un gorro de lana. Se lo compré en el mercadillo.", "next": "n4", "ok": true },
+        { "t": "Sì, un berretto di lana. Se l'ho preso al mercatino.", "es": "Sí, un gorro de lana. Se lo compré en el mercadillo.", "next": "n4", "ok": false, "feedback": "«Se lo» en italiano es glielo; en pasado, gliel'ho preso." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Che carino! E per tuo marito?", "es": "¡Qué mono! ¿Y para tu marido?" },
+      "options": [
+        { "t": "Lo speck! Gliene porto un bel pezzo.", "es": "¡Speck! Le llevo un buen trozo.", "next": "n5", "ok": true },
+        { "t": "Lo speck! Glielo porto un bel pezzo.", "es": "¡Speck! Le llevo un buen trozo.", "next": "n5", "ok": false, "feedback": "Con una cantidad (un pezzo) se usa ne: gliene porto un pezzo." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "E la cartolina per me? Me la mandi?", "es": "¿Y la postal para mí? ¿Me la mandas?" },
+      "options": [
+        { "t": "Certo! Te l'ho già spedita ieri.", "es": "¡Claro! Ya te la envié ayer.", "next": "n6", "ok": true },
+        { "t": "Certo! Te l'ho già spedito ieri.", "es": "¡Claro! Ya te la envié ayer.", "next": "n6", "ok": false, "feedback": "La cartolina es femenino: te l'ho spedita." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Sei un amore! Divertiti e torna presto!", "es": "¡Eres un amor! ¡Pásalo bien y vuelve pronto!" },
+      "options": [
+        { "t": "Grazie, Giulia! Ti porto anche un dolce tipico.", "es": "¡Gracias, Giulia! Te llevo también un dulce típico.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

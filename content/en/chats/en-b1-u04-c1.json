@@ -1,0 +1,59 @@
+{
+  "id": "en-b1-u04-c1",
+  "unit": "en-b1-u04",
+  "title": "¿Qué tiempo hace por ahí?",
+  "setting": "Emma te escribe desde Londres un lunes por la mañana para charlar del tiempo.",
+  "emoji": "🌦️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Morning, Yolanda! It's grey and wet in London again. What's the weather like there?", "es": "¡Buenos días, Yolanda! Otra vez gris y lluvioso en Londres. ¿Qué tiempo hace por ahí?" },
+      "options": [
+        { "t": "It's sunny and mild today. About twenty degrees.", "es": "Hoy hace sol y una temperatura suave. Unos veinte grados.", "next": "n2", "ok": true },
+        { "t": "Is sunny and mild today. About twenty degrees.", "es": "Hoy hace sol y una temperatura suave. Unos veinte grados.", "next": "n2", "ok": false, "feedback": "Para el tiempo hace falta sujeto: It's sunny." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Lucky you! Will it stay like that all week?", "es": "¡Qué suerte! ¿Seguirá así toda la semana?" },
+      "options": [
+        { "t": "No, the forecast says there'll be a thunderstorm on Thursday.", "es": "No, el pronóstico dice que habrá tormenta el jueves.", "next": "n3", "ok": true },
+        { "t": "No, the forecast says there'll be a tempest on Thursday.", "es": "No, el pronóstico dice que habrá tormenta el jueves.", "next": "n3", "ok": false, "feedback": "Tempest es una palabra literaria. Una tormenta normal es a storm o a thunderstorm." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Oh no! Weren't you going to the beach with the grandchildren?", "es": "¡Vaya! ¿No ibas a ir a la playa con los nietos?" },
+      "options": [
+        { "t": "Yes. If it rains on Thursday, we'll go on Friday.", "es": "Sí. Si llueve el jueves, iremos el viernes.", "next": "n4", "ok": true },
+        { "t": "Yes. If it will rain on Thursday, we'll go on Friday.", "es": "Sí. Si llueve el jueves, iremos el viernes.", "next": "n4", "ok": false, "feedback": "Después de if va presente, aunque sea futuro: if it rains." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Good plan B! And what will you do if it's still windy?", "es": "¡Buen plan B! ¿Y qué haréis si todavía hace viento?" },
+      "options": [
+        { "t": "If it's windy, we'll fly a kite!", "es": "¡Si hace viento, volaremos una cometa!", "next": "n5", "ok": true },
+        { "t": "If it's windy, we flew a kite!", "es": "¡Si hace viento, volaremos una cometa!", "next": "n5", "ok": false, "feedback": "Hablas del futuro: we'll fly (will + verbo)." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ha ha, perfect! Here it's chilly. I'm wearing two jumpers.", "es": "¡Ja, ja, perfecto! Aquí hace fresquito. Llevo dos jerséis." },
+      "options": [
+        { "t": "Poor you! If you come to Spain, I'll show you the sun.", "es": "¡Pobre! Si vienes a España, te enseñaré el sol.", "next": "n6", "ok": true },
+        { "t": "Poor you! If you'll come to Spain, I'll show you the sun.", "es": "¡Pobre! Si vienes a España, te enseñaré el sol.", "next": "n6", "ok": false, "feedback": "Nada de will después de if: if you come." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Deal! I'll book a flight as soon as I get paid.", "es": "¡Trato hecho! Reservo un vuelo en cuanto cobre." },
+      "options": [
+        { "t": "Brilliant! Send me the dates when you have them.", "es": "¡Genial! Mándame las fechas cuando las tengas.", "next": "end", "ok": true },
+        { "t": "Brilliant! Send me the dates when you will have them.", "es": "¡Genial! Mándame las fechas cuando las tengas.", "next": "end", "ok": false, "feedback": "Después de when, presente: when you have them." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

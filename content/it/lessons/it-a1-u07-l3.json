@@ -1,0 +1,446 @@
+{
+  "id": "it-a1-u07-l3",
+  "unit": "it-a1-u07",
+  "title": "Forchetta, coltello e cucchiaio",
+  "goal": "a pedir cubiertos y cosas de la mesa, y a pedir consejo al camarero",
+  "emoji": "🍴",
+  "photoQuery": "restaurant table cutlery napkin glass",
+  "vocab": [
+    {
+      "id": "rist-la-forchetta",
+      "t": "la forchetta",
+      "es": "el tenedor",
+      "emoji": "🍴",
+      "pos": "n",
+      "note": "¡Ojo! Femenino en italiano.",
+      "ex": {
+        "t": "Scusi, manca una forchetta.",
+        "es": "Perdone, falta un tenedor."
+      }
+    },
+    {
+      "id": "rist-il-coltello",
+      "t": "il coltello",
+      "es": "el cuchillo",
+      "emoji": "🔪",
+      "pos": "n",
+      "ex": {
+        "t": "Il coltello non taglia.",
+        "es": "El cuchillo no corta."
+      }
+    },
+    {
+      "id": "rist-il-cucchiaio",
+      "t": "il cucchiaio",
+      "es": "la cuchara",
+      "emoji": "🥄",
+      "pos": "n",
+      "note": "¡Ojo! Masculino en italiano. La cucharilla: il cucchiaino.",
+      "ex": {
+        "t": "Per la zuppa serve un cucchiaio.",
+        "es": "Para la sopa hace falta una cuchara."
+      }
+    },
+    {
+      "id": "rist-il-tovagliolo",
+      "t": "il tovagliolo",
+      "es": "la servilleta",
+      "emoji": "🧻",
+      "pos": "n",
+      "note": "¡Ojo! Masculino en italiano.",
+      "ex": {
+        "t": "Mi dà un tovagliolo, per favore?",
+        "es": "¿Me da una servilleta, por favor?"
+      }
+    },
+    {
+      "id": "rist-il-bicchiere",
+      "t": "il bicchiere",
+      "es": "el vaso, la copa",
+      "emoji": "🥃",
+      "pos": "n",
+      "ex": {
+        "t": "Un bicchiere di vino rosso.",
+        "es": "Una copa de vino tinto."
+      }
+    },
+    {
+      "id": "rist-il-piatto",
+      "t": "il piatto",
+      "es": "el plato",
+      "emoji": "🍽️",
+      "pos": "n",
+      "ex": {
+        "t": "Il piatto è caldo, attenzione!",
+        "es": "¡Cuidado, el plato quema!"
+      }
+    },
+    {
+      "id": "rist-le-posate",
+      "t": "le posate",
+      "es": "los cubiertos",
+      "emoji": "🍽️",
+      "pos": "n",
+      "ex": {
+        "t": "Le posate sono pulite?",
+        "es": "¿Los cubiertos están limpios?"
+      }
+    },
+    {
+      "id": "rist-che-cosa-ci-consiglia",
+      "t": "Che cosa ci consiglia?",
+      "es": "¿Qué nos recomienda?",
+      "emoji": "💬",
+      "pos": "phrase",
+      "ex": {
+        "t": "È la prima volta qui. Che cosa ci consiglia?",
+        "es": "Es la primera vez aquí. ¿Qué nos recomienda?"
+      }
+    },
+    {
+      "id": "rist-e-tutto-buonissimo",
+      "t": "È tutto buonissimo!",
+      "es": "¡Está todo buenísimo!",
+      "emoji": "😋",
+      "pos": "phrase",
+      "ex": {
+        "t": "Complimenti, è tutto buonissimo!",
+        "es": "¡Enhorabuena, está todo buenísimo!"
+      }
+    }
+  ],
+  "grammar": "it-g-genere-cambi",
+  "pron": {
+    "title": "Las dobles de la mesa",
+    "tip": "Forchetta, coltello, bicchiere, cucchiaio: todas tienen dobles. Sujeta la consonante un momento: «for-két-ta», «col-tél-lo», «cuk-kiá-io».",
+    "words": [
+      "forchetta",
+      "coltello",
+      "bicchiere",
+      "cucchiaio",
+      "tovagliolo"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Scusi, manca ___ forchetta.",
+      "es": "Perdone, falta un tenedor.",
+      "options": [
+        "una",
+        "un",
+        "uno"
+      ],
+      "answer": "una",
+      "why": "Forchetta es femenina en italiano: una forchetta.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Mi porta ___ cucchiaio?",
+      "options": [
+        "un",
+        "una",
+        "un'"
+      ],
+      "answer": "un",
+      "why": "Cucchiaio es masculino en italiano (en español, «la cuchara»).",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Il tovagliolo è ___.",
+      "es": "La servilleta está sucia.",
+      "options": [
+        "sporco",
+        "sporca"
+      ],
+      "answer": "sporco",
+      "why": "Tovagliolo es masculino: sporco.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "La forchetta non è ___.",
+      "es": "El tenedor no está limpio.",
+      "answer": [
+        "pulita"
+      ],
+      "bank": [
+        "pulita",
+        "pulito",
+        "puliti"
+      ],
+      "why": "Forchetta es femenina: pulita.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Per la zuppa serve ___ cucchiaio.",
+      "answer": [
+        "un"
+      ],
+      "bank": [
+        "un",
+        "una",
+        "uno"
+      ],
+      "why": "Il cucchiaio, un cucchiaio: masculino.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e6",
+      "type": "error",
+      "q": "Mi dà una tovagliolo, per favore?",
+      "wrong": "una",
+      "fix": "un",
+      "why": "Tovagliolo es masculino: un tovagliolo.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "Il forchetta è sporco.",
+      "wrong": "Il",
+      "fix": "La",
+      "why": "Forchetta es femenina: la forchetta (y sporca).",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Pásala a plural",
+      "q": "Il cucchiaio è pulito.",
+      "answer": [
+        "I cucchiai sono puliti."
+      ],
+      "why": "Cucchiaio → cucchiai; masculino plural: puliti.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Pásala a plural",
+      "q": "La forchetta è nuova.",
+      "answer": [
+        "Le forchette sono nuove."
+      ],
+      "why": "Femenino plural: le forchette nuove.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "¿Qué nos recomienda?",
+      "answer": "Che cosa ci consiglia",
+      "extra": [
+        "consigli"
+      ],
+      "why": "Frase hecha muy útil en el restaurante."
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "una servilleta y una cuchara",
+      "answer": [
+        "un tovagliolo e un cucchiaio"
+      ],
+      "why": "Los dos son masculinos en italiano.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e12",
+      "type": "match",
+      "pairs": [
+        [
+          "la forchetta",
+          "el tenedor"
+        ],
+        [
+          "il cucchiaio",
+          "la cuchara"
+        ],
+        [
+          "il tovagliolo",
+          "la servilleta"
+        ],
+        [
+          "il coltello",
+          "el cuchillo"
+        ],
+        [
+          "le posate",
+          "los cubiertos"
+        ]
+      ],
+      "why": "Ojo con el género: forchetta, femenino; cucchiaio y tovagliolo, masculinos.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Al final de la cena quieres felicitar al cocinero.",
+      "emoji": "👨‍🍳",
+      "options": [
+        "Complimenti, è tutto buonissimo!",
+        "Complimenti, è tutto pulito!",
+        "Complimenti, che cosa ci consiglia?"
+      ],
+      "answer": "Complimenti, è tutto buonissimo!",
+      "why": "È tutto buonissimo = está todo buenísimo."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "message",
+      "title": "Mensaje a una amiga",
+      "text": "Che ristorante! Il cameriere è simpatico, ma le posate non sono pulite: la forchetta è sporca e manca il cucchiaio per la zuppa! Però il cibo è buonissimo.",
+      "questions": [
+        {
+          "q": "¿Qué falta?",
+          "options": [
+            "La cuchara",
+            "El cuchillo",
+            "El tenedor"
+          ],
+          "answer": "La cuchara"
+        },
+        {
+          "q": "¿Qué tal la comida?",
+          "options": [
+            "Buenísima",
+            "Regular",
+            "Fría"
+          ],
+          "answer": "Buenísima"
+        }
+      ],
+      "why": "Manca il cucchiaio = falta la cuchara."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Scusi, mi porta un cucchiaio?",
+      "es": "Perdone, ¿me trae una cuchara?"
+    }
+  ],
+  "dialog": {
+    "title": "¿Qué nos recomienda?",
+    "setting": "En un restaurante de Lecce, con una amiga",
+    "emoji": "🍴",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Scusi, è la prima volta qui. Che cosa ci consiglia?",
+        "es": "Perdone, es la primera vez aquí. ¿Qué nos recomienda?"
+      },
+      {
+        "who": "Cameriere",
+        "t": "Le orecchiette con le cime di rapa.",
+        "es": "Las orecchiette con grelos."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfetto, due piatti. E un'insalata come contorno.",
+        "es": "Perfecto, dos platos. Y una ensalada de guarnición."
+      },
+      {
+        "who": "Cameriere",
+        "t": "Benissimo. Da bere?",
+        "es": "Muy bien. ¿Para beber?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Acqua naturale. Ah, manca una forchetta.",
+        "es": "Agua sin gas. Ah, falta un tenedor."
+      },
+      {
+        "who": "Cameriere",
+        "t": "Mi scusi! Ecco la forchetta e un tovagliolo.",
+        "es": "¡Disculpe! Aquí tiene el tenedor y una servilleta."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie mille.",
+        "es": "Muchísimas gracias."
+      },
+      {
+        "who": "Cameriere",
+        "t": "Prego, signora. Buon appetito!",
+        "es": "De nada, señora. ¡Que aproveche!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué recomienda el camarero?",
+        "options": [
+          "Orecchiette con grelos",
+          "Pizza",
+          "Pescado"
+        ],
+        "answer": "Orecchiette con grelos"
+      },
+      {
+        "q": "¿Qué piden de guarnición?",
+        "options": [
+          "Una ensalada",
+          "Patatas",
+          "Nada"
+        ],
+        "answer": "Una ensalada"
+      },
+      {
+        "q": "¿Qué falta en la mesa?",
+        "options": [
+          "Un tenedor",
+          "Un vaso",
+          "Un plato"
+        ],
+        "answer": "Un tenedor"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Che cosa ci consiglia?",
+    "es": "¿Qué nos recomienda?",
+    "context": "Cuando no sabes qué pedir y quieres probar lo típico del lugar"
+  },
+  "same": {
+    "text": "Coltello, piatto y bicchiere tienen el mismo género que en español: el cuchillo, el plato, el vaso.",
+    "examples": [
+      {
+        "t": "il coltello",
+        "es": "el cuchillo"
+      },
+      {
+        "t": "il piatto",
+        "es": "el plato"
+      },
+      {
+        "t": "il bicchiere",
+        "es": "el vaso"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "le posate",
+    "means": "los cubiertos",
+    "looksLike": "las posadas (en italiano: le locande)",
+    "emoji": "🍴",
+    "tip": "Si falta una cosa, di «manca una forchetta»; si faltan todas, «mancano le posate»."
+  },
+  "summary": [
+    "La forchetta (el tenedor) es femenina en italiano.",
+    "Il cucchiaio (la cuchara) e il tovagliolo (la servilleta) son masculinos.",
+    "Le posate = los cubiertos.",
+    "Che cosa ci consiglia? · È tutto buonissimo!"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u07-l3"
+}

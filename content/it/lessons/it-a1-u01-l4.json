@@ -1,0 +1,107 @@
+{
+  "id": "it-a1-u01-l4",
+  "unit": "it-a1-u01",
+  "title": "¿Tú o usted? Come stai, come sta",
+  "goal": "a tratar de tú a los amigos y de usted (Lei) a los desconocidos",
+  "emoji": "🎩",
+  "photoQuery": "classic hotel lobby rome",
+  "vocab": [
+    { "id": "come-sta", "t": "Come sta?", "es": "¿Cómo está (usted)?", "emoji": "🎩", "pos": "phrase",
+      "ex": { "t": "Buongiorno, dottore! Come sta?", "es": "¡Buenos días, doctor! ¿Cómo está?" } },
+    { "id": "come-ti-chiami", "t": "Come ti chiami?", "es": "¿Cómo te llamas?", "emoji": "🙂", "pos": "phrase",
+      "ex": { "t": "Ciao! Come ti chiami?", "es": "¡Hola! ¿Cómo te llamas?" } },
+    { "id": "come-si-chiama", "t": "Come si chiama?", "es": "¿Cómo se llama (usted)?", "emoji": "📛", "pos": "phrase",
+      "ex": { "t": "Scusi, come si chiama?", "es": "Perdone, ¿cómo se llama?" } },
+    { "id": "di-dove-e", "t": "Di dov'è?", "es": "¿De dónde es (usted)?", "emoji": "🗺️", "pos": "phrase",
+      "ex": { "t": "Di dov'è, signora?", "es": "¿De dónde es usted, señora?" } },
+    { "id": "e-lei", "t": "E Lei?", "es": "¿Y usted?", "emoji": "👉", "pos": "phrase",
+      "ex": { "t": "Sto bene, grazie. E Lei?", "es": "Estoy bien, gracias. ¿Y usted?" } },
+    { "id": "molto-bene", "t": "molto bene", "es": "muy bien", "emoji": "😄", "pos": "phrase",
+      "ex": { "t": "Sto molto bene, grazie.", "es": "Estoy muy bien, gracias." } },
+    { "id": "non-c-e-male", "t": "Non c'è male.", "es": "No está mal. / Tirando.", "emoji": "👌", "pos": "phrase",
+      "ex": { "t": "Come va? — Non c'è male!", "es": "¿Qué tal? —¡No me puedo quejar!" } },
+    { "id": "arrivederla", "t": "ArrivederLa", "es": "adiós (de usted)", "emoji": "🙇‍♀️", "pos": "phrase",
+      "ex": { "t": "ArrivederLa, signor Rossi!", "es": "¡Adiós, señor Rossi!" },
+      "note": "Una forma muy educada de despedirse de alguien a quien tratas de usted." }
+  ],
+  "grammar": "it-g-tu-lei",
+  "pron": {
+    "title": "Vocales puras y el «ch» de ciao",
+    "tip": "En italiano las vocales nunca se relajan ni se comen, tampoco al final: co-me sta, be-ne. Y en ciao la ci suena «ch»: «chao».",
+    "words": ["ciao", "come", "bene", "molto", "signora"],
+    "pairs": [["sta", "stai"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Buongiorno, signora! Come ___?", "es": "¡Buenos días, señora! ¿Cómo está?", "options": ["sta", "stai", "sto"], "answer": "sta", "g": "it-g-tu-lei",
+      "why": "Con Lei (usted) el verbo va como con «ella»: come sta?" },
+    { "id": "e2", "type": "transform", "instr": "Pásala a usted (Lei).", "q": "Come ti chiami?", "answer": ["Come si chiama?", "Come si chiama Lei?"], "g": "it-g-tu-lei",
+      "why": "Ti chiami es de tú; con usted: si chiama." },
+    { "id": "e3", "type": "situation", "context": "Un señor mayor te ayuda con la maleta en la estación. Quieres saber su nombre.", "emoji": "🧳",
+      "options": ["Come si chiama?", "Come ti chiami?", "Come mi chiamo?"], "answer": "Come si chiama?", "g": "it-g-tu-lei",
+      "why": "A un desconocido mayor se le trata de usted: come si chiama?" },
+    { "id": "e4", "type": "minimal", "pair": ["Come sta?", "Come stai?"], "answer": "Come stai?", "es": ["¿Cómo está (usted)?", "¿Cómo estás?"],
+      "why": "Con i final (stai) es de tú; sin ella (sta), de usted." },
+    { "id": "e5", "type": "fill", "q": "Bene, grazie. E ___?", "es": "Bien, gracias. ¿Y usted?", "answer": ["Lei"], "bank": ["Lei", "tu", "lui"], "g": "it-g-tu-lei",
+      "why": "Para devolver la pregunta de usted: E Lei? Se suele escribir con mayúscula." },
+    { "id": "e6", "type": "choose", "q": "Ciao, Hugo! Come ___?", "es": "¡Hola, Hugo! ¿Cómo estás?", "options": ["stai", "sta", "sto"], "answer": "stai", "g": "it-g-tu-lei",
+      "why": "A tu hijo lo tratas de tú: come stai?" },
+    { "id": "e7", "type": "error", "q": "Signora, come stai?", "wrong": "stai", "fix": "sta", "es": "Señora, ¿cómo está?", "g": "it-g-tu-lei",
+      "why": "Si dices «signora», sigue con usted: come sta?" },
+    { "id": "e8", "type": "situation", "context": "Te encuentras a tu amiga Giulia por la calle.", "emoji": "😊",
+      "options": ["Ciao, Giulia! Come stai?", "Buongiorno, Giulia! Come sta Lei?", "ArrivederLa, Giulia!"], "answer": "Ciao, Giulia! Come stai?", "g": "it-g-tu-lei",
+      "why": "Con una amiga se usa el tú: ciao, come stai?" },
+    { "id": "e9", "type": "transform", "instr": "Pásala a tú.", "q": "Di dov'è?", "answer": ["Di dove sei?", "Di dove sei tu?"], "g": "it-g-tu-lei",
+      "why": "Con usted: di dov'è? Con tú: di dove sei?" },
+    { "id": "e10", "type": "order", "es": "Perdone, ¿de dónde es usted?", "answer": "Scusi di dov'è Lei", "extra": ["sei"], "g": "it-g-tu-lei",
+      "why": "Scusi ya es de usted; el verbo, como con «ella»: è." },
+    { "id": "e11", "type": "match", "pairs": [["Come stai?", "¿Cómo estás?"], ["Come sta?", "¿Cómo está (usted)?"], ["Come ti chiami?", "¿Cómo te llamas?"], ["Come si chiama?", "¿Cómo se llama (usted)?"], ["ArrivederLa", "Adiós (de usted)"]], "g": "it-g-tu-lei",
+      "why": "Fíjate en lo que cambia entre tú y usted." },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "¿Cómo se llama usted?", "answer": ["Come si chiama?", "Lei come si chiama?", "Come si chiama Lei?"], "g": "it-g-tu-lei",
+      "why": "Usted = Lei; se llama = si chiama." },
+    { "id": "e13", "type": "choose", "q": "Scusi, signore, come si ___?", "es": "Perdone, señor, ¿cómo se llama?", "options": ["chiama", "chiami", "chiamo"], "answer": "chiama", "g": "it-g-tu-lei",
+      "why": "Con usted, como con «él / ella»: si chiama." },
+    { "id": "e14", "type": "speak", "t": "Buongiorno, signora. Come sta?", "es": "Buenos días, señora. ¿Cómo está?" }
+  ],
+  "dialog": {
+    "title": "En la recepción",
+    "setting": "En la recepción de un hotel de Roma",
+    "emoji": "🛎️",
+    "lines": [
+      { "who": "Paolo", "t": "Buonasera, signora. Come si chiama?", "es": "Buenas tardes, señora. ¿Cómo se llama?" },
+      { "who": "Yolanda", "t": "Buonasera! Yolanda. Ho una prenotazione.", "es": "¡Buenas tardes! Yolanda. Tengo una reserva." },
+      { "who": "Paolo", "t": "Perfetto. Lei è spagnola?", "es": "Perfecto. ¿Usted es española?" },
+      { "who": "Yolanda", "t": "Sì, sono spagnola. Lei è di Roma?", "es": "Sí, soy española. ¿Usted es de Roma?" },
+      { "who": "Paolo", "t": "Sì, sono romano. Ecco la chiave.", "es": "Sí, soy romano. Aquí tiene la llave." },
+      { "who": "Yolanda", "t": "Grazie mille, Lei è molto gentile!", "es": "¡Muchas gracias, es usted muy amable!" },
+      { "who": "Paolo", "t": "Prego! Buona permanenza, signora.", "es": "¡De nada! Feliz estancia, señora." }
+    ],
+    "questions": [
+      { "q": "¿Cómo se tratan?", "options": ["De usted", "De tú"], "answer": "De usted" },
+      { "q": "¿De dónde es Paolo?", "options": ["De Roma", "De España", "De Nápoles"], "answer": "De Roma" },
+      { "q": "¿Qué le da Paolo a Yolanda?", "options": ["La llave", "Un café", "Un mapa"], "answer": "La llave" }
+    ]
+  },
+  "realLife": { "t": "Lei è molto gentile.", "es": "Es usted muy amable.", "context": "Para agradecer a alguien que te ha ayudado" },
+  "same": {
+    "text": "Igual que en español: hay tú y usted, y usted va con el verbo como «él / ella».",
+    "examples": [
+      { "t": "Come sta?", "es": "¿Cómo está?" },
+      { "t": "Lei è spagnola?", "es": "¿Usted es española?" },
+      { "t": "Come si chiama?", "es": "¿Cómo se llama?" }
+    ]
+  },
+  "falseFriend": {
+    "word": "sposata",
+    "means": "casada",
+    "looksLike": "esposada",
+    "emoji": "💍",
+    "tip": "«Sono sposata» significa «estoy casada». Nada de policías: las esposas de las manos son «le manette»."
+  },
+  "summary": [
+    "Tu con amigos, familia y niños; Lei con desconocidos",
+    "Con Lei el verbo va como con «ella»: come sta?, di dov'è?",
+    "Come ti chiami? (tú) / Come si chiama? (usted)",
+    "Para despedirte de usted: ArrivederLa o arrivederci"
+  ],
+  "reviewed": false
+}

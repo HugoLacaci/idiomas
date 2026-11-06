@@ -1,0 +1,145 @@
+{
+  "id": "it-g-riflessivi",
+  "lang": "it",
+  "level": "A2",
+  "title": "Verbos reflexivos: mi alzo, mi sono alzata",
+  "short": "Mi sveglio, ti alzi, si veste; y en pasado, siempre con essere: mi sono alzata.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "¡Esto ya lo sabes!",
+      "emoji": "⏰",
+      "text": "Ya dices *mi chiamo Yolanda*. Los reflexivos funcionan igual que en español: ==mi alzo== = me levanto.",
+      "examples": [
+        { "t": "==Mi sveglio== alle sette e ==mi alzo== subito.", "es": "Me despierto a las siete y me levanto enseguida.", "hl": "mi sveglio" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Alzarsi en presente",
+      "emoji": "🛏️",
+      "text": "Delante del verbo va el pronombre: ==mi, ti, si, ci, vi, si==.",
+      "table": {
+        "head": ["Persona", "alzarsi", "Español"],
+        "rows": [
+          ["io", "==mi== alzo", "me levanto"],
+          ["tu", "==ti== alzi", "te levantas"],
+          ["lui / lei / Lei", "==si== alza", "se levanta"],
+          ["noi", "==ci== alziamo", "nos levantamos"],
+          ["voi", "==vi== alzate", "os levantáis"],
+          ["loro", "==si== alzano", "se levantan"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Dónde va el pronombre",
+      "emoji": "📍",
+      "text": "Delante del verbo: ==non mi alzo==. En infinitivo va pegado al final: alzar==si==, devo alzar==mi==. También vale ==mi devo alzare==.",
+      "examples": [
+        { "t": "Domani devo alzarmi presto.", "es": "Mañana tengo que levantarme temprano." },
+        { "t": "La domenica non mi sveglio mai prima delle nove.", "es": "Los domingos nunca me despierto antes de las nueve." }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "En pasado: siempre essere",
+      "emoji": "⏪",
+      "text": "Todos los reflexivos van con ==essere==, y el participio concuerda: -o, -a, -i, -e.",
+      "table": {
+        "head": ["Persona", "Passato prossimo", "Español"],
+        "rows": [
+          ["io", "mi ==sono== alzat==a== / alzat==o==", "me he levantado"],
+          ["tu", "ti ==sei== alzat==a== / alzat==o==", "te has levantado"],
+          ["lui / lei", "si ==è== alzat==o== / alzat==a==", "se ha levantado"],
+          ["noi", "ci ==siamo== alzat==i== / alzat==e==", "nos hemos levantado"],
+          ["voi", "vi ==siete== alzat==i== / alzat==e==", "os habéis levantado"],
+          ["loro", "si ==sono== alzat==i== / alzat==e==", "se han levantado"]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "«Me he levantado» ≠ «mi ho alzato»",
+      "emoji": "🇪🇸",
+      "text": "En español: me ==he== levantado. En italiano: mi ==sono== alzata. Y ojo: *riposarsi* (descansar) y *farsi la doccia* (ducharse) cambian un poco.",
+      "examples": [
+        { "t": "Mi sono riposata un po'.", "es": "He descansado un poco." },
+        { "t": "Mi faccio la doccia.", "es": "Me ducho." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Mi ho alzato* → ✅ mi ==sono== alzata. ❌ *Io alzo alle sette* → ✅ io ==mi== alzo. ❌ *Si alziamo* → ✅ ==ci== alziamo."
+    },
+    {
+      "kind": "tip",
+      "title": "Los reflexivos de tu mañana",
+      "emoji": "💡",
+      "text": "svegliarsi, alzarsi, lavarsi, farsi la doccia, vestirsi, pettinarsi, truccarsi, prepararsi… y por la noche, ==addormentarsi==.",
+      "examples": [
+        { "t": "Mi lavo, mi vesto e mi preparo in mezz'ora.", "es": "Me lavo, me visto y me arreglo en media hora." }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español usamos me, te, se, nos, os, se, y en pasado «haber»: me he levantado, nos hemos vestido.",
+    "target": "En italiano: mi, ti, si, ci, vi, si. En pasado siempre essere y el participio concuerda: mi sono alzata, ci siamo vestiti."
+  },
+  "errors": [
+    { "wrong": "Stamattina mi ho alzato alle sette.", "right": "Stamattina mi sono alzata alle sette.", "why": "Los reflexivos van siempre con essere; y tú eres mujer: alzata." },
+    { "wrong": "Io alzo sempre alle sette.", "right": "Io mi alzo sempre alle sette.", "why": "Sin el pronombre mi significa «levanto algo», no «me levanto»." },
+    { "wrong": "Io e mio marito si alziamo presto.", "right": "Io e mio marito ci alziamo presto.", "why": "Con noi el pronombre es ci." },
+    { "wrong": "Mio figlio si è svegliata tardi.", "right": "Mio figlio si è svegliato tardi.", "why": "Mio figlio es masculino: svegliato." },
+    { "wrong": "Devo mi alzare alle sei.", "right": "Devo alzarmi alle sei.", "why": "Con infinitivo el pronombre va pegado al final (alzarmi) o delante de devo (mi devo alzare)." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Io ___ alzo alle sette.", "es": "Me levanto a las siete.", "options": ["mi", "ti", "si"], "answer": "mi", "why": "Io → mi.", "g": "it-g-riflessivi" },
+    { "id": "e2", "type": "choose", "q": "Tu a che ora ___ svegli?", "es": "¿Tú a qué hora te despiertas?", "options": ["ti", "mi", "si"], "answer": "ti", "why": "Tu → ti.", "g": "it-g-riflessivi" },
+    { "id": "e3", "type": "choose", "q": "Mio marito ___ fa la doccia la sera.", "es": "Mi marido se ducha por la noche.", "options": ["si", "ci", "vi"], "answer": "si", "why": "Lui → si.", "g": "it-g-riflessivi" },
+    { "id": "e4", "type": "choose", "q": "Io e mio marito ___ alziamo presto.", "es": "Mi marido y yo nos levantamos temprano.", "options": ["ci", "si", "vi"], "answer": "ci", "why": "Noi → ci.", "g": "it-g-riflessivi" },
+    { "id": "e5", "type": "choose", "q": "Ragazzi, ___ preparate per uscire?", "es": "Chicos, ¿os arregláis para salir?", "options": ["vi", "ci", "si"], "answer": "vi", "why": "Voi → vi.", "g": "it-g-riflessivi" },
+    { "id": "e6", "type": "choose", "q": "Le mie amiche si ___ sempre per la festa.", "es": "Mis amigas siempre se maquillan para la fiesta.", "options": ["truccano", "trucca", "trucchiamo"], "answer": "truccano", "why": "Loro → si truccano.", "g": "it-g-riflessivi" },
+    { "id": "e7", "type": "choose", "q": "Stamattina mi ___ alzata tardi.", "es": "Esta mañana me he levantado tarde.", "options": ["sono", "ho", "è"], "answer": "sono", "why": "Los reflexivos van con essere: mi sono alzata.", "g": "it-g-riflessivi" },
+    { "id": "e8", "type": "choose", "q": "Mio figlio Hugo si è ___ alle dieci.", "es": "Mi hijo Hugo se ha despertado a las diez.", "options": ["svegliato", "svegliata", "svegliati"], "answer": "svegliato", "why": "Hugo: masculino singular, svegliato.", "g": "it-g-riflessivi" },
+    { "id": "e9", "type": "choose", "q": "Domani devo ___ alle sei.", "es": "Mañana tengo que levantarme a las seis.", "options": ["alzarmi", "mi alzare", "alzarsi"], "answer": "alzarmi", "why": "Con infinitivo el pronombre va al final: alzarmi.", "g": "it-g-riflessivi" },
+    { "id": "e10", "type": "fill", "q": "La mattina io ___ lavo con l'acqua fredda.", "es": "Por la mañana me lavo con agua fría.", "answer": ["mi"], "bank": ["mi", "si", "ti"], "why": "Io → mi lavo.", "g": "it-g-riflessivi" },
+    { "id": "e11", "type": "fill", "q": "Le mie amiche ___ vestono sempre eleganti.", "es": "Mis amigas siempre se visten elegantes.", "answer": ["si"], "bank": ["si", "ci", "vi"], "why": "Loro → si vestono.", "g": "it-g-riflessivi" },
+    { "id": "e12", "type": "fill", "q": "Noi ci ___ alle otto la domenica.", "es": "Los domingos nos levantamos a las ocho.", "answer": ["alziamo", "svegliamo"], "bank": ["alziamo", "alzano", "alzate"], "why": "Noi → ci alziamo.", "g": "it-g-riflessivi" },
+    { "id": "e13", "type": "fill", "q": "Ti ___ i capelli ogni mattina?", "es": "¿Te peinas cada mañana?", "answer": ["pettini"], "hint": "pettinarsi", "why": "Tu → ti pettini.", "g": "it-g-riflessivi" },
+    { "id": "e14", "type": "fill", "q": "Mi ___ la doccia prima di colazione.", "es": "Me ducho antes del desayuno.", "answer": ["faccio"], "hint": "farsi la doccia", "why": "Io → mi faccio la doccia.", "g": "it-g-riflessivi" },
+    { "id": "e15", "type": "fill", "q": "La sera mio marito si ___ davanti alla tele.", "es": "Por la noche mi marido se duerme delante de la tele.", "answer": ["addormenta"], "hint": "addormentarsi", "why": "Lui → si addormenta.", "g": "it-g-riflessivi" },
+    { "id": "e16", "type": "fill", "q": "Ieri sera ci siamo ___ tanto alla festa.", "es": "Anoche nos divertimos mucho en la fiesta.", "answer": ["divertiti", "divertite"], "hint": "divertirsi", "why": "Noi → ci siamo divertiti (o divertite, si sois solo mujeres).", "g": "it-g-riflessivi" },
+    { "id": "e17", "type": "fill", "q": "Le ragazze si sono ___ in fretta.", "es": "Las chicas se han vestido deprisa.", "answer": ["vestite", "preparate"], "hint": "vestirsi", "why": "Le ragazze: femenino plural, vestite.", "g": "it-g-riflessivi" },
+    { "id": "e18", "type": "fill", "q": "Stamattina mi sono ___ alle sei e mezza.", "es": "Esta mañana me he despertado a las seis y media.", "answer": ["svegliata", "svegliato", "alzata", "alzato"], "hint": "svegliarsi", "why": "Svegliarsi → svegliato / svegliata.", "g": "it-g-riflessivi" },
+    { "id": "e19", "type": "error", "q": "Stamattina mi ho alzata alle sette.", "wrong": "ho", "fix": "sono", "why": "Los reflexivos van con essere: mi sono alzata.", "g": "it-g-riflessivi" },
+    { "id": "e20", "type": "error", "q": "Io e mio marito si alziamo presto.", "wrong": "si", "fix": "ci", "why": "Noi → ci alziamo.", "g": "it-g-riflessivi" },
+    { "id": "e21", "type": "error", "q": "Mio marito si è svegliata alle sei.", "wrong": "svegliata", "fix": "svegliato", "why": "Mio marito es masculino: svegliato.", "g": "it-g-riflessivi" },
+    { "id": "e22", "type": "error", "q": "Tu mi alzi sempre tardi!", "wrong": "mi", "fix": "ti", "why": "Tu → ti alzi.", "g": "it-g-riflessivi" },
+    { "id": "e23", "type": "error", "q": "Le mie amiche si sono divertiti molto.", "wrong": "divertiti", "fix": "divertite", "why": "Le amiche: femenino plural, divertite.", "g": "it-g-riflessivi" },
+    { "id": "e24", "type": "transform", "instr": "Pásala a passato prossimo (habla Yolanda)", "q": "Mi alzo alle sette.", "answer": ["Mi sono alzata alle sette."], "why": "Mi alzo → mi sono alzata.", "g": "it-g-riflessivi" },
+    { "id": "e25", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Mio marito si fa la barba.", "answer": ["Mio marito si è fatto la barba."], "why": "Si fa → si è fatto (participio irregular).", "g": "it-g-riflessivi" },
+    { "id": "e26", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Le mie amiche si preparano per la cena.", "answer": ["Le mie amiche si sono preparate per la cena."], "why": "Si preparano → si sono preparate.", "g": "it-g-riflessivi" },
+    { "id": "e27", "type": "transform", "instr": "Hazla negativa", "q": "Mi sveglio presto la domenica.", "answer": ["Non mi sveglio presto la domenica.", "La domenica non mi sveglio presto."], "why": "Non va delante del pronombre: non mi sveglio.", "g": "it-g-riflessivi" },
+    { "id": "e28", "type": "transform", "instr": "Cambia el sujeto a «noi»", "q": "Mi vesto ed esco.", "answer": ["Ci vestiamo e usciamo."], "why": "Noi → ci vestiamo.", "g": "it-g-riflessivi" },
+    { "id": "e29", "type": "transform", "instr": "Empieza con «Devo…»", "q": "Mi alzo alle sei.", "answer": ["Devo alzarmi alle sei.", "Mi devo alzare alle sei."], "why": "Devo alzarmi o mi devo alzare: las dos valen.", "g": "it-g-riflessivi" },
+    { "id": "e30", "type": "order", "es": "Me levanto, me ducho y me visto.", "answer": "Mi alzo mi faccio la doccia e mi vesto", "extra": ["si"], "why": "Io → mi delante de cada verbo.", "g": "it-g-riflessivi" },
+    { "id": "e31", "type": "order", "es": "Esta mañana me he despertado tarde.", "answer": "Stamattina mi sono svegliata tardi", "alt": ["Mi sono svegliata tardi stamattina"], "extra": ["ho"], "why": "Mi + sono + svegliata.", "g": "it-g-riflessivi" },
+    { "id": "e32", "type": "order", "es": "¿A qué hora os levantáis?", "answer": "A che ora vi alzate", "extra": ["ci"], "why": "Voi → vi alzate.", "g": "it-g-riflessivi" },
+    { "id": "e33", "type": "translate", "dir": "to", "q": "Me levanto temprano.", "answer": ["Mi alzo presto.", "Io mi alzo presto."], "why": "Temprano = presto.", "g": "it-g-riflessivi" },
+    { "id": "e34", "type": "translate", "dir": "to", "q": "Mi marido se ha dormido en el sofá.", "answer": ["Mio marito si è addormentato sul divano."], "why": "Addormentarsi = dormirse; con essere: si è addormentato.", "g": "it-g-riflessivi" },
+    { "id": "e35", "type": "translate", "dir": "to", "q": "Nos hemos divertido mucho.", "answer": ["Ci siamo divertiti molto.", "Ci siamo divertite molto.", "Ci siamo divertiti tanto.", "Ci siamo divertite tanto."], "why": "Ci siamo + divertiti/divertite.", "g": "it-g-riflessivi" },
+    { "id": "e36", "type": "translate", "dir": "from", "q": "Mi sono riposata un po'.", "answer": ["He descansado un poco.", "Descansé un poco.", "Me he relajado un poco."], "why": "Riposarsi = descansar (en español no es reflexivo).", "g": "it-g-riflessivi" },
+    { "id": "e37", "type": "translate", "dir": "from", "q": "Ti senti bene?", "answer": ["¿Te encuentras bien?", "¿Te sientes bien?", "¿Estás bien?"], "why": "Sentirsi = sentirse, encontrarse.", "g": "it-g-riflessivi" },
+    { "id": "e38", "type": "conjugate", "verb": "svegliarsi", "person": "loro", "tense": "presente", "q": "I bambini ___ alle otto.", "answer": ["si svegliano"], "table": [["io", "mi sveglio"], ["tu", "ti svegli"], ["lui/lei", "si sveglia"], ["noi", "ci svegliamo"], ["voi", "vi svegliate"], ["loro", "si svegliano"]], "why": "Loro → si svegliano.", "g": "it-g-riflessivi" },
+    { "id": "e39", "type": "conjugate", "verb": "vestirsi", "person": "tu", "tense": "presente", "q": "Perché non ___? Siamo in ritardo!", "answer": ["ti vesti"], "why": "Tu → ti vesti.", "g": "it-g-riflessivi" },
+    { "id": "e40", "type": "conjugate", "verb": "truccarsi", "person": "io (Yolanda)", "tense": "passato prossimo", "q": "Per la festa ___ con cura.", "answer": ["mi sono truccata"], "why": "Io (mujer) → mi sono truccata.", "g": "it-g-riflessivi" },
+    { "id": "e41", "type": "situation", "context": "Tu amiga italiana te pregunta a qué hora te levantas. Te levantas a las siete.", "emoji": "⏰", "options": ["Mi alzo alle sette.", "Alzo alle sette.", "Si alzo alle sette."], "answer": "Mi alzo alle sette.", "why": "Alzarsi necesita el pronombre: mi alzo.", "g": "it-g-riflessivi" },
+    { "id": "e42", "type": "situation", "context": "Llegas tarde a una cita y te disculpas: te has despertado tarde.", "emoji": "😅", "options": ["Scusa, mi sono svegliata tardi!", "Scusa, mi ho svegliata tardi!", "Scusa, ho svegliato tardi!"], "answer": "Scusa, mi sono svegliata tardi!", "why": "Reflexivo en pasado: mi sono svegliata.", "g": "it-g-riflessivi" },
+    { "id": "e43", "type": "match", "pairs": [["io", "mi alzo"], ["tu", "ti alzi"], ["lui", "si alza"], ["noi", "ci alziamo"], ["voi", "vi alzate"]], "why": "Mi, ti, si, ci, vi, si.", "g": "it-g-riflessivi" },
+    { "id": "e44", "type": "match", "pairs": [["svegliarsi", "despertarse"], ["addormentarsi", "dormirse"], ["riposarsi", "descansar"], ["sbrigarsi", "darse prisa"], ["annoiarsi", "aburrirse"]], "why": "Reflexivos muy útiles en el día a día.", "g": "it-g-riflessivi" }
+  ],
+  "reviewed": false
+}

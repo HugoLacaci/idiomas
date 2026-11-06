@@ -1,0 +1,92 @@
+{
+  "id": "it-a2-u03-l1",
+  "unit": "it-a2-u03",
+  "title": "Suona la sveglia",
+  "goal": "a nombrar lo que haces cada mañana al levantarte",
+  "emoji": "⏰",
+  "photoQuery": "alarm clock morning bedroom",
+  "vocab": [
+    { "id": "rifl-sveglia", "t": "la sveglia", "es": "el despertador", "emoji": "⏰", "pos": "n", "ex": { "t": "La sveglia suona alle sette.", "es": "El despertador suena a las siete." } },
+    { "id": "rifl-svegliarsi", "t": "svegliarsi", "es": "despertarse", "emoji": "😴", "pos": "v", "ex": { "t": "Mi sveglio sempre prima della sveglia.", "es": "Siempre me despierto antes que el despertador." } },
+    { "id": "rifl-alzarsi", "t": "alzarsi", "es": "levantarse", "emoji": "🛏️", "pos": "v", "ex": { "t": "Mi alzo subito, non resto a letto.", "es": "Me levanto enseguida, no me quedo en la cama." } },
+    { "id": "rifl-lavarsi", "t": "lavarsi", "es": "lavarse", "emoji": "🧼", "pos": "v", "ex": { "t": "Mi lavo la faccia con l'acqua fredda.", "es": "Me lavo la cara con agua fría." } },
+    { "id": "rifl-denti", "t": "lavarsi i denti", "es": "lavarse los dientes", "emoji": "🪥", "pos": "phrase", "ex": { "t": "Mi lavo i denti dopo colazione.", "es": "Me lavo los dientes después del desayuno." } },
+    { "id": "rifl-doccia", "t": "farsi la doccia", "es": "ducharse", "emoji": "🚿", "pos": "phrase", "ex": { "t": "Mi faccio la doccia la mattina.", "es": "Me ducho por la mañana." } },
+    { "id": "rifl-vestirsi", "t": "vestirsi", "es": "vestirse", "emoji": "👗", "pos": "v", "ex": { "t": "Mi vesto in cinque minuti.", "es": "Me visto en cinco minutos." } },
+    { "id": "rifl-pettinarsi", "t": "pettinarsi", "es": "peinarse", "emoji": "💇‍♀️", "pos": "v", "ex": { "t": "Mi pettino davanti allo specchio.", "es": "Me peino delante del espejo." } },
+    { "id": "rifl-truccarsi", "t": "truccarsi", "es": "maquillarse", "emoji": "💄", "pos": "v", "ex": { "t": "Mi trucco solo quando esco.", "es": "Solo me maquillo cuando salgo." }, "note": "Il trucco = el maquillaje." },
+    { "id": "rifl-camicia", "t": "la camicia", "es": "la camisa", "emoji": "👔", "pos": "n", "ex": { "t": "Mio marito si mette la camicia bianca.", "es": "Mi marido se pone la camisa blanca." } }
+  ],
+  "grammar": "it-g-riflessivi",
+  "pron": {
+    "title": "La gl de sveglia",
+    "tip": "Gl delante de i suena como la «ll» tradicional, con la lengua bien pegada al paladar: sve-llia, mi sve-llo. ¡No digas «g»!",
+    "words": ["sveglia", "mi sveglio", "figlio", "moglie"],
+    "pairs": [["figli", "fili"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "match", "pairs": [["svegliarsi", "despertarse"], ["alzarsi", "levantarse"], ["vestirsi", "vestirse"], ["pettinarsi", "peinarse"], ["truccarsi", "maquillarse"]], "why": "Los reflexivos de la mañana." },
+    { "id": "e2", "type": "choose", "q": "La ___ suona alle sette.", "es": "El despertador suena a las siete.", "options": ["sveglia", "doccia", "camicia"], "answer": "sveglia", "why": "El despertador = la sveglia." },
+    { "id": "e3", "type": "choose", "q": "Io ___ alzo subito.", "es": "Me levanto enseguida.", "options": ["mi", "si", "ci"], "answer": "mi", "why": "Io → mi alzo.", "g": "it-g-riflessivi" },
+    { "id": "e4", "type": "choose", "q": "Mi faccio la ___ con l'acqua calda.", "es": "Me ducho con agua caliente.", "options": ["doccia", "sveglia", "faccia"], "answer": "doccia", "why": "Ducharse = farsi la doccia." },
+    { "id": "e5", "type": "fill", "q": "Mi lavo i ___ dopo colazione.", "es": "Me lavo los dientes después del desayuno.", "answer": ["denti"], "bank": ["denti", "capelli", "piedi"], "why": "Los dientes = i denti." },
+    { "id": "e6", "type": "fill", "q": "Mio marito si ___ la camicia bianca.", "es": "Mi marido se pone la camisa blanca.", "answer": ["mette"], "bank": ["mette", "metto", "mettono"], "why": "Lui → si mette.", "g": "it-g-riflessivi" },
+    { "id": "e7", "type": "situation", "context": "Suena el despertador, pero es domingo. ¿Qué dices?", "emoji": "😴", "options": ["Oggi non mi alzo presto!", "Oggi non alzo presto!", "Oggi non si alzo presto!"], "answer": "Oggi non mi alzo presto!", "why": "Non + mi + alzo.", "g": "it-g-riflessivi" },
+    { "id": "e8", "type": "situation", "context": "Tu amiga te espera en el portal y tú aún te estás maquillando.", "emoji": "💄", "options": ["Un attimo, mi trucco e scendo!", "Un attimo, trucco e scendo!", "Un attimo, ti trucchi e scendo!"], "answer": "Un attimo, mi trucco e scendo!", "why": "Maquillarse uno mismo: mi trucco.", "g": "it-g-riflessivi" },
+    { "id": "e9", "type": "order", "es": "Me despierto a las siete y me levanto.", "answer": "Mi sveglio alle sette e mi alzo", "extra": ["si"], "why": "Mi delante de cada verbo.", "g": "it-g-riflessivi" },
+    { "id": "e10", "type": "translate", "dir": "to", "q": "Me peino delante del espejo.", "answer": ["Mi pettino davanti allo specchio."], "why": "Peinarse = pettinarsi; el espejo = lo specchio.", "g": "it-g-riflessivi" },
+    { "id": "e11", "type": "translate", "dir": "from", "q": "Mi vesto in cinque minuti.", "answer": ["Me visto en cinco minutos."], "why": "Vestirsi = vestirse.", "g": "it-g-riflessivi" },
+    { "id": "e12", "type": "reading", "kind": "message", "title": "La mañana de Lucia", "text": "Ciao Yolanda! Io mi sveglio alle sei e mezza. Mi faccio la doccia, mi vesto e faccio colazione. Alle otto prendo l'autobus. E tu, a che ora ti alzi?", "questions": [
+        { "q": "¿A qué hora se despierta Lucia?", "options": ["A las seis y media", "A las ocho", "A las siete"], "answer": "A las seis y media" },
+        { "q": "¿Qué hace después de ducharse?", "options": ["Se viste", "Se acuesta", "Se maquilla"], "answer": "Se viste" },
+        { "q": "¿Qué hace a las ocho?", "options": ["Coge el autobús", "Desayuna", "Se despierta"], "answer": "Coge el autobús" }
+      ], "why": "Fíjate en mi sveglio, mi faccio, mi vesto." },
+    { "id": "e13", "type": "error", "q": "Io si alzo alle sette ogni mattina.", "wrong": "si", "fix": "mi", "why": "Con io el pronombre es mi: mi alzo.", "g": "it-g-riflessivi" },
+    { "id": "e14", "type": "speak", "t": "Mi sveglio, mi alzo e mi faccio la doccia.", "es": "Me despierto, me levanto y me ducho." },
+    { "id": "e15", "type": "transform", "instr": "Cambia el sujeto a «mio marito»", "q": "Mi lavo i denti.", "answer": ["Mio marito si lava i denti."], "why": "Lui → si lava.", "g": "it-g-riflessivi" },
+    { "id": "e16", "type": "conjugate", "verb": "pettinarsi", "person": "lei", "tense": "presente", "q": "Mia nipote ___ per mezz'ora!", "answer": ["si pettina"], "why": "Lei → si pettina.", "g": "it-g-riflessivi" }
+  ],
+  "dialog": {
+    "title": "¿A qué hora te despiertas?",
+    "setting": "En la pausa del curso de italiano, Yolanda charla con su compañera Lucia",
+    "emoji": "☕",
+    "lines": [
+      { "who": "Lucia", "t": "Yolanda, a che ora ti svegli la mattina?", "es": "Yolanda, ¿a qué hora te despiertas por la mañana?" },
+      { "who": "Yolanda", "t": "Mi sveglio alle sette, ma mi alzo alle sette e un quarto!", "es": "Me despierto a las siete, ¡pero me levanto a las siete y cuarto!" },
+      { "who": "Lucia", "t": "Ahah, anch'io! E poi?", "es": "¡Jaja, yo también! ¿Y luego?" },
+      { "who": "Yolanda", "t": "Mi faccio la doccia e mi vesto. Mio marito si alza dopo.", "es": "Me ducho y me visto. Mi marido se levanta después." },
+      { "who": "Lucia", "t": "Ti trucchi tutti i giorni?", "es": "¿Te maquillas todos los días?" },
+      { "who": "Yolanda", "t": "No, solo quando esco. E tu?", "es": "No, solo cuando salgo. ¿Y tú?" },
+      { "who": "Lucia", "t": "Io mi pettino e basta. Cinque minuti!", "es": "Yo me peino y ya está. ¡Cinco minutos!" },
+      { "who": "Yolanda", "t": "Che fortuna!", "es": "¡Qué suerte!" }
+    ],
+    "questions": [
+      { "q": "¿A qué hora se despierta Yolanda?", "options": ["A las siete", "A las seis", "A las ocho"], "answer": "A las siete" },
+      { "q": "¿Quién se levanta después?", "options": ["Su marido", "Lucia", "Hugo"], "answer": "Su marido" },
+      { "q": "¿Cuándo se maquilla Yolanda?", "options": ["Solo cuando sale", "Todos los días", "Nunca"], "answer": "Solo cuando sale" }
+    ]
+  },
+  "realLife": { "t": "Mi sveglio alle sette e mi alzo subito.", "es": "Me despierto a las siete y me levanto enseguida.", "context": "Para contar tu rutina de la mañana" },
+  "same": {
+    "text": "Los reflexivos se parecen muchísimo a los nuestros: el pronombre va delante.",
+    "examples": [
+      { "t": "Mi alzo.", "es": "Me levanto." },
+      { "t": "Mi lavo.", "es": "Me lavo." },
+      { "t": "Mi vesto.", "es": "Me visto." }
+    ]
+  },
+  "falseFriend": {
+    "word": "la camicia",
+    "means": "la camisa (con botones y cuello)",
+    "looksLike": "la camiseta (en italiano, la maglietta)",
+    "emoji": "👔",
+    "tip": "Si quieres una camiseta de manga corta, pide una maglietta. La camicia es la camisa de vestir."
+  },
+  "summary": [
+    "La sveglia = el despertador.",
+    "Mi sveglio, mi alzo, mi lavo, mi faccio la doccia, mi vesto.",
+    "El pronombre va delante del verbo: mi pettino, si trucca.",
+    "La camicia es la camisa, no la camiseta."
+  ],
+  "reviewed": false
+}

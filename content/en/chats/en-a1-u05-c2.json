@@ -1,0 +1,61 @@
+{
+  "id": "en-a1-u05-c2",
+  "unit": "en-a1-u05",
+  "title": "¡Es mi cumpleaños!",
+  "setting": "Emma te manda un mensaje: el sábado es su cumpleaños y te invita a la fiesta.",
+  "emoji": "🎉",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda! Saturday is my birthday!", "es": "¡Yolanda! ¡El sábado es mi cumpleaños!" },
+      "options": [
+        { "t": "Happy birthday, Emma! How old are you?", "es": "¡Feliz cumpleaños, Emma! ¿Cuántos años cumples?", "next": "n2", "ok": true },
+        { "t": "Happy birthday, Emma! How many years have you?", "es": "¡Feliz cumpleaños, Emma! ¿Cuántos años tienes?", "next": "n2", "ok": false, "feedback": "La edad se pregunta con to be: How old are you?" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "I'm thirty-five on Saturday. Thirty-FIVE, help!", "es": "El sábado cumplo treinta y cinco. ¡Treinta y CINCO, socorro!" },
+      "options": [
+        { "t": "You're very young!", "es": "¡Eres muy joven!", "next": "n3", "ok": true },
+        { "t": "You have very young!", "es": "¡Eres muy joven!", "next": "n3", "ok": false, "feedback": "Ser joven va con to be: You're very young." },
+        { "t": "You're thirty-five years. Very young!", "es": "Tienes treinta y cinco años. ¡Muy joven!", "next": "n3", "ok": false, "feedback": "Si dices years, añade old: thirty-five years old. O di solo el número." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Ha ha, thank you! Come to my party!", "es": "¡Ja, ja, gracias! ¡Ven a mi fiesta!" },
+      "options": [
+        { "t": "I'd love to! What time is it?", "es": "¡Me encantaría! ¿A qué hora es?", "next": "n4", "ok": true },
+        { "t": "I'd love to! What hour is it?", "es": "¡Me encantaría! ¿A qué hora es?", "next": "n4", "ok": false, "feedback": "Para la hora del reloj: What time…? Hour es un periodo de 60 minutos." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "It's on Saturday at eight, at my flat.", "es": "Es el sábado a las ocho, en mi piso." },
+      "options": [
+        { "t": "On Saturday at eight. Perfect!", "es": "El sábado a las ocho. ¡Perfecto!", "next": "n5", "ok": true },
+        { "t": "In Saturday at eight. Perfect!", "es": "El sábado a las ocho. ¡Perfecto!", "next": "n5", "ok": false, "feedback": "Con días de la semana: on Saturday." },
+        { "t": "On Saturday on eight. Perfect!", "es": "El sábado a las ocho. ¡Perfecto!", "next": "n5", "ok": false, "feedback": "Con las horas: at eight." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Great! And when's your birthday?", "es": "¡Genial! ¿Y cuándo es tu cumpleaños?" },
+      "options": [
+        { "t": "Oh, it's a secret! But it's in spring.", "es": "¡Ay, es un secreto! Pero es en primavera.", "next": "n6", "ok": true },
+        { "t": "Oh, it's a secret! But it's on spring.", "es": "¡Ay, es un secreto! Pero es en primavera.", "next": "n6", "ok": false, "feedback": "Estaciones y meses con in: in spring." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ha ha! OK. See you on Saturday!", "es": "¡Ja, ja! Vale. ¡Nos vemos el sábado!" },
+      "options": [
+        { "t": "See you on Saturday! I'll bring a cake.", "es": "¡Hasta el sábado! Llevo una tarta.", "next": "end", "ok": true },
+        { "t": "See you the Saturday! I'll bring a cake.", "es": "¡Hasta el sábado! Llevo una tarta.", "next": "end", "ok": false, "feedback": "En inglés no se pone the con los días: on Saturday." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

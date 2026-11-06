@@ -1,0 +1,437 @@
+{
+  "id": "en-a1-u11-l1",
+  "unit": "en-a1-u11",
+  "title": "Los sitios de la ciudad",
+  "goal": "a nombrar los lugares de la ciudad y decir dónde están",
+  "emoji": "🏙️",
+  "photoQuery": "london street corner shops",
+  "vocab": [
+    {
+      "id": "city-station",
+      "t": "the station",
+      "es": "la estación",
+      "emoji": "🚉",
+      "pos": "n",
+      "ex": {
+        "t": "The station is near the hotel.",
+        "es": "La estación está cerca del hotel."
+      }
+    },
+    {
+      "id": "city-bus-stop",
+      "t": "the bus stop",
+      "es": "la parada de autobús",
+      "emoji": "🚏",
+      "pos": "n",
+      "ex": {
+        "t": "Is there a bus stop near here?",
+        "es": "¿Hay una parada de autobús por aquí?"
+      }
+    },
+    {
+      "id": "city-museum",
+      "t": "the museum",
+      "es": "el museo",
+      "emoji": "🏛️",
+      "pos": "n",
+      "ex": {
+        "t": "The museum is free.",
+        "es": "El museo es gratis."
+      }
+    },
+    {
+      "id": "city-chemists",
+      "t": "the chemist's",
+      "es": "la farmacia",
+      "emoji": "💊",
+      "pos": "n",
+      "ex": {
+        "t": "The chemist's is on the corner.",
+        "es": "La farmacia está en la esquina."
+      },
+      "note": "En EE. UU.: pharmacy o drugstore."
+    },
+    {
+      "id": "city-bank",
+      "t": "the bank",
+      "es": "el banco",
+      "emoji": "🏦",
+      "pos": "n",
+      "ex": {
+        "t": "There's a bank opposite the church.",
+        "es": "Hay un banco enfrente de la iglesia."
+      }
+    },
+    {
+      "id": "city-square",
+      "t": "the square",
+      "es": "la plaza",
+      "emoji": "⛲",
+      "pos": "n",
+      "ex": {
+        "t": "Let's meet in the square.",
+        "es": "Quedemos en la plaza."
+      }
+    },
+    {
+      "id": "city-street",
+      "t": "the street",
+      "es": "la calle",
+      "emoji": "🛣️",
+      "pos": "n",
+      "ex": {
+        "t": "This street is very busy.",
+        "es": "Esta calle tiene mucho tráfico."
+      }
+    },
+    {
+      "id": "city-corner",
+      "t": "the corner",
+      "es": "la esquina",
+      "emoji": "↩️",
+      "pos": "n",
+      "ex": {
+        "t": "The café is on the corner.",
+        "es": "La cafetería está en la esquina."
+      }
+    },
+    {
+      "id": "city-traffic-lights",
+      "t": "the traffic lights",
+      "es": "el semáforo",
+      "emoji": "🚦",
+      "pos": "n",
+      "ex": {
+        "t": "Cross at the traffic lights.",
+        "es": "Cruza en el semáforo."
+      },
+      "note": "En inglés va en plural: the traffic lights."
+    },
+    {
+      "id": "city-bridge",
+      "t": "the bridge",
+      "es": "el puente",
+      "emoji": "🌉",
+      "pos": "n",
+      "ex": {
+        "t": "The bridge over the river is beautiful.",
+        "es": "El puente sobre el río es precioso."
+      }
+    }
+  ],
+  "grammar": "en-g-there-is-are",
+  "pron": {
+    "title": "¿Dónde va la fuerza?",
+    "tip": "En inglés una sílaba suena más fuerte que las demás. Museum: mju-ZI-əm (no «MU-seo»). Hotel: ho-TEL. Station: STEI-shən, y la -tion suena «shən», nunca «sion».",
+    "words": [
+      "museum",
+      "hotel",
+      "station",
+      "chemist's",
+      "traffic lights"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ a chemist's near here?",
+      "es": "¿Hay una farmacia por aquí?",
+      "options": [
+        "Is there",
+        "Are there",
+        "There is"
+      ],
+      "answer": "Is there",
+      "why": "Pregunta con una cosa: Is there…?",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "There ___ two banks in this street.",
+      "es": "Hay dos bancos en esta calle.",
+      "options": [
+        "are",
+        "is",
+        "have"
+      ],
+      "answer": "are",
+      "why": "Varias cosas: There are.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "The café is ___ the corner.",
+      "es": "La cafetería está en la esquina.",
+      "options": [
+        "on",
+        "in",
+        "at the"
+      ],
+      "answer": "on",
+      "why": "En la esquina (de la calle) = on the corner.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "The bank is ___ the museum.",
+      "es": "El banco está al lado del museo.",
+      "answer": [
+        "next to",
+        "beside"
+      ],
+      "bank": [
+        "next to",
+        "in",
+        "under"
+      ],
+      "why": "Al lado de = next to.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "There's a statue in the ___ .",
+      "es": "Hay una estatua en la plaza.",
+      "answer": [
+        "square"
+      ],
+      "bank": [
+        "square",
+        "bridge",
+        "chemist's"
+      ],
+      "why": "Plaza = square.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Cross the road at the traffic ___ .",
+      "es": "Cruza la calle en el semáforo.",
+      "answer": [
+        "lights"
+      ],
+      "why": "El semáforo = the traffic lights, en plural."
+    },
+    {
+      "id": "e7",
+      "type": "match",
+      "pairs": [
+        [
+          "the station",
+          "la estación"
+        ],
+        [
+          "the chemist's",
+          "la farmacia"
+        ],
+        [
+          "the bridge",
+          "el puente"
+        ],
+        [
+          "the corner",
+          "la esquina"
+        ],
+        [
+          "the square",
+          "la plaza"
+        ]
+      ],
+      "why": "Lugares de la ciudad."
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Hay una parada de autobús enfrente del hotel",
+      "answer": "There's a bus stop opposite the hotel",
+      "extra": [
+        "It's"
+      ],
+      "why": "Hay = There's; enfrente de = opposite.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "¿Hay un banco cerca de la estación?",
+      "answer": "Is there a bank near the station",
+      "extra": [
+        "Are"
+      ],
+      "why": "Una cosa: Is there…? Cerca de = near.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Have a museum in the square.",
+      "wrong": "Have",
+      "fix": "There's",
+      "why": "«Hay» no es have: There's a museum.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "There is three bridges near here.",
+      "wrong": "is",
+      "fix": "are",
+      "why": "Tres puentes = varios: There are.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "La farmacia está en la esquina.",
+      "answer": [
+        "The chemist's is on the corner.",
+        "The pharmacy is on the corner.",
+        "The chemist is on the corner."
+      ],
+      "why": "En la esquina = on the corner.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Te duele la cabeza y buscas una farmacia. Preguntas a un señor.",
+      "emoji": "💊",
+      "options": [
+        "Excuse me, is there a chemist's near here?",
+        "Excuse me, have a chemist's here?",
+        "Excuse me, there is chemist's?"
+      ],
+      "answer": "Excuse me, is there a chemist's near here?",
+      "why": "Para preguntar si hay algo: Is there a…?",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel en la calle",
+      "text": "← Station 5 min\n→ Museum 10 min\n↑ Bridge and river 3 min\nChemist's: next to the bank",
+      "questions": [
+        {
+          "q": "¿Qué está más cerca?",
+          "options": [
+            "El puente",
+            "La estación",
+            "El museo"
+          ],
+          "answer": "El puente"
+        },
+        {
+          "q": "¿Dónde está la farmacia?",
+          "options": [
+            "Al lado del banco",
+            "Enfrente del museo",
+            "En la estación"
+          ],
+          "answer": "Al lado del banco"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Excuse me, where's the museum?",
+      "es": "Perdone, ¿dónde está el museo?"
+    }
+  ],
+  "dialog": {
+    "title": "Un plano en la mano",
+    "setting": "En la puerta del hotel, mirando un plano de Londres",
+    "emoji": "🗺️",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Excuse me, is there a bank near here?",
+        "es": "Perdone, ¿hay un banco por aquí?"
+      },
+      {
+        "who": "Receptionist",
+        "t": "Yes, there is. It's next to the station.",
+        "es": "Sí. Está al lado de la estación."
+      },
+      {
+        "who": "Yolanda",
+        "t": "And is there a chemist's?",
+        "es": "¿Y hay una farmacia?"
+      },
+      {
+        "who": "Receptionist",
+        "t": "Yes, on the corner, opposite the square.",
+        "es": "Sí, en la esquina, enfrente de la plaza."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Great. Is the museum far?",
+        "es": "Genial. ¿Está lejos el museo?"
+      },
+      {
+        "who": "Receptionist",
+        "t": "No, it isn't. It's over the bridge.",
+        "es": "No. Está al otro lado del puente."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Thank you very much!",
+        "es": "¡Muchas gracias!"
+      },
+      {
+        "who": "Receptionist",
+        "t": "You're welcome. Have a nice day!",
+        "es": "De nada. ¡Que pase un buen día!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Dónde está el banco?",
+        "options": [
+          "Al lado de la estación",
+          "En la plaza",
+          "Al otro lado del puente"
+        ],
+        "answer": "Al lado de la estación"
+      },
+      {
+        "q": "¿Dónde está la farmacia?",
+        "options": [
+          "En la esquina",
+          "En el museo",
+          "En el hotel"
+        ],
+        "answer": "En la esquina"
+      },
+      {
+        "q": "¿Está lejos el museo?",
+        "options": [
+          "No",
+          "Sí, muy lejos"
+        ],
+        "answer": "No"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Excuse me, is there a chemist's near here?",
+    "es": "Perdone, ¿hay una farmacia por aquí?",
+    "context": "Para buscar cualquier sitio cuando estás de paseo"
+  },
+  "summary": [
+    "Lugares: station, bus stop, museum, chemist's, bank, square, bridge",
+    "¿Hay…? = Is there a…? / Are there…?",
+    "on the corner, next to, opposite, near",
+    "El semáforo va en plural: the traffic lights",
+    "Museum se dice mju-ZI-əm"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u11-l1"
+}

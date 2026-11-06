@@ -1,0 +1,143 @@
+{
+  "id": "it-g-imperativo-lei",
+  "lang": "it",
+  "level": "A2",
+  "title": "Imperativo de usted (Lei): prenda, dica, scusi",
+  "short": "Para hablar con educación a desconocidos: scusi, senta, mi dica, prenda, si accomodi, non si preoccupi.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Lo oyes en todas partes",
+      "emoji": "🏪",
+      "text": "En la farmacia, en el médico, en las tiendas: ==mi dica==, ==scusi==, ==prenda==. Es el imperativo de usted, con **Lei**.",
+      "examples": [
+        { "t": "Buongiorno, ==mi dica==.", "es": "Buenos días, dígame.", "hl": "mi dica" },
+        { "t": "==Prenda== questo sciroppo.", "es": "Tómese este jarabe.", "hl": "Prenda" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Al revés que con tú",
+      "emoji": "🔄",
+      "text": "Las vocales se cruzan: **-are** → ==-i==; **-ere** / **-ire** → ==-a==.",
+      "table": {
+        "head": ["Infinitivo", "Tú", "Usted (Lei)"],
+        "rows": [
+          ["scusare", "scus==a==", "scus==i=="],
+          ["respirare", "respir==a==", "respir==i=="],
+          ["prendere", "prend==i==", "prend==a=="],
+          ["sentire", "sent==i==", "sent==a=="],
+          ["aprire", "apr==i==", "apr==a=="]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Irregulares: piensa en «io»",
+      "emoji": "🔑",
+      "text": "Coge el presente de ==io==, quita la -o y pon ==-a==: vengo → venga.",
+      "table": {
+        "head": ["Infinitivo", "Io", "Lei"],
+        "rows": [
+          ["dire", "dico", "==dica=="],
+          ["venire", "vengo", "==venga=="],
+          ["fare", "faccio", "==faccia=="],
+          ["andare", "vado", "==vada=="],
+          ["bere", "bevo", "==beva=="],
+          ["stare / avere / essere", "—", "==stia== / ==abbia== / ==sia=="]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Pronombres: delante",
+      "emoji": "⬅️",
+      "text": "Con Lei los pronombres van ==delante del verbo==, nunca pegados: ==mi== dica, ==si== sieda, ==la== prenda.",
+      "examples": [
+        { "t": "==Si accomodi==, signora.", "es": "Pase y siéntese, señora.", "hl": "Si accomodi" },
+        { "t": "La crema? ==La metta== la sera.", "es": "¿La crema? Póngasela por la noche.", "hl": "La metta" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "El negativo: fácil",
+      "emoji": "⛔",
+      "text": "Con Lei solo añades ==non== delante. Nada de infinitivo.",
+      "examples": [
+        { "t": "==Non si preoccupi==.", "es": "No se preocupe.", "hl": "Non si preoccupi" },
+        { "t": "==Non beva== alcolici.", "es": "No beba alcohol.", "hl": "Non beva" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Como nuestro «usted»",
+      "emoji": "🇪🇸",
+      "text": "En español también cruzamos vocales: tome, abra, respire. En italiano igual: ==prenda, apra, respiri==. Pero el pronombre va delante: «siéntese» = ==si sieda==.",
+      "examples": [
+        { "t": "Mi scusi, può ripetere?", "es": "Perdone, ¿puede repetir?" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Scusa, signora* → ✅ ==scusi==. ❌ *Dicami* → ✅ ==mi dica==. ❌ *Non preoccuparsi* → ✅ ==non si preoccupi==. ❌ *Prendi* (a un médico) → ✅ ==prenda==."
+    },
+    {
+      "kind": "tip",
+      "title": "Cinco para viajar",
+      "emoji": "💡",
+      "text": "==Scusi== (perdone), ==senta== (oiga), ==mi dica== (dígame), ==si accomodi== (pase), ==prego, venga== (venga, por favor). ¡Con estas quedas genial!"
+    }
+  ],
+  "compare": {
+    "es": "En español, con usted: tome, abra, respire, dígame, siéntese (pronombre pegado al final). En negativo: no se preocupe.",
+    "target": "En italiano, con Lei: prenda, apra, respiri, mi dica, si sieda (pronombre siempre delante). En negativo solo se añade non: non si preoccupi."
+  },
+  "errors": [
+    { "wrong": "Scusa, signora, dov'è la stazione?", "right": "Scusi, signora, dov'è la stazione?", "why": "A una desconocida se le habla de Lei: scusi." },
+    { "wrong": "Dicami, signore.", "right": "Mi dica, signore.", "why": "Con Lei el pronombre va delante: mi dica." },
+    { "wrong": "Signora, prendi questa pastiglia.", "right": "Signora, prenda questa pastiglia.", "why": "Prendere con Lei acaba en -a: prenda." },
+    { "wrong": "Non preoccuparsi, signora.", "right": "Non si preoccupi, signora.", "why": "El negativo de Lei es non + la forma de Lei, no el infinitivo." },
+    { "wrong": "Respira profondamente, signore.", "right": "Respiri profondamente, signore.", "why": "Respirare (-are) con Lei: respiri." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "___, signora, è libero questo posto?", "es": "Perdone, señora, ¿está libre este sitio?", "options": ["Scusi", "Scusa", "Scusare"], "answer": "Scusi", "why": "Scusare (-are) con Lei → scusi.", "g": "it-g-imperativo-lei" },
+    { "id": "e2", "type": "choose", "q": "___, quanto costa questa crema?", "es": "Oiga, ¿cuánto cuesta esta crema?", "options": ["Senta", "Senti", "Sente"], "answer": "Senta", "why": "Sentire (-ire) con Lei → senta.", "g": "it-g-imperativo-lei" },
+    { "id": "e3", "type": "choose", "q": "Buonasera, mi ___.", "es": "Buenas tardes, dígame.", "options": ["dica", "dice", "dimmi"], "answer": "dica", "why": "Dire: dico → dica.", "g": "it-g-imperativo-lei" },
+    { "id": "e4", "type": "choose", "q": "Si ___, signora, il dottore arriva subito.", "es": "Pase y siéntese, señora, el doctor llega enseguida.", "options": ["accomodi", "accomoda", "accomodare"], "answer": "accomodi", "why": "Accomodarsi (-are) con Lei: si accomodi.", "g": "it-g-imperativo-lei" },
+    { "id": "e5", "type": "choose", "q": "___ questo sciroppo prima di dormire.", "es": "Tómese este jarabe antes de dormir.", "options": ["Prenda", "Prendi", "Prende"], "answer": "Prenda", "why": "Prendere (-ere) con Lei → prenda.", "g": "it-g-imperativo-lei" },
+    { "id": "e6", "type": "choose", "q": "Non ___ caffè per qualche giorno.", "es": "No beba café durante unos días.", "options": ["beva", "bevi", "bere"], "answer": "beva", "why": "Bere: bevo → beva. Negativo: non beva.", "g": "it-g-imperativo-lei" },
+    { "id": "e7", "type": "choose", "q": "La ricetta? ___ al farmacista.", "es": "¿La receta? Désela al farmacéutico.", "options": ["La dia", "Dalla", "La dai"], "answer": "La dia", "why": "Con Lei el pronombre va delante: la dia.", "g": "it-g-imperativo-lei" },
+    { "id": "e8", "type": "fill", "q": "___ la bocca e dica «ah».", "es": "Abra la boca y diga «a».", "answer": ["Apra"], "bank": ["Apra", "Apri", "Aprire"], "why": "Aprire (-ire) con Lei → apra.", "g": "it-g-imperativo-lei" },
+    { "id": "e9", "type": "fill", "q": "___ dritto e poi giri a destra.", "es": "Vaya recto y luego gire a la derecha.", "answer": ["Vada"], "bank": ["Vada", "Vai", "Va"], "why": "Andare: vado → vada.", "g": "it-g-imperativo-lei" },
+    { "id": "e10", "type": "fill", "q": "Prego, ___ pure, la porta è aperta.", "es": "Por favor, pase, la puerta está abierta.", "answer": ["entri"], "bank": ["entri", "entra", "entrare"], "why": "Entrare (-are) con Lei → entri.", "g": "it-g-imperativo-lei" },
+    { "id": "e11", "type": "fill", "q": "___ attenzione: il pavimento è bagnato.", "es": "Tenga cuidado: el suelo está mojado.", "answer": ["Faccia"], "hint": "fare (io faccio)", "why": "Fare: faccio → faccia.", "g": "it-g-imperativo-lei" },
+    { "id": "e12", "type": "fill", "q": "___ tranquilla, signora, va tutto bene.", "es": "Esté tranquila, señora, todo va bien.", "answer": ["Stia"], "hint": "stare", "why": "Stare con Lei: stia.", "g": "it-g-imperativo-lei" },
+    { "id": "e13", "type": "fill", "q": "Non si ___, è solo un raffreddore.", "es": "No se preocupe, es solo un resfriado.", "answer": ["preoccupi"], "hint": "preoccuparsi", "why": "Non si preoccupi: pronombre delante, -are → -i.", "g": "it-g-imperativo-lei" },
+    { "id": "e14", "type": "fill", "q": "___ un attimo, prego. Arrivo subito.", "es": "Espere un momento, por favor. Voy enseguida.", "answer": ["Aspetti"], "hint": "aspettare", "why": "Aspettare (-are) con Lei → aspetti.", "g": "it-g-imperativo-lei" },
+    { "id": "e15", "type": "error", "q": "Signore, respira piano piano.", "wrong": "respira", "fix": "respiri", "why": "Con Lei, los verbos en -are acaban en -i: respiri.", "g": "it-g-imperativo-lei" },
+    { "id": "e16", "type": "error", "q": "Scusa, signora, dov'è l'uscita?", "wrong": "Scusa", "fix": "Scusi", "why": "A una señora desconocida: scusi.", "g": "it-g-imperativo-lei" },
+    { "id": "e17", "type": "error", "q": "Domani vieni alle dieci, signora.", "wrong": "vieni", "fix": "venga", "why": "Venire: vengo → venga.", "g": "it-g-imperativo-lei" },
+    { "id": "e18", "type": "error", "q": "Non si preoccupa, è tutto a posto.", "wrong": "preoccupa", "fix": "preoccupi", "why": "Preoccuparsi con Lei: si preoccupi (-are → -i).", "g": "it-g-imperativo-lei" },
+    { "id": "e19", "type": "transform", "instr": "Pásala de tú a usted (Lei)", "q": "Prendi una pastiglia.", "answer": ["Prenda una pastiglia."], "why": "Prendi → prenda.", "g": "it-g-imperativo-lei" },
+    { "id": "e20", "type": "transform", "instr": "Pásala de tú a usted (Lei)", "q": "Scusa, che ore sono?", "answer": ["Scusi, che ore sono?"], "why": "Scusa → scusi.", "g": "it-g-imperativo-lei" },
+    { "id": "e21", "type": "transform", "instr": "Pásala de tú a usted (Lei)", "q": "Dimmi tutto.", "answer": ["Mi dica tutto."], "why": "Dimmi → mi dica (pronombre delante).", "g": "it-g-imperativo-lei" },
+    { "id": "e22", "type": "transform", "instr": "Pásala de tú a usted (Lei)", "q": "Non uscire stasera.", "answer": ["Non esca stasera."], "why": "Uscire: esco → esca; negativo: non esca.", "g": "it-g-imperativo-lei" },
+    { "id": "e23", "type": "transform", "instr": "Hazla negativa", "q": "Mangi i dolci.", "answer": ["Non mangi i dolci."], "why": "Con Lei basta añadir non.", "g": "it-g-imperativo-lei" },
+    { "id": "e24", "type": "conjugate", "verb": "fare", "person": "Lei", "tense": "imperativo", "q": "___ una passeggiata ogni giorno.", "answer": ["Faccia"], "table": [["dire", "dica"], ["fare", "faccia"], ["venire", "venga"], ["andare", "vada"], ["stare", "stia"]], "why": "Faccio → faccia.", "g": "it-g-imperativo-lei" },
+    { "id": "e25", "type": "conjugate", "verb": "avere", "person": "Lei", "tense": "imperativo", "q": "___ pazienza, il medico è in ritardo.", "answer": ["Abbia"], "why": "Avere con Lei: abbia.", "g": "it-g-imperativo-lei" },
+    { "id": "e26", "type": "conjugate", "verb": "sedersi", "person": "Lei", "tense": "imperativo", "q": "Prego, ___ qui.", "answer": ["si sieda", "si segga"], "why": "Sedersi con Lei: si sieda (o si segga).", "g": "it-g-imperativo-lei" },
+    { "id": "e27", "type": "order", "es": "Perdone, ¿dónde está la farmacia?", "answer": "Scusi dov'è la farmacia", "extra": ["scusa"], "why": "Scusi es la forma de usted.", "g": "it-g-imperativo-lei" },
+    { "id": "e28", "type": "order", "es": "Siéntese y dígame qué le duele.", "answer": "Si sieda e mi dica cosa le fa male", "extra": ["dimmi"], "why": "Si sieda, mi dica: pronombres delante.", "g": "it-g-imperativo-lei" },
+    { "id": "e29", "type": "order", "es": "No se preocupe y descanse.", "answer": "Non si preoccupi e si riposi", "extra": ["riposati"], "why": "Con Lei: si riposi, no riposati.", "g": "it-g-imperativo-lei" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "Perdone, ¿puede repetir?", "answer": ["Scusi, può ripetere?", "Mi scusi, può ripetere?"], "why": "Scusi + può (Lei).", "g": "it-g-imperativo-lei" },
+    { "id": "e31", "type": "translate", "dir": "to", "q": "Tómese la medicina después de comer.", "answer": ["Prenda la medicina dopo pranzo.", "Prenda la medicina dopo i pasti."], "why": "Prendere con Lei → prenda.", "g": "it-g-imperativo-lei" },
+    { "id": "e32", "type": "translate", "dir": "from", "q": "Venga domani mattina, per favore.", "answer": ["Venga mañana por la mañana, por favor.", "Venga usted mañana por la mañana, por favor."], "why": "Venga = venga (usted).", "g": "it-g-imperativo-lei" },
+    { "id": "e33", "type": "situation", "context": "Estás en la cola del autobús y quieres preguntarle algo a una señora mayor.", "emoji": "🚌", "options": ["Scusi, signora, sa a che ora passa?", "Scusa, signora, sai a che ora passa?", "Senti, signora, a che ora passa?"], "answer": "Scusi, signora, sa a che ora passa?", "why": "A una desconocida, de Lei: scusi, sa.", "g": "it-g-imperativo-lei" },
+    { "id": "e34", "type": "situation", "context": "Eres tú quien atiende: un turista entra en tu tienda del pueblo. Le invitas a pasar.", "emoji": "🏪", "options": ["Buongiorno, si accomodi!", "Buongiorno, accomodati!", "Buongiorno, si accomoda!"], "answer": "Buongiorno, si accomodi!", "why": "A un cliente, de Lei: si accomodi.", "g": "it-g-imperativo-lei" },
+    { "id": "e35", "type": "match", "pairs": [["scusi", "perdone"], ["senta", "oiga"], ["mi dica", "dígame"], ["si accomodi", "pase, siéntese"], ["non si preoccupi", "no se preocupe"]], "why": "Fórmulas de cortesía con Lei.", "g": "it-g-imperativo-lei" },
+    { "id": "e36", "type": "match", "pairs": [["prendi", "prenda"], ["apri", "apra"], ["respira", "respiri"], ["vieni", "venga"], ["fai", "faccia"]], "why": "De tú a usted: las vocales se cruzan.", "g": "it-g-imperativo-lei" }
+  ],
+  "reviewed": false
+}

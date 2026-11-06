@@ -1,0 +1,437 @@
+{
+  "id": "en-a2-u08-l1",
+  "unit": "en-a2-u08",
+  "title": "¿Qué te duele?",
+  "goal": "a nombrar partes del cuerpo y decir qué te pasa cuando no te encuentras bien",
+  "emoji": "🤒",
+  "photoQuery": "cup of tea blanket sofa",
+  "vocab": [
+    {
+      "id": "doc-headache",
+      "t": "a headache",
+      "es": "dolor de cabeza",
+      "emoji": "🤕",
+      "pos": "n",
+      "ex": {
+        "t": "I've got a terrible headache.",
+        "es": "Tengo un dolor de cabeza horrible."
+      },
+      "note": "Suena «jédeik»."
+    },
+    {
+      "id": "doc-sore-throat",
+      "t": "a sore throat",
+      "es": "dolor de garganta",
+      "emoji": "🗣️",
+      "pos": "n",
+      "ex": {
+        "t": "She's got a sore throat today.",
+        "es": "Hoy le duele la garganta."
+      }
+    },
+    {
+      "id": "doc-stomach-ache",
+      "t": "a stomach ache",
+      "es": "dolor de tripa, de estómago",
+      "emoji": "🤢",
+      "pos": "n",
+      "ex": {
+        "t": "My grandson has got a stomach ache.",
+        "es": "A mi nieto le duele la tripa."
+      },
+      "note": "Stomach suena «stámak»."
+    },
+    {
+      "id": "doc-backache",
+      "t": "backache",
+      "es": "dolor de espalda",
+      "emoji": "🧍",
+      "pos": "n",
+      "ex": {
+        "t": "Gardening gives me backache.",
+        "es": "La jardinería me da dolor de espalda."
+      }
+    },
+    {
+      "id": "doc-cold",
+      "t": "a cold",
+      "es": "un resfriado, un constipado",
+      "emoji": "🤧",
+      "pos": "n",
+      "ex": {
+        "t": "I've got a cold. I'm sneezing a lot.",
+        "es": "Estoy constipada. Estornudo mucho."
+      },
+      "note": "¡Ojo! «Estoy constipada» = I've got a cold. Constipated significa estreñido."
+    },
+    {
+      "id": "doc-cough",
+      "t": "a cough",
+      "es": "tos",
+      "emoji": "😷",
+      "pos": "n",
+      "ex": {
+        "t": "He's got a bad cough.",
+        "es": "Tiene mucha tos."
+      },
+      "note": "Suena «cof»."
+    },
+    {
+      "id": "doc-temperature",
+      "t": "a temperature",
+      "es": "fiebre",
+      "emoji": "🌡️",
+      "pos": "n",
+      "ex": {
+        "t": "My son has got a temperature.",
+        "es": "Mi hijo tiene fiebre."
+      },
+      "note": "Have a temperature = tener fiebre. También: a fever."
+    },
+    {
+      "id": "doc-feel-ill",
+      "t": "I feel ill.",
+      "es": "Me encuentro mal.",
+      "emoji": "😩",
+      "pos": "phrase",
+      "ex": {
+        "t": "I feel ill. I'm going to bed.",
+        "es": "Me encuentro mal. Me voy a la cama."
+      },
+      "note": "En EE. UU.: I feel sick."
+    },
+    {
+      "id": "doc-my-hurts",
+      "t": "My … hurts.",
+      "es": "Me duele el/la…",
+      "emoji": "🦶",
+      "pos": "phrase",
+      "ex": {
+        "t": "My knee hurts when I walk.",
+        "es": "Me duele la rodilla cuando camino."
+      }
+    },
+    {
+      "id": "doc-chest",
+      "t": "chest",
+      "es": "el pecho",
+      "emoji": "🫁",
+      "pos": "n",
+      "ex": {
+        "t": "I've got a pain in my chest.",
+        "es": "Tengo un dolor en el pecho."
+      }
+    }
+  ],
+  "grammar": "en-g-have-got",
+  "pron": {
+    "title": "ache y cough",
+    "tip": "Ache suena «eik» (headache, «jédeik»). Cough suena «cof», con la gh como una f. ¡No leas las letras como en español!",
+    "words": [
+      "headache",
+      "stomach ache",
+      "cough",
+      "throat",
+      "temperature"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I've got a ___. My head hurts.",
+      "options": [
+        "headache",
+        "backache",
+        "cough"
+      ],
+      "answer": "headache",
+      "why": "Si te duele la cabeza: a headache.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "She ___ got a sore throat.",
+      "options": [
+        "has",
+        "have",
+        "is"
+      ],
+      "answer": "has",
+      "why": "Con she: has got (she's got).",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "I'm sneezing a lot. I think I've got ___.",
+      "options": [
+        "a cold",
+        "constipated",
+        "a backache"
+      ],
+      "answer": "a cold",
+      "why": "Estornudar es de resfriado: a cold. Constipated es estreñido.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "My knee ___ when I walk.",
+      "es": "Me duele la rodilla cuando camino.",
+      "answer": [
+        "hurts"
+      ],
+      "bank": [
+        "hurts",
+        "hurt",
+        "pains"
+      ],
+      "why": "My knee = it: hurts, con -s."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "My grandson has got a high ___. He's very hot.",
+      "es": "Mi nieto tiene mucha fiebre. Está muy caliente.",
+      "answer": [
+        "temperature"
+      ],
+      "bank": [
+        "temperature",
+        "cough",
+        "throat"
+      ],
+      "why": "Tener fiebre = have a temperature."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I ___ ill. I'm going to bed.",
+      "es": "Me encuentro mal. Me voy a la cama.",
+      "answer": [
+        "feel"
+      ],
+      "why": "Encontrarse mal = feel ill."
+    },
+    {
+      "id": "e7",
+      "type": "match",
+      "pairs": [
+        [
+          "a headache",
+          "dolor de cabeza"
+        ],
+        [
+          "a sore throat",
+          "dolor de garganta"
+        ],
+        [
+          "a cough",
+          "tos"
+        ],
+        [
+          "a temperature",
+          "fiebre"
+        ],
+        [
+          "backache",
+          "dolor de espalda"
+        ]
+      ],
+      "why": "Los síntomas más habituales."
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "He have got a bad cough.",
+      "wrong": "have",
+      "fix": "has",
+      "why": "Con he: has got.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "My back hurt a lot today.",
+      "wrong": "hurt",
+      "fix": "hurts",
+      "why": "En presente, my back = it: hurts.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Tengo dolor de tripa",
+      "answer": "I've got a stomach ache",
+      "extra": [
+        "have"
+      ],
+      "why": "I've got + a + síntoma.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Estoy constipada.",
+      "answer": [
+        "I've got a cold.",
+        "I have got a cold.",
+        "I have a cold."
+      ],
+      "why": "Constipada = I've got a cold. ¡Nunca «I'm constipated»!",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "from",
+      "q": "Have you got a temperature?",
+      "answer": [
+        "¿Tienes fiebre?",
+        "¿Tiene fiebre?",
+        "¿Tienes temperatura?"
+      ],
+      "why": "Have a temperature = tener fiebre.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "En un hotel de Bath, la recepcionista ve que estás pálida y te pregunta si estás bien.",
+      "emoji": "🏨",
+      "options": [
+        "Not really. I feel ill.",
+        "Not really. I'm constipated.",
+        "Not really. I have ill."
+      ],
+      "answer": "Not really. I feel ill.",
+      "why": "Me encuentro mal = I feel ill."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de una amiga",
+      "text": "Sorry, I can't come to the class today. I've got a cold and a bad cough. My throat hurts too. See you next week! x",
+      "questions": [
+        {
+          "q": "¿Por qué no va a clase?",
+          "options": [
+            "Está resfriada",
+            "Le duele la espalda",
+            "Está de viaje"
+          ],
+          "answer": "Está resfriada"
+        },
+        {
+          "q": "¿Qué más le duele?",
+          "options": [
+            "La garganta",
+            "La rodilla",
+            "La tripa"
+          ],
+          "answer": "La garganta"
+        }
+      ],
+      "why": "Cold = resfriado; throat = garganta."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "I've got a headache and a sore throat.",
+      "es": "Me duele la cabeza y la garganta."
+    }
+  ],
+  "dialog": {
+    "title": "Un mal día de vacaciones",
+    "setting": "En un hotel de Bath, Yolanda habla con su amiga Lola, que no se encuentra bien",
+    "emoji": "🛏️",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Lola, are you OK? You look tired.",
+        "es": "Lola, ¿estás bien? Pareces cansada."
+      },
+      {
+        "who": "Lola",
+        "t": "I feel ill. I've got a headache.",
+        "es": "Me encuentro mal. Me duele la cabeza."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Oh no! Have you got a temperature?",
+        "es": "¡Ay, no! ¿Tienes fiebre?"
+      },
+      {
+        "who": "Lola",
+        "t": "I don't think so. But my throat hurts.",
+        "es": "Creo que no. Pero me duele la garganta."
+      },
+      {
+        "who": "Yolanda",
+        "t": "I think you've got a cold.",
+        "es": "Creo que estás constipada."
+      },
+      {
+        "who": "Lola",
+        "t": "Yes, I'm sneezing all the time.",
+        "es": "Sí, no paro de estornudar."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Stay in bed. I'll bring you a hot tea.",
+        "es": "Quédate en la cama. Te traigo un té calentito."
+      },
+      {
+        "who": "Lola",
+        "t": "Thank you. You're a great friend.",
+        "es": "Gracias. Eres una amiga estupenda."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué le duele a Lola primero?",
+        "options": [
+          "La cabeza",
+          "La espalda",
+          "La tripa"
+        ],
+        "answer": "La cabeza"
+      },
+      {
+        "q": "¿Tiene fiebre Lola?",
+        "options": [
+          "Cree que no",
+          "Sí, mucha",
+          "No lo dice"
+        ],
+        "answer": "Cree que no"
+      },
+      {
+        "q": "¿Qué le va a llevar Yolanda?",
+        "options": [
+          "Un té caliente",
+          "Una sopa",
+          "Un libro"
+        ],
+        "answer": "Un té caliente"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "I've got a cold.",
+    "es": "Estoy constipada.",
+    "context": "Para decir que estás resfriada (¡nunca «I'm constipated»!)"
+  },
+  "summary": [
+    "Síntomas con have got: I've got a headache, a cold, a cough",
+    "Me duele…: My knee hurts / My back hurts",
+    "Tener fiebre = have a temperature",
+    "¡Ojo! constipated = estreñido; constipada = I've got a cold"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u08-l1"
+}

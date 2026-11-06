@@ -1,0 +1,428 @@
+{
+  "id": "en-a2-u09-l3",
+  "unit": "en-a2-u09",
+  "title": "¿De parte de quién?",
+  "goal": "a contestar y hacer llamadas con las frases típicas: ¿de parte de quién?, no cuelgue, ¿quiere dejar un mensaje?",
+  "emoji": "☎️",
+  "photoQuery": "receptionist answering telephone office",
+  "vocab": [
+    {
+      "id": "phone-speaking",
+      "t": "Speaking.",
+      "es": "Soy yo. / Al habla.",
+      "emoji": "🙋‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "— Can I speak to Yolanda? — Speaking.",
+        "es": "—¿Puedo hablar con Yolanda? —Soy yo."
+      }
+    },
+    {
+      "id": "phone-who-is-calling",
+      "t": "Who's calling, please?",
+      "es": "¿De parte de quién?",
+      "emoji": "❓",
+      "pos": "phrase",
+      "ex": {
+        "t": "Who's calling, please? — It's her friend from the gym.",
+        "es": "¿De parte de quién? —De su amiga del gimnasio."
+      }
+    },
+    {
+      "id": "phone-it-is",
+      "t": "It's … (here).",
+      "es": "Soy… (al teléfono)",
+      "emoji": "👋",
+      "pos": "phrase",
+      "ex": {
+        "t": "Hello, it's Yolanda here.",
+        "es": "Hola, soy Yolanda."
+      },
+      "note": "Al teléfono no se dice «I am Yolanda», sino It's Yolanda."
+    },
+    {
+      "id": "phone-hold-on",
+      "t": "Hold on, please.",
+      "es": "No cuelgue, un momento.",
+      "emoji": "✋",
+      "pos": "phrase",
+      "ex": {
+        "t": "Hold on, please. I'll get her.",
+        "es": "Un momento, por favor. Ahora se pone."
+      }
+    },
+    {
+      "id": "phone-put-through",
+      "t": "I'll put you through.",
+      "es": "Le paso.",
+      "emoji": "🔀",
+      "pos": "phrase",
+      "ex": {
+        "t": "One moment, I'll put you through to the nurse.",
+        "es": "Un momento, le paso con la enfermera."
+      }
+    },
+    {
+      "id": "phone-not-available",
+      "t": "I'm afraid she isn't available.",
+      "es": "Me temo que no puede ponerse.",
+      "emoji": "🚫",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm afraid the doctor isn't available right now.",
+        "es": "Me temo que el médico no puede atenderle ahora."
+      }
+    },
+    {
+      "id": "phone-take-message",
+      "t": "Can I take a message?",
+      "es": "¿Quiere dejar un mensaje?",
+      "emoji": "🗒️",
+      "pos": "phrase",
+      "ex": {
+        "t": "She's out. Can I take a message?",
+        "es": "No está. ¿Quiere dejarle un mensaje?"
+      }
+    },
+    {
+      "id": "phone-speak-up",
+      "t": "Could you speak up?",
+      "es": "¿Podría hablar más alto?",
+      "emoji": "🔊",
+      "pos": "phrase",
+      "ex": {
+        "t": "Sorry, could you speak up? It's very noisy here.",
+        "es": "Perdone, ¿podría hablar más alto? Aquí hay mucho ruido."
+      }
+    }
+  ],
+  "grammar": "en-g-could-requests",
+  "pron": {
+    "title": "Afraid y available",
+    "tip": "En afraid y available el acento va en la segunda sílaba: a-FRAID, a-VAI-la-ble. La primera a es muy débil, casi una «e» corta.",
+    "words": [
+      "afraid",
+      "available",
+      "about",
+      "again",
+      "a message"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "— Can I speak to Yolanda? — ___",
+      "options": [
+        "Speaking.",
+        "I'm speaking.",
+        "Is me."
+      ],
+      "answer": "Speaking.",
+      "why": "Para decir «soy yo» al teléfono: Speaking. (o It's me)."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Hello, ___ Yolanda here.",
+      "options": [
+        "it's",
+        "I'm",
+        "this are"
+      ],
+      "answer": "it's",
+      "why": "Al teléfono te presentas con It's… here."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "I'm ___ she isn't available right now.",
+      "options": [
+        "afraid",
+        "scared",
+        "sorry for"
+      ],
+      "answer": "afraid",
+      "why": "I'm afraid… = me temo que…: una forma amable de dar una mala noticia."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Hold ___, please. I'll get him.",
+      "es": "No cuelgue, por favor. Ahora se pone.",
+      "answer": [
+        "on"
+      ],
+      "bank": [
+        "on",
+        "up",
+        "in"
+      ],
+      "why": "Hold on = espere, no cuelgue."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "She's out. Can I take a ___?",
+      "es": "No está. ¿Quiere dejarle un mensaje?",
+      "answer": [
+        "message"
+      ],
+      "why": "Quien contesta dice take a message; quien llama, leave a message."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Could you ___ me back this afternoon?",
+      "es": "¿Me podría llamar esta tarde?",
+      "answer": [
+        "call",
+        "ring",
+        "phone"
+      ],
+      "bank": [
+        "call",
+        "to call",
+        "calls"
+      ],
+      "why": "Después de could, el verbo va sin to: Could you call…?",
+      "g": "en-g-could-requests"
+    },
+    {
+      "id": "e7",
+      "type": "match",
+      "pairs": [
+        [
+          "Who's calling, please?",
+          "¿De parte de quién?"
+        ],
+        [
+          "Hold on, please.",
+          "No cuelgue."
+        ],
+        [
+          "I'll put you through.",
+          "Le paso."
+        ],
+        [
+          "Speaking.",
+          "Soy yo."
+        ],
+        [
+          "Can I take a message?",
+          "¿Quiere dejar un mensaje?"
+        ]
+      ],
+      "why": "Frases fijas de una llamada."
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "¿Podría hablar con la enfermera, por favor?",
+      "answer": "Could I speak to the nurse please",
+      "extra": [
+        "to",
+        "you"
+      ],
+      "why": "Could I + verbo sin to: Could I speak to…?",
+      "g": "en-g-could-requests"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Could you speaking more slowly, please?",
+      "wrong": "speaking",
+      "fix": "speak",
+      "why": "Después de could va el verbo tal cual: Could you speak…?",
+      "g": "en-g-could-requests"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Hazla más educada con Could",
+      "q": "Speak up!",
+      "answer": [
+        "Could you speak up?",
+        "Could you speak up, please?",
+        "Could you speak up please?",
+        "Could you please speak up?"
+      ],
+      "why": "Could you…? suaviza la orden.",
+      "g": "en-g-could-requests"
+    },
+    {
+      "id": "e11",
+      "type": "situation",
+      "context": "Llamas a la consulta y la recepcionista te dice que espere. ¿Qué te dice?",
+      "emoji": "⏳",
+      "options": [
+        "Hold on, please.",
+        "Hang up, please.",
+        "Hold up, please."
+      ],
+      "answer": "Hold on, please.",
+      "why": "Hold on = espere. Hang up es colgar."
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Contestas el móvil de tu hijo y preguntan por él. Quieres saber quién llama.",
+      "emoji": "❓",
+      "options": [
+        "Who's calling, please?",
+        "Who are you?",
+        "Who is speak?"
+      ],
+      "answer": "Who's calling, please?",
+      "why": "Who are you? suena brusco. Lo educado es Who's calling, please?"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "from",
+      "q": "One moment, I'll put you through.",
+      "answer": [
+        "Un momento, le paso.",
+        "Un momento, te paso.",
+        "Un momento, le pongo.",
+        "Un momento, le paso con él.",
+        "Un momento, le paso con ella."
+      ],
+      "why": "Put you through = pasarte con alguien."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "text",
+      "title": "Una llamada a la consulta",
+      "text": "Receptionist: Good morning, Park Surgery. Caller: Hello, could I speak to the nurse, please? Receptionist: I'm afraid she isn't available. Can I take a message? Caller: Yes. Could she call me back after twelve?",
+      "questions": [
+        {
+          "q": "¿Con quién quiere hablar quien llama?",
+          "options": [
+            "Con la enfermera",
+            "Con el médico",
+            "Con la farmacia"
+          ],
+          "answer": "Con la enfermera"
+        },
+        {
+          "q": "¿Puede ponerse?",
+          "options": [
+            "No, no está disponible",
+            "Sí, enseguida",
+            "Sí, pero más tarde"
+          ],
+          "answer": "No, no está disponible"
+        },
+        {
+          "q": "¿Qué pide quien llama?",
+          "options": [
+            "Que le devuelvan la llamada después de las doce",
+            "Una cita para mañana",
+            "Hablar con el médico"
+          ],
+          "answer": "Que le devuelvan la llamada después de las doce"
+        }
+      ],
+      "why": "Surgery, en Reino Unido, es la consulta del médico."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Hello, it's Yolanda here. Could I speak to the nurse, please?",
+      "es": "Hola, soy Yolanda. ¿Podría hablar con la enfermera, por favor?",
+      "g": "en-g-could-requests",
+      "why": "Presentarte y pedir con educación."
+    }
+  ],
+  "dialog": {
+    "title": "¿Quiere dejar un mensaje?",
+    "setting": "Yolanda llama a un restaurante de Dublín para hablar con la encargada sobre una mesa para el sábado",
+    "emoji": "🍽️",
+    "lines": [
+      {
+        "who": "Waiter",
+        "t": "Hello, The Green Door restaurant.",
+        "es": "Hola, restaurante The Green Door."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Hello, could I speak to the manager, please?",
+        "es": "Hola, ¿podría hablar con la encargada, por favor?"
+      },
+      {
+        "who": "Waiter",
+        "t": "Who's calling, please?",
+        "es": "¿De parte de quién?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "It's Yolanda. I have a table for Saturday.",
+        "es": "Soy Yolanda. Tengo una mesa reservada para el sábado."
+      },
+      {
+        "who": "Waiter",
+        "t": "Hold on, please… I'm afraid she isn't available.",
+        "es": "Un momento, por favor… Me temo que no puede ponerse."
+      },
+      {
+        "who": "Waiter",
+        "t": "Can I take a message?",
+        "es": "¿Quiere dejarle un mensaje?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes. Could she call me back today?",
+        "es": "Sí. ¿Podría devolverme la llamada hoy?"
+      },
+      {
+        "who": "Waiter",
+        "t": "Of course. Could you give me your number?",
+        "es": "Claro. ¿Me podría dar su número?"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Con quién quiere hablar Yolanda?",
+        "options": [
+          "Con la encargada",
+          "Con el cocinero",
+          "Con su hijo"
+        ],
+        "answer": "Con la encargada"
+      },
+      {
+        "q": "¿Para cuándo tiene mesa?",
+        "options": [
+          "Para el sábado",
+          "Para hoy",
+          "Para el domingo"
+        ],
+        "answer": "Para el sábado"
+      },
+      {
+        "q": "¿Qué pide Yolanda al final?",
+        "options": [
+          "Que la llamen hoy",
+          "Cancelar la mesa",
+          "Hablar más alto"
+        ],
+        "answer": "Que la llamen hoy"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Hello, it's Yolanda here.",
+    "es": "Hola, soy Yolanda.",
+    "context": "Para presentarte al llamar por teléfono"
+  },
+  "summary": [
+    "Presentarte: It's Yolanda here. Contestar «soy yo»: Speaking.",
+    "Who's calling, please? = ¿De parte de quién?",
+    "Hold on = no cuelgue; I'll put you through = le paso",
+    "Can I take a message? / Could she call me back?"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u09-l3"
+}

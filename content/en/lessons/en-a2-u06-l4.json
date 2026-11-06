@@ -1,0 +1,447 @@
+{
+  "id": "en-a2-u06-l4",
+  "unit": "en-a2-u06",
+  "title": "Te llamo, te ayudo: will",
+  "goal": "a ofrecer ayuda, prometer y opinar sobre el futuro con will",
+  "emoji": "🤝",
+  "photoQuery": "airport departure board travel",
+  "vocab": [
+    {
+      "id": "plan-ill-call-you",
+      "t": "I'll call you.",
+      "es": "Te llamo. Te llamaré.",
+      "emoji": "📞",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'll call you when I arrive.",
+        "es": "Te llamo cuando llegue."
+      }
+    },
+    {
+      "id": "plan-ill-help-you",
+      "t": "I'll help you.",
+      "es": "Te ayudo.",
+      "emoji": "🤝",
+      "pos": "phrase",
+      "ex": {
+        "t": "Those bags look heavy. I'll help you.",
+        "es": "Esas bolsas parecen pesadas. Te ayudo."
+      }
+    },
+    {
+      "id": "plan-i-promise",
+      "t": "I promise.",
+      "es": "Te lo prometo.",
+      "emoji": "🤞",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'll write every day, I promise.",
+        "es": "Escribiré todos los días, te lo prometo."
+      }
+    },
+    {
+      "id": "plan-i-think-itll-be",
+      "t": "I think it'll be…",
+      "es": "Creo que será…",
+      "emoji": "💭",
+      "pos": "phrase",
+      "ex": {
+        "t": "I think it'll be a lovely trip.",
+        "es": "Creo que será un viaje precioso."
+      }
+    },
+    {
+      "id": "plan-it-wont-take-long",
+      "t": "It won't take long.",
+      "es": "No tardará mucho.",
+      "emoji": "⏱️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Wait here. It won't take long.",
+        "es": "Espera aquí. No tardará mucho."
+      }
+    },
+    {
+      "id": "plan-ill-have",
+      "t": "I'll have…",
+      "es": "Para mí… / Voy a tomar…",
+      "emoji": "🍰",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'll have a tea and a scone, please.",
+        "es": "Para mí, un té y un scone, por favor."
+      }
+    },
+    {
+      "id": "plan-dont-worry",
+      "t": "Don't worry.",
+      "es": "No te preocupes.",
+      "emoji": "😌",
+      "pos": "phrase",
+      "ex": {
+        "t": "Don't worry. I'll be at the station.",
+        "es": "No te preocupes. Estaré en la estación."
+      }
+    },
+    {
+      "id": "plan-see-you-soon",
+      "t": "See you soon!",
+      "es": "¡Hasta pronto!",
+      "emoji": "👋",
+      "pos": "phrase",
+      "ex": {
+        "t": "See you soon, love!",
+        "es": "¡Hasta pronto, cariño!"
+      }
+    }
+  ],
+  "grammar": "en-g-will",
+  "pron": {
+    "title": "'ll, won't y gonna",
+    "tip": "I'll suena «ail», you'll «iul», we'll «uil». Won't suena «uount» (no confundir con want, «uont»). Y en series oirás gonna («gona»): es going to dicho rápido. Reconócelo, pero escribe going to.",
+    "words": [
+      "I'll",
+      "you'll",
+      "she'll",
+      "we'll",
+      "won't"
+    ],
+    "pairs": [
+      [
+        "want",
+        "won't"
+      ],
+      [
+        "I",
+        "I'll"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "The phone's ringing! ___ get it.",
+      "options": [
+        "I'll",
+        "I'm going to",
+        "I'm"
+      ],
+      "answer": "I'll",
+      "why": "Decides en ese momento: I'll.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Don't worry. It ___ take long.",
+      "options": [
+        "won't",
+        "doesn't will",
+        "willn't"
+      ],
+      "answer": "won't",
+      "why": "La negativa de will es won't.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "I'll ___ you when I arrive.",
+      "options": [
+        "call",
+        "to call",
+        "calling"
+      ],
+      "answer": "call",
+      "why": "I'll + verbo base, sin to.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "I've got the tickets! ___ visit my son in May.",
+      "options": [
+        "I'm going to",
+        "I will to",
+        "I going to"
+      ],
+      "answer": "I'm going to",
+      "why": "Plan ya decidido (tienes billetes): going to.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I think it ___ be a lovely trip.",
+      "es": "Creo que será un viaje precioso.",
+      "answer": [
+        "will",
+        "'ll"
+      ],
+      "bank": [
+        "will",
+        "is",
+        "does"
+      ],
+      "why": "Opinión sobre el futuro: I think + will.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I'll ___ a tea and a scone, please.",
+      "es": "Para mí, un té y un scone, por favor.",
+      "answer": [
+        "have"
+      ],
+      "bank": [
+        "have",
+        "having",
+        "to have"
+      ],
+      "why": "Para pedir: I'll have…",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "We ___ forget this holiday.",
+      "es": "No olvidaremos estas vacaciones.",
+      "answer": [
+        "won't",
+        "will not"
+      ],
+      "why": "Negativa: won't + forget.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e8",
+      "type": "conjugate",
+      "verb": "to help",
+      "person": "I (ofrecimiento)",
+      "tense": "futuro con will",
+      "q": "Those bags look heavy. I'll ___ you.",
+      "answer": [
+        "help"
+      ],
+      "why": "I'll + help.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Usa la contracción",
+      "q": "I will write every day.",
+      "answer": [
+        "I'll write every day."
+      ],
+      "why": "I will = I'll.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "You will be at the station.",
+      "answer": [
+        "Will you be at the station?"
+      ],
+      "why": "Will va delante del sujeto.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "She will comes with us.",
+      "wrong": "comes",
+      "fix": "come",
+      "why": "Después de will, verbo base, sin -s.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "I wills help you with the bags.",
+      "wrong": "wills",
+      "fix": "will",
+      "why": "Will nunca lleva -s.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "En una cafetería de Londres decides en ese momento qué tomar.",
+      "emoji": "☕",
+      "options": [
+        "I'll have a coffee, please.",
+        "I will to have a coffee, please.",
+        "I having a coffee, please."
+      ],
+      "answer": "I'll have a coffee, please.",
+      "why": "Para pedir: I'll have…, sin to.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Prometes a tu hijo que lo llamarás al llegar.",
+      "emoji": "📱",
+      "options": [
+        "I'll call you when I arrive, I promise.",
+        "I will to call you, I promise.",
+        "I call you when I will arrive."
+      ],
+      "answer": "I'll call you when I arrive, I promise.",
+      "why": "Promesa: I'll + verbo. Después de when, presente: when I arrive.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "En una serie inglesa oyes: «I'm gonna call you later». ¿Cómo se escribe bien?",
+      "emoji": "📺",
+      "options": [
+        "I'm going to call you later.",
+        "I'm go to call you later.",
+        "I'm gone to call you later."
+      ],
+      "answer": "I'm going to call you later.",
+      "why": "Gonna es going to dicho rápido. Escríbelo siempre going to.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e16",
+      "type": "minimal",
+      "pair": [
+        "I want to go.",
+        "I won't go."
+      ],
+      "answer": "I want to go.",
+      "es": [
+        "Quiero ir.",
+        "No iré."
+      ],
+      "why": "Want suena «uont»; won't, «uount», con o larga.",
+      "g": "en-g-will"
+    },
+    {
+      "id": "e17",
+      "type": "match",
+      "pairs": [
+        [
+          "I'll help you.",
+          "Te ayudo."
+        ],
+        [
+          "I promise.",
+          "Te lo prometo."
+        ],
+        [
+          "Don't worry.",
+          "No te preocupes."
+        ],
+        [
+          "See you soon!",
+          "¡Hasta pronto!"
+        ],
+        [
+          "It won't take long.",
+          "No tardará mucho."
+        ]
+      ],
+      "why": "Frases con will para ofrecer, prometer y tranquilizar.",
+      "g": "en-g-will"
+    }
+  ],
+  "dialog": {
+    "title": "Antes de embarcar",
+    "setting": "Yolanda está en el aeropuerto y su hijo Hugo la llama desde Inglaterra",
+    "emoji": "🛫",
+    "lines": [
+      {
+        "who": "Hugo",
+        "t": "Mum, are you at the airport?",
+        "es": "Mamá, ¿estás en el aeropuerto?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I'm at the gate now.",
+        "es": "Sí, ya estoy en la puerta de embarque."
+      },
+      {
+        "who": "Hugo",
+        "t": "Great! I'll meet you at the arrivals hall.",
+        "es": "¡Genial! Te espero en la sala de llegadas."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Thank you, love. I'll call you when I land.",
+        "es": "Gracias, cariño. Te llamo cuando aterrice."
+      },
+      {
+        "who": "Hugo",
+        "t": "Perfect. Don't worry about the bus. I'll drive.",
+        "es": "Perfecto. No te preocupes por el autobús. Voy yo en coche."
+      },
+      {
+        "who": "Yolanda",
+        "t": "You're very kind. Will it be cold there?",
+        "es": "Qué bueno eres. ¿Hará frío allí?"
+      },
+      {
+        "who": "Hugo",
+        "t": "I think it'll be sunny, but bring a jumper!",
+        "es": "Creo que hará sol, ¡pero tráete un jersey!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "OK. See you soon!",
+        "es": "Vale. ¡Hasta pronto!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Dónde está Yolanda?",
+        "options": [
+          "En la puerta de embarque",
+          "En el autobús",
+          "En casa"
+        ],
+        "answer": "En la puerta de embarque"
+      },
+      {
+        "q": "¿Qué promete Yolanda?",
+        "options": [
+          "Llamar al aterrizar",
+          "Coger el autobús",
+          "Llevar comida"
+        ],
+        "answer": "Llamar al aterrizar"
+      },
+      {
+        "q": "¿Qué tiempo cree Hugo que hará?",
+        "options": [
+          "Sol",
+          "Lluvia",
+          "Nieve"
+        ],
+        "answer": "Sol"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "I'll call you when I land.",
+    "es": "Te llamo cuando aterrice.",
+    "context": "Para tranquilizar a la familia antes de un vuelo"
+  },
+  "summary": [
+    "will + verbo base, igual para todos: I'll help, she'll come",
+    "Negativa: won't. Pregunta: Will you…?",
+    "Usos: decidir en el momento, prometer u ofrecer, opinar (I think it'll…)",
+    "Plan ya decidido → going to; decisión ahora → will",
+    "Gonna = going to dicho rápido (solo para reconocerlo)"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u06-l4"
+}

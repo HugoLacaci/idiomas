@@ -1,0 +1,102 @@
+{
+  "id": "en-a2-u01-l3",
+  "unit": "en-a2-u01",
+  "title": "Mensajes de WhatsApp",
+  "goal": "a escribir y entender mensajes cortos sobre lo que estás haciendo",
+  "emoji": "💬",
+  "photoQuery": "smartphone message coffee table",
+  "vocab": [
+    { "id": "now-what-are-you-up-to", "t": "What are you up to?", "es": "¿Qué andas haciendo?", "emoji": "🤔", "pos": "phrase",
+      "ex": { "t": "Hi! What are you up to this afternoon?", "es": "¡Hola! ¿Qué haces esta tarde?" },
+      "note": "Muy coloquial y muy británico. Es lo mismo que What are you doing?" },
+    { "id": "now-im-on-my-way", "t": "I'm on my way.", "es": "Voy de camino.", "emoji": "🚶‍♀️", "pos": "phrase",
+      "ex": { "t": "I'm on my way. See you in ten minutes.", "es": "Voy de camino. Te veo en diez minutos." } },
+    { "id": "now-im-running-late", "t": "I'm running late.", "es": "Voy con retraso.", "emoji": "⏰", "pos": "phrase",
+      "ex": { "t": "Sorry, I'm running late. The bus is slow.", "es": "Perdona, voy con retraso. El autobús va lento." } },
+    { "id": "now-are-you-busy", "t": "Are you busy?", "es": "¿Estás liada?", "emoji": "📋", "pos": "phrase",
+      "ex": { "t": "Are you busy? I need some help.", "es": "¿Estás liada? Necesito ayuda." } },
+    { "id": "now-can-i-call-you-back", "t": "Can I call you back?", "es": "¿Te llamo luego?", "emoji": "📞", "pos": "phrase",
+      "ex": { "t": "I'm at the doctor's. Can I call you back?", "es": "Estoy en el médico. ¿Te llamo luego?" } },
+    { "id": "now-im-just-leaving", "t": "I'm just leaving.", "es": "Estoy saliendo ahora mismo.", "emoji": "🚪", "pos": "phrase",
+      "ex": { "t": "I'm just leaving the house now.", "es": "Estoy saliendo de casa ahora mismo." } },
+    { "id": "now-im-waiting-for-you", "t": "I'm waiting for you.", "es": "Te estoy esperando.", "emoji": "⌛", "pos": "phrase",
+      "ex": { "t": "I'm waiting for you outside the café.", "es": "Te estoy esperando fuera de la cafetería." },
+      "note": "Esperar a alguien = wait for someone (¡no olvides for!)." },
+    { "id": "now-see-you-in-a-bit", "t": "See you in a bit!", "es": "¡Hasta ahora!", "emoji": "👋", "pos": "phrase",
+      "ex": { "t": "OK, see you in a bit!", "es": "Vale, ¡hasta ahora!" } },
+    { "id": "now-eventually", "t": "eventually", "es": "al final, por fin", "emoji": "🏁", "pos": "adv",
+      "ex": { "t": "My grandson eventually falls asleep at ten.", "es": "Al final mi nieto se duerme a las diez." },
+      "note": "¡Ojo, falso amigo! Eventually NO es «eventualmente». Significa «al final, tras mucho rato»." }
+  ],
+  "grammar": "en-g-present-continuous",
+  "pron": {
+    "title": "La entonación de las preguntas",
+    "tip": "En las preguntas de sí o no la voz sube al final: Are you busy? ↗. En las preguntas con what, la voz baja: What are you doing? ↘",
+    "words": ["Are you busy?", "Are you coming?", "What are you doing?", "Where are you going?"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Sorry, I'm ___ late. The traffic is terrible.", "options": ["running", "going", "doing"], "answer": "running",
+      "why": "Ir con retraso = be running late." },
+    { "id": "e2", "type": "choose", "q": "I'm waiting ___ you outside the shop.", "options": ["for", "to", "—"], "answer": "for",
+      "why": "Esperar a alguien = wait for someone.", "g": "en-g-present-continuous" },
+    { "id": "e3", "type": "choose", "q": "Where ___ you going?", "options": ["are", "do", "is"], "answer": "are",
+      "why": "Pregunta en continuo con you: Where are you going?", "g": "en-g-present-continuous" },
+    { "id": "e4", "type": "fill", "q": "I'm on my ___. See you soon!", "es": "Voy de camino. ¡Hasta pronto!", "answer": ["way"], "bank": ["way", "road", "street"],
+      "why": "Voy de camino = I'm on my way." },
+    { "id": "e5", "type": "fill", "q": "I'm at the doctor's. Can I call you ___?", "es": "Estoy en el médico. ¿Te llamo luego?", "answer": ["back"], "bank": ["back", "later", "again"],
+      "why": "Devolver la llamada = call someone back." },
+    { "id": "e6", "type": "fill", "q": "What ___ you up to?", "es": "¿Qué andas haciendo?", "answer": ["are"],
+      "why": "What are you up to? funciona como el presente continuo: are.", "g": "en-g-present-continuous" },
+    { "id": "e7", "type": "reading", "kind": "message", "title": "Chat con una amiga",
+      "text": "Marta: Are you busy? ☕\nYolanda: A bit. I'm doing the shopping.\nMarta: I'm sitting in the café near the market.\nYolanda: Great! I'm just leaving the supermarket. See you in a bit!",
+      "questions": [
+        { "q": "¿Qué está haciendo Yolanda?", "options": ["La compra", "La comida", "La colada"], "answer": "La compra" },
+        { "q": "¿Dónde está Marta?", "options": ["En una cafetería", "En el mercado", "En casa"], "answer": "En una cafetería" },
+        { "q": "¿Qué significa «See you in a bit»?", "options": ["Hasta ahora", "Hasta mañana", "No puedo ir"], "answer": "Hasta ahora" }
+      ] },
+    { "id": "e8", "type": "match", "pairs": [["I'm on my way.", "Voy de camino."], ["I'm running late.", "Voy con retraso."], ["Are you busy?", "¿Estás liada?"], ["See you in a bit!", "¡Hasta ahora!"], ["I'm just leaving.", "Estoy saliendo."]],
+      "why": "Frases típicas de mensajes." },
+    { "id": "e9", "type": "order", "es": "Te estoy esperando en la estación", "answer": "I'm waiting for you at the station", "extra": ["to"],
+      "why": "wait for + persona.", "g": "en-g-present-continuous" },
+    { "id": "e10", "type": "translate", "dir": "to", "q": "¿Vienes?", "answer": ["Are you coming?", "Are you coming"],
+      "why": "Para preguntar si alguien viene ahora: Are you coming?", "g": "en-g-present-continuous" },
+    { "id": "e11", "type": "translate", "dir": "from", "q": "The baby eventually falls asleep.", "answer": ["Al final el bebé se duerme.", "Por fin el bebé se duerme.", "Al final se duerme el bebé.", "Por fin se duerme el bebé.", "El bebé al final se duerme."],
+      "why": "Eventually = por fin, al final (no «eventualmente»)." },
+    { "id": "e12", "type": "error", "q": "I'm waiting you at the bus stop.", "wrong": "you", "fix": "for you",
+      "why": "Wait siempre lleva for antes de la persona: wait for you." },
+    { "id": "e13", "type": "transform", "instr": "Hazla pregunta", "q": "You're coming to dinner.", "answer": ["Are you coming to dinner?", "Are you coming to dinner"],
+      "why": "Are va delante: Are you coming…?", "g": "en-g-present-continuous" },
+    { "id": "e14", "type": "situation", "context": "Has quedado con una amiga, pero el autobús tarda y vas a llegar tarde.", "emoji": "🚌",
+      "options": ["Sorry, I'm running late!", "Sorry, I run late!", "Sorry, I'm late running!"], "answer": "Sorry, I'm running late!",
+      "why": "La expresión fija es I'm running late." },
+    { "id": "e15", "type": "speak", "t": "I'm on my way. See you in a bit!", "es": "Voy de camino. ¡Hasta ahora!" }
+  ],
+  "dialog": {
+    "title": "Nos vemos en el centro",
+    "setting": "Yolanda y su amiga Marta se escriben porque han quedado para tomar café",
+    "emoji": "☕",
+    "lines": [
+      { "who": "Marta", "t": "Hi! Where are you?", "es": "¡Hola! ¿Dónde estás?" },
+      { "who": "Yolanda", "t": "I'm on the bus. I'm running late, sorry!", "es": "Estoy en el autobús. Voy con retraso, ¡perdona!" },
+      { "who": "Marta", "t": "Don't worry. I'm sitting in the café.", "es": "No te preocupes. Estoy sentada en la cafetería." },
+      { "who": "Yolanda", "t": "Are you having a coffee?", "es": "¿Te estás tomando un café?" },
+      { "who": "Marta", "t": "Yes, and I'm reading the paper.", "es": "Sí, y estoy leyendo el periódico." },
+      { "who": "Yolanda", "t": "Good news: the bus is moving now. Ten minutes!", "es": "Buenas noticias: el autobús ya se mueve. ¡Diez minutos!" },
+      { "who": "Marta", "t": "Perfect. I'm ordering you a tea.", "es": "Perfecto. Te estoy pidiendo un té." },
+      { "who": "Yolanda", "t": "You're a star! See you in a bit.", "es": "¡Eres un sol! Hasta ahora." }
+    ],
+    "questions": [
+      { "q": "¿Dónde está Yolanda?", "options": ["En el autobús", "En la cafetería", "En casa"], "answer": "En el autobús" },
+      { "q": "¿Qué está leyendo Marta?", "options": ["El periódico", "Un libro", "La carta"], "answer": "El periódico" },
+      { "q": "¿Qué pide Marta para Yolanda?", "options": ["Un té", "Un café", "Un zumo"], "answer": "Un té" }
+    ]
+  },
+  "realLife": { "t": "I'm on my way!", "es": "¡Voy de camino!", "context": "Para avisar por WhatsApp de que ya vas" },
+  "summary": [
+    "Mensajes útiles: I'm on my way · I'm running late · See you in a bit!",
+    "Esperar a alguien = wait for someone",
+    "Preguntas de sí/no suben al final; las de what bajan",
+    "¡Ojo! eventually = al final, por fin (no «eventualmente»)"
+  ],
+  "reviewed": false
+}

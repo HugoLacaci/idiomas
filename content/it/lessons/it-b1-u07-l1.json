@@ -1,0 +1,92 @@
+{
+  "id": "it-b1-u07-l1",
+  "unit": "it-b1-u07",
+  "title": "La spiaggia dei sogni",
+  "goal": "a hablar de la playa, del dinero y de tus sueños para las vacaciones",
+  "emoji": "🏖️",
+  "photoQuery": "turquoise sea sandy beach",
+  "vocab": [
+    { "id": "sogni-la-spiaggia", "t": "la spiaggia", "es": "la playa", "emoji": "🏖️", "pos": "n", "ex": { "t": "D'estate andiamo sempre in spiaggia con le mie amiche.", "es": "En verano siempre vamos a la playa con mis amigas." } },
+    { "id": "sogni-la-sabbia", "t": "la sabbia", "es": "la arena", "emoji": "🏝️", "pos": "n", "ex": { "t": "La sabbia è bianca e finissima.", "es": "La arena es blanca y finísima." }, "note": "¡Ojo! No es «sabia»: la sabbia es la arena." },
+    { "id": "sogni-l-ombrellone", "t": "l'ombrellone", "es": "la sombrilla (de playa)", "emoji": "⛱️", "pos": "n", "ex": { "t": "Prendiamo un ombrellone in prima fila?", "es": "¿Cogemos una sombrilla en primera fila?" }, "note": "L'ombrello es el paraguas; l'ombrellone, la sombrilla grande de playa." },
+    { "id": "sogni-il-lettino", "t": "il lettino", "es": "la tumbona", "emoji": "🛏️", "pos": "n", "ex": { "t": "Due lettini e un ombrellone, per favore.", "es": "Dos tumbonas y una sombrilla, por favor." } },
+    { "id": "sogni-la-crema-solare", "t": "la crema solare", "es": "la crema solar", "emoji": "🧴", "pos": "n", "ex": { "t": "Metti la crema solare, il sole è forte!", "es": "¡Ponte crema solar, que el sol pega fuerte!" } },
+    { "id": "sogni-fare-il-bagno", "t": "fare il bagno", "es": "bañarse (en el mar)", "emoji": "🏊‍♀️", "pos": "phrase", "ex": { "t": "L'acqua è calda: facciamo il bagno?", "es": "El agua está buena: ¿nos bañamos?" }, "note": "Sirve para el mar y para la bañera." },
+    { "id": "sogni-i-soldi", "t": "i soldi", "es": "el dinero", "emoji": "💶", "pos": "n", "ex": { "t": "Non ho abbastanza soldi per un viaggio lungo.", "es": "No tengo bastante dinero para un viaje largo." }, "note": "Siempre en plural: i soldi." },
+    { "id": "sogni-risparmiare", "t": "risparmiare", "es": "ahorrar", "emoji": "🐷", "pos": "v", "ex": { "t": "Quest'anno risparmio per andare in Sardegna.", "es": "Este año ahorro para ir a Cerdeña." } },
+    { "id": "sogni-vincere-alla-lotteria", "t": "vincere alla lotteria", "es": "tocarle a uno la lotería", "emoji": "🎟️", "pos": "phrase", "ex": { "t": "Se vinco alla lotteria, offro io la cena!", "es": "¡Si me toca la lotería, invito yo a la cena!" } },
+    { "id": "sogni-andare-in-pensione", "t": "andare in pensione", "es": "jubilarse", "emoji": "👵", "pos": "phrase", "ex": { "t": "Quando andrò in pensione, vorrei vivere vicino al mare.", "es": "Cuando me jubile, me gustaría vivir cerca del mar." } }
+  ],
+  "grammar": "it-g-condizionale",
+  "pron": {
+    "title": "Las dobles de la playa",
+    "tip": "Spiaggia, sabbia, ombrellone, lettino: todas llevan consonante doble. Apóyate un instante en ella, como si hicieras una pequeña pausa: sab-bia, let-tino.",
+    "words": ["spiaggia", "sabbia", "ombrellone", "lettino", "risparmiare"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Per stare all'ombra prendiamo un ___.", "es": "Para estar a la sombra cogemos una sombrilla.", "options": ["ombrellone", "lettino", "costume"], "answer": "ombrellone", "why": "L'ombrellone da sombra; il lettino es para tumbarse." },
+    { "id": "e2", "type": "choose", "q": "Il sole è forte: metti la ___ solare!", "es": "El sol pega fuerte: ¡ponte crema solar!", "options": ["crema", "sabbia", "spiaggia"], "answer": "crema", "why": "La crema solare protege la piel del sol." },
+    { "id": "e3", "type": "fill", "q": "Ho la ___ nelle scarpe!", "es": "¡Tengo arena en los zapatos!", "answer": ["sabbia"], "bank": ["sabbia", "crema", "pensione"], "why": "La arena es la sabbia, con doble b." },
+    { "id": "e4", "type": "fill", "q": "Quest'anno ___ per un viaggio in Sardegna.", "es": "Este año ahorro para un viaje a Cerdeña.", "answer": ["risparmio", "io risparmio"], "hint": "risparmiare (io)", "why": "Risparmiare con io en presente: risparmio." },
+    { "id": "e5", "type": "match", "pairs": [["la spiaggia", "la playa"], ["la sabbia", "la arena"], ["l'ombrellone", "la sombrilla"], ["il lettino", "la tumbona"], ["i soldi", "el dinero"]], "why": "Las palabras clave de un día de playa." },
+    { "id": "e6", "type": "translate", "dir": "to", "q": "Me jubilo el año que viene.", "answer": ["Vado in pensione l'anno prossimo.", "L'anno prossimo vado in pensione.", "Vado in pensione l'anno che viene."], "why": "Jubilarse = andare in pensione." },
+    { "id": "e7", "type": "choose", "q": "Con più soldi, io ___ una casa al mare.", "es": "Con más dinero, yo me compraría una casa en la playa.", "options": ["comprerei", "comprarei", "comprerò"], "answer": "comprerei", "why": "Repaso: comprare → comprer- + -ei. La a pasa a e.", "g": "it-g-condizionale" },
+    { "id": "e8", "type": "conjugate", "verb": "fare", "person": "noi", "tense": "condizionale", "q": "Con più tempo, ___ il bagno ogni mattina.", "answer": ["faremmo"], "why": "Fare → far- + -emmo, con doble m.", "g": "it-g-condizionale" },
+    { "id": "e9", "type": "error", "q": "Ho dimenticato la crema solar a casa.", "wrong": "solar", "fix": "solare", "why": "En italiano el adjetivo termina en -e: crema solare." },
+    { "id": "e10", "type": "error", "q": "Mio marito non vuole fare la bagno.", "wrong": "la", "fix": "il", "why": "Bagno es masculino: fare il bagno." },
+    { "id": "e11", "type": "situation", "context": "En la playa quieres alquilar dos tumbonas y una sombrilla.", "emoji": "⛱️", "options": ["Vorrei due lettini e un ombrellone, per favore.", "Vorrei due letti e un ombrello, per favore.", "Voglio due sabbie, per favore."], "answer": "Vorrei due lettini e un ombrellone, per favore.", "why": "Lettino = tumbona; ombrellone = sombrilla. Ombrello es el paraguas." },
+    { "id": "e12", "type": "order", "es": "Si me toca la lotería, invito yo.", "answer": "Se vinco alla lotteria offro io", "extra": ["vincerei"], "why": "Algo que puede pasar: se + presente (se vinco).", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e13", "type": "reading", "kind": "message", "title": "WhatsApp de Carla", "text": "Ciao Yolanda! Domani andiamo in spiaggia? Io porto l'ombrellone e la crema solare. Tu porti i panini? Se fa caldo, facciamo subito il bagno! 🌊", "questions": [
+      { "q": "¿Qué lleva Carla?", "options": ["La sombrilla y la crema", "Los bocadillos", "Las tumbonas"], "answer": "La sombrilla y la crema" },
+      { "q": "¿Qué tiene que llevar Yolanda?", "options": ["Los bocadillos", "La crema", "La sombrilla"], "answer": "Los bocadillos" },
+      { "q": "¿Qué harán si hace calor?", "options": ["Bañarse enseguida", "Volver a casa", "Ir a comer"], "answer": "Bañarse enseguida" }
+    ], "why": "Lee el mensaje con calma: porto = llevo, porti = llevas." },
+    { "id": "e14", "type": "transform", "instr": "Conviértelo en un sueño: pásalo al condicional", "q": "Vado in pensione e vivo al mare.", "answer": ["Andrei in pensione e vivrei al mare."], "why": "Andare → andrei; vivere → vivrei (pierde la e).", "g": "it-g-condizionale" },
+    { "id": "e15", "type": "speak", "t": "Se potessi, vivrei vicino al mare.", "es": "Si pudiera, viviría cerca del mar." },
+    { "id": "e16", "type": "translate", "dir": "from", "q": "Mio figlio Hugo risparmia per una casa.", "answer": ["Mi hijo Hugo ahorra para una casa.", "Mi hijo Hugo está ahorrando para una casa.", "Mi hijo Hugo ahorra para comprarse una casa."], "why": "Risparmiare = ahorrar." }
+  ],
+  "dialog": {
+    "title": "Un día de playa",
+    "setting": "En una playa de Cerdeña, Yolanda alquila una sombrilla",
+    "emoji": "⛱️",
+    "lines": [
+      { "who": "Marco", "t": "Buongiorno, signora! Le serve un ombrellone?", "es": "¡Buenos días, señora! ¿Necesita una sombrilla?" },
+      { "who": "Yolanda", "t": "Sì, grazie. Un ombrellone e due lettini, per favore.", "es": "Sí, gracias. Una sombrilla y dos tumbonas, por favor." },
+      { "who": "Marco", "t": "Certo. In prima fila, vicino al mare?", "es": "Claro. ¿En primera fila, cerca del mar?" },
+      { "who": "Yolanda", "t": "Magari! Quanto costa per tutto il giorno?", "es": "¡Ojalá! ¿Cuánto cuesta para todo el día?" },
+      { "who": "Marco", "t": "Venticinque euro. La sabbia qui è bianchissima, vedrà!", "es": "Veinticinco euros. La arena aquí es blanquísima, ¡ya verá!" },
+      { "who": "Yolanda", "t": "Perfetto. Si può fare il bagno tranquillamente?", "es": "Perfecto. ¿Se puede uno bañar tranquilamente?" },
+      { "who": "Marco", "t": "Certo, l'acqua è calda e trasparente.", "es": "Claro, el agua está buena y transparente." },
+      { "who": "Yolanda", "t": "Che sogno! Se potessi, resterei qui tutta l'estate.", "es": "¡Qué sueño! Si pudiera, me quedaría aquí todo el verano." }
+    ],
+    "questions": [
+      { "q": "¿Qué alquila Yolanda?", "options": ["Una sombrilla y dos tumbonas", "Una barca", "Solo una tumbona"], "answer": "Una sombrilla y dos tumbonas" },
+      { "q": "¿Cuánto cuesta todo el día?", "options": ["25 euros", "15 euros", "50 euros"], "answer": "25 euros" },
+      { "q": "¿Cómo es el agua?", "options": ["Templada y transparente", "Fría y oscura", "Muy movida"], "answer": "Templada y transparente" }
+    ]
+  },
+  "realLife": { "t": "Si può fare il bagno qui?", "es": "¿Se puede uno bañar aquí?", "context": "Para preguntar en una playa si está permitido bañarse" },
+  "same": {
+    "text": "Muchas palabras del dinero y las vacaciones se parecen al español.",
+    "examples": [
+      { "t": "la crema solare", "es": "la crema solar" },
+      { "t": "la lotteria", "es": "la lotería" },
+      { "t": "la pensione", "es": "la pensión" }
+    ]
+  },
+  "falseFriend": {
+    "word": "la sabbia",
+    "means": "la arena",
+    "looksLike": "sabia (en italiano, saggia)",
+    "emoji": "🏝️",
+    "tip": "La sabbia è calda = la arena está caliente. Una mujer sabia es una donna saggia."
+  },
+  "summary": [
+    "La playa: la spiaggia, la sabbia, l'ombrellone, il lettino, la crema solare.",
+    "Fare il bagno = bañarse; i soldi = el dinero (siempre plural).",
+    "Risparmiare = ahorrar; andare in pensione = jubilarse.",
+    "Repaso del condicional: comprerei, faremmo, vivrei.",
+    "¡Ojo! La sabbia es la arena, no «sabia»."
+  ],
+  "reviewed": false
+}

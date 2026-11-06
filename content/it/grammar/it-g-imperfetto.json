@@ -1,0 +1,145 @@
+{
+  "id": "it-g-imperfetto",
+  "lang": "it",
+  "level": "A2",
+  "title": "El imperfetto (jugaba, tenía, era)",
+  "short": "Giocavo, avevo, ero: el pasado de los recuerdos, las costumbres y las descripciones, como nuestro «jugaba».",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "El tiempo de los recuerdos",
+      "emoji": "🧸",
+      "text": "Para contar cómo era tu infancia, qué hacías siempre o cómo eran las cosas, el italiano usa el ==imperfetto==. ¡Es casi igual que nuestro «jugaba»!",
+      "examples": [
+        { "t": "Quando ==ero== piccola, ==giocavo== in cortile.", "es": "Cuando era pequeña, jugaba en el patio.", "hl": "giocavo" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Las tres terminaciones",
+      "emoji": "🔧",
+      "text": "Quita -re y añade siempre lo mismo: ==-vo, -vi, -va, -vamo, -vate, -vano==.",
+      "table": {
+        "head": ["Persona", "giocare", "avere", "dormire"],
+        "rows": [
+          ["io", "gioca==vo==", "ave==vo==", "dormi==vo=="],
+          ["tu", "gioca==vi==", "ave==vi==", "dormi==vi=="],
+          ["lui / lei", "gioca==va==", "ave==va==", "dormi==va=="],
+          ["noi", "gioca==vamo==", "ave==vamo==", "dormi==vamo=="],
+          ["voi", "gioca==vate==", "ave==vate==", "dormi==vate=="],
+          ["loro", "gioca==vano==", "ave==vano==", "dormi==vano=="]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Essere, el rebelde",
+      "emoji": "⭐",
+      "text": "*Essere* va por libre, pero se parece a nuestro «era». *Fare*, *dire* y *bere* toman una forma antigua: ==face==vo, ==dice==vo, ==beve==vo.",
+      "table": {
+        "head": ["Persona", "essere", "fare"],
+        "rows": [
+          ["io", "==ero==", "==face==vo"],
+          ["tu", "==eri==", "==face==vi"],
+          ["lui / lei", "==era==", "==face==va"],
+          ["noi", "==eravamo==", "==face==vamo"],
+          ["voi", "==eravate==", "==face==vate"],
+          ["loro", "==erano==", "==face==vano"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "¿Cuándo se usa?",
+      "emoji": "🕰️",
+      "text": "Para ==costumbres== (sempre, di solito, ogni estate), ==descripciones== (era alta, la casa era grande) y ==edad, hora y tiempo== (avevo otto anni, faceva freddo).",
+      "examples": [
+        { "t": "D'estate ==andavamo== al mare.", "es": "En verano íbamos a la playa.", "hl": "andavamo" },
+        { "t": "La mia maestra ==era== molto dolce.", "es": "Mi maestra era muy dulce.", "hl": "era" },
+        { "t": "==Avevo== sette anni.", "es": "Tenía siete años.", "hl": "Avevo" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Igual que en español",
+      "emoji": "🇪🇸",
+      "text": "Donde tú dices ==«jugaba», «comía», «era»==, en italiano va el imperfetto. -aba ≈ ==-ava==, -ía ≈ ==-eva / -iva==.",
+      "examples": [
+        { "t": "Mangiavo pane e cioccolato.", "es": "Comía pan con chocolate." },
+        { "t": "Mia nonna cucinava benissimo.", "es": "Mi abuela cocinaba de maravilla." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Io era piccola* → ✅ io ==ero==. ❌ *Tenevo otto anni* → ✅ ==avevo== otto anni. ❌ *Facivo* → ✅ ==facevo==."
+    },
+    {
+      "kind": "tip",
+      "title": "El acento",
+      "emoji": "🎵",
+      "text": "En noi y voi el acento cae en ==va==: gioca==va==mo. En loro se queda donde en io: gio==ca==vano, a==ve==vano (como «jugaban», nunca «giocavAno»).",
+      "examples": [
+        { "t": "Giocavamo tutti insieme.", "es": "Jugábamos todos juntos." },
+        { "t": "I bambini giocavano in strada.", "es": "Los niños jugaban en la calle." }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español usamos el pretérito imperfecto (jugaba, tenía, era) para las costumbres y descripciones del pasado.",
+    "target": "En italiano funciona igual: giocavo, avevo, ero. Las terminaciones -avo, -evo, -ivo recuerdan a nuestro -aba, -ía."
+  },
+  "errors": [
+    { "wrong": "Quando io era piccola, abitavo in campagna.", "right": "Quando io ero piccola, abitavo in campagna.", "why": "En italiano «yo era» es ero; era es para lui o lei." },
+    { "wrong": "Tenevo dieci anni.", "right": "Avevo dieci anni.", "why": "La edad se dice con avere: avevo dieci anni." },
+    { "wrong": "Facivo i compiti in cucina.", "right": "Facevo i compiti in cucina.", "why": "Fare toma la forma antigua face-: facevo." },
+    { "wrong": "Da piccola ho giocato sempre in strada.", "right": "Da piccola giocavo sempre in strada.", "why": "Una costumbre del pasado (sempre) va en imperfetto: giocavo." },
+    { "wrong": "Noi giocavamo con la palla, loro giocavamo con le bambole.", "right": "Noi giocavamo con la palla, loro giocavano con le bambole.", "why": "Loro termina en -vano: giocavano." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Quando ___ piccola, abitavo in un paese.", "es": "Cuando era pequeña, vivía en un pueblo.", "options": ["ero", "era", "eri"], "answer": "ero", "why": "Io → ero. «Era» es para él o ella.", "g": "it-g-imperfetto" },
+    { "id": "e2", "type": "choose", "q": "Da bambina ___ sempre in cortile.", "es": "De niña jugaba siempre en el patio.", "options": ["giocavo", "giocava", "giocavamo"], "answer": "giocavo", "why": "Io → giocavo, con -vo.", "g": "it-g-imperfetto" },
+    { "id": "e3", "type": "choose", "q": "Mia nonna ___ il pane in casa.", "es": "Mi abuela hacía el pan en casa.", "options": ["faceva", "fava", "facevo"], "answer": "faceva", "why": "Fare → faceva (lei), con la forma face-.", "g": "it-g-imperfetto" },
+    { "id": "e4", "type": "choose", "q": "Noi ___ al mare ogni estate.", "es": "Nosotros íbamos a la playa cada verano.", "options": ["andavamo", "andavano", "andavate"], "answer": "andavamo", "why": "Noi → -vamo: andavamo.", "g": "it-g-imperfetto" },
+    { "id": "e5", "type": "choose", "q": "I miei genitori ___ molto.", "es": "Mis padres trabajaban mucho.", "options": ["lavoravano", "lavoravamo", "lavorava"], "answer": "lavoravano", "why": "Loro → -vano: lavoravano.", "g": "it-g-imperfetto" },
+    { "id": "e6", "type": "choose", "q": "Tu ___ i capelli lunghi da piccola?", "es": "¿Tú tenías el pelo largo de pequeña?", "options": ["avevi", "avevo", "aveva"], "answer": "avevi", "why": "Tu → -vi: avevi.", "g": "it-g-imperfetto" },
+    { "id": "e7", "type": "choose", "q": "La mia scuola ___ vicino alla chiesa.", "es": "Mi escuela estaba cerca de la iglesia.", "options": ["era", "ero", "erano"], "answer": "era", "why": "La scuola = lei: era.", "g": "it-g-imperfetto" },
+    { "id": "e8", "type": "choose", "q": "Voi ___ la televisione in bianco e nero?", "es": "¿Vosotros veíais la tele en blanco y negro?", "options": ["guardavate", "guardavano", "guardavamo"], "answer": "guardavate", "why": "Voi → -vate: guardavate.", "g": "it-g-imperfetto" },
+    { "id": "e9", "type": "fill", "q": "Da piccola ___ molto latte.", "es": "De pequeña bebía mucha leche.", "answer": ["bevevo"], "bank": ["bevevo", "bevo", "bevavo"], "why": "Bere toma la forma beve-: bevevo.", "g": "it-g-imperfetto" },
+    { "id": "e10", "type": "fill", "q": "Mio padre ___ sempre il giornale.", "es": "Mi padre siempre leía el periódico.", "answer": ["leggeva"], "bank": ["leggeva", "leggevo", "leggiva"], "why": "Leggere (-ere) → leggeva.", "g": "it-g-imperfetto" },
+    { "id": "e11", "type": "fill", "q": "Noi bambini ___ fino a tardi in estate.", "es": "En verano los niños jugábamos hasta tarde.", "answer": ["giocavamo"], "bank": ["giocavamo", "giocavano", "giochiamo"], "why": "Noi → giocavamo.", "g": "it-g-imperfetto" },
+    { "id": "e12", "type": "fill", "q": "La maestra ___ molto paziente.", "es": "La maestra era muy paciente.", "answer": ["era"], "bank": ["era", "ero", "è stata"], "why": "Una descripción del pasado: era.", "g": "it-g-imperfetto" },
+    { "id": "e13", "type": "fill", "q": "Io ___ otto anni quando ho imparato a nuotare.", "es": "Tenía ocho años cuando aprendí a nadar.", "answer": ["avevo"], "hint": "avere", "why": "La edad va con avere en imperfetto: avevo.", "g": "it-g-imperfetto" },
+    { "id": "e14", "type": "fill", "q": "Le mie amiche ___ vicino a casa mia.", "es": "Mis amigas vivían cerca de mi casa.", "answer": ["abitavano", "vivevano"], "hint": "abitare", "why": "Loro → abitavano.", "g": "it-g-imperfetto" },
+    { "id": "e15", "type": "fill", "q": "Tu ___ i compiti in cucina?", "es": "¿Tú hacías los deberes en la cocina?", "answer": ["facevi"], "hint": "fare", "why": "Fare → facevi (tu).", "g": "it-g-imperfetto" },
+    { "id": "e16", "type": "fill", "q": "D'inverno ___ sempre freddo in classe.", "es": "En invierno siempre hacía frío en clase.", "answer": ["faceva"], "hint": "fare", "why": "El tiempo que hacía: faceva freddo.", "g": "it-g-imperfetto" },
+    { "id": "e17", "type": "conjugate", "verb": "essere", "person": "noi", "tense": "imperfetto", "q": "Noi ___ molto felici in quella casa.", "answer": ["eravamo"], "table": [["io", "ero"], ["tu", "eri"], ["noi", "eravamo"], ["loro", "erano"]], "why": "Noi → eravamo.", "g": "it-g-imperfetto" },
+    { "id": "e18", "type": "conjugate", "verb": "dormire", "person": "io", "tense": "imperfetto", "q": "Da piccola ___ con la luce accesa.", "answer": ["dormivo"], "why": "Dormire (-ire) → dormivo.", "g": "it-g-imperfetto" },
+    { "id": "e19", "type": "conjugate", "verb": "dire", "person": "lei", "tense": "imperfetto", "q": "Mia madre ___ sempre «Mangia la frutta!».", "answer": ["diceva"], "why": "Dire toma la forma dice-: diceva.", "g": "it-g-imperfetto" },
+    { "id": "e20", "type": "conjugate", "verb": "andare", "person": "voi", "tense": "imperfetto", "q": "___ a scuola a piedi?", "answer": ["Andavate", "andavate"], "why": "Voi → andavate.", "g": "it-g-imperfetto" },
+    { "id": "e21", "type": "conjugate", "verb": "essere", "person": "loro", "tense": "imperfetto", "q": "I miei nonni ___ molto simpatici.", "answer": ["erano"], "why": "Loro → erano.", "g": "it-g-imperfetto" },
+    { "id": "e22", "type": "error", "q": "Quando io era piccola, avevo un gatto.", "wrong": "era", "fix": "ero", "why": "Io → ero. Era es para lui o lei.", "g": "it-g-imperfetto" },
+    { "id": "e23", "type": "error", "q": "Tenevo nove anni.", "wrong": "Tenevo", "fix": "Avevo", "why": "La edad va con avere: avevo nove anni.", "g": "it-g-imperfetto" },
+    { "id": "e24", "type": "error", "q": "Facivo merenda con pane e olio.", "wrong": "Facivo", "fix": "Facevo", "why": "Fare → facevo, con e.", "g": "it-g-imperfetto" },
+    { "id": "e25", "type": "error", "q": "I bambini giocavamo in piazza.", "wrong": "giocavamo", "fix": "giocavano", "why": "I bambini = loro: giocavano.", "g": "it-g-imperfetto" },
+    { "id": "e26", "type": "error", "q": "Noi abitavano in una casa piccola.", "wrong": "abitavano", "fix": "abitavamo", "why": "Noi → abitavamo.", "g": "it-g-imperfetto" },
+    { "id": "e27", "type": "transform", "instr": "Pásala al imperfetto", "q": "Gioco con le bambole.", "answer": ["Giocavo con le bambole."], "why": "Gioco → giocavo.", "g": "it-g-imperfetto" },
+    { "id": "e28", "type": "transform", "instr": "Pásala al imperfetto", "q": "La casa è grande.", "answer": ["La casa era grande."], "why": "È → era.", "g": "it-g-imperfetto" },
+    { "id": "e29", "type": "transform", "instr": "Pásala al imperfetto", "q": "Facciamo i compiti insieme.", "answer": ["Facevamo i compiti insieme."], "why": "Facciamo → facevamo.", "g": "it-g-imperfetto" },
+    { "id": "e30", "type": "transform", "instr": "Cambia el sujeto a «loro»", "q": "Andavo a scuola in bicicletta.", "answer": ["Andavano a scuola in bicicletta.", "Loro andavano a scuola in bicicletta."], "why": "Loro → andavano.", "g": "it-g-imperfetto" },
+    { "id": "e31", "type": "transform", "instr": "Pásala al imperfetto", "q": "Ho dieci anni e sono timida.", "answer": ["Avevo dieci anni ed ero timida.", "Avevo dieci anni e ero timida."], "why": "Ho → avevo; sono → ero.", "g": "it-g-imperfetto" },
+    { "id": "e32", "type": "order", "es": "De pequeña vivía en el campo.", "answer": "Da piccola abitavo in campagna", "alt": ["Abitavo in campagna da piccola"], "extra": ["abitava"], "why": "Io → abitavo.", "g": "it-g-imperfetto" },
+    { "id": "e33", "type": "order", "es": "Cada verano íbamos al pueblo de los abuelos.", "answer": "Ogni estate andavamo al paese dei nonni", "alt": ["Andavamo al paese dei nonni ogni estate"], "extra": ["siamo"], "why": "Una costumbre (ogni estate): andavamo.", "g": "it-g-imperfetto" },
+    { "id": "e34", "type": "order", "es": "Mi maestra era alta y muy simpática.", "answer": "La mia maestra era alta e molto simpatica", "extra": ["ero"], "why": "Descripción del pasado: era.", "g": "it-g-imperfetto" },
+    { "id": "e35", "type": "translate", "dir": "to", "q": "Cuando era pequeña, tenía una bicicleta roja.", "answer": ["Quando ero piccola, avevo una bicicletta rossa.", "Quando ero piccola avevo una bicicletta rossa.", "Da piccola avevo una bicicletta rossa."], "why": "Ero piccola; avevo una bicicletta.", "g": "it-g-imperfetto" },
+    { "id": "e36", "type": "translate", "dir": "to", "q": "Los domingos comíamos en casa de la abuela.", "answer": ["La domenica mangiavamo dalla nonna.", "La domenica mangiavamo a casa della nonna.", "Di domenica mangiavamo dalla nonna."], "why": "Una costumbre: mangiavamo. «Los domingos» = la domenica.", "g": "it-g-imperfetto" },
+    { "id": "e37", "type": "translate", "dir": "from", "q": "Da bambina avevo paura del buio.", "answer": ["De niña tenía miedo de la oscuridad.", "De niña me daba miedo la oscuridad.", "De pequeña tenía miedo de la oscuridad.", "De niña tenía miedo a la oscuridad."], "why": "Avevo paura = tenía miedo; il buio = la oscuridad.", "g": "it-g-imperfetto" },
+    { "id": "e38", "type": "translate", "dir": "from", "q": "Il nonno di Paola faceva il falegname.", "answer": ["El abuelo de Paola era carpintero.", "El abuelo de Paola trabajaba de carpintero."], "why": "Fare il + oficio = ser / trabajar de: faceva il falegname.", "g": "it-g-imperfetto" },
+    { "id": "e39", "type": "situation", "context": "Una amiga italiana te pregunta a qué jugabas de pequeña. Jugabas a la comba.", "emoji": "🪢", "options": ["Giocavo a saltare la corda.", "Gioco a saltare la corda.", "Giocava a saltare la corda."], "answer": "Giocavo a saltare la corda.", "why": "Hablas de ti en el pasado, de una costumbre: giocavo.", "g": "it-g-imperfetto" },
+    { "id": "e40", "type": "situation", "context": "Quieres decir cuántos años tenías cuando empezaste el colegio: seis.", "emoji": "🎒", "options": ["Avevo sei anni.", "Ero sei anni.", "Tenevo sei anni."], "answer": "Avevo sei anni.", "why": "La edad se dice con avere: avevo sei anni.", "g": "it-g-imperfetto" },
+    { "id": "e41", "type": "match", "pairs": [["io", "ero"], ["tu", "eri"], ["noi", "eravamo"], ["voi", "eravate"], ["loro", "erano"]], "why": "El imperfetto de essere.", "g": "it-g-imperfetto" },
+    { "id": "e42", "type": "match", "pairs": [["giocavo", "jugaba"], ["avevo", "tenía"], ["facevo", "hacía"], ["dicevo", "decía"], ["bevevo", "bebía"]], "why": "Las formas en -vo son de io.", "g": "it-g-imperfetto" }
+  ],
+  "reviewed": false
+}

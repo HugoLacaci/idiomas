@@ -1,0 +1,440 @@
+{
+  "id": "en-a2-u03-l2",
+  "unit": "en-a2-u03",
+  "title": "Más barato, más cómodo",
+  "goal": "a comparar dos prendas: cheaper than, more comfortable than",
+  "emoji": "⚖️",
+  "photoQuery": "two coats on hangers",
+  "vocab": [
+    {
+      "id": "clothes-cheap",
+      "t": "cheap",
+      "es": "barato",
+      "emoji": "🏷️",
+      "pos": "adj",
+      "ex": {
+        "t": "This jumper is cheaper than that one.",
+        "es": "Este jersey es más barato que ese."
+      }
+    },
+    {
+      "id": "clothes-expensive",
+      "t": "expensive",
+      "es": "caro",
+      "emoji": "💎",
+      "pos": "adj",
+      "ex": {
+        "t": "Leather boots are more expensive.",
+        "es": "Las botas de cuero son más caras."
+      }
+    },
+    {
+      "id": "clothes-comfortable",
+      "t": "comfortable",
+      "es": "cómodo",
+      "emoji": "🛋️",
+      "pos": "adj",
+      "ex": {
+        "t": "Trainers are more comfortable than shoes.",
+        "es": "Las zapatillas son más cómodas que los zapatos."
+      },
+      "note": "Suena «CÁMF-ta-bol»: tres sílabas, acento al principio."
+    },
+    {
+      "id": "clothes-warm",
+      "t": "warm",
+      "es": "calentito, que abriga",
+      "emoji": "🔥",
+      "pos": "adj",
+      "ex": {
+        "t": "My new coat is warmer.",
+        "es": "Mi abrigo nuevo abriga más."
+      }
+    },
+    {
+      "id": "clothes-long",
+      "t": "long",
+      "es": "largo",
+      "emoji": "📏",
+      "pos": "adj",
+      "ex": {
+        "t": "This skirt is longer than the blue one.",
+        "es": "Esta falda es más larga que la azul."
+      }
+    },
+    {
+      "id": "clothes-short",
+      "t": "short",
+      "es": "corto",
+      "emoji": "✂️",
+      "pos": "adj",
+      "ex": {
+        "t": "The sleeves are a bit short.",
+        "es": "Las mangas son un poco cortas."
+      }
+    },
+    {
+      "id": "clothes-tight",
+      "t": "tight",
+      "es": "ajustado, apretado",
+      "emoji": "🤏",
+      "pos": "adj",
+      "ex": {
+        "t": "These jeans are tighter than my old ones.",
+        "es": "Estos vaqueros aprietan más que los viejos."
+      }
+    },
+    {
+      "id": "clothes-loose",
+      "t": "loose",
+      "es": "suelto, holgado",
+      "emoji": "🌬️",
+      "pos": "adj",
+      "ex": {
+        "t": "I prefer loose clothes in summer.",
+        "es": "En verano prefiero ropa holgada."
+      },
+      "note": "Suena «lus», con s sorda."
+    },
+    {
+      "id": "clothes-better",
+      "t": "better",
+      "es": "mejor",
+      "emoji": "👍",
+      "pos": "adj",
+      "ex": {
+        "t": "The green one is better.",
+        "es": "El verde es mejor."
+      }
+    },
+    {
+      "id": "clothes-worse",
+      "t": "worse",
+      "es": "peor",
+      "emoji": "👎",
+      "pos": "adj",
+      "ex": {
+        "t": "This colour is worse for me.",
+        "es": "Este color me queda peor."
+      }
+    }
+  ],
+  "grammar": "en-g-comparatives",
+  "pron": {
+    "title": "La palabra «than» se dice flojito",
+    "tip": "En una frase, than suena muy débil, casi «dhen»: cheaper than = «CHÍ-pa-dhen». La th es como la d de «nada», con la lengua entre los dientes.",
+    "words": [
+      "than",
+      "cheaper than",
+      "warmer than",
+      "better than"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "The blue jumper is ___ than the red one.",
+      "options": [
+        "cheaper",
+        "more cheap"
+      ],
+      "answer": "cheaper",
+      "why": "Cheap es corto: cheaper.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Trainers are ___ than shoes.",
+      "options": [
+        "more comfortable",
+        "comfortabler"
+      ],
+      "answer": "more comfortable",
+      "why": "Comfortable es largo: more comfortable.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "This coat is ___ than my old one.",
+      "options": [
+        "better",
+        "gooder",
+        "more good"
+      ],
+      "answer": "better",
+      "why": "Good → better.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "These jeans are ___ than my old ones. (tight)",
+      "es": "Estos vaqueros aprietan más que los viejos.",
+      "answer": [
+        "tighter"
+      ],
+      "bank": [
+        "tighter",
+        "more tight",
+        "tightter"
+      ],
+      "why": "Tight, una sílaba: tighter.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "The wool scarf is warmer ___ the cotton one.",
+      "es": "La bufanda de lana abriga más que la de algodón.",
+      "answer": [
+        "than"
+      ],
+      "bank": [
+        "than",
+        "that",
+        "as"
+      ],
+      "why": "«Que» al comparar = than.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "This skirt is ___ than the black one. (short)",
+      "es": "Esta falda es más corta que la negra.",
+      "answer": [
+        "shorter"
+      ],
+      "why": "Short → shorter.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e7",
+      "type": "conjugate",
+      "verb": "big",
+      "person": "comparativo",
+      "tense": "comparativo",
+      "q": "Do you have a ___ size?",
+      "answer": [
+        "bigger"
+      ],
+      "table": [
+        [
+          "corto",
+          "cheap → cheaper"
+        ],
+        [
+          "doble",
+          "big → bigger"
+        ],
+        [
+          "largo",
+          "more expensive"
+        ],
+        [
+          "irregular",
+          "good → better"
+        ]
+      ],
+      "why": "Big dobla la g: bigger.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "The leather bag is more expensiver.",
+      "wrong": "expensiver",
+      "fix": "expensive",
+      "why": "Con more el adjetivo no cambia: more expensive.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "This T-shirt is bigger that the white one.",
+      "wrong": "that",
+      "fix": "than",
+      "why": "Al comparar, «que» es than, nunca that.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Este abrigo es más calentito que el otro",
+      "answer": "This coat is warmer than the other one",
+      "extra": [
+        "more",
+        "that"
+      ],
+      "why": "Warm → warmer + than.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Las zapatillas son más cómodas.",
+      "answer": [
+        "The trainers are more comfortable.",
+        "Trainers are more comfortable."
+      ],
+      "why": "Adjetivo largo: more comfortable.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Tu amiga se prueba dos vestidos. El verde le queda mejor.",
+      "emoji": "👗",
+      "options": [
+        "The green one is better.",
+        "The green one is more good.",
+        "The green one is gooder."
+      ],
+      "answer": "The green one is better.",
+      "why": "Mejor = better.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "cheap",
+          "cheaper"
+        ],
+        [
+          "long",
+          "longer"
+        ],
+        [
+          "loose",
+          "looser"
+        ],
+        [
+          "bad",
+          "worse"
+        ],
+        [
+          "comfortable",
+          "more comfortable"
+        ]
+      ],
+      "why": "-er para cortos, more para largos, y los irregulares.",
+      "g": "en-g-comparatives"
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "cheap",
+        "cheaper"
+      ],
+      "answer": "cheaper",
+      "es": [
+        "barato",
+        "más barato"
+      ],
+      "why": "La -er final suena como una «a» débil (/ə/): «CHÍ-pa», sin r."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "This one is cheaper and more comfortable.",
+      "es": "Este es más barato y más cómodo."
+    }
+  ],
+  "dialog": {
+    "title": "¿El azul o el gris?",
+    "setting": "En una tienda de ropa de Londres, Yolanda compra un jersey de regalo con su amiga Pilar",
+    "emoji": "🧶",
+    "lines": [
+      {
+        "who": "Pilar",
+        "t": "Which jumper do you like?",
+        "es": "¿Qué jersey te gusta?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "The blue one. It's softer than the grey one.",
+        "es": "El azul. Es más suave que el gris."
+      },
+      {
+        "who": "Pilar",
+        "t": "But the grey one is cheaper.",
+        "es": "Pero el gris es más barato."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, but the blue one is warmer.",
+        "es": "Sí, pero el azul abriga más."
+      },
+      {
+        "who": "Pilar",
+        "t": "Is it for your son?",
+        "es": "¿Es para tu hijo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes. He's taller than me, so a large.",
+        "es": "Sí. Es más alto que yo, así que una L."
+      },
+      {
+        "who": "Pilar",
+        "t": "Then the blue one is better.",
+        "es": "Entonces el azul es mejor."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfect. The blue one, then!",
+        "es": "Perfecto. ¡Pues el azul!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué jersey es más barato?",
+        "options": [
+          "El gris",
+          "El azul",
+          "Cuestan lo mismo"
+        ],
+        "answer": "El gris"
+      },
+      {
+        "q": "¿Para quién es el jersey?",
+        "options": [
+          "Para su hijo",
+          "Para Pilar",
+          "Para ella"
+        ],
+        "answer": "Para su hijo"
+      },
+      {
+        "q": "¿Cuál elige al final?",
+        "options": [
+          "El azul",
+          "El gris",
+          "Ninguno"
+        ],
+        "answer": "El azul"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Is this one cheaper?",
+    "es": "¿Este es más barato?",
+    "context": "Para comparar precios en una tienda"
+  },
+  "summary": [
+    "Corto + -er + than: cheaper than, warmer than",
+    "Doble consonante: big → bigger, hot → hotter",
+    "Largo: more + adjetivo: more comfortable, more expensive",
+    "Irregulares: good → better, bad → worse",
+    "«Que» al comparar = than (suena flojito)"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u03-l2"
+}

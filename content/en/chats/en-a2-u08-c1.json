@@ -1,0 +1,60 @@
+{
+  "id": "en-a2-u08-c1",
+  "unit": "en-a2-u08",
+  "title": "Pedir cita en el médico",
+  "setting": "Hoy Emma trabaja de recepcionista en un centro de salud de Bath. Llamas por teléfono porque no te encuentras bien.",
+  "emoji": "☎️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Good morning, Abbey Surgery. How can I help you?", "es": "Buenos días, centro de salud Abbey. ¿En qué puedo ayudarle?" },
+      "options": [
+        { "t": "Hello. I'd like to make an appointment, please.", "es": "Hola. Quería pedir cita, por favor.", "next": "n2", "ok": true },
+        { "t": "Hello. I must to see a doctor.", "es": "Hola. Tengo que ver a un médico.", "next": "n2", "ok": false, "feedback": "Después de must no va to: I must see a doctor. Más educado: I'd like to make an appointment." },
+        { "t": "Hello. I want a recipe, please.", "es": "Hola. Quiero una receta, por favor.", "next": "n2", "ok": false, "feedback": "Recipe es una receta de cocina. Para el médico: an appointment (cita) o a prescription (receta médica)." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Of course. What's the matter?", "es": "Claro. ¿Qué le pasa?" },
+      "options": [
+        { "t": "I've got a bad cough and a temperature.", "es": "Tengo mucha tos y fiebre.", "next": "n3", "ok": true },
+        { "t": "I'm constipated and I'm sneezing a lot.", "es": "Estoy constipada y estornudo mucho.", "next": "n3", "ok": false, "feedback": "¡Ojo! Constipated significa estreñido. Constipada = I've got a cold." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "I see. Are you registered with us?", "es": "Entiendo. ¿Está registrada en este centro?" },
+      "options": [
+        { "t": "No, I'm on holiday from Spain. Do I have to pay?", "es": "No, estoy de vacaciones desde España. ¿Tengo que pagar?", "next": "n4", "ok": true },
+        { "t": "No, I'm on holiday from Spain. Do I must pay?", "es": "No, estoy de vacaciones desde España. ¿Tengo que pagar?", "next": "n4", "ok": false, "feedback": "Must no usa do. Pregunta: Do I have to pay?" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Bring your European health card. You have to fill in a form, too.", "es": "Traiga su tarjeta sanitaria europea. También tiene que rellenar un formulario." },
+      "options": [
+        { "t": "OK. When can I come?", "es": "Vale. ¿Cuándo puedo ir?", "next": "n5", "ok": true },
+        { "t": "OK. When I can come?", "es": "Vale. ¿Cuándo puedo ir?", "next": "n5", "ok": false, "feedback": "En la pregunta, can va delante: When can I come?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Today at half past eleven. You must arrive ten minutes early.", "es": "Hoy a las once y media. Tiene que llegar diez minutos antes." },
+      "options": [
+        { "t": "Perfect. Do I have to bring anything else?", "es": "Perfecto. ¿Tengo que traer algo más?", "next": "n6", "ok": true },
+        { "t": "Perfect. Do I has to bring anything else?", "es": "Perfecto. ¿Tengo que traer algo más?", "next": "n6", "ok": false, "feedback": "Con I: Do I have to…?" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "No, you don't have to. Just your card. Get well soon!", "es": "No, no hace falta. Solo la tarjeta. ¡Que se mejore!" },
+      "options": [
+        { "t": "Thank you very much. See you later.", "es": "Muchas gracias. Hasta luego.", "next": "end", "ok": true },
+        { "t": "Thank you. You mustn't worry.", "es": "Gracias. No se preocupe.", "next": "end", "ok": false, "feedback": "Mustn't suena a prohibición. Aquí basta con «Thank you very much»." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,126 @@
+{
+  "id": "it-g-interrogativi",
+  "lang": "it",
+  "level": "A1",
+  "title": "Las palabras para preguntar",
+  "short": "Chi, che cosa, dove, quando, quanto, come, perché: preguntar casi como en español.",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "❓",
+      "title": "Preguntar en italiano",
+      "text": "Con siete palabritas podrás preguntar casi todo: precios, horarios, lugares… ¡y se parecen mucho al español!",
+      "examples": [
+        { "t": "Quanto costa?", "es": "¿Cuánto cuesta?", "hl": "Quanto" },
+        { "t": "Dov'è il bagno?", "es": "¿Dónde está el baño?", "hl": "Dov'è" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "📋",
+      "title": "Las palabras clave",
+      "text": "Fíjate: quando y quanto se escriben con qu, no con cu.",
+      "table": {
+        "head": ["Italiano", "Español"],
+        "rows": [
+          ["==chi==", "quién"],
+          ["==che cosa== / ==cosa==", "qué"],
+          ["==dove==", "dónde"],
+          ["==quando==", "cuándo"],
+          ["==quanto==", "cuánto"],
+          ["==come==", "cómo"],
+          ["==perché==", "por qué / porque"],
+          ["==quale== / ==qual è==", "cuál / cuál es"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "emoji": "➡️",
+      "title": "El orden no cambia",
+      "text": "Igual que en español: la palabra de pregunta al principio y luego el verbo. La voz sube al final.",
+      "examples": [
+        { "t": "Dove abiti?", "es": "¿Dónde vives?", "hl": "Dove" },
+        { "t": "Quando parte il treno?", "es": "¿Cuándo sale el tren?", "hl": "Quando" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "emoji": "🔢",
+      "title": "Quanto cambia",
+      "text": "Como «cuánto», concuerda: ==quanto== costa?, ==quanti== anni?, ==quante== persone? Para el precio, siempre quanto.",
+      "examples": [
+        { "t": "Quanti nipoti hai?", "es": "¿Cuántos nietos tienes?", "hl": "Quanti" },
+        { "t": "Quante pizze?", "es": "¿Cuántas pizzas?", "hl": "Quante" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "emoji": "🤷",
+      "title": "Perché: dos en uno",
+      "text": "En italiano «por qué» y «porque» son la misma palabra: ==perché==, con acento en la é.",
+      "examples": [
+        { "t": "Perché studi italiano? — Perché amo l'Italia!", "es": "¿Por qué estudias italiano? —¡Porque amo Italia!" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo!",
+      "text": "❌ ¿Dove abiti? → ✅ Dove abiti? (sin ¿). ❌ Qual'è → ✅ ==Qual è==, sin apóstrofo. ❌ Come costa? → ✅ ==Quanto== costa?"
+    },
+    {
+      "kind": "tip",
+      "emoji": "💡",
+      "title": "Tu comodín",
+      "text": "Si no entiendes algo, di: ==Come?== (¿Cómo?) o ==Scusi, può ripetere?== (Perdone, ¿puede repetir?)."
+    }
+  ],
+  "compare": {
+    "es": "¿Dónde vives? ¿Cuánto cuesta? ¿Por qué no vienes? Abrimos con ¿ y cerramos con ?.",
+    "target": "Dove abiti? Quanto costa? Perché non vieni? El mismo orden que en español, pero solo con ? al final."
+  },
+  "errors": [
+    { "wrong": "¿Dove abiti?", "right": "Dove abiti?", "why": "En italiano no existe el signo de apertura ¿: solo se escribe ? al final." },
+    { "wrong": "Qual'è il tuo numero?", "right": "Qual è il tuo numero?", "why": "Qual è se escribe sin apóstrofo, aunque mucha gente se equivoca." },
+    { "wrong": "Quanto anni hai?", "right": "Quanti anni hai?", "why": "Quanto concuerda con la palabra: anni es masculino plural, así que quanti." },
+    { "wrong": "Perche sei qui?", "right": "Perché sei qui?", "why": "Perché lleva acento en la última e." },
+    { "wrong": "Cuando arriva il treno?", "right": "Quando arriva il treno?", "why": "En italiano se escribe con qu: quando, quanto." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "___ costa il cornetto?", "options": ["Quanto", "Come", "Dove"], "answer": "Quanto", "why": "Para el precio: quanto costa? (¿cuánto cuesta?).", "g": "it-g-interrogativi" },
+    { "id": "e2", "type": "choose", "q": "___ abiti? — A Madrid.", "options": ["Dove", "Quando", "Chi"], "answer": "Dove", "why": "La respuesta es un lugar, así que dove (dónde).", "g": "it-g-interrogativi" },
+    { "id": "e3", "type": "choose", "q": "___ è quella signora? — È mia sorella.", "options": ["Chi", "Che", "Dove"], "answer": "Chi", "why": "Para preguntar por una persona: chi (quién).", "g": "it-g-interrogativi" },
+    { "id": "e4", "type": "choose", "q": "___ stai? — Bene, grazie.", "options": ["Come", "Quanto", "Perché"], "answer": "Come", "why": "Come stai? = ¿Cómo estás?", "g": "it-g-interrogativi" },
+    { "id": "e5", "type": "choose", "q": "___ arriva Hugo? — Domani.", "options": ["Quando", "Chi", "Dove"], "answer": "Quando", "why": "La respuesta es un momento (domani), así que quando.", "g": "it-g-interrogativi" },
+    { "id": "e6", "type": "choose", "q": "___ anni ha tua madre?", "options": ["Quanti", "Quanto", "Quante"], "answer": "Quanti", "why": "Anni es masculino plural: quanti anni.", "g": "it-g-interrogativi" },
+    { "id": "e7", "type": "choose", "q": "___ persone siete?", "options": ["Quante", "Quanti", "Quanto"], "answer": "Quante", "why": "Persone es femenino plural: quante persone.", "g": "it-g-interrogativi" },
+    { "id": "e8", "type": "choose", "q": "___ studi italiano? — Per viaggiare!", "options": ["Perché", "Come", "Cosa"], "answer": "Perché", "why": "Preguntas el motivo: perché (por qué).", "g": "it-g-interrogativi" },
+    { "id": "e9", "type": "fill", "q": "Che ___ mangi a pranzo?", "answer": ["cosa"], "bank": ["cosa", "chi", "come"], "why": "Che cosa = qué. También vale solo cosa o solo che.", "g": "it-g-interrogativi" },
+    { "id": "e10", "type": "fill", "q": "___ è il tuo numero di telefono?", "answer": ["Qual"], "bank": ["Qual", "Qual'", "Quale"], "why": "Delante de è se dice qual è, sin apóstrofo.", "g": "it-g-interrogativi" },
+    { "id": "e11", "type": "fill", "q": "___ si chiama tuo nipote?", "answer": ["Come"], "why": "Come si chiama? = ¿Cómo se llama?", "g": "it-g-interrogativi" },
+    { "id": "e12", "type": "fill", "q": "Di ___ sei? — Sono di Madrid.", "answer": ["dove"], "why": "Di dove sei? = ¿De dónde eres?", "g": "it-g-interrogativi" },
+    { "id": "e13", "type": "fill", "q": "___ costano le mele?", "answer": ["Quanto"], "bank": ["Quanto", "Quanti", "Quante"], "why": "Para el precio se usa quanto, aunque el verbo vaya en plural: quanto costano?", "g": "it-g-interrogativi" },
+    { "id": "e14", "type": "match", "pairs": [["Dove abiti?", "In Spagna."], ["Come ti chiami?", "Yolanda."], ["Quando parti?", "Domani."], ["Chi è?", "È mio figlio Hugo."], ["Quanto costa?", "Due euro."]], "why": "Cada pregunta pide una cosa: lugar, nombre, momento, persona, precio.", "g": "it-g-interrogativi" },
+    { "id": "e15", "type": "choose", "q": "___ cosa fai domenica?", "options": ["Che", "Chi", "Come"], "answer": "Che", "why": "Che cosa = qué. Chi es «quién».", "g": "it-g-interrogativi" },
+    { "id": "e16", "type": "error", "q": "Qual'è il tuo indirizzo?", "wrong": "Qual'è", "fix": "Qual è", "why": "Qual è se escribe sin apóstrofo.", "g": "it-g-interrogativi" },
+    { "id": "e17", "type": "error", "q": "Quanto anni ha tuo figlio?", "wrong": "Quanto", "fix": "Quanti", "why": "Anni es masculino plural: quanti anni.", "g": "it-g-interrogativi" },
+    { "id": "e18", "type": "error", "q": "Perche non vieni a cena?", "wrong": "Perche", "fix": "Perché", "why": "Perché lleva acento en la última e.", "g": "it-g-interrogativi" },
+    { "id": "e19", "type": "error", "q": "Cuando arriva il treno?", "wrong": "Cuando", "fix": "Quando", "why": "En italiano se escribe con qu: quando.", "g": "it-g-interrogativi" },
+    { "id": "e20", "type": "error", "q": "Come costa il gelato?", "wrong": "Come", "fix": "Quanto", "why": "Para el precio no se usa come, sino quanto.", "g": "it-g-interrogativi" },
+    { "id": "e21", "type": "transform", "instr": "Haz la pregunta (por el lugar, a una amiga)", "q": "Abito a Siviglia.", "answer": ["Dove abiti?", "Dove abiti"], "why": "Para el lugar, dove; con tu, abiti.", "g": "it-g-interrogativi" },
+    { "id": "e22", "type": "transform", "instr": "Haz la pregunta (por el precio)", "q": "Il biglietto costa dieci euro.", "answer": ["Quanto costa il biglietto?", "Quanto costa il biglietto", "Quanto costa?", "Quanto costa"], "why": "Para el precio: quanto costa…?", "g": "it-g-interrogativi" },
+    { "id": "e23", "type": "transform", "instr": "Haz la pregunta (por el momento)", "q": "Il treno parte alle otto.", "answer": ["Quando parte il treno?", "Quando parte il treno", "A che ora parte il treno?", "A che ora parte il treno"], "why": "Para el momento: quando? o, con la hora, a che ora?", "g": "it-g-interrogativi" },
+    { "id": "e24", "type": "transform", "instr": "Haz la pregunta (por la persona)", "q": "È mia nipote.", "answer": ["Chi è?", "Chi è"], "why": "Para preguntar por una persona: chi è?", "g": "it-g-interrogativi" },
+    { "id": "e25", "type": "order", "es": "¿Cuánto cuesta el café?", "answer": "Quanto costa il caffè", "extra": ["Come"], "why": "Mismo orden que en español: quanto + costa + il caffè.", "g": "it-g-interrogativi" },
+    { "id": "e26", "type": "order", "es": "¿Dónde está la estación?", "answer": "Dov'è la stazione", "alt": ["Dove è la stazione"], "why": "Dove + è se juntan con apóstrofo: dov'è.", "g": "it-g-interrogativi" },
+    { "id": "e27", "type": "order", "es": "¿Por qué estudias italiano?", "answer": "Perché studi italiano", "extra": ["Come"], "why": "Por qué = perché, al principio, como en español.", "g": "it-g-interrogativi" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "¿Cómo te llamas?", "answer": ["Come ti chiami?", "Come ti chiami"], "why": "Come = cómo; ti chiami = te llamas.", "g": "it-g-interrogativi" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "¿Cuántos nietos tienes?", "answer": ["Quanti nipoti hai?", "Quanti nipoti hai"], "why": "Nipoti es masculino plural: quanti nipoti.", "g": "it-g-interrogativi" },
+    { "id": "e30", "type": "translate", "dir": "from", "q": "Quando torni a casa?", "answer": ["¿Cuándo vuelves a casa?", "Cuándo vuelves a casa", "¿Cuándo regresas a casa?", "Cuándo regresas a casa"], "why": "Quando = cuándo; torni = vuelves.", "g": "it-g-interrogativi" },
+    { "id": "e31", "type": "situation", "context": "En una tienda de recuerdos quieres saber el precio de un imán.", "emoji": "🧲", "options": ["Quanto costa?", "Come costa?", "Dove costa?"], "answer": "Quanto costa?", "why": "Para el precio: quanto costa?", "g": "it-g-interrogativi" },
+    { "id": "e32", "type": "situation", "context": "Estás en un restaurante y buscas el baño.", "emoji": "🚻", "options": ["Dov'è il bagno?", "Chi è il bagno?", "Quando è il bagno?"], "answer": "Dov'è il bagno?", "why": "Para un lugar: dov'è…? (¿dónde está…?).", "g": "it-g-interrogativi" },
+    { "id": "e33", "type": "situation", "context": "Tu amiga italiana no viene a cenar y quieres saber el motivo.", "emoji": "🍝", "options": ["Perché non vieni?", "Come non vieni?", "Quanto non vieni?"], "answer": "Perché non vieni?", "why": "Para el motivo: perché? (¿por qué?).", "g": "it-g-interrogativi" }
+  ],
+  "reviewed": false
+}

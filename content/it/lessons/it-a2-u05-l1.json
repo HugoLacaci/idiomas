@@ -1,0 +1,81 @@
+{
+  "id": "it-a2-u05-l1",
+  "unit": "it-a2-u05",
+  "title": "Sole, pioggia e nuvole",
+  "goal": "a nombrar el tiempo que hace: el sol, la lluvia, las nubes, el viento y la niebla",
+  "emoji": "⛅",
+  "photoQuery": "dramatic clouds over sea coast",
+  "vocab": [
+    { "id": "meteo-il-sole", "t": "il sole", "es": "el sol", "emoji": "☀️", "pos": "n", "ex": { "t": "Oggi c'è il sole.", "es": "Hoy hace sol." } },
+    { "id": "meteo-la-pioggia", "t": "la pioggia", "es": "la lluvia", "emoji": "🌧️", "pos": "n", "ex": { "t": "La pioggia non finisce più!", "es": "¡La lluvia no se acaba nunca!" } },
+    { "id": "meteo-piove", "t": "piove", "es": "llueve", "emoji": "☔", "pos": "v", "ex": { "t": "Piove, prendo l'ombrello.", "es": "Llueve, cojo el paraguas." } },
+    { "id": "meteo-la-nuvola", "t": "la nuvola", "es": "la nube", "emoji": "☁️", "pos": "n", "ex": { "t": "Ci sono tante nuvole nere.", "es": "Hay muchas nubes negras." } },
+    { "id": "meteo-il-vento", "t": "il vento", "es": "el viento", "emoji": "🌬️", "pos": "n", "ex": { "t": "Oggi c'è molto vento.", "es": "Hoy hace mucho viento." } },
+    { "id": "meteo-la-neve", "t": "la neve", "es": "la nieve", "emoji": "❄️", "pos": "n", "ex": { "t": "In montagna c'è la neve.", "es": "En la montaña hay nieve." } },
+    { "id": "meteo-la-nebbia", "t": "la nebbia", "es": "la niebla", "emoji": "🌫️", "pos": "n", "ex": { "t": "Con la nebbia non si vede niente.", "es": "Con la niebla no se ve nada." } },
+    { "id": "meteo-il-temporale", "t": "il temporale", "es": "la tormenta", "emoji": "⛈️", "pos": "n", "ex": { "t": "Stanotte c'è stato un temporale.", "es": "Esta noche ha habido tormenta." } },
+    { "id": "meteo-il-cielo", "t": "il cielo", "es": "el cielo", "emoji": "🌤️", "pos": "n", "ex": { "t": "Il cielo è azzurro.", "es": "El cielo está azul." } },
+    { "id": "meteo-lombrello", "t": "l'ombrello", "es": "el paraguas", "emoji": "🌂", "pos": "n", "ex": { "t": "Ho dimenticato l'ombrello in albergo.", "es": "Me he dejado el paraguas en el hotel." } }
+  ],
+  "grammar": "it-g-fare-tempo",
+  "pron": {
+    "title": "NU-vo-la",
+    "tip": "Nuvola es esdrújula: el golpe va en la primera sílaba, «NU-vo-la». En cambio temporale es llana: «tem-po-RA-le».",
+    "words": ["nuvola", "nuvoloso", "temporale", "ombrello", "nebbia"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Prendi l'___: piove!", "es": "Coge el paraguas: ¡llueve!", "options": ["ombrello", "sole", "cielo"], "answer": "ombrello", "why": "Cuando llueve, l'ombrello (el paraguas).", "g": "it-g-fare-tempo" },
+    { "id": "e2", "type": "choose", "q": "Con la ___ non si vede niente.", "es": "Con la niebla no se ve nada.", "options": ["nebbia", "neve", "nuvola"], "answer": "nebbia", "why": "La nebbia = la niebla.", "g": "it-g-fare-tempo" },
+    { "id": "e3", "type": "choose", "q": "Oggi c'è il ___, andiamo in spiaggia!", "es": "Hoy hace sol, ¡vamos a la playa!", "options": ["sole", "vento", "temporale"], "answer": "sole", "why": "Para ir a la playa, il sole.", "g": "it-g-fare-tempo" },
+    { "id": "e4", "type": "fill", "q": "Il ___ è azzurro, non ci sono nuvole.", "es": "El cielo está azul, no hay nubes.", "answer": ["cielo"], "bank": ["cielo", "sole", "vento"], "why": "Il cielo = el cielo.", "g": "it-g-fare-tempo" },
+    { "id": "e5", "type": "fill", "q": "In montagna è caduta la ___.", "es": "En la montaña ha caído la nieve.", "answer": ["neve"], "bank": ["neve", "nebbia", "nuvola"], "why": "La neve = la nieve.", "g": "it-g-fare-tempo" },
+    { "id": "e6", "type": "fill", "q": "Guarda quelle ___ nere!", "es": "¡Mira esas nubes negras!", "answer": ["nuvole"], "hint": "nubes", "why": "La nuvola → le nuvole (plural).", "g": "it-g-fare-tempo" },
+    { "id": "e7", "type": "match", "pairs": [["la pioggia", "la lluvia"], ["la neve", "la nieve"], ["il vento", "el viento"], ["la nebbia", "la niebla"], ["il temporale", "la tormenta"]], "why": "Palabras del tiempo.", "g": "it-g-fare-tempo" },
+    { "id": "e8", "type": "error", "q": "Oggi c'è molto viento.", "wrong": "viento", "fix": "vento", "why": "En italiano es vento, sin i.", "g": "it-g-fare-tempo" },
+    { "id": "e9", "type": "error", "q": "Ci sono tante nube in cielo.", "wrong": "nube", "fix": "nuvole", "why": "La nube = la nuvola; en plural, le nuvole.", "g": "it-g-fare-tempo" },
+    { "id": "e10", "type": "order", "es": "Hoy hace mucho viento.", "answer": "Oggi c'è molto vento", "extra": ["fa"], "why": "El viento va con c'è: c'è vento.", "g": "it-g-fare-tempo" },
+    { "id": "e11", "type": "translate", "dir": "to", "q": "Llueve, cojo el paraguas.", "answer": ["Piove, prendo l'ombrello.", "Piove, prendo l'ombrello!"], "why": "Piove = llueve; l'ombrello = el paraguas.", "g": "it-g-fare-tempo" },
+    { "id": "e12", "type": "translate", "dir": "from", "q": "Stanotte c'è stato un temporale.", "answer": ["Esta noche ha habido una tormenta.", "Esta noche ha habido tormenta.", "Anoche hubo una tormenta.", "Anoche hubo tormenta."], "why": "Il temporale = la tormenta.", "g": "it-g-fare-tempo" },
+    { "id": "e13", "type": "situation", "context": "Estás en la ventana del hotel y ves que empieza a llover. Avisas a tu marido.", "emoji": "🌧️", "options": ["Piove! Prendiamo l'ombrello.", "C'è il sole! Andiamo al mare.", "Nevica! Prendiamo la giacca."], "answer": "Piove! Prendiamo l'ombrello.", "why": "Llueve = piove.", "g": "it-g-fare-tempo" },
+    { "id": "e14", "type": "reading", "kind": "text", "title": "El parte del tiempo", "text": "Previsioni per domani in Liguria: al mattino c'è il sole, ma nel pomeriggio arrivano le nuvole. La sera piove e c'è molto vento sul mare.", "questions": [
+      { "q": "¿Qué tiempo hará por la mañana?", "options": ["Sol", "Lluvia", "Niebla"], "answer": "Sol" },
+      { "q": "¿Qué llega por la tarde?", "options": ["Las nubes", "La nieve", "Una ola de calor"], "answer": "Las nubes" },
+      { "q": "¿Qué pasa por la noche en el mar?", "options": ["Llueve y hace viento", "Hace calor", "Está despejado"], "answer": "Llueve y hace viento" }
+    ], "g": "it-g-fare-tempo" }
+  ],
+  "dialog": {
+    "title": "¿Salimos o no?",
+    "setting": "Por la mañana, en un hotel de La Spezia, Yolanda habla con la recepcionista Elena",
+    "emoji": "🏨",
+    "lines": [
+      { "who": "Yolanda", "t": "Buongiorno! Che tempo fa oggi?", "es": "¡Buenos días! ¿Qué tiempo hace hoy?" },
+      { "who": "Elena", "t": "Adesso c'è il sole, ma ci sono delle nuvole.", "es": "Ahora hace sol, pero hay algunas nubes." },
+      { "who": "Yolanda", "t": "Piove più tardi?", "es": "¿Va a llover más tarde?" },
+      { "who": "Elena", "t": "Forse nel pomeriggio. Prenda l'ombrello!", "es": "Quizá por la tarde. ¡Coja el paraguas!" },
+      { "who": "Yolanda", "t": "E c'è vento sul mare?", "es": "¿Y hace viento en el mar?" },
+      { "who": "Elena", "t": "Un po'. Il battello parte lo stesso.", "es": "Un poco. El barco sale igualmente." },
+      { "who": "Yolanda", "t": "Perfetto, grazie mille!", "es": "¡Perfecto, muchas gracias!" }
+    ],
+    "questions": [
+      { "q": "¿Qué tiempo hace por la mañana?", "options": ["Sol con algunas nubes", "Lluvia", "Niebla"], "answer": "Sol con algunas nubes" },
+      { "q": "¿Qué le aconseja Elena?", "options": ["Coger el paraguas", "Quedarse en el hotel", "Coger un abrigo"], "answer": "Coger el paraguas" },
+      { "q": "¿Sale el barco?", "options": ["Sí, igualmente", "No, por el viento", "Solo por la tarde"], "answer": "Sí, igualmente" }
+    ]
+  },
+  "realLife": { "t": "Che tempo fa oggi?", "es": "¿Qué tiempo hace hoy?", "context": "Para preguntar en el hotel antes de salir de excursión" },
+  "same": {
+    "text": "Muchas palabras del tiempo se parecen al español: solo cambian un poquito.",
+    "examples": [
+      { "t": "il sole", "es": "el sol" },
+      { "t": "il cielo", "es": "el cielo" },
+      { "t": "la neve", "es": "la nieve" }
+    ]
+  },
+  "summary": [
+    "Il sole, la pioggia, la nuvola, il vento, la neve, la nebbia.",
+    "Piove = llueve; il temporale = la tormenta.",
+    "Prendi l'ombrello! = ¡Coge el paraguas!",
+    "Che tempo fa? = ¿Qué tiempo hace?"
+  ],
+  "reviewed": false
+}

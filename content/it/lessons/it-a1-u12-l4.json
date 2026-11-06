@@ -1,0 +1,459 @@
+{
+  "id": "it-a1-u12-l4",
+  "unit": "it-a1-u12",
+  "title": "Ieri ho ballato",
+  "goal": "a contar en pocas palabras lo que hiciste ayer y a preguntar subiendo el tono",
+  "emoji": "⏪",
+  "photoQuery": "couple dancing evening party",
+  "vocab": [
+    {
+      "id": "tempo-ieri",
+      "t": "ieri",
+      "es": "ayer",
+      "emoji": "⏪",
+      "pos": "adv",
+      "ex": {
+        "t": "Ieri ho cucinato per tutti.",
+        "es": "Ayer cociné para todos."
+      }
+    },
+    {
+      "id": "tempo-ieri-sera",
+      "t": "ieri sera",
+      "es": "anoche",
+      "emoji": "🌙",
+      "pos": "adv",
+      "ex": {
+        "t": "Ieri sera ho visto un film.",
+        "es": "Anoche vi una película."
+      }
+    },
+    {
+      "id": "tempo-stamattina",
+      "t": "stamattina",
+      "es": "esta mañana",
+      "emoji": "🌅",
+      "pos": "adv",
+      "ex": {
+        "t": "Stamattina ho camminato al parco.",
+        "es": "Esta mañana he caminado por el parque."
+      }
+    },
+    {
+      "id": "tempo-la-settimana-scorsa",
+      "t": "la settimana scorsa",
+      "es": "la semana pasada",
+      "emoji": "🗓️",
+      "pos": "phrase",
+      "ex": {
+        "t": "La settimana scorsa ho ballato tanto.",
+        "es": "La semana pasada bailé mucho."
+      }
+    },
+    {
+      "id": "tempo-ho-mangiato",
+      "t": "ho mangiato",
+      "es": "he comido / comí",
+      "emoji": "🍝",
+      "pos": "phrase",
+      "ex": {
+        "t": "Ho mangiato in un ristorante nuovo.",
+        "es": "He comido en un restaurante nuevo."
+      }
+    },
+    {
+      "id": "tempo-ho-dormito",
+      "t": "ho dormito",
+      "es": "he dormido / dormí",
+      "emoji": "😴",
+      "pos": "phrase",
+      "ex": {
+        "t": "Stanotte ho dormito poco.",
+        "es": "Esta noche he dormido poco."
+      }
+    },
+    {
+      "id": "tempo-ho-fatto",
+      "t": "ho fatto",
+      "es": "he hecho / hice",
+      "emoji": "✅",
+      "pos": "phrase",
+      "ex": {
+        "t": "Cosa hai fatto ieri?",
+        "es": "¿Qué hiciste ayer?"
+      }
+    },
+    {
+      "id": "tempo-ho-visto",
+      "t": "ho visto",
+      "es": "he visto / vi",
+      "emoji": "👀",
+      "pos": "phrase",
+      "ex": {
+        "t": "Ho visto le mie amiche.",
+        "es": "He visto a mis amigas."
+      }
+    },
+    {
+      "id": "tempo-ho-sentito",
+      "t": "ho sentito",
+      "es": "he oído / oí",
+      "emoji": "👂",
+      "pos": "phrase",
+      "note": "¡Ojo! Sentire es sobre todo «oír».",
+      "ex": {
+        "t": "Ho sentito una bella canzone.",
+        "es": "He oído una canción bonita."
+      }
+    }
+  ],
+  "grammar": "it-g-passato-prossimo-intro",
+  "pron": {
+    "title": "Preguntas que solo suben",
+    "tip": "En italiano, como en español, la pregunta de sí o no tiene las mismas palabras: solo sube el tono al final. «Hai mangiato.» baja; «Hai mangiato?» sube.",
+    "words": [
+      "Hai mangiato?",
+      "Hai dormito bene?",
+      "Ti piace?"
+    ],
+    "pairs": [
+      [
+        "Hai mangiato.",
+        "Hai mangiato?"
+      ],
+      [
+        "Ti piace.",
+        "Ti piace?"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Ieri ___ cucinato per tutti.",
+      "es": "Ayer cociné para todos.",
+      "options": [
+        "ho",
+        "hai",
+        "sono"
+      ],
+      "answer": "ho",
+      "why": "Io → ho cucinato.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Ieri sera ho ___ un film.",
+      "es": "Anoche vi una película.",
+      "options": [
+        "visto",
+        "vedo",
+        "vedito"
+      ],
+      "answer": "visto",
+      "why": "Vedere → visto.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Cosa hai ___ il fine settimana?",
+      "es": "¿Qué hiciste el fin de semana?",
+      "options": [
+        "fatto",
+        "fato",
+        "fai"
+      ],
+      "answer": "fatto",
+      "why": "Fare → fatto, con doble t.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Stamattina ho ___ al parco.",
+      "es": "Esta mañana he caminado por el parque.",
+      "answer": [
+        "camminato"
+      ],
+      "bank": [
+        "camminato",
+        "camminito",
+        "cammino"
+      ],
+      "why": "Camminare → camminato.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Stanotte ho ___ poco.",
+      "es": "Esta noche he dormido poco.",
+      "answer": [
+        "dormito"
+      ],
+      "bank": [
+        "dormito",
+        "dormato",
+        "dormo"
+      ],
+      "why": "Dormire → dormito.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "La settimana scorsa ___ ballato tanto.",
+      "es": "La semana pasada bailé mucho.",
+      "answer": [
+        "ho"
+      ],
+      "hint": "avere, io",
+      "why": "Io → ho ballato.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "Ieri ho giocado a carte.",
+      "wrong": "giocado",
+      "fix": "giocato",
+      "why": "El participio italiano lleva t: giocato.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Ieri sera io visto un film.",
+      "wrong": "io",
+      "fix": "ho",
+      "why": "Falta avere: ho visto.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Cuéntalo en pasado con ieri",
+      "q": "Ballo con mio marito.",
+      "answer": [
+        "Ieri ho ballato con mio marito."
+      ],
+      "why": "Ballo → ho ballato.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Hazla pregunta para «tú»",
+      "q": "Ho dormito bene.",
+      "answer": [
+        "Hai dormito bene?"
+      ],
+      "why": "Tu → hai dormito, y el tono sube.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Ayer comí en un restaurante nuevo.",
+      "answer": "Ieri ho mangiato in un ristorante nuovo",
+      "extra": [
+        "mangiado"
+      ],
+      "why": "Ieri + ho mangiato + lugar.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Anoche vi una película.",
+      "answer": [
+        "Ieri sera ho visto un film."
+      ],
+      "why": "Anoche = ieri sera; vi = ho visto.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "from",
+      "q": "Ho sentito una bella canzone.",
+      "answer": [
+        "He oído una canción bonita.",
+        "Oí una canción bonita.",
+        "He escuchado una canción bonita."
+      ],
+      "why": "Sentire = oír.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "Hai dormito bene.",
+        "Hai dormito bene?"
+      ],
+      "answer": "Hai dormito bene?",
+      "es": [
+        "Has dormido bien.",
+        "¿Has dormido bien?"
+      ],
+      "why": "En la pregunta el tono sube al final."
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "El lunes una amiga te pregunta qué hiciste el domingo. Viste a tus amigas.",
+      "emoji": "👭",
+      "options": [
+        "Ho visto le mie amiche.",
+        "Vedo le mie amiche.",
+        "Ho vedito le mie amiche."
+      ],
+      "answer": "Ho visto le mie amiche.",
+      "why": "Domingo pasado → ho visto.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e16",
+      "type": "match",
+      "pairs": [
+        [
+          "ieri",
+          "ayer"
+        ],
+        [
+          "ieri sera",
+          "anoche"
+        ],
+        [
+          "stamattina",
+          "esta mañana"
+        ],
+        [
+          "la settimana scorsa",
+          "la semana pasada"
+        ]
+      ],
+      "why": "Palabras para hablar del pasado."
+    },
+    {
+      "id": "e17",
+      "type": "speak",
+      "t": "Ieri sera ho visto un bel film.",
+      "es": "Anoche vi una película bonita."
+    }
+  ],
+  "dialog": {
+    "title": "¿Qué tal el sábado?",
+    "setting": "El lunes por la mañana, Yolanda se encuentra con su vecina Rosa en el ascensor",
+    "emoji": "🛗",
+    "lines": [
+      {
+        "who": "Rosa",
+        "t": "Ciao Yolanda! Cosa hai fatto sabato?",
+        "es": "¡Hola, Yolanda! ¿Qué hiciste el sábado?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Ho ballato con mio marito!",
+        "es": "¡Bailé con mi marido!"
+      },
+      {
+        "who": "Rosa",
+        "t": "Che bello! Dove?",
+        "es": "¡Qué bien! ¿Dónde?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "In piazza, con la musica dal vivo.",
+        "es": "En la plaza, con música en directo."
+      },
+      {
+        "who": "Rosa",
+        "t": "Io ho visto un film a casa.",
+        "es": "Yo vi una película en casa."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Bello?",
+        "es": "¿Estaba bien?"
+      },
+      {
+        "who": "Rosa",
+        "t": "Così così… e ho dormito sul divano!",
+        "es": "Regular… ¡y dormí en el sofá!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué hizo Yolanda el sábado?",
+        "options": [
+          "Bailó con su marido",
+          "Vio una película",
+          "Durmió"
+        ],
+        "answer": "Bailó con su marido"
+      },
+      {
+        "q": "¿Dónde bailaron?",
+        "options": [
+          "En la plaza",
+          "En casa",
+          "En un restaurante"
+        ],
+        "answer": "En la plaza"
+      },
+      {
+        "q": "¿Qué le pasó a Rosa con la película?",
+        "options": [
+          "Durmió en el sofá",
+          "Le encantó",
+          "No la vio"
+        ],
+        "answer": "Durmió en el sofá"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Cosa hai fatto di bello?",
+    "es": "¿Qué has hecho de bueno?",
+    "context": "Para preguntar a alguien por su fin de semana o sus vacaciones"
+  },
+  "same": {
+    "text": "El passato prossimo se forma como nuestro «he comido»: avere + participio. Y a veces el participio es igual que en español.",
+    "examples": [
+      {
+        "t": "Ho visto.",
+        "es": "He visto."
+      },
+      {
+        "t": "Ho cantato.",
+        "es": "He cantado."
+      },
+      {
+        "t": "Ho ballato.",
+        "es": "He bailado."
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "sentire",
+    "means": "oír (y también sentir)",
+    "looksLike": "sentir",
+    "emoji": "👂",
+    "tip": "Ho sentito un rumore = he oído un ruido. Para la radio o la música también se usa ascoltare (escuchar)."
+  },
+  "summary": [
+    "Pasado: ho + participio (ho mangiato, ho dormito).",
+    "-are → -ato, -ere → -uto, -ire → -ito.",
+    "Tres especiales: fatto, visto, letto.",
+    "Ieri, ieri sera, stamattina, la settimana scorsa.",
+    "Pregunta de sí o no: mismas palabras, el tono sube."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u12-l4"
+}

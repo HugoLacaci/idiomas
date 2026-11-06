@@ -1,0 +1,438 @@
+{
+  "id": "en-a1-u06-l4",
+  "unit": "en-a1-u06",
+  "title": "Do you…? – Yes, I do! Y la v de very",
+  "goal": "a hacer preguntas con Do you…?, contestar con Yes, I do / No, I don't y distinguir la v de la b",
+  "emoji": "❓",
+  "photoQuery": "vegetables market stall basket",
+  "vocab": [
+    {
+      "id": "do-you-like",
+      "t": "Do you like…?",
+      "es": "¿Te gusta…?",
+      "emoji": "❤️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Do you like English tea?",
+        "es": "¿Te gusta el té inglés?"
+      }
+    },
+    {
+      "id": "yes-i-do",
+      "t": "Yes, I do.",
+      "es": "Sí.",
+      "emoji": "👍",
+      "pos": "phrase",
+      "ex": {
+        "t": "Do you cook? – Yes, I do.",
+        "es": "¿Cocinas? – Sí."
+      },
+      "note": "Respuesta corta: no repitas el verbo."
+    },
+    {
+      "id": "no-i-dont",
+      "t": "No, I don't.",
+      "es": "No.",
+      "emoji": "👎",
+      "pos": "phrase",
+      "ex": {
+        "t": "Do you drive? – No, I don't.",
+        "es": "¿Conduces? – No."
+      }
+    },
+    {
+      "id": "where-do-you-live",
+      "t": "Where do you live?",
+      "es": "¿Dónde vives?",
+      "emoji": "📍",
+      "pos": "phrase",
+      "ex": {
+        "t": "Where do you live? – In Seville.",
+        "es": "¿Dónde vives? – En Sevilla."
+      }
+    },
+    {
+      "id": "what-time-do-you-get-up",
+      "t": "What time do you get up?",
+      "es": "¿A qué hora te levantas?",
+      "emoji": "🕖",
+      "pos": "phrase",
+      "ex": {
+        "t": "What time do you get up on Sundays?",
+        "es": "¿A qué hora te levantas los domingos?"
+      }
+    },
+    {
+      "id": "very-much",
+      "t": "very much",
+      "es": "mucho",
+      "emoji": "✨",
+      "pos": "adv",
+      "ex": {
+        "t": "I like London very much.",
+        "es": "Me gusta mucho Londres."
+      },
+      "note": "Very empieza con v de verdad: el labio de abajo toca los dientes."
+    },
+    {
+      "id": "vegetables",
+      "t": "vegetables",
+      "es": "verduras",
+      "emoji": "🥦",
+      "pos": "n",
+      "ex": {
+        "t": "We buy vegetables at the market.",
+        "es": "Compramos verdura en el mercado."
+      }
+    },
+    {
+      "id": "drive",
+      "t": "drive",
+      "es": "conducir",
+      "emoji": "🚗",
+      "pos": "v",
+      "ex": {
+        "t": "Do you drive in London? – No, I don't!",
+        "es": "¿Conduces en Londres? – ¡No!"
+      }
+    }
+  ],
+  "grammar": "en-g-present-simple",
+  "pron": {
+    "title": "La v y la b no son iguales",
+    "tip": "En español v y b suenan igual, pero en inglés no. Para la v, apoya los dientes de arriba en el labio de abajo y haz vibrar: «vvvery». Para la b, junta los dos labios: «berry». Prueba con have, live y love: acaban en v suave.",
+    "words": [
+      "very",
+      "have",
+      "live",
+      "vegetables",
+      "berry",
+      "best"
+    ],
+    "pairs": [
+      [
+        "very",
+        "berry"
+      ],
+      [
+        "vote",
+        "boat"
+      ],
+      [
+        "van",
+        "ban"
+      ],
+      [
+        "vest",
+        "best"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ you like coffee?",
+      "es": "¿Te gusta el café?",
+      "options": [
+        "Do",
+        "Are",
+        "Is"
+      ],
+      "answer": "Do",
+      "why": "Like es un verbo normal: Do you like…?",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Do you drive? – No, I ___.",
+      "es": "¿Conduces? – No.",
+      "options": [
+        "don't",
+        "not",
+        "no drive"
+      ],
+      "answer": "don't",
+      "why": "Respuesta corta negativa: No, I don't.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Do they live in London? – Yes, they ___.",
+      "es": "¿Viven en Londres? – Sí.",
+      "options": [
+        "do",
+        "live",
+        "are"
+      ],
+      "answer": "do",
+      "why": "Respuesta corta afirmativa: Yes, they do.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Where ___ you live?",
+      "es": "¿Dónde vives?",
+      "answer": [
+        "do"
+      ],
+      "bank": [
+        "do",
+        "are",
+        "is"
+      ],
+      "why": "Where + do + you + live.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Do you like vegetables? – Yes, I ___. Very much!",
+      "es": "¿Te gustan las verduras? – Sí. ¡Mucho!",
+      "answer": [
+        "do"
+      ],
+      "bank": [
+        "do",
+        "like",
+        "am"
+      ],
+      "why": "Yes, I do: no se repite el verbo.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e6",
+      "type": "conjugate",
+      "verb": "to get up",
+      "person": "you (pregunta)",
+      "tense": "presente",
+      "q": "What time ___ you get up?",
+      "answer": [
+        "do"
+      ],
+      "table": [
+        [
+          "pregunta",
+          "Do you get up…?"
+        ],
+        [
+          "con What time",
+          "What time do you get up?"
+        ]
+      ],
+      "why": "Con What time también hace falta do.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "You like London?",
+      "wrong": "You",
+      "fix": "Do you",
+      "why": "En inglés la pregunta empieza con Do: Do you like London?",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Do you cook? – No, I not.",
+      "wrong": "not.",
+      "fix": "don't",
+      "why": "Respuesta corta negativa: No, I don't.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "¿Te gusta el té inglés?",
+      "answer": "Do you like English tea",
+      "extra": [
+        "Are"
+      ],
+      "why": "Do + you + like.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "You walk to the market.",
+      "answer": [
+        "Do you walk to the market?"
+      ],
+      "why": "Pon Do al principio.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Contesta con una respuesta corta negativa",
+      "q": "Do you drive?",
+      "answer": [
+        "No, I don't.",
+        "No, I do not."
+      ],
+      "why": "No, I don't.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Dónde trabajáis?",
+      "answer": [
+        "Where do you work?"
+      ],
+      "why": "Where + do + you + work.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "very",
+        "berry"
+      ],
+      "answer": "very",
+      "es": [
+        "muy",
+        "baya (fruto)"
+      ],
+      "why": "Very: dientes sobre el labio. Berry: los dos labios juntos."
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "vote",
+        "boat"
+      ],
+      "answer": "boat",
+      "es": [
+        "votar",
+        "barco"
+      ],
+      "why": "Boat empieza con los labios juntos (b)."
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "vest",
+        "best"
+      ],
+      "answer": "vest",
+      "es": [
+        "camiseta interior",
+        "el mejor"
+      ],
+      "why": "Vest: dientes en el labio y vibración."
+    },
+    {
+      "id": "e16",
+      "type": "situation",
+      "context": "En un mercado inglés, el vendedor te pregunta «Do you like strawberries?». A ti te encantan.",
+      "emoji": "🍓",
+      "options": [
+        "Yes, I do. Very much!",
+        "Yes, I like. Very much!",
+        "Yes, I am. Very much!"
+      ],
+      "answer": "Yes, I do. Very much!",
+      "why": "Respuesta corta a Do you…?: Yes, I do.",
+      "g": "en-g-present-simple"
+    }
+  ],
+  "dialog": {
+    "title": "Una encuesta en la calle",
+    "setting": "En Londres, una chica hace una encuesta a Yolanda sobre su rutina",
+    "emoji": "📋",
+    "lines": [
+      {
+        "who": "Kate",
+        "t": "Excuse me, can I ask you some questions?",
+        "es": "Perdone, ¿le puedo hacer unas preguntas?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, of course.",
+        "es": "Sí, claro."
+      },
+      {
+        "who": "Kate",
+        "t": "Do you live in London?",
+        "es": "¿Vive en Londres?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, I don't. I live in Spain.",
+        "es": "No. Vivo en España."
+      },
+      {
+        "who": "Kate",
+        "t": "Do you eat vegetables every day?",
+        "es": "¿Come verdura todos los días?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I do. Very good for you!",
+        "es": "Sí. ¡Es muy buena para la salud!"
+      },
+      {
+        "who": "Kate",
+        "t": "And do you drive?",
+        "es": "¿Y conduce?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Not in London! Here you drive on the left!",
+        "es": "¡En Londres no! ¡Aquí se conduce por la izquierda!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Vive Yolanda en Londres?",
+        "options": [
+          "No, vive en España",
+          "Sí",
+          "Sí, desde hace un año"
+        ],
+        "answer": "No, vive en España"
+      },
+      {
+        "q": "¿Come verdura todos los días?",
+        "options": [
+          "Sí",
+          "No",
+          "Solo los domingos"
+        ],
+        "answer": "Sí"
+      },
+      {
+        "q": "¿Por qué no conduce en Londres?",
+        "options": [
+          "Porque allí se conduce por la izquierda",
+          "Porque no tiene coche",
+          "Porque no tiene carné"
+        ],
+        "answer": "Porque allí se conduce por la izquierda"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Do you speak Spanish?",
+    "es": "¿Habla usted español?",
+    "context": "Cuando necesitas ayuda y no te salen las palabras"
+  },
+  "summary": [
+    "Preguntas: Do you like…? / Where do you live?",
+    "Respuestas cortas: Yes, I do. / No, I don't.",
+    "❌ You like London? → ✅ Do you like London?",
+    "v (dientes en el labio) ≠ b (labios juntos): very / berry"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u06-l4"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "it-a2-u09-c3",
+  "unit": "it-a2-u09",
+  "title": "Italia y España",
+  "setting": "Giulia quiere visitar España y te pregunta por tu tierra",
+  "emoji": "🇪🇸",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Il prossimo anno vengo in Spagna! Qual è la città più bella?", "es": "¡El año que viene voy a España! ¿Cuál es la ciudad más bonita?" },
+      "options": [
+        { "t": "Per me Granada è la città più bella della Spagna.", "es": "Para mí Granada es la ciudad más bonita de España.", "next": "n2", "ok": true },
+        { "t": "Per me Granada è la città più bella que Spagna.", "es": "Para mí Granada es la ciudad más bonita de España.", "next": "n2", "ok": false, "feedback": "El más … de = il più … di (della Spagna)." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "E il cibo? È meglio quello spagnolo o quello italiano?", "es": "¿Y la comida? ¿Es mejor la española o la italiana?" },
+      "options": [
+        { "t": "Sono buonissimi tutti e due!", "es": "¡Las dos son buenísimas!", "next": "n3", "ok": true },
+        { "t": "Il cibo spagnolo è migliore, naturalmente!", "es": "¡La comida española es mejor, naturalmente!", "next": "n3", "ok": true },
+        { "t": "Il cibo spagnolo è più migliore!", "es": "¡La comida española es mejor!", "next": "n3", "ok": false, "feedback": "Migliore ya es «más bueno»: sin più." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Ahah! E fa più caldo in Spagna che in Italia?", "es": "¡Jaja! ¿Y hace más calor en España que en Italia?" },
+      "options": [
+        { "t": "Al sud d'estate fa caldissimo, come in Sicilia.", "es": "En el sur, en verano hace muchísimo calor, como en Sicilia.", "next": "n4", "ok": true },
+        { "t": "Al sud d'estate fa più caldissimo.", "es": "En el sur, en verano hace muchísimo calor.", "next": "n4", "ok": false, "feedback": "Nunca più + -issimo: fa caldissimo." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E il tuo paese? Com'è?", "es": "¿Y tu pueblo? ¿Cómo es?" },
+      "options": [
+        { "t": "È piccolo, ma è più tranquillo della città.", "es": "Es pequeño, pero es más tranquilo que la ciudad.", "next": "n5", "ok": true },
+        { "t": "È piccolo, ma è più tranquillo di la città.", "es": "Es pequeño, pero es más tranquilo que la ciudad.", "next": "n5", "ok": false, "feedback": "Di + la = della: più tranquillo della città." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Che bello! Mi porti a vederlo?", "es": "¡Qué bonito! ¿Me llevas a verlo?" },
+      "options": [
+        { "t": "Certo! Vieni a trovarmi quando vuoi.", "es": "¡Claro! Ven a verme cuando quieras.", "next": "n6", "ok": true },
+        { "t": "Certo! Venga a trovarmi quando vuole.", "es": "¡Claro! Venga a verme cuando quiera.", "next": "n6", "ok": false, "feedback": "Giulia es tu amiga: de tú. Vieni a trovarmi." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Sei gentilissima! Non vedo l'ora.", "es": "¡Eres un encanto! Estoy deseándolo." },
+      "options": [
+        { "t": "Anch'io! Sarà bellissimo.", "es": "¡Yo también! Será precioso.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

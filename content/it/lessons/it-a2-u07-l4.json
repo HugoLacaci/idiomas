@@ -1,0 +1,79 @@
+{
+  "id": "it-a2-u07-l4",
+  "unit": "it-a2-u07",
+  "title": "Che stai facendo?",
+  "goal": "a contar lo que estás haciendo justo ahora con stare + gerundio",
+  "emoji": "⏳",
+  "photoQuery": "woman cooking kitchen phone",
+  "vocab": [
+    { "id": "tel-che-stai-facendo", "t": "Che stai facendo?", "es": "¿Qué estás haciendo?", "emoji": "🤔", "pos": "phrase", "ex": { "t": "Ciao mamma! Che stai facendo?", "es": "¡Hola, mamá! ¿Qué estás haciendo?" } },
+    { "id": "tel-sto-arrivando", "t": "Sto arrivando!", "es": "¡Ya voy! / ¡Estoy llegando!", "emoji": "🏃‍♀️", "pos": "phrase", "ex": { "t": "Scusa il ritardo, sto arrivando!", "es": "Perdona el retraso, ¡ya llego!" } },
+    { "id": "tel-sto-guidando", "t": "Sto guidando.", "es": "Estoy conduciendo.", "emoji": "🚗", "pos": "phrase", "ex": { "t": "Non posso rispondere, sto guidando.", "es": "No puedo contestar, estoy conduciendo." } },
+    { "id": "tel-sto-cucinando", "t": "Sto cucinando.", "es": "Estoy cocinando.", "emoji": "🍳", "pos": "phrase", "ex": { "t": "Sto cucinando la paella per tutti.", "es": "Estoy cocinando la paella para todos." } },
+    { "id": "tel-sto-facendo-la-spesa", "t": "Sto facendo la spesa.", "es": "Estoy haciendo la compra.", "emoji": "🛒", "pos": "phrase", "ex": { "t": "Sto facendo la spesa al mercato.", "es": "Estoy haciendo la compra en el mercado." } },
+    { "id": "tel-sto-uscendo", "t": "Sto uscendo.", "es": "Estoy saliendo.", "emoji": "🚪", "pos": "phrase", "ex": { "t": "Ti richiamo dopo, sto uscendo.", "es": "Te llamo luego, estoy saliendo." } },
+    { "id": "tel-ti-sto-scrivendo", "t": "Ti sto scrivendo.", "es": "Te estoy escribiendo.", "emoji": "⌨️", "pos": "phrase", "ex": { "t": "Aspetta, ti sto scrivendo un messaggio.", "es": "Espera, te estoy escribiendo un mensaje." } },
+    { "id": "tel-sto-dormendo", "t": "Stavo dormendo.", "es": "Estaba durmiendo.", "emoji": "😴", "pos": "phrase", "ex": { "t": "Scusa, stavo dormendo!", "es": "¡Perdona, estaba durmiendo!" } }
+  ],
+  "grammar": "it-g-stare-gerundio",
+  "pron": {
+    "title": "-ando y -endo",
+    "tip": "El acento cae siempre en -an- o -en-: cuci-NAN-do, scri-VEN-do. Y la d es suave, como en «cuando».",
+    "words": ["guidando", "cucinando", "facendo", "scrivendo", "dormendo"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Non posso rispondere, sto ___.", "es": "No puedo contestar, estoy conduciendo.", "options": ["guidando", "guidendo", "guidato"], "answer": "guidando", "why": "Guidare (-are) → guidando.", "g": "it-g-stare-gerundio" },
+    { "id": "e2", "type": "choose", "q": "Mio marito ___ cucinando.", "es": "Mi marido está cocinando.", "options": ["sta", "è", "stai"], "answer": "sta", "why": "Lui → sta + gerundio.", "g": "it-g-stare-gerundio" },
+    { "id": "e3", "type": "choose", "q": "Che cosa ___ facendo, ragazze?", "es": "¿Qué estáis haciendo, chicas?", "options": ["state", "stanno", "stiamo"], "answer": "state", "why": "Voi → state.", "g": "it-g-stare-gerundio" },
+    { "id": "e4", "type": "choose", "q": "Sto ___ la spesa.", "es": "Estoy haciendo la compra.", "options": ["facendo", "fando", "fatto"], "answer": "facendo", "why": "Fare es irregular: facendo.", "g": "it-g-stare-gerundio" },
+    { "id": "e5", "type": "fill", "q": "Le mie amiche ___ arrivando.", "es": "Mis amigas están llegando.", "answer": ["stanno"], "bank": ["stanno", "sono", "sta"], "why": "Loro → stanno.", "g": "it-g-stare-gerundio" },
+    { "id": "e6", "type": "fill", "q": "Aspetta, ti sto ___ un messaggio.", "es": "Espera, te estoy escribiendo un mensaje.", "answer": ["scrivendo"], "bank": ["scrivendo", "scrivando", "scritto"], "why": "Scrivere (-ere) → scrivendo.", "g": "it-g-stare-gerundio" },
+    { "id": "e7", "type": "fill", "q": "Io e mio marito stiamo ___ il film.", "es": "Mi marido y yo estamos viendo la película.", "answer": ["guardando", "vedendo"], "hint": "guardare", "why": "Guardare → guardando.", "g": "it-g-stare-gerundio" },
+    { "id": "e8", "type": "error", "q": "Sono cucinando, ti richiamo.", "wrong": "Sono", "fix": "Sto", "why": "«Estoy + gerundio» en italiano se dice con stare: sto cucinando.", "g": "it-g-stare-gerundio" },
+    { "id": "e9", "type": "error", "q": "Sto dormiendo, scusa.", "wrong": "dormiendo", "fix": "dormendo", "why": "En italiano no hay -iendo: dormire → dormendo.", "g": "it-g-stare-gerundio" },
+    { "id": "e10", "type": "order", "es": "Te llamo luego, estoy saliendo.", "answer": "Ti richiamo dopo sto uscendo", "extra": ["sono"], "why": "Sto + gerundio: sto uscendo.", "g": "it-g-stare-gerundio" },
+    { "id": "e11", "type": "transform", "instr": "Usa stare + gerundio", "q": "Mangio una pizza.", "answer": ["Sto mangiando una pizza."], "why": "Mangio → sto mangiando (ahora mismo).", "g": "it-g-stare-gerundio" },
+    { "id": "e12", "type": "conjugate", "verb": "stare + bere", "person": "tu", "tense": "presente + gerundio", "q": "Cosa ___? Un caffè?", "answer": ["stai bevendo"], "table": [["io", "sto bevendo"], ["tu", "stai bevendo"], ["lui / lei", "sta bevendo"]], "why": "Bere → bevendo (irregular), con tu: stai.", "g": "it-g-stare-gerundio" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "¿Qué estás haciendo?", "answer": ["Che stai facendo?", "Cosa stai facendo?", "Che cosa stai facendo?"], "why": "Stai + facendo.", "g": "it-g-stare-gerundio" },
+    { "id": "e14", "type": "minimal", "pair": ["sto guardando", "ho guardato"], "answer": "sto guardando", "es": ["estoy mirando", "he mirado"], "why": "Sto guardando = ahora; ho guardato = ya pasó." },
+    { "id": "e15", "type": "speak", "t": "Scusa, sto guidando. Ti richiamo dopo!", "es": "Perdona, estoy conduciendo. ¡Te llamo luego!" },
+    { "id": "e16", "type": "situation", "context": "Hugo te llama mientras cocinas para toda la familia.", "emoji": "🍳", "options": ["Ciao! Sto cucinando, ti richiamo tra poco.", "Ciao! Cucinato, ti richiamo tra poco.", "Ciao! Sono cucinando, ti richiamo tra poco."], "answer": "Ciao! Sto cucinando, ti richiamo tra poco.", "why": "Ahora mismo: sto cucinando.", "g": "it-g-stare-gerundio" }
+  ],
+  "dialog": {
+    "title": "¿Qué estáis haciendo?",
+    "setting": "Una amiga llama a Yolanda un domingo por la mañana",
+    "emoji": "📱",
+    "lines": [
+      { "who": "Marta", "t": "Ciao Yolanda! Ti disturbo? Che stai facendo?", "es": "¡Hola, Yolanda! ¿Te molesto? ¿Qué estás haciendo?" },
+      { "who": "Yolanda", "t": "Sto facendo la spesa al mercato.", "es": "Estoy haciendo la compra en el mercado." },
+      { "who": "Marta", "t": "E tuo marito?", "es": "¿Y tu marido?" },
+      { "who": "Yolanda", "t": "Lui sta preparando il pranzo a casa.", "es": "Él está preparando la comida en casa." },
+      { "who": "Marta", "t": "Che bello! Io sto bevendo un caffè in piazza.", "es": "¡Qué bien! Yo me estoy tomando un café en la plaza." },
+      { "who": "Yolanda", "t": "Aspetta… mi sta chiamando Hugo!", "es": "Espera… ¡me está llamando Hugo!" },
+      { "who": "Marta", "t": "Vai, vai! Ci sentiamo dopo.", "es": "¡Venga, venga! Luego hablamos." },
+      { "who": "Yolanda", "t": "Grazie, un bacio!", "es": "¡Gracias, un beso!" }
+    ],
+    "questions": [
+      { "q": "¿Dónde está Yolanda?", "options": ["En el mercado", "En casa", "En un bar"], "answer": "En el mercado" },
+      { "q": "¿Qué está haciendo su marido?", "options": ["Preparando la comida", "Durmiendo", "Haciendo la compra"], "answer": "Preparando la comida" },
+      { "q": "¿Por qué corta Yolanda la llamada?", "options": ["La está llamando Hugo", "Se ha quedado sin batería", "Está conduciendo"], "answer": "La está llamando Hugo" }
+    ]
+  },
+  "realLife": { "t": "Non posso parlare, sto guidando.", "es": "No puedo hablar, estoy conduciendo.", "context": "Para contestar rápido cuando no puedes atender una llamada" },
+  "same": {
+    "text": "Stare + gerundio es nuestro «estar + gerundio». ¡Pero en italiano se usa solo para lo que pasa justo en este momento!",
+    "examples": [
+      { "t": "Sto cucinando.", "es": "Estoy cocinando." },
+      { "t": "Stiamo arrivando.", "es": "Estamos llegando." },
+      { "t": "Sta dormendo.", "es": "Está durmiendo." }
+    ]
+  },
+  "summary": [
+    "Sto, stai, sta, stiamo, state, stanno + gerundio.",
+    "-are → -ando; -ere / -ire → -endo.",
+    "Irregulares: facendo, bevendo, dicendo.",
+    "Solo para lo que pasa ahora mismo: sto guidando.",
+    "En pasado: stavo dormendo (estaba durmiendo)."
+  ],
+  "reviewed": false
+}

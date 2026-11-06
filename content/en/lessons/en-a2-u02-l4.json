@@ -1,0 +1,424 @@
+{
+  "id": "en-a2-u02-l4",
+  "unit": "en-a2-u02",
+  "title": "¿Cuánto? ¿Cuántos?",
+  "goal": "a preguntar y decir cantidades con much, many, a lot of, a few y a little",
+  "emoji": "⚖️",
+  "photoQuery": "market stall fruit scales",
+  "vocab": [
+    {
+      "id": "shop-how-much",
+      "t": "How much…?",
+      "es": "¿Cuánto/a…?",
+      "emoji": "❓",
+      "pos": "phrase",
+      "ex": {
+        "t": "How much flour do we need?",
+        "es": "¿Cuánta harina necesitamos?"
+      },
+      "note": "También para el precio: How much is it?"
+    },
+    {
+      "id": "shop-how-many",
+      "t": "How many…?",
+      "es": "¿Cuántos/as…?",
+      "emoji": "🔢",
+      "pos": "phrase",
+      "ex": {
+        "t": "How many oranges would you like?",
+        "es": "¿Cuántas naranjas quiere?"
+      }
+    },
+    {
+      "id": "shop-a-lot-of",
+      "t": "a lot of",
+      "es": "mucho/a, muchos/as",
+      "emoji": "📈",
+      "pos": "phrase",
+      "ex": {
+        "t": "There are a lot of people at the market.",
+        "es": "Hay mucha gente en el mercado."
+      }
+    },
+    {
+      "id": "shop-a-few",
+      "t": "a few",
+      "es": "unos pocos, unos cuantos",
+      "emoji": "🤏",
+      "pos": "phrase",
+      "ex": {
+        "t": "I need a few onions.",
+        "es": "Necesito unas cuantas cebollas."
+      }
+    },
+    {
+      "id": "shop-a-little",
+      "t": "a little",
+      "es": "un poco de",
+      "emoji": "🧂",
+      "pos": "phrase",
+      "ex": {
+        "t": "Add a little salt.",
+        "es": "Añade un poco de sal."
+      }
+    },
+    {
+      "id": "shop-not-much",
+      "t": "not much",
+      "es": "no mucho",
+      "emoji": "📉",
+      "pos": "phrase",
+      "ex": {
+        "t": "There isn't much sugar left.",
+        "es": "No queda mucho azúcar."
+      }
+    },
+    {
+      "id": "shop-a-dozen",
+      "t": "a dozen",
+      "es": "una docena",
+      "emoji": "🥚",
+      "pos": "phrase",
+      "ex": {
+        "t": "A dozen eggs, please.",
+        "es": "Una docena de huevos, por favor."
+      },
+      "note": "Sin of: a dozen eggs."
+    },
+    {
+      "id": "shop-half-a-kilo",
+      "t": "half a kilo",
+      "es": "medio kilo",
+      "emoji": "½",
+      "pos": "phrase",
+      "ex": {
+        "t": "Half a kilo of cherries, please.",
+        "es": "Medio kilo de cerezas, por favor."
+      },
+      "note": "Fíjate en el orden: half a kilo (no «a half kilo»)."
+    }
+  ],
+  "grammar": "en-g-much-many",
+  "pron": {
+    "title": "/æ/ y /ʌ/: cap / cup",
+    "tip": "/æ/ (cap, bag) se dice con la boca muy abierta, entre a y e: «kæp». /ʌ/ (cup, much) es una a corta y relajada, como un «ah» sin fuerza. ¡Cuidado: much tiene /ʌ/!",
+    "pairs": [
+      [
+        "cap",
+        "cup"
+      ],
+      [
+        "bag",
+        "bug"
+      ],
+      [
+        "cat",
+        "cut"
+      ],
+      [
+        "ran",
+        "run"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "How ___ oranges would you like?",
+      "options": [
+        "many",
+        "much"
+      ],
+      "answer": "many",
+      "why": "Oranges se cuentan: how many.",
+      "g": "en-g-much-many"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "How ___ flour do we need?",
+      "options": [
+        "much",
+        "many"
+      ],
+      "answer": "much",
+      "why": "Flour no se cuenta: how much.",
+      "g": "en-g-much-many"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "There isn't ___ sugar left.",
+      "options": [
+        "much",
+        "many"
+      ],
+      "answer": "much",
+      "why": "Sugar incontable: much.",
+      "g": "en-g-much-many"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "A ___ eggs, please.",
+      "options": [
+        "dozen",
+        "dozen of"
+      ],
+      "answer": "dozen",
+      "why": "A dozen va sin of: a dozen eggs."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I need a ___ onions.",
+      "es": "Necesito unas cuantas cebollas.",
+      "answer": [
+        "few"
+      ],
+      "bank": [
+        "few",
+        "little",
+        "lot"
+      ],
+      "why": "Onions se cuentan: a few.",
+      "g": "en-g-much-many"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Add a ___ olive oil.",
+      "es": "Añade un poco de aceite de oliva.",
+      "answer": [
+        "little"
+      ],
+      "bank": [
+        "little",
+        "few",
+        "many"
+      ],
+      "why": "Oil no se cuenta: a little.",
+      "g": "en-g-much-many"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "There are a ___ of tourists in Portobello Road.",
+      "es": "Hay muchos turistas en Portobello Road.",
+      "answer": [
+        "lot"
+      ],
+      "why": "Afirmativa: a lot of.",
+      "g": "en-g-much-many"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "How much tomatoes do you need?",
+      "wrong": "much",
+      "fix": "many",
+      "why": "Tomatoes se cuentan: how many.",
+      "g": "en-g-much-many"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Can I have a few salt, please?",
+      "wrong": "few",
+      "fix": "little",
+      "why": "Salt no se cuenta: a little.",
+      "g": "en-g-much-many"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Haz la pregunta con how much / how many",
+      "q": "I'd like two kilos of potatoes.",
+      "answer": [
+        "How many kilos of potatoes would you like?",
+        "How many kilos would you like?"
+      ],
+      "why": "Kilos se cuentan: How many kilos…?",
+      "g": "en-g-much-many"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "¿Cuánto cuesta el queso?",
+      "answer": "How much is the cheese",
+      "extra": [
+        "many"
+      ],
+      "why": "Precio: How much is…?",
+      "g": "en-g-much-many"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Medio kilo de fresas, por favor.",
+      "answer": [
+        "Half a kilo of strawberries, please.",
+        "Half a kilo of strawberries please",
+        "Can I have half a kilo of strawberries, please?"
+      ],
+      "why": "Medio kilo = half a kilo."
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "cap",
+        "cup"
+      ],
+      "answer": "cup",
+      "es": [
+        "gorra",
+        "taza"
+      ],
+      "why": "Cup tiene /ʌ/: una a corta y relajada."
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "bag",
+        "bug"
+      ],
+      "answer": "bag",
+      "es": [
+        "bolsa",
+        "bicho"
+      ],
+      "why": "Bag tiene /æ/: boca muy abierta."
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "En la frutería te preguntan «How many lemons?». Quieres solo unos pocos.",
+      "emoji": "🍋",
+      "options": [
+        "Just a few, please.",
+        "Just a little, please.",
+        "Just much, please."
+      ],
+      "answer": "Just a few, please.",
+      "why": "Lemons se cuentan: a few.",
+      "g": "en-g-much-many"
+    },
+    {
+      "id": "e16",
+      "type": "match",
+      "pairs": [
+        [
+          "How many",
+          "apples?"
+        ],
+        [
+          "How much",
+          "milk?"
+        ],
+        [
+          "a few",
+          "carrots"
+        ],
+        [
+          "a little",
+          "cream"
+        ]
+      ],
+      "why": "many / a few con contables; much / a little con incontables.",
+      "g": "en-g-much-many"
+    }
+  ],
+  "dialog": {
+    "title": "En la frutería",
+    "setting": "Yolanda compra en un puesto de fruta en un mercado de Londres",
+    "emoji": "🍒",
+    "lines": [
+      {
+        "who": "Seller",
+        "t": "Morning! What can I get you?",
+        "es": "¡Buenos días! ¿Qué le pongo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Half a kilo of cherries, please.",
+        "es": "Medio kilo de cerezas, por favor."
+      },
+      {
+        "who": "Seller",
+        "t": "Here you are. Anything else?",
+        "es": "Aquí tiene. ¿Algo más?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Some lemons, please.",
+        "es": "Unos limones, por favor."
+      },
+      {
+        "who": "Seller",
+        "t": "How many would you like?",
+        "es": "¿Cuántos quiere?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Just a few. Four, please.",
+        "es": "Solo unos pocos. Cuatro, por favor."
+      },
+      {
+        "who": "Seller",
+        "t": "There are a lot of people today!",
+        "es": "¡Hoy hay mucha gente!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, and not much space! How much is it?",
+        "es": "¡Sí, y poco sitio! ¿Cuánto es?"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuántas cerezas compra Yolanda?",
+        "options": [
+          "Medio kilo",
+          "Un kilo",
+          "Una docena"
+        ],
+        "answer": "Medio kilo"
+      },
+      {
+        "q": "¿Cuántos limones pide?",
+        "options": [
+          "Cuatro",
+          "Dos",
+          "Una docena"
+        ],
+        "answer": "Cuatro"
+      },
+      {
+        "q": "¿Cómo está el mercado?",
+        "options": [
+          "Lleno de gente",
+          "Vacío",
+          "Cerrado"
+        ],
+        "answer": "Lleno de gente"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "How much is it?",
+    "es": "¿Cuánto es?",
+    "context": "Para preguntar el precio al pagar"
+  },
+  "summary": [
+    "How many + contables (eggs) · How much + incontables (milk) y precios",
+    "a lot of: mucho/muchos en afirmativas",
+    "a few (contables) · a little (incontables)",
+    "cap /æ/ ≠ cup /ʌ/; much suena con /ʌ/"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u02-l4"
+}

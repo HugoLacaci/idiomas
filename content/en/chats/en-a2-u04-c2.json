@@ -1,0 +1,60 @@
+{
+  "id": "en-a2-u04-c2",
+  "unit": "en-a2-u04",
+  "title": "Emma estuvo en Edimburgo",
+  "setting": "Emma vuelve de pasar el fin de semana en Edimburgo. Tú le haces preguntas.",
+  "emoji": "🏰",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! I'm back from Edinburgh!", "es": "¡Hola, Yolanda! ¡Ya he vuelto de Edimburgo!" },
+      "options": [
+        { "t": "Welcome back! How was it?", "es": "¡Bienvenida! ¿Qué tal?", "next": "n2", "ok": true },
+        { "t": "Welcome back! How were it?", "es": "¡Bienvenida! ¿Qué tal?", "next": "n2", "ok": false, "feedback": "It va con was: How was it?" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Fantastic! We visited the castle on Saturday.", "es": "¡Fantástico! El sábado visitamos el castillo." },
+      "options": [
+        { "t": "Was it crowded?", "es": "¿Había mucha gente?", "next": "n3", "ok": true },
+        { "t": "Were it crowded?", "es": "¿Había mucha gente?", "next": "n3", "ok": false, "feedback": "Con it: Was it…?" },
+        { "t": "It was crowded?", "es": "¿Había mucha gente?", "next": "n3", "ok": false, "feedback": "En inglés la pregunta da la vuelta: Was it crowded?" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Yes, very! But the views were amazing.", "es": "¡Sí, muchísima! Pero las vistas eran impresionantes." },
+      "options": [
+        { "t": "Were your friends with you?", "es": "¿Estaban tus amigos contigo?", "next": "n4", "ok": true },
+        { "t": "Was your friends with you?", "es": "¿Estaban tus amigos contigo?", "next": "n4", "ok": false, "feedback": "Your friends = they: Were…?" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Yes, my two best friends. We stayed at a little hotel.", "es": "Sí, mis dos mejores amigas. Nos alojamos en un hotelito." },
+      "options": [
+        { "t": "Was the weather good?", "es": "¿Hizo buen tiempo?", "next": "n5", "ok": true },
+        { "t": "Was the weather well?", "es": "¿Hizo buen tiempo?", "next": "n5", "ok": false, "feedback": "Weather va con el adjetivo good: Was the weather good?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "No, it rained all Sunday! We stayed in a café for hours.", "es": "¡No, llovió todo el domingo! Nos quedamos horas en un café." },
+      "options": [
+        { "t": "Oh dear! But you were very lucky on Saturday.", "es": "¡Vaya! Pero el sábado tuvisteis mucha suerte.", "next": "n6", "ok": true },
+        { "t": "Oh dear! But you was very lucky on Saturday.", "es": "¡Vaya! Pero el sábado tuvisteis mucha suerte.", "next": "n6", "ok": false, "feedback": "Con you siempre were." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "True! Next time, you can come with us.", "es": "¡Es verdad! La próxima vez puedes venir con nosotras." },
+      "options": [
+        { "t": "I'd love to!", "es": "¡Me encantaría!", "next": "end", "ok": true },
+        { "t": "I loved to!", "es": "¡Me encantaría!", "next": "end", "ok": false, "feedback": "Para el futuro: I'd love to! (loved es pasado)." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

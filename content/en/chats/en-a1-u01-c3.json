@@ -1,0 +1,47 @@
+{
+  "id": "en-a1-u01-c3",
+  "unit": "en-a1-u01",
+  "title": "En Trafalgar Square",
+  "setting": "Quedas con Emma junto a los leones de Trafalgar Square",
+  "emoji": "🦁",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "Hello, Yolanda! Sorry, am I late?", "es": "¡Hola, Yolanda! Perdona, ¿llego tarde?" },
+      "options": [
+        { "t": "No, you aren't. Don't worry!", "es": "No. ¡No te preocupes!", "next": "n2", "ok": true },
+        { "t": "No, you not.", "es": "(No, tú no.)", "next": "n2", "ok": false, "feedback": "Falta el verbo: No, you aren't." },
+        { "t": "No, I'm not late.", "es": "No, yo no llego tarde.", "next": "n2", "ok": false, "feedback": "Emma pregunta por ella. Contesta con you: No, you aren't." }
+      ] },
+    { "id": "n2", "says": { "t": "Phew! This is my friend Tom. He's Irish.", "es": "¡Uf! Este es mi amigo Tom. Es irlandés." },
+      "options": [
+        { "t": "Hello, Tom! Nice to meet you.", "es": "¡Hola, Tom! Encantada.", "next": "n3", "ok": true },
+        { "t": "Hello, Tom! Nice to meet me.", "es": "(¡Hola, Tom! Encantada de conocerme.)", "next": "n3", "ok": false, "feedback": "La frase es fija: Nice to meet you (encantada de conocerte)." }
+      ] },
+    { "id": "n3", "says": { "t": "Is this your first time here?", "es": "¿Es tu primera vez aquí?" },
+      "options": [
+        { "t": "Yes, it is. It's beautiful!", "es": "Sí. ¡Es precioso!", "next": "n4", "ok": true },
+        { "t": "Yes, it is. Is beautiful!", "es": "(Sí. ¡Es precioso!)", "next": "n4", "ok": false, "feedback": "Falta el sujeto: It's beautiful!" }
+      ] },
+    { "id": "n4", "says": { "t": "Look! That's Nelson's Column.", "es": "¡Mira! Esa es la columna de Nelson." },
+      "options": [
+        { "t": "Who is Nelson?", "es": "¿Quién es Nelson?", "next": "n5", "ok": true },
+        { "t": "What is Nelson?", "es": "¿Qué es Nelson?", "next": "n5", "ok": false, "feedback": "Para preguntar por una persona usamos who: Who is Nelson?" }
+      ] },
+    { "id": "n5", "says": { "t": "A British admiral. Trafalgar, 1805!", "es": "Un almirante británico. ¡Trafalgar, 1805!" },
+      "options": [
+        { "t": "Oh! Trafalgar is in Spain, near Cádiz!", "es": "¡Anda! Trafalgar está en España, cerca de Cádiz.", "next": "n6", "ok": true },
+        { "t": "Oh! Trafalgar are in Spain!", "es": "(¡Trafalgar están en España!)", "next": "n6", "ok": false, "feedback": "Trafalgar es un lugar (it): Trafalgar is in Spain." }
+      ] },
+    { "id": "n6", "says": { "t": "Really? Wow! Are you hungry?", "es": "¿De verdad? ¡Vaya! ¿Tienes hambre?" },
+      "options": [
+        { "t": "Yes, I'm very hungry!", "es": "¡Sí, tengo mucha hambre!", "next": "n7", "ok": true },
+        { "t": "Yes, I have hungry!", "es": "(¡Sí, tengo hambre!)", "next": "n7", "ok": false, "feedback": "Tener hambre = to be hungry: I'm hungry." }
+      ] },
+    { "id": "n7", "says": { "t": "Me too! Let's have lunch.", "es": "¡Yo también! Vamos a comer." },
+      "options": [
+        { "t": "Great idea!", "es": "¡Buena idea!", "next": "end", "ok": true },
+        { "t": "Yes, it's hungry!", "es": "(¡Sí, eso tiene hambre!)", "next": "end", "ok": false, "feedback": "It es para cosas. Basta con decir: Great idea!" }
+      ] }
+  ],
+  "reviewed": false
+}

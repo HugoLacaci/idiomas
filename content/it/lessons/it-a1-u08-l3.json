@@ -1,0 +1,448 @@
+{
+  "id": "it-a1-u08-l3",
+  "unit": "it-a1-u08",
+  "title": "A bordo: frases útiles en el tren",
+  "goal": "a entender los avisos y hablar con el revisor y con otros viajeros",
+  "emoji": "🚃",
+  "photoQuery": "train carriage seats window",
+  "vocab": [
+    {
+      "id": "treno-il-controllore",
+      "t": "il controllore",
+      "es": "el revisor",
+      "emoji": "🧑‍✈️",
+      "pos": "n",
+      "ex": {
+        "t": "Il controllore controlla i biglietti.",
+        "es": "El revisor comprueba los billetes."
+      }
+    },
+    {
+      "id": "treno-convalidare",
+      "t": "convalidare il biglietto",
+      "es": "validar el billete",
+      "emoji": "✅",
+      "pos": "phrase",
+      "note": "Algunos billetes se validan en una maquinita antes de subir.",
+      "ex": {
+        "t": "Prima di salire, convalido il biglietto.",
+        "es": "Antes de subir, valido el billete."
+      }
+    },
+    {
+      "id": "treno-la-coincidenza",
+      "t": "la coincidenza",
+      "es": "el enlace, el transbordo",
+      "emoji": "🔀",
+      "pos": "n",
+      "note": "¡Ojo! Falso amigo: aquí no es una casualidad.",
+      "ex": {
+        "t": "A Napoli ho la coincidenza per Salerno.",
+        "es": "En Nápoles tengo el enlace a Salerno."
+      }
+    },
+    {
+      "id": "treno-la-prossima-fermata",
+      "t": "la prossima fermata",
+      "es": "la próxima parada",
+      "emoji": "🔜",
+      "pos": "phrase",
+      "ex": {
+        "t": "La prossima fermata è Caserta.",
+        "es": "La próxima parada es Caserta."
+      }
+    },
+    {
+      "id": "treno-e-libero",
+      "t": "È libero?",
+      "es": "¿Está libre?",
+      "emoji": "🪑",
+      "pos": "phrase",
+      "ex": {
+        "t": "Scusi, è libero? — Sì, prego.",
+        "es": "Perdone, ¿está libre? —Sí, siéntese."
+      }
+    },
+    {
+      "id": "treno-il-finestrino",
+      "t": "il finestrino",
+      "es": "la ventanilla",
+      "emoji": "🪟",
+      "pos": "n",
+      "note": "La ventana de casa es la finestra; la del tren o el coche, il finestrino.",
+      "ex": {
+        "t": "Preferisco il posto vicino al finestrino.",
+        "es": "Prefiero el asiento de la ventanilla."
+      }
+    },
+    {
+      "id": "treno-da-che-binario",
+      "t": "Da che binario parte?",
+      "es": "¿De qué vía sale?",
+      "emoji": "🛤️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Scusi, da che binario parte il treno per Bari?",
+        "es": "Perdone, ¿de qué vía sale el tren a Bari?"
+      }
+    },
+    {
+      "id": "treno-in-orario",
+      "t": "in orario",
+      "es": "puntual, a su hora",
+      "emoji": "🕐",
+      "pos": "phrase",
+      "ex": {
+        "t": "Oggi il treno è in orario!",
+        "es": "¡Hoy el tren va puntual!"
+      }
+    },
+    {
+      "id": "treno-lo-sciopero",
+      "t": "lo sciopero",
+      "es": "la huelga",
+      "emoji": "✊",
+      "pos": "n",
+      "note": "Antes de viajar, conviene mirar si hay sciopero de trenes.",
+      "ex": {
+        "t": "Domani c'è sciopero dei treni.",
+        "es": "Mañana hay huelga de trenes."
+      }
+    }
+  ],
+  "grammar": "it-g-irregolari-andare-venire",
+  "pron": {
+    "title": "La sc de scendere",
+    "tip": "Sc delante de e/i suena «sh» suave: SHEN-de-re, u-SHI-ta, E-sce. Delante de a/o/u suena «sk»: sca-la.",
+    "words": [
+      "scendere",
+      "uscita",
+      "esci",
+      "esce",
+      "sciopero"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "Da che binario parte?",
+          "¿De qué vía sale?"
+        ],
+        [
+          "È libero?",
+          "¿Está libre?"
+        ],
+        [
+          "la prossima fermata",
+          "la próxima parada"
+        ],
+        [
+          "in orario",
+          "puntual"
+        ],
+        [
+          "Biglietti, prego.",
+          "Billetes, por favor."
+        ]
+      ],
+      "why": "Frases que oirás y dirás en cualquier tren italiano."
+    },
+    {
+      "id": "e2",
+      "type": "situation",
+      "context": "Entra el revisor y dice: «Biglietti, prego». ¿Qué le dices?",
+      "emoji": "🧑‍✈️",
+      "options": [
+        "Ecco il mio biglietto.",
+        "Vado a Roma.",
+        "È libero?"
+      ],
+      "answer": "Ecco il mio biglietto.",
+      "why": "Ecco = aquí tiene: ecco il mio biglietto."
+    },
+    {
+      "id": "e3",
+      "type": "situation",
+      "context": "Quieres sentarte al lado de un señor y no sabes si el asiento está libre.",
+      "emoji": "💺",
+      "options": [
+        "Scusi, è libero?",
+        "Scusi, è in orario?",
+        "Scusi, dove scendo?"
+      ],
+      "answer": "Scusi, è libero?",
+      "why": "Para preguntar por un asiento: è libero?"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "A Napoli ho la ___ per Salerno.",
+      "es": "En Nápoles tengo el enlace a Salerno.",
+      "options": [
+        "coincidenza",
+        "fermata",
+        "valigia"
+      ],
+      "answer": "coincidenza",
+      "why": "El tren que enlaza con el tuyo es la coincidenza."
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "Scusi, questo treno ___ a Bari?",
+      "es": "Perdone, ¿este tren va a Bari?",
+      "options": [
+        "va",
+        "vado",
+        "vanno"
+      ],
+      "answer": "va",
+      "why": "Questo treno = lui → va.",
+      "g": "it-g-irregolari-andare-venire"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "La prossima ___ è Caserta.",
+      "es": "La próxima parada es Caserta.",
+      "answer": [
+        "fermata"
+      ],
+      "bank": [
+        "fermata",
+        "coincidenza",
+        "uscita"
+      ],
+      "why": "Parada = fermata."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Signora, Lei dove ___?",
+      "es": "Señora, ¿usted dónde se baja?",
+      "answer": [
+        "scende"
+      ],
+      "why": "Lei se conjuga como lei: scende."
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Hoy el tren va puntual.",
+      "answer": "Oggi il treno è in orario",
+      "alt": [
+        "Il treno oggi è in orario",
+        "Il treno è in orario oggi"
+      ],
+      "extra": [
+        "ritardo"
+      ],
+      "why": "Puntual = in orario."
+    },
+    {
+      "id": "e9",
+      "type": "translate",
+      "dir": "to",
+      "q": "Mañana hay huelga.",
+      "answer": [
+        "Domani c'è sciopero.",
+        "Domani c'è lo sciopero.",
+        "Domani c'è uno sciopero."
+      ],
+      "why": "Hay = c'è; huelga = sciopero (con lo, porque empieza por s + consonante)."
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "from",
+      "q": "Da che binario parte il treno per Bari?",
+      "answer": [
+        "¿De qué vía sale el tren a Bari?",
+        "¿De qué vía sale el tren para Bari?",
+        "¿De qué andén sale el tren a Bari?",
+        "¿De qué andén sale el tren para Bari?"
+      ],
+      "why": "Binario = vía o andén; partire = salir (un tren)."
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Noi venimo da Madrid.",
+      "wrong": "venimo",
+      "fix": "veniamo",
+      "why": "Noi de venire es veniamo, con -iamo como todos los verbos.",
+      "g": "it-g-irregolari-andare-venire"
+    },
+    {
+      "id": "e12",
+      "type": "reading",
+      "kind": "text",
+      "title": "Aviso por megafonía",
+      "text": "Avviso ai passeggeri: il treno per Salerno è in ritardo di 20 minuti. Il treno parte dal binario 6. Ci scusiamo per il disagio.",
+      "questions": [
+        {
+          "q": "¿Qué tren va con retraso?",
+          "options": [
+            "El de Salerno",
+            "El de Roma",
+            "El de Bari"
+          ],
+          "answer": "El de Salerno"
+        },
+        {
+          "q": "¿Cuántos minutos de retraso lleva?",
+          "options": [
+            "20",
+            "6",
+            "10"
+          ],
+          "answer": "20"
+        },
+        {
+          "q": "¿De qué vía sale?",
+          "options": [
+            "De la 6",
+            "De la 20",
+            "De la 2"
+          ],
+          "answer": "De la 6"
+        }
+      ],
+      "why": "Ci scusiamo per il disagio = disculpen las molestias."
+    },
+    {
+      "id": "e13",
+      "type": "speak",
+      "t": "Scusi, è libero questo posto?",
+      "es": "Perdone, ¿está libre este asiento?"
+    },
+    {
+      "id": "e14",
+      "type": "transform",
+      "instr": "Cambia de «Lei» a «tu»",
+      "q": "Lei scende a Napoli?",
+      "answer": [
+        "Tu scendi a Napoli?",
+        "Scendi a Napoli?"
+      ],
+      "why": "Con tu, el verbo acaba en -i: scendi."
+    }
+  ],
+  "dialog": {
+    "title": "En el vagón",
+    "setting": "En un tren de Roma a Nápoles",
+    "emoji": "🚃",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Scusi, è libero questo posto?",
+        "es": "Perdone, ¿está libre este asiento?"
+      },
+      {
+        "who": "Franco",
+        "t": "Sì, prego. Lei dove va?",
+        "es": "Sí, siéntese. ¿Usted adónde va?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Vado a Napoli. E Lei?",
+        "es": "Voy a Nápoles. ¿Y usted?"
+      },
+      {
+        "who": "Franco",
+        "t": "Io scendo a Caserta. Vengo da Roma.",
+        "es": "Yo me bajo en Caserta. Vengo de Roma."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Il treno è in orario?",
+        "es": "¿El tren va puntual?"
+      },
+      {
+        "who": "Franco",
+        "t": "Sì, oggi sì! È una fortuna.",
+        "es": "Sí, ¡hoy sí! Es una suerte."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfetto. A Napoli ho la coincidenza per Salerno.",
+        "es": "Perfecto. En Nápoles tengo el enlace a Salerno."
+      },
+      {
+        "who": "Franco",
+        "t": "Allora buon viaggio, signora!",
+        "es": "¡Pues buen viaje, señora!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Dónde se baja el señor Franco?",
+        "options": [
+          "En Caserta",
+          "En Nápoles",
+          "En Salerno"
+        ],
+        "answer": "En Caserta"
+      },
+      {
+        "q": "¿De dónde viene Franco?",
+        "options": [
+          "De Roma",
+          "De Nápoles",
+          "De Bari"
+        ],
+        "answer": "De Roma"
+      },
+      {
+        "q": "¿Qué tiene Yolanda en Nápoles?",
+        "options": [
+          "Un enlace a Salerno",
+          "Una cita con el médico",
+          "Un hotel"
+        ],
+        "answer": "Un enlace a Salerno"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Scusi, è libero questo posto?",
+    "es": "Perdone, ¿está libre este asiento?",
+    "context": "Para sentarte en el tren o en una sala de espera"
+  },
+  "same": {
+    "text": "Igual que en español: muchas palabras del viaje son primas hermanas de las nuestras.",
+    "examples": [
+      {
+        "t": "il passeggero",
+        "es": "el pasajero"
+      },
+      {
+        "t": "la destinazione",
+        "es": "el destino"
+      },
+      {
+        "t": "il viaggio",
+        "es": "el viaje"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "la coincidenza",
+    "means": "el enlace, el transbordo (en trenes y autobuses)",
+    "looksLike": "la coincidencia",
+    "emoji": "🔀",
+    "tip": "En la estación, la coincidenza es el tren que enlaza con el tuyo. Perdere la coincidenza = perder el enlace."
+  },
+  "summary": [
+    "Con el revisor: Ecco il mio biglietto",
+    "Para sentarte: Scusi, è libero?",
+    "La coincidenza = el enlace",
+    "In orario = puntual; sciopero = huelga",
+    "Sc + e/i suena «sh»: scendere, uscita"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u08-l3"
+}

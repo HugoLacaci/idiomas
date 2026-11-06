@@ -1,0 +1,78 @@
+{
+  "id": "it-a2-u04-l4",
+  "unit": "it-a2-u04",
+  "title": "Ero timida e avevo le trecce",
+  "goal": "a describir cómo eras y cómo era todo con ero, avevo, facevo, y a pronunciarlos bien",
+  "emoji": "👧",
+  "photoQuery": "little girl braids countryside",
+  "vocab": [
+    { "id": "ricordi-timida", "t": "timido / timida", "es": "tímido / tímida", "emoji": "🙈", "pos": "adj", "ex": { "t": "Da piccola ero molto timida.", "es": "De pequeña era muy tímida." } },
+    { "id": "ricordi-vivace", "t": "vivace", "es": "movido, inquieto, lleno de energía", "emoji": "⚡", "pos": "adj", "ex": { "t": "Ero una bambina molto vivace.", "es": "Era una niña muy inquieta." } },
+    { "id": "ricordi-le-trecce", "t": "le trecce", "es": "las trenzas", "emoji": "👧", "pos": "n", "ex": { "t": "Avevo sempre le trecce.", "es": "Siempre llevaba trenzas." } },
+    { "id": "ricordi-i-capelli-ricci", "t": "i capelli ricci", "es": "el pelo rizado", "emoji": "🌀", "pos": "n", "ex": { "t": "La mia amica aveva i capelli ricci.", "es": "Mi amiga tenía el pelo rizado." } },
+    { "id": "ricordi-avere-paura", "t": "avere paura di", "es": "tener miedo de", "emoji": "😨", "pos": "phrase", "ex": { "t": "Avevo paura dei temporali.", "es": "Tenía miedo de las tormentas." } },
+    { "id": "ricordi-il-buio", "t": "il buio", "es": "la oscuridad", "emoji": "🌑", "pos": "n", "ex": { "t": "Avevo paura del buio.", "es": "Me daba miedo la oscuridad." } },
+    { "id": "ricordi-il-paese", "t": "il paese", "es": "el pueblo", "emoji": "🏘️", "pos": "n", "ex": { "t": "Il paese era piccolo e tranquillo.", "es": "El pueblo era pequeño y tranquilo." } },
+    { "id": "ricordi-la-campagna", "t": "la campagna", "es": "el campo", "emoji": "🌾", "pos": "n", "ex": { "t": "D'estate andavamo in campagna.", "es": "En verano íbamos al campo." } }
+  ],
+  "grammar": "it-g-imperfetto",
+  "pron": {
+    "title": "El acento de ero, avevo, facevo",
+    "tip": "Ero, avevo y facevo son llanas: «E-ro», «a-VE-vo», «fa-CE-vo». Con loro el acento NO se mueve y la palabra queda esdrújula: «E-ra-no», «a-VE-va-no», «fa-CE-va-no». ¡No digas «avevAno»!",
+    "words": ["ero", "avevo", "facevo", "erano", "avevano", "facevano"],
+    "pairs": [["avevo", "avevano"], ["facevo", "facevano"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Da piccola io ___ molto vivace.", "es": "De pequeña yo era muy inquieta.", "options": ["ero", "era", "sono stata"], "answer": "ero", "why": "Una descripción de ti en el pasado: ero.", "g": "it-g-imperfetto" },
+    { "id": "e2", "type": "choose", "q": "La mia amica ___ i capelli ricci.", "es": "Mi amiga tenía el pelo rizado.", "options": ["aveva", "avevo", "ha avuto"], "answer": "aveva", "why": "Descripción física en el pasado, lei: aveva.", "g": "it-g-imperfetto" },
+    { "id": "e3", "type": "choose", "q": "Quando ___ dieci anni, sapevo già cucinare.", "es": "Cuando tenía diez años, ya sabía cocinar.", "options": ["avevo", "ero", "facevo"], "answer": "avevo", "why": "La edad va con avere: avevo dieci anni.", "g": "it-g-imperfetto" },
+    { "id": "e4", "type": "choose", "q": "D'inverno ___ molto freddo in paese.", "es": "En invierno hacía mucho frío en el pueblo.", "options": ["faceva", "era", "aveva"], "answer": "faceva", "why": "El tiempo que hacía: faceva freddo.", "g": "it-g-imperfetto" },
+    { "id": "e5", "type": "fill", "q": "I miei nonni ___ molto gentili.", "es": "Mis abuelos eran muy amables.", "answer": ["erano"], "bank": ["erano", "eravamo", "era"], "why": "Loro → erano.", "g": "it-g-imperfetto" },
+    { "id": "e6", "type": "fill", "q": "Da bambina ___ paura del buio.", "es": "De niña tenía miedo de la oscuridad.", "answer": ["avevo"], "bank": ["avevo", "ero", "tenevo"], "why": "Avere paura: avevo paura.", "g": "it-g-imperfetto" },
+    { "id": "e7", "type": "fill", "q": "Mia madre mi ___ le trecce ogni mattina.", "es": "Mi madre me hacía las trenzas cada mañana.", "answer": ["faceva"], "hint": "fare", "why": "Fare → faceva (lei), costumbre diaria.", "g": "it-g-imperfetto" },
+    { "id": "e8", "type": "fill", "q": "La maestra ___ sempre «Silenzio, bambini!».", "es": "La maestra siempre decía «¡Silencio, niños!».", "answer": ["diceva"], "hint": "dire", "why": "Dire → diceva.", "g": "it-g-imperfetto" },
+    { "id": "e9", "type": "conjugate", "verb": "bere", "person": "noi", "tense": "imperfetto", "q": "A merenda ___ latte e cacao.", "answer": ["bevevamo"], "table": [["io", "bevevo"], ["lei", "beveva"], ["noi", "bevevamo"]], "why": "Bere → beve- + -vamo: bevevamo.", "g": "it-g-imperfetto" },
+    { "id": "e10", "type": "conjugate", "verb": "essere", "person": "tu", "tense": "imperfetto", "q": "Tu ___ timida da piccola?", "answer": ["eri"], "why": "Tu → eri.", "g": "it-g-imperfetto" },
+    { "id": "e11", "type": "error", "q": "Da piccola tenevo le trecce.", "wrong": "tenevo", "fix": "avevo", "why": "Para describir el pelo usamos avere: avevo le trecce.", "g": "it-g-imperfetto" },
+    { "id": "e12", "type": "error", "q": "In paese facevo molto caldo d'estate.", "wrong": "facevo", "fix": "faceva", "why": "El tiempo va en tercera persona: faceva caldo.", "g": "it-g-imperfetto" },
+    { "id": "e13", "type": "transform", "instr": "Pásala al imperfetto", "q": "Il paese è piccolo e c'è una sola scuola.", "answer": ["Il paese era piccolo e c'era una sola scuola."], "why": "È → era; c'è → c'era.", "g": "it-g-imperfetto" },
+    { "id": "e14", "type": "minimal", "pair": ["avevo", "avevano"], "answer": "avevano", "es": ["yo tenía", "ellos tenían"], "why": "Avevano (ellos tenían) mantiene el acento en «ve»: a-VE-va-no, con dos sílabas detrás.", "g": "it-g-imperfetto" },
+    { "id": "e15", "type": "translate", "dir": "to", "q": "Era una niña muy tímida.", "answer": ["Ero una bambina molto timida."], "why": "Io → ero; femenino: timida.", "g": "it-g-imperfetto" },
+    { "id": "e16", "type": "speak", "t": "Ero vivace, avevo le trecce e facevo sempre domande.", "es": "Era inquieta, llevaba trenzas y siempre hacía preguntas.", "g": "it-g-imperfetto" }
+  ],
+  "dialog": {
+    "title": "¿Cómo eras de pequeña?",
+    "setting": "En clase de italiano, la profesora Chiara pide a Yolanda que describa cómo era de niña",
+    "emoji": "🧑‍🏫",
+    "lines": [
+      { "who": "Chiara", "t": "Yolanda, com'eri da piccola?", "es": "Yolanda, ¿cómo eras de pequeña?" },
+      { "who": "Yolanda", "t": "Ero piccola e magra, e avevo le trecce.", "es": "Era bajita y delgada, y llevaba trenzas." },
+      { "who": "Chiara", "t": "Eri timida?", "es": "¿Eras tímida?" },
+      { "who": "Yolanda", "t": "No, ero molto vivace! Facevo sempre domande.", "es": "¡No, era muy inquieta! Siempre hacía preguntas." },
+      { "who": "Chiara", "t": "E avevi paura di qualcosa?", "es": "¿Y te daba miedo algo?" },
+      { "who": "Yolanda", "t": "Sì, del buio e dei temporali.", "es": "Sí, la oscuridad y las tormentas." },
+      { "who": "Chiara", "t": "Brava, hai usato bene l'imperfetto!", "es": "¡Muy bien, has usado bien el imperfetto!" }
+    ],
+    "questions": [
+      { "q": "¿Qué llevaba Yolanda en el pelo?", "options": ["Trenzas", "Una coleta", "Un lazo"], "answer": "Trenzas" },
+      { "q": "¿Cómo era de carácter?", "options": ["Muy inquieta", "Muy tímida", "Muy seria"], "answer": "Muy inquieta" },
+      { "q": "¿De qué tenía miedo?", "options": ["De la oscuridad y las tormentas", "De los perros", "Del colegio"], "answer": "De la oscuridad y las tormentas" }
+    ]
+  },
+  "realLife": { "t": "Da piccola ero molto vivace!", "es": "¡De pequeña era muy inquieta!", "context": "Para hablar de cómo eras de niña con tus nietos o amigas" },
+  "same": {
+    "text": "Ero, eri, era… ¡casi igual que nuestro «era, eras, era»! Y la edad, como siempre en italiano, va con avere.",
+    "examples": [
+      { "t": "Era bellissimo.", "es": "Era precioso." },
+      { "t": "Eravamo felici.", "es": "Éramos felices." },
+      { "t": "Avevo otto anni.", "es": "Tenía ocho años." }
+    ]
+  },
+  "summary": [
+    "Essere: ero, eri, era, eravamo, eravate, erano.",
+    "Fare → facevo, dire → dicevo, bere → bevevo.",
+    "Imperfetto para describir, la edad y el tiempo: avevo otto anni, faceva freddo.",
+    "Acento: a-VE-vo y a-VE-va-no (nunca «avevAno»)."
+  ],
+  "reviewed": false
+}

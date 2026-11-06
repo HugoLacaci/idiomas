@@ -1,0 +1,60 @@
+{
+  "id": "en-a2-u06-c3",
+  "unit": "en-a2-u06",
+  "title": "¿Lloverá en Oxford?",
+  "setting": "La noche antes de la excursión a Oxford, Emma te escribe para hablar del tiempo y los planes.",
+  "emoji": "🌦️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Are you ready for Oxford tomorrow?", "es": "¿Lista para Oxford mañana?" },
+      "options": [
+        { "t": "Yes! We're going to take the coach at nine.", "es": "¡Sí! Vamos a coger el autocar a las nueve.", "next": "n2", "ok": true },
+        { "t": "Yes! We're going take the coach at nine.", "es": "¡Sí! Vamos a coger el autocar a las nueve.", "next": "n2", "ok": false, "feedback": "No te comas el to: going to take." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Do you think it will rain?", "es": "¿Crees que lloverá?" },
+      "options": [
+        { "t": "I hope not! The forecast says it'll be sunny.", "es": "¡Espero que no! El pronóstico dice que hará sol.", "next": "n3", "ok": true },
+        { "t": "I hope not! The forecast says it wills be sunny.", "es": "¡Espero que no! El pronóstico dice que hará sol.", "next": "n3", "ok": false, "feedback": "Will nunca lleva -s: it will (it'll) be." },
+        { "t": "I hope no! The forecast says it'll be sunny.", "es": "¡Espero que no! El pronóstico dice que hará sol.", "next": "n3", "ok": false, "feedback": "«Espero que no» se dice I hope not." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Good! What are you going to see first?", "es": "¡Bien! ¿Qué vais a ver primero?" },
+      "options": [
+        { "t": "We're going to visit a college. I booked a guided tour.", "es": "Vamos a visitar un college. Reservé una visita guiada.", "next": "n4", "ok": true },
+        { "t": "We'll visit a college maybe. I will book a guided tour yesterday.", "es": "Quizás visitemos un college. Reservé una visita ayer.", "next": "n4", "ok": false, "feedback": "Ya está reservado: es un plan, going to. Y con yesterday, pasado: I booked." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Lovely. Are you going to go punting?", "es": "Qué bien. ¿Vais a pasear en batea?" },
+      "options": [
+        { "t": "Yes, we are. My son is going to do the hard work!", "es": "Sí. ¡Mi hijo va a hacer el trabajo duro!", "next": "n5", "ok": true },
+        { "t": "Yes, we do. My son is going to do the hard work!", "es": "Sí. ¡Mi hijo va a hacer el trabajo duro!", "next": "n5", "ok": false, "feedback": "La pregunta lleva are: Yes, we are." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ha ha! Take a jumper. It can be cold on the river.", "es": "¡Ja, ja! Llévate un jersey. En el río puede hacer frío." },
+      "options": [
+        { "t": "Good idea. I'll take one.", "es": "Buena idea. Me llevo uno.", "next": "n6", "ok": true },
+        { "t": "Good idea. I'm going to taking one.", "es": "Buena idea. Me llevo uno.", "next": "n6", "ok": false, "feedback": "Lo decides ahora: I'll take one." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Have a wonderful day! Send me photos.", "es": "¡Que paséis un día estupendo! Mándame fotos." },
+      "options": [
+        { "t": "I will, I promise! Good night, Emma.", "es": "¡Lo haré, te lo prometo! Buenas noches, Emma.", "next": "end", "ok": true },
+        { "t": "I will to, I promise! Good night, Emma.", "es": "¡Lo haré, te lo prometo! Buenas noches, Emma.", "next": "end", "ok": false, "feedback": "La respuesta corta es solo I will, sin to." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

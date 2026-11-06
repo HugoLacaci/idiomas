@@ -1,0 +1,419 @@
+{
+  "id": "en-a1-u10-l2",
+  "unit": "en-a1-u10",
+  "title": "Sé cocinar, no sé conducir",
+  "goal": "a decir lo que sabes y no sabes hacer con can y can't",
+  "emoji": "💪",
+  "photoQuery": "grandmother cooking kitchen family",
+  "vocab": [
+    {
+      "id": "can-ability",
+      "t": "can",
+      "es": "saber, poder",
+      "emoji": "💪",
+      "pos": "v",
+      "ex": {
+        "t": "I can make bread.",
+        "es": "Sé hacer pan."
+      },
+      "note": "Igual para todos: I can, she can, they can."
+    },
+    {
+      "id": "cant",
+      "t": "can't",
+      "es": "no saber, no poder",
+      "emoji": "🚫",
+      "pos": "v",
+      "ex": {
+        "t": "I can't drive.",
+        "es": "No sé conducir."
+      },
+      "note": "can't = cannot (siempre junto)."
+    },
+    {
+      "id": "a-little",
+      "t": "a little",
+      "es": "un poco",
+      "emoji": "🤏",
+      "pos": "adv",
+      "ex": {
+        "t": "I can speak English a little.",
+        "es": "Hablo un poco de inglés."
+      }
+    },
+    {
+      "id": "very-well",
+      "t": "very well",
+      "es": "muy bien",
+      "emoji": "🌟",
+      "pos": "adv",
+      "ex": {
+        "t": "She can sing very well.",
+        "es": "Canta muy bien."
+      }
+    },
+    {
+      "id": "at-all",
+      "t": "not … at all",
+      "es": "nada de nada",
+      "emoji": "❌",
+      "pos": "phrase",
+      "ex": {
+        "t": "I can't swim at all.",
+        "es": "No sé nadar nada."
+      }
+    },
+    {
+      "id": "speak-english",
+      "t": "speak English",
+      "es": "hablar inglés",
+      "emoji": "🗣️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Can you speak English?",
+        "es": "¿Hablas inglés?"
+      }
+    },
+    {
+      "id": "use-a-computer",
+      "t": "use a computer",
+      "es": "usar un ordenador",
+      "emoji": "💻",
+      "pos": "phrase",
+      "ex": {
+        "t": "My grandson can use a computer.",
+        "es": "Mi nieto sabe usar el ordenador."
+      }
+    },
+    {
+      "id": "bake-a-cake",
+      "t": "bake a cake",
+      "es": "hacer un bizcocho (al horno)",
+      "emoji": "🎂",
+      "pos": "phrase",
+      "ex": {
+        "t": "I can bake a lovely cake.",
+        "es": "Sé hacer un bizcocho buenísimo."
+      }
+    }
+  ],
+  "grammar": "en-g-can",
+  "pron": {
+    "title": "can flojito, can't fuerte",
+    "tip": "En una frase, can casi no se oye: «ai kən kuk». Can't se dice fuerte y largo, «kaant», y se nota la t. Si oyes una vocal larga y fuerte, ¡es negativo!",
+    "words": [
+      "I can cook.",
+      "I can't drive.",
+      "She can sing.",
+      "He can't swim."
+    ],
+    "pairs": [
+      [
+        "I can cook.",
+        "I can't cook."
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I ___ cook very well.",
+      "es": "Sé cocinar muy bien.",
+      "options": [
+        "can",
+        "can to",
+        "cans"
+      ],
+      "answer": "can",
+      "why": "can + verbo sin to.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "My son can ___ three languages.",
+      "es": "Mi hijo habla tres idiomas.",
+      "options": [
+        "speak",
+        "speaks",
+        "to speak"
+      ],
+      "answer": "speak",
+      "why": "Después de can, el verbo va sin -s y sin to.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "My friend ___ drive. She takes the bus.",
+      "es": "Mi amiga no sabe conducir. Va en autobús.",
+      "options": [
+        "can't",
+        "doesn't can",
+        "don't can"
+      ],
+      "answer": "can't",
+      "why": "La negativa es can't, sin don't.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "She ___ bake bread. It's delicious!",
+      "es": "Sabe hacer pan. ¡Está buenísimo!",
+      "answer": [
+        "can"
+      ],
+      "bank": [
+        "can",
+        "cans",
+        "is"
+      ],
+      "why": "can no lleva -s con she.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I can't swim ___ all.",
+      "es": "No sé nadar nada.",
+      "answer": [
+        "at"
+      ],
+      "bank": [
+        "at",
+        "in",
+        "on"
+      ],
+      "why": "Nada de nada = not … at all.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I can speak English a ___.",
+      "es": "Hablo un poco de inglés.",
+      "answer": [
+        "little",
+        "bit"
+      ],
+      "why": "Un poco = a little (o a bit).",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e7",
+      "type": "conjugate",
+      "verb": "can",
+      "person": "my husband",
+      "tense": "presente, negativa",
+      "q": "My husband ___ cook.",
+      "answer": [
+        "can't",
+        "cannot"
+      ],
+      "table": [
+        [
+          "afirmativa",
+          "can"
+        ],
+        [
+          "negativa",
+          "can't / cannot"
+        ]
+      ],
+      "why": "Negativa: can't o cannot, igual para todos.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Mi nieto sabe usar el ordenador",
+      "answer": "My grandson can use a computer",
+      "extra": [
+        "uses"
+      ],
+      "why": "can + verbo sin -s.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "No sé conducir",
+      "answer": "I can't drive",
+      "extra": [
+        "don't"
+      ],
+      "why": "Negativa con can't, sin don't.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "I know bake a chocolate cake.",
+      "wrong": "know",
+      "fix": "can",
+      "why": "Saber hacer algo = can: I can bake a chocolate cake.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "My daughter can dances flamenco.",
+      "wrong": "dances",
+      "fix": "dance",
+      "why": "El verbo detrás de can va sin -s.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e12",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "My mum can use WhatsApp.",
+      "answer": [
+        "My mum can't use WhatsApp.",
+        "My mum cannot use WhatsApp."
+      ],
+      "why": "can → can't.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "Sé hacer un bizcocho.",
+      "answer": [
+        "I can bake a cake.",
+        "I can make a cake.",
+        "I can bake a cake",
+        "I can make a cake"
+      ],
+      "why": "Saber hacer = can. Nunca «I know…».",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Te preguntan si hablas inglés. Hablas un poco.",
+      "emoji": "🗣️",
+      "options": [
+        "I can speak a little English.",
+        "I know speak a little English.",
+        "I can to speak a little English."
+      ],
+      "answer": "I can speak a little English.",
+      "why": "Saber hablar = can speak.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "I can cook.",
+        "I can't cook."
+      ],
+      "answer": "I can't cook.",
+      "es": [
+        "Sé cocinar.",
+        "No sé cocinar."
+      ],
+      "why": "Can't se oye largo y fuerte, «kaant»."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "I can cook, but I can't drive.",
+      "es": "Sé cocinar, pero no sé conducir."
+    }
+  ],
+  "dialog": {
+    "title": "La clase de inglés",
+    "setting": "Primer día de una clase de inglés en el centro cultural de un pueblo",
+    "emoji": "📚",
+    "lines": [
+      {
+        "who": "Teacher",
+        "t": "Tell me about you. What can you do?",
+        "es": "Háblame de ti. ¿Qué sabes hacer?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I can cook very well.",
+        "es": "Sé cocinar muy bien."
+      },
+      {
+        "who": "Teacher",
+        "t": "Great! Can you drive?",
+        "es": "¡Genial! ¿Sabes conducir?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I can. But I can't park!",
+        "es": "Sí. ¡Pero no sé aparcar!"
+      },
+      {
+        "who": "Teacher",
+        "t": "Ha! Me too. Can you speak English?",
+        "es": "¡Ja! Yo tampoco. ¿Hablas inglés?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "A little. I can read it, but I can't understand films.",
+        "es": "Un poco. Lo sé leer, pero no entiendo las películas."
+      },
+      {
+        "who": "Teacher",
+        "t": "No problem. You can learn here!",
+        "es": "No pasa nada. ¡Aquí puedes aprender!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I hope so!",
+        "es": "¡Eso espero!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué sabe hacer muy bien Yolanda?",
+        "options": [
+          "Cocinar",
+          "Aparcar",
+          "Ver películas"
+        ],
+        "answer": "Cocinar"
+      },
+      {
+        "q": "¿Qué no sabe hacer bien con el coche?",
+        "options": [
+          "Aparcar",
+          "Conducir",
+          "Arrancar"
+        ],
+        "answer": "Aparcar"
+      },
+      {
+        "q": "¿Qué le cuesta del inglés?",
+        "options": [
+          "Entender películas",
+          "Leer",
+          "Escribir"
+        ],
+        "answer": "Entender películas"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Sorry, I can only speak a little English.",
+    "es": "Perdone, solo hablo un poco de inglés.",
+    "context": "Cuando alguien te habla muy rápido en inglés"
+  },
+  "summary": [
+    "can = sé / puedo; can't = no sé / no puedo",
+    "Igual para todos: I can, she can (sin -s)",
+    "Detrás, el verbo sin to: I can swim",
+    "a little / very well / not at all",
+    "can suena flojo; can't, fuerte y largo"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u10-l2"
+}

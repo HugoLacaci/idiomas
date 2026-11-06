@@ -1,0 +1,103 @@
+{
+  "id": "en-b1-u07-l5",
+  "unit": "en-b1-u07",
+  "title": "Reencuentro en San Francisco",
+  "goal": "a reencontrarte con una vieja amiga, describir a tu gente y charlar con coletillas",
+  "emoji": "🌁",
+  "photoQuery": "san francisco cable car hill",
+  "vocab": [
+    { "id": "people-reunion", "t": "reunion", "es": "reencuentro", "emoji": "🫂", "pos": "n",
+      "ex": { "t": "It was a very emotional reunion.", "es": "Fue un reencuentro muy emocionante." },
+      "note": "¡Ojo! Reunión de trabajo = meeting." },
+    { "id": "people-hug", "t": "hug", "es": "abrazo; abrazar", "emoji": "🤗", "pos": "n",
+      "ex": { "t": "Come here and give me a hug!", "es": "¡Ven aquí y dame un abrazo!" } },
+    { "id": "people-catch-up", "t": "catch up", "es": "ponerse al día", "emoji": "☕", "pos": "phrase",
+      "ex": { "t": "Let's have a coffee and catch up.", "es": "Vamos a tomar un café y nos ponemos al día." } },
+    { "id": "people-you-look-well", "t": "You look well!", "es": "¡Qué buena cara tienes!", "emoji": "✨", "pos": "phrase",
+      "ex": { "t": "You look well! You haven't changed a bit.", "es": "¡Qué buena cara tienes! No has cambiado nada." } },
+    { "id": "people-old-friend", "t": "old friend", "es": "amiga de toda la vida", "emoji": "👵", "pos": "n",
+      "ex": { "t": "She's an old friend who moved to California.", "es": "Es una amiga de toda la vida que se mudó a California." },
+      "note": "Old friend = amiga desde hace mucho, no amiga mayor." },
+    { "id": "people-keep-in-touch", "t": "keep in touch", "es": "seguir en contacto", "emoji": "📲", "pos": "phrase",
+      "ex": { "t": "We've kept in touch for thirty years.", "es": "Hemos seguido en contacto durante treinta años." } },
+    { "id": "people-fog", "t": "fog", "es": "niebla", "emoji": "🌫️", "pos": "n",
+      "ex": { "t": "The fog covers the bridge most mornings.", "es": "La niebla tapa el puente casi todas las mañanas." } },
+    { "id": "people-cable-car", "t": "cable car", "es": "tranvía de cable", "emoji": "🚋", "pos": "n",
+      "ex": { "t": "The cable cars go up the steep hills.", "es": "Los tranvías de cable suben las cuestas empinadas." } }
+  ],
+  "grammar": "en-g-question-tags",
+  "pron": {
+    "title": "Repaso: coletillas que bajan",
+    "tip": "En una charla relajada, casi todas las coletillas bajan (↘): solo das conversación. Practica: You look well, don't you think? ↘ It's so steep, isn't it? ↘",
+    "words": ["isn't it?", "don't you?", "wasn't it?", "haven't we?"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "message", "title": "Mensaje de una vieja amiga",
+      "text": "Yolanda! I can't believe you're in San Francisco! I'm the friend who sat next to you at school, remember? Let's meet at the café where the cable cars stop. I'll be the one with the red scarf. Can't wait to catch up! 💕",
+      "questions": [
+        { "q": "¿De qué se conocen?", "options": ["Se sentaban juntas en el colegio", "Trabajaban juntas", "Son vecinas"], "answer": "Se sentaban juntas en el colegio" },
+        { "q": "¿Dónde quedan?", "options": ["En el café donde paran los tranvías", "En el puente", "En el hotel"], "answer": "En el café donde paran los tranvías" },
+        { "q": "¿Cómo la va a reconocer Yolanda?", "options": ["Llevará una bufanda roja", "Llevará un sombrero", "Estará con su marido"], "answer": "Llevará una bufanda roja" }
+      ] },
+    { "id": "e2", "type": "choose", "q": "You haven't changed a bit, ___?", "options": ["have you", "haven't you", "do you"], "answer": "have you",
+      "why": "Haven't → have you?", "g": "en-g-question-tags" },
+    { "id": "e3", "type": "choose", "q": "This is the café ___ we agreed to meet.", "options": ["where", "which", "who"], "answer": "where",
+      "why": "Lugar: where.", "g": "en-g-relative-clauses" },
+    { "id": "e4", "type": "choose", "q": "It was an emotional ___. We both cried.", "options": ["reunion", "meeting", "fog"], "answer": "reunion",
+      "why": "Reencuentro = reunion. Una reunión de trabajo es a meeting." },
+    { "id": "e5", "type": "fill", "q": "Let's sit down and catch ___.", "es": "Sentémonos y pongámonos al día.", "answer": ["up"], "bank": ["up", "on", "off"],
+      "why": "Ponerse al día = catch up." },
+    { "id": "e6", "type": "fill", "q": "My husband is the man ___ is taking photos.", "es": "Mi marido es el hombre que está haciendo fotos.", "answer": ["who", "that"],
+      "why": "Persona: who o that.", "g": "en-g-relative-clauses" },
+    { "id": "e7", "type": "fill", "q": "The cable cars are amazing, ___ they?", "es": "Los tranvías son una maravilla, ¿verdad?", "answer": ["aren't"], "bank": ["aren't", "don't", "isn't"],
+      "why": "Are → aren't they?", "g": "en-g-question-tags" },
+    { "id": "e8", "type": "error", "q": "We kept in touch by letter, didn't you?", "wrong": "you", "fix": "we",
+      "why": "El sujeto es we: didn't we?", "g": "en-g-question-tags" },
+    { "id": "e9", "type": "error", "q": "She's the friend which taught me to swim.", "wrong": "which", "fix": "who",
+      "why": "Persona: who.", "g": "en-g-relative-clauses" },
+    { "id": "e10", "type": "transform", "instr": "Une las frases con who", "q": "I've got a grandson. He loves trams.", "answer": ["I've got a grandson who loves trams.", "I have a grandson who loves trams.", "I've got a grandson that loves trams.", "I have a grandson that loves trams."],
+      "why": "Who sustituye a he.", "g": "en-g-relative-clauses" },
+    { "id": "e11", "type": "situation", "context": "Ves a tu vieja amiga después de muchos años. Tiene un aspecto estupendo.", "emoji": "✨",
+      "options": ["You look well!", "You look good health!", "You are good face!"], "answer": "You look well!",
+      "why": "«¡Qué buena cara tienes!» = You look well!" },
+    { "id": "e12", "type": "situation", "context": "Al despediros, quieres que sigáis en contacto.", "emoji": "📲",
+      "options": ["Let's keep in touch!", "Let's keep in contact us!", "Let's touch us!"], "answer": "Let's keep in touch!",
+      "why": "Seguir en contacto = keep in touch." },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "Hay mucha niebla hoy, ¿verdad?", "answer": ["It's very foggy today, isn't it?", "It's really foggy today, isn't it?", "There's a lot of fog today, isn't there?"],
+      "why": "It's → isn't it? (Con there's: isn't there?)", "g": "en-g-question-tags" },
+    { "id": "e14", "type": "order", "es": "Eres la amiga que siempre me hacía reír", "answer": "You're the friend who always made me laugh", "extra": ["which"],
+      "why": "Persona: who.", "g": "en-g-relative-clauses" },
+    { "id": "e15", "type": "match", "pairs": [["reunion", "reencuentro"], ["meeting", "reunión de trabajo"], ["hug", "abrazo"], ["fog", "niebla"], ["catch up", "ponerse al día"]],
+      "why": "Palabras del reencuentro." },
+    { "id": "e16", "type": "speak", "t": "It's so good to see you again, isn't it?", "es": "Qué bien volver a vernos, ¿verdad?", "g": "en-g-question-tags" }
+  ],
+  "dialog": {
+    "title": "Treinta años después",
+    "setting": "Yolanda se reencuentra con una vieja amiga del colegio en un café de San Francisco",
+    "emoji": "🫂",
+    "lines": [
+      { "who": "Old friend", "t": "Yolanda! Come here and give me a hug!", "es": "¡Yolanda! ¡Ven aquí y dame un abrazo!" },
+      { "who": "Yolanda", "t": "Oh my goodness! You look well! You haven't changed, have you?", "es": "¡Madre mía! ¡Qué buena cara tienes! No has cambiado, ¿eh?" },
+      { "who": "Old friend", "t": "Ha! A few grey hairs. How's your son?", "es": "¡Ja! Unas cuantas canas. ¿Qué tal tu hijo?" },
+      { "who": "Yolanda", "t": "He's great. He's the one who booked this trip for me.", "es": "Muy bien. Él es quien me ha reservado este viaje." },
+      { "who": "Old friend", "t": "He's very generous. You must be proud of him.", "es": "Es muy generoso. Estarás orgullosa de él." },
+      { "who": "Yolanda", "t": "I am. And this city is amazing, isn't it?", "es": "Lo estoy. Y esta ciudad es increíble, ¿verdad?" },
+      { "who": "Old friend", "t": "Except the fog! Now, let's catch up properly.", "es": "¡Menos la niebla! Bueno, vamos a ponernos al día como es debido." },
+      { "who": "Yolanda", "t": "And this time, let's keep in touch!", "es": "¡Y esta vez, sigamos en contacto!" }
+    ],
+    "questions": [
+      { "q": "¿Quién le reservó el viaje a Yolanda?", "options": ["Su hijo", "Su amiga", "Su marido"], "answer": "Su hijo" },
+      { "q": "¿Qué no le gusta a la amiga de la ciudad?", "options": ["La niebla", "Las cuestas", "Los tranvías"], "answer": "La niebla" },
+      { "q": "¿Qué deciden al final?", "options": ["Seguir en contacto", "Volver a España juntas", "Ir al puente"], "answer": "Seguir en contacto" }
+    ]
+  },
+  "realLife": { "t": "Let's keep in touch!", "es": "¡Sigamos en contacto!", "context": "Para despedirte de alguien a quien quieres volver a ver" },
+  "summary": [
+    "Reencuentros: reunion, hug, catch up, You look well!, keep in touch",
+    "¡Ojo! reunion = reencuentro; reunión de trabajo = meeting",
+    "Describir: the friend who…, the café where…",
+    "Charlar con coletillas: It's amazing, isn't it? ↘",
+    "San Francisco: fog, cable cars y el Golden Gate en International Orange"
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,66 @@
+{
+  "id": "en-b1-u04-c3",
+  "unit": "en-b1-u04",
+  "title": "Cuatro estaciones en Melbourne",
+  "setting": "Estás en Melbourne. Emma te llama para ver qué tal y el tiempo no para de cambiar.",
+  "emoji": "🚋",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "G'day, Yolanda! How's Melbourne?", "es": "¡Hola, Yolanda! (como dicen allí) ¿Qué tal Melbourne?" },
+      "options": [
+        { "t": "Crazy! This morning it was sunny, and now it's raining.", "es": "¡Una locura! Esta mañana hacía sol, y ahora está lloviendo.", "next": "n2", "ok": true },
+        { "t": "Crazy! This morning it was sunny, and now it rains every day.", "es": "¡Una locura! Esta mañana hacía sol, y ahora llueve todos los días.", "next": "n2", "ok": false, "feedback": "Lo que pasa ahora mismo: presente continuo, it's raining." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Ha ha! They say Melbourne has four seasons in one day.", "es": "¡Ja, ja! Dicen que Melbourne tiene cuatro estaciones en un día." },
+      "options": [
+        { "t": "It's true! If you go out, you need a raincoat and sunglasses.", "es": "¡Es verdad! Si sales, necesitas chubasquero y gafas de sol.", "next": "n3", "ok": true },
+        { "t": "It's true! If you will go out, you need a raincoat and sunglasses.", "es": "¡Es verdad! Si sales, necesitas chubasquero y gafas de sol.", "next": "n3", "ok": false, "feedback": "Después de if no va will: if you go out." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "What are you going to do this afternoon?", "es": "¿Qué vas a hacer esta tarde?" },
+      "options": [
+        { "t": "If it stops raining, I'll walk to the botanic gardens.", "es": "Si para de llover, iré andando al jardín botánico.", "next": "n4", "ok": true },
+        { "t": "If it stops raining, I walked to the botanic gardens.", "es": "Si para de llover, iré andando al jardín botánico.", "next": "n4", "ok": false, "feedback": "Es un plan futuro: I'll walk." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "And if it doesn't stop?", "es": "¿Y si no para?" },
+      "options": [
+        { "t": "Then I'll take a tram and visit a museum.", "es": "Entonces cogeré un tranvía y visitaré un museo.", "next": "n5", "ok": true },
+        { "t": "Then I'll take a tempest and visit a museum.", "es": "Entonces cogeré un tranvía y visitaré un museo.", "next": "n5", "ok": false, "feedback": "¡Ja, ja! Tempest es una tempestad. Tranvía = tram." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Good idea. Are the trams expensive?", "es": "Buena idea. ¿Son caros los tranvías?" },
+      "options": [
+        { "t": "No! If you stay in the city centre, they're free.", "es": "¡No! Si te quedas en el centro, son gratis.", "next": "n6", "ok": true },
+        { "t": "No! Unless you stay in the city centre, they're free.", "es": "¡No! Si te quedas en el centro, son gratis.", "next": "n6", "ok": false, "feedback": "Unless = a menos que: diría lo contrario. Aquí va if." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Brilliant! Call me when you get back to the hotel.", "es": "¡Genial! Llámame cuando vuelvas al hotel." },
+      "options": [
+        { "t": "I will. I'll call you as soon as I arrive.", "es": "Lo haré. Te llamo en cuanto llegue.", "next": "n7", "ok": true },
+        { "t": "I will. I'll call you as soon as I'll arrive.", "es": "Lo haré. Te llamo en cuanto llegue.", "next": "n7", "ok": false, "feedback": "Después de as soon as, presente: as soon as I arrive." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Oh, look out of the window. Is the sun out again?", "es": "Oye, mira por la ventana. ¿Ha vuelto a salir el sol?" },
+      "options": [
+        { "t": "Yes! Unbelievable! Bye, Emma, I'm off to the gardens!", "es": "¡Sí! ¡Increíble! ¡Adiós, Emma, me voy a los jardines!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

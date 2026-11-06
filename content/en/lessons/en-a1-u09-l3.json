@@ -1,0 +1,473 @@
+{
+  "id": "en-a1-u09-l3",
+  "unit": "en-a1-u09",
+  "title": "Una mesa para dos",
+  "goal": "a desenvolverte en un restaurante: reservar mesa, pedir los platos y pedir la cuenta",
+  "emoji": "🍽️",
+  "photoQuery": "restaurant table set dinner",
+  "vocab": [
+    {
+      "id": "a-table-for-two",
+      "t": "A table for two, please.",
+      "es": "Una mesa para dos, por favor.",
+      "emoji": "🪑",
+      "pos": "phrase",
+      "ex": {
+        "t": "Hello! A table for two, please.",
+        "es": "¡Hola! Una mesa para dos, por favor."
+      }
+    },
+    {
+      "id": "the-menu",
+      "t": "the menu",
+      "es": "la carta, el menú",
+      "emoji": "📜",
+      "pos": "n",
+      "ex": {
+        "t": "Could I see the menu, please?",
+        "es": "¿Puedo ver la carta, por favor?"
+      }
+    },
+    {
+      "id": "a-starter",
+      "t": "a starter",
+      "es": "un entrante, un primero",
+      "emoji": "🥣",
+      "pos": "n",
+      "ex": {
+        "t": "Soup for a starter.",
+        "es": "Sopa de primero."
+      }
+    },
+    {
+      "id": "a-main-course",
+      "t": "a main course",
+      "es": "un plato principal, un segundo",
+      "emoji": "🍖",
+      "pos": "n",
+      "ex": {
+        "t": "Chicken for my main course.",
+        "es": "Pollo de segundo."
+      }
+    },
+    {
+      "id": "a-dessert",
+      "t": "a dessert",
+      "es": "un postre",
+      "emoji": "🍮",
+      "pos": "n",
+      "ex": {
+        "t": "Would you like a dessert?",
+        "es": "¿Quiere postre?"
+      },
+      "note": "En el Reino Unido también se dice pudding."
+    },
+    {
+      "id": "the-bill",
+      "t": "the bill",
+      "es": "la cuenta",
+      "emoji": "🧾",
+      "pos": "n",
+      "ex": {
+        "t": "Could I have the bill, please?",
+        "es": "¿Me trae la cuenta, por favor?"
+      },
+      "note": "En EE. UU.: the check."
+    },
+    {
+      "id": "a-knife-and-fork",
+      "t": "a knife and fork",
+      "es": "un cuchillo y un tenedor",
+      "emoji": "🍴",
+      "pos": "n",
+      "ex": {
+        "t": "Could I have a knife and fork?",
+        "es": "¿Me trae un cuchillo y un tenedor?"
+      },
+      "note": "La k de knife no se pronuncia: «naif»."
+    },
+    {
+      "id": "a-spoon",
+      "t": "a spoon",
+      "es": "una cuchara",
+      "emoji": "🥄",
+      "pos": "n",
+      "ex": {
+        "t": "A spoon for the soup, please.",
+        "es": "Una cuchara para la sopa, por favor."
+      }
+    },
+    {
+      "id": "a-dish",
+      "t": "a dish",
+      "es": "un plato (de comida)",
+      "emoji": "🥘",
+      "pos": "n",
+      "ex": {
+        "t": "Paella is a Spanish dish.",
+        "es": "La paella es un plato español."
+      },
+      "note": "¡Ojo! plate = el plato donde comes; dish = el plato de comida. Y plata no es plate: plata = silver."
+    },
+    {
+      "id": "enjoy-your-meal",
+      "t": "Enjoy your meal!",
+      "es": "¡Que aproveche!",
+      "emoji": "😋",
+      "pos": "phrase",
+      "ex": {
+        "t": "Here you are. Enjoy your meal!",
+        "es": "Aquí tiene. ¡Que aproveche!"
+      }
+    }
+  ],
+  "grammar": "en-g-would-like",
+  "pron": {
+    "title": "Letras mudas: knife",
+    "tip": "En knife, know o knock la k no suena: «naif», «nou». Y escucha bien bill (la cuenta, i corta) frente a bell (campana, e).",
+    "words": [
+      "knife",
+      "know",
+      "knock",
+      "the bill"
+    ],
+    "pairs": [
+      [
+        "bill",
+        "bell"
+      ],
+      [
+        "soup",
+        "soap"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "a starter",
+          "un entrante"
+        ],
+        [
+          "a main course",
+          "un segundo"
+        ],
+        [
+          "a dessert",
+          "un postre"
+        ],
+        [
+          "the bill",
+          "la cuenta"
+        ],
+        [
+          "a spoon",
+          "una cuchara"
+        ]
+      ],
+      "why": "El orden de una comida inglesa: starter, main course, dessert."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Could I have the ___, please? I'd like to pay.",
+      "es": "¿Me trae la cuenta, por favor? Querría pagar.",
+      "options": [
+        "bill",
+        "menu",
+        "dish"
+      ],
+      "answer": "bill",
+      "why": "La cuenta en el Reino Unido = the bill.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Paella is my favourite ___.",
+      "es": "La paella es mi plato favorito.",
+      "options": [
+        "dish",
+        "plate",
+        "silver"
+      ],
+      "answer": "dish",
+      "why": "Plato de comida = dish; plate es el objeto donde comes."
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Can I have a clean ___? This one is dirty.",
+      "es": "¿Me trae un plato limpio? Este está sucio.",
+      "options": [
+        "plate",
+        "dish",
+        "bill"
+      ],
+      "answer": "plate",
+      "why": "El plato como objeto (de loza) = plate."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I'd like the soup ___ a starter.",
+      "es": "Querría la sopa de primero.",
+      "answer": [
+        "for",
+        "as"
+      ],
+      "bank": [
+        "for",
+        "of",
+        "in"
+      ],
+      "why": "De primero = for a starter (o as a starter).",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "A table ___ two, please.",
+      "es": "Una mesa para dos, por favor.",
+      "answer": [
+        "for"
+      ],
+      "why": "Para dos = for two."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Here you are. Enjoy your ___!",
+      "es": "Aquí tiene. ¡Que aproveche!",
+      "answer": [
+        "meal"
+      ],
+      "bank": [
+        "meal",
+        "menu",
+        "dish"
+      ],
+      "why": "¡Que aproveche! = Enjoy your meal!"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "¿Puedo ver la carta, por favor?",
+      "answer": "Could I see the menu please",
+      "extra": [
+        "the bill"
+      ],
+      "why": "Could I + verbo… please? para pedir con educación.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "De segundo querría el pescado",
+      "answer": "For my main course I'd like the fish",
+      "extra": [
+        "want"
+      ],
+      "why": "For my main course = de segundo.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Excuse me, could I have the check, please?",
+      "wrong": "check",
+      "fix": "bill",
+      "why": "En el Reino Unido la cuenta es the bill (check es de EE. UU.)."
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Me trae un cuchillo, por favor?",
+      "answer": [
+        "Could I have a knife, please?",
+        "Could I have a knife please?",
+        "Can I have a knife, please?",
+        "Can I have a knife please?"
+      ],
+      "why": "Pedir algo con educación: Could I have…, please?",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Llegas al restaurante con tu marido y no habéis reservado.",
+      "emoji": "🪑",
+      "options": [
+        "Hello! A table for two, please.",
+        "Hello! I want a table.",
+        "Hello! Two table, please."
+      ],
+      "answer": "Hello! A table for two, please.",
+      "why": "Lo natural: A table for two, please."
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "El camarero te pregunta «Would you like a dessert?» y quieres tarta de manzana.",
+      "emoji": "🥧",
+      "options": [
+        "Yes, please. I'd like the apple pie.",
+        "Yes, I like apple pie.",
+        "Yes, I would."
+      ],
+      "answer": "Yes, please. I'd like the apple pie.",
+      "why": "Aceptas con Yes, please y pides con I'd like.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "bill",
+        "bell"
+      ],
+      "answer": "bill",
+      "es": [
+        "la cuenta",
+        "la campana"
+      ],
+      "why": "Bill tiene una i corta y relajada; bell suena con e."
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "menu",
+      "title": "The Old Oak – Sunday menu",
+      "text": "STARTERS: vegetable soup · prawn cocktail\nMAINS: roast beef with Yorkshire pudding · fish pie · mushroom risotto (V)\nDESSERTS: apple crumble with custard · ice cream\n2 courses £18 · 3 courses £22",
+      "questions": [
+        {
+          "q": "¿Cuál de los segundos es vegetariano?",
+          "options": [
+            "El risotto de setas",
+            "El rosbif",
+            "El pastel de pescado"
+          ],
+          "answer": "El risotto de setas"
+        },
+        {
+          "q": "¿Qué lleva el crumble de manzana?",
+          "options": [
+            "Natillas",
+            "Nata",
+            "Helado"
+          ],
+          "answer": "Natillas"
+        },
+        {
+          "q": "¿Cuánto cuestan tres platos?",
+          "options": [
+            "£22",
+            "£18",
+            "£2"
+          ],
+          "answer": "£22"
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Could I have the bill, please?",
+      "es": "¿Me trae la cuenta, por favor?"
+    }
+  ],
+  "dialog": {
+    "title": "Comida de domingo",
+    "setting": "En un pub con restaurante de Londres, un domingo",
+    "emoji": "🍖",
+    "lines": [
+      {
+        "who": "Waiter",
+        "t": "Good afternoon. A table for two?",
+        "es": "Buenas tardes. ¿Mesa para dos?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, please. Could we see the menu?",
+        "es": "Sí, por favor. ¿Podemos ver la carta?"
+      },
+      {
+        "who": "Waiter",
+        "t": "Here you are. Would you like a starter?",
+        "es": "Aquí tienen. ¿Quieren entrante?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "The vegetable soup for me, please.",
+        "es": "La sopa de verduras para mí, por favor."
+      },
+      {
+        "who": "Hugo",
+        "t": "And I'd like the prawn cocktail.",
+        "es": "Y yo querría el cóctel de gambas."
+      },
+      {
+        "who": "Waiter",
+        "t": "And for your main course?",
+        "es": "¿Y de segundo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Roast beef for both of us.",
+        "es": "Rosbif para los dos."
+      },
+      {
+        "who": "Waiter",
+        "t": "Lovely. Enjoy your meal!",
+        "es": "Estupendo. ¡Que aproveche!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué toma Yolanda de primero?",
+        "options": [
+          "Sopa de verduras",
+          "Cóctel de gambas",
+          "Ensalada"
+        ],
+        "answer": "Sopa de verduras"
+      },
+      {
+        "q": "¿Qué piden de segundo?",
+        "options": [
+          "Rosbif los dos",
+          "Pescado",
+          "Risotto"
+        ],
+        "answer": "Rosbif los dos"
+      },
+      {
+        "q": "¿Con quién está Yolanda?",
+        "options": [
+          "Con su hijo Hugo",
+          "Con una amiga",
+          "Sola"
+        ],
+        "answer": "Con su hijo Hugo"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Could we have the bill, please?",
+    "es": "¿Nos trae la cuenta, por favor?",
+    "context": "Para pedir la cuenta al terminar de comer"
+  },
+  "summary": [
+    "Llegar: A table for two, please",
+    "La comida: starter, main course, dessert",
+    "Pagar: Could I have the bill, please?",
+    "plate = plato (objeto); dish = plato (comida); plata = silver",
+    "La k de knife no suena"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u09-l3"
+}

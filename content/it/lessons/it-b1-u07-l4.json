@@ -1,0 +1,79 @@
+{
+  "id": "it-b1-u07-l4",
+  "unit": "it-b1-u07",
+  "title": "Se avessi tempo, andrei in Sardegna",
+  "goal": "a imaginar qué harías con más tiempo o más dinero: se + congiuntivo imperfetto + condicional",
+  "emoji": "🌅",
+  "photoQuery": "sailboat turquoise sea bay",
+  "vocab": [
+    { "id": "sogni-se-avessi-tempo", "t": "se avessi tempo", "es": "si tuviera tiempo", "emoji": "⏳", "pos": "phrase", "ex": { "t": "Se avessi tempo, farei un corso di cucina sarda.", "es": "Si tuviera tiempo, haría un curso de cocina sarda." } },
+    { "id": "sogni-se-vincessi", "t": "se vincessi", "es": "si ganara / si me tocara", "emoji": "🎰", "pos": "phrase", "ex": { "t": "Se vincessi alla lotteria, comprerei una casa al mare.", "es": "Si me tocara la lotería, me compraría una casa en la playa." } },
+    { "id": "sogni-una-casa-al-mare", "t": "una casa al mare", "es": "una casa en la playa", "emoji": "🏡", "pos": "n", "ex": { "t": "Mio marito sogna una casa al mare.", "es": "Mi marido sueña con una casa en la playa." } },
+    { "id": "sogni-la-barca", "t": "la barca", "es": "el barco, la barca", "emoji": "⛵", "pos": "n", "ex": { "t": "Se avessimo una barca, visiteremmo tutte le calette.", "es": "Si tuviéramos un barco, visitaríamos todas las calas." } },
+    { "id": "sogni-girare-il-mondo", "t": "girare il mondo", "es": "recorrer el mundo", "emoji": "🌍", "pos": "phrase", "ex": { "t": "Se fossi più giovane, girerei il mondo.", "es": "Si fuera más joven, recorrería el mundo." } },
+    { "id": "sogni-smettere-di-lavorare", "t": "smettere di lavorare", "es": "dejar de trabajar", "emoji": "🛑", "pos": "phrase", "ex": { "t": "Se potesse, mio marito smetterebbe di lavorare domani.", "es": "Si pudiera, mi marido dejaría de trabajar mañana." } },
+    { "id": "sogni-aiutare-i-figli", "t": "aiutare i figli", "es": "ayudar a los hijos", "emoji": "🤝", "pos": "phrase", "ex": { "t": "Se avessi molti soldi, aiuterei mio figlio a comprare casa.", "es": "Si tuviera mucho dinero, ayudaría a mi hijo a comprarse una casa." } },
+    { "id": "sogni-trasferirsi", "t": "trasferirsi", "es": "mudarse (a otro lugar)", "emoji": "📦", "pos": "v", "ex": { "t": "Se potessi, mi trasferirei in Sardegna.", "es": "Si pudiera, me mudaría a Cerdeña." } }
+  ],
+  "grammar": "it-g-periodo-ipotetico-intro",
+  "pron": {
+    "title": "La melodía de la hipótesis",
+    "tip": "«Se avessi tempo…»: la voz sube al final de esta parte, como si la dejaras en el aire. «…andrei in Sardegna»: aquí baja hasta el final. Y alarga la ss: ave-ssi, pote-ssi.",
+    "words": ["Se avessi tempo, andrei in Sardegna.", "Se potessi, partirei domani.", "avessi", "potessi"],
+    "pairs": [["fossi", "fosse"], ["potessi", "potesse"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Se ___ tempo, andrei in Sardegna.", "es": "Si tuviera tiempo, iría a Cerdeña.", "options": ["avessi", "avrei", "ho"], "answer": "avessi", "why": "Hipótesis: se + congiuntivo imperfetto (avessi), nunca condicional detrás de se.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e2", "type": "choose", "q": "Se avessi più soldi, ___ una barca.", "es": "Si tuviera más dinero, me compraría un barco.", "options": ["comprerei", "comprassi", "compro"], "answer": "comprerei", "why": "La parte del resultado va en condicional: comprerei.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e3", "type": "choose", "q": "Se mio marito ___ in pensione, viaggeremmo di più.", "es": "Si mi marido estuviera jubilado, viajaríamos más.", "options": ["fosse", "sarebbe", "sia"], "answer": "fosse", "why": "Lui → fosse. Detrás de se, ni condicional (sarebbe) ni congiuntivo presente (sia).", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e4", "type": "fill", "q": "Se ___ alla lotteria, smetterei di lavorare.", "es": "Si me tocara la lotería, dejaría de trabajar.", "answer": ["vincessi"], "bank": ["vincessi", "vincerei", "vinca"], "why": "Vincere es regular: vinc- + -essi.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e5", "type": "fill", "q": "Se potessimo, ___ in Sardegna.", "es": "Si pudiéramos, nos mudaríamos a Cerdeña.", "answer": ["ci trasferiremmo"], "hint": "trasferirsi (noi), condicional", "why": "Trasferirsi con noi: ci trasferiremmo (doble m).", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e6", "type": "conjugate", "verb": "andare", "person": "voi", "tense": "congiuntivo imperfetto", "q": "Se ___ a Cagliari, cosa visitereste?", "answer": ["andaste"], "table": [["io", "andassi"], ["tu", "andassi"], ["lui/lei", "andasse"], ["noi", "andassimo"], ["voi", "andaste"], ["loro", "andassero"]], "why": "Voi pierde una s: andaste.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e7", "type": "conjugate", "verb": "fare", "person": "loro", "tense": "congiuntivo imperfetto", "q": "Se i miei nipoti ___ un viaggio in Sardegna, andrei con loro.", "answer": ["facessero"], "why": "Fare → fac- + -essero.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e8", "type": "conjugate", "verb": "girare", "person": "io", "tense": "condizionale", "q": "Se fossi più giovane, ___ il mondo.", "answer": ["girerei"], "why": "Resultado en condicional: girare → girerei.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e9", "type": "error", "q": "Se avrei tempo, leggerei un libro al giorno.", "wrong": "avrei", "fix": "avessi", "why": "Nunca condicional detrás de se: se avessi (si tuviera).", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e10", "type": "error", "q": "Se sia ricca, aiuterei mio figlio.", "wrong": "sia", "fix": "fossi", "why": "Para una hipótesis, congiuntivo imperfetto: se fossi.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e11", "type": "transform", "instr": "Pásala de la realidad a la hipótesis", "q": "Se ho tempo, vado al mare.", "answer": ["Se avessi tempo, andrei al mare.", "Se avessi tempo andrei al mare."], "why": "Ho → avessi; vado → andrei.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e12", "type": "transform", "instr": "Pásala de la realidad a la hipótesis", "q": "Se vinco alla lotteria, compro una casa al mare.", "answer": ["Se vincessi alla lotteria, comprerei una casa al mare.", "Se vincessi alla lotteria comprerei una casa al mare."], "why": "Vinco → vincessi; compro → comprerei.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e13", "type": "order", "es": "Si pudiera, me mudaría a Cerdeña.", "answer": "Se potessi mi trasferirei in Sardegna", "extra": ["potrei"], "why": "Se potessi (congiuntivo) + mi trasferirei (condicional).", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e14", "type": "translate", "dir": "to", "q": "Si tuviera más tiempo, leería más.", "answer": ["Se avessi più tempo, leggerei di più.", "Se avessi più tempo leggerei di più.", "Se avessi più tempo, leggerei molto di più."], "why": "Si tuviera = se avessi; leería = leggerei.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e15", "type": "minimal", "pair": ["fossi", "fosse"], "answer": "fosse", "es": ["(yo/tú) fuera(s)", "(él/ella) fuera"], "why": "Fosse acaba en -e: es la forma de lui o lei." },
+    { "id": "e16", "type": "speak", "t": "Se avessi tempo, andrei in Sardegna.", "es": "Si tuviera tiempo, iría a Cerdeña." }
+  ],
+  "dialog": {
+    "title": "¿Qué harías si…?",
+    "setting": "En clase de italiano, la profesora Marta propone un juego de hipótesis",
+    "emoji": "🎰",
+    "lines": [
+      { "who": "Marta", "t": "Yolanda, cosa faresti se vincessi alla lotteria?", "es": "Yolanda, ¿qué harías si te tocara la lotería?" },
+      { "who": "Yolanda", "t": "Prima aiuterei mio figlio, poi comprerei una casa al mare.", "es": "Primero ayudaría a mi hijo y luego me compraría una casa en la playa." },
+      { "who": "Marta", "t": "E dove sarebbe questa casa?", "es": "¿Y dónde estaría esa casa?" },
+      { "who": "Yolanda", "t": "In Sardegna! Se potessi scegliere, vivrei vicino a una spiaggia bianca.", "es": "¡En Cerdeña! Si pudiera elegir, viviría cerca de una playa blanca." },
+      { "who": "Marta", "t": "E tuo marito smetterebbe di lavorare?", "es": "¿Y tu marido dejaría de trabajar?" },
+      { "who": "Yolanda", "t": "Se fosse per lui, smetterebbe domani!", "es": "¡Si fuera por él, lo dejaría mañana!" },
+      { "who": "Marta", "t": "E se avessi solo un mese libero?", "es": "¿Y si tuvieras solo un mes libre?" },
+      { "who": "Yolanda", "t": "Farei il giro dell'isola in barca.", "es": "Daría la vuelta a la isla en barco." }
+    ],
+    "questions": [
+      { "q": "¿Qué haría Yolanda primero?", "options": ["Ayudar a su hijo", "Comprar un barco", "Dejar de trabajar"], "answer": "Ayudar a su hijo" },
+      { "q": "¿Dónde estaría la casa?", "options": ["En Cerdeña", "En Roma", "En Trieste"], "answer": "En Cerdeña" },
+      { "q": "¿Qué haría con un mes libre?", "options": ["Dar la vuelta a la isla en barco", "Quedarse en casa", "Estudiar italiano"], "answer": "Dar la vuelta a la isla en barco" }
+    ]
+  },
+  "realLife": { "t": "Se potessi, resterei un altro giorno.", "es": "Si pudiera, me quedaría un día más.", "context": "Para despedirte de un sitio que te ha encantado" },
+  "same": {
+    "text": "«Si tuviera…, haría…»: la misma estructura que en español.",
+    "examples": [
+      { "t": "Se avessi tempo, andrei.", "es": "Si tuviera tiempo, iría." },
+      { "t": "Se fossi ricca, viaggerei.", "es": "Si fuera rica, viajaría." },
+      { "t": "Se potessi, resterei.", "es": "Si pudiera, me quedaría." }
+    ]
+  },
+  "summary": [
+    "Hipótesis: se + congiuntivo imperfetto + condicional (Se avessi tempo, andrei in Sardegna).",
+    "Nunca condicional detrás de se: ❌ se avrei → ✅ se avessi.",
+    "Tampoco congiuntivo presente: ❌ se sia → ✅ se fossi.",
+    "Entonación: sube en la primera parte, baja al final. Y alarga la ss."
+  ],
+  "reviewed": false
+}

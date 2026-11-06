@@ -1,0 +1,440 @@
+{
+  "id": "en-a2-u05-l1",
+  "unit": "en-a2-u05",
+  "title": "¿Qué hiciste en vacaciones?",
+  "goal": "a contar qué hiciste en un viaje con los verbos irregulares más útiles",
+  "emoji": "🧳",
+  "photoQuery": "holiday photos seaside town",
+  "vocab": [
+    {
+      "id": "story-went",
+      "t": "went",
+      "es": "fui, fue, fuimos (de go)",
+      "emoji": "✈️",
+      "pos": "v",
+      "ex": {
+        "t": "We went to Lisbon last year.",
+        "es": "Fuimos a Lisboa el año pasado."
+      },
+      "note": "go → went. Igual para todas las personas."
+    },
+    {
+      "id": "story-saw",
+      "t": "saw",
+      "es": "vi, vio (de see)",
+      "emoji": "👀",
+      "pos": "v",
+      "ex": {
+        "t": "I saw a beautiful castle.",
+        "es": "Vi un castillo precioso."
+      }
+    },
+    {
+      "id": "story-ate",
+      "t": "ate",
+      "es": "comí, comimos (de eat)",
+      "emoji": "🍽️",
+      "pos": "v",
+      "ex": {
+        "t": "We ate fresh fish by the sea.",
+        "es": "Comimos pescado fresco junto al mar."
+      }
+    },
+    {
+      "id": "story-took",
+      "t": "took",
+      "es": "cogí, llevé, hice (de take)",
+      "emoji": "📸",
+      "pos": "v",
+      "ex": {
+        "t": "I took a lot of photos.",
+        "es": "Hice muchísimas fotos."
+      },
+      "note": "take a photo = hacer una foto."
+    },
+    {
+      "id": "story-bought",
+      "t": "bought",
+      "es": "compré (de buy)",
+      "emoji": "🛍️",
+      "pos": "v",
+      "ex": {
+        "t": "She bought a scarf at the market.",
+        "es": "Se compró un pañuelo en el mercado."
+      },
+      "note": "Suena «bot». La gh no se pronuncia."
+    },
+    {
+      "id": "story-met",
+      "t": "met",
+      "es": "conocí, quedé con (de meet)",
+      "emoji": "🤝",
+      "pos": "v",
+      "ex": {
+        "t": "We met a lovely couple from Wales.",
+        "es": "Conocimos a una pareja encantadora de Gales."
+      }
+    },
+    {
+      "id": "story-had-a-great-time",
+      "t": "had a great time",
+      "es": "me lo pasé genial",
+      "emoji": "🥳",
+      "pos": "phrase",
+      "ex": {
+        "t": "We had a great time in Rome.",
+        "es": "Nos lo pasamos genial en Roma."
+      }
+    },
+    {
+      "id": "story-got-lost",
+      "t": "got lost",
+      "es": "me perdí, nos perdimos",
+      "emoji": "🗺️",
+      "pos": "phrase",
+      "ex": {
+        "t": "We got lost in the old town.",
+        "es": "Nos perdimos en el casco antiguo."
+      }
+    },
+    {
+      "id": "story-came-back",
+      "t": "came back",
+      "es": "volví, volvimos",
+      "emoji": "🏠",
+      "pos": "phrase",
+      "ex": {
+        "t": "I came back on Sunday night.",
+        "es": "Volví el domingo por la noche."
+      }
+    },
+    {
+      "id": "story-last-summer",
+      "t": "last summer",
+      "es": "el verano pasado",
+      "emoji": "☀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Last summer I went to Ireland.",
+        "es": "El verano pasado fui a Irlanda."
+      }
+    }
+  ],
+  "grammar": "en-g-past-simple-irregular",
+  "pron": {
+    "title": "bought, thought, brought",
+    "tip": "Los pasados en -ought suenan todos igual, con una o larga: «bot», «zot», «brot». La gh no suena nunca. ¡No digas «bougt»!",
+    "words": [
+      "bought",
+      "thought",
+      "brought",
+      "saw",
+      "took"
+    ],
+    "pairs": [
+      [
+        "bought",
+        "boat"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Last summer we ___ to Portugal.",
+      "options": [
+        "went",
+        "go",
+        "goed"
+      ],
+      "answer": "went",
+      "why": "Go es irregular: went.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "I ___ a lot of photos of the sea.",
+      "options": [
+        "took",
+        "taked",
+        "take"
+      ],
+      "answer": "took",
+      "why": "Take → took. Take a photo = hacer una foto.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "We ___ a lovely couple from Scotland.",
+      "options": [
+        "met",
+        "meeted",
+        "meet"
+      ],
+      "answer": "met",
+      "why": "Meet → met.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "She ___ a scarf at the market.",
+      "es": "Se compró un pañuelo en el mercado.",
+      "answer": [
+        "bought"
+      ],
+      "bank": [
+        "bought",
+        "buyed",
+        "brought"
+      ],
+      "why": "Buy → bought. Brought es de bring (traer).",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "We ___ lost in the old town.",
+      "es": "Nos perdimos en el casco antiguo.",
+      "answer": [
+        "got"
+      ],
+      "bank": [
+        "got",
+        "getted",
+        "get"
+      ],
+      "why": "Get lost = perderse. Get → got.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I ___ back home on Sunday night.",
+      "es": "Volví a casa el domingo por la noche.",
+      "answer": [
+        "came"
+      ],
+      "hint": "come",
+      "why": "Come → came. Come back = volver.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e7",
+      "type": "conjugate",
+      "verb": "to eat",
+      "person": "we",
+      "tense": "pasado simple",
+      "q": "We ___ fresh fish every day.",
+      "answer": [
+        "ate"
+      ],
+      "why": "Eat → ate.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e8",
+      "type": "conjugate",
+      "verb": "to see",
+      "person": "I",
+      "tense": "pasado simple",
+      "q": "I ___ the castle from the hotel.",
+      "answer": [
+        "saw"
+      ],
+      "why": "See → saw.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "We goed to the beach every morning.",
+      "wrong": "goed",
+      "fix": "went",
+      "why": "Go es irregular: went, nunca «goed».",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "I buyed a present for my grandson.",
+      "wrong": "buyed",
+      "fix": "bought",
+      "why": "Buy → bought.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Nos lo pasamos genial en Roma",
+      "answer": "We had a great time in Rome",
+      "extra": [
+        "have"
+      ],
+      "why": "Have → had: had a great time.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e12",
+      "type": "match",
+      "pairs": [
+        [
+          "went",
+          "fui (go)"
+        ],
+        [
+          "saw",
+          "vi (see)"
+        ],
+        [
+          "ate",
+          "comí (eat)"
+        ],
+        [
+          "took",
+          "cogí (take)"
+        ],
+        [
+          "met",
+          "conocí (meet)"
+        ]
+      ],
+      "why": "Cinco pasados irregulares para contar un viaje.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "El verano pasado fui a Irlanda.",
+      "answer": [
+        "Last summer I went to Ireland.",
+        "I went to Ireland last summer.",
+        "Last summer, I went to Ireland."
+      ],
+      "why": "Fui = went. Last summer puede ir al principio o al final.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Una vecina te pregunta qué tal el viaje. Te encantó.",
+      "emoji": "😊",
+      "options": [
+        "We had a great time!",
+        "We have a great time!",
+        "We haved a great time!"
+      ],
+      "answer": "We had a great time!",
+      "why": "Para un viaje ya pasado: had.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "bought",
+        "boat"
+      ],
+      "answer": "bought",
+      "es": [
+        "compré",
+        "barco"
+      ],
+      "why": "Bought tiene una o larga y abierta, «bot»; boat suena «bout».",
+      "g": "en-g-past-simple-irregular"
+    }
+  ],
+  "dialog": {
+    "title": "Fotos de las vacaciones",
+    "setting": "En el portal, Yolanda le enseña a su vecina Carmen las fotos del móvil",
+    "emoji": "📱",
+    "lines": [
+      {
+        "who": "Carmen",
+        "t": "Welcome back! How was your holiday?",
+        "es": "¡Bienvenida! ¿Qué tal las vacaciones?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Wonderful! We went to Portugal for a week.",
+        "es": "¡Estupendas! Fuimos a Portugal una semana."
+      },
+      {
+        "who": "Carmen",
+        "t": "Lovely! What did you see?",
+        "es": "¡Qué bien! ¿Qué visteis?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "We saw Lisbon and Porto. Look at these photos!",
+        "es": "Vimos Lisboa y Oporto. ¡Mira estas fotos!"
+      },
+      {
+        "who": "Carmen",
+        "t": "Oh, beautiful! And the food?",
+        "es": "¡Ay, qué bonito! ¿Y la comida?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "We ate fish every day. It was delicious.",
+        "es": "Comimos pescado todos los días. Estaba buenísimo."
+      },
+      {
+        "who": "Carmen",
+        "t": "Did you buy anything?",
+        "es": "¿Compraste algo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I bought some plates at a market.",
+        "es": "Sí, compré unos platos en un mercadillo."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Adónde fue Yolanda?",
+        "options": [
+          "A Portugal",
+          "A Irlanda",
+          "A Italia"
+        ],
+        "answer": "A Portugal"
+      },
+      {
+        "q": "¿Qué comieron todos los días?",
+        "options": [
+          "Pescado",
+          "Carne",
+          "Pasta"
+        ],
+        "answer": "Pescado"
+      },
+      {
+        "q": "¿Qué compró Yolanda?",
+        "options": [
+          "Unos platos",
+          "Un pañuelo",
+          "Un libro"
+        ],
+        "answer": "Unos platos"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "We had a great time.",
+    "es": "Nos lo pasamos genial.",
+    "context": "Para contar qué tal fue un viaje"
+  },
+  "summary": [
+    "Muchos verbos tienen un pasado propio: go → went, see → saw, eat → ate",
+    "take → took, buy → bought, meet → met",
+    "Una sola forma para todas las personas: I went, she went, we went",
+    "Frases útiles: had a great time, got lost, came back"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u05-l1"
+}

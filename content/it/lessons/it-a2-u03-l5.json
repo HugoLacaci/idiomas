@@ -1,0 +1,82 @@
+{
+  "id": "it-a2-u03-l5",
+  "unit": "it-a2-u03",
+  "title": "Reto: una excursión a Pisa",
+  "goal": "a contar un día entero de excursión, desde que te levantas hasta que te duermes",
+  "emoji": "🗼",
+  "photoQuery": "leaning tower pisa piazza",
+  "vocab": [
+    { "id": "rifl-torre", "t": "la torre pendente", "es": "la torre inclinada", "emoji": "🗼", "pos": "n", "ex": { "t": "La torre pendente è in Piazza dei Miracoli.", "es": "La torre inclinada está en la plaza de los Milagros." } },
+    { "id": "rifl-inclinarsi", "t": "inclinarsi", "es": "inclinarse", "emoji": "↗️", "pos": "v", "ex": { "t": "La torre si è inclinata già nel Medioevo.", "es": "La torre ya se inclinó en la Edad Media." } },
+    { "id": "rifl-fermarsi", "t": "fermarsi", "es": "pararse, detenerse", "emoji": "✋", "pos": "v", "ex": { "t": "Ci siamo fermati al bar per un caffè.", "es": "Nos paramos en el bar a tomar un café." } },
+    { "id": "rifl-sedersi", "t": "sedersi", "es": "sentarse", "emoji": "🪑", "pos": "v", "ex": { "t": "Mi siedo un attimo, sono stanca.", "es": "Me siento un momento, estoy cansada." }, "note": "Presente irregular: mi siedo, ti siedi, si siede, ci sediamo." },
+    { "id": "rifl-farsi-foto", "t": "farsi una foto", "es": "hacerse una foto", "emoji": "🤳", "pos": "phrase", "ex": { "t": "Mi sono fatta una foto con la torre.", "es": "Me he hecho una foto con la torre." } },
+    { "id": "rifl-perdersi", "t": "perdersi", "es": "perderse", "emoji": "🗺️", "pos": "v", "ex": { "t": "Mi sono persa nelle stradine del centro.", "es": "Me he perdido por las callejuelas del centro." }, "note": "Participio irregular: perso / persa." },
+    { "id": "rifl-stancarsi", "t": "stancarsi", "es": "cansarse", "emoji": "😮‍💨", "pos": "v", "ex": { "t": "Ci siamo stancati a camminare.", "es": "Nos hemos cansado de caminar." } },
+    { "id": "rifl-gita", "t": "la gita", "es": "la excursión", "emoji": "🚆", "pos": "n", "ex": { "t": "Sabato facciamo una gita a Pisa.", "es": "El sábado hacemos una excursión a Pisa." } }
+  ],
+  "grammar": "it-g-riflessivi",
+  "pron": {
+    "title": "Las dobles de torre y addormentata",
+    "tip": "La rr de torre vibra fuerte, como en «perro». En addormentata la dd se alarga un poquito: ad-dor-men-ta-ta.",
+    "words": ["torre", "addormentata", "oggi", "abbiamo"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "text", "title": "El diario de Yolanda", "text": "Sabato ci siamo alzati alle sei. Siamo partiti da Firenze in treno. A Pisa ci siamo fermati in Piazza dei Miracoli. Mio marito si è fatto mille foto con la torre! Io mi sono seduta su una panchina e mi sono riposata. La sera ci siamo addormentati subito.", "questions": [
+        { "q": "¿A qué hora se levantaron?", "options": ["A las seis", "A las ocho", "A las nueve"], "answer": "A las seis" },
+        { "q": "¿Qué hizo su marido?", "options": ["Hacerse muchísimas fotos", "Subir a la torre", "Dormir en el tren"], "answer": "Hacerse muchísimas fotos" },
+        { "q": "¿Qué hizo Yolanda?", "options": ["Sentarse en un banco y descansar", "Perderse", "Ir de compras"], "answer": "Sentarse en un banco y descansar" }
+      ], "why": "Fíjate: ci siamo alzati, si è fatto, mi sono seduta." },
+    { "id": "e2", "type": "situation", "context": "Estáis delante de la torre y quieres pedir a alguien que os haga una foto.", "emoji": "📸", "options": ["Scusi, ci può fare una foto?", "Scusi, si fa una foto?", "Scusi, mi fa una foto noi?"], "answer": "Scusi, ci può fare una foto?", "why": "Ci = a nosotros: ci può fare una foto?" },
+    { "id": "e3", "type": "situation", "context": "Te has perdido por las calles de Pisa y llamas a tu marido.", "emoji": "🗺️", "options": ["Mi sono persa! Dove sei?", "Ho perso! Dove sei?", "Mi sono perso! Dove sei?"], "answer": "Mi sono persa! Dove sei?", "why": "Perdersi + essere; eres mujer: mi sono persa.", "g": "it-g-riflessivi" },
+    { "id": "e4", "type": "choose", "q": "La torre ha cominciato a ___ già durante la costruzione.", "es": "La torre empezó a inclinarse ya durante su construcción.", "options": ["inclinarsi", "inclinarmi", "inclinarti"], "answer": "inclinarsi", "why": "La torre = lei: inclinarsi.", "g": "it-g-riflessivi" },
+    { "id": "e5", "type": "choose", "q": "Siamo stanchi, ci ___ un momento?", "es": "Estamos cansados, ¿nos sentamos un momento?", "options": ["sediamo", "sedete", "siedono"], "answer": "sediamo", "why": "Noi → ci sediamo.", "g": "it-g-riflessivi" },
+    { "id": "e6", "type": "choose", "q": "Galileo Galilei ___ nato a Pisa.", "es": "Galileo Galilei nació en Pisa.", "options": ["è", "ha", "e"], "answer": "è", "why": "Nascere va con essere: è nato.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e7", "type": "fill", "q": "Ci siamo ___ al bar per un caffè.", "es": "Nos paramos en el bar a tomar un café.", "answer": ["fermati", "fermate"], "bank": ["fermati", "fermato", "fermata"], "why": "Noi → ci siamo fermati.", "g": "it-g-riflessivi" },
+    { "id": "e8", "type": "fill", "q": "Mi sono ___ molto a Pisa!", "es": "¡Me lo he pasado muy bien en Pisa!", "answer": ["divertita"], "hint": "divertirsi (habla Yolanda)", "why": "Yolanda es mujer: mi sono divertita.", "g": "it-g-riflessivi" },
+    { "id": "e9", "type": "error", "q": "Mio marito si ha fatto tante foto.", "wrong": "ha", "fix": "è", "why": "Farsi una foto es reflexivo: si è fatto.", "g": "it-g-riflessivi" },
+    { "id": "e10", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Ci fermiamo in Piazza dei Miracoli.", "answer": ["Ci siamo fermati in Piazza dei Miracoli.", "Ci siamo fermate in Piazza dei Miracoli."], "why": "Ci fermiamo → ci siamo fermati.", "g": "it-g-riflessivi" },
+    { "id": "e11", "type": "order", "es": "Me he sentado en un banco.", "answer": "Mi sono seduta su una panchina", "extra": ["ho"], "why": "Sedersi → mi sono seduta.", "g": "it-g-riflessivi" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Nos hemos cansado mucho.", "answer": ["Ci siamo stancati molto.", "Ci siamo stancate molto.", "Ci siamo stancati tanto.", "Ci siamo stancate tanto."], "why": "Stancarsi → ci siamo stancati.", "g": "it-g-riflessivi" },
+    { "id": "e13", "type": "translate", "dir": "from", "q": "La torre ha cominciato a inclinarsi nel XII secolo.", "answer": ["La torre empezó a inclinarse en el siglo XII.", "La torre comenzó a inclinarse en el siglo XII.", "La torre ha empezado a inclinarse en el siglo XII."], "why": "Cominciare = empezar; inclinarsi = inclinarse.", "g": "it-g-riflessivi" },
+    { "id": "e14", "type": "conjugate", "verb": "sedersi", "person": "io", "tense": "presente", "q": "Sono stanca, ___ qui.", "answer": ["mi siedo"], "table": [["io", "mi siedo"], ["tu", "ti siedi"], ["lui/lei", "si siede"], ["noi", "ci sediamo"]], "why": "Sedersi es irregular: mi siedo.", "g": "it-g-riflessivi" },
+    { "id": "e15", "type": "match", "pairs": [["la torre pendente", "la torre inclinada"], ["la gita", "la excursión"], ["la panchina", "el banco"], ["fermarsi", "pararse"], ["perdersi", "perderse"]], "why": "Palabras para tu excursión a Pisa." },
+    { "id": "e16", "type": "speak", "t": "Ci siamo fatti una foto con la torre di Pisa!", "es": "¡Nos hemos hecho una foto con la torre de Pisa!" }
+  ],
+  "dialog": {
+    "title": "¿Qué tal Pisa?",
+    "setting": "El lunes, en el curso de italiano, Yolanda le cuenta su excursión a Lucia",
+    "emoji": "🗼",
+    "lines": [
+      { "who": "Lucia", "t": "Allora, com'è andata la gita a Pisa?", "es": "Bueno, ¿qué tal la excursión a Pisa?" },
+      { "who": "Yolanda", "t": "Benissimo! Ci siamo alzati alle sei.", "es": "¡Muy bien! Nos levantamos a las seis." },
+      { "who": "Lucia", "t": "Così presto? Vi siete annoiati in treno?", "es": "¿Tan temprano? ¿Os aburristeis en el tren?" },
+      { "who": "Yolanda", "t": "No, mi sono addormentata subito!", "es": "¡No, me dormí enseguida!" },
+      { "who": "Lucia", "t": "Ahah! E la torre?", "es": "¡Jaja! ¿Y la torre?" },
+      { "who": "Yolanda", "t": "Bellissima. Mio marito si è fatto cento foto.", "es": "Preciosa. Mi marido se hizo cien fotos." },
+      { "who": "Lucia", "t": "Vi siete fermati a mangiare?", "es": "¿Os parasteis a comer?" },
+      { "who": "Yolanda", "t": "Sì, e dopo mi sono seduta in piazza a riposarmi.", "es": "Sí, y después me senté en la plaza a descansar." }
+    ],
+    "questions": [
+      { "q": "¿A qué hora se levantaron?", "options": ["A las seis", "A las siete", "A las ocho"], "answer": "A las seis" },
+      { "q": "¿Qué hizo Yolanda en el tren?", "options": ["Se durmió", "Se aburrió", "Leyó"], "answer": "Se durmió" },
+      { "q": "¿Qué hizo después de comer?", "options": ["Se sentó en la plaza a descansar", "Subió a la torre", "Volvió a Florencia"], "answer": "Se sentó en la plaza a descansar" }
+    ]
+  },
+  "realLife": { "t": "Scusi, ci può fare una foto?", "es": "Perdone, ¿nos puede hacer una foto?", "context": "Para pedir a alguien que os haga una foto en un viaje" },
+  "same": {
+    "text": "Muchos reflexivos del viaje son iguales que en español.",
+    "examples": [
+      { "t": "perdersi", "es": "perderse" },
+      { "t": "inclinarsi", "es": "inclinarse" },
+      { "t": "Mi sono fatta una foto.", "es": "Me he hecho una foto." }
+    ]
+  },
+  "summary": [
+    "Contar el día: ci siamo alzati, ci siamo fermati, mi sono seduta, mi sono riposata.",
+    "Participios irregulares: fatto, perso, seduto.",
+    "Sedersi: mi siedo, ti siedi, si siede, ci sediamo.",
+    "La torre de Pisa empezó a inclinarse ya en el siglo XII."
+  ],
+  "reviewed": false
+}

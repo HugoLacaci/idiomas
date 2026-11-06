@@ -1,0 +1,428 @@
+{
+  "id": "it-a1-u09-l4",
+  "unit": "it-a1-u09",
+  "title": "Del pane, delle mele",
+  "goal": "a decir «algo de» y «unos, unas» al hacer la compra con el partitivo",
+  "emoji": "🍞",
+  "photoQuery": "fresh bread basket bakery",
+  "vocab": [
+    {
+      "id": "mercato-del-pane",
+      "t": "del pane",
+      "es": "pan, algo de pan",
+      "emoji": "🍞",
+      "pos": "phrase",
+      "ex": {
+        "t": "Compro del pane per la cena.",
+        "es": "Compro pan para la cena."
+      }
+    },
+    {
+      "id": "mercato-dell-olio",
+      "t": "dell'olio",
+      "es": "aceite, algo de aceite",
+      "emoji": "🫗",
+      "pos": "phrase",
+      "ex": {
+        "t": "Metto dell'olio nell'insalata.",
+        "es": "Pongo aceite en la ensalada."
+      }
+    },
+    {
+      "id": "mercato-dei-carciofi",
+      "t": "dei carciofi",
+      "es": "unas alcachofas",
+      "emoji": "🥗",
+      "pos": "phrase",
+      "note": "Il carciofo, i carciofi: ci suena «chi».",
+      "ex": {
+        "t": "Oggi ci sono dei carciofi bellissimi.",
+        "es": "Hoy hay unas alcachofas preciosas."
+      }
+    },
+    {
+      "id": "mercato-delle-olive",
+      "t": "delle olive",
+      "es": "unas aceitunas",
+      "emoji": "🫒",
+      "pos": "phrase",
+      "ex": {
+        "t": "Prendo delle olive verdi.",
+        "es": "Me llevo unas aceitunas verdes."
+      }
+    },
+    {
+      "id": "mercato-degli-spinaci",
+      "t": "degli spinaci",
+      "es": "espinacas, unas espinacas",
+      "emoji": "🥬",
+      "pos": "phrase",
+      "note": "Gli spinaci: s + consonante → gli, degli.",
+      "ex": {
+        "t": "Compro degli spinaci freschi.",
+        "es": "Compro espinacas frescas."
+      }
+    },
+    {
+      "id": "mercato-un-po-di",
+      "t": "un po' di…",
+      "es": "un poco de…",
+      "emoji": "🤏",
+      "pos": "phrase",
+      "ex": {
+        "t": "Vorrei un po' di basilico.",
+        "es": "Quisiera un poco de albahaca."
+      }
+    },
+    {
+      "id": "mercato-il-basilico",
+      "t": "il basilico",
+      "es": "la albahaca",
+      "emoji": "🌿",
+      "pos": "n",
+      "ex": {
+        "t": "Il basilico profuma tantissimo.",
+        "es": "La albahaca huele muchísimo."
+      }
+    },
+    {
+      "id": "mercato-il-finocchio",
+      "t": "il finocchio",
+      "es": "el hinojo",
+      "emoji": "🌱",
+      "pos": "n",
+      "ex": {
+        "t": "Il finocchio è buono crudo.",
+        "es": "El hinojo está bueno crudo."
+      }
+    }
+  ],
+  "grammar": "it-g-partitivo-intro",
+  "pron": {
+    "title": "ch y c: ¿pesce o pesche?",
+    "tip": "Ch + e/i suena «k»: PES-ke, fi-NOK-kio, KI-lo. C + e/i suena como nuestra «ch»: car-CHO-fi, CHE-chi. Y sc + e suena «sh»: pesce = «PE-she».",
+    "words": [
+      "chilo",
+      "pesche",
+      "finocchio",
+      "carciofi",
+      "ceci"
+    ],
+    "pairs": [
+      [
+        "pesce",
+        "pesche"
+      ],
+      [
+        "amici",
+        "amiche"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Compro ___ pane.",
+      "es": "Compro pan.",
+      "options": [
+        "del",
+        "della",
+        "dei"
+      ],
+      "answer": "del",
+      "why": "Il pane → di + il = del: algo de pan.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Vorrei ___ mele.",
+      "es": "Quisiera unas manzanas.",
+      "options": [
+        "delle",
+        "dei",
+        "degli"
+      ],
+      "answer": "delle",
+      "why": "Le mele → di + le = delle: unas manzanas.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Oggi ci sono ___ spinaci freschi.",
+      "es": "Hoy hay espinacas frescas.",
+      "options": [
+        "degli",
+        "dei",
+        "delle"
+      ],
+      "answer": "degli",
+      "why": "Gli spinaci → di + gli = degli.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Metto ___ olio nel sugo.",
+      "es": "Pongo aceite en la salsa.",
+      "options": [
+        "dell'",
+        "del",
+        "della"
+      ],
+      "answer": "dell'",
+      "why": "L'olio → di + l' = dell'.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Prendo ___ pomodori per l'insalata.",
+      "es": "Me llevo unos tomates para la ensalada.",
+      "answer": [
+        "dei"
+      ],
+      "bank": [
+        "dei",
+        "degli",
+        "delle"
+      ],
+      "why": "I pomodori → di + i = dei.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Compro ___ frutta per i nipoti.",
+      "es": "Compro fruta para los nietos.",
+      "answer": [
+        "della"
+      ],
+      "bank": [
+        "della",
+        "delle",
+        "del"
+      ],
+      "why": "La frutta → di + la = della.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Nel frigo ci sono ___ zucchine.",
+      "es": "En la nevera hay unos calabacines.",
+      "answer": [
+        "delle"
+      ],
+      "why": "Le zucchine → delle.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Añade «unas» con el partitivo",
+      "q": "Compro mele.",
+      "answer": [
+        "Compro delle mele."
+      ],
+      "why": "Le mele → delle mele.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Hazla negativa (sin partitivo)",
+      "q": "Compro del pane.",
+      "answer": [
+        "Non compro pane.",
+        "Non compro il pane."
+      ],
+      "why": "Con non, el partitivo desaparece: non compro pane.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Vorrei dei uova fresche.",
+      "wrong": "dei",
+      "fix": "delle",
+      "why": "Le uova es femenino plural: delle uova.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Compro degli pomodori.",
+      "wrong": "degli",
+      "fix": "dei",
+      "why": "I pomodori → dei. Degli es para gli (gli spinaci, gli gnocchi).",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e12",
+      "type": "minimal",
+      "pair": [
+        "pesce",
+        "pesche"
+      ],
+      "answer": "pesce",
+      "es": [
+        "pescado",
+        "melocotones"
+      ],
+      "why": "Pesce, con sc, suena «PE-she»; pesche, con ch, «PES-ke»."
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "Compro pan y aceite.",
+      "answer": [
+        "Compro del pane e dell'olio.",
+        "Compro pane e olio."
+      ],
+      "why": "Del pane, dell'olio; también vale sin partitivo.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e14",
+      "type": "order",
+      "es": "Quisiera un poco de albahaca.",
+      "answer": "Vorrei un po' di basilico",
+      "extra": [
+        "del"
+      ],
+      "why": "Un po' di + sin artículo.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "En el puesto quieres «unas alcachofas», sin decir cuántas.",
+      "emoji": "🥗",
+      "options": [
+        "Vorrei dei carciofi.",
+        "Vorrei di carciofi.",
+        "Vorrei delle carciofi."
+      ],
+      "answer": "Vorrei dei carciofi.",
+      "why": "I carciofi (masculino plural) → dei carciofi.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Compro del pane e delle pesche.",
+      "es": "Compro pan y unos melocotones."
+    }
+  ],
+  "dialog": {
+    "title": "La compra para la cena",
+    "setting": "Yolanda y su amiga Carla preparan la cena en Palermo",
+    "emoji": "🍝",
+    "lines": [
+      {
+        "who": "Carla",
+        "t": "Stasera facciamo la pasta con i carciofi?",
+        "es": "¿Esta noche hacemos pasta con alcachofas?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì! Abbiamo dei carciofi?",
+        "es": "¡Sí! ¿Tenemos alcachofas?"
+      },
+      {
+        "who": "Carla",
+        "t": "No, e non c'è pane. Vai tu al mercato?",
+        "es": "No, y no hay pan. ¿Vas tú al mercado?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Va bene. Cosa compro?",
+        "es": "Vale. ¿Qué compro?"
+      },
+      {
+        "who": "Carla",
+        "t": "Dei carciofi, del pane e un po' di prezzemolo.",
+        "es": "Unas alcachofas, pan y un poco de perejil."
+      },
+      {
+        "who": "Yolanda",
+        "t": "E del vino?",
+        "es": "¿Y vino?"
+      },
+      {
+        "who": "Carla",
+        "t": "No, il vino c'è. Ah, e delle arance per la spremuta di domani!",
+        "es": "No, vino hay. ¡Ah, y unas naranjas para el zumo de mañana!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfetto, vado e torno!",
+        "es": "¡Perfecto, voy y vuelvo!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué van a cocinar?",
+        "options": [
+          "Pasta con alcachofas",
+          "Pescado",
+          "Una ensalada"
+        ],
+        "answer": "Pasta con alcachofas"
+      },
+      {
+        "q": "¿Qué NO tiene que comprar Yolanda?",
+        "options": [
+          "Vino",
+          "Pan",
+          "Naranjas"
+        ],
+        "answer": "Vino"
+      },
+      {
+        "q": "¿Para qué son las naranjas?",
+        "options": [
+          "Para el zumo de mañana",
+          "Para la cena",
+          "Para un pastel"
+        ],
+        "answer": "Para el zumo de mañana"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Compro del pane?",
+    "es": "¿Compro pan?",
+    "context": "Para ofrecerte a traer algo cuando vas a salir a comprar"
+  },
+  "same": {
+    "text": "Igual que en español: con «no» no decimos «algo de». Non compro pane = No compro pan.",
+    "examples": [
+      {
+        "t": "Non compro pane.",
+        "es": "No compro pan."
+      },
+      {
+        "t": "Non ho uova.",
+        "es": "No tengo huevos."
+      },
+      {
+        "t": "un po' di sale",
+        "es": "un poco de sal"
+      }
+    ]
+  },
+  "summary": [
+    "Algo de: del pane, della frutta, dell'olio",
+    "Unos, unas: dei pomodori, degli spinaci, delle mele",
+    "Con cantidad, solo di: un chilo di mele, un po' di sale",
+    "Con non, sin partitivo: non compro pane",
+    "Ch = «k» (pesche); sc + e = «sh» (pesce)"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u09-l4"
+}

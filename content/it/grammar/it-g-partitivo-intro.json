@@ -1,0 +1,140 @@
+{
+  "id": "it-g-partitivo-intro",
+  "lang": "it",
+  "level": "A1",
+  "title": "El partitivo: del pane, delle mele",
+  "short": "Di + artículo para decir «algo de» o «unos, unas» sin contar.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Un poco de esto, unos cuantos de aquello",
+      "emoji": "🧺",
+      "text": "Para decir «pan», «algo de fruta» o «unas manzanas» sin contar, el italiano usa ==di + artículo==: del pane, delle mele. ¡Lo oirás en todos los mercados!",
+      "examples": [
+        { "t": "Compro ==del== pane.", "es": "Compro pan.", "hl": "del" },
+        { "t": "Vorrei ==delle== mele.", "es": "Quisiera unas manzanas.", "hl": "delle" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Las formas",
+      "emoji": "📋",
+      "text": "Son las mismas que di + artículo. Elige según el artículo de la palabra.",
+      "table": {
+        "head": ["artículo", "algo de… (singular)", "unos, unas (plural)"],
+        "rows": [
+          ["il / i", "==del== pane", "==dei== pomodori"],
+          ["lo / gli", "==dello== zucchero", "==degli== spinaci"],
+          ["la / le", "==della== frutta", "==delle== mele"],
+          ["l' / gli, le", "==dell'==olio", "==degli== asparagi, ==delle== arance"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Singular y plural",
+      "emoji": "⚖️",
+      "text": "En **singular** significa «algo de» (cosas que no se cuentan): ==del== formaggio. En **plural** significa «unos, unas»: ==dei== carciofi.",
+      "examples": [
+        { "t": "Ho ==del== formaggio.", "es": "Tengo queso.", "hl": "del" },
+        { "t": "Ci sono ==dei== carciofi.", "es": "Hay unas alcachofas.", "hl": "dei" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Con cantidad: solo di",
+      "emoji": "🔢",
+      "text": "Si dices cuánto (un chilo, due etti, un po'), usa solo ==di==, sin artículo: un chilo ==di== mele, un po' ==di== sale.",
+      "examples": [
+        { "t": "Un chilo ==di== pesche.", "es": "Un kilo de melocotones.", "hl": "di" },
+        { "t": "Un po' ==di== basilico.", "es": "Un poco de albahaca.", "hl": "di" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Con non, desaparece",
+      "emoji": "🚫",
+      "text": "En las frases negativas el partitivo se va: Compro del pane → Non compro ==pane==. Igual que en español.",
+      "examples": [
+        { "t": "Non ho ==uova==.", "es": "No tengo huevos.", "hl": "uova" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "En español solemos no poner nada: «compro pan». En italiano también vale (compro pane), pero ==del pane== es muy natural. Y «unos tomates» = ==dei== pomodori.",
+      "examples": [
+        { "t": "Compro ==dei== pomodori.", "es": "Compro unos tomates.", "hl": "dei" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "Errores típicos",
+      "emoji": "⚠️",
+      "text": "Cuidado con estos:",
+      "examples": [
+        { "t": "❌ un chilo delle mele → ✅ un chilo ==di== mele", "es": "un kilo de manzanas", "hl": "di" },
+        { "t": "❌ dei uova → ✅ ==delle== uova", "es": "unos huevos", "hl": "delle" },
+        { "t": "❌ Non compro del pane → ✅ Non compro ==pane==", "es": "No compro pan", "hl": "pane" }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Truco salvavidas",
+      "emoji": "💡",
+      "text": "¿Dudas entre del, dello, della…? Usa ==un po' di==: nunca cambia. Un po' di pane, un po' di frutta, un po' di olive.",
+      "examples": [
+        { "t": "Vorrei ==un po' di== ricotta.", "es": "Quisiera un poco de ricotta.", "hl": "un po' di" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español decimos «compro pan» o «compro unos tomates», y con cantidades «un kilo de manzanas».",
+    "target": "En italiano: compro del pane, compro dei pomodori (di + artículo). Con cantidades, solo di: un chilo di mele. Y en negativa, sin partitivo: non compro pane."
+  },
+  "errors": [
+    { "wrong": "Un chilo delle mele.", "right": "Un chilo di mele.", "why": "Después de una cantidad se usa solo di." },
+    { "wrong": "Vorrei dei uova.", "right": "Vorrei delle uova.", "why": "Uova es femenino plural: le uova → delle uova." },
+    { "wrong": "Non compro del pane.", "right": "Non compro pane.", "why": "En negativa el partitivo desaparece." },
+    { "wrong": "Compro dei spinaci.", "right": "Compro degli spinaci.", "why": "Spinaci empieza por s + consonante: gli spinaci → degli." },
+    { "wrong": "Un po' del sale.", "right": "Un po' di sale.", "why": "Un po' di nunca lleva artículo." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Compro ___ formaggio.", "es": "Compro queso.", "options": ["del", "dello", "della"], "answer": "del", "why": "Il formaggio → del.", "g": "it-g-partitivo-intro" },
+    { "id": "e2", "type": "choose", "q": "Vorrei ___ pesche.", "es": "Quisiera unos melocotones.", "options": ["delle", "dei", "degli"], "answer": "delle", "why": "Le pesche → delle.", "g": "it-g-partitivo-intro" },
+    { "id": "e3", "type": "choose", "q": "Metto ___ zucchero nel caffè.", "es": "Pongo azúcar en el café.", "options": ["dello", "del", "della"], "answer": "dello", "why": "Lo zucchero → dello.", "g": "it-g-partitivo-intro" },
+    { "id": "e4", "type": "choose", "q": "Ci sono ___ carciofi al mercato.", "es": "Hay unas alcachofas en el mercado.", "options": ["dei", "degli", "delle"], "answer": "dei", "why": "I carciofi → dei.", "g": "it-g-partitivo-intro" },
+    { "id": "e5", "type": "choose", "q": "Bevo ___ acqua.", "es": "Bebo agua.", "options": ["dell'", "della", "dello"], "answer": "dell'", "why": "L'acqua → dell'acqua.", "g": "it-g-partitivo-intro" },
+    { "id": "e6", "type": "choose", "q": "Un chilo ___ patate, per favore.", "es": "Un kilo de patatas, por favor.", "options": ["di", "delle", "dei"], "answer": "di", "why": "Con cantidad, solo di.", "g": "it-g-partitivo-intro" },
+    { "id": "e7", "type": "choose", "q": "Vorrei ___ gnocchi freschi.", "es": "Quisiera unos ñoquis frescos.", "options": ["degli", "dei", "delle"], "answer": "degli", "why": "Gli gnocchi → degli.", "g": "it-g-partitivo-intro" },
+    { "id": "e8", "type": "choose", "q": "Non compro ___.", "es": "No compro vino.", "options": ["vino", "del vino", "dei vini"], "answer": "vino", "why": "En negativa, sin partitivo: non compro vino.", "g": "it-g-partitivo-intro" },
+    { "id": "e9", "type": "fill", "q": "Prendo ___ uva bianca.", "es": "Me llevo uva blanca.", "answer": ["dell'"], "bank": ["dell'", "della", "delle"], "why": "L'uva → dell'uva.", "g": "it-g-partitivo-intro" },
+    { "id": "e10", "type": "fill", "q": "Hai ___ olive verdi?", "es": "¿Tienes aceitunas verdes?", "answer": ["delle"], "bank": ["delle", "dei", "degli"], "why": "Le olive → delle.", "g": "it-g-partitivo-intro" },
+    { "id": "e11", "type": "fill", "q": "Mi dà ___ spinaci?", "es": "¿Me da espinacas?", "answer": ["degli"], "bank": ["degli", "dei", "delle"], "why": "Gli spinaci → degli.", "g": "it-g-partitivo-intro" },
+    { "id": "e12", "type": "fill", "q": "Compro ___ carne per il ragù.", "es": "Compro carne para el ragú.", "answer": ["della"], "bank": ["della", "del", "delle"], "why": "La carne → della.", "g": "it-g-partitivo-intro" },
+    { "id": "e13", "type": "fill", "q": "Vorrei mezzo chilo ___ ciliegie.", "es": "Quisiera medio kilo de cerezas.", "answer": ["di"], "bank": ["di", "delle", "dei"], "why": "Mezzo chilo es una cantidad: solo di.", "g": "it-g-partitivo-intro" },
+    { "id": "e14", "type": "fill", "q": "Nel frigo c'è ___ latte.", "es": "En la nevera hay leche.", "answer": ["del"], "why": "Il latte → del latte.", "g": "it-g-partitivo-intro" },
+    { "id": "e15", "type": "fill", "q": "Compro ___ finocchi per l'insalata.", "es": "Compro unos hinojos para la ensalada.", "answer": ["dei"], "why": "I finocchi → dei.", "g": "it-g-partitivo-intro" },
+    { "id": "e16", "type": "fill", "q": "Vorrei un po' ___ prezzemolo.", "es": "Quisiera un poco de perejil.", "answer": ["di"], "why": "Un po' di, siempre sin artículo.", "g": "it-g-partitivo-intro" },
+    { "id": "e17", "type": "fill", "q": "Oggi al mercato ci sono ___ uova fresche.", "es": "Hoy en el mercado hay unos huevos frescos.", "answer": ["delle"], "why": "Le uova (femenino plural) → delle.", "g": "it-g-partitivo-intro" },
+    { "id": "e18", "type": "transform", "instr": "Añade el partitivo", "q": "Compro pomodori.", "answer": ["Compro dei pomodori."], "why": "I pomodori → dei pomodori.", "g": "it-g-partitivo-intro" },
+    { "id": "e19", "type": "transform", "instr": "Añade el partitivo", "q": "Vorrei frutta.", "answer": ["Vorrei della frutta."], "why": "La frutta → della frutta.", "g": "it-g-partitivo-intro" },
+    { "id": "e20", "type": "transform", "instr": "Hazla negativa", "q": "Ho delle arance.", "answer": ["Non ho arance."], "why": "Con non, el partitivo desaparece.", "g": "it-g-partitivo-intro" },
+    { "id": "e21", "type": "transform", "instr": "Hazla negativa", "q": "Compro dello zucchero.", "answer": ["Non compro zucchero.", "Non compro lo zucchero."], "why": "Non compro zucchero, sin dello.", "g": "it-g-partitivo-intro" },
+    { "id": "e22", "type": "transform", "instr": "Usa «un po' di»", "q": "Vorrei del basilico.", "answer": ["Vorrei un po' di basilico."], "why": "Del basilico → un po' di basilico.", "g": "it-g-partitivo-intro" },
+    { "id": "e23", "type": "error", "q": "Vorrei un etto del prosciutto.", "wrong": "del", "fix": "di", "why": "Un etto es cantidad: un etto di prosciutto.", "g": "it-g-partitivo-intro" },
+    { "id": "e24", "type": "error", "q": "Compro dei spinaci.", "wrong": "dei", "fix": "degli", "why": "Gli spinaci → degli.", "g": "it-g-partitivo-intro" },
+    { "id": "e25", "type": "error", "q": "Ci sono della pesche.", "wrong": "della", "fix": "delle", "why": "Pesche es plural: delle pesche.", "g": "it-g-partitivo-intro" },
+    { "id": "e26", "type": "error", "q": "Prendo dello pane.", "wrong": "dello", "fix": "del", "why": "Il pane → del pane.", "g": "it-g-partitivo-intro" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "Compro unas fresas.", "answer": ["Compro delle fragole."], "why": "Unas = delle (le fragole).", "g": "it-g-partitivo-intro" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "No tengo pan.", "answer": ["Non ho pane.", "Non ho il pane."], "why": "En negativa, sin partitivo.", "g": "it-g-partitivo-intro" },
+    { "id": "e29", "type": "translate", "dir": "from", "q": "Vorrei dei carciofi.", "answer": ["Quisiera unas alcachofas.", "Quisiera alcachofas."], "why": "Dei = unos, unas.", "g": "it-g-partitivo-intro" },
+    { "id": "e30", "type": "order", "es": "Hay unas peras muy buenas.", "answer": "Ci sono delle pere molto buone", "extra": ["dei"], "why": "Le pere → delle pere.", "g": "it-g-partitivo-intro" },
+    { "id": "e31", "type": "order", "es": "Quisiera un kilo de cebollas.", "answer": "Vorrei un chilo di cipolle", "extra": ["delle"], "why": "Cantidad + di.", "g": "it-g-partitivo-intro" },
+    { "id": "e32", "type": "situation", "context": "Llegas al puesto y quieres «unos tomates», sin decir cuántos.", "emoji": "🍅", "options": ["Vorrei dei pomodori.", "Vorrei di pomodori.", "Vorrei degli pomodori."], "answer": "Vorrei dei pomodori.", "why": "I pomodori → dei.", "g": "it-g-partitivo-intro" },
+    { "id": "e33", "type": "situation", "context": "Tu amiga te pregunta si queda azúcar. No queda nada.", "emoji": "🫙", "options": ["No, non c'è zucchero.", "No, non c'è dello zucchero.", "No, non c'è di zucchero."], "answer": "No, non c'è zucchero.", "why": "En negativa, sin partitivo.", "g": "it-g-partitivo-intro" },
+    { "id": "e34", "type": "match", "pairs": [["il pane", "del pane"], ["la frutta", "della frutta"], ["l'olio", "dell'olio"], ["gli spinaci", "degli spinaci"], ["le mele", "delle mele"]], "why": "Mira el artículo y pégale di.", "g": "it-g-partitivo-intro" }
+  ],
+  "reviewed": false
+}

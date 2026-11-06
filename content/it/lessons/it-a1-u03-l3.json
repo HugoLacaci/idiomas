@@ -1,0 +1,437 @@
+{
+  "id": "it-a1-u03-l3",
+  "unit": "it-a1-u03",
+  "title": "Quanto costa? Fare domande",
+  "goal": "a hacer preguntas útiles de viaje: cuánto, dónde, cuándo, cómo, quién y por qué",
+  "emoji": "❓",
+  "photoQuery": "naples tourist information street",
+  "vocab": [
+    {
+      "id": "domanda-chi",
+      "t": "chi?",
+      "es": "¿quién?",
+      "emoji": "👤",
+      "pos": "other",
+      "ex": {
+        "t": "Chi è quella signora?",
+        "es": "¿Quién es esa señora?"
+      }
+    },
+    {
+      "id": "domanda-che-cosa",
+      "t": "che cosa?",
+      "es": "¿qué?",
+      "emoji": "❓",
+      "pos": "other",
+      "ex": {
+        "t": "Che cosa prendi?",
+        "es": "¿Qué tomas?"
+      }
+    },
+    {
+      "id": "domanda-dove",
+      "t": "dove?",
+      "es": "¿dónde?",
+      "emoji": "📍",
+      "pos": "other",
+      "ex": {
+        "t": "Dov'è la stazione?",
+        "es": "¿Dónde está la estación?"
+      }
+    },
+    {
+      "id": "domanda-quando",
+      "t": "quando?",
+      "es": "¿cuándo?",
+      "emoji": "📅",
+      "pos": "other",
+      "ex": {
+        "t": "Quando arriva Hugo?",
+        "es": "¿Cuándo llega Hugo?"
+      }
+    },
+    {
+      "id": "domanda-quanto",
+      "t": "quanto?",
+      "es": "¿cuánto?",
+      "emoji": "💰",
+      "pos": "other",
+      "ex": {
+        "t": "Quanto costa il giro in barca?",
+        "es": "¿Cuánto cuesta la vuelta en barco?"
+      }
+    },
+    {
+      "id": "domanda-come",
+      "t": "come?",
+      "es": "¿cómo?",
+      "emoji": "🤔",
+      "pos": "other",
+      "ex": {
+        "t": "Come pago? Con la carta?",
+        "es": "¿Cómo pago? ¿Con tarjeta?"
+      }
+    },
+    {
+      "id": "domanda-perche",
+      "t": "perché?",
+      "es": "¿por qué? / porque",
+      "emoji": "🤷",
+      "pos": "other",
+      "ex": {
+        "t": "Perché studi italiano?",
+        "es": "¿Por qué estudias italiano?"
+      }
+    },
+    {
+      "id": "subito",
+      "t": "subito",
+      "es": "enseguida",
+      "emoji": "⚡",
+      "pos": "adv",
+      "note": "¡Ojo! Falso amigo: no es «súbito».",
+      "ex": {
+        "t": "Arrivo subito!",
+        "es": "¡Voy enseguida!"
+      }
+    }
+  ],
+  "grammar": "it-g-interrogativi",
+  "pron": {
+    "title": "La voz sube en la pregunta",
+    "tip": "Como en español, la pregunta se nota en la voz: sube al final. El orden de las palabras no cambia.",
+    "words": [
+      "Quanto costa?",
+      "Dove abiti?",
+      "Come stai?",
+      "Perché?"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ costa il biglietto?",
+      "options": [
+        "Quanto",
+        "Chi",
+        "Dove"
+      ],
+      "answer": "Quanto",
+      "why": "Para el precio: quanto costa?",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "___ abita Giulia? — A Roma.",
+      "options": [
+        "Dove",
+        "Quando",
+        "Come"
+      ],
+      "answer": "Dove",
+      "why": "La respuesta es un lugar: dove.",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "___ arrivano i nipoti? — Sabato.",
+      "options": [
+        "Quando",
+        "Chi",
+        "Perché"
+      ],
+      "answer": "Quando",
+      "why": "La respuesta es un día: quando.",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "___ è quel signore? — È il mio vicino.",
+      "answer": [
+        "Chi"
+      ],
+      "bank": [
+        "Chi",
+        "Che",
+        "Come"
+      ],
+      "why": "Para preguntar por una persona: chi.",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Che ___ prendi? — Un cappuccino.",
+      "answer": [
+        "cosa"
+      ],
+      "why": "Che cosa = qué.",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e6",
+      "type": "match",
+      "pairs": [
+        [
+          "Dove abiti?",
+          "In Spagna."
+        ],
+        [
+          "Come stai?",
+          "Bene, grazie."
+        ],
+        [
+          "Quanto costa?",
+          "Cinque euro."
+        ],
+        [
+          "Chi è?",
+          "È mio figlio."
+        ],
+        [
+          "Quando parti?",
+          "Domani."
+        ]
+      ],
+      "why": "Cada palabra de pregunta pide un tipo de respuesta.",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "¿Cuánto cuestan las postales?",
+      "answer": "Quanto costano le cartoline",
+      "extra": [
+        "Quante"
+      ],
+      "why": "Para el precio siempre quanto, aunque el verbo vaya en plural.",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e8",
+      "type": "translate",
+      "dir": "from",
+      "q": "Arrivo subito!",
+      "answer": [
+        "¡Voy enseguida!",
+        "Voy enseguida",
+        "¡Llego enseguida!",
+        "Llego enseguida",
+        "¡Ya voy!",
+        "Ya voy"
+      ],
+      "why": "Subito = enseguida, no «súbito»."
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Perche studi italiano?",
+      "wrong": "Perche",
+      "fix": "Perché",
+      "why": "Perché lleva acento en la é final.",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e10",
+      "type": "situation",
+      "context": "Tu tren no llega y quieres saber por qué va con retraso.",
+      "emoji": "🚆",
+      "options": [
+        "Perché il treno è in ritardo?",
+        "Come il treno è in ritardo?",
+        "Chi è in ritardo il treno?"
+      ],
+      "answer": "Perché il treno è in ritardo?",
+      "why": "Para el motivo: perché?",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e11",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de Hugo",
+      "text": "Ciao mamma! Quando arrivi a Roma? E dove dormi? Io arrivo lunedì. Un bacio!",
+      "questions": [
+        {
+          "q": "¿Qué quiere saber Hugo primero?",
+          "options": [
+            "Cuándo llega su madre",
+            "Cuánto cuesta el hotel",
+            "Quién viene"
+          ],
+          "answer": "Cuándo llega su madre"
+        },
+        {
+          "q": "¿Qué más pregunta?",
+          "options": [
+            "Dónde duerme ella",
+            "Qué come ella",
+            "Cómo está ella"
+          ],
+          "answer": "Dónde duerme ella"
+        },
+        {
+          "q": "¿Cuándo llega Hugo?",
+          "options": [
+            "El lunes",
+            "El sábado",
+            "Hoy"
+          ],
+          "answer": "El lunes"
+        }
+      ],
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e12",
+      "type": "speak",
+      "t": "Scusi, quanto costa questo?",
+      "es": "Perdone, ¿cuánto cuesta esto?"
+    },
+    {
+      "id": "e13",
+      "type": "transform",
+      "instr": "Haz la pregunta (por el precio)",
+      "q": "La cartolina costa un euro.",
+      "answer": [
+        "Quanto costa la cartolina?",
+        "Quanto costa la cartolina",
+        "Quanto costa?",
+        "Quanto costa"
+      ],
+      "why": "Para el precio: quanto costa…?",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e14",
+      "type": "choose",
+      "q": "___ figli hai?",
+      "options": [
+        "Quanti",
+        "Quante",
+        "Quanto"
+      ],
+      "answer": "Quanti",
+      "why": "Figli es masculino plural: quanti figli.",
+      "g": "it-g-interrogativi"
+    }
+  ],
+  "dialog": {
+    "title": "En la oficina de turismo",
+    "setting": "En una oficina de turismo de Nápoles",
+    "emoji": "🗺️",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Buongiorno! Quanto costa il giro in autobus?",
+        "es": "¡Buenos días! ¿Cuánto cuesta la vuelta en autobús?"
+      },
+      {
+        "who": "Marco",
+        "t": "Venticinque euro.",
+        "es": "Veinticinco euros."
+      },
+      {
+        "who": "Yolanda",
+        "t": "E quando parte?",
+        "es": "¿Y cuándo sale?"
+      },
+      {
+        "who": "Marco",
+        "t": "Ogni ora, qui davanti.",
+        "es": "Cada hora, aquí delante."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Come pago?",
+        "es": "¿Cómo pago?"
+      },
+      {
+        "who": "Marco",
+        "t": "Con la carta o in contanti.",
+        "es": "Con tarjeta o en efectivo."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfetto. Due biglietti, per favore.",
+        "es": "Perfecto. Dos billetes, por favor."
+      },
+      {
+        "who": "Marco",
+        "t": "Subito, signora!",
+        "es": "¡Enseguida, señora!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuánto cuesta la vuelta en autobús?",
+        "options": [
+          "25 €",
+          "20 €",
+          "15 €"
+        ],
+        "answer": "25 €"
+      },
+      {
+        "q": "¿Cada cuánto sale el autobús?",
+        "options": [
+          "Cada hora",
+          "Una vez al día",
+          "A mediodía"
+        ],
+        "answer": "Cada hora"
+      },
+      {
+        "q": "¿Qué significa «Subito!»?",
+        "options": [
+          "¡Enseguida!",
+          "¡De repente!",
+          "¡Despacio!"
+        ],
+        "answer": "¡Enseguida!"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Scusi, posso pagare con la carta?",
+    "es": "Perdone, ¿puedo pagar con tarjeta?",
+    "context": "Antes de pagar en una tienda o en un taxi"
+  },
+  "same": {
+    "text": "Igual que en español: las preguntas no cambian el orden; empiezan por la palabra de pregunta y la voz sube al final.",
+    "examples": [
+      {
+        "t": "Quanto costa?",
+        "es": "¿Cuánto cuesta?"
+      },
+      {
+        "t": "Dove abiti?",
+        "es": "¿Dónde vives?"
+      },
+      {
+        "t": "Come stai?",
+        "es": "¿Cómo estás?"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "subito",
+    "means": "enseguida, ahora mismo",
+    "looksLike": "súbito (repentino)",
+    "emoji": "⚡",
+    "tip": "Cuando el camarero dice «Subito!», te dice que viene enseguida. «Repentino» en italiano es improvviso."
+  },
+  "summary": [
+    "Chi, che cosa, dove, quando, quanto, come, perché",
+    "El orden es como en español: Quanto costa il biglietto?",
+    "Quanti/quante concuerdan: quanti anni, quante persone",
+    "Solo se escribe ? al final, nunca ¿",
+    "¡Ojo! Subito = enseguida"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u03-l3"
+}

@@ -1,0 +1,441 @@
+{
+  "id": "en-a2-u10-l4",
+  "unit": "en-a2-u10",
+  "title": "Entrar, salir, cruzar: hacia dónde vas",
+  "goal": "a decir hacia dónde te mueves con into, out of, through, across, along, up y down",
+  "emoji": "🧭",
+  "photoQuery": "people walking across bridge city",
+  "vocab": [
+    {
+      "id": "trip-into",
+      "t": "into",
+      "es": "a, dentro de (entrar en)",
+      "emoji": "➡️",
+      "pos": "other",
+      "ex": {
+        "t": "We went into the hotel.",
+        "es": "Entramos en el hotel."
+      }
+    },
+    {
+      "id": "trip-out-of",
+      "t": "out of",
+      "es": "fuera de (salir de)",
+      "emoji": "⬅️",
+      "pos": "other",
+      "ex": {
+        "t": "She got out of the taxi.",
+        "es": "Se bajó del taxi."
+      }
+    },
+    {
+      "id": "trip-through",
+      "t": "through",
+      "es": "a través de, por",
+      "emoji": "🚇",
+      "pos": "other",
+      "ex": {
+        "t": "Go through security and turn left.",
+        "es": "Pasa el control de seguridad y gira a la izquierda."
+      }
+    },
+    {
+      "id": "trip-across",
+      "t": "across",
+      "es": "de un lado a otro (cruzar)",
+      "emoji": "🌉",
+      "pos": "other",
+      "ex": {
+        "t": "We walked across the bridge.",
+        "es": "Cruzamos el puente andando."
+      }
+    },
+    {
+      "id": "trip-along",
+      "t": "along",
+      "es": "a lo largo de, por",
+      "emoji": "🏞️",
+      "pos": "other",
+      "ex": {
+        "t": "Let's walk along the river.",
+        "es": "Vamos a pasear por la orilla del río."
+      }
+    },
+    {
+      "id": "trip-up-down",
+      "t": "up / down",
+      "es": "hacia arriba / hacia abajo",
+      "emoji": "↕️",
+      "pos": "other",
+      "ex": {
+        "t": "Take the lift up to the tenth floor.",
+        "es": "Sube en ascensor a la décima planta."
+      }
+    },
+    {
+      "id": "trip-past",
+      "t": "past",
+      "es": "por delante de (pasar)",
+      "emoji": "🚶‍♀️",
+      "pos": "other",
+      "ex": {
+        "t": "Walk past the café and turn right.",
+        "es": "Pasa por delante de la cafetería y gira a la derecha."
+      }
+    },
+    {
+      "id": "trip-get-on-off",
+      "t": "get on / get off",
+      "es": "subir(se) / bajar(se) (avión, tren, bus)",
+      "emoji": "🚌",
+      "pos": "phrase",
+      "ex": {
+        "t": "We got off the bus at the park.",
+        "es": "Nos bajamos del autobús en el parque."
+      },
+      "note": "Taxi y coche: get into / get out of."
+    },
+    {
+      "id": "trip-large",
+      "t": "large",
+      "es": "grande",
+      "emoji": "🐘",
+      "pos": "adj",
+      "ex": {
+        "t": "Could I have a large coffee, please?",
+        "es": "¿Me pone un café grande, por favor?"
+      },
+      "note": "¡Falso amigo! Largo = long."
+    }
+  ],
+  "grammar": "en-g-prep-movement",
+  "pron": {
+    "title": "La th de through",
+    "tip": "En through la th se dice con la lengua entre los dientes, como nuestra z de «zapato». Through («zru») no es true («tru»).",
+    "words": [
+      "through",
+      "thank you",
+      "three",
+      "think"
+    ],
+    "pairs": [
+      [
+        "through",
+        "true"
+      ],
+      [
+        "three",
+        "tree"
+      ]
+    ]
+  },
+  "falseFriend": {
+    "word": "large",
+    "means": "grande",
+    "looksLike": "largo",
+    "emoji": "🐘",
+    "tip": "A large suitcase es una maleta grande. Para «largo» usa long: a long flight (un vuelo largo)."
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "We walked ___ the hotel and went to reception.",
+      "options": [
+        "into",
+        "in",
+        "out of"
+      ],
+      "answer": "into",
+      "why": "Movimiento hacia dentro: into.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "She got ___ the taxi and said thank you.",
+      "options": [
+        "out of",
+        "out",
+        "off"
+      ],
+      "answer": "out of",
+      "why": "Salir de un taxi: get out of (con of).",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Please walk ___ the security gate.",
+      "options": [
+        "through",
+        "across",
+        "along"
+      ],
+      "answer": "through",
+      "why": "Pasar por dentro de algo: through.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "It's a ___ flight: eight hours!",
+      "options": [
+        "long",
+        "large",
+        "big"
+      ],
+      "answer": "long",
+      "why": "Largo = long. Large significa «grande»."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Be careful when you walk ___ the road.",
+      "es": "Ten cuidado al cruzar la calle.",
+      "answer": [
+        "across"
+      ],
+      "bank": [
+        "across",
+        "along",
+        "into"
+      ],
+      "why": "Cruzar de un lado a otro: across.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "We got ___ the bus in the city centre.",
+      "es": "Nos bajamos del autobús en el centro.",
+      "answer": [
+        "off"
+      ],
+      "bank": [
+        "off",
+        "out",
+        "down"
+      ],
+      "why": "Autobús, tren, avión: get on / get off.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Walk ___ the bank and turn left.",
+      "es": "Pasa por delante del banco y gira a la izquierda.",
+      "answer": [
+        "past"
+      ],
+      "why": "Pasar por delante de algo: past.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Dilo al revés (bajarse)",
+      "q": "She got on the bus.",
+      "answer": [
+        "She got off the bus.",
+        "She got off the bus"
+      ],
+      "why": "get on ↔ get off.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "I went in the shop to buy a map.",
+      "wrong": "in",
+      "fix": "into",
+      "why": "Con movimiento hacia dentro: into.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "We bought a long pizza for the four of us.",
+      "wrong": "long",
+      "fix": "large",
+      "why": "Una pizza grande = a large pizza. Long es «largo»."
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Cruzamos el puente andando",
+      "answer": "We walked across the bridge",
+      "extra": [
+        "crossed"
+      ],
+      "why": "Verbo de cómo te mueves (walk) + across.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Salimos del taxi.",
+      "answer": [
+        "We got out of the taxi.",
+        "We got out of the cab.",
+        "We got out of the taxi"
+      ],
+      "why": "Salir de un taxi = get out of.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "into",
+          "entrar en"
+        ],
+        [
+          "out of",
+          "salir de"
+        ],
+        [
+          "across",
+          "cruzar"
+        ],
+        [
+          "through",
+          "a través de"
+        ],
+        [
+          "along",
+          "a lo largo de"
+        ]
+      ],
+      "why": "Preposiciones de movimiento.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Un turista te pregunta por los aseos del aeropuerto. Están pasando la tienda, al otro lado de esa puerta.",
+      "emoji": "🚻",
+      "options": [
+        "Go through that door and walk past the shop.",
+        "Go across that door and walk along the shop.",
+        "Go in that door and walk for the shop."
+      ],
+      "answer": "Go through that door and walk past the shop.",
+      "why": "Por una puerta: through. Por delante de algo: past.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "through",
+        "true"
+      ],
+      "answer": "through",
+      "es": [
+        "a través de",
+        "verdad"
+      ],
+      "why": "Through empieza con th (lengua entre los dientes); true, con t."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "We walked along the river and across the bridge.",
+      "es": "Paseamos por la orilla del río y cruzamos el puente.",
+      "g": "en-g-prep-movement",
+      "why": "along = por la orilla; across = cruzar."
+    }
+  ],
+  "dialog": {
+    "title": "¿Cómo llego al ascensor?",
+    "setting": "Yolanda acaba de llegar al hotel en Nueva York y pregunta al portero",
+    "emoji": "🛗",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Excuse me, where are the lifts?",
+        "es": "Perdone, ¿dónde están los ascensores?"
+      },
+      {
+        "who": "Doorman",
+        "t": "Go through those glass doors and walk past the bar.",
+        "es": "Pase por esas puertas de cristal y siga por delante del bar."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Past the bar… and then?",
+        "es": "Por delante del bar… ¿y luego?"
+      },
+      {
+        "who": "Doorman",
+        "t": "The elevators are on your right. Go up to the twelfth floor.",
+        "es": "Los ascensores (en EE. UU., elevators) están a su derecha. Suba a la planta doce."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Thank you! Could you help me with this large suitcase?",
+        "es": "¡Gracias! ¿Me podría ayudar con esta maleta tan grande?"
+      },
+      {
+        "who": "Doorman",
+        "t": "Of course. I'll take it up to your room.",
+        "es": "Por supuesto. Se la subo a la habitación."
+      },
+      {
+        "who": "Yolanda",
+        "t": "You're very kind. It was a long flight!",
+        "es": "Es usted muy amable. ¡Ha sido un vuelo largo!"
+      },
+      {
+        "who": "Doorman",
+        "t": "Welcome to New York!",
+        "es": "¡Bienvenida a Nueva York!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Por dónde tiene que pasar Yolanda?",
+        "options": [
+          "Por las puertas de cristal",
+          "Por la cocina",
+          "Por la calle"
+        ],
+        "answer": "Por las puertas de cristal"
+      },
+      {
+        "q": "¿En qué planta está su habitación?",
+        "options": [
+          "En la doce",
+          "En la dos",
+          "En la diez"
+        ],
+        "answer": "En la doce"
+      },
+      {
+        "q": "¿Qué hace el portero?",
+        "options": [
+          "Le sube la maleta",
+          "Le llama un taxi",
+          "Le da un mapa"
+        ],
+        "answer": "Le sube la maleta"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Go through the doors and walk past the bar.",
+    "es": "Pase por las puertas y siga por delante del bar.",
+    "context": "Para entender o dar indicaciones dentro de un hotel o un aeropuerto"
+  },
+  "summary": [
+    "into = entrar en; out of = salir de",
+    "through = a través de; across = cruzar; along = a lo largo de; past = por delante",
+    "Bus, tren, avión: get on / off · Taxi, coche: get into / out of",
+    "large = grande; largo = long"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u10-l4"
+}

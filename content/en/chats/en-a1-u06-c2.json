@@ -1,0 +1,59 @@
+{
+  "id": "en-a1-u06-c2",
+  "unit": "en-a1-u06",
+  "title": "¿Vamos a clase juntas?",
+  "setting": "Emma va a una clase de español y te propone acompañarla.",
+  "emoji": "🎓",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, I attend a Spanish class on Wednesdays!", "es": "¡Yolanda, voy a una clase de español los miércoles!" },
+      "options": [
+        { "t": "Really? Where do you have the class?", "es": "¿De verdad? ¿Dónde tienes la clase?", "next": "n2", "ok": true },
+        { "t": "Really? Where you have the class?", "es": "¿De verdad? ¿Dónde tienes la clase?", "next": "n2", "ok": false, "feedback": "Falta do: Where do you have the class?" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "At the library, near my flat. Do you want to come?", "es": "En la biblioteca, cerca de mi piso. ¿Quieres venir?" },
+      "options": [
+        { "t": "Yes! I want to attend a class with you.", "es": "¡Sí! Quiero asistir a una clase contigo.", "next": "n3", "ok": true },
+        { "t": "Yes! I want to assist a class with you.", "es": "¡Sí! Quiero asistir a una clase contigo.", "next": "n3", "ok": false, "feedback": "¡Trampa! Asistir a = attend. Assist significa ayudar." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Great! Do you speak Spanish with the teacher?", "es": "¡Genial! ¿Hablas español con el profesor?" },
+      "options": [
+        { "t": "Of course! I'm Spanish!", "es": "¡Claro! ¡Soy española!", "next": "n4", "ok": true },
+        { "t": "Of course! I'm spanish!", "es": "¡Claro! ¡Soy española!", "next": "n4", "ok": false, "feedback": "Las nacionalidades van con mayúscula en inglés: Spanish." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ha ha! The students don't speak very well. We practise a lot.", "es": "¡Ja, ja! Los alumnos no hablan muy bien. Practicamos mucho." },
+      "options": [
+        { "t": "Do you have homework?", "es": "¿Tenéis deberes?", "next": "n5", "ok": true },
+        { "t": "Have you homework?", "es": "¿Tenéis deberes?", "next": "n5", "ok": false, "feedback": "Con have como verbo normal, la pregunta va con Do: Do you have homework?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Yes, we do. Every week! What time do you finish lunch on Wednesdays?", "es": "Sí. ¡Todas las semanas! ¿A qué hora terminas de comer los miércoles?" },
+      "options": [
+        { "t": "At three. I'm free in the afternoon.", "es": "A las tres. Por la tarde estoy libre.", "next": "n6", "ok": true },
+        { "t": "At three. I'm free on the afternoon.", "es": "A las tres. Por la tarde estoy libre.", "next": "n6", "ok": false, "feedback": "Partes del día con in: in the afternoon." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Perfect! The class is at five. See you on Wednesday!", "es": "¡Perfecto! La clase es a las cinco. ¡Nos vemos el miércoles!" },
+      "options": [
+        { "t": "See you on Wednesday!", "es": "¡Hasta el miércoles!", "next": "end", "ok": true },
+        { "t": "See you in Wednesday!", "es": "¡Hasta el miércoles!", "next": "end", "ok": false, "feedback": "Días de la semana con on: on Wednesday." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,87 @@
+{
+  "id": "it-b1-u06-l2",
+  "unit": "it-b1-u06",
+  "title": "Spero che, è importante che…",
+  "goal": "a usar el congiuntivo después de spero che, voglio che, è importante che y otras expresiones, también en plural",
+  "emoji": "🤞",
+  "photoQuery": "classroom whiteboard adult students",
+  "vocab": [
+    { "id": "studio-spero-che", "t": "spero che…", "es": "espero que…", "emoji": "🤞", "pos": "phrase", "ex": { "t": "Spero che tu stia bene.", "es": "Espero que estés bien." } },
+    { "id": "studio-e-importante-che", "t": "è importante che…", "es": "es importante que…", "emoji": "❗", "pos": "phrase", "ex": { "t": "È importante che gli studenti parlino molto.", "es": "Es importante que los alumnos hablen mucho." } },
+    { "id": "studio-voglio-che", "t": "voglio che…", "es": "quiero que…", "emoji": "👉", "pos": "phrase", "ex": { "t": "Voglio che parliate solo italiano in classe.", "es": "Quiero que habléis solo italiano en clase." } },
+    { "id": "studio-sono-contenta-che", "t": "sono contenta che…", "es": "me alegro de que…", "emoji": "😊", "pos": "phrase", "ex": { "t": "Sono contenta che le mie amiche studino con me.", "es": "Me alegro de que mis amigas estudien conmigo." }, "note": "Sin di delante de che: sono contenta che…" },
+    { "id": "studio-bisogna-che", "t": "bisogna che…", "es": "hace falta que…", "emoji": "📌", "pos": "phrase", "ex": { "t": "Bisogna che tu ripassi un po' ogni giorno.", "es": "Hace falta que repases un poco cada día." } },
+    { "id": "studio-e-meglio-che", "t": "è meglio che…", "es": "es mejor que…", "emoji": "👍", "pos": "phrase", "ex": { "t": "È meglio che partiamo presto domani.", "es": "Es mejor que salgamos temprano mañana." } },
+    { "id": "studio-il-voto", "t": "il voto", "es": "la nota, la calificación", "emoji": "💯", "pos": "n", "ex": { "t": "Ho preso un bel voto nel compito di grammatica.", "es": "He sacado una buena nota en el ejercicio de gramática." }, "note": "¡Ojo! Falso amigo: en clase, il voto es la nota." },
+    { "id": "studio-ripassare", "t": "ripassare", "es": "repasar", "emoji": "🔁", "pos": "v", "ex": { "t": "Prima dell'esame ripasso sempre i verbi.", "es": "Antes del examen siempre repaso los verbos." } }
+  ],
+  "grammar": "it-g-congiuntivo-espressioni",
+  "pron": {
+    "title": "El acento de parlino, studino",
+    "tip": "En la forma de loro el acento no se mueve al final: PAR-li-no, STU-di-no, PREN-da-no, como en presente (PAR-la-no). No digas «parlinó».",
+    "words": ["parlino", "studino", "prendano", "partano", "siano", "abbiano"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Spero che le mie amiche ___ contente del corso.", "es": "Espero que mis amigas estén contentas con el curso.", "options": ["siano", "sono", "sia"], "answer": "siano", "why": "Tras spero che va congiuntivo. Con loro, essere → siano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e2", "type": "choose", "q": "È importante che tu ___ ogni giorno.", "es": "Es importante que repases cada día.", "options": ["ripassi", "ripassa", "ripassare"], "answer": "ripassi", "why": "Verbos en -are: io, tu y lui acaban en -i en congiuntivo: che tu ripassi.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e3", "type": "choose", "q": "La professoressa vuole che noi ___ solo in italiano.", "es": "La profesora quiere que hablemos solo en italiano.", "options": ["parliamo", "parlino", "parlate"], "answer": "parliamo", "why": "Con noi, el congiuntivo es igual que el presente: (che noi) parliamo.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e4", "type": "fill", "q": "Sono contenta che le lezioni ___ la sera.", "es": "Me alegro de que las clases sean por la tarde.", "answer": ["siano"], "bank": ["siano", "sono", "sia"], "why": "Sono contenta che expresa un sentimiento: congiuntivo. Le lezioni (loro) → siano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e5", "type": "fill", "q": "Bisogna che gli studenti ___ il libro nuovo.", "es": "Hace falta que los alumnos compren el libro nuevo.", "answer": ["comprino"], "bank": ["comprino", "comprano", "compri"], "why": "Verbos en -are con loro: -ino → comprino. Comprano es el presente normal.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e6", "type": "fill", "q": "È meglio che voi ___ prima: la lezione comincia alle sei.", "es": "Es mejor que lleguéis antes: la clase empieza a las seis.", "answer": ["arriviate"], "hint": "arrivare (voi)", "why": "Con voi, el congiuntivo acaba en -iate: arriviate.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e7", "type": "conjugate", "verb": "scrivere", "person": "loro", "tense": "congiuntivo presente", "q": "È importante che gli studenti ___ un po' ogni giorno.", "answer": ["scrivano"], "table": [["io", "scriva"], ["tu", "scriva"], ["lui / lei", "scriva"], ["noi", "scriviamo"], ["voi", "scriviate"], ["loro", "scrivano"]], "why": "Verbos en -ere: -a, -a, -a, -iamo, -iate, -ano → scrivano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e8", "type": "conjugate", "verb": "avere", "person": "loro", "tense": "congiuntivo presente", "q": "Spero che i miei compagni ___ pazienza con me.", "answer": ["abbiano"], "table": [["io / tu / lui", "abbia"], ["noi", "abbiamo"], ["voi", "abbiate"], ["loro", "abbiano"]], "why": "Avere en congiuntivo: abbia… y con loro, abbiano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e9", "type": "conjugate", "verb": "partire", "person": "voi", "tense": "congiuntivo presente", "q": "Sono contenta che voi ___ insieme per Perugia.", "answer": ["partiate"], "why": "Verbos en -ire con voi: -iate → partiate.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e10", "type": "error", "q": "Spero che i miei compagni capiscono la lezione.", "wrong": "capiscono", "fix": "capiscano", "why": "Tras spero che, congiuntivo: capiscano. Conserva el -isc- del presente.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e11", "type": "error", "q": "È importante che tu studia ogni giorno.", "wrong": "studia", "fix": "studi", "why": "È importante che + congiuntivo. Studiare → (che tu) studi.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e12", "type": "transform", "instr": "Empieza con «Spero che…»", "q": "Le lezioni sono interessanti.", "answer": ["Spero che le lezioni siano interessanti."], "why": "Sono pasa a congiuntivo: siano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e13", "type": "transform", "instr": "Empieza con «È importante che…»", "q": "Gli studenti ripassano i verbi.", "answer": ["È importante che gli studenti ripassino i verbi."], "why": "Ripassano (presente) → ripassino (congiuntivo, loro).", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e14", "type": "order", "es": "Espero que mis amigas aprueben el examen.", "answer": "Spero che le mie amiche superino l'esame", "extra": ["superano"], "why": "Spero che + congiuntivo: superino (loro).", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e15", "type": "translate", "dir": "to", "q": "Me alegro de que estéis aquí.", "answer": ["Sono contenta che siate qui.", "Sono contenta che voi siate qui.", "Sono felice che siate qui."], "why": "Me alegro de que = sono contenta che. Essere con voi: siate.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e16", "type": "match", "pairs": [["spero che", "espero que"], ["è meglio che", "es mejor que"], ["bisogna che", "hace falta que"], ["sono contenta che", "me alegro de que"], ["voglio che", "quiero que"]], "why": "Todas estas expresiones van seguidas de congiuntivo.", "g": "it-g-congiuntivo-espressioni" }
+  ],
+  "dialog": {
+    "title": "Los objetivos del trimestre",
+    "setting": "En clase, la profesora Marta habla con Yolanda y con su compañera Carmen",
+    "emoji": "🎯",
+    "lines": [
+      { "who": "Marta", "t": "Allora, quali sono i vostri obiettivi per questo trimestre?", "es": "Bueno, ¿cuáles son vuestros objetivos para este trimestre?" },
+      { "who": "Yolanda", "t": "Io spero di parlare meglio. Ho ancora paura di sbagliare.", "es": "Yo espero hablar mejor. Todavía me da miedo equivocarme." },
+      { "who": "Marta", "t": "È normale. È importante che tu parli tanto, anche con errori.", "es": "Es normal. Es importante que hables mucho, aunque sea con errores." },
+      { "who": "Carmen", "t": "Io voglio che i miei voti siano più alti!", "es": "¡Yo quiero que mis notas sean más altas!" },
+      { "who": "Marta", "t": "Allora bisogna che voi ripassiate i verbi ogni settimana.", "es": "Entonces hace falta que repaséis los verbos cada semana." },
+      { "who": "Yolanda", "t": "Ogni settimana? Va bene, è meglio che cominciamo subito!", "es": "¿Cada semana? Vale, ¡es mejor que empecemos ya!" },
+      { "who": "Marta", "t": "Brave! Sono contenta che siate così motivate.", "es": "¡Muy bien! Me alegro de que estéis tan motivadas." },
+      { "who": "Carmen", "t": "E lei, prof, cosa spera?", "es": "¿Y usted, profe, qué espera?" },
+      { "who": "Marta", "t": "Spero che tutti superino l'esame a giugno!", "es": "¡Espero que todos aprueben el examen en junio!" }
+    ],
+    "questions": [
+      { "q": "¿Qué le da miedo a Yolanda?", "options": ["Equivocarse al hablar", "Suspender el examen", "Llegar tarde"], "answer": "Equivocarse al hablar" },
+      { "q": "¿Qué quiere Carmen?", "options": ["Sacar mejores notas", "Viajar a Roma", "Cambiar de profesora"], "answer": "Sacar mejores notas" },
+      { "q": "¿Qué espera la profesora?", "options": ["Que todos aprueben en junio", "Que haya menos alumnos", "Que lleguen antes"], "answer": "Que todos aprueben en junio" }
+    ]
+  },
+  "realLife": { "t": "Spero che stiate tutti bene!", "es": "¡Espero que estéis todos bien!", "context": "Para empezar un mensaje a tus amigos italianos" },
+  "same": {
+    "text": "Como en español, tras «espero que», «quiero que» o «me alegro de que» va subjuntivo.",
+    "examples": [
+      { "t": "Spero che tu stia bene.", "es": "Espero que estés bien." },
+      { "t": "Voglio che parliate italiano.", "es": "Quiero que habléis italiano." },
+      { "t": "Sono contenta che siate qui.", "es": "Me alegro de que estéis aquí." }
+    ]
+  },
+  "falseFriend": {
+    "word": "il voto",
+    "means": "la nota, la calificación (y también el voto en unas elecciones)",
+    "looksLike": "el voto (solo de elecciones)",
+    "emoji": "💯",
+    "tip": "Ho preso un bel voto = he sacado buena nota. En el colegio italiano se puntúa sobre 10; en la universidad se aprueba con 18 y el máximo es 30."
+  },
+  "summary": [
+    "Spero che, voglio che, sono contenta che, è importante che, bisogna che, è meglio che + congiuntivo.",
+    "-are: parli, parli, parli, parliamo, parliate, parlino.",
+    "-ere / -ire: prenda… prendiamo, prendiate, prendano.",
+    "Essere: sia… siano. Avere: abbia… abbiano.",
+    "Il voto = la nota de clase."
+  ],
+  "reviewed": false
+}

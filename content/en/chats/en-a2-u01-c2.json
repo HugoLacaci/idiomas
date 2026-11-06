@@ -1,0 +1,52 @@
+{
+  "id": "en-a2-u01-c2",
+  "unit": "en-a2-u01",
+  "title": "Normalmente… pero hoy",
+  "setting": "Emma te llama un martes por la mañana y te pilla fuera de tu rutina.",
+  "emoji": "🔁",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Morning! Are you at the market? You usually go on Tuesdays.", "es": "¡Buenos días! ¿Estás en el mercado? Sueles ir los martes." },
+      "options": [
+        { "t": "Not today. I'm waiting at the doctor's.", "es": "Hoy no. Estoy esperando en el médico.", "next": "n2", "ok": true },
+        { "t": "Not today. I wait at the doctor's.", "es": "Hoy no. Estoy esperando en el médico.", "next": "n2", "ok": false, "feedback": "Es lo que pasa ahora mismo: I'm waiting." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Oh dear. Are you OK?", "es": "Vaya. ¿Estás bien?" },
+      "options": [
+        { "t": "Yes, I just need a check-up.", "es": "Sí, solo necesito una revisión.", "next": "n3", "ok": true },
+        { "t": "Yes, I'm just needing a check-up.", "es": "Sí, solo necesito una revisión.", "next": "n3", "ok": false, "feedback": "Need es un verbo de estado: no lleva -ing. I just need…" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Good. What do you usually do on Tuesdays?", "es": "Bien. ¿Qué sueles hacer los martes?" },
+      "options": [
+        { "t": "I usually go to the market and then I have coffee with a friend.", "es": "Normalmente voy al mercado y luego tomo café con una amiga.", "next": "n4", "ok": true },
+        { "t": "I'm usually going to the market and then I'm having coffee with a friend.", "es": "Normalmente voy al mercado y luego tomo café con una amiga.", "next": "n4", "ok": false, "feedback": "Para costumbres (usually) usamos el presente simple: I usually go… I have…" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "That sounds nice. What are you doing now, in the waiting room?", "es": "Suena bien. ¿Y qué haces ahora en la sala de espera?" },
+      "options": [
+        { "t": "I'm reading a magazine and talking to you!", "es": "¡Estoy leyendo una revista y hablando contigo!", "next": "n5", "ok": true },
+        { "t": "I read a magazine and talk to you!", "es": "¡Estoy leyendo una revista y hablando contigo!", "next": "n5", "ok": false, "feedback": "Es ahora mismo: I'm reading… and talking…" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ha ha! Is the doctor calling you?", "es": "¡Ja, ja! ¿Te está llamando el médico?" },
+      "options": [
+        { "t": "Yes, she is! Talk later, Emma.", "es": "¡Sí! Hablamos luego, Emma.", "next": "end", "ok": true },
+        { "t": "Yes, she's! Talk later, Emma.", "es": "¡Sí! Hablamos luego, Emma.", "next": "end", "ok": false, "feedback": "En la respuesta corta afirmativa no se contrae: Yes, she is." },
+        { "t": "Yes, she does! Talk later, Emma.", "es": "¡Sí! Hablamos luego, Emma.", "next": "end", "ok": false, "feedback": "La pregunta es con is, así que la respuesta también: Yes, she is." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

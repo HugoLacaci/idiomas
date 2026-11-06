@@ -1,0 +1,62 @@
+{
+  "id": "en-b1-u06-c1",
+  "unit": "en-b1-u06",
+  "title": "¿Cómo se celebra la Navidad en España?",
+  "setting": "Emma prepara un artículo sobre la Navidad en otros países y te hace unas preguntas.",
+  "emoji": "🎄",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! How is Christmas celebrated in Spain?", "es": "¡Hola, Yolanda! ¿Cómo se celebra la Navidad en España?" },
+      "options": [
+        { "t": "The big dinner is on Christmas Eve.", "es": "La gran cena es en Nochebuena.", "next": "n2", "ok": true },
+        { "t": "The big dinner is on New Year's Eve.", "es": "La gran cena es en Nochebuena.", "next": "n2", "ok": false, "feedback": "New Year's Eve es Nochevieja. Nochebuena = Christmas Eve." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Interesting! What's eaten at that dinner?", "es": "¡Qué interesante! ¿Qué se come en esa cena?" },
+      "options": [
+        { "t": "Seafood and lamb are often eaten.", "es": "Se suele comer marisco y cordero.", "next": "n3", "ok": true },
+        { "t": "Seafood and lamb are often eat.", "es": "Se suele comer marisco y cordero.", "next": "n3", "ok": false, "feedback": "En la pasiva hace falta el participio: are eaten." },
+        { "t": "Seafood and lamb often eat.", "es": "Se suele comer marisco y cordero.", "next": "n3", "ok": false, "feedback": "Así parece que el marisco come. «Se come» = are eaten." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Yum! And what about dessert?", "es": "¡Qué rico! ¿Y de postre?" },
+      "options": [
+        { "t": "Turrón! It's made with almonds and honey.", "es": "¡Turrón! Se hace con almendras y miel.", "next": "n4", "ok": true },
+        { "t": "Turrón! It makes with almonds and honey.", "es": "¡Turrón! Se hace con almendras y miel.", "next": "n4", "ok": false, "feedback": "«Se hace» no es makes: It's made (is + participio)." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "And when are the presents opened?", "es": "¿Y cuándo se abren los regalos?" },
+      "options": [
+        { "t": "In many homes, they're brought by the Three Kings on 6th January.", "es": "En muchas casas, los traen los Reyes Magos el 6 de enero.", "next": "n5", "ok": true },
+        { "t": "In many homes, they're bring by the Three Kings on 6th January.", "es": "En muchas casas, los traen los Reyes Magos el 6 de enero.", "next": "n5", "ok": false, "feedback": "Participio de bring: brought. They're brought." },
+        { "t": "In many homes, they was brought by the Three Kings on 6th January.", "es": "En muchas casas, los traen los Reyes Magos el 6 de enero.", "next": "n5", "ok": false, "feedback": "Es una costumbre (presente) y they es plural: they're brought." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "How lovely! Here, crackers are pulled at Christmas lunch. Have you seen one?", "es": "¡Qué bonito! Aquí se tiran crackers en la comida de Navidad. ¿Has visto alguno?" },
+      "options": [
+        { "t": "Yes! And the paper crowns are worn during lunch.", "es": "¡Sí! Y las coronas de papel se llevan puestas durante la comida.", "next": "n6", "ok": true },
+        { "t": "Yes! And the paper crowns are wore during lunch.", "es": "¡Sí! Y las coronas de papel se llevan puestas durante la comida.", "next": "n6", "ok": false, "feedback": "Wear → wore → worn. En la pasiva, el participio: are worn." },
+        { "t": "Yes! And the paper crowns is worn during lunch.", "es": "¡Sí! Y las coronas de papel se llevan puestas durante la comida.", "next": "n6", "ok": false, "feedback": "Crowns es plural: are worn." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Exactly! Thank you, this is perfect for my article.", "es": "¡Exacto! Gracias, esto es perfecto para mi artículo." },
+      "options": [
+        { "t": "You're welcome! Merry Christmas, Emma!", "es": "¡De nada! ¡Feliz Navidad, Emma!", "next": "end", "ok": true },
+        { "t": "You're welcome! Happy Christmas returns, Emma!", "es": "¡De nada! ¡Feliz Navidad, Emma!", "next": "end", "ok": false, "feedback": "Many happy returns es para cumpleaños. En Navidad: Merry Christmas (o Happy Christmas)." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

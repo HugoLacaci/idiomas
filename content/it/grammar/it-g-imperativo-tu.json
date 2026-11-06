@@ -1,0 +1,147 @@
+{
+  "id": "it-g-imperativo-tu",
+  "lang": "it",
+  "level": "A2",
+  "title": "Imperativo de tú: prendi, non uscire, prendila",
+  "short": "Dar consejos y órdenes a quien tuteas: mangia, prendi, dormi; non uscire; y con pronombres pegados: prendila, dimmi.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Consejos de madre",
+      "emoji": "🍵",
+      "text": "Ya sabes decir *gira a destra*. Ahora, para cuidar a los tuyos: ==bevi== acqua, ==riposati==, ==non uscire==.",
+      "examples": [
+        { "t": "Hugo, ==bevi== tanta acqua e ==riposati==!", "es": "Hugo, ¡bebe mucha agua y descansa!", "hl": "bevi" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Afirmativo regular",
+      "emoji": "📋",
+      "text": "Verbos en **-are** → ==-a==. Verbos en **-ere** e **-ire** → ==-i==.",
+      "table": {
+        "head": ["Infinitivo", "Tú", "Español"],
+        "rows": [
+          ["mangiare", "mangi==a==", "come"],
+          ["chiamare", "chiam==a==", "llama"],
+          ["prendere", "prend==i==", "toma"],
+          ["bere", "bev==i==", "bebe"],
+          ["dormire", "dorm==i==", "duerme"],
+          ["uscire", "esc==i==", "sal"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "El negativo: non + infinitivo",
+      "emoji": "⛔",
+      "text": "Para decir «no hagas», con tú no cambias nada: ==non + infinitivo==.",
+      "examples": [
+        { "t": "==Non uscire== con la febbre!", "es": "¡No salgas con fiebre!", "hl": "Non uscire" },
+        { "t": "==Non bere== troppo caffè.", "es": "No bebas demasiado café.", "hl": "Non bere" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Los rebeldes",
+      "emoji": "⚡",
+      "text": "Cinco verbos tienen forma corta con apóstrofo. Y dos son especiales: ==abbi== y ==sii==.",
+      "table": {
+        "head": ["Infinitivo", "Tú", "Español"],
+        "rows": [
+          ["andare", "==vai== / ==va'==", "ve"],
+          ["fare", "==fai== / ==fa'==", "haz"],
+          ["stare", "==stai== / ==sta'==", "quédate, estate"],
+          ["dare", "==dai== / ==da'==", "da"],
+          ["dire", "==di'==", "di"],
+          ["avere / essere", "==abbi== / ==sii==", "ten / sé"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Pronombres pegados",
+      "emoji": "🧲",
+      "text": "Los pronombres van ==pegados al final==: prendi==la==, chiama==mi==, riposa==ti==. Con las formas cortas, la consonante se dobla: di' → di==mm==i, fa' → fa==ll==o.",
+      "examples": [
+        { "t": "La medicina? ==Prendila== adesso.", "es": "¿La medicina? Tómatela ahora.", "hl": "Prendila" },
+        { "t": "==Dimmi== la verità.", "es": "Dime la verdad.", "hl": "Dimmi" },
+        { "t": "==Fammi== sapere!", "es": "¡Dime algo!", "hl": "Fammi" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "El afirmativo es casi igual: toma = ==prendi==, tómatela = ==prendila==. Pero el negativo cambia: «no salgas» = ==non uscire==, no «non esci».",
+      "examples": [
+        { "t": "Non preoccuparti. / Non ti preoccupare.", "es": "No te preocupes." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Non esci* → ✅ ==non uscire==. ❌ *Dimi* → ✅ ==dimmi==. ❌ *Ti riposa* → ✅ ==riposati==. ❌ *Mangi!* (a tu hijo) → ✅ ==mangia!==."
+    },
+    {
+      "kind": "tip",
+      "title": "Truco para el negativo",
+      "emoji": "💡",
+      "text": "En negativo, el pronombre puede ir pegado al infinitivo o delante: ==non prenderla== = ==non la prendere==. Las dos son correctas.",
+      "examples": [
+        { "t": "Non preoccuparti, sto bene.", "es": "No te preocupes, estoy bien." }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: come, toma, duerme; en negativo cambiamos la forma: no comas, no tomes, no salgas. Los pronombres van pegados: tómatela, dime.",
+    "target": "En italiano: mangia, prendi, dormi; en negativo, non + infinitivo: non mangiare, non uscire. Los pronombres también van pegados: prendila, dimmi (con doble consonante tras di', fa', da', va', sta')."
+  },
+  "errors": [
+    { "wrong": "Non esci con questo freddo!", "right": "Non uscire con questo freddo!", "why": "El negativo de tú es non + infinitivo." },
+    { "wrong": "Dimi cosa ti fa male.", "right": "Dimmi cosa ti fa male.", "why": "Di' + mi dobla la m: dimmi." },
+    { "wrong": "Ti riposa un po'!", "right": "Riposati un po'!", "why": "En el imperativo afirmativo el pronombre va pegado al final." },
+    { "wrong": "Hugo, mangi la frutta!", "right": "Hugo, mangia la frutta!", "why": "Con tú, los verbos en -are acaban en -a: mangia." },
+    { "wrong": "Non preoccupati!", "right": "Non preoccuparti! / Non ti preoccupare!", "why": "En negativo se usa el infinitivo: preoccupar-ti." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Hugo, ___ la frutta!", "es": "Hugo, ¡cómete la fruta!", "options": ["mangia", "mangi", "mangiare"], "answer": "mangia", "why": "Mangiare (-are) con tú → mangia.", "g": "it-g-imperativo-tu" },
+    { "id": "e2", "type": "choose", "q": "___ presto stasera, sei stanca.", "es": "Duérmete pronto esta noche, estás cansada.", "options": ["Dormi", "Dorma", "Dorme"], "answer": "Dormi", "why": "Dormire (-ire) con tú → dormi.", "g": "it-g-imperativo-tu" },
+    { "id": "e3", "type": "choose", "q": "Non ___ quella pastiglia a stomaco vuoto.", "es": "No te tomes esa pastilla con el estómago vacío.", "options": ["prendere", "prendi", "prenda"], "answer": "prendere", "why": "Negativo con tú: non + infinitivo.", "g": "it-g-imperativo-tu" },
+    { "id": "e4", "type": "choose", "q": "___ pazienza, amore!", "es": "¡Ten paciencia, cariño!", "options": ["Abbi", "Hai", "Avere"], "answer": "Abbi", "why": "Avere en imperativo de tú es irregular: abbi.", "g": "it-g-imperativo-tu" },
+    { "id": "e5", "type": "choose", "q": "___ tranquilla, non è niente.", "es": "Estate tranquila, no es nada.", "options": ["Stai", "Stia", "Stare"], "answer": "Stai", "why": "Stare con tú → stai (o sta').", "g": "it-g-imperativo-tu" },
+    { "id": "e6", "type": "choose", "q": "Il medico? ___ subito!", "es": "¿El médico? ¡Llámalo enseguida!", "options": ["Chiamalo", "Lo chiama", "Chiamilo"], "answer": "Chiamalo", "why": "Chiama + lo, pegado: chiamalo.", "g": "it-g-imperativo-tu" },
+    { "id": "e7", "type": "choose", "q": "___ un favore: compra il pane.", "es": "Hazme un favor: compra el pan.", "options": ["Fammi", "Fami", "Mi fai"], "answer": "Fammi", "why": "Fa' + mi dobla la m: fammi.", "g": "it-g-imperativo-tu" },
+    { "id": "e8", "type": "fill", "q": "___ un po' d'acqua, hai la gola secca.", "es": "Bebe un poco de agua, tienes la garganta seca.", "answer": ["Bevi"], "bank": ["Bevi", "Beve", "Bere"], "why": "Bere → bevi.", "g": "it-g-imperativo-tu" },
+    { "id": "e9", "type": "fill", "q": "Non ___ in giardino senza giacca!", "es": "¡No salgas al jardín sin chaqueta!", "answer": ["uscire", "andare"], "bank": ["uscire", "esci", "esca"], "why": "Non + infinitivo: non uscire.", "g": "it-g-imperativo-tu" },
+    { "id": "e10", "type": "fill", "q": "___ dal medico domani mattina.", "es": "Ve al médico mañana por la mañana.", "answer": ["Vai", "Va'"], "bank": ["Vai", "Vada", "Andare"], "why": "Andare con tú: vai o va'.", "g": "it-g-imperativo-tu" },
+    { "id": "e11", "type": "fill", "q": "Lo sciroppo? ___ due volte al giorno.", "es": "¿El jarabe? Tómatelo dos veces al día.", "answer": ["Prendilo"], "hint": "prendere + lo", "why": "Prendi + lo, todo junto.", "g": "it-g-imperativo-tu" },
+    { "id": "e12", "type": "fill", "q": "Ho bisogno di te: ___ stasera!", "es": "Te necesito: ¡llámame esta noche!", "answer": ["chiamami"], "hint": "chiamare + mi", "why": "Chiama + mi: chiamami.", "g": "it-g-imperativo-tu" },
+    { "id": "e13", "type": "fill", "q": "Non ___, è solo un raffreddore.", "es": "No te preocupes, es solo un resfriado.", "answer": ["preoccuparti"], "hint": "preoccuparsi", "why": "Non + preoccupar + ti.", "g": "it-g-imperativo-tu" },
+    { "id": "e14", "type": "fill", "q": "___ la verità: hai mangiato i dolci?", "es": "Dime la verdad: ¿te has comido los dulces?", "answer": ["Dimmi"], "hint": "dire + mi", "why": "Di' + mi = dimmi, con doble m.", "g": "it-g-imperativo-tu" },
+    { "id": "e15", "type": "error", "q": "Non mangi troppo sale, mi raccomando.", "wrong": "mangi", "fix": "mangiare", "why": "Negativo con tú: non mangiare.", "g": "it-g-imperativo-tu" },
+    { "id": "e16", "type": "error", "q": "La pastiglia? Prendi e vai a letto.", "wrong": "Prendi", "fix": "Prendila", "why": "Falta el pronombre, pegado al final: prendila.", "g": "it-g-imperativo-tu" },
+    { "id": "e17", "type": "error", "q": "Dami la mano, attraversiamo.", "wrong": "Dami", "fix": "Dammi", "why": "Da' + mi dobla la m: dammi.", "g": "it-g-imperativo-tu" },
+    { "id": "e18", "type": "error", "q": "Copre bene, fa freddo!", "wrong": "Copre", "fix": "Copriti", "why": "Coprirsi con tú: copriti.", "g": "it-g-imperativo-tu" },
+    { "id": "e19", "type": "transform", "instr": "Hazla negativa", "q": "Bevi il caffè.", "answer": ["Non bere il caffè."], "why": "Non + infinitivo: non bere.", "g": "it-g-imperativo-tu" },
+    { "id": "e20", "type": "transform", "instr": "Hazla negativa", "q": "Chiamalo adesso.", "answer": ["Non chiamarlo adesso.", "Non lo chiamare adesso."], "why": "Non chiamarlo o non lo chiamare: las dos valen.", "g": "it-g-imperativo-tu" },
+    { "id": "e21", "type": "transform", "instr": "Hazla afirmativa", "q": "Non dormire sul divano.", "answer": ["Dormi sul divano."], "why": "Dormire → dormi.", "g": "it-g-imperativo-tu" },
+    { "id": "e22", "type": "transform", "instr": "Sustituye «la pastiglia» por un pronombre", "q": "Prendi la pastiglia.", "answer": ["Prendila."], "why": "La pastiglia → la: prendila.", "g": "it-g-imperativo-tu" },
+    { "id": "e23", "type": "transform", "instr": "Hazla afirmativa", "q": "Non ti riposare.", "answer": ["Riposati."], "why": "Afirmativo: pronombre pegado, riposati.", "g": "it-g-imperativo-tu" },
+    { "id": "e24", "type": "conjugate", "verb": "fare", "person": "tu", "tense": "imperativo", "q": "___ una passeggiata, ti fa bene.", "answer": ["Fai", "Fa'"], "table": [["andare", "vai / va'"], ["fare", "fai / fa'"], ["stare", "stai / sta'"], ["dare", "dai / da'"], ["dire", "di'"]], "why": "Fare con tú: fai o fa'.", "g": "it-g-imperativo-tu" },
+    { "id": "e25", "type": "conjugate", "verb": "essere", "person": "tu", "tense": "imperativo", "q": "___ buono con la nonna!", "answer": ["Sii"], "why": "Essere con tú: sii.", "g": "it-g-imperativo-tu" },
+    { "id": "e26", "type": "conjugate", "verb": "uscire", "person": "tu", "tense": "imperativo", "q": "Hai bisogno d'aria: ___ un po'!", "answer": ["esci"], "why": "Uscire es irregular: esci.", "g": "it-g-imperativo-tu" },
+    { "id": "e27", "type": "order", "es": "Tómate la pastilla y acuéstate.", "answer": "Prendi la pastiglia e vai a letto", "extra": ["prenda"], "why": "Prendi y vai: imperativo de tú.", "g": "it-g-imperativo-tu" },
+    { "id": "e28", "type": "order", "es": "No salgas esta noche, quédate en casa.", "answer": "Non uscire stasera resta a casa", "extra": ["esci"], "why": "Non uscire (negativo) + resta (afirmativo).", "g": "it-g-imperativo-tu" },
+    { "id": "e29", "type": "order", "es": "Dime cómo te encuentras.", "answer": "Dimmi come ti senti", "extra": ["dimi"], "why": "Dimmi, con doble m.", "g": "it-g-imperativo-tu" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "Descansa y no te preocupes.", "answer": ["Riposati e non preoccuparti.", "Riposati e non ti preoccupare."], "why": "Riposati (afirmativo) + non preoccuparti (negativo).", "g": "it-g-imperativo-tu" },
+    { "id": "e31", "type": "translate", "dir": "to", "q": "¡No bebas vino con la medicina!", "answer": ["Non bere vino con la medicina!", "Non bere il vino con la medicina!"], "why": "Non + infinitivo: non bere.", "g": "it-g-imperativo-tu" },
+    { "id": "e32", "type": "translate", "dir": "from", "q": "Fammi sapere come stai.", "answer": ["Dime cómo estás.", "Cuéntame cómo estás.", "Avísame de cómo estás."], "why": "Fammi sapere = hazme saber, dime algo.", "g": "it-g-imperativo-tu" },
+    { "id": "e33", "type": "situation", "context": "Tu amiga tiene fiebre pero quiere ir a la peluquería. Le dices que no vaya y que se quede en la cama.", "emoji": "🛏️", "options": ["Non andare, stai a letto!", "Non vai, stai a letto!", "Non vada, stia a letto!"], "answer": "Non andare, stai a letto!", "why": "A una amiga, de tú: non andare + stai.", "g": "it-g-imperativo-tu" },
+    { "id": "e34", "type": "situation", "context": "Tu hijo Hugo se va de viaje. Le pides que te llame al llegar.", "emoji": "✈️", "options": ["Chiamami quando arrivi!", "Mi chiama quando arrivi!", "Chiamimi quando arrivi!"], "answer": "Chiamami quando arrivi!", "why": "Chiama + mi = chiamami.", "g": "it-g-imperativo-tu" },
+    { "id": "e35", "type": "match", "pairs": [["andare", "vai"], ["dire", "di'"], ["avere", "abbi"], ["essere", "sii"], ["uscire", "esci"]], "why": "Imperativos irregulares de tú.", "g": "it-g-imperativo-tu" },
+    { "id": "e36", "type": "match", "pairs": [["dimmi", "dime"], ["fammi", "hazme"], ["dammi", "dame"], ["prendila", "tómala"], ["chiamalo", "llámalo"]], "why": "Pronombres pegados al imperativo.", "g": "it-g-imperativo-tu" }
+  ],
+  "reviewed": false
+}

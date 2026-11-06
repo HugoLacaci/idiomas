@@ -1,0 +1,443 @@
+{
+  "id": "it-a1-u09-l2",
+  "unit": "it-a1-u09",
+  "title": "Al mercato, dal fruttivendolo",
+  "goal": "a decir adónde vas a comprar y dónde están las cosas con al, dal, nel…",
+  "emoji": "🧺",
+  "photoQuery": "greengrocer shop italy street",
+  "vocab": [
+    {
+      "id": "mercato-il-mercato",
+      "t": "il mercato",
+      "es": "el mercado",
+      "emoji": "🧺",
+      "pos": "n",
+      "ex": {
+        "t": "Il sabato vado al mercato.",
+        "es": "Los sábados voy al mercado."
+      }
+    },
+    {
+      "id": "mercato-il-fruttivendolo",
+      "t": "il fruttivendolo",
+      "es": "el frutero, la frutería",
+      "emoji": "🍐",
+      "pos": "n",
+      "note": "Ir a la frutería = andare dal fruttivendolo.",
+      "ex": {
+        "t": "Vado dal fruttivendolo.",
+        "es": "Voy a la frutería."
+      }
+    },
+    {
+      "id": "mercato-il-panificio",
+      "t": "il panificio",
+      "es": "la panadería",
+      "emoji": "🥖",
+      "pos": "n",
+      "ex": {
+        "t": "Compro il pane al panificio.",
+        "es": "Compro el pan en la panadería."
+      }
+    },
+    {
+      "id": "mercato-il-macellaio",
+      "t": "il macellaio",
+      "es": "el carnicero",
+      "emoji": "🥩",
+      "pos": "n",
+      "note": "La carnicería es la macelleria.",
+      "ex": {
+        "t": "Vado dal macellaio per la carne.",
+        "es": "Voy a la carnicería a por carne."
+      }
+    },
+    {
+      "id": "mercato-la-pescheria",
+      "t": "la pescheria",
+      "es": "la pescadería",
+      "emoji": "🐟",
+      "pos": "n",
+      "ex": {
+        "t": "In pescheria il pesce è fresco.",
+        "es": "En la pescadería el pescado es fresco."
+      }
+    },
+    {
+      "id": "mercato-il-supermercato",
+      "t": "il supermercato",
+      "es": "el supermercado",
+      "emoji": "🛒",
+      "pos": "n",
+      "ex": {
+        "t": "Il supermercato è vicino alla stazione.",
+        "es": "El supermercado está cerca de la estación."
+      }
+    },
+    {
+      "id": "mercato-il-banco",
+      "t": "il banco",
+      "es": "el puesto (del mercado)",
+      "emoji": "🏪",
+      "pos": "n",
+      "ex": {
+        "t": "Il banco della frutta è lì.",
+        "es": "El puesto de la fruta está allí."
+      }
+    },
+    {
+      "id": "mercato-prendo",
+      "t": "Prendo…",
+      "es": "Me llevo…, cojo…",
+      "emoji": "🤲",
+      "pos": "phrase",
+      "note": "Prendere = coger, tomar, llevarse. No es «prender».",
+      "ex": {
+        "t": "Prendo due chili di arance.",
+        "es": "Me llevo dos kilos de naranjas."
+      }
+    }
+  ],
+  "grammar": "it-g-prep-articolate",
+  "pron": {
+    "title": "Al, alla, della: se pegan",
+    "tip": "Preposición y artículo se dicen como una sola palabra, con la doble l bien marcada: AL-la, DEL-la, NEL-la, SUL-la.",
+    "words": [
+      "alla",
+      "della",
+      "nella",
+      "sulla",
+      "dalla"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Vado ___ mercato.",
+      "es": "Voy al mercado.",
+      "options": [
+        "al",
+        "allo",
+        "alla"
+      ],
+      "answer": "al",
+      "why": "A + il = al, igual que en español.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Compro il pane ___ panificio.",
+      "es": "Compro el pan en la panadería.",
+      "options": [
+        "al",
+        "alla",
+        "allo"
+      ],
+      "answer": "al",
+      "why": "Il panificio → a + il = al.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Domani vado ___ macellaio.",
+      "es": "Mañana voy a la carnicería.",
+      "options": [
+        "dal",
+        "dallo",
+        "dalla"
+      ],
+      "answer": "dal",
+      "why": "Ir a una tienda nombrando al tendero: da + il = dal macellaio.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Il pesce è ___ frigo.",
+      "es": "El pescado está en la nevera.",
+      "options": [
+        "nel",
+        "nello",
+        "nella"
+      ],
+      "answer": "nel",
+      "why": "In + il = nel: nel frigo.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Le fragole sono ___ frigorifero.",
+      "es": "Las fresas están en el frigorífico.",
+      "answer": [
+        "nel",
+        "in"
+      ],
+      "bank": [
+        "nel",
+        "nella",
+        "nello"
+      ],
+      "why": "Il frigorifero → in + il = nel.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Domenica pranzo ___ zio Pino.",
+      "es": "El domingo como en casa del tío Pino.",
+      "answer": [
+        "dallo"
+      ],
+      "bank": [
+        "dallo",
+        "dal",
+        "dalla"
+      ],
+      "why": "Lo zio (z inicial) → da + lo = dallo.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Mio figlio è ___ supermercato.",
+      "es": "Mi hijo está en el súper.",
+      "answer": [
+        "al"
+      ],
+      "why": "Il supermercato → a + il = al.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Une la preposición y el artículo",
+      "q": "a + la pescheria",
+      "answer": [
+        "alla pescheria"
+      ],
+      "why": "A + la = alla, con doble l.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Une la preposición y el artículo",
+      "q": "da + il fruttivendolo",
+      "answer": [
+        "dal fruttivendolo"
+      ],
+      "why": "Da + il = dal.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Vado alla mercato sabato.",
+      "wrong": "alla",
+      "fix": "al",
+      "why": "Mercato es masculino (il mercato): al mercato.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Il latte è nel bottiglia.",
+      "wrong": "nel",
+      "fix": "nella",
+      "why": "La bottiglia es femenino: in + la = nella.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Una vecina te ve salir con la cesta y te pregunta adónde vas. Vas al mercado.",
+      "emoji": "🧺",
+      "options": [
+        "Vado al mercato.",
+        "Vado a il mercato.",
+        "Vado nel mercato."
+      ],
+      "answer": "Vado al mercato.",
+      "why": "A + il siempre se une: al mercato.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "Voy a la frutería.",
+      "answer": [
+        "Vado dal fruttivendolo.",
+        "Io vado dal fruttivendolo."
+      ],
+      "why": "Ir a la frutería = andare dal fruttivendolo.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e14",
+      "type": "order",
+      "es": "Compro el pescado en la pescadería.",
+      "answer": "Compro il pesce in pescheria",
+      "alt": [
+        "Compro il pesce alla pescheria"
+      ],
+      "extra": [
+        "dal"
+      ],
+      "why": "Tiendas en -ia: in pescheria, sin artículo.",
+      "g": "it-g-andare-a-in"
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "a + il",
+          "al"
+        ],
+        [
+          "di + la",
+          "della"
+        ],
+        [
+          "in + il",
+          "nel"
+        ],
+        [
+          "da + i",
+          "dai"
+        ],
+        [
+          "su + le",
+          "sulle"
+        ]
+      ],
+      "why": "Preposición + artículo = una sola palabra.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Prendo due chili di arance.",
+      "es": "Me llevo dos kilos de naranjas."
+    }
+  ],
+  "dialog": {
+    "title": "¿Adónde va?",
+    "setting": "En la puerta del piso que Yolanda ha alquilado en Palermo, con la vecina Rosa",
+    "emoji": "🏘️",
+    "lines": [
+      {
+        "who": "Rosa",
+        "t": "Buongiorno, Yolanda! Dove va con quella borsa?",
+        "es": "¡Buenos días, Yolanda! ¿Adónde va con esa bolsa?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Vado al mercato. E Lei?",
+        "es": "Voy al mercado. ¿Y usted?"
+      },
+      {
+        "who": "Rosa",
+        "t": "Io vado dal panettiere e poi in farmacia.",
+        "es": "Yo voy a la panadería y luego a la farmacia."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Il mercato è lontano?",
+        "es": "¿El mercado está lejos?"
+      },
+      {
+        "who": "Rosa",
+        "t": "No, è vicino alla chiesa: cinque minuti a piedi.",
+        "es": "No, está cerca de la iglesia: cinco minutos andando."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfetto! E dove compro il pesce?",
+        "es": "¡Perfecto! ¿Y dónde compro el pescado?"
+      },
+      {
+        "who": "Rosa",
+        "t": "Al banco di Totò, nel mercato. Il suo pesce è freschissimo.",
+        "es": "En el puesto de Totò, dentro del mercado. Su pescado es fresquísimo."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie, Rosa! A dopo.",
+        "es": "¡Gracias, Rosa! Hasta luego."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Adónde va Rosa primero?",
+        "options": [
+          "A la panadería",
+          "Al mercado",
+          "A la farmacia"
+        ],
+        "answer": "A la panadería"
+      },
+      {
+        "q": "¿Dónde está el mercado?",
+        "options": [
+          "Cerca de la iglesia",
+          "Lejos, en coche",
+          "En la estación"
+        ],
+        "answer": "Cerca de la iglesia"
+      },
+      {
+        "q": "¿Dónde puede comprar pescado Yolanda?",
+        "options": [
+          "En el puesto de Totò",
+          "En el súper",
+          "En la farmacia"
+        ],
+        "answer": "En el puesto de Totò"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Vado al mercato, ti serve qualcosa?",
+    "es": "Voy al mercado, ¿necesitas algo?",
+    "context": "Cuando sales a comprar y quieres preguntar en casa o a una amiga"
+  },
+  "same": {
+    "text": "Igual que en español: a + el se une en «al». ¡El italiano lo hace con todas las preposiciones importantes!",
+    "examples": [
+      {
+        "t": "al mercato",
+        "es": "al mercado"
+      },
+      {
+        "t": "il prezzo del pane",
+        "es": "el precio del pan"
+      },
+      {
+        "t": "al mare",
+        "es": "al mar"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "prendere",
+    "means": "coger, tomar, llevarse (prendo due chili = me llevo dos kilos)",
+    "looksLike": "prender",
+    "emoji": "🤲",
+    "tip": "Prendere es coger o tomar: prendo un caffè, prendo il treno, prendo le mele. Prender (el fuego, la luz) se dice accendere."
+  },
+  "summary": [
+    "A + il = al: vado al mercato",
+    "Da + il = dal: vado dal fruttivendolo",
+    "In + il = nel; in + la = nella",
+    "Tiendas en -ia, sin artículo: in pescheria",
+    "¡Ojo! prendere = coger, llevarse"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u09-l2"
+}

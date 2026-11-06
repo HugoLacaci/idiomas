@@ -1,0 +1,65 @@
+{
+  "id": "it-a1-u03-c1",
+  "unit": "it-a1-u03",
+  "title": "Al mercato con Giulia",
+  "setting": "Un mercado de Roma por la mañana",
+  "emoji": "🍓",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda! Benvenuta al mercato. Cosa compri oggi?", "es": "¡Hola, Yolanda! Bienvenida al mercado. ¿Qué compras hoy?" },
+      "options": [
+        { "t": "Le fragole! Quanto costano?", "es": "¡Las fresas! ¿Cuánto cuestan?", "next": "n2", "ok": true },
+        { "t": "Le fragole! Come costano?", "es": "¡Las fresas! ¿Cómo cuestan?", "next": "n1", "ok": false, "feedback": "Para el precio se usa quanto, no come: Quanto costano?" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Quattro euro al chilo. Sono buonissime!", "es": "Cuatro euros el kilo. ¡Están buenísimas!" },
+      "options": [
+        { "t": "Perfetto, un chilo, per favore.", "es": "Perfecto, un kilo, por favor.", "next": "n3", "ok": true },
+        { "t": "Quattordici euro? È caro!", "es": "¿Catorce euros? ¡Es caro!", "next": "n2", "ok": false, "feedback": "Ha dicho quattro (4), no quattordici (14). ¡Es barato!" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Ecco! Prendi anche tre limoni? Sono di Amalfi.", "es": "¡Aquí tienes! ¿Te llevas también tres limones? Son de Amalfi." },
+      "options": [
+        { "t": "Sì, grazie. Quanto costa in tutto?", "es": "Sí, gracias. ¿Cuánto es en total?", "next": "n4", "ok": true },
+        { "t": "Sì, grazie. Quanti costa in tutto?", "es": "Sí, gracias. ¿Cuántos cuesta en total?", "next": "n3", "ok": false, "feedback": "Para el precio, siempre quanto: Quanto costa in tutto?" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Allora: quattro più due… sei euro in tutto.", "es": "A ver: cuatro más dos… seis euros en total." },
+      "options": [
+        { "t": "Ecco dieci euro.", "es": "Aquí tienes diez euros.", "next": "n5", "ok": true },
+        { "t": "Sette euro? Ecco.", "es": "¿Siete euros? Toma.", "next": "n4", "ok": false, "feedback": "Ha dicho sei (6), no sette (7). Escucha bien la doble t de sette." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "E quattro euro di resto. Grazie, Yolanda!", "es": "Y cuatro euros de vuelta. ¡Gracias, Yolanda!" },
+      "options": [
+        { "t": "Grazie a te! A che ora chiude il mercato?", "es": "¡Gracias a ti! ¿A qué hora cierra el mercado?", "next": "n6", "ok": true },
+        { "t": "Grazie a te! Che ora chiude il mercato?", "es": "¡Gracias a ti! ¿Qué hora cierra el mercado?", "next": "n5", "ok": false, "feedback": "Falta la a, como en español: A che ora chiude…?" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Alle due. Ma adesso… hai fame? Io sì!", "es": "A las dos. Pero ahora… ¿tienes hambre? ¡Yo sí!" },
+      "options": [
+        { "t": "Sì, ho fame!", "es": "¡Sí, tengo hambre!", "next": "n7", "ok": true },
+        { "t": "Sì, sono fame!", "es": "¡Sí, soy hambre!", "next": "n6", "ok": false, "feedback": "El hambre se tiene, como en español: ho fame." },
+        { "t": "Sì, tengo fame!", "es": "¡Sí, tengo hambre!", "next": "n6", "ok": false, "feedback": "Casi: en italiano «tener» es avere. Se dice ho fame." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Allora andiamo subito! Conosco una pizzeria buonissima.", "es": "¡Entonces vamos enseguida! Conozco una pizzería buenísima." },
+      "next": "end"
+    }
+  ],
+  "reviewed": false
+}

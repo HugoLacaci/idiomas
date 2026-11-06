@@ -1,0 +1,79 @@
+{
+  "id": "it-b1-u05-l3",
+  "unit": "it-b1-u05",
+  "title": "Non ci crederai…",
+  "goal": "a empezar, mantener y reaccionar ante una anécdota como en una charla entre amigas",
+  "emoji": "🗨️",
+  "photoQuery": "women chatting coffee terrace",
+  "vocab": [
+    { "id": "storia-sai-cosa-mi-e-successo", "t": "Sai cosa mi è successo?", "es": "¿Sabes lo que me pasó?", "emoji": "😮", "pos": "phrase", "ex": { "t": "Sai cosa mi è successo al mercato?", "es": "¿Sabes lo que me pasó en el mercado?" } },
+    { "id": "storia-non-ci-crederai", "t": "Non ci crederai!", "es": "¡No te lo vas a creer!", "emoji": "🤯", "pos": "phrase", "ex": { "t": "Non ci crederai: ho incontrato la mia maestra!", "es": "¡No te lo vas a creer: me he encontrado a mi maestra!" } },
+    { "id": "storia-ti-racconto", "t": "ti racconto…", "es": "te cuento…", "emoji": "🗣️", "pos": "phrase", "ex": { "t": "Siediti, ti racconto tutto.", "es": "Siéntate, te lo cuento todo." } },
+    { "id": "storia-e-poi", "t": "E poi?", "es": "¿Y luego?, ¿y entonces?", "emoji": "👂", "pos": "phrase", "ex": { "t": "E poi? Cos'hai fatto?", "es": "¿Y luego? ¿Qué hiciste?" } },
+    { "id": "storia-che-sfortuna", "t": "Che sfortuna!", "es": "¡Qué mala suerte!", "emoji": "🌧️", "pos": "phrase", "ex": { "t": "Hai perso l'aereo? Che sfortuna!", "es": "¿Perdiste el avión? ¡Qué mala suerte!" } },
+    { "id": "storia-meno-male", "t": "Meno male!", "es": "¡Menos mal!", "emoji": "😅", "pos": "phrase", "ex": { "t": "Meno male che avevi l'ombrello!", "es": "¡Menos mal que tenías el paraguas!" } },
+    { "id": "storia-come-e-finita", "t": "Com'è finita?", "es": "¿Cómo acabó?", "emoji": "🎬", "pos": "phrase", "ex": { "t": "E com'è finita la storia?", "es": "¿Y cómo acabó la historia?" } },
+    { "id": "storia-che-spavento", "t": "Che spavento!", "es": "¡Qué susto!", "emoji": "😱", "pos": "phrase", "ex": { "t": "Il cane è saltato fuori. Che spavento!", "es": "El perro salió de golpe. ¡Qué susto!" } },
+    { "id": "storia-la-storia", "t": "la storia", "es": "la historia, el cuento, la anécdota", "emoji": "📜", "pos": "n", "note": "También: una relación sentimental (una storia d'amore).", "ex": { "t": "Ti racconto una storia divertente.", "es": "Te cuento una anécdota divertida." } }
+  ],
+  "grammar": "it-g-trapassato-prossimo",
+  "pron": {
+    "title": "La entonación de la sorpresa",
+    "tip": "En Non ci crederai! y Che spavento! la voz sube en la sílaba fuerte y cae al final: cre-de-RAI, spa-VEN-to. Exagera un poco: ¡los italianos lo hacen!",
+    "words": ["Non ci crederai!", "Che spavento!", "Meno male!", "Che sfortuna!"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "___ cosa mi è successo stamattina?", "es": "¿Sabes lo que me ha pasado esta mañana?", "options": ["Sai", "Sei", "Hai"], "answer": "Sai", "why": "Saber = sapere → tu sai.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e2", "type": "choose", "q": "Hai trovato il portafoglio? ___!", "es": "¿Encontraste la cartera? ¡Menos mal!", "options": ["Meno male", "Che sfortuna", "Che spavento"], "answer": "Meno male", "why": "Ante una buena noticia: meno male.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e3", "type": "choose", "q": "Quando sono arrivata, la mia amica ___ già ordinato.", "es": "Cuando llegué, mi amiga ya había pedido.", "options": ["aveva", "avevo", "ha"], "answer": "aveva", "why": "Ella había = aveva + participio.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e4", "type": "fill", "q": "Ha piovuto tutta la vacanza? Che ___!", "es": "¿Llovió todas las vacaciones? ¡Qué mala suerte!", "answer": ["sfortuna"], "bank": ["sfortuna", "fortuna", "spavento"], "why": "Mala suerte = sfortuna.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e5", "type": "fill", "q": "Siediti, ti ___ tutto.", "es": "Siéntate, te lo cuento todo.", "answer": ["racconto"], "bank": ["racconto", "conto", "dico"], "why": "Contar una historia = raccontare.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e6", "type": "fill", "q": "Non ___ crederai: ho vinto alla tombola!", "es": "¡No te lo vas a creer: he ganado al bingo!", "answer": ["ci"], "bank": ["ci", "lo", "ne"], "why": "La frase fija es non ci crederai.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e7", "type": "match", "pairs": [["Che spavento!", "¡Qué susto!"], ["Meno male!", "¡Menos mal!"], ["Che sfortuna!", "¡Qué mala suerte!"], ["E poi?", "¿Y luego?"], ["Com'è finita?", "¿Cómo acabó?"]], "why": "Reacciones para seguir una anécdota." },
+    { "id": "e8", "type": "error", "q": "Ti conto una storia divertente.", "wrong": "conto", "fix": "racconto", "why": "Contar una historia = raccontare; contare es contar números.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e9", "type": "error", "q": "Ero contenta perché avevo trovata le chiavi.", "wrong": "trovata", "fix": "trovato", "why": "Con avere el participio no cambia: avevo trovato.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e10", "type": "order", "es": "¿Sabes lo que me pasó ayer?", "answer": "Sai cosa mi è successo ieri", "extra": ["ha"], "why": "Succedere va con essere: mi è successo.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e11", "type": "translate", "dir": "to", "q": "¡Qué susto! No había visto el coche.", "answer": ["Che spavento! Non avevo visto la macchina.", "Che spavento! Non avevo visto l'auto."], "why": "No había visto = non avevo visto.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e12", "type": "translate", "dir": "from", "q": "Mio figlio mi ha raccontato una storia incredibile.", "answer": ["Mi hijo me contó una historia increíble.", "Mi hijo me ha contado una historia increíble."], "why": "Raccontare = contar; storia = historia.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e13", "type": "situation", "context": "Tu amiga te cuenta que se cayó en la calle, pero que no se hizo nada. ¿Qué dices?", "emoji": "🩹", "options": ["Che spavento! Meno male!", "Che bello!", "Non ci crederai!"], "answer": "Che spavento! Meno male!", "why": "Susto + final bueno: che spavento, meno male.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e14", "type": "situation", "context": "Quieres empezar a contar una anécdota sorprendente a tus amigas.", "emoji": "🤩", "options": ["Non ci crederai…", "Com'è finita?", "Meno male!"], "answer": "Non ci crederai…", "why": "Para abrir una historia sorprendente: non ci crederai.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e15", "type": "transform", "instr": "Pásala al trapassato (había…)", "q": "Ho sentito una storia strana.", "answer": ["Avevo sentito una storia strana."], "why": "Ho sentito → avevo sentito.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e16", "type": "speak", "t": "Sai cosa mi è successo? Non ci crederai!", "es": "¿Sabes lo que me pasó? ¡No te lo vas a creer!" }
+  ],
+  "dialog": {
+    "title": "La anécdota del autobús",
+    "setting": "Yolanda le cuenta una anécdota a su amiga Lucia en una terraza",
+    "emoji": "🚌",
+    "lines": [
+      { "who": "Yolanda", "t": "Lucia, sai cosa mi è successo ieri? Non ci crederai!", "es": "Lucia, ¿sabes lo que me pasó ayer? ¡No te lo vas a creer!" },
+      { "who": "Lucia", "t": "Dai, racconta!", "es": "¡Venga, cuenta!" },
+      { "who": "Yolanda", "t": "Sono salita sull'autobus, ma avevo dimenticato il biglietto.", "es": "Me subí al autobús, pero me había olvidado el billete." },
+      { "who": "Lucia", "t": "Oh no! E poi?", "es": "¡Oh, no! ¿Y luego?" },
+      { "who": "Yolanda", "t": "All'improvviso è salito il controllore. Che spavento!", "es": "De repente subió el revisor. ¡Qué susto!" },
+      { "who": "Lucia", "t": "E com'è finita?", "es": "¿Y cómo acabó?" },
+      { "who": "Yolanda", "t": "Per fortuna una signora aveva un biglietto in più e me l'ha dato.", "es": "Por suerte una señora tenía un billete de más y me lo dio." },
+      { "who": "Lucia", "t": "Meno male! Che bella storia!", "es": "¡Menos mal! ¡Qué historia tan bonita!" }
+    ],
+    "questions": [
+      { "q": "¿Qué había olvidado Yolanda?", "options": ["El billete", "El móvil", "Las gafas"], "answer": "El billete" },
+      { "q": "¿Quién subió de repente?", "options": ["El revisor", "Su hijo", "Un amigo"], "answer": "El revisor" },
+      { "q": "¿Cómo acabó la historia?", "options": ["Una señora le dio un billete", "Pagó una multa", "Se bajó del autobús"], "answer": "Una señora le dio un billete" }
+    ]
+  },
+  "realLife": { "t": "Dai, racconta!", "es": "¡Venga, cuenta!", "context": "Para animar a una amiga a contarte una historia" },
+  "falseFriend": {
+    "word": "la storia",
+    "means": "la historia, y también el cuento o una relación de pareja",
+    "looksLike": "solo «la Historia» de los libros",
+    "emoji": "📜",
+    "tip": "Storia sirve para mucho: la storia di Roma, una storia divertente (una anécdota) y hasta una storia d'amore (una relación)."
+  },
+  "summary": [
+    "Empezar: Sai cosa mi è successo? / Non ci crederai!",
+    "Animar: Dai, racconta! / E poi? / Com'è finita?",
+    "Reaccionar: Che spavento! Che sfortuna! Meno male!",
+    "Contar lo anterior: avevo dimenticato il biglietto.",
+    "Storia = historia, anécdota y también relación."
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "en-a1-u10-c3",
+  "unit": "en-a1-u10",
+  "title": "Clase de cocina con Emma",
+  "setting": "Emma te ha apuntado a una clase de cocina en un centro cultural de Londres. Hoy la profesora es ella.",
+  "emoji": "👩‍🍳",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Welcome to the class! Can everybody hear me?", "es": "¡Bienvenidos a la clase! ¿Me oye todo el mundo?" },
+      "options": [
+        { "t": "Yes, we can!", "es": "¡Sí!", "next": "n2", "ok": true },
+        { "t": "Yes, we hear can!", "es": "¡Sí, oímos!", "next": "n2", "ok": false, "feedback": "Respuesta corta: Yes, we can." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Today we're making scones. Who can bake?", "es": "Hoy hacemos scones. ¿Quién sabe hornear?" },
+      "options": [
+        { "t": "I can! I bake cakes for my grandchildren.", "es": "¡Yo! Hago bizcochos para mis nietos.", "next": "n3", "ok": true },
+        { "t": "Me can! I bake cakes for my grandchildren.", "es": "¡Yo! Hago bizcochos para mis nietos.", "next": "n3", "ok": false, "feedback": "El sujeto es I, no me: I can!" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Brilliant! Could you help me, please? You can be my assistant.", "es": "¡Genial! ¿Me ayudas, por favor? Puedes ser mi ayudante." },
+      "options": [
+        { "t": "Of course! What can I do?", "es": "¡Claro! ¿Qué puedo hacer?", "next": "n4", "ok": true },
+        { "t": "Of course! What I can do?", "es": "¡Claro! ¿Qué puedo hacer?", "next": "n4", "ok": false, "feedback": "En la pregunta, can va delante del sujeto: What can I do?" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Can you weigh the flour? We need 250 grams.", "es": "¿Puedes pesar la harina? Necesitamos 250 gramos." },
+      "options": [
+        { "t": "Sure. Where is the flour?", "es": "Claro. ¿Dónde está la harina?", "next": "n5", "ok": true },
+        { "t": "Sure. Where the flour is?", "es": "Claro. ¿Dónde está la harina?", "next": "n5", "ok": false, "feedback": "Orden de la pregunta: Where is the flour?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Next to the sugar. Oh no, I can't find the eggs! Can you see them?", "es": "Al lado del azúcar. ¡Ay, no, no encuentro los huevos! ¿Los ves tú?" },
+      "options": [
+        { "t": "Yes, they're in the fridge.", "es": "Sí, están en la nevera.", "next": "n6", "ok": true },
+        { "t": "No, I don't can see them.", "es": "No, no los veo.", "next": "n6", "ok": false, "feedback": "La negativa es can't: No, I can't see them." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Thank you! You're a great assistant. Can you come next week too?", "es": "¡Gracias! Eres una ayudante estupenda. ¿Puedes venir también la semana que viene?" },
+      "options": [
+        { "t": "I'd love to! Can I bring my friend?", "es": "¡Me encantaría! ¿Puedo traer a mi amiga?", "next": "end", "ok": true },
+        { "t": "Sorry, I can't. I'm in Spain next week.", "es": "Lo siento, no puedo. La semana que viene estoy en España.", "next": "end", "ok": true },
+        { "t": "I'd love! Can I to bring my friend?", "es": "¡Me encantaría! ¿Puedo traer a mi amiga?", "next": "end", "ok": false, "feedback": "Dos detalles: I'd love to (con to) y Can I bring…? (sin to)." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,48 @@
+{
+  "id": "en-a1-u01-c1",
+  "unit": "en-a1-u01",
+  "title": "Encantada, Emma",
+  "setting": "Conoces a Emma, una amiga de Hugo, en una cafetería de Londres",
+  "emoji": "☕",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "Hi! I'm Emma. What's your name?", "es": "¡Hola! Soy Emma. ¿Cómo te llamas?" },
+      "options": [
+        { "t": "My name is Yolanda.", "es": "Me llamo Yolanda.", "next": "n2", "ok": true },
+        { "t": "I have Yolanda.", "es": "(Tengo Yolanda.)", "next": "n2", "ok": false, "feedback": "Para decir tu nombre usamos My name is… o I'm…, nunca have." }
+      ] },
+    { "id": "n2", "says": { "t": "Nice to meet you, Yolanda!", "es": "¡Encantada de conocerte, Yolanda!" },
+      "options": [
+        { "t": "Nice to meet you too.", "es": "Igualmente.", "next": "n3", "ok": true },
+        { "t": "Good night, Emma.", "es": "Buenas noches, Emma.", "next": "n3", "ok": false, "feedback": "Good night es para despedirte por la noche. Aquí toca: Nice to meet you too." }
+      ] },
+    { "id": "n3", "says": { "t": "Where are you from?", "es": "¿De dónde eres?" },
+      "options": [
+        { "t": "I'm from Spain.", "es": "Soy de España.", "next": "n4", "ok": true },
+        { "t": "I am of Spain.", "es": "(Soy de España.)", "next": "n4", "ok": false, "feedback": "«Ser de un sitio» es to be from: I'm from Spain." },
+        { "t": "Is from Spain.", "es": "(Es de España.)", "next": "n4", "ok": false, "feedback": "Falta el sujeto. En inglés siempre: I'm from Spain." }
+      ] },
+    { "id": "n4", "says": { "t": "Oh, lovely! Are you on holiday?", "es": "¡Qué bien! ¿Estás de vacaciones?" },
+      "options": [
+        { "t": "Yes, I am. My son is here.", "es": "Sí. Mi hijo está aquí.", "next": "n5", "ok": true },
+        { "t": "Yes, I'm.", "es": "Sí.", "next": "n5", "ok": false, "feedback": "En la respuesta corta afirmativa no se contrae: Yes, I am." }
+      ] },
+    { "id": "n5", "says": { "t": "Is London very cold for you?", "es": "¿Londres te parece muy frío?" },
+      "options": [
+        { "t": "Yes, it's very cold!", "es": "¡Sí, hace mucho frío!", "next": "n6", "ok": true },
+        { "t": "Yes, is very cold!", "es": "(Sí, hace mucho frío.)", "next": "n6", "ok": false, "feedback": "Falta el sujeto it: Yes, it's very cold!" }
+      ] },
+    { "id": "n6", "says": { "t": "Ha ha! Is this your first time in London?", "es": "¡Ja, ja! ¿Es tu primera vez en Londres?" },
+      "options": [
+        { "t": "No, it isn't. It's my third time.", "es": "No. Es la tercera vez.", "next": "n7", "ok": true },
+        { "t": "Yes, it is. It's my first time.", "es": "Sí. Es la primera vez.", "next": "n7", "ok": true },
+        { "t": "No, I'm not first.", "es": "(No, no soy primera.)", "next": "n7", "ok": false, "feedback": "Te pregunta por la vez (it): No, it isn't." }
+      ] },
+    { "id": "n7", "says": { "t": "Well, welcome! See you later, Yolanda.", "es": "¡Pues bienvenida! Hasta luego, Yolanda." },
+      "options": [
+        { "t": "Goodbye, Emma! See you later.", "es": "¡Adiós, Emma! Hasta luego.", "next": "end", "ok": true },
+        { "t": "Good morning, Emma!", "es": "¡Buenos días, Emma!", "next": "end", "ok": false, "feedback": "Good morning es para saludar. Para despedirte: Goodbye o See you later." }
+      ] }
+  ],
+  "reviewed": false
+}

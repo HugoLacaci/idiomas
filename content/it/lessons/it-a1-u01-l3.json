@@ -1,0 +1,483 @@
+{
+  "id": "it-a1-u01-l3",
+  "unit": "it-a1-u01",
+  "title": "Sono spagnola: de dónde eres y a qué te dedicas",
+  "goal": "a decir de dónde eres y a qué te dedicas con el verbo essere",
+  "emoji": "🌍",
+  "photoQuery": "italian flag balcony rome",
+  "vocab": [
+    {
+      "id": "spagnolo",
+      "t": "spagnolo / spagnola",
+      "es": "español / española",
+      "emoji": "🇪🇸",
+      "pos": "adj",
+      "ex": {
+        "t": "Io sono spagnola, e tu?",
+        "es": "Yo soy española, ¿y tú?"
+      }
+    },
+    {
+      "id": "italiano",
+      "t": "italiano / italiana",
+      "es": "italiano / italiana",
+      "emoji": "🇮🇹",
+      "pos": "adj",
+      "ex": {
+        "t": "Giulia è italiana, di Roma.",
+        "es": "Giulia es italiana, de Roma."
+      }
+    },
+    {
+      "id": "francese",
+      "t": "francese",
+      "es": "francés / francesa",
+      "emoji": "🇫🇷",
+      "pos": "adj",
+      "ex": {
+        "t": "Pierre è francese.",
+        "es": "Pierre es francés."
+      },
+      "note": "Termina en -e: igual para hombre y mujer."
+    },
+    {
+      "id": "inglese",
+      "t": "inglese",
+      "es": "inglés / inglesa",
+      "emoji": "🇬🇧",
+      "pos": "adj",
+      "ex": {
+        "t": "Emma è inglese, di Londra.",
+        "es": "Emma es inglesa, de Londres."
+      }
+    },
+    {
+      "id": "l-insegnante",
+      "t": "l'insegnante",
+      "es": "el profesor / la profesora",
+      "emoji": "👩‍🏫",
+      "pos": "n",
+      "ex": {
+        "t": "La mia amica è insegnante.",
+        "es": "Mi amiga es profesora."
+      }
+    },
+    {
+      "id": "il-medico",
+      "t": "il medico",
+      "es": "el médico / la médica",
+      "emoji": "🩺",
+      "pos": "n",
+      "ex": {
+        "t": "Il medico è molto bravo.",
+        "es": "El médico es muy bueno."
+      }
+    },
+    {
+      "id": "l-impiegato",
+      "t": "l'impiegato / l'impiegata",
+      "es": "el empleado / la empleada (de oficina)",
+      "emoji": "💼",
+      "pos": "n",
+      "ex": {
+        "t": "Sono impiegata in banca.",
+        "es": "Soy empleada de banca."
+      }
+    },
+    {
+      "id": "la-casalinga",
+      "t": "la casalinga",
+      "es": "el ama de casa",
+      "emoji": "🏠",
+      "pos": "n",
+      "ex": {
+        "t": "Mia sorella è casalinga.",
+        "es": "Mi hermana es ama de casa."
+      }
+    },
+    {
+      "id": "in-pensione",
+      "t": "in pensione",
+      "es": "jubilado / jubilada",
+      "emoji": "🌴",
+      "pos": "phrase",
+      "ex": {
+        "t": "Mio marito è in pensione.",
+        "es": "Mi marido está jubilado."
+      }
+    },
+    {
+      "id": "di-dove-sei",
+      "t": "Di dove sei?",
+      "es": "¿De dónde eres?",
+      "emoji": "🗺️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Di dove sei? — Sono di Siviglia.",
+        "es": "¿De dónde eres? —Soy de Sevilla."
+      }
+    }
+  ],
+  "grammar": "it-g-essere",
+  "pron": {
+    "title": "è con acento",
+    "tip": "È (con acento) es «es / está» y suena abierta, como la e de «perro». E sin acento significa «y». Escúchalas: Lui è italiano e lei è spagnola.",
+    "words": [
+      "è",
+      "sono",
+      "siamo",
+      "siete",
+      "spagnola"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Io ___ spagnola.",
+      "es": "Yo soy española.",
+      "options": [
+        "sono",
+        "sei",
+        "è"
+      ],
+      "answer": "sono",
+      "g": "it-g-essere",
+      "why": "Con io, el verbo essere es sono: io sono = yo soy."
+    },
+    {
+      "id": "e2",
+      "type": "conjugate",
+      "verb": "essere",
+      "person": "noi",
+      "tense": "presente",
+      "q": "Noi ___ spagnoli.",
+      "answer": [
+        "siamo"
+      ],
+      "g": "it-g-essere",
+      "table": [
+        [
+          "io",
+          "sono"
+        ],
+        [
+          "tu",
+          "sei"
+        ],
+        [
+          "lui / lei",
+          "è"
+        ],
+        [
+          "noi",
+          "siamo"
+        ],
+        [
+          "voi",
+          "siete"
+        ],
+        [
+          "loro",
+          "sono"
+        ]
+      ],
+      "why": "Con noi (nosotros) se usa siamo."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "q": "Emma è ___, di Londra.",
+      "es": "Emma es inglesa, de Londres.",
+      "answer": [
+        "inglese"
+      ],
+      "bank": [
+        "inglese",
+        "inglesa",
+        "inglesi"
+      ],
+      "why": "Las nacionalidades en -e no cambian: inglese vale para hombre y mujer."
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Giulia ___ italiana.",
+      "es": "Giulia es italiana.",
+      "options": [
+        "è",
+        "e",
+        "sei"
+      ],
+      "answer": "è",
+      "g": "it-g-essere",
+      "why": "Con lui / lei: è, con acento. Sin acento, e significa «y»."
+    },
+    {
+      "id": "e5",
+      "type": "situation",
+      "context": "En el tren, una señora te pregunta: «Di dove sei?».",
+      "emoji": "🚆",
+      "options": [
+        "Sono spagnola.",
+        "Sono insegnante.",
+        "Sono in pensione."
+      ],
+      "answer": "Sono spagnola.",
+      "g": "it-g-essere",
+      "why": "Te pregunta de dónde eres: sono spagnola."
+    },
+    {
+      "id": "e6",
+      "type": "order",
+      "es": "Mi amiga es profesora.",
+      "answer": "La mia amica è insegnante",
+      "extra": [
+        "sono"
+      ],
+      "g": "it-g-essere",
+      "why": "Igual que en español, con la profesión no se pone «una»: è insegnante."
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "Hugo e spagnolo.",
+      "wrong": "e",
+      "fix": "è",
+      "es": "Hugo es español.",
+      "g": "it-g-essere",
+      "why": "El verbo «es» lleva acento: è. Sin acento, e significa «y»."
+    },
+    {
+      "id": "e8",
+      "type": "conjugate",
+      "verb": "essere",
+      "person": "tu",
+      "tense": "presente",
+      "q": "Tu ___ di Roma?",
+      "answer": [
+        "sei"
+      ],
+      "g": "it-g-essere",
+      "why": "Con tu: sei. Tu sei = tú eres."
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "q": "Io sono ___.",
+      "es": "Yo soy española.",
+      "answer": [
+        "spagnola"
+      ],
+      "hint": "Yolanda es mujer",
+      "why": "Mujer: spagnola, con -a. Hombre: spagnolo."
+    },
+    {
+      "id": "e10",
+      "type": "match",
+      "pairs": [
+        [
+          "spagnola",
+          "española"
+        ],
+        [
+          "francese",
+          "francés / francesa"
+        ],
+        [
+          "insegnante",
+          "profesor / profesora"
+        ],
+        [
+          "medico",
+          "médico"
+        ],
+        [
+          "casalinga",
+          "ama de casa"
+        ]
+      ],
+      "why": "Muchas palabras se parecen al español."
+    },
+    {
+      "id": "e11",
+      "type": "choose",
+      "q": "Mio marito ___ in pensione.",
+      "es": "Mi marido está jubilado.",
+      "options": [
+        "è",
+        "sono",
+        "siete"
+      ],
+      "answer": "è",
+      "g": "it-g-essere",
+      "why": "Estar jubilado = essere in pensione. Con él: è in pensione."
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Soy ama de casa.",
+      "answer": [
+        "Sono casalinga",
+        "Io sono casalinga"
+      ],
+      "g": "it-g-essere",
+      "why": "Soy = sono; ama de casa = casalinga, sin artículo."
+    },
+    {
+      "id": "e13",
+      "type": "order",
+      "es": "¿De dónde eres?",
+      "answer": "Di dove sei",
+      "extra": [
+        "è"
+      ],
+      "g": "it-g-essere",
+      "why": "Di dove = de dónde; sei = eres."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "message",
+      "title": "Mensaje de Giulia",
+      "text": "Ciao Yolanda! Sono Giulia. Sono italiana, di Roma. Sono insegnante di spagnolo. Mio marito è medico. A presto!",
+      "questions": [
+        {
+          "q": "¿De dónde es Giulia?",
+          "options": [
+            "De Roma",
+            "De Nápoles",
+            "De Milán"
+          ],
+          "answer": "De Roma"
+        },
+        {
+          "q": "¿En qué trabaja Giulia?",
+          "options": [
+            "Es profesora de español",
+            "Es médica",
+            "Es ama de casa"
+          ],
+          "answer": "Es profesora de español"
+        },
+        {
+          "q": "¿Qué es su marido?",
+          "options": [
+            "Médico",
+            "Profesor",
+            "Jubilado"
+          ],
+          "answer": "Médico"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "title": "Primer día de clase",
+    "setting": "En una escuela de italiano de Roma",
+    "emoji": "🏫",
+    "lines": [
+      {
+        "who": "Giulia",
+        "t": "Benvenuti! Io sono Giulia, l'insegnante.",
+        "es": "¡Bienvenidos! Yo soy Giulia, la profesora."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Piacere! Io sono Yolanda.",
+        "es": "¡Encantada! Yo soy Yolanda."
+      },
+      {
+        "who": "Giulia",
+        "t": "Di dove sei, Yolanda?",
+        "es": "¿De dónde eres, Yolanda?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sono spagnola. E tu sei di Roma?",
+        "es": "Soy española. ¿Y tú eres de Roma?"
+      },
+      {
+        "who": "Giulia",
+        "t": "Sì, sono romana! Sei qui in vacanza?",
+        "es": "¡Sí, soy romana! ¿Estás aquí de vacaciones?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, sono qui con mio figlio.",
+        "es": "Sí, estoy aquí con mi hijo."
+      },
+      {
+        "who": "Giulia",
+        "t": "Che bello! Benvenuta in classe!",
+        "es": "¡Qué bien! ¡Bienvenida a clase!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué es Giulia?",
+        "options": [
+          "Profesora",
+          "Médica",
+          "Turista"
+        ],
+        "answer": "Profesora"
+      },
+      {
+        "q": "¿De dónde es Giulia?",
+        "options": [
+          "De Roma",
+          "De España"
+        ],
+        "answer": "De Roma"
+      },
+      {
+        "q": "¿Con quién está Yolanda en Roma?",
+        "options": [
+          "Con su hijo",
+          "Con su amiga",
+          "Sola"
+        ],
+        "answer": "Con su hijo"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Sono spagnola. E tu?",
+    "es": "Soy española. ¿Y tú?",
+    "context": "Cuando alguien te pregunta de dónde eres"
+  },
+  "same": {
+    "text": "Igual que en español: con la nacionalidad y la profesión se usa «ser» y no se pone artículo.",
+    "examples": [
+      {
+        "t": "Sono spagnola.",
+        "es": "Soy española."
+      },
+      {
+        "t": "Lui è medico.",
+        "es": "Él es médico."
+      },
+      {
+        "t": "Sei italiana?",
+        "es": "¿Eres italiana?"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "imbarazzata",
+    "means": "avergonzada, cortada",
+    "looksLike": "embarazada",
+    "emoji": "😳",
+    "tip": "«Sono imbarazzata» es «me da vergüenza». Embarazada se dice «incinta»."
+  },
+  "summary": [
+    "Essere: io sono, tu sei, lui / lei è",
+    "è con acento = es; e sin acento = y",
+    "Nacionalidades: spagnolo / spagnola, pero francese e inglese no cambian",
+    "Profesión sin artículo: Sono insegnante"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u01-l3"
+}

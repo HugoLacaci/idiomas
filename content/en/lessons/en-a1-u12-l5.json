@@ -1,0 +1,434 @@
+{
+  "id": "en-a1-u12-l5",
+  "unit": "en-a1-u12",
+  "title": "Reto final: una charla en Covent Garden",
+  "goal": "a mantener una conversación completa con todo lo aprendido en el A1",
+  "emoji": "🎭",
+  "photoQuery": "covent garden piazza market",
+  "vocab": [
+    {
+      "id": "cg-lovely-to-chat",
+      "t": "It was lovely to chat.",
+      "es": "Ha sido un placer charlar.",
+      "emoji": "💬",
+      "pos": "phrase",
+      "ex": {
+        "t": "It was lovely to chat with you!",
+        "es": "¡Ha sido un placer charlar contigo!"
+      }
+    },
+    {
+      "id": "cg-whats-your-number",
+      "t": "What's your number?",
+      "es": "¿Cuál es tu número?",
+      "emoji": "📱",
+      "pos": "phrase",
+      "ex": {
+        "t": "What's your number? I can send you the photos.",
+        "es": "¿Cuál es tu número? Te puedo mandar las fotos."
+      }
+    },
+    {
+      "id": "cg-keep-in-touch",
+      "t": "Let's keep in touch.",
+      "es": "Seguimos en contacto.",
+      "emoji": "🤳",
+      "pos": "phrase",
+      "ex": {
+        "t": "Let's keep in touch on WhatsApp.",
+        "es": "Sigamos en contacto por WhatsApp."
+      }
+    },
+    {
+      "id": "cg-take-a-photo-of-us",
+      "t": "Can you take a photo of us?",
+      "es": "¿Nos puede hacer una foto?",
+      "emoji": "📸",
+      "pos": "phrase",
+      "ex": {
+        "t": "Excuse me, can you take a photo of us, please?",
+        "es": "Perdone, ¿nos puede hacer una foto, por favor?"
+      }
+    },
+    {
+      "id": "cg-enjoy-your-stay",
+      "t": "Enjoy your stay!",
+      "es": "¡Que disfrutes de tu estancia!",
+      "emoji": "🌟",
+      "pos": "phrase",
+      "ex": {
+        "t": "Welcome to London. Enjoy your stay!",
+        "es": "Bienvenida a Londres. ¡Que disfrutes!"
+      }
+    },
+    {
+      "id": "cg-have-a-nice-day",
+      "t": "Have a nice day!",
+      "es": "¡Que tengas un buen día!",
+      "emoji": "☀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Bye! Have a nice day!",
+        "es": "¡Adiós! ¡Que tengas un buen día!"
+      }
+    },
+    {
+      "id": "cg-see-you-soon",
+      "t": "See you soon!",
+      "es": "¡Hasta pronto!",
+      "emoji": "👋",
+      "pos": "phrase",
+      "ex": {
+        "t": "Thank you for everything. See you soon!",
+        "es": "Gracias por todo. ¡Hasta pronto!"
+      }
+    },
+    {
+      "id": "cg-you-too",
+      "t": "You too!",
+      "es": "¡Igualmente!",
+      "emoji": "🔁",
+      "pos": "phrase",
+      "ex": {
+        "t": "Have a nice day! — You too!",
+        "es": "¡Que tengas un buen día! — ¡Igualmente!"
+      }
+    }
+  ],
+  "grammar": "en-g-short-answers",
+  "pron": {
+    "title": "Repaso de sonidos del A1",
+    "tip": "Recuerda: la h de hello suena como un suspiro; street y Spain sin «e» delante; can corto y can't largo; las preguntas de sí o no suben ↗ y las de wh- bajan ↘.",
+    "words": [
+      "Hello! Where are you from?",
+      "I'm from Spain.",
+      "Do you like London?",
+      "Let's keep in touch!"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Hello! I'm Yolanda. I ___ from Spain.",
+      "es": "¡Hola! Soy Yolanda. Soy de España.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer": "am",
+      "why": "Con I: am.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "My grandson ___ English at school.",
+      "es": "Mi nieto estudia inglés en el colegio.",
+      "options": [
+        "studies",
+        "study",
+        "is study"
+      ],
+      "answer": "studies",
+      "why": "Con he: el verbo lleva -s (study → studies).",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "___ you speak Spanish? — A little.",
+      "es": "¿Hablas español? — Un poco.",
+      "options": [
+        "Do",
+        "Are",
+        "Does"
+      ],
+      "answer": "Do",
+      "why": "Pregunta con un verbo normal y you: Do.",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "I'd ___ a cup of tea, please.",
+      "es": "Querría una taza de té, por favor.",
+      "options": [
+        "like",
+        "want to",
+        "liked"
+      ],
+      "answer": "like",
+      "why": "Para pedir con educación: I'd like.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "___ there a toilet near here? — Yes, there is.",
+      "es": "¿Hay un baño por aquí? — Sí.",
+      "answer": [
+        "Is"
+      ],
+      "bank": [
+        "Is",
+        "Are",
+        "Has"
+      ],
+      "why": "Una cosa: Is there…?",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "The market opens ___ ten o'clock.",
+      "es": "El mercado abre a las diez.",
+      "answer": [
+        "at"
+      ],
+      "bank": [
+        "at",
+        "in",
+        "on"
+      ],
+      "why": "Con la hora: at ten.",
+      "g": "en-g-prep-time"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Can you take a photo of ___ , please?",
+      "es": "¿Nos puede hacer una foto, por favor?",
+      "answer": [
+        "us"
+      ],
+      "bank": [
+        "us",
+        "we",
+        "our"
+      ],
+      "why": "Detrás de of, us (a nosotras).",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Vamos a tomar un café en la plaza",
+      "answer": "Let's have a coffee in the piazza",
+      "extra": [
+        "to"
+      ],
+      "why": "Let's + verbo; lugar al final.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Normalmente desayuno en casa a las ocho",
+      "answer": "I usually have breakfast at home at eight",
+      "extra": [
+        "am"
+      ],
+      "why": "Usually delante del verbo; lugar antes que tiempo.",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "My grandson have got a new bike.",
+      "wrong": "have",
+      "fix": "has",
+      "why": "Con he: has got.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Do you like the show? — Yes, I like.",
+      "wrong": "like.",
+      "fix": "do.",
+      "why": "Respuesta corta: Yes, I do.",
+      "g": "en-g-short-answers"
+    },
+    {
+      "id": "e12",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "Your friend can come tomorrow.",
+      "answer": [
+        "Can your friend come tomorrow?",
+        "Can your friend come tomorrow"
+      ],
+      "why": "Can delante del sujeto.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Has charlado un rato con una señora muy simpática. Os despedís y quieres seguir en contacto.",
+      "emoji": "📱",
+      "options": [
+        "It was lovely to chat. Let's keep in touch!",
+        "Was lovely chat. Let's to keep touch!",
+        "Lovely is chat. We keep touch?"
+      ],
+      "answer": "It was lovely to chat. Let's keep in touch!",
+      "why": "It was lovely to chat + Let's keep in touch.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "La señora te dice «Have a nice day!».",
+      "emoji": "☀️",
+      "options": [
+        "You too!",
+        "Me too!",
+        "Me neither!"
+      ],
+      "answer": "You too!",
+      "why": "Para devolver un buen deseo: You too! (igualmente)."
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de tu nueva amiga",
+      "text": "Hi Yolanda! It's Margaret from Covent Garden. 😊 It was lovely to chat. Here are the photos of us! Are you free on Friday? Let's have tea at my favourite café. It's next to the opera house.",
+      "questions": [
+        {
+          "q": "¿Qué le manda Margaret?",
+          "options": [
+            "Las fotos",
+            "Un mapa",
+            "Un billete"
+          ],
+          "answer": "Las fotos"
+        },
+        {
+          "q": "¿Qué día propone quedar?",
+          "options": [
+            "El viernes",
+            "El sábado",
+            "Hoy"
+          ],
+          "answer": "El viernes"
+        },
+        {
+          "q": "¿Dónde está la cafetería?",
+          "options": [
+            "Al lado de la ópera",
+            "En la estación",
+            "En el hotel"
+          ],
+          "answer": "Al lado de la ópera"
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Te gusta Londres? — Sí, mucho.",
+      "answer": [
+        "Do you like London? — Yes, I do. Very much.",
+        "Do you like London? Yes, I do. Very much.",
+        "Do you like London? — Yes, very much.",
+        "Do you like London? — Yes, I do, very much."
+      ],
+      "why": "Do you like…? — Yes, I do. Very much al final.",
+      "g": "en-g-short-answers"
+    }
+  ],
+  "dialog": {
+    "title": "Una conversación completa",
+    "setting": "En la plaza de Covent Garden, Yolanda le pide una foto a una señora y se ponen a charlar",
+    "emoji": "📸",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Excuse me, can you take a photo of us, please?",
+        "es": "Perdone, ¿nos puede hacer una foto, por favor?"
+      },
+      {
+        "who": "Margaret",
+        "t": "Of course! Smile! Are you on holiday?",
+        "es": "¡Claro! ¡Sonrían! ¿Están de vacaciones?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, we are. We're from Spain.",
+        "es": "Sí. Somos de España."
+      },
+      {
+        "who": "Margaret",
+        "t": "Lovely! Do you like London?",
+        "es": "¡Qué bien! ¿Les gusta Londres?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, we do! But it's very cold.",
+        "es": "¡Sí! Pero hace mucho frío."
+      },
+      {
+        "who": "Margaret",
+        "t": "I know! Would you like a hot chocolate? There's a nice café there.",
+        "es": "¡Ya ves! ¿Les apetece un chocolate caliente? Hay una cafetería muy maja ahí."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, please! Let's go.",
+        "es": "¡Sí, por favor! Vamos."
+      },
+      {
+        "who": "Margaret",
+        "t": "Follow me. It's a two-minute walk.",
+        "es": "Síganme. Está a dos minutos andando."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué le pide Yolanda a Margaret?",
+        "options": [
+          "Una foto",
+          "Una dirección",
+          "La hora"
+        ],
+        "answer": "Una foto"
+      },
+      {
+        "q": "¿Qué piensa Yolanda del tiempo?",
+        "options": [
+          "Hace mucho frío",
+          "Hace calor",
+          "Llueve mucho"
+        ],
+        "answer": "Hace mucho frío"
+      },
+      {
+        "q": "¿Qué les propone Margaret?",
+        "options": [
+          "Un chocolate caliente",
+          "Ir al teatro",
+          "Coger el metro"
+        ],
+        "answer": "Un chocolate caliente"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "It was lovely to chat. Let's keep in touch!",
+    "es": "Ha sido un placer charlar. ¡Seguimos en contacto!",
+    "context": "Para despedirte de alguien que acabas de conocer en un viaje"
+  },
+  "summary": [
+    "Presentarte: I'm Yolanda. I'm from Spain.",
+    "Preguntar: Are you…? Do you…? Where do you…?",
+    "Contestar corto: Yes, I do / No, I'm not",
+    "Proponer: Let's… / Would you like…? — Yes, please!",
+    "Despedirte: It was lovely to chat. See you soon!"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u12-l5"
+}

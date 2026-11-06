@@ -1,0 +1,88 @@
+{
+  "id": "it-b1-u05-l1",
+  "unit": "it-b1-u05",
+  "title": "Érase una vez… palabras para contar",
+  "goal": "a ordenar una historia con palabras como all'inizio, poi, all'improvviso y alla fine",
+  "emoji": "📖",
+  "photoQuery": "old train station platform italy",
+  "vocab": [
+    { "id": "storia-succedere", "t": "succedere", "es": "pasar, ocurrir", "emoji": "❗", "pos": "v", "note": "En pasado va con essere: è successo.", "ex": { "t": "Cos'è successo ieri sera?", "es": "¿Qué pasó anoche?" } },
+    { "id": "storia-allinizio", "t": "all'inizio", "es": "al principio", "emoji": "1️⃣", "pos": "phrase", "ex": { "t": "All'inizio il viaggio era tranquillo.", "es": "Al principio el viaje era tranquilo." } },
+    { "id": "storia-poi", "t": "poi", "es": "luego, después", "emoji": "➡️", "pos": "adv", "ex": { "t": "Poi siamo andate a cena.", "es": "Luego fuimos a cenar." } },
+    { "id": "storia-allimprovviso", "t": "all'improvviso", "es": "de repente", "emoji": "⚡", "pos": "phrase", "ex": { "t": "All'improvviso è andata via la luce.", "es": "De repente se fue la luz." } },
+    { "id": "storia-per-fortuna", "t": "per fortuna", "es": "por suerte, menos mal", "emoji": "🍀", "pos": "phrase", "ex": { "t": "Per fortuna avevo l'ombrello.", "es": "Por suerte llevaba el paraguas." } },
+    { "id": "storia-purtroppo", "t": "purtroppo", "es": "por desgracia, desgraciadamente", "emoji": "😔", "pos": "adv", "ex": { "t": "Purtroppo il museo era chiuso.", "es": "Por desgracia el museo estaba cerrado." } },
+    { "id": "storia-alla-fine", "t": "alla fine", "es": "al final", "emoji": "🏁", "pos": "phrase", "ex": { "t": "Alla fine è andato tutto bene.", "es": "Al final todo salió bien." } },
+    { "id": "storia-perdere-il-treno", "t": "perdere il treno", "es": "perder el tren", "emoji": "🚆", "pos": "phrase", "ex": { "t": "Ho perso il treno per due minuti!", "es": "¡He perdido el tren por dos minutos!" } },
+    { "id": "storia-gia", "t": "già", "es": "ya", "emoji": "✅", "pos": "adv", "ex": { "t": "Quando sono arrivata, il treno era già partito.", "es": "Cuando llegué, el tren ya había salido." } },
+    { "id": "storia-il-successo", "t": "il successo", "es": "el éxito", "emoji": "🏆", "pos": "n", "note": "¡Falso amigo! Un suceso es un fatto o un evento.", "ex": { "t": "La festa è stata un successo.", "es": "La fiesta fue un éxito." } }
+  ],
+  "grammar": "it-g-trapassato-prossimo",
+  "pron": {
+    "title": "La doble de all'improvviso",
+    "tip": "All'improvviso tiene dos dobles: ll y vv. Alarga un poco: al-lim-prov-vi-so. Y en già, la gi suena como «ch» suave sonora, sin i aparte: già.",
+    "words": ["all'improvviso", "succedere", "purtroppo", "già", "successo"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "___ il tempo era bello, poi è arrivata la pioggia.", "es": "Al principio hacía buen tiempo, luego llegó la lluvia.", "options": ["All'inizio", "Alla fine", "Purtroppo"], "answer": "All'inizio", "why": "La historia empieza: all'inizio = al principio.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e2", "type": "choose", "q": "Camminavamo tranquille e ___ è caduta una tegola!", "es": "Caminábamos tranquilas y de repente ¡cayó una teja!", "options": ["all'improvviso", "per fortuna", "alla fine"], "answer": "all'improvviso", "why": "Algo inesperado interrumpe: all'improvviso.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e3", "type": "choose", "q": "Ho perso il portafoglio, ma ___ un signore me l'ha riportato.", "es": "Perdí la cartera, pero por suerte un señor me la devolvió.", "options": ["per fortuna", "purtroppo", "all'inizio"], "answer": "per fortuna", "why": "Algo bueno: per fortuna.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e4", "type": "choose", "q": "Quando sono arrivata, il treno era ___ partito.", "es": "Cuando llegué, el tren ya había salido.", "options": ["già", "ancora", "poi"], "answer": "già", "why": "Ya = già; va entre era y partito.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e5", "type": "fill", "q": "Cosa è ___? Hai una faccia strana!", "es": "¿Qué ha pasado? ¡Tienes una cara rara!", "answer": ["successo"], "bank": ["successo", "succeduto", "passato"], "why": "El participio de succedere es successo.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e6", "type": "fill", "q": "___ il ristorante era pieno e siamo tornati a casa.", "es": "Por desgracia el restaurante estaba lleno y volvimos a casa.", "answer": ["Purtroppo"], "bank": ["Purtroppo", "Per fortuna", "Poi"], "why": "Algo malo: purtroppo.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e7", "type": "fill", "q": "Abbiamo visitato il Duomo e ___ abbiamo mangiato un gelato.", "es": "Visitamos la catedral y luego comimos un helado.", "answer": ["poi", "dopo"], "bank": ["poi", "già", "purtroppo"], "why": "Para la acción siguiente: poi.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e8", "type": "match", "pairs": [["all'inizio", "al principio"], ["poi", "luego"], ["all'improvviso", "de repente"], ["alla fine", "al final"], ["purtroppo", "por desgracia"]], "why": "Las piezas para ordenar una historia." },
+    { "id": "e9", "type": "error", "q": "La cena è stata un suceso!", "wrong": "suceso", "fix": "successo", "why": "Éxito se dice successo, con doble s y doble c.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e10", "type": "error", "q": "Ieri in piazza è succeduto un incidente.", "wrong": "succeduto", "fix": "successo", "why": "El participio de succedere es irregular: è successo.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e11", "type": "order", "es": "Al final todo salió bien.", "answer": "Alla fine è andato tutto bene", "extra": ["inizio"], "why": "Andare bene en pasado: è andato bene.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "De repente sonó el teléfono.", "answer": ["All'improvviso è squillato il telefono.", "All'improvviso ha squillato il telefono.", "All'improvviso ha suonato il telefono.", "All'improvviso è suonato il telefono."], "why": "De repente = all'improvviso.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e13", "type": "translate", "dir": "from", "q": "Per fortuna avevo il biglietto.", "answer": ["Por suerte tenía el billete.", "Por suerte llevaba el billete.", "Menos mal que tenía el billete."], "why": "Per fortuna = por suerte.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e14", "type": "situation", "context": "Tu amiga te cuenta que perdió el tren y luego encontró otro enseguida. ¿Qué dices?", "emoji": "🚉", "options": ["Per fortuna!", "Purtroppo!", "All'inizio!"], "answer": "Per fortuna!", "why": "Ante un final feliz: per fortuna, ¡menos mal!", "g": "it-g-trapassato-prossimo" },
+    { "id": "e15", "type": "transform", "instr": "Empieza la frase con «Purtroppo»", "q": "Ho perso il treno.", "answer": ["Purtroppo ho perso il treno.", "Purtroppo, ho perso il treno."], "why": "Purtroppo va al principio y añade «por desgracia».", "g": "it-g-trapassato-prossimo" },
+    { "id": "e16", "type": "speak", "t": "All'improvviso è successa una cosa strana.", "es": "De repente pasó una cosa rara." }
+  ],
+  "dialog": {
+    "title": "¿Qué te ha pasado?",
+    "setting": "Yolanda llega tarde a un café de Bolonia donde la espera su amiga Marta",
+    "emoji": "☕",
+    "lines": [
+      { "who": "Marta", "t": "Finalmente! Cos'è successo?", "es": "¡Por fin! ¿Qué ha pasado?" },
+      { "who": "Yolanda", "t": "Che giornata! All'inizio tutto andava bene.", "es": "¡Qué día! Al principio todo iba bien." },
+      { "who": "Marta", "t": "E poi?", "es": "¿Y luego?" },
+      { "who": "Yolanda", "t": "Poi, all'improvviso, l'autobus si è fermato.", "es": "Luego, de repente, el autobús se paró." },
+      { "who": "Marta", "t": "Oh no! E sei venuta a piedi?", "es": "¡Oh, no! ¿Y has venido andando?" },
+      { "who": "Yolanda", "t": "Sì, e purtroppo ho perso anche il treno.", "es": "Sí, y por desgracia también he perdido el tren." },
+      { "who": "Marta", "t": "Ma alla fine sei qui!", "es": "¡Pero al final estás aquí!" },
+      { "who": "Yolanda", "t": "Per fortuna! Mi offri un caffè?", "es": "¡Menos mal! ¿Me invitas a un café?" }
+    ],
+    "questions": [
+      { "q": "¿Qué le pasó al autobús?", "options": ["Se paró", "No llegó", "Iba lleno"], "answer": "Se paró" },
+      { "q": "¿Qué más perdió Yolanda?", "options": ["El tren", "La cartera", "El móvil"], "answer": "El tren" },
+      { "q": "¿Qué pide Yolanda al final?", "options": ["Un café", "Un taxi", "Una cena"], "answer": "Un café" }
+    ]
+  },
+  "realLife": { "t": "Scusa il ritardo, ho perso il treno!", "es": "¡Perdona el retraso, he perdido el tren!", "context": "Para disculparte al llegar tarde a una cita" },
+  "falseFriend": {
+    "word": "il successo",
+    "means": "el éxito",
+    "looksLike": "el suceso",
+    "emoji": "🏆",
+    "tip": "Il successo es el éxito: un libro di successo. Un suceso se dice un fatto o un evento; el verbo succedere sí es «suceder, pasar»."
+  },
+  "same": {
+    "text": "Los conectores de una historia se parecen mucho a los nuestros.",
+    "examples": [
+      { "t": "all'inizio", "es": "al inicio" },
+      { "t": "alla fine", "es": "al final" },
+      { "t": "per fortuna", "es": "por fortuna" }
+    ]
+  },
+  "summary": [
+    "Ordenar: all'inizio, poi, alla fine.",
+    "Sorpresa: all'improvviso. Suerte: per fortuna. Mala suerte: purtroppo.",
+    "Cos'è successo? = ¿Qué ha pasado?",
+    "Un adelanto: era già partito = ya había salido.",
+    "¡Ojo! Il successo = el éxito."
+  ],
+  "reviewed": false
+}

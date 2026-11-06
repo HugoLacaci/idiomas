@@ -1,0 +1,45 @@
+{
+  "id": "en-b1-u07-c2",
+  "unit": "en-b1-u07",
+  "title": "¿Verdad que sí?",
+  "setting": "Paseas con Emma por San Francisco y charláis con coletillas, muy a la inglesa",
+  "emoji": "🌉",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "The bridge looks amazing in this light!", "es": "¡El puente se ve increíble con esta luz!" },
+      "options": [
+        { "t": "It's beautiful, isn't it?", "es": "Es precioso, ¿verdad?", "next": "n2", "ok": true },
+        { "t": "It's beautiful, doesn't it?", "es": "(Es precioso, ¿verdad?)", "next": "n2", "ok": false, "feedback": "La frase lleva is, así que la coletilla es isn't it?" }
+      ] },
+    { "id": "n2", "says": { "t": "You've been here before, haven't you?", "es": "Tú ya habías estado aquí, ¿no?" },
+      "options": [
+        { "t": "No, I haven't. It's my first time.", "es": "No. Es mi primera vez.", "next": "n3", "ok": true },
+        { "t": "No, I don't. It's my first time.", "es": "(No. Es mi primera vez.)", "next": "n3", "ok": false, "feedback": "Te pregunta con have: responde No, I haven't." }
+      ] },
+    { "id": "n3", "says": { "t": "Your husband doesn't like heights, does he?", "es": "A tu marido no le gustan las alturas, ¿verdad?" },
+      "options": [
+        { "t": "No, he doesn't! He's a bit nervous.", "es": "¡No! Está un poco nervioso.", "next": "n4", "ok": true },
+        { "t": "No, he isn't! He's a bit nervous.", "es": "(¡No! Está un poco nervioso.)", "next": "n4", "ok": false, "feedback": "La pregunta lleva does: No, he doesn't." }
+      ] },
+    { "id": "n4", "says": { "t": "Shall we take a cable car later?", "es": "¿Cogemos un tranvía luego?" },
+      "options": [
+        { "t": "Yes! They go up the hills, don't they?", "es": "¡Sí! Suben por las cuestas, ¿verdad?", "next": "n5", "ok": true },
+        { "t": "Yes! They go up the hills, aren't they?", "es": "(¡Sí! Suben por las cuestas, ¿verdad?)", "next": "n5", "ok": false, "feedback": "Go no lleva be: la coletilla es don't they?" }
+      ] },
+    { "id": "n5", "says": { "t": "They do. It was cold this morning, wasn't it?", "es": "Sí. Esta mañana hacía frío, ¿verdad?" },
+      "options": [
+        { "t": "Yes, it was! I wasn't ready for the fog, was I?", "es": "¡Sí! No iba preparada para la niebla, ¿eh?", "next": "n6", "ok": true },
+        { "t": "Yes, it was! I wasn't ready for the fog, wasn't I?", "es": "(¡Sí! No iba preparada para la niebla, ¿eh?)", "next": "n6", "ok": false, "feedback": "Frase negativa (wasn't) → coletilla afirmativa: was I?" }
+      ] },
+    { "id": "n6", "says": { "t": "Not at all! You'll buy a jumper, won't you?", "es": "¡Para nada! Te comprarás un jersey, ¿no?" },
+      "options": [
+        { "t": "I will. Let's find a shop, shall we?", "es": "Sí. Busquemos una tienda, ¿vale?", "next": "n7", "ok": true },
+        { "t": "I will. Let's find a shop, don't we?", "es": "(Sí. Busquemos una tienda, ¿vale?)", "next": "n7", "ok": false, "feedback": "Con Let's…, la coletilla es shall we?" }
+      ] },
+    { "id": "n7", "says": { "t": "Perfect. You're getting really good at this, aren't you?", "es": "Perfecto. Se te está dando genial esto, ¿eh?" },
+      "options": [
+        { "t": "Thank you, Emma! I'm learning a lot.", "es": "¡Gracias, Emma! Estoy aprendiendo mucho.", "next": "end", "ok": true }
+      ] }
+  ],
+  "reviewed": false
+}

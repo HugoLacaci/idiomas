@@ -1,0 +1,443 @@
+{
+  "id": "en-a1-u01-l3",
+  "unit": "en-a1-u01",
+  "title": "¿Qué tal? ¿A qué te dedicas?",
+  "goal": "a preguntar qué tal está alguien y a hablar de profesiones",
+  "emoji": "💼",
+  "photoQuery": "friends talking cosy living room",
+  "vocab": [
+    {
+      "id": "how-are-you",
+      "t": "How are you?",
+      "es": "¿Qué tal estás?",
+      "emoji": "😊",
+      "pos": "phrase",
+      "ex": {
+        "t": "Hi, Carmen! How are you?",
+        "es": "¡Hola, Carmen! ¿Qué tal estás?"
+      }
+    },
+    {
+      "id": "im-fine-thanks",
+      "t": "I'm fine, thanks.",
+      "es": "Bien, gracias.",
+      "emoji": "👍",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm fine, thanks. And you?",
+        "es": "Bien, gracias. ¿Y tú?"
+      }
+    },
+    {
+      "id": "and-you",
+      "t": "And you?",
+      "es": "¿Y tú?",
+      "emoji": "🔁",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm very well. And you?",
+        "es": "Estoy muy bien. ¿Y tú?"
+      }
+    },
+    {
+      "id": "what-do-you-do",
+      "t": "What do you do?",
+      "es": "¿A qué te dedicas?",
+      "emoji": "💼",
+      "pos": "phrase",
+      "ex": {
+        "t": "Nice to meet you. What do you do?",
+        "es": "Encantada. ¿A qué te dedicas?"
+      }
+    },
+    {
+      "id": "teacher",
+      "t": "a teacher",
+      "es": "un profesor, una profesora",
+      "emoji": "👩‍🏫",
+      "pos": "n",
+      "ex": {
+        "t": "My sister is a teacher.",
+        "es": "Mi hermana es profesora."
+      }
+    },
+    {
+      "id": "nurse",
+      "t": "a nurse",
+      "es": "un enfermero, una enfermera",
+      "emoji": "👩‍⚕️",
+      "pos": "n",
+      "ex": {
+        "t": "Carmen is a nurse.",
+        "es": "Carmen es enfermera."
+      }
+    },
+    {
+      "id": "shop-assistant",
+      "t": "a shop assistant",
+      "es": "un dependiente, una dependienta",
+      "emoji": "🛍️",
+      "pos": "n",
+      "ex": {
+        "t": "Ana is a shop assistant.",
+        "es": "Ana es dependienta."
+      }
+    },
+    {
+      "id": "cook",
+      "t": "a cook",
+      "es": "un cocinero, una cocinera",
+      "emoji": "👩‍🍳",
+      "pos": "n",
+      "ex": {
+        "t": "James is a very good cook.",
+        "es": "James es muy buen cocinero."
+      },
+      "note": "¡Ojo! A cooker es la cocina (el aparato), no la persona."
+    },
+    {
+      "id": "retired",
+      "t": "retired",
+      "es": "jubilado, jubilada",
+      "emoji": "🏖️",
+      "pos": "adj",
+      "ex": {
+        "t": "My husband is retired.",
+        "es": "Mi marido está jubilado."
+      },
+      "note": "No lo confundas con tired (cansada)."
+    },
+    {
+      "id": "actually",
+      "t": "actually",
+      "es": "en realidad",
+      "emoji": "💡",
+      "pos": "adv",
+      "ex": {
+        "t": "Actually, I'm from Seville.",
+        "es": "En realidad, soy de Sevilla."
+      },
+      "note": "¡Ojo, falso amigo! «Actualmente» se dice currently o now."
+    }
+  ],
+  "grammar": "en-g-to-be",
+  "pron": {
+    "title": "La a débil: I'm a nurse",
+    "tip": "La a de I'm a teacher es una vocal muy corta y relajada, la schwa /ə/: casi un suspiro. No digas «ei»: /aɪm ə ˈnɜːs/. Delante de vocal se convierte en an: an engineer.",
+    "words": [
+      "a teacher",
+      "a nurse",
+      "a cook",
+      "an engineer",
+      "a shop assistant"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I'm ___ nurse.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "answer": "a",
+      "why": "En inglés, las profesiones llevan a o an: I'm a nurse (soy enfermera)."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Hugo's friend is ___ engineer.",
+      "options": [
+        "a",
+        "an"
+      ],
+      "answer": "an",
+      "why": "Delante de sonido de vocal usamos an: an engineer."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "q": "How ___ you? — I'm fine, thanks.",
+      "answer": [
+        "are"
+      ],
+      "bank": [
+        "are",
+        "is",
+        "am"
+      ],
+      "why": "Con you va are: How are you?",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "I'm fine, thanks. And ___?",
+      "answer": [
+        "you"
+      ],
+      "why": "And you? es nuestro «¿Y tú?». Es de buena educación preguntarlo."
+    },
+    {
+      "id": "e5",
+      "type": "situation",
+      "context": "Tu vecina inglesa te pregunta: «How are you?»",
+      "emoji": "🏡",
+      "options": [
+        "I'm fine, thanks. And you?",
+        "I have fine.",
+        "Yes, I am."
+      ],
+      "answer": "I'm fine, thanks. And you?",
+      "why": "Para decir cómo estás usamos to be: I'm fine. Nunca «I have fine»."
+    },
+    {
+      "id": "e6",
+      "type": "situation",
+      "context": "Un señor te pregunta «What do you do?» y tú ya no trabajas.",
+      "emoji": "🏖️",
+      "options": [
+        "I'm retired.",
+        "I'm tired.",
+        "I do retired."
+      ],
+      "answer": "I'm retired.",
+      "why": "Retired = jubilada; tired = cansada. ¡Se parecen mucho!"
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "¿Eres profesora?",
+      "answer": "Are you a teacher",
+      "extra": [
+        "do"
+      ],
+      "why": "En las preguntas con to be el verbo va delante: Are you…?",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "You are a nurse.",
+      "answer": [
+        "Are you a nurse?",
+        "Are you a nurse"
+      ],
+      "why": "Para preguntar, cambia el orden: are va delante de you.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "I am a teacher.",
+      "answer": [
+        "I'm not a teacher.",
+        "I am not a teacher."
+      ],
+      "why": "La negativa se hace con not después del verbo: I'm not.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "My cousin is a engineer.",
+      "wrong": "a",
+      "fix": "an",
+      "why": "Engineer empieza por sonido de vocal, así que va an: an engineer."
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "No soy profesora, soy enfermera.",
+      "answer": [
+        "I'm not a teacher, I'm a nurse.",
+        "I am not a teacher, I am a nurse.",
+        "I'm not a teacher. I'm a nurse.",
+        "I'm not a teacher I'm a nurse"
+      ],
+      "why": "No olvides a delante de las profesiones: a teacher, a nurse.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "from",
+      "q": "Actually, I'm from Seville.",
+      "answer": [
+        "En realidad, soy de Sevilla.",
+        "En realidad soy de Sevilla",
+        "La verdad es que soy de Sevilla."
+      ],
+      "why": "Actually significa «en realidad». No es «actualmente»."
+    },
+    {
+      "id": "e13",
+      "type": "choose",
+      "q": "I'm not English. ___, I'm Spanish.",
+      "options": [
+        "Actually",
+        "Currently"
+      ],
+      "answer": "Actually",
+      "why": "Actually = en realidad. Currently = actualmente, en este momento."
+    },
+    {
+      "id": "e14",
+      "type": "match",
+      "pairs": [
+        [
+          "a teacher",
+          "profesora"
+        ],
+        [
+          "a nurse",
+          "enfermera"
+        ],
+        [
+          "a cook",
+          "cocinera"
+        ],
+        [
+          "a shop assistant",
+          "dependienta"
+        ],
+        [
+          "retired",
+          "jubilada"
+        ]
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "text",
+      "title": "Carmen se presenta",
+      "text": "My name is Carmen. I'm Spanish, from Seville. I'm a nurse. My husband, Luis, is retired. We're in London on holiday.",
+      "questions": [
+        {
+          "q": "¿A qué se dedica Carmen?",
+          "options": [
+            "Es enfermera",
+            "Es profesora",
+            "Está jubilada"
+          ],
+          "answer": "Es enfermera"
+        },
+        {
+          "q": "¿Quién está jubilado?",
+          "options": [
+            "Luis",
+            "Carmen"
+          ],
+          "answer": "Luis"
+        },
+        {
+          "q": "¿Por qué están en Londres?",
+          "options": [
+            "De vacaciones",
+            "Por trabajo"
+          ],
+          "answer": "De vacaciones"
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Nice to meet you. What do you do?",
+      "es": "Encantada. ¿A qué te dedicas?"
+    }
+  ],
+  "dialog": {
+    "title": "En una fiesta",
+    "setting": "En el cumpleaños de un compañero de Hugo, en un piso de Londres",
+    "emoji": "🎉",
+    "lines": [
+      {
+        "who": "James",
+        "t": "Hi! I'm James, Hugo's colleague.",
+        "es": "¡Hola! Soy James, compañero de trabajo de Hugo."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Hello, James. I'm Yolanda, Hugo's mum.",
+        "es": "Hola, James. Soy Yolanda, la madre de Hugo."
+      },
+      {
+        "who": "James",
+        "t": "Nice to meet you! How are you?",
+        "es": "¡Encantado! ¿Qué tal estás?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I'm fine, thanks. And you?",
+        "es": "Bien, gracias. ¿Y tú?"
+      },
+      {
+        "who": "James",
+        "t": "Very well, thanks.",
+        "es": "Muy bien, gracias."
+      },
+      {
+        "who": "Yolanda",
+        "t": "What do you do, James?",
+        "es": "¿A qué te dedicas, James?"
+      },
+      {
+        "who": "James",
+        "t": "I'm a nurse. Actually, I'm a cook too!",
+        "es": "Soy enfermero. ¡En realidad, también soy cocinero!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Really? My sister is a nurse too!",
+        "es": "¿De verdad? ¡Mi hermana también es enfermera!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Quién es James?",
+        "options": [
+          "Un compañero de Hugo",
+          "El hermano de Hugo"
+        ],
+        "answer": "Un compañero de Hugo"
+      },
+      {
+        "q": "¿A qué se dedica James?",
+        "options": [
+          "Es enfermero",
+          "Es profesor"
+        ],
+        "answer": "Es enfermero"
+      },
+      {
+        "q": "¿Quién más es enfermera?",
+        "options": [
+          "La hermana de Yolanda",
+          "La madre de James"
+        ],
+        "answer": "La hermana de Yolanda"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "How are you? — Very well, thanks.",
+    "es": "¿Qué tal? — Muy bien, gracias.",
+    "context": "Para saludar a alguien conocido"
+  },
+  "summary": [
+    "Preguntar qué tal: How are you? — I'm fine, thanks. And you?",
+    "Profesiones con a/an: I'm a nurse, she's an engineer",
+    "Preguntar la profesión: What do you do?",
+    "Actually = en realidad (actualmente = currently)",
+    "La a de a nurse es débil: /ə/"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u01-l3"
+}

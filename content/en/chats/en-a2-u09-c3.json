@@ -1,0 +1,60 @@
+{
+  "id": "en-a2-u09-c3",
+  "unit": "en-a2-u09",
+  "title": "Se corta la llamada",
+  "setting": "Emma te llama desde el tren a Dublín. La cobertura va y viene.",
+  "emoji": "🚆",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! It's Emma. Can you hear me?", "es": "¡Hola, Yolanda! Soy Emma. ¿Me oyes?" },
+      "options": [
+        { "t": "Hi Emma! Not very well. You're breaking up.", "es": "¡Hola, Emma! No muy bien. Se corta.", "next": "n2", "ok": true },
+        { "t": "Hi Emma! Not very good. You're breaking up.", "es": "¡Hola, Emma! No muy bien. Se corta.", "next": "n2", "ok": false, "feedback": "Cómo la oyes: adverbio. Not very well." },
+        { "t": "Hi Emma! I can't listen you.", "es": "¡Hola, Emma! No te oigo.", "next": "n2", "ok": false, "feedback": "Oír = hear: I can't hear you." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Sorry! I'm on the train. The signal is terrible.", "es": "¡Perdona! Voy en el tren. La cobertura es malísima." },
+      "options": [
+        { "t": "Could you speak a bit more loudly?", "es": "¿Podrías hablar un poco más alto?", "next": "n3", "ok": true },
+        { "t": "Could you speak a bit more loud?", "es": "¿Podrías hablar un poco más alto?", "next": "n3", "ok": false, "feedback": "Cómo habla: adverbio, more loudly (o speak up)." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Is this better? I'm going to Dublin for the weekend!", "es": "¿Mejor así? ¡Me voy a Dublín el fin de semana!" },
+      "options": [
+        { "t": "How lovely! Could you send me some photos?", "es": "¡Qué bien! ¿Me mandas algunas fotos?", "next": "n4", "ok": true },
+        { "t": "How lovely! Could you sending me some photos?", "es": "¡Qué bien! ¿Me mandas algunas fotos?", "next": "n4", "ok": false, "feedback": "Could you + verbo sin -ing: Could you send…?" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Of course! Oh no, my battery is low.", "es": "¡Claro! Ay, no, me queda poca batería." },
+      "options": [
+        { "t": "Don't worry. Could you call me back later?", "es": "No te preocupes. ¿Me llamas luego?", "next": "n5", "ok": true },
+        { "t": "Don't worry. Could you call to me later?", "es": "No te preocupes. ¿Me llamas luego?", "next": "n5", "ok": false, "feedback": "Call va sin to: call me. Y devolver la llamada es call back." },
+        { "t": "Don't worry. Hang up me later.", "es": "No te preocupes. Cuélgame luego.", "next": "n5", "ok": false, "feedback": "Hang up es colgar. Para que te llame: Could you call me back later?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Yes, tonight from the hotel. Is nine OK?", "es": "Sí, esta noche desde el hotel. ¿Te va bien a las nueve?" },
+      "options": [
+        { "t": "Perfect. Text me when you arrive, please.", "es": "Perfecto. Escríbeme cuando llegues, por favor.", "next": "n6", "ok": true },
+        { "t": "Perfect. Text to me when you arrive, please.", "es": "Perfecto. Escríbeme cuando llegues, por favor.", "next": "n6", "ok": false, "feedback": "Text no lleva to: Text me." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "I will. Speak soon, Yolanda!", "es": "Lo haré. ¡Hablamos pronto, Yolanda!" },
+      "options": [
+        { "t": "Have a good trip! Bye!", "es": "¡Buen viaje! ¡Adiós!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

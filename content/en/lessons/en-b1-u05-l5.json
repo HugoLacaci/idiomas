@@ -1,0 +1,103 @@
+{
+  "id": "en-b1-u05-l5",
+  "unit": "en-b1-u05",
+  "title": "Reto en Auckland: si viviera aquí…",
+  "goal": "a contar tus sueños y dar consejos durante un viaje a Auckland",
+  "emoji": "🥝",
+  "photoQuery": "auckland harbour city skyline",
+  "vocab": [
+    { "id": "dream-kia-ora", "t": "Kia ora", "es": "Hola (saludo en maorí)", "emoji": "👋", "pos": "phrase",
+      "ex": { "t": "The guide smiled and said, 'Kia ora!'", "es": "La guía sonrió y dijo: «¡Kia ora!»." },
+      "note": "En Nueva Zelanda el maorí es lengua oficial y este saludo se oye a diario." },
+    { "id": "dream-harbour", "t": "harbour", "es": "puerto, bahía", "emoji": "⚓", "pos": "n",
+      "ex": { "t": "We had lunch by the harbour.", "es": "Comimos junto al puerto." },
+      "note": "En EE. UU.: harbor." },
+    { "id": "dream-city-of-sails", "t": "the City of Sails", "es": "la Ciudad de las Velas (apodo de Auckland)", "emoji": "⛵", "pos": "phrase",
+      "ex": { "t": "Auckland is called the City of Sails because of its many boats.", "es": "A Auckland la llaman la Ciudad de las Velas por sus muchos barcos." } },
+    { "id": "dream-volcano", "t": "volcano", "es": "volcán", "emoji": "🌋", "pos": "n",
+      "ex": { "t": "There are lots of old volcanoes in Auckland.", "es": "En Auckland hay muchos volcanes antiguos." } },
+    { "id": "dream-kiwi", "t": "kiwi", "es": "kiwi (el pájaro; también, de forma cariñosa, un neozelandés)", "emoji": "🥝", "pos": "n",
+      "ex": { "t": "The kiwi is a bird that can't fly.", "es": "El kiwi es un pájaro que no puede volar." } },
+    { "id": "dream-ferry", "t": "ferry", "es": "ferri, transbordador", "emoji": "⛴️", "pos": "n",
+      "ex": { "t": "We took the ferry to a little island.", "es": "Cogimos el ferri a una isla pequeña." } },
+    { "id": "dream-view", "t": "view", "es": "vista", "emoji": "🏙️", "pos": "n",
+      "ex": { "t": "The view from the tower is amazing.", "es": "La vista desde la torre es increíble." } },
+    { "id": "dream-jet-lag", "t": "jet lag", "es": "desfase horario", "emoji": "🥱", "pos": "n",
+      "ex": { "t": "If I were you, I'd sleep a bit. Jet lag is terrible!", "es": "Yo que tú, dormiría un poco. ¡El desfase horario es horrible!" } }
+  ],
+  "grammar": "en-g-second-conditional",
+  "pron": {
+    "title": "Repaso: I'd y la l muda de would",
+    "tip": "Junta todo lo de la unidad: «aid laik», «wud iu», «if ai wer iu». Dilo despacio y luego más rápido.",
+    "words": ["I'd like", "Would you…?", "If I were you", "harbour", "volcano"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "text", "title": "Auckland en pocas palabras",
+      "text": "Auckland is the biggest city in New Zealand, but it isn't the capital. That's Wellington. It's called the City of Sails because so many people have boats. The city is built on dozens of old volcanoes, and you can walk up some of them for a great view.",
+      "questions": [
+        { "q": "¿Cuál es la capital de Nueva Zelanda?", "options": ["Wellington", "Auckland", "Sídney"], "answer": "Wellington" },
+        { "q": "¿Por qué la llaman la Ciudad de las Velas?", "options": ["Porque mucha gente tiene barco", "Porque hace mucho viento", "Porque fabrican velas"], "answer": "Porque mucha gente tiene barco" },
+        { "q": "¿Qué se puede hacer en algunos volcanes?", "options": ["Subir a pie y disfrutar de la vista", "Bañarse en lava", "Esquiar"], "answer": "Subir a pie y disfrutar de la vista" }
+      ], "g": "en-g-second-conditional" },
+    { "id": "e2", "type": "choose", "q": "If I lived in Auckland, I ___ take the ferry every day.", "options": ["would", "will", "did"], "answer": "would",
+      "why": "No vives allí: imaginario, would.", "g": "en-g-second-conditional" },
+    { "id": "e3", "type": "choose", "q": "If I ___ you, I'd walk up a volcano. The view is amazing.", "options": ["were", "was being", "am"], "answer": "were",
+      "why": "Consejo: If I were you.", "g": "en-g-second-conditional" },
+    { "id": "e4", "type": "choose", "q": "If we have time tomorrow, we ___ visit the harbour.", "options": ["'ll", "'d", "would"], "answer": "'ll",
+      "why": "Es un plan posible y real: primer condicional (will).", "g": "en-g-second-conditional" },
+    { "id": "e5", "type": "fill", "q": "If I ___ younger, I'd learn to sail here.", "answer": ["were", "was"], "bank": ["were", "am", "would be"],
+      "why": "Con be, en la parte del if: were (en conversación también was).", "g": "en-g-second-conditional" },
+    { "id": "e6", "type": "fill", "q": "If I were you, I'd ___ a little. Jet lag is awful.", "answer": ["sleep", "rest"], "bank": ["sleep", "slept", "to sleep"],
+      "why": "Después de I'd, el verbo en su forma base.", "g": "en-g-second-conditional" },
+    { "id": "e7", "type": "situation", "context": "Llegas al hotel en Auckland y la recepcionista te saluda en maorí. Le devuelves el saludo.", "emoji": "👋",
+      "options": ["Kia ora!", "Goodbye!", "Cheers!"], "answer": "Kia ora!",
+      "why": "Kia ora es el saludo maorí más común; puedes devolverlo igual." },
+    { "id": "e8", "type": "situation", "context": "Otro turista español no sabe si subir a la torre o coger el ferri. Tú cogerías el ferri.", "emoji": "⛴️",
+      "options": ["If I were you, I'd take the ferry.", "If I were you, I take the ferry.", "If I am you, I'd take the ferry."], "answer": "If I were you, I'd take the ferry.",
+      "why": "If I were you + I'd + verbo.", "g": "en-g-second-conditional" },
+    { "id": "e9", "type": "error", "q": "If I lived here, I would went sailing every weekend.", "wrong": "went", "fix": "go",
+      "why": "Después de would, forma base: would go.", "g": "en-g-second-conditional" },
+    { "id": "e10", "type": "error", "q": "If I were you, I'll walk up Mount Eden.", "wrong": "I'll", "fix": "I'd",
+      "why": "Después de If I were you, el consejo va con I'd (I would).", "g": "en-g-second-conditional" },
+    { "id": "e11", "type": "order", "es": "Si viviera aquí, saldría a navegar todos los fines de semana", "answer": "If I lived here I would go sailing every weekend", "extra": ["live"],
+      "why": "If + lived, would + go.", "g": "en-g-second-conditional" },
+    { "id": "e12", "type": "transform", "instr": "Cámbiala al segundo condicional (no tienes más días)", "q": "If I have more days, I'll visit the islands.",
+      "answer": ["If I had more days, I'd visit the islands.", "If I had more days, I would visit the islands."],
+      "why": "have → had; I'll → I'd.", "g": "en-g-second-conditional" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "Si fuera tú, cogería el ferri.", "answer": ["If I were you, I'd take the ferry.", "If I were you, I would take the ferry.", "If I was you, I'd take the ferry."],
+      "why": "Si fuera tú = If I were you.", "g": "en-g-second-conditional" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "What would you do if you lived in Auckland?", "answer": ["¿Qué harías si vivieras en Auckland?", "¿Qué harías si vivieses en Auckland?"],
+      "why": "Would you do = harías; lived = vivieras.", "g": "en-g-second-conditional" },
+    { "id": "e15", "type": "match", "pairs": [["harbour", "puerto"], ["volcano", "volcán"], ["ferry", "ferri"], ["view", "vista"], ["jet lag", "desfase horario"]],
+      "why": "Palabras del viaje a Auckland." },
+    { "id": "e16", "type": "speak", "t": "If I lived in Auckland, I'd take the ferry every day.", "es": "Si viviera en Auckland, cogería el ferri todos los días.", "g": "en-g-second-conditional" }
+  ],
+  "dialog": {
+    "title": "En el ferri de Auckland",
+    "setting": "Yolanda charla con una señora neozelandesa en el ferri que cruza la bahía",
+    "emoji": "⛴️",
+    "lines": [
+      { "who": "Aroha", "t": "Kia ora! Is this your first time in Auckland?", "es": "¡Kia ora! ¿Es tu primera vez en Auckland?" },
+      { "who": "Yolanda", "t": "Yes! It's a dream come true. I love the harbour.", "es": "¡Sí! Es un sueño hecho realidad. Me encanta el puerto." },
+      { "who": "Aroha", "t": "How long are you staying?", "es": "¿Cuánto tiempo te quedas?" },
+      { "who": "Yolanda", "t": "Only a week. If I had more time, I'd see the whole country.", "es": "Solo una semana. Si tuviera más tiempo, vería todo el país." },
+      { "who": "Aroha", "t": "If I were you, I'd walk up Mount Eden. The view is beautiful.", "es": "Yo que tú, subiría a Mount Eden. La vista es preciosa." },
+      { "who": "Yolanda", "t": "Is it a volcano?", "es": "¿Es un volcán?" },
+      { "who": "Aroha", "t": "Yes, an old one. Don't worry, it's quiet!", "es": "Sí, uno antiguo. ¡Tranquila, está dormido!" },
+      { "who": "Yolanda", "t": "Then I'll go tomorrow. Thank you so much!", "es": "Entonces iré mañana. ¡Muchísimas gracias!" }
+    ],
+    "questions": [
+      { "q": "¿Cuánto tiempo se queda Yolanda?", "options": ["Una semana", "Un mes", "Dos días"], "answer": "Una semana" },
+      { "q": "¿Qué le aconseja Aroha?", "options": ["Subir a Mount Eden", "Coger un avión", "Ir de compras"], "answer": "Subir a Mount Eden" },
+      { "q": "¿Qué es Mount Eden?", "options": ["Un volcán antiguo", "Un centro comercial", "Una isla"], "answer": "Un volcán antiguo" }
+    ]
+  },
+  "realLife": { "t": "If you had one day here, what would you see?", "es": "Si tuvieras un solo día aquí, ¿qué verías?", "context": "Para pedir recomendaciones a la gente del lugar cuando viajas" },
+  "summary": [
+    "Soñar: If I lived here, I'd go sailing every weekend",
+    "Aconsejar: If I were you, I'd take the ferry",
+    "Primer (real) o segundo (imaginario) condicional: tú decides",
+    "Auckland: the City of Sails, harbour, volcanoes, Kia ora"
+  ],
+  "reviewed": false
+}

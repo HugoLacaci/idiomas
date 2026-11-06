@@ -1,0 +1,61 @@
+{
+  "id": "en-a2-u07-c1",
+  "unit": "en-a2-u07",
+  "title": "¿Qué te gusta hacer?",
+  "setting": "Emma y tú tomáis un té junto al río Mersey, en Liverpool. Ella quiere saber cuáles son tus aficiones.",
+  "emoji": "☕",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "So, Yolanda, what do you like doing in your free time?", "es": "Bueno, Yolanda, ¿qué te gusta hacer en tu tiempo libre?" },
+      "options": [
+        { "t": "I love dancing and cooking.", "es": "Me encanta bailar y cocinar.", "next": "n2", "ok": true },
+        { "t": "I love dance and cook.", "es": "Me encanta bailar y cocinar.", "next": "n2", "ok": false, "feedback": "Para aficiones, después de love usamos -ing: dancing, cooking." },
+        { "t": "Me love dancing and cooking.", "es": "Me encanta bailar y cocinar.", "next": "n2", "ok": false, "feedback": "En inglés el sujeto es I: I love…" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Dancing? Me too! What kind of dancing?", "es": "¿Bailar? ¡A mí también! ¿Qué tipo de baile?" },
+      "options": [
+        { "t": "Salsa! I go to a class on Wednesdays.", "es": "¡Salsa! Voy a una clase los miércoles.", "next": "n3", "ok": true },
+        { "t": "Salsa! I go a class on Wednesdays.", "es": "¡Salsa! Voy a una clase los miércoles.", "next": "n3", "ok": false, "feedback": "Go necesita to: I go to a class." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Lovely. I don't like cooking much, though.", "es": "Qué bien. Aunque a mí no me gusta mucho cocinar." },
+      "options": [
+        { "t": "Really? I enjoy it a lot.", "es": "¿De verdad? Yo disfruto mucho.", "next": "n4", "ok": true },
+        { "t": "Really? I enjoy a lot.", "es": "¿De verdad? Yo disfruto mucho.", "next": "n4", "ok": false, "feedback": "Enjoy necesita algo detrás: I enjoy it." },
+        { "t": "Me neither! I love it.", "es": "¡Yo tampoco! Me encanta.", "next": "n4", "ok": false, "feedback": "Me neither significa «yo tampoco»; pero a ti sí te gusta cocinar." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "And what don't you like doing?", "es": "¿Y qué no te gusta hacer?" },
+      "options": [
+        { "t": "I hate ironing!", "es": "¡Odio planchar!", "next": "n5", "ok": true },
+        { "t": "I hate iron!", "es": "¡Odio planchar!", "next": "n5", "ok": false, "feedback": "Hate + -ing: I hate ironing." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ha ha! Me neither. My husband does it.", "es": "¡Ja, ja! A mí tampoco. Lo hace mi marido." },
+      "options": [
+        { "t": "Lucky you! Does he enjoy it?", "es": "¡Qué suerte! ¿Y él disfruta?", "next": "n6", "ok": true },
+        { "t": "Lucky you! Do he enjoy it?", "es": "¡Qué suerte! ¿Y él disfruta?", "next": "n6", "ok": false, "feedback": "Con he la pregunta es con does: Does he enjoy it?" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "No, he doesn't mind it. He listens to the radio.", "es": "No, no le importa. Escucha la radio." },
+      "options": [
+        { "t": "Good idea! I'm going to try that.", "es": "¡Buena idea! Voy a probarlo.", "next": "end", "ok": true },
+        { "t": "Good idea! I going to try that.", "es": "¡Buena idea! Voy a probarlo.", "next": "end", "ok": false, "feedback": "Falta am: I'm going to try that." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

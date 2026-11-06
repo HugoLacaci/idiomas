@@ -1,0 +1,86 @@
+{
+  "id": "it-a2-u02-l2",
+  "unit": "it-a2-u02",
+  "title": "A Pasqua sono andata al paese",
+  "goal": "a contar adónde fuiste y cuándo volviste con el passato prossimo y essere",
+  "emoji": "🐣",
+  "photoQuery": "easter procession small town street",
+  "vocab": [
+    { "id": "festa-arrivare", "t": "arrivare", "es": "llegar", "emoji": "🛬", "pos": "v", "ex": { "t": "Sono arrivata al paese giovedì sera.", "es": "Llegué al pueblo el jueves por la noche." } },
+    { "id": "festa-partire", "t": "partire", "es": "salir de viaje, irse", "emoji": "🧳", "pos": "v", "ex": { "t": "Siamo partiti presto la mattina.", "es": "Salimos temprano por la mañana." } },
+    { "id": "festa-tornare", "t": "tornare", "es": "volver", "emoji": "🔙", "pos": "v", "ex": { "t": "Mio marito è tornato lunedì.", "es": "Mi marido volvió el lunes." } },
+    { "id": "festa-uscire", "t": "uscire", "es": "salir", "emoji": "🚪", "pos": "v", "ex": { "t": "La sera sono uscita con le amiche.", "es": "Por la noche salí con mis amigas." } },
+    { "id": "festa-entrare", "t": "entrare", "es": "entrar", "emoji": "⛪", "pos": "v", "ex": { "t": "Siamo entrati in chiesa per la messa.", "es": "Entramos en la iglesia para la misa." } },
+    { "id": "festa-restare", "t": "restare", "es": "quedarse", "emoji": "🏠", "pos": "v", "ex": { "t": "Mio figlio Hugo è restato in città.", "es": "Mi hijo Hugo se ha quedado en la ciudad." }, "note": "¡Ojo! No es «restar». Sinónimo: rimanere (rimasto)." },
+    { "id": "festa-venire", "t": "venire", "es": "venir", "emoji": "🚶‍♀️", "pos": "v", "ex": { "t": "Le mie amiche sono venute a trovarmi.", "es": "Mis amigas han venido a verme." } },
+    { "id": "festa-nascere", "t": "nascere", "es": "nacer", "emoji": "👶", "pos": "v", "ex": { "t": "Sono nata in un paese piccolo.", "es": "Nací en un pueblo pequeño." } },
+    { "id": "festa-paese", "t": "il paese", "es": "el pueblo", "emoji": "🏘️", "pos": "n", "ex": { "t": "A Pasqua andiamo sempre al paese.", "es": "En Semana Santa siempre vamos al pueblo." }, "note": "Il paese = el pueblo, y también el país." }
+  ],
+  "grammar": "it-g-passato-prossimo-essere",
+  "pron": {
+    "title": "Que se oiga la última vocal",
+    "tip": "En italiano la vocal final se pronuncia clara, nunca se come. Así se distingue andato (él) de andata (tú).",
+    "words": ["andato", "andata", "partito", "tornata"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "A Pasqua ___ andata al paese.", "es": "En Semana Santa fui al pueblo.", "options": ["sono", "ho", "sei"], "answer": "sono", "why": "Andare va con essere: io sono andata.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e2", "type": "choose", "q": "Mio marito è ___ giovedì mattina.", "es": "Mi marido salió el jueves por la mañana.", "options": ["partito", "partita", "partiti"], "answer": "partito", "why": "Mio marito es un hombre: partito.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e3", "type": "choose", "q": "Hai ___ la processione del Venerdì Santo?", "es": "¿Has visto la procesión del Viernes Santo?", "options": ["visto", "andato", "uscito"], "answer": "visto", "why": "Vedere algo va con avere: hai visto.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e4", "type": "fill", "q": "Mio figlio Hugo ___ rimasto in città.", "es": "Mi hijo Hugo se ha quedado en la ciudad.", "answer": ["è"], "bank": ["è", "ha", "sono"], "why": "Rimanere va con essere; lui → è.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e5", "type": "fill", "q": "Noi ___ tornati lunedì sera.", "es": "Volvimos el lunes por la noche.", "answer": ["siamo"], "bank": ["siamo", "abbiamo", "siete"], "why": "Tornare va con essere; noi → siamo.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e6", "type": "fill", "q": "Sono ___ a casa alle dieci.", "es": "He vuelto a casa a las diez.", "answer": ["tornata", "tornato", "arrivata", "arrivato"], "hint": "tornare", "why": "Tornare → tornato / tornata.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e7", "type": "fill", "q": "Le mie amiche sono ___ a trovarmi.", "es": "Mis amigas han venido a verme.", "answer": ["venute"], "hint": "venire", "why": "Venire → venuto; amiche → venute.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e8", "type": "error", "q": "Ieri ho uscito con le amiche.", "wrong": "ho", "fix": "sono", "why": "Uscire va con essere: sono uscita.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e9", "type": "error", "q": "Siamo camminato per il paese tutto il pomeriggio.", "wrong": "Siamo", "fix": "Abbiamo", "why": "Camminare no te lleva a un sitio concreto: va con avere.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e10", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Partiamo per il paese.", "answer": ["Siamo partiti per il paese.", "Siamo partite per il paese."], "why": "Partiamo → siamo partiti.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e11", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Mio marito resta a casa.", "answer": ["Mio marito è restato a casa.", "Mio marito è rimasto a casa."], "why": "Resta → è restato.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e12", "type": "order", "es": "Mis amigos llegaron el viernes.", "answer": "I miei amici sono arrivati venerdì", "alt": ["Venerdì i miei amici sono arrivati"], "extra": ["hanno"], "why": "Arrivare va con essere: sono arrivati.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "¿Has salido esta noche?", "answer": ["Sei uscita stasera?", "Sei uscito stasera?"], "why": "Uscire + essere: sei uscita / uscito.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "Sono nata in un paese piccolo.", "answer": ["Nací en un pueblo pequeño.", "He nacido en un pueblo pequeño.", "Nací en un pueblo pequeñito."], "why": "Sono nata = nací.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e15", "type": "conjugate", "verb": "arrivare", "person": "voi", "tense": "passato prossimo", "q": "A che ora ___ ieri sera?", "answer": ["siete arrivati", "siete arrivate"], "table": [["noi", "siamo arrivati/e"], ["voi", "siete arrivati/e"], ["loro", "sono arrivati/e"]], "why": "Voi → siete arrivati.", "g": "it-g-passato-prossimo-essere" },
+    { "id": "e16", "type": "situation", "context": "Tu vecina italiana te pregunta si te quedaste en casa en Semana Santa. No: fuiste a Sevilla.", "emoji": "🕯️", "options": ["No, sono andata a Siviglia.", "No, ho andato a Siviglia.", "No, vado a Siviglia ieri."], "answer": "No, sono andata a Siviglia.", "why": "Andare + essere, y eres mujer: sono andata.", "g": "it-g-passato-prossimo-essere" }
+  ],
+  "dialog": {
+    "title": "¿Qué hiciste en Semana Santa?",
+    "setting": "En el curso de italiano, Yolanda charla con su compañera Lucia",
+    "emoji": "🐣",
+    "lines": [
+      { "who": "Lucia", "t": "Ciao Yolanda! Cosa hai fatto a Pasqua?", "es": "¡Hola, Yolanda! ¿Qué hiciste en Semana Santa?" },
+      { "who": "Yolanda", "t": "Sono andata al paese con mio marito.", "es": "Fui al pueblo con mi marido." },
+      { "who": "Lucia", "t": "Quando siete partiti?", "es": "¿Cuándo salisteis?" },
+      { "who": "Yolanda", "t": "Siamo partiti giovedì e siamo tornati lunedì.", "es": "Salimos el jueves y volvimos el lunes." },
+      { "who": "Lucia", "t": "E tuo figlio Hugo è venuto?", "es": "¿Y tu hijo Hugo vino?" },
+      { "who": "Yolanda", "t": "No, è rimasto in città per lavoro.", "es": "No, se quedó en la ciudad por trabajo." },
+      { "who": "Lucia", "t": "Peccato! Siete usciti la sera?", "es": "¡Qué pena! ¿Salisteis por la noche?" },
+      { "who": "Yolanda", "t": "Sì, siamo andati alla processione. È stata bellissima!", "es": "Sí, fuimos a la procesión. ¡Fue preciosa!" }
+    ],
+    "questions": [
+      { "q": "¿Adónde fue Yolanda en Semana Santa?", "options": ["Al pueblo", "A Roma", "A la playa"], "answer": "Al pueblo" },
+      { "q": "¿Qué día volvieron?", "options": ["El lunes", "El jueves", "El domingo"], "answer": "El lunes" },
+      { "q": "¿Por qué no fue Hugo?", "options": ["Por trabajo", "Porque estaba enfermo", "Porque estaba de viaje"], "answer": "Por trabajo" }
+    ]
+  },
+  "realLife": { "t": "A Pasqua sono andata al paese e sono tornata lunedì.", "es": "En Semana Santa fui al pueblo y volví el lunes.", "context": "Para contar adónde fuiste en unas vacaciones" },
+  "same": {
+    "text": "Los verbos de ir y venir se parecen mucho a los nuestros.",
+    "examples": [
+      { "t": "arrivare", "es": "arribar, llegar" },
+      { "t": "entrare", "es": "entrar" },
+      { "t": "venire", "es": "venir" }
+    ]
+  },
+  "falseFriend": {
+    "word": "restare",
+    "means": "quedarse",
+    "looksLike": "restar (en italiano, sottrarre)",
+    "emoji": "🏠",
+    "tip": "Sono restata a casa = me he quedado en casa. Nada de matemáticas."
+  },
+  "summary": [
+    "Ir, venir, llegar, salir, volver, quedarse y nacer van con essere.",
+    "Sono andata, sei uscito, è tornato, siamo partiti, siete arrivati, sono venute.",
+    "Caminar, bailar o comer van con avere: ho camminato.",
+    "Restare = quedarse, no restar."
+  ],
+  "reviewed": false
+}

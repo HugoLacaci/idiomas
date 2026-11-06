@@ -1,0 +1,59 @@
+{
+  "id": "en-a2-u01-c3",
+  "unit": "en-a2-u01",
+  "title": "¿Conoces a mi hermano?",
+  "setting": "Estás en una fiesta en casa de Emma, en Londres. Ella te presenta a gente.",
+  "emoji": "🎉",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, do you know my brother Tom?", "es": "Yolanda, ¿conoces a mi hermano Tom?" },
+      "options": [
+        { "t": "No, I don't. Nice to meet you, Tom!", "es": "No. ¡Encantada, Tom!", "next": "n2", "ok": true },
+        { "t": "No, I'm not knowing him. Nice to meet you, Tom!", "es": "No. ¡Encantada, Tom!", "next": "n2", "ok": false, "feedback": "Know no va con -ing. La respuesta corta es: No, I don't." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "He's a chef. He's cooking for us tonight!", "es": "Es cocinero. ¡Esta noche cocina para nosotros!" },
+      "options": [
+        { "t": "Wonderful! What is he making?", "es": "¡Estupendo! ¿Qué está preparando?", "next": "n3", "ok": true },
+        { "t": "Wonderful! What does he making?", "es": "¡Estupendo! ¿Qué está preparando?", "next": "n3", "ok": false, "feedback": "Con -ing el ayudante es is: What is he making?" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Fish and chips! Do you like fish?", "es": "¡Pescado con patatas! ¿Te gusta el pescado?" },
+      "options": [
+        { "t": "Yes, I love it.", "es": "Sí, me encanta.", "next": "n4", "ok": true },
+        { "t": "Yes, I'm loving it.", "es": "Sí, me encanta.", "next": "n4", "ok": false, "feedback": "Love es un verbo de sentimiento: I love it, sin -ing." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Great. Oh, look! The music is starting. Do you want to dance?", "es": "Genial. ¡Mira! Empieza la música. ¿Quieres bailar?" },
+      "options": [
+        { "t": "Maybe later. I want a drink first.", "es": "Quizás luego. Primero quiero algo de beber.", "next": "n5", "ok": true },
+        { "t": "Maybe later. I'm wanting a drink first.", "es": "Quizás luego. Primero quiero algo de beber.", "next": "n5", "ok": false, "feedback": "Want es de estado: I want a drink." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Here you are. Sorry, it's very noisy! Do you understand me?", "es": "Toma. Perdona, ¡hay mucho ruido! ¿Me entiendes?" },
+      "options": [
+        { "t": "Yes, I understand you. Thanks!", "es": "Sí, te entiendo. ¡Gracias!", "next": "n6", "ok": true },
+        { "t": "Yes, I'm understanding you. Thanks!", "es": "Sí, te entiendo. ¡Gracias!", "next": "n6", "ok": false, "feedback": "Understand no lleva -ing: I understand you." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Good! Everyone is having fun.", "es": "¡Bien! Todo el mundo se lo está pasando bien." },
+      "options": [
+        { "t": "Yes, I'm having a great time!", "es": "¡Sí, me lo estoy pasando genial!", "next": "end", "ok": true },
+        { "t": "Yes, I have a great time!", "es": "¡Sí, me lo estoy pasando genial!", "next": "end", "ok": false, "feedback": "Es ahora, en la fiesta: I'm having a great time. (Have aquí es una acción, sí lleva -ing.)" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

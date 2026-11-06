@@ -1,0 +1,47 @@
+{
+  "id": "en-a1-u02-c2",
+  "unit": "en-a1-u02",
+  "title": "¿Tienes hermanos?",
+  "setting": "Paseando por Hyde Park, Emma te pregunta por tu familia",
+  "emoji": "👨‍👩‍👧‍👦",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "Have you got any brothers or sisters?", "es": "¿Tienes hermanos?" },
+      "options": [
+        { "t": "Yes, I've got two sisters.", "es": "Sí, tengo dos hermanas.", "next": "n2a", "ok": true },
+        { "t": "No, I haven't. I'm an only child.", "es": "No. Soy hija única.", "next": "n2b", "ok": true },
+        { "t": "Yes, I have got two sister.", "es": "(Sí, tengo dos hermana.)", "next": "n2a", "ok": false, "feedback": "Con dos, el nombre va en plural: two sisters." }
+      ] },
+    { "id": "n2a", "says": { "t": "Two sisters! Are they older or younger?", "es": "¡Dos hermanas! ¿Son mayores o pequeñas?" },
+      "options": [
+        { "t": "Rosa is older. Pilar is younger.", "es": "Rosa es mayor. Pilar es la pequeña.", "next": "n3", "ok": true },
+        { "t": "Rosa is more old.", "es": "(Rosa es más vieja.)", "next": "n3", "ok": false, "feedback": "Mayor que = older. Nunca «more old»." }
+      ] },
+    { "id": "n2b", "says": { "t": "An only child! My mum's an only child too.", "es": "¡Hija única! Mi madre también es hija única." },
+      "options": [
+        { "t": "Really? And have you got brothers?", "es": "¿De verdad? ¿Y tú tienes hermanos?", "next": "n3", "ok": true },
+        { "t": "Really? And has you got brothers?", "es": "(¿De verdad? ¿Y tiene tú hermanos?)", "next": "n3", "ok": false, "feedback": "Con you va have: Have you got…?" }
+      ] },
+    { "id": "n3", "says": { "t": "I've got one brother, Mark. His wife is Spanish!", "es": "Tengo un hermano, Mark. ¡Su mujer es española!" },
+      "options": [
+        { "t": "Really? Where is she from?", "es": "¿De verdad? ¿De dónde es?", "next": "n4", "ok": true },
+        { "t": "Really? Where is he from?", "es": "¿De verdad? ¿De dónde es él?", "next": "n4", "ok": false, "feedback": "Hablamos de la mujer de Mark: she." }
+      ] },
+    { "id": "n4", "says": { "t": "From Málaga! Their kids speak Spanish and English.", "es": "¡De Málaga! Sus hijos hablan español e inglés." },
+      "options": [
+        { "t": "How lovely! Their kids are lucky.", "es": "¡Qué bien! Sus hijos tienen suerte.", "next": "n5", "ok": true },
+        { "t": "How lovely! They're kids are lucky.", "es": "(¡Qué bien! Ellos son hijos tienen suerte.)", "next": "n5", "ok": false, "feedback": "«Sus» (de ellos) se escribe their. They're = they are." }
+      ] },
+    { "id": "n5", "says": { "t": "Yes! And my mum's house is always full of kids.", "es": "¡Sí! Y la casa de mi madre siempre está llena de niños." },
+      "options": [
+        { "t": "My house is the same with my grandchildren!", "es": "¡Mi casa igual, con mis nietos!", "next": "n6", "ok": true },
+        { "t": "My house is the same with mine grandchildren!", "es": "(¡Mi casa igual, con míos nietos!)", "next": "n6", "ok": false, "feedback": "Delante de un nombre va my: my grandchildren." }
+      ] },
+    { "id": "n6", "says": { "t": "Ha ha! Big families are fun. See you tomorrow?", "es": "¡Ja, ja! Las familias grandes son divertidas. ¿Nos vemos mañana?" },
+      "options": [
+        { "t": "Yes! See you tomorrow, Emma.", "es": "¡Sí! Hasta mañana, Emma.", "next": "end", "ok": true },
+        { "t": "Yes! See you yesterday, Emma.", "es": "(¡Sí! Hasta ayer, Emma.)", "next": "end", "ok": false, "feedback": "Yesterday es «ayer». Mañana = tomorrow." }
+      ] }
+  ],
+  "reviewed": false
+}

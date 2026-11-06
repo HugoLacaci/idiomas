@@ -1,0 +1,89 @@
+{
+  "id": "it-a2-u08-l1",
+  "unit": "it-a2-u08",
+  "title": "Mi fa male la testa",
+  "goal": "a nombrar partes del cuerpo y decir qué te duele o qué te pasa",
+  "emoji": "🤒",
+  "photoQuery": "italian pharmacy green cross sign",
+  "vocab": [
+    { "id": "salute-la-testa", "t": "la testa", "es": "la cabeza", "emoji": "🧠", "pos": "n", "ex": { "t": "Stasera mi fa male la testa.", "es": "Esta noche me duele la cabeza." } },
+    { "id": "salute-la-gola", "t": "la gola", "es": "la garganta", "emoji": "🗣️", "pos": "n", "ex": { "t": "Ho mal di gola da due giorni.", "es": "Me duele la garganta desde hace dos días." } },
+    { "id": "salute-la-pancia", "t": "la pancia", "es": "la tripa, la barriga", "emoji": "😣", "pos": "n", "ex": { "t": "Mio marito ha mal di pancia.", "es": "A mi marido le duele la tripa." }, "note": "Más formal: lo stomaco (el estómago)." },
+    { "id": "salute-la-schiena", "t": "la schiena", "es": "la espalda", "emoji": "🧍‍♀️", "pos": "n", "ex": { "t": "Dopo il viaggio mi fa male la schiena.", "es": "Después del viaje me duele la espalda." } },
+    { "id": "salute-il-piede", "t": "il piede / i piedi", "es": "el pie / los pies", "emoji": "🦶", "pos": "n", "ex": { "t": "Abbiamo camminato tanto: mi fanno male i piedi.", "es": "Hemos andado mucho: me duelen los pies." } },
+    { "id": "salute-la-febbre", "t": "la febbre", "es": "la fiebre", "emoji": "🌡️", "pos": "n", "ex": { "t": "Mio figlio Hugo ha un po' di febbre.", "es": "Mi hijo Hugo tiene un poco de fiebre." } },
+    { "id": "salute-la-tosse", "t": "la tosse", "es": "la tos", "emoji": "😷", "pos": "n", "ex": { "t": "Ho la tosse e non dormo bene.", "es": "Tengo tos y no duermo bien." } },
+    { "id": "salute-il-raffreddore", "t": "il raffreddore", "es": "el resfriado", "emoji": "🤧", "pos": "n", "ex": { "t": "Ho preso il raffreddore in treno.", "es": "He cogido un resfriado en el tren." }, "note": "Estar resfriada = essere raffreddata." },
+    { "id": "salute-mi-fa-male", "t": "mi fa male… / mi fanno male…", "es": "me duele… / me duelen…", "emoji": "🤕", "pos": "phrase", "ex": { "t": "Mi fa male un dente.", "es": "Me duele una muela." }, "note": "Como mi piace: fa con una cosa, fanno con varias." },
+    { "id": "salute-come-ti-senti", "t": "Come ti senti?", "es": "¿Cómo te encuentras?", "emoji": "❓", "pos": "phrase", "ex": { "t": "Come ti senti oggi? Meglio?", "es": "¿Cómo te encuentras hoy? ¿Mejor?" } }
+  ],
+  "grammar": "it-g-mi-piace",
+  "pron": {
+    "title": "Las dobles de febbre y tosse",
+    "tip": "La consonante doble se sostiene un instante: feb-bre, tos-se. Si no la alargas, suena raro o cambia la palabra.",
+    "words": ["febbre", "tosse", "raffreddore", "pancia", "schiena"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Mi ___ male la testa.", "es": "Me duele la cabeza.", "options": ["fa", "fanno", "faccio"], "answer": "fa", "why": "La testa es una sola cosa: mi fa male, como mi piace.", "g": "it-g-mi-piace" },
+    { "id": "e2", "type": "choose", "q": "Mi ___ male i piedi.", "es": "Me duelen los pies.", "options": ["fanno", "fa", "fai"], "answer": "fanno", "why": "I piedi son varios: mi fanno male, como mi piacciono.", "g": "it-g-mi-piace" },
+    { "id": "e3", "type": "choose", "q": "A mio marito ___ fa male la schiena.", "es": "A mi marido le duele la espalda.", "options": ["gli", "le", "mi"], "answer": "gli", "why": "A él → gli: gli fa male.", "g": "it-g-mi-piace" },
+    { "id": "e4", "type": "fill", "q": "Ho mal di ___ e non riesco a parlare.", "es": "Me duele la garganta y no puedo hablar.", "answer": ["gola"], "bank": ["gola", "piedi", "schiena"], "why": "Para hablar usas la garganta: mal di gola.", "g": "it-g-mi-piace" },
+    { "id": "e5", "type": "fill", "q": "Hugo ha la ___ a trentotto.", "es": "Hugo tiene la fiebre a treinta y ocho.", "answer": ["febbre"], "hint": "fiebre", "why": "La fiebre = la febbre, con doble b.", "g": "it-g-mi-piace" },
+    { "id": "e6", "type": "fill", "q": "Alla mia amica ___ fanno male le gambe.", "es": "A mi amiga le duelen las piernas.", "answer": ["le"], "bank": ["le", "gli", "ti"], "why": "A ella → le: le fanno male.", "g": "it-g-mi-piace" },
+    { "id": "e7", "type": "error", "q": "Mi fanno male la testa.", "wrong": "fanno", "fix": "fa", "why": "La testa es singular: mi fa male.", "g": "it-g-mi-piace" },
+    { "id": "e8", "type": "error", "q": "Io ho dolore la schiena.", "wrong": "dolore", "fix": "male", "why": "Lo natural es «mi fa male la schiena» o «ho mal di schiena».", "g": "it-g-mi-piace" },
+    { "id": "e9", "type": "order", "es": "Me duele la tripa desde esta mañana.", "answer": "Mi fa male la pancia da stamattina", "extra": ["fanno"], "why": "Mi + fa male + la cosa que duele.", "g": "it-g-mi-piace" },
+    { "id": "e10", "type": "translate", "dir": "to", "q": "Tengo tos y un poco de fiebre.", "answer": ["Ho la tosse e un po' di febbre.", "Ho tosse e un po' di febbre."], "why": "Tener tos = avere la tosse.", "g": "it-g-mi-piace" },
+    { "id": "e11", "type": "translate", "dir": "from", "q": "Come ti senti oggi?", "answer": ["¿Cómo te encuentras hoy?", "¿Cómo te sientes hoy?", "¿Qué tal estás hoy?"], "why": "Sentirsi = encontrarse, sentirse.", "g": "it-g-riflessivi" },
+    { "id": "e12", "type": "situation", "context": "Has andado todo el día por Roma y por la noche te duelen los pies.", "emoji": "🦶", "options": ["Mi fanno male i piedi.", "Mi fa male i piedi.", "Ho male i piedi."], "answer": "Mi fanno male i piedi.", "why": "Varios pies → mi fanno male.", "g": "it-g-mi-piace" },
+    { "id": "e13", "type": "match", "pairs": [["la testa", "la cabeza"], ["la gola", "la garganta"], ["la schiena", "la espalda"], ["la pancia", "la tripa"], ["il raffreddore", "el resfriado"]], "why": "Partes del cuerpo y males frecuentes." },
+    { "id": "e14", "type": "reading", "kind": "message", "title": "WhatsApp de una amiga", "text": "Ciao Yolanda! Oggi non vengo a camminare. Ho il raffreddore e mi fa male la gola. Niente febbre, per fortuna. Ci vediamo giovedì? Un bacio, Carla", "questions": [
+      { "q": "¿Por qué no va Carla a caminar?", "options": ["Está resfriada", "Tiene mucho trabajo", "Le duelen los pies"], "answer": "Está resfriada" },
+      { "q": "¿Tiene fiebre?", "options": ["No", "Sí, mucha", "Un poco"], "answer": "No" },
+      { "q": "¿Cuándo propone verse?", "options": ["El jueves", "Mañana", "El domingo"], "answer": "El jueves" }
+    ] }
+  ],
+  "dialog": {
+    "title": "Una mañana regular",
+    "setting": "Yolanda llama a su amiga italiana Paola por teléfono",
+    "emoji": "📞",
+    "lines": [
+      { "who": "Paola", "t": "Pronto, Yolanda? Hai una voce strana!", "es": "¿Diga, Yolanda? ¡Tienes una voz rara!" },
+      { "who": "Yolanda", "t": "Sì, ho il raffreddore e mi fa male la gola.", "es": "Sí, estoy resfriada y me duele la garganta." },
+      { "who": "Paola", "t": "Poverina! Hai anche la febbre?", "es": "¡Pobrecita! ¿Tienes también fiebre?" },
+      { "who": "Yolanda", "t": "Un po'. E mi fa male la testa.", "es": "Un poco. Y me duele la cabeza." },
+      { "who": "Paola", "t": "E come ti senti adesso?", "es": "¿Y cómo te encuentras ahora?" },
+      { "who": "Yolanda", "t": "Stanca, ma meglio di ieri.", "es": "Cansada, pero mejor que ayer." },
+      { "who": "Paola", "t": "Allora oggi resta a casa, eh!", "es": "Pues hoy quédate en casa, ¿eh?" },
+      { "who": "Yolanda", "t": "Sì, sì. Ci sentiamo domani.", "es": "Sí, sí. Hablamos mañana." }
+    ],
+    "questions": [
+      { "q": "¿Qué le pasa a Yolanda?", "options": ["Está resfriada", "Se ha roto un pie", "Le duele la espalda"], "answer": "Está resfriada" },
+      { "q": "¿Cómo se encuentra hoy?", "options": ["Mejor que ayer", "Peor que ayer", "Perfectamente"], "answer": "Mejor que ayer" },
+      { "q": "¿Qué le aconseja Paola?", "options": ["Quedarse en casa", "Ir al médico", "Salir a pasear"], "answer": "Quedarse en casa" }
+    ]
+  },
+  "realLife": { "t": "Non mi sento bene: mi fa male la testa.", "es": "No me encuentro bien: me duele la cabeza.", "context": "Para explicar cómo estás si te pones mala de viaje" },
+  "same": {
+    "text": "Muchas palabras de la salud son casi iguales que en español.",
+    "examples": [
+      { "t": "la febbre", "es": "la fiebre" },
+      { "t": "la tosse", "es": "la tos" },
+      { "t": "il dottore", "es": "el doctor" }
+    ]
+  },
+  "falseFriend": {
+    "word": "costipato / costipata",
+    "means": "estreñido / estreñida",
+    "looksLike": "constipado (en italiano, raffreddato)",
+    "emoji": "🤧",
+    "tip": "Si tienes mocos di «sono raffreddata». «Sono costipata» habla de otra cosa… ¡del baño!"
+  },
+  "summary": [
+    "Partes del cuerpo: la testa, la gola, la pancia, la schiena, i piedi.",
+    "Me duele = mi fa male; me duelen = mi fanno male (como mi piace).",
+    "Ho la febbre, ho la tosse, ho il raffreddore.",
+    "Constipada = raffreddata; costipata es «estreñida»."
+  ],
+  "reviewed": false
+}

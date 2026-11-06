@@ -1,0 +1,94 @@
+{
+  "id": "it-a1-u08-l5",
+  "unit": "it-a1-u08",
+  "title": "Reto: de Calabria a Sicilia en tren",
+  "goal": "a organizar un viaje en tren de principio a fin, del billete al último andén",
+  "emoji": "⛴️",
+  "photoQuery": "ferry strait sea sicily coast",
+  "vocab": [
+    { "id": "treno-la-carrozza", "t": "la carrozza", "es": "el vagón, el coche", "emoji": "🚃", "pos": "n", "note": "¡Ojo! No es una carroza: en el billete, carrozza 5 = coche 5.", "ex": { "t": "Carrozza 5, posto 12.", "es": "Coche 5, asiento 12." } },
+    { "id": "treno-il-traghetto", "t": "il traghetto", "es": "el ferry, el transbordador", "emoji": "⛴️", "pos": "n", "ex": { "t": "Il treno sale sul traghetto!", "es": "¡El tren se sube al ferry!" } },
+    { "id": "treno-lo-stretto", "t": "lo stretto", "es": "el estrecho", "emoji": "🌊", "pos": "n", "ex": { "t": "Lo stretto di Messina è bellissimo.", "es": "El estrecho de Mesina es precioso." } },
+    { "id": "treno-partenze-arrivi", "t": "partenze / arrivi", "es": "salidas / llegadas", "emoji": "🪧", "pos": "phrase", "ex": { "t": "Il tabellone delle partenze è lì.", "es": "El panel de salidas está allí." } },
+    { "id": "treno-cancellato", "t": "cancellato", "es": "cancelado", "emoji": "❌", "pos": "adj", "ex": { "t": "Il treno delle sei è cancellato.", "es": "El tren de las seis está cancelado." } },
+    { "id": "treno-il-bagaglio", "t": "il bagaglio", "es": "el equipaje", "emoji": "🎒", "pos": "n", "ex": { "t": "Ho poco bagaglio.", "es": "Llevo poco equipaje." } },
+    { "id": "treno-la-sala-d-attesa", "t": "la sala d'attesa", "es": "la sala de espera", "emoji": "🪑", "pos": "n", "ex": { "t": "Aspetto nella sala d'attesa.", "es": "Espero en la sala de espera." } },
+    { "id": "treno-cambiare-treno", "t": "cambiare treno", "es": "hacer transbordo", "emoji": "🔄", "pos": "phrase", "ex": { "t": "Cambio treno a Napoli.", "es": "Hago transbordo en Nápoles." } }
+  ],
+  "grammar": "it-g-andare-a-in",
+  "pron": {
+    "title": "Preguntar sin cambiar el orden",
+    "tip": "En italiano, como en español, la pregunta no cambia las palabras: solo sube el tono al final. Il treno è in ritardo. → Il treno è in ritardo?",
+    "words": ["È in ritardo?", "Parte adesso?", "Scendi qui?", "Cambio treno?"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "ticket", "title": "Tu billete", "text": "BIGLIETTO\nRoma Termini → Messina Centrale\nSolo andata · 1 adulto\nCarrozza 7 · Posto 24\nPrezzo: 50,00 €", "questions": [
+      { "q": "¿Es de ida y vuelta?", "options": ["No, solo de ida", "Sí, de ida y vuelta"], "answer": "No, solo de ida" },
+      { "q": "¿En qué coche va Yolanda?", "options": ["En el 7", "En el 24", "En el 50"], "answer": "En el 7" },
+      { "q": "¿Cuántos pasajeros viajan?", "options": ["Uno", "Dos", "Siete"], "answer": "Uno" }
+    ], "why": "Carrozza es el coche; posto, el asiento." },
+    { "id": "e2", "type": "reading", "kind": "message", "title": "Mensaje de Carla", "text": "Ciao Yolanda! Il treno per Messina è in ritardo di 30 minuti. Io vengo in stazione in autobus. Ci vediamo nella sala d'attesa alle 10!", "questions": [
+      { "q": "¿Qué pasa con el tren?", "options": ["Lleva 30 minutos de retraso", "Está cancelado", "Sale antes"], "answer": "Lleva 30 minutos de retraso" },
+      { "q": "¿Cómo va Carla a la estación?", "options": ["En autobús", "Andando", "En coche"], "answer": "En autobús" },
+      { "q": "¿Dónde quedan?", "options": ["En la sala de espera", "En el andén", "En el bar"], "answer": "En la sala de espera" }
+    ], "why": "Ci vediamo = nos vemos." },
+    { "id": "e3", "type": "situation", "context": "En la taquilla quieres un billete solo de ida a Mesina.", "emoji": "🎫", "options": ["Solo andata per Messina, per favore.", "Andata e ritorno per Messina, per favore.", "Scendo a Messina, per favore."], "answer": "Solo andata per Messina, per favore.", "why": "Solo ida = solo andata." },
+    { "id": "e4", "type": "situation", "context": "Te has sentado en el coche 3, pero tu asiento está en el 7. El revisor te lo dice.", "emoji": "🚃", "options": ["Scusi! Vado nella carrozza 7.", "Scusi! Esco dalla carrozza 7.", "Scusi! Scendo dal treno."], "answer": "Scusi! Vado nella carrozza 7.", "why": "Te disculpas y vas al coche correcto: vado nella carrozza 7.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e5", "type": "choose", "q": "Per andare in Sicilia, il treno sale sul ___.", "es": "Para ir a Sicilia, el tren sube al ferry.", "options": ["traghetto", "binario", "bagaglio"], "answer": "traghetto", "why": "El ferry es il traghetto." },
+    { "id": "e6", "type": "choose", "q": "Domani ___ a Palermo con mio figlio.", "es": "Mañana voy a Palermo con mi hijo.", "options": ["vado", "vai", "vanno"], "answer": "vado", "why": "Io → vado.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e7", "type": "fill", "q": "Andiamo ___ Sicilia in treno.", "es": "Vamos a Sicilia en tren.", "answer": ["in"], "bank": ["in", "a", "da"], "why": "Región o isla grande → in Sicilia.", "g": "it-g-andare-a-in" },
+    { "id": "e8", "type": "fill", "q": "Il treno delle sei è ___: c'è sciopero.", "es": "El tren de las seis está cancelado: hay huelga.", "answer": ["cancellato"], "why": "Cancelado = cancellato, con doble l." },
+    { "id": "e9", "type": "conjugate", "verb": "venire", "person": "tu", "tense": "presente", "q": "___ con me a Messina?", "answer": ["Vieni"], "why": "Tu → vieni.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e10", "type": "conjugate", "verb": "uscire", "person": "noi", "tense": "presente", "q": "A che ora ___ domani?", "answer": ["usciamo"], "why": "Noi → usciamo: con noi vuelve la u.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e11", "type": "error", "q": "Mio figlio vengono in Sicilia con me.", "wrong": "vengono", "fix": "viene", "why": "Mio figlio es lui: viene.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Salimos de casa a las siete.", "answer": ["Usciamo di casa alle sette.", "Noi usciamo di casa alle sette."], "why": "Salir = uscire (¡no salire!): usciamo di casa.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e13", "type": "order", "es": "Hago transbordo en Nápoles.", "answer": "Cambio treno a Napoli", "extra": ["in"], "why": "Cambiare treno = hacer transbordo; a + ciudad.", "g": "it-g-andare-a-in" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "Il treno arriva in orario.", "answer": ["El tren llega puntual.", "El tren llega a su hora.", "El tren llega a tiempo."], "why": "In orario = puntual, a su hora." },
+    { "id": "e15", "type": "speak", "t": "Vado in Sicilia in treno!", "es": "¡Voy a Sicilia en tren!" }
+  ],
+  "dialog": {
+    "title": "Cruzando el estrecho",
+    "setting": "En el tren que cruza el estrecho de Mesina dentro de un ferry",
+    "emoji": "⛴️",
+    "lines": [
+      { "who": "Nino", "t": "Biglietti, prego.", "es": "Billetes, por favor." },
+      { "who": "Yolanda", "t": "Ecco il mio biglietto. Adesso il treno sale sul traghetto?", "es": "Aquí tiene mi billete. ¿Ahora el tren sube al ferry?" },
+      { "who": "Nino", "t": "Sì, signora. Il treno va sul traghetto e attraversa lo stretto.", "es": "Sí, señora. El tren va en el ferry y cruza el estrecho." },
+      { "who": "Yolanda", "t": "Che emozione! Quando arriviamo a Messina?", "es": "¡Qué emoción! ¿Cuándo llegamos a Mesina?" },
+      { "who": "Nino", "t": "Tra mezz'ora, più o meno.", "es": "Dentro de media hora, más o menos." },
+      { "who": "Yolanda", "t": "E poi vado a Palermo. Cambio treno a Messina?", "es": "Y luego voy a Palermo. ¿Hago transbordo en Mesina?" },
+      { "who": "Nino", "t": "No, signora: questo treno va a Palermo.", "es": "No, señora: este tren va a Palermo." },
+      { "who": "Yolanda", "t": "Perfetto, grazie mille!", "es": "¡Perfecto, muchísimas gracias!" },
+      { "who": "Nino", "t": "Prego, buon viaggio!", "es": "De nada, ¡buen viaje!" }
+    ],
+    "questions": [
+      { "q": "¿Qué hace el tren ahora?", "options": ["Sube a un ferry", "Para en Roma", "Va con retraso"], "answer": "Sube a un ferry" },
+      { "q": "¿Adónde va Yolanda al final?", "options": ["A Palermo", "A Mesina", "A Nápoles"], "answer": "A Palermo" },
+      { "q": "¿Tiene que cambiar de tren?", "options": ["No", "Sí, en Mesina", "Sí, en Palermo"], "answer": "No" }
+    ]
+  },
+  "realLife": { "t": "Questo treno va a Palermo?", "es": "¿Este tren va a Palermo?", "context": "En el andén, para asegurarte de que subes al tren correcto" },
+  "same": {
+    "text": "Igual que en español: estas palabras casi no cambian.",
+    "examples": [
+      { "t": "lo stretto", "es": "el estrecho" },
+      { "t": "cancellato", "es": "cancelado" },
+      { "t": "la Sicilia", "es": "Sicilia" }
+    ]
+  },
+  "falseFriend": {
+    "word": "la carrozza",
+    "means": "el vagón, el coche del tren",
+    "looksLike": "la carroza",
+    "emoji": "🚃",
+    "tip": "En tu billete, carrozza 7 es el coche 7. Nada de princesas: es el vagón donde está tu asiento."
+  },
+  "summary": [
+    "Leer el billete: carrozza (coche) y posto (asiento)",
+    "Cambiare treno = hacer transbordo",
+    "Cancellato, in ritardo, in orario",
+    "Repaso: vado, vieni, usciamo; a Roma, in Sicilia",
+    "La pregunta solo sube el tono: Parte adesso?"
+  ],
+  "reviewed": false
+}

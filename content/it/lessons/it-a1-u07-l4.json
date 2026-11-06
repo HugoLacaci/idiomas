@@ -1,0 +1,438 @@
+{
+  "id": "it-a1-u07-l4",
+  "unit": "it-a1-u07",
+  "title": "Che cosa bevi?",
+  "goal": "a usar cuatro verbos irregulares de la mesa: fare, stare, dare y bere",
+  "emoji": "🍷",
+  "photoQuery": "glasses red wine dinner toast",
+  "vocab": [
+    {
+      "id": "rist-bere",
+      "t": "bere",
+      "es": "beber",
+      "emoji": "🥤",
+      "pos": "v",
+      "ex": {
+        "t": "Che cosa bevi?",
+        "es": "¿Qué bebes?"
+      }
+    },
+    {
+      "id": "rist-il-vino-rosso",
+      "t": "il vino rosso",
+      "es": "el vino tinto",
+      "emoji": "🍷",
+      "pos": "n",
+      "note": "Tinto en italiano es rosso: un rosso, un bianco.",
+      "ex": {
+        "t": "Beviamo un bicchiere di vino rosso.",
+        "es": "Bebemos una copa de vino tinto."
+      }
+    },
+    {
+      "id": "rist-la-birra",
+      "t": "la birra",
+      "es": "la cerveza",
+      "emoji": "🍺",
+      "pos": "n",
+      "ex": {
+        "t": "Mio figlio beve una birra.",
+        "es": "Mi hijo bebe una cerveza."
+      }
+    },
+    {
+      "id": "rist-una-bottiglia-d-acqua",
+      "t": "una bottiglia d'acqua",
+      "es": "una botella de agua",
+      "emoji": "💧",
+      "pos": "phrase",
+      "ex": {
+        "t": "Una bottiglia d'acqua frizzante, grazie.",
+        "es": "Una botella de agua con gas, gracias."
+      }
+    },
+    {
+      "id": "rist-fare-colazione",
+      "t": "fare colazione",
+      "es": "desayunar",
+      "emoji": "☕",
+      "pos": "phrase",
+      "ex": {
+        "t": "Faccio colazione al bar.",
+        "es": "Desayuno en el bar."
+      }
+    },
+    {
+      "id": "rist-sto-bene",
+      "t": "Sto bene, grazie.",
+      "es": "Estoy bien, gracias.",
+      "emoji": "😊",
+      "pos": "phrase",
+      "ex": {
+        "t": "Come stai? Sto bene, grazie.",
+        "es": "¿Cómo estás? Estoy bien, gracias."
+      }
+    },
+    {
+      "id": "rist-mi-da-il-conto",
+      "t": "Mi dà il conto?",
+      "es": "¿Me da la cuenta?",
+      "emoji": "🧾",
+      "pos": "phrase",
+      "note": "Dà (da, verbo dare) lleva tilde; da sin tilde es «desde, en casa de».",
+      "ex": {
+        "t": "Scusi, mi dà il conto, per favore?",
+        "es": "Perdone, ¿me da la cuenta, por favor?"
+      }
+    },
+    {
+      "id": "rist-cin-cin",
+      "t": "Cin cin!",
+      "es": "¡Chinchín! ¡Salud!",
+      "emoji": "🥂",
+      "pos": "phrase",
+      "ex": {
+        "t": "Alla nostra! Cin cin!",
+        "es": "¡Por nosotras! ¡Chinchín!"
+      }
+    },
+    {
+      "id": "rist-fa-caldo",
+      "t": "Fa caldo.",
+      "es": "Hace calor.",
+      "emoji": "🥵",
+      "pos": "phrase",
+      "ex": {
+        "t": "Fa caldo: beviamo qualcosa di fresco.",
+        "es": "Hace calor: bebamos algo fresquito."
+      }
+    }
+  ],
+  "grammar": "it-g-irregolari-fare-stare",
+  "pron": {
+    "title": "Pesce o pesche",
+    "tip": "Sce suena «she»: pesce (pescado) = «péshe». Sche suena «ske»: pesche (melocotones) = «péske». ¡No pidas melocotón a la plancha!",
+    "words": [
+      "pesce",
+      "pesche",
+      "scena",
+      "schiena"
+    ],
+    "pairs": [
+      [
+        "pesce",
+        "pesche"
+      ],
+      [
+        "scena",
+        "schiena"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "conjugate",
+      "verb": "bere",
+      "person": "tu",
+      "tense": "presente",
+      "q": "Che cosa ___ stasera?",
+      "es": "¿Qué bebes esta noche?",
+      "answer": [
+        "bevi"
+      ],
+      "why": "Bere usa la raíz bev-: tu bevi.",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e2",
+      "type": "conjugate",
+      "verb": "fare",
+      "person": "io",
+      "tense": "presente",
+      "q": "Io ___ colazione alle otto.",
+      "answer": [
+        "faccio"
+      ],
+      "why": "Fare: io faccio (con doble c).",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e3",
+      "type": "conjugate",
+      "verb": "stare",
+      "person": "Lei",
+      "tense": "presente",
+      "q": "Buongiorno, signora, come ___?",
+      "answer": [
+        "sta"
+      ],
+      "why": "De usted (Lei) usamos la tercera persona: come sta?",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Scusi, mi ___ il conto?",
+      "es": "Perdone, ¿me da la cuenta?",
+      "options": [
+        "dà",
+        "da",
+        "dai"
+      ],
+      "answer": "dà",
+      "why": "Del verbo dare, con usted: dà, con tilde.",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "Noi ___ vino bianco.",
+      "options": [
+        "beviamo",
+        "beriamo",
+        "bevemo"
+      ],
+      "answer": "beviamo",
+      "why": "Bere → bev- + iamo: beviamo.",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Oggi ___ caldo.",
+      "es": "Hoy hace calor.",
+      "answer": [
+        "fa"
+      ],
+      "bank": [
+        "fa",
+        "è",
+        "sta"
+      ],
+      "why": "El tiempo se dice con fare: fa caldo, fa freddo.",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Grazie, ___ benissimo!",
+      "es": "¡Gracias, estoy estupendamente!",
+      "answer": [
+        "sto"
+      ],
+      "bank": [
+        "sto",
+        "sono",
+        "stai"
+      ],
+      "why": "Para «estoy bien»: sto bene.",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Io bero solo acqua.",
+      "wrong": "bero",
+      "fix": "bevo",
+      "why": "Bere se conjuga con bev-: io bevo.",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Io fago colazione a casa.",
+      "wrong": "fago",
+      "fix": "faccio",
+      "why": "Fare: io faccio, no «fago» como «hago».",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "¿Qué bebéis vosotras?",
+      "answer": "Che cosa bevete voi",
+      "extra": [
+        "bevi"
+      ],
+      "why": "Con voi: bevete.",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Cómo estás? Estoy bien.",
+      "answer": [
+        "Come stai? Sto bene.",
+        "Come stai? Sto bene, grazie."
+      ],
+      "why": "Para el estado de ánimo o de salud usamos stare.",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e12",
+      "type": "match",
+      "pairs": [
+        [
+          "io faccio",
+          "yo hago"
+        ],
+        [
+          "io sto",
+          "yo estoy"
+        ],
+        [
+          "io do",
+          "yo doy"
+        ],
+        [
+          "io bevo",
+          "yo bebo"
+        ]
+      ],
+      "why": "La forma de io de los cuatro verbos.",
+      "g": "it-g-irregolari-fare-stare"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Brindas con tus amigas en la cena. ¿Qué dices?",
+      "emoji": "🥂",
+      "options": [
+        "Cin cin!",
+        "Buon viaggio!",
+        "Mi dà il conto?"
+      ],
+      "answer": "Cin cin!",
+      "why": "Para brindar: Cin cin! o Salute!"
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "pesce",
+        "pesche"
+      ],
+      "answer": "pesce",
+      "es": [
+        "pescado",
+        "melocotones"
+      ],
+      "why": "Pesce suena «péshe»; pesche suena «péske»."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Che cosa bevi? Io bevo un bicchiere di vino rosso.",
+      "es": "¿Qué bebes? Yo bebo una copa de vino tinto."
+    }
+  ],
+  "dialog": {
+    "title": "Cena con amigas",
+    "setting": "En una terraza de Lecce, con una amiga, una noche de verano",
+    "emoji": "🍷",
+    "lines": [
+      {
+        "who": "Cameriere",
+        "t": "Buonasera, signore! Che cosa bevete?",
+        "es": "¡Buenas noches, señoras! ¿Qué beben?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Io bevo un bicchiere di vino rosso.",
+        "es": "Yo bebo una copa de vino tinto."
+      },
+      {
+        "who": "Amica",
+        "t": "Io sto a dieta: acqua frizzante, per favore.",
+        "es": "Yo estoy a dieta: agua con gas, por favor."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Ma dai! Siamo in vacanza!",
+        "es": "¡Anda ya! ¡Estamos de vacaciones!"
+      },
+      {
+        "who": "Amica",
+        "t": "Va bene, una birra piccola.",
+        "es": "Vale, una cerveza pequeña."
+      },
+      {
+        "who": "Cameriere",
+        "t": "Perfetto. Fa caldo stasera, eh?",
+        "es": "Perfecto. Hace calor esta noche, ¿eh?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì! Ma qui si sta benissimo.",
+        "es": "¡Sí! Pero aquí se está de maravilla."
+      },
+      {
+        "who": "Amica",
+        "t": "Alla nostra! Cin cin!",
+        "es": "¡Por nosotras! ¡Chinchín!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué bebe Yolanda?",
+        "options": [
+          "Vino tinto",
+          "Cerveza",
+          "Agua con gas"
+        ],
+        "answer": "Vino tinto"
+      },
+      {
+        "q": "¿Qué pide la amiga al final?",
+        "options": [
+          "Una cerveza pequeña",
+          "Agua con gas",
+          "Vino blanco"
+        ],
+        "answer": "Una cerveza pequeña"
+      },
+      {
+        "q": "¿Qué tiempo hace?",
+        "options": [
+          "Hace calor",
+          "Hace frío",
+          "Llueve"
+        ],
+        "answer": "Hace calor"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Scusi, mi dà il conto, per favore?",
+    "es": "Perdone, ¿me da la cuenta, por favor?",
+    "context": "Para pedir la cuenta con educación al final de la comida"
+  },
+  "same": {
+    "text": "Estos verbos se parecen mucho a los nuestros: solo hay que aprender sus formas irregulares.",
+    "examples": [
+      {
+        "t": "bere",
+        "es": "beber"
+      },
+      {
+        "t": "dare",
+        "es": "dar"
+      },
+      {
+        "t": "stare",
+        "es": "estar"
+      }
+    ]
+  },
+  "summary": [
+    "Fare: faccio, fai, fa… (fa caldo, fare colazione).",
+    "Stare: sto, stai, sta… (come stai? sto bene).",
+    "Dare: do, dai, dà… (mi dà il conto?).",
+    "Bere: bevo, bevi, beve… (che cosa bevi?).",
+    "Pesce (pescado) suena «péshe»; pesche (melocotones), «péske»."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u07-l4"
+}

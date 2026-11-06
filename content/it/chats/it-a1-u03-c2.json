@@ -1,0 +1,64 @@
+{
+  "id": "it-a1-u03-c2",
+  "unit": "it-a1-u03",
+  "title": "¿Quedamos mañana?",
+  "setting": "Por WhatsApp: Giulia y Yolanda quedan para pasear por Roma",
+  "emoji": "📱",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao! Domani sei libera?", "es": "¡Hola! ¿Mañana estás libre?" },
+      "options": [
+        { "t": "Sì! Domani è sabato, sono libera.", "es": "¡Sí! Mañana es sábado, estoy libre.", "next": "n2", "ok": true },
+        { "t": "Sì! Domani ho libera.", "es": "¡Sí! Mañana tengo libre.", "next": "n1", "ok": false, "feedback": "Libre se dice con essere: sono libera (estoy libre)." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Benissimo! Ci vediamo alle nove?", "es": "¡Estupendo! ¿Nos vemos a las nueve?" },
+      "options": [
+        { "t": "Alle nove è presto per me. Alle dieci?", "es": "A las nueve es temprano para mí. ¿A las diez?", "next": "n3", "ok": true },
+        { "t": "Alle nove è subito per me. Alle dieci?", "es": "A las nueve es enseguida para mí. ¿A las diez?", "next": "n2", "ok": false, "feedback": "Subito es «enseguida». Temprano se dice presto." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Va bene, alle dieci. Dove ci vediamo?", "es": "Vale, a las diez. ¿Dónde nos vemos?" },
+      "options": [
+        { "t": "Davanti al Pantheon?", "es": "¿Delante del Panteón?", "next": "n4", "ok": true },
+        { "t": "Quando al Pantheon?", "es": "¿Cuándo en el Panteón?", "next": "n3", "ok": false, "feedback": "Giulia pregunta dove (dónde), no quando. Responde con un lugar." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Perfetto! Poi pranziamo insieme? Io ho sempre fame!", "es": "¡Perfecto! ¿Luego comemos juntas? ¡Yo siempre tengo hambre!" },
+      "options": [
+        { "t": "Sì! A che ora pranzate in Italia?", "es": "¡Sí! ¿A qué hora coméis en Italia?", "next": "n5", "ok": true },
+        { "t": "Sì! Che ore pranzate in Italia?", "es": "¡Sí! ¿Qué horas coméis en Italia?", "next": "n4", "ok": false, "feedback": "Para preguntar un horario: A che ora…? Che ore sono? es solo para saber la hora." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Di solito all'una o all'una e mezza.", "es": "Normalmente a la una o a la una y media." },
+      "options": [
+        { "t": "In Spagna pranziamo alle due o alle tre!", "es": "¡En España comemos a las dos o a las tres!", "next": "n6", "ok": true },
+        { "t": "In Spagna pranziamo a le tre!", "es": "¡En España comemos a las tres!", "next": "n5", "ok": false, "feedback": "A + le se juntan en una palabra: alle tre." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Alle tre? Io alle tre ho già sonno!", "es": "¿A las tres? ¡Yo a las tres ya tengo sueño!" },
+      "options": [
+        { "t": "Ah ah! Allora a domani, alle dieci!", "es": "¡Ja, ja! ¡Entonces hasta mañana, a las diez!", "next": "n7", "ok": true },
+        { "t": "Ah ah! Allora a domani, alle diece!", "es": "¡Ja, ja! ¡Entonces hasta mañana, a las diez!", "next": "n6", "ok": false, "feedback": "Diez en italiano es dieci, con i final." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "A domani! Un bacio!", "es": "¡Hasta mañana! ¡Un beso!" },
+      "next": "end"
+    }
+  ],
+  "reviewed": false
+}

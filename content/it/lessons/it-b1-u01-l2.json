@@ -1,0 +1,87 @@
+{
+  "id": "it-b1-u01-l2",
+  "unit": "it-b1-u01",
+  "title": "Andrei, farei, vorrei",
+  "goal": "a conjugar el condicional completo, regular e irregular, para decir lo que harías",
+  "emoji": "🔮",
+  "photoQuery": "trieste harbour pier boats",
+  "vocab": [
+    { "id": "desideri-andrei", "t": "andrei", "es": "iría", "emoji": "🚶‍♀️", "pos": "v", "ex": { "t": "Con più tempo andrei a Trieste ogni anno.", "es": "Con más tiempo iría a Trieste cada año." } },
+    { "id": "desideri-farei", "t": "farei", "es": "haría", "emoji": "✅", "pos": "v", "ex": { "t": "Io farei una lunga passeggiata sul mare.", "es": "Yo daría un largo paseo junto al mar." } },
+    { "id": "desideri-sarebbe", "t": "sarebbe", "es": "sería, estaría", "emoji": "✨", "pos": "v", "ex": { "t": "Sarebbe bello festeggiare il compleanno a Trieste.", "es": "Sería bonito celebrar el cumpleaños en Trieste." } },
+    { "id": "desideri-avrei", "t": "avrei", "es": "tendría", "emoji": "🤲", "pos": "v", "ex": { "t": "Avrei una domanda, se possibile.", "es": "Tendría una pregunta, si es posible." } },
+    { "id": "desideri-potrei", "t": "potrei", "es": "podría", "emoji": "🙋‍♀️", "pos": "v", "ex": { "t": "Potrei avere un bicchiere d'acqua?", "es": "¿Podría tomar un vaso de agua?" } },
+    { "id": "desideri-verrei", "t": "verrei", "es": "vendría", "emoji": "🏃‍♀️", "pos": "v", "ex": { "t": "Verrei volentieri, ma ho i nipoti a casa.", "es": "Vendría con gusto, pero tengo a los nietos en casa." } },
+    { "id": "desideri-preferirei", "t": "preferirei", "es": "preferiría", "emoji": "⚖️", "pos": "v", "ex": { "t": "Preferirei un tavolo dentro, fa freddo.", "es": "Preferiría una mesa dentro, hace frío." } },
+    { "id": "desideri-volentieri", "t": "volentieri", "es": "con gusto", "emoji": "😊", "pos": "adv", "ex": { "t": "Prenderei volentieri un altro caffè.", "es": "Me tomaría con gusto otro café." } },
+    { "id": "desideri-viaggerei", "t": "viaggerei", "es": "viajaría", "emoji": "✈️", "pos": "v", "ex": { "t": "Se potessi, viaggerei tutto l'anno.", "es": "Si pudiera, viajaría todo el año." }, "note": "Se potessi = si pudiera. De momento apréndetelo como frase hecha." }
+  ],
+  "grammar": "it-g-condizionale",
+  "pron": {
+    "title": "Doble m: andremmo / andremo",
+    "tip": "Noi en condicional lleva mm y se apoya un poquito más: andremmo (iríamos). Con una sola m es futuro: andremo (iremos).",
+    "words": ["andremmo", "andremo", "vorremmo", "vorremo"],
+    "pairs": [["andremmo", "andremo"], ["vorremmo", "vorremo"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Con più tempo, io ___ a Trieste ogni anno.", "es": "Con más tiempo, yo iría a Trieste cada año.", "options": ["andrei", "andarei", "andrò"], "answer": "andrei", "why": "Andare → andr- + -ei.", "g": "it-g-condizionale" },
+    { "id": "e2", "type": "choose", "q": "Tu cosa ___ con una settimana libera?", "es": "¿Tú qué harías con una semana libre?", "options": ["faresti", "farebbe", "farai"], "answer": "faresti", "why": "Tu → -esti: faresti.", "g": "it-g-condizionale" },
+    { "id": "e3", "type": "choose", "q": "Noi ___ volentieri, ma abbiamo un pranzo di famiglia.", "es": "Vendríamos con gusto, pero tenemos una comida familiar.", "options": ["verremmo", "verremo", "veniremmo"], "answer": "verremmo", "why": "Venire → verr- + -emmo (doble m).", "g": "it-g-condizionale" },
+    { "id": "e4", "type": "choose", "q": "Mio figlio Hugo ___ cambiare lavoro.", "es": "Mi hijo Hugo querría cambiar de trabajo.", "options": ["vorrebbe", "vorrei", "vorrebbero"], "answer": "vorrebbe", "why": "Lui → vorrebbe.", "g": "it-g-condizionale" },
+    { "id": "e5", "type": "fill", "q": "Io ___ un tavolo all'aperto, se possibile.", "es": "Yo preferiría una mesa fuera, si es posible.", "answer": ["preferirei"], "bank": ["preferirei", "preferivo", "preferirebbe"], "why": "Preferire → preferir- + -ei.", "g": "it-g-condizionale" },
+    { "id": "e6", "type": "fill", "q": "Le mie amiche ___ restare un giorno in più.", "es": "Mis amigas querrían quedarse un día más.", "answer": ["vorrebbero"], "bank": ["vorrebbero", "vorrebbe", "vorremmo"], "why": "Loro → vorrebbero.", "g": "it-g-condizionale" },
+    { "id": "e7", "type": "fill", "q": "___ bello vedere il mare dalla finestra.", "es": "Sería bonito ver el mar desde la ventana.", "answer": ["Sarebbe"], "bank": ["Sarebbe", "Sarei", "Sarà"], "why": "Sarebbe bello = sería bonito.", "g": "it-g-condizionale" },
+    { "id": "e8", "type": "conjugate", "verb": "mangiare", "person": "voi", "tense": "condizionale", "q": "Cosa ___ stasera, pesce o carne?", "answer": ["mangereste"], "table": [["io", "mangerei"], ["tu", "mangeresti"], ["lui/lei", "mangerebbe"], ["noi", "mangeremmo"], ["voi", "mangereste"], ["loro", "mangerebbero"]], "why": "Mangiare pierde la i: mangereste.", "g": "it-g-condizionale" },
+    { "id": "e9", "type": "conjugate", "verb": "avere", "person": "io", "tense": "condizionale", "q": "Scusi, ___ una domanda.", "answer": ["avrei"], "why": "Avere → avr- + -ei.", "g": "it-g-condizionale" },
+    { "id": "e10", "type": "conjugate", "verb": "potere", "person": "noi", "tense": "condizionale", "q": "___ andare al mare domenica.", "answer": ["Potremmo"], "why": "Potere → potr- + -emmo.", "g": "it-g-condizionale" },
+    { "id": "e11", "type": "error", "q": "Con più soldi viaggiarei sempre.", "wrong": "viaggiarei", "fix": "viaggerei", "why": "Viaggiare → viagger- (la a pasa a e y se pierde la i).", "g": "it-g-condizionale" },
+    { "id": "e12", "type": "error", "q": "Noi andremo volentieri, ma piove.", "wrong": "andremo", "fix": "andremmo", "why": "Iríamos = andremmo (doble m). Andremo es futuro.", "g": "it-g-condizionale" },
+    { "id": "e13", "type": "transform", "instr": "Pásala al condicional", "q": "Prendo volentieri un altro caffè.", "answer": ["Prenderei volentieri un altro caffè."], "why": "Prendo → prenderei.", "g": "it-g-condizionale" },
+    { "id": "e14", "type": "order", "es": "Vendría con gusto, pero no puedo.", "answer": "Verrei volentieri ma non posso", "extra": ["verrò"], "why": "Verrei = vendría.", "g": "it-g-condizionale" },
+    { "id": "e15", "type": "translate", "dir": "to", "q": "Sería bonito ir juntas.", "answer": ["Sarebbe bello andare insieme."], "why": "Sarebbe bello + infinitivo.", "g": "it-g-condizionale" },
+    { "id": "e16", "type": "minimal", "pair": ["vorremmo", "vorremo"], "answer": "vorremmo", "es": ["querríamos", "querremos"], "why": "Vorremmo, con mm larga, es condicional." }
+  ],
+  "dialog": {
+    "title": "¿Qué harías con un año libre?",
+    "setting": "En el curso de italiano, la profesora Marta juega con la clase a imaginar",
+    "emoji": "🔮",
+    "lines": [
+      { "who": "Marta", "t": "Yolanda, cosa faresti con un anno libero?", "es": "Yolanda, ¿qué harías con un año libre?" },
+      { "who": "Yolanda", "t": "Viaggerei per tutta l'Italia, da nord a sud.", "es": "Viajaría por toda Italia, de norte a sur." },
+      { "who": "Marta", "t": "E dove andresti per prima?", "es": "¿Y adónde irías primero?" },
+      { "who": "Yolanda", "t": "Andrei a Trieste: sarebbe bello vedere il mare e i caffè.", "es": "Iría a Trieste: sería bonito ver el mar y los cafés." },
+      { "who": "Marta", "t": "Con chi partiresti?", "es": "¿Con quién saldrías?" },
+      { "who": "Yolanda", "t": "Con mio marito, ma le mie amiche verrebbero volentieri.", "es": "Con mi marido, pero mis amigas vendrían con gusto." },
+      { "who": "Marta", "t": "E cosa porteresti in valigia?", "es": "¿Y qué llevarías en la maleta?" },
+      { "who": "Yolanda", "t": "Poche cose. Preferirei comprare tutto lì!", "es": "Pocas cosas. ¡Preferiría comprarlo todo allí!" }
+    ],
+    "questions": [
+      { "q": "¿Qué haría Yolanda con un año libre?", "options": ["Viajar por toda Italia", "Estudiar en Roma", "Quedarse en casa"], "answer": "Viajar por toda Italia" },
+      { "q": "¿Adónde iría primero?", "options": ["A Trieste", "A Nápoles", "A Milán"], "answer": "A Trieste" },
+      { "q": "¿Qué llevaría en la maleta?", "options": ["Pocas cosas", "Mucha ropa", "Libros"], "answer": "Pocas cosas" }
+    ]
+  },
+  "realLife": { "t": "Verrei volentieri, ma non posso. Grazie lo stesso!", "es": "Iría con gusto, pero no puedo. ¡Gracias de todas formas!", "context": "Para rechazar una invitación con cariño" },
+  "same": {
+    "text": "El condicional suena casi como el nuestro.",
+    "examples": [
+      { "t": "preferirei", "es": "preferiría" },
+      { "t": "viaggerei", "es": "viajaría" },
+      { "t": "potrei", "es": "podría" }
+    ]
+  },
+  "falseFriend": {
+    "word": "pretendere",
+    "means": "exigir, esperar demasiado de alguien",
+    "looksLike": "pretender (en italiano, cercare di o avere intenzione di)",
+    "emoji": "😤",
+    "tip": "Pretende troppo dai figli = exige demasiado a los hijos. Para «pretendo ir», di: ho intenzione di andare."
+  },
+  "summary": [
+    "Condicional: raíz del futuro + -ei, -esti, -ebbe, -emmo, -este, -ebbero.",
+    "Irregulares: andrei, farei, sarei, avrei, potrei, verrei, vorrei.",
+    "Noi lleva doble m: andremmo (iríamos) ≠ andremo (iremos).",
+    "Pretendere = exigir, no pretender."
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "en-a1-u06-c3",
+  "unit": "en-a1-u06",
+  "title": "Un domingo en St Paul's",
+  "setting": "Estás de vacaciones en Londres. Emma te escribe para saber qué tal el día.",
+  "emoji": "⛪",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi! What do you do on Sundays in London?", "es": "¡Hola! ¿Qué hacéis los domingos en Londres?" },
+      "options": [
+        { "t": "We visit St Paul's Cathedral.", "es": "Visitamos la catedral de St Paul's.", "next": "n2", "ok": true },
+        { "t": "We visits St Paul's Cathedral.", "es": "Visitamos la catedral de St Paul's.", "next": "n2", "ok": false, "feedback": "Con we el verbo no lleva -s: we visit." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Beautiful! Do you climb to the top of the dome?", "es": "¡Precioso! ¿Subís hasta lo alto de la cúpula?" },
+      "options": [
+        { "t": "No, we don't! Too many steps.", "es": "¡No! Demasiados escalones.", "next": "n3", "ok": true },
+        { "t": "No, we aren't! Too many steps.", "es": "¡No! Demasiados escalones.", "next": "n3", "ok": false, "feedback": "La pregunta lleva do, así que: No, we don't." },
+        { "t": "No, we don't! Too much steps.", "es": "¡No! Demasiados escalones.", "next": "n3", "ok": false, "feedback": "Steps se cuentan: too many steps." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Ha ha! And the Whispering Gallery?", "es": "¡Ja, ja! ¿Y la Galería de los Susurros?" },
+      "options": [
+        { "t": "Yes! I whisper and my husband hears me. It's magic!", "es": "¡Sí! Yo susurro y mi marido me oye. ¡Es mágico!", "next": "n4", "ok": true },
+        { "t": "Yes! Whisper and my husband hears me. It's magic!", "es": "¡Sí! Yo susurro y mi marido me oye. ¡Es mágico!", "next": "n4", "ok": false, "feedback": "Falta el sujeto: I whisper." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Do you attend the evening service too?", "es": "¿Vais también al oficio de la tarde?" },
+      "options": [
+        { "t": "Yes, we do. The music is very beautiful.", "es": "Sí. La música es muy bonita.", "next": "n5", "ok": true },
+        { "t": "Yes, we assist. The music is very beautiful.", "es": "Sí. La música es muy bonita.", "next": "n5", "ok": false, "feedback": "Assist es ayudar. Y la respuesta corta es Yes, we do." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Lovely. What time do you have dinner tonight?", "es": "Qué bonito. ¿A qué hora cenáis esta noche?" },
+      "options": [
+        { "t": "At eight. It's early for us!", "es": "A las ocho. ¡Para nosotros es pronto!", "next": "n6", "ok": true },
+        { "t": "At eight. It's soon for us!", "es": "A las ocho. ¡Para nosotros es pronto!", "next": "n6", "ok": false, "feedback": "Pronto (de horario) = early. Soon es «dentro de poco»." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ha ha! Very British. Enjoy your evening!", "es": "¡Ja, ja! Muy británico. ¡Que disfrutéis de la noche!" },
+      "options": [
+        { "t": "Thank you, Emma! Good night!", "es": "¡Gracias, Emma! ¡Buenas noches!", "next": "end", "ok": true },
+        { "t": "Thank you, Emma! Good evening!", "es": "¡Gracias, Emma! ¡Buenas noches!", "next": "end", "ok": false, "feedback": "Para despedirte por la noche se dice Good night. Good evening es un saludo al llegar." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

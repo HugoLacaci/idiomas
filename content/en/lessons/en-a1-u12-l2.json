@@ -1,0 +1,430 @@
+{
+  "id": "en-a1-u12-l2",
+  "unit": "en-a1-u12",
+  "title": "Cada palabra en su sitio",
+  "goal": "a ordenar bien la frase: quién, qué hace, qué, dónde y cuándo",
+  "emoji": "🚂",
+  "photoQuery": "street performer square crowd",
+  "vocab": [
+    {
+      "id": "cg-the-piazza",
+      "t": "the piazza",
+      "es": "la plaza (de Covent Garden)",
+      "emoji": "🏛️",
+      "pos": "n",
+      "ex": {
+        "t": "We have lunch in the piazza every Sunday.",
+        "es": "Comemos en la plaza todos los domingos."
+      },
+      "note": "La plaza de Covent Garden se llama así, con palabra italiana."
+    },
+    {
+      "id": "cg-street-performer",
+      "t": "a street performer",
+      "es": "un artista callejero",
+      "emoji": "🤹",
+      "pos": "n",
+      "ex": {
+        "t": "The street performers are very funny.",
+        "es": "Los artistas callejeros son muy graciosos."
+      }
+    },
+    {
+      "id": "cg-watch-the-show",
+      "t": "watch the show",
+      "es": "ver el espectáculo",
+      "emoji": "👀",
+      "pos": "phrase",
+      "ex": {
+        "t": "Let's watch the show for ten minutes.",
+        "es": "Veamos el espectáculo diez minutos."
+      }
+    },
+    {
+      "id": "cg-clap",
+      "t": "clap",
+      "es": "aplaudir",
+      "emoji": "👏",
+      "pos": "v",
+      "ex": {
+        "t": "Everybody claps at the end.",
+        "es": "Todo el mundo aplaude al final."
+      }
+    },
+    {
+      "id": "cg-the-market",
+      "t": "the market",
+      "es": "el mercado",
+      "emoji": "🏬",
+      "pos": "n",
+      "ex": {
+        "t": "I buy presents at the market.",
+        "es": "Compro regalos en el mercado."
+      }
+    },
+    {
+      "id": "cg-souvenir",
+      "t": "a souvenir",
+      "es": "un recuerdo (de viaje)",
+      "emoji": "🎁",
+      "pos": "n",
+      "ex": {
+        "t": "I'd like a souvenir for my grandson.",
+        "es": "Querría un recuerdo para mi nieto."
+      }
+    },
+    {
+      "id": "cg-handmade",
+      "t": "handmade",
+      "es": "hecho a mano",
+      "emoji": "🧶",
+      "pos": "adj",
+      "ex": {
+        "t": "These bags are handmade.",
+        "es": "Estos bolsos están hechos a mano."
+      }
+    },
+    {
+      "id": "cg-opera-house",
+      "t": "the opera house",
+      "es": "la ópera (el edificio)",
+      "emoji": "🎼",
+      "pos": "n",
+      "ex": {
+        "t": "The opera house is next to the market.",
+        "es": "La ópera está al lado del mercado."
+      }
+    },
+    {
+      "id": "cg-very-much",
+      "t": "very much",
+      "es": "mucho",
+      "emoji": "💯",
+      "pos": "adv",
+      "ex": {
+        "t": "I like Covent Garden very much.",
+        "es": "Me gusta mucho Covent Garden."
+      },
+      "note": "¡Ojo! Va al final: I like it very much."
+    }
+  ],
+  "grammar": "en-g-word-order",
+  "pron": {
+    "title": "La música de la frase",
+    "tip": "En inglés las palabras importantes suenan fuertes y las pequeñas (to, the, at, a) se dicen flojito y rápido: «I GO to the MARket on SATurdays». ¡No pronuncies todas igual!",
+    "words": [
+      "I go to the market on Saturdays.",
+      "I like it very much.",
+      "We have lunch at home."
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I like ___ .",
+      "es": "Me gusta mucho este mercado.",
+      "options": [
+        "this market very much",
+        "very much this market"
+      ],
+      "answer": "this market very much",
+      "why": "Very much va al final, después de lo que te gusta.",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "___ very busy today.",
+      "es": "Hoy hay mucha gente. (Está muy lleno.)",
+      "options": [
+        "It's",
+        "Is",
+        "Are"
+      ],
+      "answer": "It's",
+      "why": "Siempre con sujeto: It's very busy.",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "We have lunch ___ .",
+      "es": "Comemos en la plaza los domingos.",
+      "options": [
+        "in the piazza on Sundays",
+        "on Sundays in the piazza"
+      ],
+      "answer": "in the piazza on Sundays",
+      "why": "Lugar antes que tiempo.",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "My friend ___ to the market.",
+      "es": "Mi amiga va a menudo al mercado.",
+      "options": [
+        "often goes",
+        "goes often",
+        "often go"
+      ],
+      "answer": "often goes",
+      "why": "Often delante del verbo; con she, goes.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "___ is a handmade bag.",
+      "es": "Es un bolso hecho a mano.",
+      "answer": [
+        "It"
+      ],
+      "bank": [
+        "It",
+        "Is",
+        "There"
+      ],
+      "why": "Falta el sujeto: It is a handmade bag.",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "The performers are ___ the piazza every day.",
+      "es": "Los artistas están en la plaza todos los días.",
+      "answer": [
+        "in"
+      ],
+      "bank": [
+        "in",
+        "on",
+        "at the"
+      ],
+      "why": "En la plaza = in the piazza / in the square.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "I always buy a ___ for my grandson.",
+      "es": "Siempre compro un recuerdo para mi nieto.",
+      "answer": [
+        "souvenir",
+        "present"
+      ],
+      "why": "Recuerdo de viaje = souvenir."
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Compro regalos en el mercado los sábados",
+      "answer": "I buy presents at the market on Saturdays",
+      "extra": [
+        "in"
+      ],
+      "why": "Quién + verbo + qué + dónde + cuándo.",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Me gusta mucho el espectáculo",
+      "answer": "I like the show very much",
+      "extra": [
+        "is"
+      ],
+      "why": "Very much al final.",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Nunca como en restaurantes caros",
+      "answer": "I never eat in expensive restaurants",
+      "extra": [
+        "don't"
+      ],
+      "why": "Never va delante del verbo y ya es negativo: no hace falta don't.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Today is very sunny in the piazza.",
+      "wrong": "is",
+      "fix": "it's",
+      "why": "El tiempo siempre lleva el sujeto it: Today it's very sunny.",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "Is a beautiful opera house.",
+      "wrong": "Is",
+      "fix": "It's",
+      "why": "Falta el sujeto: It's a beautiful opera house.",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e13",
+      "type": "transform",
+      "instr": "Pon el lugar antes que el tiempo",
+      "q": "We meet at ten in the piazza.",
+      "answer": [
+        "We meet in the piazza at ten.",
+        "We meet in the piazza at ten"
+      ],
+      "why": "Primero dónde, luego cuándo.",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Ves un espectáculo en la calle y te encanta. Se lo dices a la señora de al lado.",
+      "emoji": "🤹",
+      "options": [
+        "I like it very much!",
+        "I like very much it!",
+        "Very much I like!"
+      ],
+      "answer": "I like it very much!",
+      "why": "Verbo + it + very much.",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e15",
+      "type": "translate",
+      "dir": "to",
+      "q": "Mi amiga vive en Londres.",
+      "answer": [
+        "My friend lives in London.",
+        "My friend lives in London"
+      ],
+      "why": "Sujeto + verbo con -s + lugar.",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e16",
+      "type": "reading",
+      "kind": "text",
+      "title": "Covent Garden",
+      "text": "Covent Garden is in the centre of London. There is a big market with shops and cafés. Street performers are in the piazza every day. People watch the shows and clap.",
+      "questions": [
+        {
+          "q": "¿Dónde está Covent Garden?",
+          "options": [
+            "En el centro de Londres",
+            "Fuera de Londres",
+            "Junto al aeropuerto"
+          ],
+          "answer": "En el centro de Londres"
+        },
+        {
+          "q": "¿Qué hay en la plaza todos los días?",
+          "options": [
+            "Artistas callejeros",
+            "Un concierto de ópera",
+            "Coches"
+          ],
+          "answer": "Artistas callejeros"
+        },
+        {
+          "q": "¿Qué hace la gente al final?",
+          "options": [
+            "Aplaude",
+            "Se va",
+            "Canta"
+          ],
+          "answer": "Aplaude"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "title": "El espectáculo de la plaza",
+    "setting": "En la plaza de Covent Garden, mirando a un artista callejero",
+    "emoji": "🤹",
+    "lines": [
+      {
+        "who": "Tom",
+        "t": "He's very good, isn't he?",
+        "es": "Es muy bueno, ¿verdad?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes! I like it very much.",
+        "es": "¡Sí! Me gusta mucho."
+      },
+      {
+        "who": "Tom",
+        "t": "I come here every Saturday.",
+        "es": "Vengo aquí todos los sábados."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Really? Do you live in London?",
+        "es": "¿De verdad? ¿Vives en Londres?"
+      },
+      {
+        "who": "Tom",
+        "t": "Yes, I do. I work in a shop near the market.",
+        "es": "Sí. Trabajo en una tienda cerca del mercado."
+      },
+      {
+        "who": "Yolanda",
+        "t": "How lovely! It's a beautiful place.",
+        "es": "¡Qué bien! Es un sitio precioso."
+      },
+      {
+        "who": "Tom",
+        "t": "It is. Look, the show is finishing. Let's clap!",
+        "es": "Sí que lo es. Mira, el espectáculo termina. ¡Aplaudamos!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuándo va Tom a Covent Garden?",
+        "options": [
+          "Todos los sábados",
+          "Todos los días",
+          "Nunca"
+        ],
+        "answer": "Todos los sábados"
+      },
+      {
+        "q": "¿Dónde trabaja Tom?",
+        "options": [
+          "En una tienda cerca del mercado",
+          "En la ópera",
+          "En un hotel"
+        ],
+        "answer": "En una tienda cerca del mercado"
+      },
+      {
+        "q": "¿Qué hacen al final?",
+        "options": [
+          "Aplaudir",
+          "Comer",
+          "Irse en metro"
+        ],
+        "answer": "Aplaudir"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "I like it very much!",
+    "es": "¡Me gusta mucho!",
+    "context": "Para decir que algo te encanta (una comida, un sitio, un regalo)"
+  },
+  "summary": [
+    "Orden: quién + verbo + qué + dónde + cuándo",
+    "Lugar antes que tiempo: in the piazza on Sundays",
+    "Siempre con sujeto: It's beautiful",
+    "very much al final: I like it very much",
+    "always / often / never delante del verbo"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u12-l2"
+}

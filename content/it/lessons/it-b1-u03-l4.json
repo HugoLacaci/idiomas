@@ -1,0 +1,74 @@
+{
+  "id": "it-b1-u03-l4",
+  "unit": "it-b1-u03",
+  "title": "Si mangiano le tagliatelle",
+  "goal": "a usar «si» con plurales y en pasado: si vendono, ci si siede, si è mangiato bene",
+  "emoji": "🧀",
+  "photoQuery": "italian deli cheese salami counter",
+  "vocab": [
+    { "id": "cucina-i-salumi", "t": "i salumi", "es": "los embutidos", "emoji": "🥓", "pos": "n", "ex": { "t": "In questa bottega si vendono salumi e formaggi.", "es": "En esta tienda se venden embutidos y quesos." } },
+    { "id": "cucina-il-parmigiano", "t": "il parmigiano", "es": "el parmesano", "emoji": "🧀", "pos": "n", "ex": { "t": "Il parmigiano si grattugia sulla pasta.", "es": "El parmesano se ralla sobre la pasta." } },
+    { "id": "cucina-le-lasagne", "t": "le lasagne", "es": "la lasaña", "emoji": "🥘", "pos": "n", "note": "En italiano normalmente va en plural: le lasagne.", "ex": { "t": "Le lasagne si cuociono in forno.", "es": "La lasaña se hace en el horno." } },
+    { "id": "cucina-sedersi", "t": "sedersi", "es": "sentarse", "emoji": "🪑", "pos": "v", "ex": { "t": "In trattoria ci si siede dove c'è posto.", "es": "En la trattoria uno se sienta donde hay sitio." } },
+    { "id": "cucina-prenotare", "t": "prenotare", "es": "reservar", "emoji": "📅", "pos": "v", "ex": { "t": "Il sabato si deve prenotare.", "es": "Los sábados hay que reservar." } },
+    { "id": "cucina-la-fila", "t": "la fila", "es": "la cola", "emoji": "🚶", "pos": "n", "note": "Hacer cola: fare la fila (o fare la coda).", "ex": { "t": "Davanti alla trattoria c'è sempre la fila.", "es": "Delante de la trattoria siempre hay cola." } },
+    { "id": "cucina-il-tagliere", "t": "il tagliere", "es": "la tabla (de embutidos y quesos)", "emoji": "🪵", "pos": "n", "ex": { "t": "Prendiamo un tagliere da dividere?", "es": "¿Pedimos una tabla para compartir?" } },
+    { "id": "cucina-la-trattoria", "t": "la trattoria", "es": "la casa de comidas, el restaurante sencillo", "emoji": "🏮", "pos": "n", "ex": { "t": "In trattoria si mangia come a casa.", "es": "En la trattoria se come como en casa." } },
+    { "id": "cucina-la-mostarda", "t": "la mostarda", "es": "fruta confitada picante", "emoji": "🍐", "pos": "n", "note": "¡Ojo! La mostaza es la senape.", "ex": { "t": "Il bollito si mangia con la mostarda.", "es": "El cocido de carne se come con mostarda." } }
+  ],
+  "grammar": "it-g-si-impersonale",
+  "pron": {
+    "title": "Las dobles: tagliatelle, mortadella",
+    "tip": "Las consonantes dobles se mantienen un poquito más: «mor-ta-dél-la», «ta-llia-tél-le». Si no, cambia la palabra: sete (sed) y sette (siete).",
+    "words": ["tagliatelle", "mortadella", "cappuccino", "prosciutto"],
+    "pairs": [["sete", "sette"], ["pala", "palla"], ["caro", "carro"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Qui ___ i tortellini più buoni di Bologna.", "es": "Aquí se comen los mejores tortellini de Bolonia.", "options": ["si mangiano", "si mangia", "si mangiate"], "answer": "si mangiano", "why": "I tortellini es plural: el verbo va en plural, si mangiano.", "g": "it-g-si-impersonale" },
+    { "id": "e2", "type": "choose", "q": "Al mercato ___ salumi e formaggi.", "es": "En el mercado se venden embutidos y quesos.", "options": ["si vendono", "si vende", "se vendono"], "answer": "si vendono", "why": "Salumi e formaggi es plural: si vendono, como «se venden».", "g": "it-g-si-impersonale" },
+    { "id": "e3", "type": "choose", "q": "In trattoria ___ siede dove c'è posto.", "es": "En la trattoria uno se sienta donde hay sitio.", "options": ["ci si", "si si", "se si"], "answer": "ci si", "why": "Sedersi ya lleva si: para no decir «si si», se dice ci si siede.", "g": "it-g-si-impersonale" },
+    { "id": "e4", "type": "choose", "q": "Ieri al ristorante ___ mangiato benissimo.", "es": "Ayer en el restaurante se comió de maravilla.", "options": ["si è", "si ha", "si sono"], "answer": "si è", "why": "En pasado, si siempre va con essere: si è mangiato.", "g": "it-g-si-impersonale" },
+    { "id": "e5", "type": "fill", "q": "Il sabato si ___ prenotare: c'è sempre la fila.", "es": "Los sábados hay que reservar: siempre hay cola.", "answer": ["deve"], "bank": ["deve", "devono", "devi"], "why": "Sin cosa en plural: si deve prenotare.", "g": "it-g-si-impersonale" },
+    { "id": "e6", "type": "fill", "q": "Le lasagne si ___ in forno.", "es": "La lasaña se hace en el horno.", "answer": ["cuociono"], "bank": ["cuociono", "cuoce", "cuocete"], "why": "Le lasagne es plural en italiano: si cuociono.", "g": "it-g-si-impersonale" },
+    { "id": "e7", "type": "fill", "q": "In vacanza si è più ___.", "es": "De vacaciones uno está más contento.", "answer": ["contenti", "felici", "rilassati", "tranquilli"], "hint": "contento", "why": "Con si è, el adjetivo va en plural: si è contenti.", "g": "it-g-si-impersonale" },
+    { "id": "e8", "type": "error", "q": "In Emilia si mangia molte tagliatelle.", "wrong": "mangia", "fix": "mangiano", "why": "Tagliatelle es plural: si mangiano.", "g": "it-g-si-impersonale" },
+    { "id": "e9", "type": "error", "q": "Ieri si ha mangiato molto bene.", "wrong": "ha", "fix": "è", "why": "Con si impersonal, el pasado se hace con essere: si è mangiato.", "g": "it-g-si-impersonale" },
+    { "id": "e10", "type": "error", "q": "La domenica si si alza tardi.", "wrong": "si", "fix": "ci", "why": "Alzarsi ya lleva si: se dice ci si alza, nunca «si si».", "g": "it-g-si-impersonale" },
+    { "id": "e11", "type": "order", "es": "En Bolonia se comen muchos tortellini.", "answer": "A Bologna si mangiano molti tortellini", "extra": ["mangia"], "why": "Tortellini es plural: si mangiano.", "g": "it-g-si-impersonale" },
+    { "id": "e12", "type": "transform", "instr": "Pon el sustantivo en plural", "q": "Qui si vende il formaggio.", "answer": ["Qui si vendono i formaggi."], "why": "Si la cosa va en plural, el verbo también: si vendono.", "g": "it-g-si-impersonale" },
+    { "id": "e13", "type": "transform", "instr": "Pásala al passato prossimo", "q": "Si mangia bene.", "answer": ["Si è mangiato bene."], "why": "Si + è + participio: si è mangiato.", "g": "it-g-si-impersonale" },
+    { "id": "e14", "type": "translate", "dir": "to", "q": "En la trattoria uno se sienta donde quiere.", "answer": ["In trattoria ci si siede dove si vuole.", "Nella trattoria ci si siede dove si vuole."], "why": "Uno se sienta → ci si siede; donde quiere → dove si vuole.", "g": "it-g-si-impersonale" },
+    { "id": "e15", "type": "minimal", "pair": ["sete", "sette"], "es": ["sed", "siete"], "answer": "sette", "why": "Sette tiene la t doble: se mantiene un poco más." },
+    { "id": "e16", "type": "speak", "t": "A Bologna si mangiano tagliatelle e mortadella.", "es": "En Bolonia se comen tallarines y mortadela." }
+  ],
+  "dialog": {
+    "title": "En el mercado de Bolonia",
+    "setting": "En una charcutería del centro de Bolonia, Yolanda habla con el dependiente",
+    "emoji": "🧀",
+    "lines": [
+      { "who": "Salumiere", "t": "Buongiorno, signora! Desidera?", "es": "¡Buenos días, señora! ¿Qué desea?" },
+      { "who": "Yolanda", "t": "Buongiorno! Come si mangia la mortadella qui a Bologna?", "es": "¡Buenos días! ¿Cómo se come la mortadela aquí en Bolonia?" },
+      { "who": "Salumiere", "t": "A cubetti con l'aperitivo, o in un panino.", "es": "En taquitos con el aperitivo, o en un bocadillo." },
+      { "who": "Yolanda", "t": "E questi tortellini si vendono freschi?", "es": "¿Y estos tortellini se venden frescos?" },
+      { "who": "Salumiere", "t": "Sì, si fanno a mano ogni mattina.", "es": "Sí, se hacen a mano cada mañana." },
+      { "who": "Yolanda", "t": "E come si cuociono?", "es": "¿Y cómo se cuecen?" },
+      { "who": "Salumiere", "t": "Nel brodo di carne. Mai con la panna!", "es": "En caldo de carne. ¡Nunca con nata!" },
+      { "who": "Yolanda", "t": "Perfetto, ne prendo mezzo chilo.", "es": "Perfecto, me llevo medio kilo." }
+    ],
+    "questions": [
+      { "q": "¿Cómo se come la mortadela en Bolonia?", "options": ["En taquitos o en bocadillo", "Frita", "Con pasta"], "answer": "En taquitos o en bocadillo" },
+      { "q": "¿Cuándo se hacen los tortellini?", "options": ["Cada mañana", "Los domingos", "Una vez por semana"], "answer": "Cada mañana" },
+      { "q": "¿Cómo se cuecen?", "options": ["En caldo de carne", "Con nata", "En el horno"], "answer": "En caldo de carne" }
+    ]
+  },
+  "realLife": { "t": "Si deve prenotare?", "es": "¿Hay que reservar?", "context": "Para preguntar en un restaurante si necesitas reserva" },
+  "falseFriend": { "word": "la mostarda", "means": "fruta confitada en almíbar con un toque picante de mostaza", "looksLike": "la mostaza", "emoji": "🍐", "tip": "La mostaza de los bocadillos es la senape. La mostarda es típica del norte de Italia y se toma con carnes y quesos." },
+  "summary": [
+    "Con cosas en plural, el verbo va en plural: si vendono i salumi, si mangiano le tagliatelle.",
+    "Con verbos reflexivos: ci si siede, ci si alza (nunca «si si»).",
+    "Con essere, adjetivo en plural: si è contenti.",
+    "En pasado, siempre essere: si è mangiato bene.",
+    "Dobles: tagliatelle, mortadella, sette."
+  ],
+  "reviewed": false
+}

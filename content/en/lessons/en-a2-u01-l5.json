@@ -1,0 +1,421 @@
+{
+  "id": "en-a2-u01-l5",
+  "unit": "en-a2-u01",
+  "title": "Reto: un mensaje desde Tower Bridge",
+  "goal": "a contar por mensaje lo que estás haciendo de viaje y lo que haces normalmente",
+  "emoji": "🌉",
+  "photoQuery": "tower bridge thames river",
+  "vocab": [
+    {
+      "id": "now-standing",
+      "t": "standing",
+      "es": "de pie",
+      "emoji": "🧍‍♀️",
+      "pos": "v",
+      "ex": {
+        "t": "I'm standing on Tower Bridge!",
+        "es": "¡Estoy en Tower Bridge!"
+      },
+      "note": "En inglés se dice dónde estás «de pie»: I'm standing on the bridge."
+    },
+    {
+      "id": "now-looking-at",
+      "t": "looking at",
+      "es": "mirando",
+      "emoji": "👀",
+      "pos": "phrase",
+      "ex": {
+        "t": "We're looking at the river.",
+        "es": "Estamos mirando el río."
+      },
+      "note": "Mirar algo = look at something."
+    },
+    {
+      "id": "now-sending-a-photo",
+      "t": "sending a photo",
+      "es": "mandando una foto",
+      "emoji": "📤",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm sending you a photo now.",
+        "es": "Te estoy mandando una foto ahora."
+      }
+    },
+    {
+      "id": "now-having-a-great-time",
+      "t": "having a great time",
+      "es": "pasándolo genial",
+      "emoji": "🥳",
+      "pos": "phrase",
+      "ex": {
+        "t": "We're having a great time in London.",
+        "es": "Lo estamos pasando genial en Londres."
+      }
+    },
+    {
+      "id": "now-its-raining",
+      "t": "It's raining.",
+      "es": "Está lloviendo.",
+      "emoji": "🌧️",
+      "pos": "phrase",
+      "ex": {
+        "t": "It's raining, but it isn't cold.",
+        "es": "Está lloviendo, pero no hace frío."
+      }
+    },
+    {
+      "id": "now-crowded",
+      "t": "crowded",
+      "es": "lleno de gente",
+      "emoji": "👥",
+      "pos": "adj",
+      "ex": {
+        "t": "The bridge is very crowded today.",
+        "es": "Hoy el puente está lleno de gente."
+      }
+    },
+    {
+      "id": "now-staying",
+      "t": "staying",
+      "es": "alojándose",
+      "emoji": "🏨",
+      "pos": "v",
+      "ex": {
+        "t": "We're staying in a small hotel.",
+        "es": "Nos alojamos en un hotel pequeño."
+      }
+    },
+    {
+      "id": "now-miss-you",
+      "t": "I miss you.",
+      "es": "Te echo de menos.",
+      "emoji": "💕",
+      "pos": "phrase",
+      "ex": {
+        "t": "I miss you all. Kisses!",
+        "es": "Os echo de menos a todos. ¡Besos!"
+      },
+      "note": "Miss es de estado: I miss you (no «I'm missing you» en los mensajes)."
+    }
+  ],
+  "grammar": "en-g-simple-vs-continuous",
+  "pron": {
+    "title": "Tower Bridge",
+    "tip": "Tower suena «táua», sin r al final en inglés británico. Bridge termina en /dʒ/, una «ch» sonora, como la «y» de «yo» dicha con fuerza.",
+    "words": [
+      "Tower Bridge",
+      "London Bridge",
+      "river",
+      "crowded"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "message",
+      "title": "Mensaje de Yolanda al grupo de la familia",
+      "text": "Hello from London! 😊 I'm standing on Tower Bridge right now. It's raining, but we're having a great time. We're staying in a small hotel near the river. I usually have coffee in the morning, but here I'm drinking tea! I miss you all.",
+      "questions": [
+        {
+          "q": "¿Dónde está Yolanda ahora?",
+          "options": [
+            "En Tower Bridge",
+            "En el hotel",
+            "En una cafetería"
+          ],
+          "answer": "En Tower Bridge"
+        },
+        {
+          "q": "¿Qué tiempo hace?",
+          "options": [
+            "Llueve",
+            "Hace sol",
+            "Nieva"
+          ],
+          "answer": "Llueve"
+        },
+        {
+          "q": "¿Qué bebe normalmente por la mañana?",
+          "options": [
+            "Café",
+            "Té",
+            "Zumo"
+          ],
+          "answer": "Café"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "I usually ___ coffee, but here I'm drinking tea.",
+      "options": [
+        "have",
+        "'m having"
+      ],
+      "answer": "have",
+      "why": "Usually = costumbre: presente simple.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Right now we ___ at the river.",
+      "options": [
+        "'re looking",
+        "look"
+      ],
+      "answer": "'re looking",
+      "why": "Right now = presente continuo.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "I ___ you all!",
+      "options": [
+        "miss",
+        "'m missing"
+      ],
+      "answer": "miss",
+      "why": "En los mensajes lo natural es I miss you: verbo de sentimiento.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "We're ___ in a small hotel near the river.",
+      "es": "Nos alojamos en un hotel pequeño cerca del río.",
+      "answer": [
+        "staying"
+      ],
+      "bank": [
+        "staying",
+        "stay",
+        "stays"
+      ],
+      "why": "Algo temporal, de este viaje: we're staying.",
+      "g": "en-g-present-continuous"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "It's raining, but we're ___ a great time.",
+      "es": "Llueve, pero lo estamos pasando genial.",
+      "answer": [
+        "having"
+      ],
+      "why": "Pasarlo bien = have a good time; ahora: having.",
+      "g": "en-g-present-continuous"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Many tourists ___ know the difference between the two bridges.",
+      "es": "Muchos turistas no saben la diferencia entre los dos puentes.",
+      "answer": [
+        "don't",
+        "do not"
+      ],
+      "bank": [
+        "don't",
+        "aren't",
+        "doesn't"
+      ],
+      "why": "Know es de estado: don't know.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Look! The bridge opens for a big boat.",
+      "wrong": "opens",
+      "fix": "is opening",
+      "why": "Look! = ahora mismo: is opening.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "My friend and I is having a great time.",
+      "wrong": "is",
+      "fix": "are",
+      "why": "My friend and I = we: are having.",
+      "g": "en-g-present-continuous"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Cambia «every day» por «right now»",
+      "q": "Lots of people cross the bridge every day.",
+      "answer": [
+        "Lots of people are crossing the bridge right now.",
+        "Lots of people are crossing the bridge now."
+      ],
+      "why": "Right now = presente continuo: are crossing.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Te estoy mandando una foto del puente",
+      "answer": "I'm sending you a photo of the bridge",
+      "extra": [
+        "send"
+      ],
+      "why": "Ahora: I'm sending.",
+      "g": "en-g-present-continuous"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Lo estamos pasando genial.",
+      "answer": [
+        "We're having a great time.",
+        "We are having a great time.",
+        "We're having a fantastic time.",
+        "We're having a lovely time."
+      ],
+      "why": "Pasarlo genial = have a great time.",
+      "g": "en-g-present-continuous"
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "I'm standing on the bridge.",
+          "Estoy en el puente."
+        ],
+        [
+          "It's raining.",
+          "Está lloviendo."
+        ],
+        [
+          "I miss you.",
+          "Te echo de menos."
+        ],
+        [
+          "It's very crowded.",
+          "Está lleno de gente."
+        ],
+        [
+          "I usually drink coffee.",
+          "Normalmente tomo café."
+        ]
+      ],
+      "why": "Frases para un mensaje de viaje."
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Tu hijo te escribe «What are you doing?» y estás haciendo fotos en Tower Bridge.",
+      "emoji": "📸",
+      "options": [
+        "I'm taking photos on Tower Bridge!",
+        "I take photos on Tower Bridge!",
+        "I'm take photos on Tower Bridge!"
+      ],
+      "answer": "I'm taking photos on Tower Bridge!",
+      "why": "Ahora mismo: I'm taking photos.",
+      "g": "en-g-simple-vs-continuous"
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "I'm standing on Tower Bridge and it's raining!",
+      "es": "¡Estoy en Tower Bridge y está lloviendo!"
+    }
+  ],
+  "dialog": {
+    "title": "¿Es este London Bridge?",
+    "setting": "Yolanda habla con una señora inglesa encima de Tower Bridge",
+    "emoji": "🌉",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Excuse me, is this London Bridge?",
+        "es": "Perdone, ¿este es London Bridge?"
+      },
+      {
+        "who": "Lady",
+        "t": "No, this is Tower Bridge. Lots of people make that mistake!",
+        "es": "No, este es Tower Bridge. ¡Mucha gente se equivoca!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Oh! Where is London Bridge?",
+        "es": "¡Ah! ¿Dónde está London Bridge?"
+      },
+      {
+        "who": "Lady",
+        "t": "Over there. It's very simple. You can see it now.",
+        "es": "Allí. Es muy sencillo. Ahora lo puedes ver."
+      },
+      {
+        "who": "Yolanda",
+        "t": "I see it! I'm taking a photo for my family.",
+        "es": "¡Lo veo! Estoy haciendo una foto para mi familia."
+      },
+      {
+        "who": "Lady",
+        "t": "Are you on holiday?",
+        "es": "¿Estás de vacaciones?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I'm staying here for a week.",
+        "es": "Sí, me quedo aquí una semana."
+      },
+      {
+        "who": "Lady",
+        "t": "Lovely. Enjoy London!",
+        "es": "Qué bien. ¡Disfruta de Londres!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿En qué puente está Yolanda?",
+        "options": [
+          "Tower Bridge",
+          "London Bridge",
+          "Westminster Bridge"
+        ],
+        "answer": "Tower Bridge"
+      },
+      {
+        "q": "¿Cómo es London Bridge, según la señora?",
+        "options": [
+          "Muy sencillo",
+          "Muy alto",
+          "Muy antiguo"
+        ],
+        "answer": "Muy sencillo"
+      },
+      {
+        "q": "¿Cuánto tiempo se queda Yolanda?",
+        "options": [
+          "Una semana",
+          "Un fin de semana",
+          "Un mes"
+        ],
+        "answer": "Una semana"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "We're having a great time. I miss you!",
+    "es": "Lo estamos pasando genial. ¡Te echo de menos!",
+    "context": "Para escribir a la familia desde un viaje"
+  },
+  "summary": [
+    "Mensaje de viaje: I'm standing on… · It's raining · We're having a great time",
+    "Costumbre (usually) → presente simple; ahora (right now) → continuo",
+    "Algo temporal del viaje: We're staying in a hotel",
+    "I miss you: sentimiento, sin -ing"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u01-l5"
+}

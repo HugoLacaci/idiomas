@@ -1,0 +1,84 @@
+{
+  "id": "it-a2-u01-l5",
+  "unit": "it-a2-u01",
+  "title": "Reto: mi día en Florencia",
+  "goal": "a contar una visita completa a Florencia: qué has visto, qué has hecho y qué has comprado",
+  "emoji": "⛪",
+  "photoQuery": "florence cathedral dome skyline",
+  "vocab": [
+    { "id": "museo-la-cupola", "t": "la cupola", "es": "la cúpula", "emoji": "⛪", "pos": "n", "ex": { "t": "La cupola del Duomo è di Brunelleschi.", "es": "La cúpula de la catedral es de Brunelleschi." } },
+    { "id": "museo-il-ponte", "t": "il ponte", "es": "el puente", "emoji": "🌉", "pos": "n", "ex": { "t": "Sul Ponte Vecchio ci sono tante gioiellerie.", "es": "En el Ponte Vecchio hay muchas joyerías." } },
+    { "id": "museo-il-pittore", "t": "il pittore / la pittrice", "es": "el pintor / la pintora", "emoji": "👩‍🎨", "pos": "n", "ex": { "t": "Botticelli è un pittore fiorentino.", "es": "Botticelli es un pintor florentino." } },
+    { "id": "museo-lo-scultore", "t": "lo scultore", "es": "el escultor", "emoji": "🗿", "pos": "n", "ex": { "t": "Lo scultore del David è Michelangelo.", "es": "El escultor del David es Miguel Ángel." } },
+    { "id": "museo-il-capolavoro", "t": "il capolavoro", "es": "la obra maestra", "emoji": "🌟", "pos": "n", "ex": { "t": "Il David è un capolavoro.", "es": "El David es una obra maestra." } },
+    { "id": "museo-la-cartolina", "t": "la cartolina", "es": "la postal", "emoji": "💌", "pos": "n", "ex": { "t": "Ho comprato dieci cartoline.", "es": "He comprado diez postales." } },
+    { "id": "museo-il-ricordo", "t": "il ricordo", "es": "el recuerdo", "emoji": "🎁", "pos": "n", "ex": { "t": "Ho preso un ricordo per le mie amiche.", "es": "He cogido un recuerdo para mis amigas." } },
+    { "id": "museo-il-palazzo", "t": "il palazzo", "es": "el edificio; el palacio", "emoji": "🏢", "pos": "n", "note": "¡Ojo! Un palazzo puede ser un simple edificio de pisos.", "ex": { "t": "Abito in un palazzo di cinque piani.", "es": "Vivo en un edificio de cinco plantas." } }
+  ],
+  "grammar": "it-g-passato-prossimo-avere",
+  "pron": {
+    "title": "La z de palazzo",
+    "tip": "La doble z suena como «ts» fuerte: «pa-lat-tso». Nada de nuestra z de «zapato».",
+    "words": ["palazzo", "piazza", "pizza", "Firenze", "bellezza"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "message", "title": "Mensaje de Yolanda a sus amigas", "text": "Ciao ragazze! Oggi a Firenze abbiamo fatto tantissimo. Stamattina abbiamo visto il David: è un capolavoro! Poi abbiamo preso un caffè in piazza e abbiamo attraversato il Ponte Vecchio. Ho comprato un ricordo per voi!", "questions": [
+      { "q": "¿Qué han visto por la mañana?", "options": ["El David", "La Venus de Botticelli", "El Palacio Pitti"], "answer": "El David" },
+      { "q": "¿Qué han cruzado?", "options": ["El Ponte Vecchio", "Una plaza", "Un museo"], "answer": "El Ponte Vecchio" },
+      { "q": "¿Para quién es el recuerdo?", "options": ["Para sus amigas", "Para su marido", "Para Hugo"], "answer": "Para sus amigas" }
+    ], "why": "Abbiamo visto = hemos visto; ho comprato un ricordo per voi = he comprado un recuerdo para vosotras." },
+    { "id": "e2", "type": "choose", "q": "Stamattina ___ visto la cupola del Duomo.", "es": "Esta mañana hemos visto la cúpula de la catedral.", "options": ["abbiamo", "siamo", "hanno"], "answer": "abbiamo", "why": "Noi + vedere → abbiamo visto.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e3", "type": "choose", "q": "Ho ___ un ricordo per le mie amiche.", "es": "He cogido un recuerdo para mis amigas.", "options": ["preso", "prenduto", "prendato"], "answer": "preso", "why": "Prendere → preso.", "g": "it-g-participi-irregolari" },
+    { "id": "e4", "type": "choose", "q": "Non ho ___ visto Palazzo Pitti.", "es": "Todavía no he visto el Palacio Pitti.", "options": ["ancora", "già", "sempre"], "answer": "ancora", "why": "Todavía no = non… ancora.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e5", "type": "fill", "q": "Abbiamo ___ il Ponte Vecchio a piedi.", "es": "Hemos cruzado el Ponte Vecchio a pie.", "answer": ["attraversato"], "bank": ["attraversato", "attraversuto", "attraversate"], "why": "Attraversare (cruzar) → attraversato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e6", "type": "fill", "q": "Ho ___ dieci cartoline e ho scritto a tutti.", "es": "He comprado diez postales y he escrito a todos.", "answer": ["comprato"], "bank": ["comprato", "compruto", "compra"], "why": "Comprare → comprato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e7", "type": "fill", "q": "Le mie amiche hanno ___ mille foto in piazza.", "es": "Mis amigas han hecho mil fotos en la plaza.", "answer": ["fatto"], "hint": "fare", "why": "Fare → fatto; con avere no cambia.", "g": "it-g-participi-irregolari" },
+    { "id": "e8", "type": "error", "q": "Mio marito ha vedito il David due volte.", "wrong": "vedito", "fix": "visto", "why": "Vedere → visto.", "g": "it-g-participi-irregolari" },
+    { "id": "e9", "type": "error", "q": "Le ragazze hanno comprate tanti ricordi.", "wrong": "comprate", "fix": "comprato", "why": "Con avere el participio no concuerda: comprato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e10", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Visitiamo il Duomo e prendiamo un gelato.", "answer": ["Abbiamo visitato il Duomo e abbiamo preso un gelato.", "Abbiamo visitato il Duomo e preso un gelato."], "why": "Visitiamo → abbiamo visitato; prendiamo → abbiamo preso.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e11", "type": "order", "es": "Nunca he visto una cúpula tan grande.", "answer": "Non ho mai visto una cupola così grande", "extra": ["già"], "why": "Non + ho + mai + visto.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Hoy hemos visitado los Uffizi.", "answer": ["Oggi abbiamo visitato gli Uffizi."], "why": "Noi → abbiamo visitato.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e13", "type": "translate", "dir": "from", "q": "Il David è un capolavoro di Michelangelo.", "answer": ["El David es una obra maestra de Miguel Ángel."], "why": "Il capolavoro = la obra maestra." },
+    { "id": "e14", "type": "situation", "context": "En la plaza, un turista te pregunta si merece la pena ver la cúpula. Tú ya la has visto y te ha encantado.", "emoji": "⛪", "options": ["Sì! Io ho già visto la cupola: è bellissima.", "Sì! Io vedo già la cupola ieri.", "Sì! Io ho visto già la cupola."], "answer": "Sì! Io ho già visto la cupola: è bellissima.", "why": "Già va entre ho y visto.", "g": "it-g-passato-prossimo-avere" },
+    { "id": "e15", "type": "match", "pairs": [["la cupola", "la cúpula"], ["il ponte", "el puente"], ["il capolavoro", "la obra maestra"], ["la cartolina", "la postal"], ["il palazzo", "el edificio"]], "why": "Ojo: palazzo también es un edificio normal." },
+    { "id": "e16", "type": "conjugate", "verb": "scrivere", "person": "io", "tense": "passato prossimo", "q": "Stasera ___ una cartolina a mio figlio.", "answer": ["ho scritto"], "why": "Scrivere → scritto: ho scritto.", "g": "it-g-participi-irregolari" },
+    { "id": "e17", "type": "speak", "t": "Abbiamo visto il David e abbiamo attraversato il Ponte Vecchio.", "es": "Hemos visto el David y hemos cruzado el Ponte Vecchio." }
+  ],
+  "dialog": {
+    "title": "Cena en Florencia",
+    "setting": "En una trattoria, el camarero Paolo charla con Yolanda sobre su día",
+    "emoji": "🍝",
+    "lines": [
+      { "who": "Paolo", "t": "Buonasera! Avete visitato la città oggi?", "es": "¡Buenas noches! ¿Han visitado la ciudad hoy?" },
+      { "who": "Yolanda", "t": "Sì, abbiamo visto il Duomo e la cupola.", "es": "Sí, hemos visto la catedral y la cúpula." },
+      { "who": "Paolo", "t": "Avete visto il panorama dalla cupola?", "es": "¿Han visto las vistas desde la cúpula?" },
+      { "who": "Yolanda", "t": "No, abbiamo fatto la fila, ma c'è troppa gente!", "es": "No, hemos hecho cola, ¡pero hay demasiada gente!" },
+      { "who": "Paolo", "t": "E il Ponte Vecchio?", "es": "¿Y el Ponte Vecchio?" },
+      { "who": "Yolanda", "t": "Abbiamo attraversato il ponte due volte. Che bello!", "es": "Hemos cruzado el puente dos veces. ¡Qué bonito!" },
+      { "who": "Paolo", "t": "Lo sa? L'italiano di oggi viene dal fiorentino di Dante.", "es": "¿Sabe? El italiano de hoy viene del florentino de Dante." },
+      { "who": "Yolanda", "t": "Allora parlo l'italiano di Firenze!", "es": "¡Entonces hablo el italiano de Florencia!" }
+    ],
+    "questions": [
+      { "q": "¿Qué han visto hoy?", "options": ["La catedral y la cúpula", "El David", "Los Uffizi"], "answer": "La catedral y la cúpula" },
+      { "q": "¿Por qué no han visto las vistas desde la cúpula?", "options": ["Hay demasiada gente", "Está cerrada", "Llueve"], "answer": "Hay demasiada gente" },
+      { "q": "¿Cuántas veces han cruzado el Ponte Vecchio?", "options": ["Dos", "Una", "Ninguna"], "answer": "Dos" }
+    ]
+  },
+  "realLife": { "t": "Oggi abbiamo visto un capolavoro!", "es": "¡Hoy hemos visto una obra maestra!", "context": "Para contar con entusiasmo una visita a la familia" },
+  "same": {
+    "text": "Florencia te lo pone fácil: muchas palabras del arte son casi iguales al español.",
+    "examples": [
+      { "t": "la cupola", "es": "la cúpula" },
+      { "t": "il ponte", "es": "el puente" },
+      { "t": "lo scultore", "es": "el escultor" }
+    ]
+  },
+  "falseFriend": { "word": "il palazzo", "means": "el edificio (y también el palacio)", "looksLike": "palacio", "emoji": "🏢", "tip": "Abito in un palazzo no significa que seas una reina: vives en un bloque de pisos." },
+  "summary": [
+    "Contar una visita: abbiamo visto, abbiamo visitato, ho comprato.",
+    "Participios irregulares: fatto, preso, scritto, visto.",
+    "Già, non… ancora, non… mai en medio.",
+    "Florencia: el italiano estándar nació del florentino de Dante."
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,59 @@
+{
+  "id": "it-a1-u09-c3",
+  "unit": "it-a1-u09",
+  "title": "En el puesto de la señora Ida",
+  "setting": "Giulia te acompaña al mercado de su barrio en Roma y te deja pedir a ti",
+  "emoji": "🍅",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ecco il banco della signora Ida. Ha la frutta più buona del mercato! Chiedi tu?", "es": "Aquí está el puesto de la señora Ida. ¡Tiene la mejor fruta del mercado! ¿Pides tú?" },
+      "options": [
+        { "t": "Buongiorno! Vorrei un chilo di pomodori.", "es": "¡Buenos días! Quisiera un kilo de tomates.", "next": "n2", "ok": true },
+        { "t": "Buongiorno! Vorrei un chilo dei pomodori.", "es": "¡Buenos días! Quisiera un kilo de los tomates.", "next": "n2", "ok": false, "feedback": "Con cantidad, solo di: un chilo di pomodori." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Brava! Ida chiede: «Altro, signora?». Cosa rispondi?", "es": "¡Bien! Ida pregunta: «¿Algo más, señora?». ¿Qué respondes?" },
+      "options": [
+        { "t": "Sì, mi dà anche delle fragole?", "es": "Sí, ¿me da también unas fresas?", "next": "n3", "ok": true },
+        { "t": "Sì, mi dà anche dei fragole?", "es": "Sí, ¿me da también unas fresas?", "next": "n3", "ok": false, "feedback": "Le fragole → delle fragole." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Ida dice che le fragole sono finite, ma ci sono delle ciliegie.", "es": "Ida dice que se han acabado las fresas, pero hay cerezas." },
+      "options": [
+        { "t": "Allora prendo mezzo chilo di ciliegie.", "es": "Entonces me llevo medio kilo de cerezas.", "next": "n4", "ok": true },
+        { "t": "Allora prendo mezzo chilo di fragole.", "es": "Entonces me llevo medio kilo de fresas.", "next": "n4", "ok": false, "feedback": "¡Las fresas se han acabado! Mejor ciliegie, las cerezas." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ottimo. Vuoi anche un cocomero per stasera?", "es": "Estupendo. ¿Quieres también una sandía para esta noche?" },
+      "options": [
+        { "t": "Sì! Il cocomero d'estate è perfetto.", "es": "¡Sí! La sandía en verano es perfecta.", "next": "n5", "ok": true },
+        { "t": "No, il pepino non mi piace.", "es": "No, el pepino no me gusta.", "next": "n5", "ok": false, "feedback": "¡Ojo! Il cocomero es la sandía, no el pepino (que es il cetriolo)." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ida dice: «Sono venti euro in tutto». Va bene?", "es": "Ida dice: «Son veinte euros en total». ¿Te parece bien?" },
+      "options": [
+        { "t": "Sì, ecco. Pago in contanti.", "es": "Sí, aquí tiene. Pago en efectivo.", "next": "n6", "ok": true },
+        { "t": "Mi fa uno sconto? Compro tanta frutta!", "es": "¿Me hace un descuento? ¡Compro mucha fruta!", "next": "n6", "ok": true },
+        { "t": "Sì, ecco. Pago in contante.", "es": "Sí, aquí tiene. Pago en efectivo.", "next": "n6", "ok": false, "feedback": "En efectivo se dice in contanti, en plural." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Bravissima! Parli come una vera romana. Andiamo al bar?", "es": "¡Genial! Hablas como una auténtica romana. ¿Vamos al bar?" },
+      "options": [
+        { "t": "Sì, andiamo al bar! Offro io.", "es": "¡Sí, vamos al bar! Invito yo.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

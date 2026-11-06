@@ -1,0 +1,451 @@
+{
+  "id": "en-a1-u01-l2",
+  "unit": "en-a1-u01",
+  "title": "¿De dónde eres?",
+  "goal": "a decir de dónde eres con el verbo to be (am, is, are)",
+  "emoji": "🌍",
+  "photoQuery": "world map suitcase travel",
+  "vocab": [
+    {
+      "id": "spain",
+      "t": "Spain",
+      "es": "España",
+      "emoji": "🇪🇸",
+      "pos": "n",
+      "ex": {
+        "t": "I'm from Spain.",
+        "es": "Soy de España."
+      }
+    },
+    {
+      "id": "spanish",
+      "t": "Spanish",
+      "es": "español, española",
+      "emoji": "💃",
+      "pos": "adj",
+      "ex": {
+        "t": "I'm Spanish.",
+        "es": "Soy española."
+      },
+      "note": "En inglés, las nacionalidades y los idiomas van con mayúscula: Spanish, English."
+    },
+    {
+      "id": "the-uk",
+      "t": "the UK",
+      "es": "el Reino Unido",
+      "emoji": "🇬🇧",
+      "pos": "n",
+      "ex": {
+        "t": "Emma is from the UK.",
+        "es": "Emma es del Reino Unido."
+      }
+    },
+    {
+      "id": "british",
+      "t": "British",
+      "es": "británico, británica",
+      "emoji": "💂",
+      "pos": "adj",
+      "ex": {
+        "t": "Tom is British.",
+        "es": "Tom es británico."
+      },
+      "note": "English es solo de Inglaterra; British vale para todo el Reino Unido."
+    },
+    {
+      "id": "italy",
+      "t": "Italy",
+      "es": "Italia",
+      "emoji": "🇮🇹",
+      "pos": "n",
+      "ex": {
+        "t": "Anna is from Italy.",
+        "es": "Anna es de Italia."
+      }
+    },
+    {
+      "id": "italian",
+      "t": "Italian",
+      "es": "italiano, italiana",
+      "emoji": "🍝",
+      "pos": "adj",
+      "ex": {
+        "t": "My friend is Italian.",
+        "es": "Mi amiga es italiana."
+      }
+    },
+    {
+      "id": "france",
+      "t": "France",
+      "es": "Francia",
+      "emoji": "🇫🇷",
+      "pos": "n",
+      "ex": {
+        "t": "Pierre is from France.",
+        "es": "Pierre es de Francia."
+      }
+    },
+    {
+      "id": "french",
+      "t": "French",
+      "es": "francés, francesa",
+      "emoji": "🥐",
+      "pos": "adj",
+      "ex": {
+        "t": "Pierre is French.",
+        "es": "Pierre es francés."
+      }
+    },
+    {
+      "id": "where-are-you-from",
+      "t": "Where are you from?",
+      "es": "¿De dónde eres?",
+      "emoji": "🗺️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Hello! Where are you from?",
+        "es": "¡Hola! ¿De dónde eres?"
+      }
+    },
+    {
+      "id": "im-from",
+      "t": "I'm from…",
+      "es": "Soy de…",
+      "emoji": "📍",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm from Valencia, in Spain.",
+        "es": "Soy de Valencia, en España."
+      }
+    }
+  ],
+  "grammar": "en-g-to-be",
+  "pron": {
+    "title": "Contracciones: I'm, you're, we're",
+    "tip": "Al hablar, el inglés junta palabras: I am → I'm, you are → you're, we are → we're. Suena más natural y es lo que vas a oír siempre. ¡Ojo! we're (somos) no suena igual que were (éramos).",
+    "words": [
+      "I'm",
+      "you're",
+      "we're",
+      "they're",
+      "she's"
+    ],
+    "pairs": [
+      [
+        "we're",
+        "were"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I ___ from Spain.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer": "am",
+      "why": "Con I siempre am: I am from Spain (I'm from Spain).",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Emma ___ British.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer": "is",
+      "why": "Emma es una persona (she), así que va is.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "You ___ Spanish.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer": "are",
+      "why": "Con you siempre are, sea tú, usted o vosotros.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e4",
+      "type": "conjugate",
+      "verb": "to be",
+      "person": "we",
+      "tense": "presente",
+      "q": "We ___ from Madrid.",
+      "answer": [
+        "are"
+      ],
+      "table": [
+        [
+          "I",
+          "am"
+        ],
+        [
+          "you",
+          "are"
+        ],
+        [
+          "he / she / it",
+          "is"
+        ],
+        [
+          "we / they",
+          "are"
+        ]
+      ],
+      "why": "Con we (nosotros) va are: We are from Madrid.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I'm from Italy. I'm ___.",
+      "answer": [
+        "Italian"
+      ],
+      "bank": [
+        "Italian",
+        "Italy",
+        "French"
+      ],
+      "why": "El país es Italy; la nacionalidad, Italian. Después de I'm va la nacionalidad."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Pierre is from ___. He's French.",
+      "answer": [
+        "France"
+      ],
+      "hint": "el país",
+      "why": "Después de from va el país: from France. La nacionalidad es French."
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "¿De dónde eres?",
+      "answer": "Where are you from",
+      "extra": [
+        "is"
+      ],
+      "why": "En inglés la palabra from se queda al final: Where are you from?",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Soy de España",
+      "answer": "I am from Spain",
+      "extra": [
+        "of"
+      ],
+      "why": "«Ser de un sitio» se dice to be from, no of.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Usa la contracción",
+      "q": "I am from Spain.",
+      "answer": [
+        "I'm from Spain.",
+        "I'm from Spain"
+      ],
+      "why": "I am se junta en I'm. Es como lo dice todo el mundo al hablar.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Usa la contracción",
+      "q": "You are Spanish.",
+      "answer": [
+        "You're Spanish.",
+        "You're Spanish"
+      ],
+      "why": "You are se junta en you're.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Soy de España.",
+      "answer": [
+        "I'm from Spain.",
+        "I am from Spain."
+      ],
+      "why": "En inglés siempre hace falta el sujeto: I'm from Spain. Nunca solo «Am from Spain».",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "She are from Italy.",
+      "wrong": "are",
+      "fix": "is",
+      "why": "Con she (ella) el verbo es is: She is from Italy.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "Spain",
+          "Spanish"
+        ],
+        [
+          "Italy",
+          "Italian"
+        ],
+        [
+          "France",
+          "French"
+        ],
+        [
+          "the UK",
+          "British"
+        ],
+        [
+          "England",
+          "English"
+        ]
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "we're",
+        "were"
+      ],
+      "answer": "we're",
+      "es": [
+        "somos / estamos",
+        "éramos / estábamos"
+      ],
+      "why": "We're suena como «uía», con una vocal larga y abierta. Were suena más cerrado, casi «uer»."
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "En el aeropuerto, un señor te pregunta: «Where are you from?»",
+      "emoji": "✈️",
+      "options": [
+        "I'm from Spain.",
+        "I'm Spain.",
+        "I have Spain."
+      ],
+      "answer": "I'm from Spain.",
+      "why": "Para decir tu país: I'm from + país. O con la nacionalidad: I'm Spanish.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "I'm Yolanda. I'm from Spain.",
+      "es": "Soy Yolanda. Soy de España."
+    }
+  ],
+  "dialog": {
+    "title": "En el autobús turístico",
+    "setting": "En el piso de arriba de un autobús turístico, en Londres",
+    "emoji": "🚌",
+    "lines": [
+      {
+        "who": "Anna",
+        "t": "Hi! Is this seat free?",
+        "es": "¡Hola! ¿Está libre este asiento?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, it is.",
+        "es": "Sí, lo está."
+      },
+      {
+        "who": "Anna",
+        "t": "Thanks! I'm Anna. Where are you from?",
+        "es": "¡Gracias! Soy Anna. ¿De dónde eres?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I'm Yolanda. I'm from Spain.",
+        "es": "Soy Yolanda. Soy de España."
+      },
+      {
+        "who": "Anna",
+        "t": "Oh, lovely! I'm Italian, from Rome.",
+        "es": "¡Qué bien! Yo soy italiana, de Roma."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Rome is beautiful!",
+        "es": "¡Roma es preciosa!"
+      },
+      {
+        "who": "Anna",
+        "t": "Are you on holiday?",
+        "es": "¿Estás de vacaciones?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I am. My son is in London.",
+        "es": "Sí. Mi hijo está en Londres."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿De dónde es Anna?",
+        "options": [
+          "De Italia",
+          "De Francia",
+          "De España"
+        ],
+        "answer": "De Italia"
+      },
+      {
+        "q": "¿Está libre el asiento?",
+        "options": [
+          "Sí",
+          "No"
+        ],
+        "answer": "Sí"
+      },
+      {
+        "q": "¿Quién está en Londres?",
+        "options": [
+          "El hijo de Yolanda",
+          "La hija de Anna"
+        ],
+        "answer": "El hijo de Yolanda"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "I'm Spanish. I'm on holiday.",
+    "es": "Soy española. Estoy de vacaciones.",
+    "context": "Cuando alguien te pregunta en un viaje"
+  },
+  "summary": [
+    "To be tiene tres formas: I am, he/she/it is, you/we/they are",
+    "Decir de dónde eres: I'm from Spain (from, no of)",
+    "País y nacionalidad: Spain → Spanish, Italy → Italian",
+    "Las nacionalidades van con mayúscula: Spanish, British",
+    "Contracciones: I'm, you're, we're"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u01-l2"
+}

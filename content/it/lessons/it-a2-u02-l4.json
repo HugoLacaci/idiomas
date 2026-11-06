@@ -1,0 +1,445 @@
+{
+  "id": "it-a2-u02-l4",
+  "unit": "it-a2-u02",
+  "title": "Siamo usciti a mezzanotte",
+  "goal": "a hacer concordar el participio (andato, andata, andati, andate) y a distinguir è de e",
+  "emoji": "🎆",
+  "photoQuery": "new year fireworks over city",
+  "vocab": [
+    {
+      "id": "festa-mezzanotte",
+      "t": "la mezzanotte",
+      "es": "la medianoche",
+      "emoji": "🕛",
+      "pos": "n",
+      "ex": {
+        "t": "A mezzanotte ci siamo abbracciati tutti.",
+        "es": "A medianoche nos abrazamos todos."
+      }
+    },
+    {
+      "id": "festa-fuochi",
+      "t": "i fuochi d'artificio",
+      "es": "los fuegos artificiales",
+      "emoji": "🎇",
+      "pos": "n",
+      "ex": {
+        "t": "Siamo usciti a vedere i fuochi d'artificio.",
+        "es": "Salimos a ver los fuegos artificiales."
+      }
+    },
+    {
+      "id": "festa-cenone",
+      "t": "il cenone",
+      "es": "la gran cena de fiesta",
+      "emoji": "🍽️",
+      "pos": "n",
+      "ex": {
+        "t": "Il cenone di Capodanno è durato quattro ore.",
+        "es": "La gran cena de Nochevieja duró cuatro horas."
+      }
+    },
+    {
+      "id": "festa-lenticchie",
+      "t": "le lenticchie",
+      "es": "las lentejas",
+      "emoji": "🫘",
+      "pos": "n",
+      "ex": {
+        "t": "A Capodanno le lenticchie portano soldi.",
+        "es": "En Año Nuevo las lentejas traen dinero."
+      }
+    },
+    {
+      "id": "festa-cotechino",
+      "t": "il cotechino",
+      "es": "el cotechino (embutido para cocer)",
+      "emoji": "🌭",
+      "pos": "n",
+      "ex": {
+        "t": "Il cotechino si mangia con le lenticchie.",
+        "es": "El cotechino se come con lentejas."
+      }
+    },
+    {
+      "id": "festa-brindisi",
+      "t": "il brindisi",
+      "es": "el brindis",
+      "emoji": "🥂",
+      "pos": "n",
+      "ex": {
+        "t": "Facciamo un brindisi alla famiglia!",
+        "es": "¡Hagamos un brindis por la familia!"
+      }
+    },
+    {
+      "id": "festa-spumante",
+      "t": "lo spumante",
+      "es": "el espumoso, el cava",
+      "emoji": "🍾",
+      "pos": "n",
+      "ex": {
+        "t": "Mio marito ha aperto lo spumante.",
+        "es": "Mi marido ha abierto el espumoso."
+      }
+    },
+    {
+      "id": "festa-veglione",
+      "t": "il veglione",
+      "es": "la fiesta de Nochevieja",
+      "emoji": "💃",
+      "pos": "n",
+      "ex": {
+        "t": "Siamo andati al veglione in piazza.",
+        "es": "Fuimos a la fiesta de Nochevieja en la plaza."
+      }
+    }
+  ],
+  "grammar": "it-g-accordo-participio",
+  "pron": {
+    "title": "è (es) y e (y)",
+    "tip": "La è con acento es «es» y suena más abierta, con la boca algo más abierta. La e sin acento es «y», más cerrada. Escribe siempre el acento en è.",
+    "words": [
+      "è",
+      "e",
+      "è andata",
+      "io e te"
+    ],
+    "pairs": [
+      [
+        "è",
+        "e"
+      ],
+      [
+        "andato",
+        "andata"
+      ],
+      [
+        "tornati",
+        "tornate"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "minimal",
+      "pair": [
+        "è",
+        "e"
+      ],
+      "answer": "è",
+      "es": [
+        "es / está",
+        "y"
+      ],
+      "why": "La è (verbo) suena más abierta que la e (y)."
+    },
+    {
+      "id": "e2",
+      "type": "minimal",
+      "pair": [
+        "è andato",
+        "è andata"
+      ],
+      "answer": "è andata",
+      "es": [
+        "ha ido (él)",
+        "ha ido (ella)"
+      ],
+      "why": "Escucha la última vocal: -a es femenino.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e3",
+      "type": "minimal",
+      "pair": [
+        "sono usciti",
+        "sono uscite"
+      ],
+      "answer": "sono uscite",
+      "es": [
+        "han salido (ellos)",
+        "han salido (ellas)"
+      ],
+      "why": "-e: un grupo solo de mujeres.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Mio marito ___ uscito e io sono rimasta a casa.",
+      "es": "Mi marido ha salido y yo me he quedado en casa.",
+      "options": [
+        "è",
+        "e"
+      ],
+      "answer": "è",
+      "why": "Con acento es el verbo essere: è uscito."
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "Io ___ mio marito siamo andati al veglione.",
+      "es": "Mi marido y yo fuimos a la fiesta de Nochevieja.",
+      "options": [
+        "e",
+        "è"
+      ],
+      "answer": "e",
+      "why": "Aquí significa «y»: sin acento."
+    },
+    {
+      "id": "e6",
+      "type": "choose",
+      "q": "Le mie amiche sono ___ a mezzanotte.",
+      "es": "Mis amigas llegaron a medianoche.",
+      "options": [
+        "arrivate",
+        "arrivati",
+        "arrivata"
+      ],
+      "answer": "arrivate",
+      "why": "Le amiche: femenino plural, -e.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Io e mio marito siamo ___ a casa all'una.",
+      "es": "Mi marido y yo volvimos a casa a la una.",
+      "answer": [
+        "tornati"
+      ],
+      "bank": [
+        "tornati",
+        "tornate",
+        "tornato"
+      ],
+      "why": "Grupo mixto: masculino plural, -i.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "q": "La cena è ___ buonissima.",
+      "es": "La cena ha estado buenísima.",
+      "answer": [
+        "stata"
+      ],
+      "bank": [
+        "stata",
+        "stato",
+        "state"
+      ],
+      "why": "La cena: femenino singular.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "q": "A mezzanotte sono ___ in terrazza a vedere i fuochi.",
+      "es": "A medianoche salí a la terraza a ver los fuegos.",
+      "answer": [
+        "uscita"
+      ],
+      "hint": "uscire (habla Yolanda)",
+      "why": "Yolanda es mujer: sono uscita.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Le mie amiche sono venuti al cenone.",
+      "wrong": "venuti",
+      "fix": "venute",
+      "why": "Le amiche: femenino plural, -e.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Il cenone è stata lunghissimo.",
+      "wrong": "stata",
+      "fix": "stato",
+      "why": "Il cenone es masculino: è stato.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e12",
+      "type": "transform",
+      "instr": "Cambia el sujeto a «io e le mie amiche»",
+      "q": "Mio marito è andato al veglione.",
+      "answer": [
+        "Io e le mie amiche siamo andate al veglione."
+      ],
+      "why": "Solo mujeres: siamo andate.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e13",
+      "type": "order",
+      "es": "Mi marido y yo nos quedamos en casa.",
+      "answer": "Io e mio marito siamo rimasti a casa",
+      "alt": [
+        "Mio marito e io siamo rimasti a casa"
+      ],
+      "extra": [
+        "rimaste"
+      ],
+      "why": "Grupo mixto: rimasti.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "Mis amigas han llegado a medianoche.",
+      "answer": [
+        "Le mie amiche sono arrivate a mezzanotte.",
+        "A mezzanotte sono arrivate le mie amiche."
+      ],
+      "why": "Amiche → arrivate.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e15",
+      "type": "conjugate",
+      "verb": "nascere",
+      "person": "lei",
+      "tense": "passato prossimo",
+      "q": "Mia nipote ___ il primo gennaio.",
+      "answer": [
+        "è nata"
+      ],
+      "table": [
+        [
+          "lui",
+          "è nato"
+        ],
+        [
+          "lei",
+          "è nata"
+        ]
+      ],
+      "why": "Nascere va con essere; mia nipote → è nata.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e16",
+      "type": "situation",
+      "context": "A la una te escribe tu hijo Hugo: ¿habéis vuelto ya? Contestas por tu marido y por ti.",
+      "emoji": "📱",
+      "options": [
+        "Sì, siamo già tornati.",
+        "Sì, siamo già tornate.",
+        "Sì, abbiamo già tornato."
+      ],
+      "answer": "Sì, siamo già tornati.",
+      "why": "Tu marido y tú: grupo mixto, siamo tornati.",
+      "g": "it-g-accordo-participio"
+    }
+  ],
+  "dialog": {
+    "title": "La mañana del 1 de enero",
+    "setting": "En la recepción de un hotel de Roma, Yolanda habla con Marco",
+    "emoji": "🎆",
+    "lines": [
+      {
+        "who": "Marco",
+        "t": "Buongiorno, signora! È andata al veglione ieri sera?",
+        "es": "¡Buenos días, señora! ¿Fue a la fiesta de Nochevieja anoche?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, io e mio marito siamo andati in un ristorante in piazza.",
+        "es": "Sí, mi marido y yo fuimos a un restaurante en la plaza."
+      },
+      {
+        "who": "Marco",
+        "t": "E com'è stato il cenone?",
+        "es": "¿Y qué tal la cena?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Buonissimo! Abbiamo mangiato cotechino e lenticchie.",
+        "es": "¡Buenísima! Comimos cotechino y lentejas."
+      },
+      {
+        "who": "Marco",
+        "t": "Siete rimasti lì fino a mezzanotte?",
+        "es": "¿Se quedaron allí hasta medianoche?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, e poi siamo usciti a vedere i fuochi d'artificio.",
+        "es": "Sí, y luego salimos a ver los fuegos artificiales."
+      },
+      {
+        "who": "Marco",
+        "t": "A che ora siete tornati?",
+        "es": "¿A qué hora volvieron?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Alle tre! Sono andata a letto stanchissima.",
+        "es": "¡A las tres! Me fui a la cama cansadísima."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Dónde cenaron?",
+        "options": [
+          "En un restaurante en la plaza",
+          "En el hotel",
+          "En casa de unos amigos"
+        ],
+        "answer": "En un restaurante en la plaza"
+      },
+      {
+        "q": "¿Qué comieron?",
+        "options": [
+          "Cotechino y lentejas",
+          "Pizza",
+          "Pescado"
+        ],
+        "answer": "Cotechino y lentejas"
+      },
+      {
+        "q": "¿A qué hora volvieron?",
+        "options": [
+          "A las tres",
+          "A medianoche",
+          "A la una"
+        ],
+        "answer": "A las tres"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Siamo arrivati bene!",
+    "es": "¡Hemos llegado bien!",
+    "context": "Para avisar a la familia por WhatsApp de que habéis llegado"
+  },
+  "same": {
+    "text": "Igual que en español, el participio con essere se comporta como un adjetivo: cambia con quien habla.",
+    "examples": [
+      {
+        "t": "Sono stanca. / Sono arrivata.",
+        "es": "Estoy cansada. / He llegado."
+      },
+      {
+        "t": "Siamo contenti. / Siamo usciti.",
+        "es": "Estamos contentos. / Hemos salido."
+      }
+    ]
+  },
+  "summary": [
+    "Con essere el participio concuerda: andato, andata, andati, andate.",
+    "Yolanda dice sono andata; un grupo mixto, siamo andati; solo mujeres, siamo andate.",
+    "Con avere no cambia: abbiamo mangiato.",
+    "è (con acento) = es; e = y."
+  ],
+  "reviewed": false,
+  "photo": "it-a2-u02-l4"
+}

@@ -1,0 +1,395 @@
+{
+  "id": "en-a2-u08-l3",
+  "unit": "en-a2-u08",
+  "title": "En la farmacia",
+  "goal": "a pedir ayuda en la farmacia y a distinguir mustn't (prohibido) de don't have to (no hace falta)",
+  "emoji": "💊",
+  "photoQuery": "pharmacy shelves medicine boxes",
+  "vocab": [
+    {
+      "id": "doc-chemists",
+      "t": "the chemist's",
+      "es": "la farmacia",
+      "emoji": "🏪",
+      "pos": "n",
+      "ex": {
+        "t": "Is there a chemist's near here?",
+        "es": "¿Hay una farmacia por aquí cerca?"
+      },
+      "note": "También: pharmacy. En EE. UU.: drugstore."
+    },
+    {
+      "id": "doc-pharmacist",
+      "t": "the pharmacist",
+      "es": "el farmacéutico, la farmacéutica",
+      "emoji": "👨‍⚕️",
+      "pos": "n",
+      "ex": {
+        "t": "Ask the pharmacist for advice.",
+        "es": "Pide consejo al farmacéutico."
+      }
+    },
+    {
+      "id": "doc-whats-the-matter",
+      "t": "What's the matter?",
+      "es": "¿Qué te pasa?",
+      "emoji": "❓",
+      "pos": "phrase",
+      "ex": {
+        "t": "What's the matter? You look pale.",
+        "es": "¿Qué te pasa? Estás pálida."
+      }
+    },
+    {
+      "id": "doc-something-for",
+      "t": "Have you got something for…?",
+      "es": "¿Tiene algo para…?",
+      "emoji": "🙏",
+      "pos": "phrase",
+      "ex": {
+        "t": "Have you got something for a cough?",
+        "es": "¿Tiene algo para la tos?"
+      }
+    },
+    {
+      "id": "doc-tablets",
+      "t": "tablets",
+      "es": "pastillas, comprimidos",
+      "emoji": "💊",
+      "pos": "n",
+      "ex": {
+        "t": "Take these tablets with water.",
+        "es": "Tómese estas pastillas con agua."
+      }
+    },
+    {
+      "id": "doc-plasters",
+      "t": "plasters",
+      "es": "tiritas",
+      "emoji": "🩹",
+      "pos": "n",
+      "ex": {
+        "t": "I need some plasters for my feet.",
+        "es": "Necesito tiritas para los pies."
+      },
+      "note": "En EE. UU.: Band-Aids."
+    },
+    {
+      "id": "doc-allergic",
+      "t": "I'm allergic to…",
+      "es": "soy alérgica a…",
+      "emoji": "🌼",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm allergic to some medicines.",
+        "es": "Soy alérgica a algunos medicamentos."
+      },
+      "note": "Suena «alérchik»."
+    },
+    {
+      "id": "doc-get-well-soon",
+      "t": "Get well soon!",
+      "es": "¡Que te mejores!",
+      "emoji": "💐",
+      "pos": "phrase",
+      "ex": {
+        "t": "Get well soon! Love, Mum.",
+        "es": "¡Que te mejores! Un beso, mamá."
+      }
+    }
+  ],
+  "grammar": "en-g-must-have-to",
+  "pron": {
+    "title": "mustn't: la t que desaparece",
+    "tip": "En mustn't la primera t no se pronuncia: suena «másnt». Y don't have to suena «dount háfta».",
+    "words": [
+      "mustn't",
+      "don't have to",
+      "chemist's",
+      "pharmacist",
+      "allergic"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "You ___ smoke in the chemist's. It's forbidden.",
+      "options": [
+        "mustn't",
+        "don't have to"
+      ],
+      "answer": "mustn't",
+      "why": "Está prohibido: mustn't.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "You ___ pay for this leaflet. It's free.",
+      "options": [
+        "don't have to",
+        "mustn't"
+      ],
+      "answer": "don't have to",
+      "why": "Es gratis, no hace falta pagar: don't have to.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "She ___ have an appointment. She can just walk in.",
+      "options": [
+        "doesn't have to",
+        "mustn't",
+        "don't have to"
+      ],
+      "answer": "doesn't have to",
+      "why": "No es necesario, y con she: doesn't have to.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "You ___ use your mobile in the waiting room.",
+      "options": [
+        "mustn't",
+        "don't have to"
+      ],
+      "answer": "mustn't",
+      "why": "Es una prohibición: mustn't.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Have you got something ___ a sore throat?",
+      "es": "¿Tiene algo para el dolor de garganta?",
+      "answer": [
+        "for"
+      ],
+      "bank": [
+        "for",
+        "to",
+        "of"
+      ],
+      "why": "Algo para… = something for…"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I'm allergic ___ penicillin.",
+      "es": "Soy alérgica a la penicilina.",
+      "answer": [
+        "to"
+      ],
+      "bank": [
+        "to",
+        "at",
+        "of"
+      ],
+      "why": "Alérgica a = allergic to."
+    },
+    {
+      "id": "e7",
+      "type": "situation",
+      "context": "Entras en una farmacia en Bath. La farmacéutica te dice: «Hello, what's the matter?» Te duele la cabeza.",
+      "emoji": "💊",
+      "options": [
+        "I've got a headache. Have you got something for it?",
+        "I'm constipated. Have you got tissues?",
+        "I must to buy a medicine."
+      ],
+      "answer": "I've got a headache. Have you got something for it?",
+      "why": "Dices el síntoma y pides algo para él."
+    },
+    {
+      "id": "e8",
+      "type": "situation",
+      "context": "Tienes ampollas en los pies después de caminar mucho.",
+      "emoji": "🩹",
+      "options": [
+        "I need some plasters, please.",
+        "I need some plastics, please.",
+        "I need a prescription for my feet."
+      ],
+      "answer": "I need some plasters, please.",
+      "why": "Tiritas = plasters."
+    },
+    {
+      "id": "e9",
+      "type": "match",
+      "pairs": [
+        [
+          "mustn't",
+          "está prohibido"
+        ],
+        [
+          "don't have to",
+          "no hace falta"
+        ],
+        [
+          "must",
+          "tienes que (lo digo yo)"
+        ],
+        [
+          "have to",
+          "tienes que (es la norma)"
+        ]
+      ],
+      "why": "Mustn't prohíbe; don't have to dice que no es necesario.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Hazla negativa (= no hace falta)",
+      "q": "You have to wait.",
+      "answer": [
+        "You don't have to wait.",
+        "You do not have to wait."
+      ],
+      "why": "No hace falta = don't have to.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "I have to bring my passport.",
+      "answer": [
+        "Do I have to bring my passport?",
+        "Do I have to bring my passport"
+      ],
+      "why": "Pregunta con have to: Do I have to…?",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "My husband don't have to work today.",
+      "wrong": "don't",
+      "fix": "doesn't",
+      "why": "Con he/she la negativa es doesn't have to.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e13",
+      "type": "order",
+      "es": "¿Tengo que pagar?",
+      "answer": "Do I have to pay",
+      "extra": [
+        "must"
+      ],
+      "why": "Do + I + have to + verbo.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "No hace falta que vengas.",
+      "answer": [
+        "You don't have to come.",
+        "You do not have to come."
+      ],
+      "why": "No hace falta = don't have to.",
+      "g": "en-g-must-have-to"
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Have you got something for a cough?",
+      "es": "¿Tiene algo para la tos?"
+    }
+  ],
+  "dialog": {
+    "title": "En la farmacia",
+    "setting": "Yolanda entra en una farmacia de Bath con tos. Le atiende el farmacéutico, Mr Patel",
+    "emoji": "💊",
+    "lines": [
+      {
+        "who": "Mr Patel",
+        "t": "Hello. What's the matter?",
+        "es": "Hola. ¿Qué le pasa?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I've got a cough and a sore throat.",
+        "es": "Tengo tos y me duele la garganta."
+      },
+      {
+        "who": "Mr Patel",
+        "t": "Are you allergic to anything?",
+        "es": "¿Es alérgica a algo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, I'm not. Do I have to see a doctor?",
+        "es": "No. ¿Tengo que ir al médico?"
+      },
+      {
+        "who": "Mr Patel",
+        "t": "No, you don't have to. Try this syrup.",
+        "es": "No, no hace falta. Pruebe este jarabe."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Thank you. Do I have to keep it in the fridge?",
+        "es": "Gracias. ¿Tengo que guardarlo en la nevera?"
+      },
+      {
+        "who": "Mr Patel",
+        "t": "No, you don't. But you mustn't leave it in the sun.",
+        "es": "No, no hace falta. Pero no debe dejarlo al sol."
+      },
+      {
+        "who": "Yolanda",
+        "t": "In England? That's easy!",
+        "es": "¿En Inglaterra? ¡Eso es fácil!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué le pasa a Yolanda?",
+        "options": [
+          "Tiene tos y dolor de garganta",
+          "Le duele la cabeza",
+          "Tiene fiebre"
+        ],
+        "answer": "Tiene tos y dolor de garganta"
+      },
+      {
+        "q": "¿Tiene que ir al médico?",
+        "options": [
+          "No, no hace falta",
+          "Sí, hoy mismo",
+          "Sí, mañana"
+        ],
+        "answer": "No, no hace falta"
+      },
+      {
+        "q": "¿Dónde no debe dejar el jarabe?",
+        "options": [
+          "Al sol",
+          "En la nevera",
+          "En el bolso"
+        ],
+        "answer": "Al sol"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Have you got something for a cough?",
+    "es": "¿Tiene algo para la tos?",
+    "context": "Para pedir ayuda en una farmacia de viaje"
+  },
+  "summary": [
+    "the chemist's = la farmacia; the pharmacist = el farmacéutico",
+    "mustn't = está prohibido: You mustn't smoke",
+    "don't have to = no hace falta: You don't have to pay",
+    "Have you got something for…? / I'm allergic to…"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u08-l3"
+}

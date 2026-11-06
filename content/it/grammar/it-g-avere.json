@@ -1,0 +1,124 @@
+{
+  "id": "it-g-avere",
+  "lang": "it",
+  "level": "A1",
+  "title": "El verbo avere (tener)",
+  "short": "Ho, hai, ha… para tener hijos, años, hambre o prisa.",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "🤲",
+      "title": "Avere = tener",
+      "text": "Avere es «tener». Lo vas a usar a todas horas: para la familia, la edad, el hambre, el frío…",
+      "examples": [
+        { "t": "Ho un figlio.", "es": "Tengo un hijo.", "hl": "Ho" },
+        { "t": "Hai fame?", "es": "¿Tienes hambre?", "hl": "Hai" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "📋",
+      "title": "Las seis formas",
+      "text": "Es irregular, pero corto. Léelo en voz alta un par de veces.",
+      "table": {
+        "head": ["Persona", "Avere", "Español"],
+        "rows": [
+          ["io", "==ho==", "tengo"],
+          ["tu", "==hai==", "tienes"],
+          ["lui / lei / Lei", "==ha==", "tiene"],
+          ["noi", "==abbiamo==", "tenemos"],
+          ["voi", "==avete==", "tenéis"],
+          ["loro", "==hanno==", "tienen"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "emoji": "🤫",
+      "title": "La h no suena",
+      "text": "Ho suena «o», ha suena «a», hanno suena «an-no». La h solo sirve para distinguir: ==ho== (tengo) y o (o), ==ha== (tiene) y a (a)."
+    },
+    {
+      "kind": "compare",
+      "emoji": "🎂",
+      "title": "La edad, como en español",
+      "text": "¡Buena noticia! La edad se dice con avere, igual que nosotros con «tener».",
+      "examples": [
+        { "t": "La mia vicina ha ottantasei anni.", "es": "Mi vecina tiene ochenta y seis años.", "hl": "ha" },
+        { "t": "Quanti anni hai?", "es": "¿Cuántos años tienes?", "hl": "hai" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "emoji": "🥶",
+      "title": "Hambre, sed, frío…",
+      "text": "Estas también van con avere, como en español: avere ==fame==, ==sete==, ==freddo==, ==caldo==, ==fretta==, ==sonno==.",
+      "examples": [
+        { "t": "Ho sete.", "es": "Tengo sed." },
+        { "t": "I bambini hanno sonno.", "es": "Los niños tienen sueño." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo!",
+      "text": "❌ Tengo fame → ✅ ==Ho== fame (tenere es «sujetar»). ❌ abiamo → ✅ a==bb==iamo. ❌ hano → ✅ ha==nn==o."
+    },
+    {
+      "kind": "tip",
+      "emoji": "🙋‍♀️",
+      "title": "De usted",
+      "text": "Para hablar de usted usa la forma de «lei»: Signora, ==ha== un momento? Y para preguntar en una tienda, «voi»: ==Avete== cornetti?"
+    }
+  ],
+  "compare": {
+    "es": "Tengo un hijo. ¿Cuántos años tienes? Tengo sed y tengo prisa.",
+    "target": "Ho un figlio. Quanti anni hai? Ho sete e ho fretta. Igual que en español, pero con el verbo avere y la h que no suena."
+  },
+  "errors": [
+    { "wrong": "Tengo fame.", "right": "Ho fame.", "why": "En italiano «tener» es avere. Tenere existe, pero significa «sujetar, guardar»." },
+    { "wrong": "Io o due figli.", "right": "Io ho due figli.", "why": "Ho (tengo) se escribe con h, aunque no suene; «o» sin h significa «o»." },
+    { "wrong": "Noi abiamo una casa.", "right": "Noi abbiamo una casa.", "why": "Abbiamo lleva doble b: ab-bia-mo." },
+    { "wrong": "Loro hano fretta.", "right": "Loro hanno fretta.", "why": "Hanno lleva doble n, y se nota al pronunciarla: an-no." },
+    { "wrong": "Signora, hai un momento?", "right": "Signora, ha un momento?", "why": "De usted (Lei) se usa la forma de tercera persona: ha." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "conjugate", "verb": "avere", "person": "io", "tense": "presente", "q": "Io ___ un figlio.", "answer": ["ho"], "why": "Con io: ho, con h aunque no suene.", "g": "it-g-avere" },
+    { "id": "e2", "type": "conjugate", "verb": "avere", "person": "tu", "tense": "presente", "q": "Tu ___ un gatto?", "answer": ["hai"], "why": "Con tu: hai.", "g": "it-g-avere" },
+    { "id": "e3", "type": "conjugate", "verb": "avere", "person": "lei", "tense": "presente", "q": "Mia sorella ___ tre figli.", "answer": ["ha"], "why": "Mia sorella = lei, así que ha.", "g": "it-g-avere" },
+    { "id": "e4", "type": "conjugate", "verb": "avere", "person": "noi", "tense": "presente", "q": "Noi ___ una casa al mare.", "answer": ["abbiamo"], "why": "Con noi: abbiamo, con doble b.", "g": "it-g-avere" },
+    { "id": "e5", "type": "conjugate", "verb": "avere", "person": "voi", "tense": "presente", "q": "Voi ___ fame?", "answer": ["avete"], "why": "Con voi: avete.", "g": "it-g-avere" },
+    { "id": "e6", "type": "conjugate", "verb": "avere", "person": "loro", "tense": "presente", "q": "I figli di Giulia ___ sei e tre anni.", "answer": ["hanno"], "why": "I figli di Giulia = loro: hanno, con doble n.", "g": "it-g-avere", "table": [["io", "ho"], ["tu", "hai"], ["lui/lei", "ha"], ["noi", "abbiamo"], ["voi", "avete"], ["loro", "hanno"]] },
+    { "id": "e7", "type": "conjugate", "verb": "avere", "person": "Lei (usted)", "tense": "presente", "q": "Signora, Lei ___ il biglietto?", "answer": ["ha"], "why": "Lei (usted) va con la forma de tercera persona: ha.", "g": "it-g-avere" },
+    { "id": "e8", "type": "choose", "q": "Hugo ___ un esame domani.", "options": ["ha", "hai", "ho"], "answer": "ha", "why": "Hugo = lui, y con lui se dice ha.", "g": "it-g-avere" },
+    { "id": "e9", "type": "choose", "q": "Io ___ sete. Un'acqua, per favore.", "options": ["ho", "o", "ha"], "answer": "ho", "why": "Tengo = ho, con h. «O» sin h significa «o».", "g": "it-g-avere" },
+    { "id": "e10", "type": "choose", "q": "Tu e Paolo ___ figli?", "options": ["avete", "abbiamo", "hanno"], "answer": "avete", "why": "Tu e Paolo = voi, así que avete.", "g": "it-g-avere" },
+    { "id": "e11", "type": "choose", "q": "Io e mia sorella ___ fretta.", "options": ["abbiamo", "avete", "hanno"], "answer": "abbiamo", "why": "Io e mia sorella = noi: abbiamo.", "g": "it-g-avere" },
+    { "id": "e12", "type": "choose", "q": "Scusi, ___ un minuto?", "es": "(A una señora, de usted)", "options": ["ha", "hai", "ho"], "answer": "ha", "why": "De usted se usa la forma de lei: ha.", "g": "it-g-avere" },
+    { "id": "e13", "type": "fill", "q": "Ho ___: vorrei un panino.", "answer": ["fame"], "bank": ["fame", "sete", "freddo"], "why": "Si pides un bocadillo, tienes hambre: ho fame.", "g": "it-g-avere" },
+    { "id": "e14", "type": "fill", "q": "Ho ___: chiudo la finestra.", "answer": ["freddo"], "bank": ["freddo", "caldo", "fame"], "why": "Cierras la ventana porque tienes frío: ho freddo.", "g": "it-g-avere" },
+    { "id": "e15", "type": "fill", "q": "Ho ___, il treno parte adesso!", "answer": ["fretta"], "bank": ["fretta", "sete", "sonno"], "why": "Si el tren sale ya, tienes prisa: ho fretta.", "g": "it-g-avere" },
+    { "id": "e16", "type": "fill", "q": "Loro ___ una pizzeria a Napoli.", "answer": ["hanno"], "why": "Con loro: hanno, con h y doble n.", "g": "it-g-avere" },
+    { "id": "e17", "type": "fill", "q": "Quanti anni ___, signora?", "answer": ["ha"], "why": "De usted (signora) se dice ha.", "g": "it-g-avere" },
+    { "id": "e18", "type": "fill", "q": "Quanti anni ___ tuo nipote?", "answer": ["ha"], "why": "Tuo nipote = lui: ha.", "g": "it-g-avere" },
+    { "id": "e19", "type": "error", "q": "Io o un figlio.", "wrong": "o", "fix": "ho", "why": "Tengo se escribe ho, con h.", "g": "it-g-avere" },
+    { "id": "e20", "type": "error", "q": "Noi abiamo fame.", "wrong": "abiamo", "fix": "abbiamo", "why": "Abbiamo lleva doble b.", "g": "it-g-avere" },
+    { "id": "e21", "type": "error", "q": "I bambini hano sonno.", "wrong": "hano", "fix": "hanno", "why": "Hanno lleva doble n.", "g": "it-g-avere" },
+    { "id": "e22", "type": "error", "q": "Tengo fame, mangiamo?", "wrong": "Tengo", "fix": "Ho", "why": "«Tener hambre» es avere fame: ho fame.", "g": "it-g-avere" },
+    { "id": "e23", "type": "error", "q": "Signora, hai un momento?", "wrong": "hai", "fix": "ha", "why": "De usted (Lei) se dice ha, no hai.", "g": "it-g-avere" },
+    { "id": "e24", "type": "transform", "instr": "Cámbiala a «noi»", "q": "Ho una casa in campagna.", "answer": ["Abbiamo una casa in campagna", "Noi abbiamo una casa in campagna"], "why": "Ho (io) pasa a abbiamo (noi).", "g": "it-g-avere" },
+    { "id": "e25", "type": "transform", "instr": "Hazla negativa", "q": "Ho fame.", "answer": ["Non ho fame"], "why": "Para negar, non delante del verbo: non ho fame.", "g": "it-g-avere" },
+    { "id": "e26", "type": "transform", "instr": "Pregúntaselo a una amiga (tu)", "q": "Ho tempo.", "answer": ["Hai tempo?", "Hai tempo"], "why": "Con tu: hai. La pregunta es igual, solo cambia la entonación.", "g": "it-g-avere" },
+    { "id": "e27", "type": "transform", "instr": "Cámbiala a «loro»", "q": "Lei ha due cani.", "answer": ["Loro hanno due cani", "Hanno due cani"], "why": "Ha (lei) pasa a hanno (loro).", "g": "it-g-avere" },
+    { "id": "e28", "type": "order", "es": "Tengo un hijo.", "answer": "Ho un figlio", "extra": ["Sono"], "why": "Tener = avere: ho.", "g": "it-g-avere" },
+    { "id": "e29", "type": "order", "es": "¿Tienes hambre?", "answer": "Hai fame", "extra": ["Sei"], "why": "Tener hambre es avere fame; con tu, hai.", "g": "it-g-avere" },
+    { "id": "e30", "type": "order", "es": "Mi hijo tiene un examen hoy.", "answer": "Mio figlio ha un esame oggi", "why": "Mio figlio = lui: ha.", "g": "it-g-avere" },
+    { "id": "e31", "type": "translate", "dir": "to", "q": "Tengo sed.", "answer": ["Ho sete", "Io ho sete"], "why": "Tener sed = avere sete.", "g": "it-g-avere" },
+    { "id": "e32", "type": "translate", "dir": "to", "q": "¿Cuántos años tienes?", "answer": ["Quanti anni hai?", "Quanti anni hai"], "why": "La edad va con avere, como en español: quanti anni hai?", "g": "it-g-avere" },
+    { "id": "e33", "type": "translate", "dir": "from", "q": "Abbiamo fretta.", "answer": ["Tenemos prisa", "Tenemos prisa."], "why": "Abbiamo = tenemos; fretta = prisa.", "g": "it-g-avere" },
+    { "id": "e34", "type": "situation", "context": "Hace mucho calor en Pompeya y quieres decir que tienes calor.", "emoji": "🥵", "options": ["Ho caldo.", "Sono caldo.", "Ho freddo."], "answer": "Ho caldo.", "why": "Tener calor = avere caldo. Freddo es frío.", "g": "it-g-avere" },
+    { "id": "e35", "type": "situation", "context": "En una cafetería preguntas si tienen cornetti (hablas al local, en plural).", "emoji": "🥐", "options": ["Avete cornetti?", "Hanno cornetti?", "Abbiamo cornetti?"], "answer": "Avete cornetti?", "why": "A los del bar les hablas como voi: avete?", "g": "it-g-avere" },
+    { "id": "e36", "type": "match", "pairs": [["io", "ho"], ["tu", "hai"], ["lei", "ha"], ["noi", "abbiamo"], ["loro", "hanno"]], "why": "Las formas de avere: ho, hai, ha, abbiamo, avete, hanno.", "g": "it-g-avere" }
+  ],
+  "reviewed": false
+}

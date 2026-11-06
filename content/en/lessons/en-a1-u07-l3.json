@@ -1,0 +1,101 @@
+{
+  "id": "en-a1-u07-l3",
+  "unit": "en-a1-u07",
+  "title": "¿Y a qué se dedica?",
+  "goal": "a preguntar y contar cómo es el trabajo de otra persona",
+  "emoji": "🗣️",
+  "photoQuery": "colleagues coffee break office kitchen",
+  "vocab": [
+    { "id": "what-does-she-do", "t": "What does she do?", "es": "¿A qué se dedica (ella)?", "emoji": "❓", "pos": "phrase",
+      "ex": { "t": "Your sister? What does she do?", "es": "¿Tu hermana? ¿A qué se dedica?" } },
+    { "id": "where-does-he-work", "t": "Where does he work?", "es": "¿Dónde trabaja (él)?", "emoji": "📍", "pos": "phrase",
+      "ex": { "t": "Where does he work? — In a bank.", "es": "¿Dónde trabaja? — En un banco." } },
+    { "id": "works-part-time", "t": "works part-time", "es": "trabaja a media jornada", "emoji": "🕐", "pos": "phrase",
+      "ex": { "t": "My neighbour works part-time.", "es": "Mi vecina trabaja a media jornada." } },
+    { "id": "works-long-hours", "t": "works long hours", "es": "trabaja muchas horas", "emoji": "⏳", "pos": "phrase",
+      "ex": { "t": "A nurse often works long hours.", "es": "Una enfermera trabaja a menudo muchas horas." } },
+    { "id": "a-colleague", "t": "a colleague", "es": "un compañero / una compañera de trabajo", "emoji": "🤝", "pos": "n",
+      "ex": { "t": "Her colleagues are very nice.", "es": "Sus compañeros de trabajo son muy majos." },
+      "note": "Acento al principio: COLleague." },
+    { "id": "a-boss", "t": "a boss", "es": "un jefe / una jefa", "emoji": "👔", "pos": "n",
+      "ex": { "t": "His boss is very kind.", "es": "Su jefe es muy amable." } },
+    { "id": "loves-his-job", "t": "He loves his job.", "es": "Le encanta su trabajo.", "emoji": "❤️", "pos": "phrase",
+      "ex": { "t": "My brother loves his job.", "es": "A mi hermano le encanta su trabajo." } },
+    { "id": "success", "t": "success", "es": "el éxito", "emoji": "🏆", "pos": "n",
+      "ex": { "t": "Her new shop is a success.", "es": "Su tienda nueva es un éxito." },
+      "note": "¡Ojo, falso amigo! success = éxito. «Suceso» se dice event." },
+    { "id": "exit", "t": "exit", "es": "salida", "emoji": "🚪", "pos": "n",
+      "ex": { "t": "The exit is on the left.", "es": "La salida está a la izquierda." },
+      "note": "¡Ojo, falso amigo! exit = salida, no «éxito»." }
+  ],
+  "grammar": "en-g-present-simple-3rd",
+  "pron": {
+    "title": "Preguntas que bajan",
+    "tip": "Las preguntas con what, where o when bajan el tono al final, al revés que en español: «What does she DO ↘». Las preguntas de sí o no suben: «Does she work? ↗».",
+    "words": ["What does she do?", "Where does he work?", "Does she work?"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "What ___ your sister do?", "options": ["does", "do", "is"], "answer": "does",
+      "why": "Your sister = she: What does she do?", "g": "en-g-do-does" },
+    { "id": "e2", "type": "choose", "q": "Her new café is a big ___.", "es": "Su nueva cafetería es un gran éxito.", "options": ["success", "exit", "event"], "answer": "success",
+      "why": "Éxito = success. ¡No confundas con exit (salida)!" },
+    { "id": "e3", "type": "choose", "q": "Where is the ___? I want to go out.", "es": "¿Dónde está la salida? Quiero salir.", "options": ["exit", "success", "boss"], "answer": "exit",
+      "why": "Salida = exit." },
+    { "id": "e4", "type": "fill", "q": "My neighbour works ___. Only in the mornings.", "es": "Mi vecina trabaja a media jornada. Solo por las mañanas.", "answer": ["part-time", "part time"], "bank": ["part-time", "long hours", "a boss"],
+      "why": "A media jornada = part-time." },
+    { "id": "e5", "type": "fill", "q": "My brother ___ his job.", "es": "A mi hermano le encanta su trabajo.", "answer": ["loves"],
+      "why": "My brother = he: loves, con -s.", "g": "en-g-present-simple-3rd" },
+    { "id": "e6", "type": "match", "pairs": [["a boss", "un jefe"], ["a colleague", "un compañero de trabajo"], ["success", "éxito"], ["exit", "salida"], ["part-time", "a media jornada"]],
+      "why": "Vocabulario del trabajo y dos falsos amigos." },
+    { "id": "e7", "type": "situation", "context": "Una amiga inglesa te habla de su hijo. Quieres saber dónde trabaja.", "emoji": "📍",
+      "options": ["Where does he work?", "Where he works?", "Where do he work?"], "answer": "Where does he work?",
+      "why": "Where + does + he + work (sin -s).", "g": "en-g-do-does" },
+    { "id": "e8", "type": "situation", "context": "Ves un cartel en el metro. Buscas la salida.", "emoji": "🚇",
+      "options": ["EXIT", "SUCCESS", "ENTRANCE"], "answer": "EXIT",
+      "why": "Exit = salida; entrance = entrada." },
+    { "id": "e9", "type": "error", "q": "My friend work long hours in the hospital.", "wrong": "work", "fix": "works",
+      "why": "My friend = she/he: works.", "g": "en-g-present-simple-3rd" },
+    { "id": "e10", "type": "order", "es": "Su jefa es muy amable", "answer": "Her boss is very kind", "extra": ["His"],
+      "why": "Her = de ella. Kind = amable.", "g": "en-g-possessive-adj" },
+    { "id": "e11", "type": "transform", "instr": "Empieza con «She»", "q": "I work part-time in a shop.", "answer": ["She works part-time in a shop."],
+      "why": "Con she: works.", "g": "en-g-present-simple-3rd" },
+    { "id": "e12", "type": "translate", "dir": "from", "q": "He works long hours but he loves his job.", "answer": ["Trabaja muchas horas, pero le encanta su trabajo.", "Trabaja muchas horas pero le encanta su trabajo."],
+      "why": "Works long hours = trabaja muchas horas." },
+    { "id": "e13", "type": "reading", "kind": "email", "title": "Un email de Emma",
+      "text": "Hi Yolanda,\nMy brother Tom has a new job. He's a chef in a restaurant in Camden. He works long hours, but he loves it. His colleagues are great and the restaurant is a big success!\nEmma",
+      "questions": [
+        { "q": "¿Qué es Tom?", "options": ["Cocinero", "Camarero", "Jefe de una tienda"], "answer": "Cocinero" },
+        { "q": "¿Cómo son sus compañeros?", "options": ["Estupendos", "Antipáticos", "No los conoce"], "answer": "Estupendos" },
+        { "q": "¿Qué significa «a big success»?", "options": ["Un gran éxito", "Una gran salida", "Un gran suceso"], "answer": "Un gran éxito" }
+      ] },
+    { "id": "e14", "type": "speak", "t": "What does she do? Where does she work?", "es": "¿A qué se dedica? ¿Dónde trabaja?" }
+  ],
+  "dialog": {
+    "title": "Hablando del trabajo",
+    "setting": "Emma y Yolanda toman un café en Camden",
+    "emoji": "☕",
+    "lines": [
+      { "who": "Emma", "t": "My sister has a new job.", "es": "Mi hermana tiene trabajo nuevo." },
+      { "who": "Yolanda", "t": "Great! What does she do?", "es": "¡Genial! ¿A qué se dedica?" },
+      { "who": "Emma", "t": "She's a hairdresser.", "es": "Es peluquera." },
+      { "who": "Yolanda", "t": "Where does she work?", "es": "¿Dónde trabaja?" },
+      { "who": "Emma", "t": "In a salon near the market.", "es": "En una peluquería cerca del mercado." },
+      { "who": "Yolanda", "t": "Does she work full-time?", "es": "¿Trabaja a jornada completa?" },
+      { "who": "Emma", "t": "No, part-time. But she loves her boss.", "es": "No, a media jornada. Pero le encanta su jefa." },
+      { "who": "Yolanda", "t": "That's a success, then!", "es": "¡Pues eso es un éxito!" }
+    ],
+    "questions": [
+      { "q": "¿Qué trabajo tiene la hermana de Emma?", "options": ["Peluquera", "Médica", "Camarera"], "answer": "Peluquera" },
+      { "q": "¿Dónde está la peluquería?", "options": ["Cerca del mercado", "En el hospital", "En el centro"], "answer": "Cerca del mercado" },
+      { "q": "¿Cuántas horas trabaja?", "options": ["Media jornada", "Jornada completa", "Muchas horas"], "answer": "Media jornada" }
+    ]
+  },
+  "realLife": { "t": "Where's the exit, please?", "es": "¿Dónde está la salida, por favor?", "context": "Para encontrar la salida en el metro, un museo o un centro comercial" },
+  "summary": [
+    "Preguntar por un trabajo: What does she do? Where does he work?",
+    "Part-time (media jornada), long hours (muchas horas)",
+    "a boss (jefe), a colleague (compañero)",
+    "Falsos amigos: success = éxito; exit = salida"
+  ],
+  "reviewed": false
+}

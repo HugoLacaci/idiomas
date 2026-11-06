@@ -1,0 +1,59 @@
+{
+  "id": "en-a1-u05-c1",
+  "unit": "en-a1-u05",
+  "title": "¿Cuánto cuesta?",
+  "setting": "Emma trabaja hoy en un puesto de tartas del mercado de Greenwich y tú vas a comprar.",
+  "emoji": "🧁",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hello, Yolanda! Welcome to my cake stall!", "es": "¡Hola, Yolanda! ¡Bienvenida a mi puesto de tartas!" },
+      "options": [
+        { "t": "Hi, Emma! How much is the lemon cake?", "es": "¡Hola, Emma! ¿Cuánto cuesta la tarta de limón?", "next": "n2", "ok": true },
+        { "t": "Hi, Emma! How many is the lemon cake?", "es": "¡Hola, Emma! ¿Cuánto cuesta la tarta de limón?", "next": "n2", "ok": false, "feedback": "Para preguntar el precio se usa How much. How many es para contar cosas." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "A slice is three pounds fifty.", "es": "Una porción cuesta tres libras cincuenta." },
+      "options": [
+        { "t": "OK. Two slices, please.", "es": "Vale. Dos porciones, por favor.", "next": "n3", "ok": true },
+        { "t": "OK. Two slice, please.", "es": "Vale. Dos porciones, por favor.", "next": "n3", "ok": false, "feedback": "Dos porciones: plural, two slices." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "That's seven pounds. Anything else?", "es": "Son siete libras. ¿Algo más?" },
+      "options": [
+        { "t": "Yes, a cup of tea. How much is it?", "es": "Sí, una taza de té. ¿Cuánto es?", "next": "n4", "ok": true },
+        { "t": "Yes, a cup of tea. How much it is?", "es": "Sí, una taza de té. ¿Cuánto es?", "next": "n4", "ok": false, "feedback": "En la pregunta el verbo va antes: How much is it?" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Tea is ninety p. So, seven pounds ninety in total.", "es": "El té cuesta noventa peniques. Así que son siete libras noventa en total." },
+      "options": [
+        { "t": "Sorry, seven pounds nineteen?", "es": "Perdona, ¿siete libras diecinueve?", "next": "n5", "ok": true },
+        { "t": "Here you are: seven pounds and ninety pences.", "es": "Aquí tienes: siete libras y noventa peniques.", "next": "n5", "ok": false, "feedback": "Pence ya es plural: nunca «pences». Y no hace falta and: seven pounds ninety." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "No, ninety. NINE-ty. Nine, oh.", "es": "No, noventa. NO-venta. Nueve, cero." },
+      "options": [
+        { "t": "Ah, ninety! Can I pay by card?", "es": "¡Ah, noventa! ¿Puedo pagar con tarjeta?", "next": "n6", "ok": true },
+        { "t": "Ah, ninety! Can I pay with card?", "es": "¡Ah, noventa! ¿Puedo pagar con tarjeta?", "next": "n6", "ok": false, "feedback": "Pagar con tarjeta se dice pay by card." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Of course. Enjoy your cake!", "es": "¡Claro! ¡Que disfrutes de la tarta!" },
+      "options": [
+        { "t": "Thank you, Emma. See you later!", "es": "Gracias, Emma. ¡Hasta luego!", "next": "end", "ok": true },
+        { "t": "Thank you, Emma. See you lately!", "es": "Gracias, Emma. ¡Hasta luego!", "next": "end", "ok": false, "feedback": "Hasta luego = See you later. Lately significa «últimamente»." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

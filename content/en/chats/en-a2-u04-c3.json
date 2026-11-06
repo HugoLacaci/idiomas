@@ -1,0 +1,61 @@
+{
+  "id": "en-a2-u04-c3",
+  "unit": "en-a2-u04",
+  "title": "Un domingo en familia",
+  "setting": "Emma quiere saber qué hiciste el domingo con la familia.",
+  "emoji": "🍲",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! Tell me about your Sunday.", "es": "¡Hola, Yolanda! Cuéntame tu domingo." },
+      "options": [
+        { "t": "My son and my grandson visited me.", "es": "Vinieron a verme mi hijo y mi nieto.", "next": "n2", "ok": true },
+        { "t": "My son and my grandson was visit me.", "es": "Vinieron a verme mi hijo y mi nieto.", "next": "n2", "ok": false, "feedback": "Pasado simple sin was: they visited me." },
+        { "t": "My son and my grandson visit me.", "es": "Vinieron a verme mi hijo y mi nieto.", "next": "n2", "ok": false, "feedback": "Hablas del domingo pasado: visited." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "How nice! And what about lunch?", "es": "¡Qué bien! ¿Y la comida?" },
+      "options": [
+        { "t": "Yes! I cooked a big paella.", "es": "¡Sí! Hice una paella enorme.", "next": "n3", "ok": true },
+        { "t": "Yes! I cookeded a big paella.", "es": "¡Sí! Hice una paella enorme.", "next": "n3", "ok": false, "feedback": "Solo una -ed: cooked (suena «kukt»)." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Yum! And after lunch?", "es": "¡Qué rico! ¿Y después de comer?" },
+      "options": [
+        { "t": "We walked in the park and played football.", "es": "Paseamos por el parque y jugamos al fútbol.", "next": "n4", "ok": true },
+        { "t": "We were walk in the park and play football.", "es": "Paseamos por el parque y jugamos al fútbol.", "next": "n4", "ok": false, "feedback": "Sin were: we walked… and played." },
+        { "t": "We walked in the park and plaied football.", "es": "Paseamos por el parque y jugamos al fútbol.", "next": "n4", "ok": false, "feedback": "Vocal + y: played, no plaied." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "You played football? Brilliant!", "es": "¿Jugaste al fútbol? ¡Genial!" },
+      "options": [
+        { "t": "Well, I watched. My grandson played!", "es": "Bueno, yo miraba. ¡Jugaba mi nieto!", "next": "n5", "ok": true },
+        { "t": "Well, I watch. My grandson play!", "es": "Bueno, yo miraba. ¡Jugaba mi nieto!", "next": "n5", "ok": false, "feedback": "En pasado: I watched, he played." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ha ha! Was everything calm?", "es": "¡Ja, ja! ¿Estuvo todo tranquilo?" },
+      "options": [
+        { "t": "Not really. My son and grandson argued about the TV!", "es": "No mucho. ¡Mi hijo y mi nieto discutieron por la tele!", "next": "n6", "ok": true },
+        { "t": "Not really. My son and grandson discussed about the TV!", "es": "No mucho. ¡Mi hijo y mi nieto discutieron por la tele!", "next": "n6", "ok": false, "feedback": "Discutir enfadados es argue. Discuss es hablar de un tema con calma (y sin about)." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ha ha! Typical Sunday!", "es": "¡Ja, ja! ¡El típico domingo!" },
+      "options": [
+        { "t": "Yes, but I loved it!", "es": "¡Sí, pero me encantó!", "next": "end", "ok": true },
+        { "t": "Yes, but I was love it!", "es": "¡Sí, pero me encantó!", "next": "end", "ok": false, "feedback": "Me encantó = I loved it, sin was." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

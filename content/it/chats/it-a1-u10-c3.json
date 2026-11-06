@@ -1,0 +1,58 @@
+{
+  "id": "it-a1-u10-c3",
+  "unit": "it-a1-u10",
+  "title": "¿Conoces Catania?",
+  "setting": "Giulia te escribe por WhatsApp mientras estás de viaje en Catania",
+  "emoji": "🌋",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda! Sei a Catania? Com'è l'albergo?", "es": "¡Hola, Yolanda! ¿Estás en Catania? ¿Qué tal el hotel?" },
+      "options": [
+        { "t": "Bellissimo! La camera ha un balcone sul mare.", "es": "¡Precioso! La habitación tiene un balcón al mar.", "next": "n2", "ok": true },
+        { "t": "Bellissimo! La camera fa belle foto.", "es": "¡Precioso! La habitación hace fotos bonitas.", "next": "n2", "ok": false, "feedback": "Camera es la habitación, no la cámara de fotos (macchina fotografica)." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che bello! Tu conosci già Catania?", "es": "¡Qué bien! ¿Tú ya conoces Catania?" },
+      "options": [
+        { "t": "No, non la conosco. È la prima volta.", "es": "No, no la conozco. Es la primera vez.", "next": "n3", "ok": true },
+        { "t": "No, non la so. È la prima volta.", "es": "No, no la sé. Es la primera vez.", "next": "n3", "ok": false, "feedback": "Una ciudad se conoce: non la conosco (conoscere)." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Allora devi provare la granita con la brioche!", "es": "¡Entonces tienes que probar el granizado con brioche!" },
+      "options": [
+        { "t": "Sì! Sai dove posso mangiarla?", "es": "¡Sí! ¿Sabes dónde puedo comerlo?", "next": "n4", "ok": true },
+        { "t": "Sì! Conosci dove posso mangiarla?", "es": "¡Sí! ¿Conoces dónde puedo comerlo?", "next": "n4", "ok": false, "feedback": "Con dove (dónde) se usa sapere: sai dove…?" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "In tutti i bar del centro! E domani cosa volete fare?", "es": "¡En todos los bares del centro! ¿Y mañana qué queréis hacer?" },
+      "options": [
+        { "t": "Vogliamo fare una gita sull'Etna.", "es": "Queremos hacer una excursión al Etna.", "next": "n5", "ok": true },
+        { "t": "Vogliono fare una gita sull'Etna.", "es": "Quieren hacer una excursión al Etna.", "next": "n5", "ok": false, "feedback": "Hablas de ti y tu marido: noi vogliamo." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ottima idea! Ma dovete portare una giacca: in alto fa freddo.", "es": "¡Muy buena idea! Pero tenéis que llevar una chaqueta: arriba hace frío." },
+      "options": [
+        { "t": "Grazie! Allora dobbiamo portare una giacca.", "es": "¡Gracias! Entonces tenemos que llevar una chaqueta.", "next": "n6", "ok": true },
+        { "t": "Grazie! Abbiamo che portare una giacca.", "es": "¡Gracias! Tenemos que llevar una chaqueta.", "next": "n6", "ok": false, "feedback": "Tener que = dovere: dobbiamo portare una giacca." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Mandami una foto del vulcano! Buona gita!", "es": "¡Mándame una foto del volcán! ¡Buena excursión!" },
+      "options": [
+        { "t": "Certo! Un bacio, Giulia!", "es": "¡Claro! ¡Un beso, Giulia!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

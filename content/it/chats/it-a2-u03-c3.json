@@ -1,0 +1,59 @@
+{
+  "id": "it-a2-u03-c3",
+  "unit": "it-a2-u03",
+  "title": "Giulia te llama después de Pisa",
+  "setting": "Por la noche, después de tu excursión a Pisa, suena el teléfono",
+  "emoji": "🗼",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Drin drin!", "es": "¡Ring, ring! (suena el teléfono)" },
+      "options": [
+        { "t": "Pronto?", "es": "¿Diga?", "next": "n2", "ok": true },
+        { "t": "Presto?", "es": "¿Diga?", "next": "n2", "ok": false, "feedback": "Al teléfono se dice Pronto? Presto es «temprano»." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Ciao Yolanda, sono Giulia! Vi siete divertiti a Pisa?", "es": "¡Hola, Yolanda, soy Giulia! ¿Os lo pasasteis bien en Pisa?" },
+      "options": [
+        { "t": "Sì, ci siamo divertiti tantissimo!", "es": "¡Sí, nos lo pasamos genial!", "next": "n3", "ok": true },
+        { "t": "Sì, si siamo divertiti tantissimo!", "es": "¡Sí, nos lo pasamos genial!", "next": "n3", "ok": false, "feedback": "Noi → ci siamo divertiti." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Vi siete fatti la classica foto con la torre?", "es": "¿Os hicisteis la típica foto con la torre?" },
+      "options": [
+        { "t": "Certo! Mio marito si è fatto mille foto.", "es": "¡Claro! Mi marido se hizo mil fotos.", "next": "n4", "ok": true },
+        { "t": "Certo! Mio marito si ha fatto mille foto.", "es": "¡Claro! Mi marido se hizo mil fotos.", "next": "n4", "ok": false, "feedback": "Reflexivo en pasado: si è fatto." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Lo sai che la torre si è inclinata già nel Medioevo?", "es": "¿Sabes que la torre ya se inclinó en la Edad Media?" },
+      "options": [
+        { "t": "Sì, durante la costruzione, nel XII secolo!", "es": "¡Sí, durante la construcción, en el siglo XII!", "next": "n5", "ok": true },
+        { "t": "No, la torre si è inclinata l'anno scorso.", "es": "No, la torre se inclinó el año pasado.", "next": "n5", "ok": false, "feedback": "¡Qué va! Empezó a inclinarse ya mientras la construían, en el siglo XII." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Brava! Sarai stanca. Ti sei riposata?", "es": "¡Muy bien! Estarás cansada. ¿Has descansado?" },
+      "options": [
+        { "t": "Sì, mi sono seduta in piazza un'ora.", "es": "Sí, me senté una hora en la plaza.", "next": "n6", "ok": true },
+        { "t": "Sì, mi sono seduto in piazza un'ora.", "es": "Sí, me senté una hora en la plaza.", "next": "n6", "ok": false, "feedback": "Eres mujer: mi sono seduta." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Allora adesso vai a dormire. Buonanotte!", "es": "Pues ahora vete a dormir. ¡Buenas noches!" },
+      "options": [
+        { "t": "Sì, mi metto il pigiama e vado a letto. Buonanotte!", "es": "Sí, me pongo el pijama y me voy a la cama. ¡Buenas noches!", "next": "end", "ok": true },
+        { "t": "Sì, metto il pigiama e mi vado a letto. Buonanotte!", "es": "Sí, me pongo el pijama y me voy a la cama. ¡Buenas noches!", "next": "end", "ok": false, "feedback": "Al revés: mi metto il pigiama (reflexivo) y vado a letto (sin mi)." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

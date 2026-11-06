@@ -1,0 +1,42 @@
+{
+  "id": "en-a1-u02-c3",
+  "unit": "en-a1-u02",
+  "title": "En Buckingham Palace",
+  "setting": "Vas con Emma, tus nietos y el hijo de tu vecina a ver el cambio de guardia",
+  "emoji": "💂",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "Look at the guards! Their hats are so tall!", "es": "¡Mira los guardias! ¡Qué gorros tan altos!" },
+      "options": [
+        { "t": "Wow! Kids, look at their hats!", "es": "¡Hala! Niños, ¡mirad sus gorros!", "next": "n2", "ok": true },
+        { "t": "Wow! Kids, look at there hats!", "es": "(¡Hala! Niños, ¡mirad allí gorros!)", "next": "n2", "ok": false, "feedback": "«Sus» (de ellos) se escribe their; there es «allí»." }
+      ] },
+    { "id": "n2", "says": { "t": "Is that boy your grandson?", "es": "¿Ese niño es tu nieto?" },
+      "options": [
+        { "t": "No, he's my neighbour's son.", "es": "No, es el hijo de mi vecina.", "next": "n3", "ok": true },
+        { "t": "No, he's my neighbour son.", "es": "(No, es mi vecina hijo.)", "next": "n3", "ok": false, "feedback": "Falta la 's: my neighbour's son (el hijo de mi vecina)." },
+        { "t": "No, he's the son of my neighbour's.", "es": "(No, es el hijo de de mi vecina.)", "next": "n3", "ok": false, "feedback": "O una cosa o la otra. Lo natural: my neighbour's son." }
+      ] },
+    { "id": "n3", "says": { "t": "He's lovely. Has he got a camera?", "es": "Es un encanto. ¿Tiene cámara?" },
+      "options": [
+        { "t": "Yes, he has. It's his dad's camera.", "es": "Sí. Es la cámara de su padre.", "next": "n4", "ok": true },
+        { "t": "Yes, he have.", "es": "(Sí, él tengo.)", "next": "n4", "ok": false, "feedback": "Con he: Yes, he has." }
+      ] },
+    { "id": "n4", "says": { "t": "Look! The king's flag is on the palace.", "es": "¡Mira! La bandera del rey está en el palacio." },
+      "options": [
+        { "t": "So the king is at home today!", "es": "¡Entonces el rey está hoy en casa!", "next": "n5", "ok": true },
+        { "t": "So the king has at home today!", "es": "(¡Entonces el rey tiene en casa!)", "next": "n5", "ok": false, "feedback": "Estar en un sitio = to be: the king is at home." }
+      ] },
+    { "id": "n5", "says": { "t": "Exactly! Are your grandchildren hungry?", "es": "¡Exacto! ¿Tus nietos tienen hambre?" },
+      "options": [
+        { "t": "Yes, they are. They're very hungry!", "es": "Sí. ¡Tienen mucha hambre!", "next": "n6", "ok": true },
+        { "t": "Yes, they have hungry.", "es": "(Sí, tienen hambre.)", "next": "n6", "ok": false, "feedback": "Tener hambre = to be hungry: Yes, they are." }
+      ] },
+    { "id": "n6", "says": { "t": "I've got sandwiches in my bag!", "es": "¡Tengo bocadillos en el bolso!" },
+      "options": [
+        { "t": "Thank you, Emma! You're very kind.", "es": "¡Gracias, Emma! Eres muy amable.", "next": "end", "ok": true },
+        { "t": "Thank you, Emma! Your very kind.", "es": "(¡Gracias, Emma! Tu muy amable.)", "next": "end", "ok": false, "feedback": "Eres = you're (you are). Your significa «tu»." }
+      ] }
+  ],
+  "reviewed": false
+}

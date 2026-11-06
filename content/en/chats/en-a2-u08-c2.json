@@ -1,0 +1,59 @@
+{
+  "id": "en-a2-u08-c2",
+  "unit": "en-a2-u08",
+  "title": "En la consulta",
+  "setting": "Hoy Emma hace de médica de cabecera en la consulta de Bath. Entras y te sientas para contarle qué te pasa.",
+  "emoji": "🩺",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hello, come in. Please sit down. What seems to be the problem?", "es": "Hola, pase. Siéntese, por favor. ¿Qué le ocurre?" },
+      "options": [
+        { "t": "I've got a sore throat and a headache.", "es": "Me duele la garganta y la cabeza.", "next": "n2", "ok": true },
+        { "t": "I have pain of throat and head.", "es": "Tengo dolor de garganta y cabeza.", "next": "n2", "ok": false, "feedback": "En inglés: I've got a sore throat and a headache." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "When did it start?", "es": "¿Cuándo empezó?" },
+      "options": [
+        { "t": "Three days ago. I feel very tired.", "es": "Hace tres días. Estoy muy cansada.", "next": "n3", "ok": true },
+        { "t": "Before three days. I feel very tired.", "es": "Hace tres días. Estoy muy cansada.", "next": "n3", "ok": false, "feedback": "Hace tres días = three days ago (ago va detrás)." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Let me check your throat. Say «aah». Hmm, it's a bit red.", "es": "Déjeme mirarle la garganta. Diga «aah». Mmm, está un poco roja." },
+      "options": [
+        { "t": "Is it serious? What should I do?", "es": "¿Es grave? ¿Qué debería hacer?", "next": "n4", "ok": true },
+        { "t": "Is it serious? What I should do?", "es": "¿Es grave? ¿Qué debería hacer?", "next": "n4", "ok": false, "feedback": "En la pregunta, should va delante de I: What should I do?" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "No, it's just a cold. You should rest and drink lots of water.", "es": "No, es solo un resfriado. Debería descansar y beber mucha agua." },
+      "options": [
+        { "t": "OK. Should I stay in bed?", "es": "Vale. ¿Debería quedarme en la cama?", "next": "n5", "ok": true },
+        { "t": "OK. Do I should stay in bed?", "es": "Vale. ¿Debería quedarme en la cama?", "next": "n5", "ok": false, "feedback": "Should no usa do: Should I stay in bed?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Not all day. But you shouldn't go sightseeing for two days.", "es": "No todo el día. Pero no debería hacer turismo durante dos días." },
+      "options": [
+        { "t": "Oh no! Do I have to take any medicine?", "es": "¡Ay, no! ¿Tengo que tomar alguna medicina?", "next": "n6", "ok": true },
+        { "t": "Oh no! Must I to take any medicine?", "es": "¡Ay, no! ¿Tengo que tomar alguna medicina?", "next": "n6", "ok": false, "feedback": "Sin to después de must. Lo más natural: Do I have to take any medicine?" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "You don't have to. Ask the pharmacist if your throat hurts a lot.", "es": "No hace falta. Pregunte al farmacéutico si le duele mucho la garganta." },
+      "options": [
+        { "t": "Thank you, doctor. You're very kind.", "es": "Gracias, doctora. Es usted muy amable.", "next": "end", "ok": true },
+        { "t": "Thank you, doctor. You're very sympathetic.", "es": "Gracias, doctora. Es usted muy simpática.", "next": "end", "ok": false, "feedback": "Sympathetic es comprensiva. No está mal, pero para «amable / simpática» lo natural es kind o nice." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

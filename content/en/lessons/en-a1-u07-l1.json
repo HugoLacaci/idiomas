@@ -1,0 +1,438 @@
+{
+  "id": "en-a1-u07-l1",
+  "unit": "en-a1-u07",
+  "title": "¿En qué trabaja?",
+  "goal": "a nombrar trabajos y lugares de trabajo para hablar de otras personas",
+  "emoji": "💼",
+  "photoQuery": "busy workplace office desk",
+  "vocab": [
+    {
+      "id": "a-doctor",
+      "t": "a doctor",
+      "es": "un médico / una médica",
+      "emoji": "🩺",
+      "pos": "n",
+      "ex": {
+        "t": "My friend is a doctor.",
+        "es": "Mi amiga es médica."
+      }
+    },
+    {
+      "id": "a-hairdresser",
+      "t": "a hairdresser",
+      "es": "un peluquero / una peluquera",
+      "emoji": "💇‍♀️",
+      "pos": "n",
+      "ex": {
+        "t": "My hairdresser works on Saturdays.",
+        "es": "Mi peluquera trabaja los sábados."
+      }
+    },
+    {
+      "id": "a-waiter",
+      "t": "a waiter / a waitress",
+      "es": "un camarero / una camarera",
+      "emoji": "🧑‍🍳",
+      "pos": "n",
+      "ex": {
+        "t": "The waiter brings the menu.",
+        "es": "El camarero trae la carta."
+      }
+    },
+    {
+      "id": "a-bus-driver",
+      "t": "a bus driver",
+      "es": "un conductor de autobús",
+      "emoji": "🚌",
+      "pos": "n",
+      "ex": {
+        "t": "He's a bus driver in London.",
+        "es": "Es conductor de autobús en Londres."
+      }
+    },
+    {
+      "id": "an-engineer",
+      "t": "an engineer",
+      "es": "un ingeniero / una ingeniera",
+      "emoji": "👷",
+      "pos": "n",
+      "ex": {
+        "t": "She's an engineer.",
+        "es": "Es ingeniera."
+      },
+      "note": "Acento al final: engiNEER."
+    },
+    {
+      "id": "a-hospital",
+      "t": "a hospital",
+      "es": "un hospital",
+      "emoji": "🏥",
+      "pos": "n",
+      "ex": {
+        "t": "The nurse works in a hospital.",
+        "es": "La enfermera trabaja en un hospital."
+      },
+      "note": "La h sí suena, como un suspiro."
+    },
+    {
+      "id": "an-office",
+      "t": "an office",
+      "es": "una oficina",
+      "emoji": "🏢",
+      "pos": "n",
+      "ex": {
+        "t": "My sister works in an office.",
+        "es": "Mi hermana trabaja en una oficina."
+      }
+    },
+    {
+      "id": "a-factory",
+      "t": "a factory",
+      "es": "una fábrica",
+      "emoji": "🏭",
+      "pos": "n",
+      "ex": {
+        "t": "The factory is near the river.",
+        "es": "La fábrica está cerca del río."
+      }
+    },
+    {
+      "id": "a-job",
+      "t": "a job",
+      "es": "un trabajo, un empleo",
+      "emoji": "💼",
+      "pos": "n",
+      "ex": {
+        "t": "My grandson wants a summer job.",
+        "es": "Mi nieto quiere un trabajo de verano."
+      }
+    },
+    {
+      "id": "works-from-home",
+      "t": "works from home",
+      "es": "trabaja desde casa",
+      "emoji": "🏠",
+      "pos": "phrase",
+      "ex": {
+        "t": "My friend works from home on Fridays.",
+        "es": "Mi amiga trabaja desde casa los viernes."
+      }
+    }
+  ],
+  "grammar": "en-g-present-simple-3rd",
+  "pron": {
+    "title": "El acento de los trabajos",
+    "tip": "Cada palabra inglesa tiene una sílaba fuerte. Casi todas van al principio: DOCtor, OFfice, HOSpital, FACtory. Pero engineer va al final: engiNEER.",
+    "words": [
+      "doctor",
+      "office",
+      "hospital",
+      "factory",
+      "engineer",
+      "hairdresser"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "a doctor",
+          "un médico"
+        ],
+        [
+          "a hairdresser",
+          "una peluquera"
+        ],
+        [
+          "a waiter",
+          "un camarero"
+        ],
+        [
+          "an engineer",
+          "una ingeniera"
+        ],
+        [
+          "a bus driver",
+          "un conductor de autobús"
+        ]
+      ],
+      "why": "Profesiones con a o an."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "She's ___ engineer.",
+      "es": "Es ingeniera.",
+      "options": [
+        "a",
+        "an"
+      ],
+      "answer": "an",
+      "why": "Engineer empieza por vocal: an engineer.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "A doctor works in ___.",
+      "options": [
+        "a hospital",
+        "a factory",
+        "a school"
+      ],
+      "answer": "a hospital",
+      "why": "Los médicos trabajan en un hospital."
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "My brother ___ in an office.",
+      "es": "Mi hermano trabaja en una oficina.",
+      "options": [
+        "work",
+        "works"
+      ],
+      "answer": "works",
+      "why": "My brother = he: works, con -s.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "My friend is a ___. She cuts my hair.",
+      "es": "Mi amiga es peluquera. Me corta el pelo.",
+      "answer": [
+        "hairdresser"
+      ],
+      "bank": [
+        "hairdresser",
+        "doctor",
+        "waiter"
+      ],
+      "why": "Quien corta el pelo: a hairdresser."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "He drives a red bus. He's a bus ___.",
+      "es": "Conduce un autobús rojo. Es conductor de autobús.",
+      "answer": [
+        "driver"
+      ],
+      "why": "Drive = conducir; driver = conductor."
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "My neighbour is engineer.",
+      "wrong": "engineer",
+      "fix": "an engineer",
+      "why": "Las profesiones llevan a/an: an engineer.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "My daughter work in a hospital.",
+      "wrong": "work",
+      "fix": "works",
+      "why": "My daughter = she: works.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Mi amiga trabaja desde casa",
+      "answer": "My friend works from home",
+      "extra": [
+        "in"
+      ],
+      "why": "Trabajar desde casa = work from home.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "Ella es camarera.",
+      "answer": [
+        "She's a waitress.",
+        "She is a waitress.",
+        "She's a waitress"
+      ],
+      "why": "Camarera = waitress, con a delante.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e11",
+      "type": "situation",
+      "context": "Una señora inglesa te pregunta en qué trabaja tu vecino. Trabaja en una fábrica.",
+      "emoji": "🏭",
+      "options": [
+        "He works in a factory.",
+        "He work in a factory.",
+        "He is work in a factory."
+      ],
+      "answer": "He works in a factory.",
+      "why": "He + works (con -s), sin is.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e12",
+      "type": "conjugate",
+      "verb": "to work",
+      "person": "she",
+      "tense": "presente simple",
+      "q": "She ___ in a shop in the town centre.",
+      "answer": [
+        "works"
+      ],
+      "table": [
+        [
+          "I / you / we / they",
+          "work"
+        ],
+        [
+          "he / she / it",
+          "works"
+        ]
+      ],
+      "why": "Con she: works.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e13",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de una amiga",
+      "text": "Hi Yolanda! My daughter has a new job. She's a waitress in a café near the beach. She works in the mornings and she loves it!",
+      "questions": [
+        {
+          "q": "¿En qué trabaja la hija?",
+          "options": [
+            "Camarera",
+            "Médica",
+            "Peluquera"
+          ],
+          "answer": "Camarera"
+        },
+        {
+          "q": "¿Dónde está la cafetería?",
+          "options": [
+            "Cerca de la playa",
+            "En el centro",
+            "En el hospital"
+          ],
+          "answer": "Cerca de la playa"
+        },
+        {
+          "q": "¿Cuándo trabaja?",
+          "options": [
+            "Por las mañanas",
+            "Por las noches",
+            "Los fines de semana"
+          ],
+          "answer": "Por las mañanas"
+        }
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "speak",
+      "t": "My sister works in an office.",
+      "es": "Mi hermana trabaja en una oficina."
+    }
+  ],
+  "dialog": {
+    "title": "En la sala de espera",
+    "setting": "En la sala de espera de un centro de salud en Londres",
+    "emoji": "🩺",
+    "lines": [
+      {
+        "who": "Margaret",
+        "t": "Are you on holiday here?",
+        "es": "¿Está aquí de vacaciones?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, I'm visiting my friend.",
+        "es": "No, estoy visitando a una amiga."
+      },
+      {
+        "who": "Margaret",
+        "t": "Oh, lovely! What does she do?",
+        "es": "¡Qué bien! ¿A qué se dedica?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "She's an engineer. She works in an office.",
+        "es": "Es ingeniera. Trabaja en una oficina."
+      },
+      {
+        "who": "Margaret",
+        "t": "My daughter is a doctor here.",
+        "es": "Mi hija es médica aquí."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Really? In this hospital?",
+        "es": "¿De verdad? ¿En este hospital?"
+      },
+      {
+        "who": "Margaret",
+        "t": "Yes! She works very long hours.",
+        "es": "¡Sí! Trabaja muchísimas horas."
+      },
+      {
+        "who": "Yolanda",
+        "t": "My friend works from home on Fridays.",
+        "es": "Mi amiga trabaja desde casa los viernes."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué hace Yolanda en Londres?",
+        "options": [
+          "Visita a una amiga",
+          "Trabaja",
+          "Está de vacaciones"
+        ],
+        "answer": "Visita a una amiga"
+      },
+      {
+        "q": "¿Qué es la hija de Margaret?",
+        "options": [
+          "Médica",
+          "Ingeniera",
+          "Camarera"
+        ],
+        "answer": "Médica"
+      },
+      {
+        "q": "¿Cuándo trabaja desde casa la amiga de Yolanda?",
+        "options": [
+          "Los viernes",
+          "Los lunes",
+          "Nunca"
+        ],
+        "answer": "Los viernes"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "What does your son do?",
+    "es": "¿A qué se dedica tu hijo?",
+    "context": "Para preguntar por el trabajo de alguien de la familia"
+  },
+  "summary": [
+    "Trabajos con a/an: a doctor, an engineer",
+    "Lugares: a hospital, an office, a factory",
+    "Con he/she el verbo lleva -s: he works, she works",
+    "Trabajar desde casa: work from home",
+    "Acento: DOCtor, OFfice, pero engiNEER"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u07-l1"
+}

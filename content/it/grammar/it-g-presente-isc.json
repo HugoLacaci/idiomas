@@ -1,0 +1,131 @@
+{
+  "id": "it-g-presente-isc",
+  "lang": "it",
+  "level": "A1",
+  "title": "Verbos en -ire con -isc- (capisco, finisco)",
+  "short": "Algunos verbos en -ire meten -isc- en casi todas las personas: capisco, capisci, capisce…",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "¡Capisco!",
+      "emoji": "💡",
+      "text": "Seguro que has oído **capisco** (entiendo). Capire es un verbo en -ire, pero mete un trocito extra: **-isc-**. Hay unos cuantos así, ¡y son muy útiles!",
+      "examples": [
+        { "t": "Non ==capisco==, può ripetere?", "es": "No entiendo, ¿puede repetir?", "hl": "capisco" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Capire (entender)",
+      "emoji": "📋",
+      "text": "El **-isc-** aparece en io, tu, lui/lei y loro. En **noi** y **voi**, ¡desaparece!",
+      "table": {
+        "head": ["Persona", "capire", "finire (terminar)"],
+        "rows": [
+          ["io", "cap==isc==o", "fin==isc==o"],
+          ["tu", "cap==isc==i", "fin==isc==i"],
+          ["lui / lei / Lei", "cap==isc==e", "fin==isc==e"],
+          ["noi", "cap==iamo==", "fin==iamo=="],
+          ["voi", "cap==ite==", "fin==ite=="],
+          ["loro", "cap==isc==ono", "fin==isc==ono"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Los más útiles",
+      "emoji": "⭐",
+      "text": "**capire** (entender), **finire** (terminar), **preferire** (preferir), **pulire** (limpiar), **spedire** (enviar por correo). Hay que aprenderlos de memoria.",
+      "examples": [
+        { "t": "==Preferisco== il tè.", "es": "Prefiero el té.", "hl": "Preferisco" },
+        { "t": "Il sabato ==pulisco== la casa.", "es": "Los sábados limpio la casa.", "hl": "pulisco" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Cómo suena el -isc-",
+      "emoji": "👂",
+      "text": "Ante **o**: «sk» → capi==sco==, capi==scono==. Ante **i / e**: «sh» → capi==sci==, capi==sce==.",
+      "examples": [
+        { "t": "Io capisco, tu capisci.", "es": "Yo entiendo, tú entiendes.", "hl": "capisci" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "En español «preferir» cambia la raíz (prefiero). En italiano la raíz no cambia: se añade ==-isc==: prefer==isc==o.",
+      "examples": [
+        { "t": "Mio figlio ==preferisce== il riso.", "es": "Mi hijo prefiere el arroz.", "hl": "preferisce" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "Errores típicos",
+      "emoji": "⚠️",
+      "text": "Olvidar el -isc- o ponerlo en noi y voi.",
+      "examples": [
+        { "t": "❌ io capo → ✅ io ==capisco==", "es": "yo entiendo", "hl": "capisco" },
+        { "t": "❌ noi capisciamo → ✅ noi ==capiamo==", "es": "nosotros entendemos", "hl": "capiamo" },
+        { "t": "❌ io prefiero → ✅ io ==preferisco==", "es": "yo prefiero", "hl": "preferisco" }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Truco",
+      "emoji": "💡",
+      "text": "Piensa en una «bota»: io, tu, lui y loro van **dentro** (con -isc-); noi y voi se quedan **fuera** (sin -isc-). ¡Igual que en «quiero, quieres… queremos»!",
+      "examples": [
+        { "t": "Finisco alle cinque. Finiamo insieme?", "es": "Termino a las cinco. ¿Terminamos juntas?", "hl": "Finisco" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "Entender / preferir: entiendo, entiendes… entendemos (la raíz cambia en algunas personas).",
+    "target": "Capire / preferire: capisco, capisci, capisce, capiamo, capite, capiscono. El -isc- va en todas menos noi y voi."
+  },
+  "errors": [
+    { "wrong": "io capo", "right": "io capisco", "why": "Capire lleva -isc- en io: capisco." },
+    { "wrong": "noi finisciamo", "right": "noi finiamo", "why": "En noi y voi no hay -isc-." },
+    { "wrong": "io prefiero", "right": "io preferisco", "why": "En italiano la raíz no cambia: prefer-isc-o." },
+    { "wrong": "loro capino", "right": "loro capiscono", "why": "Loro también lleva -isc-: capiscono." },
+    { "wrong": "voi pulisciete", "right": "voi pulite", "why": "Voi va sin -isc-, como un verbo en -ire normal." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Scusi, non ___.", "es": "Perdone, no entiendo.", "options": ["capo", "capisco", "capiamo"], "answer": "capisco", "why": "Capire con io lleva -isc-: capisco.", "g": "it-g-presente-isc" },
+    { "id": "e2", "type": "choose", "q": "Io ___ il vino rosso.", "es": "Prefiero el vino tinto.", "options": ["prefiero", "preferisco", "preferisci"], "answer": "preferisco", "why": "Preferire: io preferisco.", "g": "it-g-presente-isc" },
+    { "id": "e3", "type": "choose", "q": "Noi ___ di lavorare alle due.", "es": "Terminamos de trabajar a las dos.", "options": ["finiamo", "finisciamo", "finiscono"], "answer": "finiamo", "why": "En noi no hay -isc-: finiamo.", "g": "it-g-presente-isc" },
+    { "id": "e4", "type": "choose", "q": "Mia nipote ___ l'italiano.", "es": "Mi nieta entiende el italiano.", "options": ["capisce", "capisci", "capie"], "answer": "capisce", "why": "Lei → -isce: capisce.", "g": "it-g-presente-isc" },
+    { "id": "e5", "type": "choose", "q": "I miei nipoti ___ la pizza.", "es": "Mis nietos prefieren la pizza.", "options": ["preferiscono", "preferono", "preferiamo"], "answer": "preferiscono", "why": "Loro lleva -isc-: preferiscono.", "g": "it-g-presente-isc" },
+    { "id": "e6", "type": "choose", "q": "Voi ___ la casa il sabato?", "es": "¿Limpiáis la casa los sábados?", "options": ["pulite", "pulisciete", "puliscono"], "answer": "pulite", "why": "En voi no hay -isc-: pulite.", "g": "it-g-presente-isc" },
+    { "id": "e7", "type": "conjugate", "verb": "finire", "person": "io", "tense": "presente", "q": "___ alle sei e torno a casa.", "answer": ["Finisco"], "table": [["io", "?"], ["tu", "finisci"], ["noi", "finiamo"]], "why": "Io → finisco.", "g": "it-g-presente-isc" },
+    { "id": "e8", "type": "conjugate", "verb": "capire", "person": "tu", "tense": "presente", "q": "___ lo spagnolo?", "answer": ["Capisci"], "why": "Tu → capisci (suena «capishi»).", "g": "it-g-presente-isc" },
+    { "id": "e9", "type": "conjugate", "verb": "pulire", "person": "lei", "tense": "presente", "q": "Mia sorella ___ la cucina.", "answer": ["pulisce"], "why": "Lei → pulisce.", "g": "it-g-presente-isc" },
+    { "id": "e10", "type": "conjugate", "verb": "spedire", "person": "io", "tense": "presente", "q": "___ un pacco a Hugo.", "answer": ["Spedisco"], "why": "Io → spedisco.", "g": "it-g-presente-isc" },
+    { "id": "e11", "type": "conjugate", "verb": "capire", "person": "noi", "tense": "presente", "q": "Non ___ la domanda.", "answer": ["capiamo"], "why": "Noi va sin -isc-: capiamo.", "g": "it-g-presente-isc" },
+    { "id": "e12", "type": "conjugate", "verb": "finire", "person": "loro", "tense": "presente", "q": "Le lezioni ___ a giugno.", "answer": ["finiscono"], "why": "Loro → finiscono.", "g": "it-g-presente-isc" },
+    { "id": "e13", "type": "fill", "q": "Tu ___ il caffè o il tè?", "es": "¿Prefieres café o té?", "answer": ["preferisci"], "bank": ["preferisci", "preferisce", "preferi"], "why": "Tu → preferisci.", "g": "it-g-presente-isc" },
+    { "id": "e14", "type": "fill", "q": "Il film ___ a mezzanotte.", "es": "La película termina a medianoche.", "answer": ["finisce"], "bank": ["finisce", "fine", "finiscono"], "why": "Il film = lui → finisce.", "g": "it-g-presente-isc" },
+    { "id": "e15", "type": "fill", "q": "Noi ___ la casa insieme.", "es": "Limpiamos la casa juntas.", "answer": ["puliamo"], "bank": ["puliamo", "pulisciamo", "puliscono"], "why": "Noi sin -isc-: puliamo.", "g": "it-g-presente-isc" },
+    { "id": "e16", "type": "fill", "q": "I bambini non ___ il dialetto.", "es": "Los niños no entienden el dialecto.", "answer": ["capiscono"], "why": "Loro → capiscono.", "g": "it-g-presente-isc" },
+    { "id": "e17", "type": "fill", "q": "Io ___ di cucinare e poi mangiamo.", "es": "Termino de cocinar y luego comemos.", "answer": ["finisco"], "why": "Io → finisco.", "g": "it-g-presente-isc" },
+    { "id": "e18", "type": "transform", "instr": "Hazla negativa", "q": "Capisco tutto.", "answer": ["Non capisco tutto.", "Non capisco niente."], "why": "Non va delante del verbo.", "g": "it-g-presente-isc" },
+    { "id": "e19", "type": "transform", "instr": "Cambia a «noi»", "q": "Io finisco alle tre.", "answer": ["Noi finiamo alle tre.", "Finiamo alle tre."], "why": "En noi desaparece el -isc-: finiamo.", "g": "it-g-presente-isc" },
+    { "id": "e20", "type": "transform", "instr": "Cambia a «loro»", "q": "Lei preferisce il mare.", "answer": ["Loro preferiscono il mare.", "Preferiscono il mare."], "why": "Loro → preferiscono.", "g": "it-g-presente-isc" },
+    { "id": "e21", "type": "transform", "instr": "Cambia a «tu»", "q": "Voi capite l'inglese?", "answer": ["Tu capisci l'inglese?", "Capisci l'inglese?"], "why": "Tu lleva -isc-: capisci.", "g": "it-g-presente-isc" },
+    { "id": "e22", "type": "error", "q": "Scusi, non capo.", "wrong": "capo", "fix": "capisco", "why": "Capire con io: capisco.", "g": "it-g-presente-isc" },
+    { "id": "e23", "type": "error", "q": "Io prefiero il pesce.", "wrong": "prefiero", "fix": "preferisco", "why": "En italiano: preferisco, con -isc-.", "g": "it-g-presente-isc" },
+    { "id": "e24", "type": "error", "q": "Noi finisciamo tardi oggi.", "wrong": "finisciamo", "fix": "finiamo", "why": "Noi no lleva -isc-.", "g": "it-g-presente-isc" },
+    { "id": "e25", "type": "error", "q": "Le mie amiche puliono la cucina.", "wrong": "puliono", "fix": "puliscono", "why": "Loro lleva -isc-: puliscono.", "g": "it-g-presente-isc" },
+    { "id": "e26", "type": "order", "es": "No entiendo, ¿puede repetir?", "answer": "Non capisco può ripetere", "extra": ["capo"], "why": "Io → capisco.", "g": "it-g-presente-isc" },
+    { "id": "e27", "type": "order", "es": "Prefiero cenar en casa.", "answer": "Preferisco cenare a casa", "extra": ["prefiero"], "why": "Preferisco + infinitivo.", "g": "it-g-presente-isc" },
+    { "id": "e28", "type": "order", "es": "¿A qué hora terminas?", "answer": "A che ora finisci", "extra": ["fini"], "why": "Tu → finisci.", "g": "it-g-presente-isc" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "No entiendo.", "answer": ["Non capisco."], "why": "Capire con io: capisco.", "g": "it-g-presente-isc" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "Mi hijo prefiere el té.", "answer": ["Mio figlio preferisce il tè."], "why": "Lui → preferisce; mio figlio sin artículo.", "g": "it-g-presente-isc" },
+    { "id": "e31", "type": "translate", "dir": "from", "q": "Il sabato pulisco la casa e poi riposo.", "answer": ["Los sábados limpio la casa y luego descanso", "El sábado limpio la casa y luego descanso"], "why": "Pulire = limpiar; il sabato = los sábados.", "g": "it-g-presente-isc" },
+    { "id": "e32", "type": "match", "pairs": [["io", "capisco"], ["tu", "capisci"], ["noi", "capiamo"], ["voi", "capite"], ["loro", "capiscono"]], "why": "-isc- en todas menos en noi y voi.", "g": "it-g-presente-isc" },
+    { "id": "e33", "type": "situation", "context": "Una señora en Bari te habla muy rápido y no entiendes nada.", "emoji": "😅", "options": ["Scusi, non capisco. Più piano, per favore.", "Scusi, non capo. Più piano, per favore.", "Scusi, non capiamo. Più piano, per favore."], "answer": "Scusi, non capisco. Più piano, per favore.", "why": "Hablas de ti: non capisco.", "g": "it-g-presente-isc" },
+    { "id": "e34", "type": "minimal", "pair": ["capisco", "capisci"], "answer": "capisci", "es": ["entiendo", "entiendes"], "why": "Sc ante i suena «sh»: capisci. Ante o, «sk»: capisco.", "g": "it-g-presente-isc" }
+  ],
+  "reviewed": false
+}

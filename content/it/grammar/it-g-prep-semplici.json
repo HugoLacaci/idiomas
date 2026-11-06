@@ -1,0 +1,125 @@
+{
+  "id": "it-g-prep-semplici",
+  "lang": "it",
+  "level": "A1",
+  "title": "Preposiciones simples (di, a, da, in, con, su, per, tra/fra)",
+  "short": "Ocho palabras pequeñas: di legno, a Roma, da Hugo, in cucina, per te…",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "🧭",
+      "title": "Palabras pequeñas, muy útiles",
+      "text": "Las preposiciones son «de, a, en, con, para…». En italiano hay ocho y casi todas se parecen al español.",
+      "examples": [
+        { "t": "Sono a casa con Hugo.", "es": "Estoy en casa con Hugo.", "hl": "a" },
+        { "t": "Un tavolo di legno.", "es": "Una mesa de madera.", "hl": "di" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "📋",
+      "title": "Las ocho",
+      "text": "Léelas despacio con su ejemplo.",
+      "table": {
+        "head": ["Italiano", "Español", "Ejemplo"],
+        "rows": [
+          ["==di==", "de", "la casa ==di== Hugo"],
+          ["==a==", "a, en (ciudades)", "==a== Roma, ==a== casa"],
+          ["==da==", "desde; en casa de", "==da== Madrid, ==da== Hugo"],
+          ["==in==", "en (países, habitaciones)", "==in== Italia, ==in== cucina"],
+          ["==con==", "con", "==con== le amiche"],
+          ["==su==", "sobre, encima de", "==su== uno scaffale"],
+          ["==per==", "para, por", "==per== te"],
+          ["==tra / fra==", "entre; dentro de (tiempo)", "==tra== cinque minuti"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "emoji": "🗺️",
+      "title": "¿A o in?",
+      "text": "Ciudades con ==a==: abito ==a== Madrid. Países y regiones con ==in==: ==in== Spagna, ==in== Puglia. Habitaciones con ==in==: ==in== bagno, ==in== camera.",
+      "examples": [
+        { "t": "Vivo a Madrid, in Spagna.", "es": "Vivo en Madrid, en España.", "hl": "a" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "emoji": "🏡",
+      "title": "La gran novedad: da",
+      "text": "==Da== + persona significa «en casa de» o «a casa de». Muy cómodo: en vez de «a casa de Hugo», basta con ==da== Hugo.",
+      "examples": [
+        { "t": "Stasera vado da Hugo.", "es": "Esta noche voy a casa de Hugo.", "hl": "da" },
+        { "t": "Pranzo da un'amica.", "es": "Como en casa de una amiga.", "hl": "da" }
+      ]
+    },
+    {
+      "kind": "tip",
+      "emoji": "⏳",
+      "title": "Tra y fra son gemelas",
+      "text": "==Tra== y ==fra== significan lo mismo. Con tiempo, quieren decir «dentro de»: ==tra== dieci minuti = dentro de diez minutos."
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo!",
+      "text": "❌ a cucina → ✅ ==in== cucina. ❌ in Roma → ✅ ==a== Roma. ❌ de legno → ✅ ==di== legno. ❌ para te → ✅ ==per== te."
+    },
+    {
+      "kind": "tip",
+      "emoji": "🔗",
+      "title": "Y con el artículo…",
+      "text": "Delante de il, la, lo… se juntan: a + il = ==al== (al bar), in + la = ==nella==. Ya conoces «al bar». Las verás en la unidad 9."
+    }
+  ],
+  "compare": {
+    "es": "Vivo en Madrid, en España. Esta noche ceno en casa de Hugo, con mis amigas. La mesa es de madera. El café es para ti.",
+    "target": "Abito a Madrid, in Spagna. Stasera ceno da Hugo, con le mie amiche. Il tavolo è di legno. Il caffè è per te. Ciudades con a, países con in y «en casa de» con da."
+  },
+  "errors": [
+    { "wrong": "Sono a cucina.", "right": "Sono in cucina.", "why": "Con habitaciones usamos in, sin artículo: in cucina, in bagno." },
+    { "wrong": "Abito in Madrid.", "right": "Abito a Madrid.", "why": "Con ciudades usamos a; con países, in." },
+    { "wrong": "Vado a Italia.", "right": "Vado in Italia.", "why": "Con países usamos in, aunque vayamos hacia allí." },
+    { "wrong": "Un tavolo de legno.", "right": "Un tavolo di legno.", "why": "«De» en italiano es di." },
+    { "wrong": "Un regalo para te.", "right": "Un regalo per te.", "why": "«Para» se dice per." },
+    { "wrong": "Stasera vado a Hugo.", "right": "Stasera vado da Hugo.", "why": "Para ir a casa de una persona usamos da." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Abito ___ Madrid.", "options": ["a", "in", "da"], "answer": "a", "why": "Con ciudades usamos a.", "g": "it-g-prep-semplici" },
+    { "id": "e2", "type": "choose", "q": "La mia amica Carla abita ___ Cina.", "es": "Mi amiga Carla vive en China.", "options": ["in", "a", "di"], "answer": "in", "why": "Con países usamos in: in Cina, in Italia.", "g": "it-g-prep-semplici" },
+    { "id": "e3", "type": "choose", "q": "La nonna è ___ camera.", "options": ["in", "a", "su"], "answer": "in", "why": "Con habitaciones, in: in camera.", "g": "it-g-prep-semplici" },
+    { "id": "e4", "type": "choose", "q": "Questa torta è ___ te!", "es": "¡Esta tarta es para ti!", "options": ["per", "da", "con"], "answer": "per", "why": "Para = per.", "g": "it-g-prep-semplici" },
+    { "id": "e5", "type": "choose", "q": "Il treno arriva ___ dieci minuti.", "es": "El tren llega dentro de diez minutos.", "options": ["tra", "in", "per"], "answer": "tra", "why": "Tra (o fra) + tiempo = dentro de.", "g": "it-g-prep-semplici" },
+    { "id": "e6", "type": "choose", "q": "Stasera ceno ___ un'amica.", "es": "Esta noche ceno en casa de una amiga.", "options": ["da", "di", "a"], "answer": "da", "why": "Da + persona = en casa de.", "g": "it-g-prep-semplici" },
+    { "id": "e7", "type": "choose", "q": "Il libro è ___ una sedia.", "es": "El libro está encima de una silla.", "options": ["su", "tra", "per"], "answer": "su", "why": "Su = sobre, encima de.", "g": "it-g-prep-semplici" },
+    { "id": "e8", "type": "fill", "q": "Il treno parte ___ Roma alle nove.", "es": "El tren sale de Roma a las nueve.", "answer": ["da"], "bank": ["da", "di", "a"], "why": "El punto de partida va con da: da Roma.", "g": "it-g-prep-semplici" },
+    { "id": "e9", "type": "fill", "q": "Sono spagnola, ___ Madrid.", "es": "Soy española, de Madrid.", "answer": ["di"], "bank": ["di", "da", "in"], "why": "Para decir de qué ciudad eres: sono di Madrid.", "g": "it-g-prep-semplici" },
+    { "id": "e10", "type": "fill", "q": "Vado in centro ___ le amiche.", "answer": ["con"], "bank": ["con", "per", "tra"], "why": "Con = con, igual que en español.", "g": "it-g-prep-semplici" },
+    { "id": "e11", "type": "fill", "q": "Il bagno è ___ la cucina e il soggiorno.", "answer": ["tra", "fra"], "bank": ["tra", "su", "di"], "why": "Entre = tra (o fra).", "g": "it-g-prep-semplici" },
+    { "id": "e12", "type": "fill", "q": "Una casa ___ pietra.", "es": "Una casa de piedra.", "answer": ["di"], "why": "Material con di: di pietra.", "g": "it-g-prep-semplici" },
+    { "id": "e13", "type": "fill", "q": "Quest'estate andiamo ___ Puglia.", "es": "Este verano vamos a Apulia.", "answer": ["in"], "why": "Con regiones, como con países: in Puglia.", "g": "it-g-prep-semplici" },
+    { "id": "e14", "type": "fill", "q": "Stasera resto ___ casa.", "answer": ["a"], "why": "«En casa» = a casa.", "g": "it-g-prep-semplici" },
+    { "id": "e15", "type": "error", "q": "Abito in Valencia.", "wrong": "in", "fix": "a", "why": "Con ciudades: a Valencia.", "g": "it-g-prep-semplici" },
+    { "id": "e16", "type": "error", "q": "Vado a Spagna domani.", "wrong": "a", "fix": "in", "why": "Con países: in Spagna.", "g": "it-g-prep-semplici" },
+    { "id": "e17", "type": "error", "q": "Le chiavi sono a bagno.", "wrong": "a", "fix": "in", "why": "Con habitaciones: in bagno.", "g": "it-g-prep-semplici" },
+    { "id": "e18", "type": "error", "q": "Il caffè è para Hugo.", "wrong": "para", "fix": "per", "why": "«Para» se dice per.", "g": "it-g-prep-semplici" },
+    { "id": "e19", "type": "error", "q": "Domenica pranzo a Hugo.", "wrong": "a", "fix": "da", "why": "En casa de alguien: da + persona.", "g": "it-g-prep-semplici" },
+    { "id": "e20", "type": "transform", "instr": "Cambia «Roma» por «Italia»", "q": "Sono a Roma.", "answer": ["Sono in Italia."], "why": "Ciudad con a, país con in.", "g": "it-g-prep-semplici" },
+    { "id": "e21", "type": "transform", "instr": "Di lo mismo con «da»", "q": "Vado a casa di Hugo.", "answer": ["Vado da Hugo."], "why": "Da Hugo = a casa de Hugo.", "g": "it-g-prep-semplici" },
+    { "id": "e22", "type": "transform", "instr": "Cambia «cucina» por «Napoli»", "q": "Sono in cucina.", "answer": ["Sono a Napoli."], "why": "Con ciudades, a.", "g": "it-g-prep-semplici" },
+    { "id": "e23", "type": "order", "es": "Vivo en Madrid, en España.", "answer": "Abito a Madrid in Spagna", "extra": ["da"], "why": "Ciudad con a, país con in.", "g": "it-g-prep-semplici" },
+    { "id": "e24", "type": "order", "es": "Esta noche ceno en casa de Hugo.", "answer": "Stasera ceno da Hugo", "extra": ["di"], "why": "Da + persona.", "g": "it-g-prep-semplici" },
+    { "id": "e25", "type": "order", "es": "La mesa de madera es para ti.", "answer": "Il tavolo di legno è per te", "extra": ["da"], "why": "Di legno = de madera; per te = para ti.", "g": "it-g-prep-semplici" },
+    { "id": "e26", "type": "translate", "dir": "to", "q": "dentro de cinco minutos", "answer": ["tra cinque minuti", "fra cinque minuti"], "why": "Tra/fra + tiempo = dentro de.", "g": "it-g-prep-semplici" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "Estoy en el baño.", "answer": ["Sono in bagno."], "why": "In + habitación, sin artículo.", "g": "it-g-prep-semplici" },
+    { "id": "e28", "type": "translate", "dir": "from", "q": "Domani vado da un'amica.", "answer": ["Mañana voy a casa de una amiga"], "why": "Da + persona = a casa de.", "g": "it-g-prep-semplici" },
+    { "id": "e29", "type": "match", "pairs": [["a Roma", "en Roma"], ["in Italia", "en Italia"], ["da Hugo", "en casa de Hugo"], ["di legno", "de madera"], ["tra un'ora", "dentro de una hora"]], "why": "Cada preposición con su uso.", "g": "it-g-prep-semplici" },
+    { "id": "e30", "type": "situation", "context": "Una vecina te pregunta dónde vives. Vives en Toledo, en España.", "emoji": "🗺️", "options": ["Abito a Toledo, in Spagna.", "Abito in Toledo, a Spagna.", "Abito di Toledo, da Spagna."], "answer": "Abito a Toledo, in Spagna.", "why": "Ciudad con a, país con in.", "g": "it-g-prep-semplici" },
+    { "id": "e31", "type": "situation", "context": "Hugo te llama: «¿Dónde estás?». Estás en la cocina.", "emoji": "🍳", "options": ["Sono in cucina!", "Sono a cucina!", "Sono da cucina!"], "answer": "Sono in cucina!", "why": "Con habitaciones: in cucina.", "g": "it-g-prep-semplici" },
+    { "id": "e32", "type": "reading", "kind": "message", "title": "Mensaje de una amiga", "text": "Ciao Yolanda! Sabato sono a Roma per il weekend, da mia sorella. Prendiamo un caffè insieme? Il mio treno arriva da Napoli alle dieci. Ciao!", "questions": [
+      { "q": "¿Dónde se queda la amiga en Roma?", "options": ["En casa de su hermana", "En un hotel", "En casa de Yolanda"], "answer": "En casa de su hermana" },
+      { "q": "¿De dónde llega su tren?", "options": ["De Nápoles", "De Roma", "De Milán"], "answer": "De Nápoles" }
+    ], "why": "Da mia sorella = en casa de mi hermana; da Napoli = desde Nápoles.", "g": "it-g-prep-semplici" }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,412 @@
+{
+  "id": "en-a2-u06-l2",
+  "unit": "en-a2-u06",
+  "title": "Voy a…: going to",
+  "goal": "a contar tus planes con going to: afirmar, negar y preguntar",
+  "emoji": "🗓️",
+  "photoQuery": "calendar notebook coffee planning",
+  "vocab": [
+    {
+      "id": "plan-im-going-to",
+      "t": "I'm going to…",
+      "es": "Voy a…",
+      "emoji": "➡️",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm going to call my son tonight.",
+        "es": "Esta noche voy a llamar a mi hijo."
+      }
+    },
+    {
+      "id": "plan-were-going-to",
+      "t": "We're going to…",
+      "es": "Vamos a…",
+      "emoji": "👫",
+      "pos": "phrase",
+      "ex": {
+        "t": "We're going to eat out on Saturday.",
+        "es": "El sábado vamos a comer fuera."
+      }
+    },
+    {
+      "id": "plan-are-you-going-to",
+      "t": "Are you going to…?",
+      "es": "¿Vas a…?",
+      "emoji": "❓",
+      "pos": "phrase",
+      "ex": {
+        "t": "Are you going to come with us?",
+        "es": "¿Vas a venir con nosotros?"
+      }
+    },
+    {
+      "id": "plan-im-not-going-to",
+      "t": "I'm not going to…",
+      "es": "No voy a…",
+      "emoji": "🚫",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm not going to cook tonight!",
+        "es": "¡Esta noche no voy a cocinar!"
+      }
+    },
+    {
+      "id": "plan-its-going-to-rain",
+      "t": "It's going to rain.",
+      "es": "Va a llover.",
+      "emoji": "🌧️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Take an umbrella. It's going to rain.",
+        "es": "Coge un paraguas. Va a llover."
+      }
+    },
+    {
+      "id": "plan-this-weekend",
+      "t": "this weekend",
+      "es": "este fin de semana",
+      "emoji": "📆",
+      "pos": "phrase",
+      "ex": {
+        "t": "What are you going to do this weekend?",
+        "es": "¿Qué vas a hacer este fin de semana?"
+      }
+    },
+    {
+      "id": "plan-in-two-weeks",
+      "t": "in two weeks",
+      "es": "dentro de dos semanas",
+      "emoji": "⏳",
+      "pos": "phrase",
+      "ex": {
+        "t": "My son is going to come in two weeks.",
+        "es": "Mi hijo va a venir dentro de dos semanas."
+      },
+      "note": "in + tiempo = dentro de. En el Reino Unido también: in a fortnight (en quince días)."
+    },
+    {
+      "id": "plan-visit",
+      "t": "visit",
+      "es": "visitar, ir a ver",
+      "emoji": "🏡",
+      "pos": "v",
+      "ex": {
+        "t": "I'm going to visit my sister in Valencia.",
+        "es": "Voy a ir a ver a mi hermana a Valencia."
+      }
+    }
+  ],
+  "grammar": "en-g-going-to",
+  "pron": {
+    "title": "going to: el to es débil",
+    "tip": "En going to, el to suena muy flojito, «tə»: «góuing tə». La fuerza va en el verbo de después: I'm going to VISIT my son.",
+    "words": [
+      "I'm going to visit.",
+      "We're going to travel.",
+      "Are you going to come?",
+      "It's going to rain."
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "My son ___ going to come in two weeks.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "answer": "is",
+      "why": "My son = he: is going to.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "We ___ going to eat out on Saturday.",
+      "options": [
+        "are",
+        "is",
+        "am"
+      ],
+      "answer": "are",
+      "why": "Con we: are going to.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "I'm going to ___ my sister in Valencia.",
+      "options": [
+        "visit",
+        "visiting",
+        "visits"
+      ],
+      "answer": "visit",
+      "why": "Going to + verbo base.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Take an umbrella. It's going ___ rain.",
+      "options": [
+        "to",
+        "for",
+        "at"
+      ],
+      "answer": "to",
+      "why": "Siempre going to + verbo.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I'm ___ going to cook tonight!",
+      "es": "¡Esta noche no voy a cocinar!",
+      "answer": [
+        "not"
+      ],
+      "bank": [
+        "not",
+        "don't",
+        "no"
+      ],
+      "why": "La negativa se hace con not: I'm not going to.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "___ you going to come with us?",
+      "es": "¿Vas a venir con nosotros?",
+      "answer": [
+        "Are"
+      ],
+      "bank": [
+        "Are",
+        "Do",
+        "Will"
+      ],
+      "why": "Pregunta: Are you going to…?",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "What are you going to ___ this weekend?",
+      "es": "¿Qué vas a hacer este fin de semana?",
+      "answer": [
+        "do"
+      ],
+      "why": "Hacer (actividades) = do.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e8",
+      "type": "conjugate",
+      "verb": "to be (going to)",
+      "person": "they",
+      "tense": "futuro con going to",
+      "q": "They ___ going to stay for a week.",
+      "answer": [
+        "are"
+      ],
+      "why": "Con they: are going to.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "She's going to drive.",
+      "answer": [
+        "Is she going to drive?"
+      ],
+      "why": "Is va delante: Is she going to…?",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "We're going to buy a new car.",
+      "answer": [
+        "We aren't going to buy a new car.",
+        "We're not going to buy a new car.",
+        "We are not going to buy a new car."
+      ],
+      "why": "are → aren't.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "She's going to calls me tonight.",
+      "wrong": "calls",
+      "fix": "call",
+      "why": "Después de going to, verbo base, sin -s.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "We is going to travel in June.",
+      "wrong": "is",
+      "fix": "are",
+      "why": "Con we: are.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e13",
+      "type": "order",
+      "es": "¿Vas a ver a tu hijo en Navidad?",
+      "answer": "Are you going to see your son at Christmas",
+      "extra": [
+        "Do"
+      ],
+      "why": "Are + you + going to + see.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "No voy a cocinar esta noche.",
+      "answer": [
+        "I'm not going to cook tonight.",
+        "I am not going to cook tonight."
+      ],
+      "why": "No voy a = I'm not going to.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Miras por la ventana: el cielo está negro.",
+      "emoji": "🌩️",
+      "options": [
+        "It's going to rain.",
+        "It goes to rain.",
+        "It's going rain."
+      ],
+      "answer": "It's going to rain.",
+      "why": "Predicción con pruebas: It's going to rain.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e16",
+      "type": "match",
+      "pairs": [
+        [
+          "Are you going to cook?",
+          "Yes, I am."
+        ],
+        [
+          "Is he going to call?",
+          "No, he isn't."
+        ],
+        [
+          "Are they going to come?",
+          "Yes, they are."
+        ],
+        [
+          "Is it going to rain?",
+          "I think so."
+        ]
+      ],
+      "why": "La respuesta corta repite am / is / are.",
+      "g": "en-g-going-to"
+    }
+  ],
+  "dialog": {
+    "title": "Planes para el fin de semana",
+    "setting": "Yolanda y su amiga Pilar se encuentran en la panadería un viernes",
+    "emoji": "🥖",
+    "lines": [
+      {
+        "who": "Pilar",
+        "t": "What are you going to do this weekend?",
+        "es": "¿Qué vas a hacer este fin de semana?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I'm going to visit my sister. And you?",
+        "es": "Voy a ir a ver a mi hermana. ¿Y tú?"
+      },
+      {
+        "who": "Pilar",
+        "t": "My grandchildren are going to stay with me.",
+        "es": "Mis nietos se van a quedar conmigo."
+      },
+      {
+        "who": "Yolanda",
+        "t": "How lovely! Are you going to cook paella?",
+        "es": "¡Qué bien! ¿Vas a hacer paella?"
+      },
+      {
+        "who": "Pilar",
+        "t": "No, I'm not going to cook. We're going to eat out!",
+        "es": "No, no voy a cocinar. ¡Vamos a comer fuera!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Good idea. Where are you going to go?",
+        "es": "Buena idea. ¿Adónde vais a ir?"
+      },
+      {
+        "who": "Pilar",
+        "t": "To the new pizza place in the square.",
+        "es": "A la pizzería nueva de la plaza."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Your grandchildren are going to love it.",
+        "es": "A tus nietos les va a encantar."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué va a hacer Yolanda?",
+        "options": [
+          "Ver a su hermana",
+          "Ir a la playa",
+          "Cocinar paella"
+        ],
+        "answer": "Ver a su hermana"
+      },
+      {
+        "q": "¿Quién va a estar con Pilar?",
+        "options": [
+          "Sus nietos",
+          "Su hermana",
+          "Su marido"
+        ],
+        "answer": "Sus nietos"
+      },
+      {
+        "q": "¿Dónde van a comer?",
+        "options": [
+          "En una pizzería",
+          "En casa",
+          "En un bar de tapas"
+        ],
+        "answer": "En una pizzería"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "What are you going to do this weekend?",
+    "es": "¿Qué vas a hacer este fin de semana?",
+    "context": "Para charlar de planes con una amiga"
+  },
+  "summary": [
+    "Planes: am / is / are + going to + verbo base",
+    "Negativa: I'm not going to cook. She isn't going to drive.",
+    "Pregunta: Are you going to come? Is he going to call?",
+    "Predicción con pruebas: Look! It's going to rain."
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u06-l2"
+}

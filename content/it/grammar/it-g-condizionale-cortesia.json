@@ -1,0 +1,121 @@
+{
+  "id": "it-g-condizionale-cortesia",
+  "lang": "it",
+  "level": "A2",
+  "title": "Condicional de cortesía: vorrei, potrebbe, mi piacerebbe",
+  "short": "Cuatro fórmulas mágicas para pedir con educación: vorrei, potrebbe, potresti y mi piacerebbe.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Pedir con buenos modales",
+      "emoji": "🙏",
+      "text": "Ya pides *vorrei un caffè*. Hoy añadimos más fórmulas amables para reservar y preguntar en un viaje: ==potrebbe==, ==potresti==, ==mi piacerebbe==.",
+      "examples": [
+        { "t": "==Vorrei== prenotare una camera doppia.", "es": "Querría reservar una habitación doble.", "hl": "Vorrei" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Las cuatro fórmulas",
+      "emoji": "🗝️",
+      "text": "No hace falta aprender todo el condicional todavía: con estas cuatro te apañas en cualquier hotel.",
+      "table": {
+        "head": ["Italiano", "Español", "Para…"],
+        "rows": [
+          ["==vorrei== + algo / infinitivo", "querría, me gustaría", "pedir"],
+          ["==potrebbe== + infinitivo?", "¿podría (usted)…?", "pedir a un desconocido"],
+          ["==potresti== + infinitivo?", "¿podrías…?", "pedir a alguien de confianza"],
+          ["==mi piacerebbe== + infinitivo", "me gustaría", "decir un deseo"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Lei o tu",
+      "emoji": "🤝",
+      "text": "Con el recepcionista o un camarero usas Lei: ==Potrebbe==…? Con tu amiga o tu hijo usas tu: ==Potresti==…? La -e final es de Lei; la -i es de tu.",
+      "examples": [
+        { "t": "Scusi, potrebbe chiamare un taxi acqueo?", "es": "Perdone, ¿podría llamar a un taxi acuático?" },
+        { "t": "Hugo, potresti prenotare tu i biglietti?", "es": "Hugo, ¿podrías reservar tú los billetes?" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Igual que en español",
+      "emoji": "🇪🇸",
+      "text": "Querría → ==vorrei==; podría → ==potrebbe==; me gustaría → ==mi piacerebbe==. Fíjate: *mi piacerebbe* funciona como *mi piace*: ==mi== va delante.",
+      "examples": [
+        { "t": "Mi piacerebbe vedere Burano.", "es": "Me gustaría ver Burano." }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Más suave que el presente",
+      "emoji": "🌸",
+      "text": "*Voglio una camera* suena brusco, como «quiero una habitación». ==Vorrei una camera== suena educado. *Può…?* está bien; ==potrebbe…?== es aún más amable.",
+      "examples": [
+        { "t": "Vorrei una camera con vista sul canale.", "es": "Querría una habitación con vistas al canal." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Io piacerebbe* → ✅ ==mi== piacerebbe. ❌ *Vorrebbe un caffè* (yo) → ✅ ==vorrei==. ❌ *Potrebbe* a tu amiga → ✅ ==potresti==."
+    },
+    {
+      "kind": "tip",
+      "title": "La frase completa",
+      "emoji": "💡",
+      "text": "Saludo + fórmula + petición + gracias: ==Buongiorno, vorrei== prenotare un tavolo per due, ==grazie==. ¡Sonarás como una señora italiana!",
+      "examples": [
+        { "t": "Buonasera, potrebbe consigliarmi un ristorante?", "es": "Buenas tardes, ¿podría recomendarme un restaurante?" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español pedimos con condicional: querría, podría, me gustaría. Con un desconocido decimos «¿podría usted…?».",
+    "target": "En italiano igual: vorrei, potrebbe (Lei), potresti (tu), mi piacerebbe. Mi piacerebbe funciona como mi piace: el pronombre mi va delante."
+  },
+  "errors": [
+    { "wrong": "Voglio una camera per stanotte.", "right": "Vorrei una camera per stanotte.", "why": "Voglio suena brusco; vorrei es la forma educada para pedir." },
+    { "wrong": "Io piacerebbe visitare Murano.", "right": "Mi piacerebbe visitare Murano.", "why": "Piacere necesita el pronombre: mi piacerebbe, como mi piace." },
+    { "wrong": "Scusi, potresti aiutarmi?", "right": "Scusi, potrebbe aiutarmi?", "why": "Si dices scusi hablas de Lei: el verbo va en tercera persona, potrebbe." },
+    { "wrong": "Vorrebbe prenotare un tavolo per due.", "right": "Vorrei prenotare un tavolo per due.", "why": "Si hablas tú (io), la forma es vorrei; vorrebbe es para lui, lei o Lei." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Buongiorno, ___ una camera doppia.", "es": "Buenos días, querría una habitación doble.", "options": ["vorrei", "voglio", "vorrebbe"], "answer": "vorrei", "why": "Para pedir con educación: vorrei.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e2", "type": "choose", "q": "Scusi, ___ chiamarmi un taxi?", "es": "Perdone, ¿podría llamarme un taxi?", "options": ["potrebbe", "potresti", "potrei"], "answer": "potrebbe", "why": "Con scusi hablas de Lei: potrebbe.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e3", "type": "choose", "q": "Giulia, ___ aiutarmi con la valigia?", "es": "Giulia, ¿podrías ayudarme con la maleta?", "options": ["potresti", "potrebbe", "potrei"], "answer": "potresti", "why": "Con una amiga usas tu: potresti.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e4", "type": "choose", "q": "___ piacerebbe vedere il Carnevale.", "es": "Me gustaría ver el Carnaval.", "options": ["Mi", "Io", "Ti"], "answer": "Mi", "why": "Piacerebbe necesita el pronombre: mi piacerebbe.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e5", "type": "choose", "q": "Hugo, ti ___ venire con noi a Venezia?", "es": "Hugo, ¿te gustaría venir con nosotros a Venecia?", "options": ["piacerebbe", "piacerei", "piace"], "answer": "piacerebbe", "why": "Ti piacerebbe = ¿te gustaría?", "g": "it-g-condizionale-cortesia" },
+    { "id": "e6", "type": "choose", "q": "Scusi, ___ consigliarmi un ristorante tipico?", "es": "Perdone, ¿podría recomendarme un restaurante típico?", "options": ["potrebbe", "potresti", "può essere"], "answer": "potrebbe", "why": "A un desconocido, de Lei: potrebbe.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e7", "type": "choose", "q": "Mio marito ___ una camera tranquilla.", "es": "Mi marido querría una habitación tranquila.", "options": ["vorrebbe", "vorrei", "vorresti"], "answer": "vorrebbe", "why": "Lui → vorrebbe.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e8", "type": "fill", "q": "Buonasera, ___ prenotare un tavolo per quattro.", "es": "Buenas noches, querría reservar una mesa para cuatro.", "answer": ["vorrei"], "bank": ["vorrei", "voglio", "vorrebbe"], "why": "Vorrei + infinitivo para reservar con educación.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e9", "type": "fill", "q": "Mi ___ fare un giro in gondola.", "es": "Me gustaría dar una vuelta en góndola.", "answer": ["piacerebbe"], "bank": ["piacerebbe", "piacerei", "piace"], "why": "Mi piacerebbe = me gustaría.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e10", "type": "fill", "q": "Signora, ___ ripetere, per favore?", "es": "Señora, ¿podría repetir, por favor?", "answer": ["potrebbe"], "bank": ["potrebbe", "potresti", "posso"], "why": "Signora → Lei → potrebbe.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e11", "type": "fill", "q": "Amore, ___ portare tu la valigia grande?", "es": "Cariño, ¿podrías llevar tú la maleta grande?", "answer": ["potresti"], "hint": "potere, tu", "why": "Con tu marido, de tu: potresti.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e12", "type": "fill", "q": "Le mie amiche ___ una camera con balcone.", "es": "Mis amigas querrían una habitación con balcón.", "answer": ["vorrebbero"], "hint": "volere, loro", "why": "Loro → vorrebbero.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e13", "type": "fill", "q": "Ci ___ visitare Burano domani.", "es": "Nos gustaría visitar Burano mañana.", "answer": ["piacerebbe"], "hint": "piacere", "why": "Ci piacerebbe = nos gustaría (el verbo no cambia).", "g": "it-g-condizionale-cortesia" },
+    { "id": "e14", "type": "fill", "q": "Noi ___ una camera con vista sul canale.", "es": "Nosotros querríamos una habitación con vistas al canal.", "answer": ["vorremmo"], "hint": "volere, noi", "why": "Noi → vorremmo, con doble m.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e15", "type": "error", "q": "Io piacerebbe dormire in un albergo sul canale.", "wrong": "Io", "fix": "Mi", "why": "Con piacere va el pronombre mi: mi piacerebbe.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e16", "type": "error", "q": "Buongiorno, vorrebbe un caffè e un cornetto.", "wrong": "vorrebbe", "fix": "vorrei", "why": "Si pides para ti: vorrei.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e17", "type": "error", "q": "Scusi, potresti dirmi dov'è la fermata?", "wrong": "potresti", "fix": "potrebbe", "why": "Scusi indica Lei: potrebbe.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e18", "type": "error", "q": "Ci piacerebbero visitare il palazzo Ducale.", "wrong": "piacerebbero", "fix": "piacerebbe", "why": "Con un infinitivo detrás, piacerebbe va en singular.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e19", "type": "transform", "instr": "Hazla más educada", "q": "Voglio una camera singola.", "answer": ["Vorrei una camera singola."], "why": "Voglio → vorrei, mucho más amable.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e20", "type": "transform", "instr": "Hazla más educada", "q": "Può aprire la finestra?", "answer": ["Potrebbe aprire la finestra?"], "why": "Può → potrebbe: aún más cortés.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e21", "type": "transform", "instr": "Pídeselo a una amiga (tu)", "q": "Potrebbe fare una foto?", "answer": ["Potresti fare una foto?", "Mi potresti fare una foto?", "Potresti farmi una foto?"], "why": "Lei → potrebbe; tu → potresti.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e22", "type": "transform", "instr": "Hazla más suave", "q": "Mi piace vedere Venezia di notte.", "answer": ["Mi piacerebbe vedere Venezia di notte."], "why": "Mi piace → mi piacerebbe (me gustaría).", "g": "it-g-condizionale-cortesia" },
+    { "id": "e23", "type": "order", "es": "Querría reservar una habitación doble.", "answer": "Vorrei prenotare una camera doppia", "extra": ["voglio"], "why": "Vorrei + infinitivo.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e24", "type": "order", "es": "¿Podría ayudarme, por favor?", "answer": "Potrebbe aiutarmi per favore", "alt": ["Per favore potrebbe aiutarmi"], "extra": ["potresti"], "why": "Potrebbe para Lei.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e25", "type": "order", "es": "Me gustaría ver el puente de Rialto.", "answer": "Mi piacerebbe vedere il ponte di Rialto", "extra": ["io"], "why": "Mi piacerebbe + infinitivo.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e26", "type": "translate", "dir": "to", "q": "Querría un billete para el vaporetto.", "answer": ["Vorrei un biglietto per il vaporetto."], "why": "Vorrei + lo que pides.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "¿Podrías llamar al hotel? (a tu hijo)", "answer": ["Potresti chiamare l'albergo?", "Potresti chiamare l'hotel?", "Potresti telefonare all'albergo?"], "why": "Con tu hijo: potresti.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e28", "type": "translate", "dir": "from", "q": "Mi piacerebbe tornare a Venezia.", "answer": ["Me gustaría volver a Venecia."], "why": "Mi piacerebbe = me gustaría.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e29", "type": "situation", "context": "Llegas a la recepción del hotel y quieres una habitación con vistas al canal.", "emoji": "🏨", "options": ["Buongiorno, vorrei una camera con vista sul canale.", "Buongiorno, voglio camera canale.", "Buongiorno, vorrebbe una camera sul canale."], "answer": "Buongiorno, vorrei una camera con vista sul canale.", "why": "Saludo + vorrei: educado y claro.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e30", "type": "situation", "context": "En la calle, pides a un señor que os haga una foto a ti y a tu marido.", "emoji": "📸", "options": ["Scusi, potrebbe farci una foto?", "Scusi, potresti farci una foto?", "Scusi, voglio una foto."], "answer": "Scusi, potrebbe farci una foto?", "why": "Con un desconocido: scusi + potrebbe.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e31", "type": "situation", "context": "Tu amiga Giulia te pregunta qué te apetece hacer en Venecia. Te gustaría ir a Murano.", "emoji": "🏝️", "options": ["Mi piacerebbe andare a Murano.", "Io piacerebbe andare a Murano.", "Mi piacerei andare a Murano."], "answer": "Mi piacerebbe andare a Murano.", "why": "Mi piacerebbe + infinitivo.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e32", "type": "match", "pairs": [["vorrei", "querría"], ["potrebbe…?", "¿podría (usted)…?"], ["potresti…?", "¿podrías…?"], ["mi piacerebbe", "me gustaría"], ["vorremmo", "querríamos"]], "why": "Las fórmulas de cortesía del viaje.", "g": "it-g-condizionale-cortesia" }
+  ],
+  "reviewed": false
+}

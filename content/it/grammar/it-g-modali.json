@@ -1,0 +1,135 @@
+{
+  "id": "it-g-modali",
+  "lang": "it",
+  "level": "A1",
+  "title": "Verbos modales: potere, volere, dovere",
+  "short": "Poder, querer y deber / tener que, siempre con un infinitivo detrás.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Tres verbos que lo arreglan todo",
+      "emoji": "🛎️",
+      "text": "En el hotel no paras de decir «¿puedo…?», «quiero…», «tengo que…». En italiano son **potere**, **volere** y **dovere**, y detrás llevan un infinitivo.",
+      "examples": [
+        { "t": "==Posso== lasciare le valigie?", "es": "¿Puedo dejar las maletas?", "hl": "Posso" },
+        { "t": "==Voglio== dormire.", "es": "Quiero dormir.", "hl": "Voglio" },
+        { "t": "==Devo== pagare adesso?", "es": "¿Tengo que pagar ahora?", "hl": "Devo" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Las formas",
+      "emoji": "📋",
+      "text": "Los tres son irregulares. Fíjate en que **voi** es casi regular: potete, volete, dovete.",
+      "table": {
+        "head": ["", "potere (poder)", "volere (querer)", "dovere (deber)"],
+        "rows": [
+          ["io", "==posso==", "==voglio==", "==devo=="],
+          ["tu", "==puoi==", "==vuoi==", "==devi=="],
+          ["lui / lei / Lei", "==può==", "==vuole==", "==deve=="],
+          ["noi", "==possiamo==", "==vogliamo==", "==dobbiamo=="],
+          ["voi", "potete", "volete", "dovete"],
+          ["loro", "==possono==", "==vogliono==", "==devono=="]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Modal + infinitivo, sin nada en medio",
+      "emoji": "➡️",
+      "text": "Detrás del modal va el verbo en infinitivo, directamente: ==posso entrare==, ==vuoi venire==. Nada de «di» ni «a». Y la negación va delante: ==non posso==.",
+      "examples": [
+        { "t": "==Possiamo usare== la piscina?", "es": "¿Podemos usar la piscina?", "hl": "Possiamo usare" },
+        { "t": "==Non devi pagare== adesso.", "es": "No tienes que pagar ahora.", "hl": "Non devi pagare" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Pedir con educación",
+      "emoji": "🙏",
+      "text": "Para pedir algo a un recepcionista usa ==Può…?== (¿puede usted…?). Y para lo que tú quieres, mejor ==vorrei== que voglio: voglio suena a orden.",
+      "examples": [
+        { "t": "==Può== chiamare un taxi?", "es": "¿Puede llamar a un taxi?", "hl": "Può" },
+        { "t": "==Vorrei== una coperta.", "es": "Quisiera una manta.", "hl": "Vorrei" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "«Tengo que» **no** se dice con avere. En italiano se usa siempre ==dovere==: tengo que = ==devo==, tenemos que = ==dobbiamo==.",
+      "examples": [
+        { "t": "==Devo== partire domani.", "es": "Tengo que irme mañana.", "hl": "Devo" },
+        { "t": "==Dobbiamo== lasciare la camera.", "es": "Tenemos que dejar la habitación.", "hl": "Dobbiamo" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "Errores típicos",
+      "emoji": "⚠️",
+      "text": "Estos se escapan mucho al principio:",
+      "examples": [
+        { "t": "❌ Ho che pagare → ✅ ==Devo== pagare", "es": "Tengo que pagar", "hl": "Devo" },
+        { "t": "❌ Lei pode → ✅ Lei ==può==", "es": "Usted puede", "hl": "può" },
+        { "t": "❌ Noi doviamo → ✅ Noi ==dobbiamo==", "es": "Nosotros debemos", "hl": "dobbiamo" }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Truco",
+      "emoji": "💡",
+      "text": "Apréndete tres frases de hotel y tendrás los tres verbos: ==Posso== entrare? · ==Vorrei== una camera. · ==Devo== pagare adesso?",
+      "examples": [
+        { "t": "==Può== ripetere, per favore?", "es": "¿Puede repetir, por favor?", "hl": "Può" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español decimos puedo, quiero, debo o tengo que + infinitivo: «Tengo que pagar».",
+    "target": "En italiano: posso, voglio, devo + infinitivo. «Tener que» siempre es dovere: Devo pagare (nunca «ho che pagare»)."
+  },
+  "errors": [
+    { "wrong": "Ho che pagare la camera.", "right": "Devo pagare la camera.", "why": "Tener que se dice con dovere, no con avere." },
+    { "wrong": "Posso di entrare?", "right": "Posso entrare?", "why": "Detrás del modal va el infinitivo directo, sin di." },
+    { "wrong": "Signora, Lei puoi entrare.", "right": "Signora, Lei può entrare.", "why": "Lei (usted) se conjuga como lui/lei: può." },
+    { "wrong": "Noi doviamo partire.", "right": "Noi dobbiamo partire.", "why": "Noi de dovere es irregular: dobbiamo." },
+    { "wrong": "Voglio un caffè. (al camarero)", "right": "Vorrei un caffè.", "why": "Para pedir, vorrei es lo educado; voglio suena brusco." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Io ___ entrare?", "es": "¿Puedo entrar?", "options": ["posso", "può", "puoi"], "answer": "posso", "why": "Io de potere: posso.", "g": "it-g-modali" },
+    { "id": "e2", "type": "choose", "q": "Tu ___ un caffè?", "es": "¿Quieres un café?", "options": ["vuoi", "vuole", "voglio"], "answer": "vuoi", "why": "Tu de volere: vuoi.", "g": "it-g-modali" },
+    { "id": "e3", "type": "choose", "q": "Lui ___ lavorare domani.", "es": "Él tiene que trabajar mañana.", "options": ["deve", "devi", "dove"], "answer": "deve", "why": "Lui de dovere: deve. (Dove significa «dónde».)", "g": "it-g-modali" },
+    { "id": "e4", "type": "choose", "q": "Signora, Lei ___ sedersi qui.", "es": "Señora, usted puede sentarse aquí.", "options": ["può", "puoi", "posso"], "answer": "può", "why": "Lei (usted) va como lui/lei: può.", "g": "it-g-modali" },
+    { "id": "e5", "type": "choose", "q": "Noi ___ partire presto domani.", "es": "Tenemos que salir pronto mañana.", "options": ["dobbiamo", "doviamo", "devono"], "answer": "dobbiamo", "why": "Noi de dovere: dobbiamo.", "g": "it-g-modali" },
+    { "id": "e6", "type": "choose", "q": "Le mie amiche ___ vedere il mare.", "es": "Mis amigas quieren ver el mar.", "options": ["vogliono", "vuolono", "vogliamo"], "answer": "vogliono", "why": "Loro de volere: vogliono.", "g": "it-g-modali" },
+    { "id": "e7", "type": "choose", "q": "Scusi, ___ ripetere, per favore?", "es": "Perdone, ¿puede repetir, por favor?", "options": ["può", "posso", "deve"], "answer": "può", "why": "Le pides algo a otra persona (usted): può.", "g": "it-g-modali" },
+    { "id": "e8", "type": "fill", "q": "Voi ___ venire con noi?", "es": "¿Vosotros podéis venir con nosotros?", "answer": ["potete"], "bank": ["potete", "possete", "possono"], "why": "Voi de potere: potete, regular.", "g": "it-g-modali" },
+    { "id": "e9", "type": "fill", "q": "Loro ___ pagare alla reception.", "es": "Ellos tienen que pagar en recepción.", "answer": ["devono"], "bank": ["devono", "dovono", "deveno"], "why": "Loro de dovere: devono.", "g": "it-g-modali" },
+    { "id": "e10", "type": "fill", "q": "Io non ___ dormire con il rumore.", "es": "No puedo dormir con el ruido.", "answer": ["posso"], "bank": ["posso", "pozzo", "può"], "why": "Io de potere: posso, con doble s.", "g": "it-g-modali" },
+    { "id": "e11", "type": "fill", "q": "Mio marito ___ una camera tranquilla.", "es": "Mi marido quiere una habitación tranquila.", "answer": ["vuole"], "why": "Lui de volere: vuole.", "g": "it-g-modali" },
+    { "id": "e12", "type": "fill", "q": "Tu ___ prendere l'ascensore: la camera è al quinto piano.", "es": "Tienes que coger el ascensor: la habitación está en el quinto.", "answer": ["devi"], "why": "Tu de dovere: devi.", "g": "it-g-modali" },
+    { "id": "e13", "type": "fill", "q": "Noi ___ visitare Catania.", "es": "Queremos visitar Catania.", "answer": ["vogliamo"], "hint": "volere, noi", "why": "Noi de volere: vogliamo, con gl.", "g": "it-g-modali" },
+    { "id": "e14", "type": "conjugate", "verb": "potere", "person": "tu", "tense": "presente", "q": "___ aprire la finestra?", "answer": ["Puoi", "puoi"], "table": [["io", "posso"], ["tu", "?"], ["lui/lei", "può"]], "why": "Tu de potere: puoi.", "g": "it-g-modali" },
+    { "id": "e15", "type": "conjugate", "verb": "volere", "person": "voi", "tense": "presente", "q": "Cosa ___ fare stasera?", "answer": ["volete"], "why": "Voi de volere: volete, regular.", "g": "it-g-modali" },
+    { "id": "e16", "type": "conjugate", "verb": "dovere", "person": "io", "tense": "presente", "q": "Domani ___ andare dal medico.", "answer": ["devo"], "why": "Io de dovere: devo.", "g": "it-g-modali" },
+    { "id": "e17", "type": "conjugate", "verb": "potere", "person": "loro", "tense": "presente", "q": "I clienti ___ usare il parcheggio.", "answer": ["possono"], "why": "Loro de potere: possono.", "g": "it-g-modali" },
+    { "id": "e18", "type": "conjugate", "verb": "volere", "person": "io", "tense": "presente", "q": "Non ___ cambiare camera.", "answer": ["voglio"], "why": "Io de volere: voglio.", "g": "it-g-modali" },
+    { "id": "e19", "type": "order", "es": "¿Podemos ver la habitación?", "answer": "Possiamo vedere la camera", "extra": ["di"], "why": "Modal + infinitivo directo.", "g": "it-g-modali" },
+    { "id": "e20", "type": "order", "es": "No tengo que pagar ahora.", "answer": "Non devo pagare adesso", "extra": ["ho"], "why": "Non delante del modal: non devo.", "g": "it-g-modali" },
+    { "id": "e21", "type": "order", "es": "Mi hijo quiere ir a la playa.", "answer": "Mio figlio vuole andare al mare", "extra": ["voglio"], "why": "Lui de volere: vuole + andare.", "g": "it-g-modali" },
+    { "id": "e22", "type": "transform", "instr": "Hazla negativa", "q": "Puoi entrare.", "answer": ["Non puoi entrare."], "why": "Non va delante del verbo: non puoi.", "g": "it-g-modali" },
+    { "id": "e23", "type": "transform", "instr": "Cámbiala a noi", "q": "Devo partire domani.", "answer": ["Dobbiamo partire domani."], "why": "Noi de dovere: dobbiamo.", "g": "it-g-modali" },
+    { "id": "e24", "type": "transform", "instr": "Hazla educada para pedir", "q": "Voglio una coperta.", "answer": ["Vorrei una coperta.", "Vorrei una coperta, per favore."], "why": "Vorrei es la forma amable de voglio.", "g": "it-g-modali" },
+    { "id": "e25", "type": "transform", "instr": "Pásala a usted (Lei)", "q": "Puoi chiamare un taxi?", "answer": ["Può chiamare un taxi?", "Lei può chiamare un taxi?"], "why": "Con Lei: può.", "g": "it-g-modali" },
+    { "id": "e26", "type": "error", "q": "Ho che lasciare la camera.", "wrong": "Ho", "fix": "Devo", "why": "Tener que se dice con dovere: devo.", "g": "it-g-modali" },
+    { "id": "e27", "type": "error", "q": "Loro vogliano dormire.", "wrong": "vogliano", "fix": "vogliono", "why": "Loro de volere acaba en -ono: vogliono.", "g": "it-g-modali" },
+    { "id": "e28", "type": "error", "q": "Posso pago con la carta?", "wrong": "pago", "fix": "pagare", "why": "Detrás de posso va el infinitivo: posso pagare.", "g": "it-g-modali" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "¿Puedo pagar con tarjeta?", "answer": ["Posso pagare con la carta?", "Posso pagare con carta?"], "why": "Puedo = posso + infinitivo.", "g": "it-g-modali" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "Tenemos que irnos.", "answer": ["Dobbiamo andare.", "Dobbiamo partire.", "Dobbiamo andare via."], "why": "Tenemos que = dobbiamo.", "g": "it-g-modali" },
+    { "id": "e31", "type": "translate", "dir": "from", "q": "Vuole un'altra coperta?", "answer": ["¿Quiere otra manta?", "¿Quiere usted otra manta?"], "why": "Vuole con Lei = quiere usted; coperta = manta.", "g": "it-g-modali" },
+    { "id": "e32", "type": "situation", "context": "El camarero del desayuno te pregunta qué quieres. Pides un café con educación.", "emoji": "☕", "options": ["Vorrei un caffè, per favore.", "Voglio un caffè.", "Devo un caffè."], "answer": "Vorrei un caffè, per favore.", "why": "Para pedir, vorrei suena amable.", "g": "it-g-modali" },
+    { "id": "e33", "type": "situation", "context": "Tu marido pregunta si tenéis que pagar ya. Le dices que no.", "emoji": "💳", "options": ["No, non dobbiamo pagare adesso.", "No, non abbiamo che pagare.", "No, non possiamo pagare mai."], "answer": "No, non dobbiamo pagare adesso.", "why": "No tener que = non dovere: non dobbiamo.", "g": "it-g-modali" },
+    { "id": "e34", "type": "match", "pairs": [["posso", "puedo"], ["vuoi", "quieres"], ["deve", "tiene que"], ["possiamo", "podemos"], ["vogliono", "quieren"]], "why": "Repasa las formas más usadas." }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,68 @@
+{
+  "id": "it-b1-u07-c3",
+  "unit": "it-b1-u07",
+  "title": "Yo que tú…",
+  "setting": "Giulia se va de vacaciones a Cerdeña y te pide consejo",
+  "emoji": "🗿",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, a luglio vado in Sardegna, ma non so niente dell'isola. Mi aiuti?", "es": "Yolanda, en julio voy a Cerdeña, pero no sé nada de la isla. ¿Me ayudas?" },
+      "options": [
+        { "t": "Certo! Se vuoi, ti do qualche consiglio.", "es": "¡Claro! Si quieres, te doy algún consejo.", "next": "n2", "ok": true },
+        { "t": "Certo! Se volessi, ti do qualche consiglio.", "es": "¡Claro! Si quisieras, te doy algún consejo.", "next": "n2", "ok": false, "feedback": "Es un ofrecimiento real: se vuoi (si quieres)." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Meglio la Costa Smeralda o una zona più tranquilla?", "es": "¿Mejor la Costa Esmeralda o una zona más tranquila?" },
+      "options": [
+        { "t": "Se fossi in te, cercherei una caletta tranquilla.", "es": "Yo que tú, buscaría una calita tranquila.", "next": "n3", "ok": true },
+        { "t": "Se fosse in te, cercherei una caletta tranquilla.", "es": "Yo que tú, buscaría una calita tranquila.", "next": "n3", "ok": false, "feedback": "Yo que tú = se fossi (io) in te. Fosse es para lui o lei." },
+        { "t": "Se sarei in te, cercherei una caletta tranquilla.", "es": "Yo que tú, buscaría una calita tranquila.", "next": "n3", "ok": false, "feedback": "Nunca condicional detrás de se: se fossi in te." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "E come mi muovo? Non ho la macchina.", "es": "¿Y cómo me muevo? No tengo coche." },
+      "options": [
+        { "t": "Se noleggiassi una macchina, vedresti tutta l'isola.", "es": "Si alquilaras un coche, verías toda la isla.", "next": "n4", "ok": true },
+        { "t": "Se noleggeresti una macchina, vedresti tutta l'isola.", "es": "Si alquilarías un coche, verías toda la isla.", "next": "n4", "ok": false, "feedback": "Detrás de se, congiuntivo imperfetto: se noleggiassi." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Però costa molto…", "es": "Pero cuesta mucho…" },
+      "options": [
+        { "t": "Se la dividi con un'amica, costa meno.", "es": "Si lo compartes con una amiga, cuesta menos.", "next": "n5", "ok": true },
+        { "t": "Se la dividessi con un'amica, costa meno.", "es": "Si lo compartieras con una amiga, cuesta menos.", "next": "n5", "ok": false, "feedback": "No mezcles: o real (se la dividi, costa meno) o hipótesis (se la dividessi, costerebbe meno)." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Buona idea! E cosa devo assaggiare?", "es": "¡Buena idea! ¿Y qué tengo que probar?" },
+      "options": [
+        { "t": "Se fossi in te, assaggerei il pecorino sardo e il pane carasau.", "es": "Yo que tú, probaría el queso de oveja sardo y el pan carasau.", "next": "n6", "ok": true },
+        { "t": "Se fossi in te, assaggiassi il pecorino sardo e il pane carasau.", "es": "Yo que tú, probara el queso de oveja sardo y el pan carasau.", "next": "n6", "ok": false, "feedback": "La segunda parte va en condicional: assaggerei." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Mamma mia, che fame! E tu? Verresti con me?", "es": "¡Madre mía, qué hambre! ¿Y tú? ¿Vendrías conmigo?" },
+      "options": [
+        { "t": "Magari! Se potessi, verrei subito.", "es": "¡Ojalá! Si pudiera, iría ahora mismo.", "next": "n7", "ok": true },
+        { "t": "Magari! Se potessi, venissi subito.", "es": "¡Ojalá! Si pudiera, viniera ahora mismo.", "next": "n7", "ok": false, "feedback": "Lo que harías va en condicional: verrei." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Allora è deciso: l'anno prossimo andiamo insieme!", "es": "Entonces está decidido: ¡el año que viene vamos juntas!" },
+      "options": [
+        { "t": "Affare fatto! Se risparmio un po', vengo di sicuro.", "es": "¡Trato hecho! Si ahorro un poco, voy seguro.", "next": "end", "ok": true },
+        { "t": "Affare fatto! Se risparmierei un po', vengo di sicuro.", "es": "¡Trato hecho! Si ahorraría un poco, voy seguro.", "next": "end", "ok": false, "feedback": "Es un plan real: se + presente (se risparmio)." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,70 @@
+{
+  "id": "it-a2-u05-l3",
+  "unit": "it-a2-u05",
+  "title": "Che panorama!",
+  "goal": "a hablar del paisaje y de una excursión a pie con frases útiles",
+  "emoji": "🥾",
+  "photoQuery": "colorful village cliffs sea path",
+  "vocab": [
+    { "id": "meteo-il-sentiero", "t": "il sentiero", "es": "el sendero", "emoji": "🥾", "pos": "n", "ex": { "t": "Il sentiero era stretto ma bellissimo.", "es": "El sendero era estrecho pero precioso." } },
+    { "id": "meteo-la-vista", "t": "la vista", "es": "las vistas", "emoji": "🏞️", "pos": "n", "ex": { "t": "Dalla collina c'era una vista stupenda.", "es": "Desde la colina había unas vistas estupendas." } },
+    { "id": "meteo-che-panorama", "t": "che panorama!", "es": "¡qué vistas!", "emoji": "😍", "pos": "phrase", "ex": { "t": "Guarda il mare! Che panorama!", "es": "¡Mira el mar! ¡Qué vistas!" } },
+    { "id": "meteo-lo-zaino", "t": "lo zaino", "es": "la mochila", "emoji": "🎒", "pos": "n", "ex": { "t": "Nello zaino avevo l'acqua e i panini.", "es": "En la mochila llevaba el agua y los bocadillos." } },
+    { "id": "meteo-la-borraccia", "t": "la borraccia", "es": "la cantimplora", "emoji": "🧴", "pos": "n", "note": "¡Ojo! No tiene nada que ver con «borracha».", "ex": { "t": "Ho riempito la borraccia alla fontana.", "es": "He llenado la cantimplora en la fuente." } },
+    { "id": "meteo-gli-scogli", "t": "gli scogli", "es": "las rocas (del mar)", "emoji": "🪨", "pos": "n", "ex": { "t": "Ci siamo seduti sugli scogli.", "es": "Nos sentamos en las rocas." } },
+    { "id": "meteo-il-paesino", "t": "il paesino", "es": "el pueblecito", "emoji": "🏘️", "pos": "n", "ex": { "t": "Il paesino era pieno di case colorate.", "es": "El pueblecito estaba lleno de casas de colores." } },
+    { "id": "meteo-fare-una-pausa", "t": "fare una pausa", "es": "hacer una pausa, descansar un rato", "emoji": "⏸️", "pos": "phrase", "ex": { "t": "Facciamo una pausa? Sono stanca.", "es": "¿Hacemos una pausa? Estoy cansada." } },
+    { "id": "meteo-la-salita", "t": "la salita", "es": "la cuesta (hacia arriba)", "emoji": "⛰️", "pos": "n", "ex": { "t": "Che salita! Non ce la faccio più.", "es": "¡Qué cuesta! Ya no puedo más." } }
+  ],
+  "grammar": "it-g-imperfetto-vs-passato",
+  "pron": {
+    "title": "La gl de scogli",
+    "tip": "Gli suena como una «ll» suave con la lengua pegada al paladar: «sco-lli». No pronuncies la g.",
+    "words": ["scogli", "gli", "bottiglia", "famiglia", "meraviglia"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Dalla collina c'___ una vista stupenda.", "es": "Desde la colina había unas vistas estupendas.", "options": ["era", "è stata", "ero"], "answer": "era", "why": "Describir el paisaje en el pasado: c'era.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e2", "type": "choose", "q": "Nello zaino ___ l'acqua e i panini.", "es": "En la mochila llevaba el agua y los bocadillos.", "options": ["avevo", "ho avuto", "ho"], "answer": "avevo", "why": "Describe lo que llevabas: avevo.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e3", "type": "choose", "q": "Ero stanca, così ___ una pausa.", "es": "Estaba cansada, así que hice una pausa.", "options": ["ho fatto", "facevo", "faccio"], "answer": "ho fatto", "why": "Lo que hiciste en ese momento: ho fatto.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e4", "type": "fill", "q": "Ho riempito la ___ alla fontana.", "es": "He llenado la cantimplora en la fuente.", "answer": ["borraccia"], "bank": ["borraccia", "bottiglia", "zaino"], "why": "La borraccia = la cantimplora.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e5", "type": "fill", "q": "Il ___ era stretto e pieno di sassi.", "es": "El sendero era estrecho y lleno de piedras.", "answer": ["sentiero"], "bank": ["sentiero", "scoglio", "paesino"], "why": "Il sentiero = el sendero.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e6", "type": "fill", "q": "Ci siamo ___ sugli scogli a guardare il mare.", "es": "Nos sentamos en las rocas a mirar el mar.", "answer": ["seduti", "sedute"], "hint": "sedersi", "why": "Con essere el participio concuerda: ci siamo seduti.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e7", "type": "match", "pairs": [["il sentiero", "el sendero"], ["lo zaino", "la mochila"], ["la borraccia", "la cantimplora"], ["gli scogli", "las rocas"], ["la salita", "la cuesta"]], "why": "Palabras de la excursión.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e8", "type": "error", "q": "Il paesino è pieno di case colorate quando siamo arrivati.", "wrong": "è", "fix": "era", "why": "Describe cómo estaba el pueblo: era.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e9", "type": "transform", "instr": "Pásala al pasado", "q": "La salita è dura, ma arriviamo in cima.", "answer": ["La salita era dura, ma siamo arrivati in cima.", "La salita era dura ma siamo arrivati in cima.", "La salita era dura, ma siamo arrivate in cima."], "why": "Era (descripción) + siamo arrivati (hecho).", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e10", "type": "order", "es": "Desde arriba había unas vistas preciosas.", "answer": "Dall'alto c'era una vista bellissima", "extra": ["c'è"], "why": "Descripción del paisaje en pasado: c'era.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e11", "type": "translate", "dir": "to", "q": "¡Qué cuesta! Estaba muy cansada.", "answer": ["Che salita! Ero molto stanca.", "Che salita! Ero stanchissima."], "why": "Cómo estabas: ero stanca (femenino).", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e12", "type": "translate", "dir": "from", "q": "Il paesino era pieno di case colorate.", "answer": ["El pueblecito estaba lleno de casas de colores.", "El pueblo estaba lleno de casas de colores.", "El pueblecito estaba lleno de casas coloridas."], "why": "Era pieno = estaba lleno.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e13", "type": "situation", "context": "Llegas a lo alto del sendero y ves el mar y los pueblos. Te quedas sin palabras.", "emoji": "😍", "options": ["Che panorama!", "Che salita!", "Che peccato!"], "answer": "Che panorama!", "why": "Che panorama! = ¡qué vistas!", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e14", "type": "speak", "t": "Il sentiero era stretto, ma che panorama!", "es": "El sendero era estrecho, ¡pero qué vistas!", "g": "it-g-imperfetto-vs-passato" }
+  ],
+  "dialog": {
+    "title": "En lo alto del sendero",
+    "setting": "Yolanda camina por un sendero de las Cinque Terre y charla con Franco, un senderista italiano",
+    "emoji": "⛰️",
+    "lines": [
+      { "who": "Franco", "t": "Buongiorno! Tutto bene? Questa salita è dura!", "es": "¡Buenos días! ¿Todo bien? ¡Esta cuesta es dura!" },
+      { "who": "Yolanda", "t": "Sì, ma che panorama! Facciamo una pausa?", "es": "¡Sí, pero qué vistas! ¿Hacemos una pausa?" },
+      { "who": "Franco", "t": "Certo. Ha l'acqua?", "es": "Claro. ¿Tiene agua?" },
+      { "who": "Yolanda", "t": "Sì, ho riempito la borraccia al paesino.", "es": "Sí, he llenado la cantimplora en el pueblecito." },
+      { "who": "Franco", "t": "Brava! Stamattina c'era tanta gente sul sentiero.", "es": "¡Muy bien! Esta mañana había mucha gente en el sendero." },
+      { "who": "Yolanda", "t": "Sì, e faceva già caldo alle nove!", "es": "¡Sí, y a las nueve ya hacía calor!" },
+      { "who": "Franco", "t": "Coraggio, Vernazza è vicina!", "es": "¡Ánimo, Vernazza está cerca!" }
+    ],
+    "questions": [
+      { "q": "¿Qué propone Yolanda?", "options": ["Hacer una pausa", "Volver al hotel", "Coger el tren"], "answer": "Hacer una pausa" },
+      { "q": "¿Dónde llenó la cantimplora?", "options": ["En el pueblecito", "En el hotel", "En un bar"], "answer": "En el pueblecito" },
+      { "q": "¿Qué tiempo hacía a las nueve?", "options": ["Ya hacía calor", "Llovía", "Hacía frío"], "answer": "Ya hacía calor" }
+    ]
+  },
+  "realLife": { "t": "Facciamo una pausa? Sono stanca.", "es": "¿Hacemos una pausa? Estoy cansada.", "context": "Para pedir un descanso durante una excursión" },
+  "falseFriend": { "word": "la borraccia", "means": "la cantimplora", "looksLike": "borracha", "emoji": "🧴", "tip": "«Riempio la borraccia» = lleno la cantimplora. Para decir «borracha», en italiano se dice «ubriaca»." },
+  "summary": [
+    "El paisaje: il sentiero, la vista, gli scogli, il paesino.",
+    "Che panorama! = ¡qué vistas!; che salita! = ¡qué cuesta!",
+    "Facciamo una pausa? = ¿hacemos una pausa?",
+    "La borraccia = la cantimplora (¡no «borracha»!).",
+    "Describir con imperfetto: il sentiero era stretto."
+  ],
+  "reviewed": false
+}

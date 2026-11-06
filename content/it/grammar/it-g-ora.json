@@ -1,0 +1,120 @@
+{
+  "id": "it-g-ora",
+  "lang": "it",
+  "level": "A1",
+  "title": "La hora",
+  "short": "Che ore sono? Sono le tre. È l'una. A che ora? Alle otto.",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "🕒",
+      "title": "¿Qué hora es?",
+      "text": "Para preguntar la hora hay dos formas, las dos correctas: ==Che ore sono?== y ==Che ora è?== ¡Y la respuesta es casi como en español!"
+    },
+    {
+      "kind": "rule",
+      "emoji": "🕐",
+      "title": "Sono le… / È l'una",
+      "text": "Como en español: ==Sono le== tre (son las tres). Pero con la una, singular: ==È l'==una (es la una).",
+      "examples": [
+        { "t": "Sono le cinque.", "es": "Son las cinco.", "hl": "Sono le" },
+        { "t": "È l'una.", "es": "Es la una.", "hl": "È l'" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "⏰",
+      "title": "Y cuarto, y media, menos cuarto",
+      "text": "Se suma con ==e== y se resta con ==meno==.",
+      "table": {
+        "head": ["Hora", "Italiano"],
+        "rows": [
+          ["3:00", "Sono le tre."],
+          ["3:15", "Sono le tre ==e un quarto==."],
+          ["3:30", "Sono le tre ==e mezza==."],
+          ["3:45", "Sono le quattro ==meno un quarto==."],
+          ["12:00", "È ==mezzogiorno==."],
+          ["0:00", "È ==mezzanotte==."]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "emoji": "📅",
+      "title": "¿A qué hora?",
+      "text": "A che ora…? Se responde con ==alle== (a + le): alle otto. Con la una, ==all'==una. Y ==a== mezzogiorno.",
+      "examples": [
+        { "t": "A che ora parte il treno? — Alle nove.", "es": "¿A qué hora sale el tren? —A las nueve.", "hl": "Alle" },
+        { "t": "Pranziamo all'una.", "es": "Comemos a la una.", "hl": "all'" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "emoji": "🇪🇸",
+      "title": "Español e italiano",
+      "text": "En horarios de trenes y tiendas se usa el reloj de 24 horas: le venti = las 20:00. Hablando, se dice le otto di sera.",
+      "examples": [
+        { "t": "Il treno parte alle diciotto e trenta.", "es": "El tren sale a las 18:30." },
+        { "t": "Ci vediamo alle otto di sera.", "es": "Nos vemos a las ocho de la tarde." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo!",
+      "text": "❌ Sono l'una → ✅ ==È== l'una. ❌ e media → ✅ e ==mezza==. ❌ Che hora è? → ✅ Che ==ora== è? (sin h)."
+    },
+    {
+      "kind": "tip",
+      "emoji": "🙋‍♀️",
+      "title": "Para pedirla por la calle",
+      "text": "Empieza con educación: ==Scusi, che ore sono?== (Perdone, ¿qué hora es?). Y para despedirte: grazie mille!"
+    }
+  ],
+  "compare": {
+    "es": "¿Qué hora es? Son las tres y cuarto. Es la una y media. ¿A qué hora? A las ocho.",
+    "target": "Che ore sono? Sono le tre e un quarto. È l'una e mezza. A che ora? Alle otto. Casi palabra por palabra."
+  },
+  "errors": [
+    { "wrong": "Sono l'una.", "right": "È l'una.", "why": "La una es singular, como en español: è l'una (es la una)." },
+    { "wrong": "Sono le otto e media.", "right": "Sono le otto e mezza.", "why": "«Media» en italiano es mezza (también se oye e mezzo)." },
+    { "wrong": "Che hora è?", "right": "Che ora è?", "why": "Ora (hora) se escribe sin h." },
+    { "wrong": "Ci vediamo a le sei.", "right": "Ci vediamo alle sei.", "why": "A + le se juntan en una palabra: alle." },
+    { "wrong": "Alle una pranziamo.", "right": "All'una pranziamo.", "why": "Con la una se usa all', con apóstrofo." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "3:00 → ___ le tre.", "options": ["Sono", "È", "Ha"], "answer": "Sono", "why": "Con todas las horas menos la una: sono le…", "g": "it-g-ora" },
+    { "id": "e2", "type": "choose", "q": "1:00 → ___ l'una.", "options": ["È", "Sono", "Ha"], "answer": "È", "why": "La una es singular: è l'una.", "g": "it-g-ora" },
+    { "id": "e3", "type": "choose", "q": "12:00 (de día) → È ___.", "options": ["mezzogiorno", "mezzanotte", "mezza"], "answer": "mezzogiorno", "why": "Las doce del día es mezzogiorno (mediodía).", "g": "it-g-ora" },
+    { "id": "e4", "type": "choose", "q": "5:30 → Sono le cinque e ___.", "options": ["mezza", "quarto", "meno"], "answer": "mezza", "why": "Y media = e mezza.", "g": "it-g-ora" },
+    { "id": "e5", "type": "choose", "q": "7:15 → Sono le sette e un ___.", "options": ["quarto", "mezzo", "terzo"], "answer": "quarto", "why": "Y cuarto = e un quarto.", "g": "it-g-ora" },
+    { "id": "e6", "type": "choose", "q": "8:50 → Sono le nove ___ dieci.", "options": ["meno", "e", "più"], "answer": "meno", "why": "Para restar minutos se usa meno, como «menos».", "g": "it-g-ora" },
+    { "id": "e7", "type": "choose", "q": "Il treno parte ___ otto.", "options": ["alle", "a le", "le"], "answer": "alle", "why": "A + le se juntan: alle otto.", "g": "it-g-ora" },
+    { "id": "e8", "type": "choose", "q": "Ci vediamo ___, va bene?", "options": ["all'una", "alle una", "a l'una"], "answer": "all'una", "why": "Con la una: all'una, con apóstrofo.", "g": "it-g-ora" },
+    { "id": "e9", "type": "fill", "q": "Che ___ sono?", "answer": ["ore"], "bank": ["ore", "ora", "orologio"], "why": "Con sono (plural), ore en plural: che ore sono?", "g": "it-g-ora" },
+    { "id": "e10", "type": "fill", "q": "Che ___ è?", "answer": ["ora"], "bank": ["ora", "ore", "tempo"], "why": "Con è (singular), ora en singular: che ora è?", "g": "it-g-ora" },
+    { "id": "e11", "type": "fill", "q": "10:30 → Sono le dieci e ___.", "answer": ["mezza", "mezzo"], "why": "Y media = e mezza (o e mezzo).", "g": "it-g-ora" },
+    { "id": "e12", "type": "fill", "q": "00:00 → È ___.", "answer": ["mezzanotte"], "hint": "Medianoche", "why": "Las doce de la noche es mezzanotte.", "g": "it-g-ora" },
+    { "id": "e13", "type": "fill", "q": "A che ora pranzi? — ___ due.", "answer": ["Alle"], "bank": ["Alle", "Le", "A"], "why": "Para decir a qué hora: alle + número.", "g": "it-g-ora" },
+    { "id": "e14", "type": "transform", "instr": "Escribe la hora en letras", "q": "4:00", "answer": ["Sono le quattro"], "why": "Sono le + número: sono le quattro.", "g": "it-g-ora" },
+    { "id": "e15", "type": "transform", "instr": "Escribe la hora en letras", "q": "2:15", "answer": ["Sono le due e un quarto", "Sono le due e quindici"], "why": "Y cuarto = e un quarto.", "g": "it-g-ora" },
+    { "id": "e16", "type": "transform", "instr": "Escribe la hora en letras", "q": "6:30", "answer": ["Sono le sei e mezza", "Sono le sei e mezzo", "Sono le sei e trenta"], "why": "Y media = e mezza.", "g": "it-g-ora" },
+    { "id": "e17", "type": "transform", "instr": "Escribe la hora en letras", "q": "1:00", "answer": ["È l'una", "E' l'una"], "why": "La una va en singular: è l'una.", "g": "it-g-ora" },
+    { "id": "e18", "type": "transform", "instr": "Escribe la hora en letras", "q": "10:45", "answer": ["Sono le undici meno un quarto", "Sono le dieci e quarantacinque", "Sono le dieci e tre quarti"], "why": "Menos cuarto = meno un quarto, contando desde la hora siguiente.", "g": "it-g-ora" },
+    { "id": "e19", "type": "error", "q": "Sono l'una e dieci.", "wrong": "Sono", "fix": "È", "why": "La una es singular: è l'una.", "g": "it-g-ora" },
+    { "id": "e20", "type": "error", "q": "Sono le otto e media.", "wrong": "media", "fix": "mezza", "why": "Y media se dice e mezza.", "g": "it-g-ora" },
+    { "id": "e21", "type": "error", "q": "Scusi, che hora è?", "wrong": "hora", "fix": "ora", "why": "Ora (hora) se escribe sin h.", "g": "it-g-ora" },
+    { "id": "e22", "type": "error", "q": "È le quattro e mezza.", "wrong": "È", "fix": "Sono", "why": "Con todas las horas menos la una: sono le…", "g": "it-g-ora" },
+    { "id": "e23", "type": "order", "es": "Son las ocho y cuarto.", "answer": "Sono le otto e un quarto", "why": "Sono le + hora + e un quarto.", "g": "it-g-ora" },
+    { "id": "e24", "type": "order", "es": "¿A qué hora abre el museo?", "answer": "A che ora apre il museo", "extra": ["Che ore"], "why": "A che ora…? = ¿A qué hora…?", "g": "it-g-ora" },
+    { "id": "e25", "type": "order", "es": "Es la una y media.", "answer": "È l'una e mezza", "extra": ["Sono"], "why": "La una va con è.", "g": "it-g-ora" },
+    { "id": "e26", "type": "translate", "dir": "to", "q": "¿Qué hora es?", "answer": ["Che ore sono?", "Che ora è?", "Che ore sono", "Che ora è"], "why": "Las dos formas valen: che ore sono? / che ora è?", "g": "it-g-ora" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "Son las nueve menos cuarto.", "answer": ["Sono le nove meno un quarto", "Sono le otto e quarantacinque"], "why": "Menos cuarto = meno un quarto.", "g": "it-g-ora" },
+    { "id": "e28", "type": "translate", "dir": "from", "q": "Il treno parte a mezzogiorno.", "answer": ["El tren sale a mediodía", "El tren sale a las doce", "El tren sale al mediodía", "El tren parte a mediodía"], "why": "Mezzogiorno = mediodía; con él se usa a, no alle.", "g": "it-g-ora" },
+    { "id": "e29", "type": "situation", "context": "Quieres saber a qué hora cierra la farmacia.", "emoji": "💊", "options": ["A che ora chiude la farmacia?", "Che ore sono la farmacia?", "Quando è la farmacia?"], "answer": "A che ora chiude la farmacia?", "why": "Para un horario: a che ora + verbo?", "g": "it-g-ora" },
+    { "id": "e30", "type": "situation", "context": "Un señor te pregunta la hora y son las 2:30.", "emoji": "⌚", "options": ["Sono le due e mezza.", "È le due e mezza.", "Sono la due e mezza."], "answer": "Sono le due e mezza.", "why": "Con las dos: sono le due e mezza.", "g": "it-g-ora" },
+    { "id": "e31", "type": "match", "pairs": [["7:15", "le sette e un quarto"], ["7:30", "le sette e mezza"], ["6:45", "le sette meno un quarto"], ["12:00", "mezzogiorno"], ["1:00", "l'una"]], "why": "E un quarto, e mezza, meno un quarto: como en español.", "g": "it-g-ora" },
+    { "id": "e32", "type": "choose", "q": "Sono le venti = sono le otto di ___.", "options": ["sera", "mattina", "notte"], "answer": "sera", "why": "Las 20:00 son las ocho de la tarde: di sera.", "g": "it-g-ora" }
+  ],
+  "reviewed": false
+}

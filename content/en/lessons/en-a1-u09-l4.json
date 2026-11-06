@@ -1,0 +1,424 @@
+{
+  "id": "en-a1-u09-l4",
+  "unit": "en-a1-u09",
+  "title": "¿Qué, dónde, cuándo?",
+  "goal": "a hacer preguntas con what, where, when, who, which y how en el orden correcto",
+  "emoji": "❓",
+  "photoQuery": "cafe counter chalkboard menu",
+  "vocab": [
+    {
+      "id": "what",
+      "t": "what",
+      "es": "qué",
+      "emoji": "❓",
+      "pos": "other",
+      "ex": {
+        "t": "What would you like?",
+        "es": "¿Qué le pongo?"
+      }
+    },
+    {
+      "id": "where",
+      "t": "where",
+      "es": "dónde",
+      "emoji": "📍",
+      "pos": "other",
+      "ex": {
+        "t": "Where is the toilet?",
+        "es": "¿Dónde está el baño?"
+      }
+    },
+    {
+      "id": "when",
+      "t": "when",
+      "es": "cuándo",
+      "emoji": "📅",
+      "pos": "other",
+      "ex": {
+        "t": "When does the market open?",
+        "es": "¿Cuándo abre el mercado?"
+      }
+    },
+    {
+      "id": "who",
+      "t": "who",
+      "es": "quién",
+      "emoji": "👤",
+      "pos": "other",
+      "ex": {
+        "t": "Who is the cake for?",
+        "es": "¿Para quién es la tarta?"
+      }
+    },
+    {
+      "id": "which",
+      "t": "which",
+      "es": "cuál, qué (entre pocos)",
+      "emoji": "👉",
+      "pos": "other",
+      "ex": {
+        "t": "Which soup is vegetarian?",
+        "es": "¿Qué sopa es vegetariana?"
+      }
+    },
+    {
+      "id": "why",
+      "t": "why",
+      "es": "por qué",
+      "emoji": "🤷",
+      "pos": "other",
+      "ex": {
+        "t": "Why is it so busy today?",
+        "es": "¿Por qué hay tanta gente hoy?"
+      }
+    },
+    {
+      "id": "how",
+      "t": "how",
+      "es": "cómo",
+      "emoji": "🔧",
+      "pos": "other",
+      "ex": {
+        "t": "How is the fish? — Delicious!",
+        "es": "¿Qué tal el pescado? — ¡Riquísimo!"
+      }
+    },
+    {
+      "id": "what-does-it-mean",
+      "t": "What does it mean?",
+      "es": "¿Qué significa?",
+      "emoji": "💬",
+      "pos": "phrase",
+      "ex": {
+        "t": "Bangers? What does it mean?",
+        "es": "¿Bangers? ¿Qué significa?"
+      }
+    }
+  ],
+  "grammar": "en-g-wh-questions",
+  "pron": {
+    "title": "«Wudʒu» y la voz que baja",
+    "tip": "Would you se dice todo junto: «wudʒu», como «wu-yu» con una y fuerte. Y en las preguntas con what, where o when la voz BAJA al final: Where do you ==live== ↘.",
+    "words": [
+      "Would you like…?",
+      "What would you like?",
+      "Where do you live?",
+      "What time does it open?"
+    ],
+    "pairs": [
+      [
+        "who",
+        "how"
+      ],
+      [
+        "where",
+        "were"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "What would you like?",
+          "The fish, please."
+        ],
+        [
+          "Where is the toilet?",
+          "Downstairs."
+        ],
+        [
+          "When does it close?",
+          "At ten."
+        ],
+        [
+          "Who is the chef?",
+          "Marco."
+        ],
+        [
+          "How is the soup?",
+          "Very good!"
+        ]
+      ],
+      "why": "Cada palabra interrogativa pide su respuesta: cosa, lugar, tiempo, persona, opinión.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "___ is the toilet, please?",
+      "es": "¿Dónde está el baño, por favor?",
+      "options": [
+        "Where",
+        "When",
+        "What"
+      ],
+      "answer": "Where",
+      "why": "Dónde = where.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "___ soup is vegetarian, the tomato or the chicken?",
+      "es": "¿Qué sopa es vegetariana, la de tomate o la de pollo?",
+      "options": [
+        "Which",
+        "Who",
+        "Why"
+      ],
+      "answer": "Which",
+      "why": "Entre pocas opciones: which.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "What time ___ the café close?",
+      "es": "¿A qué hora cierra la cafetería?",
+      "options": [
+        "does",
+        "do",
+        "is"
+      ],
+      "answer": "does",
+      "why": "The café es it: auxiliar does.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "Where do you usually ___ lunch?",
+      "es": "¿Dónde sueles comer?",
+      "options": [
+        "have",
+        "has",
+        "having"
+      ],
+      "answer": "have",
+      "why": "Después de do + sujeto, el verbo va tal cual.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Where ___ your daughter live?",
+      "es": "¿Dónde vive tu hija?",
+      "answer": [
+        "does"
+      ],
+      "bank": [
+        "does",
+        "do",
+        "is"
+      ],
+      "why": "Your daughter es she: does.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "What ___ «crumble» mean?",
+      "es": "¿Qué significa «crumble»?",
+      "answer": [
+        "does"
+      ],
+      "bank": [
+        "does",
+        "is",
+        "do"
+      ],
+      "why": "¿Qué significa…? = What does … mean?",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "q": "Who ___ the cake for? — For my grandson.",
+      "es": "¿Para quién es la tarta? — Para mi nieto.",
+      "answer": [
+        "is",
+        "'s"
+      ],
+      "why": "La tarta es una cosa: Who is…for?",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "¿A qué hora abre el mercado?",
+      "answer": "What time does the market open",
+      "extra": [
+        "opens"
+      ],
+      "why": "What time + does + sujeto + verbo sin -s.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "¿Dónde comes los domingos?",
+      "answer": "Where do you eat on Sundays",
+      "extra": [
+        "does"
+      ],
+      "why": "Where + do + you + verbo.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "What time do the market open on Saturdays?",
+      "wrong": "do",
+      "fix": "does",
+      "why": "The market es it: el auxiliar es does.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "Where does your friend works?",
+      "wrong": "works",
+      "fix": "work",
+      "why": "Con does, el verbo va sin -s.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e13",
+      "type": "transform",
+      "instr": "Haz la pregunta con what",
+      "q": "My husband drinks beer.",
+      "answer": [
+        "What does your husband drink?",
+        "What does your husband drink",
+        "What does he drink?"
+      ],
+      "why": "What + does + your husband + drink.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Qué te gustaría beber?",
+      "answer": [
+        "What would you like to drink?",
+        "What would you like to drink"
+      ],
+      "why": "What + would + you + like + to drink.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "who",
+        "how"
+      ],
+      "answer": "how",
+      "es": [
+        "quién",
+        "cómo"
+      ],
+      "why": "Who suena «ju»; how suena «jau», abriendo la boca."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Excuse me, where is the toilet?",
+      "es": "Perdone, ¿dónde está el baño?"
+    }
+  ],
+  "dialog": {
+    "title": "Preguntas en la cafetería",
+    "setting": "En la barra de una cafetería del barrio de Southwark",
+    "emoji": "☕",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Excuse me, what time do you close?",
+        "es": "Perdone, ¿a qué hora cierran?"
+      },
+      {
+        "who": "Tom",
+        "t": "At six. What would you like?",
+        "es": "A las seis. ¿Qué le pongo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Which cake is that?",
+        "es": "¿Qué tarta es esa?"
+      },
+      {
+        "who": "Tom",
+        "t": "That's carrot cake.",
+        "es": "Es tarta de zanahoria."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Carrot? Why is it orange?",
+        "es": "¿De zanahoria? ¿Por qué es naranja?"
+      },
+      {
+        "who": "Tom",
+        "t": "Because carrots are orange!",
+        "es": "¡Porque las zanahorias son naranjas!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Ha! And how much is it?",
+        "es": "¡Ja! ¿Y cuánto cuesta?"
+      },
+      {
+        "who": "Tom",
+        "t": "Three pounds a slice.",
+        "es": "Tres libras el trozo."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿A qué hora cierra la cafetería?",
+        "options": [
+          "A las seis",
+          "A las cinco",
+          "A las siete"
+        ],
+        "answer": "A las seis"
+      },
+      {
+        "q": "¿De qué es la tarta?",
+        "options": [
+          "De zanahoria",
+          "De naranja",
+          "De limón"
+        ],
+        "answer": "De zanahoria"
+      },
+      {
+        "q": "¿Cuánto cuesta el trozo?",
+        "options": [
+          "Tres libras",
+          "Dos libras",
+          "Seis libras"
+        ],
+        "answer": "Tres libras"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Sorry, what does this word mean?",
+    "es": "Perdone, ¿qué significa esta palabra?",
+    "context": "Cuando no entiendes algo de la carta"
+  },
+  "summary": [
+    "what, where, when, who, which, why, how",
+    "Orden: pregunta + do/does + sujeto + verbo: Where do you live?",
+    "Con does, el verbo sin -s: Where does she work?",
+    "Con to be: Where is the toilet?",
+    "La voz baja al final de estas preguntas"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u09-l4"
+}

@@ -1,0 +1,468 @@
+{
+  "id": "it-a2-u02-l5",
+  "unit": "it-a2-u02",
+  "title": "Reto: un día de Palio en Siena",
+  "goal": "a contar una fiesta que has vivido: adónde fuiste, con quién y cómo fue",
+  "emoji": "🐎",
+  "photoQuery": "siena piazza del campo",
+  "vocab": [
+    {
+      "id": "festa-palio",
+      "t": "il Palio",
+      "es": "el Palio (carrera de caballos de Siena)",
+      "emoji": "🐎",
+      "pos": "n",
+      "ex": {
+        "t": "Il Palio si corre in Piazza del Campo.",
+        "es": "El Palio se corre en la plaza del Campo."
+      }
+    },
+    {
+      "id": "festa-contrada",
+      "t": "la contrada",
+      "es": "el barrio (de Siena)",
+      "emoji": "🏰",
+      "pos": "n",
+      "ex": {
+        "t": "Ogni contrada ha la sua bandiera.",
+        "es": "Cada barrio tiene su bandera."
+      }
+    },
+    {
+      "id": "festa-cavallo",
+      "t": "il cavallo",
+      "es": "el caballo",
+      "emoji": "🐴",
+      "pos": "n",
+      "ex": {
+        "t": "Il cavallo è arrivato primo!",
+        "es": "¡El caballo ha llegado el primero!"
+      }
+    },
+    {
+      "id": "festa-corsa",
+      "t": "la corsa",
+      "es": "la carrera",
+      "emoji": "🏁",
+      "pos": "n",
+      "ex": {
+        "t": "La corsa è durata poco più di un minuto.",
+        "es": "La carrera ha durado poco más de un minuto."
+      }
+    },
+    {
+      "id": "festa-bandiera",
+      "t": "la bandiera",
+      "es": "la bandera",
+      "emoji": "🚩",
+      "pos": "n",
+      "ex": {
+        "t": "Abbiamo comprato la bandiera della contrada.",
+        "es": "Hemos comprado la bandera del barrio."
+      }
+    },
+    {
+      "id": "festa-vincere",
+      "t": "vincere",
+      "es": "ganar",
+      "emoji": "🏆",
+      "pos": "v",
+      "ex": {
+        "t": "Chi ha vinto il Palio?",
+        "es": "¿Quién ha ganado el Palio?"
+      },
+      "note": "Participio irregular: vinto (con avere)."
+    },
+    {
+      "id": "festa-tradizione",
+      "t": "la tradizione",
+      "es": "la tradición",
+      "emoji": "📜",
+      "pos": "n",
+      "ex": {
+        "t": "Il Palio è una tradizione molto antica.",
+        "es": "El Palio es una tradición muy antigua."
+      }
+    },
+    {
+      "id": "festa-panforte",
+      "t": "il panforte",
+      "es": "el panforte (dulce de Siena)",
+      "emoji": "🍯",
+      "pos": "n",
+      "ex": {
+        "t": "Ho portato il panforte a mio figlio Hugo.",
+        "es": "Le he llevado panforte a mi hijo Hugo."
+      },
+      "note": "Dulce navideño de Siena con almendras, miel y frutas confitadas."
+    }
+  ],
+  "grammar": "it-g-accordo-participio",
+  "pron": {
+    "title": "Siena y Palio: ie, io en una sílaba",
+    "tip": "Las vocales ie, io, ia se dicen juntas, como en «tierra» o «radio»: Sie-na, Pa-lio, ban-die-ra.",
+    "words": [
+      "Siena",
+      "Palio",
+      "bandiera",
+      "piazza"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "text",
+      "title": "El Palio de Siena",
+      "text": "Il Palio si corre il 2 luglio e il 16 agosto. La corsa è in Piazza del Campo. Dieci contrade partecipano ogni volta. I cavalli fanno tre giri della piazza. La corsa dura poco più di un minuto!",
+      "questions": [
+        {
+          "q": "¿Cuándo se corre el Palio?",
+          "options": [
+            "El 2 de julio y el 16 de agosto",
+            "En Navidad",
+            "El 1 de enero"
+          ],
+          "answer": "El 2 de julio y el 16 de agosto"
+        },
+        {
+          "q": "¿Cuántas vueltas dan los caballos?",
+          "options": [
+            "Tres",
+            "Diez",
+            "Una"
+          ],
+          "answer": "Tres"
+        },
+        {
+          "q": "¿Cuánto dura la carrera?",
+          "options": [
+            "Poco más de un minuto",
+            "Una hora",
+            "Todo el día"
+          ],
+          "answer": "Poco más de un minuto"
+        }
+      ],
+      "why": "Giro = vuelta; poco più di = poco más de."
+    },
+    {
+      "id": "e2",
+      "type": "situation",
+      "context": "Giulia te pregunta «Sei mai stata a Siena?». Sí, fuiste el verano pasado.",
+      "emoji": "☀️",
+      "options": [
+        "Sì, sono stata a Siena l'estate scorsa.",
+        "Sì, ho stato a Siena l'estate scorsa.",
+        "Sì, sono stato a Siena l'estate scorsa."
+      ],
+      "answer": "Sì, sono stata a Siena l'estate scorsa.",
+      "why": "Essere + stata (eres mujer).",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e3",
+      "type": "situation",
+      "context": "Llamas a tu marido: tus amigas y tú ya habéis llegado a Siena.",
+      "emoji": "📞",
+      "options": [
+        "Siamo arrivate a Siena!",
+        "Siamo arrivati a Siena!",
+        "Abbiamo arrivato a Siena!"
+      ],
+      "answer": "Siamo arrivate a Siena!",
+      "why": "Solo mujeres: siamo arrivate.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "La corsa è ___ bellissima.",
+      "es": "La carrera ha sido preciosa.",
+      "options": [
+        "stata",
+        "stato",
+        "stati"
+      ],
+      "answer": "stata",
+      "why": "La corsa: femenino singular.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "Il cavallo della nostra contrada ___ vinto!",
+      "es": "¡El caballo de nuestro barrio ha ganado!",
+      "options": [
+        "ha",
+        "è",
+        "sono"
+      ],
+      "answer": "ha",
+      "why": "Vincere va con avere: ha vinto.",
+      "g": "it-g-passato-prossimo-essere"
+    },
+    {
+      "id": "e6",
+      "type": "choose",
+      "q": "La mia amica ___ partita ieri per Siena.",
+      "es": "Mi amiga salió ayer hacia Siena.",
+      "options": [
+        "è",
+        "e",
+        "ha"
+      ],
+      "answer": "è",
+      "why": "Partire va con essere y lleva acento: è partita.",
+      "g": "it-g-passato-prossimo-essere"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Io e mio marito siamo ___ in piazza alle cinque.",
+      "es": "Mi marido y yo llegamos a la plaza a las cinco.",
+      "answer": [
+        "arrivati"
+      ],
+      "bank": [
+        "arrivati",
+        "arrivate",
+        "arrivato"
+      ],
+      "why": "Grupo mixto: arrivati.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "q": "Le contrade sono ___ in piazza con le bandiere.",
+      "es": "Los barrios han entrado en la plaza con las banderas.",
+      "answer": [
+        "entrate",
+        "arrivate",
+        "venute"
+      ],
+      "hint": "entrare",
+      "why": "Le contrade: femenino plural, entrate.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Io e le mie amiche siamo andati al Palio.",
+      "wrong": "andati",
+      "fix": "andate",
+      "why": "Solo mujeres: siamo andate.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Pásala a passato prossimo",
+      "q": "Le mie amiche vanno a Siena in agosto.",
+      "answer": [
+        "Le mie amiche sono andate a Siena in agosto."
+      ],
+      "why": "Vanno → sono andate.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Hemos estado en Siena para el Palio.",
+      "answer": "Siamo stati a Siena per il Palio",
+      "extra": [
+        "abbiamo"
+      ],
+      "why": "Stare / essere van con essere: siamo stati.",
+      "g": "it-g-passato-prossimo-essere"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "He comido panforte en Siena.",
+      "answer": [
+        "Ho mangiato il panforte a Siena.",
+        "Ho mangiato panforte a Siena.",
+        "A Siena ho mangiato il panforte."
+      ],
+      "why": "Mangiare va con avere: ho mangiato.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "from",
+      "q": "Sono rimasta senza parole!",
+      "answer": [
+        "¡Me he quedado sin palabras!",
+        "¡Me quedé sin palabras!",
+        "Me he quedado sin palabras.",
+        "Me quedé sin palabras."
+      ],
+      "why": "Rimanere = quedarse; rimasta porque habla una mujer.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e14",
+      "type": "conjugate",
+      "verb": "tornare",
+      "person": "io (Yolanda)",
+      "tense": "passato prossimo",
+      "q": "___ a casa con tanti ricordi.",
+      "answer": [
+        "Sono tornata",
+        "sono tornata"
+      ],
+      "why": "Io (mujer) → sono tornata.",
+      "g": "it-g-accordo-participio"
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "la contrada",
+          "el barrio"
+        ],
+        [
+          "il cavallo",
+          "el caballo"
+        ],
+        [
+          "la bandiera",
+          "la bandera"
+        ],
+        [
+          "la corsa",
+          "la carrera"
+        ],
+        [
+          "vincere",
+          "ganar"
+        ]
+      ],
+      "why": "Las palabras del Palio."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Sono stata a Siena ed è stato bellissimo!",
+      "es": "¡He estado en Siena y ha sido precioso!"
+    }
+  ],
+  "dialog": {
+    "title": "Mi primer Palio",
+    "setting": "En la plaza del Campo de Siena, un 16 de agosto, Yolanda charla con Bruno, un sienés",
+    "emoji": "🐎",
+    "lines": [
+      {
+        "who": "Bruno",
+        "t": "Signora, è la prima volta che viene al Palio?",
+        "es": "Señora, ¿es la primera vez que viene al Palio?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì! Io e mio marito siamo arrivati ieri da Firenze.",
+        "es": "¡Sí! Mi marido y yo llegamos ayer de Florencia."
+      },
+      {
+        "who": "Bruno",
+        "t": "Allora è venuta nel giorno giusto! Io sono della contrada dell'Oca.",
+        "es": "¡Pues ha venido el día perfecto! Yo soy del barrio de la Oca."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Che emozione! Quanto dura la corsa?",
+        "es": "¡Qué emoción! ¿Cuánto dura la carrera?"
+      },
+      {
+        "who": "Bruno",
+        "t": "Poco più di un minuto. Tre giri della piazza.",
+        "es": "Poco más de un minuto. Tres vueltas a la plaza."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Così poco? E com'è andato il cavallo dell'Oca?",
+        "es": "¿Tan poco? ¿Y qué tal le ha ido al caballo de la Oca?"
+      },
+      {
+        "who": "Bruno",
+        "t": "È arrivato secondo. Peccato! Ma stasera festeggiamo lo stesso.",
+        "es": "Ha llegado segundo. ¡Qué pena! Pero esta noche lo celebramos igual."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Io sono rimasta senza parole. Che tradizione!",
+        "es": "Yo me he quedado sin palabras. ¡Qué tradición!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿De dónde llegaron Yolanda y su marido?",
+        "options": [
+          "De Florencia",
+          "De Roma",
+          "De Pisa"
+        ],
+        "answer": "De Florencia"
+      },
+      {
+        "q": "¿Cuánto dura la carrera?",
+        "options": [
+          "Poco más de un minuto",
+          "Diez minutos",
+          "Una hora"
+        ],
+        "answer": "Poco más de un minuto"
+      },
+      {
+        "q": "¿En qué puesto llegó el caballo de la Oca?",
+        "options": [
+          "Segundo",
+          "Primero",
+          "Último"
+        ],
+        "answer": "Segundo"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Sono stata a Siena ed è stato bellissimo!",
+    "es": "¡He estado en Siena y ha sido precioso!",
+    "context": "Para contar a alguien un viaje o una fiesta que te ha encantado"
+  },
+  "same": {
+    "text": "Las palabras del Palio se entienden casi solas.",
+    "examples": [
+      {
+        "t": "il cavallo",
+        "es": "el caballo"
+      },
+      {
+        "t": "la bandiera",
+        "es": "la bandera"
+      },
+      {
+        "t": "la tradizione",
+        "es": "la tradición"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "la torta",
+    "means": "la tarta, el pastel",
+    "looksLike": "la torta (en España, una torta plana o un tortazo)",
+    "emoji": "🎂",
+    "tip": "La torta di compleanno es la tarta de cumpleaños. Y «dar una torta» en italiano se dice dare uno schiaffo."
+  },
+  "summary": [
+    "Contar una fiesta: sono andata, siamo arrivati, è stata bellissima.",
+    "Concordancia: sono stata (yo), siamo stati (mixto), siamo andate (solo mujeres).",
+    "El Palio de Siena: 2 de julio y 16 de agosto, tres vueltas a la plaza del Campo.",
+    "La torta = la tarta."
+  ],
+  "reviewed": false,
+  "photo": "it-a2-u02-l5"
+}

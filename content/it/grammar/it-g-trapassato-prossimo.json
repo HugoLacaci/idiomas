@@ -1,0 +1,145 @@
+{
+  "id": "it-g-trapassato-prossimo",
+  "lang": "it",
+  "level": "B1",
+  "title": "Trapassato prossimo (avevo visto, ero partita)",
+  "short": "Quando sono arrivata, il treno era già partito: el «había + participio» italiano para lo que pasó antes de otro pasado.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Dos pasados en fila",
+      "emoji": "🚉",
+      "text": "Llegas a la estación y el tren ya no está. Primero se fue el tren, luego llegaste tú. Lo de antes va en trapassato: ==era già partito==.",
+      "examples": [
+        { "t": "Quando sono arrivata, il treno ==era già partito==.", "es": "Cuando llegué, el tren ya había salido.", "hl": "era già partito" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Con avere",
+      "emoji": "📘",
+      "text": "Imperfetto de avere + participio. Es nuestro ==había visto==, ==había comido==.",
+      "table": {
+        "head": ["Persona", "Trapassato", "Español"],
+        "rows": [
+          ["io", "==avevo== visto", "había visto"],
+          ["tu", "==avevi== visto", "habías visto"],
+          ["lui / lei", "==aveva== visto", "había visto"],
+          ["noi", "==avevamo== visto", "habíamos visto"],
+          ["voi", "==avevate== visto", "habíais visto"],
+          ["loro", "==avevano== visto", "habían visto"]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Con essere",
+      "emoji": "📙",
+      "text": "Los verbos que van con essere en passato prossimo (andare, partire, arrivare, reflexivos…) usan ==ero, eri, era…== y el participio ==concuerda==.",
+      "table": {
+        "head": ["Persona", "Trapassato"],
+        "rows": [
+          ["io (Yolanda)", "==ero== partit==a=="],
+          ["tu", "==eri== partito/==a=="],
+          ["lui / lei", "==era== partit==o== / partit==a=="],
+          ["noi", "==eravamo== partit==i== / partit==e=="],
+          ["loro", "==erano== partit==i== / partit==e=="]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "Como en español",
+      "emoji": "🇪🇸",
+      "text": "¡Buena noticia! Funciona como nuestro pluscuamperfecto: ==avevo visto = había visto==. La diferencia: en italiano algunos verbos usan ==essere== (ero arrivata = había llegado).",
+      "examples": [
+        { "t": "Non ==avevo== mai ==visto== il mare d'inverno.", "es": "Nunca había visto el mar en invierno.", "hl": "avevo" },
+        { "t": "==Ero arrivata== tardi.", "es": "Había llegado tarde.", "hl": "Ero arrivata" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Palabras amigas",
+      "emoji": "🧩",
+      "text": "Suele ir con ==già== (ya), ==non… ancora== (todavía no), ==mai… prima== (nunca antes) y ==perché== (porque) para explicar causas.",
+      "examples": [
+        { "t": "Ero stanca perché ==avevo camminato== tanto.", "es": "Estaba cansada porque había caminado mucho.", "hl": "avevo camminato" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *il treno aveva partito* → ✅ ==era partito==. ❌ *Yolanda era arrivato* → ✅ era ==arrivata==. ❌ *avevo fato* → ✅ avevo ==fatto==."
+    },
+    {
+      "kind": "tip",
+      "title": "Truco: ¿qué pasó primero?",
+      "emoji": "💡",
+      "text": "Antes de hablar, ordena: lo ==primero== en trapassato, lo ==segundo== en passato prossimo. Y el auxiliar es el mismo que ya conoces: solo pasa a imperfetto.",
+      "examples": [
+        { "t": "Ho cucinato. → ==Avevo cucinato==.", "es": "He cocinado. → Había cocinado.", "hl": "Avevo cucinato" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español, el pluscuamperfecto se forma siempre con «había» + participio: había visto, había llegado, se había dormido.",
+    "target": "En italiano se usa el imperfetto del mismo auxiliar del passato prossimo: avevo visto (con avere), ero arrivata, mi ero addormentata (con essere, y el participio concuerda)."
+  },
+  "errors": [
+    { "wrong": "Il treno aveva già partito.", "right": "Il treno era già partito.", "why": "Partire va con essere, como en el passato prossimo (è partito)." },
+    { "wrong": "Yolanda era arrivato tardi.", "right": "Yolanda era arrivata tardi.", "why": "Con essere el participio concuerda: Yolanda → arrivata." },
+    { "wrong": "Avevo fato la valigia.", "right": "Avevo fatto la valigia.", "why": "Fatto lleva doble t." },
+    { "wrong": "Non ero mai visto Ravenna.", "right": "Non avevo mai visto Ravenna.", "why": "Vedere va con avere: avevo visto." },
+    { "wrong": "Quando sono arrivata, la cena aveva già finita.", "right": "Quando sono arrivata, la cena era già finita.", "why": "Algo que se acaba solo va con essere: era finita." },
+    { "wrong": "Avevo già prenotare il tavolo.", "right": "Avevo già prenotato il tavolo.", "why": "Detrás del auxiliar va el participio, no el infinitivo." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Quando sono arrivata, Hugo ___ già mangiato.", "es": "Cuando llegué, Hugo ya había comido.", "options": ["aveva", "era", "ha"], "answer": "aveva", "why": "Mangiare va con avere: aveva mangiato.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e2", "type": "choose", "q": "Quando siamo arrivati, il film ___ già cominciato.", "es": "Cuando llegamos, la película ya había empezado.", "options": ["era", "aveva", "erano"], "answer": "era", "why": "El film comienza solo: era cominciato.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e3", "type": "choose", "q": "Non ___ mai stata in Sicilia prima.", "es": "Nunca antes había estado en Sicilia.", "options": ["ero", "avevo", "era"], "answer": "ero", "why": "Essere stata: non ero mai stata.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e4", "type": "choose", "q": "Ero contenta perché ___ finito il libro.", "es": "Estaba contenta porque había terminado el libro.", "options": ["avevo", "ero", "ho"], "answer": "avevo", "why": "Terminar algo (el libro) va con avere: avevo finito.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e5", "type": "choose", "q": "Le mie amiche erano già ___.", "es": "Mis amigas ya habían llegado.", "options": ["arrivate", "arrivati", "arrivata"], "answer": "arrivate", "why": "Amiche, femenino plural: arrivate.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e6", "type": "choose", "q": "Mio marito si ___ addormentato sul divano.", "es": "Mi marido se había dormido en el sofá.", "options": ["era", "aveva", "è"], "answer": "era", "why": "Los reflexivos van con essere: si era addormentato.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e7", "type": "choose", "q": "Non avevo ___ mangiato le tagliatelle.", "es": "Todavía no había comido las tagliatelle.", "options": ["ancora", "già", "poi"], "answer": "ancora", "why": "Todavía no = non… ancora.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e8", "type": "choose", "q": "Avevamo ___ un tavolo per otto persone.", "es": "Habíamos reservado una mesa para ocho personas.", "options": ["prenotato", "prenotati", "prenotare"], "answer": "prenotato", "why": "Con avere el participio no cambia: prenotato.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e9", "type": "fill", "q": "Avevo ___ le chiavi in macchina.", "es": "Me había dejado las llaves en el coche.", "answer": ["lasciato", "dimenticato"], "bank": ["lasciato", "lasciata", "lasciare"], "why": "Con avere: avevo lasciato.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e10", "type": "fill", "q": "Quando ho chiamato, la farmacia ___ già chiuso.", "es": "Cuando llamé, la farmacia ya había cerrado.", "answer": ["aveva"], "bank": ["aveva", "avevo", "ero"], "why": "La farmacia ha chiuso → aveva chiuso.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e11", "type": "fill", "q": "Ero ___ in Italia tante volte con mio marito.", "es": "Había estado en Italia muchas veces con mi marido.", "answer": ["stata"], "bank": ["stata", "stato", "avuta"], "why": "Yolanda: ero stata.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e12", "type": "fill", "q": "Mi avevi ___ che il museo era chiuso!", "es": "¡Me habías dicho que el museo estaba cerrado!", "answer": ["detto"], "bank": ["detto", "dicito", "deto"], "why": "Dire → detto, con doble t.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e13", "type": "fill", "q": "Il treno per Ravenna era già ___.", "es": "El tren a Rávena ya había salido.", "answer": ["partito"], "hint": "partire", "why": "Il treno, masculino: partito.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e14", "type": "fill", "q": "Quel giorno avevamo ___ la spesa al mercato.", "es": "Aquel día habíamos hecho la compra en el mercado.", "answer": ["fatto"], "hint": "fare", "why": "Fare → fatto.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e15", "type": "fill", "q": "I bambini ___ già usciti da scuola.", "es": "Los niños ya habían salido del colegio.", "answer": ["erano"], "hint": "essere, loro", "why": "Uscire con essere: erano usciti.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e16", "type": "conjugate", "verb": "vedere", "person": "io", "tense": "trapassato prossimo", "q": "Non ___ mai visto un mosaico così.", "answer": ["avevo"], "table": [["io", "avevo"], ["tu", "avevi"], ["lui / lei", "aveva"], ["noi", "avevamo"], ["voi", "avevate"], ["loro", "avevano"]], "why": "Io avevo visto.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e17", "type": "conjugate", "verb": "partire", "person": "noi (mujeres)", "tense": "trapassato prossimo", "q": "Noi ___ partite all'alba.", "answer": ["eravamo"], "table": [["io", "ero"], ["tu", "eri"], ["lui / lei", "era"], ["noi", "eravamo"], ["voi", "eravate"], ["loro", "erano"]], "why": "Noi eravamo partite.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e18", "type": "conjugate", "verb": "leggere", "person": "tu", "tense": "trapassato prossimo", "q": "Avevi già ___ quel romanzo?", "answer": ["letto"], "why": "Leggere → letto.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e19", "type": "conjugate", "verb": "arrivare", "person": "lei", "tense": "trapassato prossimo", "q": "La guida era ___ prima di noi.", "answer": ["arrivata"], "why": "La guida (femenino): era arrivata.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e20", "type": "conjugate", "verb": "mettere", "person": "loro", "tense": "trapassato prossimo", "q": "Avevano ___ i bagagli nel taxi.", "answer": ["messo"], "why": "Mettere → messo; con avere no concuerda.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e21", "type": "error", "q": "Il treno aveva già partito.", "wrong": "aveva", "fix": "era", "why": "Partire va con essere.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e22", "type": "error", "q": "Yolanda era arrivato in ritardo.", "wrong": "arrivato", "fix": "arrivata", "why": "Yolanda es mujer: arrivata.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e23", "type": "error", "q": "Avevo fato una torta per Hugo.", "wrong": "fato", "fix": "fatto", "why": "Fatto, con doble t.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e24", "type": "error", "q": "Non ero mai mangiato il culatello.", "wrong": "ero", "fix": "avevo", "why": "Mangiare va con avere: avevo mangiato.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e25", "type": "error", "q": "Le mie amiche erano già partiti.", "wrong": "partiti", "fix": "partite", "why": "Amiche, femenino plural: partite.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e26", "type": "error", "q": "Avevo già comprare i biglietti.", "wrong": "comprare", "fix": "comprato", "why": "Avevo + participio: comprato.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e27", "type": "transform", "instr": "Pásala al trapassato", "q": "Ho visto quel film.", "answer": ["Avevo visto quel film."], "why": "Ho → avevo.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e28", "type": "transform", "instr": "Pásala al trapassato", "q": "Mio figlio è partito.", "answer": ["Mio figlio era partito."], "why": "È → era.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e29", "type": "transform", "instr": "Pásala al trapassato", "q": "Mi sono svegliata presto.", "answer": ["Mi ero svegliata presto."], "why": "Mi sono → mi ero.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e30", "type": "transform", "instr": "Pásala al trapassato", "q": "Abbiamo prenotato l'albergo.", "answer": ["Avevamo prenotato l'albergo."], "why": "Abbiamo → avevamo.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e31", "type": "transform", "instr": "Une las frases con «quando» y usa el trapassato para lo primero", "q": "Il treno è partito. Poi sono arrivata.", "answer": ["Quando sono arrivata, il treno era già partito.", "Quando sono arrivata, il treno era partito."], "why": "Lo primero (el tren) en trapassato: era partito.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e32", "type": "order", "es": "Cuando llegué, ya habían cenado.", "answer": "Quando sono arrivata avevano già cenato", "extra": ["erano"], "why": "Cenare va con avere: avevano cenato.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e33", "type": "order", "es": "Nunca había estado en Rávena.", "answer": "Non ero mai stata a Ravenna", "extra": ["avevo"], "why": "Essere stata: non ero mai stata.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e34", "type": "order", "es": "Estaba cansada porque había dormido poco.", "answer": "Ero stanca perché avevo dormito poco", "extra": ["ero"], "why": "Dormire va con avere: avevo dormito.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e35", "type": "translate", "dir": "to", "q": "Ya había hecho la maleta.", "answer": ["Avevo già fatto la valigia."], "why": "Ya = già, entre avevo y fatto.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e36", "type": "translate", "dir": "to", "q": "Cuando llamé, mi hijo ya había salido.", "answer": ["Quando ho chiamato, mio figlio era già uscito."], "why": "Uscire con essere: era uscito.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e37", "type": "translate", "dir": "to", "q": "Mis amigas habían comprado un regalo.", "answer": ["Le mie amiche avevano comprato un regalo."], "why": "Comprare con avere: avevano comprato.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e38", "type": "translate", "dir": "from", "q": "Non avevo ancora visto il Duomo.", "answer": ["Todavía no había visto la catedral.", "Aún no había visto la catedral.", "Todavía no había visto el Duomo."], "why": "Non… ancora = todavía no.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e39", "type": "translate", "dir": "from", "q": "Ci eravamo conosciute in un viaggio.", "answer": ["Nos habíamos conocido en un viaje.", "Nos habíamos conocido de viaje."], "why": "Conoscersi (reflexivo) va con essere.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e40", "type": "situation", "context": "Llegas al restaurante y tus amigas ya han pedido. Más tarde se lo cuentas a tu marido.", "emoji": "🍝", "options": ["Quando sono arrivata, avevano già ordinato.", "Quando sono arrivata, erano già ordinato.", "Quando ero arrivata, hanno già ordinato."], "answer": "Quando sono arrivata, avevano già ordinato.", "why": "Lo anterior (pedir) en trapassato con avere.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e41", "type": "situation", "context": "Te preguntan por qué no viste el final del partido. Te habías dormido.", "emoji": "😴", "options": ["Mi ero addormentata!", "Mi avevo addormentata!", "Ero addormentare!"], "answer": "Mi ero addormentata!", "why": "Addormentarsi: mi ero addormentata.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e42", "type": "situation", "context": "En el museo te emocionas mucho. Quieres decir que nunca habías visto nada igual.", "emoji": "🖼️", "options": ["Non avevo mai visto niente di simile!", "Non ero mai visto niente di simile!", "Non vedrò mai niente di simile!"], "answer": "Non avevo mai visto niente di simile!", "why": "Vedere con avere: avevo visto.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e43", "type": "match", "pairs": [["avevo mangiato", "había comido"], ["ero partita", "me había ido"], ["avevi detto", "habías dicho"], ["eravamo arrivate", "habíamos llegado"], ["avevano visto", "habían visto"]], "why": "Avere o essere en imperfetto + participio.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e44", "type": "match", "pairs": [["fare", "fatto"], ["dire", "detto"], ["leggere", "letto"], ["mettere", "messo"], ["vedere", "visto"]], "why": "Participios irregulares que salen mucho en las historias.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e45", "type": "choose", "q": "Quando Hugo è tornato, io ___ già cucinato la cena.", "es": "Cuando Hugo volvió, yo ya había hecho la cena.", "options": ["avevo", "ho", "ero"], "answer": "avevo", "why": "Cucinare va con avere y ocurrió antes: avevo cucinato.", "g": "it-g-trapassato-prossimo" }
+  ],
+  "reviewed": false
+}

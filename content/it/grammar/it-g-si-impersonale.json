@@ -1,0 +1,148 @@
+{
+  "id": "it-g-si-impersonale",
+  "lang": "it",
+  "level": "B1",
+  "title": "El si impersonal (si mangia, si dice)",
+  "short": "Qui si mangia bene, si vendono i salumi, ci si siede, si è mangiato: el «se» de «aquí se come bien».",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Aquí se come bien",
+      "emoji": "🍝",
+      "text": "Para hablar de lo que hace la gente en general, el español usa ==se==: se come, se dice. El italiano usa ==si==.",
+      "examples": [
+        { "t": "Qui ==si mangia== bene.", "es": "Aquí se come bien.", "hl": "si mangia" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "si + verbo como «lei»",
+      "emoji": "✏️",
+      "text": "==si== + el verbo en tercera persona: ==si mangia==, ==si dice==, ==si va==, ==si cena==. Y con non delante: ==non si fuma==.",
+      "examples": [
+        { "t": "Come ==si dice== «sartén»?", "es": "¿Cómo se dice «sartén»?", "hl": "si dice" },
+        { "t": "In Spagna ==si cena== tardi.", "es": "En España se cena tarde.", "hl": "si cena" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Una cosa o varias",
+      "emoji": "🍽️",
+      "text": "Si hablas de varias cosas, el verbo va en ==plural==, igual que en español: se vende pan, se venden pisos.",
+      "table": {
+        "head": ["Una cosa", "Varias cosas"],
+        "rows": [
+          ["si mangi==a== la pizza", "si mangi==ano== le tagliatelle"],
+          ["si vend==e== il pane", "si vend==ono== i salumi"],
+          ["si ==fa== il ragù", "si ==fanno== i tortellini"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Ci si y si è stanchi",
+      "emoji": "🪑",
+      "text": "Con verbos que ya llevan si, nada de «si si»: ==ci si siede==, ==ci si alza==. Con essere, el adjetivo va en plural: ==si è stanchi==.",
+      "examples": [
+        { "t": "In vacanza ==ci si alza== tardi.", "es": "De vacaciones uno se levanta tarde.", "hl": "ci si alza" },
+        { "t": "Dopo pranzo ==si è stanchi==.", "es": "Después de comer uno está cansado.", "hl": "si è stanchi" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "En pasado, con essere",
+      "emoji": "⏪",
+      "text": "En passato prossimo, el si va siempre con ==è== (o ==sono== si hay cosas en plural).",
+      "table": {
+        "head": ["Presente", "Passato prossimo"],
+        "rows": [
+          ["Si mangia bene.", "Si ==è== mangiato bene."],
+          ["Si mangiano le tagliatelle.", "Si ==sono== mangiat==e== le tagliatelle."],
+          ["Si balla tutta la notte.", "Si ==è== ballato tutta la notte."]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "Se come → ==si mangia==. Se venden → ==si vendono==. Uno se sienta → ==ci si siede==. Se ha comido bien → ==si è mangiato== bene.",
+      "examples": [
+        { "t": "Qui non ==si fuma==.", "es": "Aquí no se fuma.", "hl": "si fuma" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *se mangia* → ✅ ==si==. ❌ *si ha mangiato* → ✅ ==si è==. ❌ *si si siede* → ✅ ==ci si==. ❌ *si vende scarpe* → ✅ ==si vendono==."
+    },
+    {
+      "kind": "tip",
+      "title": "Frases para la mesa",
+      "emoji": "💡",
+      "text": "Llévate estas tres a Italia: ==Come si dice…?== ==Si può pagare con la carta?== ==Qui si mangia benissimo!==",
+      "examples": [
+        { "t": "Complimenti! Qui si mangia benissimo!", "es": "¡Enhorabuena! ¡Aquí se come de maravilla!" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: «Aquí se come bien», «Se venden pisos», «Uno se levanta pronto», «Ayer se comió muy bien».",
+    "target": "En italiano: «Qui si mangia bene», «Si vendono appartamenti», «Ci si alza presto», «Ieri si è mangiato molto bene». Se escribe si, los reflexivos llevan ci si y el pasado va con essere."
+  },
+  "errors": [
+    { "wrong": "Se mangia bene qui.", "right": "Si mangia bene qui.", "why": "En italiano el impersonal se escribe si, nunca se." },
+    { "wrong": "Si vende scarpe fatte a mano.", "right": "Si vendono scarpe fatte a mano.", "why": "Con una cosa en plural, el verbo va en plural: si vendono." },
+    { "wrong": "Ieri si ha mangiato bene.", "right": "Ieri si è mangiato bene.", "why": "En pasado, el si impersonal va siempre con essere." },
+    { "wrong": "La domenica si si alza tardi.", "right": "La domenica ci si alza tardi.", "why": "Con verbos reflexivos se dice ci si para no repetir si." },
+    { "wrong": "Quando si è in vacanza, si è contento.", "right": "Quando si è in vacanza, si è contenti.", "why": "Con si è, el adjetivo va en plural." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Qui ___ bene e non si spende molto.", "es": "Aquí se come bien y no se gasta mucho.", "options": ["si mangia", "si mangiano", "se mangia"], "answer": "si mangia", "why": "Sin cosa en plural: si mangia. Siempre si, nunca se.", "g": "it-g-si-impersonale" },
+    { "id": "e2", "type": "choose", "q": "Come ___ «servilleta» in italiano?", "es": "¿Cómo se dice «servilleta» en italiano?", "options": ["si dice", "si dicono", "se dice"], "answer": "si dice", "why": "Come si dice…? = ¿Cómo se dice…?", "g": "it-g-si-impersonale" },
+    { "id": "e3", "type": "choose", "q": "In questo negozio ___ prodotti tipici.", "es": "En esta tienda se venden productos típicos.", "options": ["si vendono", "si vende", "se vendono"], "answer": "si vendono", "why": "Prodotti es plural: si vendono.", "g": "it-g-si-impersonale" },
+    { "id": "e4", "type": "choose", "q": "In Italia ___ la pasta al dente.", "es": "En Italia la pasta se come al dente.", "options": ["si mangia", "si mangiano", "mangia si"], "answer": "si mangia", "why": "La pasta es singular: si mangia.", "g": "it-g-si-impersonale" },
+    { "id": "e5", "type": "choose", "q": "Le tagliatelle ___ a mano.", "es": "Los tallarines se hacen a mano.", "options": ["si fanno", "si fa", "si fai"], "answer": "si fanno", "why": "Tagliatelle es plural: si fanno.", "g": "it-g-si-impersonale" },
+    { "id": "e6", "type": "choose", "q": "Dopo pranzo ___ riposa un po'.", "es": "Después de comer uno descansa un poco.", "options": ["ci si", "si si", "se si"], "answer": "ci si", "why": "Riposarsi ya lleva si: ci si riposa.", "g": "it-g-si-impersonale" },
+    { "id": "e7", "type": "choose", "q": "Ieri ___ mangiato benissimo.", "es": "Ayer se comió de maravilla.", "options": ["si è", "si ha", "si sono"], "answer": "si è", "why": "Pasado con si: si è mangiato (sin cosa en plural).", "g": "it-g-si-impersonale" },
+    { "id": "e8", "type": "choose", "q": "Dopo una lunga passeggiata ___ stanchi.", "es": "Después de un paseo largo uno está cansado.", "options": ["si è", "si sono", "si ha"], "answer": "si è", "why": "Si è + adjetivo en plural: si è stanchi.", "g": "it-g-si-impersonale" },
+    { "id": "e9", "type": "fill", "q": "Al mercato si ___ frutta di stagione.", "es": "En el mercado se compra fruta de temporada.", "answer": ["compra"], "bank": ["compra", "comprano", "compri"], "why": "Frutta es singular en italiano: si compra.", "g": "it-g-si-impersonale" },
+    { "id": "e10", "type": "fill", "q": "In Emilia si ___ tanti salumi.", "es": "En Emilia se producen muchos embutidos.", "answer": ["producono"], "bank": ["producono", "produce", "produci"], "why": "Salumi es plural: si producono.", "g": "it-g-si-impersonale" },
+    { "id": "e11", "type": "fill", "q": "Nei ristoranti italiani non si ___ fumare.", "es": "En los restaurantes italianos no se puede fumar.", "answer": ["può"], "bank": ["può", "possono", "puoi"], "why": "Si può + infinitivo: se puede.", "g": "it-g-si-impersonale" },
+    { "id": "e12", "type": "fill", "q": "I tavoli si ___ prenotare in anticipo.", "es": "Las mesas se tienen que reservar con antelación.", "answer": ["devono"], "bank": ["devono", "deve", "devi"], "why": "I tavoli es plural: si devono prenotare.", "g": "it-g-si-impersonale" },
+    { "id": "e13", "type": "fill", "q": "In montagna ci si ___ presto.", "es": "En la montaña uno se despierta temprano.", "answer": ["sveglia"], "bank": ["sveglia", "svegliano", "svegli"], "why": "Ci si + tercera persona singular: ci si sveglia.", "g": "it-g-si-impersonale" },
+    { "id": "e14", "type": "fill", "q": "In Italia si ___ «buon appetito» prima di mangiare.", "es": "En Italia se dice «que aproveche» antes de comer.", "answer": ["dice"], "hint": "dire", "why": "Si dice = se dice.", "g": "it-g-si-impersonale" },
+    { "id": "e15", "type": "fill", "q": "Il cappuccino si ___ a colazione.", "es": "El capuchino se toma en el desayuno.", "answer": ["beve", "prende"], "hint": "bere", "why": "Il cappuccino es singular: si beve.", "g": "it-g-si-impersonale" },
+    { "id": "e16", "type": "fill", "q": "Alla festa si è ___ fino a mezzanotte.", "es": "En la fiesta se bailó hasta medianoche.", "answer": ["ballato"], "hint": "ballare", "why": "Si è + participio en -o: si è ballato.", "g": "it-g-si-impersonale" },
+    { "id": "e17", "type": "fill", "q": "Le lasagne si ___ in forno per mezz'ora.", "es": "La lasaña se hace en el horno media hora.", "answer": ["cuociono"], "hint": "cuocere", "why": "Lasagne es plural: si cuociono.", "g": "it-g-si-impersonale" },
+    { "id": "e18", "type": "conjugate", "verb": "parlare (con si)", "person": "si impersonal", "tense": "presente", "q": "In questo hotel si ___ spagnolo.", "answer": ["parla"], "why": "Si + tercera persona singular: si parla.", "g": "it-g-si-impersonale" },
+    { "id": "e19", "type": "conjugate", "verb": "vendere (con si)", "person": "si + cosa en plural", "tense": "presente", "q": "Qui si ___ biglietti per l'autobus.", "answer": ["vendono"], "why": "Biglietti es plural: si vendono.", "g": "it-g-si-impersonale" },
+    { "id": "e20", "type": "conjugate", "verb": "mangiare (con si)", "person": "si impersonal", "tense": "passato prossimo", "q": "Al matrimonio si ___ benissimo.", "answer": ["è mangiato"], "why": "Pasado con si: è + mangiato.", "g": "it-g-si-impersonale" },
+    { "id": "e21", "type": "conjugate", "verb": "sedersi (impersonal)", "person": "ci si", "tense": "presente", "q": "Al bar ___ dove c'è posto.", "answer": ["ci si siede"], "why": "Sedersi es reflexivo: ci si siede.", "g": "it-g-si-impersonale" },
+    { "id": "e22", "type": "order", "es": "Aquí se come muy bien.", "answer": "Qui si mangia molto bene", "extra": ["mangiano"], "why": "Sin cosa en plural: si mangia.", "g": "it-g-si-impersonale" },
+    { "id": "e23", "type": "order", "es": "¿Se puede pagar con tarjeta?", "answer": "Si può pagare con la carta", "extra": ["possono"], "why": "Si può + infinitivo: ¿se puede…?", "g": "it-g-si-impersonale" },
+    { "id": "e24", "type": "order", "es": "En verano uno se va a la cama tarde.", "answer": "D'estate si va a letto tardi", "extra": ["ci"], "why": "Andare no es reflexivo: si va, sin ci.", "g": "it-g-si-impersonale" },
+    { "id": "e25", "type": "order", "es": "En Venecia se venden muchos recuerdos.", "answer": "A Venezia si vendono molti souvenir", "extra": ["vende"], "why": "Souvenir es plural aquí: si vendono.", "g": "it-g-si-impersonale" },
+    { "id": "e26", "type": "transform", "instr": "Hazla impersonal con si", "q": "La gente mangia tardi in Spagna.", "answer": ["In Spagna si mangia tardi.", "Si mangia tardi in Spagna."], "why": "La gente en general → si mangia.", "g": "it-g-si-impersonale" },
+    { "id": "e27", "type": "transform", "instr": "Hazla impersonal con si", "q": "Qui la gente compra i biglietti.", "answer": ["Qui si comprano i biglietti.", "Qui si comprano biglietti."], "why": "I biglietti es plural: si comprano.", "g": "it-g-si-impersonale" },
+    { "id": "e28", "type": "transform", "instr": "Pon el sustantivo en plural", "q": "Si prepara il dolce.", "answer": ["Si preparano i dolci."], "why": "Si la cosa va en plural, el verbo también: si preparano.", "g": "it-g-si-impersonale" },
+    { "id": "e29", "type": "transform", "instr": "Pásala al passato prossimo", "q": "Si balla tutta la notte.", "answer": ["Si è ballato tutta la notte."], "why": "Si è + participio: si è ballato.", "g": "it-g-si-impersonale" },
+    { "id": "e30", "type": "transform", "instr": "Hazla impersonal (el verbo es reflexivo)", "q": "A tavola tutti si siedono insieme.", "answer": ["A tavola ci si siede insieme."], "why": "Sedersi es reflexivo: ci si siede.", "g": "it-g-si-impersonale" },
+    { "id": "e31", "type": "error", "q": "Se mangia bene in questa trattoria.", "wrong": "Se", "fix": "Si", "why": "En italiano el impersonal es si.", "g": "it-g-si-impersonale" },
+    { "id": "e32", "type": "error", "q": "Qui si vende scarpe fatte a mano.", "wrong": "vende", "fix": "vendono", "why": "Scarpe es plural: si vendono.", "g": "it-g-si-impersonale" },
+    { "id": "e33", "type": "error", "q": "Ieri si ha mangiato troppo.", "wrong": "ha", "fix": "è", "why": "En pasado, si va con essere: si è mangiato.", "g": "it-g-si-impersonale" },
+    { "id": "e34", "type": "error", "q": "Quando si è giovani, si è sempre felice.", "wrong": "felice", "fix": "felici", "why": "Con si è, el adjetivo va en plural: felici.", "g": "it-g-si-impersonale" },
+    { "id": "e35", "type": "error", "q": "Il ragù si cuociono per tre ore.", "wrong": "cuociono", "fix": "cuoce", "why": "Il ragù es singular: si cuoce.", "g": "it-g-si-impersonale" },
+    { "id": "e36", "type": "translate", "dir": "to", "q": "¿Cómo se dice «olla» en italiano?", "answer": ["Come si dice «olla» in italiano?", "Come si dice olla in italiano?"], "why": "¿Cómo se dice…? = Come si dice…?", "g": "it-g-si-impersonale" },
+    { "id": "e37", "type": "translate", "dir": "to", "q": "En Bolonia se comen tortellini en caldo.", "answer": ["A Bologna si mangiano i tortellini in brodo.", "A Bologna si mangiano tortellini in brodo."], "why": "Tortellini es plural: si mangiano. El caldo = il brodo.", "g": "it-g-si-impersonale" },
+    { "id": "e38", "type": "translate", "dir": "to", "q": "Aquí no se fuma.", "answer": ["Qui non si fuma."], "why": "Non va delante de si.", "g": "it-g-si-impersonale" },
+    { "id": "e39", "type": "translate", "dir": "from", "q": "In Italia il caffè si beve al banco.", "answer": ["En Italia el café se toma en la barra.", "En Italia el café se bebe en la barra.", "En Italia se toma el café en la barra."], "why": "Si beve = se bebe, se toma.", "g": "it-g-si-impersonale" },
+    { "id": "e40", "type": "translate", "dir": "from", "q": "Ieri si è mangiato benissimo.", "answer": ["Ayer se comió muy bien.", "Ayer se comió de maravilla.", "Ayer comimos muy bien.", "Ayer se comió estupendamente."], "why": "Si è mangiato = se comió / se ha comido.", "g": "it-g-si-impersonale" },
+    { "id": "e41", "type": "situation", "context": "Entras en un restaurante y quieres saber si se puede pagar con tarjeta.", "emoji": "💳", "options": ["Si può pagare con la carta?", "Si possono pagare con la carta?", "Se può pagare con la carta?"], "answer": "Si può pagare con la carta?", "why": "Si può + infinitivo, en singular.", "g": "it-g-si-impersonale" },
+    { "id": "e42", "type": "situation", "context": "Un amigo italiano te pregunta a qué hora se cena en España.", "emoji": "🕘", "options": ["Da noi si cena verso le nove o le dieci.", "Da noi si cenano verso le nove o le dieci.", "Da noi ci cena verso le nove o le dieci."], "answer": "Da noi si cena verso le nove o le dieci.", "why": "Sin cosa en plural: si cena.", "g": "it-g-si-impersonale" },
+    { "id": "e43", "type": "situation", "context": "Al salir del restaurante, quieres felicitar al dueño.", "emoji": "👏", "options": ["Qui si mangia benissimo!", "Qui si mangiano benissimo!", "Qui se mangia benissimo!"], "answer": "Qui si mangia benissimo!", "why": "Si mangia, en singular y con si.", "g": "it-g-si-impersonale" },
+    { "id": "e44", "type": "match", "pairs": [["se come", "si mangia"], ["se dice", "si dice"], ["se venden", "si vendono"], ["uno se sienta", "ci si siede"], ["se ha comido", "si è mangiato"]], "why": "El «se» impersonal español y el si italiano.", "g": "it-g-si-impersonale" }
+  ],
+  "reviewed": false
+}

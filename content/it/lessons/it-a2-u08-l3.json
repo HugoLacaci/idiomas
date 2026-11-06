@@ -1,0 +1,82 @@
+{
+  "id": "it-a2-u08-l3",
+  "unit": "it-a2-u08",
+  "title": "Buongiorno, mi dica",
+  "goal": "a pedir algo en la farmacia y entender los consejos del farmacéutico (prenda, scusi, mi dica)",
+  "emoji": "💊",
+  "photoQuery": "pharmacy counter shelves medicine boxes",
+  "vocab": [
+    { "id": "salute-la-farmacia", "t": "la farmacia", "es": "la farmacia", "emoji": "⚕️", "pos": "n", "ex": { "t": "C'è una farmacia qui vicino?", "es": "¿Hay una farmacia por aquí cerca?" } },
+    { "id": "salute-il-farmacista", "t": "il farmacista / la farmacista", "es": "el farmacéutico / la farmacéutica", "emoji": "🧑‍⚕️", "pos": "n", "ex": { "t": "La farmacista è molto gentile.", "es": "La farmacéutica es muy amable." } },
+    { "id": "salute-qualcosa-per", "t": "Avete qualcosa per…?", "es": "¿Tienen algo para…?", "emoji": "🔎", "pos": "phrase", "ex": { "t": "Avete qualcosa per il mal di gola?", "es": "¿Tienen algo para el dolor de garganta?" } },
+    { "id": "salute-la-ricetta", "t": "la ricetta", "es": "la receta", "emoji": "📝", "pos": "n", "ex": { "t": "Per questo farmaco serve la ricetta.", "es": "Para este medicamento hace falta receta." } },
+    { "id": "salute-senza-ricetta", "t": "senza ricetta", "es": "sin receta", "emoji": "🆓", "pos": "phrase", "ex": { "t": "Questa crema si vende senza ricetta.", "es": "Esta crema se vende sin receta." } },
+    { "id": "salute-il-cerotto", "t": "il cerotto", "es": "la tirita", "emoji": "🩹", "pos": "n", "ex": { "t": "Mi dà dei cerotti, per favore?", "es": "¿Me da unas tiritas, por favor?" } },
+    { "id": "salute-la-crema", "t": "la crema", "es": "la crema, la pomada", "emoji": "🧴", "pos": "n", "ex": { "t": "Metta la crema due volte al giorno.", "es": "Póngase la crema dos veces al día." } },
+    { "id": "salute-volte-al-giorno", "t": "… volte al giorno", "es": "… veces al día", "emoji": "🔁", "pos": "phrase", "ex": { "t": "Quante volte al giorno lo prendo?", "es": "¿Cuántas veces al día me lo tomo?" } },
+    { "id": "salute-cosa-mi-consiglia", "t": "Cosa mi consiglia?", "es": "¿Qué me aconseja?", "emoji": "💬", "pos": "phrase", "ex": { "t": "Ho la tosse. Cosa mi consiglia?", "es": "Tengo tos. ¿Qué me aconseja?" } },
+    { "id": "salute-farmacia-di-turno", "t": "la farmacia di turno", "es": "la farmacia de guardia", "emoji": "🌙", "pos": "phrase", "ex": { "t": "Di notte cerca la farmacia di turno.", "es": "Por la noche busca la farmacia de guardia." } }
+  ],
+  "grammar": "it-g-imperativo-lei",
+  "pron": {
+    "title": "La c de farmacia y cerotto",
+    "tip": "Ce y ci suenan «che» y «chi» como en «chico»: far-ma-CHI-a, che-ROT-to. No las pronuncies como nuestra z.",
+    "words": ["farmacia", "cerotto", "medicina", "dieci", "consiglia"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Buongiorno, signora. Mi ___.", "es": "Buenos días, señora. Dígame.", "options": ["dica", "dici", "di'"], "answer": "dica", "why": "Con Lei (usted): dica. Mi dica = dígame.", "g": "it-g-imperativo-lei" },
+    { "id": "e2", "type": "choose", "q": "___, dov'è la farmacia di turno?", "es": "Perdone, ¿dónde está la farmacia de guardia?", "options": ["Scusi", "Scusa", "Scusate"], "answer": "Scusi", "why": "A un desconocido le hablas de Lei: scusi.", "g": "it-g-imperativo-lei" },
+    { "id": "e3", "type": "choose", "q": "Prenda lo sciroppo tre ___ al giorno.", "es": "Tómese el jarabe tres veces al día.", "options": ["volte", "ore", "tempi"], "answer": "volte", "why": "Veces = volte: tre volte al giorno.", "g": "it-g-imperativo-lei" },
+    { "id": "e4", "type": "fill", "q": "Avete qualcosa ___ il mal di testa?", "es": "¿Tienen algo para el dolor de cabeza?", "answer": ["per"], "bank": ["per", "di", "a"], "why": "Algo para… = qualcosa per…", "g": "it-g-imperativo-lei" },
+    { "id": "e5", "type": "fill", "q": "Signora, ___ una pastiglia dopo pranzo.", "es": "Señora, tómese una pastilla después de comer.", "answer": ["prenda"], "bank": ["prenda", "prendi", "prende"], "why": "Con Lei, los verbos en -ere acaban en -a: prenda.", "g": "it-g-imperativo-lei" },
+    { "id": "e6", "type": "fill", "q": "Per questo farmaco serve la ___ del medico.", "es": "Para este medicamento hace falta la receta del médico.", "answer": ["ricetta"], "hint": "receta", "why": "La receta = la ricetta.", "g": "it-g-imperativo-lei" },
+    { "id": "e7", "type": "error", "q": "Scusa, signora, ha dei cerotti?", "wrong": "Scusa", "fix": "Scusi", "why": "Hablas de usted a la farmacéutica: scusi.", "g": "it-g-imperativo-lei" },
+    { "id": "e8", "type": "order", "es": "¿Qué me aconseja para la tos?", "answer": "Cosa mi consiglia per la tosse", "extra": ["ti"], "why": "Consigliare a me → mi consiglia (Lei).", "g": "it-g-imperativo-lei" },
+    { "id": "e9", "type": "translate", "dir": "to", "q": "¿Tienen algo para el resfriado?", "answer": ["Avete qualcosa per il raffreddore?"], "why": "Avete qualcosa per…? es la fórmula de la farmacia.", "g": "it-g-imperativo-lei" },
+    { "id": "e10", "type": "translate", "dir": "from", "q": "Si vende senza ricetta?", "answer": ["¿Se vende sin receta?"], "why": "Senza ricetta = sin receta.", "g": "it-g-imperativo-lei" },
+    { "id": "e11", "type": "situation", "context": "Entras en una farmacia de Roma. Quieres saber si tienen algo para el dolor de garganta.", "emoji": "💊", "options": ["Buongiorno, avete qualcosa per il mal di gola?", "Ciao, dammi qualcosa per la gola!", "Buongiorno, ho la gola per qualcosa?"], "answer": "Buongiorno, avete qualcosa per il mal di gola?", "why": "Saludo formal y la fórmula «Avete qualcosa per…?».", "g": "it-g-imperativo-lei" },
+    { "id": "e12", "type": "situation", "context": "Es domingo por la noche y todo está cerrado. Preguntas a un señor por la calle.", "emoji": "🌙", "options": ["Scusi, sa dov'è la farmacia di turno?", "Scusa, sai dov'è la farmacia di turno?", "Scusi, dov'è la farmacia del turno?"], "answer": "Scusi, sa dov'è la farmacia di turno?", "why": "A un desconocido: scusi y sa (Lei).", "g": "it-g-imperativo-lei" },
+    { "id": "e13", "type": "match", "pairs": [["Mi dica", "Dígame"], ["Scusi", "Perdone"], ["Prenda", "Tómese"], ["Senta", "Oiga"], ["la ricetta", "la receta"]], "why": "Frases de la farmacia (de usted).", "g": "it-g-imperativo-lei" },
+    { "id": "e14", "type": "reading", "kind": "sign", "title": "Cartel en la puerta", "text": "FARMACIA CENTRALE. Orario: 8.30–13.00 e 15.30–19.30. Domenica chiuso. Farmacia di turno oggi: Farmacia del Corso, via Roma 12.", "questions": [
+      { "q": "¿Abre el domingo la Farmacia Centrale?", "options": ["No", "Sí, por la mañana", "Sí, todo el día"], "answer": "No" },
+      { "q": "¿A qué hora cierra por la tarde?", "options": ["A las 19:30", "A las 13:00", "A las 15:30"], "answer": "A las 19:30" },
+      { "q": "¿Dónde está hoy la farmacia de guardia?", "options": ["En via Roma, 12", "En la plaza central", "En el hospital"], "answer": "En via Roma, 12" }
+    ] }
+  ],
+  "dialog": {
+    "title": "En la farmacia",
+    "setting": "Yolanda entra en una farmacia de Florencia durante un viaje",
+    "emoji": "⚕️",
+    "lines": [
+      { "who": "Farmacista", "t": "Buongiorno, signora. Mi dica.", "es": "Buenos días, señora. Dígame." },
+      { "who": "Yolanda", "t": "Buongiorno. Ho la tosse da tre giorni.", "es": "Buenos días. Tengo tos desde hace tres días." },
+      { "who": "Farmacista", "t": "Ha anche la febbre?", "es": "¿Tiene también fiebre?" },
+      { "who": "Yolanda", "t": "No, per fortuna. Cosa mi consiglia?", "es": "No, por suerte. ¿Qué me aconseja?" },
+      { "who": "Farmacista", "t": "Prenda questo sciroppo, è senza ricetta.", "es": "Tómese este jarabe, es sin receta." },
+      { "who": "Yolanda", "t": "Quante volte al giorno?", "es": "¿Cuántas veces al día?" },
+      { "who": "Farmacista", "t": "Legga bene il foglietto e beva tanta acqua.", "es": "Lea bien el prospecto y beba mucha agua." },
+      { "who": "Yolanda", "t": "Grazie mille. Quanto le devo?", "es": "Muchas gracias. ¿Cuánto le debo?" }
+    ],
+    "questions": [
+      { "q": "¿Qué le pasa a Yolanda?", "options": ["Tiene tos", "Tiene fiebre", "Le duele un pie"], "answer": "Tiene tos" },
+      { "q": "¿Qué le da la farmacéutica?", "options": ["Un jarabe", "Unas tiritas", "Una crema"], "answer": "Un jarabe" },
+      { "q": "¿Necesita receta?", "options": ["No", "Sí", "Solo para el extranjero"], "answer": "No" }
+    ]
+  },
+  "realLife": { "t": "Buongiorno, avete qualcosa per il mal di testa?", "es": "Buenos días, ¿tienen algo para el dolor de cabeza?", "context": "Para pedir algo en una farmacia italiana" },
+  "same": {
+    "text": "En la farmacia casi todo suena familiar.",
+    "examples": [
+      { "t": "la ricetta", "es": "la receta" },
+      { "t": "la crema", "es": "la crema" },
+      { "t": "la medicina", "es": "la medicina" }
+    ]
+  },
+  "summary": [
+    "En la farmacia: Avete qualcosa per…? Cosa mi consiglia?",
+    "De usted (Lei): mi dica, scusi, prenda, beva, legga.",
+    "Con o sin receta: con la ricetta / senza ricetta.",
+    "De noche o en domingo: la farmacia di turno."
+  ],
+  "reviewed": false
+}

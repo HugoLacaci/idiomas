@@ -1,0 +1,97 @@
+{
+  "id": "en-b1-u01-l5",
+  "unit": "en-b1-u01",
+  "title": "Reto: una postal desde Toronto",
+  "goal": "a contar por escrito lo que has hecho en un viaje y lo que nunca habías hecho",
+  "emoji": "🍁",
+  "photoQuery": "toronto skyline lake ontario",
+  "vocab": [
+    { "id": "exp-tower", "t": "a tower", "es": "una torre", "emoji": "🗼", "pos": "n",
+      "ex": { "t": "We've been up the tower. What a view!", "es": "Hemos subido a la torre. ¡Qué vistas!" } },
+    { "id": "exp-glass-floor", "t": "a glass floor", "es": "un suelo de cristal", "emoji": "🪟", "pos": "n",
+      "ex": { "t": "I've walked on a glass floor for the first time!", "es": "¡He andado sobre un suelo de cristal por primera vez!" } },
+    { "id": "exp-view", "t": "the view", "es": "la vista, las vistas", "emoji": "🏙️", "pos": "n",
+      "ex": { "t": "The view from our room is lovely.", "es": "Las vistas desde nuestra habitación son preciosas." } },
+    { "id": "exp-lake", "t": "a lake", "es": "un lago", "emoji": "🏞️", "pos": "n",
+      "ex": { "t": "Toronto is on Lake Ontario.", "es": "Toronto está a orillas del lago Ontario." } },
+    { "id": "exp-waterfall", "t": "a waterfall", "es": "una cascada, una catarata", "emoji": "💦", "pos": "n",
+      "ex": { "t": "Have you ever seen a waterfall so big?", "es": "¿Has visto alguna vez una catarata tan grande?" } },
+    { "id": "exp-maple-syrup", "t": "maple syrup", "es": "sirope de arce", "emoji": "🍁", "pos": "n",
+      "ex": { "t": "I've tried pancakes with maple syrup.", "es": "He probado las tortitas con sirope de arce." } },
+    { "id": "exp-for-the-first-time", "t": "for the first time", "es": "por primera vez", "emoji": "🥇", "pos": "phrase",
+      "ex": { "t": "My grandson has seen snow for the first time.", "es": "Mi nieto ha visto la nieve por primera vez." } },
+    { "id": "exp-bucket-list", "t": "a bucket list", "es": "una lista de cosas que hacer antes de morir", "emoji": "📝", "pos": "n",
+      "ex": { "t": "Seeing Niagara Falls is on my bucket list.", "es": "Ver las cataratas del Niágara está en mi lista de sueños." } }
+  ],
+  "grammar": "en-g-present-perfect",
+  "pron": {
+    "title": "Toronto a la canadiense",
+    "tip": "Muchos canadienses dicen «Toronno», sin la segunda t. Y en waterfall la sílaba fuerte es la primera: WA-ter-fall.",
+    "words": ["Toronto", "waterfall", "Ontario", "maple syrup", "Canada"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "email", "title": "Una postal desde Toronto",
+      "text": "Dear Emma,\nGreetings from Toronto! We've been here for four days and we've done so much. We've been up the CN Tower and I've walked on the glass floor. I've never been so nervous! Yesterday we took a boat trip on Lake Ontario. I've tried maple syrup on everything. We haven't seen Niagara Falls yet. We're going tomorrow!\nLove, Yolanda",
+      "questions": [
+        { "q": "¿Cuántos días lleva Yolanda en Toronto?", "options": ["Cuatro", "Dos", "Una semana"], "answer": "Cuatro" },
+        { "q": "¿Qué hicieron ayer?", "options": ["Una excursión en barco", "Subir a la torre", "Ver las cataratas"], "answer": "Una excursión en barco" },
+        { "q": "¿Qué no han visto todavía?", "options": ["Las cataratas del Niágara", "La CN Tower", "El lago"], "answer": "Las cataratas del Niágara" }
+      ] },
+    { "id": "e2", "type": "choose", "q": "Yesterday we ___ a boat trip on the lake.", "options": ["took", "have taken", "take"], "answer": "took",
+      "why": "Yesterday es tiempo terminado: pasado simple.", "g": "en-g-present-perfect" },
+    { "id": "e3", "type": "choose", "q": "I ___ maple syrup before. It's delicious!", "options": ["have never tried", "never tried yesterday", "haven't never tried"], "answer": "have never tried",
+      "why": "Experiencia de toda la vida, sin fecha: have never tried.", "g": "en-g-pp-ever-never" },
+    { "id": "e4", "type": "choose", "q": "___ you ever walked on a glass floor?", "options": ["Have", "Did", "Are"], "answer": "Have",
+      "why": "Have you ever + participio.", "g": "en-g-pp-ever-never" },
+    { "id": "e5", "type": "fill", "q": "My grandson has seen snow for the first ___.", "es": "Mi nieto ha visto la nieve por primera vez.", "answer": ["time"], "bank": ["time", "once", "ever"],
+      "why": "Por primera vez = for the first time.", "g": "en-g-present-perfect" },
+    { "id": "e6", "type": "fill", "q": "We've ___ up the CN Tower. The view was amazing!", "es": "Hemos subido a la CN Tower. ¡Las vistas eran impresionantes!", "answer": ["been"], "bank": ["been", "gone", "went"],
+      "why": "Hemos subido y ya hemos bajado: been up.", "g": "en-g-present-perfect" },
+    { "id": "e7", "type": "conjugate", "verb": "to buy", "person": "I", "tense": "presente perfecto", "q": "I ___ some maple syrup for my friends.", "answer": ["have bought", "'ve bought"],
+      "why": "Buy → bought → bought.", "g": "en-g-present-perfect" },
+    { "id": "e8", "type": "transform", "instr": "Hazla negativa", "q": "We have seen the waterfall.", "answer": ["We haven't seen the waterfall.", "We have not seen the waterfall."],
+      "why": "have → haven't.", "g": "en-g-present-perfect" },
+    { "id": "e9", "type": "error", "q": "It's my first time in Canada. I've never been here after.", "wrong": "after", "fix": "before",
+      "why": "Nunca antes = never… before, al final de la frase.", "g": "en-g-pp-ever-never" },
+    { "id": "e10", "type": "error", "q": "Have you ever saw a moose?", "wrong": "saw", "fix": "seen",
+      "why": "Have + participio: seen.", "g": "en-g-pp-ever-never" },
+    { "id": "e11", "type": "order", "es": "Ver las cataratas está en mi lista de sueños", "answer": "Seeing the falls is on my bucket list",
+      "why": "Be on my bucket list = estar en mi lista de sueños.", "g": "en-g-present-perfect" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Hemos visitado Toronto y nos ha encantado.", "answer": ["We have visited Toronto and we have loved it.", "We've visited Toronto and we've loved it.", "We've visited Toronto and we loved it.", "We have visited Toronto and we loved it."],
+      "why": "Visited como experiencia; loved puede ir en presente perfecto o pasado.", "g": "en-g-present-perfect" },
+    { "id": "e13", "type": "situation", "context": "Un camarero te pregunta si es tu primera vez en Canadá. Lo es.", "emoji": "🇨🇦",
+      "options": ["Yes, I've never been here before.", "Yes, I haven't never come.", "Yes, I've been here last year."], "answer": "Yes, I've never been here before.",
+      "why": "I've never been here before = nunca había estado aquí.", "g": "en-g-pp-ever-never" },
+    { "id": "e14", "type": "match", "pairs": [["a tower", "una torre"], ["a lake", "un lago"], ["a waterfall", "una catarata"], ["the view", "las vistas"], ["maple syrup", "sirope de arce"]],
+      "why": "Vocabulario de Toronto." },
+    { "id": "e15", "type": "speak", "t": "I've been up the CN Tower and I've tried maple syrup!", "es": "¡He subido a la CN Tower y he probado el sirope de arce!", "g": "en-g-present-perfect" }
+  ],
+  "dialog": {
+    "title": "En la CN Tower",
+    "setting": "Yolanda y su amiga Carmen hacen cola para subir a la CN Tower de Toronto",
+    "emoji": "🗼",
+    "lines": [
+      { "who": "Carmen", "t": "Have you ever been up a tower this tall?", "es": "¿Has subido alguna vez a una torre tan alta?" },
+      { "who": "Yolanda", "t": "Never! I've been up the Eiffel Tower, but this is much taller.", "es": "¡Nunca! He subido a la torre Eiffel, pero esta es mucho más alta." },
+      { "who": "Carmen", "t": "When did you go to Paris?", "es": "¿Cuándo fuiste a París?" },
+      { "who": "Yolanda", "t": "Years ago, with my family. I loved it.", "es": "Hace años, con mi familia. Me encantó." },
+      { "who": "Carmen", "t": "Look! There's a glass floor. Are you going to walk on it?", "es": "¡Mira! Hay un suelo de cristal. ¿Vas a andar por encima?" },
+      { "who": "Yolanda", "t": "I'm not sure. I've never done anything like that.", "es": "No sé. Nunca he hecho nada parecido." },
+      { "who": "Carmen", "t": "Come on! It's on your bucket list!", "es": "¡Venga! ¡Está en tu lista de sueños!" },
+      { "who": "Yolanda", "t": "OK, OK. But take a photo for my grandson!", "es": "Vale, vale. ¡Pero haz una foto para mi nieto!" }
+    ],
+    "questions": [
+      { "q": "¿A qué otra torre ha subido Yolanda?", "options": ["A la torre Eiffel", "A la torre de Pisa", "A ninguna"], "answer": "A la torre Eiffel" },
+      { "q": "¿Cuándo fue Yolanda a París?", "options": ["Hace años", "El mes pasado", "Ayer"], "answer": "Hace años" },
+      { "q": "¿Para quién quiere la foto?", "options": ["Para su nieto", "Para Emma", "Para Carmen"], "answer": "Para su nieto" }
+    ]
+  },
+  "realLife": { "t": "This is my first time here.", "es": "Es la primera vez que vengo.", "context": "Cuando alguien te pregunta en un viaje si ya conocías el lugar" },
+  "summary": [
+    "Experiencias sin fecha: I've been up the tower, I've tried maple syrup",
+    "Con fecha o momento terminado, pasado simple: Yesterday we took a boat",
+    "I've never… before = nunca había… antes",
+    "for the first time = por primera vez"
+  ],
+  "reviewed": false
+}

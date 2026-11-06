@@ -1,0 +1,442 @@
+{
+  "id": "en-a1-u09-l2",
+  "unit": "en-a1-u09",
+  "title": "Querría un té, por favor",
+  "goal": "a pedir y ofrecer con educación con I'd like y Would you like…?",
+  "emoji": "🫖",
+  "photoQuery": "english tea pot cups",
+  "vocab": [
+    {
+      "id": "id-like",
+      "t": "I'd like…",
+      "es": "querría…, me pone…",
+      "emoji": "🙋",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'd like a coffee, please.",
+        "es": "Me pone un café, por favor."
+      },
+      "note": "I'd like = I would like. No es lo mismo que I like (me gusta)."
+    },
+    {
+      "id": "would-you-like",
+      "t": "Would you like…?",
+      "es": "¿quieres…?, ¿te apetece…?",
+      "emoji": "🤲",
+      "pos": "phrase",
+      "ex": {
+        "t": "Would you like some tea?",
+        "es": "¿Te apetece un té?"
+      }
+    },
+    {
+      "id": "yes-please",
+      "t": "Yes, please.",
+      "es": "Sí, por favor.",
+      "emoji": "👍",
+      "pos": "phrase",
+      "ex": {
+        "t": "More tea? — Yes, please.",
+        "es": "¿Más té? — Sí, por favor."
+      }
+    },
+    {
+      "id": "no-thank-you",
+      "t": "No, thank you.",
+      "es": "No, gracias.",
+      "emoji": "🙅",
+      "pos": "phrase",
+      "ex": {
+        "t": "Sugar? — No, thank you.",
+        "es": "¿Azúcar? — No, gracias."
+      }
+    },
+    {
+      "id": "a-pot-of-tea",
+      "t": "a pot of tea",
+      "es": "una tetera de té",
+      "emoji": "🫖",
+      "pos": "n",
+      "ex": {
+        "t": "A pot of tea for two, please.",
+        "es": "Una tetera de té para dos, por favor."
+      }
+    },
+    {
+      "id": "milk-and-sugar",
+      "t": "milk and sugar",
+      "es": "leche y azúcar",
+      "emoji": "🥛",
+      "pos": "n",
+      "ex": {
+        "t": "Milk and sugar? — Just milk.",
+        "es": "¿Leche y azúcar? — Solo leche."
+      }
+    },
+    {
+      "id": "a-biscuit",
+      "t": "a biscuit",
+      "es": "una galleta",
+      "emoji": "🍪",
+      "pos": "n",
+      "ex": {
+        "t": "Would you like a biscuit?",
+        "es": "¿Quieres una galleta?"
+      },
+      "note": "En EE. UU.: cookie."
+    },
+    {
+      "id": "something-to-drink",
+      "t": "something to drink",
+      "es": "algo de beber",
+      "emoji": "🥤",
+      "pos": "phrase",
+      "ex": {
+        "t": "Would you like something to drink?",
+        "es": "¿Quieres algo de beber?"
+      }
+    },
+    {
+      "id": "a-white-coffee",
+      "t": "a white coffee",
+      "es": "un café con leche",
+      "emoji": "☕",
+      "pos": "n",
+      "ex": {
+        "t": "A white coffee and a biscuit, please.",
+        "es": "Un café con leche y una galleta, por favor."
+      },
+      "note": "Café solo = a black coffee."
+    }
+  ],
+  "grammar": "en-g-would-like",
+  "pron": {
+    "title": "La 'd que casi no se oye",
+    "tip": "En I'd like la d se pega a la l: suena «aid-laik», muy rápido. Escucha bien: I like (me gusta) frente a I'd like (querría). Esa pequeña d cambia el sentido.",
+    "words": [
+      "I'd like",
+      "you'd like",
+      "she'd like",
+      "we'd like"
+    ],
+    "pairs": [
+      [
+        "I like tea.",
+        "I'd like tea."
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ a white coffee, please.",
+      "es": "Me pone un café con leche, por favor.",
+      "options": [
+        "I'd like",
+        "I like",
+        "I'm like"
+      ],
+      "answer": "I'd like",
+      "why": "Para pedir ahora: I'd like. I like es «me gusta».",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "___ you like milk and sugar?",
+      "es": "¿Quieres leche y azúcar?",
+      "options": [
+        "Would",
+        "Do",
+        "Are"
+      ],
+      "answer": "Would",
+      "why": "Para ofrecer: Would you like…?",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Would you like a biscuit? — ___",
+      "es": "¿Quieres una galleta? — Sí, por favor.",
+      "options": [
+        "Yes, please.",
+        "Yes, I would like.",
+        "Yes, I like."
+      ],
+      "answer": "Yes, please.",
+      "why": "Para aceptar: Yes, please. Corto y amable.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "We'd like a pot ___ tea, please.",
+      "es": "Querríamos una tetera de té, por favor.",
+      "answer": [
+        "of"
+      ],
+      "bank": [
+        "of",
+        "with",
+        "for"
+      ],
+      "why": "a pot of tea = una tetera de té.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Would you like something ___ drink?",
+      "es": "¿Quieres algo de beber?",
+      "answer": [
+        "to"
+      ],
+      "bank": [
+        "to",
+        "for",
+        "of"
+      ],
+      "why": "Algo de beber = something to drink.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "My husband ___ like a black coffee.",
+      "es": "Mi marido querría un café solo.",
+      "answer": [
+        "would",
+        "'d"
+      ],
+      "why": "Would like no cambia con he: he would like.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e7",
+      "type": "conjugate",
+      "verb": "would like",
+      "person": "we",
+      "tense": "presente (contraído)",
+      "q": "___ like two teas, please.",
+      "answer": [
+        "We'd",
+        "We would"
+      ],
+      "table": [
+        [
+          "I",
+          "I'd like"
+        ],
+        [
+          "you",
+          "you'd like"
+        ],
+        [
+          "she",
+          "she'd like"
+        ],
+        [
+          "we",
+          "we'd like"
+        ]
+      ],
+      "why": "We would se contrae en We'd.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "¿Quieres una taza de té?",
+      "answer": "Would you like a cup of tea",
+      "extra": [
+        "do"
+      ],
+      "why": "Ofrecer: Would you like…? Sin do.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Me gustaría pagar ahora",
+      "answer": "I'd like to pay now",
+      "extra": [
+        "for"
+      ],
+      "why": "Con un verbo: I'd like to + verbo.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Do you like a biscuit with your tea?",
+      "wrong": "Do",
+      "fix": "Would",
+      "why": "Para ofrecer se dice Would you like…? Do you like…? pregunta si te gusta en general.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "I'd like sit by the window.",
+      "wrong": "sit",
+      "fix": "to sit",
+      "why": "Con un verbo, I'd like lleva to: I'd like to sit.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e12",
+      "type": "transform",
+      "instr": "Hazla más educada",
+      "q": "I want a white coffee.",
+      "answer": [
+        "I'd like a white coffee.",
+        "I would like a white coffee.",
+        "I'd like a white coffee, please.",
+        "I would like a white coffee, please.",
+        "Could I have a white coffee, please?"
+      ],
+      "why": "En una cafetería, I'd like suena mucho más amable que I want.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Tu amiga inglesa viene a merendar. Le ofreces un té.",
+      "emoji": "🫖",
+      "options": [
+        "Would you like a cup of tea?",
+        "Do you like a cup of tea?",
+        "You want tea?"
+      ],
+      "answer": "Would you like a cup of tea?",
+      "why": "Ofrecer: Would you like…?",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "Me gusta el té, pero hoy querría un café.",
+      "answer": [
+        "I like tea, but today I'd like a coffee.",
+        "I like tea but today I'd like a coffee.",
+        "I like tea, but I'd like a coffee today.",
+        "I like tea, but today I would like a coffee."
+      ],
+      "why": "Me gusta = I like; querría = I'd like.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "I like tea.",
+        "I'd like tea."
+      ],
+      "answer": "I'd like tea.",
+      "es": [
+        "Me gusta el té.",
+        "Querría té."
+      ],
+      "why": "Si oyes una d pegada a like, es I'd like: estás pidiendo."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Would you like a biscuit with your tea?",
+      "es": "¿Quieres una galleta con el té?"
+    }
+  ],
+  "dialog": {
+    "title": "Merienda en casa",
+    "setting": "Una vecina inglesa visita a Yolanda en su casa",
+    "emoji": "🍪",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Come in! Would you like something to drink?",
+        "es": "¡Pasa! ¿Quieres algo de beber?"
+      },
+      {
+        "who": "Sarah",
+        "t": "Yes, please. I'd like a cup of tea.",
+        "es": "Sí, por favor. Querría una taza de té."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Milk and sugar?",
+        "es": "¿Leche y azúcar?"
+      },
+      {
+        "who": "Sarah",
+        "t": "Just milk, please. No sugar.",
+        "es": "Solo leche, por favor. Sin azúcar."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Would you like a biscuit?",
+        "es": "¿Quieres una galleta?"
+      },
+      {
+        "who": "Sarah",
+        "t": "No, thank you. I'm on a diet!",
+        "es": "No, gracias. ¡Estoy a dieta!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "It's homemade lemon cake…",
+        "es": "Es bizcocho de limón casero…"
+      },
+      {
+        "who": "Sarah",
+        "t": "Oh! Then I'd like a small slice.",
+        "es": "¡Oh! Entonces querría un trocito."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cómo toma Sarah el té?",
+        "options": [
+          "Con leche, sin azúcar",
+          "Con azúcar",
+          "Solo"
+        ],
+        "answer": "Con leche, sin azúcar"
+      },
+      {
+        "q": "¿Por qué no quiere galletas?",
+        "options": [
+          "Está a dieta",
+          "No le gustan",
+          "Ya ha comido"
+        ],
+        "answer": "Está a dieta"
+      },
+      {
+        "q": "¿Qué acepta al final?",
+        "options": [
+          "Un trocito de bizcocho",
+          "Una galleta",
+          "Otro té"
+        ],
+        "answer": "Un trocito de bizcocho"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Would you like to come for coffee?",
+    "es": "¿Te apetece venir a tomar un café?",
+    "context": "Para invitar a una amiga o a una vecina"
+  },
+  "summary": [
+    "Pedir: I'd like a tea, please",
+    "Ofrecer: Would you like a biscuit?",
+    "Contestar: Yes, please / No, thank you",
+    "Con un verbo: I'd like to pay",
+    "I like (me gusta) ≠ I'd like (querría)"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u09-l2"
+}

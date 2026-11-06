@@ -1,0 +1,451 @@
+{
+  "id": "en-a1-u12-l4",
+  "unit": "en-a1-u12",
+  "title": "Sí, claro. No, no mucho.",
+  "goal": "a contestar con respuestas cortas (Yes, I do. No, she isn't.) y a poner la música de las preguntas",
+  "emoji": "✅",
+  "photoQuery": "two women chatting tea",
+  "vocab": [
+    {
+      "id": "cg-yes-i-do",
+      "t": "Yes, I do.",
+      "es": "Sí. (con do)",
+      "emoji": "👍",
+      "pos": "phrase",
+      "ex": {
+        "t": "Do you like tea? — Yes, I do.",
+        "es": "¿Te gusta el té? — Sí."
+      }
+    },
+    {
+      "id": "cg-no-i-dont",
+      "t": "No, I don't.",
+      "es": "No. (con do)",
+      "emoji": "👎",
+      "pos": "phrase",
+      "ex": {
+        "t": "Do you live here? — No, I don't.",
+        "es": "¿Vives aquí? — No."
+      }
+    },
+    {
+      "id": "cg-yes-i-am",
+      "t": "Yes, I am.",
+      "es": "Sí. (con to be)",
+      "emoji": "🙋‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Are you Spanish? — Yes, I am.",
+        "es": "¿Eres española? — Sí."
+      }
+    },
+    {
+      "id": "cg-no-it-isnt",
+      "t": "No, it isn't.",
+      "es": "No. (con is)",
+      "emoji": "🙅‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Is it far? — No, it isn't.",
+        "es": "¿Está lejos? — No."
+      }
+    },
+    {
+      "id": "cg-yes-i-can",
+      "t": "Yes, I can.",
+      "es": "Sí, puedo. / Sí, sé.",
+      "emoji": "💪",
+      "pos": "phrase",
+      "ex": {
+        "t": "Can you swim? — Yes, I can.",
+        "es": "¿Sabes nadar? — Sí."
+      }
+    },
+    {
+      "id": "cg-of-course",
+      "t": "Of course!",
+      "es": "¡Claro! ¡Por supuesto!",
+      "emoji": "😊",
+      "pos": "phrase",
+      "ex": {
+        "t": "Can I sit here? — Of course!",
+        "es": "¿Me puedo sentar aquí? — ¡Claro!"
+      }
+    },
+    {
+      "id": "cg-i-think-so",
+      "t": "I think so.",
+      "es": "Creo que sí.",
+      "emoji": "🤔",
+      "pos": "phrase",
+      "ex": {
+        "t": "Is the market open today? — I think so.",
+        "es": "¿Está abierto hoy el mercado? — Creo que sí."
+      }
+    },
+    {
+      "id": "cg-not-really",
+      "t": "Not really.",
+      "es": "No mucho. / La verdad es que no.",
+      "emoji": "🤏",
+      "pos": "phrase",
+      "ex": {
+        "t": "Do you like football? — Not really.",
+        "es": "¿Te gusta el fútbol? — No mucho."
+      }
+    },
+    {
+      "id": "cg-yes-please",
+      "t": "Yes, please.",
+      "es": "Sí, por favor.",
+      "emoji": "🙏",
+      "pos": "phrase",
+      "ex": {
+        "t": "Would you like some tea? — Yes, please.",
+        "es": "¿Quieres té? — Sí, por favor."
+      },
+      "note": "Para aceptar un ofrecimiento (Would you like…?) se dice Yes, please, no Yes, I would like."
+    }
+  ],
+  "grammar": "en-g-short-answers",
+  "pron": {
+    "title": "Preguntas que suben y preguntas que bajan",
+    "tip": "Pregunta de sí o no: la voz sube ↗ (Do you like it? ↗). Pregunta con where, what, how: la voz baja ↘ (Where do you live? ↘). Y escucha can (corto, «kən») frente a can't (largo, «kaant»).",
+    "words": [
+      "Do you like it?",
+      "Are you tired?",
+      "Where do you live?",
+      "What's your name?"
+    ],
+    "pairs": [
+      [
+        "can",
+        "can't"
+      ],
+      [
+        "does",
+        "doesn't"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Do you like Covent Garden? — Yes, I ___.",
+      "options": [
+        "do",
+        "like",
+        "am"
+      ],
+      "answer": "do",
+      "why": "La pregunta lleva do: Yes, I do.",
+      "g": "en-g-short-answers"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Is your friend English? — No, she ___.",
+      "options": [
+        "isn't",
+        "doesn't",
+        "not"
+      ],
+      "answer": "isn't",
+      "why": "Is she…? — No, she isn't.",
+      "g": "en-g-short-answers"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Can you help me? — Yes, of course I ___.",
+      "options": [
+        "can",
+        "do",
+        "help"
+      ],
+      "answer": "can",
+      "why": "Can you…? — Yes, I can.",
+      "g": "en-g-short-answers"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Would you like a scone? — ___",
+      "options": [
+        "Yes, please.",
+        "Yes, I like.",
+        "Yes, I would like."
+      ],
+      "answer": "Yes, please.",
+      "why": "Para aceptar un ofrecimiento: Yes, please.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Does your grandson like football? — Yes, he ___.",
+      "answer": [
+        "does"
+      ],
+      "bank": [
+        "does",
+        "do",
+        "likes"
+      ],
+      "why": "Con he: does.",
+      "g": "en-g-short-answers"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Are you tired? — No, I'm ___.",
+      "answer": [
+        "not"
+      ],
+      "bank": [
+        "not",
+        "don't",
+        "isn't"
+      ],
+      "why": "No, I'm not.",
+      "g": "en-g-short-answers"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Is there a lift? — Yes, there ___.",
+      "answer": [
+        "is"
+      ],
+      "why": "Is there…? — Yes, there is.",
+      "g": "en-g-short-answers"
+    },
+    {
+      "id": "e8",
+      "type": "conjugate",
+      "verb": "to do",
+      "person": "they",
+      "tense": "respuesta corta negativa",
+      "q": "Do your friends live here? — No, they ___.",
+      "answer": [
+        "don't",
+        "do not"
+      ],
+      "table": [
+        [
+          "I / you / we / they",
+          "don't"
+        ],
+        [
+          "he / she / it",
+          "doesn't"
+        ]
+      ],
+      "why": "Con they: don't.",
+      "g": "en-g-short-answers"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Contesta con una respuesta corta afirmativa",
+      "q": "Are you on holiday?",
+      "answer": [
+        "Yes, I am.",
+        "Yes, I am",
+        "Yes, we are.",
+        "Yes, we are"
+      ],
+      "why": "Are you…? — Yes, I am (sin contraer).",
+      "g": "en-g-short-answers"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Contesta con una respuesta corta negativa",
+      "q": "Can your friend speak English?",
+      "answer": [
+        "No, she can't.",
+        "No, he can't.",
+        "No, she cannot.",
+        "No, he cannot."
+      ],
+      "why": "Can…? — No, she can't.",
+      "g": "en-g-short-answers"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Sí, ella sí (¿Trabaja tu amiga?)",
+      "answer": "Yes she does",
+      "extra": [
+        "works"
+      ],
+      "why": "Se repite does, no el verbo.",
+      "g": "en-g-short-answers"
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "Do you live in Spain? — Yes, I live.",
+      "wrong": "live.",
+      "fix": "do.",
+      "why": "Se repite el auxiliar: Yes, I do.",
+      "g": "en-g-short-answers"
+    },
+    {
+      "id": "e13",
+      "type": "error",
+      "q": "Is it your first time in London? — Yes, it's.",
+      "wrong": "it's.",
+      "fix": "it is.",
+      "why": "En la respuesta afirmativa no se contrae: Yes, it is.",
+      "g": "en-g-short-answers"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Una señora te pregunta «Do you like football?». No te gusta mucho.",
+      "emoji": "⚽",
+      "options": [
+        "Not really.",
+        "No, I don't like.",
+        "No, I amn't."
+      ],
+      "answer": "Not really.",
+      "why": "Not really = no mucho. También vale No, I don't."
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "can",
+        "can't"
+      ],
+      "answer": "can't",
+      "es": [
+        "puedo",
+        "no puedo"
+      ],
+      "why": "En inglés británico can't tiene una a larga, «kaant»; can es corto."
+    },
+    {
+      "id": "e16",
+      "type": "match",
+      "pairs": [
+        [
+          "Do you like it?",
+          "Yes, I do."
+        ],
+        [
+          "Is he your son?",
+          "No, he isn't."
+        ],
+        [
+          "Can she swim?",
+          "Yes, she can."
+        ],
+        [
+          "Have you got a map?",
+          "No, I haven't."
+        ],
+        [
+          "Are you tired?",
+          "Yes, I am."
+        ]
+      ],
+      "why": "La respuesta repite el auxiliar.",
+      "g": "en-g-short-answers"
+    }
+  ],
+  "dialog": {
+    "title": "Charla en un banco",
+    "setting": "En un banco junto al mercado de Covent Garden, Yolanda charla con un señor mayor",
+    "emoji": "🪑",
+    "lines": [
+      {
+        "who": "Mr Brown",
+        "t": "Excuse me, are you Spanish?",
+        "es": "Perdone, ¿es usted española?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I am. Can you hear my accent?",
+        "es": "Sí. ¿Se me nota el acento?"
+      },
+      {
+        "who": "Mr Brown",
+        "t": "A little! Do you like London?",
+        "es": "¡Un poco! ¿Le gusta Londres?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I do. Very much!",
+        "es": "Sí. ¡Muchísimo!"
+      },
+      {
+        "who": "Mr Brown",
+        "t": "Do you like the weather?",
+        "es": "¿Y le gusta el tiempo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Not really! Is it always like this?",
+        "es": "¡No mucho! ¿Siempre está así?"
+      },
+      {
+        "who": "Mr Brown",
+        "t": "No, it isn't. Sometimes it's worse!",
+        "es": "No. ¡A veces está peor!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Oh, no!",
+        "es": "¡Ay, no!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Le gusta Londres a Yolanda?",
+        "options": [
+          "Sí, mucho",
+          "No mucho",
+          "No"
+        ],
+        "answer": "Sí, mucho"
+      },
+      {
+        "q": "¿Y el tiempo?",
+        "options": [
+          "No mucho",
+          "Le encanta",
+          "No lo dice"
+        ],
+        "answer": "No mucho"
+      },
+      {
+        "q": "Según el señor, ¿el tiempo siempre está así?",
+        "options": [
+          "No, a veces está peor",
+          "Sí, siempre",
+          "No, normalmente hace sol"
+        ],
+        "answer": "No, a veces está peor"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Yes, I do. Very much!",
+    "es": "Sí. ¡Muchísimo!",
+    "context": "Cuando te preguntan si te gusta algo y quieres sonar natural"
+  },
+  "summary": [
+    "Respuestas cortas: Yes, I do / No, she isn't / Yes, I can",
+    "Se repite el auxiliar de la pregunta, nunca el verbo",
+    "En el sí no se contrae: Yes, I am",
+    "Aceptar algo: Yes, please. Dudar: I think so / Not really",
+    "Sí/no ↗ sube; where, what, how ↘ baja"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u12-l4"
+}

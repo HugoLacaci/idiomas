@@ -1,0 +1,430 @@
+{
+  "id": "en-a1-u09-l5",
+  "unit": "en-a1-u09",
+  "title": "Reto: comer en Borough Market",
+  "goal": "a comprar y comer en un mercado de Londres preguntando y pidiendo con educación",
+  "emoji": "🧀",
+  "photoQuery": "food market stalls cheese",
+  "vocab": [
+    {
+      "id": "a-piece-of-cheese",
+      "t": "a piece of cheese",
+      "es": "un trozo de queso",
+      "emoji": "🧀",
+      "pos": "n",
+      "ex": {
+        "t": "I'd like that piece of cheese, please.",
+        "es": "Querría ese trozo de queso, por favor."
+      }
+    },
+    {
+      "id": "cheese",
+      "t": "cheese",
+      "es": "queso",
+      "emoji": "🧀",
+      "pos": "n",
+      "ex": {
+        "t": "I'd like some English cheese.",
+        "es": "Querría un poco de queso inglés."
+      }
+    },
+    {
+      "id": "fresh",
+      "t": "fresh",
+      "es": "fresco, del día",
+      "emoji": "🌿",
+      "pos": "adj",
+      "ex": {
+        "t": "Is the bread fresh?",
+        "es": "¿El pan es del día?"
+      }
+    },
+    {
+      "id": "homemade",
+      "t": "homemade",
+      "es": "casero",
+      "emoji": "🏠",
+      "pos": "adj",
+      "ex": {
+        "t": "Homemade pies!",
+        "es": "¡Empanadas caseras!"
+      }
+    },
+    {
+      "id": "can-i-try",
+      "t": "Can I try some?",
+      "es": "¿Puedo probar un poco?",
+      "emoji": "😋",
+      "pos": "phrase",
+      "ex": {
+        "t": "It looks good. Can I try some?",
+        "es": "Tiene buena pinta. ¿Puedo probar un poco?"
+      }
+    },
+    {
+      "id": "eat-in-or-take-away",
+      "t": "Eat in or take away?",
+      "es": "¿Para tomar aquí o para llevar?",
+      "emoji": "🥡",
+      "pos": "phrase",
+      "ex": {
+        "t": "Eat in or take away? — Take away, please.",
+        "es": "¿Para aquí o para llevar? — Para llevar, por favor."
+      },
+      "note": "En EE. UU.: For here or to go?"
+    },
+    {
+      "id": "anything-else",
+      "t": "Anything else?",
+      "es": "¿Algo más?",
+      "emoji": "➕",
+      "pos": "phrase",
+      "ex": {
+        "t": "Anything else? — No, that's all.",
+        "es": "¿Algo más? — No, nada más."
+      }
+    },
+    {
+      "id": "thats-all",
+      "t": "That's all, thanks.",
+      "es": "Nada más, gracias.",
+      "emoji": "✅",
+      "pos": "phrase",
+      "ex": {
+        "t": "Just the cheese. That's all, thanks.",
+        "es": "Solo el queso. Nada más, gracias."
+      }
+    },
+    {
+      "id": "keep-the-change",
+      "t": "Keep the change.",
+      "es": "Quédese con el cambio.",
+      "emoji": "🪙",
+      "pos": "phrase",
+      "ex": {
+        "t": "Here's ten pounds. Keep the change.",
+        "es": "Aquí tiene diez libras. Quédese con el cambio."
+      }
+    }
+  ],
+  "grammar": "en-g-wh-questions",
+  "pron": {
+    "title": "Preguntas que bajan, preguntas que suben",
+    "tip": "How much is it? ↘ (la voz baja: pide información). Can I try some? ↗ (la voz sube: la respuesta es sí o no). Imita la música, ¡te entenderán mejor!",
+    "words": [
+      "How much is it?",
+      "Where is it from?",
+      "Can I try some?",
+      "Is it fresh?"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ much is this cheese?",
+      "es": "¿Cuánto cuesta este queso?",
+      "options": [
+        "How",
+        "What",
+        "Which"
+      ],
+      "answer": "How",
+      "why": "Precio: How much…?",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Where ___ this cheese from?",
+      "es": "¿De dónde es este queso?",
+      "options": [
+        "is",
+        "does",
+        "are"
+      ],
+      "answer": "is",
+      "why": "Con to be: Where is it from?",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Eat in or take ___?",
+      "es": "¿Para tomar aquí o para llevar?",
+      "options": [
+        "away",
+        "out",
+        "off"
+      ],
+      "answer": "away",
+      "why": "En el Reino Unido: take away (para llevar)."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "I'd ___ two pieces of that pie, please.",
+      "es": "Querría dos trozos de esa empanada, por favor.",
+      "answer": [
+        "like"
+      ],
+      "bank": [
+        "like",
+        "want",
+        "liked"
+      ],
+      "why": "Para pedir: I'd like.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Which bread ___ you recommend?",
+      "es": "¿Qué pan me recomienda?",
+      "answer": [
+        "do",
+        "would"
+      ],
+      "bank": [
+        "do",
+        "does",
+        "are"
+      ],
+      "why": "Which + do + you + verbo.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Anything ___? — No, that's all, thanks.",
+      "es": "¿Algo más? — No, nada más, gracias.",
+      "answer": [
+        "else"
+      ],
+      "why": "¿Algo más? = Anything else?"
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "¿A qué hora cierra el mercado?",
+      "answer": "What time does the market close",
+      "extra": [
+        "closes"
+      ],
+      "why": "What time + does + the market + close.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Querría un poco de queso inglés",
+      "answer": "I'd like some English cheese",
+      "extra": [
+        "a"
+      ],
+      "why": "Cheese aquí no se cuenta: some cheese.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "How much costs the bread?",
+      "wrong": "costs",
+      "fix": "is",
+      "why": "Lo natural: How much is the bread?",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Hello! I want a coffee and a cheese pie.",
+      "wrong": "want",
+      "fix": "would like",
+      "why": "Al pedir, I'd like suena mucho más amable que I want.",
+      "g": "en-g-would-like"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Haz la pregunta con where",
+      "q": "The olives are from Greece.",
+      "answer": [
+        "Where are the olives from?",
+        "Where are the olives from",
+        "Where are they from?"
+      ],
+      "why": "Where + are + the olives + from.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "En un puesto ves un queso y quieres probarlo antes de comprar.",
+      "emoji": "🧀",
+      "options": [
+        "Can I try some, please?",
+        "I try, please?",
+        "Give me try."
+      ],
+      "answer": "Can I try some, please?",
+      "why": "¿Puedo probar? = Can I try some?"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Pagas con un billete de diez libras y quieres dejar el cambio.",
+      "emoji": "🪙",
+      "options": [
+        "Keep the change.",
+        "Take the money rest.",
+        "Stay the change."
+      ],
+      "answer": "Keep the change.",
+      "why": "Quédese con el cambio = Keep the change."
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Es casero?",
+      "answer": [
+        "Is it homemade?",
+        "Is it home-made?",
+        "Is this homemade?"
+      ],
+      "why": "Casero = homemade. Pregunta con to be: Is it…?"
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel de un puesto",
+      "text": "MRS PARKER'S PIES\nHomemade every morning!\nChicken & mushroom · Cheese & onion · Apple\nEat in or take away\nAsk to try our cheese & onion pie!",
+      "questions": [
+        {
+          "q": "¿Cuándo hacen las empanadas?",
+          "options": [
+            "Cada mañana",
+            "Cada noche",
+            "Los lunes"
+          ],
+          "answer": "Cada mañana"
+        },
+        {
+          "q": "¿Cuál es dulce?",
+          "options": [
+            "La de manzana",
+            "La de queso y cebolla",
+            "La de pollo"
+          ],
+          "answer": "La de manzana"
+        },
+        {
+          "q": "¿Cuál puedes probar si lo pides?",
+          "options": [
+            "La de queso y cebolla",
+            "La de manzana",
+            "Ninguna"
+          ],
+          "answer": "La de queso y cebolla"
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "It looks delicious! How much is it?",
+      "es": "¡Tiene una pinta riquísima! ¿Cuánto cuesta?"
+    }
+  ],
+  "dialog": {
+    "title": "En el puesto de quesos",
+    "setting": "En un puesto de quesos de Borough Market",
+    "emoji": "🧀",
+    "lines": [
+      {
+        "who": "Seller",
+        "t": "Hello! Would you like to try some cheese?",
+        "es": "¡Hola! ¿Quiere probar un poco de queso?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, please. Where is this one from?",
+        "es": "Sí, por favor. ¿De dónde es este?"
+      },
+      {
+        "who": "Seller",
+        "t": "It's from Somerset. It's a cheddar.",
+        "es": "Es de Somerset. Es un cheddar."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Mmm! It's delicious. How much is it?",
+        "es": "¡Mmm! Está riquísimo. ¿Cuánto cuesta?"
+      },
+      {
+        "who": "Seller",
+        "t": "Five pounds for this piece.",
+        "es": "Cinco libras este trozo."
+      },
+      {
+        "who": "Yolanda",
+        "t": "I'd like that piece, please.",
+        "es": "Querría ese trozo, por favor."
+      },
+      {
+        "who": "Seller",
+        "t": "Anything else?",
+        "es": "¿Algo más?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, that's all, thanks.",
+        "es": "No, nada más, gracias."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿De dónde es el queso?",
+        "options": [
+          "De Somerset",
+          "De Londres",
+          "De Francia"
+        ],
+        "answer": "De Somerset"
+      },
+      {
+        "q": "¿Cuánto cuesta el trozo?",
+        "options": [
+          "Cinco libras",
+          "Diez libras",
+          "Tres libras"
+        ],
+        "answer": "Cinco libras"
+      },
+      {
+        "q": "¿Compra algo más Yolanda?",
+        "options": [
+          "No, nada más",
+          "Sí, pan",
+          "Sí, otro queso"
+        ],
+        "answer": "No, nada más"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Can I try some, please?",
+    "es": "¿Puedo probar un poco, por favor?",
+    "context": "En un mercado o una tienda de quesos o embutidos"
+  },
+  "summary": [
+    "Preguntar el precio: How much is it?",
+    "Preguntar el origen: Where is it from?",
+    "Pedir: I'd like that piece, please",
+    "Para llevar: take away; para tomar aquí: eat in",
+    "Terminar: That's all, thanks / Keep the change"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u09-l5"
+}

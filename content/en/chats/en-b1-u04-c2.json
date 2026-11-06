@@ -1,0 +1,66 @@
+{
+  "id": "en-b1-u04-c2",
+  "unit": "en-b1-u04",
+  "title": "Plan para el fin de semana",
+  "setting": "Emma va a pasar el fin de semana contigo y queréis decidir qué hacer.",
+  "emoji": "🧺",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "So, what shall we do on Saturday?", "es": "Bueno, ¿qué hacemos el sábado?" },
+      "options": [
+        { "t": "It depends on the weather. If it's sunny, we'll have a picnic.", "es": "Depende del tiempo. Si hace sol, haremos un pícnic.", "next": "n2", "ok": true },
+        { "t": "It depends of the weather. If it's sunny, we'll have a picnic.", "es": "Depende del tiempo. Si hace sol, haremos un pícnic.", "next": "n2", "ok": false, "feedback": "Depend va con on: it depends on the weather." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Lovely. And if it rains?", "es": "Qué bien. ¿Y si llueve?" },
+      "options": [
+        { "t": "If it rains, we'll go to the cinema.", "es": "Si llueve, iremos al cine.", "next": "n3", "ok": true },
+        { "t": "If it rains, we go to the cinema yesterday.", "es": "Si llueve, fuimos al cine ayer.", "next": "n3", "ok": false, "feedback": "Es un plan futuro: we'll go. Yesterday no encaja." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Great. Should I bring anything?", "es": "Genial. ¿Llevo algo?" },
+      "options": [
+        { "t": "Bring a jumper, just in case. It gets chilly in the evening.", "es": "Trae un jersey, por si acaso. Por la noche refresca.", "next": "n4", "ok": true },
+        { "t": "Bring a jumper, just in case. It gets chili in the evening.", "es": "Trae un jersey, por si acaso. Por la noche refresca.", "next": "n4", "ok": false, "feedback": "Chili es la guindilla. Fresquito = chilly, con dos l y -y." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "OK! What time shall we leave?", "es": "¡Vale! ¿A qué hora salimos?" },
+      "options": [
+        { "t": "At ten, unless you want to sleep late.", "es": "A las diez, a menos que quieras dormir hasta tarde.", "next": "n5", "ok": true },
+        { "t": "At ten, unless you don't want to sleep late.", "es": "A las diez, a menos que quieras dormir hasta tarde.", "next": "n5", "ok": false, "feedback": "Unless ya es negativo: unless you want." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ha ha, no, ten is fine. And on Sunday?", "es": "¡Ja, ja! No, a las diez está bien. ¿Y el domingo?" },
+      "options": [
+        { "t": "My grandchildren are coming. If you're here, they'll love to meet you.", "es": "Vienen mis nietos. Si estás aquí, les encantará conocerte.", "next": "n6", "ok": true },
+        { "t": "My grandchildren are coming. If you'll be here, they love to meet you.", "es": "Vienen mis nietos. Si estás aquí, les encantará conocerte.", "next": "n6", "ok": false, "feedback": "Al revés: presente con if (if you're here) y will en el resultado (they'll love)." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "I'd love that! I'll teach them some English songs.", "es": "¡Me encantaría! Les enseñaré algunas canciones en inglés." },
+      "options": [
+        { "t": "Perfect! When they hear you, they'll want to sing all day.", "es": "¡Perfecto! Cuando te oigan, querrán cantar todo el día.", "next": "n7", "ok": true },
+        { "t": "Perfect! When they will hear you, they'll want to sing all day.", "es": "¡Perfecto! Cuando te oigan, querrán cantar todo el día.", "next": "n7", "ok": false, "feedback": "Después de when, presente: when they hear you." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "What a weekend! Fingers crossed for the weather.", "es": "¡Menudo fin de semana! Crucemos los dedos por el tiempo." },
+      "options": [
+        { "t": "Fingers crossed! See you on Friday.", "es": "¡Crucemos los dedos! Nos vemos el viernes.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

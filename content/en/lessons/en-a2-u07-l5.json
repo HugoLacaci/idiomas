@@ -1,0 +1,406 @@
+{
+  "id": "en-a2-u07-l5",
+  "unit": "en-a2-u07",
+  "title": "Reto: un día en Liverpool",
+  "goal": "a contar tus gustos y aficiones en un mensaje y en una charla, como en un viaje a Liverpool",
+  "emoji": "🎸",
+  "photoQuery": "liverpool waterfront river mersey",
+  "vocab": [
+    {
+      "id": "hobby-the-beatles",
+      "t": "the Beatles",
+      "es": "los Beatles",
+      "emoji": "🎸",
+      "pos": "n",
+      "ex": {
+        "t": "The Beatles were from Liverpool.",
+        "es": "Los Beatles eran de Liverpool."
+      }
+    },
+    {
+      "id": "hobby-band",
+      "t": "a band",
+      "es": "un grupo de música",
+      "emoji": "🥁",
+      "pos": "n",
+      "ex": {
+        "t": "My son plays in a band.",
+        "es": "Mi hijo toca en un grupo."
+      }
+    },
+    {
+      "id": "hobby-song",
+      "t": "a song",
+      "es": "una canción",
+      "emoji": "🎵",
+      "pos": "n",
+      "ex": {
+        "t": "This is my favourite song.",
+        "es": "Esta es mi canción favorita."
+      }
+    },
+    {
+      "id": "hobby-live-music",
+      "t": "live music",
+      "es": "música en directo",
+      "emoji": "🎙️",
+      "pos": "phrase",
+      "ex": {
+        "t": "I love listening to live music.",
+        "es": "Me encanta escuchar música en directo."
+      },
+      "note": "Aquí live suena «laiv», no «liv»."
+    },
+    {
+      "id": "hobby-museum",
+      "t": "a museum",
+      "es": "un museo",
+      "emoji": "🏛️",
+      "pos": "n",
+      "ex": {
+        "t": "We enjoyed visiting the museum.",
+        "es": "Disfrutamos visitando el museo."
+      }
+    },
+    {
+      "id": "hobby-fan",
+      "t": "a big fan of",
+      "es": "muy fan de",
+      "emoji": "⭐",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm a big fan of old songs.",
+        "es": "Soy muy fan de las canciones antiguas."
+      }
+    },
+    {
+      "id": "hobby-dance-floor",
+      "t": "the dance floor",
+      "es": "la pista de baile",
+      "emoji": "🪩",
+      "pos": "phrase",
+      "ex": {
+        "t": "Everybody was on the dance floor!",
+        "es": "¡Todo el mundo estaba en la pista!"
+      }
+    }
+  ],
+  "grammar": "en-g-object-pronouns",
+  "pron": {
+    "title": "Liverpool y live",
+    "tip": "Liverpool suena «lívapuul», con el acento al principio. Live como verbo (vivir) suena «liv»; live music (en directo) suena «laiv».",
+    "words": [
+      "Liverpool",
+      "live",
+      "live music",
+      "Beatles",
+      "Mersey"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "message",
+      "title": "Postal de Yolanda",
+      "text": "Hi Hugo! Liverpool is amazing. Yesterday we visited the Beatles museum. My friend loved it! Tonight there's live music at the Cavern Club. I can't wait to dance. I miss you! Call me tomorrow. Love, Mum",
+      "questions": [
+        {
+          "q": "¿Qué visitaron ayer?",
+          "options": [
+            "El museo de los Beatles",
+            "Una iglesia",
+            "El puerto"
+          ],
+          "answer": "El museo de los Beatles"
+        },
+        {
+          "q": "¿Qué hay esta noche?",
+          "options": [
+            "Música en directo",
+            "Una clase de pintura",
+            "Un partido"
+          ],
+          "answer": "Música en directo"
+        },
+        {
+          "q": "¿Qué le pide Yolanda a Hugo?",
+          "options": [
+            "Que la llame mañana",
+            "Que vaya a Liverpool",
+            "Que le mande fotos"
+          ],
+          "answer": "Que la llame mañana"
+        }
+      ],
+      "why": "Fíjate en los pronombres: I miss you, call me."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "I'm a big fan of the Beatles. I love ___!",
+      "options": [
+        "them",
+        "they",
+        "their"
+      ],
+      "answer": "them",
+      "why": "The Beatles = they → them detrás del verbo.",
+      "g": "en-g-object-pronouns"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "We enjoyed ___ the museum.",
+      "options": [
+        "visiting",
+        "visit",
+        "to visit"
+      ],
+      "answer": "visiting",
+      "why": "Enjoy + -ing, también en pasado: enjoyed visiting.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "This song is great. Do you know ___?",
+      "options": [
+        "it",
+        "him",
+        "them"
+      ],
+      "answer": "it",
+      "why": "Una canción = it. It no cambia como objeto.",
+      "g": "en-g-object-pronouns"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "My sister hates ___ in long queues.",
+      "es": "Mi hermana odia esperar en colas largas.",
+      "answer": [
+        "waiting"
+      ],
+      "bank": [
+        "waiting",
+        "wait",
+        "waits"
+      ],
+      "why": "hate + -ing: hates waiting.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Our friends are here. Let's dance with ___!",
+      "es": "Nuestros amigos están aquí. ¡Bailemos con ellos!",
+      "answer": [
+        "them"
+      ],
+      "why": "Después de with: them.",
+      "g": "en-g-object-pronouns"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "My husband doesn't like dance.",
+      "wrong": "dance",
+      "fix": "dancing",
+      "why": "like + -ing para gustos: doesn't like dancing.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "The guide was very nice. We liked she a lot.",
+      "wrong": "she",
+      "fix": "her",
+      "why": "Detrás de liked va el pronombre objeto: her.",
+      "g": "en-g-object-pronouns"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Disfrutamos escuchando música en directo",
+      "answer": "We enjoyed listening to live music",
+      "extra": [
+        "listen"
+      ],
+      "why": "enjoyed + -ing; listen to.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Cambia «Pauline and Sue» por un pronombre",
+      "q": "We met Pauline and Sue at the club.",
+      "answer": [
+        "We met them at the club."
+      ],
+      "why": "Dos personas = they → them detrás del verbo.",
+      "g": "en-g-object-pronouns"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Odio cocinar, pero me encanta comer.",
+      "answer": [
+        "I hate cooking, but I love eating.",
+        "I hate cooking but I love eating."
+      ],
+      "why": "hate y love + -ing.",
+      "g": "en-g-like-ing"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "from",
+      "q": "Can you take a photo of us?",
+      "answer": [
+        "¿Puedes hacernos una foto?",
+        "¿Nos puedes hacer una foto?",
+        "¿Puede hacernos una foto?"
+      ],
+      "why": "Of us = de nosotros: hacernos una foto.",
+      "g": "en-g-object-pronouns"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "En el Cavern Club quieres que alguien os haga una foto a ti y a tu amiga.",
+      "emoji": "📸",
+      "options": [
+        "Excuse me, can you take a photo of us?",
+        "Excuse me, can you take a photo of we?",
+        "Excuse me, can you take us a photo of?"
+      ],
+      "answer": "Excuse me, can you take a photo of us?",
+      "why": "Después de of usamos us, no we.",
+      "g": "en-g-object-pronouns"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Un señor te pregunta si te gusta bailar. Te encanta.",
+      "emoji": "🪩",
+      "options": [
+        "Yes, I love it!",
+        "Yes, I love!",
+        "Yes, I love dance it!"
+      ],
+      "answer": "Yes, I love it!",
+      "why": "Love necesita algo detrás: I love it (bailar = it).",
+      "g": "en-g-object-pronouns"
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "I love dancing.",
+          "Me too!"
+        ],
+        [
+          "Do you like the Beatles?",
+          "Yes, I love them."
+        ],
+        [
+          "Where's your friend?",
+          "I can't see her."
+        ],
+        [
+          "Call me later!",
+          "OK, I will."
+        ]
+      ],
+      "why": "Repasa me too y los pronombres objeto.",
+      "g": "en-g-object-pronouns"
+    }
+  ],
+  "dialog": {
+    "title": "Noche en el Cavern Club",
+    "setting": "En el Cavern Club de Liverpool, Yolanda charla con un camarero, Danny",
+    "emoji": "🎸",
+    "lines": [
+      {
+        "who": "Danny",
+        "t": "Welcome to the Cavern! Is it your first time?",
+        "es": "¡Bienvenida al Cavern! ¿Es tu primera vez?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes! I'm a big fan of the Beatles.",
+        "es": "¡Sí! Soy muy fan de los Beatles."
+      },
+      {
+        "who": "Danny",
+        "t": "Everybody loves them here. Do you like dancing?",
+        "es": "Aquí todo el mundo los adora. ¿Te gusta bailar?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I love it! My friend hates it, though.",
+        "es": "¡Me encanta! Aunque mi amiga lo odia."
+      },
+      {
+        "who": "Danny",
+        "t": "Bring her to the dance floor anyway!",
+        "es": "¡Llévala a la pista de todas formas!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Ha ha, I'll try. Can you take a photo of us?",
+        "es": "Ja, ja, lo intentaré. ¿Nos puedes hacer una foto?"
+      },
+      {
+        "who": "Danny",
+        "t": "Sure. Smile! Enjoy the music.",
+        "es": "Claro. ¡Sonreíd! Disfrutad de la música."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Es la primera vez de Yolanda en el club?",
+        "options": [
+          "Sí",
+          "No",
+          "No se sabe"
+        ],
+        "answer": "Sí"
+      },
+      {
+        "q": "¿Qué piensa la amiga de Yolanda del baile?",
+        "options": [
+          "Lo odia",
+          "Le encanta",
+          "No le importa"
+        ],
+        "answer": "Lo odia"
+      },
+      {
+        "q": "¿Qué le pide Yolanda a Danny?",
+        "options": [
+          "Una foto",
+          "Una bebida",
+          "Una canción"
+        ],
+        "answer": "Una foto"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Can you take a photo of us, please?",
+    "es": "¿Nos puedes hacer una foto, por favor?",
+    "context": "Cuando viajas y quieres una foto con tu familia o tus amigas"
+  },
+  "summary": [
+    "Gustos: love / like / enjoy / don't mind / hate + -ing",
+    "Pronombres objeto: me, you, him, her, it, us, them",
+    "I love it! / I love them! / a photo of us",
+    "Liverpool: la ciudad de los Beatles y el Cavern Club"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u07-l5"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "it-b1-u04-l4",
+  "unit": "it-b1-u04",
+  "title": "Credo che costi troppo",
+  "goal": "a formar el congiuntivo de los verbos regulares para opinar sobre productos, precios y horarios",
+  "emoji": "🏷️",
+  "photoQuery": "italian market stall local products",
+  "vocab": [
+    { "id": "opin-costare", "t": "costare", "es": "costar", "emoji": "💶", "pos": "v", "ex": { "t": "Credo che questo aceto costi tanto.", "es": "Creo que este vinagre cuesta mucho." } },
+    { "id": "opin-funzionare", "t": "funzionare", "es": "funcionar", "emoji": "⚙️", "pos": "v", "ex": { "t": "Non credo che la macchinetta funzioni.", "es": "No creo que la cafetera funcione." } },
+    { "id": "opin-chiudere", "t": "chiudere", "es": "cerrar", "emoji": "🔒", "pos": "v", "ex": { "t": "Penso che il negozio chiuda alle sette.", "es": "Creo que la tienda cierra a las siete." } },
+    { "id": "opin-aprire", "t": "aprire", "es": "abrir", "emoji": "🔓", "pos": "v", "ex": { "t": "Mi sembra che il mercato apra alle otto.", "es": "Me parece que el mercado abre a las ocho." } },
+    { "id": "opin-vendere", "t": "vendere", "es": "vender", "emoji": "🛒", "pos": "v", "ex": { "t": "Credo che quel signore venda formaggi buonissimi.", "es": "Creo que ese señor vende quesos buenísimos." } },
+    { "id": "opin-la-qualita", "t": "la qualità", "es": "la calidad", "emoji": "🏅", "pos": "n", "ex": { "t": "Penso che la qualità sia ottima.", "es": "Creo que la calidad es excelente." } },
+    { "id": "opin-il-prodotto-tipico", "t": "il prodotto tipico", "es": "el producto típico", "emoji": "🧺", "pos": "n", "ex": { "t": "Il culatello è un prodotto tipico di Parma.", "es": "El culatello es un producto típico de Parma." } },
+    { "id": "opin-non-credo-che", "t": "non credo che…", "es": "no creo que…", "emoji": "🚫", "pos": "phrase", "ex": { "t": "Non credo che sia caro.", "es": "No creo que sea caro." } }
+  ],
+  "grammar": "it-g-congiuntivo-intro",
+  "pron": {
+    "title": "Sia y abbia: la i que se desliza",
+    "tip": "En sia la i suena entera: si-a. En abbia y apra fíjate en la doble y en el acento: àb-bia, à-pra. Repite despacio y luego rápido.",
+    "words": ["sia", "abbia", "costi", "chiuda", "apra"],
+    "pairs": [["costa", "costi"], ["chiude", "chiuda"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Penso che questo prosciutto ___ trenta euro al chilo.", "es": "Creo que este jamón cuesta treinta euros el kilo.", "options": ["costi", "costa", "costo"], "answer": "costi", "why": "Verbos en -are: la terminación del congiuntivo es -i: costi.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e2", "type": "choose", "q": "Credo che la farmacia ___ alle otto.", "es": "Creo que la farmacia cierra a las ocho.", "options": ["chiuda", "chiude", "chiudi"], "answer": "chiuda", "why": "Verbos en -ere: la terminación es -a: chiuda.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e3", "type": "choose", "q": "Mi sembra che il museo ___ alle nove.", "es": "Me parece que el museo abre a las nueve.", "options": ["apra", "apre", "apri"], "answer": "apra", "why": "Verbos en -ire: también -a: apra.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e4", "type": "choose", "q": "Non credo che il telefono ___.", "es": "No creo que el teléfono funcione.", "options": ["funzioni", "funziona", "funzione"], "answer": "funzioni", "why": "Funzionare (-are) → funzioni, como «funcione» en español.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e5", "type": "fill", "q": "Penso che quel negozio ___ prodotti tipici.", "es": "Creo que esa tienda vende productos típicos.", "answer": ["venda"], "bank": ["venda", "vende", "vendi"], "why": "Vendere (-ere) → venda.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e6", "type": "fill", "q": "Credo che mio marito ___ troppo formaggio.", "es": "Creo que mi marido come demasiado queso.", "answer": ["mangi"], "bank": ["mangi", "mangia", "mangiai"], "why": "Mangiare (-are) → mangi (la i de mangi- y la del final se funden).", "g": "it-g-congiuntivo-intro" },
+    { "id": "e7", "type": "conjugate", "verb": "prendere", "person": "lei", "tense": "congiuntivo presente", "q": "Penso che lei ___ il treno delle dieci.", "answer": ["prenda"], "table": [["-are", "parli"], ["-ere", "prenda"], ["-ire", "parta"]], "why": "Prendere (-ere) → prenda.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e8", "type": "conjugate", "verb": "lavorare", "person": "tu", "tense": "congiuntivo presente", "q": "Credo che tu ___ troppo.", "answer": ["lavori"], "table": [["-are", "parli"], ["-ere", "prenda"], ["-ire", "parta"]], "why": "Lavorare (-are) → lavori.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e9", "type": "conjugate", "verb": "partire", "person": "lui", "tense": "congiuntivo presente", "q": "Non credo che Hugo ___ domani.", "answer": ["parta"], "why": "Partire (-ire) → parta.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e10", "type": "error", "q": "Credo che il ristorante chiude il lunedì.", "wrong": "chiude", "fix": "chiuda", "why": "Credo che + congiuntivo: chiuda.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e11", "type": "error", "q": "Penso che questo olio costa poco.", "wrong": "costa", "fix": "costi", "why": "Con penso che, costare se vuelve costi.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e12", "type": "transform", "instr": "Empieza con «Non credo che»", "q": "Il negozio apre la domenica.", "answer": ["Non credo che il negozio apra la domenica."], "why": "Apre → apra tras non credo che.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e13", "type": "order", "es": "No creo que cueste mucho.", "answer": "Non credo che costi molto", "extra": ["costa"], "why": "Non credo che + costi.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e14", "type": "translate", "dir": "to", "q": "Creo que la calidad es buena.", "answer": ["Penso che la qualità sia buona.", "Credo che la qualità sia buona."], "why": "Creo que es → penso che sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e15", "type": "minimal", "pair": ["chiude", "chiuda"], "answer": "chiuda", "es": ["cierra", "cierre / que cierra"], "why": "Chiuda, con -a final, es el congiuntivo." },
+    { "id": "e16", "type": "situation", "context": "Hugo quiere comprar un móvil muy barato por internet. Tú desconfías.", "emoji": "📱", "options": ["Non credo che funzioni bene.", "Non credo che funziona bene.", "Credo funzioni che bene."], "answer": "Non credo che funzioni bene.", "why": "Non credo che + congiuntivo: funzioni.", "g": "it-g-congiuntivo-intro" }
+  ],
+  "dialog": {
+    "title": "¿Lo compramos o no?",
+    "setting": "Yolanda y su amiga Carla miran productos en un mercado de Parma",
+    "emoji": "🧺",
+    "lines": [
+      { "who": "Carla", "t": "Guarda questo aceto balsamico! Che ne pensi?", "es": "¡Mira este vinagre balsámico! ¿Qué te parece?" },
+      { "who": "Yolanda", "t": "È bello, ma credo che costi troppo.", "es": "Es bonito, pero creo que cuesta demasiado." },
+      { "who": "Carla", "t": "Mi sembra che la qualità sia altissima.", "es": "Me parece que la calidad es altísima." },
+      { "who": "Yolanda", "t": "Forse. E quel banco? Penso che venda formaggi.", "es": "Quizás. ¿Y ese puesto? Creo que vende quesos." },
+      { "who": "Carla", "t": "Sì, ma non credo che apra prima delle dieci.", "es": "Sí, pero no creo que abra antes de las diez." },
+      { "who": "Yolanda", "t": "Allora prendiamo un caffè. Penso che il bar sia aperto.", "es": "Pues tomemos un café. Creo que el bar está abierto." },
+      { "who": "Carla", "t": "Ottima idea!", "es": "¡Muy buena idea!" }
+    ],
+    "questions": [
+      { "q": "¿Qué piensa Yolanda del vinagre?", "options": ["Que cuesta demasiado", "Que está malo", "Que es barato"], "answer": "Que cuesta demasiado" },
+      { "q": "¿Qué vende el otro puesto?", "options": ["Quesos", "Vino", "Fruta"], "answer": "Quesos" },
+      { "q": "¿Qué deciden hacer?", "options": ["Tomar un café", "Irse a casa", "Comprar el vinagre"], "answer": "Tomar un café" }
+    ]
+  },
+  "realLife": { "t": "Non credo che sia necessario, grazie.", "es": "No creo que sea necesario, gracias.", "context": "Para rechazar con amabilidad algo que te ofrecen en una tienda" },
+  "same": {
+    "text": "El congiuntivo de los regulares se parece mucho a nuestro subjuntivo, ¡pero con las vocales cambiadas!",
+    "examples": [
+      { "t": "che parli", "es": "que hable" },
+      { "t": "che venda", "es": "que venda" },
+      { "t": "che apra", "es": "que abra" }
+    ]
+  },
+  "summary": [
+    "Verbos en -are → -i: costi, parli, lavori.",
+    "Verbos en -ere y -ire → -a: venda, chiuda, apra, parta.",
+    "Io, tu, lui y lei usan la misma forma.",
+    "Non credo che + congiuntivo, igual que «no creo que» en español."
+  ],
+  "reviewed": false
+}

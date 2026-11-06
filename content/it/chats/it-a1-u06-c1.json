@@ -1,0 +1,62 @@
+{
+  "id": "it-a1-u06-c1",
+  "unit": "it-a1-u06",
+  "title": "Giulia quiere ver tu casa",
+  "setting": "Giulia te escribe por WhatsApp desde Roma",
+  "emoji": "🏠",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda! Com'è la tua casa?", "es": "¡Hola, Yolanda! ¿Cómo es tu casa?" },
+      "options": [
+        { "t": "È grande e luminosa.", "es": "Es grande y luminosa.", "next": "n2", "ok": true },
+        { "t": "C'è grande e luminosa.", "es": "Hay grande y luminosa.", "next": "n2", "ok": false, "feedback": "Para describir usamos è (es): è grande. C'è significa «hay»." },
+        { "t": "È grande e luminoso.", "es": "Es grande y luminoso.", "next": "n2", "ok": false, "feedback": "Casa es femenina: grande e luminosa." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che bello! Quante camere ci sono?", "es": "¡Qué bien! ¿Cuántos dormitorios hay?" },
+      "options": [
+        { "t": "Ci sono tre camere.", "es": "Hay tres dormitorios.", "next": "n3", "ok": true },
+        { "t": "C'è tre camere.", "es": "Hay tres dormitorios.", "next": "n3", "ok": false, "feedback": "Tre camere es plural: ci sono tre camere." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "E c'è un balcone?", "es": "¿Y hay balcón?" },
+      "options": [
+        { "t": "Sì, c'è un balcone con tante piante.", "es": "Sí, hay un balcón con muchas plantas.", "next": "n4", "ok": true },
+        { "t": "Sì, ci sono un balcone con tante piante.", "es": "Sí, hay un balcón con muchas plantas.", "next": "n4", "ok": false, "feedback": "Un balcone es singular: c'è." },
+        { "t": "No, non ci è.", "es": "No, no hay.", "next": "n4", "ok": false, "feedback": "Ci + è se escribe siempre junto: non c'è." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Io adoro le cucine grandi. Dove mangiate di solito?", "es": "Me encantan las cocinas grandes. ¿Dónde coméis normalmente?" },
+      "options": [
+        { "t": "Mangiamo in cucina.", "es": "Comemos en la cocina.", "next": "n5", "ok": true },
+        { "t": "Mangiamo a cucina.", "es": "Comemos en la cocina.", "next": "n5", "ok": false, "feedback": "Con las habitaciones usamos in: in cucina." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Anch'io! Il mio tavolo è di legno. E il tuo?", "es": "¡Yo también! Mi mesa es de madera. ¿Y la tuya?" },
+      "options": [
+        { "t": "Anche il mio è di legno.", "es": "La mía también es de madera.", "next": "n6", "ok": true },
+        { "t": "Anche il mio è de legno.", "es": "La mía también es de madera.", "next": "n6", "ok": false, "feedback": "«De» en italiano es di: di legno." },
+        { "t": "Anche la mia è di legno.", "es": "La mía también es de madera.", "next": "n6", "ok": false, "feedback": "Casi: tavolo es masculino en italiano, así que il mio." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Allora un giorno vengo a casa tua!", "es": "¡Pues un día voy a tu casa!" },
+      "options": [
+        { "t": "Certo! Benvenuta a casa mia!", "es": "¡Claro! ¡Bienvenida a mi casa!", "next": "end", "ok": true },
+        { "t": "Certo! Benvenuto a casa mia!", "es": "¡Claro! ¡Bienvenido a mi casa!", "next": "end", "ok": false, "feedback": "Giulia es mujer: benvenuta." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

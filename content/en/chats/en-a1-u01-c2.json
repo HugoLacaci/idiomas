@@ -1,0 +1,43 @@
+{
+  "id": "en-a1-u01-c2",
+  "unit": "en-a1-u01",
+  "title": "Mensajes con Emma",
+  "setting": "Emma te escribe por WhatsApp para conoceros mejor",
+  "emoji": "💬",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "Hi Yolanda! How are you today?", "es": "¡Hola, Yolanda! ¿Qué tal estás hoy?" },
+      "options": [
+        { "t": "I'm fine, thanks. And you?", "es": "Bien, gracias. ¿Y tú?", "next": "n2", "ok": true },
+        { "t": "I have fine, thanks.", "es": "(Tengo bien, gracias.)", "next": "n2", "ok": false, "feedback": "Cómo estás va con to be: I'm fine." }
+      ] },
+    { "id": "n2", "says": { "t": "Very well! I'm at work now. What do you do?", "es": "¡Muy bien! Ahora estoy en el trabajo. ¿A qué te dedicas?" },
+      "options": [
+        { "t": "I'm a teacher.", "es": "Soy profesora.", "next": "n3", "ok": true },
+        { "t": "I'm retired.", "es": "Estoy jubilada.", "next": "n3", "ok": true },
+        { "t": "I'm teacher.", "es": "(Soy profesora.)", "next": "n3", "ok": false, "feedback": "Las profesiones llevan a: I'm a teacher." }
+      ] },
+    { "id": "n3", "says": { "t": "Oh, nice! I'm a nurse. Is Hugo at work today?", "es": "¡Qué bien! Yo soy enfermera. ¿Hugo está trabajando hoy?" },
+      "options": [
+        { "t": "Yes, he is. He's very busy.", "es": "Sí. Está muy ocupado.", "next": "n4", "ok": true },
+        { "t": "Yes, she is.", "es": "Sí, ella sí.", "next": "n4", "ok": false, "feedback": "Hugo es un chico: he, no she." },
+        { "t": "Yes, is at work.", "es": "(Sí, está trabajando.)", "next": "n4", "ok": false, "feedback": "Falta el sujeto: Yes, he is." }
+      ] },
+    { "id": "n4", "says": { "t": "Is it sunny in Spain today?", "es": "¿Hace sol hoy en España?" },
+      "options": [
+        { "t": "Yes, it's sunny and warm.", "es": "Sí, hace sol y calor.", "next": "n5", "ok": true },
+        { "t": "Yes, it sunny.", "es": "(Sí, hace sol.)", "next": "n5", "ok": false, "feedback": "Falta el verbo: it's = it is. Yes, it's sunny." }
+      ] },
+    { "id": "n5", "says": { "t": "Lucky you! It's raining here. Are you free on Saturday?", "es": "¡Qué suerte! Aquí llueve. ¿Estás libre el sábado?" },
+      "options": [
+        { "t": "Yes, I am!", "es": "¡Sí!", "next": "n6", "ok": true },
+        { "t": "Yes, I'm!", "es": "¡Sí!", "next": "n6", "ok": false, "feedback": "En la respuesta corta no se contrae: Yes, I am!" }
+      ] },
+    { "id": "n6", "says": { "t": "Great! A video call at 11?", "es": "¡Genial! ¿Una videollamada a las 11?" },
+      "options": [
+        { "t": "Perfect! See you on Saturday.", "es": "¡Perfecto! Nos vemos el sábado.", "next": "end", "ok": true },
+        { "t": "Perfect! Good night!", "es": "¡Perfecto! ¡Buenas noches!", "next": "end", "ok": false, "feedback": "Good night es para irte a dormir. Aquí: See you on Saturday." }
+      ] }
+  ],
+  "reviewed": false
+}

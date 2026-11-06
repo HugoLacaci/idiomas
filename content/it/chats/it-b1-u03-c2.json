@@ -1,0 +1,58 @@
+{
+  "id": "it-b1-u03-c2",
+  "unit": "it-b1-u03",
+  "title": "Costumbres en la mesa",
+  "setting": "Giulia y tú habláis de costumbres españolas e italianas en una terraza de Roma",
+  "emoji": "🍽️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Dimmi, in Spagna a che ora si cena?", "es": "Dime, ¿en España a qué hora se cena?" },
+      "options": [
+        { "t": "Si cena tardi, verso le nove o le dieci.", "es": "Se cena tarde, hacia las nueve o las diez.", "next": "n2", "ok": true },
+        { "t": "Si cenano tardi, verso le nove o le dieci.", "es": "Se cena tarde, hacia las nueve o las diez.", "next": "n2", "ok": false, "feedback": "No hay ninguna cosa en plural: si cena, en singular." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Così tardi! E a pranzo cosa si mangia?", "es": "¡Qué tarde! ¿Y a mediodía qué se come?" },
+      "options": [
+        { "t": "Spesso si mangiano legumi, come le lenticchie.", "es": "A menudo se comen legumbres, como las lentejas.", "next": "n3", "ok": true },
+        { "t": "Spesso si mangia legumi, come le lenticchie.", "es": "A menudo se comen legumbres, como las lentejas.", "next": "n3", "ok": false, "feedback": "Legumi es plural: si mangiano." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Buone! E il pane? Si mette sempre a tavola?", "es": "¡Qué ricas! ¿Y el pan? ¿Se pone siempre en la mesa?" },
+      "options": [
+        { "t": "Sì, da noi si mette sempre il pane.", "es": "Sí, en casa siempre se pone pan.", "next": "n4", "ok": true },
+        { "t": "Sì, da noi si mettono sempre il pane.", "es": "Sí, en casa siempre se pone pan.", "next": "n4", "ok": false, "feedback": "Il pane es singular: si mette." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Anche qui! E lo sai che il cappuccino non si beve dopo pranzo?", "es": "¡Aquí también! ¿Y sabes que el capuchino no se toma después de comer?" },
+      "options": [
+        { "t": "Davvero? In Spagna il caffellatte si beve a tutte le ore!", "es": "¿De verdad? ¡En España el café con leche se toma a todas horas!", "next": "n5", "ok": true },
+        { "t": "Davvero? In Spagna il caffellatte se beve a tutte le ore!", "es": "¿De verdad? ¡En España el café con leche se toma a todas horas!", "next": "n5", "ok": false, "feedback": "En italiano es si: si beve." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ah, e da voi si fa la scarpetta?", "es": "Ah, ¿y vosotros mojáis pan en la salsa?" },
+      "options": [
+        { "t": "Sì, si dice «mojar pan». In famiglia si fa sempre!", "es": "Sí, se dice «mojar pan». ¡En familia se hace siempre!", "next": "n6", "ok": true },
+        { "t": "Sì, si dice «mojar pan». In famiglia si fanno sempre!", "es": "Sí, se dice «mojar pan». ¡En familia se hace siempre!", "next": "n6", "ok": false, "feedback": "La scarpetta es una: si fa." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Allora siamo uguali! A tavola ci si capisce sempre.", "es": "¡Pues somos iguales! En la mesa siempre nos entendemos." },
+      "options": [
+        { "t": "Hai ragione! Allora, ci vediamo a cena?", "es": "¡Tienes razón! Entonces, ¿nos vemos para cenar?", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

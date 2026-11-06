@@ -1,0 +1,59 @@
+{
+  "id": "en-a1-u04-c3",
+  "unit": "en-a1-u04",
+  "title": "Paseo por Notting Hill",
+  "setting": "Paseas con Emma por Notting Hill, entre casas de colores, y buscáis sitios del barrio.",
+  "emoji": "🌈",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Look at these houses! What colour is your favourite?", "es": "¡Mira estas casas! ¿De qué color es tu favorita?" },
+      "options": [
+        { "t": "The pink house next to the blue one.", "es": "La casa rosa al lado de la azul.", "next": "n2", "ok": true },
+        { "t": "The pinks house next to the blue one.", "es": "La casa rosa al lado de la azul.", "next": "n2", "ok": false, "feedback": "Los colores no llevan -s: the pink house." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Me too! Do you know? There's a big carnival here in August.", "es": "¡A mí también! ¿Sabes? Aquí hay un gran carnaval en agosto." },
+      "options": [
+        { "t": "Really? Are there a lot of people?", "es": "¿De verdad? ¿Hay mucha gente?", "next": "n3", "ok": true },
+        { "t": "Really? Is there a lot of people?", "es": "¿De verdad? ¿Hay mucha gente?", "next": "n3", "ok": false, "feedback": "People es plural: Are there a lot of people?" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Yes, there are. Thousands and thousands! Now, I need a coffee. Is there a café near here?", "es": "Sí. ¡Miles y miles! Bueno, necesito un café. ¿Hay una cafetería cerca?" },
+      "options": [
+        { "t": "Yes, there's one opposite the market.", "es": "Sí, hay una enfrente del mercado.", "next": "n4", "ok": true },
+        { "t": "Yes, there's one in front the market.", "es": "Sí, hay una delante del mercado.", "next": "n4", "ok": false, "feedback": "Falta of: in front of. Y si está al otro lado de la calle, mejor opposite." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Great. And where's the bookshop? I want a map of London.", "es": "Genial. ¿Y dónde está la librería? Quiero un plano de Londres." },
+      "options": [
+        { "t": "The bookshop is behind the café.", "es": "La librería está detrás de la cafetería.", "next": "n5", "ok": true },
+        { "t": "The library is behind the café.", "es": "La biblioteca está detrás de la cafetería.", "next": "n5", "ok": false, "feedback": "¡Falso amigo! Library es biblioteca. Librería = bookshop." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Perfect. Look, there's a free table outside!", "es": "Perfecto. ¡Mira, hay una mesa libre fuera!" },
+      "options": [
+        { "t": "Let's sit there, in the sun.", "es": "Sentémonos allí, al sol.", "next": "n6", "ok": true },
+        { "t": "Let's seat there, in the sun.", "es": "Sentémonos allí, al sol.", "next": "n6", "ok": false, "feedback": "Sentarse es sit (i corta). Seat es «asiento»." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "What a lovely day! Thank you, Yolanda.", "es": "¡Qué día tan bonito! Gracias, Yolanda." },
+      "options": [
+        { "t": "Thank you, Emma! I love Notting Hill.", "es": "¡Gracias a ti, Emma! Me encanta Notting Hill.", "next": "end", "ok": true },
+        { "t": "Thank you, Emma! I love the Notting Hill.", "es": "¡Gracias a ti, Emma! Me encanta Notting Hill.", "next": "end", "ok": false, "feedback": "Los nombres de barrios y ciudades van sin the: I love Notting Hill." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

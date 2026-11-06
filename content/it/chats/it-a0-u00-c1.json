@@ -1,0 +1,41 @@
+{
+  "id": "it-a0-u00-c1",
+  "unit": "it-a0-u00",
+  "title": "¡Ciao, Giulia!",
+  "setting": "Giulia te espera en la estación de Roma Termini",
+  "emoji": "👋",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "Ciao! Io sono Giulia.", "es": "¡Hola! Yo soy Giulia." },
+      "options": [
+        { "t": "Ciao, Giulia!", "es": "¡Hola, Giulia!", "next": "n2", "ok": true },
+        { "t": "Grazie!", "es": "¡Gracias!", "next": "n2", "ok": false, "feedback": "«Grazie» es «gracias». Para saludar se dice «Ciao!»." }
+      ] },
+    { "id": "n2", "says": { "t": "Benvenuta a Roma!", "es": "¡Bienvenida a Roma!" },
+      "options": [
+        { "t": "Grazie!", "es": "¡Gracias!", "next": "n3", "ok": true },
+        { "t": "Prego!", "es": "¡De nada!", "next": "n3", "ok": false, "feedback": "«Prego» es «de nada». Cuando te dan la bienvenida, se contesta «Grazie!»." }
+      ] },
+    { "id": "n3", "says": { "t": "Prego! Ti piace Roma?", "es": "¡De nada! ¿Te gusta Roma?" },
+      "options": [
+        { "t": "Sì, bellissima!", "es": "¡Sí, preciosa!", "next": "n4", "ok": true },
+        { "t": "Pizza!", "es": "¡Pizza!", "next": "n4", "ok": false, "feedback": "¡Ja, ja! La pizza también gusta. Pero para decir que Roma te encanta: «Sì, bellissima!»." }
+      ] },
+    { "id": "n4", "says": { "t": "Io sono di Roma. Tu sei spagnola?", "es": "Yo soy de Roma. ¿Tú eres española?" },
+      "options": [
+        { "t": "Sì!", "es": "¡Sí!", "next": "n5", "ok": true },
+        { "t": "Grazie mille!", "es": "¡Muchísimas gracias!", "next": "n5", "ok": false, "feedback": "Te pregunta si eres española. Basta con «Sì!» (sí, con acento)." }
+      ] },
+    { "id": "n5", "says": { "t": "Che bello! Un caffè?", "es": "¡Qué bien! ¿Un café?" },
+      "options": [
+        { "t": "Sì, grazie!", "es": "¡Sí, gracias!", "next": "n6", "ok": true },
+        { "t": "Prego!", "es": "¡De nada!", "next": "n6", "ok": false, "feedback": "Para aceptar con educación: «Sì, grazie!»." }
+      ] },
+    { "id": "n6", "says": { "t": "Perfetto! Andiamo al bar!", "es": "¡Perfecto! ¡Vamos al bar!" },
+      "options": [
+        { "t": "Andiamo!", "es": "¡Vamos!", "next": "end", "ok": true },
+        { "t": "Buonanotte!", "es": "¡Buenas noches!", "next": "end", "ok": false, "feedback": "«Buonanotte» es para irse a dormir. Aquí basta con «Andiamo!» (¡vamos!)." }
+      ] }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,87 @@
+{
+  "id": "it-a1-u04-l4",
+  "unit": "it-a1-u04",
+  "title": "Com'è? Describir a la familia",
+  "goal": "a describir a tus familiares con adjetivos que concuerdan",
+  "emoji": "🧑‍🦳",
+  "photoQuery": "amalfi coast lemons family",
+  "vocab": [
+    { "id": "alto-basso", "t": "alto / basso", "es": "alto / bajo", "emoji": "📏", "pos": "adj", "ex": { "t": "Marco è alto, Giulia è bassa.", "es": "Marco es alto, Giulia es bajita." } },
+    { "id": "giovane", "t": "giovane", "es": "joven", "emoji": "🧑", "pos": "adj", "note": "Acaba en -e: igual en masculino y femenino. Plural: giovani.", "ex": { "t": "La nuora di Rosa è giovane.", "es": "La nuera de Rosa es joven." } },
+    { "id": "anziano", "t": "anziano / anziana", "es": "mayor, anciano/a", "emoji": "🧓", "pos": "adj", "ex": { "t": "I miei genitori sono anziani.", "es": "Mis padres son mayores." } },
+    { "id": "simpatico", "t": "simpatico / simpatica", "es": "simpático/a", "emoji": "😄", "pos": "adj", "note": "Plural: simpatici, simpatiche.", "ex": { "t": "Le mie amiche sono simpatiche.", "es": "Mis amigas son simpáticas." } },
+    { "id": "gentile", "t": "gentile", "es": "amable", "emoji": "🤝", "pos": "adj", "ex": { "t": "Il nonno è molto gentile.", "es": "El abuelo es muy amable." } },
+    { "id": "bravo", "t": "bravo / brava", "es": "bueno/a, que se porta bien; hábil", "emoji": "👏", "pos": "adj", "note": "¡Ojo! No significa «bravo» (fiero). Brava in cucina = buena cocinera.", "ex": { "t": "Mia madre è brava in cucina.", "es": "Mi madre cocina muy bien." } },
+    { "id": "carino", "t": "carino / carina", "es": "mono/a, majo/a", "emoji": "🥰", "pos": "adj", "ex": { "t": "Che carino il tuo nipotino!", "es": "¡Qué mono tu nietecito!" } },
+    { "id": "biondo-castano", "t": "biondo / castano", "es": "rubio / castaño", "emoji": "💇", "pos": "adj", "ex": { "t": "Mia nipote ha i capelli biondi.", "es": "Mi nieta tiene el pelo rubio." } },
+    { "id": "sposato", "t": "sposato / sposata", "es": "casado/a", "emoji": "💍", "pos": "adj", "ex": { "t": "Mio fratello è sposato.", "es": "Mi hermano está casado." } }
+  ],
+  "grammar": "it-g-aggettivi-accordo",
+  "pron": {
+    "title": "Gl: figlio, moglie, famiglia",
+    "tip": "Gl + i suena como una ll suave y larga: «fi-llo». No digas «fig-lio» separando la g. Gli (el artículo) suena «lli».",
+    "words": ["figlio", "moglie", "famiglia", "gli", "luglio"],
+    "pairs": [["figli", "fili"], ["gli", "li"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Mia nipote è molto ___.", "es": "Mi nieta es muy mona.", "options": ["carino", "carina", "carine"], "answer": "carina", "why": "Nipote aquí es femenino (mia): carina.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e2", "type": "choose", "q": "I miei genitori sono ___.", "es": "Mis padres son mayores.", "options": ["anziani", "anziane", "anzianos"], "answer": "anziani", "why": "Padre + madre: masculino plural, anziani.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e3", "type": "choose", "q": "Le nonne sono ___.", "es": "Las abuelas son amables.", "options": ["gentile", "gentili", "gentiles"], "answer": "gentili", "why": "Gentile en plural es gentili, también en femenino.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e4", "type": "fill", "q": "Mio figlio è alto e ___.", "es": "Mi hijo es alto y moreno.", "answer": ["bruno", "castano"], "bank": ["bruno", "bruna", "brune"], "why": "Figlio es masculino singular: bruno.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e5", "type": "fill", "q": "Le mie amiche sono ___.", "es": "Mis amigas son simpáticas.", "answer": ["simpatiche"], "bank": ["simpatiche", "simpatici", "simpatice"], "why": "Femenino plural de simpatica: simpatiche.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e6", "type": "fill", "q": "I nipoti di Rosa sono ___.", "es": "Los nietos de Rosa son pequeños.", "answer": ["piccoli"], "why": "Masculino plural: piccoli.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e7", "type": "transform", "instr": "Pásalo a plural", "q": "Mio fratello è simpatico.", "answer": ["I miei fratelli sono simpatici."], "why": "Simpatico → simpatici, y vuelve el artículo: i miei fratelli.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e8", "type": "transform", "instr": "Pásalo a femenino", "q": "Il nonno è anziano ma attivo.", "answer": ["La nonna è anziana ma attiva."], "why": "Todo pasa a -a: nonna, anziana, attiva.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e9", "type": "error", "q": "Mio marito e io siamo stanche.", "wrong": "stanche", "fix": "stanchi", "why": "Un hombre y una mujer: masculino plural, stanchi.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e10", "type": "error", "q": "Le mie nipoti sono altas.", "wrong": "altas", "fix": "alte", "why": "Femenino plural en italiano: -e, sin -s.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e11", "type": "order", "es": "Mi madre es mayor pero muy activa.", "answer": "Mia madre è anziana ma molto attiva", "extra": ["anziano"], "why": "Madre es femenino: anziana, attiva.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Mis nietos son muy buenos.", "answer": ["I miei nipoti sono molto bravi.", "I miei nipoti sono bravissimi."], "why": "Bravo = bueno, que se porta bien; plural masculino bravi.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e13", "type": "translate", "dir": "from", "q": "La nuora di Rosa è giovane e simpatica.", "answer": ["La nuera de Rosa es joven y simpática"], "why": "Giovane no cambia en femenino; simpatica sí.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e14", "type": "situation", "context": "Una amiga italiana te enseña una foto de su nieto pequeño. ¿Qué dices?", "emoji": "👶", "options": ["Che carino!", "Che carina!", "Che caro!"], "answer": "Che carino!", "why": "Nieto es masculino: carino. Caro significa «querido» o «caro (de precio)»." },
+    { "id": "e15", "type": "minimal", "pair": ["figli", "fili"], "answer": "figli", "es": ["hijos", "hilos"], "why": "Figli lleva gl: suena como una ll." },
+    { "id": "e16", "type": "speak", "t": "Mia nipote è bionda e molto brava.", "es": "Mi nieta es rubia y muy buena." }
+  ],
+  "dialog": {
+    "title": "¿Cómo es tu hijo?",
+    "setting": "Yolanda y Giulia toman un limoncello en Amalfi",
+    "emoji": "🍋",
+    "lines": [
+      { "who": "Yolanda", "t": "Com'è tuo figlio?", "es": "¿Cómo es tu hijo?" },
+      { "who": "Giulia", "t": "È alto, bruno e molto simpatico.", "es": "Es alto, moreno y muy simpático." },
+      { "who": "Yolanda", "t": "È sposato?", "es": "¿Está casado?" },
+      { "who": "Giulia", "t": "No, è single. Studia a Bologna.", "es": "No, está soltero. Estudia en Bolonia." },
+      { "who": "Yolanda", "t": "Bravo! E le tue sorelle?", "es": "¡Muy bien! ¿Y tus hermanas?" },
+      { "who": "Giulia", "t": "Sono bionde e chiacchierone!", "es": "¡Son rubias y muy habladoras!" },
+      { "who": "Yolanda", "t": "Come me! Salute!", "es": "¡Como yo! ¡Salud!" }
+    ],
+    "questions": [
+      { "q": "¿Cómo es el hijo de Giulia?", "options": ["Alto, moreno y simpático", "Bajo y rubio", "Mayor y amable"], "answer": "Alto, moreno y simpático" },
+      { "q": "¿Está casado el hijo de Giulia?", "options": ["No, está soltero", "Sí", "Está divorciado"], "answer": "No, está soltero" },
+      { "q": "¿Qué beben?", "options": ["Limoncello", "Café", "Vino"], "answer": "Limoncello" }
+    ]
+  },
+  "realLife": { "t": "Che carino!", "es": "¡Qué mono!", "context": "Cuando alguien te enseña la foto de un bebé o de su nieto" },
+  "same": {
+    "text": "Igual que en español: el adjetivo cambia según hablemos de un hombre o de una mujer, y suele ir detrás.",
+    "examples": [
+      { "t": "un figlio alto", "es": "un hijo alto" },
+      { "t": "una figlia alta", "es": "una hija alta" },
+      { "t": "una famiglia simpatica", "es": "una familia simpática" }
+    ]
+  },
+  "falseFriend": {
+    "word": "bravo / brava",
+    "means": "bueno, que se porta bien; hábil en algo",
+    "looksLike": "bravo (fiero, valiente)",
+    "emoji": "👏",
+    "tip": "Un bambino bravo es un niño bueno, y una cuoca brava es una buena cocinera. Nada de toros."
+  },
+  "summary": [
+    "Adjetivos en -o: alto, alta, alti, alte",
+    "Adjetivos en -e: gentile, gentili (igual en masculino y femenino)",
+    "Hombre + mujer: masculino plural (sono stanchi)",
+    "Simpatica → simpatiche, stanca → stanche (con h)",
+    "Bravo = bueno; carino = mono"
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "en-a1-u10-c1",
+  "unit": "en-a1-u10",
+  "title": "¿Qué sabes hacer?",
+  "setting": "Emma y tú charláis en un banco junto al Támesis. Ella quiere saber qué te gusta hacer.",
+  "emoji": "🎨",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "So, tell me. What do you do in your free time?", "es": "Bueno, cuéntame. ¿Qué haces en tu tiempo libre?" },
+      "options": [
+        { "t": "I love cooking. And I paint a little.", "es": "Me encanta cocinar. Y pinto un poco.", "next": "n2", "ok": true },
+        { "t": "I love cook. And I paint a little.", "es": "Me encanta cocinar. Y pinto un poco.", "next": "n2", "ok": false, "feedback": "Después de love, la actividad va con -ing: I love cooking." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "You can paint? I can't paint at all! What do you paint?", "es": "¿Sabes pintar? ¡Yo no sé pintar nada! ¿Qué pintas?" },
+      "options": [
+        { "t": "Flowers and the sea. I attend a class on Mondays.", "es": "Flores y el mar. Voy a una clase los lunes.", "next": "n3", "ok": true },
+        { "t": "Flowers and the sea. I assist a class on Mondays.", "es": "Flores y el mar. Asisto a una clase los lunes.", "next": "n3", "ok": false, "feedback": "¡Falso amigo! Assist es ayudar. Asistir a una clase = attend a class." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Lovely! And can you swim? The sea in Spain is beautiful.", "es": "¡Qué bonito! ¿Y sabes nadar? El mar en España es precioso." },
+      "options": [
+        { "t": "Yes, I can. I swim every summer.", "es": "Sí. Nado todos los veranos.", "next": "n4", "ok": true },
+        { "t": "Yes, I know swim.", "es": "Sí, sé nadar.", "next": "n4", "ok": false, "feedback": "Saber nadar = can swim. Respuesta corta: Yes, I can." },
+        { "t": "Yes, I do.", "es": "Sí.", "next": "n4", "ok": false, "feedback": "La pregunta es con can, así que la respuesta también: Yes, I can." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Great. I can't swim very well. But I can sing! I'm in a choir.", "es": "Genial. Yo no nado muy bien. ¡Pero sé cantar! Estoy en un coro." },
+      "options": [
+        { "t": "Really? Can you sing a song for me?", "es": "¿De verdad? ¿Me cantas una canción?", "next": "n5", "ok": true },
+        { "t": "Really? Can you to sing a song for me?", "es": "¿De verdad? ¿Me cantas una canción?", "next": "n5", "ok": false, "feedback": "Después de can, nunca to: Can you sing…?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ha ha! Not here, sorry. Can your husband sing too?", "es": "¡Ja, ja! Aquí no, lo siento. ¿Tu marido también sabe cantar?" },
+      "options": [
+        { "t": "No, he can't. But he can dance!", "es": "No. ¡Pero sabe bailar!", "next": "n6", "ok": true },
+        { "t": "No, he doesn't can. But he can dances!", "es": "No. ¡Pero sabe bailar!", "next": "n6", "ok": false, "feedback": "Dos cosas: la negativa es he can't (sin doesn't) y detrás de can va dance, sin -s." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Wonderful! A family of artists. Can you cook something Spanish for me one day?", "es": "¡Estupendo! Una familia de artistas. ¿Me cocinas algo español algún día?" },
+      "options": [
+        { "t": "Of course! I can make a delicious paella.", "es": "¡Claro! Sé hacer una paella buenísima.", "next": "end", "ok": true },
+        { "t": "Of course! I can making a delicious paella.", "es": "¡Claro! Sé hacer una paella buenísima.", "next": "end", "ok": false, "feedback": "Detrás de can, el verbo tal cual: I can make." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

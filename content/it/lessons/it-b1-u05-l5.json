@@ -1,0 +1,89 @@
+{
+  "id": "it-b1-u05-l5",
+  "unit": "it-b1-u05",
+  "title": "Reto en Rávena: cuenta tu viaje",
+  "goal": "a contar una historia completa de viaje, con lo que pasó y lo que había pasado antes",
+  "emoji": "✨",
+  "photoQuery": "ravenna byzantine mosaic gold",
+  "vocab": [
+    { "id": "storia-il-mosaico", "t": "il mosaico", "es": "el mosaico", "emoji": "🟨", "pos": "n", "ex": { "t": "Non avevo mai visto mosaici così belli.", "es": "Nunca había visto mosaicos tan bonitos." } },
+    { "id": "storia-la-tomba", "t": "la tomba", "es": "la tumba", "emoji": "🪦", "pos": "n", "ex": { "t": "A Ravenna c'è la tomba di Dante.", "es": "En Rávena está la tumba de Dante." } },
+    { "id": "storia-la-basilica", "t": "la basilica", "es": "la basílica", "emoji": "⛪", "pos": "n", "ex": { "t": "La basilica di San Vitale è piena di mosaici.", "es": "La basílica de San Vital está llena de mosaicos." } },
+    { "id": "storia-la-guida", "t": "la guida", "es": "el / la guía", "emoji": "🧑‍🏫", "pos": "n", "note": "Siempre femenino: la guida, aunque sea un hombre.", "ex": { "t": "La guida ci aveva aspettato all'ingresso.", "es": "El guía nos había esperado en la entrada." } },
+    { "id": "storia-raccontare", "t": "raccontare", "es": "contar (una historia)", "emoji": "📣", "pos": "v", "ex": { "t": "Ti racconto il mio viaggio a Ravenna.", "es": "Te cuento mi viaje a Rávena." } },
+    { "id": "storia-il-ricordo", "t": "il ricordo", "es": "el recuerdo", "emoji": "🖼️", "pos": "n", "ex": { "t": "È un ricordo bellissimo.", "es": "Es un recuerdo precioso." } },
+    { "id": "storia-il-racconto", "t": "il racconto", "es": "el relato, el cuento", "emoji": "📝", "pos": "n", "note": "¡Falso amigo! No es un «recuento».", "ex": { "t": "Hugo ha scritto un racconto sul viaggio.", "es": "Hugo ha escrito un relato sobre el viaje." } },
+    { "id": "storia-qualche-giorno-prima", "t": "qualche giorno prima", "es": "unos días antes", "emoji": "🗓️", "pos": "phrase", "ex": { "t": "Qualche giorno prima avevo letto un libro su Dante.", "es": "Unos días antes había leído un libro sobre Dante." } }
+  ],
+  "grammar": "it-g-trapassato-prossimo",
+  "pron": {
+    "title": "Repaso: dobles y frases largas",
+    "tip": "Lee de un tirón: «Non avevo mai visto mosaici così belli». Marca las dobles de avevo letto, ricordo no (una sola c), racconto sí (cc).",
+    "words": ["racconto", "ricordo", "avevo letto", "era già finito", "mosaico"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "message", "title": "WhatsApp a las amigas", "text": "Ciao ragazze! Sono a Ravenna. Che giornata! Stamattina sono arrivata alla basilica di San Vitale, ma la visita guidata era già cominciata. Per fortuna la guida mi ha aspettato all'ingresso. Non avevo mai visto mosaici così belli: tutto oro e colori! Poi sono andata alla tomba di Dante. Qualche giorno prima avevo letto la sua storia e mi sono emozionata. Un bacio!", "questions": [
+      { "q": "¿Qué había pasado cuando Yolanda llegó a la basílica?", "options": ["La visita ya había empezado", "Estaba cerrada", "No había nadie"], "answer": "La visita ya había empezado" },
+      { "q": "¿Qué había hecho unos días antes?", "options": ["Leer la historia de Dante", "Reservar un hotel", "Ver una película"], "answer": "Leer la historia de Dante" },
+      { "q": "¿Cómo eran los mosaicos?", "options": ["Dorados y de colores", "Grises", "Pequeños"], "answer": "Dorados y de colores" }
+    ], "why": "Fíjate en era già cominciata y avevo letto: lo que pasó antes.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e2", "type": "choose", "q": "Non ___ mai visto mosaici così belli.", "es": "Nunca había visto mosaicos tan bonitos.", "options": ["avevo", "ero", "ho"], "answer": "avevo", "why": "Vedere va con avere: avevo visto.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e3", "type": "choose", "q": "Quando siamo arrivate, il museo ___ già chiuso.", "es": "Cuando llegamos, el museo ya había cerrado.", "options": ["aveva", "ero", "eravamo"], "answer": "aveva", "why": "El museo había cerrado (sus puertas): aveva chiuso.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e4", "type": "choose", "q": "La guida ci ___ raccontato la storia di Dante.", "es": "El guía nos había contado la historia de Dante.", "options": ["aveva", "era", "avevano"], "answer": "aveva", "why": "Raccontare va con avere; la guida es una persona: aveva.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e5", "type": "fill", "q": "Qualche giorno prima avevo ___ un libro su Ravenna.", "es": "Unos días antes había leído un libro sobre Rávena.", "answer": ["letto"], "bank": ["letto", "leggiuto", "leto"], "why": "Leggere → letto, con doble t.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e6", "type": "fill", "q": "Le mie amiche ___ partite il giorno prima.", "es": "Mis amigas se habían ido el día anterior.", "answer": ["erano"], "bank": ["erano", "avevano", "sono"], "why": "Partire con essere: erano partite.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e7", "type": "fill", "q": "Era la prima volta che ___ a Ravenna.", "es": "Era la primera vez que venía a Rávena.", "answer": ["venivo"], "hint": "venire, io, imperfetto", "why": "Era la prima volta che + imperfetto: venivo.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e8", "type": "error", "q": "Non ero mai visto la tomba di Dante.", "wrong": "ero", "fix": "avevo", "why": "Vedere va con avere: non avevo mai visto.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e9", "type": "error", "q": "Quando sono arrivata, la visita era già cominciato.", "wrong": "cominciato", "fix": "cominciata", "why": "Con essere concuerda con la visita: cominciata.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e10", "type": "order", "es": "Unos días antes había reservado el hotel.", "answer": "Qualche giorno prima avevo prenotato l'albergo", "extra": ["ero"], "why": "Prenotare va con avere: avevo prenotato.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e11", "type": "transform", "instr": "Une con «perché» usando el trapassato", "q": "Ero stanca. Ho camminato tutto il giorno.", "answer": ["Ero stanca perché avevo camminato tutto il giorno."], "why": "La causa ocurrió antes: avevo camminato.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Cuando llegué, el guía ya se había ido.", "answer": ["Quando sono arrivata, la guida era già andata via.", "Quando sono arrivata, la guida se n'era già andata.", "Quando sono arrivata, la guida era già partita."], "why": "La guida es femenino: era andata via.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e13", "type": "translate", "dir": "from", "q": "Hugo aveva scritto un racconto su Ravenna.", "answer": ["Hugo había escrito un relato sobre Rávena.", "Hugo había escrito un cuento sobre Rávena."], "why": "Racconto = relato, cuento.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e14", "type": "situation", "context": "Una amiga italiana te pregunta si conocías Rávena antes de este viaje. No habías estado nunca.", "emoji": "🗺️", "options": ["No, non ero mai stata a Ravenna.", "No, non avevo mai stata a Ravenna.", "No, non sarò mai stata a Ravenna."], "answer": "No, non ero mai stata a Ravenna.", "why": "Essere stata: non ero mai stata.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e15", "type": "match", "pairs": [["avevo visto", "había visto"], ["ero arrivata", "había llegado"], ["avevo letto", "había leído"], ["era partito", "se había ido"], ["avevamo fatto", "habíamos hecho"]], "why": "El trapassato ≈ nuestro pluscuamperfecto." },
+    { "id": "e16", "type": "speak", "t": "Non avevo mai visto mosaici così belli.", "es": "Nunca había visto mosaicos tan bonitos." }
+  ],
+  "dialog": {
+    "title": "De vuelta de Rávena",
+    "setting": "Yolanda le cuenta a su marido el día en Rávena por videollamada",
+    "emoji": "📱",
+    "lines": [
+      { "who": "Marito", "t": "Allora, com'è andata a Ravenna?", "es": "Bueno, ¿qué tal en Rávena?" },
+      { "who": "Yolanda", "t": "Benissimo! Ma all'inizio ho avuto un problema.", "es": "¡Muy bien! Pero al principio tuve un problema." },
+      { "who": "Marito", "t": "Cosa è successo?", "es": "¿Qué pasó?" },
+      { "who": "Yolanda", "t": "Avevo prenotato la visita alle dieci, ma sono arrivata alle dieci e mezza!", "es": "¡Había reservado la visita a las diez, pero llegué a las diez y media!" },
+      { "who": "Marito", "t": "E la guida?", "es": "¿Y el guía?" },
+      { "who": "Yolanda", "t": "Per fortuna mi aveva aspettato. È stata gentilissima.", "es": "Por suerte me había esperado. Fue amabilísima." },
+      { "who": "Marito", "t": "E i mosaici?", "es": "¿Y los mosaicos?" },
+      { "who": "Yolanda", "t": "Incredibili. Non avevo mai visto niente di simile.", "es": "Increíbles. Nunca había visto nada parecido." }
+    ],
+    "questions": [
+      { "q": "¿A qué hora era la visita?", "options": ["A las diez", "A las diez y media", "A las once"], "answer": "A las diez" },
+      { "q": "¿Qué hizo la guía?", "options": ["La había esperado", "Se había ido", "Había cancelado la visita"], "answer": "La había esperado" },
+      { "q": "¿Qué le parecieron los mosaicos?", "options": ["Increíbles", "Normales", "Feos"], "answer": "Increíbles" }
+    ]
+  },
+  "realLife": { "t": "Non avevo mai visto niente di simile!", "es": "¡Nunca había visto nada parecido!", "context": "Para expresar asombro ante un monumento o un paisaje" },
+  "falseFriend": {
+    "word": "il racconto",
+    "means": "el relato, el cuento",
+    "looksLike": "el recuento",
+    "emoji": "📝",
+    "tip": "Un racconto es un relato o un cuento: i racconti di Calvino. Un recuento de votos o de dinero se dice conteggio."
+  },
+  "same": {
+    "text": "Muchas palabras de arte e historia son casi iguales.",
+    "examples": [
+      { "t": "il mosaico", "es": "el mosaico" },
+      { "t": "la basilica", "es": "la basílica" },
+      { "t": "la tomba", "es": "la tumba" }
+    ]
+  },
+  "summary": [
+    "Una historia completa: all'inizio, poi, all'improvviso, alla fine.",
+    "Lo que pasó: passato prossimo (sono arrivata).",
+    "Lo que había pasado antes: trapassato (la visita era già cominciata).",
+    "Rávena: la tumba de Dante y los mosaicos bizantinos de San Vitale."
+  ],
+  "reviewed": false
+}

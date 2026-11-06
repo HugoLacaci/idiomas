@@ -1,0 +1,126 @@
+{
+  "id": "en-g-prep-place",
+  "lang": "en",
+  "level": "A1",
+  "title": "Preposiciones de lugar: in, on, under, next to…",
+  "short": "Dónde está algo: in (dentro), on (encima), under (debajo), next to (al lado), between (entre)…",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "📍",
+      "title": "¿Dónde está?",
+      "text": "En español usamos mucho «en»: en la mesa, en el cajón, en la pared. En inglés hay que elegir: ==in== (dentro) u ==on== (encima, sobre una superficie).",
+      "examples": [
+        { "t": "The keys are in the drawer.", "es": "Las llaves están en el cajón.", "hl": "in" },
+        { "t": "The keys are on the table.", "es": "Las llaves están en la mesa.", "hl": "on" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "📋",
+      "title": "Las preposiciones de lugar",
+      "text": "Apréndelas con una imagen en la cabeza: una caja y un gato. 📦🐈",
+      "table": {
+        "head": ["Inglés", "Español", "Ejemplo"],
+        "rows": [
+          ["==in==", "dentro de, en", "in the box"],
+          ["==on==", "encima de, en", "on the table"],
+          ["==under==", "debajo de", "under the bed"],
+          ["==next to==", "al lado de", "next to the window"],
+          ["==between==", "entre", "between the sofa and the door"],
+          ["==behind==", "detrás de", "behind the door"],
+          ["==in front of==", "delante de", "in front of the TV"],
+          ["==opposite==", "enfrente de", "opposite the bank"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "emoji": "🖼️",
+      "title": "On también es «colgado en»",
+      "text": "Lo que está pegado a una superficie también va con ==on==: un cuadro en la pared, un imán en la nevera. Y las plantas: ==on the ground floor==.",
+      "examples": [
+        { "t": "There's a photo of Hugo on the wall.", "es": "Hay una foto de Hugo en la pared.", "hl": "on" },
+        { "t": "We live on the second floor.", "es": "Vivimos en el segundo piso.", "hl": "on" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "emoji": "🇪🇸",
+      "title": "¡Trampa! «Enfrente» no es in front of",
+      "text": "==In front of== = **delante de** (justo delante). ==Opposite== = **enfrente de** (al otro lado, cara a cara). La farmacia que está enfrente de tu casa está ==opposite== your house.",
+      "examples": [
+        { "t": "The car is in front of the house.", "es": "El coche está delante de la casa.", "hl": "in front of" },
+        { "t": "The bakery is opposite my flat.", "es": "La panadería está enfrente de mi piso.", "hl": "opposite" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo con estos errores!",
+      "text": "❌ in the table → ✅ ==on== the table. ❌ next of the door → ✅ next ==to== the door. ❌ in home → ✅ ==at== home. ❌ in front of (al otro lado de la calle) → ✅ ==opposite==."
+    },
+    {
+      "kind": "rule",
+      "emoji": "🏢",
+      "title": "Ground floor y first floor",
+      "text": "En el Reino Unido la planta baja es el ==ground floor== y el ==first floor== es nuestro primer piso. En EE. UU. el first floor es la planta baja."
+    },
+    {
+      "kind": "tip",
+      "emoji": "💡",
+      "title": "Truco para no fallar",
+      "text": "Pregúntate: ¿está **dentro** (una caja, un cajón, una habitación, la ciudad)? → ==in==. ¿Está **encima o pegado** (mesa, pared, suelo, estantería)? → ==on==."
+    }
+  ],
+  "compare": {
+    "es": "En español «en» sirve para casi todo: en la mesa, en el cajón, en la pared, en casa. «Enfrente de» significa al otro lado, cara a cara.",
+    "target": "En inglés distinguimos in (dentro: in the drawer) y on (encima o pegado: on the table, on the wall). At home es expresión fija. Enfrente de = opposite; in front of = delante de."
+  },
+  "errors": [
+    { "wrong": "My glasses are in the table.", "right": "My glasses are on the table.", "why": "Encima de una superficie se usa on." },
+    { "wrong": "The lamp is next of the sofa.", "right": "The lamp is next to the sofa.", "why": "Al lado de = next to, siempre con to." },
+    { "wrong": "I'm in home.", "right": "I'm at home.", "why": "En casa = at home, expresión fija." },
+    { "wrong": "The chemist's is in front of my house. (al otro lado de la calle)", "right": "The chemist's is opposite my house.", "why": "Enfrente (al otro lado) = opposite. In front of es «delante de»." },
+    { "wrong": "The picture is in the wall.", "right": "The picture is on the wall.", "why": "Lo que cuelga de la pared va con on." },
+    { "wrong": "The cat is between the sofa.", "right": "The cat is between the sofa and the chair.", "why": "Between necesita dos cosas: between A and B." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "The milk is ___ the fridge.", "es": "La leche está en la nevera.", "options": ["in", "on", "under"], "answer": "in", "why": "Dentro de la nevera: in.", "g": "en-g-prep-place" },
+    { "id": "e2", "type": "choose", "q": "Your keys are ___ the table.", "es": "Tus llaves están en la mesa.", "options": ["in", "on"], "answer": "on", "why": "Encima de la mesa: on.", "g": "en-g-prep-place" },
+    { "id": "e3", "type": "choose", "q": "The cat is ___ the bed. I can't see it!", "es": "El gato está debajo de la cama. ¡No lo veo!", "options": ["on", "under", "next to"], "answer": "under", "why": "Debajo de = under.", "g": "en-g-prep-place" },
+    { "id": "e4", "type": "choose", "q": "There's a clock ___ the wall.", "es": "Hay un reloj en la pared.", "options": ["in", "on", "at"], "answer": "on", "why": "Lo que cuelga de la pared: on the wall.", "g": "en-g-prep-place" },
+    { "id": "e5", "type": "choose", "q": "The bakery is ___ my flat, across the street.", "es": "La panadería está enfrente de mi piso, al otro lado de la calle.", "options": ["in front of", "opposite", "behind"], "answer": "opposite", "why": "Enfrente (al otro lado) = opposite.", "g": "en-g-prep-place" },
+    { "id": "e6", "type": "choose", "q": "Hugo's car is ___ the house, by the door.", "es": "El coche de Hugo está delante de la casa, junto a la puerta.", "options": ["in front of", "opposite", "under"], "answer": "in front of", "why": "Justo delante = in front of.", "g": "en-g-prep-place" },
+    { "id": "e7", "type": "fill", "q": "The lamp is next ___ the sofa.", "es": "La lámpara está al lado del sofá.", "answer": ["to"], "bank": ["to", "of", "at"], "why": "Al lado de = next to.", "g": "en-g-prep-place" },
+    { "id": "e8", "type": "fill", "q": "The table is ___ the sofa and the TV.", "es": "La mesa está entre el sofá y la tele.", "answer": ["between"], "bank": ["between", "next", "in"], "why": "Entre dos cosas = between A and B.", "g": "en-g-prep-place" },
+    { "id": "e9", "type": "fill", "q": "My shoes are ___ the door.", "es": "Mis zapatos están detrás de la puerta.", "answer": ["behind"], "bank": ["behind", "in", "on"], "why": "Detrás de = behind.", "g": "en-g-prep-place" },
+    { "id": "e10", "type": "fill", "q": "The towels are ___ the cupboard.", "es": "Las toallas están en el armario.", "answer": ["in"], "why": "Dentro del armario: in.", "g": "en-g-prep-place" },
+    { "id": "e11", "type": "fill", "q": "I'm ___ home today. Come for coffee!", "es": "Hoy estoy en casa. ¡Ven a tomar café!", "answer": ["at"], "why": "En casa = at home.", "g": "en-g-prep-place" },
+    { "id": "e12", "type": "fill", "q": "The books are ___ the shelf.", "es": "Los libros están en la estantería.", "answer": ["on"], "why": "Encima de la balda: on the shelf.", "g": "en-g-prep-place" },
+    { "id": "e13", "type": "match", "pairs": [["under", "debajo de"], ["behind", "detrás de"], ["next to", "al lado de"], ["opposite", "enfrente de"], ["between", "entre"]], "why": "Apréndelas por parejas con su imagen.", "g": "en-g-prep-place" },
+    { "id": "e14", "type": "error", "q": "My phone is in the table.", "wrong": "in", "fix": "on", "why": "Encima de la mesa: on the table.", "g": "en-g-prep-place" },
+    { "id": "e15", "type": "error", "q": "The bathroom is next of the bedroom.", "wrong": "of", "fix": "to", "why": "Al lado de = next to.", "g": "en-g-prep-place" },
+    { "id": "e16", "type": "error", "q": "There's a mirror in the wall.", "wrong": "in", "fix": "on", "why": "Lo que cuelga de la pared: on the wall.", "g": "en-g-prep-place" },
+    { "id": "e17", "type": "error", "q": "Hugo is in home now.", "wrong": "in", "fix": "at", "why": "En casa = at home.", "g": "en-g-prep-place" },
+    { "id": "e18", "type": "error", "q": "The plates are on the cupboard.", "wrong": "on", "fix": "in", "why": "Dentro del armario: in the cupboard.", "g": "en-g-prep-place" },
+    { "id": "e19", "type": "order", "es": "El mando está debajo del sofá", "answer": "The remote is under the sofa", "extra": ["in"], "why": "Debajo de = under.", "g": "en-g-prep-place" },
+    { "id": "e20", "type": "order", "es": "La farmacia está enfrente del banco", "answer": "The chemist's is opposite the bank", "extra": ["front"], "why": "Enfrente de = opposite, sin of.", "g": "en-g-prep-place" },
+    { "id": "e21", "type": "order", "es": "Hay una foto de mis nietos en la pared", "answer": "There's a photo of my grandchildren on the wall", "extra": ["in"], "why": "En la pared = on the wall.", "g": "en-g-prep-place" },
+    { "id": "e22", "type": "transform", "instr": "Cambia «la mesa» por «el cajón» (the drawer)", "q": "The keys are on the table.", "answer": ["The keys are in the drawer."], "why": "La mesa es superficie (on); el cajón es un interior (in).", "g": "en-g-prep-place" },
+    { "id": "e23", "type": "transform", "instr": "Di lo contrario (encima → debajo)", "q": "The bag is on the chair.", "answer": ["The bag is under the chair."], "why": "Lo contrario de on es under.", "g": "en-g-prep-place" },
+    { "id": "e24", "type": "transform", "instr": "Di lo contrario (delante → detrás)", "q": "The garden is in front of the house.", "answer": ["The garden is behind the house."], "why": "Lo contrario de in front of es behind.", "g": "en-g-prep-place" },
+    { "id": "e25", "type": "translate", "dir": "to", "q": "Mis gafas están en la mesa.", "answer": ["My glasses are on the table."], "why": "Encima de la mesa: on.", "g": "en-g-prep-place" },
+    { "id": "e26", "type": "translate", "dir": "to", "q": "El baño está al lado de la cocina.", "answer": ["The bathroom is next to the kitchen.", "The bathroom's next to the kitchen."], "why": "Al lado de = next to.", "g": "en-g-prep-place" },
+    { "id": "e27", "type": "translate", "dir": "from", "q": "The supermarket is opposite the church.", "answer": ["El supermercado está enfrente de la iglesia.", "El supermercado está enfrente de la iglesia"], "why": "Opposite = enfrente de.", "g": "en-g-prep-place" },
+    { "id": "e28", "type": "situation", "context": "Tu marido no encuentra el mando de la tele. Tú lo ves debajo del cojín.", "emoji": "📺", "options": ["It's under the cushion!", "It's on the cushion!", "It's in front the cushion!"], "answer": "It's under the cushion!", "why": "Debajo de = under.", "g": "en-g-prep-place" },
+    { "id": "e29", "type": "situation", "context": "Un turista te pregunta por la farmacia. Está justo al otro lado de la calle, frente a la iglesia.", "emoji": "💊", "options": ["It's opposite the church.", "It's in front of the church.", "It's next of the church."], "answer": "It's opposite the church.", "why": "Al otro lado, cara a cara = opposite.", "g": "en-g-prep-place" },
+    { "id": "e30", "type": "situation", "context": "Explicas a tu nieto dónde está su chaqueta: dentro del armario.", "emoji": "🧥", "options": ["It's in the wardrobe.", "It's on the wardrobe.", "It's at the wardrobe."], "answer": "It's in the wardrobe.", "why": "Dentro del armario: in.", "g": "en-g-prep-place" },
+    { "id": "e31", "type": "reading", "kind": "message", "title": "Mensaje de Hugo", "text": "Hi Mum! The spare key is under the plant pot, next to the door. The towels are in the bathroom, on the shelf. Enjoy the flat! H x", "questions": [
+        { "q": "¿Dónde está la llave de repuesto?", "options": ["Debajo de la maceta", "Encima de la puerta", "En el buzón"], "answer": "Debajo de la maceta" },
+        { "q": "¿Dónde están las toallas?", "options": ["En el baño, en la estantería", "En el dormitorio", "Debajo de la cama"], "answer": "En el baño, en la estantería" }
+      ], "g": "en-g-prep-place" },
+    { "id": "e32", "type": "choose", "q": "We live ___ the third floor.", "es": "Vivimos en el tercer piso.", "options": ["in", "on", "at"], "answer": "on", "why": "Con los pisos de un edificio se usa on: on the third floor.", "g": "en-g-prep-place" }
+  ],
+  "reviewed": false
+}

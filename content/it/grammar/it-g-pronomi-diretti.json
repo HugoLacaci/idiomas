@@ -1,0 +1,141 @@
+{
+  "id": "it-g-pronomi-diretti",
+  "lang": "it",
+  "level": "A2",
+  "title": "Pronombres de objeto directo (lo, la, li, le)",
+  "short": "La gonna? La prendo! Lo, la, li, le para no repetir, y l'ho presa en pasado.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "No repitas la falda",
+      "emoji": "👗",
+      "text": "En la tienda no dices «la falda, compro la falda». Dices ==la compro==. En italiano, igual: ==la prendo==.",
+      "examples": [
+        { "t": "La gonna blu? ==La== prendo!", "es": "¿La falda azul? ¡Me la quedo!", "hl": "La" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Los cuatro de la ropa",
+      "emoji": "🧺",
+      "text": "Mira el género y el número de la cosa. ¡Ojo con ==li==, que es masculino plural!",
+      "table": {
+        "head": ["Cosa", "Pronombre", "Ejemplo"],
+        "rows": [
+          ["il maglione", "==lo==", "==lo== prendo"],
+          ["la gonna", "==la==", "==la== prendo"],
+          ["i jeans", "==li==", "==li== prendo"],
+          ["le scarpe", "==le==", "==le== prendo"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Y para personas",
+      "emoji": "👥",
+      "text": "==mi== (me), ==ti== (te), ==lo/la== (lo, la), ==La== (a usted), ==ci== (nos), ==vi== (os), ==li/le== (los, las).",
+      "examples": [
+        { "t": "Hugo? ==Lo== chiamo stasera.", "es": "¿Hugo? Lo llamo esta noche.", "hl": "Lo" },
+        { "t": "==Ti== aspetto al bar.", "es": "Te espero en el bar.", "hl": "Ti" },
+        { "t": "==La== ringrazio, signora.", "es": "Se lo agradezco, señora.", "hl": "La" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "¿Dónde va?",
+      "emoji": "📍",
+      "text": "Delante del verbo: ==non la compro==. Con infinitivo, pegado detrás: ==provarla==. Con posso, voglio, devo, en los dos sitios.",
+      "examples": [
+        { "t": "Posso ==provarlo==? / ==Lo== posso provare?", "es": "¿Puedo probármelo?", "hl": "provarlo" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "En pasado: l'ho presa",
+      "emoji": "🧾",
+      "text": "Lo y la se apostrofan: ==l'ho==. Y el participio ==concuerda== con la cosa, aunque vaya con avere.",
+      "table": {
+        "head": ["Cosa", "Passato prossimo"],
+        "rows": [
+          ["il maglione", "==l'ho== compr==ato=="],
+          ["la gonna", "==l'ho== pres==a=="],
+          ["i jeans", "==li ho== compr==ati=="],
+          ["le scarpe", "==le ho== pres==e=="]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "En España decimos «a Hugo ==le== llamo». En italiano, para un hombre siempre ==lo==: lo chiamo. Y nada de repetir: ❌ *lo chiamo a Hugo*.",
+      "examples": [
+        { "t": "Chiamo Hugo. → Lo chiamo.", "es": "Llamo a Hugo. → Lo/le llamo." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Le scarpe? Li prendo* → ✅ ==le== prendo. ❌ *La borsa? L'ho comprato* → ✅ l'ho ==comprata==. ❌ *Lo ho visto* → ✅ ==l'ho== visto."
+    },
+    {
+      "kind": "tip",
+      "title": "Truco de tienda",
+      "emoji": "💡",
+      "text": "Aprende estas tres de memoria y úsalas siempre: ==Lo prendo!== ==Posso provarlo?== ==Ce l'ha più grande?==",
+      "examples": [
+        { "t": "Mi piace. La prendo!", "es": "Me gusta. ¡Me la quedo!" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: «La falda, la compro». «¿Los zapatos? Los he comprado». En España también decimos «le llamo» para un hombre.",
+    "target": "En italiano: «La gonna, la compro». «Le scarpe? Le ho comprate» (scarpe es femenino y el participio concuerda). Para un hombre, siempre lo: lo chiamo."
+  },
+  "errors": [
+    { "wrong": "Le scarpe? Li prendo.", "right": "Le scarpe? Le prendo.", "why": "Scarpe es femenino en italiano: le." },
+    { "wrong": "La giacca? L'ho comprato.", "right": "La giacca? L'ho comprata.", "why": "Con lo/la/li/le delante, el participio concuerda con la cosa: comprata." },
+    { "wrong": "Lo ho visto in vetrina.", "right": "L'ho visto in vetrina.", "why": "Lo y la delante de ho se apostrofan: l'ho." },
+    { "wrong": "Hugo? Gli chiamo stasera.", "right": "Hugo? Lo chiamo stasera.", "why": "Chiamare lleva objeto directo: lo chiamo (en España decimos «le llamo», pero aquí no vale)." },
+    { "wrong": "Posso la provare?", "right": "Posso provarla? / La posso provare?", "why": "El pronombre va pegado al infinitivo o delante de posso, nunca en medio." },
+    { "wrong": "Li ho comprato ieri.", "right": "Li ho comprati ieri.", "why": "Li es masculino plural: el participio termina en -i." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Il maglione? ___ prendo.", "es": "¿El jersey? Me lo quedo.", "options": ["Lo", "La", "Le"], "answer": "Lo", "why": "Il maglione → lo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e2", "type": "choose", "q": "La sciarpa? ___ regalo a un'amica.", "es": "¿La bufanda? Se la regalo a una amiga.", "options": ["La", "Lo", "Li"], "answer": "La", "why": "La sciarpa → la.", "g": "it-g-pronomi-diretti" },
+    { "id": "e3", "type": "choose", "q": "I pantaloni? ___ provo subito.", "es": "¿Los pantalones? Me los pruebo enseguida.", "options": ["Li", "Le", "Lo"], "answer": "Li", "why": "I pantaloni, masculino plural → li.", "g": "it-g-pronomi-diretti" },
+    { "id": "e4", "type": "choose", "q": "Le borse? ___ guardo in vetrina.", "es": "¿Los bolsos? Los miro en el escaparate.", "options": ["Le", "Li", "La"], "answer": "Le", "why": "Le borse, femenino plural → le.", "g": "it-g-pronomi-diretti" },
+    { "id": "e5", "type": "choose", "q": "Mia amica? ___ vedo domani.", "es": "¿Mi amiga? La veo mañana.", "options": ["La", "Le", "Gli"], "answer": "La", "why": "Una mujer como objeto directo → la.", "g": "it-g-pronomi-diretti" },
+    { "id": "e6", "type": "choose", "q": "Signora, ___ aspetto alla cassa.", "es": "Señora, la espero en la caja.", "options": ["La", "Lo", "Ti"], "answer": "La", "why": "Para usted (Lei) se usa La, con mayúscula en lo escrito formal.", "g": "it-g-pronomi-diretti" },
+    { "id": "e7", "type": "choose", "q": "La gonna? L'ho ___ ieri.", "es": "¿La falda? La compré ayer.", "options": ["comprata", "comprato", "comprate"], "answer": "comprata", "why": "L' = la → participio femenino: comprata.", "g": "it-g-pronomi-diretti" },
+    { "id": "e8", "type": "choose", "q": "I calzini? Li ho ___ al mercato.", "es": "¿Los calcetines? Los compré en el mercado.", "options": ["presi", "preso", "prese"], "answer": "presi", "why": "Li → participio en -i: presi.", "g": "it-g-pronomi-diretti" },
+    { "id": "e9", "type": "fill", "q": "Il vestito? ___ provo nel camerino.", "es": "¿El vestido? Me lo pruebo en el probador.", "answer": ["Lo"], "bank": ["Lo", "La", "Li"], "why": "Il vestito → lo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e10", "type": "fill", "q": "Le magliette? Non ___ compro.", "es": "¿Las camisetas? No las compro.", "answer": ["le"], "bank": ["le", "li", "la"], "why": "Le magliette → le, después de non.", "g": "it-g-pronomi-diretti" },
+    { "id": "e11", "type": "fill", "q": "Mio marito? ___ chiamo dopo.", "es": "¿Mi marido? Lo llamo luego.", "answer": ["Lo"], "bank": ["Lo", "Gli", "Le"], "why": "Chiamare + persona masculina → lo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e12", "type": "fill", "q": "Posso provar___? È la mia taglia.", "es": "¿Puedo probármela? Es mi talla.", "answer": ["la"], "hint": "la giacca", "why": "Con infinitivo, el pronombre va pegado: provarla.", "g": "it-g-pronomi-diretti" },
+    { "id": "e13", "type": "fill", "q": "La borsa? L'ho ___ in centro.", "es": "¿El bolso? Lo he visto en el centro.", "answer": ["vista"], "hint": "vedere", "why": "Vedere → visto; con la borsa, vista.", "g": "it-g-pronomi-diretti" },
+    { "id": "e14", "type": "fill", "q": "Le scarpe? Le ho ___ ai saldi.", "es": "¿Los zapatos? Los he cogido en las rebajas.", "answer": ["prese"], "hint": "prendere", "why": "Prendere → preso; le scarpe → prese.", "g": "it-g-pronomi-diretti" },
+    { "id": "e15", "type": "fill", "q": "I regali? ___ ho già comprati.", "es": "¿Los regalos? Ya los he comprado.", "answer": ["Li"], "why": "I regali → li; no se apostrofa: li ho.", "g": "it-g-pronomi-diretti" },
+    { "id": "e16", "type": "error", "q": "Le scarpe? Li prendo.", "wrong": "Li", "fix": "Le", "why": "Scarpe es femenino: le.", "g": "it-g-pronomi-diretti" },
+    { "id": "e17", "type": "error", "q": "Il cappotto? La prendo.", "wrong": "La", "fix": "Lo", "why": "Il cappotto es masculino: lo prendo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e18", "type": "error", "q": "La camicetta? L'ho provato.", "wrong": "provato", "fix": "provata", "why": "L' es la camicetta: provata.", "g": "it-g-pronomi-diretti" },
+    { "id": "e19", "type": "error", "q": "Hugo? Gli chiamo stasera.", "wrong": "Gli", "fix": "Lo", "why": "Chiamare lleva objeto directo: lo chiamo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e20", "type": "error", "q": "Le magliette? Le ho comprati.", "wrong": "comprati", "fix": "comprate", "why": "Le magliette, femenino plural: comprate.", "g": "it-g-pronomi-diretti" },
+    { "id": "e21", "type": "transform", "instr": "Cambia «la gonna» por un pronombre", "q": "Prendo la gonna.", "answer": ["La prendo."], "why": "La gonna → la, delante del verbo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e22", "type": "transform", "instr": "Cambia «i jeans» por un pronombre", "q": "Non compro i jeans.", "answer": ["Non li compro."], "why": "Non + li + verbo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e23", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Le scarpe? Le compro.", "answer": ["Le scarpe? Le ho comprate."], "why": "Le ho comprate: concuerda con le scarpe.", "g": "it-g-pronomi-diretti" },
+    { "id": "e24", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Il cappotto? Lo prendo.", "answer": ["Il cappotto? L'ho preso."], "why": "Lo + ho → l'ho; il cappotto → preso.", "g": "it-g-pronomi-diretti" },
+    { "id": "e25", "type": "transform", "instr": "Pega el pronombre al infinitivo", "q": "Lo voglio cambiare.", "answer": ["Voglio cambiarlo."], "why": "Cambiare pierde la -e: cambiarlo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e26", "type": "order", "es": "¿La chaqueta? No me la pruebo.", "answer": "La giacca Non la provo", "alt": ["La giacca non la provo"], "extra": ["lo"], "why": "Non + pronombre + verbo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e27", "type": "order", "es": "Los he comprado para mis amigas.", "answer": "Li ho comprati per le mie amiche", "extra": ["comprato"], "why": "Li ho comprati: el participio en -i.", "g": "it-g-pronomi-diretti" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "¿El bolso? Me lo quedo.", "answer": ["La borsa? La prendo."], "why": "Borsa es femenino en italiano: la prendo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "¿La blusa? La he comprado hoy.", "answer": ["La camicetta? L'ho comprata oggi.", "La camicetta? Oggi l'ho comprata."], "why": "L'ho comprata: apóstrofo y participio femenino.", "g": "it-g-pronomi-diretti" },
+    { "id": "e30", "type": "translate", "dir": "from", "q": "I pantaloni? Li ho presi ai saldi.", "answer": ["¿Los pantalones? Los he cogido en las rebajas.", "¿Los pantalones? Los compré en las rebajas.", "¿Los pantalones? Los he comprado en las rebajas.", "¿Los pantalones? Los cogí en las rebajas."], "why": "Li ho presi = los he cogido / comprado.", "g": "it-g-pronomi-diretti" },
+    { "id": "e31", "type": "conjugate", "verb": "prendere (con la)", "person": "io", "tense": "passato prossimo", "q": "La sciarpa? ___ ieri.", "answer": ["L'ho presa"], "table": [["il maglione", "l'ho preso"], ["la sciarpa", "l'ho presa"], ["i jeans", "li ho presi"], ["le scarpe", "le ho prese"]], "why": "La sciarpa → l'ho presa.", "g": "it-g-pronomi-diretti" },
+    { "id": "e32", "type": "situation", "context": "Tu amiga te pregunta por el vestido que viste ayer. Lo compraste.", "emoji": "👗", "options": ["Sì, l'ho comprato!", "Sì, l'ho comprata!", "Sì, lo ho comprato!"], "answer": "Sì, l'ho comprato!", "why": "Il vestito → l'ho comprato.", "g": "it-g-pronomi-diretti" },
+    { "id": "e33", "type": "situation", "context": "Tu marido te pregunta por teléfono si has visto a Hugo. Lo viste esta mañana.", "emoji": "📱", "options": ["Sì, l'ho visto stamattina.", "Sì, gli ho visto stamattina.", "Sì, le ho visto stamattina."], "answer": "Sì, l'ho visto stamattina.", "why": "Vedere lleva objeto directo: l'ho visto.", "g": "it-g-pronomi-diretti" },
+    { "id": "e34", "type": "match", "pairs": [["il cappotto", "l'ho preso"], ["la giacca", "l'ho presa"], ["i calzini", "li ho presi"], ["le borse", "le ho prese"]], "why": "Pronombre y participio concuerdan con la cosa.", "g": "it-g-pronomi-diretti" }
+  ],
+  "reviewed": false
+}

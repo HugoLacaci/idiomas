@@ -1,0 +1,122 @@
+{
+  "id": "it-g-connettivi",
+  "lang": "it",
+  "level": "B1",
+  "title": "Los conectores: però, invece, quindi, mentre, infatti",
+  "short": "Las palabras que enlazan tus frases: para contrastar, dar consecuencias, confirmar y contar dos cosas a la vez.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "El pegamento de las frases",
+      "emoji": "🧩",
+      "text": "Con los conectores tus frases dejan de ir sueltas y cuentas como una nativa: ==Sono stanca, quindi resto a casa.==",
+      "examples": [
+        { "t": "Roma è caotica, ==però== la adoro.", "es": "Roma es caótica, pero me encanta.", "hl": "però" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Los cinco de la unidad",
+      "emoji": "📋",
+      "text": "Cada conector tiene su función. Apréndelos con un ejemplo.",
+      "table": {
+        "head": ["Conector", "Para…", "Ejemplo"],
+        "rows": [
+          ["==però== / ma", "contrastar", "È caro, ==però== è buono."],
+          ["==invece==", "comparar dos cosas", "Io bevo tè, lui ==invece== caffè."],
+          ["==quindi==", "dar la consecuencia", "Piove, ==quindi== resto qui."],
+          ["==mentre==", "dos cosas a la vez", "==Mentre== cucino, ascolto la radio."],
+          ["==infatti==", "confirmar lo dicho", "Era stanca: ==infatti== dormiva."]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Però, invece y anche se",
+      "emoji": "↔️",
+      "text": "==Però== = pero. ==Invece== = en cambio; ==invece di== + infinitivo = en vez de. ==Anche se== = aunque, ¡y va con indicativo!",
+      "examples": [
+        { "t": "==Invece di== guidare, prendo il treno.", "es": "En vez de conducir, cojo el tren." },
+        { "t": "Esco ==anche se== piove.", "es": "Salgo aunque llueva." }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Quindi, infatti, mentre",
+      "emoji": "➡️",
+      "text": "==Quindi== = así que, por lo tanto. ==Infatti== = en efecto: confirma, nunca contradice. ==Mentre== = mientras, también para contrastes.",
+      "examples": [
+        { "t": "Io lavoro, ==mentre== lui dorme!", "es": "¡Yo trabajo, mientras él duerme!" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Como en español… casi",
+      "emoji": "🇪🇸",
+      "text": "Però y mentre son como pero y mientras. Pero «aunque llueva» → ==anche se piove== (indicativo), y «de hecho» para corregir no es infatti: usa ==anzi==."
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Piove, però prendo l'ombrello* → ✅ ==quindi==. ❌ *Lui ama il mare, io infatti la montagna* → ✅ ==invece==. ❌ *anche se piova* → ✅ anche se ==piove==."
+    },
+    {
+      "kind": "tip",
+      "title": "Hazte una pregunta",
+      "emoji": "💡",
+      "text": "¿Choca? → ==però==. ¿Es distinto en otra persona? → ==invece==. ¿Es el resultado? → ==quindi==. ¿Lo confirma? → ==infatti==. ¿A la vez? → ==mentre==."
+    }
+  ],
+  "compare": {
+    "es": "En español: pero, en cambio, así que, mientras, de hecho / en efecto, aunque + subjuntivo (aunque llueva).",
+    "target": "En italiano: però (o ma), invece, quindi, mentre, infatti (solo para confirmar), anche se + indicativo (anche se piove). Para corregir lo dicho («no es caro; de hecho, es barato») se usa anzi."
+  },
+  "errors": [
+    { "wrong": "Piove, però prendo l'ombrello.", "right": "Piove, quindi prendo l'ombrello.", "why": "Coger el paraguas es la consecuencia: quindi." },
+    { "wrong": "Mio marito ama il mare, io infatti la montagna.", "right": "Mio marito ama il mare, io invece la montagna.", "why": "Comparas dos personas distintas: invece. Infatti solo confirma." },
+    { "wrong": "Esco anche se piova.", "right": "Esco anche se piove.", "why": "Anche se va con indicativo, no con subjuntivo como «aunque llueva»." },
+    { "wrong": "Invece prendere il taxi, andiamo a piedi.", "right": "Invece di prendere il taxi, andiamo a piedi.", "why": "En vez de + infinitivo = invece di + infinitivo." },
+    { "wrong": "Non è caro, infatti è economico.", "right": "Non è caro, anzi è economico.", "why": "Para corregir y decir algo más fuerte se usa anzi, no infatti." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "La pizza è buona, ___ è un po' cara.", "es": "La pizza está buena, pero es un poco cara.", "options": ["però", "quindi", "mentre"], "answer": "però", "why": "Contraste: buena / cara → però.", "g": "it-g-connettivi" },
+    { "id": "e2", "type": "choose", "q": "Fa freddo, ___ mi metto il cappotto.", "es": "Hace frío, así que me pongo el abrigo.", "options": ["quindi", "però", "invece"], "answer": "quindi", "why": "Consecuencia: hace frío → me pongo el abrigo. Quindi.", "g": "it-g-connettivi" },
+    { "id": "e3", "type": "choose", "q": "___ aspettavo, ho letto il giornale.", "es": "Mientras esperaba, leí el periódico.", "options": ["Mentre", "Quindi", "Infatti"], "answer": "Mentre", "why": "Dos cosas a la vez: mentre.", "g": "it-g-connettivi" },
+    { "id": "e4", "type": "choose", "q": "Io adoro il pesce; mio figlio, ___, preferisce la carne.", "es": "A mí me encanta el pescado; mi hijo, en cambio, prefiere la carne.", "options": ["invece", "infatti", "quindi"], "answer": "invece", "why": "Dos personas con gustos distintos: invece.", "g": "it-g-connettivi" },
+    { "id": "e5", "type": "choose", "q": "Mi avevano detto che Trieste è ventosa e ___ c'era la Bora.", "es": "Me habían dicho que Trieste tiene mucho viento y, en efecto, soplaba la Bora.", "options": ["infatti", "invece", "però"], "answer": "infatti", "why": "Lo segundo confirma lo primero: infatti.", "g": "it-g-connettivi" },
+    { "id": "e6", "type": "choose", "q": "Vado a fare una passeggiata ___ piove.", "es": "Voy a dar un paseo aunque llueva.", "options": ["anche se", "quindi", "infatti"], "answer": "anche se", "why": "Aunque = anche se (con indicativo).", "g": "it-g-connettivi" },
+    { "id": "e7", "type": "choose", "q": "___ di guardare la TV, leggiamo un libro.", "es": "En vez de ver la tele, leamos un libro.", "options": ["Invece", "Però", "Mentre"], "answer": "Invece", "why": "Invece di + infinitivo = en vez de.", "g": "it-g-connettivi" },
+    { "id": "e8", "type": "choose", "q": "Il museo era chiuso, ___ siamo andati al parco.", "es": "El museo estaba cerrado, así que fuimos al parque.", "options": ["quindi", "infatti", "mentre"], "answer": "quindi", "why": "Lo que hicimos es consecuencia: quindi.", "g": "it-g-connettivi" },
+    { "id": "e9", "type": "fill", "q": "Studio italiano da due anni, ___ parlo ancora piano.", "es": "Estudio italiano desde hace dos años, pero aún hablo despacio.", "answer": ["però", "ma"], "bank": ["però", "quindi", "infatti"], "why": "Contraste: però (o ma).", "g": "it-g-connettivi" },
+    { "id": "e10", "type": "fill", "q": "Il treno è in ritardo, ___ arriveremo tardi.", "es": "El tren va con retraso, así que llegaremos tarde.", "answer": ["quindi"], "bank": ["quindi", "mentre", "invece"], "why": "Consecuencia: quindi.", "g": "it-g-connettivi" },
+    { "id": "e11", "type": "fill", "q": "Io sono andata al mercato, mio marito ___ è rimasto a casa.", "es": "Yo fui al mercado; mi marido, en cambio, se quedó en casa.", "answer": ["invece"], "bank": ["invece", "infatti", "quindi"], "why": "Comparas lo que hizo cada uno: invece.", "g": "it-g-connettivi" },
+    { "id": "e12", "type": "fill", "q": "___ facevo la spesa, mi ha chiamato un'amica.", "es": "Mientras hacía la compra, me llamó una amiga.", "answer": ["Mentre"], "hint": "mientras", "why": "Acción de fondo + otra que pasa: mentre + imperfecto.", "g": "it-g-connettivi" },
+    { "id": "e13", "type": "fill", "q": "Paola è molto brava in cucina: ___ fa una carbonara perfetta.", "es": "Paola cocina muy bien: de hecho, hace una carbonara perfecta.", "answer": ["infatti"], "hint": "de hecho, en efecto", "why": "Confirmas lo dicho con un ejemplo: infatti.", "g": "it-g-connettivi" },
+    { "id": "e14", "type": "fill", "q": "Prendo un caffè ___ è tardi.", "es": "Me tomo un café aunque es tarde.", "answer": ["anche se"], "hint": "aunque", "why": "Aunque = anche se.", "g": "it-g-connettivi" },
+    { "id": "e15", "type": "error", "q": "Ho fame, però mangio un panino.", "wrong": "però", "fix": "quindi", "why": "Comer es la consecuencia del hambre: quindi.", "g": "it-g-connettivi" },
+    { "id": "e16", "type": "error", "q": "Lei ama Venezia, io infatti preferisco Firenze.", "wrong": "infatti", "fix": "invece", "why": "Dos personas, dos gustos: invece.", "g": "it-g-connettivi" },
+    { "id": "e17", "type": "error", "q": "Esco anche se piova.", "wrong": "piova", "fix": "piove", "why": "Anche se va con indicativo: anche se piove.", "g": "it-g-connettivi" },
+    { "id": "e18", "type": "error", "q": "Quindi cucinavo, ascoltavo la musica.", "wrong": "Quindi", "fix": "Mentre", "why": "Dos cosas al mismo tiempo: mentre.", "g": "it-g-connettivi" },
+    { "id": "e19", "type": "error", "q": "Non è caro, infatti è molto economico.", "wrong": "infatti", "fix": "anzi", "why": "Para corregir y decir algo más fuerte: anzi.", "g": "it-g-connettivi" },
+    { "id": "e20", "type": "order", "es": "Estoy cansada, así que me quedo en casa.", "answer": "Sono stanca quindi resto a casa", "extra": ["però"], "why": "Quindi introduce la consecuencia.", "g": "it-g-connettivi" },
+    { "id": "e21", "type": "order", "es": "En vez de coger el autobús, vamos andando.", "answer": "Invece di prendere l'autobus andiamo a piedi", "extra": ["mentre"], "why": "Invece di + infinitivo.", "g": "it-g-connettivi" },
+    { "id": "e22", "type": "order", "es": "Mientras yo cocino, tú pones la mesa.", "answer": "Mentre io cucino tu apparecchi la tavola", "alt": ["Mentre cucino tu apparecchi la tavola"], "extra": ["quindi"], "why": "Mentre = mientras. Apparecchiare la tavola = poner la mesa.", "g": "it-g-connettivi" },
+    { "id": "e23", "type": "transform", "instr": "Une las dos frases con quindi", "q": "Domani lavoro. Stasera vado a letto presto.", "answer": ["Domani lavoro, quindi stasera vado a letto presto."], "why": "La segunda es la consecuencia: quindi.", "g": "it-g-connettivi" },
+    { "id": "e24", "type": "transform", "instr": "Une las dos frases con però", "q": "L'albergo è piccolo. È molto accogliente.", "answer": ["L'albergo è piccolo, però è molto accogliente.", "L'albergo è piccolo, ma è molto accogliente."], "why": "Contraste: però (o ma).", "g": "it-g-connettivi" },
+    { "id": "e25", "type": "transform", "instr": "Une las dos frases con mentre", "q": "Aspettavo il treno. Ho chiamato mio figlio.", "answer": ["Mentre aspettavo il treno, ho chiamato mio figlio.", "Ho chiamato mio figlio mentre aspettavo il treno."], "why": "Mentre va con la acción de fondo (imperfecto).", "g": "it-g-connettivi" },
+    { "id": "e26", "type": "transform", "instr": "Une las dos frases con anche se", "q": "Fa freddo. Facciamo una passeggiata.", "answer": ["Anche se fa freddo, facciamo una passeggiata.", "Facciamo una passeggiata anche se fa freddo."], "why": "Anche se + indicativo: anche se fa freddo.", "g": "it-g-connettivi" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "Está lloviendo, así que cojo el paraguas.", "answer": ["Piove, quindi prendo l'ombrello.", "Sta piovendo, quindi prendo l'ombrello."], "why": "Así que = quindi.", "g": "it-g-connettivi" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "Yo bebo té; mi marido, en cambio, bebe café.", "answer": ["Io bevo il tè; mio marito, invece, beve il caffè.", "Io bevo tè, mio marito invece beve caffè.", "Io bevo il tè, mio marito invece beve il caffè."], "why": "En cambio = invece.", "g": "it-g-connettivi" },
+    { "id": "e29", "type": "translate", "dir": "from", "q": "Anche se è tardi, prendo un caffè.", "answer": ["Aunque es tarde, me tomo un café.", "Aunque sea tarde, me tomo un café.", "Aunque es tarde, tomo un café."], "why": "Anche se = aunque.", "g": "it-g-connettivi" },
+    { "id": "e30", "type": "match", "pairs": [["Ho sonno,", "quindi vado a letto."], ["È caro,", "però è bellissimo."], ["Lei lavora,", "mentre io riposo."], ["Era stanca:", "infatti dormiva sul divano."], ["Io vado in treno,", "Paola invece in macchina."]], "why": "Elige el final que tiene sentido con cada conector.", "g": "it-g-connettivi" },
+    { "id": "e31", "type": "situation", "context": "Un amigo te propone ir a la playa, pero tienes que trabajar. ¿Qué dices?", "emoji": "🏖️", "options": ["Mi piacerebbe, però devo lavorare.", "Mi piacerebbe, quindi devo lavorare.", "Mi piacerebbe, infatti devo lavorare."], "answer": "Mi piacerebbe, però devo lavorare.", "why": "Contraste entre el deseo y la realidad: però.", "g": "it-g-connettivi" },
+    { "id": "e32", "type": "situation", "context": "Explicas a una amiga por qué no has ido a la cena: estabas resfriada.", "emoji": "🤧", "options": ["Ero raffreddata, quindi sono rimasta a casa.", "Ero raffreddata, invece sono rimasta a casa.", "Ero raffreddata, mentre sono rimasta a casa."], "answer": "Ero raffreddata, quindi sono rimasta a casa.", "why": "Quedarse en casa es la consecuencia: quindi.", "g": "it-g-connettivi" },
+    { "id": "e33", "type": "reading", "kind": "message", "title": "Mensaje de Yolanda", "text": "Ciao Paola! Ieri pioveva, quindi siamo rimasti in albergo. Oggi invece c'è il sole. Mentre mio marito dorme, io scrivo le cartoline. Roma è caotica, però è meravigliosa!", "questions": [
+      { "q": "¿Qué hicieron ayer?", "options": ["Se quedaron en el hotel", "Fueron a la playa", "Visitaron un museo"], "answer": "Se quedaron en el hotel" },
+      { "q": "¿Qué tiempo hace hoy?", "options": ["Hace sol", "Llueve", "Nieva"], "answer": "Hace sol" },
+      { "q": "¿Qué hace Yolanda mientras su marido duerme?", "options": ["Escribe postales", "Desayuna", "Lee un libro"], "answer": "Escribe postales" }
+    ], "why": "Quindi = así que; invece = en cambio; mentre = mientras; però = pero.", "g": "it-g-connettivi" }
+  ],
+  "reviewed": false
+}

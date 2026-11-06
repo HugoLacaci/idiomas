@@ -1,0 +1,428 @@
+{
+  "id": "it-a1-u07-l2",
+  "unit": "it-a1-u07",
+  "title": "Il sale, il latte, il miele",
+  "goal": "a reconocer las palabras de la mesa que cambian de género respecto al español",
+  "emoji": "🧂",
+  "photoQuery": "olive oil vinegar salt table",
+  "vocab": [
+    {
+      "id": "rist-il-sale",
+      "t": "il sale",
+      "es": "la sal",
+      "emoji": "🧂",
+      "pos": "n",
+      "note": "¡Ojo! Masculino en italiano.",
+      "ex": {
+        "t": "Mi passi il sale, per favore?",
+        "es": "¿Me pasas la sal, por favor?"
+      }
+    },
+    {
+      "id": "rist-il-pepe",
+      "t": "il pepe",
+      "es": "la pimienta",
+      "emoji": "⚫",
+      "pos": "n",
+      "note": "¡Ojo! Masculino en italiano.",
+      "ex": {
+        "t": "Il pepe nero, per favore.",
+        "es": "La pimienta negra, por favor."
+      }
+    },
+    {
+      "id": "rist-il-latte",
+      "t": "il latte",
+      "es": "la leche",
+      "emoji": "🥛",
+      "pos": "n",
+      "note": "¡Ojo! Masculino en italiano.",
+      "ex": {
+        "t": "Il latte è freddo.",
+        "es": "La leche está fría."
+      }
+    },
+    {
+      "id": "rist-il-miele",
+      "t": "il miele",
+      "es": "la miel",
+      "emoji": "🍯",
+      "pos": "n",
+      "note": "¡Ojo! Masculino en italiano.",
+      "ex": {
+        "t": "Un tè con il miele, per favore.",
+        "es": "Un té con miel, por favor."
+      }
+    },
+    {
+      "id": "rist-l-olio",
+      "t": "l'olio",
+      "es": "el aceite",
+      "emoji": "🫒",
+      "pos": "n",
+      "ex": {
+        "t": "L'olio pugliese è buonissimo.",
+        "es": "El aceite de Apulia es buenísimo."
+      }
+    },
+    {
+      "id": "rist-l-aceto",
+      "t": "l'aceto",
+      "es": "el vinagre",
+      "emoji": "🫗",
+      "pos": "n",
+      "note": "¡Ojo! No es «aceite» (aceite = olio).",
+      "ex": {
+        "t": "Olio e aceto per l'insalata.",
+        "es": "Aceite y vinagre para la ensalada."
+      }
+    },
+    {
+      "id": "rist-il-fiore",
+      "t": "il fiore",
+      "es": "la flor",
+      "emoji": "🌼",
+      "pos": "n",
+      "note": "¡Ojo! Masculino: il fiore, i fiori.",
+      "ex": {
+        "t": "Che bel fiore!",
+        "es": "¡Qué flor tan bonita!"
+      }
+    },
+    {
+      "id": "rist-l-aglio",
+      "t": "l'aglio",
+      "es": "el ajo",
+      "emoji": "🧄",
+      "pos": "n",
+      "ex": {
+        "t": "Senza aglio, per favore.",
+        "es": "Sin ajo, por favor."
+      }
+    },
+    {
+      "id": "rist-il-formaggio",
+      "t": "il formaggio",
+      "es": "el queso",
+      "emoji": "🧀",
+      "pos": "n",
+      "ex": {
+        "t": "Il formaggio è fresco.",
+        "es": "El queso es fresco."
+      }
+    }
+  ],
+  "grammar": "it-g-genere-cambi",
+  "pron": {
+    "title": "Gli de aglio y bottiglia",
+    "tip": "Gli suena parecido a nuestra «ll» bien pronunciada, como «lli»: aglio ≈ «allio», bottiglia ≈ «bottillia». La g no se oye.",
+    "words": [
+      "aglio",
+      "bottiglia",
+      "tovagliolo",
+      "famiglia",
+      "meglio"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Mi passi ___ sale?",
+      "es": "¿Me pasas la sal?",
+      "options": [
+        "il",
+        "la",
+        "lo"
+      ],
+      "answer": "il",
+      "why": "Sale es masculino en italiano: il sale.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "___ latte è caldo.",
+      "options": [
+        "Il",
+        "La",
+        "L'"
+      ],
+      "answer": "Il",
+      "why": "Latte es masculino: il latte (en español, «la leche»).",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Il miele è molto ___.",
+      "es": "La miel es muy buena.",
+      "options": [
+        "buono",
+        "buona"
+      ],
+      "answer": "buono",
+      "why": "Miele es masculino, así que el adjetivo también: buono.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Per l'insalata: olio e ___.",
+      "es": "Para la ensalada: aceite y vinagre.",
+      "options": [
+        "aceto",
+        "aceite",
+        "acqua"
+      ],
+      "answer": "aceto",
+      "why": "Aceto = vinagre. «Aceite» se dice olio."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Che bello ___ fiore!",
+      "es": "¡Qué bonita la flor!",
+      "answer": [
+        "il"
+      ],
+      "bank": [
+        "il",
+        "la",
+        "lo"
+      ],
+      "why": "Fiore es masculino: il fiore.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Vorrei un caffè con un po' di latte ___.",
+      "es": "Quería un café con un poco de leche fría.",
+      "answer": [
+        "freddo"
+      ],
+      "bank": [
+        "freddo",
+        "fredda",
+        "freddi"
+      ],
+      "why": "Latte es masculino: latte freddo.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "La sale è qui.",
+      "wrong": "La",
+      "fix": "Il",
+      "why": "En italiano es il sale, masculino.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Il miele è buona.",
+      "wrong": "buona",
+      "fix": "buono",
+      "why": "Miele es masculino: il miele è buono.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Metto l'aceto in padella per friggere.",
+      "wrong": "l'aceto",
+      "fix": "l'olio",
+      "why": "Para freír se usa aceite: l'olio. L'aceto es el vinagre."
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Pásala a plural",
+      "q": "Il fiore è bello.",
+      "answer": [
+        "I fiori sono belli."
+      ],
+      "why": "Fiore → fiori, masculino plural: i fiori belli.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "La sal y la pimienta, por favor.",
+      "answer": "Il sale e il pepe per favore",
+      "extra": [
+        "la"
+      ],
+      "why": "Los dos son masculinos: il sale, il pepe.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "la leche fría",
+      "answer": [
+        "il latte freddo"
+      ],
+      "why": "Masculino en italiano: il latte freddo.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "il sale",
+          "la sal"
+        ],
+        [
+          "il latte",
+          "la leche"
+        ],
+        [
+          "il miele",
+          "la miel"
+        ],
+        [
+          "il pepe",
+          "la pimienta"
+        ],
+        [
+          "il fiore",
+          "la flor"
+        ]
+      ],
+      "why": "Todas femeninas en español y masculinas en italiano.",
+      "g": "it-g-genere-cambi"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Tu ensalada no tiene vinagre. ¿Qué le pides al camarero?",
+      "emoji": "🥗",
+      "options": [
+        "Scusi, mi porta l'aceto?",
+        "Scusi, mi porta l'olio?",
+        "Scusi, mi porta la aceta?"
+      ],
+      "answer": "Scusi, mi porta l'aceto?",
+      "why": "Vinagre = aceto, masculino: l'aceto."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Mi passi il sale e il pepe, per favore?",
+      "es": "¿Me pasas la sal y la pimienta, por favor?"
+    }
+  ],
+  "dialog": {
+    "title": "Desayuno en el hotel",
+    "setting": "En el desayuno de un hotel de Lecce",
+    "emoji": "🥛",
+    "lines": [
+      {
+        "who": "Cameriera",
+        "t": "Buongiorno! Caffè o tè?",
+        "es": "¡Buenos días! ¿Café o té?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Un tè, per favore. C'è il miele?",
+        "es": "Un té, por favor. ¿Hay miel?"
+      },
+      {
+        "who": "Cameriera",
+        "t": "Sì, il miele è lì, a destra.",
+        "es": "Sí, la miel está allí, a la derecha."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie. E il latte?",
+        "es": "Gracias. ¿Y la leche?"
+      },
+      {
+        "who": "Cameriera",
+        "t": "Latte caldo o freddo?",
+        "es": "¿Leche caliente o fría?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Caldo, grazie. Che bello questo fiore!",
+        "es": "Caliente, gracias. ¡Qué bonita esta flor!"
+      },
+      {
+        "who": "Cameriera",
+        "t": "Grazie! È un fiore di campo.",
+        "es": "¡Gracias! Es una flor silvestre."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué toma Yolanda?",
+        "options": [
+          "Té",
+          "Café",
+          "Zumo"
+        ],
+        "answer": "Té"
+      },
+      {
+        "q": "¿Cómo quiere la leche?",
+        "options": [
+          "Caliente",
+          "Fría",
+          "Sin leche"
+        ],
+        "answer": "Caliente"
+      },
+      {
+        "q": "¿Qué flor es?",
+        "options": [
+          "Una flor silvestre",
+          "Una rosa",
+          "Una flor de plástico"
+        ],
+        "answer": "Una flor silvestre"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Senza aglio, per favore.",
+    "es": "Sin ajo, por favor.",
+    "context": "Si no te sienta bien el ajo o no te gusta"
+  },
+  "same": {
+    "text": "La mayoría de las palabras de comida tienen el mismo género que en español. Solo unas pocas cambian.",
+    "examples": [
+      {
+        "t": "il formaggio",
+        "es": "el queso"
+      },
+      {
+        "t": "l'olio",
+        "es": "el aceite"
+      },
+      {
+        "t": "la frutta",
+        "es": "la fruta"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "l'aceto",
+    "means": "el vinagre",
+    "looksLike": "el aceite (en italiano: l'olio)",
+    "emoji": "🫗",
+    "tip": "En la mesa italiana, olio e aceto: aceite y vinagre. ¡No los confundas al aliñar!"
+  },
+  "summary": [
+    "Masculinos en italiano: il sale, il pepe, il latte, il miele, il fiore.",
+    "El adjetivo también cambia: il latte freddo, il miele buono.",
+    "Aceto = vinagre; olio = aceite.",
+    "Gli suena «lli»: aglio, bottiglia."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u07-l2"
+}

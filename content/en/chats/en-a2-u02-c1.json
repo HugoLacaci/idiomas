@@ -1,0 +1,60 @@
+{
+  "id": "en-a2-u02-c1",
+  "unit": "en-a2-u02",
+  "title": "De compras con Emma",
+  "setting": "Emma y tú estáis en un supermercado de Londres para preparar una cena.",
+  "emoji": "🛒",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "OK, Yolanda. What do we need for the tortilla?", "es": "Bueno, Yolanda. ¿Qué necesitamos para la tortilla?" },
+      "options": [
+        { "t": "Some eggs, some potatoes and an onion.", "es": "Huevos, patatas y una cebolla.", "next": "n2", "ok": true },
+        { "t": "Some egg, some potato and an onion.", "es": "Huevos, patatas y una cebolla.", "next": "n2", "ok": false, "feedback": "Eggs y potatoes se cuentan: van en plural con some → some eggs, some potatoes." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Great. Do we need bread too?", "es": "Genial. ¿Necesitamos pan también?" },
+      "options": [
+        { "t": "Yes, a loaf of bread, please.", "es": "Sí, una barra de pan, por favor.", "next": "n3", "ok": true },
+        { "t": "Yes, a bread, please.", "es": "Sí, un pan, por favor.", "next": "n3", "ok": false, "feedback": "Bread es incontable: a loaf of bread o some bread." },
+        { "t": "Yes, two breads, please.", "es": "Sí, dos panes, por favor.", "next": "n3", "ok": false, "feedback": "Bread no tiene plural: two loaves of bread." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "And olive oil? I've got a little at home.", "es": "¿Y aceite de oliva? Tengo un poco en casa." },
+      "options": [
+        { "t": "Let's buy a bottle. We need a lot!", "es": "Compremos una botella. ¡Necesitamos mucho!", "next": "n4", "ok": true },
+        { "t": "Let's buy an oil. We need a lot!", "es": "Compremos un aceite. ¡Necesitamos mucho!", "next": "n4", "ok": false, "feedback": "Oil es incontable: a bottle of oil." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Look, the news is on the TV over there. Something about Spain!", "es": "Mira, en esa tele están las noticias. ¡Algo sobre España!" },
+      "options": [
+        { "t": "Is the news good?", "es": "¿Son buenas las noticias?", "next": "n5", "ok": true },
+        { "t": "Are the news good?", "es": "¿Son buenas las noticias?", "next": "n5", "ok": false, "feedback": "News es singular en inglés: Is the news good?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Yes! It's about the sunny weather. People are on the beach.", "es": "¡Sí! Es sobre el buen tiempo. La gente está en la playa." },
+      "options": [
+        { "t": "Lucky people! It's raining here.", "es": "¡Qué suerte tienen! Aquí llueve.", "next": "n6", "ok": true },
+        { "t": "Lucky peoples! It's raining here.", "es": "¡Qué suerte tienen! Aquí llueve.", "next": "n6", "ok": false, "feedback": "People ya es plural: nunca peoples." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ha ha! OK, let's go to the checkout.", "es": "¡Ja, ja! Venga, vamos a la caja." },
+      "options": [
+        { "t": "Good idea. Can you push the trolley?", "es": "Buena idea. ¿Puedes empujar el carro?", "next": "end", "ok": true },
+        { "t": "Good idea. Can you pushing the trolley?", "es": "Buena idea. ¿Puedes empujar el carro?", "next": "end", "ok": false, "feedback": "Después de can, el verbo va en su forma base: Can you push…?" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,398 @@
+{
+  "id": "en-a1-u08-l4",
+  "unit": "en-a1-u08",
+  "title": "En invierno siempre llueve",
+  "goal": "a usar la frecuencia con to be y con las estaciones, y a poner bien el acento",
+  "emoji": "🍂",
+  "photoQuery": "autumn leaves park path",
+  "vocab": [
+    {
+      "id": "spring",
+      "t": "spring",
+      "es": "la primavera",
+      "emoji": "🌸",
+      "pos": "n",
+      "ex": {
+        "t": "In spring I plant tomatoes.",
+        "es": "En primavera planto tomates."
+      }
+    },
+    {
+      "id": "summer",
+      "t": "summer",
+      "es": "el verano",
+      "emoji": "☀️",
+      "pos": "n",
+      "ex": {
+        "t": "We usually go to the beach in summer.",
+        "es": "En verano solemos ir a la playa."
+      }
+    },
+    {
+      "id": "autumn",
+      "t": "autumn",
+      "es": "el otoño",
+      "emoji": "🍂",
+      "pos": "n",
+      "ex": {
+        "t": "Autumn is my favourite season.",
+        "es": "El otoño es mi estación favorita."
+      },
+      "note": "La n final no suena: «ótem». En EE. UU.: fall."
+    },
+    {
+      "id": "winter",
+      "t": "winter",
+      "es": "el invierno",
+      "emoji": "❄️",
+      "pos": "n",
+      "ex": {
+        "t": "It's always cold in winter.",
+        "es": "En invierno siempre hace frío."
+      }
+    },
+    {
+      "id": "once-a-week",
+      "t": "once a week",
+      "es": "una vez a la semana",
+      "emoji": "1️⃣",
+      "pos": "phrase",
+      "ex": {
+        "t": "I go to my painting class once a week.",
+        "es": "Voy a clase de pintura una vez a la semana."
+      }
+    },
+    {
+      "id": "twice-a-month",
+      "t": "twice a month",
+      "es": "dos veces al mes",
+      "emoji": "2️⃣",
+      "pos": "phrase",
+      "ex": {
+        "t": "My grandson visits me twice a month.",
+        "es": "Mi nieto viene a verme dos veces al mes."
+      }
+    },
+    {
+      "id": "every-weekend",
+      "t": "every weekend",
+      "es": "todos los fines de semana",
+      "emoji": "📅",
+      "pos": "phrase",
+      "ex": {
+        "t": "We go for a walk every weekend.",
+        "es": "Salimos a pasear todos los fines de semana."
+      }
+    },
+    {
+      "id": "a-season",
+      "t": "a season",
+      "es": "una estación (del año)",
+      "emoji": "🗓️",
+      "pos": "n",
+      "ex": {
+        "t": "There are four seasons in a year.",
+        "es": "Hay cuatro estaciones en un año."
+      }
+    }
+  ],
+  "grammar": "en-g-adverbs-frequency",
+  "pron": {
+    "title": "¿Dónde va la fuerza?",
+    "tip": "En inglés, si pones la fuerza en la sílaba equivocada, no te entienden. Fíjate: SOMEtimes, Usually, SUMmer, WINter, AUtumn. Pero ojo: toMORrow, umBRELla y toDAY van en el medio o al final.",
+    "words": [
+      "sometimes",
+      "usually",
+      "summer",
+      "autumn",
+      "tomorrow",
+      "umbrella"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "spring",
+          "primavera"
+        ],
+        [
+          "summer",
+          "verano"
+        ],
+        [
+          "autumn",
+          "otoño"
+        ],
+        [
+          "winter",
+          "invierno"
+        ]
+      ],
+      "why": "Las cuatro estaciones."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "I'm ___ tired on Monday mornings.",
+      "es": "Los lunes por la mañana siempre estoy cansada.",
+      "options": [
+        "always",
+        "always am",
+        "am always"
+      ],
+      "answer": "always",
+      "why": "Ya tienes I'm: el adverbio va detrás de am.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "My grandson ___ hungry after school.",
+      "options": [
+        "is always",
+        "always is",
+        "always"
+      ],
+      "answer": "is always",
+      "why": "Tener hambre = be hungry; adverbio detrás de is.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "La palabra «sometimes» se dice: ___",
+      "options": [
+        "SOMEtimes",
+        "someTIMES"
+      ],
+      "answer": "SOMEtimes",
+      "why": "La fuerza va en la primera sílaba: SOMEtimes."
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "La palabra «umbrella» se dice: ___",
+      "options": [
+        "umBRELla",
+        "UMbrella",
+        "umbrelLA"
+      ],
+      "answer": "umBRELla",
+      "why": "Umbrella lleva la fuerza en el medio: umBRELla."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I go to the hairdresser ___ a month.",
+      "es": "Voy a la peluquería una vez al mes.",
+      "answer": [
+        "once"
+      ],
+      "bank": [
+        "once",
+        "one",
+        "one time"
+      ],
+      "why": "Una vez = once."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "It's ___ hot in Córdoba in summer.",
+      "es": "En Córdoba en verano siempre hace calor.",
+      "answer": [
+        "always"
+      ],
+      "why": "It's + always + hot.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "q": "My friend ___ late. She's very punctual.",
+      "es": "Mi amiga nunca llega tarde. Es muy puntual.",
+      "answer": [
+        "is never"
+      ],
+      "bank": [
+        "is never",
+        "never is",
+        "never"
+      ],
+      "why": "Llegar tarde = be late; never detrás de is.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "My grandson is always hungry and he always want cake.",
+      "wrong": "want",
+      "fix": "wants",
+      "why": "He lleva -s aunque haya un adverbio delante: he always wants.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "In winter it is cold every days.",
+      "wrong": "days",
+      "fix": "day",
+      "why": "Every va con singular: every day.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "En otoño a menudo llueve",
+      "answer": "It often rains in autumn",
+      "extra": [
+        "is"
+      ],
+      "why": "Rain es un verbo normal: adverbio delante, rains con -s.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "¿Estás siempre tan contenta?",
+      "answer": "Are you always so happy",
+      "extra": [
+        "Do"
+      ],
+      "why": "Pregunta con to be: Are you always…?",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e13",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "It is usually sunny in spring.",
+      "answer": [
+        "Is it usually sunny in spring?",
+        "Is it usually sunny in spring"
+      ],
+      "why": "Is + it + usually + sunny.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "Voy a nadar dos veces a la semana.",
+      "answer": [
+        "I go swimming twice a week.",
+        "I swim twice a week.",
+        "I go swimming twice a week"
+      ],
+      "why": "Dos veces a la semana = twice a week, al final.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Un británico te pregunta: «How often do you visit London?». Vienes una vez al año.",
+      "emoji": "✈️",
+      "options": [
+        "Once a year.",
+        "One time in the year.",
+        "Always a year."
+      ],
+      "answer": "Once a year.",
+      "why": "Una vez al año = once a year.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "It's always cold in winter, but I love it.",
+      "es": "En invierno siempre hace frío, pero me encanta."
+    }
+  ],
+  "dialog": {
+    "title": "La estación favorita",
+    "setting": "Videollamada entre Yolanda y Emma",
+    "emoji": "💻",
+    "lines": [
+      {
+        "who": "Emma",
+        "t": "What's your favourite season, Yolanda?",
+        "es": "¿Cuál es tu estación favorita, Yolanda?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Spring. It's usually warm and sunny.",
+        "es": "La primavera. Normalmente hace buen tiempo y sol."
+      },
+      {
+        "who": "Emma",
+        "t": "Here spring is often rainy!",
+        "es": "¡Aquí la primavera suele ser lluviosa!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Is it always cold in winter in London?",
+        "es": "¿En Londres siempre hace frío en invierno?"
+      },
+      {
+        "who": "Emma",
+        "t": "Yes, but it hardly ever snows.",
+        "es": "Sí, pero casi nunca nieva."
+      },
+      {
+        "who": "Yolanda",
+        "t": "How often do you go to the park?",
+        "es": "¿Cada cuánto vas al parque?"
+      },
+      {
+        "who": "Emma",
+        "t": "Every weekend, with my umbrella!",
+        "es": "Todos los fines de semana, ¡con el paraguas!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué estación prefiere Yolanda?",
+        "options": [
+          "La primavera",
+          "El verano",
+          "El otoño"
+        ],
+        "answer": "La primavera"
+      },
+      {
+        "q": "¿Nieva mucho en Londres según Emma?",
+        "options": [
+          "Casi nunca",
+          "Siempre",
+          "A menudo"
+        ],
+        "answer": "Casi nunca"
+      },
+      {
+        "q": "¿Cada cuánto va Emma al parque?",
+        "options": [
+          "Todos los fines de semana",
+          "Una vez al mes",
+          "Nunca"
+        ],
+        "answer": "Todos los fines de semana"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "It's usually sunny where I live.",
+    "es": "Donde vivo suele hacer sol.",
+    "context": "Para contar a alguien cómo es el tiempo en tu tierra"
+  },
+  "summary": [
+    "Con to be el adverbio va detrás: I'm always tired, it's often cold",
+    "Frecuencia al final: once a week, twice a month, every weekend",
+    "Estaciones: spring, summer, autumn, winter",
+    "Acento: SOMEtimes, Usually, pero umBRELla, toMORrow"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u08-l4"
+}

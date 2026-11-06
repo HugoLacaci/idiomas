@@ -1,0 +1,445 @@
+{
+  "id": "en-a1-u04-l5",
+  "unit": "en-a1-u04",
+  "title": "Reto en Notting Hill: un piso para las vacaciones",
+  "goal": "a describir un piso de vacaciones (qué hay y dónde está cada cosa) y a escribir un mensaje a tu familia",
+  "emoji": "🏡",
+  "photoQuery": "colourful houses london street",
+  "vocab": [
+    {
+      "id": "a-street",
+      "t": "a street",
+      "es": "una calle",
+      "emoji": "🛣️",
+      "pos": "n",
+      "ex": {
+        "t": "Our flat is on a quiet street.",
+        "es": "Nuestro piso está en una calle tranquila."
+      }
+    },
+    {
+      "id": "front-door",
+      "t": "the front door",
+      "es": "la puerta de la calle",
+      "emoji": "🚪",
+      "pos": "n",
+      "ex": {
+        "t": "The front door is blue.",
+        "es": "La puerta de entrada es azul."
+      }
+    },
+    {
+      "id": "a-window",
+      "t": "a window",
+      "es": "una ventana",
+      "emoji": "🪟",
+      "pos": "n",
+      "ex": {
+        "t": "There are flowers in the window.",
+        "es": "Hay flores en la ventana."
+      }
+    },
+    {
+      "id": "the-stairs",
+      "t": "the stairs",
+      "es": "las escaleras",
+      "emoji": "🪜",
+      "pos": "n",
+      "ex": {
+        "t": "The bathroom is at the top of the stairs.",
+        "es": "El baño está al final de las escaleras."
+      }
+    },
+    {
+      "id": "a-neighbour",
+      "t": "a neighbour",
+      "es": "un vecino / una vecina",
+      "emoji": "👵",
+      "pos": "n",
+      "ex": {
+        "t": "My neighbour has got the keys.",
+        "es": "Mi vecina tiene las llaves."
+      },
+      "note": "En EE. UU. se escribe neighbor."
+    },
+    {
+      "id": "ground-floor",
+      "t": "the ground floor",
+      "es": "la planta baja",
+      "emoji": "🏢",
+      "pos": "n",
+      "ex": {
+        "t": "The kitchen is on the ground floor.",
+        "es": "La cocina está en la planta baja."
+      },
+      "note": "En EE. UU. la planta baja es the first floor."
+    },
+    {
+      "id": "a-carnival",
+      "t": "a carnival",
+      "es": "un carnaval",
+      "emoji": "🎉",
+      "pos": "n",
+      "ex": {
+        "t": "There's a big carnival in August.",
+        "es": "En agosto hay un gran carnaval."
+      }
+    },
+    {
+      "id": "near-here",
+      "t": "near here",
+      "es": "cerca de aquí",
+      "emoji": "📍",
+      "pos": "phrase",
+      "ex": {
+        "t": "Is there a supermarket near here?",
+        "es": "¿Hay un supermercado cerca de aquí?"
+      }
+    }
+  ],
+  "grammar": "en-g-prep-place",
+  "pron": {
+    "title": "Repaso: th y las dos «i»",
+    "tip": "Practica frases completas: «There's a seat in the kitchen» (th suave en there, i larga en seat, i corta en kitchen). Ve despacio y exagera al principio; la velocidad llega sola.",
+    "words": [
+      "There's a seat in the kitchen.",
+      "The bathroom is upstairs.",
+      "Three big windows."
+    ],
+    "pairs": [
+      [
+        "sit",
+        "seat"
+      ],
+      [
+        "three",
+        "tree"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "text",
+      "title": "Holiday flat – Notting Hill",
+      "text": "Beautiful flat on a quiet street, near Portobello Road Market. On the ground floor there's a living room and a kitchen. Upstairs there are two bedrooms and a bathroom. There isn't a garden, but there's a balcony opposite the park.",
+      "questions": [
+        {
+          "q": "¿Qué hay en la planta baja?",
+          "options": [
+            "Un salón y una cocina",
+            "Dos dormitorios",
+            "Un baño"
+          ],
+          "answer": "Un salón y una cocina"
+        },
+        {
+          "q": "¿Cuántos dormitorios hay?",
+          "options": [
+            "Dos",
+            "Uno",
+            "Tres"
+          ],
+          "answer": "Dos"
+        },
+        {
+          "q": "¿Dónde está el balcón?",
+          "options": [
+            "Enfrente del parque",
+            "Detrás de la casa",
+            "Al lado del mercado"
+          ],
+          "answer": "Enfrente del parque"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "There ___ two bedrooms upstairs.",
+      "es": "Arriba hay dos dormitorios.",
+      "options": [
+        "is",
+        "are"
+      ],
+      "answer": "are",
+      "why": "Dos dormitorios: there are.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "The kitchen is ___ the ground floor.",
+      "es": "La cocina está en la planta baja.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": "on",
+      "why": "Con las plantas de un edificio: on the ground floor.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "The keys are ___ the neighbour, at number 12.",
+      "es": "Las llaves las tiene la vecina, en el número 12.",
+      "options": [
+        "with",
+        "on",
+        "under"
+      ],
+      "answer": "with",
+      "why": "Con una persona: with (with the neighbour)."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "The towels are ___ the wardrobe.",
+      "es": "Las toallas están en el armario.",
+      "answer": [
+        "in"
+      ],
+      "bank": [
+        "in",
+        "on",
+        "at"
+      ],
+      "why": "Dentro del armario: in.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "___ there a supermarket near here?",
+      "es": "¿Hay un supermercado cerca de aquí?",
+      "answer": [
+        "Is"
+      ],
+      "bank": [
+        "Is",
+        "Are",
+        "Has"
+      ],
+      "why": "Un supermercado: Is there…?",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "In the flat have a balcony.",
+      "wrong": "have",
+      "fix": "there's",
+      "why": "«Hay» = there is (there's), no have.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "There's a photo of the carnival in the wall.",
+      "wrong": "in",
+      "fix": "on",
+      "why": "Lo que cuelga de la pared va con on: on the wall.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Hay una panadería enfrente del piso",
+      "answer": "There's a bakery opposite the flat",
+      "extra": [
+        "front",
+        "have"
+      ],
+      "why": "Hay = there's; enfrente de = opposite.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "There are some shops near the flat.",
+      "answer": [
+        "Are there any shops near the flat?"
+      ],
+      "why": "Pregunta en plural: Are there any…?",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "El baño está al lado del dormitorio.",
+      "answer": [
+        "The bathroom is next to the bedroom.",
+        "The bathroom's next to the bedroom."
+      ],
+      "why": "Al lado de = next to.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Hay flores en las ventanas.",
+      "answer": [
+        "There are flowers in the windows.",
+        "There are some flowers in the windows.",
+        "There are flowers on the windows."
+      ],
+      "why": "Flores en plural: there are.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Mandas un WhatsApp a Hugo para contarle cómo es el piso de vacaciones.",
+      "emoji": "💬",
+      "options": [
+        "There are two bedrooms and there's a balcony.",
+        "Have two bedrooms and have a balcony.",
+        "There is two bedrooms and a balcony."
+      ],
+      "answer": "There are two bedrooms and there's a balcony.",
+      "why": "Dos dormitorios: there are; un balcón: there's.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "El dueño te explica dónde están las llaves: debajo del felpudo, delante de la puerta.",
+      "emoji": "🔑",
+      "options": [
+        "They're under the mat, in front of the door.",
+        "They're on the mat, behind the door.",
+        "They're under the mat, opposite of the door."
+      ],
+      "answer": "They're under the mat, in front of the door.",
+      "why": "Debajo = under; delante de = in front of.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "ground floor",
+          "planta baja"
+        ],
+        [
+          "stairs",
+          "escaleras"
+        ],
+        [
+          "front door",
+          "puerta de la calle"
+        ],
+        [
+          "neighbour",
+          "vecino"
+        ],
+        [
+          "window",
+          "ventana"
+        ]
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "There's a lovely balcony opposite the park.",
+      "es": "Hay un balcón precioso enfrente del parque."
+    }
+  ],
+  "dialog": {
+    "title": "Llegada al piso de Notting Hill",
+    "setting": "Yolanda y su marido llegan al piso de vacaciones; les recibe la dueña",
+    "emoji": "🎉",
+    "lines": [
+      {
+        "who": "Mrs Clarke",
+        "t": "Welcome! Come in. This is the living room.",
+        "es": "¡Bienvenidos! Pasad. Este es el salón."
+      },
+      {
+        "who": "Yolanda",
+        "t": "It's lovely! Where's the kitchen?",
+        "es": "¡Es precioso! ¿Dónde está la cocina?"
+      },
+      {
+        "who": "Mrs Clarke",
+        "t": "It's next to the living room.",
+        "es": "Está al lado del salón."
+      },
+      {
+        "who": "Yolanda",
+        "t": "And the bedrooms?",
+        "es": "¿Y los dormitorios?"
+      },
+      {
+        "who": "Mrs Clarke",
+        "t": "They're upstairs. There are two.",
+        "es": "Están arriba. Hay dos."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Is there a supermarket near here?",
+        "es": "¿Hay un supermercado cerca de aquí?"
+      },
+      {
+        "who": "Mrs Clarke",
+        "t": "Yes, there's one opposite the station.",
+        "es": "Sí, hay uno enfrente de la estación."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfect. Thank you very much!",
+        "es": "Perfecto. ¡Muchas gracias!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Dónde está la cocina?",
+        "options": [
+          "Al lado del salón",
+          "Arriba",
+          "Enfrente de la estación"
+        ],
+        "answer": "Al lado del salón"
+      },
+      {
+        "q": "¿Cuántos dormitorios hay?",
+        "options": [
+          "Dos",
+          "Uno",
+          "Tres"
+        ],
+        "answer": "Dos"
+      },
+      {
+        "q": "¿Dónde está el supermercado?",
+        "options": [
+          "Enfrente de la estación",
+          "Detrás de la casa",
+          "Al lado del parque"
+        ],
+        "answer": "Enfrente de la estación"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Is there a supermarket near here?",
+    "es": "¿Hay un supermercado cerca de aquí?",
+    "context": "Al llegar a un hotel o a un piso de vacaciones"
+  },
+  "summary": [
+    "Describir una casa: there's a balcony, there are two bedrooms",
+    "Decir dónde está: next to, opposite, upstairs, on the ground floor",
+    "Preguntar: Is there a… near here?",
+    "Curiosidad: cada agosto Notting Hill celebra uno de los carnavales callejeros más grandes de Europa"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u04-l5"
+}

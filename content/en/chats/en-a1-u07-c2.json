@@ -1,0 +1,61 @@
+{
+  "id": "en-a1-u07-c2",
+  "unit": "en-a1-u07",
+  "title": "La familia de Emma",
+  "setting": "Emma te cuenta cosas de su familia y tú le haces preguntas.",
+  "emoji": "👨‍👩‍👧",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Guess what? My mum has a new job!", "es": "¿A que no sabes? ¡Mi madre tiene trabajo nuevo!" },
+      "options": [
+        { "t": "Really? What does she do?", "es": "¿De verdad? ¿A qué se dedica?", "next": "n2", "ok": true },
+        { "t": "Really? What does she does?", "es": "¿De verdad? ¿A qué se dedica?", "next": "n2", "ok": false, "feedback": "Solo una -s por frase: What does she do?" },
+        { "t": "Really? What she does?", "es": "¿De verdad? ¿A qué se dedica?", "next": "n2", "ok": false, "feedback": "En la pregunta hace falta does delante: What does she do?" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "She works in a bookshop. She loves books!", "es": "Trabaja en una librería. ¡Le encantan los libros!" },
+      "options": [
+        { "t": "How nice! Does she work every day?", "es": "¡Qué bien! ¿Trabaja todos los días?", "next": "n3", "ok": true },
+        { "t": "How nice! Do she work every day?", "es": "¡Qué bien! ¿Trabaja todos los días?", "next": "n3", "ok": false, "feedback": "Con she el ayudante es does: Does she work…?" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "No, she doesn't. Only three days a week.", "es": "No. Solo tres días a la semana." },
+      "options": [
+        { "t": "Perfect. And your dad? Is he retired?", "es": "Perfecto. ¿Y tu padre? ¿Está jubilado?", "next": "n4", "ok": true },
+        { "t": "Perfect. And your dad? Does he retired?", "es": "Perfecto. ¿Y tu padre? ¿Está jubilado?", "next": "n4", "ok": false, "feedback": "Retired es un adjetivo: va con to be. Is he retired?" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Yes, he is. He plays golf and he watches a lot of TV.", "es": "Sí. Juega al golf y ve mucho la tele." },
+      "options": [
+        { "t": "Ha ha! Does he help at home?", "es": "¡Ja, ja! ¿Ayuda en casa?", "next": "n5", "ok": true },
+        { "t": "Ha ha! Does he helps at home?", "es": "¡Ja, ja! ¿Ayuda en casa?", "next": "n5", "ok": false, "feedback": "Después de does: help, sin -s." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Yes! He cooks dinner and he does the shopping.", "es": "¡Sí! Hace la cena y hace la compra." },
+      "options": [
+        { "t": "Wow, he cooks! Your mum is lucky.", "es": "¡Anda, cocina! Tu madre tiene suerte.", "next": "n6", "ok": true },
+        { "t": "Wow, he cook! Your mum is lucky.", "es": "¡Anda, cocina! Tu madre tiene suerte.", "next": "n6", "ok": false, "feedback": "He cooks, con -s (suena /s/)." },
+        { "t": "Wow, he cooks! Your mum has lucky.", "es": "¡Anda, cocina! Tu madre tiene suerte.", "next": "n6", "ok": false, "feedback": "Tener suerte = be lucky: your mum is lucky." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "She is! What about you? Does anyone cook for you?", "es": "¡Sí que la tiene! ¿Y tú? ¿Alguien cocina para ti?" },
+      "options": [
+        { "t": "No, I cook. But my grandson makes great sandwiches!", "es": "No, cocino yo. ¡Pero mi nieto hace unos bocadillos buenísimos!", "next": "end", "ok": true },
+        { "t": "No, I cooks. But my grandson makes great sandwiches!", "es": "No, cocino yo. ¡Pero mi nieto hace unos bocadillos buenísimos!", "next": "end", "ok": false, "feedback": "Con I no hay -s: I cook." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

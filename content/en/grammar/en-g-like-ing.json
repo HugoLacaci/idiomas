@@ -1,0 +1,142 @@
+{
+  "id": "en-g-like-ing",
+  "lang": "en",
+  "level": "A2",
+  "title": "like / love / hate / enjoy + -ing",
+  "short": "I love dancing. She hates waiting. Para los gustos, el segundo verbo va con -ing.",
+  "story": [
+    { "kind": "intro", "title": "Me encanta bailar", "emoji": "💃",
+      "text": "En español decimos «me encanta bailar», con el infinitivo. En inglés, después de los verbos de gusto, el segundo verbo suele ir con ==-ing==.",
+      "examples": [
+        { "t": "I love dancing.", "es": "Me encanta bailar.", "hl": "dancing" },
+        { "t": "My son hates getting up early.", "es": "Mi hijo odia madrugar.", "hl": "getting" }
+      ] },
+    { "kind": "table", "title": "Del 😍 al 😖", "emoji": "📊",
+      "text": "Estos verbos van seguidos de ==verbo + -ing==.",
+      "table": {
+        "head": ["", "Inglés", "Español"],
+        "rows": [
+          ["😍", "I ==love== cooking.", "Me encanta cocinar."],
+          ["🙂", "I ==like== cooking.", "Me gusta cocinar."],
+          ["😊", "I ==enjoy== cooking.", "Disfruto cocinando."],
+          ["😐", "I ==don't mind== cooking.", "No me importa cocinar."],
+          ["🙁", "I ==don't like== cooking.", "No me gusta cocinar."],
+          ["😖", "I ==hate== cooking.", "Odio cocinar."]
+        ]
+      } },
+    { "kind": "rule", "title": "Cómo se forma el -ing", "emoji": "✍️",
+      "text": "Casi siempre se añade -ing: read → read==ing==. Si acaba en -e, se quita: dance → danc==ing==. Vocal corta + consonante: se duplica: swim → swi==mming==.",
+      "examples": [
+        { "t": "I like walking.", "es": "Me gusta caminar.", "hl": "walking" },
+        { "t": "She loves driving.", "es": "Le encanta conducir.", "hl": "driving" },
+        { "t": "We enjoy shopping.", "es": "Disfrutamos yendo de compras.", "hl": "shopping" }
+      ] },
+    { "kind": "table", "title": "Negativa y pregunta", "emoji": "❓",
+      "text": "El verbo de gusto funciona como cualquier verbo en presente: con ==do / does==. El -ing no cambia.",
+      "table": {
+        "head": ["", "Afirmativa", "Negativa", "Pregunta"],
+        "rows": [
+          ["I / you / we / they", "I like reading.", "I ==don't== like reading.", "==Do== you like reading?"],
+          ["he / she", "She ==likes== reading.", "She ==doesn't== like reading.", "==Does== she like reading?"]
+        ]
+      } },
+    { "kind": "compare", "title": "Así en español, así en inglés", "emoji": "🇪🇸",
+      "text": "En español: «A mí ==me gusta== bailar». En inglés la persona va delante, como sujeto: «==I like== dancing». Nada de «me likes».",
+      "examples": [
+        { "t": "My mum likes knitting.", "es": "A mi madre le gusta hacer punto.", "hl": "My mum likes" }
+      ] },
+    { "kind": "errors", "title": "Errores típicos", "emoji": "⚠️",
+      "text": "❌ I like dance. ✅ I like ==dancing==.\n❌ I enjoy to cook. ✅ I enjoy ==cooking==.\n❌ Me likes reading. ✅ ==I like== reading.\n❌ She like swimming. ✅ She ==likes== swimming." },
+    { "kind": "tip", "title": "¡Ojo con would like!", "emoji": "💡",
+      "text": "**I like dancing** = me gusta bailar (siempre). **I'd like ==to== dance** = me gustaría bailar (ahora). Would like va con ==to==.",
+      "examples": [
+        { "t": "I'd like to dance with you.", "es": "Me gustaría bailar contigo.", "hl": "to dance" }
+      ] }
+  ],
+  "compare": {
+    "es": "En español decimos «me gusta / me encanta / odio» + infinitivo: me encanta bailar. Y la persona va como «a mí me…».",
+    "target": "En inglés la persona es el sujeto (I like, she loves) y el segundo verbo va con -ing: I love dancing. Enjoy y don't mind siempre llevan -ing. Con like, love y hate a veces se oye to + verbo, pero para aficiones lo más natural en Gran Bretaña es -ing."
+  },
+  "errors": [
+    { "wrong": "I like dance.", "right": "I like dancing.", "why": "Después de like, el segundo verbo va con -ing (o con to), nunca en forma base." },
+    { "wrong": "I enjoy to cook.", "right": "I enjoy cooking.", "why": "Enjoy solo admite -ing." },
+    { "wrong": "Me likes reading.", "right": "I like reading.", "why": "En inglés no hay «me gusta»: el sujeto es I." },
+    { "wrong": "She like swimming.", "right": "She likes swimming.", "why": "Con she, el verbo like lleva -s." },
+    { "wrong": "I love swiming.", "right": "I love swimming.", "why": "Swim duplica la m: swimming." },
+    { "wrong": "I'd like going to London.", "right": "I'd like to go to London.", "why": "Would like (me gustaría) va con to + verbo." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "I love ___.", "options": ["dancing", "dance"], "answer": "dancing",
+      "why": "love + -ing: I love dancing.", "g": "en-g-like-ing" },
+    { "id": "e2", "type": "choose", "q": "She likes ___ novels.", "options": ["reading", "read", "reads"], "answer": "reading",
+      "why": "like + -ing: likes reading.", "g": "en-g-like-ing" },
+    { "id": "e3", "type": "choose", "q": "We enjoy ___ by the sea.", "options": ["walking", "walk", "to walk"], "answer": "walking",
+      "why": "Enjoy solo va con -ing.", "g": "en-g-like-ing" },
+    { "id": "e4", "type": "choose", "q": "My husband ___ cooking. He never cooks!", "options": ["hates", "loves", "enjoys"], "answer": "hates",
+      "why": "Si nunca cocina, odia cocinar: hates.", "g": "en-g-like-ing" },
+    { "id": "e5", "type": "choose", "q": "___ you like gardening?", "options": ["Do", "Does", "Are"], "answer": "Do",
+      "why": "Pregunta con you: Do you like…?", "g": "en-g-like-ing" },
+    { "id": "e6", "type": "choose", "q": "My son ___ like getting up early.", "options": ["doesn't", "don't", "isn't"], "answer": "doesn't",
+      "why": "My son = he: doesn't like.", "g": "en-g-like-ing" },
+    { "id": "e7", "type": "choose", "q": "I'd like ___ to the cinema tonight.", "options": ["to go", "going", "go"], "answer": "to go",
+      "why": "Would like (me gustaría) va con to + verbo.", "g": "en-g-like-ing" },
+    { "id": "e8", "type": "conjugate", "verb": "to swim", "person": "-ing", "tense": "forma -ing", "q": "I love ___ in summer.", "answer": ["swimming"],
+      "table": [["+ing", "read → reading"], ["-e + ing", "dance → dancing"], ["doble consonante", "swim → swimming"]],
+      "why": "Swim: la m se duplica.", "g": "en-g-like-ing" },
+    { "id": "e9", "type": "conjugate", "verb": "to write", "person": "-ing", "tense": "forma -ing", "q": "She enjoys ___ letters.", "answer": ["writing"],
+      "why": "Write pierde la -e y no duplica la t: writing.", "g": "en-g-like-ing" },
+    { "id": "e10", "type": "conjugate", "verb": "to shop", "person": "-ing", "tense": "forma -ing", "q": "My friend loves ___ for clothes.", "answer": ["shopping"],
+      "why": "Shop: vocal corta + p, se duplica: shopping.", "g": "en-g-like-ing" },
+    { "id": "e11", "type": "conjugate", "verb": "to play", "person": "-ing", "tense": "forma -ing", "q": "My grandson likes ___ football.", "answer": ["playing"],
+      "why": "Play: solo añadimos -ing.", "g": "en-g-like-ing" },
+    { "id": "e12", "type": "conjugate", "verb": "to like", "person": "she", "tense": "presente simple", "q": "My mum ___ knitting.", "answer": ["likes"],
+      "why": "My mum = she: likes.", "g": "en-g-like-ing" },
+    { "id": "e13", "type": "fill", "q": "I don't mind ___ the dishes.", "es": "No me importa fregar los platos.", "answer": ["washing"], "bank": ["washing", "wash", "to wash"],
+      "why": "Don't mind + -ing.", "g": "en-g-like-ing" },
+    { "id": "e14", "type": "fill", "q": "He ___ watching football on TV.", "es": "Le encanta ver el fútbol en la tele.", "answer": ["loves"], "bank": ["loves", "love", "loving"],
+      "why": "He: loves con -s.", "g": "en-g-like-ing" },
+    { "id": "e15", "type": "fill", "q": "Does she enjoy ___?", "es": "¿Disfruta bailando?", "answer": ["dancing"],
+      "why": "Enjoy + -ing; dance pierde la -e.", "g": "en-g-like-ing" },
+    { "id": "e16", "type": "fill", "q": "I hate ___ for the bus in the rain.", "es": "Odio esperar el autobús bajo la lluvia.", "answer": ["waiting"],
+      "why": "hate + -ing: waiting.", "g": "en-g-like-ing" },
+    { "id": "e17", "type": "fill", "q": "What do you like ___ on Sundays?", "es": "¿Qué te gusta hacer los domingos?", "answer": ["doing"],
+      "why": "What do you like doing? = ¿Qué te gusta hacer?", "g": "en-g-like-ing" },
+    { "id": "e18", "type": "error", "q": "I like dance in the kitchen.", "wrong": "dance", "fix": "dancing",
+      "why": "Like + -ing para gustos: I like dancing.", "g": "en-g-like-ing" },
+    { "id": "e19", "type": "error", "q": "Me likes cooking for my family.", "wrong": "Me", "fix": "I",
+      "why": "En inglés el sujeto es I: I like.", "g": "en-g-like-ing" },
+    { "id": "e20", "type": "error", "q": "She enjoys to paint.", "wrong": "paint", "fix": "painting",
+      "why": "Enjoy solo va con -ing: enjoys painting.", "g": "en-g-like-ing" },
+    { "id": "e21", "type": "error", "q": "My daughter like singing.", "wrong": "like", "fix": "likes",
+      "why": "My daughter = she: likes.", "g": "en-g-like-ing" },
+    { "id": "e22", "type": "error", "q": "Do your friend like walking?", "wrong": "Do", "fix": "Does",
+      "why": "Your friend = he/she: Does.", "g": "en-g-like-ing" },
+    { "id": "e23", "type": "transform", "instr": "Hazla negativa", "q": "She likes driving.", "answer": ["She doesn't like driving.", "She does not like driving."],
+      "why": "doesn't + like (sin -s).", "g": "en-g-like-ing" },
+    { "id": "e24", "type": "transform", "instr": "Hazla pregunta", "q": "You enjoy reading.", "answer": ["Do you enjoy reading?", "Do you enjoy reading"],
+      "why": "Do + you + enjoy + -ing.", "g": "en-g-like-ing" },
+    { "id": "e25", "type": "transform", "instr": "Empieza con «My friend»", "q": "I love swimming.", "answer": ["My friend loves swimming."],
+      "why": "My friend = she/he: loves.", "g": "en-g-like-ing" },
+    { "id": "e26", "type": "order", "es": "A mi madre le gusta hacer punto", "answer": "My mum likes knitting", "extra": ["me"],
+      "why": "La persona va delante: My mum likes…", "g": "en-g-like-ing" },
+    { "id": "e27", "type": "order", "es": "¿Te gusta ver películas?", "answer": "Do you like watching films", "extra": ["watch"],
+      "why": "Do you like + -ing?", "g": "en-g-like-ing" },
+    { "id": "e28", "type": "order", "es": "No me importa conducir de noche", "answer": "I don't mind driving at night", "extra": ["drive"],
+      "why": "don't mind + -ing.", "g": "en-g-like-ing" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "Odio planchar.", "answer": ["I hate ironing.", "I hate ironing"],
+      "why": "hate + -ing.", "g": "en-g-like-ing" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "A mi hijo le encanta cocinar.", "answer": ["My son loves cooking.", "My son loves to cook."],
+      "why": "My son loves + -ing.", "g": "en-g-like-ing" },
+    { "id": "e31", "type": "translate", "dir": "from", "q": "We enjoy walking in the mountains.", "answer": ["Disfrutamos caminando por la montaña.", "Disfrutamos caminando en la montaña.", "Nos gusta caminar por la montaña."],
+      "why": "Enjoy + -ing = disfrutar + gerundio.", "g": "en-g-like-ing" },
+    { "id": "e32", "type": "situation", "context": "Una amiga inglesa te pregunta qué te gusta hacer los domingos. Te gusta pasear por el parque.", "emoji": "🌳",
+      "options": ["I like walking in the park.", "I like walk in the park.", "Me like walking in the park."], "answer": "I like walking in the park.",
+      "why": "I like + -ing.", "g": "en-g-like-ing" },
+    { "id": "e33", "type": "situation", "context": "Un amigo te invita a bailar ahora mismo y te apetece.", "emoji": "💃",
+      "options": ["Yes, I'd love to!", "Yes, I love dancing now!", "Yes, I'd love dancing!"], "answer": "Yes, I'd love to!",
+      "why": "Para aceptar una invitación: I'd love to (me encantaría).", "g": "en-g-like-ing" },
+    { "id": "e34", "type": "match", "pairs": [["read", "reading"], ["dance", "dancing"], ["swim", "swimming"], ["write", "writing"], ["play", "playing"]],
+      "why": "+ing, quitar la -e o duplicar la consonante.", "g": "en-g-like-ing" }
+  ],
+  "reviewed": false
+}

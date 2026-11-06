@@ -1,0 +1,60 @@
+{
+  "id": "en-a1-u03-c3",
+  "unit": "en-a1-u03",
+  "title": "Emma ve tus fotos",
+  "setting": "Por videollamada, enseñas a Emma unas fotos de tu familia y de tu cocina.",
+  "emoji": "📸",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! Show me your photos!", "es": "¡Hola, Yolanda! ¡Enséñame tus fotos!" },
+      "options": [
+        { "t": "OK! This is my son, Hugo.", "es": "¡Vale! Este es mi hijo, Hugo.", "next": "n2", "ok": true },
+        { "t": "OK! He is my son, Hugo.", "es": "¡Vale! Él es mi hijo, Hugo.", "next": "n2", "ok": false, "feedback": "Para presentar a alguien en una foto se dice This is…" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "He's very handsome! And who are those children?", "es": "¡Es muy guapo! ¿Y quiénes son esos niños?" },
+      "options": [
+        { "t": "Those are my grandchildren.", "es": "Esos son mis nietos.", "next": "n3", "ok": true },
+        { "t": "That is my grandchildren.", "es": "Esos son mis nietos.", "next": "n3", "ok": false, "feedback": "Son varios: those are." },
+        { "t": "Those is my grandchildren.", "es": "Esos son mis nietos.", "next": "n3", "ok": false, "feedback": "Those va con are: those are." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "They're beautiful! And this photo? Is that your kitchen?", "es": "¡Son preciosos! ¿Y esta foto? ¿Esa es tu cocina?" },
+      "options": [
+        { "t": "Yes, it is. It's a small kitchen.", "es": "Sí. Es una cocina pequeña.", "next": "n4", "ok": true },
+        { "t": "Yes, that is. It's a small kitchen.", "es": "Sí. Es una cocina pequeña.", "next": "n4", "ok": false, "feedback": "En la respuesta corta usamos it: Yes, it is." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "What are those things on the table?", "es": "¿Qué son esas cosas de la mesa?" },
+      "options": [
+        { "t": "They're eggs and oranges. And a cake!", "es": "Son huevos y naranjas. ¡Y un bizcocho!", "next": "n5", "ok": true },
+        { "t": "They're an eggs and an oranges.", "es": "Son huevos y naranjas.", "next": "n5", "ok": false, "feedback": "An solo va con una cosa. En plural sin artículo: eggs and oranges." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "A cake! I love cake. Is it for the children?", "es": "¡Un bizcocho! Me encanta el bizcocho. ¿Es para los niños?" },
+      "options": [
+        { "t": "Yes, the cake is for the children.", "es": "Sí, el bizcocho es para los niños.", "next": "n6", "ok": true },
+        { "t": "Yes, a cake is for a children.", "es": "Sí, un bizcocho es para un niños.", "next": "n6", "ok": false, "feedback": "Ya sabemos de qué bizcocho y de qué niños hablamos: the cake, the children." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "You're a lucky grandmother! Send me a photo of the cake, OK?", "es": "¡Eres una abuela con suerte! Mándame una foto del bizcocho, ¿vale?" },
+      "options": [
+        { "t": "Of course! Bye, Emma!", "es": "¡Claro! ¡Adiós, Emma!", "next": "end", "ok": true },
+        { "t": "Of course! Goodnight, Emma!", "es": "¡Claro! ¡Buenas noches, Emma!", "next": "end", "ok": false, "feedback": "Goodnight solo se dice al irse a dormir. Para despedirte, Bye o See you." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

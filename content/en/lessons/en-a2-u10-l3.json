@@ -1,0 +1,439 @@
+{
+  "id": "en-a2-u10-l3",
+  "unit": "en-a2-u10",
+  "title": "En el hotel: quejarse con educación",
+  "goal": "a registrarte en el hotel, pedir lo que necesitas y quejarte con amabilidad si algo va mal",
+  "emoji": "🏨",
+  "photoQuery": "hotel reception desk bell",
+  "vocab": [
+    {
+      "id": "trip-reception",
+      "t": "reception",
+      "es": "la recepción",
+      "emoji": "🛎️",
+      "pos": "n",
+      "ex": {
+        "t": "Please leave your key at reception.",
+        "es": "Deje la llave en recepción, por favor."
+      }
+    },
+    {
+      "id": "trip-booking",
+      "t": "booking",
+      "es": "la reserva",
+      "emoji": "📋",
+      "pos": "n",
+      "ex": {
+        "t": "I have a booking for three nights.",
+        "es": "Tengo una reserva para tres noches."
+      },
+      "note": "En EE. UU. se dice más reservation."
+    },
+    {
+      "id": "trip-key-card",
+      "t": "key card",
+      "es": "la tarjeta de la habitación",
+      "emoji": "💳",
+      "pos": "n",
+      "ex": {
+        "t": "My key card doesn't work.",
+        "es": "Mi tarjeta de la habitación no funciona."
+      }
+    },
+    {
+      "id": "trip-lift",
+      "t": "lift",
+      "es": "el ascensor",
+      "emoji": "🛗",
+      "pos": "n",
+      "ex": {
+        "t": "The lift is on the left.",
+        "es": "El ascensor está a la izquierda."
+      },
+      "note": "En EE. UU.: elevator."
+    },
+    {
+      "id": "trip-towel",
+      "t": "towel",
+      "es": "la toalla",
+      "emoji": "🧺",
+      "pos": "n",
+      "ex": {
+        "t": "Could I have some more towels, please?",
+        "es": "¿Me podrían dar más toallas, por favor?"
+      }
+    },
+    {
+      "id": "trip-air-conditioning",
+      "t": "air conditioning",
+      "es": "el aire acondicionado",
+      "emoji": "❄️",
+      "pos": "n",
+      "ex": {
+        "t": "The air conditioning isn't working.",
+        "es": "El aire acondicionado no funciona."
+      }
+    },
+    {
+      "id": "trip-wifi-password",
+      "t": "Wi-Fi password",
+      "es": "la contraseña del wifi",
+      "emoji": "📶",
+      "pos": "n",
+      "ex": {
+        "t": "What's the Wi-Fi password, please?",
+        "es": "¿Cuál es la contraseña del wifi, por favor?"
+      }
+    },
+    {
+      "id": "trip-afraid-problem",
+      "t": "I'm afraid there's a problem…",
+      "es": "Me temo que hay un problema…",
+      "emoji": "😟",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm afraid there's a problem with my room.",
+        "es": "Me temo que hay un problema con mi habitación."
+      }
+    },
+    {
+      "id": "trip-check-out",
+      "t": "to check out",
+      "es": "dejar la habitación, hacer el check-out",
+      "emoji": "🚪",
+      "pos": "phrase",
+      "ex": {
+        "t": "What time do we need to check out?",
+        "es": "¿A qué hora tenemos que dejar la habitación?"
+      }
+    }
+  ],
+  "grammar": "en-g-too-enough",
+  "pron": {
+    "title": "Air conditioning y towel",
+    "tip": "Towel suena «táuel», con «au» como en «auto». En air conditioning, el acento fuerte va en con-DI-tioning, y air suena «ea».",
+    "words": [
+      "towel",
+      "air conditioning",
+      "reception",
+      "lift",
+      "password"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Excuse me, the ___ isn't working. We're on the eighth floor!",
+      "options": [
+        "lift",
+        "lifter",
+        "elevate"
+      ],
+      "answer": "lift",
+      "why": "Ascensor = lift (en EE. UU., elevator)."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "I'm afraid the room is too ___. There's a party next door.",
+      "options": [
+        "noisy",
+        "quiet",
+        "comfortable"
+      ],
+      "answer": "noisy",
+      "why": "Si hay fiesta al lado, hay demasiado ruido: too noisy.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "There aren't ___ towels for three people.",
+      "options": [
+        "enough",
+        "too",
+        "too much"
+      ],
+      "answer": "enough",
+      "why": "Enough + nombre: enough towels.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "The room isn't warm ___. Could I have a blanket?",
+      "es": "La habitación no está lo bastante caliente. ¿Me da una manta?",
+      "answer": [
+        "enough"
+      ],
+      "bank": [
+        "enough",
+        "too",
+        "very"
+      ],
+      "why": "Adjetivo + enough.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I'm ___ there's a problem with the shower.",
+      "es": "Me temo que hay un problema con la ducha.",
+      "answer": [
+        "afraid"
+      ],
+      "why": "I'm afraid… = me temo que…: suaviza la queja."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "What time do we need to check ___?",
+      "es": "¿A qué hora tenemos que dejar la habitación?",
+      "answer": [
+        "out"
+      ],
+      "bank": [
+        "out",
+        "in",
+        "off"
+      ],
+      "why": "Check in = registrarse al llegar; check out = irse."
+    },
+    {
+      "id": "e7",
+      "type": "match",
+      "pairs": [
+        [
+          "key card",
+          "tarjeta de la habitación"
+        ],
+        [
+          "towel",
+          "toalla"
+        ],
+        [
+          "lift",
+          "ascensor"
+        ],
+        [
+          "booking",
+          "reserva"
+        ],
+        [
+          "check out",
+          "dejar la habitación"
+        ]
+      ],
+      "why": "Vocabulario del hotel."
+    },
+    {
+      "id": "e8",
+      "type": "situation",
+      "context": "Tu habitación da a la calle y no puedes dormir por el ruido. Lo dices en recepción con educación.",
+      "emoji": "😴",
+      "options": [
+        "I'm sorry, but my room is too noisy. Could I change rooms?",
+        "My room is very bad. Change it.",
+        "My room is too much noisy."
+      ],
+      "answer": "I'm sorry, but my room is too noisy. Could I change rooms?",
+      "why": "Queja amable: I'm sorry, but… + too + adjetivo + Could I…?",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e9",
+      "type": "situation",
+      "context": "Llegas al hotel y quieres registrarte.",
+      "emoji": "🛎️",
+      "options": [
+        "Hello, I have a booking. I'd like to check in.",
+        "Hello, I want a check.",
+        "Hello, I have a reserve. I'd like to enter."
+      ],
+      "answer": "Hello, I have a booking. I'd like to check in.",
+      "why": "Registrarse = check in. Reserva = booking."
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "This room is very small for three. We need a bigger one.",
+      "wrong": "very",
+      "fix": "too",
+      "why": "Es un problema (no cabéis): too small. Very solo dice «muy».",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Hazla más educada con Could",
+      "q": "Give me the Wi-Fi password.",
+      "answer": [
+        "Could you give me the Wi-Fi password?",
+        "Could you give me the Wi-Fi password, please?",
+        "Could I have the Wi-Fi password, please?",
+        "Could I have the Wi-Fi password?",
+        "Could you please give me the Wi-Fi password?"
+      ],
+      "why": "En recepción, mejor Could you…? / Could I have…?",
+      "g": "en-g-could-requests"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "Me temo que el aire acondicionado no funciona",
+      "answer": "I'm afraid the air conditioning isn't working",
+      "extra": [
+        "doesn't"
+      ],
+      "why": "Algo que ahora no funciona: isn't working."
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "La habitación es demasiado pequeña.",
+      "answer": [
+        "The room is too small.",
+        "The room's too small.",
+        "The room is too small"
+      ],
+      "why": "Demasiado + adjetivo: too small.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "email",
+      "title": "Correo al hotel",
+      "text": "Dear Sir or Madam,\nWe stayed in room 304 last weekend. The staff were very kind, but the room was too hot and the air conditioning didn't work. Also, there weren't enough towels. Could you check the room for the next guests?\nKind regards,\nYolanda",
+      "questions": [
+        {
+          "q": "¿Qué le gustó a Yolanda?",
+          "options": [
+            "El personal, muy amable",
+            "La habitación",
+            "El desayuno"
+          ],
+          "answer": "El personal, muy amable"
+        },
+        {
+          "q": "¿Cuál fue el problema con la temperatura?",
+          "options": [
+            "Hacía demasiado calor",
+            "Hacía demasiado frío",
+            "No había calefacción"
+          ],
+          "answer": "Hacía demasiado calor"
+        },
+        {
+          "q": "¿Qué faltaba?",
+          "options": [
+            "Toallas",
+            "Almohadas",
+            "Jabón"
+          ],
+          "answer": "Toallas"
+        }
+      ],
+      "why": "Una queja educada: primero lo bueno, luego el problema con too / not enough.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "I'm afraid there's a problem with my room.",
+      "es": "Me temo que hay un problema con mi habitación.",
+      "why": "La frase perfecta para empezar una queja."
+    }
+  ],
+  "dialog": {
+    "title": "Una habitación con ruido",
+    "setting": "Primera noche en un hotel de Nueva York. Yolanda baja a recepción",
+    "emoji": "🗽",
+    "lines": [
+      {
+        "who": "Receptionist",
+        "t": "Good evening. How can I help you?",
+        "es": "Buenas noches. ¿En qué puedo ayudarla?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Hello. I'm afraid there's a problem with my room.",
+        "es": "Hola. Me temo que hay un problema con mi habitación."
+      },
+      {
+        "who": "Receptionist",
+        "t": "I'm sorry to hear that. What's wrong?",
+        "es": "Lo siento mucho. ¿Qué ocurre?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "It's next to the lift. It's too noisy to sleep.",
+        "es": "Está al lado del ascensor. Hay demasiado ruido para dormir."
+      },
+      {
+        "who": "Receptionist",
+        "t": "I understand. Is a room on the tenth floor OK?",
+        "es": "Lo entiendo. ¿Le va bien una habitación en la décima planta?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, perfect. Is it big enough for two?",
+        "es": "Sí, perfecto. ¿Es lo bastante grande para dos?"
+      },
+      {
+        "who": "Receptionist",
+        "t": "Yes, it's a double room. Here's your new key card.",
+        "es": "Sí, es doble. Aquí tiene su nueva tarjeta."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Thank you so much. You're very kind.",
+        "es": "Muchísimas gracias. Es usted muy amable."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuál es el problema?",
+        "options": [
+          "La habitación es muy ruidosa",
+          "No hay toallas",
+          "Hace frío"
+        ],
+        "answer": "La habitación es muy ruidosa"
+      },
+      {
+        "q": "¿Por qué hay ruido?",
+        "options": [
+          "Está al lado del ascensor",
+          "Hay una fiesta",
+          "Da a la calle"
+        ],
+        "answer": "Está al lado del ascensor"
+      },
+      {
+        "q": "¿Qué le dan a Yolanda?",
+        "options": [
+          "Una tarjeta nueva para otra habitación",
+          "Un descuento",
+          "Unos tapones"
+        ],
+        "answer": "Una tarjeta nueva para otra habitación"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "I'm afraid there's a problem with my room.",
+    "es": "Me temo que hay un problema con mi habitación.",
+    "context": "Para quejarte con educación en la recepción de un hotel"
+  },
+  "summary": [
+    "reception, booking, key card, lift, towel, air conditioning",
+    "check in = registrarse; check out = dejar la habitación",
+    "Queja amable: I'm afraid… / I'm sorry, but… + too noisy / not warm enough",
+    "Pide con Could I / Could you…?"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u10-l3"
+}

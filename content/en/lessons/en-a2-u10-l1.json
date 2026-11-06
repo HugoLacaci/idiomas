@@ -1,0 +1,444 @@
+{
+  "id": "en-a2-u10-l1",
+  "unit": "en-a2-u10",
+  "title": "En el aeropuerto",
+  "goal": "a moverte por el aeropuerto: facturar, pasar el control y encontrar tu puerta de embarque",
+  "emoji": "✈️",
+  "photoQuery": "airport departures board travellers",
+  "vocab": [
+    {
+      "id": "trip-passport",
+      "t": "passport",
+      "es": "el pasaporte",
+      "emoji": "🛂",
+      "pos": "n",
+      "ex": {
+        "t": "Don't forget your passport!",
+        "es": "¡No te olvides el pasaporte!"
+      }
+    },
+    {
+      "id": "trip-flight",
+      "t": "flight",
+      "es": "el vuelo",
+      "emoji": "✈️",
+      "pos": "n",
+      "ex": {
+        "t": "Our flight to New York is at eleven.",
+        "es": "Nuestro vuelo a Nueva York es a las once."
+      }
+    },
+    {
+      "id": "trip-check-in-desk",
+      "t": "check-in desk",
+      "es": "el mostrador de facturación",
+      "emoji": "🧾",
+      "pos": "n",
+      "ex": {
+        "t": "The check-in desk opens three hours before.",
+        "es": "El mostrador de facturación abre tres horas antes."
+      },
+      "note": "Facturar = check in."
+    },
+    {
+      "id": "trip-boarding-pass",
+      "t": "boarding pass",
+      "es": "la tarjeta de embarque",
+      "emoji": "🎫",
+      "pos": "n",
+      "ex": {
+        "t": "I've got my boarding pass on my mobile.",
+        "es": "Tengo la tarjeta de embarque en el móvil."
+      }
+    },
+    {
+      "id": "trip-suitcase",
+      "t": "suitcase",
+      "es": "la maleta",
+      "emoji": "🧳",
+      "pos": "n",
+      "ex": {
+        "t": "My suitcase is red with a yellow ribbon.",
+        "es": "Mi maleta es roja con un lazo amarillo."
+      }
+    },
+    {
+      "id": "trip-hand-luggage",
+      "t": "hand luggage",
+      "es": "el equipaje de mano",
+      "emoji": "👜",
+      "pos": "n",
+      "ex": {
+        "t": "I've only got hand luggage.",
+        "es": "Solo llevo equipaje de mano."
+      },
+      "note": "Luggage es incontable: no se dice «luggages». En EE. UU.: carry-on."
+    },
+    {
+      "id": "trip-security",
+      "t": "security",
+      "es": "el control de seguridad",
+      "emoji": "🛃",
+      "pos": "n",
+      "ex": {
+        "t": "Put your liquids in a bag for security.",
+        "es": "Pon los líquidos en una bolsa para el control."
+      }
+    },
+    {
+      "id": "trip-gate",
+      "t": "gate",
+      "es": "la puerta de embarque",
+      "emoji": "🚪",
+      "pos": "n",
+      "ex": {
+        "t": "Our flight leaves from gate twelve.",
+        "es": "Nuestro vuelo sale de la puerta doce."
+      }
+    },
+    {
+      "id": "trip-delayed",
+      "t": "delayed",
+      "es": "con retraso",
+      "emoji": "⏳",
+      "pos": "adj",
+      "ex": {
+        "t": "Oh no, the flight is delayed again.",
+        "es": "Ay, no, el vuelo va con retraso otra vez."
+      }
+    },
+    {
+      "id": "trip-departures",
+      "t": "departures / arrivals",
+      "es": "salidas / llegadas",
+      "emoji": "🛫",
+      "pos": "n",
+      "ex": {
+        "t": "Look at the departures board.",
+        "es": "Mira el panel de salidas."
+      }
+    }
+  ],
+  "grammar": "en-g-imperative",
+  "pron": {
+    "title": "El acento de las palabras compuestas",
+    "tip": "En las palabras compuestas el acento fuerte va en la primera: BOARDing pass, CHECK-in desk, HAND luggage, PASSport, SUITcase.",
+    "words": [
+      "boarding pass",
+      "check-in desk",
+      "hand luggage",
+      "passport",
+      "suitcase"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Can I see your ___ and boarding pass, please?",
+      "options": [
+        "passport",
+        "passage",
+        "pass"
+      ],
+      "answer": "passport",
+      "why": "Pasaporte = passport. Passage es un pasillo o un fragmento."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Our flight leaves from ___ 14.",
+      "options": [
+        "gate",
+        "door",
+        "port"
+      ],
+      "answer": "gate",
+      "why": "La puerta de embarque es gate, no door."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "I've only got hand ___.",
+      "options": [
+        "luggage",
+        "luggages",
+        "baggages"
+      ],
+      "answer": "luggage",
+      "why": "Luggage es incontable: nunca lleva -s.",
+      "g": "en-g-countable-uncountable"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "The flight is ___. It leaves at eight now.",
+      "es": "El vuelo va con retraso. Ahora sale a las ocho.",
+      "answer": [
+        "delayed",
+        "late"
+      ],
+      "bank": [
+        "delayed",
+        "cancelled",
+        "early"
+      ],
+      "why": "Con retraso = delayed."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "First, go to the check-___ desk.",
+      "es": "Primero, ve al mostrador de facturación.",
+      "answer": [
+        "in"
+      ],
+      "why": "Facturar = check in; el mostrador: check-in desk."
+    },
+    {
+      "id": "e6",
+      "type": "match",
+      "pairs": [
+        [
+          "boarding pass",
+          "tarjeta de embarque"
+        ],
+        [
+          "gate",
+          "puerta de embarque"
+        ],
+        [
+          "suitcase",
+          "maleta"
+        ],
+        [
+          "security",
+          "control de seguridad"
+        ],
+        [
+          "delayed",
+          "con retraso"
+        ]
+      ],
+      "why": "Palabras básicas del aeropuerto."
+    },
+    {
+      "id": "e7",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Panel de salidas",
+      "text": "DEPARTURES\nNew York — 10:45 — Gate 22 — BOARDING\nDublin — 11:10 — Gate 8 — DELAYED (12:30)\nRome — 11:40 — Gate 15 — ON TIME",
+      "questions": [
+        {
+          "q": "¿Qué vuelo está embarcando?",
+          "options": [
+            "El de Nueva York",
+            "El de Dublín",
+            "El de Roma"
+          ],
+          "answer": "El de Nueva York"
+        },
+        {
+          "q": "¿A qué hora sale ahora el vuelo de Dublín?",
+          "options": [
+            "A las 12:30",
+            "A las 11:10",
+            "A las 10:45"
+          ],
+          "answer": "A las 12:30"
+        },
+        {
+          "q": "¿Qué significa ON TIME?",
+          "options": [
+            "Puntual",
+            "Cancelado",
+            "Embarcando"
+          ],
+          "answer": "Puntual"
+        }
+      ],
+      "why": "Boarding = embarcando; on time = puntual."
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Enseñe su tarjeta de embarque, por favor",
+      "answer": "Show your boarding pass please",
+      "extra": [
+        "to"
+      ],
+      "why": "Las instrucciones del aeropuerto van en imperativo: Show…",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Our flight is delay because of the weather.",
+      "wrong": "delay",
+      "fix": "delayed",
+      "why": "Para decir que va con retraso: is delayed."
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Hazla negativa (imperativo)",
+      "q": "Leave your bags here.",
+      "answer": [
+        "Don't leave your bags here.",
+        "Do not leave your bags here.",
+        "Don't leave your bags here"
+      ],
+      "why": "Imperativo negativo: Don't + verbo.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Dónde está la puerta 12?",
+      "answer": [
+        "Where is gate 12?",
+        "Where's gate 12?",
+        "Where is gate twelve?",
+        "Where's gate twelve?"
+      ],
+      "why": "Puerta de embarque = gate, sin artículo delante del número.",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "En el mostrador te preguntan si llevas maleta para facturar. Solo llevas una mochila.",
+      "emoji": "🎒",
+      "options": [
+        "No, I've only got hand luggage.",
+        "No, I've only got hand luggages.",
+        "No, I've only got a hand baggage."
+      ],
+      "answer": "No, I've only got hand luggage.",
+      "why": "Luggage es incontable: hand luggage, sin -s ni a."
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "No encuentras tu puerta de embarque y le preguntas a una azafata.",
+      "emoji": "🚪",
+      "options": [
+        "Excuse me, where's gate 22, please?",
+        "Hey, where door 22?",
+        "Excuse me, where is the 22 port?"
+      ],
+      "answer": "Excuse me, where's gate 22, please?",
+      "why": "Excuse me… + where's gate…? + please."
+    },
+    {
+      "id": "e14",
+      "type": "conjugate",
+      "verb": "to leave",
+      "person": "the flight",
+      "tense": "presente simple (horarios)",
+      "q": "The flight ___ at half past ten.",
+      "answer": [
+        "leaves"
+      ],
+      "why": "Para horarios usamos presente simple; con the flight (it), leaves.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Excuse me, where's the check-in desk for New York?",
+      "es": "Perdone, ¿dónde está el mostrador de facturación para Nueva York?",
+      "why": "Acento en CHECK-in."
+    }
+  ],
+  "dialog": {
+    "title": "En el mostrador",
+    "setting": "Yolanda factura la maleta en el aeropuerto de Madrid para volar a Nueva York",
+    "emoji": "🧳",
+    "lines": [
+      {
+        "who": "Agent",
+        "t": "Good morning. Where are you flying today?",
+        "es": "Buenos días. ¿Adónde vuela hoy?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "To New York. Here's my passport.",
+        "es": "A Nueva York. Aquí tiene mi pasaporte."
+      },
+      {
+        "who": "Agent",
+        "t": "Thank you. Any bags to check in?",
+        "es": "Gracias. ¿Tiene maletas para facturar?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, this suitcase. And this is my hand luggage.",
+        "es": "Sí, esta maleta. Y esto es mi equipaje de mano."
+      },
+      {
+        "who": "Agent",
+        "t": "Perfect. Here's your boarding pass. Gate 22.",
+        "es": "Perfecto. Aquí tiene su tarjeta de embarque. Puerta 22."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Is the flight on time?",
+        "es": "¿El vuelo sale puntual?"
+      },
+      {
+        "who": "Agent",
+        "t": "Yes. Boarding starts at ten fifteen.",
+        "es": "Sí. El embarque empieza a las diez y cuarto."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Great. Thank you very much!",
+        "es": "Estupendo. ¡Muchas gracias!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Adónde vuela Yolanda?",
+        "options": [
+          "A Nueva York",
+          "A Londres",
+          "A Dublín"
+        ],
+        "answer": "A Nueva York"
+      },
+      {
+        "q": "¿Qué puerta tiene?",
+        "options": [
+          "La 22",
+          "La 12",
+          "La 2"
+        ],
+        "answer": "La 22"
+      },
+      {
+        "q": "¿El vuelo va con retraso?",
+        "options": [
+          "No, sale puntual",
+          "Sí, una hora",
+          "Está cancelado"
+        ],
+        "answer": "No, sale puntual"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Is the flight on time?",
+    "es": "¿El vuelo sale puntual?",
+    "context": "Para preguntar en el mostrador o en la puerta de embarque"
+  },
+  "summary": [
+    "passport, flight, boarding pass, gate, suitcase",
+    "check in = facturar; check-in desk = mostrador de facturación",
+    "luggage es incontable: hand luggage (sin -s)",
+    "delayed = con retraso; on time = puntual"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u10-l1"
+}

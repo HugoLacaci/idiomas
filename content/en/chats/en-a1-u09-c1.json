@@ -1,0 +1,61 @@
+{
+  "id": "en-a1-u09-c1",
+  "unit": "en-a1-u09",
+  "title": "Un café con Emma",
+  "setting": "Quedas con Emma en una cafetería pequeña de Londres. Ella llega primero y te espera en la barra.",
+  "emoji": "☕",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi! You're here! What would you like? My treat today.", "es": "¡Hola! ¡Ya estás aquí! ¿Qué te apetece? Hoy invito yo." },
+      "options": [
+        { "t": "Oh, thank you! I'd like a white coffee, please.", "es": "¡Ay, gracias! Querría un café con leche, por favor.", "next": "n2", "ok": true },
+        { "t": "I want a coffee with milk.", "es": "Quiero un café con leche.", "next": "n2", "ok": false, "feedback": "Se entiende, pero I want suena un poco brusco. Mejor: I'd like a white coffee, please." },
+        { "t": "I like a coffee.", "es": "Me gusta un café.", "next": "n2", "ok": false, "feedback": "I like es «me gusta». Para pedir hace falta la 'd: I'd like a coffee." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Perfect. Would you like something to eat? The scones here are amazing.", "es": "Perfecto. ¿Quieres algo de comer? Los scones de aquí son buenísimos." },
+      "options": [
+        { "t": "Yes, please! What's a scone?", "es": "¡Sí, por favor! ¿Qué es un scone?", "next": "n3", "ok": true },
+        { "t": "Yes, I would like.", "es": "Sí, me gustaría.", "next": "n3", "ok": false, "feedback": "Al aceptar se dice Yes, please. O completo: Yes, I'd like a scone." },
+        { "t": "What is scone mean?", "es": "¿Qué significa scone?", "next": "n3", "ok": false, "feedback": "Cuidado con el orden: What does «scone» mean? o, más fácil, What's a scone?" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "It's a small cake. You eat it with cream and jam. Very British!", "es": "Es un bollito. Se come con nata y mermelada. ¡Muy británico!" },
+      "options": [
+        { "t": "Then I'd like a scone, please.", "es": "Entonces querría un scone, por favor.", "next": "n4", "ok": true },
+        { "t": "Then I'd like to a scone.", "es": "Entonces querría un scone.", "next": "n4", "ok": false, "feedback": "Con una cosa, I'd like va sin to: I'd like a scone. El to solo va con un verbo." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Great choice. Tea or coffee for you later? They have a lovely pot of tea.", "es": "Muy buena elección. ¿Luego té o café? Tienen una tetera de té muy rica." },
+      "options": [
+        { "t": "No, thank you. One coffee is enough!", "es": "No, gracias. ¡Con un café tengo bastante!", "next": "n5", "ok": true },
+        { "t": "No, I don't like.", "es": "No, no me gusta.", "next": "n5", "ok": false, "feedback": "Para rechazar con educación: No, thank you. «I don't like» queda cortado: falta it." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ha! Fair enough. Where would you like to sit? Inside or by the window?", "es": "¡Ja! Normal. ¿Dónde te quieres sentar? ¿Dentro o junto a la ventana?" },
+      "options": [
+        { "t": "By the window, please. I'd like to see the street.", "es": "Junto a la ventana, por favor. Me gustaría ver la calle.", "next": "n6", "ok": true },
+        { "t": "By the window. I'd like see the street.", "es": "Junto a la ventana. Me gustaría ver la calle.", "next": "n6", "ok": false, "feedback": "Con un verbo hace falta to: I'd like to see the street." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Here we are. So, how's the scone?", "es": "Ya estamos. Bueno, ¿qué tal el scone?" },
+      "options": [
+        { "t": "It's delicious! Thank you, Emma.", "es": "¡Está riquísimo! Gracias, Emma.", "next": "end", "ok": true },
+        { "t": "Is delicious!", "es": "¡Está riquísimo!", "next": "end", "ok": false, "feedback": "No olvides el sujeto: It's delicious!" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

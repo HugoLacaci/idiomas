@@ -1,0 +1,78 @@
+{
+  "id": "it-b1-u05-l2",
+  "unit": "it-b1-u05",
+  "title": "Avevo già prenotato",
+  "goal": "a decir lo que «habías hecho» antes de otro momento del pasado con avevo + participio",
+  "emoji": "⏪",
+  "photoQuery": "hotel reception desk suitcase",
+  "vocab": [
+    { "id": "storia-prenotare", "t": "prenotare", "es": "reservar", "emoji": "📅", "pos": "v", "ex": { "t": "Per fortuna avevo prenotato la camera.", "es": "Por suerte había reservado la habitación." } },
+    { "id": "storia-dimenticare", "t": "dimenticare", "es": "olvidar", "emoji": "🤦‍♀️", "pos": "v", "ex": { "t": "Avevo dimenticato il caricabatterie a casa.", "es": "Me había olvidado el cargador en casa." } },
+    { "id": "storia-il-portafoglio", "t": "il portafoglio", "es": "la cartera, el monedero", "emoji": "👛", "pos": "n", "ex": { "t": "Non avevo il portafoglio nella borsa.", "es": "No tenía la cartera en el bolso." } },
+    { "id": "storia-la-valigia", "t": "la valigia", "es": "la maleta", "emoji": "🧳", "pos": "n", "ex": { "t": "Avevo fatto la valigia la sera prima.", "es": "Había hecho la maleta la noche anterior." } },
+    { "id": "storia-mai-prima", "t": "mai prima", "es": "nunca antes", "emoji": "🆕", "pos": "phrase", "ex": { "t": "Non avevo mai visto il mare d'inverno prima.", "es": "Nunca antes había visto el mar en invierno." } },
+    { "id": "storia-non-ancora", "t": "non… ancora", "es": "todavía no, aún no", "emoji": "⏳", "pos": "phrase", "ex": { "t": "Non avevo ancora mangiato.", "es": "Todavía no había comido." } },
+    { "id": "storia-la-sera-prima", "t": "la sera prima", "es": "la noche anterior", "emoji": "🌙", "pos": "phrase", "ex": { "t": "La sera prima avevo dormito poco.", "es": "La noche anterior había dormido poco." } },
+    { "id": "storia-perche", "t": "perché", "es": "porque", "emoji": "💬", "pos": "other", "ex": { "t": "Ero stanca perché avevo camminato tanto.", "es": "Estaba cansada porque había caminado mucho." } }
+  ],
+  "grammar": "it-g-trapassato-prossimo",
+  "pron": {
+    "title": "Las dobles de avevo fatto",
+    "tip": "Fatto, detto, letto, messo: la doble t o s se sostiene un instante. Compara: fato / fatto. Avevo, en cambio, tiene una sola v: a-vè-vo.",
+    "words": ["avevo fatto", "avevo detto", "avevo letto", "avevo messo"],
+    "pairs": [["fato", "fatto"], ["leto", "letto"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Quando sono arrivata in albergo, ___ già prenotato.", "es": "Cuando llegué al hotel, ya había reservado.", "options": ["avevo", "ho", "avrò"], "answer": "avevo", "why": "Había reservado = avevo prenotato: imperfetto de avere + participio.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e2", "type": "choose", "q": "Hugo non aveva mai ___ Roma prima.", "es": "Hugo nunca antes había visto Roma.", "options": ["visto", "vedere", "vedeva"], "answer": "visto", "why": "Detrás de aveva va el participio: visto.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e3", "type": "choose", "q": "Ero stanca perché ___ camminato tutto il giorno.", "es": "Estaba cansada porque había caminado todo el día.", "options": ["avevo", "aveva", "avevamo"], "answer": "avevo", "why": "Yo había = io avevo.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e4", "type": "choose", "q": "Mio marito ___ dimenticato le chiavi in macchina.", "es": "Mi marido se había olvidado las llaves en el coche.", "options": ["aveva", "avevo", "avevano"], "answer": "aveva", "why": "Él había = lui aveva.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e5", "type": "fill", "q": "Avevo ___ la valigia la sera prima.", "es": "Había hecho la maleta la noche anterior.", "answer": ["fatto"], "bank": ["fatto", "fato", "facuto"], "why": "Fare → fatto, con doble t.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e6", "type": "fill", "q": "Non avevo ___ mangiato e avevo fame.", "es": "Todavía no había comido y tenía hambre.", "answer": ["ancora"], "bank": ["ancora", "già", "mai"], "why": "Todavía no = non… ancora.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e7", "type": "fill", "q": "Le mie amiche ___ comprato i biglietti online.", "es": "Mis amigas habían comprado las entradas por internet.", "answer": ["avevano"], "hint": "avere, loro", "why": "Ellas habían = loro avevano.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e8", "type": "conjugate", "verb": "avere", "person": "noi", "tense": "trapassato prossimo", "q": "Noi ___ già cenato.", "answer": ["avevamo"], "table": [["io", "avevo"], ["tu", "avevi"], ["lui / lei", "aveva"], ["noi", "avevamo"], ["voi", "avevate"], ["loro", "avevano"]], "why": "Noi avevamo + participio.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e9", "type": "conjugate", "verb": "leggere", "person": "io", "tense": "trapassato prossimo", "q": "Avevo già ___ il libro.", "answer": ["letto"], "why": "Leggere → letto.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e10", "type": "error", "q": "Quando sono arrivata, avevo già prenotare.", "wrong": "prenotare", "fix": "prenotato", "why": "Detrás de avevo va el participio: prenotato.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e11", "type": "error", "q": "Quando sono arrivata, mio marito avevo già cucinato.", "wrong": "avevo", "fix": "aveva", "why": "Mio marito es lui: aveva cucinato.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e12", "type": "transform", "instr": "Pásala al trapassato (había…)", "q": "Ho dimenticato il portafoglio.", "answer": ["Avevo dimenticato il portafoglio."], "why": "Ho → avevo; el participio no cambia.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e13", "type": "order", "es": "Ya había reservado la mesa.", "answer": "Avevo già prenotato il tavolo", "extra": ["ho"], "why": "Già va entre avevo y el participio.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e14", "type": "translate", "dir": "to", "q": "Nunca antes había comido culatello.", "answer": ["Non avevo mai mangiato il culatello prima.", "Non avevo mai mangiato culatello prima.", "Prima non avevo mai mangiato il culatello."], "why": "Non avevo mai + participio + prima.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e15", "type": "translate", "dir": "from", "q": "Avevo lasciato il telefono in camera.", "answer": ["Había dejado el teléfono en la habitación.", "Había dejado el móvil en la habitación.", "Me había dejado el móvil en la habitación."], "why": "Avevo lasciato = había dejado.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e16", "type": "situation", "context": "En recepción no encuentran tu reserva. Quieres decir que la habías hecho por internet.", "emoji": "🏨", "options": ["Ma avevo prenotato online!", "Ma prenoterò online!", "Ma prenotavo online!"], "answer": "Ma avevo prenotato online!", "why": "Algo hecho antes de llegar: avevo prenotato.", "g": "it-g-trapassato-prossimo" }
+  ],
+  "dialog": {
+    "title": "La reserva perdida",
+    "setting": "Yolanda llega a un hotel de Ravenna y hay un problema con la reserva",
+    "emoji": "🏨",
+    "lines": [
+      { "who": "Receptionist", "t": "Buonasera. Mi dispiace, non trovo la sua prenotazione.", "es": "Buenas noches. Lo siento, no encuentro su reserva." },
+      { "who": "Yolanda", "t": "Ma come? Avevo prenotato un mese fa!", "es": "¿Cómo? ¡Había reservado hace un mes!" },
+      { "who": "Receptionist", "t": "Aveva ricevuto un'email di conferma?", "es": "¿Había recibido un correo de confirmación?" },
+      { "who": "Yolanda", "t": "Sì, mio figlio l'aveva stampata. Eccola.", "es": "Sí, mi hijo lo había imprimido. Aquí está." },
+      { "who": "Receptionist", "t": "Ah, ecco! Avevamo scritto male il cognome.", "es": "¡Ah, ya está! Habíamos escrito mal el apellido." },
+      { "who": "Yolanda", "t": "Meno male! Ero preoccupata.", "es": "¡Menos mal! Estaba preocupada." },
+      { "who": "Receptionist", "t": "Ecco la chiave. Camera 12, al primo piano.", "es": "Aquí tiene la llave. Habitación 12, en el primer piso." }
+    ],
+    "questions": [
+      { "q": "¿Cuándo había reservado Yolanda?", "options": ["Hace un mes", "Ayer", "Hace un año"], "answer": "Hace un mes" },
+      { "q": "¿Quién había imprimido el correo?", "options": ["Su hijo", "Su marido", "Una amiga"], "answer": "Su hijo" },
+      { "q": "¿Cuál era el problema?", "options": ["El apellido mal escrito", "El hotel estaba lleno", "La fecha era otra"], "answer": "El apellido mal escrito" }
+    ]
+  },
+  "realLife": { "t": "Avevo prenotato a nome di Yolanda.", "es": "Había reservado a nombre de Yolanda.", "context": "Para explicar tu reserva en un hotel o un restaurante" },
+  "same": {
+    "text": "El trapassato prossimo funciona como nuestro pluscuamperfecto: «había» + participio.",
+    "examples": [
+      { "t": "avevo visto", "es": "había visto" },
+      { "t": "avevo mangiato", "es": "había comido" },
+      { "t": "aveva dimenticato", "es": "había olvidado" }
+    ]
+  },
+  "summary": [
+    "Trapassato = avevo, avevi, aveva… + participio.",
+    "Sirve para una acción anterior a otra pasada: avevo già prenotato.",
+    "Già (ya), non… ancora (todavía no), mai prima (nunca antes).",
+    "Participios con doble: fatto, detto, letto, messo."
+  ],
+  "reviewed": false
+}

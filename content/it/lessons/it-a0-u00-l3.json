@@ -1,0 +1,123 @@
+{
+  "id": "it-a0-u00-l3",
+  "unit": "it-a0-u00",
+  "title": "Famiglia y lasagne: gli y gn",
+  "goal": "a pronunciar gli (como una «ll» suave) y gn (como nuestra ñ)",
+  "emoji": "👨‍👩‍👦",
+  "photoQuery": "homemade lasagna italian kitchen",
+  "vocab": [
+    { "id": "la-famiglia", "t": "la famiglia", "es": "la familia", "emoji": "👨‍👩‍👧", "pos": "n",
+      "ex": { "t": "La mia famiglia è grande.", "es": "Mi familia es grande." } },
+    { "id": "mio-figlio", "t": "mio figlio", "es": "mi hijo", "emoji": "👦", "pos": "phrase",
+      "ex": { "t": "Mio figlio si chiama Hugo.", "es": "Mi hijo se llama Hugo." } },
+    { "id": "l-aglio", "t": "l'aglio", "es": "el ajo", "emoji": "🧄", "pos": "n",
+      "ex": { "t": "Pasta con aglio e olio.", "es": "Pasta con ajo y aceite." } },
+    { "id": "la-bottiglia", "t": "la bottiglia", "es": "la botella", "emoji": "🍾", "pos": "n",
+      "ex": { "t": "Una bottiglia d'acqua, per favore.", "es": "Una botella de agua, por favor." } },
+    { "id": "il-bagno", "t": "il bagno", "es": "el baño", "emoji": "🚻", "pos": "n",
+      "ex": { "t": "Scusi, dov'è il bagno?", "es": "Perdone, ¿dónde está el baño?" } },
+    { "id": "la-montagna", "t": "la montagna", "es": "la montaña", "emoji": "⛰️", "pos": "n",
+      "ex": { "t": "Amo la montagna.", "es": "Me encanta la montaña." } },
+    { "id": "la-spagna", "t": "la Spagna", "es": "España", "emoji": "🇪🇸", "pos": "n",
+      "ex": { "t": "Vengo dalla Spagna.", "es": "Vengo de España." } },
+    { "id": "gli-gnocchi", "t": "gli gnocchi", "es": "los ñoquis", "emoji": "🥟", "pos": "n",
+      "ex": { "t": "Gli gnocchi della nonna!", "es": "¡Los ñoquis de la abuela!" } },
+    { "id": "le-lasagne", "t": "le lasagne", "es": "la lasaña", "emoji": "🫕", "pos": "n",
+      "ex": { "t": "Le lasagne sono pronte.", "es": "La lasaña está lista." },
+      "note": "En italiano se suele decir en plural: le lasagne." }
+  ],
+  "pron": {
+    "title": "gli = «ll» suave · gn = ñ",
+    "tip": "Gli suena como la «ll» de quien la distingue de la y, muy suave: famiglia. Y gn es nuestra ñ: Spagna se lee «Spaña». ¡Fácil!",
+    "words": ["famiglia", "figlio", "aglio", "Spagna", "gnocchi"],
+    "pairs": [["figli", "fili"], ["sogno", "sonno"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "minimal", "pair": ["figli", "fili"], "answer": "figli", "es": ["hijos", "hilos"],
+      "why": "Figli lleva el sonido «lli»; fili, una l normal." },
+    { "id": "e2", "type": "choose", "q": "Ho una ___ grande.", "es": "Tengo una familia grande.", "options": ["famiglia", "familia", "famillia"], "answer": "famiglia",
+      "why": "Para el sonido «lli» el italiano escribe gli: famiglia." },
+    { "id": "e3", "type": "speak", "t": "La mia famiglia è in Spagna.", "es": "Mi familia está en España." },
+    { "id": "e4", "type": "minimal", "pair": ["agnello", "anello"], "answer": "anello", "es": ["el cordero", "el anillo"],
+      "why": "Agnello lleva ñ («añello»); anello, una n normal." },
+    { "id": "e5", "type": "choose", "q": "Vengo dalla ___.", "es": "Vengo de España.", "options": ["Spagna", "Spaña", "Spania"], "answer": "Spagna",
+      "why": "El italiano no tiene ñ: escribe gn. Spagna se lee «Spaña»." },
+    { "id": "e6", "type": "fill", "q": "Scusi, dov'è il ___?", "es": "Perdone, ¿dónde está el baño?", "answer": ["bagno"], "bank": ["bagno", "baño", "bano"],
+      "why": "Baño en italiano es bagno: la ñ se escribe gn." },
+    { "id": "e7", "type": "match", "pairs": [["famiglia", "familia"], ["Spagna", "España"], ["bagno", "baño"], ["aglio", "ajo"], ["montagna", "montaña"]],
+      "why": "Muchas palabras solo cambian ñ por gn y ll por gli." },
+    { "id": "e8", "type": "minimal", "pair": ["sogno", "sonno"], "answer": "sogno", "es": ["el sueño (lo que sueñas)", "el sueño (ganas de dormir)"],
+      "why": "Sogno lleva ñ («soño»); sonno lleva doble n." },
+    { "id": "e9", "type": "choose", "q": "Pasta con ___ e olio.", "es": "Pasta con ajo y aceite.", "options": ["aglio", "ajo", "allio"], "answer": "aglio",
+      "why": "Ajo es aglio: gli suena como una «ll» suave." },
+    { "id": "e10", "type": "order", "es": "Mi hijo se llama Hugo.", "answer": "Mio figlio si chiama Hugo", "extra": ["famiglia"],
+      "why": "Mio figlio = mi hijo; si chiama = se llama." },
+    { "id": "e11", "type": "error", "q": "Vengo dalla Spania.", "wrong": "Spania", "fix": "Spagna", "es": "Vengo de España.",
+      "why": "El sonido ñ se escribe gn: Spagna." },
+    { "id": "e12", "type": "fill", "q": "Una ___ d'acqua, per favore.", "es": "Una botella de agua, por favor.", "answer": ["bottiglia"], "bank": ["bottiglia", "botella", "bottilla"],
+      "why": "Botella es bottiglia: doble t y gli." },
+    { "id": "e13", "type": "speak", "t": "Gli gnocchi sono buonissimi!", "es": "¡Los ñoquis están buenísimos!" },
+    { "id": "e14", "type": "translate", "dir": "to", "q": "La lasaña está lista.", "answer": ["Le lasagne sono pronte", "La lasagna è pronta"],
+      "why": "En italiano se suele decir en plural: le lasagne sono pronte." },
+    { "id": "e15", "type": "situation", "context": "En un restaurante de Roma necesitas ir al baño. ¿Qué preguntas?", "emoji": "🚻",
+      "options": ["Scusi, dov'è il bagno?", "Scusi, dov'è la bottiglia?", "Scusi, dov'è la montagna?"],
+      "answer": "Scusi, dov'è il bagno?",
+      "why": "Il bagno es el baño. Scusi = perdone." },
+    { "id": "e16", "type": "minimal", "pair": ["foglia", "folla"], "answer": "foglia", "es": ["la hoja", "la multitud"],
+      "why": "Foglia lleva gli («folla» suave); folla lleva doble l." },
+    { "id": "e17", "type": "order", "es": "Los ñoquis de la abuela.", "answer": "Gli gnocchi della nonna", "extra": ["lasagne"],
+      "why": "Gnocchi empieza con el sonido ñ; delante va el artículo gli." },
+    { "id": "e18", "type": "translate", "dir": "from", "q": "Amo la montagna.", "answer": ["Me encanta la montaña", "Amo la montaña"],
+      "why": "Montagna = montaña: gn suena ñ." },
+    { "id": "e19", "type": "speak", "t": "Mio figlio ama le lasagne.", "es": "A mi hijo le encanta la lasaña." },
+    { "id": "e20", "type": "reading", "kind": "menu", "title": "Trattoria da Gina",
+      "text": "Gnocchi al pomodoro – 9 €\nLasagne della nonna – 11 €\nSpaghetti aglio e olio – 8 €\nAcqua (bottiglia) – 2 €",
+      "questions": [
+        { "q": "¿Qué plato lleva ajo?", "options": ["Los espaguetis", "Los ñoquis", "La lasaña"], "answer": "Los espaguetis" },
+        { "q": "¿Cuánto cuesta la lasaña?", "options": ["11 €", "9 €", "8 €"], "answer": "11 €" }
+      ] }
+  ],
+  "dialog": {
+    "title": "La foto de familia",
+    "setting": "En un tren de Roma a Nápoles",
+    "emoji": "🚆",
+    "lines": [
+      { "who": "Carla", "t": "Che bella foto! È la sua famiglia?", "es": "¡Qué foto tan bonita! ¿Es su familia?" },
+      { "who": "Yolanda", "t": "Sì! Questo è mio figlio, Hugo.", "es": "¡Sí! Este es mi hijo, Hugo." },
+      { "who": "Carla", "t": "Lei è spagnola?", "es": "¿Usted es española?" },
+      { "who": "Yolanda", "t": "Sì, vengo dalla Spagna.", "es": "Sí, vengo de España." },
+      { "who": "Carla", "t": "Io amo la Spagna! E la paella!", "es": "¡Me encanta España! ¡Y la paella!" },
+      { "who": "Yolanda", "t": "E io amo le lasagne e gli gnocchi!", "es": "¡Y a mí me encantan la lasaña y los ñoquis!" },
+      { "who": "Carla", "t": "Allora Lei è un po' italiana!", "es": "¡Entonces es usted un poco italiana!" }
+    ],
+    "questions": [
+      { "q": "¿Dónde están?", "options": ["En un tren", "En un bar", "En una iglesia"], "answer": "En un tren" },
+      { "q": "¿Quién sale en la foto?", "options": ["Hugo, el hijo de Yolanda", "La nieta de Carla", "Un amigo"], "answer": "Hugo, el hijo de Yolanda" },
+      { "q": "¿Qué le encanta a Yolanda?", "options": ["La lasaña y los ñoquis", "La paella", "El ajo"], "answer": "La lasaña y los ñoquis" }
+    ]
+  },
+  "realLife": { "t": "Scusi, dov'è il bagno?", "es": "Perdone, ¿dónde está el baño?", "context": "En un restaurante, un museo o una estación" },
+  "same": {
+    "text": "Igual que en español: muchas palabras solo cambian la ñ por gn y la ll por gli.",
+    "examples": [
+      { "t": "la Spagna", "es": "España" },
+      { "t": "la montagna", "es": "la montaña" },
+      { "t": "il bagno", "es": "el baño" },
+      { "t": "il ragno", "es": "la araña" }
+    ]
+  },
+  "falseFriend": {
+    "word": "la camera",
+    "means": "la habitación",
+    "looksLike": "la cámara (de fotos)",
+    "emoji": "🛏️",
+    "tip": "«Una camera doppia» es una habitación doble en el hotel. La cámara de fotos es «la macchina fotografica»."
+  },
+  "summary": [
+    "gli suena como una «ll» suave: famiglia, figlio",
+    "gn suena como nuestra ñ: Spagna, bagno",
+    "Muchas palabras se parecen: montagna = montaña",
+    "Para el baño: Scusi, dov'è il bagno?"
+  ],
+  "reviewed": false
+}

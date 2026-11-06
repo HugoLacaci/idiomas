@@ -1,0 +1,61 @@
+{
+  "id": "en-b1-u06-c2",
+  "unit": "en-b1-u06",
+  "title": "La fiesta sorpresa",
+  "setting": "Emma ha visto en Instagram las fotos de tu fiesta de cumpleaños y te pregunta por ella.",
+  "emoji": "🎈",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Happy birthday, Yolanda! I saw the photos. Was it a surprise party?", "es": "¡Feliz cumpleaños, Yolanda! He visto las fotos. ¿Era una fiesta sorpresa?" },
+      "options": [
+        { "t": "Thank you! Yes, it was organised by my son.", "es": "¡Gracias! Sí, la organizó mi hijo.", "next": "n2", "ok": true },
+        { "t": "Thank you! Yes, it was organise by my son.", "es": "¡Gracias! Sí, la organizó mi hijo.", "next": "n2", "ok": false, "feedback": "Falta la -d del participio: was organised." },
+        { "t": "Thank you! Yes, it was organised for my son.", "es": "¡Gracias! Sí, la organizó mi hijo.", "next": "n2", "ok": false, "feedback": "For = para. Quien la organizó va con by: by my son." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "How sweet! Who was invited?", "es": "¡Qué detalle! ¿A quién invitaron?" },
+      "options": [
+        { "t": "All my friends were invited. And the neighbours!", "es": "Invitaron a todas mis amigas. ¡Y a los vecinos!", "next": "n3", "ok": true },
+        { "t": "All my friends was invited. And the neighbours!", "es": "Invitaron a todas mis amigas. ¡Y a los vecinos!", "next": "n3", "ok": false, "feedback": "Friends es plural: were invited." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "That cake looks amazing. Where was it bought?", "es": "Esa tarta tiene una pinta increíble. ¿Dónde la compraron?" },
+      "options": [
+        { "t": "It wasn't bought. It was made by my grandson!", "es": "No la compraron. ¡La hizo mi nieto!", "next": "n4", "ok": true },
+        { "t": "It wasn't bought. It was make by my grandson!", "es": "No la compraron. ¡La hizo mi nieto!", "next": "n4", "ok": false, "feedback": "Participio de make: made. It was made." },
+        { "t": "It didn't bought. It was made by my grandson!", "es": "No la compraron. ¡La hizo mi nieto!", "next": "n4", "ok": false, "feedback": "La negativa de la pasiva va con wasn't, no con didn't: It wasn't bought." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Wow! How many candles were there?", "es": "¡Hala! ¿Cuántas velas había?" },
+      "options": [
+        { "t": "Only one! The others were forgotten at home.", "es": "¡Solo una! Las demás se quedaron olvidadas en casa.", "next": "n5", "ok": true },
+        { "t": "Only one! The others were forgot at home.", "es": "¡Solo una! Las demás se quedaron olvidadas en casa.", "next": "n5", "ok": false, "feedback": "Forget → forgot → forgotten. Were forgotten." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ha ha! Did you make a wish?", "es": "¡Ja, ja! ¿Pediste un deseo?" },
+      "options": [
+        { "t": "Of course! Then I blew out the candle.", "es": "¡Claro! Luego soplé la vela.", "next": "n6", "ok": true },
+        { "t": "Of course! Then I blowed out the candle.", "es": "¡Claro! Luego soplé la vela.", "next": "n6", "ok": false, "feedback": "Blow es irregular: blew." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Lovely. Many happy returns, Yolanda!", "es": "Precioso. ¡Que cumplas muchos más, Yolanda!" },
+      "options": [
+        { "t": "Thank you, Emma! Cheers!", "es": "¡Gracias, Emma! ¡Salud!", "next": "end", "ok": true },
+        { "t": "Thank you, Emma! I have a big compromise with you.", "es": "¡Gracias, Emma! Te debo una.", "next": "end", "ok": false, "feedback": "¡Falso amigo! Compromise es un acuerdo. Para dar las gracias basta con Thank you!" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

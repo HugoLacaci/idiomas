@@ -1,0 +1,79 @@
+{
+  "id": "it-a2-u10-l3",
+  "unit": "it-a2-u10",
+  "title": "Vorrei una camera con vista",
+  "goal": "a reservar y preguntar con educación en el hotel con vorrei, potrebbe y mi piacerebbe",
+  "emoji": "🏨",
+  "photoQuery": "venice hotel window canal view",
+  "vocab": [
+    { "id": "futuro-vorrei-prenotare", "t": "Vorrei prenotare una camera.", "es": "Querría reservar una habitación.", "emoji": "🛏️", "pos": "phrase", "ex": { "t": "Buongiorno, vorrei prenotare una camera per due notti.", "es": "Buenos días, querría reservar una habitación para dos noches." } },
+    { "id": "futuro-camera-doppia", "t": "una camera doppia", "es": "una habitación doble", "emoji": "👫", "pos": "phrase", "ex": { "t": "Avete una camera doppia per stasera?", "es": "¿Tienen una habitación doble para esta noche?" }, "note": "Matrimonial = camera matrimoniale; individual = camera singola." },
+    { "id": "futuro-camera-libera", "t": "Avete una camera libera?", "es": "¿Tienen una habitación libre?", "emoji": "🔑", "pos": "phrase", "ex": { "t": "Scusi, avete una camera libera per il fine settimana?", "es": "Perdone, ¿tienen una habitación libre para el fin de semana?" } },
+    { "id": "futuro-colazione-inclusa", "t": "La colazione è inclusa?", "es": "¿El desayuno está incluido?", "emoji": "🥐", "pos": "phrase", "ex": { "t": "Scusi, la colazione è inclusa nel prezzo?", "es": "Perdone, ¿el desayuno está incluido en el precio?" } },
+    { "id": "futuro-potrebbe-aiutarmi", "t": "Potrebbe aiutarmi?", "es": "¿Podría ayudarme?", "emoji": "🙋‍♀️", "pos": "phrase", "ex": { "t": "Scusi, potrebbe aiutarmi con la valigia?", "es": "Perdone, ¿podría ayudarme con la maleta?" } },
+    { "id": "futuro-mi-piacerebbe", "t": "mi piacerebbe…", "es": "me gustaría…", "emoji": "💫", "pos": "phrase", "ex": { "t": "Mi piacerebbe vedere Venezia di notte.", "es": "Me gustaría ver Venecia de noche." } },
+    { "id": "futuro-potresti", "t": "Potresti…?", "es": "¿Podrías…?", "emoji": "🤝", "pos": "phrase", "ex": { "t": "Potresti controllare l'orario del treno?", "es": "¿Podrías mirar el horario del tren?" } },
+    { "id": "futuro-la-conferma", "t": "la conferma", "es": "la confirmación", "emoji": "📧", "pos": "n", "ex": { "t": "Mi può mandare la conferma per email?", "es": "¿Me puede mandar la confirmación por correo?" } },
+    { "id": "futuro-cancellare-prenotazione", "t": "cancellare la prenotazione", "es": "anular la reserva", "emoji": "❌", "pos": "phrase", "ex": { "t": "Vorrei cancellare la prenotazione, per favore.", "es": "Querría anular la reserva, por favor." }, "note": "También se dice disdire la prenotazione." }
+  ],
+  "grammar": "it-g-condizionale-cortesia",
+  "pron": {
+    "title": "La doble r de vorrei",
+    "tip": "Vorrei lleva rr: la erre vibra como en «perro», no como en «pero». Vorrei suena firme; vorei no existe.",
+    "words": ["vorrei", "vorremmo", "potrebbe", "piacerebbe"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Buongiorno, ___ prenotare una camera doppia.", "es": "Buenos días, querría reservar una habitación doble.", "options": ["vorrei", "voglio", "vorrebbe"], "answer": "vorrei", "why": "Para pedir con educación: vorrei.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e2", "type": "choose", "q": "Scusi, ___ aiutarmi con la valigia?", "es": "Perdone, ¿podría ayudarme con la maleta?", "options": ["potrebbe", "potresti", "posso"], "answer": "potrebbe", "why": "Con un desconocido (Lei): potrebbe.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e3", "type": "choose", "q": "Avete una camera ___ per stanotte?", "es": "¿Tienen una habitación libre para esta noche?", "options": ["libera", "inclusa", "doppio"], "answer": "libera", "why": "Camera es femenino: libera.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e4", "type": "fill", "q": "Mi ___ fare un giro in gondola al tramonto.", "es": "Me gustaría dar una vuelta en góndola al atardecer.", "answer": ["piacerebbe"], "bank": ["piacerebbe", "piace", "piacerei"], "why": "Mi piacerebbe = me gustaría.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e5", "type": "fill", "q": "La colazione è ___?", "es": "¿El desayuno está incluido?", "answer": ["inclusa"], "bank": ["inclusa", "incluso", "libera"], "why": "La colazione es femenino: inclusa.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e6", "type": "fill", "q": "Hugo, ___ mandarmi la conferma dell'albergo?", "es": "Hugo, ¿podrías mandarme la confirmación del hotel?", "answer": ["potresti", "mi potresti"], "hint": "potere, tu", "why": "Con tu hijo hablas de tu: potresti.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e7", "type": "error", "q": "Buongiorno, voglio una camera singola.", "wrong": "voglio", "fix": "vorrei", "why": "Voglio suena brusco; en el hotel di vorrei.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e8", "type": "error", "q": "Io piacerebbe una camera tranquilla.", "wrong": "Io", "fix": "Mi", "why": "Mi piacerebbe, como mi piace.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e9", "type": "transform", "instr": "Hazla más educada", "q": "Può ripetere?", "answer": ["Potrebbe ripetere?", "Potrebbe ripetere, per favore?"], "why": "Può → potrebbe.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e10", "type": "order", "es": "Querría anular la reserva, por favor.", "answer": "Vorrei cancellare la prenotazione per favore", "extra": ["voglio"], "why": "Vorrei + infinitivo.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e11", "type": "translate", "dir": "to", "q": "¿Tienen una habitación doble?", "answer": ["Avete una camera doppia?", "Avete una camera doppia libera?"], "why": "Al hotel se le habla en plural: avete.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e12", "type": "translate", "dir": "from", "q": "Mi piacerebbe vedere Venezia di notte.", "answer": ["Me gustaría ver Venecia de noche.", "Me gustaría ver Venecia por la noche."], "why": "Mi piacerebbe = me gustaría.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e13", "type": "situation", "context": "Al reservar por teléfono, quieres saber si el desayuno entra en el precio.", "emoji": "🥐", "options": ["La colazione è inclusa?", "La colazione è libera?", "Vorrei la colazione inclusa domani?"], "answer": "La colazione è inclusa?", "why": "Incluido = incluso / inclusa.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e14", "type": "match", "pairs": [["Vorrei prenotare…", "Querría reservar…"], ["Potrebbe aiutarmi?", "¿Podría ayudarme?"], ["Potresti…?", "¿Podrías…?"], ["Mi piacerebbe…", "Me gustaría…"], ["la conferma", "la confirmación"]], "why": "Frases amables para reservar.", "g": "it-g-condizionale-cortesia" },
+    { "id": "e15", "type": "speak", "t": "Buongiorno, vorrei prenotare una camera doppia.", "es": "Buenos días, querría reservar una habitación doble." }
+  ],
+  "dialog": {
+    "title": "Reservando por teléfono",
+    "setting": "Yolanda llama a un pequeño hotel de Venecia; contesta el recepcionista, Marco",
+    "emoji": "📞",
+    "lines": [
+      { "who": "Marco", "t": "Albergo, buongiorno! Mi dica.", "es": "Hotel, ¡buenos días! Dígame." },
+      { "who": "Yolanda", "t": "Buongiorno! Vorrei prenotare una camera doppia per tre notti.", "es": "¡Buenos días! Querría reservar una habitación doble para tres noches." },
+      { "who": "Marco", "t": "Certo. Per quando?", "es": "Claro. ¿Para cuándo?" },
+      { "who": "Yolanda", "t": "Dal dieci maggio. Mi piacerebbe una camera con vista sul canale.", "es": "Desde el diez de mayo. Me gustaría una habitación con vistas al canal." },
+      { "who": "Marco", "t": "Abbiamo una camera libera al secondo piano, con vista.", "es": "Tenemos una habitación libre en el segundo piso, con vistas." },
+      { "who": "Yolanda", "t": "Perfetto! La colazione è inclusa?", "es": "¡Perfecto! ¿El desayuno está incluido?" },
+      { "who": "Marco", "t": "Sì, signora. Mi lascia un indirizzo email?", "es": "Sí, señora. ¿Me deja una dirección de correo?" },
+      { "who": "Yolanda", "t": "Certo. Potrebbe mandarmi la conferma, per favore?", "es": "Claro. ¿Podría mandarme la confirmación, por favor?" }
+    ],
+    "questions": [
+      { "q": "¿Cuántas noches quiere Yolanda?", "options": ["Tres", "Dos", "Una"], "answer": "Tres" },
+      { "q": "¿Qué le gustaría a Yolanda?", "options": ["Vistas al canal", "Una habitación individual", "Una cama extra"], "answer": "Vistas al canal" },
+      { "q": "¿Qué le pide al final?", "options": ["Que le mande la confirmación", "Que le reserve un taxi", "Que le recomiende un restaurante"], "answer": "Que le mande la confirmación" }
+    ]
+  },
+  "realLife": { "t": "Vorrei prenotare una camera doppia. La colazione è inclusa?", "es": "Querría reservar una habitación doble. ¿El desayuno está incluido?", "context": "Para reservar un hotel por teléfono" },
+  "same": {
+    "text": "Las fórmulas de cortesía son primas de las nuestras.",
+    "examples": [
+      { "t": "Potrebbe…?", "es": "¿Podría…?" },
+      { "t": "la conferma", "es": "la confirmación" },
+      { "t": "incluso", "es": "incluido" }
+    ]
+  },
+  "falseFriend": {"word":"la cartolina","means":"la postal","looksLike":"cartulina (en italiano, cartoncino)","emoji":"💌","tip":"Da Venezia manderò una cartolina alle mie amiche = desde Venecia mandaré una postal a mis amigas."},
+  "summary": [
+    "Vorrei prenotare una camera doppia: así se reserva.",
+    "Potrebbe…? para Lei; potresti…? para tu.",
+    "Mi piacerebbe + infinitivo = me gustaría.",
+    "Preguntas útiles: Avete una camera libera? La colazione è inclusa?"
+  ],
+  "reviewed": false
+}

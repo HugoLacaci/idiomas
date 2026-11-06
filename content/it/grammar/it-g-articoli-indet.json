@@ -1,0 +1,128 @@
+{
+  "id": "it-g-articoli-indet",
+  "lang": "it",
+  "level": "A1",
+  "title": "Los artículos indeterminados (un, uno, una, un')",
+  "short": "Cómo se dice «un / una» en italiano: un caffè, uno spuntino, una pasta, un'aranciata.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Un caffè, per favore",
+      "emoji": "☕",
+      "text": "En el bar siempre pedimos **un** algo: un café, un cruasán, un zumo. En italiano «un / una» tiene **cuatro** formas. ¡Tranquila, que tienen truco!",
+      "examples": [
+        { "t": "==Un== caffè, per favore.", "es": "Un café, por favor.", "hl": "Un" },
+        { "t": "==Una== spremuta d'arancia.", "es": "Un zumo de naranja natural.", "hl": "Una" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Las cuatro formas",
+      "emoji": "📋",
+      "text": "Depende del **género** de la palabra y de **cómo empieza**.",
+      "table": {
+        "head": ["", "Masculino", "Femenino"],
+        "rows": [
+          ["Casi siempre", "==un== caffè, ==un== amico", "==una== pasta, ==una== tazza"],
+          ["s + consonante, z, ps, gn, y", "==uno== zucchero, ==uno== spuntino", "==una== spremuta"],
+          ["Empieza por vocal", "==un== aperitivo", "==un'==aranciata"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Uno: el especial",
+      "emoji": "🐍",
+      "text": "Delante de **s + consonante** (st, sp, sc…), **z**, **ps**, **gn** e **y**, el masculino es ==uno==. Así suena más suave.",
+      "examples": [
+        { "t": "==uno== spuntino", "es": "un tentempié", "hl": "uno" },
+        { "t": "==uno== zucchero", "es": "un azúcar (un sobre)", "hl": "uno" },
+        { "t": "==uno== yogurt", "es": "un yogur", "hl": "uno" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Un' con apóstrofo",
+      "emoji": "✏️",
+      "text": "Si la palabra es **femenina** y empieza por **vocal**, *una* pierde la *a*: ==un'==. En masculino **nunca** hay apóstrofo: *un amico*.",
+      "examples": [
+        { "t": "==un'==amica", "es": "una amiga", "hl": "un'" },
+        { "t": "==un'==acqua minerale", "es": "un agua mineral", "hl": "un'" },
+        { "t": "==un== amico", "es": "un amigo", "hl": "un" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "En español y en italiano",
+      "emoji": "🇪🇸",
+      "text": "En español: **un** café, **una** taza. En italiano casi igual: **un** caffè, **una** tazza. Solo hay dos formas nuevas: ==uno== y ==un'==.",
+      "examples": [
+        { "t": "un cappuccino e una pasta", "es": "un capuchino y un pastelito" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo con estos!",
+      "emoji": "⚠️",
+      "text": "❌ *un spuntino* → ✅ ==uno== spuntino. ❌ *una aranciata* → ✅ ==un'==aranciata. ❌ *un'amico* → ✅ ==un== amico (masculino, sin apóstrofo)."
+    },
+    {
+      "kind": "tip",
+      "title": "Truco para recordarlo",
+      "emoji": "💡",
+      "text": "Si te cuesta pronunciar **un** delante de la palabra (*un sp…*, *un z…*), usa ==uno==. Y el apóstrofo es solo para chicas: ==un'==amica.",
+      "examples": [
+        { "t": "Vorrei uno spritz e un'aranciata.", "es": "Quería un spritz y una naranjada." }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español tenemos dos formas: un (masculino) y una (femenino): un café, una taza, un amigo, una amiga.",
+    "target": "En italiano hay cuatro: un (casi siempre), uno (delante de s + consonante, z, ps, gn, y), una (femenino) y un' (femenino delante de vocal)."
+  },
+  "errors": [
+    { "wrong": "un spuntino", "right": "uno spuntino", "why": "Delante de s + consonante el masculino es uno." },
+    { "wrong": "un zucchero", "right": "uno zucchero", "why": "Las palabras masculinas que empiezan por z llevan uno." },
+    { "wrong": "una aranciata", "right": "un'aranciata", "why": "Femenino delante de vocal: una se convierte en un'." },
+    { "wrong": "un'amico", "right": "un amico", "why": "Amico es masculino: el apóstrofo solo se usa con palabras femeninas." },
+    { "wrong": "uno cappuccino", "right": "un cappuccino", "why": "Uno es solo para s + consonante, z, ps, gn e y; con c usamos un." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Vorrei ___ caffè.", "es": "Quería un café.", "options": ["un", "uno", "una"], "answer": "un", "why": "Caffè es masculino y empieza por c: un caffè.", "g": "it-g-articoli-indet" },
+    { "id": "e2", "type": "choose", "q": "Prendo ___ pasta alla crema.", "es": "Tomo un pastelito de crema.", "options": ["un", "una", "un'"], "answer": "una", "why": "Pasta es femenina y empieza por consonante: una pasta.", "g": "it-g-articoli-indet" },
+    { "id": "e3", "type": "choose", "q": "Hugo prende ___ spuntino.", "es": "Hugo toma un tentempié.", "options": ["un", "uno", "una"], "answer": "uno", "why": "Spuntino empieza por s + consonante: uno spuntino.", "g": "it-g-articoli-indet" },
+    { "id": "e4", "type": "choose", "q": "Per me ___ aranciata.", "es": "Para mí una naranjada.", "options": ["una", "un'", "un"], "answer": "un'", "why": "Aranciata es femenina y empieza por vocal: un'aranciata.", "g": "it-g-articoli-indet" },
+    { "id": "e5", "type": "choose", "q": "C'è ___ amico di Hugo al bar.", "es": "Hay un amigo de Hugo en el bar.", "options": ["un", "un'", "uno"], "answer": "un", "why": "Amico es masculino: un amico, sin apóstrofo.", "g": "it-g-articoli-indet" },
+    { "id": "e6", "type": "choose", "q": "Mia nipote vuole ___ yogurt.", "es": "Mi nieta quiere un yogur.", "options": ["un", "uno", "una"], "answer": "uno", "why": "Delante de y el masculino es uno: uno yogurt.", "g": "it-g-articoli-indet" },
+    { "id": "e7", "type": "choose", "q": "Prendo ___ tazza di tè.", "es": "Tomo una taza de té.", "options": ["una", "un", "uno"], "answer": "una", "why": "Tazza es femenina: una tazza.", "g": "it-g-articoli-indet" },
+    { "id": "e8", "type": "choose", "q": "Vorrei ___ zucchero di canna.", "es": "Quería un azúcar moreno.", "options": ["un", "uno", "una"], "answer": "uno", "why": "Las palabras masculinas con z llevan uno: uno zucchero.", "g": "it-g-articoli-indet" },
+    { "id": "e9", "type": "fill", "q": "___ cornetto al cioccolato, per favore.", "es": "Un cruasán de chocolate, por favor.", "answer": ["Un"], "bank": ["Un", "Uno", "Una", "Un'"], "why": "Cornetto es masculino y empieza por c: un cornetto.", "g": "it-g-articoli-indet" },
+    { "id": "e10", "type": "fill", "q": "Ho ___ amica a Napoli.", "es": "Tengo una amiga en Nápoles.", "answer": ["un'"], "bank": ["un", "un'", "una", "uno"], "why": "Amica es femenina y empieza por vocal: un'amica.", "g": "it-g-articoli-indet" },
+    { "id": "e11", "type": "fill", "q": "Vorrei ___ spremuta d'arancia.", "es": "Quería un zumo de naranja natural.", "answer": ["una"], "bank": ["uno", "una", "un'"], "why": "Spremuta es femenina: una spremuta. Uno solo vale para el masculino.", "g": "it-g-articoli-indet" },
+    { "id": "e12", "type": "fill", "q": "Prendo ___ scontrino alla cassa.", "es": "Cojo un tique en la caja.", "answer": ["uno"], "bank": ["un", "uno", "una"], "why": "Scontrino empieza por s + consonante: uno scontrino.", "g": "it-g-articoli-indet" },
+    { "id": "e13", "type": "fill", "q": "Mio marito prende ___ cappuccino.", "es": "Mi marido toma un capuchino.", "answer": ["un"], "hint": "masculino, empieza por c", "why": "Cappuccino es masculino y empieza por c: un cappuccino.", "g": "it-g-articoli-indet" },
+    { "id": "e14", "type": "fill", "q": "Vorrei ___ acqua minerale.", "es": "Quería un agua mineral.", "answer": ["un'"], "hint": "femenino delante de vocal", "why": "Acqua es femenina y empieza por vocal: un'acqua.", "g": "it-g-articoli-indet" },
+    { "id": "e15", "type": "fill", "q": "Per mio nipote ___ succo di frutta.", "es": "Para mi nieto un zumo de frutas.", "answer": ["un"], "why": "Succo es masculino y empieza por s + vocal (su-): un succo. Uno solo va con s + consonante.", "g": "it-g-articoli-indet" },
+    { "id": "e16", "type": "fill", "q": "C'è ___ studente spagnolo al bar.", "es": "Hay un estudiante español en el bar.", "answer": ["uno"], "why": "Studente empieza por s + consonante (st-): uno studente.", "g": "it-g-articoli-indet" },
+    { "id": "e17", "type": "error", "q": "Vorrei un spuntino.", "wrong": "un", "fix": "uno", "es": "Quería un tentempié.", "why": "Spuntino empieza por sp-: uno spuntino.", "g": "it-g-articoli-indet" },
+    { "id": "e18", "type": "error", "q": "Prendo una aranciata.", "wrong": "una", "fix": "un'", "es": "Tomo una naranjada.", "why": "Delante de vocal, una se convierte en un': un'aranciata.", "g": "it-g-articoli-indet" },
+    { "id": "e19", "type": "error", "q": "Hugo è uno amico.", "wrong": "uno", "fix": "un", "es": "Hugo es un amigo.", "why": "Amico empieza por vocal, no por s + consonante: un amico.", "g": "it-g-articoli-indet" },
+    { "id": "e20", "type": "error", "q": "Per me uno cornetto.", "wrong": "uno", "fix": "un", "es": "Para mí un cruasán.", "why": "Cornetto empieza por c: un cornetto.", "g": "it-g-articoli-indet" },
+    { "id": "e21", "type": "error", "q": "Ho un zucchero in borsa.", "wrong": "un", "fix": "uno", "es": "Tengo un azúcar en el bolso.", "why": "Zucchero empieza por z: uno zucchero.", "g": "it-g-articoli-indet" },
+    { "id": "e22", "type": "order", "es": "Quería un café y un cruasán.", "answer": "Vorrei un caffè e un cornetto", "extra": ["uno"], "why": "Caffè y cornetto son masculinos con consonante normal: un.", "g": "it-g-articoli-indet" },
+    { "id": "e23", "type": "order", "es": "Para mí un tentempié y una naranjada.", "answer": "Per me uno spuntino e un'aranciata", "extra": ["una"], "why": "Uno delante de sp-, y un' delante de una palabra femenina con vocal.", "g": "it-g-articoli-indet" },
+    { "id": "e24", "type": "order", "es": "Tengo una amiga en Roma.", "answer": "Ho un'amica a Roma", "extra": ["una"], "why": "Amica es femenina y empieza por vocal: un'amica.", "g": "it-g-articoli-indet" },
+    { "id": "e25", "type": "translate", "dir": "to", "q": "un capuchino y un pastelito", "answer": ["un cappuccino e una pasta"], "why": "Cappuccino es masculino (un) y pasta femenino (una).", "g": "it-g-articoli-indet" },
+    { "id": "e26", "type": "translate", "dir": "to", "q": "un agua mineral", "answer": ["un'acqua minerale"], "why": "Acqua es femenina y empieza por vocal: un'acqua.", "g": "it-g-articoli-indet" },
+    { "id": "e27", "type": "translate", "dir": "from", "q": "uno zucchero e un tè", "answer": ["un azúcar y un té", "un sobre de azúcar y un té"], "why": "Uno y un significan los dos «un».", "g": "it-g-articoli-indet" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "un amigo y una amiga", "answer": ["un amico e un'amica"], "why": "Masculino sin apóstrofo (un amico), femenino con apóstrofo (un'amica).", "g": "it-g-articoli-indet" },
+    { "id": "e29", "type": "transform", "instr": "Cambia la bebida por «aranciata» (femenino)", "q": "Vorrei un succo.", "answer": ["Vorrei un'aranciata."], "why": "Aranciata es femenina y empieza por vocal: un'aranciata.", "g": "it-g-articoli-indet" },
+    { "id": "e30", "type": "transform", "instr": "Pon el femenino: amico → amica", "q": "Ho un amico a Napoli.", "answer": ["Ho un'amica a Napoli."], "why": "En femenino delante de vocal: un'amica.", "g": "it-g-articoli-indet" },
+    { "id": "e31", "type": "transform", "instr": "Cambia «cornetto» por «spuntino»", "q": "Prendo un cornetto.", "answer": ["Prendo uno spuntino."], "why": "Spuntino empieza por sp-, así que el artículo cambia a uno.", "g": "it-g-articoli-indet" },
+    { "id": "e32", "type": "match", "pairs": [["un", "caffè"], ["uno", "spuntino"], ["una", "brioche"], ["un'", "aranciata"]], "why": "Cada palabra con su artículo: un caffè, uno spuntino, una brioche, un'aranciata.", "g": "it-g-articoli-indet" },
+    { "id": "e33", "type": "choose", "q": "Il nonno legge ___ giornale al bar.", "es": "El abuelo lee un periódico en el bar.", "options": ["un", "uno", "una"], "answer": "un", "why": "Giornale es masculino y empieza por g + vocal: un giornale. Uno solo va con gn-, como uno gnocco.", "g": "it-g-articoli-indet" },
+    { "id": "e34", "type": "situation", "context": "Tu nieto tiene hambre a media mañana y quieres pedirle un tentempié.", "emoji": "🥪", "options": ["Uno spuntino, per favore.", "Un spuntino, per favore.", "Una spuntino, per favore."], "answer": "Uno spuntino, per favore.", "why": "Spuntino es masculino y empieza por sp-: uno spuntino.", "g": "it-g-articoli-indet" },
+    { "id": "e35", "type": "situation", "context": "Hace calor y quieres una naranjada fresquita.", "emoji": "🍊", "options": ["Un'aranciata, per favore.", "Una aranciata, per favore.", "Uno aranciata, per favore."], "answer": "Un'aranciata, per favore.", "why": "Femenino delante de vocal: un'aranciata.", "g": "it-g-articoli-indet" }
+  ],
+  "reviewed": false
+}

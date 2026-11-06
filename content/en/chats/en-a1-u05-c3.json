@@ -1,0 +1,60 @@
+{
+  "id": "en-a1-u05-c3",
+  "unit": "en-a1-u05",
+  "title": "Quedamos en Greenwich",
+  "setting": "Emma quiere enseñarte Greenwich y te escribe para quedar.",
+  "emoji": "🕰️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! Are you free on Thursday?", "es": "¡Hola, Yolanda! ¿Estás libre el jueves?" },
+      "options": [
+        { "t": "Sorry, I've got an appointment on Thursday.", "es": "Lo siento, tengo una cita el jueves.", "next": "n2", "ok": true },
+        { "t": "Sorry, I've got an appointment in Thursday.", "es": "Lo siento, tengo una cita el jueves.", "next": "n2", "ok": false, "feedback": "Días de la semana con on: on Thursday." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "No problem. What about Friday?", "es": "No pasa nada. ¿Y el viernes?" },
+      "options": [
+        { "t": "Friday is perfect. In the morning?", "es": "El viernes es perfecto. ¿Por la mañana?", "next": "n3", "ok": true },
+        { "t": "Friday is perfect. On the morning?", "es": "El viernes es perfecto. ¿Por la mañana?", "next": "n3", "ok": false, "feedback": "Por la mañana = in the morning." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Yes! Let's meet at the pier at half past ten.", "es": "¡Sí! Quedamos en el embarcadero a las diez y media." },
+      "options": [
+        { "t": "At half past ten. OK!", "es": "A las diez y media. ¡Vale!", "next": "n4", "ok": true },
+        { "t": "At ten and half. OK!", "es": "A las diez y media. ¡Vale!", "next": "n4", "ok": false, "feedback": "Y media = half past: half past ten." },
+        { "t": "At half to ten. OK!", "es": "A las diez y media. ¡Vale!", "next": "n4", "ok": false, "feedback": "Half past (y media), no half to." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Then we go up the hill to the Observatory. The red ball drops at one!", "es": "Luego subimos la colina hasta el Observatorio. ¡La bola roja cae a la una!" },
+      "options": [
+        { "t": "At one o'clock? Wonderful!", "es": "¿A la una en punto? ¡Maravilloso!", "next": "n5", "ok": true },
+        { "t": "At the one? Wonderful!", "es": "¿A la una? ¡Maravilloso!", "next": "n5", "ok": false, "feedback": "Con las horas no se pone the: at one (o'clock)." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "What's the date on Friday? Is it the thirteenth?", "es": "¿Qué día es el viernes? ¿Es el trece?" },
+      "options": [
+        { "t": "No, it's the fourteenth.", "es": "No, es el catorce.", "next": "n6", "ok": true },
+        { "t": "No, it's the fourteen.", "es": "No, es el catorce.", "next": "n6", "ok": false, "feedback": "Las fechas llevan ordinal: the fourteenth." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Perfect. Friday the fourteenth, half past ten. Don't be late!", "es": "Perfecto. Viernes catorce, a las diez y media. ¡No llegues tarde!" },
+      "options": [
+        { "t": "I'm never late! See you on Friday.", "es": "¡Nunca llego tarde! Nos vemos el viernes.", "next": "end", "ok": true },
+        { "t": "I'm never late! See you in Friday.", "es": "¡Nunca llego tarde! Nos vemos el viernes.", "next": "end", "ok": false, "feedback": "Días con on: See you on Friday." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

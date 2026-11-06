@@ -1,0 +1,10 @@
+node_modules
+dist
+dev-dist
+.env.local
+*.local
+test-results
+playwright-report
+design/screenshots
+.cache
+public/audio

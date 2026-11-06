@@ -1,0 +1,61 @@
+{
+  "id": "it-a1-u07-c3",
+  "unit": "it-a1-u07",
+  "title": "La cuenta, por favor",
+  "setting": "Al final de una cena con Giulia en una osteria de Lecce",
+  "emoji": "🧾",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Che cena! Come stai, Yolanda? Tutto bene?", "es": "¡Menuda cena! ¿Cómo estás, Yolanda? ¿Todo bien?" },
+      "options": [
+        { "t": "Sto benissimo, grazie!", "es": "¡Estoy estupendamente, gracias!", "next": "n2", "ok": true },
+        { "t": "Sono benissimo, grazie!", "es": "Soy estupendamente, gracias.", "next": "n2", "ok": false, "feedback": "Para decir cómo estás, usamos stare: sto benissimo." },
+        { "t": "Stai benissimo, grazie!", "es": "Estás estupendamente, gracias.", "next": "n2", "ok": false, "feedback": "Stai es «tú estás». Para «yo estoy»: sto." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Chiediamo il conto? Chiedi tu?", "es": "¿Pedimos la cuenta? ¿La pides tú?" },
+      "options": [
+        { "t": "Scusi, mi dà il conto, per favore?", "es": "Perdone, ¿me da la cuenta, por favor?", "next": "n3", "ok": true },
+        { "t": "Scusi, mi da la conto, per favore?", "es": "Perdone, ¿me da la cuenta, por favor?", "next": "n3", "ok": false, "feedback": "Dos detalles: dà con tilde (verbo dare) y conto es masculino: il conto." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Ecco il conto. Paghiamo con la carta?", "es": "Aquí está la cuenta. ¿Pagamos con tarjeta?" },
+      "options": [
+        { "t": "Sì. Scusi, posso pagare con la carta?", "es": "Sí. Perdone, ¿puedo pagar con tarjeta?", "next": "n4", "ok": true },
+        { "t": "Sì. Scusi, posso pagare con la lettera?", "es": "Sí. Perdone, ¿puedo pagar con la carta (de correo)?", "next": "n4", "ok": false, "feedback": "Para pagar se usa la carta (la tarjeta). La lettera es una carta de correo." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Il cameriere è molto gentile. Lasciamo una mancia?", "es": "El camarero es muy amable. ¿Dejamos propina?" },
+      "options": [
+        { "t": "Sì, diamo una mancia.", "es": "Sí, le damos una propina.", "next": "n5", "ok": true },
+        { "t": "Sì, diamo una macchia.", "es": "Sí, le damos una mancha.", "next": "n5", "ok": false, "feedback": "¡Cuidado! La macchia es una mancha. La propina es la mancia." },
+        { "t": "Sì, dammo una mancia.", "es": "Sí, damos una propina.", "next": "n5", "ok": false, "feedback": "Dare con noi es diamo." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Brava! E adesso che cosa facciamo?", "es": "¡Muy bien! ¿Y ahora qué hacemos?" },
+      "options": [
+        { "t": "Facciamo una passeggiata in centro?", "es": "¿Damos un paseo por el centro?", "next": "n6", "ok": true },
+        { "t": "Diamo una passeggiata in centro?", "es": "¿Damos un paseo por el centro?", "next": "n6", "ok": false, "feedback": "En italiano «dar un paseo» se dice fare una passeggiata." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Sì! Le chiese di notte sono bellissime. Fa ancora caldo, però!", "es": "¡Sí! Las iglesias de noche son preciosas. ¡Aunque todavía hace calor!" },
+      "options": [
+        { "t": "Allora beviamo una granita dopo!", "es": "¡Pues luego tomamos un granizado!", "next": "end", "ok": true },
+        { "t": "Allora beriamo una granita dopo!", "es": "¡Pues luego tomamos un granizado!", "next": "end", "ok": false, "feedback": "Bere con noi: beviamo." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

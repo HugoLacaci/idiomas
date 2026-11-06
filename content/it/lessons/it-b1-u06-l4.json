@@ -1,0 +1,87 @@
+{
+  "id": "it-b1-u06-l4",
+  "unit": "it-b1-u06",
+  "title": "Spero di venire, spero che tu venga",
+  "goal": "a elegir entre di + infinitivo y che + congiuntivo, a usar los congiuntivi irregulares y a pronunciar la g suave",
+  "emoji": "🧩",
+  "photoQuery": "umbria green hills countryside",
+  "vocab": [
+    { "id": "studio-il-congiuntivo", "t": "il congiuntivo", "es": "el subjuntivo", "emoji": "🧩", "pos": "n", "ex": { "t": "Il congiuntivo è difficile, ma bellissimo.", "es": "El subjuntivo es difícil, pero precioso." } },
+    { "id": "studio-imparare", "t": "imparare", "es": "aprender", "emoji": "🧠", "pos": "v", "ex": { "t": "Voglio imparare il congiuntivo entro l'estate.", "es": "Quiero aprender el subjuntivo antes del verano." }, "note": "¡Ojo! Falso amigo: no es «amparar»." },
+    { "id": "studio-oggi", "t": "oggi", "es": "hoy", "emoji": "📅", "pos": "adv", "ex": { "t": "Oggi è importante che io ripassi i verbi.", "es": "Hoy es importante que repase los verbos." } },
+    { "id": "studio-ogni-giorno", "t": "ogni giorno", "es": "cada día", "emoji": "🗓️", "pos": "phrase", "ex": { "t": "È meglio studiare un po' ogni giorno.", "es": "Es mejor estudiar un poco cada día." } },
+    { "id": "studio-gentile", "t": "gentile", "es": "amable", "emoji": "🤗", "pos": "adj", "ex": { "t": "Spero che la nuova insegnante sia gentile.", "es": "Espero que la nueva profesora sea amable." } },
+    { "id": "studio-il-viaggio-studio", "t": "il viaggio studio", "es": "el viaje de estudios", "emoji": "✈️", "pos": "n", "ex": { "t": "Quest'estate vorrei fare un viaggio studio in Italia.", "es": "Este verano me gustaría hacer un viaje de estudios a Italia." } },
+    { "id": "studio-la-lezione", "t": "la lezione", "es": "la clase, la lección", "emoji": "🏫", "pos": "n", "ex": { "t": "Spero che la lezione di oggi non sia troppo lunga.", "es": "Espero que la clase de hoy no sea demasiado larga." } },
+    { "id": "studio-giusto", "t": "giusto", "es": "correcto, justo", "emoji": "✔️", "pos": "adj", "ex": { "t": "La tua risposta è giusta, brava!", "es": "Tu respuesta es correcta, ¡muy bien!" } }
+  ],
+  "grammar": "it-g-congiuntivo-espressioni",
+  "pron": {
+    "title": "La g suave: congiuntivo, oggi, giorno",
+    "tip": "Ge y gi suenan como una «y» fuerte de «¡yo!» o la j inglesa de «jeans»: gentile, congiuntivo. En gia, gio, giu la i no se oye: gior-no. Con doble g se apoya más: og-gi.",
+    "words": ["congiuntivo", "oggi", "giorno", "gentile", "viaggio", "giusto", "Perugia"],
+    "pairs": [["gelo", "cielo"], ["oggi", "occhi"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Spero ___ venire a Perugia in estate.", "es": "Espero venir a Perugia en verano.", "options": ["di", "che", "a"], "answer": "di", "why": "Mismo sujeto (yo espero, yo vengo): spero di + infinitivo.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e2", "type": "choose", "q": "Spero che tu ___ con me a Perugia.", "es": "Espero que vengas conmigo a Perugia.", "options": ["venga", "vieni", "venire"], "answer": "venga", "why": "Sujetos distintos (yo espero, tú vienes): che + congiuntivo. Venire → venga.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e3", "type": "situation", "context": "Das un consejo general a una amiga que empieza a estudiar italiano.", "emoji": "💡", "options": ["È importante studiare un po' ogni giorno.", "È importante di studiare un po' ogni giorno.", "È importante che studiare un po' ogni giorno."], "answer": "È importante studiare un po' ogni giorno.", "why": "Para un consejo general, è importante + infinitivo, sin di.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e4", "type": "choose", "q": "Voglio che mio marito ___ la cena stasera!", "es": "¡Quiero que mi marido haga la cena esta noche!", "options": ["faccia", "fa", "fare"], "answer": "faccia", "why": "Voglio che + otra persona → congiuntivo. Fare → faccia (como faccio).", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e5", "type": "fill", "q": "Bisogna che tu ___ dal medico prima del viaggio.", "es": "Hace falta que vayas al médico antes del viaje.", "answer": ["vada"], "bank": ["vada", "vai", "andare"], "why": "Andare en congiuntivo: vada (como vado).", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e6", "type": "fill", "q": "Sono contenta ___ essere qui con voi.", "es": "Me alegro de estar aquí con vosotros.", "answer": ["di"], "bank": ["di", "che", "per"], "why": "Mismo sujeto: sono contenta di + infinitivo.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e7", "type": "conjugate", "verb": "sapere", "person": "loro", "tense": "congiuntivo presente", "q": "È importante che gli studenti ___ usare il congiuntivo.", "answer": ["sappiano"], "table": [["io / tu / lui", "sappia"], ["noi", "sappiamo"], ["voi", "sappiate"], ["loro", "sappiano"]], "why": "Sapere es irregular: sappia… sappiano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e8", "type": "conjugate", "verb": "dovere", "person": "tu", "tense": "congiuntivo presente", "q": "È un peccato che tu ___ partire domani.", "answer": ["debba", "deva"], "why": "Dovere en congiuntivo: debba (también deva, menos usado).", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e9", "type": "conjugate", "verb": "stare", "person": "voi", "tense": "congiuntivo presente", "q": "Spero che ___ tutti bene!", "answer": ["stiate"], "table": [["io / tu / lui", "stia"], ["noi", "stiamo"], ["voi", "stiate"], ["loro", "stiano"]], "why": "Stare: stia, stiamo, stiate, stiano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e10", "type": "error", "q": "Spero che tu puoi venire alla festa.", "wrong": "puoi", "fix": "possa", "why": "Tras spero che, congiuntivo: possa (como posso).", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e11", "type": "error", "q": "Voglio che i miei amici vengono a cena.", "wrong": "vengono", "fix": "vengano", "why": "Voglio che + congiuntivo: vengano. Vengono es el presente normal.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e12", "type": "transform", "instr": "Ahora eres tú quien va a venir: usa «spero di» + infinitivo", "q": "Spero che tu venga presto a Perugia.", "answer": ["Spero di venire presto a Perugia."], "why": "Si quien espera y quien viene es la misma persona: spero di venire.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "Espero que hagas buen viaje.", "answer": ["Spero che tu faccia buon viaggio.", "Spero che tu faccia un buon viaggio."], "why": "Spero che + congiuntivo: tu faccia.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e14", "type": "order", "es": "Quiero que mis amigas vengan conmigo.", "answer": "Voglio che le mie amiche vengano con me", "extra": ["vengono"], "why": "Voglio che + congiuntivo: vengano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e15", "type": "minimal", "pair": ["oggi", "occhi"], "answer": "oggi", "es": ["hoy", "ojos"], "why": "Oggi tiene la g suave de giorno; occhi suena con k." },
+    { "id": "e16", "type": "minimal", "pair": ["vengano", "vengono"], "answer": "vengano", "es": ["que vengan", "vienen"], "why": "-ano es congiuntivo (che vengano); -ono es el presente normal (vengono).", "g": "it-g-congiuntivo-espressioni" }
+  ],
+  "dialog": {
+    "title": "Un viaje de estudios",
+    "setting": "Al terminar la clase, Yolanda le cuenta a su profesora Marta un plan para el verano",
+    "emoji": "✈️",
+    "lines": [
+      { "who": "Yolanda", "t": "Marta, vorrei fare un corso a Perugia quest'estate.", "es": "Marta, me gustaría hacer un curso en Perugia este verano." },
+      { "who": "Marta", "t": "Che bella idea! All'Università per Stranieri, vero?", "es": "¡Qué buena idea! En la Universidad para Extranjeros, ¿verdad?" },
+      { "who": "Yolanda", "t": "Sì. Ma ho paura di non capire niente.", "es": "Sí. Pero me da miedo no entender nada." },
+      { "who": "Marta", "t": "Tranquilla. È importante che tu vada e che parli con tutti.", "es": "Tranquila. Lo importante es que vayas y que hables con todos." },
+      { "who": "Yolanda", "t": "Spero di trovare una famiglia gentile per l'alloggio.", "es": "Espero encontrar una familia amable para alojarme." },
+      { "who": "Marta", "t": "Sicuro. Ma bisogna che tu ti iscriva presto.", "es": "Seguro. Pero hace falta que te apuntes pronto." },
+      { "who": "Yolanda", "t": "Lo faccio oggi stesso! E voglio che mio marito venga con me.", "es": "¡Lo hago hoy mismo! Y quiero que mi marido venga conmigo." },
+      { "who": "Marta", "t": "Perfetto. Sono contenta che tu abbia tanta voglia di imparare.", "es": "Perfecto. Me alegro de que tengas tantas ganas de aprender." }
+    ],
+    "questions": [
+      { "q": "¿Dónde quiere Yolanda hacer el curso?", "options": ["En Perugia", "En Roma", "En Bolonia"], "answer": "En Perugia" },
+      { "q": "¿Qué miedo tiene Yolanda?", "options": ["No entender nada", "Perder el tren", "Pasar calor"], "answer": "No entender nada" },
+      { "q": "¿Quién quiere Yolanda que vaya con ella?", "options": ["Su marido", "Su hijo", "Marta"], "answer": "Su marido" }
+    ]
+  },
+  "realLife": { "t": "Spero di tornare presto in Italia!", "es": "¡Espero volver pronto a Italia!", "context": "Para despedirte con cariño al final de un viaje" },
+  "same": {
+    "text": "Como en español: si el sujeto es el mismo, infinitivo; si es otra persona, que + subjuntivo.",
+    "examples": [
+      { "t": "Spero di venire.", "es": "Espero venir." },
+      { "t": "Spero che tu venga.", "es": "Espero que vengas." },
+      { "t": "Voglio imparare.", "es": "Quiero aprender." }
+    ]
+  },
+  "falseFriend": {
+    "word": "imparare",
+    "means": "aprender",
+    "looksLike": "amparar (en italiano, proteggere)",
+    "emoji": "🧠",
+    "tip": "Imparare a memoria = aprender de memoria. Y su pareja: insegnare = enseñar (l'insegnante insegna, io imparo)."
+  },
+  "summary": [
+    "Mismo sujeto: spero di venire, sono contenta di essere qui.",
+    "Sujeto distinto: spero che tu venga, sono contenta che tu sia qui.",
+    "Sin di: voglio imparare, è importante studiare, bisogna partire, è meglio uscire.",
+    "Irregulares: vada, faccia, possa, venga, sappia, debba, stia, dia, voglia, esca.",
+    "Ge / gi suenan suaves: oggi, giorno, congiuntivo."
+  ],
+  "reviewed": false
+}

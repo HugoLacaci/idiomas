@@ -1,0 +1,85 @@
+{
+  "id": "it-a1-u10-l1",
+  "unit": "it-a1-u10",
+  "title": "Una camera doppia, per favore",
+  "goal": "a nombrar las cosas básicas de un hotel y pedir una habitación",
+  "emoji": "🏨",
+  "photoQuery": "hotel reception desk bell keys",
+  "vocab": [
+    { "id": "hotel-l-albergo", "t": "l'albergo", "es": "el hotel", "emoji": "🏨", "pos": "n", "note": "También se dice l'hotel. Albergo es la palabra italiana de siempre.", "ex": { "t": "L'albergo è vicino al mare.", "es": "El hotel está cerca del mar." } },
+    { "id": "hotel-la-camera-doppia", "t": "la camera doppia", "es": "la habitación doble", "emoji": "🛏️", "pos": "n", "note": "Con cama de matrimonio: camera matrimoniale.", "ex": { "t": "Vorrei una camera doppia.", "es": "Quisiera una habitación doble." } },
+    { "id": "hotel-la-camera-singola", "t": "la camera singola", "es": "la habitación individual", "emoji": "🛌", "pos": "n", "ex": { "t": "Mio figlio Hugo prende una singola.", "es": "Mi hijo Hugo coge una individual." } },
+    { "id": "hotel-la-prenotazione", "t": "la prenotazione", "es": "la reserva", "emoji": "📋", "pos": "n", "ex": { "t": "Ho una prenotazione per due notti.", "es": "Tengo una reserva para dos noches." } },
+    { "id": "hotel-la-chiave", "t": "la chiave", "es": "la llave", "emoji": "🔑", "pos": "n", "note": "Chi suena «qui»: chiave se dice «quiave».", "ex": { "t": "Ecco la chiave della camera.", "es": "Aquí tiene la llave de la habitación." } },
+    { "id": "hotel-la-colazione", "t": "la colazione", "es": "el desayuno", "emoji": "☕", "pos": "n", "ex": { "t": "La colazione è inclusa?", "es": "¿El desayuno está incluido?" } },
+    { "id": "hotel-l-ascensore", "t": "l'ascensore", "es": "el ascensor", "emoji": "🛗", "pos": "n", "ex": { "t": "Prendiamo l'ascensore, la valigia pesa.", "es": "Cogemos el ascensor, la maleta pesa." } },
+    { "id": "hotel-la-notte", "t": "la notte", "es": "la noche", "emoji": "🌙", "pos": "n", "note": "Plural: le notti.", "ex": { "t": "Restiamo tre notti.", "es": "Nos quedamos tres noches." } },
+    { "id": "hotel-il-documento", "t": "il documento", "es": "el documento (DNI, pasaporte)", "emoji": "🪪", "pos": "n", "ex": { "t": "Un documento, per favore.", "es": "Un documento, por favor." } },
+    { "id": "hotel-la-reception", "t": "la reception", "es": "la recepción", "emoji": "🛎️", "pos": "n", "note": "Se usa la palabra inglesa, pronunciada «resépshon».", "ex": { "t": "Chiedo alla reception.", "es": "Pregunto en recepción." } }
+  ],
+  "grammar": "it-g-vorrei",
+  "pron": {
+    "title": "Chi y che suenan «qui» y «que»",
+    "tip": "En italiano, ch delante de e o i suena como nuestra k: chiave se dice «quiave», chiedo se dice «quiedo». ¡No la pronuncies como la ch española!",
+    "words": ["chiave", "chiedo", "camera", "che", "perché"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Vorrei una camera ___ per me e mio marito.", "es": "Quisiera una habitación doble para mí y mi marido.", "options": ["doppia", "singola", "doppio"], "answer": "doppia", "why": "Para dos personas, camera doppia. Camera es femenino, así que doppia acaba en -a.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e2", "type": "choose", "q": "___ albergo è in centro.", "es": "El hotel está en el centro.", "options": ["L'", "Il", "Lo"], "answer": "L'", "why": "Albergo empieza por vocal: l'albergo.", "g": "it-g-articoli-det" },
+    { "id": "e3", "type": "fill", "q": "Ho una ___ per tre notti.", "es": "Tengo una reserva para tres noches.", "answer": ["prenotazione"], "bank": ["prenotazione", "chiave", "colazione"], "why": "La reserva es la prenotazione.", "g": "it-g-avere" },
+    { "id": "e4", "type": "fill", "q": "La ___ è inclusa?", "es": "¿El desayuno está incluido?", "answer": ["colazione"], "hint": "el desayuno", "why": "El desayuno es la colazione, femenino; por eso inclusa acaba en -a.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e5", "type": "choose", "q": "Ecco ___ chiave della camera.", "es": "Aquí tiene la llave de la habitación.", "options": ["la", "il", "lo"], "answer": "la", "why": "Chiave es femenino: la chiave.", "g": "it-g-articoli-det" },
+    { "id": "e6", "type": "order", "es": "Quisiera una habitación doble, por favor.", "answer": "Vorrei una camera doppia per favore", "extra": ["voglio"], "why": "Vorrei es la forma educada de pedir.", "g": "it-g-vorrei" },
+    { "id": "e7", "type": "translate", "dir": "to", "q": "La llave, por favor.", "answer": ["La chiave, per favore.", "La chiave per favore"], "why": "Llave = chiave; por favor = per favore.", "g": "it-g-articoli-det" },
+    { "id": "e8", "type": "translate", "dir": "from", "q": "C'è l'ascensore?", "answer": ["¿Hay ascensor?", "¿Hay un ascensor?", "¿Hay ascensor en el hotel?"], "why": "C'è significa «hay».", "g": "it-g-ce-ci-sono" },
+    { "id": "e9", "type": "error", "q": "Vorrei un camera singola.", "wrong": "un", "fix": "una", "why": "Camera es femenino: una camera.", "g": "it-g-articoli-indet" },
+    { "id": "e10", "type": "error", "q": "Ho una prenotazione per due notte.", "wrong": "notte", "fix": "notti", "why": "Notte acaba en -e y su plural acaba en -i: due notti.", "g": "it-g-genere-numero" },
+    { "id": "e11", "type": "match", "pairs": [["la chiave", "la llave"], ["la colazione", "el desayuno"], ["la prenotazione", "la reserva"], ["l'ascensore", "el ascensor"], ["la camera", "la habitación"]], "why": "Ojo: camera es la habitación, no una cámara de fotos." },
+    { "id": "e12", "type": "situation", "context": "Llegas a la recepción de un hotel de Catania. Ya reservaste por internet.", "emoji": "🛎️", "options": ["Buonasera, ho una prenotazione.", "Buonasera, sono una prenotazione.", "Buonasera, ho una colazione."], "answer": "Buonasera, ho una prenotazione.", "why": "Tener una reserva: avere una prenotazione (ho).", "g": "it-g-avere" },
+    { "id": "e13", "type": "reading", "kind": "sign", "title": "Cartel en la recepción", "text": "Benvenuti all'Albergo Lava!\nLa colazione è al primo piano.\nL'ascensore è accanto alla reception.\nWifi gratis in tutte le camere.", "questions": [
+      { "q": "¿Dónde se desayuna?", "options": ["En el primer piso", "En la recepción", "En la habitación"], "answer": "En el primer piso" },
+      { "q": "¿Dónde está el ascensor?", "options": ["Al lado de la recepción", "En el primer piso", "No hay ascensor"], "answer": "Al lado de la recepción" },
+      { "q": "¿Cuánto cuesta el wifi?", "options": ["Es gratis", "No lo dice", "No hay wifi"], "answer": "Es gratis" }
+    ] },
+    { "id": "e14", "type": "transform", "instr": "Pásala a plural", "q": "La camera è grande.", "answer": ["Le camere sono grandi."], "why": "Camera → camere; grande → grandi; è → sono.", "g": "it-g-genere-numero" },
+    { "id": "e15", "type": "speak", "t": "Buonasera, ho una prenotazione.", "es": "Buenas tardes, tengo una reserva." }
+  ],
+  "dialog": {
+    "title": "Llegada al hotel",
+    "setting": "Yolanda y su marido llegan por la tarde a un hotel de Catania",
+    "emoji": "🧳",
+    "lines": [
+      { "who": "Marco", "t": "Buonasera! Benvenuti.", "es": "¡Buenas tardes! Bienvenidos." },
+      { "who": "Yolanda", "t": "Buonasera. Ho una prenotazione.", "es": "Buenas tardes. Tengo una reserva." },
+      { "who": "Marco", "t": "Un documento, per favore.", "es": "Un documento, por favor." },
+      { "who": "Yolanda", "t": "Ecco il passaporto.", "es": "Aquí tiene el pasaporte." },
+      { "who": "Marco", "t": "Grazie. Camera doppia, due notti.", "es": "Gracias. Habitación doble, dos noches." },
+      { "who": "Yolanda", "t": "Sì. La colazione è inclusa?", "es": "Sí. ¿El desayuno está incluido?" },
+      { "who": "Marco", "t": "Sì, al primo piano. Ecco la chiave.", "es": "Sí, en el primer piso. Aquí tiene la llave." },
+      { "who": "Yolanda", "t": "Grazie mille! C'è l'ascensore?", "es": "¡Muchas gracias! ¿Hay ascensor?" },
+      { "who": "Marco", "t": "Sì, è lì a destra.", "es": "Sí, está ahí a la derecha." }
+    ],
+    "questions": [
+      { "q": "¿Cuántas noches se quedan?", "options": ["Dos", "Tres", "Una"], "answer": "Dos" },
+      { "q": "¿Qué documento enseña Yolanda?", "options": ["El pasaporte", "El carné de conducir", "La tarjeta del banco"], "answer": "El pasaporte" },
+      { "q": "¿Dónde es el desayuno?", "options": ["En el primer piso", "En la habitación", "No está incluido"], "answer": "En el primer piso" }
+    ]
+  },
+  "realLife": { "t": "Buonasera, ho una prenotazione per due notti.", "es": "Buenas tardes, tengo una reserva para dos noches.", "context": "Al llegar a la recepción de un hotel" },
+  "same": {
+    "text": "Muchas palabras del hotel se reconocen enseguida porque se parecen al español.",
+    "examples": [
+      { "t": "il documento", "es": "el documento" },
+      { "t": "l'ascensore", "es": "el ascensor" },
+      { "t": "la notte", "es": "la noche" }
+    ]
+  },
+  "falseFriend": { "word": "la camera", "means": "la habitación", "looksLike": "cámara (de fotos)", "emoji": "📷", "tip": "En el hotel, camera es tu habitación. La cámara de fotos es la macchina fotografica." },
+  "summary": [
+    "Pedir habitación: Vorrei una camera doppia / singola.",
+    "Al llegar: Ho una prenotazione per due notti.",
+    "Palabras clave: la chiave, la colazione, l'ascensore, la reception.",
+    "¡Ojo! La camera es la habitación, no la cámara de fotos."
+  ],
+  "reviewed": false
+}

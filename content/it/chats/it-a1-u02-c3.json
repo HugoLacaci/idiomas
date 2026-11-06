@@ -1,0 +1,68 @@
+{
+  "id": "it-a1-u02-c3",
+  "unit": "it-a1-u02",
+  "title": "Pago yo: en la caja",
+  "setting": "Hoy invitas tú. Giulia y Hugo esperan en la barra y tú vas a la caja",
+  "emoji": "💶",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, oggi offri tu? Io prendo un macchiato.", "es": "Yolanda, ¿hoy invitas tú? Yo tomo un cortado." },
+      "options": [
+        { "t": "Sì, offro io! E Hugo prende un caffè.", "es": "¡Sí, invito yo! Y Hugo toma un café.", "next": "n2", "ok": true },
+        { "t": "Sì, offri tu!", "es": "¡Sí, invitas tú!", "next": "n2", "ok": false, "feedback": "Offri tu = invitas tú. Si invitas tú, di: «Offro io!»." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Brava. La cassa è lì. Cosa dici alla cassiera?", "es": "Muy bien. La caja está allí. ¿Qué le dices a la cajera?" },
+      "options": [
+        { "t": "Buongiorno! Vorrei un macchiato e due caffè.", "es": "¡Buenos días! Quería un cortado y dos cafés.", "next": "n3", "ok": true },
+        { "t": "Buongiorno! Vorrei un macchiato e due caffi.", "es": "¡Buenos días! Quería un cortado y dos cafés.", "next": "n3", "ok": false, "feedback": "Caffè no cambia en plural: due caffè." },
+        { "t": "Buongiorno! Vorremmo un macchiato e due caffè.", "es": "¡Buenos días! Querríamos un cortado y dos cafés.", "next": "n3", "ok": true }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "La cassiera chiede: «Qualcos'altro?». Vuoi prendere i cornetti?", "es": "La cajera pregunta: «¿Algo más?». ¿Quieres coger los cruasanes?" },
+      "options": [
+        { "t": "Sì, anche tre cornetti, per favore.", "es": "Sí, también tres cruasanes, por favor.", "next": "n4", "ok": true },
+        { "t": "Sì, anche tre cornettos, per favore.", "es": "Sí, también tres cruasanes, por favor.", "next": "n4", "ok": false, "feedback": "En italiano el plural no lleva -s: cornetto → cornetti." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Sono sette euro e venti. E il caffè sospeso? A Napoli è una bella tradizione.", "es": "Son siete euros con veinte. ¿Y el café pendiente? En Nápoles es una tradición bonita." },
+      "options": [
+        { "t": "Che bello! Vorrei anche un caffè sospeso.", "es": "¡Qué bonito! Quería también un café pendiente.", "next": "n5", "ok": true },
+        { "t": "No, grazie, il caffè lo bevo subito.", "es": "No, gracias, el café me lo tomo enseguida.", "next": "n5", "ok": false, "feedback": "Un caffè sospeso no es un café que esperas: es un café que dejas pagado para otra persona." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Bravissima! Come paghi?", "es": "¡Muy bien! ¿Cómo pagas?" },
+      "options": [
+        { "t": "Posso pagare con la carta?", "es": "¿Puedo pagar con tarjeta?", "next": "n6", "ok": true },
+        { "t": "Pago in contanti.", "es": "Pago en efectivo.", "next": "n6", "ok": true },
+        { "t": "Vorrei paga con la carta.", "es": "Quería pagar con tarjeta.", "next": "n6", "ok": false, "feedback": "Detrás de vorrei va el infinitivo: vorrei pagare." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Hai lo scontrino? Adesso lo diamo al barista.", "es": "¿Tienes el tique? Ahora se lo damos al camarero." },
+      "options": [
+        { "t": "Sì, ecco lo scontrino!", "es": "¡Sí, aquí está el tique!", "next": "n7", "ok": true },
+        { "t": "Sì, ecco la cassa!", "es": "¡Sí, aquí está la caja!", "next": "n7", "ok": false, "feedback": "La cassa es la caja. El tique es lo scontrino." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Perfetto! Sei proprio una napoletana ormai!", "es": "¡Perfecto! ¡Ya eres toda una napolitana!" },
+      "options": [
+        { "t": "Grazie, Giulia! Buon caffè!", "es": "¡Gracias, Giulia! ¡Que aproveche el café!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,139 @@
+{
+  "id": "it-g-passato-prossimo-intro",
+  "lang": "it",
+  "level": "A1",
+  "title": "Lo que hice ayer: ho mangiato, ho visto (introducción)",
+  "short": "Primeras frases en pasado con avere: ho mangiato, hai dormito, ho fatto, ho visto.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Contar lo que hiciste",
+      "emoji": "📅",
+      "text": "Para contar lo que hiciste ayer, el italiano usa ==ho== + una forma del verbo: ==ho mangiato== (he comido / comí).",
+      "examples": [
+        { "t": "Ieri ==ho mangiato== la pizza.", "es": "Ayer comí pizza.", "hl": "ho mangiato" },
+        { "t": "Stamattina ==ho camminato== molto.", "es": "Esta mañana he caminado mucho.", "hl": "ho camminato" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Dos piezas",
+      "emoji": "🧩",
+      "text": "Es como nuestro «he comido»: ==avere== (ho, hai, ha…) + el ==participio==, que termina en -ato, -uto o -ito.",
+      "examples": [
+        { "t": "==Ho== ==ballato== tutta la sera.", "es": "He bailado toda la noche." }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Cómo se forma el participio",
+      "emoji": "🔧",
+      "text": "Quita la terminación del infinitivo y pon la nueva:",
+      "table": {
+        "head": ["Infinitivo", "Participio", "Ejemplo"],
+        "rows": [
+          ["mangi==are==", "mangi==ato==", "Ho mangiato."],
+          ["av==ere==", "av==uto==", "Ho avuto tempo."],
+          ["dorm==ire==", "dorm==ito==", "Ho dormito bene."]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Avere delante",
+      "emoji": "👤",
+      "text": "Solo cambia avere; el participio se queda igual.",
+      "table": {
+        "head": ["Persona", "Avere", "Ejemplo"],
+        "rows": [
+          ["io", "==ho==", "ho cucinato"],
+          ["tu", "==hai==", "hai cucinato"],
+          ["lui / lei / Lei", "==ha==", "ha cucinato"],
+          ["noi", "==abbiamo==", "abbiamo cucinato"]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "«Ayer vi» = «Ieri ho visto»",
+      "emoji": "🇪🇸",
+      "text": "En España decimos «ayer ==vi== una película». En italiano hablado se usa esta forma también para ayer: ieri ==ho visto== un film.",
+      "examples": [
+        { "t": "Ieri sera ho visto un film.", "es": "Anoche vi una película." }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Tres muy frecuentes",
+      "emoji": "⭐",
+      "text": "Algunos verbos tienen participio especial. Apréndete ya estos tres: ==fatto== (fare), ==visto== (vedere), ==letto== (leggere).",
+      "examples": [
+        { "t": "Cosa hai fatto ieri?", "es": "¿Qué hiciste ayer?" },
+        { "t": "Ho letto un libro.", "es": "He leído un libro." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Ho mangiado* → ✅ ho mangi==ato== (con t). ❌ *Ho vedito* → ✅ ho ==visto==. ❌ *Ho non mangiato* → ✅ ==non ho== mangiato."
+    },
+    {
+      "kind": "tip",
+      "title": "Truco",
+      "emoji": "💡",
+      "text": "La negación va delante de todo, como en español: ==non ho== dormito = no he dormido.",
+      "examples": [
+        { "t": "Stanotte non ho dormito.", "es": "Esta noche no he dormido." }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En España usamos «he comido» para hoy y «comí» para ayer: Hoy he comido paella. Ayer comí pizza.",
+    "target": "En italiano hablado se usa ho mangiato para las dos: Oggi ho mangiato la paella. Ieri ho mangiato la pizza."
+  },
+  "errors": [
+    { "wrong": "Ieri ho mangiado la pasta.", "right": "Ieri ho mangiato la pasta.", "why": "El participio italiano lleva t: mangiato, no «mangiado»." },
+    { "wrong": "Ho vedito un film.", "right": "Ho visto un film.", "why": "Vedere tiene participio especial: visto, como en español." },
+    { "wrong": "Ho non dormito.", "right": "Non ho dormito.", "why": "Non va delante de avere: non ho dormito." },
+    { "wrong": "Ieri io mangiato bene.", "right": "Ieri ho mangiato bene.", "why": "Hace falta avere delante: ho mangiato." },
+    { "wrong": "Cosa hai facciato?", "right": "Cosa hai fatto?", "why": "Fare tiene participio especial: fatto." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Ieri ___ mangiato la pizza.", "es": "Ayer comí pizza.", "options": ["ho", "sono", "hai"], "answer": "ho", "why": "Con io usamos ho: ho mangiato.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e2", "type": "choose", "q": "Ho ___ bene stanotte.", "es": "He dormido bien esta noche.", "options": ["dormito", "dormato", "dormuto"], "answer": "dormito", "why": "Dormire (-ire) → dormito.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e3", "type": "choose", "q": "Ieri sera ho ___ un film.", "es": "Anoche vi una película.", "options": ["visto", "veduto", "vedito"], "answer": "visto", "why": "Vedere → visto, igual que en español.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e4", "type": "choose", "q": "Cosa ___ fatto ieri?", "es": "¿Qué hiciste ayer?", "options": ["hai", "ho", "ha"], "answer": "hai", "why": "Con tu usamos hai: hai fatto.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e5", "type": "choose", "q": "Hugo ___ giocato a calcio.", "es": "Hugo ha jugado al fútbol.", "options": ["ha", "hai", "ho"], "answer": "ha", "why": "Con lui (Hugo) usamos ha.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e6", "type": "choose", "q": "Stamattina ho ___ il giornale.", "es": "Esta mañana he leído el periódico.", "options": ["letto", "leggito", "leggiuto"], "answer": "letto", "why": "Leggere → letto: es especial.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e7", "type": "choose", "q": "Ieri ho ___ la torta.", "es": "Ayer hice la tarta.", "options": ["fatto", "fato", "facciato"], "answer": "fatto", "why": "Fare → fatto, con doble t.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e8", "type": "choose", "q": "Io e mio marito ___ ballato.", "es": "Mi marido y yo hemos bailado.", "options": ["abbiamo", "hanno", "ho"], "answer": "abbiamo", "why": "Io e mio marito = noi: abbiamo ballato.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e9", "type": "fill", "q": "Ieri ho ___ con le mie amiche.", "es": "Ayer cené con mis amigas.", "answer": ["cenato"], "bank": ["cenato", "cenito", "cenare"], "why": "Cenare (-are) → cenato.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e10", "type": "fill", "q": "Ho ___ la chitarra tutto il pomeriggio.", "es": "He tocado la guitarra toda la tarde.", "answer": ["suonato"], "bank": ["suonato", "suonuto", "suono"], "why": "Suonare → suonato.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e11", "type": "fill", "q": "___ camminato molto oggi.", "es": "Hoy he caminado mucho.", "answer": ["Ho", "ho"], "bank": ["Ho", "Sono", "Hai"], "why": "Io → ho camminato.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e12", "type": "fill", "q": "Ieri ho ___ mio figlio al telefono.", "es": "Ayer llamé a mi hijo por teléfono.", "answer": ["chiamato"], "hint": "chiamare", "why": "Chiamare → chiamato.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e13", "type": "fill", "q": "Hai ___ bene?", "es": "¿Has dormido bien?", "answer": ["dormito"], "hint": "dormire", "why": "Dormire → dormito.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e14", "type": "fill", "q": "Ieri non ho ___ niente.", "es": "Ayer no hice nada.", "answer": ["fatto"], "hint": "fare", "why": "Fare → fatto.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e15", "type": "fill", "q": "La settimana scorsa ho ___ una vecchia amica.", "es": "La semana pasada vi a una vieja amiga.", "answer": ["visto"], "hint": "vedere", "why": "Vedere → visto.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e16", "type": "error", "q": "Ieri ho mangiado bene.", "wrong": "mangiado", "fix": "mangiato", "why": "En italiano el participio lleva t: mangiato.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e17", "type": "error", "q": "Ho vedito un bel film.", "wrong": "vedito", "fix": "visto", "why": "Vedere → visto.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e18", "type": "error", "q": "Ho non dormito bene.", "wrong": "Ho", "fix": "Non", "why": "Se dice non ho dormito: non va delante de ho.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e19", "type": "error", "q": "Tu ho ballato molto.", "wrong": "ho", "fix": "hai", "why": "Con tu usamos hai: hai ballato.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e20", "type": "transform", "instr": "Pásala a pasado con ieri", "q": "Mangio la pizza.", "answer": ["Ieri ho mangiato la pizza."], "why": "Mangio → ho mangiato.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e21", "type": "transform", "instr": "Pásala a pasado", "q": "Dormo bene.", "answer": ["Ho dormito bene."], "why": "Dormo → ho dormito.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e22", "type": "transform", "instr": "Hazla negativa", "q": "Ho visto il film.", "answer": ["Non ho visto il film."], "why": "Non delante de ho.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e23", "type": "transform", "instr": "Hazla pregunta para «tú»", "q": "Ho cucinato.", "answer": ["Hai cucinato?"], "why": "Para tu: hai cucinato? y sube el tono.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e24", "type": "order", "es": "Ayer vi una película.", "answer": "Ieri ho visto un film", "alt": ["Ho visto un film ieri"], "extra": ["vedito"], "why": "Ieri + ho + visto + cosa.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e25", "type": "order", "es": "No he dormido mucho.", "answer": "Non ho dormito molto", "extra": ["sono"], "why": "Non + ho + participio.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e26", "type": "order", "es": "¿Qué hiciste el sábado?", "answer": "Cosa hai fatto sabato", "extra": ["ho"], "why": "Cosa + hai fatto + sabato.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "He comido bien.", "answer": ["Ho mangiato bene."], "why": "He comido = ho mangiato.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "Ayer leí un libro.", "answer": ["Ieri ho letto un libro.", "Ho letto un libro ieri."], "why": "Para ayer también: ho letto.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e29", "type": "translate", "dir": "from", "q": "Ieri sera ho ballato.", "answer": ["Anoche bailé.", "Ayer por la noche bailé.", "Anoche he bailado."], "why": "Ieri sera = anoche; ho ballato = bailé.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e30", "type": "situation", "context": "Tu amiga italiana te pregunta: «Cosa hai fatto ieri?». Ayer fuiste al cine y viste una película.", "emoji": "🎬", "options": ["Ho visto un film.", "Vedo un film.", "Ho vedito un film."], "answer": "Ho visto un film.", "why": "Ayer → pasado: ho visto.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e31", "type": "situation", "context": "Por la mañana tu hijo Hugo te pregunta si has dormido bien. Has dormido fatal.", "emoji": "😴", "options": ["No, non ho dormito bene.", "No, ho non dormito bene.", "No, non dormo bene domani."], "answer": "No, non ho dormito bene.", "why": "Negación: non ho dormito.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e32", "type": "match", "pairs": [["mangiare", "mangiato"], ["dormire", "dormito"], ["avere", "avuto"], ["fare", "fatto"], ["vedere", "visto"]], "why": "-are → -ato, -ere → -uto, -ire → -ito. Fare y vedere son especiales.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e33", "type": "conjugate", "verb": "cucinare", "person": "io", "tense": "passato prossimo", "q": "Ieri ___ la paella.", "answer": ["ho cucinato"], "table": [["io", "ho cucinato"], ["tu", "hai cucinato"], ["lui / lei", "ha cucinato"]], "why": "Io → ho + cucinato.", "g": "it-g-passato-prossimo-intro" },
+    { "id": "e34", "type": "conjugate", "verb": "ascoltare", "person": "tu", "tense": "passato prossimo", "q": "___ la radio stamattina?", "answer": ["Hai ascoltato", "hai ascoltato"], "why": "Tu → hai + ascoltato.", "g": "it-g-passato-prossimo-intro" }
+  ],
+  "reviewed": false
+}

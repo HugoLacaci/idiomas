@@ -1,0 +1,66 @@
+{
+  "id": "it-a1-u05-c3",
+  "unit": "it-a1-u05",
+  "title": "Un día con Giulia en Bari",
+  "setting": "Giulia te visita en Bari y planeáis el día",
+  "emoji": "⛪",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Eccomi a Bari! Cosa preferisci fare stamattina?", "es": "¡Ya estoy en Bari! ¿Qué prefieres hacer esta mañana?" },
+      "options": [
+        { "t": "Preferisco visitare la basilica di San Nicola.", "es": "Prefiero visitar la basílica de San Nicolás.", "next": "n2", "ok": true },
+        { "t": "Prefiero visitare la basilica di San Nicola.", "es": "Prefiero visitar la basílica de San Nicolás.", "next": "n2", "ok": false, "feedback": "En italiano la raíz no cambia: preferisco, con -isc-." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Ottima idea! Prendiamo l'autobus o camminiamo?", "es": "¡Muy buena idea! ¿Cogemos el autobús o caminamos?" },
+      "options": [
+        { "t": "Camminiamo, è vicino!", "es": "¡Caminemos, está cerca!", "next": "n3", "ok": true },
+        { "t": "Camminamo, è vicino!", "es": "¡Caminemos, está cerca!", "next": "n3", "ok": false, "feedback": "Noi acaba en -iamo: camminiamo." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Guarda, le signore preparano le orecchiette!", "es": "¡Mira, las señoras preparan orecchiette!" },
+      "options": [
+        { "t": "Che belle! Compro un pacchetto per mio figlio.", "es": "¡Qué bonitas! Compro un paquete para mi hijo.", "next": "n4", "ok": true },
+        { "t": "Che belle! Compro un pacchetto per il mio figlio.", "es": "¡Qué bonitas! Compro un paquete para mi hijo.", "next": "n4", "ok": false, "feedback": "Con un familiar en singular: mio figlio, sin artículo." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E come lo porti a Hugo?", "es": "¿Y cómo se lo llevas a Hugo?" },
+      "options": [
+        { "t": "Lo spedisco per posta!", "es": "¡Lo envío por correo!", "next": "n5", "ok": true },
+        { "t": "Lo spedo per posta!", "es": "¡Lo envío por correo!", "next": "n5", "ok": false, "feedback": "Spedire lleva -isc-: io spedisco." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Che mamma! Senti, a che ora finisce la messa nella basilica?", "es": "¡Qué madre! Oye, ¿a qué hora termina la misa en la basílica?" },
+      "options": [
+        { "t": "Non lo so. Chiediamo al signore?", "es": "No lo sé. ¿Le preguntamos al señor?", "next": "n6", "ok": true },
+        { "t": "Non capiamo. Finisciamo alle undici.", "es": "No entendemos. Terminamos a las once.", "next": "n6", "ok": false, "feedback": "Ojo: en noi no hay -isc- (finiamo), y además Giulia pregunta por la misa." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Il signore dice: alle undici. Dopo, pranziamo al porto?", "es": "El señor dice: a las once. ¿Después comemos en el puerto?" },
+      "options": [
+        { "t": "Sì! E dopo pranzo dormo un po'.", "es": "¡Sí! Y después de comer duermo un poco.", "next": "n7", "ok": true },
+        { "t": "Sì! E dopo pranzo dorma un po'.", "es": "¡Sí! Y después de comer duerma un poco.", "next": "n7", "ok": false, "feedback": "Dormire con io: dormo." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Ah, la siesta spagnola! Va bene, è una giornata perfetta.", "es": "¡Ah, la siesta española! Vale, es un día perfecto." },
+      "options": [
+        { "t": "Sì, una giornata perfetta!", "es": "¡Sí, un día perfecto!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

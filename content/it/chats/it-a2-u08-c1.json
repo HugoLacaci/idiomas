@@ -1,0 +1,61 @@
+{
+  "id": "it-a2-u08-c1",
+  "unit": "it-a2-u08",
+  "title": "Giulia te ve con mala cara",
+  "setting": "Quedas con Giulia en un café de Roma, pero no te encuentras muy bien",
+  "emoji": "🤧",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, che faccia! Come ti senti?", "es": "Yolanda, ¡qué cara! ¿Cómo te encuentras?" },
+      "options": [
+        { "t": "Non molto bene. Ho il raffreddore.", "es": "No muy bien. Estoy resfriada.", "next": "n2", "ok": true },
+        { "t": "Non molto bene. Sono costipata.", "es": "No muy bien. Estoy constipada.", "next": "n2", "ok": false, "feedback": "¡Cuidado! Costipata es «estreñida». Resfriada = raffreddata, o ho il raffreddore." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Poverina! Ti fa male anche la testa?", "es": "¡Pobrecita! ¿Te duele también la cabeza?" },
+      "options": [
+        { "t": "Sì, e mi fa male la gola.", "es": "Sí, y me duele la garganta.", "next": "n3", "ok": true },
+        { "t": "Sì, e mi fanno male la gola.", "es": "Sí, y me duele la garganta.", "next": "n3", "ok": false, "feedback": "La gola es una sola: mi fa male." },
+        { "t": "No, solo mi fanno male i piedi.", "es": "No, solo me duelen los pies.", "next": "n3", "ok": true }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Allora ascoltami: bevi un tè caldo e torna in albergo.", "es": "Pues escúchame: tómate un té calentito y vuelve al hotel." },
+      "options": [
+        { "t": "Hai ragione. Ma prima andiamo in farmacia?", "es": "Tienes razón. ¿Pero antes vamos a la farmacia?", "next": "n4", "ok": true },
+        { "t": "Hai ragione. Ma prima andiamo in libreria?", "es": "Tienes razón. ¿Pero antes vamos a la librería?", "next": "n4", "ok": false, "feedback": "Para las medicinas, la farmacia. La libreria vende libros." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Certo. E stasera non uscire, eh!", "es": "Claro. Y esta noche no salgas, ¿eh?" },
+      "options": [
+        { "t": "Va bene, resto in camera.", "es": "Vale, me quedo en la habitación.", "next": "n5", "ok": true },
+        { "t": "Va bene, non esco. Ma tu chiamami!", "es": "Vale, no salgo. ¡Pero tú llámame!", "next": "n5", "ok": true },
+        { "t": "Va bene, ma tu mi chiami!", "es": "Vale, ¡pero tú me llamas!", "next": "n5", "ok": false, "feedback": "Para pedírselo a una amiga, mejor el imperativo con el pronombre pegado: chiamami!" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Promesso. E copriti bene, fa freddo!", "es": "Prometido. Y abrígate bien, ¡hace frío!" },
+      "options": [
+        { "t": "Sì, mamma! Grazie, Giulia.", "es": "¡Sí, mamá! Gracias, Giulia.", "next": "n6", "ok": true },
+        { "t": "Non preoccuparti, ho la sciarpa.", "es": "No te preocupes, tengo la bufanda.", "next": "n6", "ok": true },
+        { "t": "Non preoccupati, ho la sciarpa.", "es": "No te preocupes, tengo la bufanda.", "next": "n6", "ok": false, "feedback": "En negativo con tú: non preoccuparti (con -r-) o non ti preoccupare." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ahah, brava! Allora, buona guarigione!", "es": "¡Jaja, muy bien! Pues, ¡que te mejores!" },
+      "options": [
+        { "t": "Grazie! Ci sentiamo domani.", "es": "¡Gracias! Hablamos mañana.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

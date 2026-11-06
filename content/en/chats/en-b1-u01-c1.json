@@ -1,0 +1,68 @@
+{
+  "id": "en-b1-u01-c1",
+  "unit": "en-b1-u01",
+  "title": "¿Has estado en Londres?",
+  "setting": "Emma te escribe desde Londres y quiere saber qué sitios conoces.",
+  "emoji": "🌍",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! Tell me, have you ever been to London?", "es": "¡Hola, Yolanda! Cuéntame, ¿has estado alguna vez en Londres?" },
+      "options": [
+        { "t": "Yes, I have. I've been there twice.", "es": "Sí. He estado dos veces.", "next": "n2", "ok": true },
+        { "t": "Yes, I did. I've been there twice.", "es": "Sí. He estado dos veces.", "next": "n2", "ok": false, "feedback": "La pregunta es con have, así que la respuesta corta es Yes, I have." },
+        { "t": "Yes, I have been in London two times.", "es": "Sí, he estado en Londres dos veces.", "next": "n2", "ok": false, "feedback": "Para viajes decimos been to London, y dos veces suena más natural como twice." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Twice! When did you last come?", "es": "¡Dos veces! ¿Cuándo viniste la última vez?" },
+      "options": [
+        { "t": "I came in 2019, with a friend.", "es": "Vine en 2019, con una amiga.", "next": "n3", "ok": true },
+        { "t": "I have come in 2019, with a friend.", "es": "Vine en 2019, con una amiga.", "next": "n3", "ok": false, "feedback": "Con un año concreto ya pasado se usa pasado simple: I came in 2019." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Lovely. Have you ever been to Scotland?", "es": "Qué bien. ¿Y has estado alguna vez en Escocia?" },
+      "options": [
+        { "t": "No, I've never been there.", "es": "No, nunca he estado allí.", "next": "n4", "ok": true },
+        { "t": "No, I haven't never been there.", "es": "No, no he estado nunca allí.", "next": "n4", "ok": false, "feedback": "En inglés solo una negación: I've never been there." },
+        { "t": "No, I never went there in my life.", "es": "No, nunca he ido en mi vida.", "next": "n4", "ok": false, "feedback": "Para toda tu vida, en británico se usa present perfect: I've never been there." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Oh, you must go! Edinburgh is beautiful. Have you ever tried haggis?", "es": "¡Tienes que ir! Edimburgo es precioso. ¿Has probado alguna vez el haggis?" },
+      "options": [
+        { "t": "No, I haven't. What is it like?", "es": "No. ¿Cómo es?", "next": "n5", "ok": true },
+        { "t": "No, I haven't. How is it like?", "es": "No. ¿Cómo es?", "next": "n5", "ok": false, "feedback": "Se pregunta What is it like? (no How is it like?)." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "It's a Scottish dish with meat and spices. A bit like your morcilla!", "es": "Es un plato escocés con carne y especias. ¡Un poco como vuestra morcilla!" },
+      "options": [
+        { "t": "Then I'm sure I'll like it!", "es": "¡Entonces seguro que me gusta!", "next": "n6", "ok": true },
+        { "t": "Then I'm sure I like it yesterday!", "es": "¡Entonces seguro que me gusta!", "next": "n6", "ok": false, "feedback": "Hablas del futuro: I'm sure I'll like it." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ha ha! And what's the best place you've ever visited?", "es": "¡Ja, ja! ¿Y cuál es el mejor sitio que has visitado nunca?" },
+      "options": [
+        { "t": "Maybe Rome. I've been there three times!", "es": "Quizá Roma. ¡He estado tres veces!", "next": "n7", "ok": true },
+        { "t": "Maybe Rome. I've gone there three times!", "es": "Quizá Roma. ¡He ido tres veces!", "next": "n7", "ok": false, "feedback": "Fuiste y volviste: I've been there. Gone es para quien sigue allí." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Three times! You're a real traveller. Speak soon!", "es": "¡Tres veces! Eres una viajera de verdad. ¡Hablamos pronto!" },
+      "options": [
+        { "t": "Thanks, Emma! Speak soon.", "es": "¡Gracias, Emma! Hablamos.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

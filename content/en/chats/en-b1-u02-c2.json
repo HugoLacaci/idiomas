@@ -1,0 +1,59 @@
+{
+  "id": "en-b1-u02-c2",
+  "unit": "en-b1-u02",
+  "title": "¿Desde cuándo tienes ese móvil?",
+  "setting": "Emma está pensando en cambiar de móvil y te pregunta por el tuyo.",
+  "emoji": "📱",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, I need a new phone. How long have you had yours?", "es": "Yolanda, necesito un móvil nuevo. ¿Desde cuándo tienes el tuyo?" },
+      "options": [
+        { "t": "I've had it for three years.", "es": "Lo tengo desde hace tres años.", "next": "n2", "ok": true },
+        { "t": "I have it since three years.", "es": "Lo tengo desde hace tres años.", "next": "n2", "ok": false, "feedback": "Dos cosas: present perfect (I've had) y for con una duración: for three years." },
+        { "t": "I've had it since three years.", "es": "Lo tengo desde hace tres años.", "next": "n2", "ok": false, "feedback": "Con una cantidad de tiempo se usa for: for three years." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Three years! And are you happy with it?", "es": "¡Tres años! ¿Y estás contenta con él?" },
+      "options": [
+        { "t": "Yes, but the battery hasn't been very good since the summer.", "es": "Sí, pero la batería no va muy bien desde el verano.", "next": "n3", "ok": true },
+        { "t": "Yes, but the battery isn't very good for the summer.", "es": "Sí, pero la batería no va muy bien desde el verano.", "next": "n3", "ok": false, "feedback": "Desde un momento = since; y como sigue ahora, present perfect: hasn't been." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Mine is the same. I bought it in 2021. When did you buy yours?", "es": "Al mío le pasa igual. Lo compré en 2021. ¿Cuándo compraste el tuyo?" },
+      "options": [
+        { "t": "I bought it three years ago, for my birthday.", "es": "Lo compré hace tres años, por mi cumpleaños.", "next": "n4", "ok": true },
+        { "t": "I have bought it three years ago, for my birthday.", "es": "Lo compré hace tres años, por mi cumpleaños.", "next": "n4", "ok": false, "feedback": "Con ago se usa pasado simple: I bought it three years ago." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "And how long have you used WhatsApp?", "es": "¿Y desde cuándo usas WhatsApp?" },
+      "options": [
+        { "t": "Since my son showed me, many years ago!", "es": "¡Desde que me lo enseñó mi hijo, hace muchos años!", "next": "n5", "ok": true },
+        { "t": "For my son showed me, many years ago!", "es": "¡Desde que me lo enseñó mi hijo, hace muchos años!", "next": "n5", "ok": false, "feedback": "«Desde que» + frase = since: since my son showed me." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ha ha! We've known each other for a long time too, haven't we?", "es": "¡Ja, ja! Nosotras también nos conocemos desde hace mucho, ¿verdad?" },
+      "options": [
+        { "t": "Yes! We've been friends since 2018.", "es": "¡Sí! Somos amigas desde 2018.", "next": "n6", "ok": true },
+        { "t": "Yes! We are friends since 2018.", "es": "¡Sí! Somos amigas desde 2018.", "next": "n6", "ok": false, "feedback": "Empezó en 2018 y sigue: present perfect, we've been friends since 2018." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Time flies! OK, I'm going to the phone shop now.", "es": "¡Cómo pasa el tiempo! Bueno, me voy a la tienda de móviles." },
+      "options": [
+        { "t": "Good luck! Send me a photo of your new phone.", "es": "¡Suerte! Mándame una foto de tu móvil nuevo.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,61 @@
+{
+  "id": "en-a1-u04-c1",
+  "unit": "en-a1-u04",
+  "title": "¿Cómo es tu casa?",
+  "setting": "Emma te escribe desde Londres y quiere saber cómo es tu casa.",
+  "emoji": "🏠",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! Do you live in a house or a flat?", "es": "¡Hola, Yolanda! ¿Vives en una casa o en un piso?" },
+      "options": [
+        { "t": "I live in a flat in the town centre.", "es": "Vivo en un piso en el centro.", "next": "n2", "ok": true },
+        { "t": "I live in a apartment in the town centre.", "es": "Vivo en un apartamento en el centro.", "next": "n2", "ok": false, "feedback": "Apartment empieza por vocal (an apartment), y en Reino Unido se dice flat." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Nice! How many bedrooms are there?", "es": "¡Qué bien! ¿Cuántos dormitorios hay?" },
+      "options": [
+        { "t": "There are three bedrooms.", "es": "Hay tres dormitorios.", "next": "n3", "ok": true },
+        { "t": "There is three bedrooms.", "es": "Hay tres dormitorios.", "next": "n3", "ok": false, "feedback": "Tres dormitorios es plural: there are." },
+        { "t": "Have three bedrooms.", "es": "Hay tres dormitorios.", "next": "n3", "ok": false, "feedback": "«Hay» no es have: There are three bedrooms." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Three! Is there a balcony?", "es": "¡Tres! ¿Hay balcón?" },
+      "options": [
+        { "t": "Yes, there is. It's next to the kitchen.", "es": "Sí. Está al lado de la cocina.", "next": "n4", "ok": true },
+        { "t": "Yes, there are. It's next to the kitchen.", "es": "Sí. Está al lado de la cocina.", "next": "n4", "ok": false, "feedback": "Un balcón: Yes, there is." },
+        { "t": "Yes, there is. It's next of the kitchen.", "es": "Sí. Está al lado de la cocina.", "next": "n4", "ok": false, "feedback": "Al lado de = next to." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Lovely. What's on the balcony?", "es": "Qué bonito. ¿Qué hay en el balcón?" },
+      "options": [
+        { "t": "There are a lot of plants and two chairs.", "es": "Hay muchas plantas y dos sillas.", "next": "n5", "ok": true },
+        { "t": "There is a lot of plants and two chairs.", "es": "Hay muchas plantas y dos sillas.", "next": "n5", "ok": false, "feedback": "Muchas plantas es plural: there are a lot of plants." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "I've got a small flat. There isn't a balcony! Is there a lift in your building?", "es": "Yo tengo un piso pequeño. ¡No hay balcón! ¿Hay ascensor en tu edificio?" },
+      "options": [
+        { "t": "No, there isn't. We're on the second floor.", "es": "No. Estamos en el segundo piso.", "next": "n6", "ok": true },
+        { "t": "No, there isn't. We're in the second floor.", "es": "No. Estamos en el segundo piso.", "next": "n6", "ok": false, "feedback": "Con las plantas de un edificio usamos on: on the second floor." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Good exercise! Send me a photo of your balcony.", "es": "¡Buen ejercicio! Mándame una foto del balcón." },
+      "options": [
+        { "t": "OK! Talk soon, Emma.", "es": "¡Vale! Hablamos pronto, Emma.", "next": "end", "ok": true },
+        { "t": "OK! Speak you soon, Emma.", "es": "¡Vale! Hablamos pronto, Emma.", "next": "end", "ok": false, "feedback": "Se dice Talk soon o Speak to you soon." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

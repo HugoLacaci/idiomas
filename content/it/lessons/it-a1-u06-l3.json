@@ -1,0 +1,83 @@
+{
+  "id": "it-a1-u06-l3",
+  "unit": "it-a1-u06",
+  "title": "Cerco un appartamento",
+  "goal": "a preguntar cómo es un piso de vacaciones y qué tiene",
+  "emoji": "🔑",
+  "photoQuery": "italian apartment balcony flowers",
+  "vocab": [
+    { "id": "casa-quante-stanze-ci-sono", "t": "Quante stanze ci sono?", "es": "¿Cuántas habitaciones hay?", "emoji": "🔢", "pos": "phrase", "ex": { "t": "Quante stanze ci sono? Tre.", "es": "¿Cuántas habitaciones hay? Tres." } },
+    { "id": "casa-com-e-la-casa", "t": "Com'è la casa?", "es": "¿Cómo es la casa?", "emoji": "❓", "pos": "phrase", "ex": { "t": "Com'è la casa? È tranquilla.", "es": "¿Cómo es la casa? Es tranquila." } },
+    { "id": "casa-luminoso", "t": "luminoso / luminosa", "es": "luminoso / luminosa", "emoji": "☀️", "pos": "adj", "ex": { "t": "La cucina è molto luminosa.", "es": "La cocina es muy luminosa." } },
+    { "id": "casa-affittare", "t": "affittare", "es": "alquilar", "emoji": "🔑", "pos": "v", "note": "¡Ojo! No es «afeitar».", "ex": { "t": "Affittiamo una casa a Matera.", "es": "Alquilamos una casa en Matera." } },
+    { "id": "casa-in-affitto", "t": "in affitto", "es": "en alquiler", "emoji": "🏷️", "pos": "phrase", "ex": { "t": "Questo appartamento è in affitto.", "es": "Este piso está en alquiler." } },
+    { "id": "casa-a-che-piano", "t": "A che piano è?", "es": "¿En qué planta está?", "emoji": "⬆️", "pos": "phrase", "note": "Il piano = la planta, el piso de un edificio.", "ex": { "t": "A che piano è l'appartamento?", "es": "¿En qué planta está el piso?" } },
+    { "id": "casa-l-ascensore", "t": "l'ascensore", "es": "el ascensor", "emoji": "🛗", "pos": "n", "ex": { "t": "C'è l'ascensore?", "es": "¿Hay ascensor?" } },
+    { "id": "casa-il-riscaldamento", "t": "il riscaldamento", "es": "la calefacción", "emoji": "🔥", "pos": "n", "ex": { "t": "In inverno c'è il riscaldamento?", "es": "En invierno, ¿hay calefacción?" } },
+    { "id": "casa-l-aria-condizionata", "t": "l'aria condizionata", "es": "el aire acondicionado", "emoji": "❄️", "pos": "n", "note": "En italiano es femenino: l'aria.", "ex": { "t": "D'estate l'aria condizionata è importante.", "es": "En verano el aire acondicionado es importante." } }
+  ],
+  "grammar": "it-g-ce-ci-sono",
+  "pron": {
+    "title": "Las dobles de letto y affitto",
+    "tip": "Las consonantes dobles se sujetan un instante, como si hicieras una pequeña pausa: «let-to», «af-fit-to». Si no, letto suena distinto.",
+    "words": ["letto", "affitto", "appartamento", "tetto", "cassetto"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Quante camere ___?", "options": ["ci sono", "c'è", "sono"], "answer": "ci sono", "why": "Quante camere es plural: ci sono.", "g": "it-g-ce-ci-sono" },
+    { "id": "e2", "type": "choose", "q": "___ l'ascensore?", "es": "¿Hay ascensor?", "options": ["C'è", "Ci sono", "È"], "answer": "C'è", "why": "Para preguntar si hay algo, c'è con entonación de pregunta.", "g": "it-g-ce-ci-sono" },
+    { "id": "e3", "type": "choose", "q": "Com'___ l'appartamento?", "options": ["è", "c'è", "sono"], "answer": "è", "why": "Para describir usamos essere: com'è? (¿cómo es?).", "g": "it-g-ce-ci-sono" },
+    { "id": "e4", "type": "fill", "q": "Non ___ l'aria condizionata, ma c'è un ventilatore.", "es": "No hay aire acondicionado, pero hay un ventilador.", "answer": ["c'è"], "bank": ["c'è", "ci sono", "è"], "why": "L'aria condizionata es singular: non c'è.", "g": "it-g-ce-ci-sono" },
+    { "id": "e5", "type": "fill", "q": "Questo appartamento è in ___.", "es": "Este piso está en alquiler.", "answer": ["affitto"], "bank": ["affitto", "affitta", "piano"], "why": "In affitto = en alquiler." },
+    { "id": "e6", "type": "error", "q": "Quante stanze c'è?", "wrong": "c'è", "fix": "ci sono", "why": "Preguntamos por varias habitaciones: quante stanze ci sono?", "g": "it-g-ce-ci-sono" },
+    { "id": "e7", "type": "error", "q": "Dove c'è il bagno?", "wrong": "c'è", "fix": "è", "why": "Para preguntar dónde está algo concreto: dov'è il bagno? (como «¿dónde está?»).", "g": "it-g-ce-ci-sono" },
+    { "id": "e8", "type": "transform", "instr": "Conviértela en pregunta", "q": "C'è il riscaldamento.", "answer": ["C'è il riscaldamento?"], "why": "En italiano la pregunta no cambia el orden: solo sube la voz al final.", "g": "it-g-ce-ci-sono" },
+    { "id": "e9", "type": "order", "es": "¿Cuántas habitaciones hay en total?", "answer": "Quante stanze ci sono in tutto", "extra": ["c'è"], "why": "Quante + cosa + ci sono.", "g": "it-g-ce-ci-sono" },
+    { "id": "e10", "type": "translate", "dir": "to", "q": "¿Hay calefacción?", "answer": ["C'è il riscaldamento?", "C'è riscaldamento?"], "why": "Hay = c'è; calefacción = il riscaldamento.", "g": "it-g-ce-ci-sono" },
+    { "id": "e11", "type": "translate", "dir": "from", "q": "Affittiamo una casa a Matera.", "answer": ["Alquilamos una casa en Matera"], "why": "Affittare = alquilar, no afeitar." },
+    { "id": "e12", "type": "situation", "context": "Llamas para alquilar un piso de vacaciones y quieres saber en qué planta está.", "emoji": "🏢", "options": ["A che piano è?", "Che piano c'è?", "Quanti piani ci sono?"], "answer": "A che piano è?", "why": "A che piano è? = ¿en qué planta está?" },
+    { "id": "e13", "type": "match", "pairs": [["l'ascensore", "el ascensor"], ["il riscaldamento", "la calefacción"], ["in affitto", "en alquiler"], ["luminosa", "luminosa"], ["affittare", "alquilar"]], "why": "Palabras para buscar piso." },
+    { "id": "e14", "type": "reading", "kind": "sign", "title": "Anuncio en una puerta", "text": "AFFITTASI appartamento al secondo piano. Due camere, un bagno, cucina abitabile. C'è l'ascensore. Non ci sono animali.", "questions": [
+      { "q": "¿Cuántos dormitorios tiene?", "options": ["Dos", "Uno", "Tres"], "answer": "Dos" },
+      { "q": "¿Hay ascensor?", "options": ["Sí", "No"], "answer": "Sí" },
+      { "q": "¿Qué significa «affittasi»?", "options": ["Se alquila", "Se vende", "Se afeita"], "answer": "Se alquila" }
+    ], "why": "Affittasi = se alquila; c'è l'ascensore = hay ascensor." },
+    { "id": "e15", "type": "speak", "t": "Quante stanze ci sono?", "es": "¿Cuántas habitaciones hay?" }
+  ],
+  "dialog": {
+    "title": "Un piso para las vacaciones",
+    "setting": "Yolanda llama a un señor que alquila un piso en Matera",
+    "emoji": "📞",
+    "lines": [
+      { "who": "Yolanda", "t": "Buongiorno, l'appartamento è ancora libero?", "es": "Buenos días, ¿el piso sigue libre?" },
+      { "who": "Signor Rizzo", "t": "Sì, signora. È molto luminoso.", "es": "Sí, señora. Es muy luminoso." },
+      { "who": "Yolanda", "t": "Quante camere ci sono?", "es": "¿Cuántos dormitorios hay?" },
+      { "who": "Signor Rizzo", "t": "Ci sono due camere e un bagno.", "es": "Hay dos dormitorios y un baño." },
+      { "who": "Yolanda", "t": "A che piano è? C'è l'ascensore?", "es": "¿En qué planta está? ¿Hay ascensor?" },
+      { "who": "Signor Rizzo", "t": "È al primo piano, ma non c'è l'ascensore.", "es": "Está en la primera planta, pero no hay ascensor." },
+      { "who": "Yolanda", "t": "Va bene. E c'è l'aria condizionata?", "es": "Vale. ¿Y hay aire acondicionado?" },
+      { "who": "Signor Rizzo", "t": "Sì, in tutte le stanze.", "es": "Sí, en todas las habitaciones." }
+    ],
+    "questions": [
+      { "q": "¿Cuántos dormitorios tiene el piso?", "options": ["Dos", "Uno", "Tres"], "answer": "Dos" },
+      { "q": "¿En qué planta está?", "options": ["En la primera", "En la segunda", "En la planta baja"], "answer": "En la primera" },
+      { "q": "¿Qué no tiene el edificio?", "options": ["Ascensor", "Aire acondicionado", "Baño"], "answer": "Ascensor" }
+    ]
+  },
+  "realLife": { "t": "C'è l'aria condizionata?", "es": "¿Hay aire acondicionado?", "context": "Antes de reservar un alojamiento en verano en el sur de Italia" },
+  "same": {
+    "text": "Para preguntar «¿hay…?» basta con subir la voz al final, igual que en español. No cambia el orden de las palabras.",
+    "examples": [
+      { "t": "C'è un balcone?", "es": "¿Hay un balcón?" },
+      { "t": "Ci sono due bagni?", "es": "¿Hay dos baños?" },
+      { "t": "Com'è la cucina?", "es": "¿Cómo es la cocina?" }
+    ]
+  },
+  "falseFriend": { "word": "affittare", "means": "alquilar", "looksLike": "afeitar (en italiano: radersi)", "emoji": "🔑", "tip": "Si ves «affittasi» en una puerta, es que se alquila. ¡Nadie te va a afeitar!" },
+  "summary": [
+    "Quante stanze ci sono? = ¿Cuántas habitaciones hay?",
+    "C'è l'ascensore? / Non c'è l'ascensore.",
+    "Com'è? = ¿Cómo es? · Dov'è? = ¿Dónde está?",
+    "Affittare = alquilar; affittasi = se alquila."
+  ],
+  "reviewed": false
+}

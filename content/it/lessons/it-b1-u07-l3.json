@@ -1,0 +1,82 @@
+{
+  "id": "it-b1-u07-l3",
+  "unit": "it-b1-u07",
+  "title": "Se fossi in te…",
+  "goal": "a dar consejos con «se fossi in te» y a usar frases hechas para soñar en voz alta",
+  "emoji": "💭",
+  "photoQuery": "sea view terrace coffee",
+  "vocab": [
+    { "id": "sogni-se-fossi-in-te", "t": "Se fossi in te…", "es": "Yo que tú… / Yo en tu lugar…", "emoji": "👉", "pos": "phrase", "ex": { "t": "Se fossi in te, prenoterei subito.", "es": "Yo que tú, reservaría ya." }, "note": "Literalmente: «si yo estuviera en ti». Después, condicional." },
+    { "id": "sogni-magari", "t": "Magari!", "es": "¡Ojalá! / ¡Ya me gustaría!", "emoji": "🤞", "pos": "phrase", "ex": { "t": "— Vai in Sardegna quest'estate? — Magari!", "es": "—¿Vas a Cerdeña este verano? —¡Ojalá!" } },
+    { "id": "sogni-chissa", "t": "chissà", "es": "quién sabe", "emoji": "🤷‍♀️", "pos": "adv", "ex": { "t": "Chissà, forse un giorno vivrò al mare.", "es": "Quién sabe, quizá algún día viviré junto al mar." } },
+    { "id": "sogni-sarebbe-il-massimo", "t": "Sarebbe il massimo!", "es": "¡Sería lo más! / ¡Sería genial!", "emoji": "🌟", "pos": "phrase", "ex": { "t": "Una settimana in barca? Sarebbe il massimo!", "es": "¿Una semana en barco? ¡Sería lo más!" } },
+    { "id": "sogni-se-fossi-ricca", "t": "Se fossi ricca…", "es": "Si fuera rica…", "emoji": "💎", "pos": "phrase", "ex": { "t": "Se fossi ricca, aiuterei tutta la famiglia.", "es": "Si fuera rica, ayudaría a toda la familia." } },
+    { "id": "sogni-sognare-a-occhi-aperti", "t": "sognare a occhi aperti", "es": "soñar despierta", "emoji": "😌", "pos": "phrase", "ex": { "t": "A volte sogno a occhi aperti una casa al mare.", "es": "A veces sueño despierta con una casa en la playa." } },
+    { "id": "sogni-il-topo", "t": "il topo", "es": "el ratón", "emoji": "🐭", "pos": "n", "ex": { "t": "Aiuto! In cantina c'è un topo!", "es": "¡Socorro! ¡Hay un ratón en el sótano!" }, "note": "¡Falso amigo! Il topo es el ratón. El topo (animal que excava) es la talpa." },
+    { "id": "sogni-se-potessi-tornare-indietro", "t": "se potessi tornare indietro", "es": "si pudiera volver atrás", "emoji": "⏪", "pos": "phrase", "ex": { "t": "Se potessi tornare indietro, studierei le lingue.", "es": "Si pudiera volver atrás, estudiaría idiomas." } },
+    { "id": "sogni-non-sarebbe-male", "t": "non sarebbe male", "es": "no estaría mal", "emoji": "👌", "pos": "phrase", "ex": { "t": "Un gelato adesso non sarebbe male!", "es": "¡Un helado ahora no estaría mal!" } }
+  ],
+  "grammar": "it-g-periodo-ipotetico-intro",
+  "pron": {
+    "title": "Magari, chissà, se fossi in te",
+    "tip": "Magari lleva el acento en ga: ma-GA-ri. Chissà termina fuerte, en la à. En «Se fossi in te…» la voz sube en te y deja la frase en el aire.",
+    "words": ["magari", "chissà", "se fossi in te", "sarebbe il massimo"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Se fossi in te, ___ un ombrellone in prima fila.", "es": "Yo que tú, cogería una sombrilla en primera fila.", "options": ["prenderei", "prendo", "prendessi"], "answer": "prenderei", "why": "Tras «se fossi in te» va el condicional: prenderei.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e2", "type": "situation", "context": "Una amiga te pregunta si te gustaría ir a Cerdeña con ella. Te encantaría, pero este año no puedes.", "emoji": "🤞", "options": ["Magari! Ma quest'anno non posso.", "Mi dispiace, non mi piace il mare.", "Se fossi in te, andrei."], "answer": "Magari! Ma quest'anno non posso.", "why": "Magari! = ¡ojalá!, ¡ya me gustaría!" },
+    { "id": "e3", "type": "match", "pairs": [["Magari!", "¡Ojalá!"], ["chissà", "quién sabe"], ["se fossi in te", "yo que tú"], ["sarebbe il massimo", "sería genial"], ["non sarebbe male", "no estaría mal"]], "why": "Frases hechas para soñar y aconsejar." },
+    { "id": "e4", "type": "fill", "q": "Se fossi in te, ___ il medico.", "es": "Yo que tú, llamaría al médico.", "answer": ["chiamerei"], "bank": ["chiamerei", "chiamassi", "chiamo"], "why": "Consejo con «se fossi in te» + condicional: chiamerei.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e5", "type": "fill", "q": "Una settimana in barca? Sarebbe il ___!", "es": "¿Una semana en barco? ¡Sería lo más!", "answer": ["massimo"], "why": "Sarebbe il massimo = sería lo más." },
+    { "id": "e6", "type": "order", "es": "Yo que tú, me quedaría en casa.", "answer": "Se fossi in te resterei a casa", "extra": ["sarei"], "why": "Se fossi in te + condicional (resterei).", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e7", "type": "translate", "dir": "to", "q": "Quién sabe, quizá el año que viene.", "answer": ["Chissà, forse l'anno prossimo.", "Chissà, magari l'anno prossimo.", "Chissà, forse l'anno che viene."], "why": "Quién sabe = chissà; quizá = forse." },
+    { "id": "e8", "type": "translate", "dir": "from", "q": "Se potessi tornare indietro, studierei l'italiano da giovane.", "answer": ["Si pudiera volver atrás, estudiaría italiano de joven.", "Si pudiera volver atrás, estudiaría el italiano de joven.", "Si pudiera volver atrás, estudiaría italiano cuando era joven."], "why": "Se potessi = si pudiera; studierei = estudiaría.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e9", "type": "error", "q": "Se fosse in te, prenoterei subito.", "wrong": "fosse", "fix": "fossi", "why": "Yo que tú = se fossi (io) in te. Fosse es para lui o lei.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e10", "type": "error", "q": "Se fossi in te, prenoterò subito.", "wrong": "prenoterò", "fix": "prenoterei", "why": "Para aconsejar, condicional: prenoterei. Prenoterò es futuro.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e11", "type": "reading", "kind": "message", "title": "Mensaje de Paola", "text": "Cara Yolanda, mio marito vuole comprare una casetta in campagna, ma è vecchia e ci sono i topi! 🐭 Io invece sogno a occhi aperti una casa al mare. Tu, se fossi in me, cosa faresti? Un abbraccio, Paola", "questions": [
+      { "q": "¿Qué quiere comprar el marido de Paola?", "options": ["Una casita en el campo", "Una casa en la playa", "Un barco"], "answer": "Una casita en el campo" },
+      { "q": "¿Qué problema tiene esa casa?", "options": ["Hay ratones", "Es muy cara", "Está lejos"], "answer": "Hay ratones" },
+      { "q": "¿Con qué sueña Paola?", "options": ["Con una casa en la playa", "Con un viaje a Roma", "Con jubilarse"], "answer": "Con una casa en la playa" }
+    ], "why": "Se fossi in me = si tú estuvieras en mi lugar." },
+    { "id": "e12", "type": "situation", "context": "En la casa rural ves un ratón en la cocina y avisas a tu marido.", "emoji": "🐭", "options": ["C'è un topo in cucina!", "C'è una talpa in cucina!", "C'è un gatto in cucina!"], "answer": "C'è un topo in cucina!", "why": "El ratón es il topo. La talpa es el topo que excava la tierra." },
+    { "id": "e13", "type": "transform", "instr": "Da el mismo consejo empezando por «Se fossi in te»", "q": "Dovresti riposarti.", "answer": ["Se fossi in te, mi riposerei.", "Se fossi in te mi riposerei."], "why": "Se fossi in te + condicional de io: mi riposerei.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e14", "type": "choose", "q": "— Ti piacerebbe vivere al mare? — ___! Sarebbe il massimo.", "es": "—¿Te gustaría vivir junto al mar? —¡Ojalá! Sería lo más.", "options": ["Magari", "Chissà", "Peccato"], "answer": "Magari", "why": "Magari! expresa un deseo: ¡ojalá!" },
+    { "id": "e15", "type": "speak", "t": "Se fossi in te, andrei in Sardegna a giugno.", "es": "Yo que tú, iría a Cerdeña en junio." },
+    { "id": "e16", "type": "conjugate", "verb": "potere", "person": "io", "tense": "congiuntivo imperfetto", "q": "Se ___ tornare indietro, farei un viaggio da sola.", "answer": ["potessi"], "why": "Potere → potessi (si pudiera).", "g": "it-g-periodo-ipotetico-intro" }
+  ],
+  "dialog": {
+    "title": "Yo que tú…",
+    "setting": "Yolanda y su amiga Paola charlan en una terraza frente al mar",
+    "emoji": "☕",
+    "lines": [
+      { "who": "Paola", "t": "Yolanda, mio marito vuole una casa in campagna. Tu cosa faresti?", "es": "Yolanda, mi marido quiere una casa en el campo. ¿Tú qué harías?" },
+      { "who": "Yolanda", "t": "Se fossi in te, sceglierei una casa al mare.", "es": "Yo que tú, elegiría una casa en la playa." },
+      { "who": "Paola", "t": "Magari! Ma costa troppo, lo sai.", "es": "¡Ojalá! Pero cuesta demasiado, ya lo sabes." },
+      { "who": "Yolanda", "t": "Chissà, forse c'è qualcosa di piccolo e carino.", "es": "Quién sabe, quizá hay algo pequeño y bonito." },
+      { "who": "Paola", "t": "E poi la casa in campagna ha i topi!", "es": "¡Y además la casa del campo tiene ratones!" },
+      { "who": "Yolanda", "t": "Allora niente campagna! Una casetta sulla spiaggia sarebbe il massimo.", "es": "¡Entonces nada de campo! Una casita en la playa sería lo más." },
+      { "who": "Paola", "t": "Hai ragione. Se potessi, partirei anche domani.", "es": "Tienes razón. Si pudiera, me iría mañana mismo." },
+      { "who": "Yolanda", "t": "E io verrei con te, con la crema solare!", "es": "¡Y yo iría contigo, con la crema solar!" }
+    ],
+    "questions": [
+      { "q": "¿Qué quiere el marido de Paola?", "options": ["Una casa en el campo", "Una casa en la playa", "Un piso en Roma"], "answer": "Una casa en el campo" },
+      { "q": "¿Qué haría Yolanda en su lugar?", "options": ["Elegiría una casa en la playa", "Compraría la casa del campo", "No compraría nada"], "answer": "Elegiría una casa en la playa" },
+      { "q": "¿Qué problema tiene la casa del campo?", "options": ["Tiene ratones", "No tiene agua", "Es muy pequeña"], "answer": "Tiene ratones" }
+    ]
+  },
+  "realLife": { "t": "Se fossi in te, ci penserei bene.", "es": "Yo que tú, me lo pensaría bien.", "context": "Para dar un consejo con cariño, sin imponer" },
+  "falseFriend": {
+    "word": "il topo",
+    "means": "el ratón",
+    "looksLike": "topo (en italiano, la talpa)",
+    "emoji": "🐭",
+    "tip": "Un topo in cucina = un ratón en la cocina. El topo que hace túneles en el jardín es la talpa."
+  },
+  "summary": [
+    "Yo que tú = se fossi in te + condicional (se fossi in te, prenoterei).",
+    "Magari! = ¡ojalá!; chissà = quién sabe.",
+    "Sarebbe il massimo = sería lo más; non sarebbe male = no estaría mal.",
+    "¡Ojo! Il topo es el ratón; el topo que excava es la talpa."
+  ],
+  "reviewed": false
+}

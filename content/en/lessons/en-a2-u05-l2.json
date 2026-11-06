@@ -1,0 +1,418 @@
+{
+  "id": "en-a2-u05-l2",
+  "unit": "en-a2-u05",
+  "title": "Hice, di, escribí",
+  "goal": "a usar más verbos irregulares en pasado para contar lo que hiciste",
+  "emoji": "✍️",
+  "photoQuery": "birthday cake kitchen table",
+  "vocab": [
+    {
+      "id": "story-made",
+      "t": "made",
+      "es": "hice, preparé (de make)",
+      "emoji": "🎂",
+      "pos": "v",
+      "ex": {
+        "t": "I made a cake for my grandson.",
+        "es": "Hice un bizcocho para mi nieto."
+      }
+    },
+    {
+      "id": "story-gave",
+      "t": "gave",
+      "es": "di, regalé (de give)",
+      "emoji": "🎁",
+      "pos": "v",
+      "ex": {
+        "t": "My friend gave me a book.",
+        "es": "Mi amiga me regaló un libro."
+      }
+    },
+    {
+      "id": "story-found",
+      "t": "found",
+      "es": "encontré (de find)",
+      "emoji": "🔍",
+      "pos": "v",
+      "ex": {
+        "t": "We found a cheap hotel near the beach.",
+        "es": "Encontramos un hotel barato cerca de la playa."
+      }
+    },
+    {
+      "id": "story-left",
+      "t": "left",
+      "es": "me fui, salí, dejé (de leave)",
+      "emoji": "🚪",
+      "pos": "v",
+      "ex": {
+        "t": "We left the hotel at eight.",
+        "es": "Salimos del hotel a las ocho."
+      },
+      "note": "¡Ojo! left también es «izquierda»."
+    },
+    {
+      "id": "story-told",
+      "t": "told",
+      "es": "conté, dije (de tell)",
+      "emoji": "💬",
+      "pos": "v",
+      "ex": {
+        "t": "She told me a funny story.",
+        "es": "Me contó una historia graciosa."
+      }
+    },
+    {
+      "id": "story-felt",
+      "t": "felt",
+      "es": "me sentí (de feel)",
+      "emoji": "😊",
+      "pos": "v",
+      "ex": {
+        "t": "I felt very happy that day.",
+        "es": "Me sentí muy feliz ese día."
+      }
+    },
+    {
+      "id": "story-wrote",
+      "t": "wrote",
+      "es": "escribí (de write)",
+      "emoji": "✉️",
+      "pos": "v",
+      "ex": {
+        "t": "I wrote a postcard to my son.",
+        "es": "Le escribí una postal a mi hijo."
+      },
+      "note": "La w no suena: «rout»."
+    },
+    {
+      "id": "story-spent",
+      "t": "spent",
+      "es": "pasé (tiempo), gasté (dinero)",
+      "emoji": "💶",
+      "pos": "v",
+      "ex": {
+        "t": "We spent a week in Galicia.",
+        "es": "Pasamos una semana en Galicia."
+      },
+      "note": "spend time = pasar tiempo; spend money = gastar dinero."
+    }
+  ],
+  "grammar": "en-g-past-simple-irregular",
+  "pron": {
+    "title": "read y said: se escriben raro",
+    "tip": "El pasado de read se escribe igual, pero suena «red». Y said no suena «seid», sino «sed». Escúchalos y repítelos.",
+    "words": [
+      "read",
+      "said",
+      "made",
+      "left",
+      "felt"
+    ],
+    "pairs": [
+      [
+        "read (presente)",
+        "read (pasado)"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I ___ a cake for my grandson's birthday.",
+      "options": [
+        "made",
+        "maked",
+        "did"
+      ],
+      "answer": "made",
+      "why": "Para cocinar se usa make → made.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "My friend ___ me a lovely book.",
+      "options": [
+        "gave",
+        "gived",
+        "give"
+      ],
+      "answer": "gave",
+      "why": "Give → gave.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "We ___ the hotel very early.",
+      "options": [
+        "left",
+        "leaved",
+        "leave"
+      ],
+      "answer": "left",
+      "why": "Leave → left.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Yesterday I ___ a novel in the garden.",
+      "options": [
+        "read",
+        "readed",
+        "red"
+      ],
+      "answer": "read",
+      "why": "Read no cambia al escribirlo, pero en pasado suena «red».",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "She ___ me the news on the phone.",
+      "es": "Me contó la noticia por teléfono.",
+      "answer": [
+        "told"
+      ],
+      "bank": [
+        "told",
+        "telled",
+        "tell"
+      ],
+      "why": "Tell → told.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I ___ very tired after the trip.",
+      "es": "Me sentí muy cansada después del viaje.",
+      "answer": [
+        "felt"
+      ],
+      "bank": [
+        "felt",
+        "feeled",
+        "feel"
+      ],
+      "why": "Feel → felt.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "We ___ a little restaurant by the river.",
+      "es": "Encontramos un restaurantito junto al río.",
+      "answer": [
+        "found"
+      ],
+      "hint": "find",
+      "why": "Find → found.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e8",
+      "type": "conjugate",
+      "verb": "to write",
+      "person": "I",
+      "tense": "pasado simple",
+      "q": "I ___ a long message to my son.",
+      "answer": [
+        "wrote"
+      ],
+      "why": "Write → wrote.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e9",
+      "type": "conjugate",
+      "verb": "to spend",
+      "person": "we",
+      "tense": "pasado simple",
+      "q": "We ___ too much money in London!",
+      "answer": [
+        "spent"
+      ],
+      "why": "Spend → spent (gastar).",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Pásala a pasado",
+      "q": "I make coffee for everybody.",
+      "answer": [
+        "I made coffee for everybody."
+      ],
+      "why": "Make → made.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Pásala a pasado",
+      "q": "She gives me flowers.",
+      "answer": [
+        "She gave me flowers."
+      ],
+      "why": "En pasado desaparece la -s: gives → gave.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "He telled me a secret.",
+      "wrong": "telled",
+      "fix": "told",
+      "why": "Tell es irregular: told.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e13",
+      "type": "error",
+      "q": "We finded a wallet in the street.",
+      "wrong": "finded",
+      "fix": "found",
+      "why": "Find es irregular: found.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e14",
+      "type": "order",
+      "es": "Pasamos una semana en Galicia",
+      "answer": "We spent a week in Galicia",
+      "extra": [
+        "spend"
+      ],
+      "why": "Spend → spent.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "make",
+          "made"
+        ],
+        [
+          "give",
+          "gave"
+        ],
+        [
+          "find",
+          "found"
+        ],
+        [
+          "tell",
+          "told"
+        ],
+        [
+          "write",
+          "wrote"
+        ]
+      ],
+      "why": "Une cada verbo con su pasado.",
+      "g": "en-g-past-simple-irregular"
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "I made a cake and wrote a card.",
+      "es": "Hice un bizcocho y escribí una tarjeta.",
+      "g": "en-g-past-simple-irregular"
+    }
+  ],
+  "dialog": {
+    "title": "El cumpleaños del nieto",
+    "setting": "Emma llama a Yolanda desde Londres un lunes por la mañana",
+    "emoji": "🎂",
+    "lines": [
+      {
+        "who": "Emma",
+        "t": "How was your weekend, Yolanda?",
+        "es": "¿Qué tal el fin de semana, Yolanda?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Very busy! It was my grandson's birthday.",
+        "es": "¡Muy ajetreado! Era el cumpleaños de mi nieto."
+      },
+      {
+        "who": "Emma",
+        "t": "Oh, lovely! What did you give him?",
+        "es": "¡Qué bonito! ¿Qué le regalaste?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I gave him a book and a football.",
+        "es": "Le regalé un libro y un balón."
+      },
+      {
+        "who": "Emma",
+        "t": "And did you make a cake?",
+        "es": "¿Y hiciste tarta?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I made a chocolate cake. He ate three pieces!",
+        "es": "Sí, hice una tarta de chocolate. ¡Se comió tres trozos!"
+      },
+      {
+        "who": "Emma",
+        "t": "Ha ha! He felt sick after that, I'm sure.",
+        "es": "¡Ja, ja! Seguro que después le dolía la tripa."
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, he felt great. I felt tired!",
+        "es": "No, él estaba genial. ¡La cansada era yo!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué celebraron?",
+        "options": [
+          "El cumpleaños del nieto",
+          "Una boda",
+          "La Navidad"
+        ],
+        "answer": "El cumpleaños del nieto"
+      },
+      {
+        "q": "¿De qué era la tarta?",
+        "options": [
+          "De chocolate",
+          "De limón",
+          "De queso"
+        ],
+        "answer": "De chocolate"
+      },
+      {
+        "q": "¿Quién terminó cansada?",
+        "options": [
+          "Yolanda",
+          "Emma",
+          "Nadie"
+        ],
+        "answer": "Yolanda"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "I made it myself.",
+    "es": "Lo he hecho yo misma.",
+    "context": "Cuando alguien alaba algo que has cocinado"
+  },
+  "summary": [
+    "make → made, give → gave, find → found",
+    "tell → told, feel → felt, write → wrote, spend → spent",
+    "leave → left: salir de un sitio o dejar algo",
+    "read se escribe igual en pasado, pero suena «red»"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u05-l2"
+}

@@ -1,0 +1,453 @@
+{
+  "id": "it-a1-u02-l1",
+  "unit": "it-a1-u02",
+  "title": "Un caffè e un cornetto",
+  "goal": "a nombrar los cafés, la bollería y lo que hay en un bar italiano",
+  "emoji": "☕",
+  "photoQuery": "italian espresso bar counter",
+  "vocab": [
+    {
+      "id": "bar-il-caffe",
+      "t": "il caffè",
+      "es": "el café (solo, corto)",
+      "emoji": "☕",
+      "pos": "n",
+      "note": "En Italia «un caffè» es siempre un espresso.",
+      "ex": {
+        "t": "Un caffè, per favore.",
+        "es": "Un café, por favor."
+      }
+    },
+    {
+      "id": "bar-il-cappuccino",
+      "t": "il cappuccino",
+      "es": "el capuchino",
+      "emoji": "☕",
+      "pos": "n",
+      "note": "Los italianos lo toman solo por la mañana, con el desayuno.",
+      "ex": {
+        "t": "La mattina prendo un cappuccino.",
+        "es": "Por la mañana tomo un capuchino."
+      }
+    },
+    {
+      "id": "bar-il-macchiato",
+      "t": "il caffè macchiato",
+      "es": "el cortado",
+      "emoji": "🥛",
+      "pos": "n",
+      "ex": {
+        "t": "Mio marito prende un macchiato.",
+        "es": "Mi marido toma un cortado."
+      }
+    },
+    {
+      "id": "bar-il-cornetto",
+      "t": "il cornetto",
+      "es": "el cruasán",
+      "emoji": "🥐",
+      "pos": "n",
+      "note": "En el norte lo llaman «brioche».",
+      "ex": {
+        "t": "Un cornetto alla crema, grazie.",
+        "es": "Un cruasán de crema, gracias."
+      }
+    },
+    {
+      "id": "bar-la-spremuta",
+      "t": "la spremuta d'arancia",
+      "es": "el zumo de naranja natural",
+      "emoji": "🍊",
+      "pos": "n",
+      "ex": {
+        "t": "Per Hugo una spremuta d'arancia.",
+        "es": "Para Hugo un zumo de naranja natural."
+      }
+    },
+    {
+      "id": "bar-il-te",
+      "t": "il tè",
+      "es": "el té",
+      "emoji": "🍵",
+      "pos": "n",
+      "ex": {
+        "t": "Prendo un tè al limone.",
+        "es": "Tomo un té con limón."
+      }
+    },
+    {
+      "id": "bar-il-latte",
+      "t": "il latte",
+      "es": "la leche",
+      "emoji": "🥛",
+      "pos": "n",
+      "note": "¡Ojo! Si pides «un latte» te traen un vaso de leche.",
+      "ex": {
+        "t": "Un bicchiere di latte per mia nipote.",
+        "es": "Un vaso de leche para mi nieta."
+      }
+    },
+    {
+      "id": "bar-il-burro",
+      "t": "il burro",
+      "es": "la mantequilla",
+      "emoji": "🧈",
+      "pos": "n",
+      "note": "¡Falso amigo! No es el animal (eso es «l'asino»).",
+      "ex": {
+        "t": "Vorrei un cornetto al burro.",
+        "es": "Quería un cruasán de mantequilla."
+      }
+    },
+    {
+      "id": "bar-il-bancone",
+      "t": "il bancone",
+      "es": "la barra",
+      "emoji": "🪵",
+      "pos": "n",
+      "ex": {
+        "t": "Prendo il caffè al bancone.",
+        "es": "Tomo el café en la barra."
+      }
+    },
+    {
+      "id": "bar-la-cassa",
+      "t": "la cassa",
+      "es": "la caja (donde se paga)",
+      "emoji": "💶",
+      "pos": "n",
+      "ex": {
+        "t": "Prima si paga alla cassa.",
+        "es": "Primero se paga en la caja."
+      }
+    }
+  ],
+  "grammar": "it-g-articoli-indet",
+  "pron": {
+    "title": "Las dobles de caffè y cappuccino",
+    "tip": "Las consonantes dobles se mantienen un instante, como si hicieras una pequeña pausa: caf-fè, cap-puc-ci-no, cor-net-to.",
+    "words": [
+      "caffè",
+      "cappuccino",
+      "cornetto",
+      "latte",
+      "spremuta"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Un ___, per favore. (un espresso)",
+      "options": [
+        "caffè",
+        "latte",
+        "tè"
+      ],
+      "answer": "caffè",
+      "why": "En Italia un caffè es un espresso.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Vorrei un cornetto al ___.",
+      "es": "Quería un cruasán de mantequilla.",
+      "options": [
+        "burro",
+        "latte",
+        "asino"
+      ],
+      "answer": "burro",
+      "why": "Burro significa mantequilla. ¡Falso amigo!"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "q": "Prendo ___ cappuccino.",
+      "es": "Tomo un capuchino.",
+      "answer": [
+        "un"
+      ],
+      "bank": [
+        "un",
+        "uno",
+        "una"
+      ],
+      "why": "Cappuccino es masculino: un cappuccino.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Per mia nipote ___ spremuta.",
+      "es": "Para mi nieta un zumo natural.",
+      "answer": [
+        "una"
+      ],
+      "bank": [
+        "un",
+        "una",
+        "un'"
+      ],
+      "why": "Spremuta es femenina: una spremuta.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e5",
+      "type": "match",
+      "pairs": [
+        [
+          "il caffè",
+          "el café"
+        ],
+        [
+          "il burro",
+          "la mantequilla"
+        ],
+        [
+          "il cornetto",
+          "el cruasán"
+        ],
+        [
+          "la cassa",
+          "la caja"
+        ],
+        [
+          "il bancone",
+          "la barra"
+        ]
+      ],
+      "why": "Vocabulario básico del bar."
+    },
+    {
+      "id": "e6",
+      "type": "translate",
+      "dir": "to",
+      "q": "un té con limón",
+      "answer": [
+        "un tè al limone"
+      ],
+      "why": "Con limón = al limone."
+    },
+    {
+      "id": "e7",
+      "type": "translate",
+      "dir": "from",
+      "q": "un caffè macchiato",
+      "answer": [
+        "un cortado",
+        "un café cortado",
+        "un café manchado"
+      ],
+      "why": "Macchiato = manchado con un poco de leche: nuestro cortado."
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Un café y un cruasán, por favor.",
+      "answer": "Un caffè e un cornetto per favore",
+      "extra": [
+        "uno"
+      ],
+      "why": "Los dos son masculinos con consonante: un.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Vorrei una cappuccino.",
+      "wrong": "una",
+      "fix": "un",
+      "why": "Cappuccino es masculino: un cappuccino.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e10",
+      "type": "situation",
+      "context": "Quieres un vaso de leche para tu nieta. ¿Qué palabra usas?",
+      "emoji": "🥛",
+      "options": [
+        "latte",
+        "lecce",
+        "caffè"
+      ],
+      "answer": "latte",
+      "why": "Leche = latte, con doble t."
+    },
+    {
+      "id": "e11",
+      "type": "situation",
+      "context": "Son las cinco de la tarde. ¿Qué pide normalmente un italiano en el bar?",
+      "emoji": "🕔",
+      "options": [
+        "Un caffè",
+        "Un cappuccino",
+        "Un cappuccino e un cornetto"
+      ],
+      "answer": "Un caffè",
+      "why": "El cappuccino es de desayuno; por la tarde lo típico es un caffè."
+    },
+    {
+      "id": "e12",
+      "type": "minimal",
+      "pair": [
+        "sete",
+        "sette"
+      ],
+      "answer": "sete",
+      "es": [
+        "sed",
+        "siete"
+      ],
+      "why": "Sete (sed) tiene una t simple; sette (siete), una t doble que se alarga."
+    },
+    {
+      "id": "e13",
+      "type": "speak",
+      "t": "Un cappuccino e un cornetto, per favore.",
+      "es": "Un capuchino y un cruasán, por favor."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "menu",
+      "title": "Bar Sole",
+      "text": "Caffè 1,20 €\nCappuccino 1,60 €\nCornetto 1,30 €\nSpremuta d'arancia 3,50 €\nTè 2,00 €",
+      "questions": [
+        {
+          "q": "¿Qué es lo más caro?",
+          "options": [
+            "La spremuta",
+            "El cappuccino",
+            "El caffè"
+          ],
+          "answer": "La spremuta"
+        },
+        {
+          "q": "¿Cuánto cuesta un cornetto?",
+          "options": [
+            "1,30 €",
+            "1,20 €",
+            "2,00 €"
+          ],
+          "answer": "1,30 €"
+        }
+      ],
+      "why": "Spremuta = zumo natural, el más caro de la lista."
+    }
+  ],
+  "dialog": {
+    "title": "Primer café en Nápoles",
+    "setting": "En la barra de un bar de Nápoles, por la mañana",
+    "emoji": "☕",
+    "lines": [
+      {
+        "who": "Barista",
+        "t": "Buongiorno, signora!",
+        "es": "¡Buenos días, señora!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Buongiorno! Un cappuccino, per favore.",
+        "es": "¡Buenos días! Un capuchino, por favor."
+      },
+      {
+        "who": "Barista",
+        "t": "Certo. Anche un cornetto?",
+        "es": "Claro. ¿También un cruasán?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, un cornetto al burro.",
+        "es": "Sí, un cruasán de mantequilla."
+      },
+      {
+        "who": "Barista",
+        "t": "Ha lo scontrino?",
+        "es": "¿Tiene el tique?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, ecco. Pago sempre prima alla cassa.",
+        "es": "Sí, aquí tiene. Siempre pago primero en la caja."
+      },
+      {
+        "who": "Barista",
+        "t": "Perfetto. Ecco a lei!",
+        "es": "Perfecto. ¡Aquí tiene!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie mille!",
+        "es": "¡Muchas gracias!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué bebe Yolanda?",
+        "options": [
+          "Un capuchino",
+          "Un café solo",
+          "Un té"
+        ],
+        "answer": "Un capuchino"
+      },
+      {
+        "q": "¿De qué es el cruasán?",
+        "options": [
+          "De mantequilla",
+          "De chocolate",
+          "De crema"
+        ],
+        "answer": "De mantequilla"
+      },
+      {
+        "q": "¿Dónde ha pagado Yolanda?",
+        "options": [
+          "En la caja",
+          "En la barra",
+          "En la mesa"
+        ],
+        "answer": "En la caja"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Un caffè, per favore.",
+    "es": "Un café, por favor.",
+    "context": "Para pedir un café solo en cualquier bar de Italia"
+  },
+  "same": {
+    "text": "Muchas palabras del bar se parecen al español, y como en español, las acabadas en -o suelen ser masculinas y en -a, femeninas.",
+    "examples": [
+      {
+        "t": "il tè",
+        "es": "el té"
+      },
+      {
+        "t": "la tazza",
+        "es": "la taza"
+      },
+      {
+        "t": "lo zucchero",
+        "es": "el azúcar"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "burro",
+    "means": "mantequilla",
+    "looksLike": "burro (el animal)",
+    "emoji": "🧈",
+    "tip": "Un cornetto al burro es un cruasán de mantequilla. El animal en italiano es l'asino."
+  },
+  "summary": [
+    "En Italia «un caffè» es un espresso.",
+    "El cappuccino se toma por la mañana, con un cornetto.",
+    "Burro = mantequilla (¡no el animal!).",
+    "Primero se paga en la cassa y luego se pide en el bancone."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u02-l1"
+}

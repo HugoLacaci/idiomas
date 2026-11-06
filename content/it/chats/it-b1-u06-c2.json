@@ -1,0 +1,60 @@
+{
+  "id": "it-b1-u06-c2",
+  "unit": "it-b1-u06",
+  "title": "Consejos para un examen",
+  "setting": "Giulia te cuenta que su hijo Luca tiene un examen de español y te pide consejo",
+  "emoji": "🍀",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, mio figlio Luca studia spagnolo e ha l'esame lunedì.", "es": "Yolanda, mi hijo Luca estudia español y tiene el examen el lunes." },
+      "options": [
+        { "t": "Davvero? In bocca al lupo a Luca!", "es": "¿De verdad? ¡Mucha suerte a Luca!", "next": "n2", "ok": true },
+        { "t": "Davvero? Crepi a Luca!", "es": "¿De verdad? ¡Gracias a Luca!", "next": "n2", "ok": false, "feedback": "Para desear suerte se dice In bocca al lupo; Crepi es la respuesta." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Crepi! Ma è molto nervoso. Cosa gli consigli?", "es": "¡Gracias! Pero está muy nervioso. ¿Qué le aconsejas?" },
+      "options": [
+        { "t": "È importante che dorma bene la notte prima.", "es": "Es importante que duerma bien la noche anterior.", "next": "n3", "ok": true },
+        { "t": "È importante che dorme bene la notte prima.", "es": "Es importante que duerma bien la noche anterior.", "next": "n3", "ok": false, "feedback": "È importante che + congiuntivo: dormire → dorma." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Giusto. E per l'orale?", "es": "Cierto. ¿Y para el oral?" },
+      "options": [
+        { "t": "È meglio che parli con calma e non abbia paura.", "es": "Es mejor que hable con calma y no tenga miedo.", "next": "n4", "ok": true },
+        { "t": "È meglio che parla con calma e non ha paura.", "es": "Es mejor que hable con calma y no tenga miedo.", "next": "n4", "ok": false, "feedback": "Tras è meglio che, congiuntivo: parli, abbia." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Lui vuole che io lo aiuti con i verbi. Ma io non so lo spagnolo!", "es": "Quiere que le ayude con los verbos. ¡Pero yo no sé español!" },
+      "options": [
+        { "t": "Allora bisogna che lui faccia pratica con me!", "es": "¡Entonces hace falta que practique conmigo!", "next": "n5", "ok": true },
+        { "t": "Allora bisogna che lui fa pratica con me!", "es": "¡Entonces hace falta que practique conmigo!", "next": "n5", "ok": false, "feedback": "Bisogna che + congiuntivo: fare → faccia." },
+        { "t": "Allora bisogna di fare pratica con me!", "es": "¡Entonces hace falta practicar conmigo!", "next": "n5", "ok": false, "feedback": "Bisogna va sin di: bisogna fare pratica. Y aquí hablas de Luca: bisogna che lui faccia." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Che gentile! Sono contenta che tu voglia aiutarlo.", "es": "¡Qué amable! Me alegro de que quieras ayudarle." },
+      "options": [
+        { "t": "Figurati! Sono contenta di aiutare.", "es": "¡Faltaría más! Me alegra ayudar.", "next": "n6", "ok": true },
+        { "t": "Figurati! Sono contenta che aiuto.", "es": "¡Faltaría más! Me alegra ayudar.", "next": "n6", "ok": false, "feedback": "Mismo sujeto (yo me alegro, yo ayudo): sono contenta di aiutare." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Allora gli do il tuo numero. Spero che vi sentiate presto!", "es": "Entonces le doy tu número. ¡Espero que habléis pronto!" },
+      "options": [
+        { "t": "Perfetto! E spero che l'esame vada benissimo.", "es": "¡Perfecto! Y espero que el examen vaya genial.", "next": "end", "ok": true },
+        { "t": "Perfetto! E spero che l'esame va benissimo.", "es": "¡Perfecto! Y espero que el examen vaya genial.", "next": "end", "ok": false, "feedback": "Spero che + congiuntivo: andare → vada." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "it-a2-u06-c3",
+  "unit": "it-a2-u06",
+  "title": "¿Qué has comprado en Milán?",
+  "setting": "Vuelves de un día de compras en Milán y Giulia te escribe por WhatsApp",
+  "emoji": "📱",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda! Com'è andato lo shopping a Milano?", "es": "¡Hola, Yolanda! ¿Qué tal las compras en Milán?" },
+      "options": [
+        { "t": "Benissimo! Ho comprato un sacco di cose.", "es": "¡Genial! He comprado un montón de cosas.", "next": "n2", "ok": true },
+        { "t": "Benissimo! Compro un sacco di cose ieri.", "es": "¡Genial! He comprado un montón de cosas.", "next": "n2", "ok": false, "feedback": "Ya ha pasado: ho comprato." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "E la borsa di pelle che hai visto in vetrina?", "es": "¿Y el bolso de piel que viste en el escaparate?" },
+      "options": [
+        { "t": "L'ho presa! C'era lo sconto.", "es": "¡Me lo llevé! Tenía descuento.", "next": "n3", "ok": true },
+        { "t": "L'ho preso! C'era lo sconto.", "es": "¡Me lo llevé! Tenía descuento.", "next": "n3", "ok": false, "feedback": "Borsa es femenino: l'ho presa." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Brava! E i regali per la famiglia?", "es": "¡Bien hecho! ¿Y los regalos para la familia?" },
+      "options": [
+        { "t": "Li ho comprati tutti!", "es": "¡Los he comprado todos!", "next": "n4", "ok": true },
+        { "t": "Li ho comprato tutti!", "es": "¡Los he comprado todos!", "next": "n4", "ok": false, "feedback": "Con li delante, el participio termina en -i: comprati." },
+        { "t": "Le ho comprati tutti!", "es": "¡Los he comprado todos!", "next": "n4", "ok": false, "feedback": "I regali es masculino: li ho comprati." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Hai preso anche delle magliette per tuo marito?", "es": "¿Has cogido también camisetas para tu marido?" },
+      "options": [
+        { "t": "Sì, ne ho prese due.", "es": "Sí, he cogido dos.", "next": "n5", "ok": true },
+        { "t": "Sì, ho prese due.", "es": "Sí, he cogido dos.", "next": "n5", "ok": false, "feedback": "Con una cantidad hace falta ne: ne ho prese due." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "E le scarpe? Ne hai comprate?", "es": "¿Y zapatos? ¿Has comprado?" },
+      "options": [
+        { "t": "No, non ne ho comprate. Erano troppo care!", "es": "No, no he comprado. ¡Eran demasiado caros!", "next": "n6", "ok": true },
+        { "t": "No, non ho comprate. Erano troppo care!", "es": "No, no he comprado. ¡Eran demasiado caros!", "next": "n6", "ok": false, "feedback": "Para «no he comprado (ninguno)»: non ne ho comprate." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Allora mi fai vedere tutto domani?", "es": "Entonces, ¿me lo enseñas todo mañana?" },
+      "options": [
+        { "t": "Certo! Ti aspetto a casa.", "es": "¡Claro! Te espero en casa.", "next": "end", "ok": true },
+        { "t": "Certo! Ti aspetta a casa.", "es": "¡Claro! Te espero en casa.", "next": "end", "ok": false, "feedback": "Yo espero: ti aspetto." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

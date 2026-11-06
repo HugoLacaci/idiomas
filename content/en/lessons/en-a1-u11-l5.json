@@ -1,0 +1,450 @@
+{
+  "id": "en-a1-u11-l5",
+  "unit": "en-a1-u11",
+  "title": "Reto: quedar en Piccadilly Circus",
+  "goal": "a quedar con alguien en el centro, explicar el camino y proponer planes",
+  "emoji": "🌆",
+  "photoQuery": "piccadilly circus night lights",
+  "vocab": [
+    {
+      "id": "city-statue",
+      "t": "the statue",
+      "es": "la estatua",
+      "emoji": "🗿",
+      "pos": "n",
+      "ex": {
+        "t": "Meet me under the statue.",
+        "es": "Espérame debajo de la estatua."
+      }
+    },
+    {
+      "id": "city-fountain",
+      "t": "the fountain",
+      "es": "la fuente",
+      "emoji": "⛲",
+      "pos": "n",
+      "ex": {
+        "t": "There's a fountain in the middle.",
+        "es": "Hay una fuente en el centro."
+      }
+    },
+    {
+      "id": "city-big-screens",
+      "t": "the big screens",
+      "es": "las pantallas gigantes",
+      "emoji": "📺",
+      "pos": "n",
+      "ex": {
+        "t": "Look at the big screens! They're beautiful at night.",
+        "es": "¡Mira las pantallas gigantes! Son preciosas de noche."
+      }
+    },
+    {
+      "id": "city-crowded",
+      "t": "crowded",
+      "es": "lleno de gente",
+      "emoji": "👥",
+      "pos": "adj",
+      "ex": {
+        "t": "The square is very crowded today.",
+        "es": "La plaza está llena de gente hoy."
+      }
+    },
+    {
+      "id": "city-theatre",
+      "t": "the theatre",
+      "es": "el teatro",
+      "emoji": "🎭",
+      "pos": "n",
+      "ex": {
+        "t": "Let's go to the theatre tonight.",
+        "es": "Vamos al teatro esta noche."
+      },
+      "note": "En EE. UU. se escribe theater."
+    },
+    {
+      "id": "city-meet-me",
+      "t": "Meet me at…",
+      "es": "Quedamos en… / Espérame en…",
+      "emoji": "🤝",
+      "pos": "phrase",
+      "ex": {
+        "t": "Meet me at the station at six.",
+        "es": "Quedamos en la estación a las seis."
+      }
+    },
+    {
+      "id": "city-lecture",
+      "t": "a lecture",
+      "es": "una conferencia, una charla",
+      "emoji": "🎤",
+      "pos": "n",
+      "ex": {
+        "t": "There's a free lecture at the museum.",
+        "es": "Hay una conferencia gratis en el museo."
+      },
+      "note": "¡Ojo, falso amigo! Lecture NO es lectura. Lectura = reading."
+    },
+    {
+      "id": "city-over-there",
+      "t": "over there",
+      "es": "allí, por allí",
+      "emoji": "👉",
+      "pos": "phrase",
+      "ex": {
+        "t": "The bus stop is over there.",
+        "es": "La parada está allí."
+      }
+    },
+    {
+      "id": "city-see-you-there",
+      "t": "See you there!",
+      "es": "¡Nos vemos allí!",
+      "emoji": "👋",
+      "pos": "phrase",
+      "ex": {
+        "t": "OK, at six. See you there!",
+        "es": "Vale, a las seis. ¡Nos vemos allí!"
+      }
+    }
+  ],
+  "grammar": "en-g-lets",
+  "pron": {
+    "title": "Piccadilly Circus",
+    "tip": "Pic-ca-DI-lly SIR-cus: la fuerza va en DI y en SIR. La c de circus suena como s y la ir es una vocal neutra, ni i ni e: «sɜː-kəs».",
+    "words": [
+      "Piccadilly Circus",
+      "theatre",
+      "statue",
+      "fountain"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ me at the fountain at six.",
+      "es": "Quedamos en la fuente a las seis.",
+      "options": [
+        "Meet",
+        "Meets",
+        "You meet to"
+      ],
+      "answer": "Meet",
+      "why": "Imperativo: Meet me at…",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Let's ___ a photo with the big screens!",
+      "es": "¡Hagámonos una foto con las pantallas!",
+      "options": [
+        "take",
+        "to take",
+        "takes"
+      ],
+      "answer": "take",
+      "why": "Let's + verbo tal cual.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "There's a free ___ at the museum.",
+      "es": "Hay una conferencia gratis en el museo.",
+      "options": [
+        "lecture",
+        "reading",
+        "lesson"
+      ],
+      "answer": "lecture",
+      "why": "¡Falso amigo! Conferencia = lecture. Lectura = reading."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "___ worry if you're late. I can wait.",
+      "es": "No te preocupes si llegas tarde. Puedo esperar.",
+      "answer": [
+        "Don't",
+        "Do not"
+      ],
+      "bank": [
+        "Don't",
+        "Not",
+        "No"
+      ],
+      "why": "Don't worry = no te preocupes.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Let's ___ go by taxi. It's very expensive.",
+      "es": "Mejor no vayamos en taxi. Es muy caro.",
+      "answer": [
+        "not"
+      ],
+      "why": "Let's not + verbo.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "The square is very ___ today. So many people!",
+      "es": "La plaza está llena de gente hoy. ¡Cuánta gente!",
+      "answer": [
+        "crowded",
+        "busy"
+      ],
+      "bank": [
+        "crowded",
+        "empty",
+        "quiet"
+      ],
+      "why": "Lleno de gente = crowded."
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "Vamos al teatro esta noche",
+      "answer": "Let's go to the theatre tonight",
+      "extra": [
+        "to"
+      ],
+      "why": "Let's go + lugar + tiempo, al final.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Sal de la estación y gira a la izquierda",
+      "answer": "Leave the station and turn left",
+      "extra": [
+        "you"
+      ],
+      "why": "Dos imperativos, sin sujeto.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "I love the lecture of books in English.",
+      "wrong": "lecture",
+      "fix": "reading",
+      "why": "Lectura = reading. Lecture es una conferencia."
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Let's meets at the statue.",
+      "wrong": "meets",
+      "fix": "meet",
+      "why": "Let's + verbo sin -s.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Conviértela en una propuesta con Let's",
+      "q": "We have dinner near the theatre.",
+      "answer": [
+        "Let's have dinner near the theatre.",
+        "Let's have dinner near the theatre"
+      ],
+      "why": "Let's + have.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Tu amiga te escribe: «Where can we meet?». Propones la fuente a las cinco.",
+      "emoji": "⛲",
+      "options": [
+        "Let's meet at the fountain at five.",
+        "Let's to meet in the fountain five.",
+        "We meet fountain at five?"
+      ],
+      "answer": "Let's meet at the fountain at five.",
+      "why": "Let's meet at + lugar + at + hora.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Un turista te pregunta por la parada de autobús. Está allí mismo.",
+      "emoji": "🚏",
+      "options": [
+        "It's over there. Cross the road.",
+        "Is over there. You cross road.",
+        "Over there it. Crosses."
+      ],
+      "answer": "It's over there. Cross the road.",
+      "why": "It's over there + imperativo.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "message",
+      "title": "Mensaje de tu amiga",
+      "text": "I'm at Piccadilly Circus! Come out of the Tube station and look for the fountain. I'm next to it, under the big screens. Don't take a taxi, the streets are very busy. See you soon!",
+      "questions": [
+        {
+          "q": "¿Dónde está tu amiga?",
+          "options": [
+            "Al lado de la fuente",
+            "En el teatro",
+            "En el metro"
+          ],
+          "answer": "Al lado de la fuente"
+        },
+        {
+          "q": "¿Qué no debes hacer?",
+          "options": [
+            "Coger un taxi",
+            "Coger el metro",
+            "Andar"
+          ],
+          "answer": "Coger un taxi"
+        },
+        {
+          "q": "¿Por qué?",
+          "options": [
+            "Las calles tienen mucho tráfico",
+            "Es muy caro",
+            "No hay taxis"
+          ],
+          "answer": "Las calles tienen mucho tráfico"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "Let's go!",
+          "¡Vamos!"
+        ],
+        [
+          "Meet me at…",
+          "Quedamos en…"
+        ],
+        [
+          "See you there!",
+          "¡Nos vemos allí!"
+        ],
+        [
+          "over there",
+          "allí"
+        ],
+        [
+          "a lecture",
+          "una conferencia"
+        ]
+      ],
+      "why": "Frases para quedar."
+    },
+    {
+      "id": "e16",
+      "type": "translate",
+      "dir": "to",
+      "q": "Quedamos en la estación a las seis.",
+      "answer": [
+        "Meet me at the station at six.",
+        "Let's meet at the station at six.",
+        "Let's meet at the station at 6.",
+        "Meet me at the station at 6."
+      ],
+      "why": "Lugar antes que la hora: at the station at six.",
+      "g": "en-g-lets"
+    }
+  ],
+  "dialog": {
+    "title": "Junto a la fuente",
+    "setting": "En Piccadilly Circus, bajo las pantallas gigantes, Yolanda se encuentra con Emma",
+    "emoji": "⛲",
+    "lines": [
+      {
+        "who": "Emma",
+        "t": "Yolanda! Over here, next to the fountain!",
+        "es": "¡Yolanda! ¡Aquí, al lado de la fuente!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Hi, Emma! Wow, it's very crowded!",
+        "es": "¡Hola, Emma! ¡Uf, cuánta gente!"
+      },
+      {
+        "who": "Emma",
+        "t": "It's always busy here. Look at the big screens!",
+        "es": "Aquí siempre hay mucha gente. ¡Mira las pantallas!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Beautiful! Let's take a photo.",
+        "es": "¡Preciosas! Hagámonos una foto."
+      },
+      {
+        "who": "Emma",
+        "t": "Good idea. Then let's go to the theatre.",
+        "es": "Buena idea. Y luego vamos al teatro."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Great! Is it far?",
+        "es": "¡Genial! ¿Está lejos?"
+      },
+      {
+        "who": "Emma",
+        "t": "No, it's a five-minute walk. Come on, follow me!",
+        "es": "No, está a cinco minutos andando. ¡Venga, sígueme!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Dónde espera Emma?",
+        "options": [
+          "Al lado de la fuente",
+          "En el teatro",
+          "En la estación"
+        ],
+        "answer": "Al lado de la fuente"
+      },
+      {
+        "q": "¿Qué hacen primero?",
+        "options": [
+          "Una foto",
+          "Comer",
+          "Coger el metro"
+        ],
+        "answer": "Una foto"
+      },
+      {
+        "q": "¿Cómo van al teatro?",
+        "options": [
+          "Andando",
+          "En autobús",
+          "En taxi"
+        ],
+        "answer": "Andando"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Let's meet at the station at six.",
+    "es": "Quedamos en la estación a las seis.",
+    "context": "Para quedar con tu familia o tus amigas por WhatsApp"
+  },
+  "summary": [
+    "Quedar: Meet me at… / Let's meet at…",
+    "Indicaciones con imperativo: Come out of the station, turn left",
+    "Proponer: Let's go / Let's not take a taxi",
+    "Falso amigo: lecture = conferencia (lectura = reading)",
+    "Lugar antes que hora: at the fountain at six"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u11-l5"
+}

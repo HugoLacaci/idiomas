@@ -1,0 +1,131 @@
+{
+  "id": "it-g-andare-a-in",
+  "lang": "it",
+  "level": "A1",
+  "title": "Andare a, andare in, andare da",
+  "short": "a Roma, in Italia, in treno, a piedi, da mia sorella: qué preposición va con cada destino.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "¿A, in o da?",
+      "emoji": "🧭",
+      "text": "En español todo es «voy **a**». En italiano depende del destino: ==a== Roma, ==in== Italia, ==da== mia sorella. ¡Con tres reglitas lo tienes!",
+      "examples": [
+        { "t": "Vado ==a== Roma.", "es": "Voy a Roma.", "hl": "a" },
+        { "t": "Vado ==in== Italia.", "es": "Voy a Italia.", "hl": "in" },
+        { "t": "Vado ==da== mia sorella.", "es": "Voy a casa de mi hermana.", "hl": "da" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "¿Cuál uso?",
+      "emoji": "📋",
+      "text": "Mira el tipo de destino:",
+      "table": {
+        "head": ["", "Cuándo", "Ejemplos"],
+        "rows": [
+          ["==a==", "ciudades, pueblos, islas pequeñas, casa", "a Roma, a Bari, a Capri, a casa"],
+          ["==in==", "países, regiones, islas grandes", "in Italia, in Spagna, in Sicilia"],
+          ["==in==", "sitios en -ia y lugares fijos", "in farmacia, in centro, in stazione, in montagna"],
+          ["==da==", "personas y profesionales", "da Hugo, da mia madre, dal medico"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Cómo viajas: in",
+      "emoji": "🚆",
+      "text": "Con los medios de transporte se usa ==in== sin artículo: in treno, in macchina, in autobus, in aereo, in bici. ¡Solo hay una excepción: ==a piedi==!",
+      "examples": [
+        { "t": "Vado a Napoli ==in treno==.", "es": "Voy a Nápoles en tren.", "hl": "in treno" },
+        { "t": "Torno a casa ==a piedi==.", "es": "Vuelvo a casa andando.", "hl": "a piedi" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Da: a casa de alguien",
+      "emoji": "🏠",
+      "text": "Cuando vas a ver a una persona, a su casa o a su consulta, usa ==da==. Con artículo se une: da + il = ==dal== medico.",
+      "examples": [
+        { "t": "Stasera vado ==da== Carla.", "es": "Esta noche voy a casa de Carla.", "hl": "da" },
+        { "t": "Domani vado ==dal== medico.", "es": "Mañana voy al médico.", "hl": "dal" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "Fíjate: «voy a Italia» es ==in== Italia, y «voy a la farmacia» es ==in== farmacia, sin artículo. Pero «en tren» es igual: ==in treno==.",
+      "examples": [
+        { "t": "Vado ==in== Spagna.", "es": "Voy a España.", "hl": "in" },
+        { "t": "Vado ==in== farmacia.", "es": "Voy a la farmacia.", "hl": "in" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "Errores típicos",
+      "emoji": "⚠️",
+      "text": "Los que más se escapan:",
+      "examples": [
+        { "t": "❌ in Roma → ✅ ==a== Roma", "es": "a Roma / en Roma", "hl": "a" },
+        { "t": "❌ a Sicilia → ✅ ==in== Sicilia", "es": "a Sicilia", "hl": "in" },
+        { "t": "❌ a casa di mia madre → ✅ ==da== mia madre", "es": "a casa de mi madre", "hl": "da" }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Truco",
+      "emoji": "💡",
+      "text": "¿Es un punto en el mapa (una ciudad)? ==a==. ¿Es un territorio grande? ==in==. ¿Es una persona? ==da==. Y para «estar en»: igual, ==a== Roma, ==in== Italia.",
+      "examples": [
+        { "t": "Abito ==a== Madrid, ==in== Spagna.", "es": "Vivo en Madrid, en España.", "hl": "a" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español decimos «voy a» para todo: a Roma, a Italia, a la farmacia, a casa de mi hermana. Y «en tren, a pie».",
+    "target": "En italiano: a + ciudad (a Roma), in + país o región (in Italia) y sitios como in farmacia, da + persona (da mia sorella). Transporte: in treno, pero a piedi."
+  },
+  "errors": [
+    { "wrong": "Vado in Roma.", "right": "Vado a Roma.", "why": "Con ciudades se usa a." },
+    { "wrong": "Vado a Italia.", "right": "Vado in Italia.", "why": "Con países se usa in." },
+    { "wrong": "Vado a casa di mia sorella.", "right": "Vado da mia sorella.", "why": "Para ir a casa de alguien, lo natural es da + persona." },
+    { "wrong": "Vado con il piede.", "right": "Vado a piedi.", "why": "A pie se dice a piedi, en plural." },
+    { "wrong": "Vado a treno.", "right": "Vado in treno.", "why": "Con los medios de transporte se usa in." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Vado ___ Firenze.", "es": "Voy a Florencia.", "options": ["a", "in", "da"], "answer": "a", "why": "Ciudad → a.", "g": "it-g-andare-a-in" },
+    { "id": "e2", "type": "choose", "q": "Abito ___ Spagna.", "es": "Vivo en España.", "options": ["in", "a", "da"], "answer": "in", "why": "País → in.", "g": "it-g-andare-a-in" },
+    { "id": "e3", "type": "choose", "q": "Andiamo ___ Toscana in macchina.", "es": "Vamos a la Toscana en coche.", "options": ["in", "a", "da"], "answer": "in", "why": "Región → in, sin artículo.", "g": "it-g-andare-a-in" },
+    { "id": "e4", "type": "choose", "q": "Il sabato vado ___ mio figlio.", "es": "Los sábados voy a casa de mi hijo.", "options": ["da", "a", "in"], "answer": "da", "why": "Persona → da.", "g": "it-g-andare-a-in" },
+    { "id": "e5", "type": "choose", "q": "Vado al lavoro ___ bici.", "es": "Voy al trabajo en bici.", "options": ["in", "a", "con"], "answer": "in", "why": "Transporte → in: in bici.", "g": "it-g-andare-a-in" },
+    { "id": "e6", "type": "choose", "q": "Andiamo in centro ___ piedi?", "es": "¿Vamos al centro andando?", "options": ["a", "in", "con"], "answer": "a", "why": "La gran excepción: a piedi.", "g": "it-g-andare-a-in" },
+    { "id": "e7", "type": "choose", "q": "Domani vado ___ farmacia.", "es": "Mañana voy a la farmacia.", "options": ["in", "a", "da"], "answer": "in", "why": "Sitios en -ia: in farmacia, in pescheria.", "g": "it-g-andare-a-in" },
+    { "id": "e8", "type": "choose", "q": "Questa estate andiamo ___ Capri.", "es": "Este verano vamos a Capri.", "options": ["a", "in", "da"], "answer": "a", "why": "Islas pequeñas → a, como una ciudad.", "g": "it-g-andare-a-in" },
+    { "id": "e9", "type": "fill", "q": "Torno ___ casa alle otto.", "es": "Vuelvo a casa a las ocho.", "answer": ["a"], "bank": ["a", "in", "da"], "why": "A casa, sin artículo.", "g": "it-g-andare-a-in" },
+    { "id": "e10", "type": "fill", "q": "Andiamo a Bari ___ treno.", "es": "Vamos a Bari en tren.", "answer": ["in"], "bank": ["in", "a", "con"], "why": "Transporte → in treno.", "g": "it-g-andare-a-in" },
+    { "id": "e11", "type": "fill", "q": "Oggi pomeriggio vado ___ Carla.", "es": "Esta tarde voy a casa de Carla.", "answer": ["da"], "bank": ["da", "a", "in"], "why": "Persona → da Carla.", "g": "it-g-andare-a-in" },
+    { "id": "e12", "type": "fill", "q": "La mia amica lavora ___ Francia.", "es": "Mi amiga trabaja en Francia.", "answer": ["in"], "bank": ["in", "a", "da"], "why": "País → in, también para «estar en».", "g": "it-g-andare-a-in" },
+    { "id": "e13", "type": "fill", "q": "Andiamo ___ Sardegna in nave.", "es": "Vamos a Cerdeña en barco.", "answer": ["in"], "why": "Isla grande → in.", "g": "it-g-andare-a-in" },
+    { "id": "e14", "type": "fill", "q": "Il treno arriva ___ Palermo alle due.", "es": "El tren llega a Palermo a las dos.", "answer": ["a"], "why": "Ciudad → a.", "g": "it-g-andare-a-in" },
+    { "id": "e15", "type": "fill", "q": "Vado ___ banca e poi in posta.", "es": "Voy al banco y luego a Correos.", "answer": ["in"], "why": "In banca, in posta: lugares fijos sin artículo.", "g": "it-g-andare-a-in" },
+    { "id": "e16", "type": "fill", "q": "Vado in Sicilia ___ aereo.", "es": "Voy a Sicilia en avión.", "answer": ["in"], "why": "Transporte → in aereo.", "g": "it-g-andare-a-in" },
+    { "id": "e17", "type": "error", "q": "Domani vado in Napoli.", "wrong": "in", "fix": "a", "why": "Napoli es una ciudad: a Napoli.", "g": "it-g-andare-a-in" },
+    { "id": "e18", "type": "error", "q": "Mio figlio abita a Germania.", "wrong": "a", "fix": "in", "why": "Germania es un país: in Germania.", "g": "it-g-andare-a-in" },
+    { "id": "e19", "type": "error", "q": "Vado al mercato con piedi.", "wrong": "con", "fix": "a", "why": "A pie = a piedi.", "g": "it-g-andare-a-in" },
+    { "id": "e20", "type": "error", "q": "Stasera vado a Rosa.", "wrong": "a", "fix": "da", "why": "Ir a casa de Rosa = andare da Rosa.", "g": "it-g-andare-a-in" },
+    { "id": "e21", "type": "transform", "instr": "Cambia el destino: a Italia", "q": "Vado a Roma.", "answer": ["Vado in Italia."], "why": "País → in.", "g": "it-g-andare-a-in" },
+    { "id": "e22", "type": "transform", "instr": "Cambia el transporte: andando", "q": "Vado in stazione in autobus.", "answer": ["Vado in stazione a piedi."], "why": "Andando = a piedi.", "g": "it-g-andare-a-in" },
+    { "id": "e23", "type": "transform", "instr": "Dilo con «da»: ve a casa de tu hermana", "q": "Vado a casa.", "answer": ["Vado da mia sorella."], "why": "A casa de una persona → da + persona.", "g": "it-g-andare-a-in" },
+    { "id": "e24", "type": "translate", "dir": "to", "q": "Voy a Sicilia en tren.", "answer": ["Vado in Sicilia in treno.", "Io vado in Sicilia in treno."], "why": "In Sicilia (región) e in treno (transporte).", "g": "it-g-andare-a-in" },
+    { "id": "e25", "type": "translate", "dir": "to", "q": "Mañana voy al médico.", "answer": ["Domani vado dal medico.", "Vado dal medico domani."], "why": "Al médico = dal medico (da + il).", "g": "it-g-andare-a-in" },
+    { "id": "e26", "type": "translate", "dir": "from", "q": "Vivo a Madrid, in Spagna.", "answer": ["Vivo en Madrid, en España."], "why": "A con la ciudad, in con el país; en español, «en» para los dos.", "g": "it-g-andare-a-in" },
+    { "id": "e27", "type": "order", "es": "Voy al centro en autobús.", "answer": "Vado in centro in autobus", "extra": ["al"], "why": "In centro, in autobus: sin artículo.", "g": "it-g-andare-a-in" },
+    { "id": "e28", "type": "order", "es": "Esta noche vamos a casa de Hugo.", "answer": "Stasera andiamo da Hugo", "alt": ["Andiamo da Hugo stasera"], "extra": ["casa"], "why": "Da + persona.", "g": "it-g-andare-a-in" },
+    { "id": "e29", "type": "situation", "context": "Una señora italiana te pregunta dónde vives. Vives en un pueblo cerca de Madrid.", "emoji": "🏡", "options": ["Abito in un paese vicino a Madrid.", "Abito a un paese vicino in Madrid.", "Abito da un paese vicino a Madrid."], "answer": "Abito in un paese vicino a Madrid.", "why": "In un paese (con artículo, un lugar) y vicino a Madrid (ciudad).", "g": "it-g-andare-a-in" },
+    { "id": "e30", "type": "situation", "context": "Te preguntan cómo llegas de España a Italia. Vas en avión.", "emoji": "✈️", "options": ["Vengo in aereo.", "Vengo a aereo.", "Vengo con aereo."], "answer": "Vengo in aereo.", "why": "Transporte → in aereo.", "g": "it-g-andare-a-in" },
+    { "id": "e31", "type": "match", "pairs": [["a Roma", "una ciudad"], ["in Italia", "un país"], ["da mia madre", "una persona"], ["in treno", "un transporte"], ["a piedi", "la gran excepción"]], "why": "Ciudad → a; país → in; persona → da; transporte → in; y a piedi.", "g": "it-g-andare-a-in" },
+    { "id": "e32", "type": "match", "pairs": [["in montagna", "a la montaña"], ["in centro", "al centro"], ["in stazione", "a la estación"], ["a casa", "a casa"], ["in vacanza", "de vacaciones"]], "why": "Expresiones fijas sin artículo: in montagna, in centro, in stazione, in vacanza.", "g": "it-g-andare-a-in" }
+  ],
+  "reviewed": false
+}

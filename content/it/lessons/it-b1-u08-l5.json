@@ -1,0 +1,86 @@
+{
+  "id": "it-b1-u08-l5",
+  "unit": "it-b1-u08",
+  "title": "Arrivederci, Roma!",
+  "goal": "a despedirte de Italia con cariño, lanzar tu moneda a la Fontana di Trevi y repasar todo el curso",
+  "emoji": "⛲",
+  "photoQuery": "trevi fountain night coins",
+  "vocab": [
+    { "id": "citta-la-moneta", "t": "la moneta", "es": "la moneda", "emoji": "🪙", "pos": "n", "ex": { "t": "Ho tenuto una moneta per la Fontana di Trevi.", "es": "He guardado una moneda para la Fontana di Trevi." } },
+    { "id": "citta-lanciare", "t": "lanciare", "es": "lanzar, tirar", "emoji": "🤾‍♀️", "pos": "v", "ex": { "t": "La moneta si lancia di spalle, senza guardare.", "es": "La moneda se lanza de espaldas, sin mirar." } },
+    { "id": "citta-esprimere-un-desiderio", "t": "esprimere un desiderio", "es": "pedir un deseo", "emoji": "🌠", "pos": "phrase", "ex": { "t": "Chiudi gli occhi ed esprimi un desiderio.", "es": "Cierra los ojos y pide un deseo." } },
+    { "id": "citta-salutare", "t": "salutare", "es": "saludar; despedirse de", "emoji": "👋", "pos": "v", "ex": { "t": "Prima di partire voglio salutare tutti.", "es": "Antes de irme quiero despedirme de todos." } },
+    { "id": "citta-mi-mancherai", "t": "mi mancherai", "es": "te echaré de menos", "emoji": "🥲", "pos": "phrase", "ex": { "t": "Grazie di tutto, Giulia. Mi mancherai tanto.", "es": "Gracias por todo, Giulia. Te echaré mucho de menos." } },
+    { "id": "citta-grata", "t": "grata", "es": "agradecida", "emoji": "🙏", "pos": "adj", "ex": { "t": "Sono davvero grata per questo viaggio.", "es": "Estoy de verdad agradecida por este viaje." }, "note": "Hablando de un hombre: grato." },
+    { "id": "citta-ci-vediamo-presto", "t": "Ci vediamo presto!", "es": "¡Nos vemos pronto!", "emoji": "🔜", "pos": "phrase", "ex": { "t": "Non è un addio: ci vediamo presto!", "es": "No es un adiós: ¡nos vemos pronto!" } },
+    { "id": "citta-tornero", "t": "Tornerò!", "es": "¡Volveré!", "emoji": "🔙", "pos": "phrase", "ex": { "t": "Arrivederci, Roma! Tornerò presto.", "es": "¡Adiós, Roma! Volveré pronto." } },
+    { "id": "citta-buon-viaggio", "t": "Buon viaggio!", "es": "¡Buen viaje!", "emoji": "✈️", "pos": "phrase", "ex": { "t": "Buon viaggio, e scrivimi quando arrivi!", "es": "¡Buen viaje, y escríbeme cuando llegues!" } }
+  ],
+  "grammar": "it-g-connettivi",
+  "pron": {
+    "title": "Arrivederci",
+    "tip": "La r italiana es suave, de una sola vibración; la doble rr, un poco más fuerte. El golpe de voz va en «de»: a-rri-ve-DER-ci.",
+    "words": ["arrivederci", "tornerò", "ricordo", "Roma", "grazie"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "La moneta ___ lancio nella fontana è per tornare a Roma.", "es": "La moneda que lanzo a la fuente es para volver a Roma.", "options": ["che", "cui", "chi"], "answer": "che", "why": "Sin preposición, el relativo es che.", "g": "it-g-pronomi-relativi" },
+    { "id": "e2", "type": "choose", "q": "Devo partire, ___ tornerò presto!", "es": "Tengo que irme, ¡pero volveré pronto!", "options": ["però", "quindi", "infatti"], "answer": "però", "why": "Hay un contraste (me voy / volveré): però.", "g": "it-g-connettivi" },
+    { "id": "e3", "type": "choose", "q": "Se ___ più tempo, resterei un altro mese.", "es": "Si tuviera más tiempo, me quedaría otro mes.", "options": ["avessi", "avrei", "ho"], "answer": "avessi", "why": "Hipótesis: se + congiuntivo imperfetto (avessi) + condicional (resterei).", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e4", "type": "choose", "q": "Spero che tu ___ a trovarmi in Spagna.", "es": "Espero que vengas a verme a España.", "options": ["venga", "vieni", "verrai"], "answer": "venga", "why": "Spero che + congiuntivo: che tu venga.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e5", "type": "fill", "q": "Il regalo per Paola? ___ do stasera.", "es": "¿El regalo para Paola? Se lo doy esta noche.", "answer": ["Glielo"], "bank": ["Glielo", "Gli lo", "Se lo"], "why": "A ella + lo = glielo, todo junto.", "g": "it-g-pronomi-combinati" },
+    { "id": "e6", "type": "fill", "q": "Quando sono arrivata alla fontana, Paola ___ già arrivata.", "es": "Cuando llegué a la fuente, Paola ya había llegado.", "answer": ["era"], "bank": ["era", "è", "sarà"], "why": "Había llegado = era arrivata (trapassato con essere).", "g": "it-g-trapassato-prossimo" },
+    { "id": "e7", "type": "error", "q": "Roma è la città in che ho lasciato il cuore.", "wrong": "che", "fix": "cui", "why": "Detrás de una preposición va cui: in cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e8", "type": "error", "q": "Se potrei, resterei a Roma per sempre.", "wrong": "potrei", "fix": "potessi", "why": "Detrás de se nunca va el condicional: se potessi.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e9", "type": "situation", "context": "Estás en la estación y te despides de tu amiga Giulia, que te ha enseñado Roma.", "emoji": "🚉", "options": ["Grazie di tutto! Mi mancherai tanto.", "Piacere di conoscerti! Come ti chiami?", "Grazie di tutto! Io manco te tanto."], "answer": "Grazie di tutto! Mi mancherai tanto.", "why": "Te echaré de menos = mi mancherai (tú me faltarás).", "g": "it-g-mi-piace" },
+    { "id": "e10", "type": "translate", "dir": "to", "q": "Te echaré de menos.", "answer": ["Mi mancherai.", "Mi mancherai tanto."], "why": "Mi mancherai: tú eres el sujeto, el verbo va en futuro con tu.", "g": "it-g-mi-piace" },
+    { "id": "e11", "type": "translate", "dir": "from", "q": "Chi lancia una moneta nella Fontana di Trevi tornerà a Roma.", "answer": ["Quien lanza una moneda a la Fontana di Trevi volverá a Roma.", "Quien tira una moneda a la Fontana di Trevi volverá a Roma.", "Quien lanza una moneda en la Fontana di Trevi volverá a Roma.", "Quien tira una moneda en la Fontana di Trevi volverá a Roma.", "El que lanza una moneda a la Fontana di Trevi volverá a Roma."], "why": "Chi = quien, el que. Tornerà = volverá." },
+    { "id": "e12", "type": "reading", "kind": "sign", "title": "Cartel junto a la fuente", "text": "Fontana di Trevi. Secondo la tradizione, chi lancia una moneta di spalle nella fontana tornerà a Roma. Le monete vengono raccolte e donate alla Caritas, che le usa per aiutare chi ha bisogno.", "questions": [
+      { "q": "¿Cómo se lanza la moneda según la tradición?", "options": ["De espaldas", "Con los ojos cerrados y de frente", "Desde el puente"], "answer": "De espaldas" },
+      { "q": "¿Qué le pasa a quien lanza una moneda?", "options": ["Volverá a Roma", "Se casará pronto", "Tendrá suerte en el juego"], "answer": "Volverá a Roma" },
+      { "q": "¿Qué se hace con las monedas?", "options": ["Se donan a Cáritas", "Se quedan en la fuente", "Se las queda el ayuntamiento"], "answer": "Se donan a Cáritas" }
+    ], "why": "Di spalle = de espaldas. Vengono raccolte = se recogen." },
+    { "id": "e13", "type": "order", "es": "Gracias por este viaje inolvidable.", "answer": "Grazie per questo viaggio indimenticabile", "alt": ["Grazie di questo viaggio indimenticabile"], "extra": ["che"], "why": "Indimenticabile = inolvidable; va detrás del nombre." },
+    { "id": "e14", "type": "transform", "instr": "Conviértela en hipótesis (se + congiuntivo imperfetto + condicional)", "q": "Se ho tempo, torno a Roma.", "answer": ["Se avessi tempo, tornerei a Roma."], "why": "Ho → avessi; torno → tornerei.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e15", "type": "match", "pairs": [["Spero che", "tu stia bene."], ["Se potessi,", "resterei qui."], ["È la città", "che amo."], ["Sono stanca,", "quindi torno in albergo."]], "why": "Un repaso de todo el curso: congiuntivo, hipótesis, relativos y conectores." },
+    { "id": "e16", "type": "speak", "t": "Arrivederci, Roma! Tornerò presto.", "es": "¡Adiós, Roma! Volveré pronto." }
+  ],
+  "dialog": {
+    "title": "Una moneda en la Fontana di Trevi",
+    "setting": "Última noche del viaje: Yolanda y Giulia, su amiga romana, delante de la Fontana di Trevi",
+    "emoji": "⛲",
+    "lines": [
+      { "who": "Giulia", "t": "Eccoci! Hai la tua moneta?", "es": "¡Ya estamos! ¿Tienes tu moneda?" },
+      { "who": "Yolanda", "t": "Sì, l'ho tenuta tutto il giorno nella tasca.", "es": "Sí, la he guardado todo el día en el bolsillo." },
+      { "who": "Giulia", "t": "Allora girati di spalle e lanciala con la mano destra.", "es": "Entonces ponte de espaldas y lánzala con la mano derecha." },
+      { "who": "Yolanda", "t": "Fatto! Spero che funzioni davvero.", "es": "¡Hecho! Espero que funcione de verdad." },
+      { "who": "Giulia", "t": "Funziona sempre. Infatti, io la lancio ogni anno!", "es": "Funciona siempre. De hecho, ¡yo la lanzo cada año!" },
+      { "who": "Yolanda", "t": "Sai, quando ho cominciato a studiare italiano, non avrei mai immaginato tutto questo.", "es": "¿Sabes? Cuando empecé a estudiar italiano, nunca habría imaginado todo esto." },
+      { "who": "Giulia", "t": "E adesso parli benissimo! Sono fiera di te.", "es": "¡Y ahora hablas muy bien! Estoy orgullosa de ti." },
+      { "who": "Yolanda", "t": "Grazie, Giulia. Sei l'amica con cui ho imparato di più.", "es": "Gracias, Giulia. Eres la amiga con la que más he aprendido." },
+      { "who": "Giulia", "t": "Non è un addio. La fontana ti riporterà a Roma.", "es": "No es un adiós. La fuente te traerá de vuelta a Roma." },
+      { "who": "Yolanda", "t": "Lo so. Arrivederci, Roma… tornerò presto!", "es": "Lo sé. Adiós, Roma… ¡volveré pronto!" }
+    ],
+    "questions": [
+      { "q": "¿Con qué mano se lanza la moneda?", "options": ["Con la derecha", "Con la izquierda", "Con las dos"], "answer": "Con la derecha" },
+      { "q": "¿Cada cuánto lanza Giulia una moneda?", "options": ["Cada año", "Cada semana", "Nunca"], "answer": "Cada año" },
+      { "q": "¿Cómo se siente Giulia con Yolanda?", "options": ["Orgullosa", "Enfadada", "Aburrida"], "answer": "Orgullosa" }
+    ]
+  },
+  "realLife": { "t": "Grazie di tutto. Tornerò presto!", "es": "Gracias por todo. ¡Volveré pronto!", "context": "Para despedirte de quien te ha acogido en tu viaje" },
+  "same": {
+    "text": "Las despedidas se entienden enseguida.",
+    "examples": [
+      { "t": "Buon viaggio!", "es": "¡Buen viaje!" },
+      { "t": "Grazie di tutto!", "es": "¡Gracias por todo!" },
+      { "t": "Tornerò!", "es": "¡Volveré!" }
+    ]
+  },
+  "summary": [
+    "Despedirse: Grazie di tutto, Mi mancherai, Ci vediamo presto, Buon viaggio!",
+    "La tradición: una moneda de espaldas a la Fontana di Trevi para volver a Roma.",
+    "Las monedas se recogen y se donan a Cáritas.",
+    "Repaso del curso: condicional, congiuntivo, hipótesis, relativos y conectores.",
+    "¡Brava, Yolanda! Ya puedes contar, opinar y soñar en italiano."
+  ],
+  "reviewed": false
+}

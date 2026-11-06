@@ -1,0 +1,131 @@
+{
+  "id": "it-g-accordo-participio",
+  "lang": "it",
+  "level": "A2",
+  "title": "Concordancia del participio con essere (sono andata, siamo andati)",
+  "short": "Con essere el participio cambia como un adjetivo: andato, andata, andati, andate.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "El participio se viste",
+      "emoji": "👗",
+      "text": "Con essere, el participio funciona como un adjetivo: ==cambia según quién lo hace==. Tú eres mujer, así que dices ==sono andata==.",
+      "examples": [
+        { "t": "Sono ==andata== alla festa.", "es": "He ido a la fiesta.", "hl": "andata" },
+        { "t": "Mio marito è ==andato== alla festa.", "es": "Mi marido ha ido a la fiesta.", "hl": "andato" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Cuatro terminaciones",
+      "emoji": "🔤",
+      "text": "Igual que *bello, bella, belli, belle*.",
+      "table": {
+        "head": ["", "Singular", "Plural"],
+        "rows": [
+          ["Masculino", "andat==o==", "andat==i=="],
+          ["Femenino", "andat==a==", "andat==e=="]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Ejemplos de casa",
+      "emoji": "🏠",
+      "text": "Mira quién es el sujeto y elige la terminación.",
+      "table": {
+        "head": ["Quién", "Frase", "Español"],
+        "rows": [
+          ["Yolanda", "Sono arrivat==a==.", "He llegado."],
+          ["mio figlio Hugo", "È arrivat==o==.", "Ha llegado."],
+          ["le mie amiche", "Sono arrivat==e==.", "Han llegado."],
+          ["io e mio marito", "Siamo arrivat==i==.", "Hemos llegado."]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Grupo mixto = masculino",
+      "emoji": "👫",
+      "text": "Si en el grupo hay ==al menos un hombre==, se usa -i. Solo mujeres: -e. Como en español: «nosotros» y «nosotras».",
+      "examples": [
+        { "t": "Io e le mie amiche siamo uscit==e==.", "es": "Mis amigas y yo hemos salido.", "hl": "uscite" },
+        { "t": "Io e mio marito siamo uscit==i==.", "es": "Mi marido y yo hemos salido.", "hl": "usciti" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Avere no cambia, essere sí",
+      "emoji": "⚖️",
+      "text": "Con avere el participio se queda en ==-o==. Con essere, ==concuerda==. En español nunca cambia: «he ido» lo dicen todos.",
+      "examples": [
+        { "t": "Le ragazze hanno ballat==o== e sono tornat==e== tardi.", "es": "Las chicas han bailado y han vuelto tarde." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *(Yolanda) Sono andato* → ✅ sono ==andata==. ❌ *Le amiche sono venuti* → ✅ sono ==venute==. ❌ *Abbiamo mangiati* → ✅ abbiamo ==mangiato==."
+    },
+    {
+      "kind": "tip",
+      "title": "Con Lei, mira a la persona",
+      "emoji": "🎩",
+      "text": "Al tratar de usted, el participio va con ==la persona real==: a una señora, *è arrivata*; a un señor, *è arrivato*.",
+      "examples": [
+        { "t": "Signora, è stata a Siena?", "es": "Señora, ¿ha estado en Siena?" },
+        { "t": "Dottore, è già arrivato?", "es": "Doctor, ¿ya ha llegado?" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español el participio con «haber» nunca cambia: yo he ido, ella ha ido, ellas han ido.",
+    "target": "En italiano, con essere, el participio concuerda con el sujeto: io sono andata, lui è andato, loro sono andate. Con avere se queda en -o."
+  },
+  "errors": [
+    { "wrong": "(Yolanda) Ieri sono andato al mercato.", "right": "Ieri sono andata al mercato.", "why": "Tú eres mujer: con essere el participio termina en -a." },
+    { "wrong": "Le mie amiche sono venuti alla festa.", "right": "Le mie amiche sono venute alla festa.", "why": "Le amiche: femenino plural, -e." },
+    { "wrong": "Io e mio marito siamo arrivate alle dieci.", "right": "Io e mio marito siamo arrivati alle dieci.", "why": "En un grupo mixto se usa el masculino plural: -i." },
+    { "wrong": "Le ragazze hanno mangiate tanti dolci.", "right": "Le ragazze hanno mangiato tanti dolci.", "why": "Con avere el participio no concuerda: mangiato." },
+    { "wrong": "La festa è stato bellissima.", "right": "La festa è stata bellissima.", "why": "La festa es femenino: è stata." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "(Habla Yolanda) Ieri sono ___ dal parrucchiere.", "es": "Ayer fui a la peluquería.", "options": ["andata", "andato", "andate"], "answer": "andata", "why": "Yolanda es mujer: sono andata.", "g": "it-g-accordo-participio" },
+    { "id": "e2", "type": "choose", "q": "Mio figlio Hugo è ___ per Natale.", "es": "Mi hijo Hugo ha venido por Navidad.", "options": ["venuto", "venuta", "venuti"], "answer": "venuto", "why": "Hugo, masculino singular: venuto.", "g": "it-g-accordo-participio" },
+    { "id": "e3", "type": "choose", "q": "Le mie amiche sono ___ alle nove.", "es": "Mis amigas han llegado a las nueve.", "options": ["arrivate", "arrivati", "arrivata"], "answer": "arrivate", "why": "Le amiche: femenino plural, -e.", "g": "it-g-accordo-participio" },
+    { "id": "e4", "type": "choose", "q": "Io e mio marito siamo ___ a Siena.", "es": "Mi marido y yo hemos estado en Siena.", "options": ["stati", "state", "stato"], "answer": "stati", "why": "Grupo mixto: masculino plural, -i.", "g": "it-g-accordo-participio" },
+    { "id": "e5", "type": "choose", "q": "La cena di Natale è ___ lunghissima.", "es": "La cena de Navidad ha sido larguísima.", "options": ["stata", "stato", "state"], "answer": "stata", "why": "La cena es femenino singular: stata.", "g": "it-g-accordo-participio" },
+    { "id": "e6", "type": "choose", "q": "Le ragazze hanno ___ fino a mezzanotte.", "es": "Las chicas han bailado hasta medianoche.", "options": ["ballato", "ballate", "ballata"], "answer": "ballato", "why": "Ballare va con avere: el participio no cambia.", "g": "it-g-accordo-participio" },
+    { "id": "e7", "type": "choose", "q": "Signora, a che ora è ___?", "es": "Señora, ¿a qué hora ha llegado?", "options": ["arrivata", "arrivato", "arrivati"], "answer": "arrivata", "why": "Con Lei, mira a la persona real: una señora → arrivata.", "g": "it-g-accordo-participio" },
+    { "id": "e8", "type": "choose", "q": "I bambini sono ___ in giardino.", "es": "Los niños han salido al jardín.", "options": ["usciti", "uscite", "uscito"], "answer": "usciti", "why": "I bambini: masculino plural, -i.", "g": "it-g-accordo-participio" },
+    { "id": "e9", "type": "fill", "q": "Mia sorella è ___ a Madrid.", "es": "Mi hermana ha vuelto a Madrid.", "answer": ["tornata"], "bank": ["tornata", "tornato", "tornate"], "why": "Mia sorella: femenino singular.", "g": "it-g-accordo-participio" },
+    { "id": "e10", "type": "fill", "q": "I miei amici sono ___ al mare.", "es": "Mis amigos se han ido al mar.", "answer": ["andati"], "bank": ["andati", "andate", "andato"], "why": "Amici: masculino plural.", "g": "it-g-accordo-participio" },
+    { "id": "e11", "type": "fill", "q": "Io e le mie amiche siamo ___ a ballare.", "es": "Mis amigas y yo hemos salido a bailar.", "answer": ["uscite"], "bank": ["uscite", "usciti", "uscita"], "why": "Solo mujeres: -e.", "g": "it-g-accordo-participio" },
+    { "id": "e12", "type": "fill", "q": "La Befana è ___ la notte del 5 gennaio.", "es": "La Befana llegó la noche del 5 de enero.", "answer": ["arrivata", "venuta", "passata"], "bank": ["arrivata", "arrivato", "arrivate"], "why": "La Befana es femenino: arrivata.", "g": "it-g-accordo-participio" },
+    { "id": "e13", "type": "fill", "q": "Sono ___ in Spagna.", "es": "Nací en España.", "answer": ["nata"], "hint": "nascere (habla Yolanda)", "why": "Nascere → nato; Yolanda es mujer: nata.", "g": "it-g-accordo-participio" },
+    { "id": "e14", "type": "fill", "q": "Mio marito è ___ a casa con il raffreddore.", "es": "Mi marido se ha quedado en casa con un resfriado.", "answer": ["rimasto", "restato", "stato"], "hint": "rimanere", "why": "Mio marito: masculino singular, rimasto.", "g": "it-g-accordo-participio" },
+    { "id": "e15", "type": "fill", "q": "Le mie nipoti sono ___ con il treno.", "es": "Mis nietas han venido en tren.", "answer": ["venute", "arrivate", "partite", "tornate"], "hint": "venire", "why": "Le nipoti: femenino plural, venute.", "g": "it-g-accordo-participio" },
+    { "id": "e16", "type": "fill", "q": "Abbiamo ___ le lenticchie a Capodanno.", "es": "Hemos comido lentejas en Nochevieja.", "answer": ["mangiato"], "hint": "mangiare", "why": "Con avere el participio se queda en -o.", "g": "it-g-accordo-participio" },
+    { "id": "e17", "type": "error", "q": "(Yolanda) Sono andato a messa a Natale.", "wrong": "andato", "fix": "andata", "why": "Yolanda es mujer: sono andata.", "g": "it-g-accordo-participio" },
+    { "id": "e18", "type": "error", "q": "Le mie amiche sono venuti alla festa.", "wrong": "venuti", "fix": "venute", "why": "Le amiche: femenino plural, -e.", "g": "it-g-accordo-participio" },
+    { "id": "e19", "type": "error", "q": "Io e mio marito siamo partite alle sei.", "wrong": "partite", "fix": "partiti", "why": "Grupo mixto: -i.", "g": "it-g-accordo-participio" },
+    { "id": "e20", "type": "error", "q": "Le ragazze hanno cucinate i dolci.", "wrong": "cucinate", "fix": "cucinato", "why": "Con avere el participio no cambia.", "g": "it-g-accordo-participio" },
+    { "id": "e21", "type": "error", "q": "La processione è passato davanti a casa.", "wrong": "passato", "fix": "passata", "why": "La processione: femenino singular.", "g": "it-g-accordo-participio" },
+    { "id": "e22", "type": "transform", "instr": "Cambia el sujeto a «le mie amiche»", "q": "Mio figlio è tornato tardi.", "answer": ["Le mie amiche sono tornate tardi."], "why": "Loro (femenino plural) → sono tornate.", "g": "it-g-accordo-participio" },
+    { "id": "e23", "type": "transform", "instr": "Cambia el sujeto a «la mia vicina»", "q": "Il mio vicino è nato a dicembre.", "answer": ["La mia vicina è nata a dicembre."], "why": "Femenino singular: nata.", "g": "it-g-accordo-participio" },
+    { "id": "e24", "type": "transform", "instr": "Cambia el sujeto a «io e mio marito»", "q": "Sono rimasta a casa.", "answer": ["Io e mio marito siamo rimasti a casa."], "why": "Grupo mixto → siamo rimasti.", "g": "it-g-accordo-participio" },
+    { "id": "e25", "type": "transform", "instr": "Cambia el sujeto a «i miei amici»", "q": "La mia amica è uscita presto.", "answer": ["I miei amici sono usciti presto."], "why": "Masculino plural → sono usciti.", "g": "it-g-accordo-participio" },
+    { "id": "e26", "type": "order", "es": "Mis amigas y yo fuimos a la procesión.", "answer": "Io e le mie amiche siamo andate alla processione", "alt": ["Le mie amiche e io siamo andate alla processione"], "extra": ["andati"], "why": "Solo mujeres: siamo andate.", "g": "it-g-accordo-participio" },
+    { "id": "e27", "type": "order", "es": "La fiesta ha sido preciosa.", "answer": "La festa è stata bellissima", "extra": ["stato"], "why": "La festa: femenino, stata.", "g": "it-g-accordo-participio" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "Mis nietos han llegado esta mañana.", "answer": ["I miei nipoti sono arrivati stamattina.", "I miei nipoti sono arrivati questa mattina.", "Stamattina sono arrivati i miei nipoti."], "why": "Nipoti (masculino plural) → arrivati.", "g": "it-g-accordo-participio" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "Señora, ¿ha estado en Roma?", "answer": ["Signora, è stata a Roma?", "Signora, è mai stata a Roma?"], "why": "Con Lei, concuerda con la persona: una señora → stata.", "g": "it-g-accordo-participio" },
+    { "id": "e30", "type": "translate", "dir": "from", "q": "Le mie amiche sono partite ieri.", "answer": ["Mis amigas se fueron ayer.", "Mis amigas se han ido ayer.", "Mis amigas salieron ayer.", "Mis amigas se marcharon ayer."], "why": "Partire = irse, salir de viaje.", "g": "it-g-accordo-participio" },
+    { "id": "e31", "type": "conjugate", "verb": "andare", "person": "loro (femenino)", "tense": "passato prossimo", "q": "Le mie cugine ___ a Venezia per il Carnevale.", "answer": ["sono andate"], "table": [["lui", "è andato"], ["lei", "è andata"], ["loro (m.)", "sono andati"], ["loro (f.)", "sono andate"]], "why": "Femenino plural → sono andate.", "g": "it-g-accordo-participio" },
+    { "id": "e32", "type": "conjugate", "verb": "uscire", "person": "io (Yolanda)", "tense": "passato prossimo", "q": "Ieri sera ___ con le amiche.", "answer": ["sono uscita"], "why": "Io (mujer) → sono uscita.", "g": "it-g-accordo-participio" },
+    { "id": "e33", "type": "situation", "context": "Mandas un mensaje a Giulia: tu marido y tú ya habéis llegado al hotel de Siena.", "emoji": "🏨", "options": ["Siamo arrivati in albergo!", "Siamo arrivate in albergo!", "Abbiamo arrivati in albergo!"], "answer": "Siamo arrivati in albergo!", "why": "Grupo mixto: siamo arrivati.", "g": "it-g-accordo-participio" },
+    { "id": "e34", "type": "situation", "context": "Una amiga italiana te pregunta dónde naciste. Naciste en España.", "emoji": "🇪🇸", "options": ["Sono nata in Spagna.", "Sono nato in Spagna.", "Ho nata in Spagna."], "answer": "Sono nata in Spagna.", "why": "Nascere + essere, y eres mujer: sono nata.", "g": "it-g-accordo-participio" },
+    { "id": "e35", "type": "match", "pairs": [["mio marito è", "uscito"], ["mia nipote è", "uscita"], ["i miei nipoti sono", "usciti"], ["le mie amiche sono", "uscite"]], "why": "-o, -a, -i, -e según el sujeto.", "g": "it-g-accordo-participio" }
+  ],
+  "reviewed": false
+}

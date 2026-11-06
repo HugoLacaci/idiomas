@@ -1,0 +1,101 @@
+{
+  "id": "en-b1-u06-l5",
+  "unit": "en-b1-u06",
+  "title": "Reto en Ciudad del Cabo: Navidad en verano",
+  "goal": "a explicar cómo se celebran las fiestas en España y entender las costumbres de Ciudad del Cabo",
+  "emoji": "⛰️",
+  "photoQuery": "table mountain cape town",
+  "vocab": [
+    { "id": "celeb-table-mountain", "t": "Table Mountain", "es": "la Montaña de la Mesa", "emoji": "⛰️", "pos": "n",
+      "ex": { "t": "Table Mountain is flat on top, like a table.", "es": "La Montaña de la Mesa es plana por arriba, como una mesa." } },
+    { "id": "celeb-cable-car", "t": "cable car", "es": "teleférico", "emoji": "🚡", "pos": "n",
+      "ex": { "t": "We went up the mountain by cable car.", "es": "Subimos a la montaña en teleférico." } },
+    { "id": "celeb-tablecloth", "t": "the tablecloth", "es": "el mantel (la nube que cubre la montaña)", "emoji": "☁️", "pos": "n",
+      "ex": { "t": "The cloud on top of the mountain is called the tablecloth.", "es": "A la nube que cubre la montaña la llaman «el mantel»." } },
+    { "id": "celeb-braai", "t": "braai", "es": "barbacoa (en Sudáfrica)", "emoji": "🍖", "pos": "n",
+      "ex": { "t": "On Christmas Day, many families have a braai.", "es": "El día de Navidad, muchas familias hacen una barbacoa." } },
+    { "id": "celeb-summer-christmas", "t": "a summer Christmas", "es": "una Navidad en verano", "emoji": "☀️", "pos": "phrase",
+      "ex": { "t": "In South Africa, they have a summer Christmas.", "es": "En Sudáfrica tienen una Navidad en verano." } },
+    { "id": "celeb-penguins", "t": "penguins", "es": "pingüinos", "emoji": "🐧", "pos": "n",
+      "ex": { "t": "African penguins can be seen near Cape Town.", "es": "Cerca de Ciudad del Cabo se pueden ver pingüinos africanos." } },
+    { "id": "celeb-waterfront", "t": "the waterfront", "es": "el paseo marítimo, la zona del puerto", "emoji": "🌊", "pos": "n",
+      "ex": { "t": "We had dinner at the waterfront.", "es": "Cenamos en la zona del puerto." } },
+    { "id": "celeb-sunset", "t": "sunset", "es": "puesta de sol", "emoji": "🌅", "pos": "n",
+      "ex": { "t": "The sunset from the mountain was unforgettable.", "es": "La puesta de sol desde la montaña fue inolvidable." } }
+  ],
+  "grammar": "en-g-passive-basic",
+  "pron": {
+    "title": "Repaso: acento de frase",
+    "tip": "Lee con ritmo: palabras importantes fuertes y is / was suaves. The CAble car was OPened in nineteen TWENty-NINE.",
+    "words": ["It's celebrated in summer", "It was opened in 1929", "Penguins can be seen", "Table Mountain"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "text", "title": "Ciudad del Cabo",
+      "text": "Cape Town is dominated by Table Mountain, which is flat on top. When a white cloud covers it, locals say the tablecloth is on. The cable car was opened in 1929, and today it is used by thousands of visitors. Christmas is celebrated in summer here, often with a braai on the beach.",
+      "questions": [
+        { "q": "¿Qué dicen cuando una nube cubre la montaña?", "options": ["Que han puesto el mantel", "Que va a llover", "Que es Navidad"], "answer": "Que han puesto el mantel" },
+        { "q": "¿Cuándo se inauguró el teleférico?", "options": ["En 1929", "En 1990", "En 1829"], "answer": "En 1929" },
+        { "q": "¿Cómo se celebra a menudo la Navidad allí?", "options": ["Con una barbacoa en la playa", "Con nieve", "Con doce uvas"], "answer": "Con una barbacoa en la playa" }
+      ], "g": "en-g-passive-basic" },
+    { "id": "e2", "type": "choose", "q": "In Cape Town, Christmas ___ celebrated in summer.", "options": ["is", "was", "are"], "answer": "is",
+      "why": "Costumbre que se repite: presente, is celebrated.", "g": "en-g-passive-basic" },
+    { "id": "e3", "type": "choose", "q": "The cable car ___ opened in 1929.", "options": ["was", "is", "were"], "answer": "was",
+      "why": "Fecha pasada y singular: was opened.", "g": "en-g-passive-basic" },
+    { "id": "e4", "type": "choose", "q": "African penguins can ___ seen near Cape Town.", "options": ["be", "is", "are"], "answer": "be",
+      "why": "Después de can, el verbo be en su forma base: can be seen.", "g": "en-g-passive-basic" },
+    { "id": "e5", "type": "fill", "q": "The cable car is ___ by thousands of visitors every day.", "answer": ["used", "taken"], "hint": "use",
+      "why": "Use → used.", "g": "en-g-passive-basic" },
+    { "id": "e6", "type": "fill", "q": "The cloud on top of the mountain is ___ the tablecloth.", "answer": ["called"], "bank": ["called", "calls", "call"],
+      "why": "Is + called = se llama.", "g": "en-g-passive-basic" },
+    { "id": "e7", "type": "situation", "context": "Un guía sudafricano te pregunta cuándo se abren los regalos en España.", "emoji": "🎁",
+      "options": ["In many homes, they're opened on 6th January.", "In many homes, they open on 6th January.", "In many homes, they're open on 6th January."], "answer": "In many homes, they're opened on 6th January.",
+      "why": "Los regalos se abren: are opened (pasiva).", "g": "en-g-passive-basic" },
+    { "id": "e8", "type": "situation", "context": "Te preguntan qué se come en España en Nochevieja.", "emoji": "🍇",
+      "options": ["Twelve grapes are eaten at midnight.", "Twelve grapes eat at midnight.", "Twelve grapes were eat at midnight."], "answer": "Twelve grapes are eaten at midnight.",
+      "why": "Se comen = are eaten.", "g": "en-g-passive-basic" },
+    { "id": "e9", "type": "error", "q": "The cable car was open in 1929.", "wrong": "open", "fix": "opened",
+      "why": "Pasiva: was + participio (opened). Open sin -ed significa «abierto».", "g": "en-g-passive-basic" },
+    { "id": "e10", "type": "error", "q": "Yesterday some penguins was seen on the beach.", "wrong": "was", "fix": "were",
+      "why": "Penguins es plural: were seen.", "g": "en-g-passive-basic" },
+    { "id": "e11", "type": "order", "es": "En Ciudad del Cabo la Navidad se celebra en verano", "answer": "In Cape Town Christmas is celebrated in summer", "extra": ["celebrates"],
+      "why": "Christmas + is celebrated.", "g": "en-g-passive-basic" },
+    { "id": "e12", "type": "transform", "instr": "Pásala a pasiva", "q": "Thousands of tourists visit Table Mountain every year.",
+      "answer": ["Table Mountain is visited by thousands of tourists every year.", "Every year Table Mountain is visited by thousands of tourists."],
+      "why": "Table Mountain + is visited + by thousands of tourists.", "g": "en-g-passive-basic" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "La montaña se puede ver desde toda la ciudad.", "answer": ["The mountain can be seen from the whole city.", "The mountain can be seen from all over the city.", "The mountain can be seen from everywhere in the city."],
+      "why": "Se puede ver = can be seen.", "g": "en-g-passive-basic" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "The cable car was opened in 1929.", "answer": ["El teleférico se inauguró en 1929.", "El teleférico se abrió en 1929.", "El teleférico fue inaugurado en 1929."],
+      "why": "Was opened = se inauguró.", "g": "en-g-passive-basic" },
+    { "id": "e15", "type": "match", "pairs": [["cable car", "teleférico"], ["sunset", "puesta de sol"], ["braai", "barbacoa"], ["penguins", "pingüinos"], ["the waterfront", "la zona del puerto"]],
+      "why": "Palabras de Ciudad del Cabo." },
+    { "id": "e16", "type": "speak", "t": "In Spain, presents are brought by the Three Kings.", "es": "En España, los regalos los traen los Reyes Magos.", "g": "en-g-passive-basic" }
+  ],
+  "dialog": {
+    "title": "Navidad con barbacoa",
+    "setting": "Yolanda charla con Thandi, una guía, en el teleférico de la Montaña de la Mesa",
+    "emoji": "🚡",
+    "lines": [
+      { "who": "Thandi", "t": "Welcome to Table Mountain! This cable car was opened in 1929.", "es": "¡Bienvenida a la Montaña de la Mesa! Este teleférico se inauguró en 1929." },
+      { "who": "Yolanda", "t": "Wow! And how is Christmas celebrated here?", "es": "¡Vaya! ¿Y cómo se celebra aquí la Navidad?" },
+      { "who": "Thandi", "t": "It's summer, so lunch is often cooked on a braai.", "es": "Es verano, así que la comida se suele hacer en una barbacoa." },
+      { "who": "Yolanda", "t": "A barbecue at Christmas! In Spain it's usually cold.", "es": "¡Barbacoa en Navidad! En España suele hacer frío." },
+      { "who": "Thandi", "t": "And when are presents opened in Spain?", "es": "¿Y cuándo se abren los regalos en España?" },
+      { "who": "Yolanda", "t": "Many are brought by the Three Kings on 6th January.", "es": "Muchos los traen los Reyes Magos el 6 de enero." },
+      { "who": "Thandi", "t": "How lovely! Look, the tablecloth is coming.", "es": "¡Qué bonito! Mira, viene el mantel." },
+      { "who": "Yolanda", "t": "The cloud! Quick, let's take a photo before it covers everything.", "es": "¡La nube! Rápido, hagamos una foto antes de que lo tape todo." }
+    ],
+    "questions": [
+      { "q": "¿Cuándo se inauguró el teleférico?", "options": ["En 1929", "En 2000", "En 1950"], "answer": "En 1929" },
+      { "q": "¿Cómo se cocina a menudo la comida de Navidad allí?", "options": ["En una barbacoa", "En el horno", "No se cocina"], "answer": "En una barbacoa" },
+      { "q": "¿Qué es «the tablecloth»?", "options": ["Una nube sobre la montaña", "Un mantel de verdad", "Un restaurante"], "answer": "Una nube sobre la montaña" }
+    ]
+  },
+  "realLife": { "t": "How is Christmas celebrated here?", "es": "¿Cómo se celebra aquí la Navidad?", "context": "Para preguntar por las costumbres locales cuando viajas" },
+  "summary": [
+    "Presente pasivo para costumbres: Christmas is celebrated in summer",
+    "Pasado pasivo para la historia: The cable car was opened in 1929",
+    "Can be seen = se puede ver",
+    "Ciudad del Cabo: Table Mountain, the tablecloth, braai, penguins"
+  ],
+  "reviewed": false
+}

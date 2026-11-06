@@ -1,0 +1,67 @@
+{
+  "id": "en-b1-u01-c2",
+  "unit": "en-b1-u01",
+  "title": "Emma vuelve de Canadá",
+  "setting": "Emma acaba de volver de unas vacaciones en Canadá y te las cuenta por videollamada.",
+  "emoji": "🍁",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, I'm back! I spent two weeks in Canada.", "es": "¡Yolanda, ya he vuelto! Pasé dos semanas en Canadá." },
+      "options": [
+        { "t": "How exciting! What was it like?", "es": "¡Qué emocionante! ¿Qué tal fue?", "next": "n2", "ok": true },
+        { "t": "How excited! What was it like?", "es": "¡Qué emocionante! ¿Qué tal fue?", "next": "n2", "ok": false, "feedback": "El viaje es exciting (emocionante); excited es cómo se siente una persona." },
+        { "t": "How exciting! How was it like?", "es": "¡Qué emocionante! ¿Qué tal fue?", "next": "n2", "ok": false, "feedback": "Se dice What was it like? o How was it?, sin mezclar." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Amazing! We started in Toronto and then went to Vancouver.", "es": "¡Increíble! Empezamos en Toronto y luego fuimos a Vancouver." },
+      "options": [
+        { "t": "Did you go up the CN Tower?", "es": "¿Subisteis a la CN Tower?", "next": "n3", "ok": true },
+        { "t": "Have you gone up the CN Tower last week?", "es": "¿Subisteis a la CN Tower la semana pasada?", "next": "n3", "ok": false, "feedback": "Con last week, pasado simple: Did you go up…?" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Yes! I walked on the glass floor. I've never been so scared!", "es": "¡Sí! Anduve sobre el suelo de cristal. ¡Nunca he pasado tanto miedo!" },
+      "options": [
+        { "t": "I've never done that. I'm too scared of heights!", "es": "Yo nunca lo he hecho. ¡Me dan mucho miedo las alturas!", "next": "n4", "ok": true },
+        { "t": "I've ever done that. I'm too scared of heights!", "es": "Yo nunca lo he hecho. ¡Me dan miedo las alturas!", "next": "n4", "ok": false, "feedback": "Nunca = never. Ever es «alguna vez» y va en preguntas." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "And we saw Niagara Falls. Have you ever seen them?", "es": "Y vimos las cataratas del Niágara. ¿Las has visto alguna vez?" },
+      "options": [
+        { "t": "No, I haven't, but they're on my bucket list.", "es": "No, pero están en mi lista de sueños.", "next": "n5", "ok": true },
+        { "t": "No, I didn't, but they're on my bucket list.", "es": "No, pero están en mi lista de sueños.", "next": "n5", "ok": false, "feedback": "La pregunta lleva have: No, I haven't." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "You should go! I've bought you a little present, by the way.", "es": "¡Deberías ir! Por cierto, te he comprado un regalito." },
+      "options": [
+        { "t": "Oh, how kind! What have you bought me?", "es": "¡Qué detalle! ¿Qué me has comprado?", "next": "n6", "ok": true },
+        { "t": "Oh, how kind! What have you buy me?", "es": "¡Qué detalle! ¿Qué me has comprado?", "next": "n6", "ok": false, "feedback": "Después de have va el participio: bought." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "A bottle of maple syrup! Have you ever tried it?", "es": "¡Una botella de sirope de arce! ¿Lo has probado alguna vez?" },
+      "options": [
+        { "t": "Only once. I'll make pancakes for my grandchildren!", "es": "Solo una vez. ¡Haré tortitas para mis nietos!", "next": "n7", "ok": true },
+        { "t": "Only one time ago. I'll make pancakes for my grandchildren!", "es": "Solo una vez. ¡Haré tortitas para mis nietos!", "next": "n7", "ok": false, "feedback": "Una vez = once. «Ago» significa «hace» (two years ago)." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Perfect! Send me a photo of the pancakes.", "es": "¡Perfecto! Mándame una foto de las tortitas." },
+      "options": [
+        { "t": "I will! Welcome home, Emma.", "es": "¡Lo haré! Bienvenida a casa, Emma.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

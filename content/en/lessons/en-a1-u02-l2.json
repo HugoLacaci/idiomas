@@ -1,0 +1,439 @@
+{
+  "id": "en-a1-u02-l2",
+  "unit": "en-a1-u02",
+  "title": "Mis nietos y los suyos",
+  "goal": "a usar my, your, his, her, our, their para hablar de la familia",
+  "emoji": "👵",
+  "photoQuery": "grandmother grandchildren garden",
+  "vocab": [
+    {
+      "id": "grandson",
+      "t": "grandson",
+      "es": "nieto",
+      "emoji": "👦",
+      "pos": "n",
+      "ex": {
+        "t": "Her grandson is five.",
+        "es": "Su nieto tiene cinco años."
+      }
+    },
+    {
+      "id": "granddaughter",
+      "t": "granddaughter",
+      "es": "nieta",
+      "emoji": "👧",
+      "pos": "n",
+      "ex": {
+        "t": "Her granddaughter is very funny.",
+        "es": "Su nieta es muy graciosa."
+      }
+    },
+    {
+      "id": "grandchildren",
+      "t": "grandchildren",
+      "es": "nietos",
+      "emoji": "🧒",
+      "pos": "n",
+      "ex": {
+        "t": "My grandchildren are my treasure.",
+        "es": "Mis nietos son mi tesoro."
+      },
+      "note": "Coloquial: grandkids."
+    },
+    {
+      "id": "grandmother",
+      "t": "grandmother / grandma",
+      "es": "abuela / yaya",
+      "emoji": "👵",
+      "pos": "n",
+      "ex": {
+        "t": "Grandma, look at my drawing!",
+        "es": "¡Abuela, mira mi dibujo!"
+      }
+    },
+    {
+      "id": "grandfather",
+      "t": "grandfather / grandad",
+      "es": "abuelo / yayo",
+      "emoji": "👴",
+      "pos": "n",
+      "ex": {
+        "t": "Their grandad is a great cook.",
+        "es": "Su abuelo cocina muy bien."
+      }
+    },
+    {
+      "id": "aunt",
+      "t": "aunt",
+      "es": "tía",
+      "emoji": "👩‍🦱",
+      "pos": "n",
+      "ex": {
+        "t": "Her aunt is ninety!",
+        "es": "¡Su tía tiene noventa años!"
+      }
+    },
+    {
+      "id": "uncle",
+      "t": "uncle",
+      "es": "tío",
+      "emoji": "👨‍🦳",
+      "pos": "n",
+      "ex": {
+        "t": "Our uncle is Italian.",
+        "es": "Nuestro tío es italiano."
+      }
+    },
+    {
+      "id": "cousin",
+      "t": "cousin",
+      "es": "primo, prima",
+      "emoji": "🧑‍🤝‍🧑",
+      "pos": "n",
+      "ex": {
+        "t": "Lucía is with her cousin.",
+        "es": "Lucía está con su primo."
+      },
+      "note": "Cousin vale para chico y chica."
+    },
+    {
+      "id": "nephew",
+      "t": "nephew",
+      "es": "sobrino",
+      "emoji": "🧑",
+      "pos": "n",
+      "ex": {
+        "t": "My nephew is in Madrid.",
+        "es": "Mi sobrino está en Madrid."
+      }
+    },
+    {
+      "id": "niece",
+      "t": "niece",
+      "es": "sobrina",
+      "emoji": "👱‍♀️",
+      "pos": "n",
+      "ex": {
+        "t": "His niece is a nurse.",
+        "es": "Su sobrina es enfermera."
+      }
+    }
+  ],
+  "grammar": "en-g-possessive-adj",
+  "pron": {
+    "title": "their, there y they're suenan igual",
+    "tip": "Their (su, de ellos), there (allí) y they're (ellos son) se pronuncian igual: /ðeə/. Solo el contexto te dice cuál es. Y no confundas her (su, de ella) con hair (pelo): la vocal cambia.",
+    "words": [
+      "their",
+      "there",
+      "they're",
+      "her",
+      "his"
+    ],
+    "pairs": [
+      [
+        "her",
+        "hair"
+      ],
+      [
+        "his",
+        "hiss"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Tom is with ___ grandma.",
+      "options": [
+        "his",
+        "her",
+        "their"
+      ],
+      "answer": "his",
+      "why": "Tom es un chico: his (su, de él).",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Lucía is with ___ cousin.",
+      "options": [
+        "her",
+        "his",
+        "she"
+      ],
+      "answer": "her",
+      "why": "Lucía es una chica: her (su, de ella).",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "My grandchildren are with ___ dad.",
+      "options": [
+        "their",
+        "there",
+        "they're"
+      ],
+      "answer": "their",
+      "why": "Su padre (de ellos) = their dad. There es «allí» y they're, «ellos son».",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Hello, Tom! Where is ___ mum?",
+      "answer": [
+        "your"
+      ],
+      "bank": [
+        "your",
+        "you",
+        "you're"
+      ],
+      "why": "Tu madre = your mum. You es «tú» y you're, «tú eres».",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I'm Yolanda and these are ___ grandchildren.",
+      "answer": [
+        "my"
+      ],
+      "bank": [
+        "my",
+        "me",
+        "I"
+      ],
+      "why": "Mis nietos = my grandchildren. My no cambia en plural.",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "My aunt and ___ husband are in Seville.",
+      "answer": [
+        "her"
+      ],
+      "why": "El marido de mi tía (de ella): her husband.",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e7",
+      "type": "transform",
+      "instr": "Habla de Luis: cambia my por his",
+      "q": "My niece is a nurse.",
+      "answer": [
+        "His niece is a nurse."
+      ],
+      "why": "Si el dueño es un hombre, usamos his.",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "My friend Ana is with his son.",
+      "wrong": "his",
+      "fix": "her",
+      "why": "El hijo es de Ana, una mujer: her son. En inglés miramos al dueño, no a la cosa.",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "The dog is in it's bed.",
+      "wrong": "it's",
+      "fix": "its",
+      "why": "Its (sin apóstrofo) = su, de una cosa o animal. It's = it is.",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Su nieta es muy guapa (de ella)",
+      "answer": "Her granddaughter is very pretty",
+      "extra": [
+        "His"
+      ],
+      "why": "La dueña es una mujer: her granddaughter.",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Mis nietos están en el parque.",
+      "answer": [
+        "My grandchildren are in the park.",
+        "My grandkids are in the park."
+      ],
+      "why": "Mis = my (igual en singular y plural).",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "from",
+      "q": "Their uncle is Italian.",
+      "answer": [
+        "Su tío es italiano.",
+        "El tío de ellos es italiano.",
+        "Su tío es italiano",
+        "El tío de ellas es italiano."
+      ],
+      "why": "Their = su, de ellos o de ellas.",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "her",
+        "hair"
+      ],
+      "answer": "her",
+      "es": [
+        "su (de ella)",
+        "pelo"
+      ],
+      "why": "Her tiene una vocal cerrada y larga, como «er» sin r. Hair suena más abierto: «jea» con soplo."
+    },
+    {
+      "id": "e14",
+      "type": "match",
+      "pairs": [
+        [
+          "grandson",
+          "nieto"
+        ],
+        [
+          "granddaughter",
+          "nieta"
+        ],
+        [
+          "aunt",
+          "tía"
+        ],
+        [
+          "uncle",
+          "tío"
+        ],
+        [
+          "niece",
+          "sobrina"
+        ]
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Una amiga te pregunta: «How are your grandchildren?»",
+      "emoji": "👧👦",
+      "options": [
+        "They're fine, thanks.",
+        "Their fine, thanks.",
+        "There fine, thanks."
+      ],
+      "answer": "They're fine, thanks.",
+      "why": "Aquí significa «ellos están»: they're = they are. Suenan igual, pero se escriben distinto.",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "My grandchildren are my treasure.",
+      "es": "Mis nietos son mi tesoro."
+    }
+  ],
+  "dialog": {
+    "title": "En el parque",
+    "setting": "En un parque de Londres; Yolanda está con su nieto y habla con un abuelo inglés",
+    "emoji": "🌳",
+    "lines": [
+      {
+        "who": "George",
+        "t": "Hello! Is that your grandson?",
+        "es": "¡Hola! ¿Ese es su nieto?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, it is. He's my little treasure.",
+        "es": "Sí. Es mi pequeño tesoro."
+      },
+      {
+        "who": "George",
+        "t": "He's lovely. That's my granddaughter, Lily.",
+        "es": "Es un encanto. Esa es mi nieta, Lily."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Oh, her dress is beautiful!",
+        "es": "¡Ay, qué vestido tan bonito!"
+      },
+      {
+        "who": "George",
+        "t": "Thank you. Her mum is my daughter.",
+        "es": "Gracias. Su madre es mi hija."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Is your wife here too?",
+        "es": "¿Su mujer también está aquí?"
+      },
+      {
+        "who": "George",
+        "t": "No, she's at home with our dog.",
+        "es": "No, está en casa con nuestro perro."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grandparents are always busy!",
+        "es": "¡Los abuelos siempre estamos ocupados!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Con quién está Yolanda en el parque?",
+        "options": [
+          "Con su nieto",
+          "Con su marido",
+          "Con Lily"
+        ],
+        "answer": "Con su nieto"
+      },
+      {
+        "q": "¿Quién es Lily?",
+        "options": [
+          "La nieta de George",
+          "La hija de George"
+        ],
+        "answer": "La nieta de George"
+      },
+      {
+        "q": "¿Dónde está la mujer de George?",
+        "options": [
+          "En casa con el perro",
+          "En el parque"
+        ],
+        "answer": "En casa con el perro"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Your grandchildren are lovely!",
+    "es": "¡Tus nietos son un encanto!",
+    "context": "Para hacer un cumplido a otra abuela o abuelo"
+  },
+  "summary": [
+    "Posesivos: my, your, his, her, its, our, their",
+    "His si el dueño es un hombre; her si es una mujer",
+    "No cambian en plural: my grandson / my grandchildren",
+    "Their (su), there (allí) y they're (ellos son) suenan igual",
+    "Familia: grandson, granddaughter, aunt, uncle, cousin, nephew, niece"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u02-l2"
+}

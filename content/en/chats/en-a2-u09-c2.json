@@ -1,0 +1,59 @@
+{
+  "id": "en-a2-u09-c2",
+  "unit": "en-a2-u09",
+  "title": "Una mesa para el sábado",
+  "setting": "Emma hace de camarera de un restaurante. Llamas para reservar mesa para tu familia.",
+  "emoji": "🍽️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hello, The Blue Kitchen. Sorry, it's very noisy here!", "es": "Hola, The Blue Kitchen. ¡Perdone, aquí hay mucho ruido!" },
+      "options": [
+        { "t": "Hello! Could you speak up a little, please?", "es": "¡Hola! ¿Podría hablar un poco más alto, por favor?", "next": "n2", "ok": true },
+        { "t": "Hello! Speak loud!", "es": "¡Hola! ¡Hable alto!", "next": "n2", "ok": false, "feedback": "Suena a orden. Mejor: Could you speak up, please?" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Is that better? How can I help you?", "es": "¿Mejor así? ¿En qué puedo ayudarla?" },
+      "options": [
+        { "t": "Yes, thanks. Could I book a table for Saturday?", "es": "Sí, gracias. ¿Podría reservar mesa para el sábado?", "next": "n3", "ok": true },
+        { "t": "Yes, thanks. Could I booking a table for Saturday?", "es": "Sí, gracias. ¿Podría reservar mesa para el sábado?", "next": "n3", "ok": false, "feedback": "Could I + verbo sin -ing: Could I book…?" },
+        { "t": "Yes, thanks. Could I record a table for Saturday?", "es": "Sí, gracias. ¿Podría reservar mesa para el sábado?", "next": "n3", "ok": false, "feedback": "Record es grabar. Reservar mesa = book a table." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Of course. For how many people?", "es": "Claro. ¿Para cuántas personas?" },
+      "options": [
+        { "t": "For five: four adults and my grandson.", "es": "Para cinco: cuatro adultos y mi nieto.", "next": "n4", "ok": true },
+        { "t": "For five persons.", "es": "Para cinco personas.", "next": "n4", "ok": false, "feedback": "Normalmente decimos five people, no persons." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Lovely. Is eight o'clock OK?", "es": "Estupendo. ¿Le va bien a las ocho?" },
+      "options": [
+        { "t": "It's a bit late for my grandson. Could we come at seven?", "es": "Es un poco tarde para mi nieto. ¿Podríamos ir a las siete?", "next": "n5", "ok": true },
+        { "t": "It's a bit late for my grandson. Could we to come at seven?", "es": "Es un poco tarde para mi nieto. ¿Podríamos ir a las siete?", "next": "n5", "ok": false, "feedback": "Sin to: Could we come…?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Yes, seven is fine. Could I have your name and number?", "es": "Sí, a las siete está bien. ¿Me da su nombre y su número?" },
+      "options": [
+        { "t": "Sure. It's Yolanda. I'll say the number slowly.", "es": "Claro. Soy Yolanda. Le digo el número despacio.", "next": "n6", "ok": true },
+        { "t": "Sure. It's Yolanda. I'll say the number slow.", "es": "Claro. Soy Yolanda. Le digo el número despacio.", "next": "n6", "ok": false, "feedback": "Cómo lo dices: adverbio, slowly." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Yes, please. Thank you! See you on Saturday.", "es": "Sí, por favor. ¡Gracias! Hasta el sábado." },
+      "options": [
+        { "t": "Thank you! Goodbye!", "es": "¡Gracias! ¡Adiós!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

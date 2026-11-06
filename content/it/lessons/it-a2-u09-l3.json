@@ -1,0 +1,88 @@
+{
+  "id": "it-a2-u09-l3",
+  "unit": "it-a2-u09",
+  "title": "Vale la pena!",
+  "goal": "a recomendar sitios de una ciudad y comparar con migliore, peggiore y più … che",
+  "emoji": "🏛️",
+  "photoQuery": "italian old town square fountain",
+  "vocab": [
+    { "id": "regioni-centro-storico", "t": "il centro storico", "es": "el casco antiguo", "emoji": "🏘️", "pos": "n", "ex": { "t": "Il centro storico è tutto a piedi.", "es": "El casco antiguo se hace todo a pie." } },
+    { "id": "regioni-la-piazza", "t": "la piazza", "es": "la plaza", "emoji": "⛲", "pos": "n", "ex": { "t": "Ci vediamo in piazza alle sei.", "es": "Nos vemos en la plaza a las seis." } },
+    { "id": "regioni-il-duomo", "t": "il duomo", "es": "la catedral", "emoji": "⛪", "pos": "n", "ex": { "t": "Il duomo di Milano è enorme.", "es": "La catedral de Milán es enorme." } },
+    { "id": "regioni-il-ponte", "t": "il ponte", "es": "el puente", "emoji": "🌉", "pos": "n", "ex": { "t": "A Venezia ci sono tantissimi ponti.", "es": "En Venecia hay muchísimos puentes." } },
+    { "id": "regioni-il-quartiere", "t": "il quartiere", "es": "el barrio", "emoji": "🏡", "pos": "n", "ex": { "t": "Trastevere è un quartiere di Roma.", "es": "Trastevere es un barrio de Roma." }, "note": "¡Ojo! No es un cuartel." },
+    { "id": "regioni-il-porto", "t": "il porto", "es": "el puerto", "emoji": "⚓", "pos": "n", "ex": { "t": "Dal porto partono le barche per le isole.", "es": "Del puerto salen los barcos a las islas." } },
+    { "id": "regioni-vale-la-pena", "t": "Vale la pena.", "es": "Merece la pena.", "emoji": "👍", "pos": "phrase", "ex": { "t": "Vale la pena salire sulla torre.", "es": "Merece la pena subir a la torre." } },
+    { "id": "regioni-da-non-perdere", "t": "da non perdere", "es": "imprescindible, que no te puedes perder", "emoji": "⭐", "pos": "phrase", "ex": { "t": "Il mercato del sabato è da non perdere.", "es": "El mercado del sábado es imprescindible." } },
+    { "id": "regioni-migliore", "t": "migliore / peggiore", "es": "mejor / peor", "emoji": "🥇", "pos": "adj", "ex": { "t": "Questa pizzeria è migliore di quella.", "es": "Esta pizzería es mejor que esa." } }
+  ],
+  "grammar": "it-g-comparativi",
+  "pron": {
+    "title": "Gli de migliore",
+    "tip": "Gli suena como una ll suave pegada a la i: mi-LLO-re. Dobla un poco el sonido y no digas «mig-lio-re».",
+    "words": ["migliore", "meglio", "famiglia", "luglio", "Puglia"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Questa gelateria è ___ di quella vicino al porto.", "es": "Esta heladería es mejor que la de al lado del puerto.", "options": ["migliore", "più migliore", "meglio"], "answer": "migliore", "why": "Mejor (adjetivo, con un nombre) = migliore.", "g": "it-g-comparativi" },
+    { "id": "e2", "type": "choose", "q": "Il tempo oggi è ___ di ieri: piove ancora di più.", "es": "El tiempo hoy es peor que ayer: llueve todavía más.", "options": ["peggiore", "migliore", "peggio"], "answer": "peggiore", "why": "Peor (adjetivo) = peggiore.", "g": "it-g-comparativi" },
+    { "id": "e3", "type": "choose", "q": "È più bello camminare ___ prendere il taxi.", "es": "Es más bonito caminar que coger el taxi.", "options": ["che", "di", "come"], "answer": "che", "why": "Comparando dos verbos se usa che.", "g": "it-g-comparativi" },
+    { "id": "e4", "type": "fill", "q": "Il centro è più bello di sera ___ di giorno.", "es": "El centro es más bonito de noche que de día.", "answer": ["che"], "bank": ["che", "di", "del"], "why": "Delante de una preposición (di giorno) se usa che.", "g": "it-g-comparativi" },
+    { "id": "e5", "type": "fill", "q": "Vale la ___ salire sulla torre.", "es": "Merece la pena subir a la torre.", "answer": ["pena"], "hint": "merece la…", "why": "Merece la pena = vale la pena.", "g": "it-g-comparativi" },
+    { "id": "e6", "type": "fill", "q": "Trastevere è un ___ molto vivace.", "es": "Trastevere es un barrio muy animado.", "answer": ["quartiere"], "bank": ["quartiere", "porto", "duomo"], "why": "El barrio = il quartiere.", "g": "it-g-comparativi" },
+    { "id": "e7", "type": "error", "q": "Questo ristorante è più migliore di quello.", "wrong": "più", "fix": "molto", "why": "Migliore ya significa «más bueno»: no se dice più migliore.", "g": "it-g-comparativi" },
+    { "id": "e8", "type": "error", "q": "A Venezia è più comodo andare a piedi di in autobus.", "wrong": "di", "fix": "che", "why": "Delante de una preposición (in) se usa che.", "g": "it-g-comparativi" },
+    { "id": "e9", "type": "order", "es": "El casco antiguo es mejor que el barrio moderno.", "answer": "Il centro storico è migliore del quartiere moderno", "extra": ["più"], "why": "Migliore + di (del).", "g": "it-g-comparativi" },
+    { "id": "e10", "type": "translate", "dir": "to", "q": "Merece la pena ver la catedral.", "answer": ["Vale la pena vedere il duomo.", "Vale la pena di vedere il duomo.", "Vale la pena vedere la cattedrale."], "why": "Vale la pena + infinitivo.", "g": "it-g-comparativi" },
+    { "id": "e11", "type": "translate", "dir": "from", "q": "Il mercato del sabato è da non perdere.", "answer": ["El mercado del sábado es imprescindible.", "No te puedes perder el mercado del sábado.", "El mercado del sábado no hay que perdérselo."], "why": "Da non perdere = que no hay que perderse.", "g": "it-g-comparativi" },
+    { "id": "e12", "type": "situation", "context": "Unos turistas te preguntan si merece la pena subir a la torre de tu pueblo. Tú crees que sí.", "emoji": "🗼", "options": ["Sì, vale la pena! La vista è bellissima.", "Sì, vale la pena! La vista è più migliore.", "Sì, è pena! La vista è bella."], "answer": "Sì, vale la pena! La vista è bellissima.", "why": "Vale la pena = merece la pena.", "g": "it-g-comparativi" },
+    { "id": "e13", "type": "match", "pairs": [["la piazza", "la plaza"], ["il duomo", "la catedral"], ["il quartiere", "el barrio"], ["il ponte", "el puente"], ["il centro storico", "el casco antiguo"]], "why": "Lugares de una ciudad italiana." },
+    { "id": "e14", "type": "reading", "kind": "message", "title": "Consejos de una amiga", "text": "Ciao Yolanda! A Bologna non perdere Piazza Maggiore e le torri: vale la pena salire! Per mangiare, il quartiere universitario è più economico del centro. E le tagliatelle sono migliori qui che a Roma! Baci, Elena", "questions": [
+      { "q": "¿Qué merece la pena, según Elena?", "options": ["Subir a las torres", "Ir al puerto", "Visitar la playa"], "answer": "Subir a las torres" },
+      { "q": "¿Dónde se come más barato?", "options": ["En el barrio universitario", "En el centro", "En la estación"], "answer": "En el barrio universitario" },
+      { "q": "¿Qué dice de las tagliatelle?", "options": ["Que son mejores en Bolonia que en Roma", "Que son caras", "Que son peores en Bolonia"], "answer": "Que son mejores en Bolonia que en Roma" }
+    ] }
+  ],
+  "dialog": {
+    "title": "¿Qué no me puedo perder?",
+    "setting": "Yolanda pregunta en la recepción de un hotel de Bolonia",
+    "emoji": "🏛️",
+    "lines": [
+      { "who": "Yolanda", "t": "Buongiorno! Cosa c'è da non perdere in città?", "es": "¡Buenos días! ¿Qué no hay que perderse en la ciudad?" },
+      { "who": "Receptionist", "t": "Piazza Maggiore e le due torri, sicuramente.", "es": "La Piazza Maggiore y las dos torres, seguro." },
+      { "who": "Yolanda", "t": "Vale la pena salire sulla torre?", "es": "¿Merece la pena subir a la torre?" },
+      { "who": "Receptionist", "t": "Sì, ma è più faticoso che camminare in centro!", "es": "Sí, ¡pero cansa más que caminar por el centro!" },
+      { "who": "Yolanda", "t": "E per cena? Un ristorante buono ma non caro?", "es": "¿Y para cenar? ¿Un restaurante bueno pero no caro?" },
+      { "who": "Receptionist", "t": "Nel quartiere universitario. È migliore e più economico.", "es": "En el barrio universitario. Es mejor y más barato." },
+      { "who": "Yolanda", "t": "Migliore del centro?", "es": "¿Mejor que el centro?" },
+      { "who": "Receptionist", "t": "Per me sì! Buona visita, signora.", "es": "¡Para mí, sí! Buena visita, señora." }
+    ],
+    "questions": [
+      { "q": "¿Qué es imprescindible en Bolonia, según el recepcionista?", "options": ["La Piazza Maggiore y las torres", "El puerto", "La playa"], "answer": "La Piazza Maggiore y las torres" },
+      { "q": "¿Qué cansa más?", "options": ["Subir a la torre", "Caminar por el centro", "Ir en autobús"], "answer": "Subir a la torre" },
+      { "q": "¿Dónde le recomienda cenar?", "options": ["En el barrio universitario", "En el hotel", "En la estación"], "answer": "En el barrio universitario" }
+    ]
+  },
+  "realLife": { "t": "Cosa c'è da non perdere qui?", "es": "¿Qué no hay que perderse aquí?", "context": "Para pedir recomendaciones al llegar a una ciudad" },
+  "same": {
+    "text": "Los lugares de la ciudad se reconocen enseguida.",
+    "examples": [
+      { "t": "la piazza", "es": "la plaza" },
+      { "t": "il ponte", "es": "el puente" },
+      { "t": "il porto", "es": "el puerto" }
+    ]
+  },
+  "falseFriend": {
+    "word": "il quartiere",
+    "means": "el barrio",
+    "looksLike": "el cuartel (en italiano, la caserma)",
+    "emoji": "🏡",
+    "tip": "Abito in un quartiere tranquillo = vivo en un barrio tranquilo. Nada de soldados."
+  },
+  "summary": [
+    "Mejor = migliore, peor = peggiore (¡nunca più migliore!).",
+    "Più … che para comparar verbos o con preposición: più bello di sera che di giorno.",
+    "Vale la pena = merece la pena; da non perdere = imprescindible.",
+    "Il quartiere es el barrio."
+  ],
+  "reviewed": false
+}

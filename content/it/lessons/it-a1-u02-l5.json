@@ -1,0 +1,81 @@
+{
+  "id": "it-a1-u02-l5",
+  "unit": "it-a1-u02",
+  "title": "Reto en Nápoles: el caffè sospeso",
+  "goal": "a desenvolverte sola en un bar napolitano: pedir, pagar y dejar un café pagado",
+  "emoji": "🌋",
+  "photoQuery": "naples coffee bar espresso cups",
+  "vocab": [
+    { "id": "bar-caffe-sospeso", "t": "il caffè sospeso", "es": "el café «pendiente» (pagado para otra persona)", "emoji": "🤝", "pos": "n", "note": "Tradición napolitana: pagas dos cafés y dejas uno para quien no pueda pagarlo.", "ex": { "t": "Un caffè e un sospeso, per favore.", "es": "Un café y uno pendiente, por favor." } },
+    { "id": "bar-caffe-lungo", "t": "il caffè lungo", "es": "el café largo (con más agua)", "emoji": "☕", "pos": "n", "ex": { "t": "Per me un caffè lungo.", "es": "Para mí un café largo." } },
+    { "id": "bar-decaffeinato", "t": "il decaffeinato", "es": "el descafeinado", "emoji": "😴", "pos": "n", "ex": { "t": "La sera prendo un decaffeinato.", "es": "Por la noche tomo un descafeinado." } },
+    { "id": "bar-la-sfogliatella", "t": "la sfogliatella", "es": "la sfogliatella (dulce napolitano de hojaldre)", "emoji": "🥮", "pos": "n", "ex": { "t": "Una sfogliatella calda, che buona!", "es": "Una sfogliatella caliente, ¡qué rica!" } },
+    { "id": "bar-il-baba", "t": "il babà", "es": "el babá (bizcocho al ron)", "emoji": "🧁", "pos": "n", "ex": { "t": "Due babà per Hugo e per me.", "es": "Dos babás para Hugo y para mí." } },
+    { "id": "bar-senza-zucchero", "t": "senza zucchero", "es": "sin azúcar", "emoji": "🚫", "pos": "phrase", "ex": { "t": "Un caffè senza zucchero.", "es": "Un café sin azúcar." } },
+    { "id": "bar-con-la-carta", "t": "Posso pagare con la carta?", "es": "¿Puedo pagar con tarjeta?", "emoji": "💳", "pos": "phrase", "ex": { "t": "Scusi, posso pagare con la carta?", "es": "Perdone, ¿puedo pagar con tarjeta?" } },
+    { "id": "bar-tenga-il-resto", "t": "Tenga il resto.", "es": "Quédese el cambio.", "emoji": "🪙", "pos": "phrase", "ex": { "t": "Grazie, tenga il resto.", "es": "Gracias, quédese el cambio." } }
+  ],
+  "grammar": "it-g-vorrei",
+  "pron": {
+    "title": "La gl de sfogliatella",
+    "tip": "Gl delante de i suena como la «ll» de «calle» bien pronunciada, con la lengua pegada al paladar: sfo-glia-tel-la. Y la doble l del final se alarga.",
+    "words": ["sfogliatella", "bottiglia", "famiglia", "voglio"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "sign", "title": "Cartel en la caja", "text": "Si prega di fare lo scontrino alla cassa.\nCaffè al banco: 1,10 €\nCaffè al tavolo: 2,00 €", "questions": [
+      { "q": "¿Qué hay que hacer primero?", "options": ["Sacar el tique en la caja", "Sentarse en la mesa", "Pedir en la barra"], "answer": "Sacar el tique en la caja" },
+      { "q": "¿Dónde es más barato el café?", "options": ["En la barra", "En la mesa", "Cuesta igual"], "answer": "En la barra" }
+    ], "why": "Al banco = en la barra, más barato." },
+    { "id": "e2", "type": "choose", "q": "Vorrei un caffè e ___ sospeso.", "options": ["un", "uno", "una"], "answer": "un", "why": "Caffè sospeso es masculino: un sospeso.", "g": "it-g-articoli-indet" },
+    { "id": "e3", "type": "choose", "q": "Io e mia sorella ___ due sfogliatelle.", "options": ["vorremmo", "vorrei", "voglio"], "answer": "vorremmo", "why": "Io e mia sorella = noi: vorremmo.", "g": "it-g-vorrei" },
+    { "id": "e4", "type": "fill", "q": "Un caffè ___ zucchero, per favore.", "es": "Un café sin azúcar, por favor.", "answer": ["senza"], "bank": ["senza", "con", "per"], "why": "Sin = senza." },
+    { "id": "e5", "type": "fill", "q": "Due ___ per Hugo e per me.", "es": "Dos babás para Hugo y para mí.", "answer": ["babà"], "bank": ["babà", "babi", "babàs"], "why": "Babà acaba en vocal con acento: no cambia en plural.", "g": "it-g-genere-numero" },
+    { "id": "e6", "type": "error", "q": "Voglio pagare con la carta.", "wrong": "Voglio", "fix": "Vorrei", "why": "Con vorrei la petición suena más amable.", "g": "it-g-vorrei" },
+    { "id": "e7", "type": "transform", "instr": "Ponlo en plural (due)", "q": "una sfogliatella", "answer": ["due sfogliatelle"], "why": "-a → -e: sfogliatelle.", "g": "it-g-genere-numero" },
+    { "id": "e8", "type": "order", "es": "Quería un café largo sin azúcar.", "answer": "Vorrei un caffè lungo senza zucchero", "extra": ["uno"], "why": "Vorrei + un caffè lungo + senza zucchero.", "g": "it-g-vorrei" },
+    { "id": "e9", "type": "translate", "dir": "to", "q": "¿Puedo pagar con tarjeta?", "answer": ["Posso pagare con la carta?", "Posso pagare con carta?"], "why": "Pagar con tarjeta = pagare con la carta." },
+    { "id": "e10", "type": "translate", "dir": "from", "q": "Tenga il resto.", "answer": ["Quédese el cambio.", "Quédese con el cambio."], "why": "Tenga (usted) + il resto (el cambio)." },
+    { "id": "e11", "type": "situation", "context": "Son las cuatro de la tarde, después de comer. Quieres pedir como una italiana.", "emoji": "🕓", "options": ["Un caffè, per favore.", "Un cappuccino, per favore.", "Un latte, per favore."], "answer": "Un caffè, per favore.", "why": "Después de comer, lo típico es un caffè; el cappuccino es de desayuno." },
+    { "id": "e12", "type": "situation", "context": "Quieres dejar un café pagado para otra persona, como hacen los napolitanos.", "emoji": "🤝", "options": ["Un caffè e un sospeso.", "Un caffè e un lungo.", "Un caffè da portare via."], "answer": "Un caffè e un sospeso.", "why": "Un sospeso es el café que dejas pagado para otra persona." },
+    { "id": "e13", "type": "match", "pairs": [["caffè lungo", "café largo"], ["decaffeinato", "descafeinado"], ["senza zucchero", "sin azúcar"], ["Tenga il resto", "Quédese el cambio"], ["caffè sospeso", "café pendiente"]], "why": "Repaso de frases del bar." },
+    { "id": "e14", "type": "speak", "t": "Vorrei un caffè e un sospeso, per favore.", "es": "Quería un café y uno pendiente, por favor." },
+    { "id": "e15", "type": "choose", "q": "Un cornetto al ___ (mantequilla).", "options": ["burro", "latte", "zucchero"], "answer": "burro", "why": "Burro = mantequilla. ¡Recuerda el falso amigo!" }
+  ],
+  "dialog": {
+    "title": "Un café pendiente",
+    "setting": "En la caja de un bar antiguo del centro de Nápoles",
+    "emoji": "🤝",
+    "lines": [
+      { "who": "Cassiere", "t": "Buongiorno, signora. Prego!", "es": "Buenos días, señora. ¡Dígame!" },
+      { "who": "Yolanda", "t": "Vorrei un caffè e una sfogliatella.", "es": "Quería un café y una sfogliatella." },
+      { "who": "Cassiere", "t": "Il caffè lo vuole con zucchero?", "es": "¿El café lo quiere con azúcar?" },
+      { "who": "Yolanda", "t": "No, senza zucchero. E vorrei anche un caffè sospeso.", "es": "No, sin azúcar. Y quería también un café pendiente." },
+      { "who": "Cassiere", "t": "Che gentile! Sono quattro euro e cinquanta.", "es": "¡Qué amable! Son cuatro euros con cincuenta." },
+      { "who": "Yolanda", "t": "Posso pagare con la carta?", "es": "¿Puedo pagar con tarjeta?" },
+      { "who": "Cassiere", "t": "Certo. Ecco lo scontrino.", "es": "Claro. Aquí tiene el tique." },
+      { "who": "Yolanda", "t": "Grazie mille. Buona giornata!", "es": "Muchas gracias. ¡Que tenga un buen día!" }
+    ],
+    "questions": [
+      { "q": "¿Cómo quiere el café Yolanda?", "options": ["Sin azúcar", "Con azúcar", "Con leche"], "answer": "Sin azúcar" },
+      { "q": "¿Qué deja pagado para otra persona?", "options": ["Un café", "Una sfogliatella", "Un zumo"], "answer": "Un café" },
+      { "q": "¿Cómo paga?", "options": ["Con tarjeta", "En efectivo", "No paga"], "answer": "Con tarjeta" }
+    ]
+  },
+  "realLife": { "t": "Posso pagare con la carta?", "es": "¿Puedo pagar con tarjeta?", "context": "Para preguntar en la caja antes de pagar" },
+  "same": {
+    "text": "Muchas palabras para pedir y pagar son casi iguales que en español.",
+    "examples": [
+      { "t": "pagare", "es": "pagar" },
+      { "t": "il prezzo", "es": "el precio" },
+      { "t": "decaffeinato", "es": "descafeinado" }
+    ]
+  },
+  "falseFriend": { "word": "la carta", "means": "la tarjeta (y también el papel)", "looksLike": "la carta (para enviar por correo)", "emoji": "💳", "tip": "Pagare con la carta es pagar con tarjeta. La carta que se envía por correo es la lettera." },
+  "summary": [
+    "Primero el tique en la caja, después el café en la barra.",
+    "Vorrei un caffè senza zucchero: pedir a tu gusto.",
+    "Posso pagare con la carta? para pagar con tarjeta.",
+    "El caffè sospeso: un café pagado para quien lo necesite, tradición de Nápoles."
+  ],
+  "reviewed": false
+}

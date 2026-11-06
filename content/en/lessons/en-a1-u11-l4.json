@@ -1,0 +1,442 @@
+{
+  "id": "en-a1-u11-l4",
+  "unit": "en-a1-u11",
+  "title": "¡Vamos en metro!",
+  "goal": "a proponer planes con Let's y a moverte en metro, autobús o andando",
+  "emoji": "🚇",
+  "photoQuery": "london underground platform train",
+  "vocab": [
+    {
+      "id": "city-the-tube",
+      "t": "the Tube",
+      "es": "el metro de Londres",
+      "emoji": "🚇",
+      "pos": "n",
+      "ex": {
+        "t": "Let's take the Tube. It's quick.",
+        "es": "Cojamos el metro. Es rápido."
+      },
+      "note": "En Londres el metro se llama the Tube o the Underground. En EE. UU.: subway."
+    },
+    {
+      "id": "city-by-bus",
+      "t": "by bus",
+      "es": "en autobús",
+      "emoji": "🚌",
+      "pos": "phrase",
+      "ex": {
+        "t": "I go to the market by bus.",
+        "es": "Voy al mercado en autobús."
+      }
+    },
+    {
+      "id": "city-on-foot",
+      "t": "on foot",
+      "es": "andando, a pie",
+      "emoji": "🚶‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Let's go on foot. It's a nice day.",
+        "es": "Vamos andando. Hace buen día."
+      },
+      "note": "¡Ojo! by bus, by taxi… pero on foot."
+    },
+    {
+      "id": "city-taxi",
+      "t": "a taxi",
+      "es": "un taxi",
+      "emoji": "🚕",
+      "pos": "n",
+      "ex": {
+        "t": "It's late. Let's get a taxi.",
+        "es": "Es tarde. Cojamos un taxi."
+      },
+      "note": "En Londres los taxis negros se llaman black cabs."
+    },
+    {
+      "id": "city-ticket",
+      "t": "a ticket",
+      "es": "un billete",
+      "emoji": "🎫",
+      "pos": "n",
+      "ex": {
+        "t": "A single ticket, please.",
+        "es": "Un billete de ida, por favor."
+      }
+    },
+    {
+      "id": "city-platform",
+      "t": "the platform",
+      "es": "el andén",
+      "emoji": "🛤️",
+      "pos": "n",
+      "ex": {
+        "t": "The train is on platform 2.",
+        "es": "El tren está en el andén 2."
+      }
+    },
+    {
+      "id": "city-change-at",
+      "t": "change at…",
+      "es": "hacer transbordo en…",
+      "emoji": "🔄",
+      "pos": "phrase",
+      "ex": {
+        "t": "Change at Green Park for the blue line.",
+        "es": "Haz transbordo en Green Park para la línea azul."
+      }
+    },
+    {
+      "id": "city-lets-go",
+      "t": "Let's go!",
+      "es": "¡Vamos!",
+      "emoji": "🙌",
+      "pos": "phrase",
+      "ex": {
+        "t": "Are you ready? Let's go!",
+        "es": "¿Estás lista? ¡Vamos!"
+      }
+    },
+    {
+      "id": "city-good-idea",
+      "t": "Good idea!",
+      "es": "¡Buena idea!",
+      "emoji": "💡",
+      "pos": "phrase",
+      "ex": {
+        "t": "Let's have a coffee first. — Good idea!",
+        "es": "Vamos a tomar un café primero. — ¡Buena idea!"
+      }
+    }
+  ],
+  "grammar": "en-g-lets",
+  "pron": {
+    "title": "Street, straight, stop: ¡sin «e» delante!",
+    "tip": "En español no hay palabras que empiecen por s + consonante, así que solemos decir «estreet» o «estop». En inglés la s va sola, como un silbido: «sss-treet». Empieza con la boca sonriendo y haz «sss» antes de la palabra.",
+    "words": [
+      "street",
+      "straight",
+      "stop",
+      "station",
+      "Spain",
+      "school"
+    ],
+    "pairs": [
+      [
+        "stop",
+        "top"
+      ],
+      [
+        "state",
+        "estate"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Let's ___ the Tube.",
+      "es": "Cojamos el metro.",
+      "options": [
+        "take",
+        "to take",
+        "taking"
+      ],
+      "answer": "take",
+      "why": "Let's + verbo tal cual.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "It's sunny. Let's go ___ foot.",
+      "es": "Hace sol. Vamos andando.",
+      "options": [
+        "on",
+        "by",
+        "in"
+      ],
+      "answer": "on",
+      "why": "Andando = on foot (pero by bus, by taxi)."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Let's ___ wait. The bus is late.",
+      "es": "No esperemos. El autobús va con retraso.",
+      "options": [
+        "not",
+        "don't",
+        "no"
+      ],
+      "answer": "not",
+      "why": "Negativa: Let's not.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Let's go ___ bus.",
+      "es": "Vamos en autobús.",
+      "answer": [
+        "by"
+      ],
+      "bank": [
+        "by",
+        "on",
+        "in"
+      ],
+      "why": "Medio de transporte: by bus, by taxi, by Tube."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Let's ___ a taxi. It's raining!",
+      "es": "¡Cojamos un taxi! ¡Está lloviendo!",
+      "answer": [
+        "get",
+        "take"
+      ],
+      "bank": [
+        "get",
+        "gets",
+        "getting"
+      ],
+      "why": "Coger un taxi = get / take a taxi.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "___ at Oxford Circus for the red line.",
+      "es": "Haz transbordo en Oxford Circus para la línea roja.",
+      "answer": [
+        "Change"
+      ],
+      "why": "Hacer transbordo = change. Es un imperativo.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e7",
+      "type": "transform",
+      "instr": "Conviértela en una propuesta con Let's",
+      "q": "We have lunch in the park.",
+      "answer": [
+        "Let's have lunch in the park.",
+        "Let's have lunch in the park"
+      ],
+      "why": "Quita we y pon Let's.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Vamos a coger el autobús número 9",
+      "answer": "Let's take the number 9 bus",
+      "extra": [
+        "to"
+      ],
+      "why": "Let's + take, sin to.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Mejor no vayamos en taxi",
+      "answer": "Let's not go by taxi",
+      "extra": [
+        "don't"
+      ],
+      "why": "Let's not + go.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Lets take the Tube to Piccadilly.",
+      "wrong": "Lets",
+      "fix": "Let's",
+      "why": "Para proponer, con apóstrofo: Let's = let us.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Let's going by bus.",
+      "wrong": "going",
+      "fix": "go",
+      "why": "Let's + verbo sin -ing: Let's go.",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Tu amiga propone: «Let's walk to the river!». Te parece genial.",
+      "emoji": "🌞",
+      "options": [
+        "Good idea! Let's go!",
+        "Good idea! Let's to go!",
+        "Yes, we let!"
+      ],
+      "answer": "Good idea! Let's go!",
+      "why": "Para aceptar: Good idea! / Yes, let's!",
+      "g": "en-g-lets"
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "stop",
+        "top"
+      ],
+      "answer": "stop",
+      "es": [
+        "parar",
+        "parte de arriba"
+      ],
+      "why": "Stop empieza con un silbido de s, sin «e» delante."
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "state",
+        "estate"
+      ],
+      "answer": "state",
+      "es": [
+        "estado",
+        "finca, urbanización"
+      ],
+      "why": "State empieza directamente por s; estate sí tiene una e delante."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Let's stop at the station.",
+      "es": "Paremos en la estación."
+    },
+    {
+      "id": "e16",
+      "type": "reading",
+      "kind": "ticket",
+      "title": "Billete de metro",
+      "text": "LONDON UNDERGROUND\nFrom: Green Park\nTo: Covent Garden\nPiccadilly line – Platform 3\nSINGLE – Adult",
+      "questions": [
+        {
+          "q": "¿Desde qué estación sale?",
+          "options": [
+            "Green Park",
+            "Covent Garden",
+            "Piccadilly"
+          ],
+          "answer": "Green Park"
+        },
+        {
+          "q": "¿En qué andén?",
+          "options": [
+            "3",
+            "1",
+            "2"
+          ],
+          "answer": "3"
+        },
+        {
+          "q": "¿Qué tipo de billete es?",
+          "options": [
+            "De ida",
+            "De ida y vuelta",
+            "Para niños"
+          ],
+          "answer": "De ida"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "title": "¿Metro o autobús?",
+    "setting": "A la salida del hotel, Yolanda y su amiga deciden cómo ir al centro",
+    "emoji": "🚌",
+    "lines": [
+      {
+        "who": "Friend",
+        "t": "Let's go to Piccadilly Circus!",
+        "es": "¡Vamos a Piccadilly Circus!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Good idea! Let's take the Tube.",
+        "es": "¡Buena idea! Cojamos el metro."
+      },
+      {
+        "who": "Friend",
+        "t": "Hmm, let's not take the Tube. It's very busy now.",
+        "es": "Mmm, mejor no cojamos el metro. Va muy lleno ahora."
+      },
+      {
+        "who": "Yolanda",
+        "t": "OK. Let's go by bus, then.",
+        "es": "Vale. Entonces vamos en autobús."
+      },
+      {
+        "who": "Friend",
+        "t": "Yes, let's! The bus stop is on the corner.",
+        "es": "¡Sí, venga! La parada está en la esquina."
+      },
+      {
+        "who": "Yolanda",
+        "t": "And we can see the city from the bus.",
+        "es": "Y podemos ver la ciudad desde el autobús."
+      },
+      {
+        "who": "Friend",
+        "t": "Look! The number 19 is here. Let's go!",
+        "es": "¡Mira! Ya viene el 19. ¡Vamos!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Adónde van?",
+        "options": [
+          "A Piccadilly Circus",
+          "Al río",
+          "Al hotel"
+        ],
+        "answer": "A Piccadilly Circus"
+      },
+      {
+        "q": "¿Por qué no cogen el metro?",
+        "options": [
+          "Va muy lleno",
+          "Está cerrado",
+          "Es caro"
+        ],
+        "answer": "Va muy lleno"
+      },
+      {
+        "q": "¿Qué autobús cogen?",
+        "options": [
+          "El 19",
+          "El 9",
+          "El 90"
+        ],
+        "answer": "El 19"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "A single ticket to Covent Garden, please.",
+    "es": "Un billete de ida a Covent Garden, por favor.",
+    "context": "Para comprar un billete en la taquilla del metro o del tren"
+  },
+  "summary": [
+    "Let's + verbo = vamos a…: Let's take the Tube.",
+    "Let's not + verbo = mejor no…",
+    "Contestar: Yes, let's! / Good idea!",
+    "by bus, by taxi, by Tube… pero on foot",
+    "street, stop, Spain: sin «e» delante"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u11-l4"
+}

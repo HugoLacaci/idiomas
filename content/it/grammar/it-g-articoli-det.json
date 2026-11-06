@@ -1,0 +1,135 @@
+{
+  "id": "it-g-articoli-det",
+  "lang": "it",
+  "level": "A1",
+  "title": "Los artículos determinados (il, lo, l', i, gli, la, le)",
+  "short": "El / la / los / las en italiano: siete formas que dependen del sonido de la palabra siguiente.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "El, la, los, las… ¡en italiano!",
+      "emoji": "👨‍👩‍👧",
+      "text": "En español tenemos cuatro: el, la, los, las. En italiano hay **siete**, pero no te asustes: todo depende de **cómo empieza** la palabra que va detrás.",
+      "examples": [
+        { "t": "==il== figlio", "es": "el hijo", "hl": "il" },
+        { "t": "==la== figlia", "es": "la hija", "hl": "la" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Masculino",
+      "emoji": "👦",
+      "text": "**il** es el normal. **lo** va ante s + consonante, z, gn, ps. **l'** ante vocal. En plural: **i** o **gli**.",
+      "table": {
+        "head": ["Empieza por…", "Singular", "Plural"],
+        "rows": [
+          ["consonante", "==il== nonno", "==i== nonni"],
+          ["s + consonante, z, gn, ps", "==lo== zio", "==gli== zii"],
+          ["vocal", "==l'==amico", "==gli== amici"]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Femenino",
+      "emoji": "👧",
+      "text": "El femenino es más fácil: **la** (o **l'** ante vocal) y en plural siempre **le**.",
+      "table": {
+        "head": ["Empieza por…", "Singular", "Plural"],
+        "rows": [
+          ["consonante", "==la== nonna", "==le== nonne"],
+          ["vocal", "==l'==amica", "==le== amiche"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Manda el sonido, no el significado",
+      "emoji": "👂",
+      "text": "Mira solo la primera letra (o las dos primeras) de la palabra que sigue. Si cambias de palabra, puede cambiar el artículo.",
+      "examples": [
+        { "t": "==lo== studente → ==gli== studenti", "es": "el estudiante → los estudiantes", "hl": "lo" },
+        { "t": "==l'==orologio → ==gli== orologi", "es": "el reloj → los relojes", "hl": "l'" },
+        { "t": "==il== marito → ==i== mariti", "es": "el marido → los maridos", "hl": "il" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "Como en español, se usan para hablar de cosas concretas y en general: ==la== famiglia è importante (la familia es importante). Pero «el agua» es ==l'==acqua, femenino.",
+      "examples": [
+        { "t": "Mi piace ==il== caffè.", "es": "Me gusta el café.", "hl": "il" },
+        { "t": "==L'==acqua è fredda.", "es": "El agua está fría.", "hl": "L'" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "Cuidado con estos",
+      "emoji": "⚠️",
+      "text": "Estos son los tres fallos más típicos de los hispanohablantes. ¡Fíjate bien!",
+      "examples": [
+        { "t": "❌ il zio → ✅ ==lo== zio", "es": "el tío", "hl": "lo" },
+        { "t": "❌ i amici → ✅ ==gli== amici", "es": "los amigos", "hl": "gli" },
+        { "t": "❌ la amica → ✅ ==l'==amica", "es": "la amiga", "hl": "l'" }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Truco para recordar",
+      "emoji": "💡",
+      "text": "Piensa en **lo** y **gli** como «artículos especiales» para palabras difíciles de pronunciar: **zio, studente, gnocchi, psicologo**. Y **gli** también para el plural de las que empiezan por vocal.",
+      "examples": [
+        { "t": "==gli== gnocchi della nonna", "es": "los ñoquis de la abuela", "hl": "gli" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: el, la, los, las (y «el» ante a tónica: el agua).",
+    "target": "En italiano: il, lo, l' (masc. sing.), i, gli (masc. pl.), la, l' (fem. sing.), le (fem. pl.). Elige según la primera letra de la palabra siguiente."
+  },
+  "errors": [
+    { "wrong": "il zio", "right": "lo zio", "why": "Ante z se usa lo, no il." },
+    { "wrong": "i amici", "right": "gli amici", "why": "El plural de l'amico es gli amici: ante vocal, gli." },
+    { "wrong": "la amica", "right": "l'amica", "why": "Ante vocal, la se apostrofa: l'amica." },
+    { "wrong": "il studente", "right": "lo studente", "why": "Ante s + consonante (st, sp, sc…) va lo." },
+    { "wrong": "gli nonni", "right": "i nonni", "why": "Nonno empieza por consonante normal: il nonno, i nonni." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "___ nonno di Giulia si chiama Franco.", "es": "El abuelo de Giulia se llama Franco.", "options": ["Il", "Lo", "L'"], "answer": "Il", "why": "Nonno empieza por consonante normal, así que va il.", "g": "it-g-articoli-det" },
+    { "id": "e2", "type": "choose", "q": "___ zio Carlo vive a Madrid.", "es": "El tío Carlos vive en Madrid.", "options": ["Il", "Lo", "La"], "answer": "Lo", "why": "Ante z siempre usamos lo: lo zio.", "g": "it-g-articoli-det" },
+    { "id": "e3", "type": "choose", "q": "___ amica di Yolanda è simpatica.", "es": "La amiga de Yolanda es simpática.", "options": ["La", "L'", "Le"], "answer": "L'", "why": "Amica empieza por vocal: la se convierte en l'.", "g": "it-g-articoli-det" },
+    { "id": "e4", "type": "choose", "q": "___ figlie di Anna sono a Roma.", "es": "Las hijas de Anna están en Roma.", "options": ["Le", "La", "Gli"], "answer": "Le", "why": "Femenino plural: siempre le.", "g": "it-g-articoli-det" },
+    { "id": "e5", "type": "choose", "q": "___ amici di Hugo sono al bar.", "es": "Los amigos de Hugo están en el bar.", "options": ["I", "Gli", "Le"], "answer": "Gli", "why": "Masculino plural ante vocal: gli amici.", "g": "it-g-articoli-det" },
+    { "id": "e6", "type": "choose", "q": "___ nipoti giocano in giardino.", "es": "Los nietos juegan en el jardín.", "options": ["I", "Gli", "Lo"], "answer": "I", "why": "Nipoti empieza por consonante normal: i nipoti.", "g": "it-g-articoli-det" },
+    { "id": "e7", "type": "choose", "q": "Dov'è ___ studente nuovo?", "es": "¿Dónde está el estudiante nuevo?", "options": ["il", "lo", "l'"], "answer": "lo", "why": "Ante s + consonante (st) va lo: lo studente.", "g": "it-g-articoli-det" },
+    { "id": "e8", "type": "fill", "q": "___ mamma di Sara è di Napoli.", "es": "La madre de Sara es de Nápoles.", "answer": ["La"], "bank": ["La", "Il", "Le", "L'"], "why": "Mamma es femenino y empieza por consonante: la.", "g": "it-g-articoli-det" },
+    { "id": "e9", "type": "fill", "q": "Ecco ___ zii di Lucia.", "es": "Aquí están los tíos de Lucía.", "answer": ["gli"], "bank": ["i", "gli", "le"], "why": "El plural de lo zio es gli zii.", "g": "it-g-articoli-det" },
+    { "id": "e10", "type": "fill", "q": "___ orologio del nonno è vecchio.", "es": "El reloj del abuelo es viejo.", "answer": ["L'"], "bank": ["Il", "Lo", "L'"], "why": "Orologio es masculino y empieza por vocal: l'orologio.", "g": "it-g-articoli-det" },
+    { "id": "e11", "type": "fill", "q": "Mi piacciono ___ gnocchi di mia madre.", "es": "Me gustan los ñoquis de mi madre.", "answer": ["gli"], "bank": ["i", "gli", "le"], "why": "Ante gn se usa lo en singular y gli en plural.", "g": "it-g-articoli-det" },
+    { "id": "e12", "type": "fill", "q": "___ marito di Carmen lavora in banca.", "es": "El marido de Carmen trabaja en un banco.", "answer": ["Il"], "why": "Marito empieza por consonante normal: il marito.", "g": "it-g-articoli-det" },
+    { "id": "e13", "type": "fill", "q": "___ sorelle di Yolanda abitano al paese.", "es": "Las hermanas de Yolanda viven en el pueblo.", "answer": ["Le"], "why": "Sorelle es femenino plural: le.", "g": "it-g-articoli-det" },
+    { "id": "e14", "type": "fill", "q": "___ acqua è sul tavolo.", "es": "El agua está en la mesa.", "answer": ["L'"], "why": "Acqua es femenino en italiano y empieza por vocal: l'acqua.", "g": "it-g-articoli-det" },
+    { "id": "e15", "type": "transform", "instr": "Pásalo a plural", "q": "il figlio", "answer": ["i figli"], "why": "Il pasa a i, y figlio a figli.", "g": "it-g-articoli-det" },
+    { "id": "e16", "type": "transform", "instr": "Pásalo a plural", "q": "lo zio", "answer": ["gli zii"], "why": "Lo pasa a gli: gli zii.", "g": "it-g-articoli-det" },
+    { "id": "e17", "type": "transform", "instr": "Pásalo a plural", "q": "l'amica", "answer": ["le amiche"], "why": "El femenino plural es siempre le; amica hace amiche.", "g": "it-g-articoli-det" },
+    { "id": "e18", "type": "transform", "instr": "Pásalo a plural", "q": "l'amico", "answer": ["gli amici"], "why": "Masculino ante vocal: l' pasa a gli.", "g": "it-g-articoli-det" },
+    { "id": "e19", "type": "transform", "instr": "Pásalo a singular", "q": "le nonne", "answer": ["la nonna"], "why": "Le pasa a la: la nonna.", "g": "it-g-articoli-det" },
+    { "id": "e20", "type": "transform", "instr": "Pásalo a singular", "q": "gli studenti", "answer": ["lo studente"], "why": "Gli ante st viene de lo: lo studente.", "g": "it-g-articoli-det" },
+    { "id": "e21", "type": "error", "q": "Il zio di Giulia è simpatico.", "wrong": "Il", "fix": "Lo", "why": "Ante z va lo: lo zio.", "g": "it-g-articoli-det" },
+    { "id": "e22", "type": "error", "q": "I amici di Yolanda sono qui.", "wrong": "I", "fix": "Gli", "why": "Masculino plural ante vocal: gli amici.", "g": "it-g-articoli-det" },
+    { "id": "e23", "type": "error", "q": "Gli nonni abitano a Bari.", "wrong": "Gli", "fix": "I", "why": "Nonni empieza por consonante normal: i nonni.", "g": "it-g-articoli-det" },
+    { "id": "e24", "type": "error", "q": "Lo marito di Anna è alto.", "wrong": "Lo", "fix": "Il", "why": "Lo solo va ante s + consonante, z, gn o ps; marito lleva il.", "g": "it-g-articoli-det" },
+    { "id": "e25", "type": "order", "es": "Los nietos de Yolanda son simpáticos.", "answer": "I nipoti di Yolanda sono simpatici", "extra": ["Gli"], "why": "Nipoti lleva i porque empieza por consonante.", "g": "it-g-articoli-det" },
+    { "id": "e26", "type": "order", "es": "El tío de Giulia vive en Roma.", "answer": "Lo zio di Giulia abita a Roma", "extra": ["Il"], "why": "Ante z va lo: lo zio.", "g": "it-g-articoli-det" },
+    { "id": "e27", "type": "order", "es": "Las amigas de mi nieta están aquí.", "answer": "Le amiche di mia nipote sono qui", "extra": ["Gli"], "why": "Femenino plural: le amiche.", "g": "it-g-articoli-det" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "los abuelos", "answer": ["i nonni"], "why": "Nonni empieza por consonante: i.", "g": "it-g-articoli-det" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "los amigos", "answer": ["gli amici"], "why": "Masculino plural ante vocal: gli.", "g": "it-g-articoli-det" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "el tío y la tía", "answer": ["lo zio e la zia"], "why": "Lo ante z en masculino; la en femenino.", "g": "it-g-articoli-det" },
+    { "id": "e31", "type": "translate", "dir": "from", "q": "Gli zii di Giulia sono a Valencia.", "answer": ["Los tíos de Giulia están en Valencia", "Los tíos de Giulia son de Valencia"], "why": "Gli zii = los tíos; sono a = están en.", "g": "it-g-articoli-det" },
+    { "id": "e32", "type": "match", "pairs": [["il", "nonno"], ["lo", "zio"], ["l'", "amica"], ["gli", "studenti"], ["le", "figlie"]], "why": "Cada artículo va con la palabra cuyo comienzo le corresponde.", "g": "it-g-articoli-det" },
+    { "id": "e33", "type": "situation", "context": "Enseñas una foto y quieres decir «Estos son los amigos de Hugo».", "emoji": "📸", "options": ["Ecco i amici di Hugo.", "Ecco gli amici di Hugo.", "Ecco le amici di Hugo."], "answer": "Ecco gli amici di Hugo.", "why": "Amici es masculino plural y empieza por vocal: gli.", "g": "it-g-articoli-det" },
+    { "id": "e34", "type": "situation", "context": "En el mercado quieres decir que el zumo de naranja es para la abuela.", "emoji": "🍊", "options": ["Il succo è per la nonna.", "Lo succo è per la nonna.", "Il succo è per le nonna."], "answer": "Il succo è per la nonna.", "why": "Succo empieza por s + vocal, no por s + consonante: il succo.", "g": "it-g-articoli-det" }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "en-a1-u07-c3",
+  "unit": "en-a1-u07",
+  "title": "Un sábado en Camden",
+  "setting": "Emma te enseña Camden Market y te presenta a un vendedor amigo suyo.",
+  "emoji": "🛍️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "This is my friend Sam. He has a stall here.", "es": "Este es mi amigo Sam. Tiene un puesto aquí." },
+      "options": [
+        { "t": "Nice to meet you, Sam! What do you sell?", "es": "¡Encantada, Sam! ¿Qué vendes?", "next": "n2", "ok": true },
+        { "t": "Nice to meet you, Sam! What does you sell?", "es": "¡Encantada, Sam! ¿Qué vendes?", "next": "n2", "ok": false, "feedback": "Con you el ayudante es do: What do you sell?" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Sam is shy! He sells old maps and postcards.", "es": "¡Sam es tímido! Vende mapas y postales antiguos." },
+      "options": [
+        { "t": "Lovely! Does he open every day?", "es": "¡Qué bonito! ¿Abre todos los días?", "next": "n3", "ok": true },
+        { "t": "Lovely! Does he opens every day?", "es": "¡Qué bonito! ¿Abre todos los días?", "next": "n3", "ok": false, "feedback": "Después de does: open, sin -s." },
+        { "t": "Lovely! He opens every day?", "es": "¡Qué bonito! ¿Abre todos los días?", "next": "n3", "ok": false, "feedback": "En inglés la pregunta necesita does: Does he open…?" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "No, he doesn't. He works here at weekends. In the week he teaches history.", "es": "No. Trabaja aquí los fines de semana. Entre semana da clase de historia." },
+      "options": [
+        { "t": "So he has two jobs!", "es": "¡O sea, que tiene dos trabajos!", "next": "n4", "ok": true },
+        { "t": "So he have two jobs!", "es": "¡O sea, que tiene dos trabajos!", "next": "n4", "ok": false, "feedback": "Con he: has." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Yes! Look, this map is from 1890.", "es": "¡Sí! Mira, este mapa es de 1890." },
+      "options": [
+        { "t": "It's beautiful. How much is it?", "es": "Es precioso. ¿Cuánto cuesta?", "next": "n5", "ok": true },
+        { "t": "It's beautiful. How many is it?", "es": "Es precioso. ¿Cuánto cuesta?", "next": "n5", "ok": false, "feedback": "Para preguntar el precio: How much is it?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Twenty pounds. Sam says it's a present for you!", "es": "Veinte libras. ¡Sam dice que es un regalo para ti!" },
+      "options": [
+        { "t": "Oh, thank you so much, Sam!", "es": "¡Ay, muchísimas gracias, Sam!", "next": "n6", "ok": true },
+        { "t": "Oh, thank you very much, Sam! I don't want pay.", "es": "¡Ay, muchas gracias, Sam! No quiero pagar.", "next": "n6", "ok": false, "feedback": "Con un regalo basta con dar las gracias. Y sería: I don't want to pay." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Now let's walk along the canal. Do you like boats?", "es": "Ahora vamos a pasear junto al canal. ¿Te gustan los barcos?" },
+      "options": [
+        { "t": "Yes, I do. Let's go!", "es": "Sí. ¡Vamos!", "next": "end", "ok": true },
+        { "t": "Yes, I like. Let's go!", "es": "Sí. ¡Vamos!", "next": "end", "ok": false, "feedback": "La respuesta corta es Yes, I do (o Yes, I like them)." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

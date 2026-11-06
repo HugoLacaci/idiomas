@@ -1,0 +1,440 @@
+{
+  "id": "en-a1-u04-l4",
+  "unit": "en-a1-u04",
+  "title": "¿Dónde están mis gafas? ¡En la mesa!",
+  "goal": "a decir dónde están las cosas con in, on, under, next to, between, behind… y a distinguir sit / seat",
+  "emoji": "📍",
+  "photoQuery": "cat sleeping under chair",
+  "vocab": [
+    {
+      "id": "prep-in",
+      "t": "in",
+      "es": "en, dentro de",
+      "emoji": "📥",
+      "pos": "other",
+      "ex": {
+        "t": "The keys are in the drawer.",
+        "es": "Las llaves están en el cajón."
+      }
+    },
+    {
+      "id": "prep-on",
+      "t": "on",
+      "es": "en, encima de",
+      "emoji": "⬆️",
+      "pos": "other",
+      "ex": {
+        "t": "Your glasses are on the table.",
+        "es": "Tus gafas están en la mesa."
+      }
+    },
+    {
+      "id": "under",
+      "t": "under",
+      "es": "debajo de",
+      "emoji": "⬇️",
+      "pos": "other",
+      "ex": {
+        "t": "The cat is under the bed.",
+        "es": "El gato está debajo de la cama."
+      }
+    },
+    {
+      "id": "next-to",
+      "t": "next to",
+      "es": "al lado de",
+      "emoji": "↔️",
+      "pos": "other",
+      "ex": {
+        "t": "The lamp is next to the sofa.",
+        "es": "La lámpara está al lado del sofá."
+      }
+    },
+    {
+      "id": "between",
+      "t": "between",
+      "es": "entre",
+      "emoji": "↕️",
+      "pos": "other",
+      "ex": {
+        "t": "I sit between my friends.",
+        "es": "Me siento entre mis amigas."
+      }
+    },
+    {
+      "id": "behind",
+      "t": "behind",
+      "es": "detrás de",
+      "emoji": "🔙",
+      "pos": "other",
+      "ex": {
+        "t": "The garden is behind the house.",
+        "es": "El jardín está detrás de la casa."
+      }
+    },
+    {
+      "id": "in-front-of",
+      "t": "in front of",
+      "es": "delante de",
+      "emoji": "⏩",
+      "pos": "other",
+      "ex": {
+        "t": "The car is in front of the house.",
+        "es": "El coche está delante de la casa."
+      }
+    },
+    {
+      "id": "opposite",
+      "t": "opposite",
+      "es": "enfrente de",
+      "emoji": "🔄",
+      "pos": "other",
+      "ex": {
+        "t": "The bakery is opposite my flat.",
+        "es": "La panadería está enfrente de mi piso."
+      },
+      "note": "¡Ojo! «Enfrente de» es opposite; in front of es «delante de»."
+    },
+    {
+      "id": "a-drawer",
+      "t": "a drawer",
+      "es": "un cajón",
+      "emoji": "🗄️",
+      "pos": "n",
+      "ex": {
+        "t": "The spoons are in the top drawer.",
+        "es": "Las cucharas están en el cajón de arriba."
+      }
+    }
+  ],
+  "grammar": "en-g-prep-place",
+  "pron": {
+    "title": "sit / seat: i corta o i larga",
+    "tip": "En inglés hay dos «i». La corta (sit, ship, live) es rápida y relajada, casi una «e». La larga (seat, sheep, leave) es una «i» estirada, sonriendo: «siiit». ¡Cambia el significado! Sit = sentarse; seat = asiento.",
+    "words": [
+      "sit",
+      "seat",
+      "live",
+      "leave",
+      "chicken",
+      "kitchen"
+    ],
+    "pairs": [
+      [
+        "sit",
+        "seat"
+      ],
+      [
+        "ship",
+        "sheep"
+      ],
+      [
+        "live",
+        "leave"
+      ],
+      [
+        "fill",
+        "feel"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "The spoons are ___ the drawer.",
+      "es": "Las cucharas están en el cajón.",
+      "options": [
+        "in",
+        "on",
+        "under"
+      ],
+      "answer": "in",
+      "why": "Dentro del cajón: in.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "There's a photo of my grandchildren ___ the fridge.",
+      "es": "Hay una foto de mis nietos en la nevera.",
+      "options": [
+        "in",
+        "on"
+      ],
+      "answer": "on",
+      "why": "Pegada por fuera, en la puerta: on the fridge. (In the fridge sería dentro.)",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "The chemist's is ___ my house, across the road.",
+      "es": "La farmacia está enfrente de mi casa, al otro lado de la calle.",
+      "options": [
+        "opposite",
+        "in front of",
+        "next to"
+      ],
+      "answer": "opposite",
+      "why": "Al otro lado de la calle: opposite.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "The sofa is ___ the two windows.",
+      "es": "El sofá está entre las dos ventanas.",
+      "answer": [
+        "between"
+      ],
+      "bank": [
+        "between",
+        "behind",
+        "under"
+      ],
+      "why": "Entre dos cosas: between.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "The ball is ___ the sofa. I can't reach it!",
+      "es": "La pelota está debajo del sofá. ¡No llego!",
+      "answer": [
+        "under"
+      ],
+      "bank": [
+        "under",
+        "on",
+        "in"
+      ],
+      "why": "Debajo de = under.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "The bathroom is next ___ my bedroom.",
+      "es": "El baño está al lado de mi dormitorio.",
+      "answer": [
+        "to"
+      ],
+      "why": "Al lado de = next to.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e7",
+      "type": "match",
+      "pairs": [
+        [
+          "in front of",
+          "delante de"
+        ],
+        [
+          "opposite",
+          "enfrente de"
+        ],
+        [
+          "behind",
+          "detrás de"
+        ],
+        [
+          "under",
+          "debajo de"
+        ],
+        [
+          "between",
+          "entre"
+        ]
+      ]
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "My glasses are in the table.",
+      "wrong": "in",
+      "fix": "on",
+      "why": "Encima de una superficie: on the table.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "The lamp is next of the bed.",
+      "wrong": "of",
+      "fix": "to",
+      "why": "Al lado de = next to, nunca next of.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Las llaves están detrás de la puerta",
+      "answer": "The keys are behind the door",
+      "extra": [
+        "of"
+      ],
+      "why": "Detrás de = behind (sin of).",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "El gato está debajo de la mesa.",
+      "answer": [
+        "The cat is under the table.",
+        "The cat's under the table."
+      ],
+      "why": "Debajo de = under.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Tu nieto busca su mochila. Está detrás del sofá.",
+      "emoji": "🎒",
+      "options": [
+        "It's behind the sofa.",
+        "It's in front the sofa.",
+        "It's between the sofa."
+      ],
+      "answer": "It's behind the sofa.",
+      "why": "Detrás de = behind.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "sit",
+        "seat"
+      ],
+      "answer": "seat",
+      "es": [
+        "sentarse",
+        "asiento"
+      ],
+      "why": "Seat tiene la i larga y estirada."
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "live",
+        "leave"
+      ],
+      "answer": "live",
+      "es": [
+        "vivir",
+        "irse"
+      ],
+      "why": "Live tiene la i corta y relajada."
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "ship",
+        "sheep"
+      ],
+      "answer": "sheep",
+      "es": [
+        "barco",
+        "oveja"
+      ],
+      "why": "Sheep tiene la i larga, como seat."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Please sit here. This seat is free.",
+      "es": "Siéntate aquí, por favor. Este asiento está libre."
+    }
+  ],
+  "dialog": {
+    "title": "¿Dónde está el mando?",
+    "setting": "En el salón de Yolanda, un domingo por la tarde",
+    "emoji": "📺",
+    "lines": [
+      {
+        "who": "Hugo",
+        "t": "Mum, where's the remote?",
+        "es": "Mamá, ¿dónde está el mando?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Is it on the sofa?",
+        "es": "¿Está en el sofá?"
+      },
+      {
+        "who": "Hugo",
+        "t": "No, it isn't. And it isn't on the table.",
+        "es": "No. Y tampoco está en la mesa."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Look under the cushions.",
+        "es": "Mira debajo de los cojines."
+      },
+      {
+        "who": "Hugo",
+        "t": "No… Oh! It's behind the plant!",
+        "es": "No… ¡Ah! ¡Está detrás de la planta!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "The grandchildren! Always the grandchildren.",
+        "es": "¡Los nietos! Siempre los nietos."
+      },
+      {
+        "who": "Hugo",
+        "t": "Sit down, Mum. The film is on now.",
+        "es": "Siéntate, mamá. Ya empieza la película."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué busca Hugo?",
+        "options": [
+          "El mando de la tele",
+          "Sus gafas",
+          "El móvil"
+        ],
+        "answer": "El mando de la tele"
+      },
+      {
+        "q": "¿Dónde está al final?",
+        "options": [
+          "Detrás de la planta",
+          "Debajo de los cojines",
+          "En la mesa"
+        ],
+        "answer": "Detrás de la planta"
+      },
+      {
+        "q": "¿Quién lo ha dejado allí, según Yolanda?",
+        "options": [
+          "Los nietos",
+          "Hugo",
+          "Yolanda"
+        ],
+        "answer": "Los nietos"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Excuse me, is this seat free?",
+    "es": "Perdone, ¿está libre este asiento?",
+    "context": "En el tren, el autobús o una cafetería"
+  },
+  "summary": [
+    "in (dentro), on (encima o pegado), under, behind, between, next to",
+    "Delante de = in front of; enfrente de = opposite",
+    "Errores típicos: on the table (no in), next to (no next of)",
+    "i corta / i larga: sit / seat, live / leave, ship / sheep"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u04-l4"
+}

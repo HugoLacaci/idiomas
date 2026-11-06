@@ -1,0 +1,434 @@
+{
+  "id": "it-a1-u03-l1",
+  "unit": "it-a1-u03",
+  "title": "Da zero a cento",
+  "goal": "a contar del 0 al 100 y a entender precios sencillos en euros",
+  "emoji": "🔢",
+  "photoQuery": "italian market fruit prices",
+  "vocab": [
+    {
+      "id": "numero-zero",
+      "t": "zero",
+      "es": "cero",
+      "emoji": "0️⃣",
+      "pos": "n",
+      "ex": {
+        "t": "Zero gradi: fa freddo!",
+        "es": "Cero grados: ¡hace frío!"
+      }
+    },
+    {
+      "id": "numero-uno",
+      "t": "uno",
+      "es": "uno",
+      "emoji": "1️⃣",
+      "pos": "n",
+      "ex": {
+        "t": "Uno, due, tre: foto!",
+        "es": "Una, dos, tres: ¡foto!"
+      }
+    },
+    {
+      "id": "numero-tre",
+      "t": "tre",
+      "es": "tres",
+      "emoji": "3️⃣",
+      "pos": "n",
+      "ex": {
+        "t": "Tre biglietti, per favore.",
+        "es": "Tres billetes, por favor."
+      }
+    },
+    {
+      "id": "numero-dieci",
+      "t": "dieci",
+      "es": "diez",
+      "emoji": "🔟",
+      "pos": "n",
+      "ex": {
+        "t": "Sono dieci euro, signora.",
+        "es": "Son diez euros, señora."
+      }
+    },
+    {
+      "id": "numero-venti",
+      "t": "venti",
+      "es": "veinte",
+      "emoji": "🔢",
+      "pos": "n",
+      "ex": {
+        "t": "L'autobus arriva tra venti minuti.",
+        "es": "El autobús llega dentro de veinte minutos."
+      }
+    },
+    {
+      "id": "numero-cento",
+      "t": "cento",
+      "es": "cien",
+      "emoji": "💯",
+      "pos": "n",
+      "ex": {
+        "t": "La nonna di Giulia ha cento anni!",
+        "es": "¡La abuela de Giulia tiene cien años!"
+      }
+    },
+    {
+      "id": "l-euro",
+      "t": "l'euro",
+      "es": "el euro",
+      "emoji": "💶",
+      "pos": "n",
+      "note": "No cambia en plural: un euro, dieci euro.",
+      "ex": {
+        "t": "Il caffè costa un euro.",
+        "es": "El café cuesta un euro."
+      }
+    },
+    {
+      "id": "il-centesimo",
+      "t": "il centesimo",
+      "es": "el céntimo",
+      "emoji": "🪙",
+      "pos": "n",
+      "ex": {
+        "t": "Il bagno costa cinquanta centesimi.",
+        "es": "El baño cuesta cincuenta céntimos."
+      }
+    },
+    {
+      "id": "quanto-costa",
+      "t": "Quanto costa?",
+      "es": "¿Cuánto cuesta?",
+      "emoji": "🏷️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Quanto costa questo limoncello?",
+        "es": "¿Cuánto cuesta este limoncello?"
+      }
+    }
+  ],
+  "grammar": "it-g-numeri",
+  "pron": {
+    "title": "La z de zero",
+    "tip": "La z italiana nunca suena como nuestra z de «zapato». En zero suena como «dz» (una d y una s juntas); en grazie o pranzo, como «ts».",
+    "words": [
+      "zero",
+      "zona",
+      "pranzo",
+      "grazie"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Tre più quattro fa ___.",
+      "options": [
+        "sette",
+        "sei",
+        "otto"
+      ],
+      "answer": "sette",
+      "why": "3 + 4 = 7, sette, con doble t.",
+      "g": "it-g-numeri"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Il caffè costa un ___.",
+      "options": [
+        "euro",
+        "euri",
+        "euros"
+      ],
+      "answer": "euro",
+      "why": "Euro es igual en singular y en plural.",
+      "g": "it-g-numeri"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "q": "Dieci, venti, trenta, ___.",
+      "answer": [
+        "quaranta"
+      ],
+      "bank": [
+        "quaranta",
+        "quattordici",
+        "cuaranta"
+      ],
+      "why": "Después de trenta viene quaranta (40), con qu.",
+      "g": "it-g-numeri"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Novanta più dieci fa ___.",
+      "answer": [
+        "cento"
+      ],
+      "why": "90 + 10 = 100, cento.",
+      "g": "it-g-numeri"
+    },
+    {
+      "id": "e5",
+      "type": "match",
+      "pairs": [
+        [
+          "0",
+          "zero"
+        ],
+        [
+          "8",
+          "otto"
+        ],
+        [
+          "12",
+          "dodici"
+        ],
+        [
+          "20",
+          "venti"
+        ],
+        [
+          "100",
+          "cento"
+        ]
+      ],
+      "why": "Muchos números se parecen al español: otto/ocho, cento/cien.",
+      "g": "it-g-numeri"
+    },
+    {
+      "id": "e6",
+      "type": "order",
+      "es": "Tres cafés, por favor.",
+      "answer": "Tre caffè per favore",
+      "extra": [
+        "caffès"
+      ],
+      "why": "Caffè no cambia en plural: un caffè, tre caffè.",
+      "g": "it-g-numeri"
+    },
+    {
+      "id": "e7",
+      "type": "translate",
+      "dir": "to",
+      "q": "Cuesta diez euros.",
+      "answer": [
+        "Costa dieci euro"
+      ],
+      "why": "Diez = dieci, y euro sin s.",
+      "g": "it-g-numeri"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Sono quindici euros.",
+      "wrong": "euros",
+      "fix": "euro",
+      "why": "En italiano se dice quindici euro, sin s.",
+      "g": "it-g-numeri"
+    },
+    {
+      "id": "e9",
+      "type": "situation",
+      "context": "En el mercado quieres saber el precio de los tomates.",
+      "emoji": "🍅",
+      "options": [
+        "Quanto costano?",
+        "Quanti anni hanno?",
+        "Come stanno?"
+      ],
+      "answer": "Quanto costano?",
+      "why": "Para el precio de varias cosas: quanto costano?",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e10",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Bagno",
+      "text": "BAGNO PUBBLICO\nIngresso: 0,50 €\nAperto dalle 8 alle 20",
+      "questions": [
+        {
+          "q": "¿Cuánto cuesta usar el baño?",
+          "options": [
+            "50 céntimos",
+            "5 euros",
+            "15 céntimos"
+          ],
+          "answer": "50 céntimos"
+        },
+        {
+          "q": "¿Hasta qué hora está abierto?",
+          "options": [
+            "Hasta las 20:00",
+            "Hasta las 8:00",
+            "Hasta las 12:00"
+          ],
+          "answer": "Hasta las 20:00"
+        }
+      ],
+      "g": "it-g-numeri"
+    },
+    {
+      "id": "e11",
+      "type": "speak",
+      "t": "Quanto costa, per favore?",
+      "es": "¿Cuánto cuesta, por favor?"
+    },
+    {
+      "id": "e12",
+      "type": "minimal",
+      "pair": [
+        "sette",
+        "sete"
+      ],
+      "answer": "sette",
+      "es": [
+        "siete",
+        "sed"
+      ],
+      "why": "Sette (7) tiene doble t: se alarga la t. Sete (sed) tiene una sola."
+    },
+    {
+      "id": "e13",
+      "type": "transform",
+      "instr": "Escribe el número en letras",
+      "q": "16",
+      "answer": [
+        "sedici"
+      ],
+      "why": "16 es sedici: sei + dici, la i se pierde.",
+      "g": "it-g-numeri"
+    },
+    {
+      "id": "e14",
+      "type": "choose",
+      "q": "Il bagno costa cinquanta ___.",
+      "options": [
+        "centesimi",
+        "centesimo",
+        "cents"
+      ],
+      "answer": "centesimi",
+      "why": "Il centesimo, i centesimi: plural en -i.",
+      "g": "it-g-numeri"
+    }
+  ],
+  "dialog": {
+    "title": "En el puesto de fruta",
+    "setting": "En un mercado de Nápoles",
+    "emoji": "🍅",
+    "lines": [
+      {
+        "who": "Gennaro",
+        "t": "Buongiorno, signora!",
+        "es": "¡Buenos días, señora!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Buongiorno! Quanto costano i pomodori?",
+        "es": "¡Buenos días! ¿Cuánto cuestan los tomates?"
+      },
+      {
+        "who": "Gennaro",
+        "t": "Tre euro al chilo.",
+        "es": "Tres euros el kilo."
+      },
+      {
+        "who": "Yolanda",
+        "t": "E le pesche?",
+        "es": "¿Y los melocotones?"
+      },
+      {
+        "who": "Gennaro",
+        "t": "Due euro e cinquanta.",
+        "es": "Dos euros con cincuenta."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Un chilo di pomodori, per favore.",
+        "es": "Un kilo de tomates, por favor."
+      },
+      {
+        "who": "Gennaro",
+        "t": "Ecco a Lei. Sono tre euro.",
+        "es": "Aquí tiene. Son tres euros."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Ecco dieci euro.",
+        "es": "Aquí tiene diez euros."
+      },
+      {
+        "who": "Gennaro",
+        "t": "E sette di resto. Grazie!",
+        "es": "Y siete de vuelta. ¡Gracias!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuánto cuesta el kilo de tomates?",
+        "options": [
+          "3 €",
+          "2,50 €",
+          "10 €"
+        ],
+        "answer": "3 €"
+      },
+      {
+        "q": "¿Qué compra Yolanda?",
+        "options": [
+          "Tomates",
+          "Melocotones",
+          "Pan"
+        ],
+        "answer": "Tomates"
+      },
+      {
+        "q": "¿Cuánto le devuelven?",
+        "options": [
+          "7 €",
+          "3 €",
+          "10 €"
+        ],
+        "answer": "7 €"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Mi fa uno sconto?",
+    "es": "¿Me hace un descuento?",
+    "context": "Para pedir rebaja en un mercadillo"
+  },
+  "same": {
+    "text": "Igual que en español: muchos números se reconocen enseguida.",
+    "examples": [
+      {
+        "t": "tre",
+        "es": "tres"
+      },
+      {
+        "t": "sei",
+        "es": "seis"
+      },
+      {
+        "t": "cento",
+        "es": "cien"
+      },
+      {
+        "t": "Quanto costa?",
+        "es": "¿Cuánto cuesta?"
+      }
+    ]
+  },
+  "summary": [
+    "Los números del 0 al 100: zero, uno, due… cento",
+    "Euro no cambia en plural: dieci euro",
+    "Preguntar el precio: Quanto costa? / Quanto costano?",
+    "La z de zero suena «dz», nunca como nuestra z"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u03-l1"
+}

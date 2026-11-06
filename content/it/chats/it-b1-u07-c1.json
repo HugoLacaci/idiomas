@@ -1,0 +1,59 @@
+{
+  "id": "it-b1-u07-c1",
+  "unit": "it-b1-u07",
+  "title": "¿Vamos a la playa?",
+  "setting": "Giulia te escribe desde Roma para ir a la playa el domingo",
+  "emoji": "🏖️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda! Domenica andiamo al mare? Se vuoi, ti passo a prendere io.", "es": "¡Hola, Yolanda! ¿El domingo vamos a la playa? Si quieres, paso yo a recogerte." },
+      "options": [
+        { "t": "Volentieri! Se fa bel tempo, vengo di sicuro.", "es": "¡Con gusto! Si hace buen tiempo, voy seguro.", "next": "n2", "ok": true },
+        { "t": "Volentieri! Se facesse bel tempo, vengo di sicuro.", "es": "¡Con gusto! Si hiciera buen tiempo, voy seguro.", "next": "n2", "ok": false, "feedback": "Para algo real y probable, se + presente: se fa bel tempo." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "E se piove? Hai un piano B?", "es": "¿Y si llueve? ¿Tienes un plan B?" },
+      "options": [
+        { "t": "Se piove, andiamo al cinema e poi a cena.", "es": "Si llueve, vamos al cine y luego a cenar.", "next": "n3", "ok": true },
+        { "t": "Se piove, andremmo al cinema e poi a cena.", "es": "Si llueve, iríamos al cine y luego a cenar.", "next": "n3", "ok": false, "feedback": "Con se piove (algo real), la otra parte va en presente o futuro: andiamo." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Perfetto! Porto io l'ombrellone. Tu cosa porti?", "es": "¡Perfecto! Llevo yo la sombrilla. ¿Tú qué llevas?" },
+      "options": [
+        { "t": "Porto la crema solare e due panini.", "es": "Llevo la crema solar y dos bocadillos.", "next": "n4", "ok": true },
+        { "t": "Porto i lettini e la sabbia.", "es": "Llevo las tumbonas y la arena.", "next": "n4", "ok": false, "feedback": "¡La sabbia (la arena) ya está en la playa! 😄 Mejor lleva la crema solar." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ah, se avessi una casa al mare, ci andrei ogni fine settimana!", "es": "¡Ay, si tuviera una casa en la playa, iría cada fin de semana!" },
+      "options": [
+        { "t": "Anch'io! Sarebbe il massimo.", "es": "¡Yo también! Sería lo más.", "next": "n5", "ok": true },
+        { "t": "Anch'io! Sarà il massimo.", "es": "¡Yo también! Será lo más.", "next": "n5", "ok": false, "feedback": "Hablamos de un sueño: sarebbe (sería), no sarà (será)." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "A che ora ci vediamo? Se partiamo presto, troviamo parcheggio.", "es": "¿A qué hora quedamos? Si salimos temprano, encontramos aparcamiento." },
+      "options": [
+        { "t": "Alle otto va bene? Se arrivi prima, chiamami.", "es": "¿A las ocho te va bien? Si llegas antes, llámame.", "next": "n6", "ok": true },
+        { "t": "Alle otto va bene? Se arriveresti prima, chiamami.", "es": "¿A las ocho te va bien? Si llegarías antes, llámame.", "next": "n6", "ok": false, "feedback": "Detrás de se nunca va el condicional: se arrivi." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Va bene! E se il mare è mosso, facciamo solo una passeggiata.", "es": "¡Vale! Y si el mar está movido, solo damos un paseo." },
+      "options": [
+        { "t": "D'accordo, l'importante è stare insieme!", "es": "De acuerdo, ¡lo importante es estar juntas!", "next": "end", "ok": true },
+        { "t": "D'accordo, se il mare fosse mosso, facciamo una passeggiata.", "es": "De acuerdo, si el mar estuviera movido, damos un paseo.", "next": "end", "ok": false, "feedback": "No mezcles: algo real va con se + presente (se il mare è mosso)." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

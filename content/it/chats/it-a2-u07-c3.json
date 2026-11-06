@@ -1,0 +1,58 @@
+{
+  "id": "it-a2-u07-c3",
+  "unit": "it-a2-u07",
+  "title": "Un mensaje en el buzón",
+  "setting": "Llamas a Giulia, no contesta, y al rato te devuelve la llamada",
+  "emoji": "📼",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "(Segreteria) Ciao, sono Giulia. Lasciate un messaggio dopo il bip!", "es": "(Buzón) Hola, soy Giulia. ¡Dejad un mensaje después de la señal!" },
+      "options": [
+        { "t": "Ciao Giulia, sono Yolanda. Richiamami quando puoi!", "es": "Hola, Giulia, soy Yolanda. ¡Llámame cuando puedas!", "next": "n2", "ok": true },
+        { "t": "Ciao Giulia, mi chiamo Yolanda. Richiamami quando puoi!", "es": "Hola, Giulia, soy Yolanda. ¡Llámame cuando puedas!", "next": "n2", "ok": false, "feedback": "Al teléfono, a una amiga, se dice sono Yolanda." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Pronto, Yolanda? Scusa, ho visto ora la chiamata!", "es": "¿Sí, Yolanda? ¡Perdona, acabo de ver la llamada!" },
+      "options": [
+        { "t": "Tranquilla! Cosa stavi facendo?", "es": "¡Tranquila! ¿Qué estabas haciendo?", "next": "n3", "ok": true },
+        { "t": "Tranquilla! Cosa eri facendo?", "es": "¡Tranquila! ¿Qué estabas haciendo?", "next": "n3", "ok": false, "feedback": "Estabas + gerundio = stavi facendo." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Stavo facendo la spesa. Al supermercato non c'è campo.", "es": "Estaba haciendo la compra. En el súper no hay cobertura." },
+      "options": [
+        { "t": "Ah, capisco! Ti ho lasciato un messaggio in segreteria.", "es": "¡Ah, entiendo! Te he dejado un mensaje en el buzón.", "next": "n4", "ok": true },
+        { "t": "Ah, capisco! Ti ho lasciata un messaggio in segreteria.", "es": "¡Ah, entiendo! Te he dejado un mensaje en el buzón.", "next": "n4", "ok": false, "feedback": "Con pronombre indirecto el participio no cambia: ti ho lasciato." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Non l'ho ancora ascoltato. Dimmi pure!", "es": "Todavía no lo he escuchado. ¡Dime!" },
+      "options": [
+        { "t": "Mi puoi dare il numero del tuo parrucchiere?", "es": "¿Me puedes dar el número de tu peluquero?", "next": "n5", "ok": true },
+        { "t": "Ti puoi dare il numero del tuo parrucchiere?", "es": "¿Me puedes dar el número de tu peluquero?", "next": "n5", "ok": false, "feedback": "Lo quieres para ti: mi puoi dare." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Certo! Te lo mando su WhatsApp. Ti serve altro?", "es": "¡Claro! Te lo mando por WhatsApp. ¿Necesitas algo más?" },
+      "options": [
+        { "t": "No, grazie. Ora ti lascio, sto uscendo.", "es": "No, gracias. Ahora te dejo, estoy saliendo.", "next": "n6", "ok": true },
+        { "t": "No, grazie. Ora ti lascio, sto uscindo.", "es": "No, gracias. Ahora te dejo, estoy saliendo.", "next": "n6", "ok": false, "feedback": "Uscire → uscendo, sin i." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Va bene, ci sentiamo! Un abbraccio!", "es": "¡Vale, hablamos! ¡Un abrazo!" },
+      "options": [
+        { "t": "Un abbraccio anche a te, ciao!", "es": "¡Un abrazo para ti también, adiós!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

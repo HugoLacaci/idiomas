@@ -1,0 +1,85 @@
+{
+  "id": "it-b1-u06-l5",
+  "unit": "it-b1-u06",
+  "title": "Una settimana a Perugia",
+  "goal": "a desenvolverte en un curso de italiano en Perugia y a expresar deseos, consejos y esperanzas",
+  "emoji": "🍫",
+  "photoQuery": "perugia medieval street hill",
+  "vocab": [
+    { "id": "studio-l-universita-per-stranieri", "t": "l'Università per Stranieri", "es": "la Universidad para Extranjeros", "emoji": "🏛️", "pos": "n", "ex": { "t": "L'Università per Stranieri di Perugia insegna l'italiano dal 1925.", "es": "La Universidad para Extranjeros de Perugia enseña italiano desde 1925." } },
+    { "id": "studio-il-test-di-livello", "t": "il test di livello", "es": "la prueba de nivel", "emoji": "📝", "pos": "n", "ex": { "t": "Il primo giorno c'è un test di livello.", "es": "El primer día hay una prueba de nivel." } },
+    { "id": "studio-l-aula", "t": "l'aula", "es": "el aula", "emoji": "🚪", "pos": "n", "ex": { "t": "La nostra aula è al secondo piano.", "es": "Nuestra aula está en la segunda planta." } },
+    { "id": "studio-la-compagna-di-classe", "t": "la compagna di classe", "es": "la compañera de clase", "emoji": "👭", "pos": "n", "ex": { "t": "La mia compagna di classe viene dal Giappone.", "es": "Mi compañera de clase es de Japón." } },
+    { "id": "studio-l-alloggio", "t": "l'alloggio", "es": "el alojamiento", "emoji": "🏠", "pos": "n", "ex": { "t": "Bisogna che io trovi un alloggio vicino al centro.", "es": "Hace falta que encuentre alojamiento cerca del centro." } },
+    { "id": "studio-il-bacio", "t": "il bacio", "es": "el beso", "emoji": "💋", "pos": "n", "ex": { "t": "A Perugia fanno i Baci, cioccolatini con un messaggio d'amore.", "es": "En Perugia hacen los Baci, bombones con un mensaje de amor." }, "note": "Plural: i baci. Ci suena como nuestra ch: ba-chi." },
+    { "id": "studio-il-cioccolatino", "t": "il cioccolatino", "es": "el bombón", "emoji": "🍫", "pos": "n", "ex": { "t": "Ti porto una scatola di cioccolatini da Perugia.", "es": "Te traigo una caja de bombones de Perugia." } },
+    { "id": "studio-l-attestato", "t": "l'attestato", "es": "el certificado (de un curso)", "emoji": "📜", "pos": "n", "ex": { "t": "Alla fine del corso danno un attestato.", "es": "Al final del curso dan un certificado." } },
+    { "id": "studio-la-fontana", "t": "la fontana", "es": "la fuente", "emoji": "⛲", "pos": "n", "ex": { "t": "Ci vediamo alla Fontana Maggiore alle sei.", "es": "Nos vemos en la Fontana Maggiore a las seis." } }
+  ],
+  "grammar": "it-g-congiuntivo-espressioni",
+  "pron": {
+    "title": "Perugia, Baci, cioccolatino",
+    "tip": "En Perugia, gia suena como una «ya» fuerte: pe-RU-gia. Ci suena como nuestra ch: BA-ci, cioc-co-la-TI-no. Con doble c se apoya más: Van-NUC-ci.",
+    "words": ["Perugia", "Baci", "cioccolatino", "Vannucci", "fontana"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "email", "title": "Bienvenida al curso", "text": "Benvenuti a Perugia! Lunedì alle 9 c'è il test di livello nell'aula 3. È importante che tutti gli studenti portino un documento. Le lezioni cominciano martedì. Speriamo che il corso vi piaccia!", "questions": [
+      { "q": "¿Qué hay el lunes a las 9?", "options": ["La prueba de nivel", "La primera clase", "Una excursión"], "answer": "La prueba de nivel" },
+      { "q": "¿Qué tienen que llevar los alumnos?", "options": ["Un documento", "Un diccionario", "Bombones"], "answer": "Un documento" },
+      { "q": "¿Cuándo empiezan las clases?", "options": ["El martes", "El lunes", "El miércoles"], "answer": "El martes" }
+    ] },
+    { "id": "e2", "type": "situation", "context": "En la prueba de nivel, el profesor habla muy deprisa. ¿Qué le dices?", "emoji": "🐢", "options": ["Scusi, può parlare più lentamente?", "Scusi, spero di parlare più lentamente.", "Scusi, è meglio parlare veloce."], "answer": "Scusi, può parlare più lentamente?", "why": "Para pedir algo con educación a un profesor: Scusi, può + infinitivo?" },
+    { "id": "e3", "type": "situation", "context": "Tu compañera japonesa tiene un examen mañana. Le deseas suerte.", "emoji": "🍀", "options": ["In bocca al lupo! Spero che vada bene.", "In bocca al lupo! Spero che va bene.", "Crepi! Spero di andare bene."], "answer": "In bocca al lupo! Spero che vada bene.", "why": "Se desea suerte con In bocca al lupo, y spero che lleva congiuntivo: vada.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e4", "type": "choose", "q": "Bisogna che io ___ un alloggio vicino all'università.", "es": "Hace falta que encuentre alojamiento cerca de la universidad.", "options": ["trovi", "trovo", "trovare"], "answer": "trovi", "why": "Bisogna che + congiuntivo. Trovare → (che io) trovi.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e5", "type": "choose", "q": "Spero ___ una scatola di Baci a mio figlio Hugo.", "es": "Espero llevarle una caja de Baci a mi hijo Hugo.", "options": ["di portare", "che porti", "portare"], "answer": "di portare", "why": "Mismo sujeto (yo espero, yo llevo): spero di + infinitivo.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e6", "type": "fill", "q": "È meglio che noi ___ a piedi: il centro è in salita.", "es": "Es mejor que vayamos a pie: el centro está cuesta arriba.", "answer": ["andiamo"], "bank": ["andiamo", "andiate", "vadano"], "why": "Con noi, el congiuntivo es igual que el presente: andiamo.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e7", "type": "fill", "q": "Sono contenta che le mie compagne ___ così simpatiche.", "es": "Me alegro de que mis compañeras sean tan simpáticas.", "answer": ["siano"], "hint": "essere", "why": "Sono contenta che + congiuntivo. Essere con loro: siano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e8", "type": "conjugate", "verb": "dare", "person": "loro", "tense": "congiuntivo presente", "q": "Spero che alla fine ci ___ l'attestato.", "answer": ["diano"], "table": [["io / tu / lui", "dia"], ["noi", "diamo"], ["voi", "diate"], ["loro", "diano"]], "why": "Dare es irregular: dia, diamo, diate, diano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e9", "type": "conjugate", "verb": "uscire", "person": "voi", "tense": "congiuntivo presente", "q": "Voglio che ___ con noi stasera!", "answer": ["usciate"], "table": [["io / tu / lui", "esca"], ["noi", "usciamo"], ["voi", "usciate"], ["loro", "escano"]], "why": "Uscire: esca, escano… pero noi y voi vuelven a la u: usciamo, usciate.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e10", "type": "conjugate", "verb": "volere", "person": "loro", "tense": "congiuntivo presente", "q": "Spero che i miei compagni ___ venire alla Fontana Maggiore.", "answer": ["vogliano"], "why": "Volere: voglia… y con loro, vogliano (como voglio).", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e11", "type": "error", "q": "Sono contenta che il corso è così bello.", "wrong": "è", "fix": "sia", "why": "Sono contenta che + congiuntivo: il corso sia.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e12", "type": "error", "q": "È importante che voi fate il test lunedì.", "wrong": "fate", "fix": "facciate", "why": "Fare en congiuntivo con voi: facciate.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e13", "type": "order", "es": "Espero que os gusten los bombones de Perugia.", "answer": "Spero che vi piacciano i cioccolatini di Perugia", "extra": ["piacciono"], "why": "Piacere en congiuntivo, con algo plural: piacciano.", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e14", "type": "translate", "dir": "to", "q": "Es importante que todos los alumnos hablen italiano.", "answer": ["È importante che tutti gli studenti parlino italiano.", "È importante che tutti gli studenti parlino in italiano.", "È importante che tutti gli alunni parlino italiano."], "why": "È importante che + congiuntivo: parlino (loro).", "g": "it-g-congiuntivo-espressioni" },
+    { "id": "e15", "type": "speak", "t": "Sono contenta di essere a Perugia!", "es": "¡Qué contenta estoy de estar en Perugia!" },
+    { "id": "e16", "type": "match", "pairs": [["spero di venire", "espero venir"], ["spero che tu venga", "espero que vengas"], ["è importante studiare", "es importante estudiar"], ["è importante che tu studi", "es importante que estudies"], ["sono contenta di essere qui", "me alegro de estar aquí"]], "why": "Mismo sujeto o consejo general: infinitivo. Otra persona: che + congiuntivo.", "g": "it-g-congiuntivo-espressioni" }
+  ],
+  "dialog": {
+    "title": "El primer día en Perugia",
+    "setting": "En la Universidad para Extranjeros de Perugia, Yolanda habla con Sofia, la profesora de su grupo",
+    "emoji": "🏛️",
+    "lines": [
+      { "who": "Sofia", "t": "Benvenuta, Yolanda! Com'è andato il test di livello?", "es": "¡Bienvenida, Yolanda! ¿Qué tal te ha ido la prueba de nivel?" },
+      { "who": "Yolanda", "t": "Abbastanza bene, credo. Spero di essere nel gruppo B1.", "es": "Bastante bien, creo. Espero estar en el grupo B1." },
+      { "who": "Sofia", "t": "Sì, sei nel mio gruppo. Sono contenta che tu sia qui!", "es": "Sí, estás en mi grupo. ¡Me alegro de que estés aquí!" },
+      { "who": "Yolanda", "t": "Grazie! Cosa bisogna che io faccia per domani?", "es": "¡Gracias! ¿Qué hace falta que haga para mañana?" },
+      { "who": "Sofia", "t": "Niente di speciale. È importante che tu porti il libro.", "es": "Nada especial. Es importante que traigas el libro." },
+      { "who": "Yolanda", "t": "Perfetto. E nel pomeriggio cosa mi consiglia di vedere?", "es": "Perfecto. ¿Y por la tarde qué me aconseja ver?" },
+      { "who": "Sofia", "t": "È meglio che tu vada in Corso Vannucci e alla Fontana Maggiore.", "es": "Lo mejor es que vayas al Corso Vannucci y a la Fontana Maggiore." },
+      { "who": "Yolanda", "t": "E dove compro i Baci per la mia famiglia?", "es": "¿Y dónde compro los Baci para mi familia?" },
+      { "who": "Sofia", "t": "In centro ci sono tanti negozi. Spero che ti piacciano!", "es": "En el centro hay muchas tiendas. ¡Espero que te gusten!" }
+    ],
+    "questions": [
+      { "q": "¿En qué grupo está Yolanda?", "options": ["En el B1", "En el A2", "En el B2"], "answer": "En el B1" },
+      { "q": "¿Qué tiene que llevar mañana?", "options": ["El libro", "Un documento", "Bombones"], "answer": "El libro" },
+      { "q": "¿Qué le aconseja ver Sofia?", "options": ["Corso Vannucci y la Fontana Maggiore", "El estadio", "El lago"], "answer": "Corso Vannucci y la Fontana Maggiore" }
+    ]
+  },
+  "realLife": { "t": "Spero che ci rivediamo presto!", "es": "¡Espero que nos volvamos a ver pronto!", "context": "Para despedirte de tus compañeros al final de un curso" },
+  "same": {
+    "text": "Igual que en español: «es importante que», «hace falta que» y «es mejor que» van con subjuntivo.",
+    "examples": [
+      { "t": "È importante che tu venga.", "es": "Es importante que vengas." },
+      { "t": "Bisogna che io trovi casa.", "es": "Hace falta que encuentre casa." },
+      { "t": "È meglio che andiamo a piedi.", "es": "Es mejor que vayamos a pie." }
+    ]
+  },
+  "summary": [
+    "En el curso: il test di livello, l'aula, la compagna di classe, l'attestato.",
+    "Necesidades: bisogna che io trovi un alloggio.",
+    "Consejos: è meglio che tu vada…, è importante che tu porti…",
+    "Deseos: spero che ti piacciano i Baci! / Spero di tornare presto.",
+    "Perugia: Università per Stranieri desde 1925 y los bombones Baci."
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,134 @@
+{
+  "id": "it-g-imperativo-tu-intro",
+  "lang": "it",
+  "level": "A1",
+  "title": "Imperativo de tú para indicaciones (gira, prendi, vai)",
+  "short": "Dar indicaciones a alguien de confianza: gira, prendi, vai dritto, non girare.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Gira, coge, sigue…",
+      "emoji": "🧭",
+      "text": "Para guiar a tu hijo o a una amiga por la ciudad usas el **imperativo**, la forma de dar instrucciones. En italiano, con **tu**, es muy fácil.",
+      "examples": [
+        { "t": "==Gira== a destra.", "es": "Gira a la derecha.", "hl": "Gira" },
+        { "t": "==Prendi== la prima a sinistra.", "es": "Coge la primera a la izquierda.", "hl": "Prendi" },
+        { "t": "==Vai== dritto.", "es": "Sigue recto.", "hl": "Vai" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Cómo se forma",
+      "emoji": "📋",
+      "text": "Los verbos en **-are** acaban en ==-a==. Los verbos en **-ere** y **-ire** acaban en ==-i==.",
+      "table": {
+        "head": ["Infinitivo", "Imperativo (tu)", "Español"],
+        "rows": [
+          ["girare", "gir==a==", "gira"],
+          ["attraversare", "attravers==a==", "cruza"],
+          ["prendere", "prend==i==", "coge"],
+          ["scendere", "scend==i==", "bájate"],
+          ["seguire", "segu==i==", "sigue"],
+          ["sentire", "sent==i==", "oye, escucha"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Los rebeldes",
+      "emoji": "⚡",
+      "text": "Algunos verbos muy usados son irregulares: ==vai== o ==va'== (andare), ==fai== o ==fa'== (fare), ==vieni== (venire). Vieni es igual que el presente.",
+      "examples": [
+        { "t": "==Vai== dritto fino al porto.", "es": "Sigue recto hasta el puerto.", "hl": "Vai" },
+        { "t": "==Vieni== qui!", "es": "¡Ven aquí!", "hl": "Vieni" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Para decir «no»",
+      "emoji": "⛔",
+      "text": "El negativo con tu es muy cómodo: ==non + infinitivo==. Nada de cambiar terminaciones.",
+      "examples": [
+        { "t": "==Non girare== qui!", "es": "¡No gires aquí!", "hl": "Non girare" },
+        { "t": "==Non prendere== l'autobus.", "es": "No cojas el autobús.", "hl": "Non prendere" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "En español gira, coge y sigue se parecen al italiano. Pero el negativo cambia: «no gires» → ==non girare==. Y con un desconocido, ellos te dirán ==giri==, ==prenda==, ==vada== (usted).",
+      "examples": [
+        { "t": "==Attraversa== la strada.", "es": "Cruza la calle.", "hl": "Attraversa" },
+        { "t": "Signora, ==giri== a destra.", "es": "Señora, gire a la derecha.", "hl": "giri" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "Errores típicos",
+      "emoji": "⚠️",
+      "text": "Cuidado con estos:",
+      "examples": [
+        { "t": "❌ Non gira! → ✅ ==Non girare==!", "es": "¡No gires!", "hl": "Non girare" },
+        { "t": "❌ Prenda (a tu hijo) → ✅ ==Prendi==", "es": "Coge", "hl": "Prendi" },
+        { "t": "❌ Anda dritto → ✅ ==Vai== dritto", "es": "Sigue recto", "hl": "Vai" }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Truco",
+      "emoji": "💡",
+      "text": "Piensa al revés del presente: los de **-are** acaban en -a (==gira==), aunque en presente sea tu giri. Los de -ere/-ire, en -i, igual que el presente: ==prendi==.",
+      "examples": [
+        { "t": "Tu giri → ==Gira==!", "es": "Tú giras → ¡Gira!", "hl": "Gira" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: gira, coge, sigue recto; y en negativo: no gires, no cojas.",
+    "target": "En italiano: gira, prendi, vai dritto; y en negativo, non + infinitivo: non girare, non prendere."
+  },
+  "errors": [
+    { "wrong": "Non gira a sinistra!", "right": "Non girare a sinistra!", "why": "El negativo de tú es non + infinitivo." },
+    { "wrong": "Giri a destra, Hugo!", "right": "Gira a destra, Hugo!", "why": "A Hugo le hablas de tú: -are → gira. Giri es para usted." },
+    { "wrong": "Anda dritto fino alla piazza.", "right": "Vai dritto fino alla piazza.", "why": "Andare en imperativo de tú es vai (o va')." },
+    { "wrong": "Prenda la prima a destra, mamma!", "right": "Prendi la prima a destra, mamma!", "why": "Con tu: -ere → prendi." },
+    { "wrong": "Non prendi l'autobus.", "right": "Non prendere l'autobus.", "why": "Negativo con tú: non + prendere." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "___ a sinistra.", "es": "Gira a la izquierda.", "options": ["Gira", "Giri", "Girare"], "answer": "Gira", "why": "Girare (-are) con tu: gira.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e2", "type": "choose", "q": "___ la seconda a destra.", "es": "Coge la segunda a la derecha.", "options": ["Prendi", "Prenda", "Prende"], "answer": "Prendi", "why": "Prendere (-ere) con tu: prendi.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e3", "type": "choose", "q": "___ dritto per due minuti.", "es": "Sigue recto dos minutos.", "options": ["Vai", "Anda", "Andi"], "answer": "Vai", "why": "Andare es irregular: vai (o va').", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e4", "type": "choose", "q": "Non ___ la strada qui!", "es": "¡No cruces la calle aquí!", "options": ["attraversare", "attraversa", "attraversi"], "answer": "attraversare", "why": "Negativo con tú: non + infinitivo.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e5", "type": "choose", "q": "___ alla terza fermata.", "es": "Bájate en la tercera parada.", "options": ["Scendi", "Scenda", "Scendere"], "answer": "Scendi", "why": "Scendere (-ere) con tu: scendi.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e6", "type": "choose", "q": "Hugo, ___ qui!", "es": "¡Hugo, ven aquí!", "options": ["vieni", "venga", "vengo"], "answer": "vieni", "why": "Venire con tu: vieni, como el presente.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e7", "type": "fill", "q": "___ il ponte e poi gira a destra.", "es": "Cruza el puente y luego gira a la derecha.", "answer": ["Attraversa", "attraversa"], "bank": ["Attraversa", "Attraversi", "Attraversare"], "why": "-are → -a: attraversa.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e8", "type": "fill", "q": "___ il lungomare fino al porto.", "es": "Sigue el paseo marítimo hasta el puerto.", "answer": ["Segui", "segui"], "bank": ["Segui", "Segua", "Sega"], "why": "Seguire (-ire): segui.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e9", "type": "fill", "q": "Non ___ a destra, è sbagliato!", "es": "¡No gires a la derecha, está mal!", "answer": ["girare"], "bank": ["girare", "gira", "giri"], "why": "Non + infinitivo.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e10", "type": "fill", "q": "___ attenzione alle macchine!", "es": "¡Ten cuidado con los coches!", "answer": ["Fai", "Fa'", "fai"], "bank": ["Fai", "Fare", "Faccia"], "why": "Fare es irregular: fai (o fa'). Fai attenzione = ten cuidado.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e11", "type": "fill", "q": "___ fino al semaforo.", "es": "Continúa hasta el semáforo.", "answer": ["Continua", "continua"], "hint": "continuare, tú", "why": "-are → -a: continua.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e12", "type": "fill", "q": "Non ___ l'autobus, è vicino!", "es": "No cojas el autobús, ¡está cerca!", "answer": ["prendere"], "why": "Non + prendere (infinitivo).", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e13", "type": "fill", "q": "___ la mappa, siamo qui.", "es": "Mira el mapa, estamos aquí.", "answer": ["Guarda", "guarda"], "hint": "guardare, tú", "why": "Guardare (-are): guarda.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e14", "type": "conjugate", "verb": "girare", "person": "tu", "tense": "imperativo", "q": "___ a destra dopo la chiesa.", "answer": ["Gira", "gira"], "table": [["-are", "-a"], ["-ere", "-i"], ["-ire", "-i"]], "why": "-are → -a: gira.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e15", "type": "conjugate", "verb": "prendere", "person": "tu", "tense": "imperativo", "q": "___ l'autobus numero tre.", "answer": ["Prendi", "prendi"], "why": "-ere → -i: prendi.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e16", "type": "conjugate", "verb": "sentire", "person": "tu", "tense": "imperativo", "q": "___, dove sei adesso?", "answer": ["Senti", "senti"], "why": "-ire → -i: senti (oye).", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e17", "type": "conjugate", "verb": "andare", "person": "tu", "tense": "imperativo", "q": "___ sempre dritto.", "answer": ["Vai", "Va'", "vai"], "why": "Andare es irregular: vai o va'.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e18", "type": "conjugate", "verb": "aspettare", "person": "tu", "tense": "imperativo", "q": "___ davanti al museo!", "answer": ["Aspetta", "aspetta"], "why": "-are → -a: aspetta (espera).", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e19", "type": "transform", "instr": "Hazla negativa", "q": "Gira qui.", "answer": ["Non girare qui."], "why": "Non + girare.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e20", "type": "transform", "instr": "Hazla negativa", "q": "Scendi qui.", "answer": ["Non scendere qui."], "why": "Non + scendere.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e21", "type": "transform", "instr": "Hazla afirmativa", "q": "Non attraversare la piazza.", "answer": ["Attraversa la piazza."], "why": "Afirmativa de -are: attraversa.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e22", "type": "transform", "instr": "Conviértela en una orden de tú", "q": "Tu prendi la prima a sinistra.", "answer": ["Prendi la prima a sinistra."], "why": "En -ere, el imperativo es igual que el presente: prendi.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e23", "type": "error", "q": "Non gira a sinistra!", "wrong": "gira", "fix": "girare", "why": "Negativo con tú: non + infinitivo.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e24", "type": "error", "q": "Hugo, giri al semaforo!", "wrong": "giri", "fix": "gira", "why": "Con tu, -are → gira. Giri es para usted.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e25", "type": "error", "q": "Anda dritto fino al ponte.", "wrong": "Anda", "fix": "Vai", "why": "Andare con tu: vai (o va').", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e26", "type": "order", "es": "Coge la primera a la derecha.", "answer": "Prendi la prima a destra", "extra": ["prenda"], "why": "Prendere con tu: prendi.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e27", "type": "order", "es": "No cruces aquí, espera el semáforo.", "answer": "Non attraversare qui aspetta il semaforo", "extra": ["attraversa"], "why": "Non + infinitivo; luego aspetta (-are → -a).", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "Gira a la izquierda.", "answer": ["Gira a sinistra."], "why": "Girare con tu: gira; izquierda: sinistra.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "No cojas el taxi.", "answer": ["Non prendere il taxi.", "Non prendere un taxi."], "why": "Non + prendere.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e30", "type": "translate", "dir": "from", "q": "Scendi alla prossima fermata.", "answer": ["Bájate en la próxima parada.", "Baja en la próxima parada.", "Bájate en la siguiente parada."], "why": "Scendi = bájate; prossima fermata = próxima parada.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e31", "type": "situation", "context": "Tu amiga está en el puente y quiere llegar a la plaza, que está recta. Se lo dices.", "emoji": "🌉", "options": ["Vai dritto fino alla piazza.", "Va dritto fino alla piazza, signora.", "Andare dritto fino alla piazza."], "answer": "Vai dritto fino alla piazza.", "why": "A una amiga, de tú: vai dritto.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e32", "type": "situation", "context": "Tu nieta va a cruzar con el semáforo en rojo. ¡Para!", "emoji": "🚦", "options": ["Non attraversare!", "Non attraversa!", "Non attraversi!"], "answer": "Non attraversare!", "why": "Para prohibir con tú: non + infinitivo.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e33", "type": "match", "pairs": [["gira", "gira"], ["prendi", "coge"], ["scendi", "bájate"], ["vai", "ve / sigue"], ["non girare", "no gires"]], "why": "Imperativo de tú y su negativo." }
+  ],
+  "reviewed": false
+}

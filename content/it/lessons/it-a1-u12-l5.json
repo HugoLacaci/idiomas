@@ -1,0 +1,469 @@
+{
+  "id": "it-a1-u12-l5",
+  "unit": "it-a1-u12",
+  "title": "Reto: una tarde en Taormina",
+  "goal": "a contar tu día en Taormina y decir qué te ha gustado",
+  "emoji": "🌋",
+  "photoQuery": "taormina greek theatre sea",
+  "vocab": [
+    {
+      "id": "tempo-il-teatro-greco",
+      "t": "il teatro greco",
+      "es": "el teatro griego",
+      "emoji": "🏛️",
+      "pos": "n",
+      "ex": {
+        "t": "Il teatro greco è bellissimo.",
+        "es": "El teatro griego es precioso."
+      }
+    },
+    {
+      "id": "tempo-il-concerto",
+      "t": "il concerto",
+      "es": "el concierto",
+      "emoji": "🎻",
+      "pos": "n",
+      "ex": {
+        "t": "Stasera c'è un concerto al teatro.",
+        "es": "Esta noche hay un concierto en el teatro."
+      }
+    },
+    {
+      "id": "tempo-lo-spettacolo",
+      "t": "lo spettacolo",
+      "es": "el espectáculo, la función",
+      "emoji": "🎭",
+      "pos": "n",
+      "ex": {
+        "t": "Che bello spettacolo!",
+        "es": "¡Qué espectáculo tan bonito!"
+      }
+    },
+    {
+      "id": "tempo-il-vulcano",
+      "t": "il vulcano",
+      "es": "el volcán",
+      "emoji": "🌋",
+      "pos": "n",
+      "ex": {
+        "t": "L'Etna è un vulcano attivo.",
+        "es": "El Etna es un volcán activo."
+      }
+    },
+    {
+      "id": "tempo-la-vista",
+      "t": "la vista",
+      "es": "las vistas",
+      "emoji": "🏞️",
+      "pos": "n",
+      "note": "En italiano va en singular: che vista! = ¡qué vistas!",
+      "ex": {
+        "t": "Che vista sul mare!",
+        "es": "¡Qué vistas al mar!"
+      }
+    },
+    {
+      "id": "tempo-fare-foto",
+      "t": "fare foto",
+      "es": "hacer fotos",
+      "emoji": "📸",
+      "pos": "phrase",
+      "ex": {
+        "t": "Ho fatto tante foto.",
+        "es": "He hecho muchas fotos."
+      }
+    },
+    {
+      "id": "tempo-divertente",
+      "t": "divertente",
+      "es": "divertido",
+      "emoji": "😄",
+      "pos": "adj",
+      "ex": {
+        "t": "È uno spettacolo divertente.",
+        "es": "Es un espectáculo divertido."
+      }
+    },
+    {
+      "id": "tempo-il-tramonto",
+      "t": "il tramonto",
+      "es": "la puesta de sol",
+      "emoji": "🌅",
+      "pos": "n",
+      "ex": {
+        "t": "Abbiamo visto il tramonto sul mare.",
+        "es": "Hemos visto la puesta de sol sobre el mar."
+      }
+    }
+  ],
+  "grammar": "it-g-passato-prossimo-intro",
+  "pron": {
+    "title": "Las dobles de spettacolo",
+    "tip": "En las consonantes dobles para un instante, como si tropezaras: «spet-ta-co-lo», «bel-lis-si-mo», «fat-to». Sin la pausa, cambia la palabra.",
+    "words": [
+      "spettacolo",
+      "bellissimo",
+      "fatto",
+      "concerto",
+      "tutto"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "message",
+      "title": "Mensaje a Hugo",
+      "text": "Ciao Hugo! Oggi ho visitato Taormina. Ho visto il teatro greco e l'Etna. Ho fatto tante foto. Stasera c'è un concerto. Mi piace tanto la Sicilia!",
+      "questions": [
+        {
+          "q": "¿Qué ha visto Yolanda?",
+          "options": [
+            "El teatro griego y el Etna",
+            "Un museo",
+            "Un partido"
+          ],
+          "answer": "El teatro griego y el Etna"
+        },
+        {
+          "q": "¿Qué hay esta noche?",
+          "options": [
+            "Un concierto",
+            "Una cena",
+            "Un partido"
+          ],
+          "answer": "Un concierto"
+        },
+        {
+          "q": "¿Qué le gusta mucho a Yolanda?",
+          "options": [
+            "Sicilia",
+            "El fútbol",
+            "El frío"
+          ],
+          "answer": "Sicilia"
+        }
+      ],
+      "why": "Ho visto = he visto; mi piace tanto = me gusta mucho."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Oggi ___ visto il teatro greco.",
+      "es": "Hoy he visto el teatro griego.",
+      "options": [
+        "ho",
+        "sono",
+        "c'è"
+      ],
+      "answer": "ho",
+      "why": "Io → ho visto.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Mi ___ le vie di Taormina.",
+      "es": "Me gustan las calles de Taormina.",
+      "options": [
+        "piacciono",
+        "piace"
+      ],
+      "answer": "piacciono",
+      "why": "Le vie es plural: mi piacciono.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Stasera ___ un concerto al teatro.",
+      "es": "Esta noche hay un concierto en el teatro.",
+      "options": [
+        "c'è",
+        "ci sono",
+        "è"
+      ],
+      "answer": "c'è",
+      "why": "Un concerto, singular: c'è.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Ho ___ tante foto del vulcano.",
+      "es": "He hecho muchas fotos del volcán.",
+      "answer": [
+        "fatto"
+      ],
+      "bank": [
+        "fatto",
+        "fato",
+        "faccio"
+      ],
+      "why": "Fare → fatto.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Ieri sera ___ visto il tramonto sul mare.",
+      "es": "Anoche vimos la puesta de sol sobre el mar.",
+      "answer": [
+        "abbiamo"
+      ],
+      "bank": [
+        "abbiamo",
+        "ho",
+        "hanno"
+      ],
+      "why": "Nosotros → abbiamo visto.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Mi ___ tanto la Sicilia!",
+      "es": "¡Me gusta tanto Sicilia!",
+      "answer": [
+        "piace"
+      ],
+      "hint": "una cosa",
+      "why": "La Sicilia es una: mi piace.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Mi piace i dolci siciliani.",
+      "wrong": "piace",
+      "fix": "piacciono",
+      "why": "I dolci es plural: mi piacciono.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Oggi ho mangiado una granita.",
+      "wrong": "mangiado",
+      "fix": "mangiato",
+      "why": "Mangiare → mangiato, con t.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Cuéntalo en pasado",
+      "q": "Visito il teatro greco.",
+      "answer": [
+        "Ho visitato il teatro greco."
+      ],
+      "why": "Visito → ho visitato.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Me gusta mucho la vista del mar.",
+      "answer": "Mi piace molto la vista sul mare",
+      "alt": [
+        "Mi piace tanto la vista sul mare"
+      ],
+      "extra": [
+        "piacciono"
+      ],
+      "why": "La vista es singular: mi piace.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Hoy he visto el Etna.",
+      "answer": [
+        "Oggi ho visto l'Etna."
+      ],
+      "why": "He visto = ho visto.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "from",
+      "q": "Ieri sera abbiamo sentito un concerto.",
+      "answer": [
+        "Anoche oímos un concierto.",
+        "Anoche escuchamos un concierto.",
+        "Anoche fuimos a un concierto."
+      ],
+      "why": "Ieri sera = anoche; abbiamo sentito = oímos / escuchamos.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "En el teatro griego, un señor italiano te pregunta: «Le piace Taormina?». Te encanta.",
+      "emoji": "🏛️",
+      "options": [
+        "Sì, mi piace moltissimo!",
+        "Sì, mi piacciono moltissimo!",
+        "Sì, io piace moltissimo!"
+      ],
+      "answer": "Sì, mi piace moltissimo!",
+      "why": "Taormina es una: mi piace.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Por la noche Hugo te llama y te pregunta: «Cosa hai fatto oggi?».",
+      "emoji": "📱",
+      "options": [
+        "Ho visitato il teatro e ho fatto foto.",
+        "Visito il teatro e faccio foto domani.",
+        "Ho visitare il teatro e fare foto."
+      ],
+      "answer": "Ho visitato il teatro e ho fatto foto.",
+      "why": "Hoy, ya hecho → ho visitato, ho fatto.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e16",
+      "type": "match",
+      "pairs": [
+        [
+          "il teatro greco",
+          "el teatro griego"
+        ],
+        [
+          "il tramonto",
+          "la puesta de sol"
+        ],
+        [
+          "il vulcano",
+          "el volcán"
+        ],
+        [
+          "lo spettacolo",
+          "el espectáculo"
+        ],
+        [
+          "la vista",
+          "las vistas"
+        ]
+      ],
+      "why": "Palabras para tu tarde en Taormina."
+    },
+    {
+      "id": "e17",
+      "type": "speak",
+      "t": "Oggi ho visto il teatro greco e l'Etna.",
+      "es": "Hoy he visto el teatro griego y el Etna."
+    }
+  ],
+  "dialog": {
+    "title": "Llamada desde Taormina",
+    "setting": "Por la noche, Yolanda habla por teléfono con su hijo Hugo desde Taormina",
+    "emoji": "📞",
+    "lines": [
+      {
+        "who": "Hugo",
+        "t": "Ciao mamma! Cosa hai fatto oggi?",
+        "es": "¡Hola, mamá! ¿Qué has hecho hoy?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Ho visitato il teatro greco!",
+        "es": "¡He visitado el teatro griego!"
+      },
+      {
+        "who": "Hugo",
+        "t": "Ti piace?",
+        "es": "¿Te gusta?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Moltissimo! C'è una vista sull'Etna e sul mare.",
+        "es": "¡Muchísimo! Hay vistas al Etna y al mar."
+      },
+      {
+        "who": "Hugo",
+        "t": "Hai fatto foto?",
+        "es": "¿Has hecho fotos?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, tantissime! E ho mangiato una granita.",
+        "es": "¡Sí, muchísimas! Y me he tomado un granizado."
+      },
+      {
+        "who": "Hugo",
+        "t": "E papà?",
+        "es": "¿Y papá?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Papà ha dormito in albergo!",
+        "es": "¡Papá ha dormido en el hotel!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué ha visitado Yolanda?",
+        "options": [
+          "El teatro griego",
+          "Un museo",
+          "Una iglesia"
+        ],
+        "answer": "El teatro griego"
+      },
+      {
+        "q": "¿Qué ha tomado?",
+        "options": [
+          "Un granizado",
+          "Un café",
+          "Una pizza"
+        ],
+        "answer": "Un granizado"
+      },
+      {
+        "q": "¿Qué ha hecho el padre de Hugo?",
+        "options": [
+          "Dormir en el hotel",
+          "Hacer fotos",
+          "Nadar"
+        ],
+        "answer": "Dormir en el hotel"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Che vista meravigliosa!",
+    "es": "¡Qué vistas tan maravillosas!",
+    "context": "Cuando llegas a un mirador o a un sitio bonito"
+  },
+  "same": {
+    "text": "Muchas palabras del ocio son casi iguales: solo cambia un poco la terminación.",
+    "examples": [
+      {
+        "t": "il concerto",
+        "es": "el concierto"
+      },
+      {
+        "t": "il teatro",
+        "es": "el teatro"
+      },
+      {
+        "t": "il vulcano",
+        "es": "el volcán"
+      }
+    ]
+  },
+  "summary": [
+    "Contar el día: ho visitato, ho visto, ho fatto foto.",
+    "Gustos: mi piace la vista, mi piacciono le vie.",
+    "Lo spettacolo, il concerto, il tramonto, il vulcano.",
+    "Taormina: un teatro griego con vistas al mar y al Etna."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u12-l5"
+}

@@ -1,0 +1,420 @@
+{
+  "id": "it-a1-u01-l5",
+  "unit": "it-a1-u01",
+  "title": "Reto en Roma: preséntate en una cena",
+  "goal": "a presentarte en una cena con italianos: saludar, decir quién eres y despedirte",
+  "emoji": "🏛️",
+  "photoQuery": "saint peters square vatican",
+  "vocab": [
+    {
+      "id": "benvenuta",
+      "t": "benvenuta / benvenuto",
+      "es": "bienvenida / bienvenido",
+      "emoji": "🤗",
+      "pos": "adj",
+      "ex": {
+        "t": "Benvenuta a Roma, Yolanda!",
+        "es": "¡Bienvenida a Roma, Yolanda!"
+      }
+    },
+    {
+      "id": "che-piacere",
+      "t": "Che piacere!",
+      "es": "¡Qué alegría!",
+      "emoji": "😊",
+      "pos": "phrase",
+      "ex": {
+        "t": "Che piacere conoscerti!",
+        "es": "¡Qué alegría conocerte!"
+      }
+    },
+    {
+      "id": "sono-in-vacanza",
+      "t": "Sono qui in vacanza.",
+      "es": "Estoy aquí de vacaciones.",
+      "emoji": "🏖️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Sono qui in vacanza con mio figlio.",
+        "es": "Estoy aquí de vacaciones con mi hijo."
+      }
+    },
+    {
+      "id": "parlo-un-po-di-italiano",
+      "t": "Parlo un po' di italiano.",
+      "es": "Hablo un poco de italiano.",
+      "emoji": "🗣️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Scusi, parlo un po' di italiano.",
+        "es": "Perdone, hablo un poco de italiano."
+      }
+    },
+    {
+      "id": "il-nome",
+      "t": "il nome",
+      "es": "el nombre",
+      "emoji": "📛",
+      "pos": "n",
+      "ex": {
+        "t": "Qual è il tuo nome?",
+        "es": "¿Cuál es tu nombre?"
+      }
+    },
+    {
+      "id": "il-cognome",
+      "t": "il cognome",
+      "es": "el apellido",
+      "emoji": "🪪",
+      "pos": "n",
+      "ex": {
+        "t": "Nome e cognome, per favore.",
+        "es": "Nombre y apellido, por favor."
+      },
+      "note": "¡Ojo! Cognome no es el nombre: es el apellido."
+    },
+    {
+      "id": "molto-gentile",
+      "t": "molto gentile",
+      "es": "muy amable",
+      "emoji": "💐",
+      "pos": "phrase",
+      "ex": {
+        "t": "Grazie, sei molto gentile.",
+        "es": "Gracias, eres muy amable."
+      }
+    },
+    {
+      "id": "buona-serata",
+      "t": "Buona serata!",
+      "es": "¡Que pases buena noche!",
+      "emoji": "🌙",
+      "pos": "phrase",
+      "ex": {
+        "t": "Grazie di tutto, buona serata!",
+        "es": "¡Gracias por todo, que paséis buena noche!"
+      }
+    },
+    {
+      "id": "a-domani",
+      "t": "A domani!",
+      "es": "¡Hasta mañana!",
+      "emoji": "📅",
+      "pos": "phrase",
+      "ex": {
+        "t": "Ciao, a domani!",
+        "es": "¡Adiós, hasta mañana!"
+      }
+    }
+  ],
+  "grammar": "it-g-essere",
+  "pron": {
+    "title": "Repaso: cada palabra acaba en vocal",
+    "tip": "Termina cada palabra con su vocal bien clara: sono, nome, piacere. Casi todas las palabras italianas acaban en vocal; por eso suena tan musical.",
+    "words": [
+      "sono",
+      "nome",
+      "cognome",
+      "piacere",
+      "serata"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de Giulia",
+      "text": "Ciao Yolanda! Stasera cena a casa mia alle otto. Vengono mio marito e i miei genitori. Loro non parlano spagnolo! A dopo!",
+      "questions": [
+        {
+          "q": "¿A qué hora es la cena?",
+          "options": [
+            "A las ocho",
+            "A las nueve",
+            "A las siete"
+          ],
+          "answer": "A las ocho"
+        },
+        {
+          "q": "¿Quién va a la cena?",
+          "options": [
+            "El marido y los padres de Giulia",
+            "Los hijos de Giulia",
+            "Hugo"
+          ],
+          "answer": "El marido y los padres de Giulia"
+        },
+        {
+          "q": "¿Hablan español los padres de Giulia?",
+          "options": [
+            "No",
+            "Sí"
+          ],
+          "answer": "No"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "type": "situation",
+      "context": "Llegas a casa de Giulia. Te abre la puerta su madre, una señora mayor.",
+      "emoji": "🚪",
+      "options": [
+        "Buonasera, signora! Piacere.",
+        "Ciao bella, come stai?",
+        "Buonanotte, signora!"
+      ],
+      "answer": "Buonasera, signora! Piacere.",
+      "g": "it-g-tu-lei",
+      "why": "A una señora que no conoces, de usted y con buonasera al llegar."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Io ___ Yolanda, piacere!",
+      "es": "Yo soy Yolanda, ¡encantada!",
+      "options": [
+        "sono",
+        "è",
+        "sei"
+      ],
+      "answer": "sono",
+      "g": "it-g-essere",
+      "why": "Yo soy = io sono."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "___ un po' di italiano.",
+      "es": "Hablo un poco de italiano.",
+      "answer": [
+        "Parlo"
+      ],
+      "bank": [
+        "Parlo",
+        "Parla",
+        "Hablo"
+      ],
+      "why": "Hablo = parlo, con -o como en español."
+    },
+    {
+      "id": "e5",
+      "type": "conjugate",
+      "verb": "essere",
+      "person": "voi",
+      "tense": "presente",
+      "q": "Voi ___ di Roma?",
+      "answer": [
+        "siete"
+      ],
+      "g": "it-g-essere",
+      "why": "Con voi (vosotros): siete."
+    },
+    {
+      "id": "e6",
+      "type": "order",
+      "es": "Encantada, soy española.",
+      "answer": "Piacere sono spagnola",
+      "extra": [
+        "è"
+      ],
+      "g": "it-g-essere",
+      "why": "Piacere = encantada; sono spagnola = soy española."
+    },
+    {
+      "id": "e7",
+      "type": "choose",
+      "q": "Signora, Lei ___ di Roma?",
+      "es": "Señora, ¿usted es de Roma?",
+      "options": [
+        "è",
+        "sei",
+        "sono"
+      ],
+      "answer": "è",
+      "g": "it-g-tu-lei",
+      "why": "Con Lei (usted) el verbo va como con «ella»: è."
+    },
+    {
+      "id": "e8",
+      "type": "translate",
+      "dir": "to",
+      "q": "Mucho gusto, me llamo Yolanda.",
+      "answer": [
+        "Piacere, mi chiamo Yolanda",
+        "Piacere, sono Yolanda"
+      ],
+      "why": "Mucho gusto = piacere; me llamo = mi chiamo."
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Noi sono spagnoli.",
+      "wrong": "sono",
+      "fix": "siamo",
+      "es": "Nosotros somos españoles.",
+      "g": "it-g-essere",
+      "why": "Con noi el verbo essere es siamo."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "q": "Sono qui in ___ con mio figlio.",
+      "es": "Estoy aquí de vacaciones con mi hijo.",
+      "answer": [
+        "vacanza"
+      ],
+      "bank": [
+        "vacanza",
+        "vacanze",
+        "vacaciones"
+      ],
+      "why": "«De vacaciones» se dice in vacanza, en singular."
+    },
+    {
+      "id": "e11",
+      "type": "situation",
+      "context": "Al final de la cena te despides de todos.",
+      "emoji": "🌙",
+      "options": [
+        "Grazie di tutto, buona serata!",
+        "Buongiorno, piacere!",
+        "Benvenuti a casa!"
+      ],
+      "answer": "Grazie di tutto, buona serata!",
+      "why": "Para despedirte por la noche: grazie di tutto, buona serata."
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "Mi hijo es médico.",
+      "answer": "Mio figlio è medico",
+      "extra": [
+        "sono"
+      ],
+      "g": "it-g-essere",
+      "why": "Con él: è. Y sin artículo delante de la profesión."
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "from",
+      "q": "Che piacere conoscerti!",
+      "answer": [
+        "¡Qué alegría conocerte!",
+        "Qué placer conocerte",
+        "Encantada de conocerte",
+        "Qué gusto conocerte"
+      ],
+      "why": "Che piacere = qué alegría, qué gusto."
+    },
+    {
+      "id": "e14",
+      "type": "speak",
+      "t": "Piacere, sono Yolanda. Sono spagnola.",
+      "es": "Encantada, soy Yolanda. Soy española."
+    }
+  ],
+  "dialog": {
+    "title": "La cena en casa de Giulia",
+    "setting": "En casa de Giulia, en Roma, a la hora de cenar",
+    "emoji": "🍷",
+    "lines": [
+      {
+        "who": "Marco",
+        "t": "Buonasera! Lei è Yolanda?",
+        "es": "¡Buenas noches! ¿Usted es Yolanda?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, sono io! Piacere.",
+        "es": "¡Sí, soy yo! Encantada."
+      },
+      {
+        "who": "Marco",
+        "t": "Piacere, sono Marco, il marito di Giulia.",
+        "es": "Encantado, soy Marco, el marido de Giulia."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Che piacere! Giulia è molto simpatica.",
+        "es": "¡Qué alegría! Giulia es muy simpática."
+      },
+      {
+        "who": "Marco",
+        "t": "Grazie! Possiamo darci del tu?",
+        "es": "¡Gracias! ¿Nos tuteamos?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Certo! Io parlo un po' di italiano.",
+        "es": "¡Claro! Yo hablo un poco de italiano."
+      },
+      {
+        "who": "Marco",
+        "t": "Parli benissimo! Benvenuta a Roma!",
+        "es": "¡Hablas muy bien! ¡Bienvenida a Roma!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Quién es Marco?",
+        "options": [
+          "El marido de Giulia",
+          "El hijo de Giulia",
+          "El vecino"
+        ],
+        "answer": "El marido de Giulia"
+      },
+      {
+        "q": "¿Qué propone Marco?",
+        "options": [
+          "Tratarse de tú",
+          "Ir al Vaticano",
+          "Pedir una pizza"
+        ],
+        "answer": "Tratarse de tú"
+      },
+      {
+        "q": "¿Qué opina Marco del italiano de Yolanda?",
+        "options": [
+          "Que habla muy bien",
+          "Que habla poco",
+          "Que no lo entiende"
+        ],
+        "answer": "Que habla muy bien"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Possiamo darci del tu?",
+    "es": "¿Nos tuteamos?",
+    "context": "Para proponer pasar del usted al tú"
+  },
+  "same": {
+    "text": "Igual que en español: muchas palabras para presentarte se reconocen enseguida.",
+    "examples": [
+      {
+        "t": "Benvenuta!",
+        "es": "¡Bienvenida!"
+      },
+      {
+        "t": "Giulia è simpatica.",
+        "es": "Giulia es simpática."
+      },
+      {
+        "t": "il nome",
+        "es": "el nombre"
+      }
+    ]
+  },
+  "summary": [
+    "Al llegar: Buonasera! Piacere, sono Yolanda.",
+    "Para hablar de ti: Sono spagnola. Sono qui in vacanza.",
+    "Si te cuesta: Parlo un po' di italiano.",
+    "Al irte: Grazie di tutto, buona serata!"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u01-l5"
+}

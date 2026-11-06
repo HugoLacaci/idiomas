@@ -1,0 +1,83 @@
+{
+  "id": "it-a2-u09-l1",
+  "unit": "it-a2-u09",
+  "title": "Mare, montagna o lago?",
+  "goal": "a hablar de las regiones de Italia y de su paisaje: mar, montaña, lagos e islas",
+  "emoji": "🗺️",
+  "photoQuery": "italy coastline hills sea view",
+  "vocab": [
+    { "id": "regioni-la-regione", "t": "la regione", "es": "la región", "emoji": "🗺️", "pos": "n", "ex": { "t": "L'Italia ha venti regioni.", "es": "Italia tiene veinte regiones." } },
+    { "id": "regioni-il-capoluogo", "t": "il capoluogo", "es": "la capital (de una región)", "emoji": "🏛️", "pos": "n", "ex": { "t": "Firenze è il capoluogo della Toscana.", "es": "Florencia es la capital de la Toscana." }, "note": "La capital de un país es la capitale." },
+    { "id": "regioni-il-mare", "t": "il mare", "es": "el mar", "emoji": "🌊", "pos": "n", "ex": { "t": "In Puglia il mare è bellissimo.", "es": "En Apulia el mar es precioso." } },
+    { "id": "regioni-la-montagna", "t": "la montagna", "es": "la montaña", "emoji": "⛰️", "pos": "n", "ex": { "t": "D'estate mio marito preferisce la montagna.", "es": "En verano mi marido prefiere la montaña." } },
+    { "id": "regioni-il-lago", "t": "il lago", "es": "el lago", "emoji": "🏞️", "pos": "n", "ex": { "t": "Il lago di Garda è nel nord.", "es": "El lago de Garda está en el norte." } },
+    { "id": "regioni-la-collina", "t": "la collina", "es": "la colina", "emoji": "🌄", "pos": "n", "ex": { "t": "In Toscana ci sono tante colline.", "es": "En la Toscana hay muchas colinas." } },
+    { "id": "regioni-l-isola", "t": "l'isola", "es": "la isla", "emoji": "🏝️", "pos": "n", "ex": { "t": "La Sicilia è un'isola grande.", "es": "Sicilia es una isla grande." } },
+    { "id": "regioni-il-fiume", "t": "il fiume", "es": "el río", "emoji": "🏞️", "pos": "n", "ex": { "t": "Il Tevere è il fiume di Roma.", "es": "El Tíber es el río de Roma." } },
+    { "id": "regioni-nord-sud", "t": "il nord / il sud", "es": "el norte / el sur", "emoji": "🧭", "pos": "n", "ex": { "t": "Milano è al nord, Napoli al sud.", "es": "Milán está en el norte; Nápoles, en el sur." } },
+    { "id": "regioni-la-costa", "t": "la costa", "es": "la costa", "emoji": "🏖️", "pos": "n", "ex": { "t": "Abbiamo fatto un giro della costa in macchina.", "es": "Hemos recorrido la costa en coche." } }
+  ],
+  "grammar": "it-g-comparativi",
+  "pron": {
+    "title": "Gl y gn de Sardegna y luglio",
+    "tip": "Gn suena como nuestra ñ: Sarde-ña. Gli se parece a una ll suave: lu-llio. Fíjate en Puglia y Bologna.",
+    "words": ["Sardegna", "Puglia", "Bologna", "montagna", "luglio"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "La Sicilia è un'___.", "es": "Sicilia es una isla.", "options": ["isola", "collina", "fiume"], "answer": "isola", "why": "Sicilia está rodeada de mar: è un'isola.", "g": "it-g-comparativi" },
+    { "id": "e2", "type": "choose", "q": "Firenze è il ___ della Toscana.", "es": "Florencia es la capital de la Toscana.", "options": ["capoluogo", "capitale", "paese"], "answer": "capoluogo", "why": "La capital de una región se llama capoluogo.", "g": "it-g-comparativi" },
+    { "id": "e3", "type": "choose", "q": "Milano è ___ nord.", "es": "Milán está en el norte.", "options": ["al", "nel", "in"], "answer": "al", "why": "Para los puntos cardinales: al nord, al sud (también nel nord).", "g": "it-g-prep-articolate" },
+    { "id": "e4", "type": "fill", "q": "L'Italia ha venti ___.", "es": "Italia tiene veinte regiones.", "answer": ["regioni"], "bank": ["regioni", "regione", "regionali"], "why": "La regione → le regioni.", "g": "it-g-genere-numero" },
+    { "id": "e5", "type": "fill", "q": "Il Tevere è il ___ di Roma.", "es": "El Tíber es el río de Roma.", "answer": ["fiume"], "hint": "río", "why": "El río = il fiume.", "g": "it-g-comparativi" },
+    { "id": "e6", "type": "fill", "q": "La montagna è ___ alta della collina.", "es": "La montaña es más alta que la colina.", "answer": ["più"], "bank": ["più", "molto", "tanto"], "why": "Más … que = più … di.", "g": "it-g-comparativi" },
+    { "id": "e7", "type": "error", "q": "In Toscana ci sono tante collini.", "wrong": "collini", "fix": "colline", "why": "La collina → le colline (femenino plural en -e).", "g": "it-g-genere-numero" },
+    { "id": "e8", "type": "order", "es": "Mi marido prefiere la montaña al mar.", "answer": "Mio marito preferisce la montagna al mare", "extra": ["di"], "why": "Preferire qualcosa a qualcos'altro: preferisce la montagna al mare.", "g": "it-g-comparativi" },
+    { "id": "e9", "type": "translate", "dir": "to", "q": "Italia tiene muchas islas.", "answer": ["L'Italia ha tante isole.", "L'Italia ha molte isole."], "why": "L'isola → le isole.", "g": "it-g-comparativi" },
+    { "id": "e10", "type": "translate", "dir": "from", "q": "In Puglia il mare è bellissimo.", "answer": ["En Apulia el mar es precioso.", "En Apulia el mar es bellísimo.", "En Puglia el mar es precioso."], "why": "Puglia = Apulia, en el sur.", "g": "it-g-superlativi" },
+    { "id": "e11", "type": "situation", "context": "Una amiga italiana te pregunta qué prefieres para el verano. A ti te encanta la playa.", "emoji": "🏖️", "options": ["Preferisco il mare.", "Preferisco la mare.", "Preferisco al mare."], "answer": "Preferisco il mare.", "why": "Il mare es masculino en italiano.", "g": "it-g-comparativi" },
+    { "id": "e12", "type": "match", "pairs": [["il mare", "el mar"], ["la montagna", "la montaña"], ["il fiume", "el río"], ["la collina", "la colina"], ["il capoluogo", "la capital regional"]], "why": "El paisaje italiano." },
+    { "id": "e13", "type": "speak", "t": "La Sardegna e la Sicilia sono due isole.", "es": "Cerdeña y Sicilia son dos islas." },
+    { "id": "e14", "type": "reading", "kind": "text", "title": "Italia en pocas líneas", "text": "L'Italia ha venti regioni. Al nord ci sono le Alpi e tanti laghi, come il lago di Garda e il lago di Como. Al centro ci sono le colline della Toscana. Al sud e nelle isole il mare è caldo anche a settembre.", "questions": [
+      { "q": "¿Cuántas regiones tiene Italia?", "options": ["Veinte", "Doce", "Quince"], "answer": "Veinte" },
+      { "q": "¿Dónde están los grandes lagos?", "options": ["En el norte", "En el sur", "En las islas"], "answer": "En el norte" },
+      { "q": "¿Qué hay en la Toscana, según el texto?", "options": ["Colinas", "Islas", "Volcanes"], "answer": "Colinas" }
+    ] }
+  ],
+  "dialog": {
+    "title": "¿Adónde vamos este verano?",
+    "setting": "Yolanda y su amiga Carla miran un mapa de Italia en el salón",
+    "emoji": "🗺️",
+    "lines": [
+      { "who": "Yolanda", "t": "Quest'estate andiamo in Italia?", "es": "¿Este verano vamos a Italia?" },
+      { "who": "Carla", "t": "Sì! Ma dove? Al nord o al sud?", "es": "¡Sí! ¿Pero adónde? ¿Al norte o al sur?" },
+      { "who": "Yolanda", "t": "Io voglio il mare. La Puglia, per esempio.", "es": "Yo quiero mar. Apulia, por ejemplo." },
+      { "who": "Carla", "t": "Io preferisco la montagna e i laghi.", "es": "Yo prefiero la montaña y los lagos." },
+      { "who": "Yolanda", "t": "Allora una settimana al lago e una al mare?", "es": "¿Entonces una semana en el lago y otra en el mar?" },
+      { "who": "Carla", "t": "Perfetto! Prima il lago di Garda.", "es": "¡Perfecto! Primero el lago de Garda." },
+      { "who": "Yolanda", "t": "E dopo il sud, con il mare caldo.", "es": "Y después el sur, con el mar calentito." },
+      { "who": "Carla", "t": "Affare fatto!", "es": "¡Trato hecho!" }
+    ],
+    "questions": [
+      { "q": "¿Qué quiere Yolanda?", "options": ["El mar", "La montaña", "Una ciudad"], "answer": "El mar" },
+      { "q": "¿Qué prefiere Carla?", "options": ["La montaña y los lagos", "Las islas", "Las ciudades del sur"], "answer": "La montaña y los lagos" },
+      { "q": "¿Qué deciden?", "options": ["Una semana en el lago y otra en el mar", "Quedarse en España", "Ir solo a Roma"], "answer": "Una semana en el lago y otra en el mar" }
+    ]
+  },
+  "realLife": { "t": "Preferisco il mare, ma la montagna è più tranquilla.", "es": "Prefiero el mar, pero la montaña es más tranquila.", "context": "Para hablar de tus vacaciones ideales" },
+  "same": {
+    "text": "El paisaje se dice casi igual. ¡Ojo con el género de il mare (masculino)!",
+    "examples": [
+      { "t": "la montagna", "es": "la montaña" },
+      { "t": "l'isola", "es": "la isla" },
+      { "t": "la costa", "es": "la costa" },
+      { "t": "il lago", "es": "el lago" }
+    ]
+  },
+  "summary": [
+    "Paisaje: il mare, la montagna, il lago, la collina, l'isola, il fiume.",
+    "Italia tiene 20 regiones; su capital es il capoluogo.",
+    "Al nord, al centro, al sud.",
+    "Comparar: la montagna è più alta della collina."
+  ],
+  "reviewed": false
+}

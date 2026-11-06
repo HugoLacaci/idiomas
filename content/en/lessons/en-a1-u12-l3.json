@@ -1,0 +1,411 @@
+{
+  "id": "en-a1-u12-l3",
+  "unit": "en-a1-u12",
+  "title": "Te presento a mi amiga",
+  "goal": "a presentar a alguien y a hacer preguntas con el orden correcto",
+  "emoji": "🤝",
+  "photoQuery": "friends talking outdoor cafe",
+  "vocab": [
+    {
+      "id": "cg-introduce",
+      "t": "introduce",
+      "es": "presentar (a alguien)",
+      "emoji": "🙋",
+      "pos": "v",
+      "ex": {
+        "t": "Let me introduce my friend Carmen.",
+        "es": "Te presento a mi amiga Carmen."
+      },
+      "note": "¡Ojo, falso amigo! Introduce = presentar a alguien. Introducir (meter) = put in: put the card in."
+    },
+    {
+      "id": "cg-this-is",
+      "t": "This is my friend…",
+      "es": "Esta es mi amiga…",
+      "emoji": "👭",
+      "pos": "phrase",
+      "ex": {
+        "t": "This is my friend. She's from Madrid.",
+        "es": "Esta es mi amiga. Es de Madrid."
+      }
+    },
+    {
+      "id": "cg-where-are-you-from",
+      "t": "Where are you from?",
+      "es": "¿De dónde eres?",
+      "emoji": "🌍",
+      "pos": "phrase",
+      "ex": {
+        "t": "Where are you from? — I'm from Spain.",
+        "es": "¿De dónde eres? — Soy de España."
+      }
+    },
+    {
+      "id": "cg-what-do-you-do",
+      "t": "What do you do?",
+      "es": "¿A qué te dedicas?",
+      "emoji": "💼",
+      "pos": "phrase",
+      "ex": {
+        "t": "What do you do? — I'm a nurse.",
+        "es": "¿A qué te dedicas? — Soy enfermera."
+      }
+    },
+    {
+      "id": "cg-do-you-like-london",
+      "t": "Do you like London?",
+      "es": "¿Te gusta Londres?",
+      "emoji": "💂",
+      "pos": "phrase",
+      "ex": {
+        "t": "Do you like London? — Yes, I do!",
+        "es": "¿Te gusta Londres? — ¡Sí!"
+      }
+    },
+    {
+      "id": "cg-are-you-on-holiday",
+      "t": "Are you on holiday?",
+      "es": "¿Estás de vacaciones?",
+      "emoji": "🧳",
+      "pos": "phrase",
+      "ex": {
+        "t": "Are you on holiday here? — Yes, for a week.",
+        "es": "¿Estás aquí de vacaciones? — Sí, una semana."
+      },
+      "note": "En EE. UU.: on vacation."
+    },
+    {
+      "id": "cg-small-world",
+      "t": "It's a small world!",
+      "es": "¡El mundo es un pañuelo!",
+      "emoji": "🌐",
+      "pos": "phrase",
+      "ex": {
+        "t": "You know my town? It's a small world!",
+        "es": "¿Conoces mi pueblo? ¡El mundo es un pañuelo!"
+      }
+    },
+    {
+      "id": "cg-how-about-a-coffee",
+      "t": "How about a coffee?",
+      "es": "¿Qué tal un café?",
+      "emoji": "☕",
+      "pos": "phrase",
+      "ex": {
+        "t": "How about a coffee together?",
+        "es": "¿Qué tal si tomamos un café juntas?"
+      }
+    }
+  ],
+  "grammar": "en-g-word-order",
+  "pron": {
+    "title": "Las preguntas con wh- bajan",
+    "tip": "En las preguntas que empiezan por where, what, how… la voz baja al final ↘: «Where are you FROM? ↘». Si la subes, suena a que no has oído bien.",
+    "words": [
+      "Where are you from?",
+      "What do you do?",
+      "How old is he?",
+      "Where do you live?"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Where ___ you from?",
+      "es": "¿De dónde eres?",
+      "options": [
+        "are",
+        "do",
+        "is"
+      ],
+      "answer": "are",
+      "why": "Con from usamos to be: Where are you from?",
+      "g": "en-g-wh-questions"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "What ___ you do?",
+      "es": "¿A qué te dedicas?",
+      "options": [
+        "do",
+        "are",
+        "does"
+      ],
+      "answer": "do",
+      "why": "Presente simple con you: What do you do?",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Let me ___ my friend Pilar.",
+      "es": "Te presento a mi amiga Pilar.",
+      "options": [
+        "introduce",
+        "present to",
+        "put in"
+      ],
+      "answer": "introduce",
+      "why": "Presentar a alguien = introduce."
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Where ___ ?",
+      "es": "¿Dónde vive tu amiga?",
+      "options": [
+        "does your friend live",
+        "your friend lives",
+        "lives your friend"
+      ],
+      "answer": "does your friend live",
+      "why": "Palabra wh + does + sujeto + verbo sin -s.",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "___ you like London?",
+      "es": "¿Te gusta Londres?",
+      "answer": [
+        "Do"
+      ],
+      "bank": [
+        "Do",
+        "Are",
+        "Does"
+      ],
+      "why": "Pregunta con like: Do you like…?",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "___ she speak English?",
+      "es": "¿Ella habla inglés?",
+      "answer": [
+        "Does"
+      ],
+      "bank": [
+        "Does",
+        "Do",
+        "Is"
+      ],
+      "why": "Con she: Does she speak…?",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "This ___ my friend Ana.",
+      "es": "Esta es mi amiga Ana.",
+      "answer": [
+        "is",
+        "'s"
+      ],
+      "why": "Para presentar: This is…",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "¿Dónde trabajas?",
+      "answer": "Where do you work",
+      "extra": [
+        "are"
+      ],
+      "why": "Where + do + you + work.",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "¿Estás de vacaciones?",
+      "answer": "Are you on holiday",
+      "extra": [
+        "in"
+      ],
+      "why": "Con to be, el verbo delante. De vacaciones = on holiday.",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "¿Puede tu amiga venir con nosotras?",
+      "answer": "Can your friend come with us",
+      "extra": [
+        "does"
+      ],
+      "why": "Can delante del sujeto: Can your friend…?",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Where you live in London?",
+      "wrong": "you",
+      "fix": "do you",
+      "why": "Falta el auxiliar: Where do you live?",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "Please introduce your card in the machine.",
+      "wrong": "introduce",
+      "fix": "put",
+      "why": "¡Falso amigo! Meter una tarjeta = put the card in. Introduce es presentar a alguien."
+    },
+    {
+      "id": "e13",
+      "type": "transform",
+      "instr": "Haz la pregunta con where",
+      "q": "She lives in Bristol.",
+      "answer": [
+        "Where does she live?",
+        "Where does she live"
+      ],
+      "why": "Where + does + she + live (sin -s).",
+      "g": "en-g-word-order"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Estás con tu amiga y aparece Emma. Quieres presentarlas.",
+      "emoji": "👭",
+      "options": [
+        "Emma, this is my friend Pilar.",
+        "Emma, she is introduce Pilar.",
+        "Emma, here my friend."
+      ],
+      "answer": "Emma, this is my friend Pilar.",
+      "why": "Para presentar: This is my friend…",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "Where are you from?",
+          "I'm from Spain."
+        ],
+        [
+          "What do you do?",
+          "I'm a teacher."
+        ],
+        [
+          "Do you like London?",
+          "Yes, I do!"
+        ],
+        [
+          "Are you on holiday?",
+          "Yes, I am."
+        ],
+        [
+          "This is my friend.",
+          "Nice to meet you."
+        ]
+      ],
+      "why": "Preguntas y respuestas para conocer a alguien."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Let me introduce my friend.",
+      "es": "Te presento a mi amiga."
+    }
+  ],
+  "dialog": {
+    "title": "¡El mundo es un pañuelo!",
+    "setting": "En una cafetería de Covent Garden, Yolanda y su amiga Pilar conocen a Emma",
+    "emoji": "☕",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Emma, let me introduce my friend Pilar.",
+        "es": "Emma, te presento a mi amiga Pilar."
+      },
+      {
+        "who": "Emma",
+        "t": "Hello, Pilar! Nice to meet you. Where are you from?",
+        "es": "¡Hola, Pilar! Encantada. ¿De dónde eres?"
+      },
+      {
+        "who": "Pilar",
+        "t": "I'm from Cádiz, in the south of Spain.",
+        "es": "Soy de Cádiz, en el sur de España."
+      },
+      {
+        "who": "Emma",
+        "t": "Cádiz! My brother lives there!",
+        "es": "¡Cádiz! ¡Mi hermano vive allí!"
+      },
+      {
+        "who": "Pilar",
+        "t": "Really? It's a small world!",
+        "es": "¿De verdad? ¡El mundo es un pañuelo!"
+      },
+      {
+        "who": "Emma",
+        "t": "What do you do, Pilar?",
+        "es": "¿A qué te dedicas, Pilar?"
+      },
+      {
+        "who": "Pilar",
+        "t": "I'm a cook. I work in a restaurant.",
+        "es": "Soy cocinera. Trabajo en un restaurante."
+      },
+      {
+        "who": "Emma",
+        "t": "Lovely! How about a coffee together?",
+        "es": "¡Qué bien! ¿Qué tal un café juntas?"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿De dónde es Pilar?",
+        "options": [
+          "De Cádiz",
+          "De Madrid",
+          "De Londres"
+        ],
+        "answer": "De Cádiz"
+      },
+      {
+        "q": "¿Quién vive en Cádiz?",
+        "options": [
+          "El hermano de Emma",
+          "La hija de Pilar",
+          "Yolanda"
+        ],
+        "answer": "El hermano de Emma"
+      },
+      {
+        "q": "¿A qué se dedica Pilar?",
+        "options": [
+          "Es cocinera",
+          "Es enfermera",
+          "Es profesora"
+        ],
+        "answer": "Es cocinera"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Let me introduce my friend.",
+    "es": "Te presento a mi amiga.",
+    "context": "Para presentar a alguien de tu familia o a una amiga"
+  },
+  "summary": [
+    "Presentar: This is my friend… / Let me introduce…",
+    "Falso amigo: introduce = presentar (meter = put in)",
+    "Preguntas: palabra wh + auxiliar + sujeto + verbo",
+    "Where do you live? / What do you do? / Are you on holiday?",
+    "Las preguntas con wh- bajan al final ↘"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u12-l3"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "it-g-prep-articolate",
+  "lang": "it",
+  "level": "A1",
+  "title": "Preposiciones articuladas (al, del, dal, nel, sul…)",
+  "short": "Cuando di, a, da, in, su van delante de un artículo, se unen en una sola palabra.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Dos palabras en una",
+      "emoji": "🧩",
+      "text": "En español a + el = **al** y de + el = **del**. ¡El italiano hace lo mismo, pero con **cinco** preposiciones y **todos** los artículos!",
+      "examples": [
+        { "t": "Vado ==al== mercato.", "es": "Voy al mercado.", "hl": "al" },
+        { "t": "il prezzo ==della== frutta", "es": "el precio de la fruta", "hl": "della" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "La tabla completa",
+      "emoji": "📋",
+      "text": "Preposición (fila) + artículo (columna). No hace falta memorizarla de golpe: mira cómo se repite el dibujo.",
+      "table": {
+        "head": ["", "il", "lo", "l'", "la", "i", "gli", "le"],
+        "rows": [
+          ["di", "==del==", "==dello==", "==dell'==", "==della==", "==dei==", "==degli==", "==delle=="],
+          ["a", "==al==", "==allo==", "==all'==", "==alla==", "==ai==", "==agli==", "==alle=="],
+          ["da", "==dal==", "==dallo==", "==dall'==", "==dalla==", "==dai==", "==dagli==", "==dalle=="],
+          ["in", "==nel==", "==nello==", "==nell'==", "==nella==", "==nei==", "==negli==", "==nelle=="],
+          ["su", "==sul==", "==sullo==", "==sull'==", "==sulla==", "==sui==", "==sugli==", "==sulle=="]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "El dibujo que se repite",
+      "emoji": "🔁",
+      "text": "**di** se vuelve ==de== e **in** se vuelve ==ne==. Con lo, la, l', gli, le la l se dobla: ==della==, ==nella==, ==sullo==. Con il e i, no: ==del==, ==nei==.",
+      "examples": [
+        { "t": "==nella== borsa", "es": "en el bolso", "hl": "nella" },
+        { "t": "==dei== nipoti", "es": "de los nietos", "hl": "dei" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "¿Qué significa cada una?",
+      "emoji": "🧭",
+      "text": "**di** = de · **a** = a · **da** = desde, de, y «a casa de» · **in** = en, dentro de · **su** = sobre, encima de.",
+      "examples": [
+        { "t": "Torno ==dal== mercato.", "es": "Vuelvo del mercado.", "hl": "dal" },
+        { "t": "Le chiavi sono ==sul== tavolo.", "es": "Las llaves están en la mesa.", "hl": "sul" },
+        { "t": "Il treno arriva ==alle== tre.", "es": "El tren llega a las tres.", "hl": "alle" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "Nosotros solo unimos al y del. En italiano «en la bolsa» es ==nella== borsa y «en la mesa» es ==sul== tavolo: el en español se reparte entre **in** (dentro) y **su** (encima).",
+      "examples": [
+        { "t": "Il pane è ==nella== busta.", "es": "El pan está en la bolsa.", "hl": "nella" },
+        { "t": "Il telefono è ==sul== divano.", "es": "El móvil está en el sofá.", "hl": "sul" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "Errores típicos",
+      "emoji": "⚠️",
+      "text": "Ojo con dejarlas separadas o con elegir el artículo equivocado:",
+      "examples": [
+        { "t": "❌ a il mercato → ✅ ==al== mercato", "es": "al mercado", "hl": "al" },
+        { "t": "❌ in la borsa → ✅ ==nella== borsa", "es": "en el bolso", "hl": "nella" },
+        { "t": "❌ dei zii → ✅ ==degli== zii", "es": "de los tíos", "hl": "degli" }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Truco",
+      "emoji": "💡",
+      "text": "Primero piensa el artículo (il, lo, la…) y luego pégale la preposición. **Con** y **per** no se unen: ==con il== treno, ==per la== cena. Y sin artículo no hay unión: in Italia, a Roma.",
+      "examples": [
+        { "t": "la stazione → ==alla== stazione", "es": "la estación → a la estación", "hl": "alla" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español solo se unen a + el (al) y de + el (del). Y «en» sirve para dentro y encima: en la bolsa, en la mesa.",
+    "target": "En italiano di, a, da, in y su se unen con todos los artículos: del, allo, dall', nella, sui… In es «dentro» (nella borsa) y su es «encima» (sul tavolo). Con y per van separadas."
+  },
+  "errors": [
+    { "wrong": "Vado a il mercato.", "right": "Vado al mercato.", "why": "A + il se unen siempre: al." },
+    { "wrong": "Il pane è in la borsa.", "right": "Il pane è nella borsa.", "why": "In + la = nella." },
+    { "wrong": "La casa dei zii.", "right": "La casa degli zii.", "why": "Zii lleva gli (z inicial), así que di + gli = degli." },
+    { "wrong": "Il libro è nel tavolo.", "right": "Il libro è sul tavolo.", "why": "Encima de algo se dice con su: sul tavolo." },
+    { "wrong": "Vado alla Italia.", "right": "Vado in Italia.", "why": "Con países no hay artículo, así que no hay preposición articulada." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Le chiavi sono ___ borsa.", "es": "Las llaves están en el bolso.", "options": ["nella", "nel", "nello"], "answer": "nella", "why": "La borsa → in + la = nella.", "g": "it-g-prep-articolate" },
+    { "id": "e2", "type": "choose", "q": "Il telefono è ___ tavolo.", "es": "El móvil está en la mesa.", "options": ["sul", "sullo", "sulla"], "answer": "sul", "why": "Il tavolo → su + il = sul (encima).", "g": "it-g-prep-articolate" },
+    { "id": "e3", "type": "choose", "q": "Torno ___ mercato alle undici.", "es": "Vuelvo del mercado a las once.", "options": ["dal", "dallo", "dalla"], "answer": "dal", "why": "Il mercato → da + il = dal.", "g": "it-g-prep-articolate" },
+    { "id": "e4", "type": "choose", "q": "Questo è il numero ___ medico.", "es": "Este es el número del médico.", "options": ["del", "dello", "della"], "answer": "del", "why": "Il medico → di + il = del.", "g": "it-g-prep-articolate" },
+    { "id": "e5", "type": "choose", "q": "Vado ___ stazione in taxi.", "es": "Voy a la estación en taxi.", "options": ["alla", "al", "all'"], "answer": "alla", "why": "La stazione → a + la = alla.", "g": "it-g-prep-articolate" },
+    { "id": "e6", "type": "choose", "q": "Compro il latte ___ supermercato.", "es": "Compro la leche en el súper.", "options": ["al", "allo", "alla"], "answer": "al", "why": "Il supermercato → al.", "g": "it-g-prep-articolate" },
+    { "id": "e7", "type": "choose", "q": "Le foto ___ nipoti sono sul telefono.", "es": "Las fotos de los nietos están en el móvil.", "options": ["dei", "degli", "delle"], "answer": "dei", "why": "I nipoti → di + i = dei.", "g": "it-g-prep-articolate" },
+    { "id": "e8", "type": "choose", "q": "Metto lo zucchero ___ caffè.", "es": "Pongo el azúcar en el café.", "options": ["nel", "nello", "nell'"], "answer": "nel", "why": "Il caffè → in + il = nel.", "g": "it-g-prep-articolate" },
+    { "id": "e9", "type": "choose", "q": "Il biglietto è ___ zaino.", "es": "El billete está en la mochila.", "options": ["nello", "nel", "nella"], "answer": "nello", "why": "Lo zaino → in + lo = nello.", "g": "it-g-prep-articolate" },
+    { "id": "e10", "type": "choose", "q": "La casa ___ amici di Hugo è grande.", "es": "La casa de los amigos de Hugo es grande.", "options": ["degli", "dei", "delle"], "answer": "degli", "why": "Gli amici → di + gli = degli.", "g": "it-g-prep-articolate" },
+    { "id": "e11", "type": "fill", "q": "Domani vado ___ medico.", "es": "Mañana voy al médico.", "answer": ["dal"], "bank": ["dal", "dallo", "dalla"], "why": "Ir al médico = andare da + il medico = dal medico.", "g": "it-g-prep-articolate" },
+    { "id": "e12", "type": "fill", "q": "Le arance sono ___ cestino.", "es": "Las naranjas están en la cesta.", "answer": ["nel"], "bank": ["nel", "nella", "nello"], "why": "Il cestino → nel.", "g": "it-g-prep-articolate" },
+    { "id": "e13", "type": "fill", "q": "Il treno arriva ___ otto.", "es": "El tren llega a las ocho.", "answer": ["alle"], "bank": ["alle", "al", "agli"], "why": "Con las horas: alle otto (a + le ore otto).", "g": "it-g-prep-articolate" },
+    { "id": "e14", "type": "fill", "q": "Il gatto dorme ___ sedia.", "es": "El gato duerme en la silla.", "answer": ["sulla"], "bank": ["sulla", "sul", "sullo"], "why": "La sedia → su + la = sulla.", "g": "it-g-prep-articolate" },
+    { "id": "e15", "type": "fill", "q": "Il prezzo ___ fragole è alto.", "es": "El precio de las fresas es alto.", "answer": ["delle"], "bank": ["delle", "dei", "della"], "why": "Le fragole → di + le = delle.", "g": "it-g-prep-articolate" },
+    { "id": "e16", "type": "fill", "q": "Pranzo ___ due.", "es": "Como a las dos.", "answer": ["alle"], "why": "Las horas van con a + le: alle due.", "g": "it-g-prep-articolate" },
+    { "id": "e17", "type": "fill", "q": "Metto il latte ___ frigo.", "es": "Meto la leche en la nevera.", "answer": ["nel", "in"], "why": "Il frigo → nel frigo (también se dice in frigo).", "g": "it-g-prep-articolate" },
+    { "id": "e18", "type": "fill", "q": "Vengo ___ stazione adesso.", "es": "Vengo de la estación ahora.", "answer": ["dalla"], "why": "Venir de un sitio = da: da + la = dalla.", "g": "it-g-prep-articolate" },
+    { "id": "e19", "type": "fill", "q": "Le chiavi sono ___ tavolo.", "es": "Las llaves están en la mesa.", "answer": ["sul"], "why": "Encima de la mesa: su + il = sul.", "g": "it-g-prep-articolate" },
+    { "id": "e20", "type": "fill", "q": "È la borsa ___ signora.", "es": "Es el bolso de la señora.", "answer": ["della"], "why": "La signora → di + la = della.", "g": "it-g-prep-articolate" },
+    { "id": "e21", "type": "transform", "instr": "Une la preposición y el artículo", "q": "in + la valigia", "answer": ["nella valigia"], "why": "In + la = nella.", "g": "it-g-prep-articolate" },
+    { "id": "e22", "type": "transform", "instr": "Une la preposición y el artículo", "q": "su + il treno", "answer": ["sul treno"], "why": "Su + il = sul.", "g": "it-g-prep-articolate" },
+    { "id": "e23", "type": "transform", "instr": "Une la preposición y el artículo", "q": "da + lo zio", "answer": ["dallo zio"], "why": "Da + lo = dallo.", "g": "it-g-prep-articolate" },
+    { "id": "e24", "type": "transform", "instr": "Une la preposición y el artículo", "q": "a + le dieci", "answer": ["alle dieci"], "why": "A + le = alle.", "g": "it-g-prep-articolate" },
+    { "id": "e25", "type": "transform", "instr": "Une la preposición y el artículo", "q": "di + l'olio", "answer": ["dell'olio"], "why": "Di + l' = dell'.", "g": "it-g-prep-articolate" },
+    { "id": "e26", "type": "error", "q": "Il pane è nel borsa.", "wrong": "nel", "fix": "nella", "why": "La borsa es femenina: nella.", "g": "it-g-prep-articolate" },
+    { "id": "e27", "type": "error", "q": "Saliamo sullo treno.", "wrong": "sullo", "fix": "sul", "why": "Il treno → su + il = sul.", "g": "it-g-prep-articolate" },
+    { "id": "e28", "type": "error", "q": "La casa dei zii è grande.", "wrong": "dei", "fix": "degli", "why": "Gli zii → di + gli = degli.", "g": "it-g-prep-articolate" },
+    { "id": "e29", "type": "error", "q": "Torno dal stazione alle tre.", "wrong": "dal", "fix": "dalla", "why": "La stazione → da + la = dalla.", "g": "it-g-prep-articolate" },
+    { "id": "e30", "type": "error", "q": "Vado all mercato.", "wrong": "all", "fix": "al", "why": "Il mercato → al. All' solo va delante de vocal (all'ospedale).", "g": "it-g-prep-articolate" },
+    { "id": "e31", "type": "translate", "dir": "to", "q": "El pan está en la bolsa.", "answer": ["Il pane è nella borsa.", "Il pane è nella busta."], "why": "En (dentro de) la bolsa = nella borsa / nella busta.", "g": "it-g-prep-articolate" },
+    { "id": "e32", "type": "translate", "dir": "to", "q": "Voy al médico.", "answer": ["Vado dal medico.", "Io vado dal medico."], "why": "Al médico = dal medico.", "g": "it-g-prep-articolate" },
+    { "id": "e33", "type": "translate", "dir": "from", "q": "Il treno arriva dalla Sicilia.", "answer": ["El tren llega de Sicilia.", "El tren viene de Sicilia.", "El tren llega desde Sicilia."], "why": "Dalla = da + la: desde la, de la.", "g": "it-g-prep-articolate" },
+    { "id": "e34", "type": "order", "es": "Las fresas están en la nevera.", "answer": "Le fragole sono nel frigo", "alt": ["Le fragole sono in frigo"], "extra": ["nello"], "why": "Il frigo → nel frigo.", "g": "it-g-prep-articolate" },
+    { "id": "e35", "type": "order", "es": "Vuelvo del mercado a las once.", "answer": "Torno dal mercato alle undici", "extra": ["al"], "why": "Dal mercato (desde el mercado) y alle undici (hora).", "g": "it-g-prep-articolate" },
+    { "id": "e36", "type": "match", "pairs": [["a + la", "alla"], ["di + i", "dei"], ["su + lo", "sullo"], ["da + le", "dalle"], ["in + gli", "negli"]], "why": "Cada preposición se pega a su artículo.", "g": "it-g-prep-articolate" },
+    { "id": "e37", "type": "situation", "context": "Tu amiga busca el billete del tren. Lo tienes tú, en la maleta.", "emoji": "🧳", "options": ["È nella valigia.", "È nello valigia.", "È in la valigia."], "answer": "È nella valigia.", "why": "La valigia → in + la = nella.", "g": "it-g-prep-articolate" }
+  ],
+  "reviewed": false
+}

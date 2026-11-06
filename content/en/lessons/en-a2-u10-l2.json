@@ -1,0 +1,409 @@
+{
+  "id": "en-a2-u10-l2",
+  "unit": "en-a2-u10",
+  "title": "Demasiado pesada, no lo bastante grande",
+  "goal": "a decir que algo es demasiado (too) o suficiente (enough), por ejemplo con la maleta o la habitación",
+  "emoji": "⚖️",
+  "photoQuery": "heavy suitcase airport scale",
+  "vocab": [
+    {
+      "id": "trip-too",
+      "t": "too",
+      "es": "demasiado",
+      "emoji": "⚠️",
+      "pos": "adv",
+      "ex": {
+        "t": "This suitcase is too heavy.",
+        "es": "Esta maleta pesa demasiado."
+      }
+    },
+    {
+      "id": "trip-enough",
+      "t": "enough",
+      "es": "suficiente, bastante",
+      "emoji": "👌",
+      "pos": "adv",
+      "ex": {
+        "t": "Is the room big enough for three?",
+        "es": "¿La habitación es lo bastante grande para tres?"
+      },
+      "note": "Se pronuncia «inaf»: la gh suena f."
+    },
+    {
+      "id": "trip-heavy",
+      "t": "heavy",
+      "es": "pesado/a",
+      "emoji": "🏋️",
+      "pos": "adj",
+      "ex": {
+        "t": "My bag is very heavy today.",
+        "es": "Hoy mi bolso pesa mucho."
+      }
+    },
+    {
+      "id": "trip-light",
+      "t": "light",
+      "es": "ligero/a",
+      "emoji": "🪶",
+      "pos": "adj",
+      "ex": {
+        "t": "I always travel light.",
+        "es": "Siempre viajo ligera de equipaje."
+      }
+    },
+    {
+      "id": "trip-crowded",
+      "t": "crowded",
+      "es": "abarrotado, lleno de gente",
+      "emoji": "👥",
+      "pos": "adj",
+      "ex": {
+        "t": "The airport is very crowded in August.",
+        "es": "En agosto el aeropuerto está abarrotado."
+      }
+    },
+    {
+      "id": "trip-noisy",
+      "t": "noisy",
+      "es": "ruidoso/a",
+      "emoji": "🔊",
+      "pos": "adj",
+      "ex": {
+        "t": "Our room is next to the lift. It's noisy.",
+        "es": "Nuestra habitación está al lado del ascensor. Hay ruido."
+      }
+    },
+    {
+      "id": "trip-comfortable",
+      "t": "comfortable",
+      "es": "cómodo/a",
+      "emoji": "🛋️",
+      "pos": "adj",
+      "ex": {
+        "t": "The bed isn't very comfortable.",
+        "es": "La cama no es muy cómoda."
+      },
+      "note": "Se dice «CÓMF-ta-bl»: tres sílabas y acento al principio."
+    },
+    {
+      "id": "trip-weigh",
+      "t": "to weigh",
+      "es": "pesar",
+      "emoji": "⚖️",
+      "pos": "v",
+      "ex": {
+        "t": "How much does your suitcase weigh?",
+        "es": "¿Cuánto pesa tu maleta?"
+      }
+    }
+  ],
+  "grammar": "en-g-too-enough",
+  "pron": {
+    "title": "too, to y two suenan igual",
+    "tip": "too (demasiado), to (a) y two (dos) se pronuncian casi igual: «tu». Y en enough la gh suena como una f: «inaf».",
+    "words": [
+      "too",
+      "two",
+      "enough",
+      "too heavy",
+      "big enough"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "This suitcase is ___ heavy. I can't lift it.",
+      "options": [
+        "too",
+        "enough",
+        "too much"
+      ],
+      "answer": "too",
+      "why": "Too + adjetivo = demasiado. Nunca too much delante de un adjetivo.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "The room isn't ___ for three people.",
+      "options": [
+        "big enough",
+        "enough big"
+      ],
+      "answer": "big enough",
+      "why": "Enough va detrás del adjetivo: big enough.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "There are ___ people at the gate.",
+      "options": [
+        "too many",
+        "too much"
+      ],
+      "answer": "too many",
+      "why": "People es plural: too many.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "The hotel is ___ nice! We love it.",
+      "options": [
+        "very",
+        "too"
+      ],
+      "answer": "very",
+      "why": "Para elogiar, very. Too indica un problema.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "The coffee is ___ hot. I can't drink it.",
+      "es": "El café está demasiado caliente. No me lo puedo tomar.",
+      "answer": [
+        "too"
+      ],
+      "bank": [
+        "too",
+        "enough",
+        "much"
+      ],
+      "why": "Demasiado + adjetivo: too hot.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "We haven't got ___ time for breakfast.",
+      "es": "No tenemos tiempo suficiente para desayunar.",
+      "answer": [
+        "enough"
+      ],
+      "why": "Enough va delante del nombre: enough time.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "My bag isn't light ___ for the plane.",
+      "es": "Mi bolsa no es lo bastante ligera para el avión.",
+      "answer": [
+        "enough"
+      ],
+      "why": "Adjetivo + enough: light enough.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Dilo con not … enough",
+      "q": "The room is too small.",
+      "answer": [
+        "The room isn't big enough.",
+        "The room is not big enough.",
+        "The room's not big enough."
+      ],
+      "why": "too small = not big enough.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "There's too many noise in our room.",
+      "wrong": "many",
+      "fix": "much",
+      "why": "Noise es incontable: too much noise. Too many va con plurales.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "It's to cold to swim today.",
+      "wrong": "to",
+      "fix": "too",
+      "why": "Demasiado se escribe con dos o: too.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "La cama no es lo bastante cómoda",
+      "answer": "The bed isn't comfortable enough",
+      "extra": [
+        "too"
+      ],
+      "why": "Adjetivo + enough.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Esta maleta es demasiado pesada.",
+      "answer": [
+        "This suitcase is too heavy.",
+        "This case is too heavy.",
+        "This suitcase is too heavy"
+      ],
+      "why": "Demasiado + adjetivo = too heavy.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "En el mostrador te dicen que tu maleta pesa 25 kilos y el máximo es 23. ¿Qué te dicen?",
+      "emoji": "⚖️",
+      "options": [
+        "I'm afraid your suitcase is too heavy.",
+        "I'm afraid your suitcase is enough heavy.",
+        "I'm afraid your suitcase is too much heavy."
+      ],
+      "answer": "I'm afraid your suitcase is too heavy.",
+      "why": "Pasa del límite: too heavy.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e14",
+      "type": "match",
+      "pairs": [
+        [
+          "too heavy",
+          "demasiado pesado"
+        ],
+        [
+          "big enough",
+          "lo bastante grande"
+        ],
+        [
+          "too many people",
+          "demasiada gente"
+        ],
+        [
+          "too much noise",
+          "demasiado ruido"
+        ],
+        [
+          "enough time",
+          "tiempo suficiente"
+        ]
+      ],
+      "why": "too delante; enough detrás del adjetivo y delante del nombre.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "full",
+        "fool"
+      ],
+      "answer": "full",
+      "es": [
+        "lleno",
+        "tonto"
+      ],
+      "why": "Full tiene una u corta y relajada; fool, una u larga, como en too."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "I'm sorry, but the room is too noisy.",
+      "es": "Lo siento, pero la habitación es demasiado ruidosa.",
+      "why": "Quejarse con educación: I'm sorry, but…",
+      "g": "en-g-too-enough"
+    }
+  ],
+  "dialog": {
+    "title": "Dos kilos de más",
+    "setting": "En el mostrador de facturación, la maleta de Yolanda pesa demasiado",
+    "emoji": "⚖️",
+    "lines": [
+      {
+        "who": "Agent",
+        "t": "Could you put your suitcase here, please?",
+        "es": "¿Puede poner la maleta aquí, por favor?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Of course. It's quite heavy.",
+        "es": "Claro. Pesa bastante."
+      },
+      {
+        "who": "Agent",
+        "t": "I'm afraid it's too heavy. It's twenty-five kilos.",
+        "es": "Me temo que pesa demasiado. Son veinticinco kilos."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Oh no! Is my hand luggage small enough?",
+        "es": "¡Ay, no! ¿Mi equipaje de mano es lo bastante pequeño?"
+      },
+      {
+        "who": "Agent",
+        "t": "Yes, and it isn't very full.",
+        "es": "Sí, y no va muy lleno."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Then I can put these shoes in it.",
+        "es": "Entonces puedo meter estos zapatos en él."
+      },
+      {
+        "who": "Agent",
+        "t": "Good idea. Now it's twenty-three kilos. Perfect!",
+        "es": "Buena idea. Ahora son veintitrés kilos. ¡Perfecto!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Phew! I always pack too many shoes.",
+        "es": "¡Uf! Siempre meto demasiados zapatos."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuánto pesa la maleta al principio?",
+        "options": [
+          "25 kilos",
+          "23 kilos",
+          "20 kilos"
+        ],
+        "answer": "25 kilos"
+      },
+      {
+        "q": "¿Qué pasa a la bolsa de mano?",
+        "options": [
+          "Unos zapatos",
+          "Un abrigo",
+          "Unos libros"
+        ],
+        "answer": "Unos zapatos"
+      },
+      {
+        "q": "¿Qué dice Yolanda de sí misma?",
+        "options": [
+          "Que siempre lleva demasiados zapatos",
+          "Que siempre viaja ligera",
+          "Que nunca factura"
+        ],
+        "answer": "Que siempre lleva demasiados zapatos"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "I'm afraid it's too small for us.",
+    "es": "Me temo que es demasiado pequeña para nosotros.",
+    "context": "Para decir con educación que una habitación o un coche no os vale"
+  },
+  "summary": [
+    "too + adjetivo = demasiado: too heavy, too noisy",
+    "adjetivo + enough = lo bastante: big enough",
+    "enough + nombre: enough time; too many + plural, too much + incontable",
+    "very = muy (puede estar bien); too = demasiado (problema)"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u10-l2"
+}

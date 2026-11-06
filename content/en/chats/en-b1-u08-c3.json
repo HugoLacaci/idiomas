@@ -1,0 +1,50 @@
+{
+  "id": "en-b1-u08-c3",
+  "unit": "en-b1-u08",
+  "title": "La última charla",
+  "setting": "En St Pancras, minutos antes de tu tren. Emma y tú os despedís después de todo el viaje",
+  "emoji": "🚄",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "So, this is it. Your train leaves in ten minutes.", "es": "Bueno, ya está. Tu tren sale en diez minutos." },
+      "options": [
+        { "t": "I can't believe the trip is over. It went so fast, didn't it?", "es": "No me creo que se haya acabado el viaje. Se ha pasado volando, ¿verdad?", "next": "n2", "ok": true },
+        { "t": "I can't believe the trip is over. It went so fast, wasn't it?", "es": "(Se ha pasado volando, ¿verdad?)", "next": "n2", "ok": false, "feedback": "Went es pasado simple: la coletilla es didn't it?" }
+      ] },
+    { "id": "n2", "says": { "t": "It did. What was your favourite moment?", "es": "Sí. ¿Cuál ha sido tu momento favorito?" },
+      "options": [
+        { "t": "Meeting people who were so kind to me.", "es": "Conocer a gente que fue tan amable conmigo.", "next": "n3", "ok": true },
+        { "t": "Meeting people which were so kind to me.", "es": "(Conocer a gente que fue tan amable conmigo.)", "next": "n3", "ok": false, "feedback": "Para personas, who: people who were so kind." }
+      ] },
+    { "id": "n3", "says": { "t": "Do you remember what you said on the first day?", "es": "¿Te acuerdas de lo que dijiste el primer día?" },
+      "options": [
+        { "t": "Yes! I said I was too old to learn.", "es": "¡Sí! Dije que era demasiado mayor para aprender.", "next": "n4", "ok": true },
+        { "t": "Yes! I said I am too old to learn.", "es": "(¡Sí! Dije que soy demasiado mayor para aprender.)", "next": "n4", "ok": false, "feedback": "Ya no es verdad, así que el verbo va un paso atrás: I said I was too old." }
+      ] },
+    { "id": "n4", "says": { "t": "And now? What would you tell yourself on that first day?", "es": "¿Y ahora? ¿Qué te dirías a ti misma aquel primer día?" },
+      "options": [
+        { "t": "I'd tell myself not to give up.", "es": "Me diría que no me rindiera.", "next": "n5", "ok": true },
+        { "t": "I'd tell myself to not give it.", "es": "(Me diría que no lo diera.)", "next": "n5", "ok": false, "feedback": "Rendirse = give up, y la orden negativa es not to: tell myself not to give up." }
+      ] },
+    { "id": "n5", "says": { "t": "I'm so proud of you, Yolanda. You'll keep practising, won't you?", "es": "Estoy muy orgullosa de ti, Yolanda. Seguirás practicando, ¿verdad?" },
+      "options": [
+        { "t": "I will, I promise. A little every day.", "es": "Sí, te lo prometo. Un poquito cada día.", "next": "n6", "ok": true },
+        { "t": "I will, I advise. A little every day.", "es": "(Sí, te aconsejo. Un poquito cada día.)", "next": "n6", "ok": false, "feedback": "Advise es aconsejar. Para «te lo prometo»: I promise." }
+      ] },
+    { "id": "n6", "says": { "t": "Let me know when you get home, OK?", "es": "Avísame cuando llegues a casa, ¿vale?" },
+      "options": [
+        { "t": "Of course. And let's keep in touch!", "es": "Claro. ¡Y sigamos en contacto!", "next": "n7", "ok": true },
+        { "t": "Of course. I'll advise you when I arrive.", "es": "(Claro. Te aconsejaré cuando llegue.)", "next": "n7", "ok": false, "feedback": "¡Ojo! Advise es aconsejar. Para avisar: I'll let you know." }
+      ] },
+    { "id": "n7", "says": { "t": "Come here, one last hug. Have a safe journey!", "es": "Ven aquí, un último abrazo. ¡Buen viaje!" },
+      "options": [
+        { "t": "Thank you for everything, Emma. I'll never forget it.", "es": "Gracias por todo, Emma. Nunca lo olvidaré.", "next": "n8", "ok": true },
+        { "t": "Thank you for all, Emma. I never forget it.", "es": "(Gracias por todo, Emma. Nunca lo olvido.)", "next": "n8", "ok": false, "feedback": "Gracias por todo = thank you for everything; nunca lo olvidaré = I'll never forget it." }
+      ] },
+    { "id": "n8", "says": { "t": "Take care, my friend. See you soon!", "es": "Cuídate, amiga. ¡Hasta pronto!" },
+      "options": [
+        { "t": "See you soon, Emma! Goodbye, London!", "es": "¡Hasta pronto, Emma! ¡Adiós, Londres!", "next": "end", "ok": true }
+      ] }
+  ],
+  "reviewed": false
+}

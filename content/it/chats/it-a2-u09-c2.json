@@ -1,0 +1,51 @@
+{
+  "id": "it-a2-u09-c2",
+  "unit": "it-a2-u09",
+  "title": "Un viaje con las amigas",
+  "setting": "Giulia te ayuda a elegir destino para un viaje con tus amigas",
+  "emoji": "🧳",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Allora, cosa preferite: mare, montagna o città d'arte?", "es": "Bueno, ¿qué preferís: mar, montaña o ciudades de arte?" },
+      "options": [
+        { "t": "Il mare! Ma non troppo affollato.", "es": "¡El mar! Pero no demasiado lleno.", "next": "n2", "ok": true },
+        { "t": "La mare! Ma non troppo affollata.", "es": "¡El mar! Pero no demasiado lleno.", "next": "n2", "ok": false, "feedback": "En italiano il mare es masculino." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Allora la Puglia o la Sardegna. La Sardegna ha un mare bellissimo, ma è più cara.", "es": "Entonces Apulia o Cerdeña. Cerdeña tiene un mar precioso, pero es más cara." },
+      "options": [
+        { "t": "E la Puglia è meno cara?", "es": "¿Y Apulia es menos cara?", "next": "n3", "ok": true },
+        { "t": "E la Puglia è meno cara che la Sardegna?", "es": "¿Y Apulia es menos cara que Cerdeña?", "next": "n3", "ok": false, "feedback": "Delante de un nombre: meno cara della Sardegna (di + la)." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Di solito sì. E per arrivare è più comoda.", "es": "Normalmente sí. Y para llegar es más cómoda." },
+      "options": [
+        { "t": "Allora è meglio la Puglia.", "es": "Entonces mejor Apulia.", "next": "n4", "ok": true },
+        { "t": "Allora la Puglia è la più migliore.", "es": "Entonces Apulia es la mejor.", "next": "n4", "ok": false, "feedback": "Nunca più migliore: la migliore." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Quando volete andare? Agosto o giugno?", "es": "¿Cuándo queréis ir? ¿Agosto o junio?" },
+      "options": [
+        { "t": "Giugno: è più tranquillo che ad agosto.", "es": "Junio: está más tranquilo que en agosto.", "next": "n5", "ok": true },
+        { "t": "Giugno: è più tranquillo di ad agosto.", "es": "Junio: está más tranquilo que en agosto.", "next": "n5", "ok": false, "feedback": "Delante de una preposición (ad) se usa che." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ottima scelta! E il cibo in Puglia è buonissimo.", "es": "¡Estupenda elección! Y la comida en Apulia está buenísima." },
+      "options": [
+        { "t": "Perfetto! Sarà il viaggio più bello dell'anno.", "es": "¡Perfecto! Será el viaje más bonito del año.", "next": "end", "ok": true },
+        { "t": "Perfetto! Sarà il viaggio più bellissimo.", "es": "¡Perfecto! Será el viaje más bonito.", "next": "end", "ok": false, "feedback": "O il più bello, o bellissimo; nunca los dos juntos." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

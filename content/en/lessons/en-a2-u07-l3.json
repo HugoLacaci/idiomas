@@ -1,0 +1,100 @@
+{
+  "id": "en-a2-u07-l3",
+  "unit": "en-a2-u07",
+  "title": "¿Y a ti qué te gusta?",
+  "goal": "a preguntar por las aficiones y responder con «me too» y «me neither»",
+  "emoji": "💬",
+  "photoQuery": "friends chatting coffee terrace",
+  "vocab": [
+    { "id": "hobby-what-do-you-like-doing", "t": "What do you like doing?", "es": "¿Qué te gusta hacer?", "emoji": "❓", "pos": "phrase",
+      "ex": { "t": "What do you like doing at the weekend?", "es": "¿Qué te gusta hacer el fin de semana?" } },
+    { "id": "hobby-how-about-you", "t": "How about you?", "es": "¿Y tú?", "emoji": "👉", "pos": "phrase",
+      "ex": { "t": "I love reading. How about you?", "es": "Me encanta leer. ¿Y a ti?" } },
+    { "id": "hobby-me-too", "t": "Me too!", "es": "¡Yo también!", "emoji": "🙌", "pos": "phrase",
+      "ex": { "t": "I love dancing. — Me too!", "es": "Me encanta bailar. — ¡A mí también!" } },
+    { "id": "hobby-me-neither", "t": "Me neither.", "es": "Yo tampoco.", "emoji": "🙅‍♀️", "pos": "phrase",
+      "ex": { "t": "I don't like football. — Me neither.", "es": "No me gusta el fútbol. — A mí tampoco." },
+      "note": "Se dice «mi náidher» o «mi nídher»: las dos valen." },
+    { "id": "hobby-good-at", "t": "I'm good at…", "es": "se me da bien…", "emoji": "💪", "pos": "phrase",
+      "ex": { "t": "I'm good at cooking.", "es": "Se me da bien cocinar." } },
+    { "id": "hobby-join-a-club", "t": "join a club", "es": "apuntarse a un club", "emoji": "🤝", "pos": "phrase",
+      "ex": { "t": "I want to join a walking club.", "es": "Quiero apuntarme a un club de senderismo." } },
+    { "id": "hobby-concert", "t": "a concert", "es": "un concierto", "emoji": "🎶", "pos": "n",
+      "ex": { "t": "We're going to a concert on Friday.", "es": "Vamos a un concierto el viernes." } },
+    { "id": "hobby-sympathetic", "t": "sympathetic", "es": "comprensivo, que te apoya", "emoji": "🤗", "pos": "adj",
+      "ex": { "t": "My friend is very sympathetic when I'm sad.", "es": "Mi amiga es muy comprensiva cuando estoy triste." },
+      "note": "¡Ojo, falso amigo! Simpático = nice o friendly." }
+  ],
+  "grammar": "en-g-like-ing",
+  "pron": {
+    "title": "La entonación de «How about you?»",
+    "tip": "En «How about you?» la voz sube al final, en you, como cuando preguntas con interés en español. En «Me too!» la voz baja, con alegría.",
+    "words": ["How about you?", "Me too!", "Me neither."]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "What do you like ___ at the weekend?", "options": ["doing", "do", "does"], "answer": "doing",
+      "why": "What do you like + -ing: ¿Qué te gusta hacer?", "g": "en-g-like-ing" },
+    { "id": "e2", "type": "choose", "q": "I'm good at ___.", "options": ["cooking", "cook", "cooks"], "answer": "cooking",
+      "why": "Después de at (y de cualquier preposición) el verbo va con -ing.", "g": "en-g-like-ing" },
+    { "id": "e3", "type": "choose", "q": "My friend is so ___. She always listens to me.", "options": ["sympathetic", "funny", "boring"], "answer": "sympathetic",
+      "why": "Sympathetic significa comprensiva, que te escucha y te apoya.", "g": "en-g-like-ing" },
+    { "id": "e4", "type": "situation", "context": "Tu amiga inglesa dice: «I don't like horror films.» A ti tampoco te gustan.", "emoji": "🎬",
+      "options": ["Me neither.", "Me too.", "Me also."], "answer": "Me neither.",
+      "why": "Para estar de acuerdo con una frase negativa: Me neither (yo tampoco)." },
+    { "id": "e5", "type": "situation", "context": "Alguien dice: «I love dancing!» A ti también te encanta.", "emoji": "💃",
+      "options": ["Me too!", "Me neither!", "I too!"], "answer": "Me too!",
+      "why": "Con una frase afirmativa: Me too (yo también)." },
+    { "id": "e6", "type": "situation", "context": "Una chica muy agradable y alegre te ayuda en la estación. Quieres decir que es muy simpática.", "emoji": "😊",
+      "options": ["She's very nice.", "She's very sympathetic.", "She's very simpatic."], "answer": "She's very nice.",
+      "why": "Simpática = nice o friendly. Sympathetic es «comprensiva»." },
+    { "id": "e7", "type": "fill", "q": "I love reading. How ___ you?", "es": "Me encanta leer. ¿Y a ti?", "answer": ["about"], "bank": ["about", "are", "for"],
+      "why": "¿Y tú? = How about you?" },
+    { "id": "e8", "type": "fill", "q": "I want to ___ a walking club.", "es": "Quiero apuntarme a un club de senderismo.", "answer": ["join"], "bank": ["join", "go", "make"],
+      "why": "Apuntarse a un club = join a club." },
+    { "id": "e9", "type": "order", "es": "¿Qué te gusta hacer en verano?", "answer": "What do you like doing in summer", "extra": ["does"],
+      "why": "What + do + you + like + -ing.", "g": "en-g-like-ing" },
+    { "id": "e10", "type": "order", "es": "Se me da bien cantar", "answer": "I'm good at singing", "extra": ["sing"],
+      "why": "good at + -ing.", "g": "en-g-like-ing" },
+    { "id": "e11", "type": "match", "pairs": [["I love salsa!", "Me too!"], ["I don't like rain.", "Me neither."], ["What do you like doing?", "I like painting."], ["Are you good at singing?", "Not really!"]],
+      "why": "Fíjate en si la frase es afirmativa, negativa o pregunta." },
+    { "id": "e12", "type": "error", "q": "I don't like opera. — Me too.", "wrong": "too", "fix": "neither",
+      "why": "Si la frase es negativa, respondemos Me neither." },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "¿Te gusta escuchar música?", "answer": ["Do you like listening to music?", "Do you like listening to music"],
+      "why": "Do you like + -ing? Y listen to.", "g": "en-g-like-ing" },
+    { "id": "e14", "type": "reading", "kind": "message", "title": "Mensaje de Sue",
+      "text": "Hi! There's a Beatles concert on Saturday in Liverpool. I love their songs! Do you want to come? I hate going to concerts alone. Sue x",
+      "questions": [
+        { "q": "¿Qué hay el sábado?", "options": ["Un concierto de los Beatles", "Una clase de baile", "Un partido"], "answer": "Un concierto de los Beatles" },
+        { "q": "¿Qué odia Sue?", "options": ["Ir sola a los conciertos", "Las canciones de los Beatles", "Liverpool"], "answer": "Ir sola a los conciertos" }
+      ], "why": "Sue usa love y hate + -ing para contar sus gustos." },
+    { "id": "e15", "type": "speak", "t": "I love dancing. How about you?", "es": "Me encanta bailar. ¿Y a ti?" }
+  ],
+  "dialog": {
+    "title": "En el autobús turístico",
+    "setting": "Yolanda conoce a Pauline, una señora de Liverpool, en un autobús turístico de la ciudad",
+    "emoji": "🚌",
+    "lines": [
+      { "who": "Pauline", "t": "Are you here for the Beatles?", "es": "¿Has venido por los Beatles?" },
+      { "who": "Yolanda", "t": "Yes! I love listening to their songs.", "es": "¡Sí! Me encanta escuchar sus canciones." },
+      { "who": "Pauline", "t": "Me too! What else do you like doing?", "es": "¡A mí también! ¿Qué más te gusta hacer?" },
+      { "who": "Yolanda", "t": "I enjoy dancing and cooking. How about you?", "es": "Disfruto bailando y cocinando. ¿Y tú?" },
+      { "who": "Pauline", "t": "I'm in a choir. I'm good at singing.", "es": "Estoy en un coro. Se me da bien cantar." },
+      { "who": "Yolanda", "t": "Lovely! I don't like singing in public.", "es": "¡Qué bonito! A mí no me gusta cantar en público." },
+      { "who": "Pauline", "t": "Me neither, at first! Now I love it.", "es": "¡A mí tampoco, al principio! Ahora me encanta." },
+      { "who": "Yolanda", "t": "Maybe I'm going to join a choir, then!", "es": "¡Pues a lo mejor me apunto a un coro!" }
+    ],
+    "questions": [
+      { "q": "¿Qué le gusta a Yolanda?", "options": ["Bailar y cocinar", "Cantar en público", "Pintar"], "answer": "Bailar y cocinar" },
+      { "q": "¿Qué se le da bien a Pauline?", "options": ["Cantar", "Bailar", "Cocinar"], "answer": "Cantar" },
+      { "q": "¿Dónde canta Pauline?", "options": ["En un coro", "En un bar", "En casa"], "answer": "En un coro" }
+    ]
+  },
+  "realLife": { "t": "Me too! / Me neither.", "es": "¡Yo también! / Yo tampoco.", "context": "Para estar de acuerdo con alguien en una conversación" },
+  "summary": [
+    "What do you like doing? — I like + -ing",
+    "Me too (frase afirmativa) / Me neither (frase negativa)",
+    "good at + -ing: I'm good at cooking",
+    "¡Ojo! sympathetic = comprensivo; simpático = nice, friendly"
+  ],
+  "reviewed": false
+}

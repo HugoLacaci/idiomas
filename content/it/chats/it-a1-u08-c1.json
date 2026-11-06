@@ -1,0 +1,60 @@
+{
+  "id": "it-a1-u08-c1",
+  "unit": "it-a1-u08",
+  "title": "¿Vienes a Nápoles?",
+  "setting": "Giulia te escribe desde Roma para proponerte una excursión en tren",
+  "emoji": "🚆",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda! Sabato vado a Napoli. Vieni con me?", "es": "¡Hola, Yolanda! El sábado voy a Nápoles. ¿Vienes conmigo?" },
+      "options": [
+        { "t": "Sì, vengo volentieri!", "es": "¡Sí, voy encantada!", "next": "n2", "ok": true },
+        { "t": "Sì, vado volentieri!", "es": "¡Sí, voy encantada!", "next": "n2", "ok": false, "feedback": "Te vas con Giulia, hacia ella: en italiano se dice vengo." },
+        { "t": "Sì, salgo volentieri!", "es": "¡Sí, salgo encantada!", "next": "n2", "ok": false, "feedback": "Salgo no existe en italiano. Para aceptar el plan: vengo volentieri." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che bello! Andiamo in treno o in macchina?", "es": "¡Qué bien! ¿Vamos en tren o en coche?" },
+      "options": [
+        { "t": "In treno, è più comodo.", "es": "En tren, es más cómodo.", "next": "n3", "ok": true },
+        { "t": "A treno, è più comodo.", "es": "En tren, es más cómodo.", "next": "n3", "ok": false, "feedback": "Con los medios de transporte se usa in: in treno." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Perfetto. Compri tu i biglietti? Andata e ritorno.", "es": "Perfecto. ¿Compras tú los billetes? Ida y vuelta." },
+      "options": [
+        { "t": "Sì, compro due biglietti di andata e ritorno.", "es": "Sí, compro dos billetes de ida y vuelta.", "next": "n4", "ok": true },
+        { "t": "Sì, compro due biglietti di solo andata.", "es": "Sí, compro dos billetes de solo ida.", "next": "n4", "ok": false, "feedback": "Giulia quiere ida y vuelta: andata e ritorno. ¡Si no, os quedáis en Nápoles!" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Grazie! Il treno parte alle otto. A che ora esci di casa?", "es": "¡Gracias! El tren sale a las ocho. ¿A qué hora sales de casa?" },
+      "options": [
+        { "t": "Esco alle sette.", "es": "Salgo a las siete.", "next": "n5", "ok": true },
+        { "t": "Uscio alle sette.", "es": "Salgo a las siete.", "next": "n5", "ok": false, "feedback": "Uscire con io es esco, con e." },
+        { "t": "Salgo alle sette.", "es": "Salgo a las siete.", "next": "n5", "ok": false, "feedback": "Salir es uscire: esco alle sette." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Allora ci vediamo in stazione, al binario. Viene anche la tua amica Carla?", "es": "Entonces nos vemos en la estación, en el andén. ¿Viene también tu amiga Carla?" },
+      "options": [
+        { "t": "No, lei non viene: va dal medico.", "es": "No, ella no viene: va al médico.", "next": "n6", "ok": true },
+        { "t": "No, lei non vieni: va dal medico.", "es": "No, ella no viene: va al médico.", "next": "n6", "ok": false, "feedback": "Con lei, venire es viene; vieni es para tu." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Va bene! Allora a sabato. Buon viaggio a noi!", "es": "¡Muy bien! Pues hasta el sábado. ¡Buen viaje para nosotras!" },
+      "options": [
+        { "t": "A sabato, Giulia! Ciao!", "es": "¡Hasta el sábado, Giulia! ¡Chao!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,451 @@
+{
+  "id": "it-a2-u02-l3",
+  "unit": "it-a2-u02",
+  "title": "Tanti auguri!",
+  "goal": "a felicitar, responder a una felicitación y brindar en una fiesta",
+  "emoji": "🥂",
+  "photoQuery": "birthday cake candles table",
+  "vocab": [
+    {
+      "id": "festa-tanti-auguri",
+      "t": "Tanti auguri!",
+      "es": "¡Muchas felicidades!",
+      "emoji": "🎉",
+      "pos": "phrase",
+      "ex": {
+        "t": "Tanti auguri, Carla! Questo è per te.",
+        "es": "¡Muchas felicidades, Carla! Esto es para ti."
+      }
+    },
+    {
+      "id": "festa-buon-compleanno",
+      "t": "Buon compleanno!",
+      "es": "¡Feliz cumpleaños!",
+      "emoji": "🎂",
+      "pos": "phrase",
+      "ex": {
+        "t": "Buon compleanno, tesoro!",
+        "es": "¡Feliz cumpleaños, cariño!"
+      }
+    },
+    {
+      "id": "festa-buona-pasqua",
+      "t": "Buona Pasqua!",
+      "es": "¡Felices Pascuas! (en Semana Santa)",
+      "emoji": "🐣",
+      "pos": "phrase",
+      "ex": {
+        "t": "Buona Pasqua a te e alla tua famiglia!",
+        "es": "¡Felices Pascuas a ti y a tu familia!"
+      }
+    },
+    {
+      "id": "festa-buon-anno",
+      "t": "Buon anno!",
+      "es": "¡Feliz año!",
+      "emoji": "🎆",
+      "pos": "phrase",
+      "ex": {
+        "t": "A mezzanotte diciamo tutti: Buon anno!",
+        "es": "A medianoche todos decimos: ¡Feliz año!"
+      }
+    },
+    {
+      "id": "festa-altrettanto",
+      "t": "Grazie, altrettanto!",
+      "es": "¡Gracias, igualmente!",
+      "emoji": "🔁",
+      "pos": "phrase",
+      "ex": {
+        "t": "Buon Natale! — Grazie, altrettanto!",
+        "es": "¡Feliz Navidad! — ¡Gracias, igualmente!"
+      }
+    },
+    {
+      "id": "festa-festeggiare",
+      "t": "festeggiare",
+      "es": "celebrar, festejar",
+      "emoji": "🥳",
+      "pos": "v",
+      "ex": {
+        "t": "Abbiamo festeggiato in pizzeria.",
+        "es": "Lo hemos celebrado en la pizzería."
+      }
+    },
+    {
+      "id": "festa-cin-cin",
+      "t": "Cin cin!",
+      "es": "¡Chinchín!",
+      "emoji": "🥂",
+      "pos": "phrase",
+      "ex": {
+        "t": "Alla salute di tutti! Cin cin!",
+        "es": "¡A la salud de todos! ¡Chinchín!"
+      }
+    },
+    {
+      "id": "festa-candeline",
+      "t": "le candeline",
+      "es": "las velas de la tarta",
+      "emoji": "🕯️",
+      "pos": "n",
+      "ex": {
+        "t": "Mio marito ha spento le candeline.",
+        "es": "Mi marido ha soplado las velas."
+      }
+    },
+    {
+      "id": "festa-invito",
+      "t": "l'invito",
+      "es": "la invitación",
+      "emoji": "💌",
+      "pos": "n",
+      "ex": {
+        "t": "Grazie dell'invito, vengo volentieri!",
+        "es": "¡Gracias por la invitación, voy encantada!"
+      }
+    }
+  ],
+  "grammar": "it-g-passato-prossimo-essere",
+  "pron": {
+    "title": "La gg de festeggiare",
+    "tip": "En festeggiare la «gg» suena como una «y» fuerte y larga, como en «yo» dicho con energía: fes-tedd-yá-re.",
+    "words": [
+      "festeggiare",
+      "oggi",
+      "maggio",
+      "auguri"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "situation",
+      "context": "Una amiga italiana te dice «Buon Natale!». ¿Qué le respondes?",
+      "emoji": "🎄",
+      "options": [
+        "Grazie, altrettanto!",
+        "Prego!",
+        "Buon compleanno!"
+      ],
+      "answer": "Grazie, altrettanto!",
+      "why": "Para devolver un deseo: Grazie, altrettanto! (igualmente)."
+    },
+    {
+      "id": "e2",
+      "type": "situation",
+      "context": "En la cena de Nochevieja todos levantan la copa.",
+      "emoji": "🥂",
+      "options": [
+        "Cin cin!",
+        "Buon appetito!",
+        "Arrivederci!"
+      ],
+      "answer": "Cin cin!",
+      "why": "Para brindar: Cin cin!"
+    },
+    {
+      "id": "e3",
+      "type": "situation",
+      "context": "Es 1 de enero y te encuentras con tu vecina en la escalera.",
+      "emoji": "🎆",
+      "options": [
+        "Buon anno!",
+        "Buona Pasqua!",
+        "Buon viaggio!"
+      ],
+      "answer": "Buon anno!",
+      "why": "En Año Nuevo: Buon anno!"
+    },
+    {
+      "id": "e4",
+      "type": "match",
+      "pairs": [
+        [
+          "Buon compleanno!",
+          "¡Feliz cumpleaños!"
+        ],
+        [
+          "Buona Pasqua!",
+          "¡Felices Pascuas!"
+        ],
+        [
+          "Buon anno!",
+          "¡Feliz año!"
+        ],
+        [
+          "Tanti auguri!",
+          "¡Muchas felicidades!"
+        ],
+        [
+          "Grazie, altrettanto!",
+          "¡Gracias, igualmente!"
+        ]
+      ],
+      "why": "Las felicitaciones más usadas."
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "___ Pasqua a tutti!",
+      "es": "¡Felices Pascuas a todos!",
+      "options": [
+        "Buona",
+        "Buon",
+        "Buono"
+      ],
+      "answer": "Buona",
+      "why": "Pasqua es femenino: Buona Pasqua."
+    },
+    {
+      "id": "e6",
+      "type": "choose",
+      "q": "___ compleanno, amica mia!",
+      "es": "¡Feliz cumpleaños, amiga mía!",
+      "options": [
+        "Buon",
+        "Buona",
+        "Buoni"
+      ],
+      "answer": "Buon",
+      "why": "Compleanno es masculino: Buon compleanno."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Abbiamo ___ il compleanno di mio marito al ristorante.",
+      "es": "Hemos celebrado el cumpleaños de mi marido en el restaurante.",
+      "answer": [
+        "festeggiato"
+      ],
+      "bank": [
+        "festeggiato",
+        "festeggiata",
+        "festeggiati"
+      ],
+      "why": "Festeggiare va con avere: el participio no cambia.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "q": "Hai spento tutte le ___?",
+      "es": "¿Has soplado todas las velas?",
+      "answer": [
+        "candeline",
+        "candele"
+      ],
+      "hint": "las velas de la tarta",
+      "why": "Las velitas de la tarta son le candeline."
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Mis amigas vinieron a la fiesta.",
+      "answer": "Le mie amiche sono venute alla festa",
+      "extra": [
+        "hanno"
+      ],
+      "why": "Venire va con essere: sono venute.",
+      "g": "it-g-passato-prossimo-essere"
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "¡Gracias, igualmente!",
+      "answer": [
+        "Grazie, altrettanto!",
+        "Grazie altrettanto!",
+        "Grazie, anche a te!"
+      ],
+      "why": "Igualmente = altrettanto."
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "from",
+      "q": "Abbiamo festeggiato in pizzeria.",
+      "answer": [
+        "Lo celebramos en la pizzería.",
+        "Lo hemos celebrado en la pizzería.",
+        "Celebramos en la pizzería.",
+        "Lo celebramos en una pizzería.",
+        "Hemos celebrado en la pizzería."
+      ],
+      "why": "Festeggiare = celebrar."
+    },
+    {
+      "id": "e12",
+      "type": "speak",
+      "t": "Tanti auguri di buon compleanno!",
+      "es": "¡Muchas felicidades por tu cumpleaños!"
+    },
+    {
+      "id": "e13",
+      "type": "reading",
+      "kind": "message",
+      "title": "Una invitación",
+      "text": "Cara Yolanda, sabato festeggio il mio compleanno! Ti aspetto alle otto a casa mia. Non portare niente, solo il sorriso! Un abbraccio, Carla",
+      "questions": [
+        {
+          "q": "¿Qué celebra Carla?",
+          "options": [
+            "Su cumpleaños",
+            "La Navidad",
+            "Su boda"
+          ],
+          "answer": "Su cumpleaños"
+        },
+        {
+          "q": "¿A qué hora es la fiesta?",
+          "options": [
+            "A las ocho",
+            "A las seis",
+            "A las diez"
+          ],
+          "answer": "A las ocho"
+        },
+        {
+          "q": "¿Qué tiene que llevar Yolanda?",
+          "options": [
+            "Nada, solo la sonrisa",
+            "Una tarta",
+            "Vino"
+          ],
+          "answer": "Nada, solo la sonrisa"
+        }
+      ],
+      "why": "Non portare niente = no traigas nada."
+    },
+    {
+      "id": "e14",
+      "type": "error",
+      "q": "Mio figlio Hugo ha venuto alla festa.",
+      "wrong": "ha",
+      "fix": "è",
+      "why": "Venire va con essere: è venuto.",
+      "g": "it-g-passato-prossimo-essere"
+    },
+    {
+      "id": "e15",
+      "type": "transform",
+      "instr": "Hazla pregunta para «tu»",
+      "q": "Sono andata alla festa.",
+      "answer": [
+        "Sei andata alla festa?",
+        "Sei andato alla festa?"
+      ],
+      "why": "Io sono → tu sei.",
+      "g": "it-g-passato-prossimo-essere"
+    }
+  ],
+  "dialog": {
+    "title": "La fiesta de Carla",
+    "setting": "En casa de Carla, una amiga italiana que celebra su cumpleaños",
+    "emoji": "🎂",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Tanti auguri, Carla! Questo è per te.",
+        "es": "¡Muchas felicidades, Carla! Esto es para ti."
+      },
+      {
+        "who": "Carla",
+        "t": "Che bel regalo! Grazie mille! Sei venuta da sola?",
+        "es": "¡Qué regalo tan bonito! ¡Muchísimas gracias! ¿Has venido sola?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, è venuto anche mio marito. È andato a parcheggiare.",
+        "es": "No, también ha venido mi marido. Ha ido a aparcar."
+      },
+      {
+        "who": "Carla",
+        "t": "Benissimo! Le mie sorelle sono arrivate da Milano.",
+        "es": "¡Estupendo! Mis hermanas han llegado de Milán."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Che bella festa! Quanta gente!",
+        "es": "¡Qué fiesta tan bonita! ¡Cuánta gente!"
+      },
+      {
+        "who": "Carla",
+        "t": "Adesso spengo le candeline. Cin cin a tutti!",
+        "es": "Ahora soplo las velas. ¡Chinchín a todos!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Cin cin! Auguri di cuore!",
+        "es": "¡Chinchín! ¡Felicidades de corazón!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Con quién ha venido Yolanda?",
+        "options": [
+          "Con su marido",
+          "Con Hugo",
+          "Sola"
+        ],
+        "answer": "Con su marido"
+      },
+      {
+        "q": "¿De dónde han llegado las hermanas de Carla?",
+        "options": [
+          "De Milán",
+          "De Roma",
+          "De Madrid"
+        ],
+        "answer": "De Milán"
+      },
+      {
+        "q": "¿Qué hace Carla al final?",
+        "options": [
+          "Soplar las velas",
+          "Abrir otro regalo",
+          "Bailar"
+        ],
+        "answer": "Soplar las velas"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Grazie, altrettanto!",
+    "es": "¡Gracias, igualmente!",
+    "context": "Cuando alguien te felicita las fiestas y quieres devolverle el deseo"
+  },
+  "same": {
+    "text": "Para brindar y celebrar decimos casi lo mismo.",
+    "examples": [
+      {
+        "t": "Cin cin!",
+        "es": "¡Chinchín!"
+      },
+      {
+        "t": "festeggiare",
+        "es": "festejar"
+      },
+      {
+        "t": "l'invito",
+        "es": "la invitación"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "gli auguri",
+    "means": "las felicidades, los buenos deseos",
+    "looksLike": "los augurios (presagios)",
+    "emoji": "🎉",
+    "tip": "Tanti auguri! no anuncia nada malo: es «¡muchas felicidades!». Sirve para cumpleaños, bodas y fiestas."
+  },
+  "summary": [
+    "Felicitar: Tanti auguri! Buon compleanno! Buona Pasqua! Buon anno!",
+    "Responder: Grazie, altrettanto!",
+    "Brindar: Cin cin!",
+    "Contar la fiesta: sono venute, è arrivato, abbiamo festeggiato."
+  ],
+  "reviewed": false,
+  "photo": "it-a2-u02-l3"
+}

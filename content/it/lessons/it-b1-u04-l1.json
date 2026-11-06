@@ -1,0 +1,88 @@
+{
+  "id": "it-b1-u04-l1",
+  "unit": "it-b1-u04",
+  "title": "Che buono! Palabras para opinar",
+  "goal": "a dar tu opinión sobre comida, productos y sitios con adjetivos de valoración",
+  "emoji": "🧀",
+  "photoQuery": "parmesan cheese wheels aging",
+  "vocab": [
+    { "id": "opin-squisito", "t": "squisito / squisita", "es": "exquisito, riquísimo", "emoji": "😋", "pos": "adj", "ex": { "t": "Questo formaggio è squisito.", "es": "Este queso está riquísimo." } },
+    { "id": "opin-saporito", "t": "saporito / saporita", "es": "sabroso, con mucho sabor", "emoji": "🧂", "pos": "adj", "ex": { "t": "Il prosciutto di Parma è dolce ma saporito.", "es": "El jamón de Parma es suave pero sabroso." } },
+    { "id": "opin-insipido", "t": "insipido / insipida", "es": "soso, sin sabor", "emoji": "😐", "pos": "adj", "ex": { "t": "La minestra è un po' insipida.", "es": "La sopa está un poco sosa." } },
+    { "id": "opin-pesante", "t": "pesante", "es": "pesado, que sienta pesado", "emoji": "🪨", "pos": "adj", "note": "Para la comida: que cuesta digerir. Lo contrario es leggero.", "ex": { "t": "La cena era buona ma pesante.", "es": "La cena estaba buena pero pesada." } },
+    { "id": "opin-leggero", "t": "leggero / leggera", "es": "ligero", "emoji": "🪶", "pos": "adj", "ex": { "t": "Stasera vorrei qualcosa di leggero.", "es": "Esta noche querría algo ligero." } },
+    { "id": "opin-caro", "t": "caro / cara", "es": "caro", "emoji": "💸", "pos": "adj", "ex": { "t": "Questo olio è buono, ma è caro.", "es": "Este aceite es bueno, pero es caro." } },
+    { "id": "opin-conveniente", "t": "conveniente", "es": "barato, a buen precio", "emoji": "🏷️", "pos": "adj", "note": "En una tienda, conveniente = de buen precio, que compensa.", "ex": { "t": "Al mercato la frutta è più conveniente.", "es": "En el mercado la fruta está más barata." } },
+    { "id": "opin-secondo-me", "t": "secondo me", "es": "en mi opinión, para mí", "emoji": "💭", "pos": "phrase", "ex": { "t": "Secondo me, questo vino è ottimo.", "es": "Para mí, este vino es buenísimo." } },
+    { "id": "opin-il-parere", "t": "il parere", "es": "la opinión, el parecer", "emoji": "🗣️", "pos": "n", "ex": { "t": "Qual è il tuo parere?", "es": "¿Cuál es tu opinión?" } },
+    { "id": "opin-penso-che-sia", "t": "penso che sia…", "es": "creo que es…", "emoji": "🤔", "pos": "phrase", "note": "Detrás de penso che va el congiuntivo: sia (no è).", "ex": { "t": "Penso che sia il formaggio migliore d'Italia.", "es": "Creo que es el mejor queso de Italia." } }
+  ],
+  "grammar": "it-g-congiuntivo-intro",
+  "pron": {
+    "title": "Las consonantes dobles de la mesa",
+    "tip": "En squisito, pesante y leggero fíjate: leggero lleva gg doble, se para un instante antes. Squisito empieza por «s» pegada: no digas «esquisito».",
+    "words": ["squisito", "leggero", "saporito", "pesante", "secondo me"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Questa pizza non sa di niente: è ___.", "es": "Esta pizza no sabe a nada: está sosa.", "options": ["insipida", "saporita", "squisita"], "answer": "insipida", "why": "Si no sabe a nada, está sosa: insipida.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e2", "type": "choose", "q": "Dopo una cena così ___, vado a dormire!", "es": "Después de una cena tan pesada, ¡me voy a dormir!", "options": ["pesante", "leggera", "conveniente"], "answer": "pesante", "why": "Una cena que cuesta digerir es pesante.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e3", "type": "choose", "q": "Tre euro per un chilo di pesche? È molto ___!", "es": "¿Tres euros el kilo de melocotones? ¡Está muy bien de precio!", "options": ["conveniente", "caro", "pesante"], "answer": "conveniente", "why": "Conveniente es «a buen precio», justo lo contrario de caro.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e4", "type": "fill", "q": "___ me, questo è il bar migliore della piazza.", "es": "Para mí, este es el mejor bar de la plaza.", "answer": ["Secondo"], "bank": ["Secondo", "Per", "Penso"], "why": "La fórmula fija es secondo me: «según yo», en mi opinión.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e5", "type": "fill", "q": "Qual è il tuo ___ su questo ristorante?", "es": "¿Cuál es tu opinión sobre este restaurante?", "answer": ["parere"], "bank": ["parere", "parire", "pensare"], "why": "La opinión es il parere (masculino).", "g": "it-g-congiuntivo-intro" },
+    { "id": "e6", "type": "fill", "q": "Penso che il prosciutto ___ ottimo.", "es": "Creo que el jamón es buenísimo.", "answer": ["sia"], "bank": ["sia", "è", "essere"], "why": "Después de penso che usamos el congiuntivo: sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e7", "type": "match", "pairs": [["saporito", "sabroso"], ["insipido", "soso"], ["leggero", "ligero"], ["pesante", "pesado"], ["conveniente", "barato"]], "why": "Adjetivos para valorar comida y precios." },
+    { "id": "e8", "type": "match", "pairs": [["caro", "conveniente"], ["leggero", "pesante"], ["saporito", "insipido"], ["bello", "brutto"]], "why": "Cada adjetivo con su contrario." },
+    { "id": "e9", "type": "error", "q": "Questa torta è molto leggiera.", "wrong": "leggiera", "fix": "leggera", "why": "Se escribe leggera, sin i: legg-e-ra.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e10", "type": "error", "q": "Il ristorante è bello ma la cucina è insipita.", "wrong": "insipita", "fix": "insipida", "why": "En italiano es insipida, con d, como «insípida».", "g": "it-g-congiuntivo-intro" },
+    { "id": "e11", "type": "order", "es": "Para mí, este queso es exquisito.", "answer": "Secondo me questo formaggio è squisito", "extra": ["sia"], "why": "Con secondo me va el indicativo normal: è.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Esta sopa está un poco sosa.", "answer": ["Questa minestra è un po' insipida.", "Questa zuppa è un po' insipida.", "Questa minestra è un po' sciapa."], "why": "Soso = insipido (en el habla también sciapo).", "g": "it-g-congiuntivo-intro" },
+    { "id": "e13", "type": "translate", "dir": "from", "q": "Al mercato il pesce è più conveniente.", "answer": ["En el mercado el pescado es más barato.", "En el mercado el pescado está más barato.", "En el mercado el pescado sale más barato."], "why": "Conveniente aquí significa «más barato», no «conveniente».", "g": "it-g-congiuntivo-intro" },
+    { "id": "e14", "type": "situation", "context": "Tu amiga italiana te da a probar su lasaña y te encanta. ¿Qué le dices?", "emoji": "🍝", "options": ["È squisita!", "È insipida!", "È conveniente!"], "answer": "È squisita!", "why": "Squisita = riquísima: el mejor piropo para quien cocina.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e15", "type": "transform", "instr": "Di lo contrario cambiando el adjetivo", "q": "Questo piatto è leggero.", "answer": ["Questo piatto è pesante."], "why": "Lo contrario de leggero es pesante.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e16", "type": "speak", "t": "Secondo me, il Parmigiano è squisito.", "es": "Para mí, el parmesano está riquísimo." }
+  ],
+  "dialog": {
+    "title": "En la quesería",
+    "setting": "En una tienda de quesos de Parma, Yolanda prueba varios productos",
+    "emoji": "🧀",
+    "lines": [
+      { "who": "Negoziante", "t": "Vuole assaggiare il Parmigiano di trenta mesi?", "es": "¿Quiere probar el parmesano de treinta meses?" },
+      { "who": "Yolanda", "t": "Sì, grazie. Mmm, è squisito e molto saporito!", "es": "Sí, gracias. Mmm, ¡está riquísimo y tiene mucho sabor!" },
+      { "who": "Negoziante", "t": "E questo di dodici mesi? È più dolce.", "es": "¿Y este de doce meses? Es más suave." },
+      { "who": "Yolanda", "t": "Buono, ma secondo me è un po' insipido.", "es": "Bueno, pero para mí está un poco soso." },
+      { "who": "Negoziante", "t": "Allora prende quello di trenta mesi?", "es": "¿Entonces se lleva el de treinta meses?" },
+      { "who": "Yolanda", "t": "Sì, mezzo chilo. È caro?", "es": "Sí, medio kilo. ¿Es caro?" },
+      { "who": "Negoziante", "t": "No, oggi è in offerta. È molto conveniente.", "es": "No, hoy está de oferta. Está muy bien de precio." },
+      { "who": "Yolanda", "t": "Perfetto! Penso che sia un regalo ideale per mio marito.", "es": "¡Perfecto! Creo que es un regalo ideal para mi marido." }
+    ],
+    "questions": [
+      { "q": "¿Qué queso le gusta más a Yolanda?", "options": ["El de treinta meses", "El de doce meses", "Ninguno"], "answer": "El de treinta meses" },
+      { "q": "¿Qué opina del queso de doce meses?", "options": ["Que es un poco soso", "Que es muy caro", "Que es pesado"], "answer": "Que es un poco soso" },
+      { "q": "¿Para quién es el queso?", "options": ["Para su marido", "Para su hijo", "Para una amiga"], "answer": "Para su marido" }
+    ]
+  },
+  "realLife": { "t": "Posso assaggiare?", "es": "¿Puedo probar?", "context": "Para pedir probar un queso o un embutido en una tienda o un mercado" },
+  "falseFriend": {
+    "word": "brutto / brutta",
+    "means": "feo / fea",
+    "looksLike": "bruto",
+    "emoji": "🙈",
+    "tip": "Brutto no es «bruto»: es feo. Un posto brutto es un sitio feo, y brutto tempo es mal tiempo."
+  },
+  "same": {
+    "text": "Muchos adjetivos de opinión son casi iguales que en español.",
+    "examples": [
+      { "t": "delizioso", "es": "delicioso" },
+      { "t": "caro", "es": "caro" },
+      { "t": "squisito", "es": "exquisito" }
+    ]
+  },
+  "summary": [
+    "Para la comida: squisito, saporito, insipido, pesante, leggero.",
+    "Para el precio: caro / conveniente (a buen precio).",
+    "Para opinar: secondo me + indicativo (secondo me è buono).",
+    "Un adelanto: penso che sia… = creo que es…",
+    "¡Ojo! Brutto = feo."
+  ],
+  "reviewed": false
+}

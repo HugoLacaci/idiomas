@@ -1,0 +1,515 @@
+{
+  "id": "it-a0-u00-l1",
+  "unit": "it-a0-u00",
+  "title": "Cinco vocales y el alfabeto",
+  "goal": "a leer las vocales italianas y a conocer el alfabeto",
+  "emoji": "🔤",
+  "photoQuery": "rome street cafe morning",
+  "vocab": [
+    {
+      "id": "ciao",
+      "t": "ciao",
+      "es": "hola / adiós",
+      "emoji": "👋",
+      "pos": "phrase",
+      "ex": {
+        "t": "Ciao, Hugo!",
+        "es": "¡Hola, Hugo!"
+      },
+      "note": "Sirve para saludar y para despedirse, con gente de confianza."
+    },
+    {
+      "id": "grazie",
+      "t": "grazie",
+      "es": "gracias",
+      "emoji": "🙏",
+      "pos": "phrase",
+      "ex": {
+        "t": "Grazie mille!",
+        "es": "¡Muchísimas gracias!"
+      }
+    },
+    {
+      "id": "prego",
+      "t": "prego",
+      "es": "de nada / adelante",
+      "emoji": "😊",
+      "pos": "phrase",
+      "ex": {
+        "t": "Grazie! — Prego!",
+        "es": "¡Gracias! —¡De nada!"
+      },
+      "note": "También lo dice el camarero para preguntarte qué quieres."
+    },
+    {
+      "id": "per-favore",
+      "t": "per favore",
+      "es": "por favor",
+      "emoji": "🤲",
+      "pos": "phrase",
+      "ex": {
+        "t": "Un'acqua, per favore.",
+        "es": "Un agua, por favor."
+      }
+    },
+    {
+      "id": "la-pizza",
+      "t": "la pizza",
+      "es": "la pizza",
+      "emoji": "🍕",
+      "pos": "n",
+      "ex": {
+        "t": "La pizza è buonissima!",
+        "es": "¡La pizza está buenísima!"
+      }
+    },
+    {
+      "id": "il-caffe",
+      "t": "il caffè",
+      "es": "el café",
+      "emoji": "☕",
+      "pos": "n",
+      "ex": {
+        "t": "Il caffè è buono.",
+        "es": "El café está bueno."
+      },
+      "note": "Doble f y acento en la e final."
+    },
+    {
+      "id": "la-pasta",
+      "t": "la pasta",
+      "es": "la pasta",
+      "emoji": "🍝",
+      "pos": "n",
+      "ex": {
+        "t": "Amo la pasta.",
+        "es": "Me encanta la pasta."
+      }
+    },
+    {
+      "id": "l-amore",
+      "t": "l'amore",
+      "es": "el amor",
+      "emoji": "❤️",
+      "pos": "n",
+      "ex": {
+        "t": "Ciao, amore!",
+        "es": "¡Hola, cariño!"
+      }
+    },
+    {
+      "id": "l-italia",
+      "t": "l'Italia",
+      "es": "Italia",
+      "emoji": "🇮🇹",
+      "pos": "n",
+      "ex": {
+        "t": "L'Italia è bellissima.",
+        "es": "Italia es preciosa."
+      }
+    }
+  ],
+  "pron": {
+    "title": "Cinco vocales, como en español",
+    "tip": "Las vocales italianas son a, e, i, o, u, igual que las nuestras. Dilas claras y completas, también al final: pastA, amorE. La h no suena nunca.",
+    "words": [
+      "amore",
+      "Italia",
+      "uva",
+      "pasta",
+      "pane"
+    ],
+    "pairs": [
+      [
+        "sale",
+        "sole"
+      ],
+      [
+        "pasta",
+        "pasto"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "minimal",
+      "pair": [
+        "sale",
+        "sole"
+      ],
+      "answer": "sole",
+      "es": [
+        "la sal",
+        "el sol"
+      ],
+      "why": "Solo cambia una vocal: sAle (sal) y sOle (sol)."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "___ mille!",
+      "es": "¡Muchísimas gracias!",
+      "options": [
+        "Grazie",
+        "Gracie",
+        "Grasie"
+      ],
+      "answer": "Grazie",
+      "why": "«Gracias» se escribe con z: grazie. Esa z suena como «ts»."
+    },
+    {
+      "id": "e3",
+      "type": "speak",
+      "t": "Ciao, amore!",
+      "es": "¡Hola, cariño!"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Grazie! — ___!",
+      "es": "¡Gracias! —¡De nada!",
+      "answer": [
+        "Prego"
+      ],
+      "bank": [
+        "Prego",
+        "Ciao",
+        "Pizza"
+      ],
+      "why": "A «grazie» se responde «prego»: de nada."
+    },
+    {
+      "id": "e5",
+      "type": "minimal",
+      "pair": [
+        "pasta",
+        "pasto"
+      ],
+      "answer": "pasta",
+      "es": [
+        "la pasta",
+        "la comida"
+      ],
+      "why": "Fíjate en la última vocal: pastA es la pasta; pastO es una comida del día."
+    },
+    {
+      "id": "e6",
+      "type": "choose",
+      "q": "Un ___, per favore.",
+      "es": "Un café, por favor.",
+      "options": [
+        "caffè",
+        "cafè",
+        "caffe"
+      ],
+      "answer": "caffè",
+      "why": "Caffè lleva dos f y acento en la e final."
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "Una pizza, por favor.",
+      "answer": "Una pizza per favore",
+      "extra": [
+        "prego"
+      ],
+      "why": "«Por favor» es «per favore», y va al final, como en español."
+    },
+    {
+      "id": "e8",
+      "type": "choose",
+      "q": "La lettera H si chiama ___.",
+      "es": "La letra H se llama…",
+      "options": [
+        "acca",
+        "hache",
+        "effe"
+      ],
+      "answer": "acca",
+      "why": "En italiano la h se llama «acca» y no suena nunca."
+    },
+    {
+      "id": "e9",
+      "type": "match",
+      "pairs": [
+        [
+          "ciao",
+          "hola / adiós"
+        ],
+        [
+          "grazie",
+          "gracias"
+        ],
+        [
+          "prego",
+          "de nada"
+        ],
+        [
+          "per favore",
+          "por favor"
+        ],
+        [
+          "amore",
+          "amor"
+        ]
+      ],
+      "why": "Son palabras que vas a usar desde el primer día en Italia."
+    },
+    {
+      "id": "e10",
+      "type": "minimal",
+      "pair": [
+        "nonno",
+        "nonna"
+      ],
+      "answer": "nonna",
+      "es": [
+        "el abuelo",
+        "la abuela"
+      ],
+      "why": "Como en español: -o para él, -a para ella."
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Un caffe, per favore.",
+      "wrong": "caffe",
+      "fix": "caffè",
+      "es": "Un café, por favor.",
+      "why": "Caffè termina en è con acento: es ahí donde cae la fuerza de la palabra."
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Un café, por favor.",
+      "answer": [
+        "Un caffè, per favore.",
+        "Un caffè per favore"
+      ],
+      "why": "Café = caffè; por favor = per favore."
+    },
+    {
+      "id": "e13",
+      "type": "speak",
+      "t": "Grazie mille!",
+      "es": "¡Muchísimas gracias!"
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "q": "Un'acqua, per ___.",
+      "es": "Un agua, por favor.",
+      "answer": [
+        "favore"
+      ],
+      "bank": [
+        "favore",
+        "favor",
+        "favori"
+      ],
+      "why": "En italiano es «per favore», con e al final."
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Un camarero de Roma te trae el café. ¿Qué le dices?",
+      "emoji": "☕",
+      "options": [
+        "Grazie!",
+        "Prego!",
+        "Pizza!"
+      ],
+      "answer": "Grazie!",
+      "why": "Para dar las gracias: grazie. «Prego» es lo que te contestará él."
+    },
+    {
+      "id": "e16",
+      "type": "minimal",
+      "pair": [
+        "caro",
+        "cara"
+      ],
+      "answer": "caro",
+      "es": [
+        "caro / querido",
+        "cara / querida"
+      ],
+      "why": "Escucha la vocal final: carO o carA."
+    },
+    {
+      "id": "e17",
+      "type": "translate",
+      "dir": "from",
+      "q": "Ciao, amore!",
+      "answer": [
+        "Hola, cariño",
+        "Hola, amor",
+        "Adiós, cariño",
+        "Adiós, amor"
+      ],
+      "why": "Ciao vale para saludar y para despedirse; amore es amor o cariño."
+    },
+    {
+      "id": "e18",
+      "type": "order",
+      "es": "Hola, Hugo, ¡muchísimas gracias!",
+      "answer": "Ciao Hugo grazie mille",
+      "extra": [
+        "prego"
+      ],
+      "why": "Grazie mille = mil gracias, muchísimas gracias."
+    },
+    {
+      "id": "e19",
+      "type": "speak",
+      "t": "Una pizza e un caffè, per favore.",
+      "es": "Una pizza y un café, por favor."
+    },
+    {
+      "id": "e20",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Bar Roma",
+      "text": "BAR ROMA\nCaffè 1,20 €\nCappuccino 1,50 €\nPizza 3,50 €\nGrazie e arrivederci!",
+      "questions": [
+        {
+          "q": "¿Cuánto cuesta el café?",
+          "options": [
+            "1,20 €",
+            "1,50 €",
+            "3,50 €"
+          ],
+          "answer": "1,20 €"
+        },
+        {
+          "q": "¿Qué palabra significa «gracias»?",
+          "options": [
+            "Grazie",
+            "Arrivederci",
+            "Pizza"
+          ],
+          "answer": "Grazie"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "title": "Mi primer café en Roma",
+    "setting": "En un bar cerca de la estación de Roma Termini",
+    "emoji": "☕",
+    "lines": [
+      {
+        "who": "Marco",
+        "t": "Buongiorno! Prego!",
+        "es": "¡Buenos días! ¡Dígame!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Ciao! Un caffè, per favore.",
+        "es": "¡Hola! Un café, por favor."
+      },
+      {
+        "who": "Marco",
+        "t": "Un caffè. Ecco!",
+        "es": "Un café. ¡Aquí tiene!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie!",
+        "es": "¡Gracias!"
+      },
+      {
+        "who": "Marco",
+        "t": "Prego! Anche un cornetto?",
+        "es": "¡De nada! ¿También un cruasán?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, grazie!",
+        "es": "¡Sí, gracias!"
+      },
+      {
+        "who": "Marco",
+        "t": "Perfetto! Ecco il cornetto.",
+        "es": "¡Perfecto! Aquí está el cruasán."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie mille, ciao!",
+        "es": "¡Muchísimas gracias, adiós!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué pide Yolanda primero?",
+        "options": [
+          "Un café",
+          "Una pizza",
+          "Un agua"
+        ],
+        "answer": "Un café"
+      },
+      {
+        "q": "¿Qué contesta Marco a «grazie»?",
+        "options": [
+          "Prego",
+          "Ciao",
+          "Perfetto"
+        ],
+        "answer": "Prego"
+      },
+      {
+        "q": "¿Qué más toma Yolanda?",
+        "options": [
+          "Un cruasán",
+          "Una pizza",
+          "Pasta"
+        ],
+        "answer": "Un cruasán"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Grazie mille!",
+    "es": "¡Muchísimas gracias!",
+    "context": "Para dar las gracias de corazón, en cualquier sitio"
+  },
+  "same": {
+    "text": "Igual que en español: las vocales son las mismas cinco y casi todo se lee como se escribe.",
+    "examples": [
+      {
+        "t": "la casa",
+        "es": "la casa"
+      },
+      {
+        "t": "la luna",
+        "es": "la luna"
+      },
+      {
+        "t": "il vino",
+        "es": "el vino"
+      },
+      {
+        "t": "la rosa",
+        "es": "la rosa"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "burro",
+    "means": "mantequilla",
+    "looksLike": "burro (el animal)",
+    "emoji": "🧈",
+    "tip": "Si pides «pane e burro» te traen pan con mantequilla. El burro animal es «l'asino»."
+  },
+  "summary": [
+    "Las vocales italianas son las mismas cinco que las nuestras",
+    "La h no suena nunca: se llama «acca»",
+    "Grazie = gracias; prego = de nada",
+    "Caffè lleva dos f y acento en la è"
+  ],
+  "reviewed": false,
+  "photo": "it-a0-u00-l1"
+}

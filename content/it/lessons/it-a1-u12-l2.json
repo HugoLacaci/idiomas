@@ -1,0 +1,443 @@
+{
+  "id": "it-a1-u12-l2",
+  "unit": "it-a1-u12",
+  "title": "Mi piace, mi piacciono",
+  "goal": "a decir lo que te gusta y lo que no con mi piace y mi piacciono",
+  "emoji": "❤️",
+  "photoQuery": "cinema seats popcorn film",
+  "vocab": [
+    {
+      "id": "tempo-mi-piace",
+      "t": "mi piace",
+      "es": "me gusta",
+      "emoji": "❤️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Mi piace la musica italiana.",
+        "es": "Me gusta la música italiana."
+      }
+    },
+    {
+      "id": "tempo-mi-piacciono",
+      "t": "mi piacciono",
+      "es": "me gustan",
+      "emoji": "💕",
+      "pos": "phrase",
+      "ex": {
+        "t": "Mi piacciono i film romantici.",
+        "es": "Me gustan las películas románticas."
+      }
+    },
+    {
+      "id": "tempo-non-mi-piace",
+      "t": "non mi piace",
+      "es": "no me gusta",
+      "emoji": "👎",
+      "pos": "phrase",
+      "ex": {
+        "t": "Non mi piace il calcio.",
+        "es": "No me gusta el fútbol."
+      }
+    },
+    {
+      "id": "tempo-ti-piace",
+      "t": "ti piace?",
+      "es": "¿te gusta?",
+      "emoji": "🤔",
+      "pos": "phrase",
+      "ex": {
+        "t": "Ti piace ballare?",
+        "es": "¿Te gusta bailar?"
+      }
+    },
+    {
+      "id": "tempo-il-cinema",
+      "t": "il cinema",
+      "es": "el cine",
+      "emoji": "🎬",
+      "pos": "n",
+      "ex": {
+        "t": "Mi piace andare al cinema.",
+        "es": "Me gusta ir al cine."
+      }
+    },
+    {
+      "id": "tempo-i-film",
+      "t": "i film",
+      "es": "las películas",
+      "emoji": "🎞️",
+      "pos": "n",
+      "note": "Film es masculino y no cambia en plural: il film, i film.",
+      "ex": {
+        "t": "Mi piacciono i film italiani.",
+        "es": "Me gustan las películas italianas."
+      }
+    },
+    {
+      "id": "tempo-i-gialli",
+      "t": "i gialli",
+      "es": "las novelas policiacas",
+      "emoji": "🕵️‍♀️",
+      "pos": "n",
+      "note": "Se llaman «amarillos» por el color de las portadas de una colección muy famosa.",
+      "ex": {
+        "t": "Mi piacciono molto i gialli.",
+        "es": "Me gustan mucho las novelas policiacas."
+      }
+    },
+    {
+      "id": "tempo-la-musica",
+      "t": "la musica",
+      "es": "la música",
+      "emoji": "🎶",
+      "pos": "n",
+      "ex": {
+        "t": "La musica mi piace tanto.",
+        "es": "La música me gusta mucho."
+      }
+    },
+    {
+      "id": "tempo-le-serie-tv",
+      "t": "le serie tv",
+      "es": "las series de televisión",
+      "emoji": "📺",
+      "pos": "n",
+      "ex": {
+        "t": "Ti piacciono le serie tv?",
+        "es": "¿Te gustan las series?"
+      }
+    }
+  ],
+  "grammar": "it-g-mi-piace",
+  "pron": {
+    "title": "La cc de piacciono",
+    "tip": "Cc delante de i suena como una ch fuerte y larga: «piach-cho-no». La i casi no se oye.",
+    "words": [
+      "piacciono",
+      "faccio",
+      "cappuccino",
+      "piace"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Mi ___ la musica italiana.",
+      "es": "Me gusta la música italiana.",
+      "options": [
+        "piace",
+        "piacciono"
+      ],
+      "answer": "piace",
+      "why": "La musica es una sola cosa: piace.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Mi ___ i film romantici.",
+      "es": "Me gustan las películas románticas.",
+      "options": [
+        "piace",
+        "piacciono"
+      ],
+      "answer": "piacciono",
+      "why": "I film es plural: piacciono.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "___ piace andare al cinema?",
+      "es": "¿Te gusta ir al cine?",
+      "options": [
+        "Ti",
+        "Tu",
+        "Mi"
+      ],
+      "answer": "Ti",
+      "why": "¿Te gusta? = ti piace?",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Mi piace ___ le serie tv.",
+      "es": "Me gusta ver series.",
+      "options": [
+        "guardare",
+        "guardo",
+        "guardano"
+      ],
+      "answer": "guardare",
+      "why": "Detrás de mi piace, el verbo va en infinitivo.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Mi ___ molto i gialli.",
+      "es": "Me gustan mucho las novelas policiacas.",
+      "answer": [
+        "piacciono"
+      ],
+      "bank": [
+        "piace",
+        "piacciono",
+        "piaci"
+      ],
+      "why": "I gialli es plural: piacciono.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Non mi ___ il calcio.",
+      "es": "No me gusta el fútbol.",
+      "answer": [
+        "piace"
+      ],
+      "bank": [
+        "piace",
+        "piacciono",
+        "piacere"
+      ],
+      "why": "Il calcio es singular: non mi piace.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "___ piace cantare in macchina.",
+      "es": "Me gusta cantar en el coche.",
+      "answer": [
+        "Mi",
+        "mi"
+      ],
+      "hint": "me",
+      "why": "«Me gusta» = mi piace.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Mi piace i gialli.",
+      "wrong": "piace",
+      "fix": "piacciono",
+      "why": "I gialli es plural: mi piacciono.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Io piace il cinema.",
+      "wrong": "Io",
+      "fix": "Mi",
+      "why": "No se dice «yo gusta»: mi piace il cinema.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "Mi piacciono le serie tv.",
+      "answer": [
+        "Non mi piacciono le serie tv."
+      ],
+      "why": "Non delante de mi.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Pásala a plural (i libri)",
+      "q": "Mi piace il libro.",
+      "answer": [
+        "Mi piacciono i libri."
+      ],
+      "why": "Plural: mi piacciono i libri.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "¿Te gusta la música italiana?",
+      "answer": "Ti piace la musica italiana",
+      "extra": [
+        "piacciono"
+      ],
+      "why": "Una cosa: ti piace.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "Me gustan las películas.",
+      "answer": [
+        "Mi piacciono i film."
+      ],
+      "why": "Film es plural aquí: mi piacciono i film.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "from",
+      "q": "Non mi piacciono i gialli.",
+      "answer": [
+        "No me gustan las novelas policiacas.",
+        "No me gustan las novelas negras.",
+        "No me gustan los libros policiacos."
+      ],
+      "why": "I gialli = las novelas policiacas.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Hugo te propone ver una serie italiana. Te encantan las series.",
+      "emoji": "📺",
+      "options": [
+        "Sì! Mi piacciono le serie tv.",
+        "Sì! Mi piace le serie tv.",
+        "Sì! Io piaccio le serie tv."
+      ],
+      "answer": "Sì! Mi piacciono le serie tv.",
+      "why": "Le serie es plural: mi piacciono.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e16",
+      "type": "match",
+      "pairs": [
+        [
+          "Mi piace",
+          "Me gusta"
+        ],
+        [
+          "Mi piacciono",
+          "Me gustan"
+        ],
+        [
+          "Non mi piace",
+          "No me gusta"
+        ],
+        [
+          "Ti piace?",
+          "¿Te gusta?"
+        ]
+      ],
+      "why": "Piace con una cosa, piacciono con varias.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e17",
+      "type": "speak",
+      "t": "Mi piace il cinema e mi piacciono i gialli.",
+      "es": "Me gusta el cine y me gustan las novelas policiacas."
+    }
+  ],
+  "dialog": {
+    "title": "¿Qué vemos esta noche?",
+    "setting": "En el sofá, Yolanda y su hijo Hugo eligen qué ver",
+    "emoji": "🛋️",
+    "lines": [
+      {
+        "who": "Hugo",
+        "t": "Mamma, ti piacciono le serie tv?",
+        "es": "Mamá, ¿te gustan las series?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, ma mi piacciono di più i film.",
+        "es": "Sí, pero me gustan más las películas."
+      },
+      {
+        "who": "Hugo",
+        "t": "Ti piace questo film? È un giallo.",
+        "es": "¿Te gusta esta película? Es policiaca."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì! Mi piacciono molto i gialli.",
+        "es": "¡Sí! Me gustan mucho las policiacas."
+      },
+      {
+        "who": "Hugo",
+        "t": "E la musica del film?",
+        "es": "¿Y la música de la película?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Non mi piace tanto, è triste.",
+        "es": "No me gusta mucho, es triste."
+      },
+      {
+        "who": "Hugo",
+        "t": "Allora guardiamo il film e basta!",
+        "es": "¡Pues vemos la película y ya está!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué le gusta más a Yolanda?",
+        "options": [
+          "Las películas",
+          "Las series",
+          "El fútbol"
+        ],
+        "answer": "Las películas"
+      },
+      {
+        "q": "¿Qué tipo de película eligen?",
+        "options": [
+          "Policiaca",
+          "Romántica",
+          "De risa"
+        ],
+        "answer": "Policiaca"
+      },
+      {
+        "q": "¿Qué no le gusta a Yolanda?",
+        "options": [
+          "La música de la película",
+          "La película",
+          "El sofá"
+        ],
+        "answer": "La música de la película"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Mi piace tanto l'Italia!",
+    "es": "¡Me gusta tanto Italia!",
+    "context": "Cuando un italiano te pregunta qué te parece su país"
+  },
+  "same": {
+    "text": "Mi piace funciona como «me gusta»: lo que gusta decide si el verbo va en singular o en plural.",
+    "examples": [
+      {
+        "t": "Mi piace il cinema.",
+        "es": "Me gusta el cine."
+      },
+      {
+        "t": "Mi piacciono i film.",
+        "es": "Me gustan las películas."
+      },
+      {
+        "t": "Non mi piace il calcio.",
+        "es": "No me gusta el fútbol."
+      }
+    ]
+  },
+  "summary": [
+    "Una cosa o un verbo: mi piace (il cinema, ballare).",
+    "Varias cosas: mi piacciono (i film, i gialli).",
+    "Para preguntar: ti piace? / ti piacciono?",
+    "Negativa: non mi piace."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u12-l2"
+}

@@ -1,0 +1,125 @@
+{
+  "id": "it-g-ce-ci-sono",
+  "lang": "it",
+  "level": "A1",
+  "title": "C'è y ci sono (hay)",
+  "short": "C'è un divano, ci sono due sedie: «hay» cambia con el plural.",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "🏠",
+      "title": "¿Qué hay en tu casa?",
+      "text": "Para decir «hay» en italiano tienes dos formas. Una para una cosa y otra para varias.",
+      "examples": [
+        { "t": "C'è un balcone.", "es": "Hay un balcón.", "hl": "C'è" },
+        { "t": "Ci sono due bagni.", "es": "Hay dos baños.", "hl": "Ci sono" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "📋",
+      "title": "Una o varias",
+      "text": "Mira el nombre que va detrás: si es singular, ==c'è==; si es plural, ==ci sono==.",
+      "table": {
+        "head": ["", "Afirmativa", "Negativa", "Pregunta"],
+        "rows": [
+          ["Una cosa", "==c'è== un letto", "non ==c'è== un letto", "==c'è== un letto?"],
+          ["Varias", "==ci sono== due letti", "non ==ci sono== letti", "==ci sono== letti?"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "emoji": "✂️",
+      "title": "El apóstrofo",
+      "text": "C'è es ci + è, pegados: ==c'è==. Se pronuncia «che». Nunca escribas «ci è». En plural no se pega: ==ci sono== («chi sono»)."
+    },
+    {
+      "kind": "compare",
+      "emoji": "🇪🇸",
+      "title": "En español, «hay» no cambia",
+      "text": "Nosotros decimos «hay» para todo. En italiano el verbo concuerda: ==c'è== una sedia, ==ci sono== sei sedie.",
+      "examples": [
+        { "t": "C'è una sedia.", "es": "Hay una silla.", "hl": "C'è" },
+        { "t": "Ci sono sei sedie.", "es": "Hay seis sillas.", "hl": "Ci sono" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "emoji": "🙋‍♀️",
+      "title": "¿Está Hugo?",
+      "text": "C'è también sirve para personas: «¿Está Hugo?» = ==C'è== Hugo? Y «no está» = non ==c'è==.",
+      "examples": [
+        { "t": "Pronto, c'è Hugo?", "es": "¿Diga? ¿Está Hugo?", "hl": "c'è" },
+        { "t": "No, non c'è.", "es": "No, no está.", "hl": "non c'è" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "emoji": "📍",
+      "title": "C'è o dov'è",
+      "text": "Para preguntar si existe algo: ==c'è== un bagno? Para preguntar dónde está algo concreto: ==dov'è== il bagno? Igual que «¿hay…?» y «¿dónde está…?»."
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo!",
+      "text": "❌ C'è due camere → ✅ ==Ci sono== due camere. ❌ Ci è → ✅ ==C'è==. ❌ Dove c'è il bagno? → ✅ ==Dov'è== il bagno?"
+    },
+    {
+      "kind": "tip",
+      "emoji": "💡",
+      "title": "Truco rápido",
+      "text": "Cuenta las cosas: ¿una? ==c'è==. ¿Dos o más? ==ci sono==. Y con «quanti / quante» siempre plural: Quante camere ==ci sono==?"
+    }
+  ],
+  "compare": {
+    "es": "En la cocina hay una mesa y hay cuatro sillas. ¿Hay ascensor? ¿Está Hugo?",
+    "target": "In cucina c'è un tavolo e ci sono quattro sedie. C'è l'ascensore? C'è Hugo? «Hay» cambia: c'è con una cosa, ci sono con varias."
+  },
+  "errors": [
+    { "wrong": "C'è due camere.", "right": "Ci sono due camere.", "why": "Due camere es plural, así que usamos ci sono." },
+    { "wrong": "Ci è un divano.", "right": "C'è un divano.", "why": "Ci + è siempre se une con apóstrofo: c'è." },
+    { "wrong": "Ci sono un tavolo.", "right": "C'è un tavolo.", "why": "Un tavolo es una sola cosa: c'è." },
+    { "wrong": "Dove c'è il bagno?", "right": "Dov'è il bagno?", "why": "Para preguntar dónde está algo concreto usamos dov'è, como «¿dónde está?»." },
+    { "wrong": "Ce sono tre letti.", "right": "Ci sono tre letti.", "why": "En plural es ci, con i: ci sono." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "In bagno ___ uno specchio.", "options": ["c'è", "ci sono"], "answer": "c'è", "why": "Uno specchio, una sola cosa: c'è.", "g": "it-g-ce-ci-sono" },
+    { "id": "e2", "type": "choose", "q": "In soggiorno ___ due poltrone.", "options": ["c'è", "ci sono"], "answer": "ci sono", "why": "Due poltrone, plural: ci sono.", "g": "it-g-ce-ci-sono" },
+    { "id": "e3", "type": "choose", "q": "In cucina ___ un frigorifero.", "es": "En la cocina hay una nevera.", "options": ["c'è", "ci sono"], "answer": "c'è", "why": "Un frigorifero: singular, c'è.", "g": "it-g-ce-ci-sono" },
+    { "id": "e4", "type": "choose", "q": "In camera ___ tanti vestiti.", "es": "En el dormitorio hay mucha ropa.", "options": ["c'è", "ci sono"], "answer": "ci sono", "why": "Vestiti es plural: ci sono.", "g": "it-g-ce-ci-sono" },
+    { "id": "e5", "type": "choose", "q": "Pronto, ___ Hugo?", "es": "¿Diga? ¿Está Hugo?", "options": ["c'è", "è", "ci sono"], "answer": "c'è", "why": "Para preguntar si alguien está, usamos c'è.", "g": "it-g-ce-ci-sono" },
+    { "id": "e6", "type": "choose", "q": "Scusi, ___ il bagno?", "es": "Perdone, ¿dónde está el baño?", "options": ["dov'è", "dove c'è", "c'è dove"], "answer": "dov'è", "why": "Para preguntar dónde está algo concreto: dov'è.", "g": "it-g-ce-ci-sono" },
+    { "id": "e7", "type": "choose", "q": "Quante finestre ___?", "options": ["ci sono", "c'è"], "answer": "ci sono", "why": "Con quante preguntamos por varias: ci sono.", "g": "it-g-ce-ci-sono" },
+    { "id": "e8", "type": "fill", "q": "In terrazza ___ molti fiori.", "answer": ["ci sono"], "bank": ["c'è", "ci sono", "ce sono"], "why": "Molti fiori, plural: ci sono.", "g": "it-g-ce-ci-sono" },
+    { "id": "e9", "type": "fill", "q": "___ un problema con la doccia.", "es": "Hay un problema con la ducha.", "answer": ["C'è", "c'è"], "bank": ["C'è", "Ci sono", "Ci è"], "why": "Un problema, singular: c'è.", "g": "it-g-ce-ci-sono" },
+    { "id": "e10", "type": "fill", "q": "Non ___ asciugamani in bagno.", "es": "No hay toallas en el baño.", "answer": ["ci sono"], "bank": ["c'è", "ci sono", "sono"], "why": "Asciugamani es plural: non ci sono.", "g": "it-g-ce-ci-sono" },
+    { "id": "e11", "type": "fill", "q": "Mi dispiace, la signora non ___.", "es": "Lo siento, la señora no está.", "answer": ["c'è"], "bank": ["c'è", "ci sono", "è"], "why": "Para decir que alguien no está: non c'è.", "g": "it-g-ce-ci-sono" },
+    { "id": "e12", "type": "fill", "q": "In questo palazzo ___ l'ascensore?", "es": "¿En este edificio hay ascensor?", "answer": ["c'è"], "why": "L'ascensore, singular: c'è.", "g": "it-g-ce-ci-sono" },
+    { "id": "e13", "type": "fill", "q": "Quanti bagni ci ___?", "answer": ["sono"], "why": "Quanti bagni es plural: ci sono.", "g": "it-g-ce-ci-sono" },
+    { "id": "e14", "type": "transform", "instr": "Pásala a plural", "q": "C'è una sedia.", "answer": ["Ci sono due sedie.", "Ci sono sedie."], "why": "Plural: ci sono + sedie.", "g": "it-g-ce-ci-sono" },
+    { "id": "e15", "type": "transform", "instr": "Pásala a singular", "q": "Ci sono tre armadi.", "answer": ["C'è un armadio."], "why": "Singular: c'è + un armadio.", "g": "it-g-ce-ci-sono" },
+    { "id": "e16", "type": "transform", "instr": "Hazla negativa", "q": "C'è il wifi.", "answer": ["Non c'è il wifi."], "why": "Non delante de c'è.", "g": "it-g-ce-ci-sono" },
+    { "id": "e17", "type": "transform", "instr": "Hazla negativa", "q": "Ci sono turisti a novembre.", "answer": ["Non ci sono turisti a novembre."], "why": "Non delante de ci sono.", "g": "it-g-ce-ci-sono" },
+    { "id": "e18", "type": "transform", "instr": "Conviértela en pregunta", "q": "C'è un supermercato qui vicino.", "answer": ["C'è un supermercato qui vicino?"], "why": "El orden no cambia: solo la entonación y el signo de interrogación al final.", "g": "it-g-ce-ci-sono" },
+    { "id": "e19", "type": "error", "q": "In salotto c'è tre quadri.", "wrong": "c'è", "fix": "ci sono", "why": "Tre quadri, plural: ci sono.", "g": "it-g-ce-ci-sono" },
+    { "id": "e20", "type": "error", "q": "Ci sono due letto in camera.", "wrong": "letto", "fix": "letti", "why": "Con ci sono el nombre va en plural: due letti.", "g": "it-g-ce-ci-sono" },
+    { "id": "e21", "type": "error", "q": "Ce sono due letti.", "wrong": "Ce", "fix": "Ci", "why": "En plural se escribe ci: ci sono.", "g": "it-g-ce-ci-sono" },
+    { "id": "e22", "type": "error", "q": "Scusi, dove c'è la stazione?", "wrong": "c'è", "fix": "è", "why": "Para un lugar concreto: dov'è la stazione?", "g": "it-g-ce-ci-sono" },
+    { "id": "e23", "type": "order", "es": "En el salón hay dos sillones.", "answer": "In soggiorno ci sono due poltrone", "extra": ["c'è"], "why": "Plural: ci sono.", "g": "it-g-ce-ci-sono" },
+    { "id": "e24", "type": "order", "es": "No hay ascensor.", "answer": "Non c'è l'ascensore", "extra": ["sono"], "why": "Non + c'è.", "g": "it-g-ce-ci-sono" },
+    { "id": "e25", "type": "order", "es": "¿Cuántas habitaciones hay?", "answer": "Quante stanze ci sono", "extra": ["c'è"], "why": "Quante + nombre + ci sono.", "g": "it-g-ce-ci-sono" },
+    { "id": "e26", "type": "translate", "dir": "to", "q": "Hay un balcón.", "answer": ["C'è un balcone."], "why": "Una cosa: c'è.", "g": "it-g-ce-ci-sono" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "Hay dos baños.", "answer": ["Ci sono due bagni."], "why": "Varias cosas: ci sono. Bagno → bagni.", "g": "it-g-ce-ci-sono" },
+    { "id": "e28", "type": "translate", "dir": "from", "q": "Non c'è nessuno.", "answer": ["No hay nadie"], "why": "Non c'è nessuno = no hay nadie.", "g": "it-g-ce-ci-sono" },
+    { "id": "e29", "type": "match", "pairs": [["C'è Hugo?", "¿Está Hugo?"], ["Dov'è Hugo?", "¿Dónde está Hugo?"], ["Ci sono due letti.", "Hay dos camas."], ["Non c'è.", "No está."], ["Quante camere ci sono?", "¿Cuántos dormitorios hay?"]], "why": "C'è sirve para «hay» y para «está» (alguien).", "g": "it-g-ce-ci-sono" },
+    { "id": "e30", "type": "situation", "context": "Llamas al fijo de una amiga italiana. Contesta su marido. ¿Cómo preguntas si está ella (Giulia)?", "emoji": "☎️", "options": ["Buongiorno, c'è Giulia?", "Buongiorno, ci sono Giulia?", "Buongiorno, dov'è Giulia?"], "answer": "Buongiorno, c'è Giulia?", "why": "C'è + persona = ¿está…?", "g": "it-g-ce-ci-sono" },
+    { "id": "e31", "type": "situation", "context": "En el piso de vacaciones no hay toallas. Escribes a la dueña.", "emoji": "🧺", "options": ["Scusi, non ci sono asciugamani.", "Scusi, non c'è asciugamani.", "Scusi, non sono asciugamani."], "answer": "Scusi, non ci sono asciugamani.", "why": "Asciugamani es plural: non ci sono.", "g": "it-g-ce-ci-sono" },
+    { "id": "e32", "type": "reading", "kind": "email", "title": "Respuesta de la dueña", "text": "Gentile Yolanda, in casa ci sono due camere e un bagno. C'è il wifi, ma non c'è la lavatrice. Vicino a casa c'è un supermercato. A presto! Lucia", "questions": [
+      { "q": "¿Qué no hay en el piso?", "options": ["Lavadora", "Wifi", "Baño"], "answer": "Lavadora" },
+      { "q": "¿Qué hay cerca de la casa?", "options": ["Un supermercado", "Una farmacia", "Una playa"], "answer": "Un supermercado" }
+    ], "why": "Non c'è la lavatrice = no hay lavadora.", "g": "it-g-ce-ci-sono" }
+  ],
+  "reviewed": false
+}

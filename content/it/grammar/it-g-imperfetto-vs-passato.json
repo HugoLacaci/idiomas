@@ -1,0 +1,123 @@
+{
+  "id": "it-g-imperfetto-vs-passato",
+  "lang": "it",
+  "level": "A2",
+  "title": "Imperfetto o passato prossimo (llovía / empezó a llover)",
+  "short": "Pioveva quando siamo partiti: el imperfetto pinta el escenario y el passato prossimo cuenta lo que pasó.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Una excursión… regular",
+      "emoji": "⛅",
+      "text": "Para contar una historia necesitas dos pasados: uno para ==el escenario== y otro para ==lo que pasó==.",
+      "examples": [
+        { "t": "==Faceva== bel tempo, poi ==è arrivato== un temporale.", "es": "Hacía buen tiempo, luego llegó una tormenta.", "hl": "è arrivato" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "El escenario: imperfetto",
+      "emoji": "🎨",
+      "text": "==Imperfetto== para describir: el tiempo, la hora, cómo era todo, qué estaba pasando, qué hacías siempre.",
+      "examples": [
+        { "t": "Il cielo ==era== grigio e ==faceva== fresco.", "es": "El cielo estaba gris y hacía fresco.", "hl": "era" },
+        { "t": "==Erano== le nove.", "es": "Eran las nueve.", "hl": "Erano" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "La acción: passato prossimo",
+      "emoji": "🎬",
+      "text": "==Passato prossimo== para los hechos concretos que pasaron, uno detrás de otro, o algo que pasó una vez.",
+      "examples": [
+        { "t": "==Siamo partiti== alle nove e ==abbiamo camminato== tre ore.", "es": "Salimos a las nueve y caminamos tres horas.", "hl": "Siamo partiti" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Uno al lado del otro",
+      "emoji": "⚖️",
+      "text": "Pistas que ayudan mucho a elegir.",
+      "table": {
+        "head": ["", "Imperfetto", "Passato prossimo"],
+        "rows": [
+          ["Para qué", "describir, costumbre", "hecho, una vez"],
+          ["Palabras pista", "==mentre, sempre, di solito==", "==all'improvviso, ieri, una volta=="],
+          ["Ejemplo", "==pioveva==", "==ha cominciato== a piovere"],
+          ["Español", "llovía", "empezó a llover"]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "¡Como en español!",
+      "emoji": "🇪🇸",
+      "text": "Donde dices «llovía», «estaba», «hacía» → ==imperfetto==. Donde dices «llegué», «he visto», «empezó» → ==passato prossimo==.",
+      "examples": [
+        { "t": "Mentre camminavo, ho visto un cervo.", "es": "Mientras caminaba, vi un ciervo." },
+        { "t": "Quando siamo arrivati, pioveva.", "es": "Cuando llegamos, llovía." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Mentre ho camminato, pioveva* → ✅ mentre ==camminavo==. ❌ *All'improvviso pioveva* → ✅ all'improvviso ==ha cominciato a piovere==."
+    },
+    {
+      "kind": "tip",
+      "title": "Truco de la película",
+      "emoji": "🎥",
+      "text": "Imagina una película: el ==decorado== (sol, lluvia, gente) es imperfetto; lo que ==hacen los actores== y cambia la historia es passato prossimo.",
+      "examples": [
+        { "t": "C'era il sole. Poi è arrivata la nebbia.", "es": "Hacía sol. Luego llegó la niebla." }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español distinguimos «llovía / hacía frío» (descripción) de «llegamos / empezó a llover» (hechos).",
+    "target": "En italiano es igual: pioveva, faceva freddo (imperfetto) frente a siamo arrivati, ha cominciato a piovere (passato prossimo). Tu instinto de hispanohablante funciona muy bien."
+  },
+  "errors": [
+    { "wrong": "Quando siamo arrivati, ha fatto freddo.", "right": "Quando siamo arrivati, faceva freddo.", "why": "Hacía frío es el escenario, una descripción: faceva." },
+    { "wrong": "Mentre ho camminato, ho visto un cervo.", "right": "Mentre camminavo, ho visto un cervo.", "why": "Mentre (mientras) va con imperfetto: camminavo." },
+    { "wrong": "All'improvviso pioveva.", "right": "All'improvviso ha cominciato a piovere.", "why": "All'improvviso es un hecho que pasa en un momento: passato prossimo." },
+    { "wrong": "Ieri sono stata stanca e sono andata a letto.", "right": "Ieri ero stanca e sono andata a letto.", "why": "«Estaba cansada» describe cómo estabas: ero stanca." },
+    { "wrong": "Da piccola sono andata sempre al mare.", "right": "Da piccola andavo sempre al mare.", "why": "Una costumbre (sempre, da piccola) va en imperfetto." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Quando siamo arrivati, ___.", "es": "Cuando llegamos, llovía.", "options": ["pioveva", "ha piovuto", "piove"], "answer": "pioveva", "why": "«Llovía» describe el escenario: pioveva.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e2", "type": "choose", "q": "Faceva bel tempo, poi all'improvviso ___ un temporale.", "es": "Hacía buen tiempo y de repente llegó una tormenta.", "options": ["è arrivato", "arrivava", "arriva"], "answer": "è arrivato", "why": "All'improvviso marca un hecho: è arrivato.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e3", "type": "choose", "q": "Mentre ___ sul sentiero, ho visto una lucertola.", "es": "Mientras caminaba por el sendero, vi una lagartija.", "options": ["camminavo", "ho camminato", "cammino"], "answer": "camminavo", "why": "Mentre va con imperfetto: camminavo.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e4", "type": "choose", "q": "Ieri ___ alle otto e siamo tornati alle sei.", "es": "Ayer salimos a las ocho y volvimos a las seis.", "options": ["siamo partiti", "partivamo", "partiamo"], "answer": "siamo partiti", "why": "Hechos uno tras otro: siamo partiti, siamo tornati.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e5", "type": "choose", "q": "Il mare ___ calmo e azzurro.", "es": "El mar estaba en calma y azul.", "options": ["era", "è stato", "è"], "answer": "era", "why": "Describir cómo estaba algo: era.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e6", "type": "choose", "q": "Ero stanca, quindi ___ a letto presto.", "es": "Estaba cansada, así que me fui a la cama pronto.", "options": ["sono andata", "andavo", "sono andato"], "answer": "sono andata", "why": "Un hecho concreto: sono andata (en femenino, porque eres tú).", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e7", "type": "choose", "q": "Da piccola ___ sempre in montagna d'estate.", "es": "De pequeña siempre iba a la montaña en verano.", "options": ["andavo", "sono andata", "vado"], "answer": "andavo", "why": "Una costumbre (sempre, da piccola): andavo.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e8", "type": "choose", "q": "___ le tre quando è cominciata la pioggia.", "es": "Eran las tres cuando empezó la lluvia.", "options": ["Erano", "Sono state", "Sono"], "answer": "Erano", "why": "La hora en el pasado siempre va en imperfetto: erano le tre.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e9", "type": "fill", "q": "Quando sono uscita, ___ molto freddo.", "es": "Cuando salí, hacía mucho frío.", "answer": ["faceva"], "bank": ["faceva", "ha fatto", "fa"], "why": "El tiempo como escenario: faceva freddo.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e10", "type": "fill", "q": "Mentre mangiavamo, ___ a piovere.", "es": "Mientras comíamos, empezó a llover.", "answer": ["ha cominciato", "è cominciato", "ha iniziato"], "bank": ["ha cominciato", "cominciava", "comincia"], "why": "Lo que interrumpe la escena: ha cominciato.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e11", "type": "fill", "q": "Il sentiero ___ stretto e pieno di sassi.", "es": "El sendero era estrecho y lleno de piedras.", "answer": ["era"], "bank": ["era", "è stato", "ero"], "why": "Descripción del lugar: era.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e12", "type": "fill", "q": "Una volta ___ il treno sbagliato!", "es": "¡Una vez cogí el tren equivocado!", "answer": ["ho preso"], "bank": ["ho preso", "prendevo", "prendo"], "why": "Una volta = algo que pasó una vez: ho preso.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e13", "type": "fill", "q": "Non avevo l'ombrello, così ___ un taxi.", "es": "No tenía paraguas, así que cogí un taxi.", "answer": ["ho preso"], "hint": "prendere", "why": "La acción que hiciste: ho preso (participio irregular).", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e14", "type": "fill", "q": "Io e mio marito ___ a Monterosso alle dieci.", "es": "Mi marido y yo llegamos a Monterosso a las diez.", "answer": ["siamo arrivati"], "hint": "arrivare", "why": "Un hecho concreto: siamo arrivati (masculino plural por el grupo mixto).", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e15", "type": "conjugate", "verb": "essere", "person": "io (Yolanda)", "tense": "imperfetto", "q": "___ molto contenta di quella gita.", "answer": ["Ero", "ero"], "why": "Cómo estabas: ero contenta.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e16", "type": "conjugate", "verb": "vedere", "person": "noi", "tense": "passato prossimo", "q": "Dal treno ___ il mare.", "answer": ["abbiamo visto"], "why": "Un hecho concreto: abbiamo visto (participio irregular).", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e17", "type": "conjugate", "verb": "tirare (vento)", "person": "lui", "tense": "imperfetto", "q": "In cima ___ un vento fortissimo.", "answer": ["tirava"], "why": "Describe el tiempo que hacía: tirava vento.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e18", "type": "error", "q": "Quando siamo arrivati, piove molto.", "wrong": "piove", "fix": "pioveva", "why": "«Llovía mucho» es el escenario, en pasado: pioveva.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e19", "type": "error", "q": "Mentre camminiamo, abbiamo visto un cervo.", "wrong": "camminiamo", "fix": "camminavamo", "why": "Mentre va con imperfetto: mentre camminavamo.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e20", "type": "error", "q": "Ieri ero tornata a casa alle sette.", "wrong": "ero", "fix": "sono", "why": "Un hecho concreto de ayer: sono tornata.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e21", "type": "error", "q": "Da piccola vado sempre al mare.", "wrong": "vado", "fix": "andavo", "why": "Una costumbre de niña: andavo sempre.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e22", "type": "transform", "instr": "Une las frases con «quando»: la primera es el escenario", "q": "Piove. Arriviamo al porto.", "answer": ["Pioveva quando siamo arrivati al porto.", "Quando siamo arrivati al porto, pioveva.", "Quando siamo arrivati al porto pioveva."], "why": "El escenario en imperfetto (pioveva) y el hecho en passato (siamo arrivati).", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e23", "type": "transform", "instr": "Pásala al pasado", "q": "Mentre leggo, squilla il telefono.", "answer": ["Mentre leggevo, è squillato il telefono.", "Mentre leggevo, ha squillato il telefono.", "Mentre leggevo è squillato il telefono.", "Mentre leggevo ha squillato il telefono."], "why": "Mentre + imperfetto (leggevo); lo que interrumpe en passato (è squillato).", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e24", "type": "transform", "instr": "Pásala al pasado (soy Yolanda)", "q": "Sono stanca, ma vado in spiaggia.", "answer": ["Ero stanca, ma sono andata in spiaggia.", "Ero stanca ma sono andata in spiaggia."], "why": "Cómo estabas: ero; lo que hiciste: sono andata.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e25", "type": "order", "es": "Cuando salimos, hacía sol.", "answer": "Quando siamo usciti c'era il sole", "alt": ["C'era il sole quando siamo usciti"], "extra": ["è stato"], "why": "Hecho: siamo usciti; escenario: c'era il sole.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e26", "type": "order", "es": "Mientras comíamos, empezó a llover.", "answer": "Mentre mangiavamo ha cominciato a piovere", "alt": ["Ha cominciato a piovere mentre mangiavamo"], "extra": ["abbiamo"], "why": "Mentre + imperfetto; la interrupción en passato.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "Hacía calor y estábamos cansados.", "answer": ["Faceva caldo ed eravamo stanchi.", "Faceva caldo e eravamo stanchi."], "why": "Dos descripciones: faceva, eravamo.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "Cuando llegué, llovía.", "answer": ["Quando sono arrivata, pioveva.", "Quando sono arrivata pioveva.", "Pioveva quando sono arrivata."], "why": "Hecho: sono arrivata (femenino); escenario: pioveva.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e29", "type": "translate", "dir": "from", "q": "Mentre camminavamo, abbiamo visto un arcobaleno.", "answer": ["Mientras caminábamos, vimos un arcoíris.", "Mientras caminábamos, hemos visto un arcoíris.", "Mientras caminábamos vimos un arcoíris."], "why": "Camminavamo = caminábamos; abbiamo visto = vimos.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e30", "type": "situation", "context": "Tu hija te pregunta qué tal el viaje en barco. Quieres decir que el mar estaba muy movido.", "emoji": "🌊", "options": ["Il mare era molto mosso.", "Il mare è stato molto mosso.", "Il mare è molto mosso."], "answer": "Il mare era molto mosso.", "why": "Describir cómo estaba el mar: era.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e31", "type": "situation", "context": "Cuentas que, de repente, empezó a nevar en la montaña.", "emoji": "❄️", "options": ["All'improvviso ha cominciato a nevicare.", "All'improvviso nevicava.", "All'improvviso comincia a nevicare."], "answer": "All'improvviso ha cominciato a nevicare.", "why": "All'improvviso = un hecho puntual: passato prossimo.", "g": "it-g-imperfetto-vs-passato" },
+    { "id": "e32", "type": "match", "pairs": [["pioveva", "llovía"], ["ha piovuto", "llovió / ha llovido"], ["eravamo", "estábamos"], ["siamo arrivati", "llegamos"], ["mentre", "mientras"]], "why": "Imperfetto = escenario; passato prossimo = hechos.", "g": "it-g-imperfetto-vs-passato" }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,142 @@
+{
+  "id": "en-g-prep-time",
+  "lang": "en",
+  "level": "A1",
+  "title": "Preposiciones de tiempo: in, on, at",
+  "short": "at + horas, on + días y fechas, in + meses, años, estaciones y partes del día.",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "⏰",
+      "title": "Tres palabras para el tiempo",
+      "text": "En español casi todo es «el», «en» o «a»: el lunes, en marzo, a las nueve. En inglés hay tres: ==at==, ==on== e ==in==. Cada una tiene su sitio.",
+      "examples": [
+        { "t": "at nine o'clock", "es": "a las nueve", "hl": "at" },
+        { "t": "on Monday", "es": "el lunes", "hl": "on" },
+        { "t": "in March", "es": "en marzo", "hl": "in" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "emoji": "📍",
+      "title": "AT: el momento exacto",
+      "text": "==at== es como un punto en el reloj: las horas y algunos momentos fijos.",
+      "examples": [
+        { "t": "at half past ten", "es": "a las diez y media", "hl": "at" },
+        { "t": "at night", "es": "por la noche", "hl": "at" },
+        { "t": "at the weekend", "es": "el fin de semana", "hl": "at" },
+        { "t": "at Christmas", "es": "en Navidad", "hl": "at" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "emoji": "📅",
+      "title": "ON: un día del calendario",
+      "text": "==on== va con los días: días de la semana, fechas y días especiales.",
+      "examples": [
+        { "t": "on Sunday", "es": "el domingo", "hl": "on" },
+        { "t": "on the fifth of May", "es": "el cinco de mayo", "hl": "on" },
+        { "t": "on my birthday", "es": "el día de mi cumpleaños", "hl": "on" },
+        { "t": "on Monday morning", "es": "el lunes por la mañana", "hl": "on" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "emoji": "🗓️",
+      "title": "IN: periodos largos",
+      "text": "==in== va con periodos más largos que un día: meses, años, estaciones… y las partes del día.",
+      "examples": [
+        { "t": "in August", "es": "en agosto", "hl": "in" },
+        { "t": "in 2025", "es": "en 2025", "hl": "in" },
+        { "t": "in winter", "es": "en invierno", "hl": "in" },
+        { "t": "in the morning", "es": "por la mañana", "hl": "in" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "📋",
+      "title": "La pirámide del tiempo",
+      "text": "Del más pequeño (==at==) al más grande (==in==). ¡Ojo con night!",
+      "table": {
+        "head": ["", "Para…", "Ejemplos"],
+        "rows": [
+          ["==at==", "horas y momentos", "at 9:00, at night, at the weekend"],
+          ["==on==", "días y fechas", "on Friday, on 3 May, on Sunday evening"],
+          ["==in==", "meses, años, estaciones, partes del día", "in June, in 1999, in summer, in the evening"],
+          ["(nada)", "today, tomorrow, this, next, last, every", "tomorrow, next week, every day"]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "emoji": "🇪🇸",
+      "title": "Español e inglés",
+      "text": "Decimos «==el== lunes» sin preposición, pero en inglés hace falta: ==on== Monday. Y «a las nueve» no es «to nine»: es ==at== nine.",
+      "examples": [
+        { "t": "See you on Friday.", "es": "Nos vemos el viernes.", "hl": "on" },
+        { "t": "Lunch is at two.", "es": "La comida es a las dos.", "hl": "at" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo con estos errores!",
+      "text": "❌ in Monday → ✅ ==on== Monday. ❌ on March → ✅ ==in== March. ❌ in the night → ✅ ==at== night. ❌ on next Friday → ✅ next Friday (sin nada)."
+    },
+    {
+      "kind": "tip",
+      "emoji": "💡",
+      "title": "Truco para no dudar",
+      "text": "Hazte esta pregunta: ¿es una hora? ==at==. ¿Es un día del calendario? ==on==. ¿Es más largo que un día? ==in==. Y si lleva this, next, last o every, no pongas nada."
+    }
+  ],
+  "compare": {
+    "es": "En español usamos «a» con las horas (a las nueve), «en» con meses y años (en mayo) y nada con los días (el lunes, el 3 de mayo). «Por la mañana / por la noche» lleva «por».",
+    "target": "En inglés: at con horas y at night / at the weekend; on con días y fechas (on Monday, on 3 May); in con meses, años, estaciones y partes del día (in May, in the morning). Con today, tomorrow, this, next, last y every, sin preposición."
+  },
+  "errors": [
+    { "wrong": "See you in Monday.", "right": "See you on Monday.", "why": "Los días de la semana van con on." },
+    { "wrong": "My birthday is on May.", "right": "My birthday is in May.", "why": "Un mes solo va con in. Si dices el día exacto, on: on 5 May." },
+    { "wrong": "I read in the night.", "right": "I read at night.", "why": "Night es la excepción: at night (pero in the morning, in the evening)." },
+    { "wrong": "The appointment is in 10 o'clock.", "right": "The appointment is at 10 o'clock.", "why": "Con las horas siempre at." },
+    { "wrong": "See you on next Friday.", "right": "See you next Friday.", "why": "Con next, last, this y every no se pone preposición." },
+    { "wrong": "We meet on the morning.", "right": "We meet in the morning.", "why": "Las partes del día van con in: in the morning, in the afternoon." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "The film is ___ eight o'clock.", "es": "La película es a las ocho.", "options": ["at", "on", "in"], "answer": "at", "why": "Con horas: at eight o'clock.", "g": "en-g-prep-time" },
+    { "id": "e2", "type": "choose", "q": "My son Hugo calls me ___ Sundays.", "es": "Mi hijo Hugo me llama los domingos.", "options": ["on", "in", "at"], "answer": "on", "why": "Días de la semana con on.", "g": "en-g-prep-time" },
+    { "id": "e3", "type": "choose", "q": "We go to the village ___ July.", "es": "Vamos al pueblo en julio.", "options": ["in", "on", "at"], "answer": "in", "why": "Meses con in.", "g": "en-g-prep-time" },
+    { "id": "e4", "type": "choose", "q": "I drink tea ___ the afternoon.", "es": "Tomo té por la tarde.", "options": ["in", "on", "at"], "answer": "in", "why": "Partes del día con in: in the afternoon.", "g": "en-g-prep-time" },
+    { "id": "e5", "type": "choose", "q": "The streets are quiet ___ night.", "es": "Las calles están tranquilas por la noche.", "options": ["at", "in", "on"], "answer": "at", "why": "Excepción: at night.", "g": "en-g-prep-time" },
+    { "id": "e6", "type": "choose", "q": "The children are here ___ Christmas.", "es": "Los niños están aquí en Navidad.", "options": ["at", "on", "in"], "answer": "at", "why": "La época de Navidad: at Christmas.", "g": "en-g-prep-time" },
+    { "id": "e7", "type": "choose", "q": "See you ___ tomorrow!", "es": "¡Hasta mañana! (— = sin preposición)", "options": ["on", "in", "—"], "answer": "—", "why": "Tomorrow no lleva preposición: See you tomorrow.", "g": "en-g-prep-time" },
+    { "id": "e8", "type": "choose", "q": "The wedding is ___ 12 October.", "es": "La boda es el 12 de octubre.", "options": ["on", "in", "at"], "answer": "on", "why": "Fecha concreta: on 12 October.", "g": "en-g-prep-time" },
+    { "id": "e9", "type": "fill", "q": "The market opens ___ seven.", "es": "El mercado abre a las siete.", "answer": ["at"], "bank": ["at", "on", "in"], "why": "Hora: at seven.", "g": "en-g-prep-time" },
+    { "id": "e10", "type": "fill", "q": "It's very hot here ___ summer.", "es": "Aquí hace mucho calor en verano.", "answer": ["in"], "bank": ["in", "on", "at"], "why": "Estaciones con in.", "g": "en-g-prep-time" },
+    { "id": "e11", "type": "fill", "q": "My granddaughter's party is ___ Saturday.", "es": "La fiesta de mi nieta es el sábado.", "answer": ["on"], "bank": ["on", "in", "at"], "why": "Día de la semana: on Saturday.", "g": "en-g-prep-time" },
+    { "id": "e12", "type": "fill", "q": "The house is full ___ the weekend.", "es": "La casa está llena el fin de semana.", "answer": ["at", "on"], "bank": ["at", "in", "to"], "why": "En británico: at the weekend.", "g": "en-g-prep-time" },
+    { "id": "e13", "type": "fill", "q": "The new baby is due ___ April.", "es": "El bebé nace (sale de cuentas) en abril.", "answer": ["in"], "why": "Mes solo, sin día: in April.", "g": "en-g-prep-time" },
+    { "id": "e14", "type": "fill", "q": "The doctor is free ___ Tuesday morning.", "es": "El médico tiene hueco el martes por la mañana.", "answer": ["on"], "why": "Día + parte del día: on Tuesday morning.", "g": "en-g-prep-time" },
+    { "id": "e15", "type": "fill", "q": "The shop closes ___ half past five.", "es": "La tienda cierra a las cinco y media.", "answer": ["at"], "why": "Hora: at half past five.", "g": "en-g-prep-time" },
+    { "id": "e16", "type": "fill", "q": "I'm always hungry ___ the evening.", "es": "Por la tarde-noche siempre tengo hambre.", "answer": ["in"], "why": "In the evening, como in the morning.", "g": "en-g-prep-time" },
+    { "id": "e17", "type": "match", "pairs": [["at", "half past nine"], ["on", "Wednesday"], ["in", "September"], ["at", "night"], ["on", "my birthday"]], "why": "Horas y night con at; días y cumpleaños con on; meses con in.", "g": "en-g-prep-time" },
+    { "id": "e18", "type": "error", "q": "My appointment is in Friday.", "wrong": "in", "fix": "on", "why": "Días con on: on Friday.", "g": "en-g-prep-time" },
+    { "id": "e19", "type": "error", "q": "We are in Málaga on August.", "wrong": "on", "fix": "in", "why": "Mes solo: in August.", "g": "en-g-prep-time" },
+    { "id": "e20", "type": "error", "q": "I'm at home in the night.", "wrong": "in", "fix": "at", "why": "Por la noche = at night.", "g": "en-g-prep-time" },
+    { "id": "e21", "type": "error", "q": "The bus is on six o'clock.", "wrong": "on", "fix": "at", "why": "Con la hora: at six o'clock.", "g": "en-g-prep-time" },
+    { "id": "e22", "type": "error", "q": "The concert is at Sunday evening.", "wrong": "at", "fix": "on", "why": "Día + parte del día: on Sunday evening.", "g": "en-g-prep-time" },
+    { "id": "e23", "type": "order", "es": "La cita es el lunes a las diez", "answer": "The appointment is on Monday at ten", "extra": ["in"], "why": "on + día, at + hora.", "g": "en-g-prep-time" },
+    { "id": "e24", "type": "order", "es": "En invierno hace frío por la mañana", "answer": "In winter it's cold in the morning", "extra": ["on", "at"], "why": "Estaciones y partes del día con in.", "g": "en-g-prep-time" },
+    { "id": "e25", "type": "order", "es": "Hasta el próximo viernes", "answer": "See you next Friday", "extra": ["on"], "why": "Con next no hay preposición.", "g": "en-g-prep-time" },
+    { "id": "e26", "type": "transform", "instr": "Cambia «Monday» por «March» y ajusta la preposición", "q": "The trip is on Monday.", "answer": ["The trip is in March."], "why": "Los meses van con in.", "g": "en-g-prep-time" },
+    { "id": "e27", "type": "transform", "instr": "Cambia «the morning» por «night» y ajusta la preposición", "q": "I read in the morning.", "answer": ["I read at night."], "why": "Night va con at y sin the.", "g": "en-g-prep-time" },
+    { "id": "e28", "type": "transform", "instr": "Cambia «on Friday» por «next Friday»", "q": "See you on Friday.", "answer": ["See you next Friday."], "why": "Con next desaparece la preposición.", "g": "en-g-prep-time" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "La fiesta es el sábado a las ocho.", "answer": ["The party is on Saturday at eight.", "The party's on Saturday at eight.", "The party is at eight on Saturday.", "The party is on Saturday at eight o'clock."], "why": "on Saturday, at eight.", "g": "en-g-prep-time" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "Mis nietos vienen en verano.", "answer": ["My grandchildren come in summer.", "My grandchildren come in the summer.", "In summer my grandchildren come."], "why": "Estaciones con in: in summer.", "g": "en-g-prep-time" },
+    { "id": "e31", "type": "translate", "dir": "from", "q": "See you at the weekend!", "answer": ["¡Nos vemos el fin de semana!", "¡Hasta el fin de semana!", "¡Te veo el fin de semana!"], "why": "At the weekend = el fin de semana.", "g": "en-g-prep-time" },
+    { "id": "e32", "type": "situation", "context": "Una amiga inglesa te propone quedar. Le dices que el jueves por la tarde te va bien.", "emoji": "☕", "options": ["Thursday afternoon is fine. On Thursday at five?", "In Thursday afternoon is fine.", "At Thursday in the afternoon is fine."], "answer": "Thursday afternoon is fine. On Thursday at five?", "why": "Días con on y horas con at.", "g": "en-g-prep-time" },
+    { "id": "e33", "type": "situation", "context": "Le cuentas a Emma que las fiestas de tu pueblo son en septiembre.", "emoji": "🎉", "options": ["The village festival is in September.", "The village festival is on September.", "The village festival is at September."], "answer": "The village festival is in September.", "why": "Mes solo: in September.", "g": "en-g-prep-time" },
+    { "id": "e34", "type": "choose", "q": "I go to the market ___ every Thursday.", "es": "Voy al mercado todos los jueves. (— = sin preposición)", "options": ["on", "at", "—"], "answer": "—", "why": "Con every no se pone preposición: every Thursday.", "g": "en-g-prep-time" }
+  ],
+  "reviewed": false
+}

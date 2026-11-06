@@ -1,0 +1,85 @@
+{
+  "id": "it-a2-u09-l2",
+  "unit": "it-a2-u09",
+  "title": "Milano è più cara di Napoli?",
+  "goal": "a comparar ciudades con più … di, meno … di y come",
+  "emoji": "⚖️",
+  "photoQuery": "milan cathedral square evening",
+  "vocab": [
+    { "id": "regioni-caro", "t": "caro / cara", "es": "caro / cara", "emoji": "💶", "pos": "adj", "ex": { "t": "Milano è una città cara.", "es": "Milán es una ciudad cara." } },
+    { "id": "regioni-economico", "t": "economico / economica", "es": "barato / barata", "emoji": "🪙", "pos": "adj", "ex": { "t": "Questo albergo è più economico.", "es": "Este hotel es más barato." } },
+    { "id": "regioni-tranquillo", "t": "tranquillo / tranquilla", "es": "tranquilo / tranquila", "emoji": "😌", "pos": "adj", "ex": { "t": "Il paese è più tranquillo della città.", "es": "El pueblo es más tranquilo que la ciudad." } },
+    { "id": "regioni-caotico", "t": "caotico / caotica", "es": "caótico / caótica", "emoji": "🚦", "pos": "adj", "ex": { "t": "Il traffico di Roma è caotico.", "es": "El tráfico de Roma es caótico." } },
+    { "id": "regioni-rumoroso", "t": "rumoroso / rumorosa", "es": "ruidoso / ruidosa", "emoji": "🔊", "pos": "adj", "ex": { "t": "La nostra via è un po' rumorosa.", "es": "Nuestra calle es un poco ruidosa." } },
+    { "id": "regioni-antico", "t": "antico / antica", "es": "antiguo / antigua", "emoji": "🏺", "pos": "adj", "ex": { "t": "Roma è una città molto antica.", "es": "Roma es una ciudad muy antigua." } },
+    { "id": "regioni-moderno", "t": "moderno / moderna", "es": "moderno / moderna", "emoji": "🏙️", "pos": "adj", "ex": { "t": "Milano è più moderna di Venezia.", "es": "Milán es más moderna que Venecia." } },
+    { "id": "regioni-affollato", "t": "affollato / affollata", "es": "abarrotado, lleno de gente", "emoji": "👥", "pos": "adj", "ex": { "t": "Ad agosto la spiaggia è affollata.", "es": "En agosto la playa está abarrotada." } },
+    { "id": "regioni-fiero", "t": "fiero / fiera", "es": "orgulloso / orgullosa", "emoji": "🦁", "pos": "adj", "ex": { "t": "I napoletani sono fieri della loro città.", "es": "Los napolitanos están orgullosos de su ciudad." }, "note": "¡Ojo! No significa «fiero, feroz»." }
+  ],
+  "grammar": "it-g-comparativi",
+  "pron": {
+    "title": "Più: una sola sílaba",
+    "tip": "Più se dice en un golpe, /piú/, con la fuerza en la u. No digas «pi-u» en dos sílabas.",
+    "words": ["più", "più caro", "più grande", "più tranquillo"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Milano è ___ cara di Napoli.", "es": "Milán es más cara que Nápoles.", "options": ["più", "molto", "tanto"], "answer": "più", "why": "Más = più: più cara di Napoli.", "g": "it-g-comparativi" },
+    { "id": "e2", "type": "choose", "q": "Il paese è più tranquillo ___ città.", "es": "El pueblo es más tranquilo que la ciudad.", "options": ["della", "che la", "di la"], "answer": "della", "why": "Di + la = della: più tranquillo della città.", "g": "it-g-comparativi" },
+    { "id": "e3", "type": "choose", "q": "Roma è più antica ___ Milano.", "es": "Roma es más antigua que Milán.", "options": ["di", "che", "come"], "answer": "di", "why": "Delante de un nombre de ciudad: più … di.", "g": "it-g-comparativi" },
+    { "id": "e4", "type": "fill", "q": "Questo albergo è ___ caro dell'altro: costa solo 60 euro.", "es": "Este hotel es menos caro que el otro: cuesta solo 60 euros.", "answer": ["meno"], "bank": ["meno", "più", "molto"], "why": "Menos = meno.", "g": "it-g-comparativi" },
+    { "id": "e5", "type": "fill", "q": "Venezia è bella ___ Firenze.", "es": "Venecia es tan bonita como Florencia.", "answer": ["come", "quanto"], "bank": ["come", "di", "che"], "why": "Tan … como = come (o quanto).", "g": "it-g-comparativi" },
+    { "id": "e6", "type": "fill", "q": "La spiaggia ad agosto è più ___ che a giugno.", "es": "La playa en agosto está más llena que en junio.", "answer": ["affollata"], "hint": "abarrotada", "why": "La spiaggia es femenina: affollata.", "g": "it-g-comparativi" },
+    { "id": "e7", "type": "error", "q": "Milano è più moderna que Venezia.", "wrong": "que", "fix": "di", "why": "En italiano «que» no se usa aquí: più moderna di Venezia.", "g": "it-g-comparativi" },
+    { "id": "e8", "type": "error", "q": "Roma è più antica che Milano.", "wrong": "che", "fix": "di", "why": "Delante de un nombre de ciudad se usa di: più antica di Milano.", "g": "it-g-comparativi" },
+    { "id": "e9", "type": "transform", "instr": "Dilo al revés con «meno»", "q": "Roma è più grande di Firenze.", "answer": ["Firenze è meno grande di Roma."], "why": "Si Roma es más grande, Florencia es meno grande.", "g": "it-g-comparativi" },
+    { "id": "e10", "type": "order", "es": "Nuestro pueblo es más tranquilo que Madrid.", "answer": "Il nostro paese è più tranquillo di Madrid", "extra": ["che"], "why": "Più + adjetivo + di + ciudad.", "g": "it-g-comparativi" },
+    { "id": "e11", "type": "translate", "dir": "to", "q": "Nápoles es más caótica que Turín.", "answer": ["Napoli è più caotica di Torino."], "why": "Più caotica di + ciudad.", "g": "it-g-comparativi" },
+    { "id": "e12", "type": "translate", "dir": "from", "q": "Sono fiera di mio figlio.", "answer": ["Estoy orgullosa de mi hijo.", "Me siento orgullosa de mi hijo."], "why": "Fiera = orgullosa (¡no feroz!).", "g": "it-g-comparativi" },
+    { "id": "e13", "type": "situation", "context": "Una amiga duda entre dos hoteles. El de la playa cuesta 90 € y el del centro, 70 €.", "emoji": "🏨", "options": ["L'albergo del centro è più economico.", "L'albergo del centro è più caro.", "L'albergo del centro è economico come l'altro."], "answer": "L'albergo del centro è più economico.", "why": "70 € es menos que 90 €: più economico.", "g": "it-g-comparativi" },
+    { "id": "e14", "type": "match", "pairs": [["caro", "economico"], ["tranquillo", "rumoroso"], ["antico", "moderno"], ["più", "meno"], ["vuoto", "affollato"]], "why": "Parejas de contrarios." }
+  ],
+  "dialog": {
+    "title": "Milán o Nápoles",
+    "setting": "Yolanda y su amiga Lucia, en clase de italiano, eligen ciudad para un fin de semana",
+    "emoji": "⚖️",
+    "lines": [
+      { "who": "Lucia", "t": "Per il weekend: Milano o Napoli?", "es": "Para el fin de semana: ¿Milán o Nápoles?" },
+      { "who": "Yolanda", "t": "Milano è più moderna, ma è più cara.", "es": "Milán es más moderna, pero es más cara." },
+      { "who": "Lucia", "t": "Napoli è meno cara e il cibo è fantastico.", "es": "Nápoles es menos cara y la comida es fantástica." },
+      { "who": "Yolanda", "t": "Sì, ma è più caotica di Milano!", "es": "Sí, ¡pero es más caótica que Milán!" },
+      { "who": "Lucia", "t": "Un po'. Però c'è il mare!", "es": "Un poco. ¡Pero tiene mar!" },
+      { "who": "Yolanda", "t": "E i napoletani sono simpatici come noi.", "es": "Y los napolitanos son simpáticos como nosotras." },
+      { "who": "Lucia", "t": "Allora Napoli?", "es": "¿Entonces Nápoles?" },
+      { "who": "Yolanda", "t": "Napoli! E mangiamo la pizza.", "es": "¡Nápoles! Y comemos pizza." }
+    ],
+    "questions": [
+      { "q": "Según Yolanda, ¿cómo es Milán?", "options": ["Más moderna y más cara", "Más barata", "Más antigua"], "answer": "Más moderna y más cara" },
+      { "q": "¿Qué tiene Nápoles que no tiene Milán?", "options": ["El mar", "Un lago", "Montañas"], "answer": "El mar" },
+      { "q": "¿Qué ciudad eligen?", "options": ["Nápoles", "Milán", "Ninguna"], "answer": "Nápoles" }
+    ]
+  },
+  "realLife": { "t": "Questo è più economico, lo prendo.", "es": "Este es más barato, me lo llevo.", "context": "Para elegir entre dos cosas en una tienda o un hotel" },
+  "same": {
+    "text": "La comparación funciona como en español: más … que = più … di.",
+    "examples": [
+      { "t": "più caro", "es": "más caro" },
+      { "t": "meno caro", "es": "menos caro" },
+      { "t": "bello come", "es": "bonito como" }
+    ]
+  },
+  "falseFriend": {
+    "word": "fiero / fiera",
+    "means": "orgulloso / orgullosa",
+    "looksLike": "fiero, feroz (en italiano, feroce)",
+    "emoji": "🦁",
+    "tip": "Sono fiera di mio figlio = estoy orgullosa de mi hijo. ¡Nada de fieras!"
+  },
+  "summary": [
+    "Más … que = più … di: Milano è più cara di Napoli.",
+    "Menos … que = meno … di.",
+    "Tan … como = come / quanto.",
+    "Di se une al artículo: della città, dell'aereo.",
+    "Fiera = orgullosa."
+  ],
+  "reviewed": false
+}

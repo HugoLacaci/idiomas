@@ -1,0 +1,46 @@
+{
+  "id": "en-b1-u07-c1",
+  "unit": "en-b1-u07",
+  "title": "Háblame de tu gente",
+  "setting": "Emma te llama por videollamada y quiere saber cómo es tu familia",
+  "emoji": "👨‍👩‍👧‍👦",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "Hi Yolanda! Tell me about your family. Who's the funniest?", "es": "¡Hola, Yolanda! Háblame de tu familia. ¿Quién es el más gracioso?" },
+      "options": [
+        { "t": "My grandson. He's a little boy who never stops joking.", "es": "Mi nieto. Es un niño que no para de hacer bromas.", "next": "n2", "ok": true },
+        { "t": "My grandson. He's a little boy which never stops joking.", "es": "(Mi nieto. Es un niño que no para de hacer bromas.)", "next": "n2", "ok": false, "feedback": "Para personas, who: a little boy who never stops joking." }
+      ] },
+    { "id": "n2", "says": { "t": "Ha ha! Does he take after you?", "es": "¡Ja, ja! ¿Ha salido a ti?" },
+      "options": [
+        { "t": "A bit! But he looks like his dad.", "es": "¡Un poco! Pero físicamente se parece a su padre.", "next": "n3", "ok": true },
+        { "t": "A bit! But he looks after his dad.", "es": "(¡Un poco! Pero cuida a su padre.)", "next": "n3", "ok": false, "feedback": "Look after es cuidar. Parecerse físicamente es look like." }
+      ] },
+    { "id": "n3", "says": { "t": "And who's the most stubborn person in your family?", "es": "¿Y quién es el más cabezota de tu familia?" },
+      "options": [
+        { "t": "My husband, without a doubt!", "es": "¡Mi marido, sin duda!", "next": "n4", "ok": true },
+        { "t": "Me, I'm afraid!", "es": "¡Yo, me temo!", "next": "n4", "ok": true },
+        { "t": "My husband, he is very stubbornly.", "es": "(Mi marido, es muy cabezotamente.)", "next": "n4", "ok": false, "feedback": "Detrás de is va el adjetivo: he's very stubborn." }
+      ] },
+    { "id": "n4", "says": { "t": "Who do you talk to when you're worried?", "es": "¿Con quién hablas cuando estás preocupada?" },
+      "options": [
+        { "t": "My best friend. She's the person who always listens.", "es": "Con mi mejor amiga. Es la persona que siempre escucha.", "next": "n5", "ok": true },
+        { "t": "My best friend. She's the person who she always listens.", "es": "(Con mi mejor amiga. Es la persona que ella siempre escucha.)", "next": "n5", "ok": false, "feedback": "Who ya es el sujeto: no repitas she. The person who always listens." }
+      ] },
+    { "id": "n5", "says": { "t": "Where did you meet her?", "es": "¿Dónde la conociste?" },
+      "options": [
+        { "t": "In the village where I grew up.", "es": "En el pueblo donde crecí.", "next": "n6", "ok": true },
+        { "t": "In the village which I grew up.", "es": "(En el pueblo que crecí.)", "next": "n6", "ok": false, "feedback": "Lugar donde pasó algo: where. The village where I grew up." }
+      ] },
+    { "id": "n6", "says": { "t": "You sound very proud of your family.", "es": "Pareces muy orgullosa de tu familia." },
+      "options": [
+        { "t": "I am. I'm very proud of them.", "es": "Lo estoy. Estoy muy orgullosa de ellos.", "next": "n7", "ok": true },
+        { "t": "I am. I'm very proud with them.", "es": "(Lo estoy. Estoy muy orgullosa con ellos.)", "next": "n7", "ok": false, "feedback": "Orgullosa de = proud of." }
+      ] },
+    { "id": "n7", "says": { "t": "That's lovely, Yolanda. Talk soon!", "es": "Qué bonito, Yolanda. ¡Hablamos pronto!" },
+      "options": [
+        { "t": "Bye, Emma! Thanks for calling.", "es": "¡Adiós, Emma! Gracias por llamar.", "next": "end", "ok": true }
+      ] }
+  ],
+  "reviewed": false
+}

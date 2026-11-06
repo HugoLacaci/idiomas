@@ -1,0 +1,59 @@
+{
+  "id": "it-b1-u08-c2",
+  "unit": "it-b1-u08",
+  "title": "Planes para el último día",
+  "setting": "Giulia te llama por teléfono para organizar tu último día en Roma",
+  "emoji": "📞",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Pronto, Yolanda? Domani è il tuo ultimo giorno. Cosa vuoi fare?", "es": "¿Sí, Yolanda? Mañana es tu último día. ¿Qué quieres hacer?" },
+      "options": [
+        { "t": "Vorrei vedere il Pantheon, però non voglio stancarmi troppo.", "es": "Me gustaría ver el Panteón, pero no quiero cansarme demasiado.", "next": "n2", "ok": true },
+        { "t": "Vorrei vedere il Pantheon, quindi non voglio stancarmi troppo.", "es": "Me gustaría ver el Panteón, pero no quiero cansarme demasiado.", "next": "n2", "ok": false, "feedback": "Aquí hay un contraste, no una consecuencia: però." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Va bene. Io la mattina lavoro. Tu cosa fai?", "es": "Muy bien. Yo por la mañana trabajo. ¿Tú qué haces?" },
+      "options": [
+        { "t": "Mentre tu lavori, io compro i regali.", "es": "Mientras tú trabajas, yo compro los regalos.", "next": "n3", "ok": true },
+        { "t": "Infatti tu lavori, io compro i regali.", "es": "Mientras tú trabajas, yo compro los regalos.", "next": "n3", "ok": false, "feedback": "Dos cosas al mismo tiempo: mentre." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Ottimo. Ci vediamo a pranzo? Prendiamo un taxi?", "es": "Estupendo. ¿Nos vemos para comer? ¿Cogemos un taxi?" },
+      "options": [
+        { "t": "Invece di prendere il taxi, andiamo a piedi: è vicino.", "es": "En vez de coger un taxi, vamos andando: está cerca.", "next": "n4", "ok": true },
+        { "t": "Invece prendere il taxi, andiamo a piedi: è vicino.", "es": "En vez de coger un taxi, vamos andando: está cerca.", "next": "n4", "ok": false, "feedback": "Falta di: invece di + infinitivo." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Dicono che domani pioverà. Usciamo lo stesso?", "es": "Dicen que mañana lloverá. ¿Salimos igualmente?" },
+      "options": [
+        { "t": "Sì, usciamo anche se piove!", "es": "¡Sí, salimos aunque llueva!", "next": "n5", "ok": true },
+        { "t": "Sì, usciamo anche se piova!", "es": "¡Sí, salimos aunque llueva!", "next": "n5", "ok": false, "feedback": "Anche se va con indicativo: anche se piove." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Brava! E la sera? Sei stanca dopo tutto il viaggio?", "es": "¡Muy bien! ¿Y por la noche? ¿Estás cansada después de todo el viaje?" },
+      "options": [
+        { "t": "Un po', quindi stasera vado a letto presto.", "es": "Un poco, así que esta noche me acuesto pronto.", "next": "n6", "ok": true },
+        { "t": "Un po', invece stasera vado a letto presto.", "es": "Un poco, así que esta noche me acuesto pronto.", "next": "n6", "ok": false, "feedback": "Acostarse pronto es la consecuencia del cansancio: quindi." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Hai ragione. Ma domani sera la Fontana di Trevi non la perdiamo, eh!", "es": "Tienes razón. Pero mañana por la noche la Fontana di Trevi no nos la perdemos, ¿eh?" },
+      "options": [
+        { "t": "Assolutamente! Infatti ho già preparato la moneta.", "es": "¡Por supuesto! De hecho, ya he preparado la moneda.", "next": "end", "ok": true },
+        { "t": "Assolutamente! Però ho già preparato la moneta.", "es": "¡Por supuesto! De hecho, ya he preparado la moneda.", "next": "end", "ok": false, "feedback": "Lo que dices confirma tus ganas de ir: infatti." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

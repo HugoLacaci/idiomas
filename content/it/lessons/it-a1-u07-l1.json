@@ -1,0 +1,82 @@
+{
+  "id": "it-a1-u07-l1",
+  "unit": "it-a1-u07",
+  "title": "Antipasto, primo e secondo",
+  "goal": "a entender cómo es un menú italiano y a pedir cada plato",
+  "emoji": "🍝",
+  "photoQuery": "italian trattoria table pasta",
+  "vocab": [
+    { "id": "rist-il-menu", "t": "il menù", "es": "la carta (del restaurante)", "emoji": "📋", "pos": "n", "ex": { "t": "Scusi, il menù, per favore.", "es": "Perdone, la carta, por favor." } },
+    { "id": "rist-l-antipasto", "t": "l'antipasto", "es": "el entrante", "emoji": "🫒", "pos": "n", "ex": { "t": "Come antipasto vorrei le bruschette.", "es": "De entrante quería las bruschettas." } },
+    { "id": "rist-il-primo", "t": "il primo", "es": "el primer plato (pasta, arroz, sopa)", "emoji": "🍝", "pos": "n", "note": "¡Ojo! El primo (pariente) es il cugino.", "ex": { "t": "Come primo prendo gli spaghetti.", "es": "De primero tomo los espaguetis." } },
+    { "id": "rist-il-secondo", "t": "il secondo", "es": "el segundo plato (carne o pescado)", "emoji": "🍖", "pos": "n", "ex": { "t": "Per secondo, pesce o carne?", "es": "De segundo, ¿pescado o carne?" } },
+    { "id": "rist-il-contorno", "t": "il contorno", "es": "la guarnición", "emoji": "🥗", "pos": "n", "note": "Se pide aparte: patatas, ensalada, verduras.", "ex": { "t": "Come contorno, un'insalata mista.", "es": "De guarnición, una ensalada mixta." } },
+    { "id": "rist-il-dolce", "t": "il dolce", "es": "el postre", "emoji": "🍰", "pos": "n", "ex": { "t": "Per dolce c'è il tiramisù.", "es": "De postre hay tiramisú." } },
+    { "id": "rist-il-cameriere", "t": "il cameriere / la cameriera", "es": "el camarero / la camarera", "emoji": "🤵", "pos": "n", "ex": { "t": "Il cameriere è molto gentile.", "es": "El camarero es muy amable." } },
+    { "id": "rist-un-tavolo-per-due", "t": "Un tavolo per due, per favore.", "es": "Una mesa para dos, por favor.", "emoji": "✌️", "pos": "phrase", "ex": { "t": "Buonasera, un tavolo per due, per favore.", "es": "Buenas noches, una mesa para dos, por favor." } },
+    { "id": "rist-vorrei-ordinare", "t": "Vorrei ordinare.", "es": "Quería pedir.", "emoji": "✍️", "pos": "phrase", "ex": { "t": "Scusi, vorremmo ordinare.", "es": "Perdone, queríamos pedir." } }
+  ],
+  "grammar": "it-g-vorrei",
+  "pron": {
+    "title": "La z de pizza y la de zucchero",
+    "tip": "La z italiana nunca suena como nuestra z. En pizza suena fuerte, «ts»: «pít-tsa». En zucchero suena suave, «ds»: «dsú-kero».",
+    "words": ["pizza", "zucchero", "zuppa", "grazie", "mozzarella"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Come primo ___ gli spaghetti al pomodoro.", "es": "De primero quería los espaguetis con tomate.", "options": ["vorrei", "voglio", "sono"], "answer": "vorrei", "why": "Vorrei (quería) es la forma educada de pedir.", "g": "it-g-vorrei" },
+    { "id": "e2", "type": "choose", "q": "La carne e il pesce sono ___.", "options": ["il secondo", "il primo", "il dolce"], "answer": "il secondo", "why": "Carne y pescado son il secondo; la pasta es il primo." },
+    { "id": "e3", "type": "choose", "q": "Noi ___ un tavolo per quattro.", "es": "Nosotros querríamos una mesa para cuatro.", "options": ["vorremmo", "vorrei", "vorrebbe"], "answer": "vorremmo", "why": "Con noi: vorremmo.", "g": "it-g-vorrei" },
+    { "id": "e4", "type": "fill", "q": "Come ___ prendo il tiramisù.", "es": "De postre tomo el tiramisú.", "answer": ["dolce"], "bank": ["dolce", "primo", "contorno"], "why": "El postre es il dolce." },
+    { "id": "e5", "type": "fill", "q": "Scusi, ___ ordinare.", "es": "Perdone, quería pedir.", "answer": ["vorrei"], "bank": ["vorrei", "vorresti", "sono"], "why": "Vorrei + infinitivo: vorrei ordinare.", "g": "it-g-vorrei" },
+    { "id": "e6", "type": "error", "q": "Come cugino prendo le lasagne.", "wrong": "cugino", "fix": "primo", "why": "El primer plato es il primo. Il cugino es el primo de la familia." },
+    { "id": "e7", "type": "error", "q": "Voglio il menù, per favore.", "wrong": "Voglio", "fix": "Vorrei", "why": "Voglio suena brusco; para pedir con educación, vorrei.", "g": "it-g-vorrei" },
+    { "id": "e8", "type": "order", "es": "Una mesa para dos, por favor.", "answer": "Un tavolo per due per favore", "extra": ["una"], "why": "Tavolo es masculino: un tavolo." },
+    { "id": "e9", "type": "translate", "dir": "to", "q": "De guarnición, una ensalada.", "answer": ["Come contorno, un'insalata.", "Come contorno un'insalata.", "Per contorno, un'insalata."], "why": "Guarnición = contorno; insalata es femenina con vocal: un'insalata." },
+    { "id": "e10", "type": "translate", "dir": "from", "q": "Il cameriere è molto gentile.", "answer": ["El camarero es muy amable"], "why": "Gentile = amable." },
+    { "id": "e11", "type": "match", "pairs": [["l'antipasto", "el entrante"], ["il primo", "el primer plato"], ["il secondo", "el segundo plato"], ["il contorno", "la guarnición"], ["il dolce", "el postre"]], "why": "El orden de una comida italiana." },
+    { "id": "e12", "type": "situation", "context": "Entras con una amiga en una trattoria. ¿Qué dices al camarero?", "emoji": "🚪", "options": ["Buonasera, un tavolo per due, per favore.", "Buonasera, un cugino per due, per favore.", "Buonasera, il conto, per favore."], "answer": "Buonasera, un tavolo per due, per favore.", "why": "Primero se pide mesa; el conto (la cuenta) es al final." },
+    { "id": "e13", "type": "minimal", "pair": ["pizza", "pezza"], "answer": "pizza", "es": ["pizza", "trapo"], "why": "Fíjate en la vocal: pizza con i; pezza (trapo) con e." },
+    { "id": "e14", "type": "reading", "kind": "menu", "title": "Trattoria da Rosa", "text": "ANTIPASTI: bruschette, olive. PRIMI: spaghetti al pomodoro, lasagne. SECONDI: pollo arrosto, pesce del giorno. CONTORNI: patate, insalata. DOLCI: tiramisù.", "questions": [
+      { "q": "¿Dónde aparecen las lasañas?", "options": ["En los primeros", "En los segundos", "En los postres"], "answer": "En los primeros" },
+      { "q": "¿Qué guarniciones hay?", "options": ["Patatas y ensalada", "Aceitunas y pan", "Pollo y pescado"], "answer": "Patatas y ensalada" }
+    ], "why": "Primi = primeros platos; contorni = guarniciones." },
+    { "id": "e15", "type": "speak", "t": "Come primo vorrei le lasagne.", "es": "De primero quería la lasaña." }
+  ],
+  "dialog": {
+    "title": "En la trattoria",
+    "setting": "En una trattoria de Lecce, a la hora de cenar",
+    "emoji": "🍝",
+    "lines": [
+      { "who": "Cameriere", "t": "Buonasera! In quanti siete?", "es": "¡Buenas noches! ¿Cuántos son?" },
+      { "who": "Yolanda", "t": "Siamo in due. Un tavolo per due, per favore.", "es": "Somos dos. Una mesa para dos, por favor." },
+      { "who": "Cameriere", "t": "Prego, ecco il menù.", "es": "Pasen, aquí tienen la carta." },
+      { "who": "Yolanda", "t": "Grazie. Vorremmo ordinare.", "es": "Gracias. Queríamos pedir." },
+      { "who": "Cameriere", "t": "Volete un antipasto?", "es": "¿Quieren un entrante?" },
+      { "who": "Yolanda", "t": "No, grazie. Come primo, due piatti di orecchiette.", "es": "No, gracias. De primero, dos platos de orecchiette." },
+      { "who": "Cameriere", "t": "E per secondo?", "es": "¿Y de segundo?" },
+      { "who": "Yolanda", "t": "Niente secondo. Poi vediamo il dolce!", "es": "Nada de segundo. ¡Luego vemos el postre!" }
+    ],
+    "questions": [
+      { "q": "¿Cuántas personas son?", "options": ["Dos", "Tres", "Cuatro"], "answer": "Dos" },
+      { "q": "¿Piden entrante?", "options": ["No", "Sí, bruschettas", "Sí, aceitunas"], "answer": "No" },
+      { "q": "¿Qué piden de primero?", "options": ["Orecchiette", "Lasaña", "Pizza"], "answer": "Orecchiette" }
+    ]
+  },
+  "realLife": { "t": "Vorremmo ordinare, per favore.", "es": "Queríamos pedir, por favor.", "context": "Para llamar al camarero cuando ya sabéis qué vais a comer" },
+  "same": {
+    "text": "Muchas palabras del restaurante son casi iguales en los dos idiomas.",
+    "examples": [
+      { "t": "il menù", "es": "el menú, la carta" },
+      { "t": "l'insalata", "es": "la ensalada" },
+      { "t": "il secondo", "es": "el segundo" }
+    ]
+  },
+  "falseFriend": { "word": "il primo", "means": "el primer plato", "looksLike": "el primo de la familia (en italiano: il cugino)", "emoji": "🍝", "tip": "«Come primo» = de primero. Tu primo, tu prima: il cugino, la cugina." },
+  "summary": [
+    "El menú italiano: antipasto, primo, secondo, contorno, dolce.",
+    "Il contorno (la guarnición) se pide aparte.",
+    "Pedir con educación: vorrei / vorremmo.",
+    "La z suena «ts» (pizza) o «ds» (zucchero)."
+  ],
+  "reviewed": false
+}

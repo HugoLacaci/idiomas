@@ -1,0 +1,85 @@
+{
+  "id": "it-a2-u10-l1",
+  "unit": "it-a2-u10",
+  "title": "Prossima fermata: Venezia",
+  "goal": "a nombrar lo que necesitas para un viaje a Venecia: reserva, maleta, hotel, vaporetto y góndola",
+  "emoji": "🛶",
+  "photoQuery": "venice grand canal boats",
+  "vocab": [
+    { "id": "futuro-la-prenotazione", "t": "la prenotazione", "es": "la reserva", "emoji": "📝", "pos": "n", "ex": { "t": "Ho fatto la prenotazione per tre notti.", "es": "He hecho la reserva para tres noches." } },
+    { "id": "futuro-prenotare", "t": "prenotare", "es": "reservar", "emoji": "📅", "pos": "v", "ex": { "t": "Domani prenoto l'albergo online.", "es": "Mañana reservo el hotel por internet." } },
+    { "id": "futuro-la-valigia", "t": "la valigia", "es": "la maleta", "emoji": "🧳", "pos": "n", "ex": { "t": "La mia valigia è troppo pesante!", "es": "¡Mi maleta pesa demasiado!" }, "note": "Plural: le valigie. Hacer la maleta = fare la valigia." },
+    { "id": "futuro-l-albergo", "t": "l'albergo", "es": "el hotel", "emoji": "🏨", "pos": "n", "ex": { "t": "L'albergo è vicino al Canal Grande.", "es": "El hotel está cerca del Gran Canal." }, "note": "¡Ojo! No es un albergue: es un hotel normal." },
+    { "id": "futuro-il-vaporetto", "t": "il vaporetto", "es": "el vaporetto (autobús acuático)", "emoji": "⛴️", "pos": "n", "ex": { "t": "Prendiamo il vaporetto per San Marco.", "es": "Cogemos el vaporetto hasta San Marcos." } },
+    { "id": "futuro-la-gondola", "t": "la gondola", "es": "la góndola", "emoji": "🛶", "pos": "n", "ex": { "t": "Un giro in gondola è un sogno!", "es": "¡Una vuelta en góndola es un sueño!" } },
+    { "id": "futuro-il-canale", "t": "il canale", "es": "el canal", "emoji": "🌊", "pos": "n", "ex": { "t": "La camera ha la vista sul canale.", "es": "La habitación tiene vistas al canal." } },
+    { "id": "futuro-l-isola", "t": "l'isola", "es": "la isla", "emoji": "🏝️", "pos": "n", "ex": { "t": "Murano è un'isola vicino a Venezia.", "es": "Murano es una isla cerca de Venecia." } },
+    { "id": "futuro-la-calle", "t": "la calle", "es": "la calle (en Venecia)", "emoji": "🚶‍♀️", "pos": "n", "ex": { "t": "Questa calle è strettissima!", "es": "¡Esta calle es estrechísima!" }, "note": "Solo en Venecia; en el resto de Italia, una calle es la via o la strada." },
+    { "id": "futuro-andata-e-ritorno", "t": "andata e ritorno", "es": "ida y vuelta", "emoji": "🔁", "pos": "phrase", "ex": { "t": "Un biglietto di andata e ritorno, per favore.", "es": "Un billete de ida y vuelta, por favor." } }
+  ],
+  "grammar": "it-g-futuro-semplice",
+  "pron": {
+    "title": "La doble g y la gi de valigia",
+    "tip": "En valigia la gi suena como la «y» fuerte de «yo», sin decir la i: va-LI-ja. En viaggio la gg es doble: apóyate un poco más.",
+    "words": ["valigia", "viaggio", "gondola", "giro"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Prima di partire faccio la ___.", "es": "Antes de salir hago la maleta.", "options": ["valigia", "gondola", "calle"], "answer": "valigia", "why": "Hacer la maleta = fare la valigia.", "g": "it-g-futuro-semplice" },
+    { "id": "e2", "type": "choose", "q": "Per andare a Murano prendiamo il ___.", "es": "Para ir a Murano cogemos el vaporetto.", "options": ["vaporetto", "canale", "albergo"], "answer": "vaporetto", "why": "El vaporetto es el autobús de Venecia, pero sobre el agua.", "g": "it-g-futuro-semplice" },
+    { "id": "e3", "type": "choose", "q": "Domani ___ a Venezia con mio marito.", "es": "Mañana iré a Venecia con mi marido.", "options": ["andrò", "anderò", "andato"], "answer": "andrò", "why": "Futuro de andare: andrò. Lo verás a fondo en la siguiente lección.", "g": "it-g-futuro-semplice" },
+    { "id": "e4", "type": "fill", "q": "Vorrei un biglietto di andata e ___.", "es": "Querría un billete de ida y vuelta.", "answer": ["ritorno"], "bank": ["ritorno", "tornare", "arrivo"], "why": "Ida y vuelta = andata e ritorno.", "g": "it-g-futuro-semplice" },
+    { "id": "e5", "type": "fill", "q": "Ho fatto la ___ per due notti.", "es": "He hecho la reserva para dos noches.", "answer": ["prenotazione"], "bank": ["prenotazione", "valigia", "isola"], "why": "La reserva = la prenotazione.", "g": "it-g-futuro-semplice" },
+    { "id": "e6", "type": "fill", "q": "Burano è un'___ con le case colorate.", "es": "Burano es una isla con las casas de colores.", "answer": ["isola"], "hint": "una isla", "why": "La isla = l'isola (femenino: un'isola).", "g": "it-g-futuro-semplice" },
+    { "id": "e7", "type": "match", "pairs": [["la valigia", "la maleta"], ["l'albergo", "el hotel"], ["la prenotazione", "la reserva"], ["l'isola", "la isla"], ["il canale", "el canal"]], "why": "Palabras básicas del viaje a Venecia.", "g": "it-g-futuro-semplice" },
+    { "id": "e8", "type": "error", "q": "Ho prenotato un albergue vicino al canale.", "wrong": "albergue", "fix": "albergo", "why": "En italiano el hotel es l'albergo (o l'hotel).", "g": "it-g-futuro-semplice" },
+    { "id": "e9", "type": "order", "es": "Mañana reservo el hotel.", "answer": "Domani prenoto l'albergo", "alt": ["Prenoto l'albergo domani"], "extra": ["la"], "why": "Prenotare = reservar.", "g": "it-g-futuro-semplice" },
+    { "id": "e10", "type": "translate", "dir": "to", "q": "Una vuelta en góndola, por favor.", "answer": ["Un giro in gondola, per favore."], "why": "Dar una vuelta = fare un giro; en góndola = in gondola.", "g": "it-g-futuro-semplice" },
+    { "id": "e11", "type": "translate", "dir": "from", "q": "La camera ha la vista sul canale.", "answer": ["La habitación tiene vistas al canal.", "La habitación tiene vista al canal."], "why": "Vista sul canale = vistas al canal.", "g": "it-g-futuro-semplice" },
+    { "id": "e12", "type": "situation", "context": "En la taquilla del vaporetto quieres un billete para ir y volver.", "emoji": "🎫", "options": ["Un biglietto di andata e ritorno, per favore.", "Una prenotazione di andata, per favore.", "Una valigia di ritorno, per favore."], "answer": "Un biglietto di andata e ritorno, per favore.", "why": "Andata e ritorno = ida y vuelta.", "g": "it-g-futuro-semplice" },
+    { "id": "e13", "type": "reading", "kind": "message", "title": "WhatsApp de Yolanda a su hijo", "text": "Ciao Hugo! Io e papà andremo a Venezia a maggio. Ho già fatto la prenotazione: l'albergo è vicino al Canal Grande. Prenderemo il vaporetto e faremo un giro in gondola. Che bello!", "questions": [ { "q": "¿Cuándo irán a Venecia?", "options": ["En mayo", "En agosto", "En Navidad"], "answer": "En mayo" }, { "q": "¿Dónde está el hotel?", "options": ["Cerca del Gran Canal", "En Murano", "Lejos del centro"], "answer": "Cerca del Gran Canal" }, { "q": "¿Qué harán además de coger el vaporetto?", "options": ["Una vuelta en góndola", "Una excursión en coche", "Un curso de cocina"], "answer": "Una vuelta en góndola" } ], "g": "it-g-futuro-semplice" },
+    { "id": "e14", "type": "speak", "t": "Ho fatto la prenotazione per tre notti.", "es": "He hecho la reserva para tres noches." }
+  ],
+  "dialog": {
+    "title": "¡Nos vamos a Venecia!",
+    "setting": "En casa, Yolanda prepara el viaje con su amiga italiana Paola por videollamada",
+    "emoji": "🧳",
+    "lines": [
+      { "who": "Paola", "t": "Allora, quando partite per Venezia?", "es": "Bueno, ¿cuándo salís para Venecia?" },
+      { "who": "Yolanda", "t": "A maggio! Ho già la prenotazione dell'albergo.", "es": "¡En mayo! Ya tengo la reserva del hotel." },
+      { "who": "Paola", "t": "Brava! È vicino al Canal Grande?", "es": "¡Muy bien! ¿Está cerca del Gran Canal?" },
+      { "who": "Yolanda", "t": "Sì, e la camera ha la vista sul canale.", "es": "Sí, y la habitación tiene vistas al canal." },
+      { "who": "Paola", "t": "Ricorda: a Venezia non ci sono macchine. Solo vaporetti e gondole!", "es": "Recuerda: en Venecia no hay coches. ¡Solo vaporettos y góndolas!" },
+      { "who": "Yolanda", "t": "Lo so. Porto una valigia piccola, allora.", "es": "Lo sé. Entonces llevo una maleta pequeña." },
+      { "who": "Paola", "t": "Ottima idea! Ci sono tanti ponti e tante calli.", "es": "¡Muy buena idea! Hay muchos puentes y muchas callejuelas." },
+      { "who": "Yolanda", "t": "Calle? Come in spagnolo!", "es": "¿Calle? ¡Como en español!" }
+    ],
+    "questions": [
+      { "q": "¿Qué tiene ya Yolanda?", "options": ["La reserva del hotel", "Los billetes de avión", "Una góndola"], "answer": "La reserva del hotel" },
+      { "q": "¿Por qué lleva una maleta pequeña?", "options": ["Porque hay muchos puentes y no hay coches", "Porque el hotel es pequeño", "Porque viaja sola"], "answer": "Porque hay muchos puentes y no hay coches" },
+      { "q": "¿Qué palabra le hace gracia a Yolanda?", "options": ["Calle", "Ponte", "Gondola"], "answer": "Calle" }
+    ]
+  },
+  "realLife": { "t": "Un biglietto di andata e ritorno, per favore.", "es": "Un billete de ida y vuelta, por favor.", "context": "En la taquilla del tren o del vaporetto" },
+  "same": {
+    "text": "En Venecia muchas palabras te sonarán de casa.",
+    "examples": [
+      { "t": "la calle", "es": "la calle (en Venecia)" },
+      { "t": "il canale", "es": "el canal" },
+      { "t": "l'isola", "es": "la isla" }
+    ]
+  },
+  "falseFriend": {
+    "word": "l'albergo",
+    "means": "el hotel",
+    "looksLike": "albergue (en italiano, ostello)",
+    "emoji": "🏨",
+    "tip": "Un albergo puede ser un hotel de lujo. Si buscas algo sencillo para jóvenes, eso es un ostello."
+  },
+  "summary": [
+    "Viaje: la prenotazione, la valigia, l'albergo, andata e ritorno.",
+    "Venecia: il vaporetto, la gondola, il canale, l'isola, la calle.",
+    "L'albergo = el hotel, no un albergue.",
+    "Un primer futuro: andrò = iré."
+  ],
+  "reviewed": false
+}

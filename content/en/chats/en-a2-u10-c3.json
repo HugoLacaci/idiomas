@@ -1,0 +1,58 @@
+{
+  "id": "en-a2-u10-c3",
+  "unit": "en-a2-u10",
+  "title": "Mi primer día en Nueva York",
+  "setting": "Emma te llama desde Londres para que le cuentes tu primer día en Nueva York.",
+  "emoji": "🗽",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! How's New York? Did you arrive OK?", "es": "¡Hola, Yolanda! ¿Qué tal Nueva York? ¿Llegaste bien?" },
+      "options": [
+        { "t": "Yes! We arrived in New York last night.", "es": "¡Sí! Llegamos a Nueva York anoche.", "next": "n2", "ok": true },
+        { "t": "Yes! We arrived to New York last night.", "es": "¡Sí! Llegamos a Nueva York anoche.", "next": "n2", "ok": false, "feedback": "Arrive nunca va con to: arrive in + ciudad." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Brilliant! What did you do today?", "es": "¡Genial! ¿Qué hiciste hoy?" },
+      "options": [
+        { "t": "We took the ferry to the Statue of Liberty.", "es": "Cogimos el ferri a la Estatua de la Libertad.", "next": "n3", "ok": true },
+        { "t": "We got into the ferry to the Statue of Liberty.", "es": "Subimos al ferri a la Estatua de la Libertad.", "next": "n3", "ok": false, "feedback": "Con barcos: get on, no get into. O más fácil: We took the ferry." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Lovely! Did you know it was a gift from France?", "es": "¡Qué bonito! ¿Sabías que fue un regalo de Francia?" },
+      "options": [
+        { "t": "Yes, from 1886! Then we walked across the Brooklyn Bridge.", "es": "¡Sí, de 1886! Luego cruzamos andando el puente de Brooklyn.", "next": "n4", "ok": true },
+        { "t": "Yes, from 1886! Then we walked through the Brooklyn Bridge.", "es": "¡Sí, de 1886! Luego cruzamos andando el puente de Brooklyn.", "next": "n4", "ok": false, "feedback": "Un puente se cruza de lado a lado: across. Through es por dentro (un túnel)." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Wow! Wasn't it too long to walk?", "es": "¡Hala! ¿No era demasiado largo para ir andando?" },
+      "options": [
+        { "t": "No, it was short enough. And the views were amazing!", "es": "No, era lo bastante corto. ¡Y las vistas eran increíbles!", "next": "n5", "ok": true },
+        { "t": "No, it was enough short. And the views were amazing!", "es": "No, era lo bastante corto. ¡Y las vistas eran increíbles!", "next": "n5", "ok": false, "feedback": "Enough va detrás del adjetivo: short enough." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "And your hotel? Is it nice?", "es": "¿Y tu hotel? ¿Está bien?" },
+      "options": [
+        { "t": "It's very nice, but there are too many tourists!", "es": "Está muy bien, ¡pero hay demasiados turistas!", "next": "n6", "ok": true },
+        { "t": "It's too nice, but there are too much tourists!", "es": "Está muy bien, ¡pero hay demasiados turistas!", "next": "n6", "ok": false, "feedback": "Para elogiar, very nice. Y tourists es plural: too many." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ha ha! Enjoy every minute. Send me photos!", "es": "¡Ja, ja! Disfruta cada minuto. ¡Mándame fotos!" },
+      "options": [
+        { "t": "I will! Bye, Emma!", "es": "¡Lo haré! ¡Adiós, Emma!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,392 @@
+{
+  "id": "en-a1-u07-l5",
+  "unit": "en-a1-u07",
+  "title": "Reto: un paseo por Camden Market",
+  "goal": "a hablar de la gente que trabaja en un mercado y a preguntar por sus horarios",
+  "emoji": "🛍️",
+  "photoQuery": "camden market canal stalls",
+  "vocab": [
+    {
+      "id": "a-stall",
+      "t": "a stall",
+      "es": "un puesto (de mercado)",
+      "emoji": "🏪",
+      "pos": "n",
+      "ex": {
+        "t": "Her stall sells old records.",
+        "es": "Su puesto vende discos antiguos."
+      }
+    },
+    {
+      "id": "a-canal",
+      "t": "a canal",
+      "es": "un canal",
+      "emoji": "🛶",
+      "pos": "n",
+      "ex": {
+        "t": "The market is next to the canal.",
+        "es": "El mercado está al lado del canal."
+      }
+    },
+    {
+      "id": "he-sells",
+      "t": "he sells",
+      "es": "él vende",
+      "emoji": "💷",
+      "pos": "v",
+      "ex": {
+        "t": "He sells jewellery and bags.",
+        "es": "Vende joyas y bolsos."
+      },
+      "note": "En EE. UU. se escribe jewelry."
+    },
+    {
+      "id": "handmade",
+      "t": "handmade",
+      "es": "hecho a mano",
+      "emoji": "🧶",
+      "pos": "adj",
+      "ex": {
+        "t": "These scarves are handmade.",
+        "es": "Estas bufandas están hechas a mano."
+      }
+    },
+    {
+      "id": "second-hand",
+      "t": "second-hand",
+      "es": "de segunda mano",
+      "emoji": "♻️",
+      "pos": "adj",
+      "ex": {
+        "t": "She buys second-hand books.",
+        "es": "Compra libros de segunda mano."
+      }
+    },
+    {
+      "id": "street-food",
+      "t": "street food",
+      "es": "comida callejera",
+      "emoji": "🌮",
+      "pos": "n",
+      "ex": {
+        "t": "The street food here is delicious.",
+        "es": "La comida callejera de aquí está riquísima."
+      }
+    },
+    {
+      "id": "open-every-day",
+      "t": "open every day",
+      "es": "abierto todos los días",
+      "emoji": "📅",
+      "pos": "phrase",
+      "ex": {
+        "t": "The market is open every day.",
+        "es": "El mercado abre todos los días."
+      }
+    },
+    {
+      "id": "how-much-are-these",
+      "t": "How much are these?",
+      "es": "¿Cuánto cuestan estos?",
+      "emoji": "🏷️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Excuse me, how much are these?",
+        "es": "Perdone, ¿cuánto cuestan estos?"
+      }
+    }
+  ],
+  "grammar": "en-g-do-does",
+  "pron": {
+    "title": "Repaso: la -s en el mercado",
+    "tip": "Escucha y repite: he sells /z/, she makes /s/, it closes /ɪz/. Y does se dice corto, «das», sin alargar la o.",
+    "words": [
+      "sells",
+      "makes",
+      "closes",
+      "does",
+      "opens"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel de un mercadillo",
+      "text": "CANALSIDE MARKET\nOpen every day 10 am – 6 pm\nStreet food until 7 pm\nNo dogs in the food area",
+      "questions": [
+        {
+          "q": "¿A qué hora abre el mercado?",
+          "options": [
+            "A las 10",
+            "A las 6",
+            "A las 7"
+          ],
+          "answer": "A las 10"
+        },
+        {
+          "q": "¿Hasta qué hora hay comida callejera?",
+          "options": [
+            "Hasta las 7",
+            "Hasta las 6",
+            "Hasta las 10"
+          ],
+          "answer": "Hasta las 7"
+        },
+        {
+          "q": "¿Qué no se permite en la zona de comida?",
+          "options": [
+            "Perros",
+            "Niños",
+            "Bicis"
+          ],
+          "answer": "Perros"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "The woman at that stall ___ handmade scarves.",
+      "options": [
+        "sells",
+        "sell",
+        "is sell"
+      ],
+      "answer": "sells",
+      "why": "The woman = she: sells.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "___ the market open on Mondays?",
+      "options": [
+        "Does",
+        "Do",
+        "Is it"
+      ],
+      "answer": "Does",
+      "why": "The market = it: Does the market open…?",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "He ___ sell food. He sells old cameras.",
+      "es": "No vende comida. Vende cámaras antiguas.",
+      "answer": [
+        "doesn't",
+        "does not"
+      ],
+      "bank": [
+        "doesn't",
+        "don't",
+        "isn't"
+      ],
+      "why": "Con he: doesn't + sell.",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "She ___ her own jewellery at home.",
+      "es": "Hace sus propias joyas en casa.",
+      "answer": [
+        "makes"
+      ],
+      "why": "Con she: makes (la -s suena /s/).",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e6",
+      "type": "conjugate",
+      "verb": "to close",
+      "person": "it",
+      "tense": "presente simple",
+      "q": "The food area ___ at seven.",
+      "answer": [
+        "closes"
+      ],
+      "why": "It: closes (una sílaba más, /ɪz/).",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "Does the stall sells second-hand books?",
+      "wrong": "sells",
+      "fix": "sell",
+      "why": "Después de does, sin -s: sell.",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "My grandson don't like street food.",
+      "wrong": "don't",
+      "fix": "doesn't",
+      "why": "My grandson = he: doesn't.",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "¿Dónde compra ella el pan?",
+      "answer": "Where does she buy bread",
+      "extra": [
+        "buys"
+      ],
+      "why": "Where + does + she + buy.",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "He makes the bags by hand.",
+      "answer": [
+        "Does he make the bags by hand?",
+        "Does he make the bags by hand"
+      ],
+      "why": "Does + he + make (sin -s).",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e11",
+      "type": "situation",
+      "context": "En un puesto ves unas bufandas preciosas y quieres saber el precio.",
+      "emoji": "🧣",
+      "options": [
+        "How much are these?",
+        "How many are these?",
+        "How much is these?"
+      ],
+      "answer": "How much are these?",
+      "why": "Precio = How much; these es plural: are."
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Quieres saber si la vendedora hace ella misma los bolsos.",
+      "emoji": "👜",
+      "options": [
+        "Do you make the bags?",
+        "Does you make the bags?",
+        "You make the bags?"
+      ],
+      "answer": "Do you make the bags?",
+      "why": "Le hablas a ella (you): Do you make…?",
+      "g": "en-g-do-does"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "El mercado está al lado del canal.",
+      "answer": [
+        "The market is next to the canal.",
+        "The market is next to the canal"
+      ],
+      "why": "Al lado de = next to.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e14",
+      "type": "speak",
+      "t": "She sells handmade bags. Does she make them?",
+      "es": "Vende bolsos hechos a mano. ¿Los hace ella?"
+    }
+  ],
+  "dialog": {
+    "title": "En el puesto de bufandas",
+    "setting": "En un puesto de Camden Market, junto al canal",
+    "emoji": "🧣",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "These scarves are lovely. How much are they?",
+        "es": "Estas bufandas son preciosas. ¿Cuánto cuestan?"
+      },
+      {
+        "who": "Seller",
+        "t": "Fifteen pounds each.",
+        "es": "Quince libras cada una."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Are they handmade?",
+        "es": "¿Están hechas a mano?"
+      },
+      {
+        "who": "Seller",
+        "t": "Yes. My mum makes them at home.",
+        "es": "Sí. Mi madre las hace en casa."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Does she sell them here every day?",
+        "es": "¿Las vende aquí todos los días?"
+      },
+      {
+        "who": "Seller",
+        "t": "No, she doesn't. I work here. She knits!",
+        "es": "No. Aquí trabajo yo. ¡Ella teje!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Then two scarves, please. One for my grandson.",
+        "es": "Entonces dos bufandas, por favor. Una para mi nieto."
+      },
+      {
+        "who": "Seller",
+        "t": "Thirty pounds, please. Thank you!",
+        "es": "Treinta libras, por favor. ¡Gracias!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuánto cuesta cada bufanda?",
+        "options": [
+          "15 libras",
+          "30 libras",
+          "50 libras"
+        ],
+        "answer": "15 libras"
+      },
+      {
+        "q": "¿Quién hace las bufandas?",
+        "options": [
+          "La madre del vendedor",
+          "El vendedor",
+          "Yolanda"
+        ],
+        "answer": "La madre del vendedor"
+      },
+      {
+        "q": "¿Cuántas compra Yolanda?",
+        "options": [
+          "Dos",
+          "Una",
+          "Tres"
+        ],
+        "answer": "Dos"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Do you make them yourself?",
+    "es": "¿Los hace usted mismo?",
+    "context": "Para preguntar en un mercado si algo es artesanal"
+  },
+  "summary": [
+    "En el mercado: a stall, handmade, second-hand, street food",
+    "Hablar del vendedor: he sells, she makes, it closes",
+    "Preguntar: Does she sell…? What time does it close?",
+    "Negar: He doesn't sell food",
+    "Precio en plural: How much are these?"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u07-l5"
+}

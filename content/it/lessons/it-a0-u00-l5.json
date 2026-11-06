@@ -1,0 +1,512 @@
+{
+  "id": "it-a0-u00-l5",
+  "unit": "it-a0-u00",
+  "title": "Nono o nonno: las consonantes dobles",
+  "goal": "a pronunciar las consonantes dobles, que cambian el significado de las palabras",
+  "emoji": "👴",
+  "photoQuery": "italian village old street",
+  "vocab": [
+    {
+      "id": "nonno",
+      "t": "il nonno",
+      "es": "el abuelo",
+      "emoji": "👴",
+      "pos": "n",
+      "ex": {
+        "t": "Il nonno legge il giornale.",
+        "es": "El abuelo lee el periódico."
+      }
+    },
+    {
+      "id": "nonna",
+      "t": "la nonna",
+      "es": "la abuela",
+      "emoji": "👵",
+      "pos": "n",
+      "ex": {
+        "t": "La nonna cucina benissimo.",
+        "es": "La abuela cocina de maravilla."
+      }
+    },
+    {
+      "id": "nono",
+      "t": "nono",
+      "es": "noveno",
+      "emoji": "9️⃣",
+      "pos": "adj",
+      "ex": {
+        "t": "Abito al nono piano.",
+        "es": "Vivo en el noveno piso."
+      },
+      "note": "Una sola n: noveno. Con doble n (nonno) es el abuelo."
+    },
+    {
+      "id": "sette",
+      "t": "sette",
+      "es": "siete",
+      "emoji": "7️⃣",
+      "pos": "other",
+      "ex": {
+        "t": "Sono le sette.",
+        "es": "Son las siete."
+      }
+    },
+    {
+      "id": "la-sete",
+      "t": "la sete",
+      "es": "la sed",
+      "emoji": "💧",
+      "pos": "n",
+      "ex": {
+        "t": "Ho sete!",
+        "es": "¡Tengo sed!"
+      },
+      "note": "¡Ojo! No es «siete»: siete es sette, con doble t."
+    },
+    {
+      "id": "caro",
+      "t": "caro",
+      "es": "caro / querido",
+      "emoji": "💶",
+      "pos": "adj",
+      "ex": {
+        "t": "È troppo caro!",
+        "es": "¡Es demasiado caro!"
+      }
+    },
+    {
+      "id": "il-carro",
+      "t": "il carro",
+      "es": "el carro",
+      "emoji": "🛒",
+      "pos": "n",
+      "ex": {
+        "t": "Un vecchio carro di legno.",
+        "es": "Un viejo carro de madera."
+      }
+    },
+    {
+      "id": "la-pala",
+      "t": "la pala",
+      "es": "la pala",
+      "emoji": "🪏",
+      "pos": "n",
+      "ex": {
+        "t": "Il pizzaiolo usa la pala.",
+        "es": "El pizzero usa la pala."
+      }
+    },
+    {
+      "id": "la-palla",
+      "t": "la palla",
+      "es": "la pelota",
+      "emoji": "⚽",
+      "pos": "n",
+      "ex": {
+        "t": "Mio nipote gioca con la palla.",
+        "es": "Mi nieto juega con la pelota."
+      }
+    },
+    {
+      "id": "ecco",
+      "t": "ecco",
+      "es": "aquí está / aquí tienes",
+      "emoji": "👉",
+      "pos": "other",
+      "ex": {
+        "t": "Ecco il caffè!",
+        "es": "¡Aquí está el café!"
+      }
+    }
+  ],
+  "pron": {
+    "title": "Las dobles se alargan",
+    "tip": "Una consonante doble se dice más larga y con más fuerza, como con una pequeña pausa: non-no, pal-la, set-te. ¡Ojo! Si no la alargas, cambias la palabra.",
+    "words": [
+      "mamma",
+      "ecco",
+      "pizza",
+      "nonna",
+      "sette"
+    ],
+    "pairs": [
+      [
+        "pala",
+        "palla"
+      ],
+      [
+        "caro",
+        "carro"
+      ],
+      [
+        "nono",
+        "nonno"
+      ],
+      [
+        "sete",
+        "sette"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "minimal",
+      "pair": [
+        "pala",
+        "palla"
+      ],
+      "answer": "palla",
+      "es": [
+        "la pala",
+        "la pelota"
+      ],
+      "why": "Palla tiene la l larga: pal-la."
+    },
+    {
+      "id": "e2",
+      "type": "minimal",
+      "pair": [
+        "caro",
+        "carro"
+      ],
+      "answer": "carro",
+      "es": [
+        "caro",
+        "el carro"
+      ],
+      "why": "Carro lleva la r fuerte, como en español."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Ho ___! Un'acqua, per favore.",
+      "es": "¡Tengo sed! Un agua, por favor.",
+      "options": [
+        "sete",
+        "sette"
+      ],
+      "answer": "sete",
+      "why": "Sete (una t) es la sed; sette (doble t) es el número siete."
+    },
+    {
+      "id": "e4",
+      "type": "speak",
+      "t": "La nonna e il nonno.",
+      "es": "La abuela y el abuelo."
+    },
+    {
+      "id": "e5",
+      "type": "minimal",
+      "pair": [
+        "nono",
+        "nonno"
+      ],
+      "answer": "nonno",
+      "es": [
+        "noveno",
+        "el abuelo"
+      ],
+      "why": "Nonno alarga la n del medio: non-no."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Il ristorante è ___.",
+      "es": "El restaurante es caro.",
+      "answer": [
+        "caro"
+      ],
+      "bank": [
+        "caro",
+        "carro",
+        "cario"
+      ],
+      "why": "Caro, con una r, es «caro». Carro es un carro."
+    },
+    {
+      "id": "e7",
+      "type": "choose",
+      "q": "Sono le ___.",
+      "es": "Son las siete.",
+      "options": [
+        "sette",
+        "sete"
+      ],
+      "answer": "sette",
+      "why": "El número siete es sette, con doble t."
+    },
+    {
+      "id": "e8",
+      "type": "minimal",
+      "pair": [
+        "sete",
+        "sette"
+      ],
+      "answer": "sete",
+      "es": [
+        "la sed",
+        "siete"
+      ],
+      "why": "Sete tiene una t corta; sette, una t larga."
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Mi nieto juega con la pelota.",
+      "answer": "Mio nipote gioca con la palla",
+      "extra": [
+        "pala"
+      ],
+      "why": "La pelota es la palla, con doble l."
+    },
+    {
+      "id": "e10",
+      "type": "match",
+      "pairs": [
+        [
+          "nonno",
+          "abuelo"
+        ],
+        [
+          "nono",
+          "noveno"
+        ],
+        [
+          "sette",
+          "siete"
+        ],
+        [
+          "sete",
+          "sed"
+        ],
+        [
+          "palla",
+          "pelota"
+        ]
+      ],
+      "why": "Una letra de más o de menos cambia la palabra."
+    },
+    {
+      "id": "e11",
+      "type": "minimal",
+      "pair": [
+        "note",
+        "notte"
+      ],
+      "answer": "notte",
+      "es": [
+        "las notas",
+        "la noche"
+      ],
+      "why": "Notte, la noche, alarga la t: not-te."
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "Mia nona cucina benissimo.",
+      "wrong": "nona",
+      "fix": "nonna",
+      "es": "Mi abuela cocina de maravilla.",
+      "why": "La abuela es nonna, con doble n. «Nona» significa novena."
+    },
+    {
+      "id": "e13",
+      "type": "choose",
+      "q": "Il ___ di Giulia si chiama Paolo.",
+      "es": "El abuelo de Giulia se llama Paolo.",
+      "options": [
+        "nonno",
+        "nono"
+      ],
+      "answer": "nonno",
+      "why": "Abuelo = nonno, con doble n."
+    },
+    {
+      "id": "e14",
+      "type": "speak",
+      "t": "Sette caffè, per favore!",
+      "es": "¡Siete cafés, por favor!"
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "q": "Buona ___!",
+      "es": "¡Buenas noches!",
+      "answer": [
+        "notte"
+      ],
+      "bank": [
+        "notte",
+        "note",
+        "nocte"
+      ],
+      "why": "La noche es notte, con doble t. «Note» son notas."
+    },
+    {
+      "id": "e16",
+      "type": "minimal",
+      "pair": [
+        "copia",
+        "coppia"
+      ],
+      "answer": "coppia",
+      "es": [
+        "la copia",
+        "la pareja"
+      ],
+      "why": "Coppia, la pareja, alarga la p: cop-pia."
+    },
+    {
+      "id": "e17",
+      "type": "order",
+      "es": "Vivo en el noveno piso.",
+      "answer": "Abito al nono piano",
+      "extra": [
+        "nonno"
+      ],
+      "why": "Noveno es nono, con una sola n en medio."
+    },
+    {
+      "id": "e18",
+      "type": "translate",
+      "dir": "to",
+      "q": "¡Tengo sed!",
+      "answer": [
+        "Ho sete!",
+        "Ho sete"
+      ],
+      "why": "Tener sed = avere sete: ho sete."
+    },
+    {
+      "id": "e19",
+      "type": "situation",
+      "context": "Llamas por la noche a tu nieta para darle las buenas noches. ¿Qué le dices?",
+      "emoji": "🌙",
+      "options": [
+        "Buonanotte, tesoro!",
+        "Buonanote, tesoro!",
+        "Buonasete, tesoro!"
+      ],
+      "answer": "Buonanotte, tesoro!",
+      "why": "Buonanotte lleva doble t, como notte (noche)."
+    },
+    {
+      "id": "e20",
+      "type": "speak",
+      "t": "Ecco la palla!",
+      "es": "¡Aquí está la pelota!"
+    }
+  ],
+  "dialog": {
+    "title": "Una mesa para siete",
+    "setting": "En una pizzería de Roma, con la familia",
+    "emoji": "🍕",
+    "lines": [
+      {
+        "who": "Gino",
+        "t": "Buonasera! Quanti siete?",
+        "es": "¡Buenas noches! ¿Cuántos sois?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sette! Tutta la famiglia.",
+        "es": "¡Siete! Toda la familia."
+      },
+      {
+        "who": "Gino",
+        "t": "Sette? Perfetto. Ecco il tavolo.",
+        "es": "¿Siete? Perfecto. Aquí está la mesa."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie! Abbiamo sete: acqua, per favore.",
+        "es": "¡Gracias! Tenemos sed: agua, por favor."
+      },
+      {
+        "who": "Gino",
+        "t": "Subito! Naturale o frizzante?",
+        "es": "¡Enseguida! ¿Sin gas o con gas?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Naturale. E sette pizze!",
+        "es": "Sin gas. ¡Y siete pizzas!"
+      },
+      {
+        "who": "Gino",
+        "t": "Sette pizze! Che bella famiglia!",
+        "es": "¡Siete pizzas! ¡Qué familia tan bonita!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuántos son?",
+        "options": [
+          "Siete",
+          "Nueve",
+          "Dos"
+        ],
+        "answer": "Siete"
+      },
+      {
+        "q": "¿Qué significa «sete»?",
+        "options": [
+          "Sed",
+          "Siete",
+          "Seda"
+        ],
+        "answer": "Sed"
+      },
+      {
+        "q": "¿Qué agua piden?",
+        "options": [
+          "Sin gas",
+          "Con gas"
+        ],
+        "answer": "Sin gas"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Un tavolo per sette, per favore.",
+    "es": "Una mesa para siete, por favor.",
+    "context": "Al llegar a un restaurante con toda la familia"
+  },
+  "same": {
+    "text": "Igual que en español: nuestra «rr» de carro ya es una doble. En italiano pasa con muchas más letras.",
+    "examples": [
+      {
+        "t": "il carro",
+        "es": "el carro"
+      },
+      {
+        "t": "la torre",
+        "es": "la torre"
+      },
+      {
+        "t": "la terra",
+        "es": "la tierra"
+      },
+      {
+        "t": "la guerra",
+        "es": "la guerra"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "sete",
+    "means": "sed",
+    "looksLike": "siete",
+    "emoji": "💧",
+    "tip": "Siete se dice «sette», con doble t. «Ho sete» significa «tengo sed»."
+  },
+  "summary": [
+    "Las consonantes dobles se alargan: non-no, pal-la",
+    "Cambian el significado: nono (noveno) / nonno (abuelo)",
+    "sete es la sed; sette es el número siete",
+    "Ecco = aquí está / aquí tienes"
+  ],
+  "reviewed": false,
+  "photo": "it-a0-u00-l5"
+}

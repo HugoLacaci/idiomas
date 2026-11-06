@@ -1,0 +1,138 @@
+{
+  "id": "it-g-aggettivi-accordo",
+  "lang": "it",
+  "level": "A1",
+  "title": "La concordancia del adjetivo",
+  "short": "Alto, alta, alti, alte: el adjetivo cambia según la persona o cosa que describe.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Describir a la familia",
+      "emoji": "🧑‍🤝‍🧑",
+      "text": "Como en español, el adjetivo **concuerda** en género y número con el nombre: un hijo alto, una hija alta. La diferencia está en el **plural**.",
+      "examples": [
+        { "t": "Hugo è ==alto==.", "es": "Hugo es alto.", "hl": "alto" },
+        { "t": "Mia nipote è ==alta==.", "es": "Mi nieta es alta.", "hl": "alta" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Grupo 1: -o, -a, -i, -e",
+      "emoji": "📋",
+      "text": "Cuatro formas. ¡Ojo al plural! No se añade -s: masculino **-i**, femenino **-e**.",
+      "table": {
+        "head": ["", "Singular", "Plural"],
+        "rows": [
+          ["Masculino", "un figlio ==alto==", "due figli ==alti=="],
+          ["Femenino", "una figlia ==alta==", "due figlie ==alte=="]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Grupo 2: -e, -i",
+      "emoji": "📋",
+      "text": "Los adjetivos en **-e** sirven igual para masculino y femenino. En plural, **-i** para los dos.",
+      "table": {
+        "head": ["", "Singular", "Plural"],
+        "rows": [
+          ["Masculino", "un nonno ==gentile==", "i nonni ==gentili=="],
+          ["Femenino", "una nonna ==gentile==", "le nonne ==gentili=="]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Chicos y chicas juntos",
+      "emoji": "👫",
+      "text": "Si mezclas masculino y femenino, el adjetivo va en **masculino plural**, igual que en español.",
+      "examples": [
+        { "t": "Hugo e Laura sono ==simpatici==.", "es": "Hugo y Laura son simpáticos.", "hl": "simpatici" },
+        { "t": "I miei nipoti sono ==biondi==.", "es": "Mis nietos son rubios.", "hl": "biondi" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "En español añadimos -s: altos, altas. En italiano **cambia la última vocal**: alt==i==, alt==e==. Y el adjetivo suele ir detrás: una casa ==grande==.",
+      "examples": [
+        { "t": "le figlie ==simpatiche==", "es": "las hijas simpáticas", "hl": "simpatiche" },
+        { "t": "una famiglia ==numerosa==", "es": "una familia numerosa", "hl": "numerosa" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "Errores típicos",
+      "emoji": "⚠️",
+      "text": "El más frecuente: poner la -s española. Y en femenino plural, la -h para mantener el sonido /k/.",
+      "examples": [
+        { "t": "❌ altos → ✅ ==alti==", "es": "altos", "hl": "alti" },
+        { "t": "❌ gentiles → ✅ ==gentili==", "es": "amables", "hl": "gentili" },
+        { "t": "❌ simpatice → ✅ ==simpatiche==", "es": "simpáticas", "hl": "simpatiche" }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Truco",
+      "emoji": "💡",
+      "text": "Algunos no cambian nunca: **blu, rosa, viola, single**. Y fíjate: simpatic**o** → simpatic==i== pero simpatic==he==; stanc**o** → stanc==hi==, stanc==he==.",
+      "examples": [
+        { "t": "le borse ==blu==", "es": "los bolsos azules", "hl": "blu" },
+        { "t": "Siamo ==stanchi==.", "es": "Estamos cansados.", "hl": "stanchi" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: alto, alta, altos, altas; amable, amables (añadimos -s).",
+    "target": "En italiano: alto, alta, alti, alte; gentile, gentili (cambia la vocal final, nunca -s). Algunos son invariables: blu, rosa, single."
+  },
+  "errors": [
+    { "wrong": "i miei amici sono altos", "right": "i miei amici sono alti", "why": "En italiano el plural masculino acaba en -i, sin -s." },
+    { "wrong": "le nonne sono gentile", "right": "le nonne sono gentili", "why": "Los adjetivos en -e hacen el plural en -i." },
+    { "wrong": "le mie amiche sono simpatice", "right": "le mie amiche sono simpatiche", "why": "Simpatica hace simpatiche: la h mantiene el sonido /k/." },
+    { "wrong": "Hugo e Laura sono simpatiche", "right": "Hugo e Laura sono simpatici", "why": "Si hay un chico y una chica, masculino plural." },
+    { "wrong": "una casa grando", "right": "una casa grande", "why": "Grande acaba en -e y vale para masculino y femenino." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "La mia amica è ___.", "es": "Mi amiga es alta.", "options": ["alto", "alta", "alte"], "answer": "alta", "why": "Amica es femenino singular: alta.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e2", "type": "choose", "q": "I miei nipoti sono ___.", "es": "Mis nietos son rubios.", "options": ["biondi", "biondos", "bionde"], "answer": "biondi", "why": "Masculino plural: -i, nunca -s.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e3", "type": "choose", "q": "Le mie sorelle sono ___.", "es": "Mis hermanas son simpáticas.", "options": ["simpatice", "simpatiche", "simpatici"], "answer": "simpatiche", "why": "Femenino plural de simpatica: simpatiche, con h.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e4", "type": "choose", "q": "La nonna è molto ___.", "es": "La abuela es muy amable.", "options": ["gentila", "gentile", "gentili"], "answer": "gentile", "why": "Gentile acaba en -e: vale igual para masculino y femenino.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e5", "type": "choose", "q": "Marco e sua sorella sono ___.", "es": "Marco y su hermana son morenos.", "options": ["bruni", "brune", "bruno"], "answer": "bruni", "why": "Chico + chica: masculino plural.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e6", "type": "choose", "q": "Abbiamo una famiglia ___.", "es": "Tenemos una familia grande.", "options": ["grande", "granda", "grandi"], "answer": "grande", "why": "Grande acaba en -e y está en singular.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e7", "type": "choose", "q": "Le mie amiche sono ___.", "es": "Mis amigas están cansadas.", "options": ["stance", "stanche", "stanchi"], "answer": "stanche", "why": "Femenino plural de stanca: stanche, con h.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e8", "type": "fill", "q": "Mio marito è ___.", "es": "Mi marido es alto.", "answer": ["alto"], "bank": ["alto", "alta", "alti"], "why": "Marito es masculino singular: alto.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e9", "type": "fill", "q": "I nonni sono ___.", "es": "Los abuelos son amables.", "answer": ["gentili"], "bank": ["gentili", "gentile", "gentiles"], "why": "Gentile en plural: gentili.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e10", "type": "fill", "q": "Le nipoti di Yolanda sono ___.", "es": "Las nietas de Yolanda son pequeñas.", "answer": ["piccole"], "bank": ["piccole", "piccoli", "piccolas"], "why": "Femenino plural: -e.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e11", "type": "fill", "q": "Mia madre è ___.", "es": "Mi madre es viuda.", "answer": ["vedova"], "bank": ["vedova", "vedovo", "vedove"], "why": "Madre es femenino singular: vedova.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e12", "type": "fill", "q": "Marco non è sposato, è ___.", "es": "Marco no está casado, está soltero.", "answer": ["single", "celibe"], "why": "Single no cambia nunca; en documentos también se dice celibe.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e13", "type": "fill", "q": "I miei nipoti sono ___.", "es": "Mis nietos son simpáticos.", "answer": ["simpatici"], "why": "Simpatico en masculino plural: simpatici.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e14", "type": "fill", "q": "Le case del paese sono ___.", "es": "Las casas del pueblo son viejas.", "answer": ["vecchie"], "why": "Femenino plural de vecchia: vecchie.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e15", "type": "transform", "instr": "Pásalo a plural", "q": "Il bambino è biondo.", "answer": ["I bambini sono biondi."], "why": "Todo en plural: i bambini, sono, biondi.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e16", "type": "transform", "instr": "Pásalo a plural", "q": "La nonna è gentile.", "answer": ["Le nonne sono gentili."], "why": "Gentile hace gentili en plural.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e17", "type": "transform", "instr": "Pásalo a femenino", "q": "Mio nipote è simpatico.", "answer": ["Mia nipote è simpatica."], "why": "Nipote no cambia; mio → mia, simpatico → simpatica.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e18", "type": "transform", "instr": "Pásalo a femenino", "q": "Lo zio è sposato.", "answer": ["La zia è sposata."], "why": "Zio → zia y sposato → sposata.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e19", "type": "transform", "instr": "Pásalo a plural", "q": "La mia amica è stanca.", "answer": ["Le mie amiche sono stanche."], "why": "Stanca en plural es stanche, con h.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e20", "type": "error", "q": "I miei nipoti sono altos.", "wrong": "altos", "fix": "alti", "why": "El plural masculino italiano acaba en -i.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e21", "type": "error", "q": "Le mie sorelle sono simpatici.", "wrong": "simpatici", "fix": "simpatiche", "why": "Sorelle es femenino plural: simpatiche.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e22", "type": "error", "q": "Mia madre è molto gentila.", "wrong": "gentila", "fix": "gentile", "why": "Gentile acaba en -e también en femenino.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e23", "type": "error", "q": "Mio marito è stanca.", "wrong": "stanca", "fix": "stanco", "why": "Marito es masculino: stanco.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e24", "type": "order", "es": "Mi amiga es alta y rubia.", "answer": "La mia amica è alta e bionda", "extra": ["alto"], "why": "Todo en femenino singular: alta, bionda.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e25", "type": "order", "es": "Mis nietos son muy simpáticos.", "answer": "I miei nipoti sono molto simpatici", "extra": ["simpatiche"], "why": "Masculino plural: simpatici.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e26", "type": "order", "es": "Tenemos una casa pequeña.", "answer": "Abbiamo una casa piccola", "extra": ["piccolo"], "why": "El adjetivo va detrás y concuerda con casa: piccola.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "las abuelas simpáticas", "answer": ["le nonne simpatiche"], "why": "Femenino plural: simpatiche.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "Mi hermano está casado.", "answer": ["Mio fratello è sposato."], "why": "Masculino singular: sposato. Estar casado = essere sposato.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "Mis nietos son altos.", "answer": ["I miei nipoti sono alti."], "why": "Plural masculino en -i: alti.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e30", "type": "translate", "dir": "from", "q": "Le mie nipoti sono bionde e simpatiche.", "answer": ["Mis nietas son rubias y simpáticas", "Mis sobrinas son rubias y simpáticas"], "why": "Nipoti puede ser nietas o sobrinas; bionde y simpatiche son femenino plural.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e31", "type": "match", "pairs": [["un figlio", "alto"], ["una figlia", "alta"], ["due figli", "alti"], ["due figlie", "alte"], ["le nonne", "gentili"]], "why": "Cada adjetivo concuerda en género y número con su nombre.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e32", "type": "situation", "context": "Una amica italiana ve una foto de tus nietos (un niño y una niña) y quieres decir que son muy buenos.", "emoji": "👧👦", "options": ["Sono molto brave.", "Sono molto bravi.", "Sono molto bravos."], "answer": "Sono molto bravi.", "why": "Niño + niña: masculino plural, bravi.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e33", "type": "situation", "context": "Describes a tu madre a una vecina: es mayor pero muy guapa.", "emoji": "👵", "options": ["È anziana ma molto bella.", "È anziano ma molto bello.", "È anziane ma molto belle."], "answer": "È anziana ma molto bella.", "why": "Madre es femenino singular: anziana, bella.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e34", "type": "reading", "kind": "text", "title": "La famiglia di Carla", "text": "Carla è sposata. Suo marito è alto e simpatico. Le sue figlie sono bionde. Sua madre è anziana ma molto attiva.", "questions": [
+      { "q": "¿Cómo es el marido de Carla?", "options": ["Alto y simpático", "Bajo y rubio", "Mayor y activo"], "answer": "Alto y simpático" },
+      { "q": "¿Cómo son las hijas?", "options": ["Rubias", "Morenas", "Altas"], "answer": "Rubias" },
+      { "q": "¿Por qué pone «bionde» y no «biondi»?", "options": ["Porque figlie es femenino plural", "Porque es singular", "Porque es masculino"], "answer": "Porque figlie es femenino plural" }
+    ], "why": "Cada adjetivo concuerda con su nombre: marito alto, figlie bionde, madre anziana.", "g": "it-g-aggettivi-accordo" }
+  ],
+  "reviewed": false
+}

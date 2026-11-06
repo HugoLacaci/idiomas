@@ -1,0 +1,452 @@
+{
+  "id": "it-a2-u01-l2",
+  "unit": "it-a2-u01",
+  "title": "Abbiamo visitato gli Uffizi",
+  "goal": "a contar lo que hiciste tú y los demás con el passato prossimo y avere",
+  "emoji": "🖼️",
+  "photoQuery": "visitors looking at paintings museum",
+  "vocab": [
+    {
+      "id": "museo-visitare",
+      "t": "visitare",
+      "es": "visitar",
+      "emoji": "🏛️",
+      "pos": "v",
+      "ex": {
+        "t": "Abbiamo visitato gli Uffizi.",
+        "es": "Hemos visitado los Uffizi."
+      }
+    },
+    {
+      "id": "museo-ammirare",
+      "t": "ammirare",
+      "es": "admirar, contemplar",
+      "emoji": "😍",
+      "pos": "v",
+      "ex": {
+        "t": "Ho ammirato la Venere di Botticelli.",
+        "es": "He contemplado la Venus de Botticelli."
+      }
+    },
+    {
+      "id": "museo-fotografare",
+      "t": "fotografare",
+      "es": "fotografiar",
+      "emoji": "📷",
+      "pos": "v",
+      "ex": {
+        "t": "Mio marito ha fotografato la cupola.",
+        "es": "Mi marido ha fotografiado la cúpula."
+      }
+    },
+    {
+      "id": "museo-ascoltare",
+      "t": "ascoltare",
+      "es": "escuchar",
+      "emoji": "🎧",
+      "pos": "v",
+      "ex": {
+        "t": "Avete ascoltato la guida?",
+        "es": "¿Habéis escuchado a la guía?"
+      }
+    },
+    {
+      "id": "museo-aspettare",
+      "t": "aspettare",
+      "es": "esperar",
+      "emoji": "⏳",
+      "pos": "v",
+      "ex": {
+        "t": "Abbiamo aspettato in fila mezz'ora.",
+        "es": "Hemos esperado en la cola media hora."
+      }
+    },
+    {
+      "id": "museo-pagare",
+      "t": "pagare",
+      "es": "pagar",
+      "emoji": "💳",
+      "pos": "v",
+      "ex": {
+        "t": "Hai pagato con la carta?",
+        "es": "¿Has pagado con tarjeta?"
+      }
+    },
+    {
+      "id": "museo-comprare",
+      "t": "comprare",
+      "es": "comprar",
+      "emoji": "🛍️",
+      "pos": "v",
+      "ex": {
+        "t": "Ho comprato un libro d'arte.",
+        "es": "He comprado un libro de arte."
+      }
+    },
+    {
+      "id": "museo-seguire",
+      "t": "seguire",
+      "es": "seguir",
+      "emoji": "👣",
+      "pos": "v",
+      "ex": {
+        "t": "Abbiamo seguito la guida per due ore.",
+        "es": "Hemos seguido a la guía durante dos horas."
+      }
+    }
+  ],
+  "grammar": "it-g-passato-prossimo-avere",
+  "pron": {
+    "title": "Abbiamo, con doble b",
+    "tip": "En abbiamo la b es doble: para un instante y apriétala, «ab-bia-mo». Y el acento va en la «bia».",
+    "words": [
+      "abbiamo",
+      "avete",
+      "hanno",
+      "visitato",
+      "ammirato"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Ieri io e mio marito ___ visitato gli Uffizi.",
+      "es": "Ayer mi marido y yo visitamos los Uffizi.",
+      "options": [
+        "abbiamo",
+        "hanno",
+        "avete"
+      ],
+      "answer": "abbiamo",
+      "why": "Io e mio marito = noi: abbiamo.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Le mie amiche hanno ___ la guida.",
+      "es": "Mis amigas han escuchado a la guía.",
+      "options": [
+        "ascoltato",
+        "ascoltate",
+        "ascoltata"
+      ],
+      "answer": "ascoltato",
+      "why": "Con avere el participio no cambia: ascoltato.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Tu ___ pagato con la carta?",
+      "es": "¿Tú has pagado con tarjeta?",
+      "options": [
+        "hai",
+        "ha",
+        "ho"
+      ],
+      "answer": "hai",
+      "why": "Tu → hai.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Abbiamo ___ la guida per due ore.",
+      "es": "Hemos seguido a la guía durante dos horas.",
+      "options": [
+        "seguito",
+        "seguato",
+        "seguuto"
+      ],
+      "answer": "seguito",
+      "why": "Seguire (-ire) → seguito.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Mio marito ___ fotografato la cupola.",
+      "es": "Mi marido ha fotografiado la cúpula.",
+      "answer": [
+        "ha"
+      ],
+      "bank": [
+        "ha",
+        "hanno",
+        "è"
+      ],
+      "why": "Lui → ha.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Voi ___ aspettato molto in fila?",
+      "es": "¿Vosotros habéis esperado mucho en la cola?",
+      "answer": [
+        "avete"
+      ],
+      "bank": [
+        "avete",
+        "abbiamo",
+        "hanno"
+      ],
+      "why": "Voi → avete.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Ho ___ la Venere di Botticelli per dieci minuti.",
+      "es": "He contemplado la Venus de Botticelli durante diez minutos.",
+      "answer": [
+        "ammirato",
+        "guardato"
+      ],
+      "hint": "ammirare",
+      "why": "Ammirare → ammirato.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "q": "Le ragazze hanno ___ tre cartoline.",
+      "es": "Las chicas han comprado tres postales.",
+      "answer": [
+        "comprato"
+      ],
+      "hint": "comprare",
+      "why": "Comprare → comprato; no cambia aunque sean chicas.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Le mie amiche hanno visitate il museo.",
+      "wrong": "visitate",
+      "fix": "visitato",
+      "why": "Con avere el participio se queda en -o: visitato.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Noi avete aspettato un'ora.",
+      "wrong": "avete",
+      "fix": "abbiamo",
+      "why": "Noi → abbiamo.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Pásala a passato prossimo",
+      "q": "I miei amici visitano la Galleria dell'Accademia.",
+      "answer": [
+        "I miei amici hanno visitato la Galleria dell'Accademia."
+      ],
+      "why": "Visitano → hanno visitato.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e12",
+      "type": "transform",
+      "instr": "Cambia el sujeto a «noi»",
+      "q": "Ho pagato i biglietti.",
+      "answer": [
+        "Abbiamo pagato i biglietti."
+      ],
+      "why": "Noi → abbiamo; pagato no cambia.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e13",
+      "type": "order",
+      "es": "Ayer mis amigas compraron un libro de arte.",
+      "answer": "Ieri le mie amiche hanno comprato un libro d'arte",
+      "alt": [
+        "Le mie amiche ieri hanno comprato un libro d'arte",
+        "Le mie amiche hanno comprato un libro d'arte ieri"
+      ],
+      "extra": [
+        "comprate"
+      ],
+      "why": "Loro → hanno comprato (sin cambiar el participio).",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Habéis visitado el museo?",
+      "answer": [
+        "Avete visitato il museo?"
+      ],
+      "why": "Voi → avete visitato.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e15",
+      "type": "translate",
+      "dir": "from",
+      "q": "Abbiamo aspettato in fila mezz'ora.",
+      "answer": [
+        "Hemos esperado en la cola media hora.",
+        "Esperamos en la cola media hora.",
+        "Hemos esperado media hora en la cola.",
+        "Esperamos media hora en la cola."
+      ],
+      "why": "Aspettare = esperar; la fila = la cola.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e16",
+      "type": "conjugate",
+      "verb": "ascoltare",
+      "person": "loro",
+      "tense": "passato prossimo",
+      "q": "I turisti ___ la guida in silenzio.",
+      "answer": [
+        "hanno ascoltato"
+      ],
+      "table": [
+        [
+          "io",
+          "ho ascoltato"
+        ],
+        [
+          "noi",
+          "abbiamo ascoltato"
+        ],
+        [
+          "loro",
+          "hanno ascoltato"
+        ]
+      ],
+      "why": "Loro → hanno ascoltato.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e17",
+      "type": "situation",
+      "context": "Una amiga te pregunta por WhatsApp qué hicisteis ayer tu marido y tú. Visitasteis los Uffizi.",
+      "emoji": "🏛️",
+      "options": [
+        "Abbiamo visitato gli Uffizi!",
+        "Hanno visitato gli Uffizi!",
+        "Visitiamo gli Uffizi ieri!"
+      ],
+      "answer": "Abbiamo visitato gli Uffizi!",
+      "why": "Nosotros, en pasado: abbiamo visitato.",
+      "g": "it-g-passato-prossimo-avere"
+    }
+  ],
+  "dialog": {
+    "title": "¿Qué tal los Uffizi?",
+    "setting": "Por la noche, en el hotel, Yolanda charla con Marco, el recepcionista",
+    "emoji": "🏨",
+    "lines": [
+      {
+        "who": "Marco",
+        "t": "Allora, signora, avete visitato gli Uffizi?",
+        "es": "Entonces, señora, ¿han visitado los Uffizi?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì! Abbiamo aspettato in fila mezz'ora, ma il museo è stupendo.",
+        "es": "¡Sí! Hemos esperado media hora en la cola, pero el museo es estupendo."
+      },
+      {
+        "who": "Marco",
+        "t": "Avete ascoltato l'audioguida?",
+        "es": "¿Han escuchado la audioguía?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, e abbiamo seguito anche una visita in spagnolo.",
+        "es": "Sí, y también hemos seguido una visita en español."
+      },
+      {
+        "who": "Marco",
+        "t": "E cosa avete ammirato di più?",
+        "es": "¿Y qué es lo que más han admirado?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "La Venere di Botticelli. È bellissima!",
+        "es": "La Venus de Botticelli. ¡Es preciosa!"
+      },
+      {
+        "who": "Marco",
+        "t": "E suo marito?",
+        "es": "¿Y su marido?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Lui ha fotografato tutto, anche le finestre!",
+        "es": "¡Él lo ha fotografiado todo, hasta las ventanas!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuánto esperaron en la cola?",
+        "options": [
+          "Media hora",
+          "Dos horas",
+          "Nada"
+        ],
+        "answer": "Media hora"
+      },
+      {
+        "q": "¿Qué obra le gustó más a Yolanda?",
+        "options": [
+          "La Venus de Botticelli",
+          "El David",
+          "La cúpula"
+        ],
+        "answer": "La Venus de Botticelli"
+      },
+      {
+        "q": "¿Qué hizo su marido?",
+        "options": [
+          "Fotografiarlo todo",
+          "Dormir en un banco",
+          "Comprar postales"
+        ],
+        "answer": "Fotografiarlo todo"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Abbiamo visitato il centro e abbiamo mangiato benissimo.",
+    "es": "Hemos visitado el centro y hemos comido de maravilla.",
+    "context": "Para contar tu día de viaje a la familia o a un recepcionista"
+  },
+  "same": {
+    "text": "Avere + participio funciona como nuestro «he visitado». Y muchos verbos del museo son casi iguales.",
+    "examples": [
+      {
+        "t": "Ho visitato.",
+        "es": "He visitado."
+      },
+      {
+        "t": "Abbiamo ammirato.",
+        "es": "Hemos admirado."
+      },
+      {
+        "t": "Hanno pagato.",
+        "es": "Han pagado."
+      }
+    ]
+  },
+  "summary": [
+    "Ho, hai, ha, abbiamo, avete, hanno + participio.",
+    "-are → -ato, -ere → -uto, -ire → -ito.",
+    "Con avere el participio no cambia: le amiche hanno comprato.",
+    "En italiano se usa también para ayer: ieri abbiamo visitato."
+  ],
+  "reviewed": false,
+  "photo": "it-a2-u01-l2"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "it-a1-u04-l5",
+  "unit": "it-a1-u04",
+  "title": "Reto: una boda en la Costa Amalfitana",
+  "goal": "a presentar y describir a tu familia en una situación real",
+  "emoji": "🍋",
+  "photoQuery": "positano coast lemon trees",
+  "vocab": [
+    { "id": "ti-presento", "t": "Ti presento…", "es": "Te presento a…", "emoji": "🤝", "pos": "phrase", "note": "De usted: Le presento…", "ex": { "t": "Ti presento mio marito.", "es": "Te presento a mi marido." } },
+    { "id": "il-matrimonio", "t": "il matrimonio", "es": "la boda", "emoji": "💒", "pos": "n", "note": "También significa «matrimonio».", "ex": { "t": "Il matrimonio è a Ravello.", "es": "La boda es en Ravello." } },
+    { "id": "la-sposa", "t": "la sposa / lo sposo", "es": "la novia / el novio (en la boda)", "emoji": "👰", "pos": "n", "note": "¡Ojo! La sposa es la novia el día de la boda; la esposa de alguien es la moglie.", "ex": { "t": "La sposa è bellissima!", "es": "¡La novia está guapísima!" } },
+    { "id": "il-nipotino", "t": "il nipotino / la nipotina", "es": "el nietecito / la nietecita", "emoji": "👶", "pos": "n", "ex": { "t": "Il nipotino di Giulia ha due anni.", "es": "El nietecito de Giulia tiene dos años." } },
+    { "id": "assomiglia-a", "t": "assomiglia a…", "es": "se parece a…", "emoji": "🪞", "pos": "phrase", "ex": { "t": "Marco assomiglia a suo padre.", "es": "Marco se parece a su padre." } },
+    { "id": "il-limone", "t": "il limone", "es": "el limón", "emoji": "🍋", "pos": "n", "ex": { "t": "I limoni di Amalfi sono enormi.", "es": "Los limones de Amalfi son enormes." } },
+    { "id": "la-foto-di-famiglia", "t": "la foto di famiglia", "es": "la foto de familia", "emoji": "📸", "pos": "n", "ex": { "t": "Facciamo una foto di famiglia!", "es": "¡Hagamos una foto de familia!" } },
+    { "id": "auguri", "t": "Auguri!", "es": "¡Felicidades!", "emoji": "🎉", "pos": "phrase", "ex": { "t": "Auguri agli sposi!", "es": "¡Felicidades a los novios!" } }
+  ],
+  "grammar": "it-g-possessivi",
+  "pron": {
+    "title": "Repaso: gl y dobles",
+    "tip": "En una sola frase: «Ecco la mia famiglia: mia figlia, mio figlio e la nonna». Marca bien la ll de gl y las dobles de nonna.",
+    "words": ["famiglia", "figlia", "nonna", "matrimonio", "limoncello"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "message", "title": "Invitación de boda", "text": "Cara Yolanda, mia figlia Chiara e il suo fidanzato Paolo si sposano! Il matrimonio è sabato 14 giugno ad Amalfi. Vieni con tuo figlio? Un abbraccio, Giulia", "questions": [
+      { "q": "¿Quién se casa?", "options": ["La hija de Giulia", "El hijo de Yolanda", "Giulia"], "answer": "La hija de Giulia" },
+      { "q": "¿Dónde es la boda?", "options": ["En Amalfi", "En Roma", "En Nápoles"], "answer": "En Amalfi" },
+      { "q": "¿A quién invita también Giulia?", "options": ["Al hijo de Yolanda", "A la madre de Yolanda", "A las amigas"], "answer": "Al hijo de Yolanda" }
+    ] },
+    { "id": "e2", "type": "choose", "q": "Ti presento ___ figlio Hugo.", "es": "Te presento a mi hijo Hugo.", "options": ["mio", "il mio", "mia"], "answer": "mio", "why": "Familiar en singular: mio figlio, sin artículo.", "g": "it-g-possessivi" },
+    { "id": "e3", "type": "choose", "q": "___ sposi sono molto giovani.", "es": "Los novios son muy jóvenes.", "options": ["Gli", "I", "Le"], "answer": "Gli", "why": "Sposi empieza por s + consonante: gli sposi.", "g": "it-g-articoli-det" },
+    { "id": "e4", "type": "choose", "q": "La sposa è ___.", "es": "La novia está guapísima.", "options": ["bellissimo", "bellissima", "bellissime"], "answer": "bellissima", "why": "Sposa es femenino singular: bellissima.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e5", "type": "fill", "q": "Marco assomiglia a ___ padre.", "es": "Marco se parece a su padre.", "answer": ["suo"], "bank": ["suo", "sua", "il suo"], "why": "Padre es masculino y familiar en singular: suo.", "g": "it-g-possessivi" },
+    { "id": "e6", "type": "fill", "q": "___ limoni di Amalfi sono enormi.", "es": "Los limones de Amalfi son enormes.", "answer": ["I"], "bank": ["I", "Gli", "Le"], "why": "Limoni empieza por consonante normal: i.", "g": "it-g-articoli-det" },
+    { "id": "e7", "type": "fill", "q": "Le mie nipotine sono ___.", "es": "Mis nietecitas son rubias.", "answer": ["bionde"], "why": "Femenino plural: bionde.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e8", "type": "transform", "instr": "Pásalo a plural", "q": "il mio nipotino carino", "answer": ["i miei nipotini carini"], "why": "Todo en plural masculino: i miei, nipotini, carini.", "g": "it-g-aggettivi-accordo" },
+    { "id": "e9", "type": "error", "q": "Ti presento mio moglie.", "wrong": "mio", "fix": "mia", "why": "Moglie es femenino: mia moglie (sin artículo, porque es un familiar en singular).", "g": "it-g-possessivi" },
+    { "id": "e10", "type": "error", "q": "Il zio della sposa è simpatico.", "wrong": "Il", "fix": "Lo", "why": "Ante z: lo zio.", "g": "it-g-articoli-det" },
+    { "id": "e11", "type": "order", "es": "Te presento a mi hijo y a mi nieta.", "answer": "Ti presento mio figlio e mia nipote", "extra": ["la"], "why": "Dos familiares en singular: sin artículo.", "g": "it-g-possessivi" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "¡Felicidades a los novios!", "answer": ["Auguri agli sposi!", "Auguri agli sposi"], "why": "Auguri = felicidades; a + gli = agli.", "g": "it-g-articoli-det" },
+    { "id": "e13", "type": "situation", "context": "En la boda, la madre de la novia te pregunta quién es el chico que va contigo.", "emoji": "🤵", "options": ["È mio figlio Hugo.", "È il mio figlio Hugo.", "È mia figlio Hugo."], "answer": "È mio figlio Hugo.", "why": "Familiar en singular, masculino: mio figlio.", "g": "it-g-possessivi" },
+    { "id": "e14", "type": "situation", "context": "Quieres felicitar a los novios al salir de la iglesia.", "emoji": "💐", "options": ["Auguri!", "Buon appetito!", "Arrivederci!"], "answer": "Auguri!", "why": "Auguri sirve para felicitar en bodas, cumpleaños y fiestas." },
+    { "id": "e15", "type": "match", "pairs": [["la sposa", "la novia (en la boda)"], ["la moglie", "la esposa"], ["il matrimonio", "la boda"], ["assomiglia a", "se parece a"], ["Auguri!", "¡Felicidades!"]], "why": "Ojo: la sposa es la novia en la boda; tu esposa es la moglie." },
+    { "id": "e16", "type": "speak", "t": "Ti presento la mia famiglia.", "es": "Te presento a mi familia." }
+  ],
+  "dialog": {
+    "title": "La foto de la boda",
+    "setting": "En un jardín con limoneros, en una boda en Ravello",
+    "emoji": "💒",
+    "lines": [
+      { "who": "Giulia", "t": "Yolanda! Ti presento mia figlia Chiara, la sposa.", "es": "¡Yolanda! Te presento a mi hija Chiara, la novia." },
+      { "who": "Yolanda", "t": "Auguri, Chiara! Sei bellissima!", "es": "¡Felicidades, Chiara! ¡Estás guapísima!" },
+      { "who": "Chiara", "t": "Grazie! E chi è questo ragazzo?", "es": "¡Gracias! ¿Y quién es este chico?" },
+      { "who": "Yolanda", "t": "È mio figlio Hugo.", "es": "Es mi hijo Hugo." },
+      { "who": "Giulia", "t": "Assomiglia a te! Ha i tuoi occhi.", "es": "¡Se parece a ti! Tiene tus ojos." },
+      { "who": "Yolanda", "t": "Sì, ma è più alto!", "es": "¡Sí, pero es más alto!" },
+      { "who": "Chiara", "t": "Facciamo una foto di famiglia?", "es": "¿Hacemos una foto de familia?" },
+      { "who": "Giulia", "t": "Sì! Tutti insieme, con i limoni!", "es": "¡Sí! ¡Todos juntos, con los limones!" }
+    ],
+    "questions": [
+      { "q": "¿Quién es Chiara?", "options": ["La hija de Giulia, la novia", "La nuera de Yolanda", "La hermana de Hugo"], "answer": "La hija de Giulia, la novia" },
+      { "q": "¿A quién se parece Hugo?", "options": ["A Yolanda", "A Giulia", "A su abuelo"], "answer": "A Yolanda" },
+      { "q": "¿Qué quiere hacer Chiara?", "options": ["Una foto de familia", "Comer limones", "Bailar"], "answer": "Una foto de familia" }
+    ]
+  },
+  "realLife": { "t": "Ti presento mio figlio.", "es": "Te presento a mi hijo.", "context": "Para presentar a tu hijo en una fiesta o una boda" },
+  "same": {
+    "text": "Igual que en español: en las fiestas familiares se dicen cosas muy parecidas.",
+    "examples": [
+      { "t": "il matrimonio", "es": "el matrimonio, la boda" },
+      { "t": "Sei bellissima!", "es": "¡Estás guapísima!" },
+      { "t": "Ti presento…", "es": "Te presento…" }
+    ]
+  },
+  "falseFriend": {
+    "word": "la sposa",
+    "means": "la novia el día de la boda",
+    "looksLike": "la esposa",
+    "emoji": "👰",
+    "tip": "Tu esposa de todos los días es la moglie. La sposa es la que se casa (y gli sposi, los novios)."
+  },
+  "summary": [
+    "Presentar: Ti presento mio figlio / la mia famiglia",
+    "Artículos: i limoni, gli sposi, lo zio, la sposa",
+    "Adjetivos que concuerdan: la sposa è bellissima",
+    "Felicitar: Auguri agli sposi!"
+  ],
+  "reviewed": false
+}

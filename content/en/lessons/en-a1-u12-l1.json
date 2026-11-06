@@ -1,0 +1,429 @@
+{
+  "id": "en-a1-u12-l1",
+  "unit": "en-a1-u12",
+  "title": "¿De verdad? ¡Yo también!",
+  "goal": "a reaccionar en una conversación y a repasar to be, have got y los posesivos",
+  "emoji": "💬",
+  "photoQuery": "covent garden market hall",
+  "vocab": [
+    {
+      "id": "cg-really",
+      "t": "Really?",
+      "es": "¿De verdad? / ¿En serio?",
+      "emoji": "😮",
+      "pos": "phrase",
+      "ex": {
+        "t": "I've got six grandchildren. — Really?",
+        "es": "Tengo seis nietos. — ¿De verdad?"
+      }
+    },
+    {
+      "id": "cg-me-too",
+      "t": "Me too!",
+      "es": "¡Yo también!",
+      "emoji": "🙋‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "I love this market. — Me too!",
+        "es": "Me encanta este mercado. — ¡A mí también!"
+      }
+    },
+    {
+      "id": "cg-me-neither",
+      "t": "Me neither.",
+      "es": "Yo tampoco.",
+      "emoji": "🙅‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "I don't like the cold. — Me neither.",
+        "es": "No me gusta el frío. — A mí tampoco."
+      },
+      "note": "Se dice «mi NAI-dhər» en Reino Unido; en EE. UU. suele sonar «NII-dhər»."
+    },
+    {
+      "id": "cg-what-about-you",
+      "t": "What about you?",
+      "es": "¿Y tú?",
+      "emoji": "👉",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm from Spain. What about you?",
+        "es": "Soy de España. ¿Y tú?"
+      }
+    },
+    {
+      "id": "cg-nice-to-meet-you",
+      "t": "Nice to meet you.",
+      "es": "Encantada de conocerte.",
+      "emoji": "🤝",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm Yolanda. Nice to meet you.",
+        "es": "Soy Yolanda. Encantada."
+      }
+    },
+    {
+      "id": "cg-i-see",
+      "t": "I see.",
+      "es": "Ya veo. / Entiendo.",
+      "emoji": "💡",
+      "pos": "phrase",
+      "ex": {
+        "t": "I work at night. — Oh, I see.",
+        "es": "Trabajo de noche. — Ah, ya veo."
+      }
+    },
+    {
+      "id": "cg-pardon",
+      "t": "Pardon?",
+      "es": "¿Perdón? ¿Cómo?",
+      "emoji": "👂",
+      "pos": "phrase",
+      "ex": {
+        "t": "Pardon? Can you say that again?",
+        "es": "¿Perdón? ¿Me lo repite?"
+      }
+    },
+    {
+      "id": "cg-how-lovely",
+      "t": "How lovely!",
+      "es": "¡Qué bonito! ¡Qué bien!",
+      "emoji": "🥰",
+      "pos": "phrase",
+      "ex": {
+        "t": "My grandson is here with me. — How lovely!",
+        "es": "Mi nieto está aquí conmigo. — ¡Qué bien!"
+      }
+    },
+    {
+      "id": "cg-i-know",
+      "t": "I know!",
+      "es": "¡Ya lo sé! / ¡Ya ves!",
+      "emoji": "😄",
+      "pos": "phrase",
+      "ex": {
+        "t": "This place is amazing! — I know!",
+        "es": "¡Este sitio es increíble! — ¡Ya ves!"
+      }
+    }
+  ],
+  "grammar": "en-g-to-be",
+  "pron": {
+    "title": "Really? con sorpresa",
+    "tip": "Really? con sorpresa sube mucho al final ↗: «RI-li?». Si la voz baja, suena aburrido. Me too! va con alegría y fuerza en too.",
+    "words": [
+      "Really?",
+      "Me too!",
+      "Me neither.",
+      "What about you?"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I ___ from Spain. What about you?",
+      "es": "Soy de España. ¿Y tú?",
+      "options": [
+        "am",
+        "is",
+        "have"
+      ],
+      "answer": "am",
+      "why": "Con I: am.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "My friends ___ in the café.",
+      "es": "Mis amigas están en la cafetería.",
+      "options": [
+        "are",
+        "is",
+        "am"
+      ],
+      "answer": "are",
+      "why": "Varias personas (they): are.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "My friends are from Italy. ___ names are Anna and Marco.",
+      "es": "Mis amigos son de Italia. Se llaman Anna y Marco.",
+      "options": [
+        "Their",
+        "There",
+        "They"
+      ],
+      "answer": "Their",
+      "why": "Su (de ellos) = their.",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "I love London! — ___ !",
+      "es": "¡Me encanta Londres! — ¡A mí también!",
+      "options": [
+        "Me too",
+        "Me neither",
+        "I too"
+      ],
+      "answer": "Me too",
+      "why": "Para estar de acuerdo con una frase afirmativa: Me too!"
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "I don't like the Tube. — ___ .",
+      "es": "No me gusta el metro. — A mí tampoco.",
+      "options": [
+        "Me neither",
+        "Me too",
+        "Me no"
+      ],
+      "answer": "Me neither",
+      "why": "Para estar de acuerdo con una frase negativa: Me neither."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "She ___ got three grandchildren.",
+      "es": "Ella tiene tres nietos.",
+      "answer": [
+        "has",
+        "'s"
+      ],
+      "bank": [
+        "has",
+        "have",
+        "is"
+      ],
+      "why": "Con she: has got.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "This is my neighbour. ___ name is Peter.",
+      "es": "Este es mi vecino. Se llama Peter.",
+      "answer": [
+        "His"
+      ],
+      "bank": [
+        "His",
+        "Her",
+        "He"
+      ],
+      "why": "Su (de él) = his.",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "q": "I'm from Valencia. What ___ you?",
+      "es": "Soy de Valencia. ¿Y tú?",
+      "answer": [
+        "about"
+      ],
+      "why": "¿Y tú? = What about you?"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Encantada de conocerte",
+      "answer": "Nice to meet you",
+      "extra": [
+        "for"
+      ],
+      "why": "Nice to meet you."
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "¿Tienes nietos?",
+      "answer": "Have you got any grandchildren",
+      "extra": [
+        "Do"
+      ],
+      "why": "Pregunta con have got: Have you got…?",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "My friend has 60 years.",
+      "wrong": "has",
+      "fix": "is",
+      "why": "La edad con to be: She is 60.",
+      "g": "en-g-how-old"
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "My friend is teacher in Bilbao.",
+      "wrong": "teacher",
+      "fix": "a teacher",
+      "why": "Las profesiones llevan a: She's a teacher.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e13",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "You are on holiday.",
+      "answer": [
+        "Are you on holiday?",
+        "Are you on holiday"
+      ],
+      "why": "Con to be, el verbo delante: Are you…?",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Una señora te dice que tiene diez nietos. Te sorprende mucho.",
+      "emoji": "😮",
+      "options": [
+        "Really? How lovely!",
+        "Me neither!",
+        "I see. Pardon?"
+      ],
+      "answer": "Really? How lovely!",
+      "why": "Sorpresa: Really? Y algo amable: How lovely!"
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "Really?",
+          "¿De verdad?"
+        ],
+        [
+          "Me too!",
+          "¡Yo también!"
+        ],
+        [
+          "Me neither.",
+          "Yo tampoco."
+        ],
+        [
+          "I see.",
+          "Ya veo."
+        ],
+        [
+          "Pardon?",
+          "¿Perdón?"
+        ]
+      ],
+      "why": "Reacciones para conversar."
+    },
+    {
+      "id": "e16",
+      "type": "translate",
+      "dir": "to",
+      "q": "No me gusta el frío. — A mí tampoco.",
+      "answer": [
+        "I don't like the cold. — Me neither.",
+        "I don't like the cold. Me neither.",
+        "I don't like cold. — Me neither.",
+        "I don't like the cold — Me neither"
+      ],
+      "why": "Acuerdo en negativo: Me neither.",
+      "g": "en-g-present-simple"
+    }
+  ],
+  "dialog": {
+    "title": "Una nueva amiga en el mercado",
+    "setting": "En una mesa del mercado de Covent Garden, tomando un té",
+    "emoji": "🫖",
+    "lines": [
+      {
+        "who": "Margaret",
+        "t": "Excuse me, is this seat free?",
+        "es": "Perdone, ¿está libre este asiento?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, it is. Please sit down.",
+        "es": "Sí. Siéntese, por favor."
+      },
+      {
+        "who": "Margaret",
+        "t": "Thank you. I'm Margaret. Are you on holiday?",
+        "es": "Gracias. Soy Margaret. ¿Está de vacaciones?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I am. I'm Yolanda, from Spain. Nice to meet you.",
+        "es": "Sí. Soy Yolanda, de España. Encantada."
+      },
+      {
+        "who": "Margaret",
+        "t": "Spain! I love Spain. My daughter lives in Málaga.",
+        "es": "¡España! Me encanta España. Mi hija vive en Málaga."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Really? How lovely! I'm here with my friend.",
+        "es": "¿De verdad? ¡Qué bien! Yo estoy aquí con mi amiga."
+      },
+      {
+        "who": "Margaret",
+        "t": "Oh, I see! I don't like the rain here.",
+        "es": "¡Ah, ya veo! No me gusta la lluvia de aquí."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Me neither!",
+        "es": "¡A mí tampoco!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Dónde vive la hija de Margaret?",
+        "options": [
+          "En Málaga",
+          "En Londres",
+          "En Madrid"
+        ],
+        "answer": "En Málaga"
+      },
+      {
+        "q": "¿Con quién está Yolanda en Londres?",
+        "options": [
+          "Con una amiga",
+          "Con su hija",
+          "Sola"
+        ],
+        "answer": "Con una amiga"
+      },
+      {
+        "q": "¿Qué no les gusta a las dos?",
+        "options": [
+          "La lluvia",
+          "El té",
+          "El mercado"
+        ],
+        "answer": "La lluvia"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Really? Me too!",
+    "es": "¿De verdad? ¡Yo también!",
+    "context": "Para mostrar interés y conectar con alguien que acabas de conocer"
+  },
+  "summary": [
+    "Reaccionar: Really? / How lovely! / I see.",
+    "Me too (sí) y Me neither (no)",
+    "Devolver la pregunta: What about you?",
+    "Repaso: I am, she has got, his / her / their",
+    "Really? con sorpresa: la voz sube ↗"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u12-l1"
+}

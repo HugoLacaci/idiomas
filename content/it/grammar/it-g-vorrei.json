@@ -1,0 +1,121 @@
+{
+  "id": "it-g-vorrei",
+  "lang": "it",
+  "level": "A1",
+  "title": "Vorrei… para pedir con educación",
+  "short": "Vorrei un caffè (quería / querría un café), vorremmo due cappuccini, prendo, per me…",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "La palabra mágica del bar",
+      "emoji": "✨",
+      "text": "Para pedir en Italia con educación, empieza con ==Vorrei== (quería / querría). Con esta palabra y *per favore* te entienden en cualquier bar.",
+      "examples": [
+        { "t": "==Vorrei== un caffè, per favore.", "es": "Quería un café, por favor.", "hl": "Vorrei" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Vorrei + cosa",
+      "emoji": "🥐",
+      "text": "Detrás de *vorrei* pon lo que quieres, con su artículo: ==vorrei un== cornetto, ==vorrei una== spremuta.",
+      "examples": [
+        { "t": "Vorrei un cornetto al burro.", "es": "Quería un cruasán de mantequilla." },
+        { "t": "Vorrei uno spuntino.", "es": "Quería un tentempié." }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Vorrei + verbo",
+      "emoji": "💳",
+      "text": "También va con un verbo en infinitivo, igual que en español: ==vorrei pagare==, ==vorrei ordinare==.",
+      "examples": [
+        { "t": "Vorrei pagare, per favore.", "es": "Quería pagar, por favor." },
+        { "t": "Vorrei sedermi fuori.", "es": "Quería sentarme fuera." }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Yo y nosotros",
+      "emoji": "👥",
+      "text": "Si pides para ti sola o para varios:",
+      "table": {
+        "head": ["Persona", "Forma", "Ejemplo"],
+        "rows": [
+          ["io (yo)", "==vorrei==", "Vorrei un tè."],
+          ["noi (nosotros)", "==vorremmo==", "Vorremmo due caffè."]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "Otras formas de pedir",
+      "emoji": "🗣️",
+      "text": "Como en España, también puedes decir ==Prendo== un caffè (tomo) o ==Per me== un cappuccino (para mí). *Voglio* (quiero) suena brusco: mejor *vorrei*.",
+      "examples": [
+        { "t": "Per me un macchiato.", "es": "Para mí un cortado." },
+        { "t": "Prendo una spremuta.", "es": "Tomo un zumo natural." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Voglio un caffè* → ✅ ==Vorrei== un caffè. ❌ *Vorrei caffè* → ✅ Vorrei ==un== caffè. ❌ *Noi vorrei* → ✅ ==Vorremmo==."
+    },
+    {
+      "kind": "tip",
+      "title": "Truco",
+      "emoji": "💡",
+      "text": "Fórmula de bar: ==Vorrei + un/una + cosa + per favore==. Y al final, *grazie*. ¡Con eso ya pides como una napolitana!",
+      "examples": [
+        { "t": "Vorrei un cappuccino e un cornetto, per favore.", "es": "Quería un capuchino y un cruasán, por favor." }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En España pedimos con «quería», «me pones…» o «para mí…»: Quería un café. ¿Me pones un cortado?",
+    "target": "En Italia lo más educado es Vorrei… (quería / querría). También: Prendo… (tomo), Per me… (para mí). Voglio (quiero) suena demasiado directo."
+  },
+  "errors": [
+    { "wrong": "Voglio un caffè.", "right": "Vorrei un caffè.", "why": "Voglio es «quiero» y suena brusco al pedir; vorrei es más amable." },
+    { "wrong": "Vorrei caffè.", "right": "Vorrei un caffè.", "why": "Cuando pides una cosa, pon el artículo: un caffè." },
+    { "wrong": "Noi vorrei due caffè.", "right": "Vorremmo due caffè.", "why": "Para nosotros la forma es vorremmo, con doble m." },
+    { "wrong": "Vorei un tè.", "right": "Vorrei un tè.", "why": "Vorrei se escribe con doble r, y se pronuncia fuerte." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "___ un caffè, per favore.", "es": "Quería un café, por favor.", "options": ["Vorrei", "Voglio", "Vorremmo"], "answer": "Vorrei", "why": "Para pedir con educación usamos vorrei.", "g": "it-g-vorrei" },
+    { "id": "e2", "type": "choose", "q": "Io e mio marito ___ due cappuccini.", "es": "Mi marido y yo querríamos dos capuchinos.", "options": ["vorrei", "vorremmo", "vorrebbe"], "answer": "vorremmo", "why": "Io e mio marito = noi: vorremmo.", "g": "it-g-vorrei" },
+    { "id": "e3", "type": "choose", "q": "Vorrei ___, per favore.", "es": "Quería pagar, por favor.", "options": ["pagare", "pago", "pagato"], "answer": "pagare", "why": "Después de vorrei, el verbo va en infinitivo: pagare.", "g": "it-g-vorrei" },
+    { "id": "e4", "type": "choose", "q": "Per ___ un macchiato.", "es": "Para mí un cortado.", "options": ["me", "io", "mi"], "answer": "me", "why": "Se dice per me, igual que «para mí».", "g": "it-g-vorrei" },
+    { "id": "e5", "type": "choose", "q": "Vorrei ___ spremuta d'arancia.", "es": "Quería un zumo de naranja natural.", "options": ["una", "un", "uno"], "answer": "una", "why": "Spremuta es femenina: una spremuta.", "g": "it-g-vorrei" },
+    { "id": "e6", "type": "choose", "q": "___ un cornetto alla crema.", "es": "Tomo un cruasán de crema.", "options": ["Prendo", "Prendere", "Preso"], "answer": "Prendo", "why": "Prendo = tomo. Es otra forma natural de pedir.", "g": "it-g-vorrei" },
+    { "id": "e7", "type": "fill", "q": "___ un tè freddo, per favore.", "es": "Quería un té frío, por favor.", "answer": ["Vorrei"], "bank": ["Vorrei", "Voglio", "Vorrà"], "why": "Vorrei es la forma amable de pedir.", "g": "it-g-vorrei" },
+    { "id": "e8", "type": "fill", "q": "Vorremmo ___ al tavolo.", "es": "Querríamos sentarnos a la mesa.", "answer": ["sederci"], "bank": ["sederci", "seduti", "sediamo"], "why": "Detrás de vorremmo va el infinitivo: sederci.", "g": "it-g-vorrei" },
+    { "id": "e9", "type": "fill", "q": "Vorrei ___ cornetto al burro.", "es": "Quería un cruasán de mantequilla.", "answer": ["un"], "bank": ["un", "una", "uno"], "why": "Cornetto es masculino: un cornetto.", "g": "it-g-vorrei" },
+    { "id": "e10", "type": "fill", "q": "Noi ___ due caffè.", "es": "Nosotros querríamos dos cafés.", "answer": ["vorremmo"], "hint": "con doble m", "why": "Noi → vorremmo.", "g": "it-g-vorrei" },
+    { "id": "e11", "type": "fill", "q": "Vorrei un bicchiere d'acqua, per ___.", "es": "Quería un vaso de agua, por favor.", "answer": ["favore"], "why": "Por favor = per favore.", "g": "it-g-vorrei" },
+    { "id": "e12", "type": "fill", "q": "Vorrei ___ uno scontrino.", "es": "Quería un tique, también.", "answer": ["anche"], "bank": ["anche", "ancora", "allora"], "why": "Anche = también.", "g": "it-g-vorrei" },
+    { "id": "e13", "type": "conjugate", "verb": "volere (condicional)", "person": "io", "tense": "condicional de cortesía", "q": "Io ___ un cappuccino.", "answer": ["vorrei"], "table": [["io", "vorrei"], ["noi", "vorremmo"]], "why": "Io → vorrei.", "g": "it-g-vorrei" },
+    { "id": "e14", "type": "conjugate", "verb": "volere (condicional)", "person": "noi", "tense": "condicional de cortesía", "q": "Noi ___ pagare.", "answer": ["vorremmo"], "table": [["io", "vorrei"], ["noi", "vorremmo"]], "why": "Noi → vorremmo.", "g": "it-g-vorrei" },
+    { "id": "e15", "type": "conjugate", "verb": "volere (condicional)", "person": "io e Hugo", "tense": "condicional de cortesía", "q": "Io e Hugo ___ due spremute.", "answer": ["vorremmo"], "why": "Io e Hugo = noi → vorremmo.", "g": "it-g-vorrei" },
+    { "id": "e16", "type": "conjugate", "verb": "prendere", "person": "io", "tense": "presente", "q": "Io ___ un caffè macchiato.", "answer": ["prendo"], "why": "Prendere con io: prendo (tomo).", "g": "it-g-vorrei" },
+    { "id": "e17", "type": "error", "q": "Voglio un caffè, per favore.", "wrong": "Voglio", "fix": "Vorrei", "why": "Voglio suena brusco; para pedir se dice vorrei.", "g": "it-g-vorrei" },
+    { "id": "e18", "type": "error", "q": "Noi vorrei due cornetti.", "wrong": "vorrei", "fix": "vorremmo", "why": "Con noi la forma es vorremmo.", "g": "it-g-vorrei" },
+    { "id": "e19", "type": "error", "q": "Vorrei pago con la carta.", "wrong": "pago", "fix": "pagare", "why": "Detrás de vorrei, infinitivo: pagare.", "g": "it-g-vorrei" },
+    { "id": "e20", "type": "error", "q": "Per io un tè.", "wrong": "io", "fix": "me", "why": "Se dice per me, como «para mí».", "g": "it-g-vorrei" },
+    { "id": "e21", "type": "order", "es": "Quería un café, por favor.", "answer": "Vorrei un caffè per favore", "extra": ["voglio"], "why": "Vorrei + un + cosa + per favore.", "g": "it-g-vorrei" },
+    { "id": "e22", "type": "order", "es": "Querríamos dos capuchinos y dos cruasanes.", "answer": "Vorremmo due cappuccini e due cornetti", "extra": ["vorrei"], "why": "Para nosotros: vorremmo.", "g": "it-g-vorrei" },
+    { "id": "e23", "type": "order", "es": "Quería pagar con tarjeta.", "answer": "Vorrei pagare con la carta", "why": "Vorrei + infinitivo: vorrei pagare.", "g": "it-g-vorrei" },
+    { "id": "e24", "type": "transform", "instr": "Hazla más educada", "q": "Voglio un tè.", "answer": ["Vorrei un tè.", "Vorrei un tè, per favore."], "why": "Cambia voglio por vorrei.", "g": "it-g-vorrei" },
+    { "id": "e25", "type": "transform", "instr": "Pídelo para nosotros (noi)", "q": "Vorrei un caffè.", "answer": ["Vorremmo due caffè.", "Vorremmo un caffè."], "why": "Para varias personas: vorremmo.", "g": "it-g-vorrei" },
+    { "id": "e26", "type": "transform", "instr": "Pídelo con «Per me…»", "q": "Vorrei un cappuccino.", "answer": ["Per me un cappuccino.", "Per me un cappuccino, per favore."], "why": "Per me + cosa: otra forma natural de pedir.", "g": "it-g-vorrei" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "Quería un zumo de naranja natural, por favor.", "answer": ["Vorrei una spremuta d'arancia, per favore.", "Vorrei una spremuta, per favore."], "why": "Vorrei + una spremuta + per favore.", "g": "it-g-vorrei" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "Querríamos pagar.", "answer": ["Vorremmo pagare."], "why": "Noi → vorremmo + infinitivo.", "g": "it-g-vorrei" },
+    { "id": "e29", "type": "translate", "dir": "from", "q": "Vorrei un cornetto al burro.", "answer": ["Quería un cruasán de mantequilla.", "Querría un cruasán de mantequilla.", "Quiero un cruasán de mantequilla."], "why": "Burro es mantequilla, ¡no un burro!", "g": "it-g-vorrei" },
+    { "id": "e30", "type": "situation", "context": "Llegas a la barra de un bar de Nápoles y quieres un café solo.", "emoji": "☕", "options": ["Vorrei un caffè, per favore.", "Voglio caffè.", "Un caffè vorrei io."], "answer": "Vorrei un caffè, per favore.", "why": "Vorrei + artículo + cosa + per favore: amable y claro.", "g": "it-g-vorrei" },
+    { "id": "e31", "type": "situation", "context": "Estás con tu amiga Carmen y queréis pagar.", "emoji": "💶", "options": ["Vorremmo pagare.", "Vorrei pagare noi.", "Voglio pagare."], "answer": "Vorremmo pagare.", "why": "Para dos personas: vorremmo pagare.", "g": "it-g-vorrei" },
+    { "id": "e32", "type": "match", "pairs": [["Vorrei", "Quería"], ["Vorremmo", "Querríamos"], ["Prendo", "Tomo"], ["Per me", "Para mí"], ["Voglio", "Quiero"]], "why": "Todas sirven para pedir, pero voglio suena brusco.", "g": "it-g-vorrei" }
+  ],
+  "reviewed": false
+}

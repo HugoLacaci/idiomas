@@ -1,0 +1,433 @@
+{
+  "id": "it-a1-u06-l2",
+  "unit": "it-a1-u06",
+  "title": "C'è un divano, ci sono due sedie",
+  "goal": "a decir lo que hay en una habitación con c'è y ci sono",
+  "emoji": "🛋️",
+  "photoQuery": "living room sofa armchair lamp",
+  "vocab": [
+    {
+      "id": "casa-il-divano",
+      "t": "il divano",
+      "es": "el sofá",
+      "emoji": "🛋️",
+      "pos": "n",
+      "ex": {
+        "t": "In soggiorno c'è un divano.",
+        "es": "En el salón hay un sofá."
+      }
+    },
+    {
+      "id": "casa-il-letto",
+      "t": "il letto",
+      "es": "la cama",
+      "emoji": "🛏️",
+      "pos": "n",
+      "note": "¡Ojo! En italiano es masculino: il letto.",
+      "ex": {
+        "t": "Il letto è molto comodo.",
+        "es": "La cama es muy cómoda."
+      }
+    },
+    {
+      "id": "casa-il-tavolo",
+      "t": "il tavolo",
+      "es": "la mesa",
+      "emoji": "🍽️",
+      "pos": "n",
+      "note": "También masculino: il tavolo.",
+      "ex": {
+        "t": "In cucina c'è un tavolo rotondo.",
+        "es": "En la cocina hay una mesa redonda."
+      }
+    },
+    {
+      "id": "casa-la-sedia",
+      "t": "la sedia",
+      "es": "la silla",
+      "emoji": "🪑",
+      "pos": "n",
+      "ex": {
+        "t": "Ci sono sei sedie.",
+        "es": "Hay seis sillas."
+      }
+    },
+    {
+      "id": "casa-l-armadio",
+      "t": "l'armadio",
+      "es": "el armario",
+      "emoji": "🧥",
+      "pos": "n",
+      "ex": {
+        "t": "L'armadio è pieno di vestiti.",
+        "es": "El armario está lleno de ropa."
+      }
+    },
+    {
+      "id": "casa-la-lampada",
+      "t": "la lampada",
+      "es": "la lámpara",
+      "emoji": "💡",
+      "pos": "n",
+      "ex": {
+        "t": "In camera c'è una lampada.",
+        "es": "En el dormitorio hay una lámpara."
+      }
+    },
+    {
+      "id": "casa-lo-specchio",
+      "t": "lo specchio",
+      "es": "el espejo",
+      "emoji": "🪞",
+      "pos": "n",
+      "ex": {
+        "t": "In bagno c'è uno specchio grande.",
+        "es": "En el baño hay un espejo grande."
+      }
+    },
+    {
+      "id": "casa-la-poltrona",
+      "t": "la poltrona",
+      "es": "el sillón",
+      "emoji": "💺",
+      "pos": "n",
+      "note": "¡Ojo! No significa «perezosa».",
+      "ex": {
+        "t": "Leggo in poltrona.",
+        "es": "Leo en el sillón."
+      }
+    },
+    {
+      "id": "casa-il-quadro",
+      "t": "il quadro",
+      "es": "el cuadro",
+      "emoji": "🖼️",
+      "pos": "n",
+      "ex": {
+        "t": "Ci sono tanti quadri.",
+        "es": "Hay muchos cuadros."
+      }
+    }
+  ],
+  "grammar": "it-g-ce-ci-sono",
+  "pron": {
+    "title": "C'è suena «che»",
+    "tip": "C delante de e o i suena como nuestra ch: c'è se dice «che», cucina se dice «cuchina». Ci sono suena «chi sono».",
+    "words": [
+      "c'è",
+      "ci sono",
+      "cucina",
+      "dieci",
+      "cena"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "In soggiorno ___ un divano.",
+      "options": [
+        "c'è",
+        "ci sono"
+      ],
+      "answer": "c'è",
+      "why": "Un divano es singular: c'è.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "In cucina ___ quattro sedie.",
+      "options": [
+        "c'è",
+        "ci sono"
+      ],
+      "answer": "ci sono",
+      "why": "Quattro sedie es plural: ci sono.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "In bagno c'è ___ specchio.",
+      "es": "En el baño hay un espejo.",
+      "options": [
+        "un",
+        "uno",
+        "una"
+      ],
+      "answer": "uno",
+      "why": "Specchio empieza por s + consonante: uno specchio.",
+      "g": "it-g-articoli-indet"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "In camera ___ un letto e un armadio.",
+      "answer": [
+        "ci sono"
+      ],
+      "bank": [
+        "c'è",
+        "ci sono",
+        "è"
+      ],
+      "why": "Son dos cosas (un letto e un armadio): ci sono.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "___ una lampada in soggiorno.",
+      "answer": [
+        "C'è",
+        "c'è"
+      ],
+      "bank": [
+        "C'è",
+        "Ci sono",
+        "Ci è"
+      ],
+      "why": "Una lampada, singular: c'è (ci + è, con apóstrofo).",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Ci sono tanti ___ in soggiorno.",
+      "es": "Hay muchos cuadros en el salón.",
+      "answer": [
+        "quadri"
+      ],
+      "hint": "plural de quadro",
+      "why": "Quadro → quadri: la -o pasa a -i en plural.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "In cucina c'è sei sedie.",
+      "wrong": "c'è",
+      "fix": "ci sono",
+      "why": "Sei sedie es plural: ci sono sei sedie.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Ci è un divano nuovo.",
+      "wrong": "è",
+      "fix": "C'è",
+      "why": "Ci + è siempre se une con apóstrofo: c'è.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Pásala a plural",
+      "q": "C'è una poltrona.",
+      "answer": [
+        "Ci sono due poltrone.",
+        "Ci sono poltrone."
+      ],
+      "why": "En plural: ci sono + poltrone (-a → -e).",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "C'è uno specchio.",
+      "answer": [
+        "Non c'è uno specchio."
+      ],
+      "why": "La negación non va delante: non c'è.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "En el salón hay un sofá y un sillón.",
+      "answer": "In soggiorno c'è un divano e una poltrona",
+      "alt": [
+        "C'è un divano e una poltrona in soggiorno"
+      ],
+      "extra": [
+        "sono"
+      ],
+      "why": "Lugar + c'è + cosas, como en español.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Hay dos camas.",
+      "answer": [
+        "Ci sono due letti."
+      ],
+      "why": "Dos cosas: ci sono. Letto → letti.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "il divano",
+          "el sofá"
+        ],
+        [
+          "la poltrona",
+          "el sillón"
+        ],
+        [
+          "il letto",
+          "la cama"
+        ],
+        [
+          "lo specchio",
+          "el espejo"
+        ],
+        [
+          "il tavolo",
+          "la mesa"
+        ]
+      ],
+      "why": "Ojo: letto y tavolo son masculinos."
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Por teléfono, Hugo te pregunta qué hay en la habitación del hotel. Hay una cama y dos sillones.",
+      "emoji": "🏨",
+      "options": [
+        "C'è un letto e ci sono due poltrone.",
+        "Ci sono un letto e c'è due poltrone.",
+        "È un letto e sono due poltrone."
+      ],
+      "answer": "C'è un letto e ci sono due poltrone.",
+      "why": "Singular con c'è, plural con ci sono.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "In soggiorno c'è un divano comodo.",
+      "es": "En el salón hay un sofá cómodo."
+    }
+  ],
+  "dialog": {
+    "title": "Muebles nuevos",
+    "setting": "Yolanda habla por videollamada con Marta, una amiga italiana, que se ha mudado",
+    "emoji": "📱",
+    "lines": [
+      {
+        "who": "Marta",
+        "t": "Guarda, Yolanda! Questo è il soggiorno nuovo.",
+        "es": "¡Mira, Yolanda! Este es el salón nuevo."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Che bello! C'è un divano nuovo?",
+        "es": "¡Qué bonito! ¿Hay un sofá nuevo?"
+      },
+      {
+        "who": "Marta",
+        "t": "Sì, e ci sono due poltrone.",
+        "es": "Sí, y hay dos sillones."
+      },
+      {
+        "who": "Yolanda",
+        "t": "E in camera da letto?",
+        "es": "¿Y en el dormitorio?"
+      },
+      {
+        "who": "Marta",
+        "t": "C'è un letto grande e un armadio.",
+        "es": "Hay una cama grande y un armario."
+      },
+      {
+        "who": "Yolanda",
+        "t": "C'è uno specchio?",
+        "es": "¿Hay un espejo?"
+      },
+      {
+        "who": "Marta",
+        "t": "No, non c'è. Ci sono solo due quadri.",
+        "es": "No, no hay. Solo hay dos cuadros."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Allora ti regalo uno specchio!",
+        "es": "¡Pues te regalo un espejo!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuántos sillones hay en el salón?",
+        "options": [
+          "Dos",
+          "Uno",
+          "Ninguno"
+        ],
+        "answer": "Dos"
+      },
+      {
+        "q": "¿Qué falta en el dormitorio?",
+        "options": [
+          "Un espejo",
+          "Un armario",
+          "Una cama"
+        ],
+        "answer": "Un espejo"
+      },
+      {
+        "q": "¿Qué va a regalar Yolanda?",
+        "options": [
+          "Un espejo",
+          "Un cuadro",
+          "Una lámpara"
+        ],
+        "answer": "Un espejo"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "C'è il wifi?",
+    "es": "¿Hay wifi?",
+    "context": "Al llegar a un apartamento de vacaciones o a un hotel"
+  },
+  "same": {
+    "text": "C'è y ci sono significan «hay», igual que en español: lugar + hay + cosa. La única novedad es que cambia con el plural.",
+    "examples": [
+      {
+        "t": "C'è un armadio.",
+        "es": "Hay un armario."
+      },
+      {
+        "t": "Ci sono due armadi.",
+        "es": "Hay dos armarios."
+      },
+      {
+        "t": "Non c'è la lampada.",
+        "es": "No está la lámpara."
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "la poltrona",
+    "means": "el sillón",
+    "looksLike": "poltrona (perezosa, en español)",
+    "emoji": "💺",
+    "tip": "Una poltrona es un mueble cómodo, no una persona vaga."
+  },
+  "summary": [
+    "C'è + una cosa: C'è un divano.",
+    "Ci sono + varias cosas: Ci sono due sedie.",
+    "Negativa: non c'è, non ci sono.",
+    "Ojo: il letto y il tavolo son masculinos; la poltrona es el sillón."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u06-l2"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "it-g-avverbi-luogo",
+  "lang": "it",
+  "level": "A1",
+  "title": "Adverbios y expresiones de lugar (qui, lì, vicino, dritto, a destra)",
+  "short": "Decir dónde está algo: qui, lì, vicino a, lontano da, davanti a, accanto a…",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "¿Dónde está?",
+      "emoji": "📍",
+      "text": "Para entender una indicación necesitas palabras de lugar: aquí, allí, cerca, lejos, delante… En italiano son cortas y se parecen bastante.",
+      "examples": [
+        { "t": "La farmacia è ==qui vicino==.", "es": "La farmacia está aquí cerca.", "hl": "qui vicino" },
+        { "t": "Il museo è ==a destra==.", "es": "El museo está a la derecha.", "hl": "a destra" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Las más útiles",
+      "emoji": "📋",
+      "text": "Fíjate en la preposición que va detrás: casi siempre ==a==, salvo lontano, que va con ==da==.",
+      "table": {
+        "head": ["Italiano", "Español", "Ejemplo"],
+        "rows": [
+          ["qui / qua", "aquí", "Sono ==qui==."],
+          ["lì / là", "allí", "È ==lì==."],
+          ["vicino ==a==", "cerca de", "vicino ==al== porto"],
+          ["lontano ==da==", "lejos de", "lontano ==dal== centro"],
+          ["davanti ==a==", "delante de", "davanti ==alla== chiesa"],
+          ["accanto ==a==", "al lado de", "accanto ==al== bar"],
+          ["di fronte ==a==", "enfrente de", "di fronte ==alla== stazione"],
+          ["dietro", "detrás de", "dietro la chiesa"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Para moverse",
+      "emoji": "🧭",
+      "text": "En las indicaciones oirás: ==dritto== (recto), ==a destra== (a la derecha), ==a sinistra== (a la izquierda), ==in fondo a== (al final de) y ==all'angolo== (en la esquina).",
+      "examples": [
+        { "t": "Vai ==dritto==, poi ==a sinistra==.", "es": "Sigue recto, luego a la izquierda.", "hl": "dritto" },
+        { "t": "Il bar è ==all'angolo==.", "es": "El bar está en la esquina.", "hl": "all'angolo" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "En español decimos «cerca ==de==», «delante ==de==». En italiano, casi siempre ==a==: vicino ==al== bar, davanti ==alla== chiesa. Y a + il se une: ==al==.",
+      "examples": [
+        { "t": "vicino ==al== mare", "es": "cerca del mar", "hl": "al" },
+        { "t": "lontano ==dalla== stazione", "es": "lejos de la estación", "hl": "dalla" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "Errores típicos",
+      "emoji": "⚠️",
+      "text": "Estos son los que más se escapan:",
+      "examples": [
+        { "t": "❌ vicino del porto → ✅ vicino ==al== porto", "es": "cerca del puerto", "hl": "al" },
+        { "t": "❌ lontano di qui → ✅ lontano ==da== qui", "es": "lejos de aquí", "hl": "da" },
+        { "t": "❌ a la destra → ✅ ==a destra==", "es": "a la derecha", "hl": "a destra" }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Truco",
+      "emoji": "💡",
+      "text": "Apréndetelas en parejas de opuestos: ==qui / lì==, ==vicino / lontano==, ==davanti / dietro==, ==a destra / a sinistra==.",
+      "examples": [
+        { "t": "Non è ==lontano==, è ==vicino==!", "es": "¡No está lejos, está cerca!", "hl": "vicino" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: cerca de, delante de, al lado de, enfrente de, lejos de, a la derecha.",
+    "target": "En italiano: vicino a, davanti a, accanto a, di fronte a (con a), lontano da (con da), a destra (sin artículo)."
+  },
+  "errors": [
+    { "wrong": "L'albergo è vicino del mare.", "right": "L'albergo è vicino al mare.", "why": "Vicino va con a: vicino al mare." },
+    { "wrong": "Il porto è lontano di qui.", "right": "Il porto è lontano da qui.", "why": "Lontano va con da." },
+    { "wrong": "Gira a la destra.", "right": "Gira a destra.", "why": "A destra y a sinistra van sin artículo." },
+    { "wrong": "La farmacia è davanti della chiesa.", "right": "La farmacia è davanti alla chiesa.", "why": "Davanti a + la = davanti alla." },
+    { "wrong": "Sono qua vicino di te.", "right": "Sono qua vicino a te.", "why": "Cerca de ti = vicino a te." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "La farmacia è ___ vicino.", "es": "La farmacia está aquí cerca.", "options": ["qui", "lì", "dove"], "answer": "qui", "why": "Aquí = qui.", "g": "it-g-avverbi-luogo" },
+    { "id": "e2", "type": "choose", "q": "Il bar è vicino ___ chiesa.", "es": "El bar está cerca de la iglesia.", "options": ["alla", "della", "la"], "answer": "alla", "why": "Vicino a + la = vicino alla.", "g": "it-g-avverbi-luogo" },
+    { "id": "e3", "type": "choose", "q": "Il porto è lontano ___ centro.", "es": "El puerto está lejos del centro.", "options": ["dal", "del", "al"], "answer": "dal", "why": "Lontano da + il = lontano dal.", "g": "it-g-avverbi-luogo" },
+    { "id": "e4", "type": "choose", "q": "Gira ___.", "es": "Gira a la derecha.", "options": ["a destra", "alla destra", "a la destra"], "answer": "a destra", "why": "A destra, sin artículo.", "g": "it-g-avverbi-luogo" },
+    { "id": "e5", "type": "choose", "q": "Ci vediamo ___ alla stazione.", "es": "Nos vemos delante de la estación.", "options": ["davanti", "dietro di", "lontano"], "answer": "davanti", "why": "Delante de = davanti a.", "g": "it-g-avverbi-luogo" },
+    { "id": "e6", "type": "choose", "q": "L'ascensore è ___ alla reception.", "es": "El ascensor está al lado de la recepción.", "options": ["accanto", "lontano", "fondo"], "answer": "accanto", "why": "Al lado de = accanto a.", "g": "it-g-avverbi-luogo" },
+    { "id": "e7", "type": "choose", "q": "Il bagno è in ___ al corridoio.", "es": "El baño está al fondo del pasillo.", "options": ["fondo", "fronte", "dietro"], "answer": "fondo", "why": "Al fondo de = in fondo a.", "g": "it-g-avverbi-luogo" },
+    { "id": "e8", "type": "fill", "q": "La fermata è di fronte ___ museo.", "es": "La parada está enfrente del museo.", "answer": ["al"], "bank": ["al", "del", "dal"], "why": "Di fronte a + il = di fronte al.", "g": "it-g-avverbi-luogo" },
+    { "id": "e9", "type": "fill", "q": "Il parcheggio è ___ l'albergo.", "es": "El aparcamiento está detrás del hotel.", "answer": ["dietro"], "bank": ["dietro", "davanti", "accanto"], "why": "Detrás = dietro.", "g": "it-g-avverbi-luogo" },
+    { "id": "e10", "type": "fill", "q": "Vai ___ fino al semaforo.", "es": "Sigue recto hasta el semáforo.", "answer": ["dritto", "diritto"], "bank": ["dritto", "destra", "dietro"], "why": "Recto = dritto (o diritto).", "g": "it-g-avverbi-luogo" },
+    { "id": "e11", "type": "fill", "q": "Il bar è all'___ con via Roma.", "es": "El bar está en la esquina con la calle Roma.", "answer": ["angolo"], "hint": "la esquina", "why": "En la esquina = all'angolo.", "g": "it-g-avverbi-luogo" },
+    { "id": "e12", "type": "fill", "q": "Vedi quella chiesa? Il museo è ___.", "es": "¿Ves esa iglesia? El museo está allí.", "answer": ["lì", "là"], "why": "Allí = lì o là, con tilde.", "g": "it-g-avverbi-luogo" },
+    { "id": "e13", "type": "fill", "q": "Abito lontano ___ mare.", "es": "Vivo lejos del mar.", "answer": ["dal"], "why": "Lontano da + il = dal.", "g": "it-g-avverbi-luogo" },
+    { "id": "e14", "type": "fill", "q": "Siamo davanti ___ farmacia.", "es": "Estamos delante de la farmacia.", "answer": ["alla"], "why": "Davanti a + la = alla.", "g": "it-g-avverbi-luogo" },
+    { "id": "e15", "type": "error", "q": "Il museo è vicino del porto.", "wrong": "del", "fix": "al", "why": "Vicino a: vicino al porto.", "g": "it-g-avverbi-luogo" },
+    { "id": "e16", "type": "error", "q": "La stazione è lontana di qui.", "wrong": "di", "fix": "da", "why": "Lontano da: lontana da qui.", "g": "it-g-avverbi-luogo" },
+    { "id": "e17", "type": "error", "q": "Gira alla sinistra dopo il ponte.", "wrong": "alla", "fix": "a", "why": "A sinistra, sin artículo.", "g": "it-g-avverbi-luogo" },
+    { "id": "e18", "type": "error", "q": "Il bar è accanto della farmacia.", "wrong": "della", "fix": "alla", "why": "Accanto a + la = accanto alla.", "g": "it-g-avverbi-luogo" },
+    { "id": "e19", "type": "order", "es": "La iglesia está al final de la calle.", "answer": "La chiesa è in fondo alla via", "extra": ["della"], "why": "In fondo a + la = in fondo alla.", "g": "it-g-avverbi-luogo" },
+    { "id": "e20", "type": "order", "es": "El hotel está cerca del mar.", "answer": "L'albergo è vicino al mare", "extra": ["del"], "why": "Vicino al mare, con a.", "g": "it-g-avverbi-luogo" },
+    { "id": "e21", "type": "order", "es": "¿Está lejos de aquí?", "answer": "È lontano da qui", "extra": ["di"], "why": "Lontano da qui.", "g": "it-g-avverbi-luogo" },
+    { "id": "e22", "type": "transform", "instr": "Di lo contrario", "q": "Il museo è vicino al centro.", "answer": ["Il museo è lontano dal centro."], "why": "Vicino a ↔ lontano da: ¡cambia también la preposición!", "g": "it-g-avverbi-luogo" },
+    { "id": "e23", "type": "transform", "instr": "Di lo contrario", "q": "La fermata è davanti alla chiesa.", "answer": ["La fermata è dietro la chiesa.", "La fermata è dietro alla chiesa."], "why": "Davanti ↔ dietro.", "g": "it-g-avverbi-luogo" },
+    { "id": "e24", "type": "transform", "instr": "Di lo contrario", "q": "Gira a destra.", "answer": ["Gira a sinistra."], "why": "Destra ↔ sinistra.", "g": "it-g-avverbi-luogo" },
+    { "id": "e25", "type": "translate", "dir": "to", "q": "El bar está enfrente de la iglesia.", "answer": ["Il bar è di fronte alla chiesa."], "why": "Enfrente de = di fronte a; a + la = alla.", "g": "it-g-avverbi-luogo" },
+    { "id": "e26", "type": "translate", "dir": "to", "q": "Estoy aquí, al lado de la fuente.", "answer": ["Sono qui, accanto alla fontana.", "Sono qua, accanto alla fontana."], "why": "Al lado de = accanto a.", "g": "it-g-avverbi-luogo" },
+    { "id": "e27", "type": "translate", "dir": "from", "q": "Il porto non è lontano da qui.", "answer": ["El puerto no está lejos de aquí."], "why": "Lontano da = lejos de.", "g": "it-g-avverbi-luogo" },
+    { "id": "e28", "type": "translate", "dir": "from", "q": "La farmacia è all'angolo.", "answer": ["La farmacia está en la esquina."], "why": "All'angolo = en la esquina.", "g": "it-g-avverbi-luogo" },
+    { "id": "e29", "type": "situation", "context": "Tu marido pregunta dónde está el aparcamiento. Está detrás del hotel.", "emoji": "🅿️", "options": ["È dietro l'albergo.", "È davanti l'albergo.", "È lontano di albergo."], "answer": "È dietro l'albergo.", "why": "Detrás = dietro.", "g": "it-g-avverbi-luogo" },
+    { "id": "e30", "type": "situation", "context": "Una turista te pregunta si la estación está lejos. Está cerquita.", "emoji": "🚉", "options": ["No, è qui vicino.", "No, è qui lontano.", "No, è vicino di qui."], "answer": "No, è qui vicino.", "why": "Aquí cerca = qui vicino.", "g": "it-g-avverbi-luogo" },
+    { "id": "e31", "type": "reading", "kind": "message", "title": "Mensaje de una amiga", "text": "Il ristorante è in via Dante. Dalla piazza vai dritto, poi gira a destra all'angolo. Il ristorante è accanto a una farmacia, di fronte alla chiesa. Ci vediamo lì!", "questions": [
+      { "q": "¿Dónde hay que girar?", "options": ["En la esquina", "En el semáforo", "En la iglesia"], "answer": "En la esquina" },
+      { "q": "¿Qué hay al lado del restaurante?", "options": ["Una farmacia", "Una iglesia", "Una plaza"], "answer": "Una farmacia" },
+      { "q": "¿Qué hay enfrente?", "options": ["La iglesia", "La farmacia", "El hotel"], "answer": "La iglesia" }
+    ] },
+    { "id": "e32", "type": "match", "pairs": [["qui", "aquí"], ["lì", "allí"], ["dritto", "recto"], ["all'angolo", "en la esquina"], ["in fondo a", "al final de"]], "why": "Palabras de lugar para seguir indicaciones." }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,1083 @@
+[
+  {
+    "id": "it-a0-u00",
+    "lang": "it",
+    "level": "A0",
+    "n": 0,
+    "title": "Así suena el italiano",
+    "theme": "Alfabeto, vocales, c/g + e/i, ch/gh, gl, gn, sc, consonantes dobles, acento (6 lecciones)",
+    "emoji": "🔤",
+    "stop": {
+      "name": "Roma Termini",
+      "curiosity": "\"Termini\" no viene de terminal, sino de las Termas de Diocleciano que están al lado.",
+      "photo": "stop-it-a0-u00"
+    },
+    "grammar": [],
+    "lessons": [
+      "it-a0-u00-l1",
+      "it-a0-u00-l2",
+      "it-a0-u00-l3",
+      "it-a0-u00-l4",
+      "it-a0-u00-l5",
+      "it-a0-u00-l6"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Así suena el italiano",
+      "badge": "Primeros sonidos",
+      "badgeEmoji": "🚉"
+    },
+    "chats": [
+      "it-a0-u00-c1",
+      "it-a0-u00-c2",
+      "it-a0-u00-c3"
+    ]
+  },
+  {
+    "id": "it-a1-u01",
+    "lang": "it",
+    "level": "A1",
+    "n": 1,
+    "title": "Ciao! Mi chiamo Yolanda",
+    "theme": "Saludar y presentarse (tú y usted)",
+    "emoji": "👋",
+    "stop": {
+      "name": "Roma",
+      "curiosity": "Dentro de Roma hay otro país: la Ciudad del Vaticano, el estado más pequeño del mundo.",
+      "photo": "stop-it-a1-u01"
+    },
+    "grammar": [
+      "it-g-pronomi-soggetto",
+      "it-g-essere",
+      "it-g-tu-lei"
+    ],
+    "lessons": [
+      "it-a1-u01-l1",
+      "it-a1-u01-l2",
+      "it-a1-u01-l3",
+      "it-a1-u01-l4",
+      "it-a1-u01-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Ciao! Mi chiamo Yolanda",
+      "badge": "Ciao!",
+      "badgeEmoji": "🏛️"
+    },
+    "chats": [
+      "it-a1-u01-c1",
+      "it-a1-u01-c2",
+      "it-a1-u01-c3"
+    ]
+  },
+  {
+    "id": "it-a1-u02",
+    "lang": "it",
+    "level": "A1",
+    "n": 2,
+    "title": "Al bar",
+    "theme": "La cultura del café: pedir en la barra, pagar en caja",
+    "emoji": "☕",
+    "stop": {
+      "name": "Nápoles",
+      "curiosity": "Aquí nació el caffè sospeso: pagas dos cafés y dejas uno pagado para alguien que no pueda permitírselo.",
+      "photo": "stop-it-a1-u02"
+    },
+    "grammar": [
+      "it-g-articoli-indet",
+      "it-g-genere-numero",
+      "it-g-vorrei"
+    ],
+    "lessons": [
+      "it-a1-u02-l1",
+      "it-a1-u02-l2",
+      "it-a1-u02-l3",
+      "it-a1-u02-l4",
+      "it-a1-u02-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Al bar",
+      "badge": "Al bar",
+      "badgeEmoji": "☕"
+    },
+    "chats": [
+      "it-a1-u02-c1",
+      "it-a1-u02-c2",
+      "it-a1-u02-c3"
+    ]
+  },
+  {
+    "id": "it-a1-u03",
+    "lang": "it",
+    "level": "A1",
+    "n": 3,
+    "title": "Números, precios y horas",
+    "theme": "Contar, preguntar precios y la hora",
+    "emoji": "💶",
+    "stop": {
+      "name": "Pompeya",
+      "curiosity": "La erupción del Vesubio la sepultó en el año 79 d. C. y así se conservó hasta hoy.",
+      "photo": "stop-it-a1-u03"
+    },
+    "grammar": [
+      "it-g-numeri",
+      "it-g-avere",
+      "it-g-interrogativi",
+      "it-g-ora"
+    ],
+    "lessons": [
+      "it-a1-u03-l1",
+      "it-a1-u03-l2",
+      "it-a1-u03-l3",
+      "it-a1-u03-l4",
+      "it-a1-u03-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Números, precios y horas",
+      "badge": "Números",
+      "badgeEmoji": "🌋"
+    },
+    "chats": [
+      "it-a1-u03-c1",
+      "it-a1-u03-c2",
+      "it-a1-u03-c3"
+    ]
+  },
+  {
+    "id": "it-a1-u04",
+    "lang": "it",
+    "level": "A1",
+    "n": 4,
+    "title": "La mia famiglia",
+    "theme": "Familia: hijos, nietos, pareja",
+    "emoji": "👨‍👩‍👧‍👦",
+    "stop": {
+      "name": "Costa Amalfitana",
+      "curiosity": "Sus limones enormes, el sfusato amalfitano, se usan para hacer limoncello.",
+      "photo": "stop-it-a1-u04"
+    },
+    "grammar": [
+      "it-g-articoli-det",
+      "it-g-possessivi",
+      "it-g-aggettivi-accordo"
+    ],
+    "lessons": [
+      "it-a1-u04-l1",
+      "it-a1-u04-l2",
+      "it-a1-u04-l3",
+      "it-a1-u04-l4",
+      "it-a1-u04-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: La mia famiglia",
+      "badge": "Famiglia",
+      "badgeEmoji": "🍋"
+    },
+    "chats": [
+      "it-a1-u04-c1",
+      "it-a1-u04-c2",
+      "it-a1-u04-c3"
+    ]
+  },
+  {
+    "id": "it-a1-u05",
+    "lang": "it",
+    "level": "A1",
+    "n": 5,
+    "title": "La mia giornata",
+    "theme": "Rutina diaria, trabajo",
+    "emoji": "⏰",
+    "stop": {
+      "name": "Bari",
+      "curiosity": "En su basílica descansan los restos de San Nicolás, el santo que inspiró a Papá Noel.",
+      "photo": "stop-it-a1-u05"
+    },
+    "grammar": [
+      "it-g-presente-are",
+      "it-g-presente-ere-ire",
+      "it-g-presente-isc"
+    ],
+    "lessons": [
+      "it-a1-u05-l1",
+      "it-a1-u05-l2",
+      "it-a1-u05-l3",
+      "it-a1-u05-l4",
+      "it-a1-u05-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: La mia giornata",
+      "badge": "Giornata",
+      "badgeEmoji": "🎅"
+    },
+    "chats": [
+      "it-a1-u05-c1",
+      "it-a1-u05-c2",
+      "it-a1-u05-c3"
+    ]
+  },
+  {
+    "id": "it-a1-u06",
+    "lang": "it",
+    "level": "A1",
+    "n": 6,
+    "title": "La casa",
+    "theme": "La casa, habitaciones y muebles",
+    "emoji": "🏠",
+    "stop": {
+      "name": "Matera",
+      "curiosity": "Sus Sassi son barrios excavados en la roca; fue Capital Europea de la Cultura en 2019.",
+      "photo": "stop-it-a1-u06"
+    },
+    "grammar": [
+      "it-g-ce-ci-sono",
+      "it-g-prep-semplici"
+    ],
+    "lessons": [
+      "it-a1-u06-l1",
+      "it-a1-u06-l2",
+      "it-a1-u06-l3",
+      "it-a1-u06-l4",
+      "it-a1-u06-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: La casa",
+      "badge": "Casa",
+      "badgeEmoji": "🪨"
+    },
+    "chats": [
+      "it-a1-u06-c1",
+      "it-a1-u06-c2",
+      "it-a1-u06-c3"
+    ]
+  },
+  {
+    "id": "it-a1-u07",
+    "lang": "it",
+    "level": "A1",
+    "n": 7,
+    "title": "Al ristorante",
+    "theme": "Pedir en un restaurante, platos, la cuenta",
+    "emoji": "🍝",
+    "stop": {
+      "name": "Lecce",
+      "curiosity": "La llaman \"la Florencia del Barroco\" por sus iglesias de piedra clara muy fácil de tallar.",
+      "photo": "stop-it-a1-u07"
+    },
+    "grammar": [
+      "it-g-genere-cambi",
+      "it-g-irregolari-fare-stare"
+    ],
+    "lessons": [
+      "it-a1-u07-l1",
+      "it-a1-u07-l2",
+      "it-a1-u07-l3",
+      "it-a1-u07-l4",
+      "it-a1-u07-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Al ristorante",
+      "badge": "Ristorante",
+      "badgeEmoji": "⛪"
+    },
+    "chats": [
+      "it-a1-u07-c1",
+      "it-a1-u07-c2",
+      "it-a1-u07-c3"
+    ]
+  },
+  {
+    "id": "it-a1-u08",
+    "lang": "it",
+    "level": "A1",
+    "n": 8,
+    "title": "In treno",
+    "theme": "Billetes, andenes, horarios, transporte",
+    "emoji": "🚆",
+    "stop": {
+      "name": "Estrecho de Mesina",
+      "curiosity": "Para llegar a Sicilia, los vagones del tren cruzan el estrecho dentro de un ferry.",
+      "photo": "stop-it-a1-u08"
+    },
+    "grammar": [
+      "it-g-irregolari-andare-venire",
+      "it-g-andare-a-in"
+    ],
+    "lessons": [
+      "it-a1-u08-l1",
+      "it-a1-u08-l2",
+      "it-a1-u08-l3",
+      "it-a1-u08-l4",
+      "it-a1-u08-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: In treno",
+      "badge": "In treno",
+      "badgeEmoji": "⛴️"
+    },
+    "chats": [
+      "it-a1-u08-c1",
+      "it-a1-u08-c2",
+      "it-a1-u08-c3"
+    ]
+  },
+  {
+    "id": "it-a1-u09",
+    "lang": "it",
+    "level": "A1",
+    "n": 9,
+    "title": "Al mercato",
+    "theme": "Comprar en el mercado y en tiendas",
+    "emoji": "🍅",
+    "stop": {
+      "name": "Palermo",
+      "curiosity": "En el mercado de Ballarò se vende comida callejera como las arancine, bolas de arroz fritas.",
+      "photo": "stop-it-a1-u09"
+    },
+    "grammar": [
+      "it-g-prep-articolate",
+      "it-g-partitivo-intro"
+    ],
+    "lessons": [
+      "it-a1-u09-l1",
+      "it-a1-u09-l2",
+      "it-a1-u09-l3",
+      "it-a1-u09-l4",
+      "it-a1-u09-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Al mercato",
+      "badge": "Mercato",
+      "badgeEmoji": "🍙"
+    },
+    "chats": [
+      "it-a1-u09-c1",
+      "it-a1-u09-c2",
+      "it-a1-u09-c3"
+    ]
+  },
+  {
+    "id": "it-a1-u10",
+    "lang": "it",
+    "level": "A1",
+    "n": 10,
+    "title": "In albergo",
+    "theme": "Reservar y alojarse en un hotel",
+    "emoji": "🛎️",
+    "stop": {
+      "name": "Catania",
+      "curiosity": "Vive a los pies del Etna, uno de los volcanes más activos del mundo.",
+      "photo": "stop-it-a1-u10"
+    },
+    "grammar": [
+      "it-g-modali",
+      "it-g-sapere"
+    ],
+    "lessons": [
+      "it-a1-u10-l1",
+      "it-a1-u10-l2",
+      "it-a1-u10-l3",
+      "it-a1-u10-l4",
+      "it-a1-u10-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: In albergo",
+      "badge": "Albergo",
+      "badgeEmoji": "🌋"
+    },
+    "chats": [
+      "it-a1-u10-c1",
+      "it-a1-u10-c2",
+      "it-a1-u10-c3"
+    ]
+  },
+  {
+    "id": "it-a1-u11",
+    "lang": "it",
+    "level": "A1",
+    "n": 11,
+    "title": "Dov'è…?",
+    "theme": "Pedir y entender direcciones",
+    "emoji": "🧭",
+    "stop": {
+      "name": "Siracusa",
+      "curiosity": "Aquí nació Arquímedes, el sabio del \"¡Eureka!\".",
+      "photo": "stop-it-a1-u11"
+    },
+    "grammar": [
+      "it-g-imperativo-tu-intro",
+      "it-g-avverbi-luogo"
+    ],
+    "lessons": [
+      "it-a1-u11-l1",
+      "it-a1-u11-l2",
+      "it-a1-u11-l3",
+      "it-a1-u11-l4",
+      "it-a1-u11-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Dov'è…?",
+      "badge": "Direzioni",
+      "badgeEmoji": "💡"
+    },
+    "chats": [
+      "it-a1-u11-c1",
+      "it-a1-u11-c2",
+      "it-a1-u11-c3"
+    ]
+  },
+  {
+    "id": "it-a1-u12",
+    "lang": "it",
+    "level": "A1",
+    "n": 12,
+    "title": "Il tempo libero",
+    "theme": "Aficiones, gustos y lo que hice ayer",
+    "emoji": "🎶",
+    "stop": {
+      "name": "Taormina",
+      "curiosity": "Su teatro griego tiene vistas al mar y al Etna.",
+      "photo": "stop-it-a1-u12"
+    },
+    "grammar": [
+      "it-g-mi-piace",
+      "it-g-passato-prossimo-intro"
+    ],
+    "lessons": [
+      "it-a1-u12-l1",
+      "it-a1-u12-l2",
+      "it-a1-u12-l3",
+      "it-a1-u12-l4",
+      "it-a1-u12-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Il tempo libero",
+      "badge": "Tempo libero",
+      "badgeEmoji": "🎭"
+    },
+    "chats": [
+      "it-a1-u12-c1",
+      "it-a1-u12-c2",
+      "it-a1-u12-c3"
+    ]
+  },
+  {
+    "id": "it-a2-u01",
+    "lang": "it",
+    "level": "A2",
+    "n": 1,
+    "title": "Al museo",
+    "theme": "Museos y arte; contar una visita",
+    "emoji": "🖼️",
+    "stop": {
+      "name": "Florencia",
+      "curiosity": "El italiano estándar nació del florentino que usó Dante en la Divina Comedia.",
+      "photo": "stop-it-a2-u01"
+    },
+    "grammar": [
+      "it-g-passato-prossimo-avere",
+      "it-g-participi-irregolari"
+    ],
+    "lessons": [
+      "it-a2-u01-l1",
+      "it-a2-u01-l2",
+      "it-a2-u01-l3",
+      "it-a2-u01-l4",
+      "it-a2-u01-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Al museo",
+      "badge": "Museo",
+      "badgeEmoji": "📜"
+    },
+    "chats": [
+      "it-a2-u01-c1",
+      "it-a2-u01-c2",
+      "it-a2-u01-c3"
+    ]
+  },
+  {
+    "id": "it-a2-u02",
+    "lang": "it",
+    "level": "A2",
+    "n": 2,
+    "title": "Feste e tradizioni",
+    "theme": "Fiestas, tradiciones, celebraciones",
+    "emoji": "🎉",
+    "stop": {
+      "name": "Siena",
+      "curiosity": "El Palio, una carrera de caballos en la plaza del Campo, se corre el 2 de julio y el 16 de agosto.",
+      "photo": "stop-it-a2-u02"
+    },
+    "grammar": [
+      "it-g-passato-prossimo-essere",
+      "it-g-accordo-participio"
+    ],
+    "lessons": [
+      "it-a2-u02-l1",
+      "it-a2-u02-l2",
+      "it-a2-u02-l3",
+      "it-a2-u02-l4",
+      "it-a2-u02-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Feste e tradizioni",
+      "badge": "Feste",
+      "badgeEmoji": "🐎"
+    },
+    "chats": [
+      "it-a2-u02-c1",
+      "it-a2-u02-c2",
+      "it-a2-u02-c3"
+    ]
+  },
+  {
+    "id": "it-a2-u03",
+    "lang": "it",
+    "level": "A2",
+    "n": 3,
+    "title": "Mi alzo presto",
+    "theme": "Rutina con verbos reflexivos",
+    "emoji": "🛏️",
+    "stop": {
+      "name": "Pisa",
+      "curiosity": "La torre empezó a inclinarse ya durante su construcción, en el siglo XII.",
+      "photo": "stop-it-a2-u03"
+    },
+    "grammar": [
+      "it-g-riflessivi"
+    ],
+    "lessons": [
+      "it-a2-u03-l1",
+      "it-a2-u03-l2",
+      "it-a2-u03-l3",
+      "it-a2-u03-l4",
+      "it-a2-u03-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Mi alzo presto",
+      "badge": "Buongiorno",
+      "badgeEmoji": "🗼"
+    },
+    "chats": [
+      "it-a2-u03-c1",
+      "it-a2-u03-c2",
+      "it-a2-u03-c3"
+    ]
+  },
+  {
+    "id": "it-a2-u04",
+    "lang": "it",
+    "level": "A2",
+    "n": 4,
+    "title": "Quando ero piccola",
+    "theme": "Infancia y recuerdos, describir el pasado",
+    "emoji": "🧸",
+    "stop": {
+      "name": "Génova",
+      "curiosity": "De aquí es el pesto alla genovese, hecho con albahaca, piñones y queso.",
+      "photo": "stop-it-a2-u04"
+    },
+    "grammar": [
+      "it-g-imperfetto"
+    ],
+    "lessons": [
+      "it-a2-u04-l1",
+      "it-a2-u04-l2",
+      "it-a2-u04-l3",
+      "it-a2-u04-l4",
+      "it-a2-u04-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Quando ero piccola",
+      "badge": "Ricordi",
+      "badgeEmoji": "🌿"
+    },
+    "chats": [
+      "it-a2-u04-c1",
+      "it-a2-u04-c2",
+      "it-a2-u04-c3"
+    ]
+  },
+  {
+    "id": "it-a2-u05",
+    "lang": "it",
+    "level": "A2",
+    "n": 5,
+    "title": "Che tempo fa?",
+    "theme": "El tiempo y una excursión que salió… regular",
+    "emoji": "⛅",
+    "stop": {
+      "name": "Cinque Terre",
+      "curiosity": "Son cinco pueblos colgados sobre el mar y unidos por senderos y tren.",
+      "photo": "stop-it-a2-u05"
+    },
+    "grammar": [
+      "it-g-imperfetto-vs-passato",
+      "it-g-fare-tempo"
+    ],
+    "lessons": [
+      "it-a2-u05-l1",
+      "it-a2-u05-l2",
+      "it-a2-u05-l3",
+      "it-a2-u05-l4",
+      "it-a2-u05-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Che tempo fa?",
+      "badge": "Che tempo",
+      "badgeEmoji": "🌊"
+    },
+    "chats": [
+      "it-a2-u05-c1",
+      "it-a2-u05-c2",
+      "it-a2-u05-c3"
+    ]
+  },
+  {
+    "id": "it-a2-u06",
+    "lang": "it",
+    "level": "A2",
+    "n": 6,
+    "title": "Lo prendo!",
+    "theme": "Compras y ropa: tallas, colores, probarse",
+    "emoji": "👗",
+    "stop": {
+      "name": "Milán",
+      "curiosity": "La Última Cena de Leonardo está en el refectorio de Santa Maria delle Grazie.",
+      "photo": "stop-it-a2-u06"
+    },
+    "grammar": [
+      "it-g-pronomi-diretti",
+      "it-g-ne-partitivo"
+    ],
+    "lessons": [
+      "it-a2-u06-l1",
+      "it-a2-u06-l2",
+      "it-a2-u06-l3",
+      "it-a2-u06-l4",
+      "it-a2-u06-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Lo prendo!",
+      "badge": "Shopping",
+      "badgeEmoji": "🖌️"
+    },
+    "chats": [
+      "it-a2-u06-c1",
+      "it-a2-u06-c2",
+      "it-a2-u06-c3"
+    ]
+  },
+  {
+    "id": "it-a2-u07",
+    "lang": "it",
+    "level": "A2",
+    "n": 7,
+    "title": "Pronto?",
+    "theme": "Teléfono, mensajes, pedir favores",
+    "emoji": "📞",
+    "stop": {
+      "name": "Turín",
+      "curiosity": "En 1861 fue la primera capital de la Italia unida.",
+      "photo": "stop-it-a2-u07"
+    },
+    "grammar": [
+      "it-g-pronomi-indiretti",
+      "it-g-stare-gerundio"
+    ],
+    "lessons": [
+      "it-a2-u07-l1",
+      "it-a2-u07-l2",
+      "it-a2-u07-l3",
+      "it-a2-u07-l4",
+      "it-a2-u07-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Pronto?",
+      "badge": "Pronto",
+      "badgeEmoji": "🚗"
+    },
+    "chats": [
+      "it-a2-u07-c1",
+      "it-a2-u07-c2",
+      "it-a2-u07-c3"
+    ]
+  },
+  {
+    "id": "it-a2-u08",
+    "lang": "it",
+    "level": "A2",
+    "n": 8,
+    "title": "In farmacia",
+    "theme": "Salud, médico y farmacia",
+    "emoji": "💊",
+    "stop": {
+      "name": "Lago de Como",
+      "curiosity": "El lago tiene forma de Y invertida y está rodeado de villas históricas.",
+      "photo": "stop-it-a2-u08"
+    },
+    "grammar": [
+      "it-g-imperativo-tu",
+      "it-g-imperativo-lei"
+    ],
+    "lessons": [
+      "it-a2-u08-l1",
+      "it-a2-u08-l2",
+      "it-a2-u08-l3",
+      "it-a2-u08-l4",
+      "it-a2-u08-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: In farmacia",
+      "badge": "Farmacia",
+      "badgeEmoji": "⛵"
+    },
+    "chats": [
+      "it-a2-u08-c1",
+      "it-a2-u08-c2",
+      "it-a2-u08-c3"
+    ]
+  },
+  {
+    "id": "it-a2-u09",
+    "lang": "it",
+    "level": "A2",
+    "n": 9,
+    "title": "Il più bello d'Italia",
+    "theme": "Regiones y ciudades; comparar",
+    "emoji": "🏆",
+    "stop": {
+      "name": "Verona",
+      "curiosity": "En su Arena romana se celebra cada verano un gran festival de ópera.",
+      "photo": "stop-it-a2-u09"
+    },
+    "grammar": [
+      "it-g-comparativi",
+      "it-g-superlativi"
+    ],
+    "lessons": [
+      "it-a2-u09-l1",
+      "it-a2-u09-l2",
+      "it-a2-u09-l3",
+      "it-a2-u09-l4",
+      "it-a2-u09-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Il più bello d'Italia",
+      "badge": "Il più bello",
+      "badgeEmoji": "🎶"
+    },
+    "chats": [
+      "it-a2-u09-c1",
+      "it-a2-u09-c2",
+      "it-a2-u09-c3"
+    ]
+  },
+  {
+    "id": "it-a2-u10",
+    "lang": "it",
+    "level": "A2",
+    "n": 10,
+    "title": "Domani andremo…",
+    "theme": "Planes y reservas de viaje",
+    "emoji": "🧳",
+    "stop": {
+      "name": "Venecia",
+      "curiosity": "Está construida sobre más de cien islas y en ella no circulan coches.",
+      "photo": "stop-it-a2-u10"
+    },
+    "grammar": [
+      "it-g-futuro-semplice",
+      "it-g-condizionale-cortesia",
+      "it-g-ci-locativo"
+    ],
+    "lessons": [
+      "it-a2-u10-l1",
+      "it-a2-u10-l2",
+      "it-a2-u10-l3",
+      "it-a2-u10-l4",
+      "it-a2-u10-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Domani andremo…",
+      "badge": "Viaggio",
+      "badgeEmoji": "🛶"
+    },
+    "chats": [
+      "it-a2-u10-c1",
+      "it-a2-u10-c2",
+      "it-a2-u10-c3"
+    ]
+  },
+  {
+    "id": "it-b1-u01",
+    "lang": "it",
+    "level": "B1",
+    "n": 1,
+    "title": "Mi piacerebbe…",
+    "theme": "Deseos, consejos, propuestas",
+    "emoji": "💭",
+    "stop": {
+      "name": "Trieste",
+      "curiosity": "Es un gran puerto del café; aquí se fundó Illy en 1933.",
+      "photo": "stop-it-b1-u01"
+    },
+    "grammar": [
+      "it-g-condizionale"
+    ],
+    "lessons": [
+      "it-b1-u01-l1",
+      "it-b1-u01-l2",
+      "it-b1-u01-l3",
+      "it-b1-u01-l4",
+      "it-b1-u01-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Mi piacerebbe…",
+      "badge": "Desideri",
+      "badgeEmoji": "☕"
+    },
+    "chats": [
+      "it-b1-u01-c1",
+      "it-b1-u01-c2",
+      "it-b1-u01-c3"
+    ]
+  },
+  {
+    "id": "it-b1-u02",
+    "lang": "it",
+    "level": "B1",
+    "n": 2,
+    "title": "Te lo regalo",
+    "theme": "Regalos, favores, vacaciones en la montaña",
+    "emoji": "🎁",
+    "stop": {
+      "name": "Dolomitas",
+      "curiosity": "Son Patrimonio de la Humanidad desde 2009; en Bolzano también se habla alemán.",
+      "photo": "stop-it-b1-u02"
+    },
+    "grammar": [
+      "it-g-pronomi-combinati"
+    ],
+    "lessons": [
+      "it-b1-u02-l1",
+      "it-b1-u02-l2",
+      "it-b1-u02-l3",
+      "it-b1-u02-l4",
+      "it-b1-u02-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Te lo regalo",
+      "badge": "Regali",
+      "badgeEmoji": "🏔️"
+    },
+    "chats": [
+      "it-b1-u02-c1",
+      "it-b1-u02-c2",
+      "it-b1-u02-c3"
+    ]
+  },
+  {
+    "id": "it-b1-u03",
+    "lang": "it",
+    "level": "B1",
+    "n": 3,
+    "title": "Qui si mangia bene",
+    "theme": "Cocina regional y costumbres",
+    "emoji": "🍲",
+    "stop": {
+      "name": "Bolonia",
+      "curiosity": "Su universidad, fundada en 1088, es la más antigua de Occidente.",
+      "photo": "stop-it-b1-u03"
+    },
+    "grammar": [
+      "it-g-si-impersonale"
+    ],
+    "lessons": [
+      "it-b1-u03-l1",
+      "it-b1-u03-l2",
+      "it-b1-u03-l3",
+      "it-b1-u03-l4",
+      "it-b1-u03-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Qui si mangia bene",
+      "badge": "Cucina",
+      "badgeEmoji": "🎓"
+    },
+    "chats": [
+      "it-b1-u03-c1",
+      "it-b1-u03-c2",
+      "it-b1-u03-c3"
+    ]
+  },
+  {
+    "id": "it-b1-u04",
+    "lang": "it",
+    "level": "B1",
+    "n": 4,
+    "title": "Penso che sia…",
+    "theme": "Opiniones sobre comida, productos y lugares",
+    "emoji": "🤔",
+    "stop": {
+      "name": "Parma",
+      "curiosity": "Es la tierra del Parmigiano Reggiano y del prosciutto di Parma.",
+      "photo": "stop-it-b1-u04"
+    },
+    "grammar": [
+      "it-g-congiuntivo-intro"
+    ],
+    "lessons": [
+      "it-b1-u04-l1",
+      "it-b1-u04-l2",
+      "it-b1-u04-l3",
+      "it-b1-u04-l4",
+      "it-b1-u04-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Penso che sia…",
+      "badge": "Opinioni",
+      "badgeEmoji": "🧀"
+    },
+    "chats": [
+      "it-b1-u04-c1",
+      "it-b1-u04-c2",
+      "it-b1-u04-c3"
+    ]
+  },
+  {
+    "id": "it-b1-u05",
+    "lang": "it",
+    "level": "B1",
+    "n": 5,
+    "title": "Quando sono arrivata, era già partito",
+    "theme": "Contar historias completas",
+    "emoji": "📚",
+    "stop": {
+      "name": "Rávena",
+      "curiosity": "Aquí está la tumba de Dante y unos de los mosaicos bizantinos más famosos del mundo.",
+      "photo": "stop-it-b1-u05"
+    },
+    "grammar": [
+      "it-g-trapassato-prossimo"
+    ],
+    "lessons": [
+      "it-b1-u05-l1",
+      "it-b1-u05-l2",
+      "it-b1-u05-l3",
+      "it-b1-u05-l4",
+      "it-b1-u05-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Quando sono arrivata, era già partito",
+      "badge": "Storie",
+      "badgeEmoji": "✨"
+    },
+    "chats": [
+      "it-b1-u05-c1",
+      "it-b1-u05-c2",
+      "it-b1-u05-c3"
+    ]
+  },
+  {
+    "id": "it-b1-u06",
+    "lang": "it",
+    "level": "B1",
+    "n": 6,
+    "title": "È importante che…",
+    "theme": "Aprender italiano: estudios, esperanzas, objetivos",
+    "emoji": "🎯",
+    "stop": {
+      "name": "Perugia",
+      "curiosity": "Su Università per Stranieri enseña italiano a extranjeros desde 1925 y aquí se hacen los bombones Baci.",
+      "photo": "stop-it-b1-u06"
+    },
+    "grammar": [
+      "it-g-congiuntivo-espressioni"
+    ],
+    "lessons": [
+      "it-b1-u06-l1",
+      "it-b1-u06-l2",
+      "it-b1-u06-l3",
+      "it-b1-u06-l4",
+      "it-b1-u06-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: È importante che…",
+      "badge": "Obiettivi",
+      "badgeEmoji": "🍫"
+    },
+    "chats": [
+      "it-b1-u06-c1",
+      "it-b1-u06-c2",
+      "it-b1-u06-c3"
+    ]
+  },
+  {
+    "id": "it-b1-u07",
+    "lang": "it",
+    "level": "B1",
+    "n": 7,
+    "title": "Se avessi tempo…",
+    "theme": "Sueños, vacaciones, hipótesis",
+    "emoji": "🏖️",
+    "stop": {
+      "name": "Cerdeña",
+      "curiosity": "Está llena de nuraghi, torres de piedra de hace más de 3.000 años.",
+      "photo": "stop-it-b1-u07"
+    },
+    "grammar": [
+      "it-g-periodo-ipotetico-intro"
+    ],
+    "lessons": [
+      "it-b1-u07-l1",
+      "it-b1-u07-l2",
+      "it-b1-u07-l3",
+      "it-b1-u07-l4",
+      "it-b1-u07-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: Se avessi tempo…",
+      "badge": "Sogni",
+      "badgeEmoji": "🗿"
+    },
+    "chats": [
+      "it-b1-u07-c1",
+      "it-b1-u07-c2",
+      "it-b1-u07-c3"
+    ]
+  },
+  {
+    "id": "it-b1-u08",
+    "lang": "it",
+    "level": "B1",
+    "n": 8,
+    "title": "La città che amo",
+    "theme": "Regiones, identidad, despedida del viaje",
+    "emoji": "❤️",
+    "stop": {
+      "name": "Roma (vuelta)",
+      "curiosity": "Las monedas que se lanzan a la Fontana di Trevi se recogen y se donan a Cáritas.",
+      "photo": "stop-it-b1-u08"
+    },
+    "grammar": [
+      "it-g-pronomi-relativi",
+      "it-g-connettivi"
+    ],
+    "lessons": [
+      "it-b1-u08-l1",
+      "it-b1-u08-l2",
+      "it-b1-u08-l3",
+      "it-b1-u08-l4",
+      "it-b1-u08-l5"
+    ],
+    "challenge": {
+      "title": "Mini-reto: La città che amo",
+      "badge": "Arrivederci",
+      "badgeEmoji": "⛲"
+    },
+    "chats": [
+      "it-b1-u08-c1",
+      "it-b1-u08-c2",
+      "it-b1-u08-c3"
+    ]
+  }
+]

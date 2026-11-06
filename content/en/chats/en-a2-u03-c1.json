@@ -1,0 +1,62 @@
+{
+  "id": "en-a2-u03-c1",
+  "unit": "en-a2-u03",
+  "title": "¿Qué abrigo me compro?",
+  "setting": "Emma te escribe desde una tienda: duda entre dos abrigos y te pide consejo.",
+  "emoji": "🧥",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! I need a new coat. Can you help me?", "es": "¡Hola, Yolanda! Necesito un abrigo nuevo. ¿Me ayudas?" },
+      "options": [
+        { "t": "Of course! What are the options?", "es": "¡Claro! ¿Qué opciones hay?", "next": "n2", "ok": true },
+        { "t": "Of course! What is the options?", "es": "¡Claro! ¿Qué opciones hay?", "next": "n2", "ok": false, "feedback": "Options es plural: What are the options?" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "A black wool coat and a red cotton coat.", "es": "Un abrigo negro de lana y uno rojo de algodón." },
+      "options": [
+        { "t": "The wool coat is warmer.", "es": "El de lana abriga más.", "next": "n3", "ok": true },
+        { "t": "The wool coat is more warm.", "es": "El de lana abriga más.", "next": "n3", "ok": false, "feedback": "Warm es corto: warmer, sin more." },
+        { "t": "The coat wool is warmer.", "es": "El de lana abriga más.", "next": "n3", "ok": false, "feedback": "El material va delante: the wool coat." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "True. But the red one is cheaper.", "es": "Es verdad. Pero el rojo es más barato." },
+      "options": [
+        { "t": "Yes, but London is colder than Madrid!", "es": "Sí, ¡pero Londres es más frío que Madrid!", "next": "n4", "ok": true },
+        { "t": "Yes, but London is colder that Madrid!", "es": "Sí, ¡pero Londres es más frío que Madrid!", "next": "n4", "ok": false, "feedback": "Al comparar, «que» es than: colder than." },
+        { "t": "Yes, but London is more cold than Madrid!", "es": "Sí, ¡pero Londres es más frío que Madrid!", "next": "n4", "ok": false, "feedback": "Cold es corto: colder." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ha ha, that's true. Is black better than red for me?", "es": "Ja, ja, es verdad. ¿Me queda mejor el negro que el rojo?" },
+      "options": [
+        { "t": "Red is better. It suits you!", "es": "El rojo es mejor. ¡Te sienta bien!", "next": "n5", "ok": true },
+        { "t": "Red is more good. It suits you!", "es": "El rojo es mejor. ¡Te sienta bien!", "next": "n5", "ok": false, "feedback": "Good es irregular: better." },
+        { "t": "Red is better. It fits you!", "es": "El rojo es mejor. ¡Te sienta bien!", "next": "n5", "ok": false, "feedback": "Para un color o un estilo decimos suit: It suits you. Fit es para la talla." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Oh no! I love red, but I want a warm coat.", "es": "¡Ay, no! Me encanta el rojo, pero quiero un abrigo que abrigue." },
+      "options": [
+        { "t": "Ask for a red wool coat!", "es": "¡Pide un abrigo rojo de lana!", "next": "n6", "ok": true },
+        { "t": "Ask for a wool red coat!", "es": "¡Pide un abrigo rojo de lana!", "next": "n6", "ok": false, "feedback": "Color antes que material: a red wool coat." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Great idea! You're the best, Yolanda!", "es": "¡Qué buena idea! ¡Eres la mejor, Yolanda!" },
+      "options": [
+        { "t": "Ha ha! Send me a photo!", "es": "¡Ja, ja! ¡Mándame una foto!", "next": "end", "ok": true },
+        { "t": "Ha ha! Send to me a photo!", "es": "¡Ja, ja! ¡Mándame una foto!", "next": "end", "ok": false, "feedback": "Se dice Send me a photo, sin to delante de me." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

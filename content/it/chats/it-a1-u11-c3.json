@@ -1,0 +1,58 @@
+{
+  "id": "it-a1-u11-c3",
+  "unit": "it-a1-u11",
+  "title": "Un día en Siracusa",
+  "setting": "Giulia te escribe por WhatsApp mientras paseas por Siracusa",
+  "emoji": "🏛️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao! Allora, sei a Siracusa? Dove sei adesso?", "es": "¡Hola! ¿Qué, estás en Siracusa? ¿Dónde estás ahora?" },
+      "options": [
+        { "t": "Sono in piazza, davanti al duomo.", "es": "Estoy en la plaza, delante de la catedral.", "next": "n2", "ok": true },
+        { "t": "Sono in piazza, davanti del duomo.", "es": "Estoy en la plaza, delante de la catedral.", "next": "n2", "ok": false, "feedback": "Davanti va con a: davanti al duomo." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che bello! Sai che Archimede è nato a Siracusa?", "es": "¡Qué bonito! ¿Sabes que Arquímedes nació en Siracusa?" },
+      "options": [
+        { "t": "Sì, lo so! Quello dell'«Eureka»!", "es": "¡Sí, lo sé! ¡El del «Eureka»!", "next": "n3", "ok": true },
+        { "t": "Sì, lo conosco! Quello dell'«Eureka»!", "es": "¡Sí, lo conozco! ¡El del «Eureka»!", "next": "n3", "ok": false, "feedback": "Es un dato: se usa sapere (lo so). ¡A Arquímedes no lo conoces en persona!" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Brava! Adesso vai alla fonte Aretusa: è vicinissima.", "es": "¡Muy bien! Ahora ve a la fuente Aretusa: está cerquísima." },
+      "options": [
+        { "t": "Come ci arrivo?", "es": "¿Cómo llego?", "next": "n4", "ok": true },
+        { "t": "Come ci arriva?", "es": "¿Cómo llega?", "next": "n4", "ok": false, "feedback": "Hablas de ti misma: come ci arrivo (io)." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Dal duomo vai dritto verso il mare. In fondo alla via, la vedi.", "es": "Desde la catedral sigue recto hacia el mar. Al final de la calle, la ves." },
+      "options": [
+        { "t": "Ok! E poi posso passeggiare sul lungomare?", "es": "¡Vale! ¿Y luego puedo pasear por el paseo marítimo?", "next": "n5", "ok": true },
+        { "t": "Ok! E poi posso passeggiare sul lungo mare largo?", "es": "¡Vale! ¿Y luego puedo pasear por el largo mar ancho?", "next": "n5", "ok": false, "feedback": "Se dice il lungomare, en una palabra: el paseo marítimo." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Certo! Ma non andare al teatro greco a piedi: è lontano.", "es": "¡Claro! Pero no vayas al teatro griego andando: está lejos." },
+      "options": [
+        { "t": "Va bene, per il teatro prendo l'autobus.", "es": "Vale, para el teatro cojo el autobús.", "next": "n6", "ok": true },
+        { "t": "Va bene, vado a piedi al teatro.", "es": "Vale, voy andando al teatro.", "next": "n6", "ok": false, "feedback": "Giulia ha dicho non andare a piedi: está lejos (lontano)." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Perfetto! Mandami una foto della fontana!", "es": "¡Perfecto! ¡Mándame una foto de la fuente!" },
+      "options": [
+        { "t": "Certo! Un abbraccio!", "es": "¡Claro! ¡Un abrazo!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

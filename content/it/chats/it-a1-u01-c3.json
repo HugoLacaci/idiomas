@@ -1,0 +1,41 @@
+{
+  "id": "it-a1-u01-c3",
+  "unit": "it-a1-u01",
+  "title": "¿Quién es quién en la foto?",
+  "setting": "Giulia te enseña fotos de su familia en el móvil",
+  "emoji": "📱",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "Guarda, questa è la mia famiglia!", "es": "¡Mira, esta es mi familia!" },
+      "options": [
+        { "t": "Che bella! Chi è lui?", "es": "¡Qué bonita! ¿Quién es él?", "next": "n2", "ok": true },
+        { "t": "Che bella! Chi sono io?", "es": "¡Qué bonita! ¿Quién soy yo?", "next": "n2", "ok": false, "feedback": "«Chi sono io?» es «¿quién soy yo?». Para preguntar por un hombre: «Chi è lui?»." }
+      ] },
+    { "id": "n2", "says": { "t": "Lui è Marco, mio marito. È medico.", "es": "Él es Marco, mi marido. Es médico." },
+      "options": [
+        { "t": "Ah, è medico! E lei chi è?", "es": "¡Ah, es médico! ¿Y ella quién es?", "next": "n3", "ok": true },
+        { "t": "Ah, sono medico!", "es": "¡Ah, soy médico!", "next": "n3", "ok": false, "feedback": "«Sono medico» es «soy médico». Para hablar de Marco: «è medico»." }
+      ] },
+    { "id": "n3", "says": { "t": "Lei è mia figlia Sara. È a Milano.", "es": "Ella es mi hija Sara. Está en Milán." },
+      "options": [
+        { "t": "Anche mio figlio Hugo è lontano.", "es": "Mi hijo Hugo también está lejos.", "next": "n4", "ok": true },
+        { "t": "Anche mio figlio Hugo sono lontano.", "es": "Mi hijo Hugo también estoy lejos.", "next": "n4", "ok": false, "feedback": "Hugo es «lui», y con lui el verbo es «è»." }
+      ] },
+    { "id": "n4", "says": { "t": "Davvero? Dov'è Hugo?", "es": "¿De verdad? ¿Dónde está Hugo?" },
+      "options": [
+        { "t": "È in viaggio.", "es": "Está de viaje.", "next": "n5", "ok": true },
+        { "t": "Sei in viaggio.", "es": "Estás de viaje.", "next": "n5", "ok": false, "feedback": "«Sei» es «estás». Para hablar de Hugo: «È in viaggio»." }
+      ] },
+    { "id": "n5", "says": { "t": "Che bello! E voi siete tutti in Spagna?", "es": "¡Qué bien! ¿Y vosotros estáis todos en España?" },
+      "options": [
+        { "t": "Sì, noi siamo in Spagna.", "es": "Sí, nosotros estamos en España.", "next": "n6", "ok": true },
+        { "t": "Sì, loro siamo in Spagna.", "es": "Sí, ellos estamos en España.", "next": "n6", "ok": false, "feedback": "Hablas de ti y tu familia: «noi siamo» (nosotros estamos)." }
+      ] },
+    { "id": "n6", "says": { "t": "Allora una foto di noi due per Hugo!", "es": "¡Entonces una foto de las dos para Hugo!" },
+      "options": [
+        { "t": "Sì! Che bella idea!", "es": "¡Sí! ¡Qué buena idea!", "next": "end", "ok": true },
+        { "t": "No, sono stanca.", "es": "No, estoy cansada.", "next": "end", "ok": false, "feedback": "¡Venga, sonríe! 📸 Mejor: «Sì! Che bella idea!»." }
+      ] }
+  ],
+  "reviewed": false
+}

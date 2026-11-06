@@ -1,0 +1,70 @@
+{
+  "id": "it-a2-u06-l3",
+  "unit": "it-a2-u06",
+  "title": "Mi sta bene?",
+  "goal": "a usar las frases clave de una tienda de ropa: probarte algo, pedir otra talla y decidir",
+  "emoji": "🪞",
+  "photoQuery": "fitting room clothes rack mirror",
+  "vocab": [
+    { "id": "moda-il-camerino", "t": "il camerino", "es": "el probador", "emoji": "🚪", "pos": "n", "ex": { "t": "Scusi, dov'è il camerino?", "es": "Perdone, ¿dónde está el probador?" } },
+    { "id": "moda-mi-sta-bene", "t": "Mi sta bene?", "es": "¿Me queda bien?", "emoji": "🤔", "pos": "phrase", "ex": { "t": "Mi sta bene questo colore?", "es": "¿Me queda bien este color?" } },
+    { "id": "moda-stretto", "t": "stretto / stretta", "es": "estrecho, apretado", "emoji": "🤏", "pos": "adj", "ex": { "t": "La gonna è troppo stretta.", "es": "La falda es demasiado estrecha." } },
+    { "id": "moda-largo", "t": "largo / larga", "es": "ancho, holgado", "emoji": "↔️", "pos": "adj", "note": "¡Ojo! Largo = ancho. «Largo» en español es lungo.", "ex": { "t": "Questi pantaloni sono larghi.", "es": "Estos pantalones son anchos." } },
+    { "id": "moda-una-taglia-piu-grande", "t": "una taglia più grande", "es": "una talla más grande", "emoji": "⬆️", "pos": "phrase", "ex": { "t": "Ce l'ha in una taglia più grande?", "es": "¿La tiene en una talla más grande?" } },
+    { "id": "moda-in-un-altro-colore", "t": "in un altro colore", "es": "en otro color", "emoji": "🌈", "pos": "phrase", "ex": { "t": "Ce l'ha in un altro colore?", "es": "¿La tiene en otro color?" } },
+    { "id": "moda-lo-prendo", "t": "Lo prendo!", "es": "¡Me lo quedo!", "emoji": "✅", "pos": "phrase", "ex": { "t": "Mi piace molto. Lo prendo!", "es": "Me gusta mucho. ¡Me lo quedo!" } },
+    { "id": "moda-ci-penso", "t": "Ci penso un po'.", "es": "Me lo pienso un poco.", "emoji": "💭", "pos": "phrase", "ex": { "t": "È bella, ma ci penso un po'.", "es": "Es bonita, pero me lo pienso un poco." } },
+    { "id": "moda-la-tasca", "t": "la tasca", "es": "el bolsillo", "emoji": "👖", "pos": "n", "ex": { "t": "Questa giacca ha quattro tasche.", "es": "Esta chaqueta tiene cuatro bolsillos." } }
+  ],
+  "grammar": "it-g-pronomi-diretti",
+  "pron": {
+    "title": "Doble t en stretta",
+    "tip": "En stretta y camerino fíjate: la doble t se mantiene un instante (stret-ta). Si la dices simple, suena raro.",
+    "words": ["stretta", "stretto", "tasca", "camerino", "maglietta"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "La giacca è bella. Posso ___?", "es": "La chaqueta es bonita. ¿Puedo probármela?", "options": ["provarla", "provarlo", "la provare"], "answer": "provarla", "why": "Con infinitivo el pronombre se pega detrás: provarla.", "g": "it-g-pronomi-diretti" },
+    { "id": "e2", "type": "choose", "q": "Il vestito? Non ___ voglio provare.", "es": "¿El vestido? No me lo quiero probar.", "options": ["lo", "la", "li"], "answer": "lo", "why": "Il vestito → lo. Con querer + infinitivo, el pronombre puede ir delante: non lo voglio provare.", "g": "it-g-pronomi-diretti" },
+    { "id": "e3", "type": "choose", "q": "Questi pantaloni sono troppo ___.", "es": "Estos pantalones son demasiado anchos.", "options": ["larghi", "lunghi", "stretti"], "answer": "larghi", "why": "Ancho = largo; en plural masculino, larghi.", "g": "it-g-pronomi-diretti" },
+    { "id": "e4", "type": "fill", "q": "Dov'è il ___, per favore?", "es": "¿Dónde está el probador, por favor?", "answer": ["camerino"], "bank": ["camerino", "tasca", "colore"], "why": "El probador = il camerino.", "g": "it-g-pronomi-diretti" },
+    { "id": "e5", "type": "fill", "q": "Le scarpe sono strette. Posso cambiar___?", "es": "Los zapatos me aprietan. ¿Puedo cambiarlos?", "answer": ["le"], "bank": ["le", "li", "la"], "why": "Le scarpe → le, pegado al infinitivo: cambiarle.", "g": "it-g-pronomi-diretti" },
+    { "id": "e6", "type": "fill", "q": "I jeans mi piacciono. Voglio comprar___.", "es": "Los vaqueros me gustan. Quiero comprarlos.", "answer": ["li"], "hint": "i jeans", "why": "I jeans → li: comprarli.", "g": "it-g-pronomi-diretti" },
+    { "id": "e7", "type": "error", "q": "La giacca? Posso provarlo?", "wrong": "provarlo", "fix": "provarla", "why": "Giacca es femenino: provarla, con el pronombre pegado al infinitivo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e8", "type": "error", "q": "La gonna è troppo stretto.", "wrong": "stretto", "fix": "stretta", "why": "Gonna es femenino: stretta.", "g": "it-g-pronomi-diretti" },
+    { "id": "e9", "type": "order", "es": "¿La tiene en una talla más grande?", "answer": "Ce l'ha in una taglia più grande", "extra": ["lunga"], "why": "Ce l'ha? = ¿la tiene? Es una frase hecha muy útil en las tiendas.", "g": "it-g-pronomi-diretti" },
+    { "id": "e10", "type": "translate", "dir": "to", "q": "¿Me queda bien?", "answer": ["Mi sta bene?"], "why": "Para la ropa se dice stare bene a qualcuno: mi sta bene?", "g": "it-g-pronomi-diretti" },
+    { "id": "e11", "type": "translate", "dir": "from", "q": "È bella, ma ci penso un po'.", "answer": ["Es bonita, pero me lo pienso un poco.", "Es bonita, pero me lo voy a pensar un poco.", "Es bonita, pero lo pienso un poco."], "why": "Ci penso = me lo pienso; es una forma educada de no comprar todavía.", "g": "it-g-pronomi-diretti" },
+    { "id": "e12", "type": "transform", "instr": "Pon el pronombre delante del verbo", "q": "Voglio comprarla.", "answer": ["La voglio comprare."], "why": "Con voglio, posso, devo el pronombre puede ir pegado al infinitivo o delante de todo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e13", "type": "situation", "context": "Te pruebas una falda y te aprieta. Le pides a la dependienta otra talla.", "emoji": "📏", "options": ["Ce l'ha in una taglia più grande?", "Ce l'ha in un altro colore?", "La prendo!"], "answer": "Ce l'ha in una taglia più grande?", "why": "Si aprieta, necesitas una taglia più grande.", "g": "it-g-pronomi-diretti" },
+    { "id": "e14", "type": "situation", "context": "Te gusta un jersey, pero todavía no estás segura. Quieres salir de la tienda con educación.", "emoji": "💭", "options": ["Grazie, ci penso un po'.", "Lo prendo!", "Non mi piace per niente."], "answer": "Grazie, ci penso un po'.", "why": "Ci penso un po' es la forma amable de decir que todavía no lo compras.", "g": "it-g-pronomi-diretti" },
+    { "id": "e15", "type": "match", "pairs": [["Mi sta bene?", "¿Me queda bien?"], ["Lo prendo!", "¡Me lo quedo!"], ["il camerino", "el probador"], ["stretta", "estrecha"], ["larga", "ancha"]], "why": "Frases de la tienda de ropa." }
+  ],
+  "dialog": {
+    "title": "¿Me queda bien?",
+    "setting": "Yolanda se prueba un vestido en una tienda de Milán y habla con el dependiente",
+    "emoji": "👗",
+    "lines": [
+      { "who": "Yolanda", "t": "Scusi, posso provare questo vestito?", "es": "Perdone, ¿puedo probarme este vestido?" },
+      { "who": "Paolo", "t": "Certo, il camerino è lì in fondo.", "es": "Claro, el probador está allí al fondo." },
+      { "who": "Yolanda", "t": "Mi sta un po' stretto. Ce l'ha in una taglia più grande?", "es": "Me queda un poco estrecho. ¿Lo tiene en una talla más grande?" },
+      { "who": "Paolo", "t": "Sì, eccolo. La 44.", "es": "Sí, aquí lo tiene. La 44." },
+      { "who": "Yolanda", "t": "Adesso va bene. Mi sta bene il verde?", "es": "Ahora está bien. ¿Me queda bien el verde?" },
+      { "who": "Paolo", "t": "Le sta benissimo, signora. E ha due tasche!", "es": "Le queda estupendamente, señora. ¡Y tiene dos bolsillos!" },
+      { "who": "Yolanda", "t": "Perfetto. Lo prendo!", "es": "Perfecto. ¡Me lo quedo!" }
+    ],
+    "questions": [
+      { "q": "¿Qué problema tiene el primer vestido?", "options": ["Es estrecho", "Es largo", "Es caro"], "answer": "Es estrecho" },
+      { "q": "¿Qué talla se lleva al final?", "options": ["La 44", "La 42", "La 40"], "answer": "La 44" },
+      { "q": "¿Qué tiene el vestido además?", "options": ["Dos bolsillos", "Un cinturón", "Botones dorados"], "answer": "Dos bolsillos" }
+    ]
+  },
+  "realLife": { "t": "Ce l'ha in una taglia più grande?", "es": "¿Lo tiene en una talla más grande?", "context": "Cuando una prenda te queda pequeña en el probador" },
+  "falseFriend": { "word": "la tasca", "means": "el bolsillo", "looksLike": "tasca, la taberna (en italiano: osteria)", "emoji": "👖", "tip": "Mettilo in tasca = guárdatelo en el bolsillo. ¡No te vas de tascas con él!" },
+  "summary": [
+    "Posso provarlo? / Mi sta bene? / Dov'è il camerino?",
+    "Ce l'ha in una taglia più grande? / in un altro colore?",
+    "Con infinitivo: provarla, comprarli (o la voglio comprare).",
+    "Stretto = estrecho; largo = ancho; la tasca = el bolsillo."
+  ],
+  "reviewed": false
+}

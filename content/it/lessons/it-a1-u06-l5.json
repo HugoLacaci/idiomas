@@ -1,0 +1,453 @@
+{
+  "id": "it-a1-u06-l5",
+  "unit": "it-a1-u06",
+  "title": "Reto en Matera: una casa en la roca",
+  "goal": "a describir tu alojamiento y escribir un mensaje sobre él",
+  "emoji": "🪨",
+  "photoQuery": "matera sassi stone houses",
+  "vocab": [
+    {
+      "id": "casa-i-sassi",
+      "t": "i Sassi",
+      "es": "los Sassi (barrios de Matera)",
+      "emoji": "🪨",
+      "pos": "n",
+      "note": "Sasso significa «piedra»; los Sassi son los barrios antiguos de Matera.",
+      "ex": {
+        "t": "I Sassi sono bellissimi di sera.",
+        "es": "Los Sassi son preciosos por la noche."
+      }
+    },
+    {
+      "id": "casa-la-grotta",
+      "t": "la grotta",
+      "es": "la cueva",
+      "emoji": "🕳️",
+      "pos": "n",
+      "ex": {
+        "t": "La camera è in una grotta!",
+        "es": "¡La habitación está en una cueva!"
+      }
+    },
+    {
+      "id": "casa-la-pietra",
+      "t": "la pietra",
+      "es": "la piedra",
+      "emoji": "🧱",
+      "pos": "n",
+      "ex": {
+        "t": "Le pareti sono di pietra.",
+        "es": "Las paredes son de piedra."
+      }
+    },
+    {
+      "id": "casa-la-terrazza",
+      "t": "la terrazza",
+      "es": "la terraza",
+      "emoji": "☀️",
+      "pos": "n",
+      "ex": {
+        "t": "C'è una terrazza con vista.",
+        "es": "Hay una terraza con vistas."
+      }
+    },
+    {
+      "id": "casa-la-vista",
+      "t": "Che bella vista!",
+      "es": "¡Qué vistas tan bonitas!",
+      "emoji": "🌄",
+      "pos": "phrase",
+      "ex": {
+        "t": "Che bella vista su Matera!",
+        "es": "¡Qué vistas tan bonitas de Matera!"
+      }
+    },
+    {
+      "id": "casa-la-chiave",
+      "t": "la chiave",
+      "es": "la llave",
+      "emoji": "🔑",
+      "pos": "n",
+      "ex": {
+        "t": "Ecco la chiave di casa.",
+        "es": "Aquí tiene la llave de casa."
+      }
+    },
+    {
+      "id": "casa-accogliente",
+      "t": "accogliente",
+      "es": "acogedor / acogedora",
+      "emoji": "🫶",
+      "pos": "adj",
+      "ex": {
+        "t": "La casa è piccola ma accogliente.",
+        "es": "La casa es pequeña pero acogedora."
+      }
+    },
+    {
+      "id": "casa-tranquillo",
+      "t": "tranquillo / tranquilla",
+      "es": "tranquilo / tranquila",
+      "emoji": "😌",
+      "pos": "adj",
+      "ex": {
+        "t": "Di notte è tutto tranquillo.",
+        "es": "Por la noche todo está tranquilo."
+      }
+    },
+    {
+      "id": "casa-mi-trovo-bene",
+      "t": "Mi trovo benissimo.",
+      "es": "Estoy a gusto, muy bien.",
+      "emoji": "😊",
+      "pos": "phrase",
+      "ex": {
+        "t": "Qui mi trovo benissimo.",
+        "es": "Aquí estoy muy a gusto."
+      }
+    }
+  ],
+  "grammar": "it-g-ce-ci-sono",
+  "pron": {
+    "title": "La doble rr y la doble zz",
+    "tip": "Terrazza tiene dos dobles: la rr vibra fuerte, como en «perro», y la zz suena «ts» marcada: «ter-rát-tsa».",
+    "words": [
+      "terrazza",
+      "grotta",
+      "Sassi",
+      "accogliente"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "In questa grotta ___ un letto grande.",
+      "es": "En la cueva hay una cama grande.",
+      "options": [
+        "c'è",
+        "ci sono",
+        "è"
+      ],
+      "answer": "c'è",
+      "why": "Un letto es singular: c'è.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Le pareti sono ___ pietra.",
+      "options": [
+        "di",
+        "da",
+        "in"
+      ],
+      "answer": "di",
+      "why": "El material con di: di pietra, di legno.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Domani andiamo ___ Bari.",
+      "es": "Mañana vamos a Bari.",
+      "options": [
+        "a",
+        "in",
+        "da"
+      ],
+      "answer": "a",
+      "why": "Con ciudades usamos a: a Bari, a Matera.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "In terrazza ___ due sedie e un tavolino.",
+      "answer": [
+        "ci sono"
+      ],
+      "bank": [
+        "c'è",
+        "ci sono",
+        "sono"
+      ],
+      "why": "Son varias cosas: ci sono.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Siamo ___ Italia per una settimana.",
+      "es": "Estamos en Italia una semana.",
+      "answer": [
+        "in"
+      ],
+      "bank": [
+        "in",
+        "a",
+        "di"
+      ],
+      "why": "Con países usamos in: in Italia, in Spagna.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e6",
+      "type": "error",
+      "q": "In camera non ci è la televisione.",
+      "wrong": "è",
+      "fix": "c'è",
+      "why": "Ci + è se escribe siempre junto: non c'è.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "Sono in Matera con un'amica.",
+      "wrong": "in",
+      "fix": "a",
+      "why": "Con ciudades se usa a: sono a Matera.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "Ci sono turisti.",
+      "answer": [
+        "Non ci sono turisti."
+      ],
+      "why": "Non delante de ci sono.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Hay una terraza con unas vistas preciosas.",
+      "answer": "C'è una terrazza con una vista bellissima",
+      "extra": [
+        "ci",
+        "sono"
+      ],
+      "why": "C'è + una terrazza (singular).",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "La casa es pequeña pero acogedora.",
+      "answer": [
+        "La casa è piccola ma accogliente."
+      ],
+      "why": "Accogliente termina en -e: sirve para masculino y femenino."
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "from",
+      "q": "Le pareti sono di pietra.",
+      "answer": [
+        "Las paredes son de piedra"
+      ],
+      "why": "Pietra = piedra; di = de.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Al llegar al alojamiento, la dueña te da la llave y te pregunta qué te parece. Te encanta.",
+      "emoji": "🔑",
+      "options": [
+        "Che bella! Mi trovo benissimo.",
+        "Che bella! Non c'è niente.",
+        "Che bella! Dov'è la casa?"
+      ],
+      "answer": "Che bella! Mi trovo benissimo.",
+      "why": "Mi trovo benissimo = estoy muy a gusto."
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "la grotta",
+          "la cueva"
+        ],
+        [
+          "la pietra",
+          "la piedra"
+        ],
+        [
+          "la chiave",
+          "la llave"
+        ],
+        [
+          "accogliente",
+          "acogedora"
+        ],
+        [
+          "la terrazza",
+          "la terraza"
+        ]
+      ],
+      "why": "Palabras para tu alojamiento en Matera."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "message",
+      "title": "Mensaje de Yolanda a Hugo",
+      "text": "Ciao tesoro! Sono a Matera con le amiche. La nostra casa è in una grotta! Le pareti sono di pietra e c'è una terrazza con una vista bellissima. Ci sono due camere e un bagno. Mi trovo benissimo!",
+      "questions": [
+        {
+          "q": "¿Con quién está Yolanda?",
+          "options": [
+            "Con las amigas",
+            "Con Hugo",
+            "Sola"
+          ],
+          "answer": "Con las amigas"
+        },
+        {
+          "q": "¿De qué son las paredes?",
+          "options": [
+            "De piedra",
+            "De madera",
+            "De cristal"
+          ],
+          "answer": "De piedra"
+        },
+        {
+          "q": "¿Cuántos dormitorios hay?",
+          "options": [
+            "Dos",
+            "Uno",
+            "Tres"
+          ],
+          "answer": "Dos"
+        }
+      ],
+      "why": "Ci sono due camere = hay dos dormitorios."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Che bella vista! Mi trovo benissimo.",
+      "es": "¡Qué vistas tan bonitas! Estoy muy a gusto."
+    }
+  ],
+  "dialog": {
+    "title": "La casa-cueva",
+    "setting": "En un alojamiento de los Sassi de Matera, al llegar",
+    "emoji": "🪨",
+    "lines": [
+      {
+        "who": "Signora Lucia",
+        "t": "Benvenuta! Ecco la chiave.",
+        "es": "¡Bienvenida! Aquí tiene la llave."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie! È una grotta vera?",
+        "es": "¡Gracias! ¿Es una cueva de verdad?"
+      },
+      {
+        "who": "Signora Lucia",
+        "t": "Sì, le pareti sono di pietra.",
+        "es": "Sí, las paredes son de piedra."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Che bello! C'è il wifi?",
+        "es": "¡Qué bonito! ¿Hay wifi?"
+      },
+      {
+        "who": "Signora Lucia",
+        "t": "Sì, e c'è una terrazza per lei.",
+        "es": "Sí, y hay una terraza para usted."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Che bella vista! Ci sono negozi qui vicino?",
+        "es": "¡Qué vistas tan bonitas! ¿Hay tiendas aquí cerca?"
+      },
+      {
+        "who": "Signora Lucia",
+        "t": "Sì, tra la chiesa e la piazza.",
+        "es": "Sí, entre la iglesia y la plaza."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfetto. Qui mi trovo benissimo!",
+        "es": "Perfecto. ¡Aquí estoy a gusto!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿De qué son las paredes?",
+        "options": [
+          "De piedra",
+          "De madera",
+          "De ladrillo"
+        ],
+        "answer": "De piedra"
+      },
+      {
+        "q": "¿Qué hay para Yolanda además del wifi?",
+        "options": [
+          "Una terraza",
+          "Una piscina",
+          "Un jardín"
+        ],
+        "answer": "Una terraza"
+      },
+      {
+        "q": "¿Dónde están las tiendas?",
+        "options": [
+          "Entre la iglesia y la plaza",
+          "En la terraza",
+          "Lejos, en Bari"
+        ],
+        "answer": "Entre la iglesia y la plaza"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Ci sono negozi qui vicino?",
+    "es": "¿Hay tiendas aquí cerca?",
+    "context": "Al llegar a un alojamiento nuevo en un pueblo o ciudad"
+  },
+  "same": {
+    "text": "Muchas palabras de Matera las entiendes a la primera: solo cambian un poco.",
+    "examples": [
+      {
+        "t": "la terrazza",
+        "es": "la terraza"
+      },
+      {
+        "t": "la pietra",
+        "es": "la piedra"
+      },
+      {
+        "t": "tranquillo",
+        "es": "tranquilo"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "il piano",
+    "means": "la planta de un edificio (y, como adverbio, «despacio»)",
+    "looksLike": "el piano, el instrumento (que también se dice il pianoforte)",
+    "emoji": "🏢",
+    "tip": "«Abito al terzo piano» = vivo en el tercero. Y «piano, piano» = despacito."
+  },
+  "summary": [
+    "Describir: c'è una terrazza, ci sono due camere, non c'è la TV.",
+    "Materiales con di: di pietra, di legno.",
+    "Ciudades con a (a Matera) y países con in (in Italia).",
+    "Mi trovo benissimo = estoy muy a gusto."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u06-l5"
+}

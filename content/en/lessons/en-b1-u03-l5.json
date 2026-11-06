@@ -1,0 +1,102 @@
+{
+  "id": "en-b1-u03-l5",
+  "unit": "en-b1-u03",
+  "title": "Reto en Sídney: cuéntame una historia",
+  "goal": "a contar una anécdota de viaje y un recuerdo mezclando used to, el pasado continuo y el pasado simple",
+  "emoji": "🦘",
+  "photoQuery": "sydney harbour opera house ferry",
+  "vocab": [
+    { "id": "child-harbour", "t": "the harbour", "es": "el puerto, la bahía", "emoji": "🛳️", "pos": "n",
+      "ex": { "t": "We were walking along the harbour at sunset.", "es": "Paseábamos por el puerto al atardecer." },
+      "note": "En EE. UU.: harbor." },
+    { "id": "child-opera-house", "t": "the Opera House", "es": "la Ópera", "emoji": "🎭", "pos": "n",
+      "ex": { "t": "The Opera House looks like a group of white sails.", "es": "La Ópera parece un grupo de velas blancas." } },
+    { "id": "child-ferry", "t": "a ferry", "es": "un ferri, un barco de pasajeros", "emoji": "⛴️", "pos": "n",
+      "ex": { "t": "We took the ferry to Manly Beach.", "es": "Cogimos el ferri a la playa de Manly." } },
+    { "id": "child-sun-cream", "t": "sun cream", "es": "la crema solar", "emoji": "🧴", "pos": "n",
+      "ex": { "t": "Don't forget your sun cream in Australia!", "es": "¡No olvides la crema solar en Australia!" },
+      "note": "En EE. UU.: sunscreen." },
+    { "id": "child-sunburnt", "t": "sunburnt", "es": "quemada (por el sol)", "emoji": "🥵", "pos": "adj",
+      "ex": { "t": "I got sunburnt while I was sleeping on the beach.", "es": "Me quemé mientras dormía en la playa." },
+      "note": "En EE. UU.: sunburned." },
+    { "id": "child-a-memory", "t": "a memory", "es": "un recuerdo (en la mente)", "emoji": "🧠", "pos": "n",
+      "ex": { "t": "That trip is one of my best memories.", "es": "Ese viaje es uno de mis mejores recuerdos." },
+      "note": "Un recuerdo que compras es a souvenir." },
+    { "id": "child-tell-a-story", "t": "to tell a story", "es": "contar una historia", "emoji": "📖", "pos": "phrase",
+      "ex": { "t": "Let me tell you a funny story.", "es": "Déjame contarte una historia graciosa." } },
+    { "id": "child-kangaroo", "t": "a kangaroo", "es": "un canguro", "emoji": "🦘", "pos": "n",
+      "ex": { "t": "We saw a kangaroo while we were driving.", "es": "Vimos un canguro mientras íbamos en coche." } }
+  ],
+  "grammar": "en-g-past-continuous",
+  "pron": {
+    "title": "Contar con ritmo",
+    "tip": "Al contar una historia, en inglés se marcan las palabras importantes y se pasa rápido por las pequeñas: we were WALKING along the HARBOUR when it STARTED to RAIN.",
+    "words": ["harbour", "Opera House", "ferry", "sunburnt", "kangaroo"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "We ___ along the harbour when it started to rain.", "options": ["were walking", "used to walk", "walk"], "answer": "were walking",
+      "why": "Acción en marcha interrumpida por otra: pasado continuo.", "g": "en-g-past-continuous" },
+    { "id": "e2", "type": "choose", "q": "When I was young, I ___ go to the beach every summer.", "options": ["used to", "was going", "am used to"], "answer": "used to",
+      "why": "Costumbre repetida en el pasado: used to.", "g": "en-g-used-to" },
+    { "id": "e3", "type": "choose", "q": "I ___ sunburnt because I forgot my sun cream.", "options": ["got", "was getting", "used to get"], "answer": "got",
+      "why": "Algo que pasó una vez y terminó: pasado simple.", "g": "en-g-past-continuous" },
+    { "id": "e4", "type": "fill", "q": "While we ___ taking photos of the Opera House, a ferry arrived.", "es": "Mientras hacíamos fotos de la Ópera, llegó un ferri.", "answer": ["were"], "bank": ["were", "was", "did"],
+      "why": "While + we were + -ing.", "g": "en-g-past-continuous" },
+    { "id": "e5", "type": "fill", "q": "We saw a kangaroo while we were ___ to the hotel.", "es": "Vimos un canguro mientras íbamos al hotel.", "answer": ["driving", "going", "walking"], "hint": "drive",
+      "why": "Pasado continuo: were + driving (drive pierde la -e).", "g": "en-g-past-continuous" },
+    { "id": "e6", "type": "reading", "kind": "message", "title": "Mensaje desde Sídney",
+      "text": "Hi Emma! Sydney is amazing. Yesterday we were having coffee by the harbour when a ferry full of singing children arrived. It reminded me of my school trips. We used to sing on the bus all the way! Love, Yolanda",
+      "questions": [
+        { "q": "¿Qué estaban haciendo cuando llegó el ferri?", "options": ["Tomando un café", "Comiendo", "Nadando"], "answer": "Tomando un café" },
+        { "q": "¿Quién venía en el ferri?", "options": ["Niños cantando", "Turistas españoles", "Músicos"], "answer": "Niños cantando" },
+        { "q": "¿Qué solía hacer Yolanda en las excursiones del colegio?", "options": ["Cantar en el autobús", "Dormir", "Leer"], "answer": "Cantar en el autobús" }
+      ],
+      "why": "Were having = acción en marcha; used to sing = costumbre del pasado." },
+    { "id": "e7", "type": "transform", "instr": "Únelas con when", "q": "I was sleeping on the beach. I got sunburnt.", "answer": ["I was sleeping on the beach when I got sunburnt."],
+      "why": "Acción larga (was sleeping) + when + acción corta (got).", "g": "en-g-past-continuous" },
+    { "id": "e8", "type": "transform", "instr": "Únelas con while", "q": "We were waiting for the ferry. I bought a postcard.", "answer": ["While we were waiting for the ferry, I bought a postcard.", "I bought a postcard while we were waiting for the ferry."],
+      "why": "While va con la acción larga, en pasado continuo.", "g": "en-g-past-continuous" },
+    { "id": "e9", "type": "error", "q": "Every summer we use to swim in the sea.", "wrong": "use", "fix": "used",
+      "why": "Costumbre del pasado en afirmativa: used to, con -d. Sin -d solo tras did / didn't.", "g": "en-g-used-to" },
+    { "id": "e10", "type": "order", "es": "Estábamos cogiendo el ferri cuando vimos la Ópera", "answer": "We were taking the ferry when we saw the Opera House", "extra": ["seeing"],
+      "why": "Were taking (en marcha) + when + saw (pasado simple).", "g": "en-g-past-continuous" },
+    { "id": "e11", "type": "translate", "dir": "to", "q": "Ese viaje es uno de mis mejores recuerdos.", "answer": ["That trip is one of my best memories.", "This trip is one of my best memories."],
+      "why": "Un recuerdo en la mente = a memory (no souvenir)." },
+    { "id": "e12", "type": "situation", "context": "En Sídney, un guía te pregunta qué te pasó en la playa. Te quemaste mientras dormías.", "emoji": "🏖️",
+      "options": ["I got sunburnt while I was sleeping.", "I was getting sunburnt while I slept.", "I used to get sunburnt while I sleep."], "answer": "I got sunburnt while I was sleeping.",
+      "why": "Lo que pasó (got) en pasado simple; lo que estaba en marcha (was sleeping), en continuo.", "g": "en-g-past-continuous" },
+    { "id": "e13", "type": "match", "pairs": [["I used to swim every day.", "Costumbre del pasado"], ["I was swimming at ten.", "Acción en marcha en un momento"], ["I swam to the boat.", "Acción terminada, una vez"], ["I'm used to swimming.", "Estar acostumbrada"]],
+      "why": "Cada forma tiene su uso.", "g": "en-g-past-continuous" },
+    { "id": "e14", "type": "conjugate", "verb": "to shine", "person": "the sun", "tense": "pasado continuo", "q": "The sun ___ and the harbour looked beautiful.", "answer": ["was shining"],
+      "why": "Para describir el fondo de una escena: pasado continuo (shine pierde la -e).", "g": "en-g-past-continuous" },
+    { "id": "e15", "type": "speak", "t": "We were walking along the harbour when it started to rain.", "es": "Paseábamos por el puerto cuando empezó a llover.", "g": "en-g-past-continuous" }
+  ],
+  "dialog": {
+    "title": "Una anécdota en Sídney",
+    "setting": "En un café junto a la Ópera de Sídney, Yolanda charla con Grace, una guía australiana",
+    "emoji": "🎭",
+    "lines": [
+      { "who": "Grace", "t": "Did you know the Opera House is a World Heritage Site?", "es": "¿Sabías que la Ópera es Patrimonio de la Humanidad?" },
+      { "who": "Yolanda", "t": "Yes! Since 2007, I think. It's beautiful.", "es": "¡Sí! Desde 2007, creo. Es preciosa." },
+      { "who": "Grace", "t": "What happened to your arms? They're very red!", "es": "¿Qué te ha pasado en los brazos? ¡Están muy rojos!" },
+      { "who": "Yolanda", "t": "I got sunburnt. I was reading on the ferry and fell asleep.", "es": "Me quemé. Estaba leyendo en el ferri y me quedé dormida." },
+      { "who": "Grace", "t": "Oh dear! The Australian sun is very strong.", "es": "¡Vaya! El sol australiano es muy fuerte." },
+      { "who": "Yolanda", "t": "I know. When I was a child, I never used sun cream.", "es": "Ya. De pequeña nunca me ponía crema solar." },
+      { "who": "Grace", "t": "Nobody did! Did you use to spend your summers by the sea?", "es": "¡Nadie lo hacía! ¿Pasabas los veranos en la playa?" },
+      { "who": "Yolanda", "t": "Every summer! Those are some of my best memories.", "es": "¡Todos los veranos! Son algunos de mis mejores recuerdos." }
+    ],
+    "questions": [
+      { "q": "¿Desde cuándo es la Ópera Patrimonio de la Humanidad?", "options": ["Desde 2007", "Desde 1973", "Desde 2000"], "answer": "Desde 2007" },
+      { "q": "¿Qué estaba haciendo Yolanda cuando se quedó dormida?", "options": ["Leyendo en el ferri", "Tomando el sol en la playa", "Comiendo"], "answer": "Leyendo en el ferri" },
+      { "q": "¿Cómo tiene los brazos?", "options": ["Muy rojos", "Muy blancos", "Mojados"], "answer": "Muy rojos" }
+    ]
+  },
+  "realLife": { "t": "Let me tell you what happened.", "es": "Deja que te cuente lo que pasó.", "context": "Para empezar a contar una anécdota" },
+  "summary": [
+    "used to: costumbres de antes (I used to spend my summers by the sea)",
+    "was / were + -ing: lo que estaba pasando (I was reading on the ferry)",
+    "Pasado simple: lo que pasó de golpe (I fell asleep, I got sunburnt)",
+    "Sídney: su Ópera es Patrimonio de la Humanidad desde 2007"
+  ],
+  "reviewed": false
+}

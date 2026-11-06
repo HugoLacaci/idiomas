@@ -1,0 +1,89 @@
+{
+  "id": "it-b1-u08-l3",
+  "unit": "it-b1-u08",
+  "title": "Il posto in cui sono stata felice",
+  "goal": "a usar in cui, con cui, di cui, dove y quello che para hablar de lugares y personas queridas",
+  "emoji": "🗺️",
+  "photoQuery": "ravenna mosaic church interior",
+  "vocab": [
+    { "id": "citta-in-cui", "t": "in cui", "es": "en el que, en la que, donde", "emoji": "📍", "pos": "phrase", "ex": { "t": "Ravenna è la città in cui è sepolto Dante.", "es": "Rávena es la ciudad en la que está enterrado Dante." } },
+    { "id": "citta-con-cui", "t": "con cui", "es": "con el que, con quien", "emoji": "🤝", "pos": "phrase", "ex": { "t": "Paola è l'amica con cui ho viaggiato.", "es": "Paola es la amiga con la que he viajado." } },
+    { "id": "citta-di-cui", "t": "di cui", "es": "del que, de quien", "emoji": "💬", "pos": "phrase", "ex": { "t": "La trattoria di cui ti ho parlato è qui dietro.", "es": "La trattoria de la que te hablé está aquí detrás." } },
+    { "id": "citta-a-cui", "t": "a cui", "es": "al que, a quien", "emoji": "✉️", "pos": "phrase", "ex": { "t": "La professoressa a cui scrivo ogni settimana vive a Roma.", "es": "La profesora a la que escribo cada semana vive en Roma." } },
+    { "id": "citta-il-motivo-per-cui", "t": "il motivo per cui", "es": "el motivo por el que", "emoji": "🎯", "pos": "phrase", "ex": { "t": "L'arte è il motivo per cui sono venuta a Ravenna.", "es": "El arte es el motivo por el que he venido a Rávena." } },
+    { "id": "citta-quello-che", "t": "quello che", "es": "lo que", "emoji": "💡", "pos": "phrase", "ex": { "t": "Quello che mi piace di più dell'Italia è la gente.", "es": "Lo que más me gusta de Italia es la gente." }, "note": "Nunca «lo che». También se dice ciò che." },
+    { "id": "citta-dove", "t": "dove", "es": "donde", "emoji": "🏘️", "pos": "adv", "ex": { "t": "Perugia è la città dove si fanno i Baci.", "es": "Perugia es la ciudad donde se hacen los Baci." }, "note": "Para lugares, dove = in cui." },
+    { "id": "citta-la-salita", "t": "la salita", "es": "la cuesta, la subida", "emoji": "⛰️", "pos": "n", "ex": { "t": "Per arrivare in centro c'è una salita faticosa.", "es": "Para llegar al centro hay una cuesta cansada." } }
+  ],
+  "grammar": "it-g-pronomi-relativi",
+  "pron": {
+    "title": "Cui, qui, quando",
+    "tip": "Cui suena «kui», en una sola sílaba, como el principio de «cuidado». Igual que qui (aquí) y quando.",
+    "words": ["cui", "qui", "quando", "questo", "quello"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Ravenna è la città ___ è sepolto Dante.", "es": "Rávena es la ciudad en la que está enterrado Dante.", "options": ["in cui", "che", "di cui"], "answer": "in cui", "why": "Se está enterrado «en» un sitio: in cui (o dove).", "g": "it-g-pronomi-relativi" },
+    { "id": "e2", "type": "choose", "q": "L'amica ___ ho viaggiato si chiama Paola.", "es": "La amiga con la que he viajado se llama Paola.", "options": ["con cui", "con che", "con chi"], "answer": "con cui", "why": "Tras una preposición el relativo es cui: con cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e3", "type": "choose", "q": "Il ristorante ___ ti ho parlato è qui vicino.", "es": "El restaurante del que te hablé está aquí cerca.", "options": ["di cui", "che", "in cui"], "answer": "di cui", "why": "Se habla «di» algo: parlare di → di cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e4", "type": "choose", "q": "Il motivo ___ studio italiano è semplice: amo l'Italia.", "es": "El motivo por el que estudio italiano es sencillo: me encanta Italia.", "options": ["per cui", "per che", "che"], "answer": "per cui", "why": "El motivo por el que = il motivo per cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e5", "type": "fill", "q": "La persona a ___ ho scritto è la mia professoressa.", "es": "La persona a la que he escrito es mi profesora.", "answer": ["cui"], "bank": ["cui", "che", "chi"], "why": "Detrás de la preposición a va cui: a cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e6", "type": "fill", "q": "Perugia è la città ___ si fanno i Baci.", "es": "Perugia es la ciudad donde se hacen los Baci.", "answer": ["dove", "in cui"], "hint": "donde", "why": "Para un lugar: dove o in cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e7", "type": "fill", "q": "___ mi piace di più dell'Italia è la gente.", "es": "Lo que más me gusta de Italia es la gente.", "answer": ["Quello che", "Ciò che"], "hint": "lo que", "why": "Lo que = quello che (o ciò che). Nunca «lo che».", "g": "it-g-pronomi-relativi" },
+    { "id": "e8", "type": "error", "q": "Il giorno in che sono arrivata pioveva.", "wrong": "che", "fix": "cui", "why": "Detrás de una preposición nunca va che: in cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e9", "type": "error", "q": "Lo che mi manca di più è il mare.", "wrong": "Lo", "fix": "Quello", "why": "Nuestro «lo que» es quello che en italiano.", "g": "it-g-pronomi-relativi" },
+    { "id": "e10", "type": "error", "q": "Ecco l'amica con chi studio italiano.", "wrong": "chi", "fix": "cui", "why": "Detrás de un nombre y con preposición: con cui (no con chi).", "g": "it-g-pronomi-relativi" },
+    { "id": "e11", "type": "order", "es": "Es la ciudad en la que me siento como en casa.", "answer": "È la città in cui mi sento a casa", "extra": ["che"], "why": "In cui = en la que.", "g": "it-g-pronomi-relativi" },
+    { "id": "e12", "type": "transform", "instr": "Une las dos frases con in cui", "q": "Questa è la piazza. In questa piazza ho conosciuto Paola.", "answer": ["Questa è la piazza in cui ho conosciuto Paola.", "Questa è la piazza dove ho conosciuto Paola."], "why": "In questa piazza → in cui (o dove).", "g": "it-g-pronomi-relativi" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "La trattoria de la que te hablé está cerrada.", "answer": ["La trattoria di cui ti ho parlato è chiusa."], "why": "Del que / de la que = di cui. Cui no cambia nunca.", "g": "it-g-pronomi-relativi" },
+    { "id": "e14", "type": "match", "pairs": [["in cui", "en el que"], ["con cui", "con el que"], ["di cui", "del que"], ["a cui", "al que"], ["per cui", "por el que"]], "why": "La preposición va delante y cui no cambia nunca.", "g": "it-g-pronomi-relativi" },
+    { "id": "e15", "type": "situation", "context": "Una señora en el tren te pregunta por qué estudias italiano.", "emoji": "🚆", "options": ["Il motivo per cui studio italiano è che amo l'Italia.", "Il motivo per che studio italiano è che amo l'Italia.", "Il motivo che studio italiano è che amo l'Italia."], "answer": "Il motivo per cui studio italiano è che amo l'Italia.", "why": "El motivo por el que = il motivo per cui.", "g": "it-g-pronomi-relativi" },
+    { "id": "e16", "type": "reading", "kind": "message", "title": "Una postal desde Rávena", "text": "Cara Paola, ti scrivo da Ravenna, la città in cui è sepolto Dante. Oggi ho visto i mosaici di cui mi avevi parlato: sono meravigliosi! L'albergo dove dormo è in pieno centro. Un abbraccio, Yolanda", "questions": [
+      { "q": "¿Desde qué ciudad escribe Yolanda?", "options": ["Desde Rávena", "Desde Roma", "Desde Bolonia"], "answer": "Desde Rávena" },
+      { "q": "¿Quién le había hablado de los mosaicos?", "options": ["Paola", "Su hijo", "Un guía"], "answer": "Paola" },
+      { "q": "¿Dónde está su hotel?", "options": ["En pleno centro", "Cerca del mar", "En las afueras"], "answer": "En pleno centro" }
+    ], "why": "Di cui mi avevi parlato = de los que me habías hablado." }
+  ],
+  "dialog": {
+    "title": "Recuerdos del viaje",
+    "setting": "Yolanda y Paola cenan en una trattoria de Roma y repasan las fotos del viaje",
+    "emoji": "📱",
+    "lines": [
+      { "who": "Paola", "t": "Fammi vedere le foto! Questa dov'è?", "es": "¡Déjame ver las fotos! ¿Esta dónde es?" },
+      { "who": "Yolanda", "t": "È Perugia, la città in cui ho fatto il corso di italiano.", "es": "Es Perugia, la ciudad en la que hice el curso de italiano." },
+      { "who": "Paola", "t": "E questa signora chi è?", "es": "¿Y esta señora quién es?" },
+      { "who": "Yolanda", "t": "È la professoressa di cui ti ho parlato. Era bravissima!", "es": "Es la profesora de la que te hablé. ¡Era buenísima!" },
+      { "who": "Paola", "t": "E questa salita? Sembra faticosa!", "es": "¿Y esta cuesta? ¡Parece agotadora!" },
+      { "who": "Yolanda", "t": "Lo era! Ma in cima c'era la pasticceria dove compravo i Baci.", "es": "¡Lo era! Pero arriba estaba la pastelería donde compraba los Baci." },
+      { "who": "Paola", "t": "Ecco il motivo per cui salivi ogni giorno!", "es": "¡Ese es el motivo por el que subías cada día!" },
+      { "who": "Yolanda", "t": "Esatto. Quello che conta è la ricompensa!", "es": "Exacto. ¡Lo que importa es la recompensa!" }
+    ],
+    "questions": [
+      { "q": "¿Qué hizo Yolanda en Perugia?", "options": ["Un curso de italiano", "Un curso de cocina", "Una boda"], "answer": "Un curso de italiano" },
+      { "q": "¿Quién es la señora de la foto?", "options": ["Su profesora", "Su vecina", "Una guía"], "answer": "Su profesora" },
+      { "q": "¿Qué había arriba de la cuesta?", "options": ["Una pastelería", "Una iglesia", "Una farmacia"], "answer": "Una pastelería" }
+    ]
+  },
+  "realLife": { "t": "È il ristorante di cui mi hanno parlato tutti.", "es": "Es el restaurante del que me ha hablado todo el mundo.", "context": "Para decir que un sitio te lo han recomendado mucho" },
+  "same": {
+    "text": "Igual que en español, la preposición va delante del relativo.",
+    "examples": [
+      { "t": "con cui", "es": "con el que" },
+      { "t": "in cui", "es": "en el que" },
+      { "t": "di cui", "es": "del que" }
+    ]
+  },
+  "falseFriend": {
+    "word": "la salita",
+    "means": "la cuesta, la subida",
+    "looksLike": "salida (en italiano, uscita)",
+    "emoji": "⛰️",
+    "tip": "Perugia è tutta in salita = Perugia es todo cuesta arriba. La salida del metro es l'uscita."
+  },
+  "summary": [
+    "Preposición + cui: in cui, con cui, di cui, a cui, per cui.",
+    "Para lugares: dove = in cui.",
+    "Lo que = quello che (o ciò che), nunca «lo che».",
+    "¡Ojo! La salita = la cuesta; la salida = l'uscita."
+  ],
+  "reviewed": false
+}

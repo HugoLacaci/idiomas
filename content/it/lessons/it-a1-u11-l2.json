@@ -1,0 +1,79 @@
+{
+  "id": "it-a1-u11-l2",
+  "unit": "it-a1-u11",
+  "title": "Gira a destra, poi vai dritto",
+  "goal": "a entender y dar indicaciones sencillas con el imperativo de tú",
+  "emoji": "🧭",
+  "photoQuery": "narrow italian street crossroads signpost",
+  "vocab": [
+    { "id": "dir-gira", "t": "gira", "es": "gira", "emoji": "↪️", "pos": "v", "note": "De girare. Con usted: giri.", "ex": { "t": "Gira a sinistra dopo il ponte.", "es": "Gira a la izquierda después del puente." } },
+    { "id": "dir-vai-dritto", "t": "vai dritto", "es": "sigue recto", "emoji": "⬆️", "pos": "phrase", "note": "También va' dritto. Dritto y diritto significan lo mismo.", "ex": { "t": "Vai dritto fino alla piazza.", "es": "Sigue recto hasta la plaza." } },
+    { "id": "dir-prendi", "t": "prendi", "es": "coge, toma", "emoji": "🛣️", "pos": "v", "ex": { "t": "Prendi la prima a destra.", "es": "Coge la primera a la derecha." } },
+    { "id": "dir-attraversa", "t": "attraversa", "es": "cruza", "emoji": "🚶", "pos": "v", "ex": { "t": "Attraversa la strada al semaforo.", "es": "Cruza la calle en el semáforo." } },
+    { "id": "dir-continua", "t": "continua", "es": "continúa, sigue", "emoji": "➡️", "pos": "v", "ex": { "t": "Continua fino al porto.", "es": "Sigue hasta el puerto." } },
+    { "id": "dir-a-destra", "t": "a destra", "es": "a la derecha", "emoji": "👉", "pos": "adv", "ex": { "t": "Il museo è a destra.", "es": "El museo está a la derecha." } },
+    { "id": "dir-a-sinistra", "t": "a sinistra", "es": "a la izquierda", "emoji": "👈", "pos": "adv", "ex": { "t": "Gira a sinistra.", "es": "Gira a la izquierda." } },
+    { "id": "dir-fino-a", "t": "fino a", "es": "hasta", "emoji": "🏁", "pos": "other", "ex": { "t": "Vai dritto fino al semaforo.", "es": "Sigue recto hasta el semáforo." } },
+    { "id": "dir-poi", "t": "poi", "es": "luego, después", "emoji": "⏭️", "pos": "adv", "ex": { "t": "Attraversa, poi gira a destra.", "es": "Cruza, luego gira a la derecha." } }
+  ],
+  "grammar": "it-g-imperativo-tu-intro",
+  "pron": {
+    "title": "Sc de sinistra no, sc de scendi sí",
+    "tip": "Sci y sce suenan como la «sh» inglesa: scendi suena «shendi». En cambio, en sinistra la s es normal, como en español.",
+    "words": ["scendi", "sinistra", "destra", "pesce", "uscita"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Al semaforo, ___ a destra.", "es": "En el semáforo, gira a la derecha.", "options": ["gira", "giri", "girare"], "answer": "gira", "why": "Verbo en -are con tu: el imperativo acaba en -a: gira.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e2", "type": "choose", "q": "___ la prima a sinistra.", "es": "Coge la primera a la izquierda.", "options": ["Prendi", "Prenda", "Prende"], "answer": "Prendi", "why": "Verbo en -ere con tu: acaba en -i: prendi.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e3", "type": "choose", "q": "___ dritto fino alla piazza.", "es": "Sigue recto hasta la plaza.", "options": ["Vai", "Anda", "Vado"], "answer": "Vai", "why": "Andare es irregular: con tu, vai (o va').", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e4", "type": "fill", "q": "___ la strada al semaforo.", "es": "Cruza la calle en el semáforo.", "answer": ["Attraversa", "attraversa"], "bank": ["Attraversa", "Attraversi", "Attraversare"], "why": "Attraversare (-are) con tu: attraversa.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e5", "type": "fill", "q": "Gira a ___, poi vai dritto.", "es": "Gira a la izquierda, luego sigue recto.", "answer": ["sinistra"], "bank": ["sinistra", "destra", "dritto"], "why": "Izquierda = sinistra.", "g": "it-g-avverbi-luogo" },
+    { "id": "e6", "type": "fill", "q": "Continua ___ al porto.", "es": "Sigue hasta el puerto.", "answer": ["fino"], "hint": "hasta", "why": "Hasta = fino a (fino al porto).", "g": "it-g-prep-semplici" },
+    { "id": "e7", "type": "conjugate", "verb": "continuare", "person": "tu", "tense": "imperativo", "q": "___ dritto per cento metri.", "answer": ["Continua", "continua"], "table": [["girare", "gira"], ["attraversare", "attraversa"], ["continuare", "?"]], "why": "-are → -a: continua.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e8", "type": "conjugate", "verb": "scendere", "person": "tu", "tense": "imperativo", "q": "___ alla seconda fermata.", "answer": ["Scendi", "scendi"], "why": "-ere → -i: scendi (bájate).", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e9", "type": "error", "q": "Prenda la prima a destra, Hugo!", "wrong": "Prenda", "fix": "Prendi", "why": "A tu hijo le hablas de tú: prendi. Prenda es para usted.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e10", "type": "error", "q": "Gira a destro al semaforo.", "wrong": "destro", "fix": "destra", "why": "La expresión es siempre a destra, con -a.", "g": "it-g-avverbi-luogo" },
+    { "id": "e11", "type": "order", "es": "Cruza la calle y luego gira a la derecha.", "answer": "Attraversa la strada e poi gira a destra", "extra": ["giri"], "why": "Dos órdenes de tú: attraversa… gira.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Sigue recto hasta la plaza.", "answer": ["Vai dritto fino alla piazza.", "Va' dritto fino alla piazza.", "Continua dritto fino alla piazza.", "Vai diritto fino alla piazza."], "why": "Seguir recto = andare dritto; hasta la = fino alla.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e13", "type": "transform", "instr": "Hazla imperativo de tú", "q": "Tu giri a sinistra.", "answer": ["Gira a sinistra."], "why": "Los verbos en -are cambian -i por -a en el imperativo: gira.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e14", "type": "situation", "context": "Tu hijo Hugo te llama perdido. Tiene que cruzar la plaza y girar a la izquierda.", "emoji": "📱", "options": ["Attraversa la piazza e gira a sinistra.", "Attraversi la piazza e giri a sinistra.", "Attraversare la piazza e girare a destra."], "answer": "Attraversa la piazza e gira a sinistra.", "why": "A Hugo le hablas de tú: attraversa, gira.", "g": "it-g-imperativo-tu-intro" },
+    { "id": "e15", "type": "match", "pairs": [["gira", "gira"], ["prendi", "coge"], ["attraversa", "cruza"], ["vai dritto", "sigue recto"], ["scendi", "bájate"]], "why": "Las órdenes más útiles para dar direcciones." },
+    { "id": "e16", "type": "speak", "t": "Vai dritto, poi gira a destra.", "es": "Sigue recto, luego gira a la derecha." }
+  ],
+  "dialog": {
+    "title": "¿Por dónde, mamá?",
+    "setting": "Hugo llama a Yolanda: se ha despistado camino del hotel en Siracusa",
+    "emoji": "📱",
+    "lines": [
+      { "who": "Hugo", "t": "Mamma, dov'è l'albergo? Sono al ponte.", "es": "Mamá, ¿dónde está el hotel? Estoy en el puente." },
+      { "who": "Yolanda", "t": "Attraversa il ponte e vai dritto.", "es": "Cruza el puente y sigue recto." },
+      { "who": "Hugo", "t": "Fino a dove?", "es": "¿Hasta dónde?" },
+      { "who": "Yolanda", "t": "Fino al semaforo. Poi gira a sinistra.", "es": "Hasta el semáforo. Luego gira a la izquierda." },
+      { "who": "Hugo", "t": "A sinistra… c'è una chiesa.", "es": "A la izquierda… hay una iglesia." },
+      { "who": "Yolanda", "t": "Sì! Prendi la prima a destra.", "es": "¡Sí! Coge la primera a la derecha." },
+      { "who": "Hugo", "t": "Ah, vedo l'albergo! E tu dove sei?", "es": "¡Ah, veo el hotel! ¿Y tú dónde estás?" },
+      { "who": "Yolanda", "t": "Al bar davanti. Vieni, ti offro un caffè!", "es": "En el bar de enfrente. ¡Ven, te invito a un café!" }
+    ],
+    "questions": [
+      { "q": "¿Dónde está Hugo al principio?", "options": ["En el puente", "En la iglesia", "En el bar"], "answer": "En el puente" },
+      { "q": "¿Qué hace en el semáforo?", "options": ["Gira a la izquierda", "Gira a la derecha", "Cruza"], "answer": "Gira a la izquierda" },
+      { "q": "¿Dónde espera Yolanda?", "options": ["En el bar de enfrente", "En la habitación", "En la iglesia"], "answer": "En el bar de enfrente" }
+    ]
+  },
+  "realLife": { "t": "Vai dritto e poi gira a destra.", "es": "Sigue recto y luego gira a la derecha.", "context": "Para guiar por teléfono a tu hijo o a una amiga que se ha perdido" },
+  "same": {
+    "text": "A destra y a sinistra se dicen casi igual que «a la derecha» y «a la izquierda», ¡pero sin «la»!",
+    "examples": [
+      { "t": "a destra", "es": "a la derecha" },
+      { "t": "a sinistra", "es": "a la izquierda" },
+      { "t": "Gira!", "es": "¡Gira!" }
+    ]
+  },
+  "summary": [
+    "Imperativo de tú: -are → -a (gira, attraversa); -ere/-ire → -i (prendi, scendi).",
+    "Andare es irregular: vai (o va') dritto.",
+    "Direcciones: a destra, a sinistra, dritto, fino a, poi.",
+    "Con un desconocido se usa usted (giri, prenda): lo verás más adelante."
+  ],
+  "reviewed": false
+}

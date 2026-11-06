@@ -1,0 +1,453 @@
+{
+  "id": "en-a1-u04-l2",
+  "unit": "en-a1-u04",
+  "title": "Hay un sofá y dos sillones",
+  "goal": "a decir qué muebles hay en cada habitación con there is / there are, en afirmativa, negativa y pregunta",
+  "emoji": "🛋️",
+  "photoQuery": "armchair lamp wooden table",
+  "vocab": [
+    {
+      "id": "a-sofa",
+      "t": "a sofa",
+      "es": "un sofá",
+      "emoji": "🛋️",
+      "pos": "n",
+      "ex": {
+        "t": "There's a big sofa in the living room.",
+        "es": "Hay un sofá grande en el salón."
+      }
+    },
+    {
+      "id": "an-armchair",
+      "t": "an armchair",
+      "es": "un sillón",
+      "emoji": "💺",
+      "pos": "n",
+      "ex": {
+        "t": "My husband sleeps in his armchair.",
+        "es": "Mi marido duerme en su sillón."
+      }
+    },
+    {
+      "id": "a-table",
+      "t": "a table",
+      "es": "una mesa",
+      "emoji": "🪑",
+      "pos": "n",
+      "ex": {
+        "t": "There's a round table in the kitchen.",
+        "es": "Hay una mesa redonda en la cocina."
+      }
+    },
+    {
+      "id": "a-chair",
+      "t": "a chair",
+      "es": "una silla",
+      "emoji": "🪑",
+      "pos": "n",
+      "ex": {
+        "t": "There are six chairs.",
+        "es": "Hay seis sillas."
+      }
+    },
+    {
+      "id": "a-bed",
+      "t": "a bed",
+      "es": "una cama",
+      "emoji": "🛏️",
+      "pos": "n",
+      "ex": {
+        "t": "Is there a bed for the baby?",
+        "es": "¿Hay una cama para el bebé?"
+      }
+    },
+    {
+      "id": "a-wardrobe",
+      "t": "a wardrobe",
+      "es": "un armario (ropero)",
+      "emoji": "🚪",
+      "pos": "n",
+      "ex": {
+        "t": "The coats are in the wardrobe.",
+        "es": "Los abrigos están en el armario."
+      },
+      "note": "Armario de cocina: a cupboard. En EE. UU.: closet."
+    },
+    {
+      "id": "a-lamp",
+      "t": "a lamp",
+      "es": "una lámpara",
+      "emoji": "💡",
+      "pos": "n",
+      "ex": {
+        "t": "There isn't a lamp in my bedroom.",
+        "es": "No hay lámpara en mi dormitorio."
+      }
+    },
+    {
+      "id": "a-mirror",
+      "t": "a mirror",
+      "es": "un espejo",
+      "emoji": "🪞",
+      "pos": "n",
+      "ex": {
+        "t": "There's a mirror in the bathroom.",
+        "es": "Hay un espejo en el baño."
+      }
+    },
+    {
+      "id": "furniture",
+      "t": "furniture",
+      "es": "los muebles",
+      "emoji": "🏠",
+      "pos": "n",
+      "ex": {
+        "t": "The furniture is very old.",
+        "es": "Los muebles son muy antiguos."
+      },
+      "note": "¡Ojo! Furniture no tiene plural y va con is. Un mueble: a piece of furniture."
+    }
+  ],
+  "grammar": "en-g-there-is-are",
+  "pron": {
+    "title": "La th de bathroom y three",
+    "tip": "En bathroom, three y thanks, la th no vibra: es como nuestra «z» de «zapato» en Castilla. Saca un poco la lengua entre los dientes y sopla. Si no, three suena tree (árbol).",
+    "words": [
+      "bathroom",
+      "three",
+      "thanks",
+      "think"
+    ],
+    "pairs": [
+      [
+        "three",
+        "tree"
+      ],
+      [
+        "thin",
+        "tin"
+      ],
+      [
+        "think",
+        "sink"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "There ___ six chairs in the dining room.",
+      "es": "Hay seis sillas en el comedor.",
+      "options": [
+        "is",
+        "are"
+      ],
+      "answer": "are",
+      "why": "Seis sillas: there are.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "___ a mirror in the bathroom?",
+      "es": "¿Hay un espejo en el baño?",
+      "options": [
+        "Is there",
+        "There is",
+        "Has"
+      ],
+      "answer": "Is there",
+      "why": "Pregunta en singular: Is there…?",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "The furniture ___ new.",
+      "es": "Los muebles son nuevos.",
+      "options": [
+        "is",
+        "are"
+      ],
+      "answer": "is",
+      "why": "Furniture no tiene plural en inglés: the furniture is.",
+      "g": "en-g-plurals"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "There ___ a lamp in my bedroom. It's very dark!",
+      "es": "No hay lámpara en mi dormitorio. ¡Está muy oscuro!",
+      "answer": [
+        "isn't",
+        "is not"
+      ],
+      "bank": [
+        "isn't",
+        "aren't",
+        "haven't"
+      ],
+      "why": "Negativa en singular: there isn't.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Are there any armchairs? Yes, there ___.",
+      "es": "¿Hay sillones? Sí.",
+      "answer": [
+        "are"
+      ],
+      "bank": [
+        "is",
+        "are",
+        "have"
+      ],
+      "why": "Respuesta corta en plural: Yes, there are.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "There aren't ___ cushions on the sofa.",
+      "es": "No hay cojines en el sofá.",
+      "answer": [
+        "any"
+      ],
+      "why": "En negativa con plural: any.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e7",
+      "type": "match",
+      "pairs": [
+        [
+          "sofa",
+          "sofá"
+        ],
+        [
+          "armchair",
+          "sillón"
+        ],
+        [
+          "wardrobe",
+          "armario ropero"
+        ],
+        [
+          "mirror",
+          "espejo"
+        ],
+        [
+          "lamp",
+          "lámpara"
+        ]
+      ]
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "There is two beds in the room.",
+      "wrong": "is",
+      "fix": "are",
+      "why": "Dos camas: there are.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Are there a wardrobe in the bedroom?",
+      "wrong": "Are",
+      "fix": "Is",
+      "why": "Un armario es singular: Is there a…?",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "¿Hay sillas en el jardín?",
+      "answer": "Are there any chairs in the garden",
+      "extra": [
+        "is"
+      ],
+      "why": "Pregunta en plural: Are there any…?",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "There are two armchairs.",
+      "answer": [
+        "Are there two armchairs?"
+      ],
+      "why": "En la pregunta, are va delante: Are there…?",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e12",
+      "type": "conjugate",
+      "verb": "there is / there are",
+      "person": "singular (pregunta)",
+      "tense": "presente",
+      "q": "___ there a bed for my grandson?",
+      "answer": [
+        "Is"
+      ],
+      "table": [
+        [
+          "",
+          "Singular",
+          "Plural"
+        ],
+        [
+          "?",
+          "?",
+          "Are there…?"
+        ]
+      ],
+      "why": "Una cama: Is there…?",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "No hay espejo en el baño.",
+      "answer": [
+        "There isn't a mirror in the bathroom.",
+        "There is not a mirror in the bathroom.",
+        "There's no mirror in the bathroom."
+      ],
+      "why": "Negativa en singular: there isn't a…",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "En el hotel, vas a la recepción: en tu habitación no hay toallas.",
+      "emoji": "🏨",
+      "options": [
+        "Excuse me, there aren't any towels in my room.",
+        "Excuse me, there isn't towels in my room.",
+        "Excuse me, no have towels in my room."
+      ],
+      "answer": "Excuse me, there aren't any towels in my room.",
+      "why": "Toallas es plural: there aren't any towels.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "three",
+        "tree"
+      ],
+      "answer": "three",
+      "es": [
+        "tres",
+        "árbol"
+      ],
+      "why": "Three empieza soplando con la lengua entre los dientes."
+    },
+    {
+      "id": "e16",
+      "type": "minimal",
+      "pair": [
+        "think",
+        "sink"
+      ],
+      "answer": "sink",
+      "es": [
+        "pensar",
+        "fregadero"
+      ],
+      "why": "Sink empieza con una s normal, sin sacar la lengua."
+    }
+  ],
+  "dialog": {
+    "title": "El piso de vacaciones",
+    "setting": "Yolanda llama al dueño de un piso de vacaciones en Londres",
+    "emoji": "🔑",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Hello. Is there a cot for the baby?",
+        "es": "Hola. ¿Hay una cuna para el bebé?"
+      },
+      {
+        "who": "Mr Price",
+        "t": "Yes, there is. It's in the small bedroom.",
+        "es": "Sí. Está en el dormitorio pequeño."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Great. Are there any towels?",
+        "es": "Genial. ¿Hay toallas?"
+      },
+      {
+        "who": "Mr Price",
+        "t": "Yes, there are. They're in the wardrobe.",
+        "es": "Sí. Están en el armario."
+      },
+      {
+        "who": "Yolanda",
+        "t": "And is there a washing machine?",
+        "es": "¿Y hay lavadora?"
+      },
+      {
+        "who": "Mr Price",
+        "t": "No, there isn't, sorry. But there's a launderette near the flat.",
+        "es": "No, lo siento. Pero hay una lavandería cerca del piso."
+      },
+      {
+        "who": "Yolanda",
+        "t": "OK, no problem. Thank you!",
+        "es": "Vale, no pasa nada. ¡Gracias!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Dónde está la cuna?",
+        "options": [
+          "En el dormitorio pequeño",
+          "En el salón",
+          "No hay cuna"
+        ],
+        "answer": "En el dormitorio pequeño"
+      },
+      {
+        "q": "¿Hay lavadora en el piso?",
+        "options": [
+          "No",
+          "Sí",
+          "Sí, en la cocina"
+        ],
+        "answer": "No"
+      },
+      {
+        "q": "¿Qué hay cerca del piso?",
+        "options": [
+          "Una lavandería",
+          "Un supermercado",
+          "Una farmacia"
+        ],
+        "answer": "Una lavandería"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Is there Wi-Fi in the flat?",
+    "es": "¿Hay wifi en el piso?",
+    "context": "Al reservar un alojamiento para las vacaciones"
+  },
+  "summary": [
+    "Muebles: sofa, armchair, table, chair, bed, wardrobe, lamp, mirror",
+    "There isn't a… / There aren't any…",
+    "Is there a…? Yes, there is. · Are there any…? No, there aren't.",
+    "Furniture no tiene plural: the furniture is",
+    "th de three: sopla con la lengua entre los dientes"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u04-l2"
+}

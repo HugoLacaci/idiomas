@@ -1,0 +1,59 @@
+{
+  "id": "en-a2-u02-c3",
+  "unit": "en-a2-u02",
+  "title": "Un pícnic en el parque",
+  "setting": "Emma organiza un pícnic en Hyde Park y te llama para preparar la lista.",
+  "emoji": "🧺",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi! Let's make a list for the picnic. How many people are coming?", "es": "¡Hola! Hagamos la lista para el pícnic. ¿Cuántas personas vienen?" },
+      "options": [
+        { "t": "Eight people, I think.", "es": "Ocho personas, creo.", "next": "n2", "ok": true },
+        { "t": "Eight peoples, I think.", "es": "Ocho personas, creo.", "next": "n2", "ok": false, "feedback": "People ya es plural: eight people." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "OK. How many sandwiches do we need?", "es": "Vale. ¿Cuántos sándwiches necesitamos?" },
+      "options": [
+        { "t": "A lot! Maybe twenty.", "es": "¡Muchos! Quizás veinte.", "next": "n3", "ok": true },
+        { "t": "Much! Maybe twenty.", "es": "¡Muchos! Quizás veinte.", "next": "n3", "ok": false, "feedback": "Sandwiches se cuentan; además, en respuestas afirmativas lo natural es «A lot!»." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "And juice? How much juice do we need?", "es": "¿Y zumo? ¿Cuánto zumo necesitamos?" },
+      "options": [
+        { "t": "Not much. Four cartons are enough.", "es": "No mucho. Con cuatro briks basta.", "next": "n4", "ok": true },
+        { "t": "Not many. Four cartons are enough.", "es": "No mucho. Con cuatro briks basta.", "next": "n4", "ok": false, "feedback": "Juice es incontable: not much." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Great. I can make a Spanish omelette, but I need help!", "es": "Genial. Puedo hacer una tortilla española, ¡pero necesito ayuda!" },
+      "options": [
+        { "t": "Easy! You need a few potatoes, six eggs and a little salt.", "es": "¡Es fácil! Necesitas unas patatas, seis huevos y un poco de sal.", "next": "n5", "ok": true },
+        { "t": "Easy! You need a little potatoes, six eggs and a few salt.", "es": "¡Es fácil! Necesitas unas patatas, seis huevos y un poco de sal.", "next": "n5", "ok": false, "feedback": "Al revés: a few potatoes (se cuentan) y a little salt (no se cuenta)." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "And onion? Some people say no onion!", "es": "¿Y cebolla? ¡Hay gente que dice que sin cebolla!" },
+      "options": [
+        { "t": "With onion, of course! But not too much.", "es": "¡Con cebolla, por supuesto! Pero no demasiada.", "next": "n6", "ok": true },
+        { "t": "With onion, of course! But not too many.", "es": "¡Con cebolla, por supuesto! Pero no demasiada.", "next": "n6", "ok": false, "feedback": "Aquí onion es la cantidad de cebolla (incontable): not too much." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ha ha! OK. How much time do you need to cook it?", "es": "¡Ja, ja! Vale. ¿Cuánto tiempo necesitas para hacerla?" },
+      "options": [
+        { "t": "About an hour. See you on Saturday!", "es": "Más o menos una hora. ¡Nos vemos el sábado!", "next": "end", "ok": true },
+        { "t": "About a hour. See you on Saturday!", "es": "Más o menos una hora. ¡Nos vemos el sábado!", "next": "end", "ok": false, "feedback": "La h de hour no suena, así que empieza por vocal: an hour." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

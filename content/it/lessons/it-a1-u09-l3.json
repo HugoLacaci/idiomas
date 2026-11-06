@@ -1,0 +1,462 @@
+{
+  "id": "it-a1-u09-l3",
+  "unit": "it-a1-u09",
+  "title": "Un chilo, due etti: cantidades y frases",
+  "goal": "a pedir cantidades en el mercado y entender lo que te dice el vendedor",
+  "emoji": "⚖️",
+  "photoQuery": "scale weighing tomatoes market",
+  "vocab": [
+    {
+      "id": "mercato-un-chilo-di",
+      "t": "un chilo di…",
+      "es": "un kilo de…",
+      "emoji": "⚖️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Un chilo di mele, per favore.",
+        "es": "Un kilo de manzanas, por favor."
+      }
+    },
+    {
+      "id": "mercato-mezzo-chilo",
+      "t": "mezzo chilo",
+      "es": "medio kilo",
+      "emoji": "🌓",
+      "pos": "phrase",
+      "ex": {
+        "t": "Mezzo chilo di fragole.",
+        "es": "Medio kilo de fresas."
+      }
+    },
+    {
+      "id": "mercato-un-etto",
+      "t": "un etto",
+      "es": "cien gramos",
+      "emoji": "💯",
+      "pos": "n",
+      "note": "Un etto = 100 g. Due etti = 200 g. Se usa muchísimo para el embutido y el queso.",
+      "ex": {
+        "t": "Due etti di prosciutto, per favore.",
+        "es": "Doscientos gramos de jamón, por favor."
+      }
+    },
+    {
+      "id": "mercato-una-dozzina",
+      "t": "una dozzina di uova",
+      "es": "una docena de huevos",
+      "emoji": "🥚",
+      "pos": "phrase",
+      "note": "Un uovo, due uova: el plural es femenino e irregular.",
+      "ex": {
+        "t": "Vorrei una dozzina di uova.",
+        "es": "Quisiera una docena de huevos."
+      }
+    },
+    {
+      "id": "mercato-un-pezzo-di",
+      "t": "un pezzo di…",
+      "es": "un trozo de…",
+      "emoji": "🧀",
+      "pos": "phrase",
+      "ex": {
+        "t": "Un pezzo di parmigiano, grazie.",
+        "es": "Un trozo de parmesano, gracias."
+      }
+    },
+    {
+      "id": "mercato-altro",
+      "t": "Altro?",
+      "es": "¿Algo más?",
+      "emoji": "➕",
+      "pos": "phrase",
+      "ex": {
+        "t": "Altro, signora? — No, grazie.",
+        "es": "¿Algo más, señora? —No, gracias."
+      }
+    },
+    {
+      "id": "mercato-basta-cosi",
+      "t": "Basta così.",
+      "es": "Ya está, nada más.",
+      "emoji": "✋",
+      "pos": "phrase",
+      "ex": {
+        "t": "Sì, basta così, grazie.",
+        "es": "Sí, nada más, gracias."
+      }
+    },
+    {
+      "id": "mercato-mi-da",
+      "t": "Mi dà…?",
+      "es": "¿Me da…?",
+      "emoji": "🙏",
+      "pos": "phrase",
+      "note": "Dà lleva tilde: es el verbo dare con Lei.",
+      "ex": {
+        "t": "Mi dà un chilo di patate?",
+        "es": "¿Me da un kilo de patatas?"
+      }
+    },
+    {
+      "id": "mercato-quanto-viene",
+      "t": "Quanto viene?",
+      "es": "¿Cuánto es? ¿Cuánto sale?",
+      "emoji": "💶",
+      "pos": "phrase",
+      "ex": {
+        "t": "Quanto viene in tutto?",
+        "es": "¿Cuánto es en total?"
+      }
+    }
+  ],
+  "grammar": "it-g-prep-articolate",
+  "pron": {
+    "title": "La z de mezzo y pezzo",
+    "tip": "La zz se alarga, pero no siempre suena igual: en mezzo es sonora, «MED-dso»; en pezzo es sorda, «PET-tso», como en pizza.",
+    "words": [
+      "mezzo",
+      "pezzo",
+      "dozzina",
+      "zucchine",
+      "pizza"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "un etto",
+          "100 gramos"
+        ],
+        [
+          "due etti",
+          "200 gramos"
+        ],
+        [
+          "mezzo chilo",
+          "500 gramos"
+        ],
+        [
+          "un chilo",
+          "1000 gramos"
+        ],
+        [
+          "una dozzina",
+          "doce"
+        ]
+      ],
+      "why": "En Italia se pide mucho por etti: un etto son 100 gramos."
+    },
+    {
+      "id": "e2",
+      "type": "situation",
+      "context": "El vendedor te pregunta «Altro?» y ya no quieres nada más.",
+      "emoji": "✋",
+      "options": [
+        "No, basta così, grazie.",
+        "Un altro, grazie.",
+        "Mi dà?"
+      ],
+      "answer": "No, basta così, grazie.",
+      "why": "Basta così = ya está, nada más."
+    },
+    {
+      "id": "e3",
+      "type": "situation",
+      "context": "En la charcutería quieres 200 gramos de jamón.",
+      "emoji": "🥓",
+      "options": [
+        "Due etti di prosciutto, per favore.",
+        "Due chili di prosciutto, per favore.",
+        "Venti etti di prosciutto, per favore."
+      ],
+      "answer": "Due etti di prosciutto, per favore.",
+      "why": "200 gramos = due etti. ¡Dos kilos serían muchos bocadillos!"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Vorrei un chilo ___ patate.",
+      "es": "Quisiera un kilo de patatas.",
+      "options": [
+        "di",
+        "delle",
+        "dei"
+      ],
+      "answer": "di",
+      "why": "Después de una cantidad, solo di, sin artículo: un chilo di patate.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "Il prezzo ___ pesche è buono.",
+      "es": "El precio de los melocotones es bueno.",
+      "options": [
+        "delle",
+        "di",
+        "dei"
+      ],
+      "answer": "delle",
+      "why": "Le pesche → di + le = delle.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Mi dà mezzo ___ di fragole?",
+      "es": "¿Me da medio kilo de fresas?",
+      "answer": [
+        "chilo"
+      ],
+      "bank": [
+        "chilo",
+        "dozzina",
+        "uova"
+      ],
+      "why": "Medio kilo = mezzo chilo."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Vorrei una ___ di uova.",
+      "es": "Quisiera una docena de huevos.",
+      "answer": [
+        "dozzina"
+      ],
+      "why": "Docena = dozzina, con zz."
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "¿Me da un trozo de queso?",
+      "answer": "Mi dà un pezzo di formaggio",
+      "extra": [
+        "del"
+      ],
+      "why": "Un pezzo di + lo que quieres, sin artículo."
+    },
+    {
+      "id": "e9",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Cuánto es en total?",
+      "answer": [
+        "Quanto viene in tutto?",
+        "Quant'è in tutto?",
+        "Quanto costa in tutto?"
+      ],
+      "why": "En total = in tutto; ¿cuánto es? = quanto viene? / quant'è?"
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "from",
+      "q": "Basta così, grazie.",
+      "answer": [
+        "Ya está, gracias.",
+        "Nada más, gracias.",
+        "Es suficiente, gracias.",
+        "Ya es suficiente, gracias."
+      ],
+      "why": "Basta così = ya está, con eso basta."
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Vorrei un chilo delle mele.",
+      "wrong": "delle",
+      "fix": "di",
+      "why": "Con cantidades se usa solo di: un chilo di mele.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e12",
+      "type": "reading",
+      "kind": "message",
+      "title": "La lista de la compra",
+      "text": "Lista della spesa:\n- 1 chilo di pomodori\n- mezzo chilo di zucchine\n- 2 etti di prosciutto\n- una dozzina di uova\n- un pezzo di parmigiano",
+      "questions": [
+        {
+          "q": "¿Cuánto jamón hay que comprar?",
+          "options": [
+            "200 gramos",
+            "2 kilos",
+            "Medio kilo"
+          ],
+          "answer": "200 gramos"
+        },
+        {
+          "q": "¿Cuántos huevos?",
+          "options": [
+            "12",
+            "6",
+            "2"
+          ],
+          "answer": "12"
+        },
+        {
+          "q": "¿De qué hay que comprar medio kilo?",
+          "options": [
+            "De calabacines",
+            "De tomates",
+            "De queso"
+          ],
+          "answer": "De calabacines"
+        }
+      ],
+      "why": "Etto = 100 g; dozzina = 12."
+    },
+    {
+      "id": "e13",
+      "type": "speak",
+      "t": "Mi dà due etti di prosciutto, per favore?",
+      "es": "¿Me da doscientos gramos de jamón, por favor?"
+    },
+    {
+      "id": "e14",
+      "type": "transform",
+      "instr": "Pide el doble",
+      "q": "Un etto di olive.",
+      "answer": [
+        "Due etti di olive."
+      ],
+      "why": "Un etto → due etti (plural en -i)."
+    },
+    {
+      "id": "e15",
+      "type": "choose",
+      "q": "Adesso vado ___ fruttivendolo.",
+      "es": "Ahora voy a la frutería.",
+      "options": [
+        "dal",
+        "dallo",
+        "dalla"
+      ],
+      "answer": "dal",
+      "why": "Il fruttivendolo → da + il = dal.",
+      "g": "it-g-prep-articolate"
+    }
+  ],
+  "dialog": {
+    "title": "En la charcutería del mercado",
+    "setting": "En un puesto de quesos y embutidos del mercado de Palermo",
+    "emoji": "🧀",
+    "lines": [
+      {
+        "who": "Totò",
+        "t": "Prego, signora, tocca a Lei.",
+        "es": "Dígame, señora, le toca a usted."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Buongiorno. Mi dà due etti di prosciutto?",
+        "es": "Buenos días. ¿Me da doscientos gramos de jamón?"
+      },
+      {
+        "who": "Totò",
+        "t": "Crudo o cotto?",
+        "es": "¿Serrano o de York?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Crudo, grazie. E un pezzo di pecorino.",
+        "es": "Serrano, gracias. Y un trozo de queso pecorino."
+      },
+      {
+        "who": "Totò",
+        "t": "Ecco qua. Altro?",
+        "es": "Aquí tiene. ¿Algo más?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, una dozzina di uova.",
+        "es": "Sí, una docena de huevos."
+      },
+      {
+        "who": "Totò",
+        "t": "Mi dispiace, le uova sono finite.",
+        "es": "Lo siento, se han acabado los huevos."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Non importa. Basta così. Quanto viene?",
+        "es": "No importa. Nada más. ¿Cuánto es?"
+      },
+      {
+        "who": "Totò",
+        "t": "Dodici euro in tutto.",
+        "es": "Doce euros en total."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué jamón compra Yolanda?",
+        "options": [
+          "Crudo (serrano)",
+          "Cocido (de York)",
+          "No compra jamón"
+        ],
+        "answer": "Crudo (serrano)"
+      },
+      {
+        "q": "¿Por qué no compra huevos?",
+        "options": [
+          "Se han acabado",
+          "Son caros",
+          "No le gustan"
+        ],
+        "answer": "Se han acabado"
+      },
+      {
+        "q": "¿Cuánto paga en total?",
+        "options": [
+          "12 €",
+          "2 €",
+          "20 €"
+        ],
+        "answer": "12 €"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Mi dà due etti di prosciutto crudo?",
+    "es": "¿Me da doscientos gramos de jamón serrano?",
+    "context": "En la charcutería, para pedir embutido al peso"
+  },
+  "same": {
+    "text": "Igual que en español: las cantidades se piden casi igual.",
+    "examples": [
+      {
+        "t": "un chilo",
+        "es": "un kilo"
+      },
+      {
+        "t": "mezzo chilo",
+        "es": "medio kilo"
+      },
+      {
+        "t": "una dozzina",
+        "es": "una docena"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "il negozio",
+    "means": "la tienda",
+    "looksLike": "el negocio",
+    "emoji": "🏬",
+    "tip": "Il negozio es la tienda de la esquina: un negozio di frutta es una frutería. Un negocio, en el sentido de trato, es un affare."
+  },
+  "summary": [
+    "Cantidades: un chilo, mezzo chilo, un etto (100 g)",
+    "Una dozzina di uova; un pezzo di formaggio",
+    "Tras una cantidad, solo di: un chilo di mele",
+    "Frases: Mi dà…? · Altro? · Basta così · Quanto viene?",
+    "¡Ojo! il negozio = la tienda"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u09-l3"
+}

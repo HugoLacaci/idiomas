@@ -1,0 +1,426 @@
+{
+  "id": "it-a1-u02-l4",
+  "unit": "it-a1-u02",
+  "title": "Due cappuccini e due cornetti",
+  "goal": "a pedir para varias personas con el plural y a pronunciar las consonantes dobles",
+  "emoji": "✌️",
+  "photoQuery": "two coffee cups italian cafe",
+  "vocab": [
+    {
+      "id": "bar-il-bicchiere",
+      "t": "il bicchiere",
+      "es": "el vaso",
+      "emoji": "🥛",
+      "pos": "n",
+      "ex": {
+        "t": "Un bicchiere d'acqua, per favore.",
+        "es": "Un vaso de agua, por favor."
+      }
+    },
+    {
+      "id": "bar-la-tazza",
+      "t": "la tazza",
+      "es": "la taza",
+      "emoji": "☕",
+      "pos": "n",
+      "ex": {
+        "t": "Il tè in una tazza grande.",
+        "es": "El té en una taza grande."
+      }
+    },
+    {
+      "id": "bar-il-cucchiaino",
+      "t": "il cucchiaino",
+      "es": "la cucharilla",
+      "emoji": "🥄",
+      "pos": "n",
+      "ex": {
+        "t": "Mi dà un cucchiaino?",
+        "es": "¿Me da una cucharilla?"
+      }
+    },
+    {
+      "id": "bar-lo-zucchero",
+      "t": "lo zucchero",
+      "es": "el azúcar",
+      "emoji": "🍬",
+      "pos": "n",
+      "ex": {
+        "t": "Il caffè senza zucchero.",
+        "es": "El café sin azúcar."
+      }
+    },
+    {
+      "id": "bar-il-panino",
+      "t": "il panino",
+      "es": "el bocadillo",
+      "emoji": "🥪",
+      "pos": "n",
+      "ex": {
+        "t": "Due panini al prosciutto.",
+        "es": "Dos bocadillos de jamón."
+      }
+    },
+    {
+      "id": "bar-il-tramezzino",
+      "t": "il tramezzino",
+      "es": "el sándwich (de pan de molde)",
+      "emoji": "🥪",
+      "pos": "n",
+      "ex": {
+        "t": "Un tramezzino al tonno.",
+        "es": "Un sándwich de atún."
+      }
+    },
+    {
+      "id": "bar-la-cioccolata",
+      "t": "la cioccolata calda",
+      "es": "el chocolate caliente",
+      "emoji": "🍫",
+      "pos": "n",
+      "ex": {
+        "t": "Due cioccolate calde per i nipoti.",
+        "es": "Dos chocolates calientes para los nietos."
+      }
+    },
+    {
+      "id": "bar-la-bottiglia",
+      "t": "la bottiglia",
+      "es": "la botella",
+      "emoji": "🍾",
+      "pos": "n",
+      "ex": {
+        "t": "Due bottiglie d'acqua.",
+        "es": "Dos botellas de agua."
+      }
+    }
+  ],
+  "grammar": "it-g-genere-numero",
+  "pron": {
+    "title": "Las consonantes dobles",
+    "tip": "En italiano las dobles se notan: se mantiene la consonante un momento. Cappuccino, cornetto, latte, tazza. Si no las alargas, a veces cambia la palabra: sete (sed) / sette (siete).",
+    "words": [
+      "cappuccino",
+      "cornetto",
+      "latte",
+      "tazza",
+      "bottiglia"
+    ],
+    "pairs": [
+      [
+        "sete",
+        "sette"
+      ],
+      [
+        "pala",
+        "palla"
+      ],
+      [
+        "caro",
+        "carro"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Due ___ al prosciutto.",
+      "options": [
+        "panini",
+        "paninos",
+        "panine"
+      ],
+      "answer": "panini",
+      "why": "Panino acaba en -o: plural en -i.",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Tre ___ calde per i nipoti.",
+      "options": [
+        "cioccolate",
+        "cioccolati",
+        "cioccolatas"
+      ],
+      "answer": "cioccolate",
+      "why": "Cioccolata acaba en -a: plural en -e.",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "q": "Due ___ d'acqua, per favore.",
+      "es": "Dos vasos de agua, por favor.",
+      "answer": [
+        "bicchieri"
+      ],
+      "bank": [
+        "bicchieri",
+        "bicchiere",
+        "bicchieres"
+      ],
+      "why": "Bicchiere → bicchieri: -e → -i.",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Vorremmo due ___ e due cornetti.",
+      "es": "Querríamos dos cafés y dos cruasanes.",
+      "answer": [
+        "caffè"
+      ],
+      "why": "Caffè no cambia en plural.",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e5",
+      "type": "transform",
+      "instr": "Ponlo en plural (due)",
+      "q": "una tazza",
+      "answer": [
+        "due tazze"
+      ],
+      "why": "-a → -e: tazze.",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e6",
+      "type": "transform",
+      "instr": "Ponlo en plural (due)",
+      "q": "un tramezzino",
+      "answer": [
+        "due tramezzini"
+      ],
+      "why": "-o → -i: tramezzini.",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "Due cappuccinos, per favore.",
+      "wrong": "cappuccinos",
+      "fix": "cappuccini",
+      "why": "En italiano el plural no lleva -s: cappuccini.",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Ci sono tre bottiglia d'acqua.",
+      "wrong": "bottiglia",
+      "fix": "bottiglie",
+      "why": "Tre pide plural: bottiglia → bottiglie.",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Dos chocolates calientes y dos bocadillos.",
+      "answer": "Due cioccolate calde e due panini",
+      "extra": [
+        "panino"
+      ],
+      "why": "Plurales: cioccolate calde, panini.",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "dos tazas de té",
+      "answer": [
+        "due tazze di tè"
+      ],
+      "why": "Tazza → tazze; tè no cambia.",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e11",
+      "type": "match",
+      "pairs": [
+        [
+          "panino",
+          "panini"
+        ],
+        [
+          "tazza",
+          "tazze"
+        ],
+        [
+          "bicchiere",
+          "bicchieri"
+        ],
+        [
+          "tè",
+          "tè"
+        ]
+      ],
+      "why": "-o → -i, -a → -e, -e → -i, acento final: igual.",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e12",
+      "type": "minimal",
+      "pair": [
+        "pala",
+        "palla"
+      ],
+      "answer": "palla",
+      "es": [
+        "pala",
+        "pelota"
+      ],
+      "why": "Palla lleva doble l: la l se alarga."
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "caro",
+        "carro"
+      ],
+      "answer": "caro",
+      "es": [
+        "caro / querido",
+        "carro"
+      ],
+      "why": "Caro tiene una r suave; carro, una r fuerte y doble."
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Estás con tus dos nietos y quieres un chocolate caliente para cada uno.",
+      "emoji": "🍫",
+      "options": [
+        "Due cioccolate calde, per favore.",
+        "Due cioccolata calda, per favore.",
+        "Due cioccolatos, per favore."
+      ],
+      "answer": "Due cioccolate calde, per favore.",
+      "why": "Para dos: cioccolate calde (-a → -e en las dos palabras).",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Due cappuccini e due cornetti, per favore.",
+      "es": "Dos capuchinos y dos cruasanes, por favor."
+    }
+  ],
+  "dialog": {
+    "title": "Desayuno para cuatro",
+    "setting": "En un bar de Nápoles con Hugo y los nietos",
+    "emoji": "👨‍👩‍👧‍👦",
+    "lines": [
+      {
+        "who": "Barista",
+        "t": "Buongiorno! Cosa prendete?",
+        "es": "¡Buenos días! ¿Qué tomáis?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Due cappuccini e due cioccolate calde.",
+        "es": "Dos capuchinos y dos chocolates calientes."
+      },
+      {
+        "who": "Barista",
+        "t": "E da mangiare?",
+        "es": "¿Y de comer?"
+      },
+      {
+        "who": "Hugo",
+        "t": "Quattro cornetti: due alla crema e due al cioccolato.",
+        "es": "Cuatro cruasanes: dos de crema y dos de chocolate."
+      },
+      {
+        "who": "Barista",
+        "t": "Volete anche due bicchieri d'acqua?",
+        "es": "¿Queréis también dos vasos de agua?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, grazie. E due cucchiaini.",
+        "es": "Sí, gracias. Y dos cucharillas."
+      },
+      {
+        "who": "Barista",
+        "t": "Ecco a voi!",
+        "es": "¡Aquí tenéis!"
+      },
+      {
+        "who": "Hugo",
+        "t": "Mamma, i cornetti sono buonissimi!",
+        "es": "¡Mamá, los cruasanes están buenísimos!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué beben los nietos?",
+        "options": [
+          "Chocolate caliente",
+          "Capuchino",
+          "Zumo"
+        ],
+        "answer": "Chocolate caliente"
+      },
+      {
+        "q": "¿Cuántos cruasanes piden?",
+        "options": [
+          "Cuatro",
+          "Dos",
+          "Tres"
+        ],
+        "answer": "Cuatro"
+      },
+      {
+        "q": "¿Qué más pide Yolanda?",
+        "options": [
+          "Cucharillas",
+          "Azúcar",
+          "Servilletas"
+        ],
+        "answer": "Cucharillas"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Un bicchiere d'acqua, per favore.",
+    "es": "Un vaso de agua, por favor.",
+    "context": "En Italia, con el café te suelen poner un vaso de agua si lo pides"
+  },
+  "same": {
+    "text": "El género suele coincidir con el español: -o masculino, -a femenino. ¡Pero ojo!: latte es masculino (il latte = la leche).",
+    "examples": [
+      {
+        "t": "il panino",
+        "es": "el bocadillo"
+      },
+      {
+        "t": "la bottiglia",
+        "es": "la botella"
+      },
+      {
+        "t": "la tazza",
+        "es": "la taza"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "vaso",
+    "means": "jarrón, maceta",
+    "looksLike": "vaso (para beber)",
+    "emoji": "🏺",
+    "tip": "Para beber se dice il bicchiere. Un vaso es un jarrón para las flores."
+  },
+  "summary": [
+    "Plural: -o → -i (cornetti), -a → -e (paste), -e → -i (bicchieri).",
+    "No cambian: caffè, tè, bar, brioche.",
+    "Las dobles se alargan: cappuccino, cornetto, tazza.",
+    "Vaso de agua = bicchiere (un vaso es un jarrón)."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u02-l4"
+}

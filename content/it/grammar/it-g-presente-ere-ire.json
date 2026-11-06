@@ -1,0 +1,133 @@
+{
+  "id": "it-g-presente-ere-ire",
+  "lang": "it",
+  "level": "A1",
+  "title": "El presente de los verbos en -ere e -ire",
+  "short": "Leggo, leggi, legge… dormo, dormi, dorme: dos grupos casi gemelos.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Leer, escribir, dormir",
+      "emoji": "📖",
+      "text": "Además de -are, hay verbos en **-ere** (leggere, prendere, scrivere) y en **-ire** (dormire, partire, aprire). Se conjugan casi igual entre ellos.",
+      "examples": [
+        { "t": "La sera ==leggo== un libro.", "es": "Por la noche leo un libro.", "hl": "leggo" },
+        { "t": "Il nonno ==dorme== sul divano.", "es": "El abuelo duerme en el sofá.", "hl": "dorme" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Prendere y dormire",
+      "emoji": "📋",
+      "text": "Solo se diferencian en **voi**: -ete / -ite.",
+      "table": {
+        "head": ["Persona", "prendere (tomar)", "dormire (dormir)"],
+        "rows": [
+          ["io", "prend==o==", "dorm==o=="],
+          ["tu", "prend==i==", "dorm==i=="],
+          ["lui / lei / Lei", "prend==e==", "dorm==e=="],
+          ["noi", "prend==iamo==", "dorm==iamo=="],
+          ["voi", "prend==ete==", "dorm==ite=="],
+          ["loro", "prend==ono==", "dorm==ono=="]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "Comparado con -are",
+      "emoji": "🔍",
+      "text": "Io (-o), tu (-i) y noi (-iamo) son **iguales en los tres grupos**. Cambian lei (==-e== en vez de -a) y loro (==-ono== en vez de -ano).",
+      "examples": [
+        { "t": "lei parl==a== / lei legg==e== / lei dorm==e==", "es": "ella habla / lee / duerme", "hl": "e" },
+        { "t": "loro parl==ano== / loro legg==ono==", "es": "ellos hablan / leen", "hl": "ono" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Ojo al sonido de leggere",
+      "emoji": "👂",
+      "text": "Se escribe regular, pero el sonido cambia: legg**o** lleva g dura, como en «gato»; legg**i**, una «y» fuerte, como en «yo». Igual: conosc**o** (sk) / conosc**i** (sh).",
+      "examples": [
+        { "t": "Io ==leggo==, tu ==leggi==.", "es": "Yo leo, tú lees.", "hl": "leggo" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "Como nuestros -er/-ir: com**o**, com**es**, com**e**. En italiano tu termina en ==-i== y ellos en ==-ono==.",
+      "examples": [
+        { "t": "Tu ==scrivi== a Hugo.", "es": "Tú escribes a Hugo.", "hl": "scrivi" },
+        { "t": "Loro ==partono== domani.", "es": "Ellos salen mañana.", "hl": "partono" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "Errores típicos",
+      "emoji": "⚠️",
+      "text": "Los más frecuentes vienen del español.",
+      "examples": [
+        { "t": "❌ tu leggis → ✅ tu ==leggi==", "es": "tú lees", "hl": "leggi" },
+        { "t": "❌ loro leggeno → ✅ loro ==leggono==", "es": "ellos leen", "hl": "leggono" },
+        { "t": "❌ voi dormete → ✅ voi ==dormite==", "es": "vosotros dormís", "hl": "dormite" }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Truco",
+      "emoji": "💡",
+      "text": "Aprende de memoria **-o, -i, -e, -iamo, -ete/-ite, -ono**. Y recuerda: en loro el acento va atrás: ==LEG==gono, ==DOR==mono.",
+      "examples": [
+        { "t": "I nipoti ==dormono== da me.", "es": "Los nietos duermen en mi casa.", "hl": "dormono" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "Comer: como, comes, come, comemos, coméis, comen. Vivir: vivo, vives, vive, vivimos, vivís, viven.",
+    "target": "Prendere: prendo, prendi, prende, prendiamo, prendete, prendono. Dormire: dormo, dormi, dorme, dormiamo, dormite, dormono."
+  },
+  "errors": [
+    { "wrong": "tu leggis", "right": "tu leggi", "why": "La persona tu acaba en -i, sin -s." },
+    { "wrong": "loro scriveno", "right": "loro scrivono", "why": "Loro en -ere e -ire acaba en -ono." },
+    { "wrong": "voi dormete", "right": "voi dormite", "why": "Los verbos en -ire hacen voi en -ite." },
+    { "wrong": "lei dorma", "right": "lei dorme", "why": "Lei en -ere e -ire acaba en -e, no en -a." },
+    { "wrong": "noi prendemo", "right": "noi prendiamo", "why": "Noi siempre acaba en -iamo, en todos los grupos." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Io ___ il giornale ogni mattina.", "es": "Leo el periódico cada mañana.", "options": ["leggo", "leggi", "legge"], "answer": "leggo", "why": "Io → -o: leggo.", "g": "it-g-presente-ere-ire" },
+    { "id": "e2", "type": "choose", "q": "Mio marito ___ fino alle nove.", "es": "Mi marido duerme hasta las nueve.", "options": ["dorma", "dorme", "dormi"], "answer": "dorme", "why": "Lui → -e: dorme.", "g": "it-g-presente-ere-ire" },
+    { "id": "e3", "type": "choose", "q": "Tu ___ un caffè?", "es": "¿Tomas un café?", "options": ["prendi", "prendes", "prende"], "answer": "prendi", "why": "Tu → -i: prendi.", "g": "it-g-presente-ere-ire" },
+    { "id": "e4", "type": "choose", "q": "I miei nipoti ___ a Valencia.", "es": "Mis nietos viven en Valencia.", "options": ["vivono", "vivano", "viveno"], "answer": "vivono", "why": "Loro en -ere → -ono: vivono.", "g": "it-g-presente-ere-ire" },
+    { "id": "e5", "type": "choose", "q": "Voi ___ bene in questo albergo?", "es": "¿Dormís bien en este hotel?", "options": ["dormete", "dormite", "dormiate"], "answer": "dormite", "why": "Verbos en -ire: voi → -ite.", "g": "it-g-presente-ere-ire" },
+    { "id": "e6", "type": "choose", "q": "Noi ___ domani per Bari.", "es": "Salimos mañana para Bari.", "options": ["partiamo", "partimo", "partono"], "answer": "partiamo", "why": "Noi → -iamo: partiamo.", "g": "it-g-presente-ere-ire" },
+    { "id": "e7", "type": "conjugate", "verb": "scrivere", "person": "io", "tense": "presente", "q": "___ un messaggio a Hugo.", "answer": ["Scrivo"], "table": [["io", "?"], ["tu", "scrivi"], ["lui/lei", "scrive"]], "why": "Io → -o: scrivo.", "g": "it-g-presente-ere-ire" },
+    { "id": "e8", "type": "conjugate", "verb": "aprire", "person": "lei", "tense": "presente", "q": "La farmacia ___ alle nove.", "answer": ["apre"], "why": "Lei/lui (la farmacia) → -e: apre.", "g": "it-g-presente-ere-ire" },
+    { "id": "e9", "type": "conjugate", "verb": "vedere", "person": "noi", "tense": "presente", "q": "___ i nonni la domenica.", "answer": ["Vediamo"], "why": "Noi → -iamo: vediamo.", "g": "it-g-presente-ere-ire" },
+    { "id": "e10", "type": "conjugate", "verb": "sentire", "person": "tu", "tense": "presente", "q": "___ la musica?", "answer": ["Senti"], "why": "Tu → -i: senti.", "g": "it-g-presente-ere-ire" },
+    { "id": "e11", "type": "conjugate", "verb": "chiudere", "person": "loro", "tense": "presente", "q": "I negozi ___ alle otto.", "answer": ["chiudono"], "why": "Loro → -ono: chiudono.", "g": "it-g-presente-ere-ire" },
+    { "id": "e12", "type": "conjugate", "verb": "prendere", "person": "voi", "tense": "presente", "q": "___ il treno o l'autobus?", "answer": ["Prendete"], "why": "Verbos en -ere: voi → -ete.", "g": "it-g-presente-ere-ire" },
+    { "id": "e13", "type": "fill", "q": "Il treno ___ alle dieci.", "es": "El tren sale a las diez.", "answer": ["parte"], "bank": ["parte", "parta", "parti"], "why": "Il treno = lui → -e: parte.", "g": "it-g-presente-ere-ire" },
+    { "id": "e14", "type": "fill", "q": "Le mie amiche ___ in Italia.", "es": "Mis amigas viven en Italia.", "answer": ["vivono"], "bank": ["vivono", "vivano", "vivete"], "why": "Loro → -ono: vivono.", "g": "it-g-presente-ere-ire" },
+    { "id": "e15", "type": "fill", "q": "Tu ___ molti libri?", "es": "¿Lees muchos libros?", "answer": ["leggi"], "bank": ["leggi", "legge", "leggis"], "why": "Tu → -i: leggi.", "g": "it-g-presente-ere-ire" },
+    { "id": "e16", "type": "fill", "q": "Il pomeriggio la nonna ___ un po'.", "es": "Por la tarde la abuela duerme un poco.", "answer": ["dorme"], "why": "La nonna = lei → -e: dorme.", "g": "it-g-presente-ere-ire" },
+    { "id": "e17", "type": "fill", "q": "Noi ___ la finestra: fa caldo!", "es": "Abrimos la ventana: ¡hace calor!", "answer": ["apriamo"], "why": "Noi → -iamo: apriamo.", "g": "it-g-presente-ere-ire" },
+    { "id": "e18", "type": "transform", "instr": "Hazla negativa", "q": "Leggo la sera.", "answer": ["Non leggo la sera."], "why": "Non va delante del verbo.", "g": "it-g-presente-ere-ire" },
+    { "id": "e19", "type": "transform", "instr": "Cambia a «loro»", "q": "Hugo scrive molto.", "answer": ["Loro scrivono molto.", "Scrivono molto."], "why": "Loro → -ono: scrivono.", "g": "it-g-presente-ere-ire" },
+    { "id": "e20", "type": "transform", "instr": "Cambia a «voi»", "q": "Tu dormi poco.", "answer": ["Voi dormite poco.", "Dormite poco."], "why": "Dormire es en -ire: voi dormite.", "g": "it-g-presente-ere-ire" },
+    { "id": "e21", "type": "transform", "instr": "Cambia a «lei»", "q": "Io prendo l'autobus.", "answer": ["Lei prende l'autobus.", "Prende l'autobus."], "why": "Lei → -e: prende.", "g": "it-g-presente-ere-ire" },
+    { "id": "e22", "type": "error", "q": "Tu leggis il giornale?", "wrong": "leggis", "fix": "leggi", "why": "Tu acaba en -i, sin -s.", "g": "it-g-presente-ere-ire" },
+    { "id": "e23", "type": "error", "q": "I bambini dormeno da me.", "wrong": "dormeno", "fix": "dormono", "why": "Loro → -ono: dormono.", "g": "it-g-presente-ere-ire" },
+    { "id": "e24", "type": "error", "q": "Mia madre scriva una lettera.", "wrong": "scriva", "fix": "scrive", "why": "Lei en -ere → -e: scrive.", "g": "it-g-presente-ere-ire" },
+    { "id": "e25", "type": "error", "q": "Voi partete stasera?", "wrong": "partete", "fix": "partite", "why": "Partire es en -ire: voi partite.", "g": "it-g-presente-ere-ire" },
+    { "id": "e26", "type": "order", "es": "Leo un libro antes de dormir.", "answer": "Leggo un libro prima di dormire", "extra": ["legge"], "why": "Io → leggo; después de prima di, el infinitivo.", "g": "it-g-presente-ere-ire" },
+    { "id": "e27", "type": "order", "es": "Mis nietos duermen en mi casa.", "answer": "I miei nipoti dormono da me", "extra": ["dormeno"], "why": "Loro → dormono. Da me = en mi casa.", "g": "it-g-presente-ere-ire" },
+    { "id": "e28", "type": "order", "es": "¿A qué hora sale el autobús?", "answer": "A che ora parte l'autobus", "extra": ["parta"], "why": "L'autobus = lui → parte.", "g": "it-g-presente-ere-ire" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "Escribo a mi hijo cada día.", "answer": ["Scrivo a mio figlio ogni giorno.", "Scrivo a mio figlio tutti i giorni."], "why": "Io → scrivo; mio figlio sin artículo.", "g": "it-g-presente-ere-ire" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "¿Dónde vivís?", "answer": ["Dove vivete?", "Dove abitate?"], "why": "Vivere con voi: vivete (o abitate, de abitare).", "g": "it-g-presente-ere-ire" },
+    { "id": "e31", "type": "translate", "dir": "from", "q": "Il mercato apre alle otto.", "answer": ["El mercado abre a las ocho"], "why": "Aprire = abrir; lui → apre.", "g": "it-g-presente-ere-ire" },
+    { "id": "e32", "type": "match", "pairs": [["io", "dormo"], ["tu", "dormi"], ["lei", "dorme"], ["voi", "dormite"], ["loro", "dormono"]], "why": "Dormire: -o, -i, -e, -iamo, -ite, -ono.", "g": "it-g-presente-ere-ire" },
+    { "id": "e33", "type": "situation", "context": "En el bar el camarero te pregunta qué tomas. Quieres un capuchino.", "emoji": "☕", "options": ["Prendo un cappuccino.", "Prende un cappuccino.", "Prendi un cappuccino."], "answer": "Prendo un cappuccino.", "why": "Hablas de ti: io prendo.", "g": "it-g-presente-ere-ire" },
+    { "id": "e34", "type": "situation", "context": "Llamas a tu amiga y no la oyes bien.", "emoji": "📞", "options": ["Non ti sento bene!", "Non ti senti bene!", "Non ti sente bene!"], "answer": "Non ti sento bene!", "why": "Yo no te oigo: io sento. (Non ti senti bene significaría «no te encuentras bien».)", "g": "it-g-presente-ere-ire" }
+  ],
+  "reviewed": false
+}

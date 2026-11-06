@@ -1,0 +1,70 @@
+{
+  "id": "en-a1-u12-c2",
+  "unit": "en-a1-u12",
+  "title": "El juego de las preguntas",
+  "setting": "Tomando un té en el mercado, Emma propone un juego: ella pregunta y tú contestas solo con respuestas cortas.",
+  "emoji": "🎲",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Let's play a game! I ask, you answer. Short answers only! Ready?", "es": "¡Juguemos a algo! Yo pregunto y tú contestas. ¡Solo respuestas cortas! ¿Lista?" },
+      "options": [
+        { "t": "Yes, I am! Let's play.", "es": "¡Sí! Juguemos.", "next": "n2", "ok": true },
+        { "t": "Yes, I'm!", "es": "¡Sí!", "next": "n2", "ok": false, "feedback": "En la respuesta afirmativa no se contrae: Yes, I am!" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Question one: do you drink coffee in the morning?", "es": "Pregunta uno: ¿bebes café por la mañana?" },
+      "options": [
+        { "t": "Yes, I do.", "es": "Sí.", "next": "n3", "ok": true },
+        { "t": "Yes, I drink.", "es": "Sí, bebo.", "next": "n3", "ok": false, "feedback": "Se repite el auxiliar, no el verbo: Yes, I do." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Question two: can you cook paella?", "es": "Pregunta dos: ¿sabes hacer paella?" },
+      "options": [
+        { "t": "Yes, I can!", "es": "¡Sí!", "next": "n4", "ok": true },
+        { "t": "Yes, I do!", "es": "¡Sí!", "next": "n4", "ok": false, "feedback": "La pregunta lleva can, así que se contesta con can: Yes, I can!" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Question three: is your town near the sea?", "es": "Pregunta tres: ¿tu pueblo está cerca del mar?" },
+      "options": [
+        { "t": "No, it isn't.", "es": "No.", "next": "n5", "ok": true },
+        { "t": "No, it doesn't.", "es": "No.", "next": "n5", "ok": false, "feedback": "La pregunta lleva is: No, it isn't." },
+        { "t": "Yes, it is.", "es": "Sí.", "next": "n5", "ok": true }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Question four: have you got grandchildren?", "es": "Pregunta cuatro: ¿tienes nietos?" },
+      "options": [
+        { "t": "Yes, I have.", "es": "Sí.", "next": "n6", "ok": true },
+        { "t": "Yes, I've got.", "es": "Sí, tengo.", "next": "n6", "ok": false, "feedback": "Respuesta corta de have got: Yes, I have (sin got y sin contraer)." },
+        { "t": "No, I haven't.", "es": "No.", "next": "n6", "ok": true }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Last one: does Emma talk too much?", "es": "La última: ¿Emma habla demasiado?" },
+      "options": [
+        { "t": "Ha! Yes, she does!", "es": "¡Ja! ¡Sí!", "next": "n7", "ok": true },
+        { "t": "No, she doesn't! She's lovely.", "es": "¡No! Es encantadora.", "next": "n7", "ok": true },
+        { "t": "Yes, she do!", "es": "¡Sí!", "next": "n7", "ok": false, "feedback": "Con she: does. Yes, she does!" }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Ha ha! Well done, Yolanda. Five perfect short answers!", "es": "¡Ja, ja! Muy bien, Yolanda. ¡Cinco respuestas cortas perfectas!" },
+      "options": [
+        { "t": "Thank you! Now it's my turn. Are you tired?", "es": "¡Gracias! Ahora me toca a mí. ¿Estás cansada?", "next": "end", "ok": true },
+        { "t": "Thank you! Now my turn. You are tired?", "es": "¡Gracias! Ahora me toca. ¿Estás cansada?", "next": "end", "ok": false, "feedback": "En la pregunta el verbo va delante: Are you tired?" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

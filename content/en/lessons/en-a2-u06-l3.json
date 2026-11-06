@@ -1,0 +1,454 @@
+{
+  "id": "en-a2-u06-l3",
+  "unit": "en-a2-u06",
+  "title": "¡Qué ganas! Frases sobre el futuro",
+  "goal": "a mostrar ilusión, dudas y esperanzas sobre tus planes",
+  "emoji": "🤞",
+  "photoQuery": "woman video call laptop smiling",
+  "vocab": [
+    {
+      "id": "plan-i-cant-wait",
+      "t": "I can't wait!",
+      "es": "¡Qué ganas! ¡Estoy deseando!",
+      "emoji": "🤩",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'm going to see my grandson. I can't wait!",
+        "es": "Voy a ver a mi nieto. ¡Qué ganas!"
+      }
+    },
+    {
+      "id": "plan-well-see",
+      "t": "We'll see.",
+      "es": "Ya veremos.",
+      "emoji": "🤷‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Maybe we'll go to the beach. We'll see.",
+        "es": "A lo mejor vamos a la playa. Ya veremos."
+      }
+    },
+    {
+      "id": "plan-maybe",
+      "t": "maybe",
+      "es": "quizás, a lo mejor",
+      "emoji": "🤔",
+      "pos": "adv",
+      "ex": {
+        "t": "Maybe I'm going to take the train.",
+        "es": "A lo mejor cojo el tren."
+      },
+      "note": "Se escribe junto: maybe."
+    },
+    {
+      "id": "plan-probably",
+      "t": "probably",
+      "es": "probablemente",
+      "emoji": "📊",
+      "pos": "adv",
+      "ex": {
+        "t": "We're probably going to go in May.",
+        "es": "Probablemente vamos a ir en mayo."
+      },
+      "note": "Va después de am / is / are: We're probably going to…"
+    },
+    {
+      "id": "plan-i-hope-so",
+      "t": "I hope so.",
+      "es": "Eso espero.",
+      "emoji": "🙏",
+      "pos": "phrase",
+      "ex": {
+        "t": "Is it going to be sunny? — I hope so!",
+        "es": "¿Va a hacer sol? — ¡Eso espero!"
+      }
+    },
+    {
+      "id": "plan-pretend",
+      "t": "pretend",
+      "es": "fingir, hacer como que",
+      "emoji": "🎭",
+      "pos": "v",
+      "ex": {
+        "t": "My grandson pretended to be asleep.",
+        "es": "Mi nieto hizo como que dormía."
+      },
+      "note": "¡Ojo, falso amigo! pretend = fingir. «Pretender» se dice intend."
+    },
+    {
+      "id": "plan-intend-to",
+      "t": "intend to",
+      "es": "pretender, tener intención de",
+      "emoji": "🎯",
+      "pos": "v",
+      "ex": {
+        "t": "We intend to visit Scotland next year.",
+        "es": "Pretendemos visitar Escocia el año que viene."
+      }
+    },
+    {
+      "id": "plan-looking-forward",
+      "t": "I'm looking forward to it.",
+      "es": "Tengo muchas ganas.",
+      "emoji": "😊",
+      "pos": "phrase",
+      "ex": {
+        "t": "The trip is in May. I'm looking forward to it.",
+        "es": "El viaje es en mayo. Tengo muchas ganas."
+      }
+    }
+  ],
+  "grammar": "en-g-going-to",
+  "pron": {
+    "title": "can't con a larga",
+    "tip": "En inglés británico can't suena «kaant», con una a larga y abierta. Así no se confunde con can, que suena muy corto: «kən».",
+    "words": [
+      "I can't wait!",
+      "can't",
+      "can",
+      "probably",
+      "maybe"
+    ],
+    "pairs": [
+      [
+        "can",
+        "can't"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I'm going to see my son next week. I can't ___!",
+      "options": [
+        "wait",
+        "hope",
+        "see"
+      ],
+      "answer": "wait",
+      "why": "¡Qué ganas! = I can't wait!",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Is it going to be sunny? — I hope ___.",
+      "options": [
+        "so",
+        "yes",
+        "it"
+      ],
+      "answer": "so",
+      "why": "Eso espero = I hope so.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "I don't know. ___ we'll go to the beach.",
+      "options": [
+        "Maybe",
+        "May be",
+        "Hope"
+      ],
+      "answer": "Maybe",
+      "why": "Quizás = maybe, todo junto.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "My grandson ___ to be ill, but he wasn't!",
+      "es": "Mi nieto fingió estar malo, ¡pero no lo estaba!",
+      "answer": [
+        "pretended"
+      ],
+      "bank": [
+        "pretended",
+        "intended",
+        "noticed"
+      ],
+      "why": "Fingir = pretend. En pasado: pretended.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I'm really looking ___ to the trip.",
+      "es": "Tengo muchísimas ganas del viaje.",
+      "answer": [
+        "forward"
+      ],
+      "bank": [
+        "forward",
+        "after",
+        "for"
+      ],
+      "why": "Tener ganas de algo = look forward to.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "We ___ to visit Scotland next year.",
+      "es": "Pretendemos visitar Escocia el año que viene.",
+      "answer": [
+        "intend",
+        "plan",
+        "want",
+        "hope"
+      ],
+      "bank": [
+        "intend",
+        "pretend",
+        "notice"
+      ],
+      "why": "Pretender = intend. Pretend significa fingir.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "We pretend to visit Scotland next summer.",
+      "wrong": "pretend",
+      "fix": "intend",
+      "why": "Falso amigo: pretend = fingir. Pretender = intend.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "I'm looking forward to see you.",
+      "wrong": "see",
+      "fix": "seeing",
+      "why": "Después de look forward to, el verbo va con -ing: looking forward to seeing you.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e9",
+      "type": "situation",
+      "context": "Tu hijo te dice que va a venir a casa en Navidad. Estás muy ilusionada.",
+      "emoji": "🎄",
+      "options": [
+        "I can't wait!",
+        "I can't!",
+        "I don't wait!"
+      ],
+      "answer": "I can't wait!",
+      "why": "¡Qué ganas! = I can't wait!",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e10",
+      "type": "situation",
+      "context": "Te preguntan si vas a ir a la playa este verano, pero aún no lo sabes.",
+      "emoji": "🏖️",
+      "options": [
+        "We'll see.",
+        "We see.",
+        "Yes, I am."
+      ],
+      "answer": "We'll see.",
+      "why": "Ya veremos = We'll see.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e11",
+      "type": "match",
+      "pairs": [
+        [
+          "I can't wait!",
+          "¡Qué ganas!"
+        ],
+        [
+          "We'll see.",
+          "Ya veremos."
+        ],
+        [
+          "I hope so.",
+          "Eso espero."
+        ],
+        [
+          "maybe",
+          "quizás"
+        ],
+        [
+          "pretend",
+          "fingir"
+        ]
+      ],
+      "why": "Frases para hablar de planes con emoción.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "Probablemente vamos a ir en tren",
+      "answer": "We're probably going to go by train",
+      "extra": [
+        "probable"
+      ],
+      "why": "Probably va detrás de we're.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Va a venir tu hijo? — Eso espero.",
+      "answer": [
+        "Is your son going to come? — I hope so.",
+        "Is your son going to come? I hope so.",
+        "Is your son going to come? - I hope so."
+      ],
+      "why": "Is + your son + going to come? Eso espero = I hope so.",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e14",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "You're going to travel by train.",
+      "answer": [
+        "Are you going to travel by train?"
+      ],
+      "why": "Are va delante: Are you going to…?",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de tu hijo",
+      "text": "Hi Mum! Good news: I'm going to have two weeks off in August. I'm going to come home! Are you going to be in the village? I can't wait to see you!",
+      "questions": [
+        {
+          "q": "¿Cuántas semanas de vacaciones va a tener?",
+          "options": [
+            "Dos",
+            "Una",
+            "Tres"
+          ],
+          "answer": "Dos"
+        },
+        {
+          "q": "¿Cuándo?",
+          "options": [
+            "En agosto",
+            "En julio",
+            "En Navidad"
+          ],
+          "answer": "En agosto"
+        },
+        {
+          "q": "¿Qué pregunta a su madre?",
+          "options": [
+            "Si va a estar en el pueblo",
+            "Si va a ir a Londres",
+            "Si va a cocinar"
+          ],
+          "answer": "Si va a estar en el pueblo"
+        }
+      ],
+      "why": "Fíjate: I'm going to have, I'm going to come, Are you going to be…?",
+      "g": "en-g-going-to"
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "I'm really looking forward to it!",
+      "es": "¡Tengo muchísimas ganas!",
+      "g": "en-g-going-to"
+    }
+  ],
+  "dialog": {
+    "title": "¿Vienes a Londres?",
+    "setting": "Yolanda y Emma hablan por videollamada de un posible viaje",
+    "emoji": "💻",
+    "lines": [
+      {
+        "who": "Emma",
+        "t": "So, are you going to come to London this year?",
+        "es": "Bueno, ¿vas a venir a Londres este año?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I hope so! My son and I are going to plan it.",
+        "es": "¡Eso espero! Mi hijo y yo lo vamos a organizar."
+      },
+      {
+        "who": "Emma",
+        "t": "Brilliant! When are you going to come?",
+        "es": "¡Genial! ¿Cuándo vas a venir?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Maybe in May. We'll see.",
+        "es": "A lo mejor en mayo. Ya veremos."
+      },
+      {
+        "who": "Emma",
+        "t": "May is lovely here. The parks are beautiful.",
+        "es": "Mayo es precioso aquí. Los parques están bonitos."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Oh, I can't wait!",
+        "es": "¡Ay, qué ganas!"
+      },
+      {
+        "who": "Emma",
+        "t": "Me neither! I'm really looking forward to it.",
+        "es": "¡Y yo! Tengo muchísimas ganas."
+      },
+      {
+        "who": "Yolanda",
+        "t": "I'm going to start packing now! Ha ha!",
+        "es": "¡Voy a empezar a hacer la maleta ya! ¡Ja, ja!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Con quién va a organizar el viaje Yolanda?",
+        "options": [
+          "Con su hijo",
+          "Con Emma",
+          "Con una amiga"
+        ],
+        "answer": "Con su hijo"
+      },
+      {
+        "q": "¿Cuándo puede ser el viaje?",
+        "options": [
+          "Quizás en mayo",
+          "Seguro en agosto",
+          "En Navidad"
+        ],
+        "answer": "Quizás en mayo"
+      },
+      {
+        "q": "¿Qué dice Emma de mayo en Londres?",
+        "options": [
+          "Que los parques están preciosos",
+          "Que llueve mucho",
+          "Que hace calor"
+        ],
+        "answer": "Que los parques están preciosos"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "I'm really looking forward to it.",
+    "es": "Tengo muchísimas ganas.",
+    "context": "Para mostrar ilusión por un plan"
+  },
+  "summary": [
+    "Ilusión: I can't wait! / I'm looking forward to it.",
+    "Dudas: maybe, probably, We'll see.",
+    "Esperanza: I hope so.",
+    "¡Falso amigo! pretend = fingir; pretender = intend"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u06-l3"
+}

@@ -1,0 +1,464 @@
+{
+  "id": "it-a1-u08-l1",
+  "unit": "it-a1-u08",
+  "title": "In stazione: las palabras del tren",
+  "goal": "a moverte por una estación italiana y pedir tu billete",
+  "emoji": "🚉",
+  "photoQuery": "italian train station platform",
+  "vocab": [
+    {
+      "id": "treno-la-stazione",
+      "t": "la stazione",
+      "es": "la estación",
+      "emoji": "🚉",
+      "pos": "n",
+      "ex": {
+        "t": "La stazione è in centro.",
+        "es": "La estación está en el centro."
+      }
+    },
+    {
+      "id": "treno-il-treno",
+      "t": "il treno",
+      "es": "el tren",
+      "emoji": "🚆",
+      "pos": "n",
+      "ex": {
+        "t": "Il treno per Napoli parte adesso.",
+        "es": "El tren a Nápoles sale ahora."
+      }
+    },
+    {
+      "id": "treno-il-binario",
+      "t": "il binario",
+      "es": "la vía, el andén",
+      "emoji": "🛤️",
+      "pos": "n",
+      "note": "En los paneles: binario 3 = vía 3.",
+      "ex": {
+        "t": "Il treno parte dal binario 4.",
+        "es": "El tren sale de la vía 4."
+      }
+    },
+    {
+      "id": "treno-il-biglietto",
+      "t": "il biglietto",
+      "es": "el billete",
+      "emoji": "🎫",
+      "pos": "n",
+      "ex": {
+        "t": "Vorrei un biglietto per Roma.",
+        "es": "Quisiera un billete para Roma."
+      }
+    },
+    {
+      "id": "treno-andata-e-ritorno",
+      "t": "andata e ritorno",
+      "es": "ida y vuelta",
+      "emoji": "🔁",
+      "pos": "phrase",
+      "ex": {
+        "t": "Andata e ritorno, per favore.",
+        "es": "Ida y vuelta, por favor."
+      }
+    },
+    {
+      "id": "treno-solo-andata",
+      "t": "solo andata",
+      "es": "solo ida",
+      "emoji": "➡️",
+      "pos": "phrase",
+      "note": "También se oye «sola andata».",
+      "ex": {
+        "t": "Per Bari, solo andata.",
+        "es": "A Bari, solo ida."
+      }
+    },
+    {
+      "id": "treno-il-posto",
+      "t": "il posto",
+      "es": "el asiento, la plaza",
+      "emoji": "💺",
+      "pos": "n",
+      "ex": {
+        "t": "Scusi, è libero questo posto?",
+        "es": "Perdone, ¿está libre este asiento?"
+      }
+    },
+    {
+      "id": "treno-salire",
+      "t": "salire (sul treno)",
+      "es": "subir (al tren)",
+      "emoji": "⬆️",
+      "pos": "v",
+      "note": "¡Ojo! Salire = subir. Salir = uscire.",
+      "ex": {
+        "t": "Saliamo sul treno!",
+        "es": "¡Subimos al tren!"
+      }
+    },
+    {
+      "id": "treno-scendere",
+      "t": "scendere",
+      "es": "bajar (del tren)",
+      "emoji": "⬇️",
+      "pos": "v",
+      "ex": {
+        "t": "Scendo a Salerno.",
+        "es": "Me bajo en Salerno."
+      }
+    },
+    {
+      "id": "treno-in-ritardo",
+      "t": "in ritardo",
+      "es": "con retraso",
+      "emoji": "⏰",
+      "pos": "phrase",
+      "ex": {
+        "t": "Il treno è in ritardo.",
+        "es": "El tren va con retraso."
+      }
+    }
+  ],
+  "grammar": "it-g-vorrei",
+  "pron": {
+    "title": "La gg de viaggio",
+    "tip": "Gg delante de i/e suena como una «y» fuerte y alargada, apoyándote un instante: viag-gio, og-gi. Nunca «viayo».",
+    "words": [
+      "viaggio",
+      "oggi",
+      "viaggiare",
+      "parcheggio",
+      "maggio"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "il binario",
+          "la vía"
+        ],
+        [
+          "il posto",
+          "el asiento"
+        ],
+        [
+          "scendere",
+          "bajar"
+        ],
+        [
+          "salire",
+          "subir"
+        ],
+        [
+          "in ritardo",
+          "con retraso"
+        ]
+      ],
+      "why": "Son las palabras clave de cualquier estación italiana."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Vorrei un ___ per Napoli.",
+      "es": "Quisiera un billete para Nápoles.",
+      "options": [
+        "biglietto",
+        "binario",
+        "posto"
+      ],
+      "answer": "biglietto",
+      "why": "Lo que se compra en la taquilla es il biglietto, el billete.",
+      "g": "it-g-vorrei"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Il treno parte dal ___ 3.",
+      "es": "El tren sale de la vía 3.",
+      "options": [
+        "binario",
+        "biglietto",
+        "ritardo"
+      ],
+      "answer": "binario",
+      "why": "La vía o el andén numerado es il binario."
+    },
+    {
+      "id": "e4",
+      "type": "situation",
+      "context": "En la taquilla quieres un billete para ir a Nápoles y volver.",
+      "emoji": "🎫",
+      "options": [
+        "Andata e ritorno per Napoli, per favore.",
+        "Solo andata per Napoli, per favore.",
+        "Scendo a Napoli, per favore."
+      ],
+      "answer": "Andata e ritorno per Napoli, per favore.",
+      "why": "Ida y vuelta = andata e ritorno; solo andata es solo ida."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Scusi, è libero questo ___?",
+      "es": "Perdone, ¿está libre este asiento?",
+      "answer": [
+        "posto"
+      ],
+      "bank": [
+        "posto",
+        "binario",
+        "treno"
+      ],
+      "why": "El asiento es il posto: è libero questo posto?"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Oggi il treno è in ___.",
+      "es": "Hoy el tren va con retraso.",
+      "answer": [
+        "ritardo"
+      ],
+      "bank": [
+        "ritardo",
+        "binario",
+        "stazione"
+      ],
+      "why": "Con retraso = in ritardo."
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "Quisiera un billete para Roma.",
+      "answer": "Vorrei un biglietto per Roma",
+      "extra": [
+        "di"
+      ],
+      "why": "Vorrei + lo que quieres + per + destino.",
+      "g": "it-g-vorrei"
+    },
+    {
+      "id": "e8",
+      "type": "translate",
+      "dir": "to",
+      "q": "Me bajo en Salerno.",
+      "answer": [
+        "Scendo a Salerno.",
+        "Io scendo a Salerno."
+      ],
+      "why": "Bajar del tren = scendere; con io, scendo."
+    },
+    {
+      "id": "e9",
+      "type": "translate",
+      "dir": "from",
+      "q": "Saliamo sul treno.",
+      "answer": [
+        "Subimos al tren.",
+        "Nos subimos al tren."
+      ],
+      "why": "Salire no es salir: es subir. Saliamo sul treno = subimos al tren."
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Usciamo sul treno, signora!",
+      "wrong": "Usciamo",
+      "fix": "Saliamo",
+      "why": "Para subir al tren se usa salire: saliamo. Uscire es salir (de un sitio)."
+    },
+    {
+      "id": "e11",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Panel de salidas",
+      "text": "PARTENZE\nTreno per Napoli · ore 10:30 · binario 5 · ritardo 15 minuti\nTreno per Bari · ore 11:00 · binario 2",
+      "questions": [
+        {
+          "q": "¿De qué vía sale el tren a Nápoles?",
+          "options": [
+            "De la 5",
+            "De la 2",
+            "De la 15"
+          ],
+          "answer": "De la 5"
+        },
+        {
+          "q": "¿Qué le pasa al tren de Nápoles?",
+          "options": [
+            "Lleva retraso",
+            "Está cancelado",
+            "Sale antes"
+          ],
+          "answer": "Lleva retraso"
+        },
+        {
+          "q": "¿A qué hora sale el tren a Bari?",
+          "options": [
+            "A las 11:00",
+            "A las 10:30",
+            "A las 2:00"
+          ],
+          "answer": "A las 11:00"
+        }
+      ],
+      "why": "Partenze son las salidas; ritardo, el retraso."
+    },
+    {
+      "id": "e12",
+      "type": "speak",
+      "t": "Un biglietto per Roma, per favore.",
+      "es": "Un billete para Roma, por favor."
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "oggi",
+        "ogni"
+      ],
+      "answer": "oggi",
+      "es": [
+        "hoy",
+        "cada"
+      ],
+      "why": "Oggi lleva gg, una «y» fuerte y alargada; ogni lleva gn, como nuestra ñ."
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "En el andén quieres comprobar que ese tren va a Roma.",
+      "emoji": "🚆",
+      "options": [
+        "Scusi, questo treno va a Roma?",
+        "Scusi, questo treno è in ritardo?",
+        "Scusi, è libero questo posto?"
+      ],
+      "answer": "Scusi, questo treno va a Roma?",
+      "why": "Para preguntar el destino: questo treno va a…?"
+    }
+  ],
+  "dialog": {
+    "title": "En la taquilla",
+    "setting": "En la taquilla de la estación Roma Termini",
+    "emoji": "🎫",
+    "lines": [
+      {
+        "who": "Marco",
+        "t": "Buongiorno, prego.",
+        "es": "Buenos días, dígame."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Buongiorno. Vorrei un biglietto per Napoli.",
+        "es": "Buenos días. Quisiera un billete para Nápoles."
+      },
+      {
+        "who": "Marco",
+        "t": "Solo andata o andata e ritorno?",
+        "es": "¿Solo ida o ida y vuelta?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Andata e ritorno, per favore.",
+        "es": "Ida y vuelta, por favor."
+      },
+      {
+        "who": "Marco",
+        "t": "Ecco a Lei. Sono quaranta euro.",
+        "es": "Aquí tiene. Son cuarenta euros."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Da quale binario parte il treno?",
+        "es": "¿De qué vía sale el tren?"
+      },
+      {
+        "who": "Marco",
+        "t": "Dal binario otto. Ma oggi è in ritardo.",
+        "es": "De la vía ocho. Pero hoy va con retraso."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Va bene, grazie. Buona giornata!",
+        "es": "Vale, gracias. ¡Que tenga un buen día!"
+      },
+      {
+        "who": "Marco",
+        "t": "Buon viaggio, signora!",
+        "es": "¡Buen viaje, señora!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Adónde va Yolanda?",
+        "options": [
+          "A Nápoles",
+          "A Bari",
+          "A Roma"
+        ],
+        "answer": "A Nápoles"
+      },
+      {
+        "q": "¿Qué billete compra?",
+        "options": [
+          "Ida y vuelta",
+          "Solo ida",
+          "Dos billetes de ida"
+        ],
+        "answer": "Ida y vuelta"
+      },
+      {
+        "q": "¿De qué vía sale el tren?",
+        "options": [
+          "De la 8",
+          "De la 4",
+          "De la 10"
+        ],
+        "answer": "De la 8"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Un biglietto di andata e ritorno, per favore.",
+    "es": "Un billete de ida y vuelta, por favor.",
+    "context": "En la taquilla de la estación"
+  },
+  "same": {
+    "text": "Igual que en español: muchas palabras del tren se parecen muchísimo.",
+    "examples": [
+      {
+        "t": "il treno",
+        "es": "el tren"
+      },
+      {
+        "t": "la stazione",
+        "es": "la estación"
+      },
+      {
+        "t": "il passeggero",
+        "es": "el pasajero"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "salire",
+    "means": "subir (salire sul treno = subir al tren)",
+    "looksLike": "salir",
+    "emoji": "⬆️",
+    "tip": "Salire es subir y scendere es bajar. Para «salir» los italianos dicen uscire: l'uscita es la salida."
+  },
+  "summary": [
+    "La estación: la stazione, il binario, il treno",
+    "Billetes: solo andata / andata e ritorno",
+    "¡Ojo! salire = subir; scendere = bajar",
+    "In ritardo = con retraso",
+    "Gg de viaggio y oggi: alargada"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u08-l1"
+}

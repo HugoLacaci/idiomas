@@ -1,0 +1,86 @@
+{
+  "id": "it-b1-u01-l4",
+  "unit": "it-b1-u01",
+  "title": "Al posto tuo…",
+  "goal": "a dar y pedir consejos con cariño: dovresti, al posto tuo, sarebbe meglio, potresti provare a…",
+  "emoji": "🤝",
+  "photoQuery": "two women talking coffee table",
+  "vocab": [
+    { "id": "desideri-il-consiglio", "t": "il consiglio", "es": "el consejo", "emoji": "💡", "pos": "n", "ex": { "t": "Ti posso dare un consiglio da amica?", "es": "¿Te puedo dar un consejo de amiga?" } },
+    { "id": "desideri-dovresti", "t": "dovresti", "es": "deberías", "emoji": "☝️", "pos": "v", "ex": { "t": "Dovresti riposarti di più, sei stanca.", "es": "Deberías descansar más, estás cansada." } },
+    { "id": "desideri-al-posto-tuo", "t": "al posto tuo", "es": "yo que tú, en tu lugar", "emoji": "🔄", "pos": "phrase", "ex": { "t": "Al posto tuo chiamerei subito tuo figlio.", "es": "Yo que tú llamaría ya a tu hijo." } },
+    { "id": "desideri-sarebbe-meglio", "t": "sarebbe meglio", "es": "sería mejor", "emoji": "👍", "pos": "phrase", "ex": { "t": "Sarebbe meglio partire presto, c'è traffico.", "es": "Sería mejor salir temprano, hay tráfico." } },
+    { "id": "desideri-potresti-provare-a", "t": "potresti provare a…", "es": "podrías probar a…", "emoji": "🧪", "pos": "phrase", "ex": { "t": "Potresti provare a camminare ogni mattina.", "es": "Podrías probar a caminar cada mañana." } },
+    { "id": "desideri-perche-non", "t": "Perché non…?", "es": "¿Por qué no…?", "emoji": "❔", "pos": "phrase", "ex": { "t": "Perché non ti iscrivi a un corso di ballo?", "es": "¿Por qué no te apuntas a un curso de baile?" } },
+    { "id": "desideri-cosa-mi-consigli", "t": "Cosa mi consigli?", "es": "¿Qué me aconsejas?", "emoji": "🤔", "pos": "phrase", "ex": { "t": "Non so cosa regalare a mia nipote. Cosa mi consigli?", "es": "No sé qué regalar a mi nieta. ¿Qué me aconsejas?" } },
+    { "id": "desideri-preoccuparsi", "t": "preoccuparsi", "es": "preocuparse", "emoji": "😟", "pos": "v", "ex": { "t": "Non dovresti preoccuparti così tanto.", "es": "No deberías preocuparte tanto." } },
+    { "id": "desideri-iscriversi", "t": "iscriversi", "es": "apuntarse, inscribirse", "emoji": "✍️", "pos": "v", "ex": { "t": "Mi iscriverei volentieri a un corso di cucina.", "es": "Me apuntaría con gusto a un curso de cocina." } }
+  ],
+  "grammar": "it-g-condizionale",
+  "pron": {
+    "title": "Acento de -rei, -resti, -rebbe",
+    "tip": "El golpe de voz va siempre en la e de la terminación: andRÈI, andRÈSti, andRÈBbe. Y en -ebbe apoya la doble b: dovrebbe.",
+    "words": ["dovrei", "dovresti", "dovrebbe", "dovremmo", "dovrebbero"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Sei stanca: ___ dormire di più.", "es": "Estás cansada: deberías dormir más.", "options": ["dovresti", "dovrei", "dovrai"], "answer": "dovresti", "why": "Consejo a tu amiga (tu): dovresti.", "g": "it-g-condizionale" },
+    { "id": "e2", "type": "choose", "q": "Al posto tuo, io ___ con il medico.", "es": "Yo que tú hablaría con el médico.", "options": ["parlerei", "parleresti", "parlerò"], "answer": "parlerei", "why": "Al posto tuo + condicional de io: parlerei.", "g": "it-g-condizionale" },
+    { "id": "e3", "type": "choose", "q": "Con questa pioggia ___ meglio restare a casa.", "es": "Con esta lluvia sería mejor quedarse en casa.", "options": ["sarebbe", "sarei", "saresti"], "answer": "sarebbe", "why": "Sarebbe meglio + infinitivo.", "g": "it-g-condizionale" },
+    { "id": "e4", "type": "choose", "q": "Signora, Lei ___ bere più acqua.", "es": "Señora, usted debería beber más agua.", "options": ["dovrebbe", "dovresti", "dovrei"], "answer": "dovrebbe", "why": "Con Lei: dovrebbe.", "g": "it-g-condizionale" },
+    { "id": "e5", "type": "fill", "q": "Non dovresti ___ così tanto per tuo figlio.", "es": "No deberías preocuparte tanto por tu hijo.", "answer": ["preoccuparti"], "bank": ["preoccuparti", "preoccuparsi", "preoccuparmi"], "why": "Con tu, el pronombre es ti: preoccuparti.", "g": "it-g-condizionale" },
+    { "id": "e6", "type": "fill", "q": "Potresti ___ a camminare un po' ogni giorno.", "es": "Podrías probar a caminar un poco cada día.", "answer": ["provare"], "bank": ["provare", "provi", "proverei"], "why": "Potresti + infinitivo: provare.", "g": "it-g-condizionale" },
+    { "id": "e7", "type": "fill", "q": "Voi ___ prenotare prima, c'è sempre tanta gente.", "es": "Vosotros deberíais reservar antes, siempre hay mucha gente.", "answer": ["dovreste"], "hint": "dovere, voi", "why": "Voi → dovreste.", "g": "it-g-condizionale" },
+    { "id": "e8", "type": "error", "q": "Al posto tuo andresti dal medico.", "wrong": "andresti", "fix": "andrei", "why": "Al posto tuo habla de mí: andrei.", "g": "it-g-condizionale" },
+    { "id": "e9", "type": "error", "q": "Lei dovresti riposarsi un po'.", "wrong": "dovresti", "fix": "dovrebbe", "why": "Con Lei el verbo va en tercera persona: dovrebbe.", "g": "it-g-condizionale" },
+    { "id": "e10", "type": "transform", "instr": "Suaviza el consejo con el condicional", "q": "Devi chiamare tua sorella.", "answer": ["Dovresti chiamare tua sorella."], "why": "Devi → dovresti.", "g": "it-g-condizionale" },
+    { "id": "e11", "type": "transform", "instr": "Empieza con «Al posto tuo…»", "q": "Dovresti iscriverti al corso.", "answer": ["Al posto tuo mi iscriverei al corso.", "Al posto tuo, mi iscriverei al corso."], "why": "Al posto tuo + mi iscriverei (io).", "g": "it-g-condizionale" },
+    { "id": "e12", "type": "conjugate", "verb": "dovere", "person": "noi", "tense": "condizionale", "q": "___ uscire di più insieme.", "answer": ["Dovremmo"], "table": [["io", "dovrei"], ["tu", "dovresti"], ["lui/lei", "dovrebbe"], ["noi", "dovremmo"], ["voi", "dovreste"], ["loro", "dovrebbero"]], "why": "Noi → dovremmo (doble m).", "g": "it-g-condizionale" },
+    { "id": "e13", "type": "order", "es": "Yo que tú, me apuntaría a un curso de baile.", "answer": "Al posto tuo mi iscriverei a un corso di ballo", "extra": ["iscriveresti"], "why": "Al posto tuo + condicional de io.", "g": "it-g-condizionale" },
+    { "id": "e14", "type": "translate", "dir": "to", "q": "¿Qué me aconsejas?", "answer": ["Cosa mi consigli?", "Che cosa mi consigli?", "Che mi consigli?"], "why": "Consigliare = aconsejar.", "g": "it-g-condizionale" },
+    { "id": "e15", "type": "situation", "context": "Una amiga te cuenta que duerme fatal porque toma mucho café por la tarde.", "emoji": "☕", "options": ["Dovresti bere meno caffè il pomeriggio.", "Dovrei bere meno caffè il pomeriggio.", "Devi bevi meno caffè!"], "answer": "Dovresti bere meno caffè il pomeriggio.", "why": "Consejo a ella (tu): dovresti + infinitivo.", "g": "it-g-condizionale" },
+    { "id": "e16", "type": "reading", "kind": "message", "title": "Mensaje de una amiga", "text": "Yolanda, ho un problema: mia figlia vuole andare a vivere all'estero e io sono triste. Non so cosa fare. Al posto mio, cosa faresti? Sarebbe meglio parlarne con lei o aspettare?", "questions": [ { "q": "¿Qué quiere hacer la hija de la amiga?", "options": ["Irse a vivir al extranjero", "Casarse", "Cambiar de trabajo"], "answer": "Irse a vivir al extranjero" }, { "q": "¿Qué le pregunta a Yolanda?", "options": ["Qué haría en su lugar", "Dónde vive su hija", "Cuándo se ven"], "answer": "Qué haría en su lugar" } ], "g": "it-g-condizionale" }
+  ],
+  "dialog": {
+    "title": "Un consejo de amiga",
+    "setting": "Paseando por el paseo marítimo de Trieste, Yolanda escucha a su nueva amiga Nives",
+    "emoji": "🌊",
+    "lines": [
+      { "who": "Nives", "t": "Yolanda, posso chiederti un consiglio?", "es": "Yolanda, ¿puedo pedirte un consejo?" },
+      { "who": "Yolanda", "t": "Certo! Dimmi tutto.", "es": "¡Claro! Cuéntamelo todo." },
+      { "who": "Nives", "t": "Vorrei imparare lo spagnolo, ma ho paura di essere troppo grande.", "es": "Querría aprender español, pero me da miedo ser demasiado mayor." },
+      { "who": "Yolanda", "t": "Ma no! Non dovresti preoccuparti. Io studio l'italiano!", "es": "¡Qué va! No deberías preocuparte. ¡Yo estudio italiano!" },
+      { "who": "Nives", "t": "È vero. Cosa mi consigli, allora?", "es": "Es verdad. ¿Qué me aconsejas, entonces?" },
+      { "who": "Yolanda", "t": "Al posto tuo mi iscriverei a un corso e guarderei film spagnoli.", "es": "Yo que tú me apuntaría a un curso y vería películas españolas." },
+      { "who": "Nives", "t": "Ottima idea. E potremmo scriverci messaggi in spagnolo!", "es": "Muy buena idea. ¡Y podríamos escribirnos mensajes en español!" },
+      { "who": "Yolanda", "t": "Perfetto! Io ti correggerei con molto affetto.", "es": "¡Perfecto! Yo te corregiría con mucho cariño." }
+    ],
+    "questions": [
+      { "q": "¿Qué quiere aprender Nives?", "options": ["Español", "Inglés", "A cocinar"], "answer": "Español" },
+      { "q": "¿Qué le aconseja Yolanda?", "options": ["Apuntarse a un curso y ver películas", "Viajar a Inglaterra", "Esperar unos años"], "answer": "Apuntarse a un curso y ver películas" },
+      { "q": "¿Qué proponen al final?", "options": ["Escribirse mensajes en español", "Verse en Madrid", "Hacer un curso juntas"], "answer": "Escribirse mensajes en español" }
+    ]
+  },
+  "realLife": { "t": "Al posto tuo, ne parlerei con calma con tuo figlio.", "es": "Yo que tú, lo hablaría con calma con tu hijo.", "context": "Para aconsejar a una amiga con delicadeza" },
+  "same": {
+    "text": "Aconsejar se dice casi igual.",
+    "examples": [
+      { "t": "il consiglio", "es": "el consejo" },
+      { "t": "consigliare", "es": "aconsejar" },
+      { "t": "dovresti", "es": "deberías" }
+    ]
+  },
+  "falseFriend": {
+    "word": "contestare",
+    "means": "protestar, discutir, poner en duda",
+    "looksLike": "contestar (en italiano, rispondere)",
+    "emoji": "🙅‍♀️",
+    "tip": "Mio nipote contesta sempre = mi nieto siempre protesta. Para contestar un mensaje: rispondere."
+  },
+  "summary": [
+    "Consejos: dovresti, potresti provare a, sarebbe meglio, perché non…?",
+    "Al posto tuo + condicional de io: al posto tuo andrei.",
+    "Con Lei: dovrebbe, potrebbe.",
+    "Contestare = protestar; contestar = rispondere."
+  ],
+  "reviewed": false
+}

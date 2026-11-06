@@ -1,0 +1,85 @@
+{
+  "id": "en-a1-u05-l4",
+  "unit": "en-a1-u05",
+  "title": "In, on, at: el lunes, en marzo, a las nueve",
+  "goal": "a usar in, on y at con días, meses y momentos del día, y a no confundir thirteen con thirty",
+  "emoji": "📅",
+  "photoQuery": "calendar diary coffee table",
+  "vocab": [
+    { "id": "monday", "t": "Monday", "es": "lunes", "emoji": "📅", "pos": "n",
+      "ex": { "t": "See you on Monday!", "es": "¡Hasta el lunes!" },
+      "note": "Los días van con mayúscula: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday." },
+    { "id": "sunday", "t": "Sunday", "es": "domingo", "emoji": "☀️", "pos": "n",
+      "ex": { "t": "On Sundays we have a big lunch.", "es": "Los domingos hacemos una comida grande." } },
+    { "id": "the-weekend", "t": "the weekend", "es": "el fin de semana", "emoji": "🛋️", "pos": "n",
+      "ex": { "t": "What are your plans for the weekend?", "es": "¿Qué planes tienes para el fin de semana?" },
+      "note": "En el Reino Unido: at the weekend. En EE. UU.: on the weekend." },
+    { "id": "in-the-morning", "t": "in the morning", "es": "por la mañana", "emoji": "🌅", "pos": "phrase",
+      "ex": { "t": "I'm very busy in the morning.", "es": "Por la mañana estoy muy ocupada." } },
+    { "id": "in-the-afternoon", "t": "in the afternoon", "es": "por la tarde (después de comer)", "emoji": "🌤️", "pos": "phrase",
+      "ex": { "t": "The doctor is here in the afternoon.", "es": "El médico está aquí por la tarde." } },
+    { "id": "in-the-evening", "t": "in the evening", "es": "por la tarde-noche", "emoji": "🌆", "pos": "phrase",
+      "ex": { "t": "Call me in the evening.", "es": "Llámame por la tarde, cuando anochezca." },
+      "note": "Afternoon = después de comer; evening = cuando empieza a oscurecer, hasta la cena." },
+    { "id": "at-night", "t": "at night", "es": "por la noche", "emoji": "🌙", "pos": "phrase",
+      "ex": { "t": "The street is quiet at night.", "es": "La calle está tranquila por la noche." } },
+    { "id": "tomorrow", "t": "tomorrow", "es": "mañana (el día siguiente)", "emoji": "⏭️", "pos": "adv",
+      "ex": { "t": "See you tomorrow at ten.", "es": "Hasta mañana a las diez." },
+      "note": "Sin preposición: tomorrow, today, next week. ❌ on tomorrow." }
+  ],
+  "grammar": "en-g-prep-time",
+  "pron": {
+    "title": "thirTEEN o THIRty: ¿dónde va la fuerza?",
+    "tip": "En los números en -teen la fuerza va al final y la «i» es larga: thir-TEEN, four-TEEN. En los que acaban en -ty la fuerza va al principio y el final es cortito: THIR-ty, FOR-ty. Si dudas en una cita, pregunta: «One, five?»",
+    "words": ["thirteen", "thirty", "fourteen", "forty", "fifteen", "fifty"],
+    "pairs": [["thirteen", "thirty"], ["fourteen", "forty"], ["fifteen", "fifty"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "I see my grandchildren ___ Sundays.", "es": "Veo a mis nietos los domingos.", "options": ["on", "in", "at"], "answer": "on", "why": "Con los días de la semana: on (on Sunday, on Sundays).", "g": "en-g-prep-time" },
+    { "id": "e2", "type": "choose", "q": "The holidays are ___ August.", "es": "Las vacaciones son en agosto.", "options": ["in", "on", "at"], "answer": "in", "why": "Con los meses: in (in August).", "g": "en-g-prep-time" },
+    { "id": "e3", "type": "choose", "q": "Dinner is ___ nine.", "es": "La cena es a las nueve.", "options": ["at", "in", "on"], "answer": "at", "why": "Con la hora: at nine.", "g": "en-g-prep-time" },
+    { "id": "e4", "type": "match", "pairs": [["Monday", "on"], ["March", "in"], ["nine o'clock", "at"], ["the morning", "in"], ["night", "at"]], "why": "on + días; in + meses y partes del día; at + horas y at night.", "g": "en-g-prep-time" },
+    { "id": "e5", "type": "fill", "q": "The doctor? It's ___ Monday morning.", "es": "¿El médico? Es el lunes por la mañana.", "answer": ["on"], "bank": ["on", "in", "at"], "why": "Día + parte del día va con on: on Monday morning.", "g": "en-g-prep-time" },
+    { "id": "e6", "type": "fill", "q": "I'm always tired ___ night.", "es": "Por la noche siempre estoy cansada.", "answer": ["at"], "bank": ["at", "in", "on"], "why": "Night es especial: at night (pero in the morning).", "g": "en-g-prep-time" },
+    { "id": "e7", "type": "fill", "q": "My friends are here ___ the afternoon.", "es": "Mis amigas están aquí por la tarde.", "answer": ["in"], "bank": ["in", "on", "at"], "why": "Partes del día con in: in the afternoon.", "g": "en-g-prep-time" },
+    { "id": "e8", "type": "error", "q": "See you in Friday!", "wrong": "in", "fix": "on", "why": "Con días: on Friday.", "g": "en-g-prep-time" },
+    { "id": "e9", "type": "error", "q": "My appointment is on 10:30.", "wrong": "on", "fix": "at", "why": "Con horas: at 10:30.", "g": "en-g-prep-time" },
+    { "id": "e10", "type": "order", "es": "Te veo el lunes por la mañana", "answer": "See you on Monday morning", "extra": ["in", "the"], "why": "On + día + morning, sin the.", "g": "en-g-prep-time" },
+    { "id": "e11", "type": "transform", "instr": "Cambia «Monday» por «the weekend»", "q": "See you on Monday.", "answer": ["See you at the weekend.", "See you on the weekend."], "why": "En británico: at the weekend (en EE. UU. on the weekend).", "g": "en-g-prep-time" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Por la noche estoy en casa.", "answer": ["At night I'm at home.", "I'm at home at night.", "I am at home at night.", "At night I am at home."], "why": "Por la noche = at night; en casa = at home.", "g": "en-g-prep-time" },
+    { "id": "e13", "type": "minimal", "pair": ["thirteen", "thirty"], "answer": "thirteen", "es": ["trece", "treinta"], "why": "Thir-TEEN: fuerza al final y «i» larga." },
+    { "id": "e14", "type": "minimal", "pair": ["fourteen", "forty"], "answer": "forty", "es": ["catorce", "cuarenta"], "why": "FOR-ty: fuerza al principio y final corto." },
+    { "id": "e15", "type": "minimal", "pair": ["fifteen", "fifty"], "answer": "fifteen", "es": ["quince", "cincuenta"], "why": "Fif-TEEN: la fuerza cae en -teen." },
+    { "id": "e16", "type": "situation", "context": "La recepcionista del centro de salud te da cita el martes a las cuatro. Lo repites para confirmar.", "emoji": "🩺", "options": ["On Tuesday at four.", "In Tuesday at four.", "At Tuesday on four."], "answer": "On Tuesday at four.", "why": "On + día, at + hora.", "g": "en-g-prep-time" }
+  ],
+  "dialog": {
+    "title": "Una cita en el médico",
+    "setting": "Yolanda llama por teléfono a un centro de salud de Londres",
+    "emoji": "📞",
+    "lines": [
+      { "who": "Linda", "t": "Good morning, Park Lane Surgery.", "es": "Buenos días, centro de salud Park Lane." },
+      { "who": "Yolanda", "t": "Hello. I'd like an appointment, please.", "es": "Hola. Quería una cita, por favor." },
+      { "who": "Linda", "t": "Is Thursday OK? At ten fifteen?", "es": "¿Le va bien el jueves? ¿A las diez y cuarto?" },
+      { "who": "Yolanda", "t": "Sorry, ten fifty?", "es": "Perdone, ¿diez y cincuenta?" },
+      { "who": "Linda", "t": "No, ten fifteen. One, five.", "es": "No, diez y quince. Uno, cinco." },
+      { "who": "Yolanda", "t": "Ah, fifteen! Thursday at ten fifteen. Perfect.", "es": "¡Ah, quince! El jueves a las diez y cuarto. Perfecto." },
+      { "who": "Linda", "t": "Your name, please?", "es": "¿Su nombre, por favor?" },
+      { "who": "Yolanda", "t": "Yolanda. Y-O-L-A-N-D-A.", "es": "Yolanda. Y-O-L-A-N-D-A." },
+      { "who": "Linda", "t": "Thank you. See you on Thursday!", "es": "Gracias. ¡Hasta el jueves!" }
+    ],
+    "questions": [
+      { "q": "¿Qué día es la cita?", "options": ["El jueves", "El martes", "El viernes"], "answer": "El jueves" },
+      { "q": "¿A qué hora es la cita?", "options": ["A las 10:15", "A las 10:50", "A las 11:15"], "answer": "A las 10:15" },
+      { "q": "¿Qué confunde Yolanda?", "options": ["Fifteen y fifty", "Jueves y martes", "Su nombre"], "answer": "Fifteen y fifty" }
+    ]
+  },
+  "realLife": { "t": "Could you repeat that, please?", "es": "¿Podría repetirlo, por favor?", "context": "Cuando no entiendes una hora, un número o una fecha" },
+  "summary": [
+    "at + hora: at nine, at half past ten; y at night, at the weekend",
+    "on + día: on Monday, on Sunday morning",
+    "in + mes y partes del día: in March, in the morning",
+    "Sin preposición: today, tomorrow, next week",
+    "thirTEEN / THIRty: escucha dónde va la fuerza"
+  ],
+  "reviewed": false
+}

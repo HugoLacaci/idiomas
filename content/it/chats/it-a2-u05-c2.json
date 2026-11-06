@@ -1,0 +1,59 @@
+{
+  "id": "it-a2-u05-c2",
+  "unit": "it-a2-u05",
+  "title": "La excursión pasada por agua",
+  "setting": "Giulia te pregunta por WhatsApp qué tal vuestra excursión a la montaña",
+  "emoji": "🌧️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Allora, com'è andata la gita in montagna?", "es": "Bueno, ¿qué tal la excursión a la montaña?" },
+      "options": [
+        { "t": "Così così! Quando siamo partiti, c'era il sole.", "es": "¡Regular! Cuando salimos, hacía sol.", "next": "n2", "ok": true },
+        { "t": "Così così! Quando partivamo, c'è stato il sole.", "es": "¡Regular! Cuando salimos, hacía sol.", "next": "n2", "ok": false, "feedback": "Al revés: el hecho en passato (siamo partiti) y el escenario en imperfetto (c'era il sole)." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "E poi?", "es": "¿Y luego?" },
+      "options": [
+        { "t": "Mentre camminavamo, è arrivato un temporale.", "es": "Mientras caminábamos, llegó una tormenta.", "next": "n3", "ok": true },
+        { "t": "Mentre abbiamo camminato, arrivava un temporale.", "es": "Mientras caminábamos, llegó una tormenta.", "next": "n3", "ok": false, "feedback": "Mentre va con imperfetto (camminavamo); lo que llega de golpe, en passato (è arrivato)." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Oh no! Avevate l'ombrello?", "es": "¡Oh, no! ¿Teníais paraguas?" },
+      "options": [
+        { "t": "No, e mi sono bagnata tutta!", "es": "No, ¡y me empapé entera!", "next": "n4", "ok": true },
+        { "t": "No, e mi sono bagnato tutto!", "es": "No, ¡y me empapé entero!", "next": "n4", "ok": false, "feedback": "Eres mujer: mi sono bagnata tutta." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Poverina! E cosa avete fatto?", "es": "¡Pobrecita! ¿Y qué hicisteis?" },
+      "options": [
+        { "t": "Ci siamo riparati in un rifugio.", "es": "Nos resguardamos en un refugio.", "next": "n5", "ok": true },
+        { "t": "Ci riparavamo in un rifugio.", "es": "Nos resguardábamos en un refugio.", "next": "n5", "ok": false, "feedback": "Es lo que hicisteis una vez, en ese momento: ci siamo riparati." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "E dopo ha smesso di piovere?", "es": "¿Y después dejó de llover?" },
+      "options": [
+        { "t": "Sì, dopo un'ora. E c'era un arcobaleno bellissimo!", "es": "Sí, al cabo de una hora. ¡Y había un arcoíris precioso!", "next": "n6", "ok": true },
+        { "t": "Sì, dopo un'ora. E c'è stato un arcobaleno bellissimo!", "es": "Sí, al cabo de una hora. ¡Y hubo un arcoíris precioso!", "next": "n6", "ok": true },
+        { "t": "Sì, dopo un'ora. E c'erano un arcobaleno bellissimo!", "es": "Sí, al cabo de una hora. ¡Y había un arcoíris precioso!", "next": "n6", "ok": false, "feedback": "Un arcobaleno es singular: c'era." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Allora alla fine è stata una bella gita!", "es": "¡Pues al final fue una excursión bonita!" },
+      "options": [
+        { "t": "Sì, bagnata ma bella!", "es": "¡Sí, mojada pero bonita!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

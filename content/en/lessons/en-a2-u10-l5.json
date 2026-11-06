@@ -1,0 +1,422 @@
+{
+  "id": "en-a2-u10-l5",
+  "unit": "en-a2-u10",
+  "title": "Reto en Nueva York: del aeropuerto a la Estatua de la Libertad",
+  "goal": "a llegar a Nueva York, recoger la maleta, ir al hotel y contar tu primer día de turismo",
+  "emoji": "🗽",
+  "photoQuery": "statue of liberty ferry",
+  "vocab": [
+    {
+      "id": "trip-baggage-reclaim",
+      "t": "baggage reclaim",
+      "es": "la recogida de equipajes",
+      "emoji": "🛄",
+      "pos": "n",
+      "ex": {
+        "t": "Our suitcases are at baggage reclaim, belt four.",
+        "es": "Nuestras maletas están en la recogida de equipajes, cinta cuatro."
+      },
+      "note": "En EE. UU.: baggage claim."
+    },
+    {
+      "id": "trip-passport-control",
+      "t": "passport control",
+      "es": "el control de pasaportes",
+      "emoji": "🛂",
+      "pos": "n",
+      "ex": {
+        "t": "There was a long queue at passport control.",
+        "es": "Había una cola larga en el control de pasaportes."
+      }
+    },
+    {
+      "id": "trip-taxi-rank",
+      "t": "taxi rank",
+      "es": "la parada de taxis",
+      "emoji": "🚕",
+      "pos": "n",
+      "ex": {
+        "t": "The taxi rank is outside arrivals.",
+        "es": "La parada de taxis está a la salida de llegadas."
+      },
+      "note": "En EE. UU.: taxi stand."
+    },
+    {
+      "id": "trip-subway",
+      "t": "subway / underground",
+      "es": "el metro",
+      "emoji": "🚇",
+      "pos": "n",
+      "ex": {
+        "t": "In New York the underground is called the subway.",
+        "es": "En Nueva York el metro se llama subway."
+      },
+      "note": "En Londres: the Underground o the Tube."
+    },
+    {
+      "id": "trip-ferry",
+      "t": "ferry",
+      "es": "el ferri, el barco",
+      "emoji": "⛴️",
+      "pos": "n",
+      "ex": {
+        "t": "We took the ferry to the Statue of Liberty.",
+        "es": "Cogimos el ferri a la Estatua de la Libertad."
+      }
+    },
+    {
+      "id": "trip-skyscraper",
+      "t": "skyscraper",
+      "es": "el rascacielos",
+      "emoji": "🏙️",
+      "pos": "n",
+      "ex": {
+        "t": "The skyscrapers are amazing at night.",
+        "es": "Los rascacielos son impresionantes de noche."
+      }
+    },
+    {
+      "id": "trip-sightseeing",
+      "t": "to go sightseeing",
+      "es": "hacer turismo",
+      "emoji": "📸",
+      "pos": "phrase",
+      "ex": {
+        "t": "Tomorrow we're going sightseeing in Manhattan.",
+        "es": "Mañana vamos a hacer turismo por Manhattan."
+      }
+    },
+    {
+      "id": "trip-queue",
+      "t": "queue",
+      "es": "la cola",
+      "emoji": "🧍‍♀️",
+      "pos": "n",
+      "ex": {
+        "t": "The queue for the ferry is too long!",
+        "es": "¡La cola del ferri es demasiado larga!"
+      },
+      "note": "En EE. UU.: line."
+    }
+  ],
+  "grammar": "en-g-prep-movement",
+  "pron": {
+    "title": "El acento de los compuestos (repaso)",
+    "tip": "Primera palabra fuerte: BAGgage reclaim, TAXi rank, SKYscraper, SIGHTseeing, PASSport control.",
+    "words": [
+      "baggage reclaim",
+      "taxi rank",
+      "skyscraper",
+      "sightseeing",
+      "passport control"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "After passport control, we went to baggage ___.",
+      "options": [
+        "reclaim",
+        "recover",
+        "record"
+      ],
+      "answer": "reclaim",
+      "why": "Recogida de equipajes = baggage reclaim."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "We walked ___ arrivals to the taxi rank.",
+      "options": [
+        "out of",
+        "into",
+        "on"
+      ],
+      "answer": "out of",
+      "why": "Salir de un lugar: out of.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "The queue was ___ long, so we had a coffee first.",
+      "options": [
+        "too",
+        "enough",
+        "too much"
+      ],
+      "answer": "too",
+      "why": "Demasiado + adjetivo: too long.",
+      "g": "en-g-too-enough"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "We arrived ___ New York at six in the evening.",
+      "es": "Llegamos a Nueva York a las seis de la tarde.",
+      "answer": [
+        "in"
+      ],
+      "bank": [
+        "in",
+        "to",
+        "at"
+      ],
+      "why": "Arrive in + ciudad o país. Nunca arrive to.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "The taxi drove ___ the bridge into Manhattan.",
+      "es": "El taxi cruzó el puente hasta Manhattan.",
+      "answer": [
+        "across",
+        "over"
+      ],
+      "why": "Cruzar un puente: across (o over).",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "We got ___ the ferry at Liberty Island.",
+      "es": "Nos bajamos del ferri en Liberty Island.",
+      "answer": [
+        "off"
+      ],
+      "why": "Barco, avión, tren, autobús: get off.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e7",
+      "type": "reading",
+      "kind": "message",
+      "title": "Mensaje desde Nueva York",
+      "text": "Hi everyone! We arrived in New York last night. Today we took the ferry to the Statue of Liberty. It was a gift from France in 1886! Then we walked across the Brooklyn Bridge. My feet hurt, but it was amazing! Love, Yolanda",
+      "questions": [
+        {
+          "q": "¿Cómo fueron a la Estatua de la Libertad?",
+          "options": [
+            "En ferri",
+            "En metro",
+            "En taxi"
+          ],
+          "answer": "En ferri"
+        },
+        {
+          "q": "¿De dónde fue un regalo la estatua?",
+          "options": [
+            "De Francia",
+            "De Inglaterra",
+            "De España"
+          ],
+          "answer": "De Francia"
+        },
+        {
+          "q": "¿Qué hicieron después?",
+          "options": [
+            "Cruzar el puente de Brooklyn andando",
+            "Subir a un rascacielos",
+            "Ir de compras"
+          ],
+          "answer": "Cruzar el puente de Brooklyn andando"
+        }
+      ],
+      "why": "Walk across the bridge = cruzar el puente andando."
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Salimos del aeropuerto y cogimos un taxi",
+      "answer": "We walked out of the airport and took a taxi",
+      "extra": [
+        "from"
+      ],
+      "why": "Salir de = out of.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "We arrived to the hotel at nine.",
+      "wrong": "to",
+      "fix": "at",
+      "why": "Arrive at + edificio o lugar concreto. Nunca arrive to.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "We got into the ferry at nine.",
+      "wrong": "into",
+      "fix": "on",
+      "why": "Barco, avión, tren y autobús: get on. Into es para taxis y coches.",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Hazla más educada con Could",
+      "q": "Take me to this hotel.",
+      "answer": [
+        "Could you take me to this hotel?",
+        "Could you take me to this hotel, please?",
+        "Could you please take me to this hotel?"
+      ],
+      "why": "Al taxista, mejor Could you…, please?",
+      "g": "en-g-could-requests"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Cruzamos el parque andando.",
+      "answer": [
+        "We walked across the park.",
+        "We walked through the park.",
+        "We walked across the park"
+      ],
+      "why": "Cruzar andando = walk across (o through, si hay árboles y caminos).",
+      "g": "en-g-prep-movement"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "En la recogida de equipajes, tu maleta no aparece. Hablas con una empleada.",
+      "emoji": "🧳",
+      "options": [
+        "Excuse me, I'm afraid my suitcase isn't here.",
+        "Hey, where my suitcase?",
+        "Excuse me, my suitcase is too much lost."
+      ],
+      "answer": "Excuse me, I'm afraid my suitcase isn't here.",
+      "why": "Excuse me + I'm afraid… para dar una mala noticia con educación."
+    },
+    {
+      "id": "e14",
+      "type": "match",
+      "pairs": [
+        [
+          "baggage reclaim",
+          "recogida de equipajes"
+        ],
+        [
+          "taxi rank",
+          "parada de taxis"
+        ],
+        [
+          "subway",
+          "metro (EE. UU.)"
+        ],
+        [
+          "skyscraper",
+          "rascacielos"
+        ],
+        [
+          "queue",
+          "cola"
+        ]
+      ],
+      "why": "Vocabulario de llegada y turismo."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "We took the ferry and walked across the bridge.",
+      "es": "Cogimos el ferri y cruzamos el puente andando.",
+      "g": "en-g-prep-movement",
+      "why": "Contar tu día con preposiciones de movimiento."
+    }
+  ],
+  "dialog": {
+    "title": "Del aeropuerto al hotel",
+    "setting": "Yolanda acaba de aterrizar en Nueva York y coge un taxi",
+    "emoji": "🚕",
+    "lines": [
+      {
+        "who": "Driver",
+        "t": "Hi there! Where to?",
+        "es": "¡Hola! ¿Adónde vamos?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Hello. Could you take me to this hotel, please?",
+        "es": "Hola. ¿Podría llevarme a este hotel, por favor?"
+      },
+      {
+        "who": "Driver",
+        "t": "Sure. Put your suitcase in the trunk.",
+        "es": "Claro. Meta la maleta en el maletero (trunk en EE. UU.; boot en Reino Unido)."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sorry, it's too heavy. Could you help me?",
+        "es": "Perdone, pesa demasiado. ¿Me podría ayudar?"
+      },
+      {
+        "who": "Driver",
+        "t": "No problem. Is this your first time in New York?",
+        "es": "No hay problema. ¿Es su primera vez en Nueva York?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes! I want to see the Statue of Liberty.",
+        "es": "¡Sí! Quiero ver la Estatua de la Libertad."
+      },
+      {
+        "who": "Driver",
+        "t": "Take the ferry. And walk across the Brooklyn Bridge too!",
+        "es": "Coja el ferri. ¡Y cruce también el puente de Brooklyn a pie!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Great ideas! Thank you.",
+        "es": "¡Muy buenas ideas! Gracias."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Por qué pide ayuda Yolanda?",
+        "options": [
+          "La maleta pesa demasiado",
+          "No sabe la dirección",
+          "No tiene dinero"
+        ],
+        "answer": "La maleta pesa demasiado"
+      },
+      {
+        "q": "¿Qué quiere ver?",
+        "options": [
+          "La Estatua de la Libertad",
+          "Un museo",
+          "Un partido"
+        ],
+        "answer": "La Estatua de la Libertad"
+      },
+      {
+        "q": "¿Qué le recomienda el taxista?",
+        "options": [
+          "Coger el ferri y cruzar el puente a pie",
+          "Coger el metro",
+          "Ir en helicóptero"
+        ],
+        "answer": "Coger el ferri y cruzar el puente a pie"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Could you take me to this address, please?",
+    "es": "¿Me podría llevar a esta dirección, por favor?",
+    "context": "Al subir a un taxi en el extranjero (enseñando la dirección en el móvil)"
+  },
+  "summary": [
+    "passport control → baggage reclaim → taxi rank",
+    "arrive in + ciudad; arrive at + edificio (nunca arrive to)",
+    "walk across the bridge, get off the ferry, out of the airport",
+    "too heavy, too long; Could you help me?"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u10-l5"
+}

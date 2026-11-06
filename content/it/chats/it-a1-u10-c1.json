@@ -1,0 +1,59 @@
+{
+  "id": "it-a1-u10-c1",
+  "unit": "it-a1-u10",
+  "title": "Check-in en Catania",
+  "setting": "Giulia hace de recepcionista en un hotel de Catania para que practiques la llegada",
+  "emoji": "🛎️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Buonasera e benvenuta all'Albergo Lava! Come posso aiutarLa?", "es": "¡Buenas tardes y bienvenida al Hotel Lava! ¿En qué puedo ayudarla?" },
+      "options": [
+        { "t": "Buonasera, ho una prenotazione.", "es": "Buenas tardes, tengo una reserva.", "next": "n2", "ok": true },
+        { "t": "Buonasera, sono una prenotazione.", "es": "Buenas tardes, soy una reserva.", "next": "n2", "ok": false, "feedback": "Una reserva se tiene: ho una prenotazione (avere)." },
+        { "t": "Buonasera, voglio una camera!", "es": "¡Buenas tardes, quiero una habitación!", "next": "n2", "ok": false, "feedback": "Suena brusco. Si ya reservaste, di: Ho una prenotazione." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Perfetto. Mi può dare un documento, per favore?", "es": "Perfecto. ¿Me puede dar un documento, por favor?" },
+      "options": [
+        { "t": "Certo, ecco il passaporto.", "es": "Claro, aquí tiene el pasaporte.", "next": "n3", "ok": true },
+        { "t": "Certo, ecco la camera.", "es": "Claro, aquí tiene la habitación.", "next": "n3", "ok": false, "feedback": "¡Camera es la habitación! El documento: ecco il passaporto." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Grazie. Camera doppia per due notti, giusto?", "es": "Gracias. Habitación doble para dos noches, ¿verdad?" },
+      "options": [
+        { "t": "No, per tre notti.", "es": "No, para tres noches.", "next": "n4", "ok": true },
+        { "t": "No, per tre notte.", "es": "No, para tres noches.", "next": "n4", "ok": false, "feedback": "El plural de notte es notti: tre notti." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ah, scusi, ha ragione: tre notti. La camera è al secondo piano.", "es": "Ah, perdone, tiene razón: tres noches. La habitación está en el segundo piso." },
+      "options": [
+        { "t": "C'è l'ascensore? Le valigie sono pesanti.", "es": "¿Hay ascensor? Las maletas pesan mucho.", "next": "n5", "ok": true },
+        { "t": "Ci sono l'ascensore?", "es": "¿Hay ascensor?", "next": "n5", "ok": false, "feedback": "Un ascensor es singular: c'è l'ascensore?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Sì, è lì in fondo. Ha altre domande?", "es": "Sí, está ahí al fondo. ¿Tiene más preguntas?" },
+      "options": [
+        { "t": "Sì: a che ora è la colazione?", "es": "Sí: ¿a qué hora es el desayuno?", "next": "n6", "ok": true },
+        { "t": "Sì: a che ora è la coperta?", "es": "Sí: ¿a qué hora es la manta?", "next": "n6", "ok": false, "feedback": "Coperta es la manta. El desayuno es la colazione." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Dalle sette alle dieci, in terrazza. Ecco la chiave!", "es": "De siete a diez, en la terraza. ¡Aquí tiene la llave!" },
+      "options": [
+        { "t": "Grazie mille, buonanotte!", "es": "¡Muchas gracias, buenas noches!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

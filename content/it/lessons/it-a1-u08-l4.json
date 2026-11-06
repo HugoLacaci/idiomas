@@ -1,0 +1,442 @@
+{
+  "id": "it-a1-u08-l4",
+  "unit": "it-a1-u08",
+  "title": "In treno, a piedi, a Roma",
+  "goal": "a decir cómo viajas y adónde vas usando a, in y da",
+  "emoji": "🚲",
+  "photoQuery": "vintage bicycle italian street",
+  "vocab": [
+    {
+      "id": "treno-in-macchina",
+      "t": "in macchina",
+      "es": "en coche",
+      "emoji": "🚗",
+      "pos": "phrase",
+      "ex": {
+        "t": "Vado in centro in macchina.",
+        "es": "Voy al centro en coche."
+      }
+    },
+    {
+      "id": "treno-in-autobus",
+      "t": "in autobus",
+      "es": "en autobús",
+      "emoji": "🚌",
+      "pos": "phrase",
+      "ex": {
+        "t": "Andiamo in autobus o a piedi?",
+        "es": "¿Vamos en autobús o andando?"
+      }
+    },
+    {
+      "id": "treno-a-piedi",
+      "t": "a piedi",
+      "es": "a pie, andando",
+      "emoji": "🚶‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "La stazione è vicina: vado a piedi.",
+        "es": "La estación está cerca: voy andando."
+      }
+    },
+    {
+      "id": "treno-in-aereo",
+      "t": "in aereo",
+      "es": "en avión",
+      "emoji": "✈️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Torno in Spagna in aereo.",
+        "es": "Vuelvo a España en avión."
+      }
+    },
+    {
+      "id": "treno-in-bici",
+      "t": "in bici",
+      "es": "en bici",
+      "emoji": "🚲",
+      "pos": "phrase",
+      "ex": {
+        "t": "In paese vado sempre in bici.",
+        "es": "En el pueblo voy siempre en bici."
+      }
+    },
+    {
+      "id": "treno-in-nave",
+      "t": "in nave",
+      "es": "en barco",
+      "emoji": "🚢",
+      "pos": "phrase",
+      "ex": {
+        "t": "Andiamo in Sicilia in nave?",
+        "es": "¿Vamos a Sicilia en barco?"
+      }
+    },
+    {
+      "id": "treno-la-metro",
+      "t": "la metro",
+      "es": "el metro",
+      "emoji": "🚇",
+      "pos": "n",
+      "note": "En italiano es femenino: la metro (la metropolitana).",
+      "ex": {
+        "t": "Prendo la metro per andare in centro.",
+        "es": "Cojo el metro para ir al centro."
+      }
+    },
+    {
+      "id": "treno-andare-da",
+      "t": "andare da + persona",
+      "es": "ir a casa de, ir a ver a",
+      "emoji": "🏠",
+      "pos": "phrase",
+      "ex": {
+        "t": "Stasera vado da mia sorella.",
+        "es": "Esta noche voy a casa de mi hermana."
+      }
+    }
+  ],
+  "grammar": "it-g-andare-a-in",
+  "pron": {
+    "title": "La gg de viaggio y oggi",
+    "tip": "Las dobles se notan: viag-gio, og-gi. Haz una pausita antes de la gg, como si tropezaras un poco. Y en sonno, alarga la n.",
+    "words": [
+      "viaggio",
+      "oggi",
+      "viaggiare",
+      "leggo",
+      "maggio"
+    ],
+    "pairs": [
+      [
+        "sono",
+        "sonno"
+      ],
+      [
+        "pena",
+        "penna"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Domani vado ___ Roma.",
+      "es": "Mañana voy a Roma.",
+      "options": [
+        "a",
+        "in",
+        "da"
+      ],
+      "answer": "a",
+      "why": "Con ciudades: a. Vado a Roma.",
+      "g": "it-g-andare-a-in"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Andiamo ___ Sicilia in nave.",
+      "es": "Vamos a Sicilia en barco.",
+      "options": [
+        "in",
+        "a",
+        "da"
+      ],
+      "answer": "in",
+      "why": "Con países, regiones e islas grandes: in. In Sicilia.",
+      "g": "it-g-andare-a-in"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Torno a casa ___ piedi.",
+      "es": "Vuelvo a casa andando.",
+      "options": [
+        "a",
+        "in",
+        "con"
+      ],
+      "answer": "a",
+      "why": "A pie es una excepción: a piedi, nunca «in piedi» (eso es «de pie»).",
+      "g": "it-g-andare-a-in"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Domani vado ___ Carmen.",
+      "es": "Mañana voy a casa de Carmen.",
+      "options": [
+        "da",
+        "a",
+        "in"
+      ],
+      "answer": "da",
+      "why": "Ir a casa de alguien: andare da + persona.",
+      "g": "it-g-andare-a-in"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Vado in centro ___ autobus.",
+      "es": "Voy al centro en autobús.",
+      "answer": [
+        "in"
+      ],
+      "bank": [
+        "in",
+        "a",
+        "da"
+      ],
+      "why": "Medios de transporte: in autobus, in treno, in macchina.",
+      "g": "it-g-andare-a-in"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Tanti italiani lavorano ___ Germania.",
+      "es": "Muchos italianos trabajan en Alemania.",
+      "answer": [
+        "in"
+      ],
+      "why": "Con países: in. In Germania, in Spagna.",
+      "g": "it-g-andare-a-in"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Stasera andiamo ___ Napoli.",
+      "es": "Esta noche vamos a Nápoles.",
+      "answer": [
+        "a"
+      ],
+      "why": "Ciudad → a: a Napoli.",
+      "g": "it-g-andare-a-in"
+    },
+    {
+      "id": "e8",
+      "type": "match",
+      "pairs": [
+        [
+          "in treno",
+          "en tren"
+        ],
+        [
+          "a piedi",
+          "a pie"
+        ],
+        [
+          "in macchina",
+          "en coche"
+        ],
+        [
+          "in aereo",
+          "en avión"
+        ],
+        [
+          "in bici",
+          "en bici"
+        ]
+      ],
+      "why": "Todos llevan in… menos a piedi."
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Vado in Roma domani.",
+      "wrong": "in",
+      "fix": "a",
+      "why": "Con ciudades no se usa in: vado a Roma.",
+      "g": "it-g-andare-a-in"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Andiamo a Sicilia ad agosto.",
+      "wrong": "a",
+      "fix": "in",
+      "why": "Sicilia es una región: in Sicilia.",
+      "g": "it-g-andare-a-in"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Voy a la estación andando.",
+      "answer": [
+        "Vado in stazione a piedi.",
+        "Vado alla stazione a piedi.",
+        "Io vado in stazione a piedi."
+      ],
+      "why": "In stazione (sin artículo, como in centro) y a piedi.",
+      "g": "it-g-andare-a-in"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "Vamos a Palermo en tren.",
+      "answer": "Andiamo a Palermo in treno",
+      "alt": [
+        "Andiamo in treno a Palermo"
+      ],
+      "extra": [
+        "con"
+      ],
+      "why": "A + ciudad, in + transporte.",
+      "g": "it-g-andare-a-in"
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "sono",
+        "sonno"
+      ],
+      "answer": "sonno",
+      "es": [
+        "soy / son",
+        "sueño"
+      ],
+      "why": "Sonno tiene doble n: se alarga. ¡Sono stanca, ho sonno!"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Un italiano te pregunta: «Come vai a Napoli?». Vas en tren.",
+      "emoji": "🚆",
+      "options": [
+        "Vado in treno.",
+        "Vado a treno.",
+        "Vado con treno."
+      ],
+      "answer": "Vado in treno.",
+      "why": "Medio de transporte → in: in treno.",
+      "g": "it-g-andare-a-in"
+    },
+    {
+      "id": "e15",
+      "type": "transform",
+      "instr": "Cambia el medio: en coche",
+      "q": "Vado a Bari in treno.",
+      "answer": [
+        "Vado a Bari in macchina."
+      ],
+      "why": "En coche = in macchina.",
+      "g": "it-g-andare-a-in"
+    }
+  ],
+  "dialog": {
+    "title": "¿Cómo vamos?",
+    "setting": "Yolanda y su amiga Carla preparan una excursión por Sicilia",
+    "emoji": "🗺️",
+    "lines": [
+      {
+        "who": "Carla",
+        "t": "Sabato vado da mia madre a Siracusa. Vieni anche tu?",
+        "es": "El sábado voy a casa de mi madre, a Siracusa. ¿Vienes tú también?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Volentieri! Andiamo in macchina?",
+        "es": "¡Encantada! ¿Vamos en coche?"
+      },
+      {
+        "who": "Carla",
+        "t": "No, in treno. È più comodo.",
+        "es": "No, en tren. Es más cómodo."
+      },
+      {
+        "who": "Yolanda",
+        "t": "E dalla stazione?",
+        "es": "¿Y desde la estación?"
+      },
+      {
+        "who": "Carla",
+        "t": "Andiamo a piedi. Mia madre abita in centro.",
+        "es": "Vamos andando. Mi madre vive en el centro."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Che bello! Io porto un dolce spagnolo.",
+        "es": "¡Qué bien! Yo llevo un dulce español."
+      },
+      {
+        "who": "Carla",
+        "t": "Brava! E porta il costume: andiamo anche al mare.",
+        "es": "¡Genial! Y trae el bañador: también vamos a la playa."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfetto, allora a sabato!",
+        "es": "¡Perfecto, hasta el sábado!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿A casa de quién van?",
+        "options": [
+          "De la madre de Carla",
+          "De la hermana de Carla",
+          "De una amiga"
+        ],
+        "answer": "De la madre de Carla"
+      },
+      {
+        "q": "¿Cómo van a Siracusa?",
+        "options": [
+          "En tren",
+          "En coche",
+          "En barco"
+        ],
+        "answer": "En tren"
+      },
+      {
+        "q": "¿Cómo van desde la estación?",
+        "options": [
+          "Andando",
+          "En autobús",
+          "En taxi"
+        ],
+        "answer": "Andando"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Andiamo a piedi?",
+    "es": "¿Vamos andando?",
+    "context": "Para proponer ir caminando cuando el sitio está cerca"
+  },
+  "same": {
+    "text": "Igual que en español: a + ciudad y «en» + medio de transporte.",
+    "examples": [
+      {
+        "t": "Vado a Roma.",
+        "es": "Voy a Roma."
+      },
+      {
+        "t": "in treno",
+        "es": "en tren"
+      },
+      {
+        "t": "in aereo",
+        "es": "en avión"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "la macchina",
+    "means": "el coche",
+    "looksLike": "la máquina",
+    "emoji": "🚗",
+    "tip": "La macchina es el coche de todos los días. La lavadora es la lavatrice, y la cámara de fotos, la macchina fotografica."
+  },
+  "summary": [
+    "Ciudades: a Roma, a Napoli",
+    "Países y regiones: in Italia, in Sicilia",
+    "Transporte: in treno, in macchina… pero a piedi",
+    "A casa de alguien: da mia sorella",
+    "Dobles bien marcadas: viaggio, oggi, sonno"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u08-l4"
+}

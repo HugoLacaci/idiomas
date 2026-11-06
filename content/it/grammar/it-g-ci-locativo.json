@@ -1,0 +1,119 @@
+{
+  "id": "it-g-ci-locativo",
+  "lang": "it",
+  "level": "A2",
+  "title": "El ci de lugar: ci vado, ci sono stata",
+  "short": "Ci = allí, a ese sitio. Va delante del verbo para no repetir el lugar: Venezia? Ci vado domani!",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Una palabrita que ahorra mucho",
+      "emoji": "📍",
+      "text": "—Vai a Venezia? —Sì, ==ci vado== domani. *Ci* sustituye al lugar del que ya hablamos, como nuestro «allí»… pero los italianos lo usan siempre.",
+      "examples": [
+        { "t": "Venezia? ==Ci== vado a maggio.", "es": "¿Venecia? Voy (allí) en mayo.", "hl": "Ci" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Dónde va",
+      "emoji": "➡️",
+      "text": "Como los pronombres: ==delante del verbo==. Con no: ==non ci== vado. Con infinitivo, pegado al final: voglio andar==ci== (o ==ci== voglio andare).",
+      "examples": [
+        { "t": "Non ci vado mai in agosto.", "es": "No voy nunca en agosto." },
+        { "t": "Devo tornarci con mio marito.", "es": "Tengo que volver allí con mi marido." }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Ci con varios tiempos",
+      "emoji": "🗓️",
+      "text": "El *ci* no cambia nunca; solo cambia el verbo.",
+      "table": {
+        "head": ["Tiempo", "Italiano", "Español"],
+        "rows": [
+          ["presente", "==ci== vado", "voy (allí)"],
+          ["futuro", "==ci== andrò", "iré (allí)"],
+          ["passato prossimo", "==ci== sono stata", "he estado (allí)"],
+          ["negativa", "non ==ci== torno", "no vuelvo (allí)"],
+          ["infinitivo", "voglio andar==ci==", "quiero ir (allí)"]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "En español lo callamos",
+      "emoji": "🇪🇸",
+      "text": "En español decimos «¿Has estado en Venecia? Sí, he estado». En italiano queda raro sin ci: ==Ci sono stata==.",
+      "examples": [
+        { "t": "Sei mai stata a Venezia? Sì, ci sono stata due volte.", "es": "¿Has estado alguna vez en Venecia? Sí, he estado dos veces." }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Verbos que lo piden",
+      "emoji": "🧭",
+      "text": "Sobre todo con verbos de lugar: ==andare, venire, tornare, restare, abitare, stare, essere stato==. Y una pareja famosa: ==ci vuole== = hace falta, se tarda.",
+      "examples": [
+        { "t": "Ci abito da trent'anni.", "es": "Vivo allí desde hace treinta años." },
+        { "t": "Quanto ci vuole per Murano?", "es": "¿Cuánto se tarda hasta Murano?" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Vado ci domani* → ✅ ==ci vado== domani. ❌ *Ci non vado* → ✅ ==non ci== vado. ❌ *Sì, sono stata* → ✅ sì, ==ci== sono stata."
+    },
+    {
+      "kind": "tip",
+      "title": "Ce l'hai? Otra historia",
+      "emoji": "💡",
+      "text": "Ya conoces ==c'è / ci sono== (hay). Es el mismo *ci*, que también se cuela en *ce l'ho*. Por ahora quédate con el de lugar: ==ci vado, ci torno, ci resto==."
+    }
+  ],
+  "compare": {
+    "es": "En español no solemos repetir el lugar: «¿Vas a Venecia? Sí, voy mañana». A veces decimos «allí».",
+    "target": "En italiano se pone ci delante del verbo: «Vai a Venezia? Sì, ci vado domani». Con no: non ci vado. Con infinitivo: voglio andarci."
+  },
+  "errors": [
+    { "wrong": "Vai a Venezia? Sì, vado ci domani.", "right": "Vai a Venezia? Sì, ci vado domani.", "why": "Ci va delante del verbo conjugado." },
+    { "wrong": "Ci non vado mai d'estate.", "right": "Non ci vado mai d'estate.", "why": "Non va siempre primero: non ci vado." },
+    { "wrong": "Sei stata a Burano? Sì, sono stata ieri.", "right": "Sei stata a Burano? Sì, ci sono stata ieri.", "why": "En italiano se dice el ci: ci sono stata." },
+    { "wrong": "Voglio ci andare con mio marito.", "right": "Voglio andarci con mio marito.", "why": "Con infinitivo, ci se pega al final (andarci) o va antes de voglio (ci voglio andare)." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Vai a Venezia? Sì, ___ vado domani.", "es": "¿Vas a Venecia? Sí, voy mañana.", "options": ["ci", "ne", "lo"], "answer": "ci", "why": "Ci sustituye al lugar: ci vado.", "g": "it-g-ci-locativo" },
+    { "id": "e2", "type": "choose", "q": "Sei mai stata a Murano? No, non ___ sono mai stata.", "es": "¿Has estado alguna vez en Murano? No, nunca he estado.", "options": ["ci", "la", "ne"], "answer": "ci", "why": "Non ci sono mai stata: ci = allí.", "g": "it-g-ci-locativo" },
+    { "id": "e3", "type": "choose", "q": "Quando torni al paese? ___ martedì.", "es": "¿Cuándo vuelves al pueblo? Vuelvo el martes.", "options": ["Ci torno", "Torno ci", "Lo torno"], "answer": "Ci torno", "why": "Ci delante del verbo: ci torno.", "g": "it-g-ci-locativo" },
+    { "id": "e4", "type": "choose", "q": "Il Lido è bellissimo: voglio ___ con le amiche.", "es": "El Lido es precioso: quiero ir con mis amigas.", "options": ["andarci", "ci andare", "andare ci"], "answer": "andarci", "why": "Con infinitivo, ci va pegado: andarci.", "g": "it-g-ci-locativo" },
+    { "id": "e5", "type": "choose", "q": "Venezia? Non ___ mai d'agosto!", "es": "¿Venecia? ¡No voy nunca en agosto!", "options": ["ci vado", "vado ci", "ci non vado"], "answer": "ci vado", "why": "Non + ci + verbo: non ci vado.", "g": "it-g-ci-locativo" },
+    { "id": "e6", "type": "choose", "q": "Quanto ___ vuole per arrivare a Burano?", "es": "¿Cuánto se tarda en llegar a Burano?", "options": ["ci", "si", "ne"], "answer": "ci", "why": "Ci vuole = se tarda, hace falta.", "g": "it-g-ci-locativo" },
+    { "id": "e7", "type": "choose", "q": "La mia amica abita a Roma e ___ abita da cinque anni.", "es": "Mi amiga vive en Roma y vive allí desde hace cinco años.", "options": ["ci", "lo", "gli"], "answer": "ci", "why": "Ci = allí, en Roma.", "g": "it-g-ci-locativo" },
+    { "id": "e8", "type": "fill", "q": "Sei stata a Burano? Sì, ___ sono stata ieri.", "es": "¿Has estado en Burano? Sí, estuve ayer.", "answer": ["ci"], "bank": ["ci", "ne", "la"], "why": "Ci sono stata = he estado allí.", "g": "it-g-ci-locativo" },
+    { "id": "e9", "type": "fill", "q": "Andrete al mercato di Rialto? Sì, ___ andremo domani.", "es": "¿Iréis al mercado de Rialto? Sí, iremos mañana.", "answer": ["ci"], "bank": ["ci", "lo", "gli"], "why": "Ci + futuro: ci andremo.", "g": "it-g-ci-locativo" },
+    { "id": "e10", "type": "fill", "q": "Venezia mi è piaciuta tanto: ci ___ l'anno prossimo!", "es": "Venecia me ha gustado mucho: ¡volveré el año que viene!", "answer": ["tornerò", "andrò", "ritornerò"], "hint": "tornare, futuro", "why": "Ci tornerò = volveré allí.", "g": "it-g-ci-locativo" },
+    { "id": "e11", "type": "fill", "q": "Il museo è chiuso: non ci ___ entrare oggi.", "es": "El museo está cerrado: hoy no podemos entrar.", "answer": ["possiamo"], "bank": ["possiamo", "potete", "possono"], "why": "Noi → possiamo; ci va delante: non ci possiamo entrare.", "g": "it-g-ci-locativo" },
+    { "id": "e12", "type": "fill", "q": "In albergo ci ___ tre notti.", "es": "En el hotel nos quedaremos tres noches.", "answer": ["resteremo", "staremo", "rimarremo"], "hint": "restare, noi, futuro", "why": "Ci resteremo = nos quedaremos allí.", "g": "it-g-ci-locativo" },
+    { "id": "e13", "type": "fill", "q": "Il ristorante è buono: dobbiamo ___ con Hugo.", "es": "El restaurante es bueno: tenemos que volver con Hugo.", "answer": ["tornarci", "ritornarci", "andarci"], "hint": "tornare + ci", "why": "Con infinitivo: tornarci.", "g": "it-g-ci-locativo" },
+    { "id": "e14", "type": "error", "q": "Vai al Lido? Sì, lo vado domani.", "wrong": "lo", "fix": "ci", "why": "Para un lugar no se usa lo, sino ci: ci vado domani.", "g": "it-g-ci-locativo" },
+    { "id": "e15", "type": "error", "q": "Ci non sono mai stata.", "wrong": "Ci", "fix": "Non", "why": "Non va primero: non ci sono mai stata.", "g": "it-g-ci-locativo" },
+    { "id": "e16", "type": "error", "q": "A Venezia ne sono stata da giovane.", "wrong": "ne", "fix": "ci", "why": "Para un lugar: ci sono stata.", "g": "it-g-ci-locativo" },
+    { "id": "e17", "type": "error", "q": "Quanto ci volono per arrivare?", "wrong": "volono", "fix": "vuole", "why": "Ci vuole (singular) o ci vogliono (plural); volono no existe.", "g": "it-g-ci-locativo" },
+    { "id": "e18", "type": "transform", "instr": "Sustituye el lugar por ci", "q": "Vado a Venezia a giugno.", "answer": ["Ci vado a giugno."], "why": "A Venezia → ci, delante del verbo.", "g": "it-g-ci-locativo" },
+    { "id": "e19", "type": "transform", "instr": "Sustituye el lugar por ci", "q": "Sono stata a Burano con le amiche.", "answer": ["Ci sono stata con le amiche."], "why": "A Burano → ci sono stata.", "g": "it-g-ci-locativo" },
+    { "id": "e20", "type": "transform", "instr": "Sustituye el lugar por ci", "q": "Non torno più in quell'albergo.", "answer": ["Non ci torno più."], "why": "Non + ci + verbo.", "g": "it-g-ci-locativo" },
+    { "id": "e21", "type": "transform", "instr": "Sustituye el lugar por ci", "q": "Voglio andare a Murano.", "answer": ["Voglio andarci.", "Ci voglio andare."], "why": "Andarci o ci voglio andare: las dos valen.", "g": "it-g-ci-locativo" },
+    { "id": "e22", "type": "transform", "instr": "Pásala a futuro", "q": "Ci andiamo in vaporetto.", "answer": ["Ci andremo in vaporetto."], "why": "Andiamo → andremo; ci no se mueve.", "g": "it-g-ci-locativo" },
+    { "id": "e23", "type": "order", "es": "Sí, he estado dos veces.", "answer": "Sì ci sono stata due volte", "extra": ["ne"], "why": "Ci delante de sono stata.", "g": "it-g-ci-locativo" },
+    { "id": "e24", "type": "order", "es": "No vamos nunca en invierno.", "answer": "Non ci andiamo mai d'inverno", "alt": ["D'inverno non ci andiamo mai"], "extra": ["lo"], "why": "Non + ci + verbo + mai.", "g": "it-g-ci-locativo" },
+    { "id": "e25", "type": "order", "es": "¿Cuánto se tarda en vaporetto?", "answer": "Quanto ci vuole in vaporetto", "extra": ["si"], "why": "Ci vuole = se tarda.", "g": "it-g-ci-locativo" },
+    { "id": "e26", "type": "translate", "dir": "to", "q": "¿Venecia? Voy en mayo.", "answer": ["Venezia? Ci vado a maggio.", "Venezia? Ci vado in maggio."], "why": "Ci vado: no repites el lugar.", "g": "it-g-ci-locativo" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "Nunca he estado en Burano.", "answer": ["Non sono mai stata a Burano.", "Non ci sono mai stata."], "why": "Si nombras el lugar no hace falta ci; si no, non ci sono mai stata.", "g": "it-g-ci-locativo" },
+    { "id": "e28", "type": "translate", "dir": "from", "q": "Ci torneremo l'anno prossimo.", "answer": ["Volveremos el año que viene.", "Volveremos allí el año que viene.", "Volveremos el año próximo."], "why": "Ci torneremo = volveremos (allí).", "g": "it-g-ci-locativo" },
+    { "id": "e29", "type": "situation", "context": "Una señora italiana te pregunta si has estado alguna vez en Venecia. Sí, una vez.", "emoji": "🛶", "options": ["Sì, ci sono stata una volta.", "Sì, sono ci stata una volta.", "Sì, ne sono stata una volta."], "answer": "Sì, ci sono stata una volta.", "why": "Ci + sono stata.", "g": "it-g-ci-locativo" },
+    { "id": "e30", "type": "situation", "context": "Tu marido pregunta si vais al mercado hoy. Le dices que no, que iréis mañana.", "emoji": "🐟", "options": ["No, ci andiamo domani.", "No, andiamo ci domani.", "No, lo andiamo domani."], "answer": "No, ci andiamo domani.", "why": "Ci andiamo: el mercado ya se ha nombrado.", "g": "it-g-ci-locativo" },
+    { "id": "e31", "type": "match", "pairs": [["ci vado", "voy (allí)"], ["ci andrò", "iré (allí)"], ["ci sono stata", "he estado (allí)"], ["non ci torno", "no vuelvo (allí)"], ["ci vuole", "se tarda, hace falta"]], "why": "El ci de lugar con distintos verbos y tiempos.", "g": "it-g-ci-locativo" }
+  ],
+  "reviewed": false
+}

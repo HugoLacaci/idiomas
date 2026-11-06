@@ -1,0 +1,68 @@
+{
+  "id": "it-b1-u07-c2",
+  "unit": "it-b1-u07",
+  "title": "Si me tocara la lotería…",
+  "setting": "Giulia y tú pasáis por delante de un estanco de Roma y empezáis a soñar",
+  "emoji": "🎰",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, tu giochi mai alla lotteria?", "es": "Yolanda, ¿tú juegas alguna vez a la lotería?" },
+      "options": [
+        { "t": "Sì, a Natale gioco sempre con la famiglia.", "es": "Sí, en Navidad siempre juego con la familia.", "next": "n2", "ok": true },
+        { "t": "Sì, a Natale giocassi sempre con la famiglia.", "es": "Sí, en Navidad jugara siempre con la familia.", "next": "n2", "ok": false, "feedback": "Para una costumbre real, presente: gioco." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "E se vincessi un milione, cosa faresti per prima cosa?", "es": "¿Y si ganaras un millón, qué harías primero?" },
+      "options": [
+        { "t": "Aiuterei mio figlio e farei un bel viaggio.", "es": "Ayudaría a mi hijo y haría un buen viaje.", "next": "n3", "ok": true },
+        { "t": "Aiutassi mio figlio e facessi un bel viaggio.", "es": "Ayudara a mi hijo e hiciera un buen viaje.", "next": "n3", "ok": false, "feedback": "Lo que harías va en condicional: aiuterei, farei." },
+        { "t": "Aiuterò mio figlio e farò un bel viaggio.", "es": "Ayudaré a mi hijo y haré un buen viaje.", "next": "n3", "ok": false, "feedback": "Eso es futuro. Para un sueño, condicional: aiuterei, farei." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "E dove andresti?", "es": "¿Y adónde irías?" },
+      "options": [
+        { "t": "Se potessi scegliere, andrei in Sardegna.", "es": "Si pudiera elegir, iría a Cerdeña.", "next": "n4", "ok": true },
+        { "t": "Se potrei scegliere, andrei in Sardegna.", "es": "Si podría elegir, iría a Cerdeña.", "next": "n4", "ok": false, "feedback": "Detrás de se, congiuntivo imperfetto: se potessi." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "La Sardegna! Lo sai che ci sono i nuraghi? Torri di pietra di più di tremila anni.", "es": "¡Cerdeña! ¿Sabes que allí hay nuraghi? Torres de piedra de más de tres mil años." },
+      "options": [
+        { "t": "Che meraviglia! Se ci andassi, li visiterei tutti.", "es": "¡Qué maravilla! Si fuera, los visitaría todos.", "next": "n5", "ok": true },
+        { "t": "Che meraviglia! Se ci andrei, li visiterei tutti.", "es": "¡Qué maravilla! Si iría, los visitaría todos.", "next": "n5", "ok": false, "feedback": "Igual que en español no decimos «si iría»: se ci andassi." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "E smetteresti di lavorare?", "es": "¿Y dejarías de trabajar?" },
+      "options": [
+        { "t": "Forse sì! Se fossi milionaria, mi godrei la vita.", "es": "¡Quizá sí! Si fuera millonaria, disfrutaría de la vida.", "next": "n6", "ok": true },
+        { "t": "Forse sì! Se sarei milionaria, mi godrei la vita.", "es": "¡Quizá sí! Si sería millonaria, disfrutaría de la vida.", "next": "n6", "ok": false, "feedback": "Nunca condicional detrás de se: se fossi." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ahah! E a me cosa regaleresti?", "es": "¡Jaja! ¿Y a mí qué me regalarías?" },
+      "options": [
+        { "t": "Se vincessi, ti regalerei un viaggio con me!", "es": "¡Si ganara, te regalaría un viaje conmigo!", "next": "n7", "ok": true },
+        { "t": "Se vincessi, ti regalassi un viaggio con me!", "es": "¡Si ganara, te regalara un viaje conmigo!", "next": "n7", "ok": false, "feedback": "La segunda parte va en condicional: ti regalerei." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Che amica! Allora domani compro il biglietto anch'io. Non si sa mai!", "es": "¡Qué amiga! Pues mañana compro el billete yo también. ¡Nunca se sabe!" },
+      "options": [
+        { "t": "Brava! E se vinci tu, mi inviti a cena!", "es": "¡Muy bien! ¡Y si ganas tú, me invitas a cenar!", "next": "end", "ok": true },
+        { "t": "Brava! E se vinceresti tu, mi inviti a cena!", "es": "¡Muy bien! ¡Y si ganarías tú, me invitas a cenar!", "next": "end", "ok": false, "feedback": "Aquí es algo real: se + presente (se vinci)." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

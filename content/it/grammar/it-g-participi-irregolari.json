@@ -1,0 +1,144 @@
+{
+  "id": "it-g-participi-irregolari",
+  "lang": "it",
+  "level": "A2",
+  "title": "Participios irregulares (fatto, visto, preso…)",
+  "short": "Los participios que no siguen la regla: fatto, detto, scritto, letto, visto, preso, aperto, messo…",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Los rebeldes",
+      "emoji": "😈",
+      "text": "Como en español (hecho, dicho, visto), en italiano hay participios que no terminan en -ato, -uto, -ito. Los más usados son pocos y se repiten mucho.",
+      "examples": [
+        { "t": "Cosa hai ==fatto== oggi?", "es": "¿Qué has hecho hoy?", "hl": "fatto" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Familia -tto",
+      "emoji": "✍️",
+      "text": "Terminan en ==-tto==, con doble t:",
+      "table": {
+        "head": ["Infinitivo", "Participio", "Español"],
+        "rows": [
+          ["fare", "fa==tto==", "hecho"],
+          ["dire", "de==tto==", "dicho"],
+          ["scrivere", "scri==tto==", "escrito"],
+          ["leggere", "le==tto==", "leído"],
+          ["rompere", "ro==tto==", "roto"]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Familia -so y -sto",
+      "emoji": "👀",
+      "text": "Terminan en ==-so== o ==-sto==:",
+      "table": {
+        "head": ["Infinitivo", "Participio", "Español"],
+        "rows": [
+          ["prendere", "pre==so==", "cogido / tomado"],
+          ["chiudere", "chiu==so==", "cerrado"],
+          ["spendere", "spe==so==", "gastado"],
+          ["perdere", "per==so==", "perdido"],
+          ["vedere", "vi==sto==", "visto"],
+          ["chiedere", "chie==sto==", "preguntado / pedido"],
+          ["rispondere", "rispo==sto==", "respondido"]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Otros muy útiles",
+      "emoji": "🎨",
+      "text": "Estos van sueltos; apréndelos con una frase.",
+      "table": {
+        "head": ["Infinitivo", "Participio", "Ejemplo"],
+        "rows": [
+          ["aprire", "==aperto==", "Hanno aperto la sala."],
+          ["mettere", "==messo==", "Ho messo la giacca."],
+          ["dipingere", "==dipinto==", "Ha dipinto un ritratto."],
+          ["scegliere", "==scelto==", "Ho scelto un libro."],
+          ["bere", "==bevuto==", "Ho bevuto un caffè."]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "Muchos se parecen",
+      "emoji": "🇪🇸",
+      "text": "Hecho → ==fatto==, dicho → ==detto==, escrito → ==scritto==, abierto → ==aperto==, visto → ==visto==. Si el español es irregular, sospecha del italiano.",
+      "examples": [
+        { "t": "Ho scritto una cartolina.", "es": "He escrito una postal." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Ho prenduto* → ✅ ho ==preso==. ❌ *Ho apruto* → ✅ ho ==aperto==. ❌ *Ho fato* → ✅ ho fa==tt==o. ❌ *Ho mettuto* → ✅ ho ==messo==."
+    },
+    {
+      "kind": "tip",
+      "title": "Truco de pronunciación",
+      "emoji": "🗣️",
+      "text": "En *fatto, detto, scritto, letto* para un instante en la doble: «fat-to», «let-to». Si no, ¡*letto* parece *leto*!",
+      "examples": [
+        { "t": "Ho letto e ho scritto.", "es": "He leído y he escrito." }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español también hay participios irregulares: hecho, dicho, escrito, visto, abierto, puesto, roto.",
+    "target": "En italiano: fatto, detto, scritto, visto, aperto, messo, rotto… y algunos más: preso (prendere), chiuso (chiudere), letto (leggere)."
+  },
+  "errors": [
+    { "wrong": "Ho prenduto l'audioguida.", "right": "Ho preso l'audioguida.", "why": "Prendere tiene participio irregular: preso." },
+    { "wrong": "Hanno apruto una nuova sala.", "right": "Hanno aperto una nuova sala.", "why": "Aprire → aperto, como «abierto»." },
+    { "wrong": "Ho fato tante foto.", "right": "Ho fatto tante foto.", "why": "Fatto lleva doble t, y se nota al pronunciar." },
+    { "wrong": "Ho mettuto il biglietto in borsa.", "right": "Ho messo il biglietto in borsa.", "why": "Mettere → messo." },
+    { "wrong": "Ho leggiuto la guida.", "right": "Ho letto la guida.", "why": "Leggere → letto." },
+    { "wrong": "Ho chiedito un'informazione.", "right": "Ho chiesto un'informazione.", "why": "Chiedere → chiesto." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Ho ___ tante foto al museo.", "es": "He hecho muchas fotos en el museo.", "options": ["fatto", "fato", "faciuto"], "answer": "fatto", "why": "Fare → fatto, con doble t.", "g": "it-g-participi-irregolari" },
+    { "id": "e2", "type": "choose", "q": "Abbiamo ___ il David di Michelangelo.", "es": "Hemos visto el David de Miguel Ángel.", "options": ["visto", "veduto", "vedato"], "answer": "visto", "why": "Vedere → visto.", "g": "it-g-participi-irregolari" },
+    { "id": "e3", "type": "choose", "q": "Ho ___ l'audioguida in spagnolo.", "es": "He cogido la audioguía en español.", "options": ["preso", "prenduto", "prendato"], "answer": "preso", "why": "Prendere → preso.", "g": "it-g-participi-irregolari" },
+    { "id": "e4", "type": "choose", "q": "Hanno ___ una nuova sala.", "es": "Han abierto una sala nueva.", "options": ["aperto", "aprito", "apruto"], "answer": "aperto", "why": "Aprire → aperto.", "g": "it-g-participi-irregolari" },
+    { "id": "e5", "type": "choose", "q": "Hai ___ la guida del museo?", "es": "¿Has leído la guía del museo?", "options": ["letto", "leggiuto", "leggito"], "answer": "letto", "why": "Leggere → letto.", "g": "it-g-participi-irregolari" },
+    { "id": "e6", "type": "choose", "q": "La guida ha ___ una cosa interessante.", "es": "La guía ha dicho una cosa interesante.", "options": ["detto", "dito", "diciuto"], "answer": "detto", "why": "Dire → detto.", "g": "it-g-participi-irregolari" },
+    { "id": "e7", "type": "choose", "q": "Ho ___ una cartolina a mio figlio.", "es": "He escrito una postal a mi hijo.", "options": ["scritto", "scrivuto", "scrivito"], "answer": "scritto", "why": "Scrivere → scritto.", "g": "it-g-participi-irregolari" },
+    { "id": "e8", "type": "choose", "q": "Quanto hai ___ al negozio del museo?", "es": "¿Cuánto has gastado en la tienda del museo?", "options": ["speso", "spenduto", "spendito"], "answer": "speso", "why": "Spendere → speso.", "g": "it-g-participi-irregolari" },
+    { "id": "e9", "type": "choose", "q": "Botticelli ha ___ la Nascita di Venere.", "es": "Botticelli pintó El nacimiento de Venus.", "options": ["dipinto", "dipinguto", "dipingito"], "answer": "dipinto", "why": "Dipingere → dipinto.", "g": "it-g-participi-irregolari" },
+    { "id": "e10", "type": "fill", "q": "Il custode ha ___ la porta alle sei.", "es": "El vigilante ha cerrado la puerta a las seis.", "answer": ["chiuso"], "bank": ["chiuso", "chiudito", "chiuduto"], "why": "Chiudere → chiuso.", "g": "it-g-participi-irregolari" },
+    { "id": "e11", "type": "fill", "q": "Ho ___ il biglietto in borsa.", "es": "He metido la entrada en el bolso.", "answer": ["messo"], "bank": ["messo", "mettuto", "mettito"], "why": "Mettere → messo.", "g": "it-g-participi-irregolari" },
+    { "id": "e12", "type": "fill", "q": "Ho ___ un'informazione alla guida.", "es": "He pedido una información a la guía.", "answer": ["chiesto"], "bank": ["chiesto", "chiedito", "chieduto"], "why": "Chiedere → chiesto.", "g": "it-g-participi-irregolari" },
+    { "id": "e13", "type": "fill", "q": "Mio marito ha ___ il biglietto!", "es": "¡Mi marido ha perdido la entrada!", "answer": ["perso", "perduto"], "bank": ["perso", "perdito", "perdato"], "why": "Perdere → perso (también perduto).", "g": "it-g-participi-irregolari" },
+    { "id": "e14", "type": "fill", "q": "Abbiamo ___ un caffè al bar del museo.", "es": "Nos hemos tomado un café en el bar del museo.", "answer": ["bevuto", "preso"], "hint": "bere", "why": "Bere → bevuto.", "g": "it-g-participi-irregolari" },
+    { "id": "e15", "type": "fill", "q": "Hai ___ un ricordo per Hugo?", "es": "¿Has elegido un recuerdo para Hugo?", "answer": ["scelto"], "hint": "scegliere", "why": "Scegliere → scelto.", "g": "it-g-participi-irregolari" },
+    { "id": "e16", "type": "fill", "q": "Le mie amiche non hanno ___ al messaggio.", "es": "Mis amigas no han contestado al mensaje.", "answer": ["risposto"], "hint": "rispondere", "why": "Rispondere → risposto.", "g": "it-g-participi-irregolari" },
+    { "id": "e17", "type": "fill", "q": "Chi ha ___ questa statua?", "es": "¿Quién ha hecho esta estatua?", "answer": ["fatto", "scolpito"], "hint": "fare", "why": "Fare → fatto.", "g": "it-g-participi-irregolari" },
+    { "id": "e18", "type": "error", "q": "Ho prenduto un taxi per il museo.", "wrong": "prenduto", "fix": "preso", "why": "Prendere → preso.", "g": "it-g-participi-irregolari" },
+    { "id": "e19", "type": "error", "q": "Abbiamo vedito la Venere di Botticelli.", "wrong": "vedito", "fix": "visto", "why": "Vedere → visto.", "g": "it-g-participi-irregolari" },
+    { "id": "e20", "type": "error", "q": "Il museo ha apruto alle nove.", "wrong": "apruto", "fix": "aperto", "why": "Aprire → aperto.", "g": "it-g-participi-irregolari" },
+    { "id": "e21", "type": "error", "q": "Ho scrivuto il nome sul libro dei visitatori.", "wrong": "scrivuto", "fix": "scritto", "why": "Scrivere → scritto.", "g": "it-g-participi-irregolari" },
+    { "id": "e22", "type": "error", "q": "Cosa ha dito la guida?", "wrong": "dito", "fix": "detto", "why": "Dire → detto, con doble t.", "g": "it-g-participi-irregolari" },
+    { "id": "e23", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Faccio una foto alla cupola.", "answer": ["Ho fatto una foto alla cupola."], "why": "Faccio → ho fatto.", "g": "it-g-participi-irregolari" },
+    { "id": "e24", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Leggiamo la guida.", "answer": ["Abbiamo letto la guida."], "why": "Leggiamo → abbiamo letto.", "g": "it-g-participi-irregolari" },
+    { "id": "e25", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Prendi l'audioguida?", "answer": ["Hai preso l'audioguida?"], "why": "Prendi → hai preso.", "g": "it-g-participi-irregolari" },
+    { "id": "e26", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Le sale chiudono presto.", "answer": ["Le sale hanno chiuso presto."], "why": "Chiudono → hanno chiuso.", "g": "it-g-participi-irregolari" },
+    { "id": "e27", "type": "order", "es": "Hemos visto cuadros preciosos.", "answer": "Abbiamo visto dei quadri bellissimi", "alt": ["Abbiamo visto quadri bellissimi"], "extra": ["veduto"], "why": "Abbiamo + visto.", "g": "it-g-participi-irregolari" },
+    { "id": "e28", "type": "order", "es": "¿Qué te ha dicho la guía?", "answer": "Cosa ti ha detto la guida", "extra": ["dito"], "why": "Ha + detto.", "g": "it-g-participi-irregolari" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "He escrito un mensaje a mi hijo.", "answer": ["Ho scritto un messaggio a mio figlio."], "why": "Scrivere → scritto.", "g": "it-g-participi-irregolari" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "¿Qué has hecho hoy?", "answer": ["Cosa hai fatto oggi?", "Che cosa hai fatto oggi?", "Che hai fatto oggi?"], "why": "Fare → fatto.", "g": "it-g-participi-irregolari" },
+    { "id": "e31", "type": "translate", "dir": "from", "q": "Ho perso l'ombrello al museo.", "answer": ["He perdido el paraguas en el museo.", "Perdí el paraguas en el museo."], "why": "Perso = perdido.", "g": "it-g-participi-irregolari" },
+    { "id": "e32", "type": "situation", "context": "Al salir del museo, una amiga te pregunta qué has visto. Has visto la Venus de Botticelli.", "emoji": "🐚", "options": ["Ho visto la Venere di Botticelli.", "Ho veduto la Venere di Botticelli.", "Vedo la Venere di Botticelli ieri."], "answer": "Ho visto la Venere di Botticelli.", "why": "Vedere → visto; veduto existe pero casi no se usa.", "g": "it-g-participi-irregolari" },
+    { "id": "e33", "type": "situation", "context": "En el guardarropa no encuentras tu resguardo y se lo explicas al empleado.", "emoji": "🧥", "options": ["Scusi, ho perso lo scontrino.", "Scusi, ho perdito lo scontrino.", "Scusi, perdo lo scontrino ieri."], "answer": "Scusi, ho perso lo scontrino.", "why": "Perdere → perso.", "g": "it-g-participi-irregolari" },
+    { "id": "e34", "type": "match", "pairs": [["fare", "fatto"], ["dire", "detto"], ["prendere", "preso"], ["aprire", "aperto"], ["mettere", "messo"]], "why": "Estos cinco salen muchísimo: apréndelos de memoria.", "g": "it-g-participi-irregolari" },
+    { "id": "e35", "type": "match", "pairs": [["scrivere", "scritto"], ["leggere", "letto"], ["chiudere", "chiuso"], ["chiedere", "chiesto"], ["rispondere", "risposto"]], "why": "Fíjate en las familias -tto, -so y -sto.", "g": "it-g-participi-irregolari" },
+    { "id": "e36", "type": "conjugate", "verb": "fare", "person": "noi", "tense": "passato prossimo", "q": "Ieri ___ una visita guidata.", "answer": ["abbiamo fatto"], "table": [["io", "ho fatto"], ["noi", "abbiamo fatto"], ["loro", "hanno fatto"]], "why": "Noi → abbiamo + fatto.", "g": "it-g-participi-irregolari" },
+    { "id": "e37", "type": "conjugate", "verb": "leggere", "person": "lei", "tense": "passato prossimo", "q": "La mia amica ___ tutte le targhette.", "answer": ["ha letto"], "why": "Lei → ha + letto.", "g": "it-g-participi-irregolari" }
+  ],
+  "reviewed": false
+}

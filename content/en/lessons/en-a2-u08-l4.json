@@ -1,0 +1,430 @@
+{
+  "id": "en-a2-u08-l4",
+  "unit": "en-a2-u08",
+  "title": "Deberías descansar",
+  "goal": "a dar y pedir consejos con should y shouldn't, y a distinguir los sonidos de «should» y «check»",
+  "emoji": "💡",
+  "photoQuery": "glass of water fresh fruit",
+  "vocab": [
+    {
+      "id": "doc-advice",
+      "t": "advice",
+      "es": "consejo, consejos",
+      "emoji": "💬",
+      "pos": "n",
+      "ex": {
+        "t": "Can I give you some advice?",
+        "es": "¿Te puedo dar un consejo?"
+      },
+      "note": "No tiene plural: some advice, nunca «advices»."
+    },
+    {
+      "id": "doc-rest",
+      "t": "rest",
+      "es": "descansar",
+      "emoji": "🛋️",
+      "pos": "v",
+      "ex": {
+        "t": "You should rest this weekend.",
+        "es": "Deberías descansar este fin de semana."
+      }
+    },
+    {
+      "id": "doc-take-it-easy",
+      "t": "take it easy",
+      "es": "tomárselo con calma",
+      "emoji": "😌",
+      "pos": "phrase",
+      "ex": {
+        "t": "Take it easy for a few days.",
+        "es": "Tómatelo con calma unos días."
+      }
+    },
+    {
+      "id": "doc-drink-water",
+      "t": "drink more water",
+      "es": "beber más agua",
+      "emoji": "💧",
+      "pos": "phrase",
+      "ex": {
+        "t": "We should all drink more water.",
+        "es": "Todos deberíamos beber más agua."
+      }
+    },
+    {
+      "id": "doc-healthy",
+      "t": "healthy",
+      "es": "sano, saludable",
+      "emoji": "🥗",
+      "pos": "adj",
+      "ex": {
+        "t": "My friend cooks very healthy food.",
+        "es": "Mi amiga cocina comida muy sana."
+      }
+    },
+    {
+      "id": "doc-exercise",
+      "t": "do exercise",
+      "es": "hacer ejercicio",
+      "emoji": "🏃‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "You should do some exercise every day.",
+        "es": "Deberías hacer algo de ejercicio cada día."
+      }
+    },
+    {
+      "id": "doc-check-up",
+      "t": "a check-up",
+      "es": "una revisión",
+      "emoji": "🩺",
+      "pos": "n",
+      "ex": {
+        "t": "I've got a check-up at the GP's.",
+        "es": "Tengo una revisión en el médico."
+      }
+    },
+    {
+      "id": "doc-shoulder",
+      "t": "shoulder",
+      "es": "el hombro",
+      "emoji": "💪",
+      "pos": "n",
+      "ex": {
+        "t": "My shoulder hurts after swimming.",
+        "es": "Me duele el hombro después de nadar."
+      }
+    }
+  ],
+  "grammar": "en-g-should",
+  "pron": {
+    "title": "/ʃ/ de should y /tʃ/ de check",
+    "tip": "/ʃ/ (should, shoulder) es como mandar callar: «shhh», sin golpe. /tʃ/ (check, chest) es nuestra «ch» de chocolate, con un pequeño golpe de lengua al principio.",
+    "words": [
+      "should",
+      "shoulder",
+      "check",
+      "chest",
+      "chemist's"
+    ],
+    "pairs": [
+      [
+        "share",
+        "chair"
+      ],
+      [
+        "sheep",
+        "cheap"
+      ],
+      [
+        "shoes",
+        "choose"
+      ],
+      [
+        "wash",
+        "watch"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "You look tired. You ___ go to bed early.",
+      "options": [
+        "should",
+        "should to",
+        "shoulds"
+      ],
+      "answer": "should",
+      "why": "Should + verbo, sin to y sin -s.",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "You ___ eat so many sweets. They're bad for you.",
+      "options": [
+        "shouldn't",
+        "should",
+        "don't should"
+      ],
+      "answer": "shouldn't",
+      "why": "Consejo negativo: shouldn't + verbo.",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "___ I call the doctor?",
+      "options": [
+        "Should",
+        "Do should",
+        "Does"
+      ],
+      "answer": "Should",
+      "why": "Para preguntar, should va delante: Should I…?",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "He should ___ more water.",
+      "es": "Debería beber más agua.",
+      "answer": [
+        "drink"
+      ],
+      "bank": [
+        "drink",
+        "drinks",
+        "to drink"
+      ],
+      "why": "Después de should, el verbo en forma base.",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Can I give you some ___?",
+      "es": "¿Te puedo dar un consejo?",
+      "answer": [
+        "advice"
+      ],
+      "bank": [
+        "advice",
+        "advices",
+        "advise"
+      ],
+      "why": "Advice no tiene plural."
+    },
+    {
+      "id": "e6",
+      "type": "error",
+      "q": "She should goes to the dentist.",
+      "wrong": "goes",
+      "fix": "go",
+      "why": "Should + verbo base, también con she: should go.",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "He shoulds rest this week.",
+      "wrong": "shoulds",
+      "fix": "should",
+      "why": "Should nunca lleva -s.",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "You should go out tonight.",
+      "answer": [
+        "You shouldn't go out tonight.",
+        "You should not go out tonight."
+      ],
+      "why": "Negativa: shouldn't.",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Deberías tomártelo con calma",
+      "answer": "You should take it easy",
+      "extra": [
+        "to"
+      ],
+      "why": "Should + verbo, sin to.",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e10",
+      "type": "situation",
+      "context": "Tu amiga dice: «I've got a terrible cold.» Le das un consejo.",
+      "emoji": "🤧",
+      "options": [
+        "You should stay at home and rest.",
+        "You should to stay at home.",
+        "You must go dancing tonight."
+      ],
+      "answer": "You should stay at home and rest.",
+      "why": "Consejo: should + verbo base.",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e11",
+      "type": "minimal",
+      "pair": [
+        "share",
+        "chair"
+      ],
+      "answer": "chair",
+      "es": [
+        "compartir",
+        "silla"
+      ],
+      "why": "Chair empieza con /tʃ/, como «ch» de chocolate."
+    },
+    {
+      "id": "e12",
+      "type": "minimal",
+      "pair": [
+        "sheep",
+        "cheap"
+      ],
+      "answer": "sheep",
+      "es": [
+        "oveja",
+        "barato"
+      ],
+      "why": "Sheep empieza con /ʃ/, como mandar callar."
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "wash",
+        "watch"
+      ],
+      "answer": "watch",
+      "es": [
+        "lavar",
+        "mirar, reloj"
+      ],
+      "why": "Watch termina con /tʃ/: un pequeño golpe al final."
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "Deberías hacer ejercicio.",
+      "answer": [
+        "You should do exercise.",
+        "You should do some exercise.",
+        "You should exercise."
+      ],
+      "why": "Deberías = you should.",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "I'm always tired.",
+          "You should sleep more."
+        ],
+        [
+          "My back hurts.",
+          "You shouldn't carry heavy bags."
+        ],
+        [
+          "I'm thirsty.",
+          "You should drink some water."
+        ],
+        [
+          "I'm stressed.",
+          "You should take it easy."
+        ]
+      ],
+      "why": "Para cada problema, un consejo con should o shouldn't.",
+      "g": "en-g-should"
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "You should check your shoulder.",
+      "es": "Deberías mirarte el hombro."
+    }
+  ],
+  "dialog": {
+    "title": "Consejos de amiga",
+    "setting": "Yolanda y su amiga Pilar pasean por el parque. A Pilar le duele el hombro",
+    "emoji": "🌳",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "What's the matter, Pilar?",
+        "es": "¿Qué te pasa, Pilar?"
+      },
+      {
+        "who": "Pilar",
+        "t": "My shoulder hurts. I carry too many bags.",
+        "es": "Me duele el hombro. Llevo demasiadas bolsas."
+      },
+      {
+        "who": "Yolanda",
+        "t": "You shouldn't carry heavy bags. Use a trolley!",
+        "es": "No deberías llevar bolsas pesadas. ¡Usa un carro!"
+      },
+      {
+        "who": "Pilar",
+        "t": "Good idea. Should I see a doctor?",
+        "es": "Buena idea. ¿Debería ir al médico?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I think you should. Ask for a check-up.",
+        "es": "Sí, creo que deberías. Pide una revisión."
+      },
+      {
+        "who": "Pilar",
+        "t": "And you? You look very well.",
+        "es": "¿Y tú? Tienes muy buena cara."
+      },
+      {
+        "who": "Yolanda",
+        "t": "I go dancing twice a week. You should come!",
+        "es": "Voy a bailar dos veces por semana. ¡Deberías venir!"
+      },
+      {
+        "who": "Pilar",
+        "t": "Maybe I should. But not with this shoulder!",
+        "es": "A lo mejor debería. ¡Pero no con este hombro!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué le duele a Pilar?",
+        "options": [
+          "El hombro",
+          "La rodilla",
+          "La cabeza"
+        ],
+        "answer": "El hombro"
+      },
+      {
+        "q": "¿Qué le aconseja Yolanda primero?",
+        "options": [
+          "Usar un carro",
+          "Hacer yoga",
+          "Tomar pastillas"
+        ],
+        "answer": "Usar un carro"
+      },
+      {
+        "q": "¿Cuántas veces baila Yolanda?",
+        "options": [
+          "Dos veces por semana",
+          "Todos los días",
+          "Una vez al mes"
+        ],
+        "answer": "Dos veces por semana"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "You should take it easy.",
+    "es": "Deberías tomártelo con calma.",
+    "context": "Para aconsejar con cariño a alguien que está cansado o malito"
+  },
+  "summary": [
+    "should + verbo base: You should rest",
+    "shouldn't: You shouldn't carry heavy bags",
+    "Pregunta: Should I see a doctor?",
+    "/ʃ/ should, shoulder · /tʃ/ check, chest"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u08-l4"
+}

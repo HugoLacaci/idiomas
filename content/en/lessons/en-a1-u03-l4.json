@@ -1,0 +1,432 @@
+{
+  "id": "en-a1-u03-l4",
+  "unit": "en-a1-u03",
+  "title": "¿Esto es tuyo?",
+  "goal": "a señalar cosas cerca y lejos con this, that, these y those, y a pronunciar la th de this",
+  "emoji": "👉",
+  "photoQuery": "coats hanging on hooks",
+  "vocab": [
+    {
+      "id": "this",
+      "t": "this",
+      "es": "este / esta / esto",
+      "emoji": "🤲",
+      "pos": "other",
+      "ex": {
+        "t": "This is my coat.",
+        "es": "Este es mi abrigo."
+      }
+    },
+    {
+      "id": "that",
+      "t": "that",
+      "es": "ese / aquel / eso",
+      "emoji": "👉",
+      "pos": "other",
+      "ex": {
+        "t": "Is that your car?",
+        "es": "¿Es ese tu coche?"
+      }
+    },
+    {
+      "id": "these",
+      "t": "these",
+      "es": "estos / estas",
+      "emoji": "🙌",
+      "pos": "other",
+      "ex": {
+        "t": "These shoes are new.",
+        "es": "Estos zapatos son nuevos."
+      }
+    },
+    {
+      "id": "those",
+      "t": "those",
+      "es": "esos / aquellos",
+      "emoji": "👆",
+      "pos": "other",
+      "ex": {
+        "t": "Those flowers are beautiful.",
+        "es": "Esas flores son preciosas."
+      }
+    },
+    {
+      "id": "over-there",
+      "t": "over there",
+      "es": "allí",
+      "emoji": "📍",
+      "pos": "adv",
+      "ex": {
+        "t": "The toilets are over there.",
+        "es": "Los servicios están allí."
+      }
+    },
+    {
+      "id": "is-this-yours",
+      "t": "Is this yours?",
+      "es": "¿Esto es tuyo?",
+      "emoji": "❓",
+      "pos": "phrase",
+      "ex": {
+        "t": "Is this yours? It was on the bus.",
+        "es": "¿Esto es tuyo? Estaba en el autobús."
+      }
+    },
+    {
+      "id": "its-mine",
+      "t": "It's mine.",
+      "es": "Es mío / mía.",
+      "emoji": "🙋‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "That umbrella? Yes, it's mine.",
+        "es": "¿Ese paraguas? Sí, es mío."
+      }
+    },
+    {
+      "id": "a-coat",
+      "t": "a coat",
+      "es": "un abrigo",
+      "emoji": "🧥",
+      "pos": "n",
+      "ex": {
+        "t": "Take a coat. It's cold.",
+        "es": "Coge un abrigo. Hace frío."
+      }
+    },
+    {
+      "id": "shoes",
+      "t": "shoes",
+      "es": "zapatos",
+      "emoji": "👞",
+      "pos": "n",
+      "ex": {
+        "t": "Where are my black shoes?",
+        "es": "¿Dónde están mis zapatos negros?"
+      }
+    }
+  ],
+  "grammar": "en-g-demonstratives",
+  "pron": {
+    "title": "La th de this y la i de these",
+    "tip": "Para la th de this, that, these, those, pon la punta de la lengua entre los dientes y deja que vibre, como una «d» muy suave (la «d» de «nada»). Luego escucha la i: corta en this, larga en these («dhiiz»). Pasa lo mismo con it / eat.",
+    "words": [
+      "this",
+      "that",
+      "these",
+      "those",
+      "mother"
+    ],
+    "pairs": [
+      [
+        "this",
+        "these"
+      ],
+      [
+        "it",
+        "eat"
+      ],
+      [
+        "they",
+        "day"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ are my glasses. (en mi mano)",
+      "es": "Estas son mis gafas.",
+      "options": [
+        "This",
+        "These",
+        "Those"
+      ],
+      "answer": "These",
+      "why": "Gafas es plural y están cerca: these.",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Is ___ your coat over there?",
+      "es": "¿Es aquel tu abrigo?",
+      "options": [
+        "this",
+        "that",
+        "these"
+      ],
+      "answer": "that",
+      "why": "Una cosa lejos (over there): that.",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Are these your shoes? Yes, ___ are.",
+      "es": "¿Son estos tus zapatos? Sí.",
+      "options": [
+        "these",
+        "they",
+        "it"
+      ],
+      "answer": "they",
+      "why": "En la respuesta corta usamos they.",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "___ is my friend, Carmen.",
+      "es": "Esta es mi amiga, Carmen.",
+      "answer": [
+        "This"
+      ],
+      "bank": [
+        "This",
+        "These",
+        "Those"
+      ],
+      "why": "Presentamos a una persona con This is…",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Those apples ___ very good.",
+      "es": "Esas manzanas están muy buenas.",
+      "answer": [
+        "are"
+      ],
+      "bank": [
+        "is",
+        "are",
+        "am"
+      ],
+      "why": "Those es plural: those… are.",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e6",
+      "type": "match",
+      "pairs": [
+        [
+          "this coat",
+          "este abrigo"
+        ],
+        [
+          "these shoes",
+          "estos zapatos"
+        ],
+        [
+          "that car",
+          "aquel coche"
+        ],
+        [
+          "those flowers",
+          "esas flores"
+        ]
+      ]
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "This shoes are very comfortable.",
+      "wrong": "This",
+      "fix": "These",
+      "why": "Shoes es plural: these shoes.",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Look! Those car is like mine.",
+      "wrong": "Those",
+      "fix": "That",
+      "why": "Car es singular: that car.",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "¿Son esas tus llaves?",
+      "answer": "Are those your keys",
+      "extra": [
+        "is",
+        "that"
+      ],
+      "why": "Pregunta en plural: Are those…?",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Pásala a plural",
+      "q": "That coat is my husband's.",
+      "answer": [
+        "Those coats are my husband's."
+      ],
+      "why": "That → those, coat → coats, is → are.",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Esto es tuyo?",
+      "answer": [
+        "Is this yours?"
+      ],
+      "why": "Pregunta con is delante: Is this yours?",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Ves un paraguas olvidado en el autobús. Le preguntas a la señora de al lado.",
+      "emoji": "☂️",
+      "options": [
+        "Excuse me, is this yours?",
+        "Excuse me, are these yours?",
+        "Excuse me, this is yours?"
+      ],
+      "answer": "Excuse me, is this yours?",
+      "why": "Una cosa cerca y en pregunta: is this…?",
+      "g": "en-g-demonstratives"
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "this",
+        "these"
+      ],
+      "answer": "this",
+      "es": [
+        "este",
+        "estos"
+      ],
+      "why": "This tiene la i corta y termina en «s»."
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "it",
+        "eat"
+      ],
+      "answer": "eat",
+      "es": [
+        "ello / lo",
+        "comer"
+      ],
+      "why": "Eat tiene la i larga, como en these."
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "they",
+        "day"
+      ],
+      "answer": "they",
+      "es": [
+        "ellos",
+        "día"
+      ],
+      "why": "They empieza con la lengua entre los dientes, como this."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "These are my grandchildren.",
+      "es": "Estos son mis nietos."
+    }
+  ],
+  "dialog": {
+    "title": "Después de la comida familiar",
+    "setting": "En la entrada de la casa de Yolanda, cuando todos se van",
+    "emoji": "🧥",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Hugo, is this your coat?",
+        "es": "Hugo, ¿es este tu abrigo?"
+      },
+      {
+        "who": "Hugo",
+        "t": "No, that's Dad's. This is mine.",
+        "es": "No, ese es de papá. Este es el mío."
+      },
+      {
+        "who": "Yolanda",
+        "t": "And are these your shoes?",
+        "es": "¿Y son estos tus zapatos?"
+      },
+      {
+        "who": "Hugo",
+        "t": "No, they're Tom's. He's six!",
+        "es": "No, son de Tom. ¡Tiene seis años!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Of course! They're very small.",
+        "es": "¡Claro! Son muy pequeños."
+      },
+      {
+        "who": "Hugo",
+        "t": "Mum, are those cakes for us?",
+        "es": "Mamá, ¿son esos pasteles para nosotros?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, they are. Take them home!",
+        "es": "Sí. ¡Llevadlos a casa!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿De quién es el primer abrigo?",
+        "options": [
+          "Del padre de Hugo",
+          "De Hugo",
+          "De Tom"
+        ],
+        "answer": "Del padre de Hugo"
+      },
+      {
+        "q": "¿Quién es Tom, probablemente?",
+        "options": [
+          "Un niño pequeño",
+          "El marido de Yolanda",
+          "Un señor mayor"
+        ],
+        "answer": "Un niño pequeño"
+      },
+      {
+        "q": "¿Qué se llevan a casa?",
+        "options": [
+          "Unos pasteles",
+          "Unos zapatos",
+          "Un paraguas"
+        ],
+        "answer": "Unos pasteles"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Excuse me, is this yours?",
+    "es": "Perdone, ¿esto es suyo?",
+    "context": "Cuando alguien se deja algo en el autobús, el tren o una cafetería"
+  },
+  "summary": [
+    "Cerca: this (una) / these (varias). Lejos: that / those",
+    "this/that + is; these/those + are",
+    "Para presentar: This is my son, Hugo",
+    "Respuesta corta: Yes, it is / Yes, they are",
+    "th suave con la lengua entre los dientes; i corta en this, larga en these"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u03-l4"
+}

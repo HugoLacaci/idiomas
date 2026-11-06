@@ -1,0 +1,67 @@
+{
+  "id": "it-a1-u07-c2",
+  "unit": "it-a1-u07",
+  "title": "¿Me pasas la sal?",
+  "setting": "Comida en casa de Giulia, en Roma, con su familia",
+  "emoji": "🧂",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "A tavola! Il pranzo è pronto!", "es": "¡A la mesa! ¡La comida está lista!" },
+      "options": [
+        { "t": "Che profumo! Grazie, Giulia.", "es": "¡Qué olor tan rico! Gracias, Giulia.", "next": "n2", "ok": true },
+        { "t": "Che profumo! La pranzo è buona!", "es": "¡Qué olor! ¡La comida es buena!", "next": "n2", "ok": false, "feedback": "Pranzo es masculino en italiano: il pranzo." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che cosa bevi? Vino o acqua?", "es": "¿Qué bebes? ¿Vino o agua?" },
+      "options": [
+        { "t": "Bevo un po' di vino, grazie.", "es": "Bebo un poco de vino, gracias.", "next": "n3", "ok": true },
+        { "t": "Bero un po' di vino, grazie.", "es": "Bebo un poco de vino, gracias.", "next": "n3", "ok": false, "feedback": "Bere usa la raíz bev-: io bevo." },
+        { "t": "Bevi un po' di vino, grazie.", "es": "Bebes un poco de vino, gracias.", "next": "n3", "ok": false, "feedback": "Bevi es «tú bebes». Para «yo bebo»: bevo." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Ecco la pasta. Ti manca qualcosa?", "es": "Aquí está la pasta. ¿Te falta algo?" },
+      "options": [
+        { "t": "Mi passi il sale, per favore?", "es": "¿Me pasas la sal, por favor?", "next": "n4", "ok": true },
+        { "t": "Mi passi la sale, per favore?", "es": "¿Me pasas la sal, por favor?", "next": "n4", "ok": false, "feedback": "Sale es masculino en italiano: il sale." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ecco! Vuoi anche il formaggio?", "es": "¡Toma! ¿Quieres también queso?" },
+      "options": [
+        { "t": "Sì, grazie. Ah, manca una forchetta.", "es": "Sí, gracias. Ah, falta un tenedor.", "next": "n5", "ok": true },
+        { "t": "Sì, grazie. Ah, manca un forchetta.", "es": "Sí, gracias. Ah, falta un tenedor.", "next": "n5", "ok": false, "feedback": "Forchetta es femenina en italiano: una forchetta." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Scusa! Ecco la forchetta. E per il caffè, latte o niente?", "es": "¡Perdona! Aquí tienes el tenedor. Y para el café, ¿leche o nada?" },
+      "options": [
+        { "t": "Un po' di latte freddo, grazie.", "es": "Un poco de leche fría, gracias.", "next": "n6", "ok": true },
+        { "t": "Un po' di latte fredda, grazie.", "es": "Un poco de leche fría, gracias.", "next": "n6", "ok": false, "feedback": "Latte es masculino: latte freddo." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "E con il dolce, un po' di miele?", "es": "Y con el postre, ¿un poco de miel?" },
+      "options": [
+        { "t": "Sì! Il miele è buonissimo.", "es": "¡Sí! La miel está buenísima.", "next": "n7", "ok": true },
+        { "t": "Sì! La miele è buonissima.", "es": "¡Sí! La miel está buenísima.", "next": "n7", "ok": false, "feedback": "Miele es masculino: il miele è buonissimo." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Sono contenta! Cin cin, Yolanda!", "es": "¡Me alegro! ¡Chinchín, Yolanda!" },
+      "options": [
+        { "t": "Cin cin! È tutto buonissimo!", "es": "¡Chinchín! ¡Está todo buenísimo!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

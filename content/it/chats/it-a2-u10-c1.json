@@ -1,0 +1,60 @@
+{
+  "id": "it-a2-u10-c1",
+  "unit": "it-a2-u10",
+  "title": "¿Qué harás en Venecia?",
+  "setting": "Giulia te llama por videollamada desde Roma y te pregunta por tu próximo viaje",
+  "emoji": "🧳",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao! Allora, dove andrai in vacanza quest'anno?", "es": "¡Hola! Bueno, ¿adónde irás de vacaciones este año?" },
+      "options": [
+        { "t": "Andrò a Venezia con mio marito!", "es": "¡Iré a Venecia con mi marido!", "next": "n2", "ok": true },
+        { "t": "Anderò a Venezia con mio marito!", "es": "¡Iré a Venecia con mi marido!", "next": "n2", "ok": false, "feedback": "Andare es irregular en futuro: andrò, sin e." },
+        { "t": "Sono andata a Venezia con mio marito!", "es": "¡Fui a Venecia con mi marido!", "next": "n2", "ok": false, "feedback": "Eso es pasado. Para un plan usa el futuro: andrò." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che bello! E quando partirete?", "es": "¡Qué bien! ¿Y cuándo saldréis?" },
+      "options": [
+        { "t": "Partiremo la settimana prossima.", "es": "Saldremos la semana que viene.", "next": "n3", "ok": true },
+        { "t": "Partiremmo la settimana prossima.", "es": "Saldríamos la semana que viene.", "next": "n3", "ok": false, "feedback": "Con doble m es condicional (saldríamos). El futuro lleva una m: partiremo." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Cosa visiterete?", "es": "¿Qué visitaréis?" },
+      "options": [
+        { "t": "Visiteremo San Marco e faremo un giro in gondola.", "es": "Visitaremos San Marcos y daremos una vuelta en góndola.", "next": "n4", "ok": true },
+        { "t": "Visitaremo San Marco e faremo un giro in gondola.", "es": "Visitaremos San Marcos y daremos una vuelta en góndola.", "next": "n4", "ok": false, "feedback": "En los verbos en -are la a pasa a e: visiteremo." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E tuo figlio Hugo verrà con voi?", "es": "¿Y tu hijo Hugo irá con vosotros?" },
+      "options": [
+        { "t": "No, non potrà: avrà molto lavoro.", "es": "No, no podrá: tendrá mucho trabajo.", "next": "n5", "ok": true },
+        { "t": "No, non poterà: averà molto lavoro.", "es": "No, no podrá: tendrá mucho trabajo.", "next": "n5", "ok": false, "feedback": "Potere y avere son irregulares: potrà, avrà." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Peccato! Che tempo farà, secondo te?", "es": "¡Qué pena! ¿Qué tiempo hará, tú crees?" },
+      "options": [
+        { "t": "Dicono che farà bel tempo!", "es": "¡Dicen que hará buen tiempo!", "next": "n6", "ok": true },
+        { "t": "Dicono che farò bel tempo!", "es": "¡Dicen que hará buen tiempo!", "next": "n6", "ok": false, "feedback": "Para el tiempo se usa la tercera persona: farà." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Mi manderai tante foto, vero?", "es": "Me mandarás muchas fotos, ¿verdad?" },
+      "options": [
+        { "t": "Certo! Ti manderò una foto al giorno.", "es": "¡Claro! Te mandaré una foto al día.", "next": "end", "ok": true },
+        { "t": "Certo! Ti manderà una foto al giorno.", "es": "¡Claro! Te mandaré una foto al día.", "next": "end", "ok": false, "feedback": "Con io: manderò (manderà es él o ella)." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

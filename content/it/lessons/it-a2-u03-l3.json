@@ -1,0 +1,90 @@
+{
+  "id": "it-a2-u03-l3",
+  "unit": "it-a2-u03",
+  "title": "Pronto? Sono in ritardo!",
+  "goal": "a hablar de horarios, de llegar tarde y de estar lista con frases hechas",
+  "emoji": "📞",
+  "photoQuery": "woman phone morning coffee kitchen",
+  "vocab": [
+    { "id": "rifl-a-che-ora", "t": "A che ora ti alzi?", "es": "¿A qué hora te levantas?", "emoji": "🕖", "pos": "phrase", "ex": { "t": "A che ora ti alzi la domenica?", "es": "¿A qué hora te levantas los domingos?" } },
+    { "id": "rifl-presto", "t": "presto", "es": "temprano", "emoji": "🌅", "pos": "adv", "ex": { "t": "Di solito mi alzo presto.", "es": "Normalmente me levanto temprano." }, "note": "Presto también es «pronto»: a presto = hasta pronto." },
+    { "id": "rifl-tardi", "t": "tardi", "es": "tarde", "emoji": "🌙", "pos": "adv", "ex": { "t": "Il sabato mi sveglio tardi.", "es": "Los sábados me despierto tarde." } },
+    { "id": "rifl-di-solito", "t": "di solito", "es": "normalmente, por lo general", "emoji": "🔁", "pos": "adv", "ex": { "t": "Di solito faccio colazione al bar.", "es": "Normalmente desayuno en el bar." } },
+    { "id": "rifl-sono-pronta", "t": "Sono pronta!", "es": "¡Estoy lista!", "emoji": "✅", "pos": "phrase", "ex": { "t": "Sono pronta, possiamo uscire!", "es": "¡Estoy lista, podemos salir!" } },
+    { "id": "rifl-in-ritardo", "t": "Sono in ritardo.", "es": "Llego tarde.", "emoji": "⌛", "pos": "phrase", "ex": { "t": "Scusa, sono in ritardo di dieci minuti.", "es": "Perdona, llego diez minutos tarde." } },
+    { "id": "rifl-sbrigati", "t": "Sbrigati!", "es": "¡Date prisa!", "emoji": "🏃‍♀️", "pos": "phrase", "ex": { "t": "Sbrigati, il treno parte!", "es": "¡Date prisa, que sale el tren!" } },
+    { "id": "rifl-pronto-telefono", "t": "Pronto?", "es": "¿Diga? (al teléfono)", "emoji": "☎️", "pos": "phrase", "ex": { "t": "Pronto? Chi parla?", "es": "¿Diga? ¿Quién es?" } },
+    { "id": "rifl-verso-le", "t": "verso le otto", "es": "hacia las ocho", "emoji": "🕗", "pos": "phrase", "ex": { "t": "Mi sveglio verso le otto.", "es": "Me despierto hacia las ocho." } }
+  ],
+  "grammar": "it-g-riflessivi",
+  "pron": {
+    "title": "Pronto y presto: la r con la punta",
+    "tip": "La r italiana se hace con la punta de la lengua, como nuestra r de «pero». Pron-to, pres-to, ri-tar-do: nunca la pronuncies en la garganta.",
+    "words": ["pronto", "presto", "ritardo", "pronta"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "situation", "context": "Suena el teléfono. ¿Qué dices al descolgar?", "emoji": "☎️", "options": ["Pronto?", "Presto?", "Prego?"], "answer": "Pronto?", "why": "Al teléfono se contesta Pronto?" },
+    { "id": "e2", "type": "situation", "context": "Tu marido te pregunta si estás lista para salir. Lo estás.", "emoji": "✅", "options": ["Sì, sono pronta!", "Sì, sono presto!", "Sì, mi pronto!"], "answer": "Sì, sono pronta!", "why": "Lista = pronta (y eres mujer: pronta, no pronto)." },
+    { "id": "e3", "type": "situation", "context": "Tu amiga se entretiene y vais a perder el autobús.", "emoji": "🚌", "options": ["Sbrigati!", "Riposati!", "Annoiati!"], "answer": "Sbrigati!", "why": "¡Date prisa! = Sbrigati!" },
+    { "id": "e4", "type": "choose", "q": "Di solito mi alzo ___, alle sei.", "es": "Normalmente me levanto temprano, a las seis.", "options": ["presto", "tardi", "pronto"], "answer": "presto", "why": "Temprano = presto." },
+    { "id": "e5", "type": "choose", "q": "Scusa, sono in ___!", "es": "¡Perdona, llego tarde!", "options": ["ritardo", "tardi", "presto"], "answer": "ritardo", "why": "Llegar tarde = essere in ritardo." },
+    { "id": "e6", "type": "fill", "q": "A che ora ti ___ la domenica?", "es": "¿A qué hora te levantas los domingos?", "answer": ["alzi", "svegli"], "bank": ["alzi", "alzo", "alza"], "why": "Tu → ti alzi.", "g": "it-g-riflessivi" },
+    { "id": "e7", "type": "fill", "q": "___ solito faccio colazione al bar.", "es": "Normalmente desayuno en el bar.", "answer": ["Di", "di"], "hint": "normalmente = ___ solito", "why": "Normalmente = di solito." },
+    { "id": "e8", "type": "match", "pairs": [["Pronto?", "¿Diga?"], ["presto", "temprano"], ["tardi", "tarde"], ["Sono pronta!", "¡Estoy lista!"], ["Sbrigati!", "¡Date prisa!"]], "why": "Frases para la prisa de la mañana." },
+    { "id": "e9", "type": "order", "es": "Normalmente me levanto hacia las siete.", "answer": "Di solito mi alzo verso le sette", "alt": ["Mi alzo di solito verso le sette"], "extra": ["si"], "why": "Di solito + mi alzo + verso le sette.", "g": "it-g-riflessivi" },
+    { "id": "e10", "type": "translate", "dir": "to", "q": "Llego tarde, ¡me doy prisa!", "answer": ["Sono in ritardo, mi sbrigo!", "Sono in ritardo, mi sbrigo."], "why": "Llegar tarde = essere in ritardo; darse prisa = sbrigarsi.", "g": "it-g-riflessivi" },
+    { "id": "e11", "type": "translate", "dir": "from", "q": "A che ora vi svegliate?", "answer": ["¿A qué hora os despertáis?", "¿A qué hora se despiertan?"], "why": "Vi svegliate = os despertáis.", "g": "it-g-riflessivi" },
+    { "id": "e12", "type": "reading", "kind": "sign", "title": "Cartel del hotel", "text": "Colazione: dalle 7 alle 10. La domenica: dalle 8 alle 11. Per la sveglia, chiamare la reception. Grazie!", "questions": [
+        { "q": "¿Hasta qué hora se sirve el desayuno entre semana?", "options": ["Hasta las diez", "Hasta las once", "Hasta las ocho"], "answer": "Hasta las diez" },
+        { "q": "¿A qué hora empieza el desayuno el domingo?", "options": ["A las ocho", "A las siete", "A las diez"], "answer": "A las ocho" },
+        { "q": "¿Qué haces si quieres que te despierten?", "options": ["Llamar a recepción", "Poner el móvil", "Nada"], "answer": "Llamar a recepción" }
+      ], "why": "La sveglia es también el servicio de despertador del hotel." },
+    { "id": "e13", "type": "error", "q": "Mi alzo sempre pronto la mattina.", "wrong": "pronto", "fix": "presto", "why": "Temprano = presto. Pronto significa «listo» o «¿diga?»." },
+    { "id": "e14", "type": "transform", "instr": "Hazla pregunta para «tu»", "q": "Mi alzo alle sette.", "answer": ["Ti alzi alle sette?", "Tu ti alzi alle sette?"], "why": "Io mi alzo → tu ti alzi.", "g": "it-g-riflessivi" },
+    { "id": "e15", "type": "speak", "t": "Pronto? Scusa, sono in ritardo!", "es": "¿Diga? ¡Perdona, llego tarde!" },
+    { "id": "e16", "type": "conjugate", "verb": "vestirsi", "person": "lei", "tense": "presente", "q": "La mia vicina ___ sempre elegante.", "answer": ["si veste"], "why": "Lei → si veste.", "g": "it-g-riflessivi" }
+  ],
+  "dialog": {
+    "title": "¡Que sale el tren!",
+    "setting": "Por la mañana, Paola llama a Yolanda: van juntas de excursión",
+    "emoji": "🚆",
+    "lines": [
+      { "who": "Yolanda", "t": "Pronto?", "es": "¿Diga?" },
+      { "who": "Paola", "t": "Ciao Yolanda, sono Paola! Sei pronta?", "es": "¡Hola, Yolanda, soy Paola! ¿Estás lista?" },
+      { "who": "Yolanda", "t": "Quasi! Mi vesto e mi pettino.", "es": "¡Casi! Me visto y me peino." },
+      { "who": "Paola", "t": "Sbrigati, il treno parte alle nove!", "es": "¡Date prisa, que el tren sale a las nueve!" },
+      { "who": "Yolanda", "t": "Lo so, scusa. Di solito mi alzo presto!", "es": "Ya lo sé, perdona. ¡Normalmente me levanto temprano!" },
+      { "who": "Paola", "t": "Ti aspetto al bar della stazione.", "es": "Te espero en el bar de la estación." },
+      { "who": "Yolanda", "t": "Perfetto. Arrivo tra dieci minuti!", "es": "Perfecto. ¡Llego en diez minutos!" },
+      { "who": "Paola", "t": "Va bene. Non fare tardi!", "es": "Vale. ¡No llegues tarde!" }
+    ],
+    "questions": [
+      { "q": "¿Está lista Yolanda?", "options": ["Casi", "Sí, del todo", "No, sigue en la cama"], "answer": "Casi" },
+      { "q": "¿A qué hora sale el tren?", "options": ["A las nueve", "A las diez", "A las ocho"], "answer": "A las nueve" },
+      { "q": "¿Dónde la espera Paola?", "options": ["En el bar de la estación", "En su casa", "En el andén"], "answer": "En el bar de la estación" }
+    ]
+  },
+  "realLife": { "t": "Pronto? Chi parla?", "es": "¿Diga? ¿Quién es?", "context": "Para contestar el teléfono" },
+  "same": {
+    "text": "Algunas expresiones de tiempo se entienden enseguida.",
+    "examples": [
+      { "t": "tardi", "es": "tarde" },
+      { "t": "di solito", "es": "de costumbre, normalmente" },
+      { "t": "Mi preparo.", "es": "Me preparo." }
+    ]
+  },
+  "falseFriend": {
+    "word": "pronto",
+    "means": "listo (sono pronta = estoy lista) y «¿diga?» al teléfono",
+    "looksLike": "pronto (en italiano, presto o fra poco)",
+    "emoji": "☎️",
+    "tip": "Para «temprano» o «pronto» di presto: mi alzo presto, a presto! Pronto es «listo» y lo que dices al coger el teléfono."
+  },
+  "summary": [
+    "Pronto? = ¿Diga?; Sono pronta! = ¡Estoy lista!",
+    "Presto = temprano / pronto; tardi = tarde.",
+    "Sono in ritardo = llego tarde; Sbrigati! = ¡Date prisa!",
+    "Di solito mi alzo verso le sette."
+  ],
+  "reviewed": false
+}

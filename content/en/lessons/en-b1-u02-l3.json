@@ -1,0 +1,98 @@
+{
+  "id": "en-b1-u02-l3",
+  "unit": "en-b1-u02",
+  "title": "¿Me oyes? Videollamadas",
+  "goal": "a manejarte en una videollamada y a decir desde cuándo tienes o haces algo",
+  "emoji": "🎥",
+  "photoQuery": "video call laptop kitchen",
+  "vocab": [
+    { "id": "tech-video-call", "t": "a video call", "es": "una videollamada", "emoji": "🎥", "pos": "n",
+      "ex": { "t": "We have a video call every Sunday.", "es": "Hacemos una videollamada todos los domingos." } },
+    { "id": "tech-can-you-hear-me", "t": "Can you hear me?", "es": "¿Me oyes?", "emoji": "👂", "pos": "phrase",
+      "ex": { "t": "Hello? Can you hear me now?", "es": "¿Hola? ¿Me oyes ahora?" } },
+    { "id": "tech-on-mute", "t": "You're on mute.", "es": "Tienes el micro silenciado.", "emoji": "🔇", "pos": "phrase",
+      "ex": { "t": "Mum, you're on mute! Tap the microphone.", "es": "¡Mamá, tienes el micro quitado! Toca el micrófono." } },
+    { "id": "tech-frozen", "t": "It's frozen.", "es": "Se ha quedado congelado / colgado.", "emoji": "🧊", "pos": "phrase",
+      "ex": { "t": "Sorry, the screen has frozen.", "es": "Perdona, se ha congelado la pantalla." } },
+    { "id": "tech-bad-signal", "t": "a bad signal", "es": "mala cobertura", "emoji": "📶", "pos": "n",
+      "ex": { "t": "I've got a bad signal in the village.", "es": "En el pueblo tengo mala cobertura." } },
+    { "id": "tech-how-long-have-you-had", "t": "How long have you had…?", "es": "¿Desde cuándo tienes…?", "emoji": "⏱️", "pos": "phrase",
+      "ex": { "t": "How long have you had this laptop?", "es": "¿Desde cuándo tienes este portátil?" } },
+    { "id": "tech-for-ages", "t": "for ages", "es": "desde hace siglos, muchísimo tiempo", "emoji": "🐢", "pos": "phrase",
+      "ex": { "t": "I haven't seen you for ages!", "es": "¡Hace siglos que no te veo!" } },
+    { "id": "tech-since", "t": "since", "es": "desde (un momento)", "emoji": "📍", "pos": "other",
+      "ex": { "t": "I've used WhatsApp since 2015.", "es": "Uso WhatsApp desde 2015." } }
+  ],
+  "grammar": "en-g-for-since",
+  "pron": {
+    "title": "La i de since y la ee de seen",
+    "tip": "Since tiene una i corta y relajada; seen, una i larga. No las confundas: since 2015 / I've seen it.",
+    "words": ["since", "seen", "six", "sixteen"],
+    "pairs": [["since", "seen"], ["fit", "feet"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "I've had this tablet ___ three years.", "options": ["for", "since", "ago"], "answer": "for",
+      "why": "Tres años es duración: for.", "g": "en-g-for-since" },
+    { "id": "e2", "type": "choose", "q": "We've had a video call every Sunday ___ Christmas.", "options": ["since", "for", "from"], "answer": "since",
+      "why": "Christmas es el momento de inicio: since.", "g": "en-g-for-since" },
+    { "id": "e3", "type": "choose", "q": "Hello? Can you ___ me?", "options": ["hear", "listen", "listen to"], "answer": "hear",
+      "why": "¿Me oyes? = Can you hear me?", "g": "en-g-for-since" },
+    { "id": "e4", "type": "fill", "q": "Mum, you're on ___! We can't hear you.", "es": "Mamá, ¡tienes el micro silenciado! No te oímos.", "answer": ["mute"], "bank": ["mute", "silence", "quiet"],
+      "why": "Estar silenciado = be on mute.", "g": "en-g-for-since" },
+    { "id": "e5", "type": "fill", "q": "I haven't seen you ___ ages!", "es": "¡Hace siglos que no te veo!", "answer": ["for"], "bank": ["for", "since", "in"],
+      "why": "For ages = desde hace muchísimo.", "g": "en-g-for-since" },
+    { "id": "e6", "type": "fill", "q": "How long have you ___ this phone?", "es": "¿Desde cuándo tienes este móvil?", "answer": ["had"], "hint": "have",
+      "why": "How long have you had…? (have → had).", "g": "en-g-for-since" },
+    { "id": "e7", "type": "conjugate", "verb": "to know", "person": "I", "tense": "presente perfecto", "q": "I ___ Emma since 2020.", "answer": ["have known", "'ve known"],
+      "why": "Conozco desde… = I've known since…", "g": "en-g-for-since" },
+    { "id": "e8", "type": "transform", "instr": "Escríbela correctamente en inglés", "q": "I have this laptop since 2021.", "answer": ["I've had this laptop since 2021.", "I have had this laptop since 2021."],
+      "why": "Empezó y sigue: present perfect (have had).", "g": "en-g-for-since" },
+    { "id": "e9", "type": "error", "q": "I've used this app since two years.", "wrong": "since", "fix": "for",
+      "why": "Two years es duración: for.", "g": "en-g-for-since" },
+    { "id": "e10", "type": "order", "es": "Hace siglos que no hablamos", "answer": "We haven't spoken for ages", "extra": ["since"],
+      "why": "Present perfect negativo + for ages.", "g": "en-g-for-since" },
+    { "id": "e11", "type": "translate", "dir": "to", "q": "Se ha congelado la pantalla.", "answer": ["The screen has frozen.", "The screen's frozen.", "It's frozen."],
+      "why": "Freeze → froze → frozen.", "g": "en-g-for-since" },
+    { "id": "e12", "type": "situation", "context": "En plena videollamada con tu hijo, ves que te habla pero no le oyes nada.", "emoji": "🔇",
+      "options": ["Sorry, I can't hear you. Are you on mute?", "Sorry, I don't listen you. Are you mute?", "Sorry, you are silence."], "answer": "Sorry, I can't hear you. Are you on mute?",
+      "why": "No te oigo = I can't hear you; on mute = silenciado.", "g": "en-g-for-since" },
+    { "id": "e13", "type": "match", "pairs": [["Can you hear me?", "¿Me oyes?"], ["You're on mute.", "Tienes el micro silenciado."], ["It's frozen.", "Se ha congelado."], ["a bad signal", "mala cobertura"], ["for ages", "desde hace siglos"]],
+      "why": "Frases de videollamada." },
+    { "id": "e14", "type": "reading", "kind": "message", "title": "Un mensaje de Emma",
+      "text": "Hi Yolanda! I haven't heard from you for ages. Have you got a new phone? My video calls haven't worked since Monday. I think the wifi is the problem. Can we try again on Sunday at six? Emma",
+      "questions": [
+        { "q": "¿Desde cuándo no le funcionan las videollamadas a Emma?", "options": ["Desde el lunes", "Desde hace siglos", "Desde el domingo"], "answer": "Desde el lunes" },
+        { "q": "¿Qué cree Emma que falla?", "options": ["El wifi", "El móvil", "La batería"], "answer": "El wifi" },
+        { "q": "¿Cuándo quiere volver a intentarlo?", "options": ["El domingo a las seis", "El lunes", "Hoy"], "answer": "El domingo a las seis" }
+      ] },
+    { "id": "e15", "type": "speak", "t": "Can you hear me now? I think I was on mute.", "es": "¿Me oyes ahora? Creo que tenía el micro silenciado." }
+  ],
+  "dialog": {
+    "title": "La videollamada del domingo",
+    "setting": "Yolanda hace una videollamada con su hijo Hugo desde la cocina",
+    "emoji": "🎥",
+    "lines": [
+      { "who": "Hugo", "t": "Hi Mum! Can you hear me?", "es": "¡Hola, mamá! ¿Me oyes?" },
+      { "who": "Yolanda", "t": "Hello? I can see you, but I can't hear you.", "es": "¿Hola? Te veo, pero no te oigo." },
+      { "who": "Hugo", "t": "Mum, you're on mute! Tap the microphone.", "es": "¡Mamá, tienes el micro quitado! Toca el micrófono." },
+      { "who": "Yolanda", "t": "Oh! Can you hear me now?", "es": "¡Ah! ¿Me oyes ahora?" },
+      { "who": "Hugo", "t": "Yes, perfectly. Is that a new tablet?", "es": "Sí, perfectamente. ¿Es una tableta nueva?" },
+      { "who": "Yolanda", "t": "No, I've had it for two years! You've seen it before.", "es": "¡No, la tengo desde hace dos años! Ya la has visto." },
+      { "who": "Hugo", "t": "Ha ha, sorry. Wait… the screen has frozen.", "es": "Ja, ja, perdona. Espera… se ha congelado la pantalla." },
+      { "who": "Yolanda", "t": "The signal is bad here. I'll call you back.", "es": "Aquí hay mala cobertura. Te vuelvo a llamar." }
+    ],
+    "questions": [
+      { "q": "¿Por qué Hugo no oía a su madre?", "options": ["Tenía el micro silenciado", "No tenía batería", "No tenía wifi"], "answer": "Tenía el micro silenciado" },
+      { "q": "¿Desde cuándo tiene Yolanda la tableta?", "options": ["Desde hace dos años", "Desde ayer", "Desde Navidad"], "answer": "Desde hace dos años" },
+      { "q": "¿Qué pasa al final?", "options": ["Se congela la pantalla", "Se acaba la batería", "Llega Emma"], "answer": "Se congela la pantalla" }
+    ]
+  },
+  "realLife": { "t": "Sorry, I can't hear you. I'll call you back.", "es": "Perdona, no te oigo. Te vuelvo a llamar.", "context": "Cuando falla la llamada o la videollamada" },
+  "summary": [
+    "Can you hear me? / You're on mute / It's frozen",
+    "for + duración: for two years, for ages",
+    "since + momento de inicio: since 2015, since Christmas",
+    "Desde cuándo tienes…? = How long have you had…?"
+  ],
+  "reviewed": false
+}

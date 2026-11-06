@@ -1,0 +1,59 @@
+{
+  "id": "it-a1-u04-c2",
+  "unit": "it-a1-u04",
+  "title": "¿Quién es quién en la foto?",
+  "setting": "Giulia te enseña una foto de su familia en una cafetería de Roma",
+  "emoji": "📸",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Guarda, questa è la mia famiglia. Questo è mio marito, Roberto.", "es": "Mira, esta es mi familia. Este es mi marido, Roberto." },
+      "options": [
+        { "t": "È alto e simpatico!", "es": "¡Es alto y simpático!", "next": "n2", "ok": true },
+        { "t": "È alta e simpatica!", "es": "¡Es alta y simpática!", "next": "n2", "ok": false, "feedback": "Roberto es un hombre: alto e simpatico, en masculino." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Sì, è molto gentile. E queste sono le mie figlie.", "es": "Sí, es muy amable. Y estas son mis hijas." },
+      "options": [
+        { "t": "Le tue figlie sono bellissime!", "es": "¡Tus hijas son guapísimas!", "next": "n3", "ok": true },
+        { "t": "Le tue figlie sono bellissimi!", "es": "¡Tus hijas son guapísimas!", "next": "n3", "ok": false, "feedback": "Figlie es femenino plural: bellissime, con -e." },
+        { "t": "Tue figlie sono bellissime!", "es": "¡Tus hijas son guapísimas!", "next": "n3", "ok": false, "feedback": "En plural el posesivo lleva artículo: le tue figlie." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Grazie! Chiara è la bionda. E questo è lo zio Franco.", "es": "¡Gracias! Chiara es la rubia. Y este es el tío Franco." },
+      "options": [
+        { "t": "È il fratello di tuo marito?", "es": "¿Es el hermano de tu marido?", "next": "n4", "ok": true },
+        { "t": "È il fratello del tuo marito?", "es": "¿Es el hermano de tu marido?", "next": "n4", "ok": false, "feedback": "Marito es un familiar en singular: di tuo marito, sin artículo." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "No, è il fratello di mia madre. E questi sono i miei nipoti.", "es": "No, es el hermano de mi madre. Y estos son mis nietos." },
+      "options": [
+        { "t": "Che carini!", "es": "¡Qué monos!", "next": "n5", "ok": true },
+        { "t": "Che carine!", "es": "¡Qué monas!", "next": "n5", "ok": false, "feedback": "Nipoti aquí son niños (i miei nipoti): carini, en masculino plural." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Sono bravissimi! E tu, hai una foto della tua famiglia?", "es": "¡Son buenísimos! ¿Y tú, tienes una foto de tu familia?" },
+      "options": [
+        { "t": "Sì, ecco mio figlio e le mie amiche.", "es": "Sí, aquí están mi hijo y mis amigas.", "next": "n6", "ok": true },
+        { "t": "Sì, ecco il mio figlio e mie amiche.", "es": "Sí, aquí están mi hijo y mis amigas.", "next": "n6", "ok": false, "feedback": "Al revés: mio figlio (familiar en singular, sin artículo) y le mie amiche (con artículo)." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Che bella famiglia! Tuo figlio assomiglia a te.", "es": "¡Qué familia tan bonita! Tu hijo se parece a ti." },
+      "options": [
+        { "t": "Grazie! Ma è più alto di me.", "es": "¡Gracias! Pero es más alto que yo.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

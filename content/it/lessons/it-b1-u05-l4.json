@@ -1,0 +1,78 @@
+{
+  "id": "it-b1-u05-l4",
+  "unit": "it-b1-u05",
+  "title": "Era già partito",
+  "goal": "a usar ero, eri, era + participio con los verbos de movimiento y a pronunciar bien las dobles",
+  "emoji": "🚉",
+  "photoQuery": "empty railway platform departing train",
+  "vocab": [
+    { "id": "storia-partire", "t": "partire", "es": "salir, irse (de viaje)", "emoji": "🛫", "pos": "v", "ex": { "t": "Il treno era già partito.", "es": "El tren ya había salido." } },
+    { "id": "storia-arrivare-in-ritardo", "t": "arrivare in ritardo", "es": "llegar tarde", "emoji": "⏰", "pos": "phrase", "ex": { "t": "Ero arrivata in ritardo per il traffico.", "es": "Había llegado tarde por el tráfico." } },
+    { "id": "storia-uscire", "t": "uscire", "es": "salir", "emoji": "🚪", "pos": "v", "ex": { "t": "Quando ho chiamato, Hugo era già uscito.", "es": "Cuando llamé, Hugo ya había salido." } },
+    { "id": "storia-tornare", "t": "tornare", "es": "volver", "emoji": "🔙", "pos": "v", "ex": { "t": "Ero tornata a casa da poco.", "es": "Hacía poco que había vuelto a casa." } },
+    { "id": "storia-il-binario", "t": "il binario", "es": "el andén, la vía", "emoji": "🛤️", "pos": "n", "ex": { "t": "Il treno per Ravenna parte dal binario tre.", "es": "El tren a Rávena sale del andén tres." } },
+    { "id": "storia-finire", "t": "finire", "es": "terminar, acabarse", "emoji": "🔚", "pos": "v", "note": "Si algo se acaba solo, va con essere: lo spettacolo era finito.", "ex": { "t": "Quando siamo entrate, il concerto era già finito.", "es": "Cuando entramos, el concierto ya había terminado." } },
+    { "id": "storia-addormentarsi", "t": "addormentarsi", "es": "dormirse", "emoji": "😴", "pos": "v", "ex": { "t": "Mi ero addormentata sul divano.", "es": "Me había dormido en el sofá." } },
+    { "id": "storia-essere-stata", "t": "ero stata", "es": "había estado", "emoji": "📍", "pos": "phrase", "ex": { "t": "Non ero mai stata a Ravenna.", "es": "Nunca había estado en Rávena." } }
+  ],
+  "grammar": "it-g-trapassato-prossimo",
+  "pron": {
+    "title": "Dobles: era già partito, avevo fatto",
+    "tip": "Las dobles se sostienen un instante: fat-to, det-to, suc-ces-so. Pero ojo: partito y uscito llevan una sola t (par-ti-to). Lee la frase entera despacio y luego rápido.",
+    "words": ["era già partito", "avevo fatto", "era successo", "ero uscita", "avevo detto"],
+    "pairs": [["fato", "fatto"], ["sete", "sette"], ["caro", "carro"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Quando sono arrivata in stazione, il treno ___ già partito.", "es": "Cuando llegué a la estación, el tren ya había salido.", "options": ["era", "aveva", "è"], "answer": "era", "why": "Partire va con essere: era partito.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e2", "type": "choose", "q": "Non ero mai ___ a Ravenna prima.", "es": "Nunca antes había estado en Rávena.", "options": ["stata", "stato", "state"], "answer": "stata", "why": "Yolanda es mujer: ero stata.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e3", "type": "choose", "q": "Le mie amiche erano già ___.", "es": "Mis amigas ya se habían ido.", "options": ["uscite", "uscito", "usciti"], "answer": "uscite", "why": "Con essere, el participio concuerda: amiche → uscite.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e4", "type": "choose", "q": "Mio marito ___ tornato dal lavoro.", "es": "Mi marido había vuelto del trabajo.", "options": ["era", "aveva", "ero"], "answer": "era", "why": "Tornare va con essere: lui era tornato.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e5", "type": "fill", "q": "Quando ho chiamato, Hugo era già ___.", "es": "Cuando llamé, Hugo ya había salido.", "answer": ["uscito"], "bank": ["uscito", "uscita", "usciti"], "why": "Hugo, masculino singular: uscito.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e6", "type": "fill", "q": "Mi ero ___ davanti alla TV.", "es": "Me había dormido delante de la tele.", "answer": ["addormentata"], "bank": ["addormentata", "addormentato", "addormentare"], "why": "Los reflexivos van con essere y Yolanda es mujer: addormentata.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e7", "type": "fill", "q": "Quando siamo entrati, lo spettacolo ___ già finito.", "es": "Cuando entramos, el espectáculo ya había terminado.", "answer": ["era"], "hint": "essere", "why": "Lo spettacolo finisce solo: era finito.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e8", "type": "conjugate", "verb": "arrivare", "person": "io (Yolanda)", "tense": "trapassato prossimo", "q": "Ero ___ in anticipo.", "answer": ["arrivata"], "table": [["io", "ero arrivato/a"], ["tu", "eri arrivato/a"], ["lui / lei", "era arrivato/a"], ["noi", "eravamo arrivati/e"], ["voi", "eravate arrivati/e"], ["loro", "erano arrivati/e"]], "why": "Yolanda: ero arrivata, en femenino.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e9", "type": "conjugate", "verb": "essere", "person": "loro", "tense": "trapassato prossimo", "q": "I miei amici ___ partiti presto.", "answer": ["erano"], "table": [["io", "ero"], ["tu", "eri"], ["lui / lei", "era"], ["noi", "eravamo"], ["voi", "eravate"], ["loro", "erano"]], "why": "Loro erano + partiti.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e10", "type": "error", "q": "Quando sono arrivata, il treno aveva già partito.", "wrong": "aveva", "fix": "era", "why": "Partire va con essere: era partito.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e11", "type": "error", "q": "Io ero arrivato tardi, scusate! — dice Yolanda.", "wrong": "arrivato", "fix": "arrivata", "why": "Yolanda es mujer: arrivata.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e12", "type": "transform", "instr": "Pásala al trapassato (había…)", "q": "Siamo tornate a casa.", "answer": ["Eravamo tornate a casa."], "why": "Siamo → eravamo; el participio sigue igual.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e13", "type": "order", "es": "Cuando llegué, ya se había ido.", "answer": "Quando sono arrivata era già andato via", "extra": ["aveva"], "why": "Andare via va con essere: era andato via.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e14", "type": "translate", "dir": "to", "q": "Nunca había estado en Italia.", "answer": ["Non ero mai stata in Italia.", "Non ero mai stato in Italia."], "why": "Non ero mai stata: estar → essere stato/a.", "g": "it-g-trapassato-prossimo" },
+    { "id": "e15", "type": "minimal", "pair": ["fato", "fatto"], "answer": "fatto", "es": ["destino", "hecho"], "why": "Fatto (hecho) lleva doble t: se sostiene un instante." },
+    { "id": "e16", "type": "situation", "context": "Llamas a tu hijo y te dice que su padre no está. Quieres decir que ya había salido cuando llamaste.", "emoji": "📞", "options": ["Quando ho chiamato, era già uscito.", "Quando ho chiamato, aveva già uscito.", "Quando ho chiamato, è già uscire."], "answer": "Quando ho chiamato, era già uscito.", "why": "Uscire va con essere: era uscito.", "g": "it-g-trapassato-prossimo" }
+  ],
+  "dialog": {
+    "title": "El tren que no esperó",
+    "setting": "Yolanda llama a Giulia desde la estación de Bolonia",
+    "emoji": "🚆",
+    "lines": [
+      { "who": "Giulia", "t": "Pronto? Yolanda, sei già sul treno?", "es": "¿Diga? Yolanda, ¿ya estás en el tren?" },
+      { "who": "Yolanda", "t": "No! Quando sono arrivata al binario, il treno era già partito.", "es": "¡No! Cuando llegué al andén, el tren ya había salido." },
+      { "who": "Giulia", "t": "Ma come? Eri uscita presto dall'albergo!", "es": "¿Cómo? ¡Habías salido pronto del hotel!" },
+      { "who": "Yolanda", "t": "Sì, ma il taxi era arrivato in ritardo.", "es": "Sí, pero el taxi había llegado tarde." },
+      { "who": "Giulia", "t": "Che sfortuna! E adesso?", "es": "¡Qué mala suerte! ¿Y ahora?" },
+      { "who": "Yolanda", "t": "Prendo il prossimo, tra venti minuti.", "es": "Cojo el siguiente, dentro de veinte minutos." },
+      { "who": "Giulia", "t": "Va bene. Ti aspetto alla stazione di Ravenna.", "es": "Vale. Te espero en la estación de Rávena." }
+    ],
+    "questions": [
+      { "q": "¿Dónde está Yolanda?", "options": ["En la estación", "En el hotel", "En el tren"], "answer": "En la estación" },
+      { "q": "¿Por qué perdió el tren?", "options": ["El taxi había llegado tarde", "Se había dormido", "Había olvidado el billete"], "answer": "El taxi había llegado tarde" },
+      { "q": "¿Cuándo sale el siguiente tren?", "options": ["Dentro de veinte minutos", "Dentro de una hora", "Mañana"], "answer": "Dentro de veinte minutos" }
+    ]
+  },
+  "realLife": { "t": "Il treno era già partito. Quando parte il prossimo?", "es": "El tren ya había salido. ¿Cuándo sale el siguiente?", "context": "Para preguntar en la estación si has perdido un tren" },
+  "same": {
+    "text": "Como en el passato prossimo, los verbos de movimiento van con essere y el participio cambia según quién lo hace.",
+    "examples": [
+      { "t": "Ero arrivata.", "es": "Había llegado (yo, mujer)." },
+      { "t": "Era partito.", "es": "Se había ido (él)." },
+      { "t": "Erano usciti.", "es": "Habían salido (ellos)." }
+    ]
+  },
+  "summary": [
+    "Con essere: ero, eri, era, eravamo, eravate, erano + participio.",
+    "El participio concuerda: ero arrivata, erano usciti.",
+    "Verbos de movimiento y reflexivos van con essere: era partito, mi ero addormentata.",
+    "Dobles: fatto, detto, successo; pero partito, uscito, una sola t."
+  ],
+  "reviewed": false
+}

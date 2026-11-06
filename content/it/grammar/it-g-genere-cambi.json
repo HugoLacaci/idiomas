@@ -1,0 +1,140 @@
+{
+  "id": "it-g-genere-cambi",
+  "lang": "it",
+  "level": "A1",
+  "title": "Palabras que cambian de género (il latte, il sale, il fiore)",
+  "short": "La leche es «il latte» y el tenedor, «la forchetta»: pocas, pero muy de la mesa.",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "🍽️",
+      "title": "Casi siempre, igual",
+      "text": "Buena noticia: casi todas las palabras tienen el mismo género que en español. Pero unas pocas cambian… ¡y muchas están en la mesa!",
+      "examples": [
+        { "t": "il vino, la pasta", "es": "el vino, la pasta" },
+        { "t": "il latte, il sale", "es": "la leche, la sal", "hl": "il" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "🔄",
+      "title": "Femeninas en español, masculinas en italiano",
+      "text": "Estas en italiano van con ==il==.",
+      "table": {
+        "head": ["Español", "Italiano"],
+        "rows": [
+          ["la leche", "==il== latte"],
+          ["la sal", "==il== sale"],
+          ["la miel", "==il== miele"],
+          ["la flor", "==il== fiore"],
+          ["la pimienta", "==il== pepe"],
+          ["la cuchara", "==il== cucchiaio"],
+          ["la servilleta", "==il== tovagliolo"],
+          ["la cuenta", "==il== conto"]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "emoji": "🔁",
+      "title": "Y al revés",
+      "text": "Estas son masculinas en español y femeninas en italiano.",
+      "table": {
+        "head": ["Español", "Italiano"],
+        "rows": [
+          ["el tenedor", "==la== forchetta"],
+          ["el filete", "==la== bistecca"],
+          ["el desayuno", "==la== colazione"],
+          ["el domingo", "==la== domenica"],
+          ["el verano", "==l'==estate (femenino)"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "emoji": "🧩",
+      "title": "Todo cambia con ella",
+      "text": "Si la palabra es masculina, el artículo y el adjetivo también: il latte ==freddo==, il miele ==buono==. Y en plural: ==i== fiori, ==le== forchette.",
+      "examples": [
+        { "t": "Il latte è freddo.", "es": "La leche está fría.", "hl": "freddo" },
+        { "t": "La forchetta è sporca.", "es": "El tenedor está sucio.", "hl": "sporca" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "emoji": "🇪🇸",
+      "title": "Las comidas del día",
+      "text": "También cambian dos comidas: ==il== pranzo (la comida del mediodía) y ==la== colazione (el desayuno). La cena, en cambio, es igual: ==la== cena.",
+      "examples": [
+        { "t": "Il pranzo è pronto!", "es": "¡La comida está lista!", "hl": "Il" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo!",
+      "text": "❌ la latte → ✅ ==il== latte. ❌ la sale → ✅ ==il== sale. ❌ il forchetta → ✅ ==la== forchetta. ❌ il miele è buona → ✅ il miele è ==buono==."
+    },
+    {
+      "kind": "tip",
+      "emoji": "💡",
+      "title": "Truco: las que acaban en -e",
+      "text": "Las palabras en ==-e== pueden ser masculinas o femeninas: il pane, la carne, il pesce, la notte. Apréndelas siempre con su artículo: no «latte», sino «==il== latte»."
+    },
+    {
+      "kind": "tip",
+      "emoji": "🥚",
+      "title": "Curiosidad: el huevo",
+      "text": "Un huevo es ==l'uovo== (masculino), pero dos huevos son ==le uova==: ¡en plural se vuelve femenino! Due uova, per favore."
+    }
+  ],
+  "compare": {
+    "es": "La leche está fría. La sal y la pimienta, por favor. El tenedor está sucio. Una flor muy bonita.",
+    "target": "Il latte è freddo. Il sale e il pepe, per favore. La forchetta è sporca. Un fiore molto bello. Cambia el artículo y también el adjetivo."
+  },
+  "errors": [
+    { "wrong": "La latte è fredda.", "right": "Il latte è freddo.", "why": "Latte es masculino en italiano: il latte, freddo." },
+    { "wrong": "Mi passi la sale?", "right": "Mi passi il sale?", "why": "Sale es masculino: il sale." },
+    { "wrong": "Un forchetta, per favore.", "right": "Una forchetta, per favore.", "why": "Forchetta es femenina: una forchetta." },
+    { "wrong": "Che bella fiore!", "right": "Che bel fiore!", "why": "Fiore es masculino: bel fiore, i fiori belli." },
+    { "wrong": "La conto, per favore.", "right": "Il conto, per favore.", "why": "Conto es masculino, aunque «la cuenta» sea femenina." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "___ latte è in frigo.", "es": "La leche está en la nevera.", "options": ["Il", "La"], "answer": "Il", "why": "Latte es masculino: il latte.", "g": "it-g-genere-cambi" },
+    { "id": "e2", "type": "choose", "q": "Mi passi ___ sale, per favore?", "options": ["il", "la"], "answer": "il", "why": "Sale es masculino: il sale.", "g": "it-g-genere-cambi" },
+    { "id": "e3", "type": "choose", "q": "Manca ___ forchetta.", "es": "Falta un tenedor.", "options": ["una", "un"], "answer": "una", "why": "Forchetta es femenina: una forchetta.", "g": "it-g-genere-cambi" },
+    { "id": "e4", "type": "choose", "q": "Che ___ fiore!", "es": "¡Qué flor tan bonita!", "options": ["bel", "bella"], "answer": "bel", "why": "Fiore es masculino: che bel fiore.", "g": "it-g-genere-cambi" },
+    { "id": "e5", "type": "choose", "q": "Il miele è molto ___.", "options": ["dolce", "dolca"], "answer": "dolce", "why": "Dolce acaba en -e y sirve para los dos géneros.", "g": "it-g-genere-cambi" },
+    { "id": "e6", "type": "choose", "q": "___ domenica pranzo da Hugo.", "es": "El domingo como en casa de Hugo.", "options": ["La", "Il"], "answer": "La", "why": "Domenica es femenina en italiano: la domenica.", "g": "it-g-genere-cambi" },
+    { "id": "e7", "type": "choose", "q": "La bistecca è ___.", "es": "El filete está buenísimo.", "options": ["buonissima", "buonissimo"], "answer": "buonissima", "why": "Bistecca es femenina: buonissima.", "g": "it-g-genere-cambi" },
+    { "id": "e8", "type": "fill", "q": "Un tè con ___ miele, per favore.", "answer": ["il"], "bank": ["il", "la", "lo"], "why": "Miele es masculino: il miele.", "g": "it-g-genere-cambi" },
+    { "id": "e9", "type": "fill", "q": "Il latte è ___.", "es": "La leche está fría.", "answer": ["freddo"], "bank": ["freddo", "fredda"], "why": "Latte masculino: freddo.", "g": "it-g-genere-cambi" },
+    { "id": "e10", "type": "fill", "q": "Scusi, ___ conto, per favore.", "answer": ["il"], "bank": ["il", "la"], "why": "Conto es masculino: il conto.", "g": "it-g-genere-cambi" },
+    { "id": "e11", "type": "fill", "q": "Per la zuppa serve ___ cucchiaio.", "es": "Para la sopa hace falta una cuchara.", "answer": ["un"], "bank": ["un", "una"], "why": "Cucchiaio es masculino: un cucchiaio.", "g": "it-g-genere-cambi" },
+    { "id": "e12", "type": "fill", "q": "Mi dà ___ tovagliolo?", "es": "¿Me da una servilleta?", "answer": ["un"], "why": "Tovagliolo es masculino: un tovagliolo.", "g": "it-g-genere-cambi" },
+    { "id": "e13", "type": "fill", "q": "___ colazione è pronta!", "es": "¡El desayuno está listo!", "answer": ["La"], "why": "Colazione es femenina: la colazione è pronta.", "g": "it-g-genere-cambi" },
+    { "id": "e14", "type": "fill", "q": "Il pepe è ___.", "es": "La pimienta es negra.", "answer": ["nero"], "why": "Pepe es masculino: il pepe nero.", "g": "it-g-genere-cambi" },
+    { "id": "e15", "type": "error", "q": "La latte è caldo.", "wrong": "La", "fix": "Il", "why": "Latte es masculino: il latte.", "g": "it-g-genere-cambi" },
+    { "id": "e16", "type": "error", "q": "Il sale è finita.", "wrong": "finita", "fix": "finito", "why": "Sale es masculino: il sale è finito.", "g": "it-g-genere-cambi" },
+    { "id": "e17", "type": "error", "q": "Il forchetta è sporca.", "wrong": "Il", "fix": "La", "why": "Forchetta es femenina: la forchetta.", "g": "it-g-genere-cambi" },
+    { "id": "e18", "type": "error", "q": "Ci sono tante fiori in terrazza.", "wrong": "tante", "fix": "tanti", "why": "Fiori es masculino plural: tanti fiori.", "g": "it-g-genere-cambi" },
+    { "id": "e19", "type": "transform", "instr": "Pásala a plural", "q": "Il fiore è rosso.", "answer": ["I fiori sono rossi."], "why": "Masculino plural: i fiori rossi.", "g": "it-g-genere-cambi" },
+    { "id": "e20", "type": "transform", "instr": "Pásala a plural", "q": "La forchetta è pulita.", "answer": ["Le forchette sono pulite."], "why": "Femenino plural: le forchette pulite.", "g": "it-g-genere-cambi" },
+    { "id": "e21", "type": "transform", "instr": "Cambia «latte» por «miele»", "q": "Il latte è buono.", "answer": ["Il miele è buono."], "why": "Los dos son masculinos: no cambia nada más.", "g": "it-g-genere-cambi" },
+    { "id": "e22", "type": "transform", "instr": "Cambia «coltello» por «forchetta»", "q": "Il coltello è nuovo.", "answer": ["La forchetta è nuova."], "why": "Forchetta es femenina: la forchetta nuova.", "g": "it-g-genere-cambi" },
+    { "id": "e23", "type": "order", "es": "La leche está fría.", "answer": "Il latte è freddo", "extra": ["la", "fredda"], "why": "Il latte, masculino: freddo.", "g": "it-g-genere-cambi" },
+    { "id": "e24", "type": "order", "es": "¿Me pasas la sal y la pimienta?", "answer": "Mi passi il sale e il pepe", "extra": ["la"], "why": "Sale y pepe son masculinos.", "g": "it-g-genere-cambi" },
+    { "id": "e25", "type": "order", "es": "El tenedor está sucio.", "answer": "La forchetta è sporca", "extra": ["il", "sporco"], "why": "Forchetta es femenina: la forchetta sporca.", "g": "it-g-genere-cambi" },
+    { "id": "e26", "type": "translate", "dir": "to", "q": "la miel", "answer": ["il miele"], "why": "Masculino en italiano: il miele.", "g": "it-g-genere-cambi" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "una flor roja", "answer": ["un fiore rosso"], "why": "Fiore es masculino: un fiore rosso.", "g": "it-g-genere-cambi" },
+    { "id": "e28", "type": "translate", "dir": "from", "q": "Il pranzo è pronto.", "answer": ["La comida está lista"], "why": "Il pranzo (masculino) = la comida del mediodía.", "g": "it-g-genere-cambi" },
+    { "id": "e29", "type": "match", "pairs": [["il latte", "la leche"], ["il sale", "la sal"], ["la forchetta", "el tenedor"], ["il cucchiaio", "la cuchara"], ["la domenica", "el domingo"]], "why": "Todas cambian de género respecto al español.", "g": "it-g-genere-cambi" },
+    { "id": "e30", "type": "situation", "context": "Tu café está amargo y quieres leche. ¿Qué pides?", "emoji": "🥛", "options": ["Scusi, un po' di latte?", "Scusi, un po' di la latte?", "Scusi, una latte?"], "answer": "Scusi, un po' di latte?", "why": "Un po' di latte = un poco de leche.", "g": "it-g-genere-cambi" },
+    { "id": "e31", "type": "situation", "context": "En el desayuno del hotel, la miel te parece buenísima. ¿Qué dices?", "emoji": "🍯", "options": ["Il miele è buonissimo!", "La miele è buonissima!", "Il miele è buonissima!"], "answer": "Il miele è buonissimo!", "why": "Miele es masculino: il miele, buonissimo.", "g": "it-g-genere-cambi" },
+    { "id": "e32", "type": "reading", "kind": "message", "title": "Lista de la compra de Giulia", "text": "Yolanda, per domenica compriamo: il latte, il miele, il sale, due bistecche, sei uova e un mazzo di fiori per la tavola!", "questions": [
+      { "q": "¿Cuántos huevos compran?", "options": ["Seis", "Dos", "Ninguno"], "answer": "Seis" },
+      { "q": "¿Para qué son las flores?", "options": ["Para la mesa", "Para Giulia", "Para el balcón"], "answer": "Para la mesa" }
+    ], "why": "Le uova (plural de l'uovo); i fiori, masculino.", "g": "it-g-genere-cambi" }
+  ],
+  "reviewed": false
+}

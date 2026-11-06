@@ -1,0 +1,59 @@
+{
+  "id": "it-a2-u02-c1",
+  "unit": "it-a2-u02",
+  "title": "Giulia pregunta por tu Navidad",
+  "setting": "El 27 de diciembre Giulia te escribe por WhatsApp desde Roma",
+  "emoji": "🎄",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda! Com'è andato il Natale?", "es": "¡Hola, Yolanda! ¿Qué tal la Navidad?" },
+      "options": [
+        { "t": "Benissimo! È stato un Natale bellissimo.", "es": "¡Muy bien! Ha sido una Navidad preciosa.", "next": "n2", "ok": true },
+        { "t": "Benissimo! Ha stato un Natale bellissimo.", "es": "¡Muy bien! Ha sido una Navidad preciosa.", "next": "n2", "ok": false, "feedback": "Essere hace su pasado con essere: è stato." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che bello! È venuto anche tuo figlio Hugo?", "es": "¡Qué bien! ¿Vino también tu hijo Hugo?" },
+      "options": [
+        { "t": "Sì, è arrivato la Vigilia.", "es": "Sí, llegó en Nochebuena.", "next": "n3", "ok": true },
+        { "t": "Sì, ha arrivato la Vigilia.", "es": "Sí, llegó en Nochebuena.", "next": "n3", "ok": false, "feedback": "Arrivare va con essere: è arrivato." },
+        { "t": "Sì, è arrivata la Vigilia.", "es": "Sí, llegó en Nochebuena.", "next": "n3", "ok": false, "feedback": "Hablas de Hugo, un hombre: è arrivato." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "E cosa avete mangiato?", "es": "¿Y qué comisteis?" },
+      "options": [
+        { "t": "Abbiamo mangiato pesce e tanti dolci.", "es": "Comimos pescado y muchos dulces.", "next": "n4", "ok": true },
+        { "t": "Siamo mangiati pesce e tanti dolci.", "es": "Comimos pescado y muchos dulces.", "next": "n4", "ok": false, "feedback": "Mangiare va con avere: abbiamo mangiato." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Buonissimo! Dopo cena siete usciti?", "es": "¡Riquísimo! ¿Salisteis después de cenar?" },
+      "options": [
+        { "t": "No, siamo rimasti a casa a giocare a carte.", "es": "No, nos quedamos en casa jugando a las cartas.", "next": "n5", "ok": true },
+        { "t": "No, abbiamo rimasto a casa a giocare a carte.", "es": "No, nos quedamos en casa jugando a las cartas.", "next": "n5", "ok": false, "feedback": "Rimanere va con essere: siamo rimasti." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Noi invece abbiamo giocato a tombola fino all'una!", "es": "¡Nosotros, en cambio, jugamos a la tombola hasta la una!" },
+      "options": [
+        { "t": "Che divertente! Buone feste!", "es": "¡Qué divertido! ¡Felices fiestas!", "next": "n6", "ok": true },
+        { "t": "Che divertente! Buon compleanno!", "es": "¡Qué divertido! ¡Feliz cumpleaños!", "next": "n6", "ok": false, "feedback": "No es su cumpleaños: en estas fechas, Buone feste!" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Grazie, altrettanto! Un abbraccio a tutta la famiglia!", "es": "¡Gracias, igualmente! ¡Un abrazo a toda la familia!" },
+      "options": [
+        { "t": "Grazie, a presto!", "es": "¡Gracias, hasta pronto!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

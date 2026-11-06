@@ -1,0 +1,143 @@
+{
+  "id": "it-g-congiuntivo-intro",
+  "lang": "it",
+  "level": "B1",
+  "title": "Congiuntivo presente: introducción (penso che sia)",
+  "short": "Penso che sia buono: para opinar en italiano, detrás de penso che, credo che y mi sembra che va el congiuntivo.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Un modo para opinar",
+      "emoji": "🤔",
+      "text": "En español dices «creo que ==es== bueno». En italiano, cuando das tu opinión, el verbo cambia: ==penso che sia buono==. Ese modo se llama congiuntivo.",
+      "examples": [
+        { "t": "Penso che il Parmigiano ==sia== squisito.", "es": "Creo que el parmesano está riquísimo.", "hl": "sia" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Essere y avere",
+      "emoji": "🧀",
+      "text": "Lo mejor: en singular ==io, tu, lui y lei== usan la misma forma. Para cosas en plural: ==siano, abbiano==.",
+      "table": {
+        "head": ["", "essere", "avere"],
+        "rows": [
+          ["che io", "==sia==", "==abbia=="],
+          ["che tu", "==sia==", "==abbia=="],
+          ["che lui / lei", "==sia==", "==abbia=="],
+          ["che loro", "==siano==", "==abbiano=="]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Los regulares",
+      "emoji": "🔄",
+      "text": "Se cambia la vocal: los de ==-are== terminan en ==-i==; los de ==-ere== y ==-ire==, en ==-a==. ¡Al revés que en español!",
+      "table": {
+        "head": ["Verbo", "Presente", "Congiuntivo"],
+        "rows": [
+          ["costare", "costa", "che cost==i=="],
+          ["parlare", "parla", "che parl==i=="],
+          ["vendere", "vende", "che vend==a=="],
+          ["aprire", "apre", "che apr==a=="]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Las frases que lo piden",
+      "emoji": "🗝️",
+      "text": "Apréndete estas puertas: ==penso che==, ==credo che==, ==mi sembra che==, ==non credo che==. Detrás, congiuntivo.",
+      "examples": [
+        { "t": "Mi sembra che il bar ==sia== chiuso.", "es": "Me parece que el bar está cerrado.", "hl": "sia" },
+        { "t": "Credo che Hugo ==abbia== ragione.", "es": "Creo que Hugo tiene razón.", "hl": "abbia" },
+        { "t": "Non credo che ==costi== molto.", "es": "No creo que cueste mucho.", "hl": "costi" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "«Creo que ==es==» → penso che ==sia==. Pero «no creo que ==sea==» → non credo che ==sia==: ¡ahí coincidimos! Y con ==secondo me== no hace falta: secondo me è buono.",
+      "examples": [
+        { "t": "Secondo me ==è== caro. / Penso che ==sia== caro.", "es": "Para mí es caro. / Creo que es caro." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Penso che è buono* → ✅ penso che ==sia== buono. ❌ *Credo che costa* → ✅ credo che ==costi==. ❌ *Penso che sì* → ✅ penso ==di== sì."
+    },
+    {
+      "kind": "tip",
+      "title": "Truco: pon el sujeto",
+      "emoji": "💡",
+      "text": "Como ==sia== vale para yo, tú y él, añade la persona si hay dudas: ==che tu sia==, ==che io abbia==. Y para «creo que sí»: ==penso di sì==.",
+      "examples": [
+        { "t": "Penso che ==tu== abbia ragione.", "es": "Creo que tienes razón.", "hl": "tu" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español, «creo que», «pienso que» y «me parece que» van con indicativo (creo que es bueno); solo «no creo que» lleva subjuntivo (no creo que sea bueno).",
+    "target": "En italiano, penso che, credo che y mi sembra che llevan congiuntivo tanto en afirmativa como en negativa: penso che sia buono, non credo che sia buono. Con secondo me se usa el indicativo: secondo me è buono."
+  },
+  "errors": [
+    { "wrong": "Penso che il vino è buono.", "right": "Penso che il vino sia buono.", "why": "Penso che pide congiuntivo: sia, aunque en español digamos «es»." },
+    { "wrong": "Credo che il ristorante ha una terrazza.", "right": "Credo che il ristorante abbia una terrazza.", "why": "Avere en congiuntivo es abbia." },
+    { "wrong": "Mi sembra che costa troppo.", "right": "Mi sembra che costi troppo.", "why": "Verbos en -are: el congiuntivo termina en -i." },
+    { "wrong": "Non credo che il museo apri oggi.", "right": "Non credo che il museo apra oggi.", "why": "Verbos en -ire: el congiuntivo termina en -a (al revés que en español: «abra»)." },
+    { "wrong": "Secondo me sia caro.", "right": "Secondo me è caro.", "why": "Secondo me no lleva che ni congiuntivo: va con el indicativo." },
+    { "wrong": "Il museo è aperto? Penso che sì.", "right": "Il museo è aperto? Penso di sì.", "why": "«Creo que sí» se dice penso di sì." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Penso che il formaggio ___ buono.", "es": "Creo que el queso está bueno.", "options": ["sia", "è", "essere"], "answer": "sia", "why": "Penso che + congiuntivo de essere: sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e2", "type": "choose", "q": "Credo che la pizzeria ___ un forno a legna.", "es": "Creo que la pizzería tiene un horno de leña.", "options": ["abbia", "ha", "sia"], "answer": "abbia", "why": "Tener = avere → che abbia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e3", "type": "choose", "q": "Mi sembra che tu ___ un po' stanca.", "es": "Me parece que estás un poco cansada.", "options": ["sia", "sei", "abbia"], "answer": "sia", "why": "Che tu sia: misma forma que con io y lui.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e4", "type": "choose", "q": "Credo che questo vino ___ dieci euro.", "es": "Creo que este vino cuesta diez euros.", "options": ["costi", "costa", "costo"], "answer": "costi", "why": "Costare (-are) → costi.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e5", "type": "choose", "q": "Penso che il fornaio ___ pane anche la domenica.", "es": "Creo que el panadero vende pan también el domingo.", "options": ["venda", "vendi", "vende"], "answer": "venda", "why": "Vendere (-ere) → venda.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e6", "type": "choose", "q": "Non credo che la banca ___ il sabato.", "es": "No creo que el banco abra el sábado.", "options": ["apra", "apri", "apre"], "answer": "apra", "why": "Aprire (-ire) → apra.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e7", "type": "choose", "q": "Secondo me questo posto ___ bellissimo.", "es": "Para mí este sitio es precioso.", "options": ["è", "sia", "abbia"], "answer": "è", "why": "Con secondo me se usa el indicativo normal: è.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e8", "type": "choose", "q": "Il negozio è aperto? Penso ___ sì.", "es": "¿La tienda está abierta? Creo que sí.", "options": ["di", "che", "a"], "answer": "di", "why": "Creo que sí = penso di sì.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e9", "type": "choose", "q": "Credo che questi pomodori ___ freschissimi.", "es": "Creo que estos tomates están fresquísimos.", "options": ["siano", "sia", "sono"], "answer": "siano", "why": "Con cosas en plural: siano.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e10", "type": "fill", "q": "Penso che Hugo ___ ragione.", "es": "Creo que Hugo tiene razón.", "answer": ["abbia"], "bank": ["abbia", "ha", "sia"], "why": "Avere ragione → che abbia ragione.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e11", "type": "fill", "q": "Mi sembra che il ristorante ___ pieno.", "es": "Me parece que el restaurante está lleno.", "answer": ["sia"], "bank": ["sia", "è", "abbia"], "why": "Essere pieno → che sia pieno.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e12", "type": "fill", "q": "Credo che mio marito ___ troppo caffè.", "es": "Creo que mi marido bebe demasiado café.", "answer": ["beva"], "bank": ["beva", "beve", "bevi"], "why": "Bere se conjuga como «bevere»: che beva.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e13", "type": "fill", "q": "Non credo che il treno ___ in orario.", "es": "No creo que el tren llegue puntual.", "answer": ["arrivi"], "bank": ["arrivi", "arriva", "arrivare"], "why": "Arrivare (-are) → arrivi.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e14", "type": "fill", "q": "Penso che il museo ___ alle sei.", "es": "Creo que el museo cierra a las seis.", "answer": ["chiuda"], "hint": "chiudere", "why": "Chiudere (-ere) → chiuda.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e15", "type": "fill", "q": "Mi sembra che la signora ___ italiano molto bene.", "es": "Me parece que la señora habla italiano muy bien.", "answer": ["parli"], "hint": "parlare", "why": "Parlare (-are) → parli.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e16", "type": "fill", "q": "Credo che tu ___ bisogno di una vacanza.", "es": "Creo que necesitas unas vacaciones.", "answer": ["abbia"], "hint": "avere", "why": "Avere bisogno = necesitar → che tu abbia bisogno.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e17", "type": "conjugate", "verb": "essere", "person": "io", "tense": "congiuntivo presente", "q": "Mio figlio pensa che io ___ troppo prudente.", "answer": ["sia"], "table": [["io", "sia"], ["tu", "sia"], ["lui / lei", "sia"]], "why": "Che io sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e18", "type": "conjugate", "verb": "avere", "person": "lei", "tense": "congiuntivo presente", "q": "Penso che la cuoca ___ un segreto.", "answer": ["abbia"], "table": [["io", "abbia"], ["tu", "abbia"], ["lui / lei", "abbia"]], "why": "Che lei abbia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e19", "type": "conjugate", "verb": "dormire", "person": "lui", "tense": "congiuntivo presente", "q": "Credo che il bambino ___ ancora.", "answer": ["dorma"], "table": [["-are", "-i"], ["-ere", "-a"], ["-ire", "-a"]], "why": "Dormire (-ire) → dorma.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e20", "type": "conjugate", "verb": "cucinare", "person": "tu", "tense": "congiuntivo presente", "q": "Penso che tu ___ meglio di me.", "answer": ["cucini"], "table": [["-are", "-i"], ["-ere", "-a"], ["-ire", "-a"]], "why": "Cucinare (-are) → cucini.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e21", "type": "conjugate", "verb": "prendere", "person": "io", "tense": "congiuntivo presente", "q": "Mio marito crede che io ___ sempre il dolce.", "answer": ["prenda"], "why": "Prendere (-ere) → prenda.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e22", "type": "error", "q": "Penso che il gelato è squisito.", "wrong": "è", "fix": "sia", "why": "Penso che + congiuntivo: sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e23", "type": "error", "q": "Credo che il negozio ha prodotti tipici.", "wrong": "ha", "fix": "abbia", "why": "Credo che + abbia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e24", "type": "error", "q": "Non credo che il museo apri domani.", "wrong": "apri", "fix": "apra", "why": "Aprire → apra (en italiano, -ire termina en -a).", "g": "it-g-congiuntivo-intro" },
+    { "id": "e25", "type": "error", "q": "Mi sembra che la borsa costa troppo.", "wrong": "costa", "fix": "costi", "why": "Costare → costi.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e26", "type": "error", "q": "Secondo me il vino sia ottimo.", "wrong": "sia", "fix": "è", "why": "Secondo me va con indicativo: è.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e27", "type": "error", "q": "Credo che Hugo abbio ragione.", "wrong": "abbio", "fix": "abbia", "why": "La forma es siempre abbia: no existe «abbio».", "g": "it-g-congiuntivo-intro" },
+    { "id": "e28", "type": "transform", "instr": "Empieza con «Penso che»", "q": "La cena è pronta.", "answer": ["Penso che la cena sia pronta."], "why": "È → sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e29", "type": "transform", "instr": "Empieza con «Credo che»", "q": "Il cameriere ha ragione.", "answer": ["Credo che il cameriere abbia ragione."], "why": "Ha → abbia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e30", "type": "transform", "instr": "Empieza con «Mi sembra che»", "q": "Il treno parte alle nove.", "answer": ["Mi sembra che il treno parta alle nove."], "why": "Partire → parta.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e31", "type": "transform", "instr": "Empieza con «Non credo che»", "q": "Questa crema costa poco.", "answer": ["Non credo che questa crema costi poco."], "why": "Costa → costi.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e32", "type": "transform", "instr": "Cambia «Penso che» por «Secondo me»", "q": "Penso che Parma sia bellissima.", "answer": ["Secondo me Parma è bellissima.", "Secondo me, Parma è bellissima."], "why": "Con secondo me vuelve el indicativo: è.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e33", "type": "order", "es": "Creo que el mercado está cerrado.", "answer": "Penso che il mercato sia chiuso", "extra": ["è"], "why": "Penso che + sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e34", "type": "order", "es": "No creo que tenga hambre.", "answer": "Non credo che abbia fame", "extra": ["ha"], "why": "Non credo che + abbia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e35", "type": "order", "es": "Me parece que vende fruta ecológica.", "answer": "Mi sembra che venda frutta biologica", "extra": ["vende"], "why": "Mi sembra che + venda.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e36", "type": "translate", "dir": "to", "q": "Creo que el restaurante es caro.", "answer": ["Penso che il ristorante sia caro.", "Credo che il ristorante sia caro."], "why": "Creo que es → penso che sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e37", "type": "translate", "dir": "to", "q": "No creo que la tienda abra hoy.", "answer": ["Non credo che il negozio apra oggi.", "Non penso che il negozio apra oggi."], "why": "Aprire → apra.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e38", "type": "translate", "dir": "to", "q": "Me parece que el hotel tiene piscina.", "answer": ["Mi sembra che l'albergo abbia la piscina.", "Mi sembra che l'hotel abbia la piscina.", "Mi sembra che l'albergo abbia una piscina.", "Mi sembra che l'hotel abbia una piscina."], "why": "Mi sembra che + abbia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e39", "type": "translate", "dir": "from", "q": "Penso che tu abbia ragione.", "answer": ["Creo que tienes razón.", "Pienso que tienes razón."], "why": "Abbia ragione = tienes razón; en español, con indicativo.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e40", "type": "translate", "dir": "from", "q": "Non credo che sia necessario.", "answer": ["No creo que sea necesario.", "No creo que haga falta."], "why": "Aquí coincidimos: no creo que sea.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e41", "type": "situation", "context": "Un amigo te pregunta si el museo está abierto el lunes. No estás segura, pero crees que no.", "emoji": "🏛️", "options": ["Penso di no.", "Penso che no.", "Penso no."], "answer": "Penso di no.", "why": "Creo que no = penso di no.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e42", "type": "situation", "context": "Pruebas un pastel en una pastelería de Parma y quieres decir que te parece buenísimo.", "emoji": "🍰", "options": ["Penso che sia buonissimo!", "Penso che è buonissimo!", "Penso di essere buonissimo!"], "answer": "Penso che sia buonissimo!", "why": "Penso che + sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e43", "type": "situation", "context": "Tu marido cree que el tren sale a las ocho, pero tú crees que no.", "emoji": "🚆", "options": ["Non credo che parta alle otto.", "Non credo che parte alle otto.", "Credo non che parta alle otto."], "answer": "Non credo che parta alle otto.", "why": "Non credo che + parta.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e44", "type": "match", "pairs": [["costare", "che costi"], ["vendere", "che venda"], ["aprire", "che apra"], ["essere", "che sia"], ["avere", "che abbia"]], "why": "-are → -i; -ere/-ire → -a; essere y avere son especiales.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e45", "type": "match", "pairs": [["Penso di sì.", "Creo que sí."], ["Secondo me è caro.", "Para mí es caro."], ["Penso che sia caro.", "Creo que es caro."], ["Non credo che sia caro.", "No creo que sea caro."]], "why": "Tres formas de opinar en italiano.", "g": "it-g-congiuntivo-intro" }
+  ],
+  "reviewed": false
+}

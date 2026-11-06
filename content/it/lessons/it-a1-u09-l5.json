@@ -1,0 +1,460 @@
+{
+  "id": "it-a1-u09-l5",
+  "unit": "it-a1-u09",
+  "title": "Reto: de compras en Ballarò",
+  "goal": "a hacer toda la compra en un mercado de Palermo, del saludo al pago",
+  "emoji": "🍙",
+  "photoQuery": "palermo street market stalls",
+  "vocab": [
+    {
+      "id": "mercato-l-arancina",
+      "t": "l'arancina",
+      "es": "la arancina (bola de arroz frita)",
+      "emoji": "🍙",
+      "pos": "n",
+      "note": "En Palermo se dice arancina; en la zona de Catania, arancino.",
+      "ex": {
+        "t": "Un'arancina al ragù, per favore.",
+        "es": "Una arancina de ragú, por favor."
+      }
+    },
+    {
+      "id": "mercato-lo-sconto",
+      "t": "lo sconto",
+      "es": "el descuento",
+      "emoji": "🏷️",
+      "pos": "n",
+      "ex": {
+        "t": "Mi fa uno sconto?",
+        "es": "¿Me hace un descuento?"
+      }
+    },
+    {
+      "id": "mercato-fresco",
+      "t": "fresco / freschissimo",
+      "es": "fresco / fresquísimo",
+      "emoji": "🐟",
+      "pos": "adj",
+      "ex": {
+        "t": "Il pesce è freschissimo!",
+        "es": "¡El pescado está fresquísimo!"
+      }
+    },
+    {
+      "id": "mercato-maturo",
+      "t": "maturo",
+      "es": "maduro",
+      "emoji": "🍌",
+      "pos": "adj",
+      "ex": {
+        "t": "Questi pomodori sono maturi?",
+        "es": "¿Estos tomates están maduros?"
+      }
+    },
+    {
+      "id": "mercato-assaggiare",
+      "t": "assaggiare",
+      "es": "probar (comida)",
+      "emoji": "😋",
+      "pos": "v",
+      "ex": {
+        "t": "Posso assaggiare?",
+        "es": "¿Puedo probar?"
+      }
+    },
+    {
+      "id": "mercato-la-busta",
+      "t": "la busta",
+      "es": "la bolsa (de plástico o papel)",
+      "emoji": "🛍️",
+      "pos": "n",
+      "ex": {
+        "t": "Le serve una busta?",
+        "es": "¿Necesita una bolsa?"
+      }
+    },
+    {
+      "id": "mercato-la-bottega",
+      "t": "la bottega",
+      "es": "la tienda de barrio, el taller",
+      "emoji": "🏚️",
+      "pos": "n",
+      "note": "¡Ojo! No es una bodega.",
+      "ex": {
+        "t": "Il pane della bottega è buonissimo.",
+        "es": "El pan de la tienda del barrio está buenísimo."
+      }
+    },
+    {
+      "id": "mercato-in-contanti",
+      "t": "in contanti",
+      "es": "en efectivo",
+      "emoji": "💵",
+      "pos": "phrase",
+      "ex": {
+        "t": "Pago in contanti.",
+        "es": "Pago en efectivo."
+      }
+    }
+  ],
+  "grammar": "it-g-partitivo-intro",
+  "pron": {
+    "title": "Las dobles del mercado",
+    "tip": "Alarga las dobles: as-sag-GIA-re, ri-COT-ta, moz-za-REL-la. Si no las alargas, puede cambiar la palabra.",
+    "words": [
+      "assaggiare",
+      "ricotta",
+      "mozzarella",
+      "zucchine",
+      "cipolla"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel en un puesto de Ballarò",
+      "text": "PANE E PANELLE: 2 €\nARANCINE AL RAGÙ: 3 €\nSFINCIONE: 2 € al pezzo\nOGGI SCONTO SULLE ARANCE!",
+      "questions": [
+        {
+          "q": "¿Qué tiene descuento hoy?",
+          "options": [
+            "Las naranjas",
+            "Las arancine",
+            "El pan"
+          ],
+          "answer": "Las naranjas"
+        },
+        {
+          "q": "¿Cuánto cuesta una arancina?",
+          "options": [
+            "3 €",
+            "2 €",
+            "5 €"
+          ],
+          "answer": "3 €"
+        }
+      ],
+      "why": "Sulle arance = su + le: en las naranjas."
+    },
+    {
+      "id": "e2",
+      "type": "reading",
+      "kind": "message",
+      "title": "Mensaje de Carla",
+      "text": "Yolanda, sei al mercato? Prendi delle arance, del pane e un po' di ricotta. Il pesce non serve. Grazie!",
+      "questions": [
+        {
+          "q": "¿Qué tiene que comprar Yolanda?",
+          "options": [
+            "Naranjas, pan y ricotta",
+            "Pescado y pan",
+            "Solo naranjas"
+          ],
+          "answer": "Naranjas, pan y ricotta"
+        },
+        {
+          "q": "¿Hace falta pescado?",
+          "options": [
+            "No",
+            "Sí"
+          ],
+          "answer": "No"
+        }
+      ],
+      "why": "Non serve = no hace falta."
+    },
+    {
+      "id": "e3",
+      "type": "situation",
+      "context": "Quieres probar un trocito de queso antes de comprarlo.",
+      "emoji": "😋",
+      "options": [
+        "Posso assaggiare?",
+        "Posso pagare?",
+        "Basta così."
+      ],
+      "answer": "Posso assaggiare?",
+      "why": "Probar comida = assaggiare."
+    },
+    {
+      "id": "e4",
+      "type": "situation",
+      "context": "El vendedor te pregunta «Le serve una busta?» y tú llevas tu propia bolsa.",
+      "emoji": "🛍️",
+      "options": [
+        "No, grazie, ho la mia borsa.",
+        "Sì, due buste e un chilo.",
+        "Pago in contanti."
+      ],
+      "answer": "No, grazie, ho la mia borsa.",
+      "why": "Le serve? = ¿le hace falta? Contestas que ya tienes tu bolsa."
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "Compro ___ arance per la spremuta.",
+      "es": "Compro unas naranjas para el zumo.",
+      "options": [
+        "delle",
+        "dei",
+        "degli"
+      ],
+      "answer": "delle",
+      "why": "Le arance → delle.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e6",
+      "type": "choose",
+      "q": "Domani vado ___ mercato di Ballarò.",
+      "es": "Mañana voy al mercado de Ballarò.",
+      "options": [
+        "al",
+        "allo",
+        "alla"
+      ],
+      "answer": "al",
+      "why": "Il mercato → al.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e7",
+      "type": "choose",
+      "q": "Il profumo ___ arancine è buonissimo.",
+      "es": "El olor de las arancine es buenísimo.",
+      "options": [
+        "delle",
+        "dei",
+        "del"
+      ],
+      "answer": "delle",
+      "why": "Le arancine → di + le = delle.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "q": "Prendo un chilo ___ pomodori.",
+      "es": "Me llevo un kilo de tomates.",
+      "answer": [
+        "di"
+      ],
+      "bank": [
+        "di",
+        "dei",
+        "del"
+      ],
+      "why": "Tras una cantidad, solo di.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "q": "Mi fa uno ___? Compro tanta frutta!",
+      "es": "¿Me hace un descuento? ¡Compro mucha fruta!",
+      "answer": [
+        "sconto"
+      ],
+      "why": "Descuento = sconto (uno sconto, por la s + consonante)."
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Pago in contante.",
+      "wrong": "contante",
+      "fix": "contanti",
+      "why": "En efectivo se dice in contanti, en plural."
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Le zucchine sono nello cestino.",
+      "wrong": "nello",
+      "fix": "nel",
+      "why": "Il cestino → in + il = nel.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Puedo probar?",
+      "answer": [
+        "Posso assaggiare?"
+      ],
+      "why": "Probar comida = assaggiare; ¿puedo? = posso?"
+    },
+    {
+      "id": "e13",
+      "type": "order",
+      "es": "Las arancine están en el mostrador.",
+      "answer": "Le arancine sono sul bancone",
+      "extra": [
+        "sullo"
+      ],
+      "why": "Il bancone → su + il = sul.",
+      "g": "it-g-prep-articolate"
+    },
+    {
+      "id": "e14",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "Compro della frutta.",
+      "answer": [
+        "Non compro frutta.",
+        "Non compro la frutta."
+      ],
+      "why": "Con non se quita el partitivo: non compro frutta.",
+      "g": "it-g-partitivo-intro"
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Un'arancina e delle panelle, per favore!",
+      "es": "¡Una arancina y unas panelle, por favor!"
+    },
+    {
+      "id": "e16",
+      "type": "match",
+      "pairs": [
+        [
+          "lo sconto",
+          "el descuento"
+        ],
+        [
+          "la busta",
+          "la bolsa"
+        ],
+        [
+          "in contanti",
+          "en efectivo"
+        ],
+        [
+          "assaggiare",
+          "probar"
+        ],
+        [
+          "maturo",
+          "maduro"
+        ]
+      ],
+      "why": "Palabras para regatear con simpatía en el mercado."
+    }
+  ],
+  "dialog": {
+    "title": "En Ballarò",
+    "setting": "En el mercado de Ballarò, en Palermo, en el puesto de Salvo",
+    "emoji": "🍊",
+    "lines": [
+      {
+        "who": "Salvo",
+        "t": "Signora, arance dolcissime! Vuole assaggiare?",
+        "es": "¡Señora, naranjas dulcísimas! ¿Quiere probar?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, grazie. Mmm, buonissime! Prendo due chili di arance.",
+        "es": "Sí, gracias. Mmm, ¡buenísimas! Me llevo dos kilos de naranjas."
+      },
+      {
+        "who": "Salvo",
+        "t": "Altro? Ci sono dei carciofi freschissimi.",
+        "es": "¿Algo más? Hay unas alcachofas fresquísimas."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, dei carciofi. E delle zucchine.",
+        "es": "Sí, unas alcachofas. Y unos calabacines."
+      },
+      {
+        "who": "Salvo",
+        "t": "Ecco qua. Sono quindici euro.",
+        "es": "Aquí tiene. Son quince euros."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Mi fa uno sconto?",
+        "es": "¿Me hace un descuento?"
+      },
+      {
+        "who": "Salvo",
+        "t": "Per Lei, quattordici! Le serve una busta?",
+        "es": "¡Para usted, catorce! ¿Necesita una bolsa?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, grazie, ho la mia borsa. Pago in contanti.",
+        "es": "No, gracias, llevo mi bolsa. Pago en efectivo."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué prueba Yolanda?",
+        "options": [
+          "Las naranjas",
+          "Las alcachofas",
+          "Una arancina"
+        ],
+        "answer": "Las naranjas"
+      },
+      {
+        "q": "¿Cuánto paga al final?",
+        "options": [
+          "14 €",
+          "15 €",
+          "4 €"
+        ],
+        "answer": "14 €"
+      },
+      {
+        "q": "¿Por qué no necesita bolsa?",
+        "options": [
+          "Lleva la suya",
+          "Compra poco",
+          "Paga con tarjeta"
+        ],
+        "answer": "Lleva la suya"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Mi fa uno sconto?",
+    "es": "¿Me hace un descuento?",
+    "context": "En un mercado, cuando compras bastante y pides una rebajita con una sonrisa"
+  },
+  "same": {
+    "text": "Igual que en español: estas palabras del mercado casi no cambian.",
+    "examples": [
+      {
+        "t": "fresco",
+        "es": "fresco"
+      },
+      {
+        "t": "maturo",
+        "es": "maduro"
+      },
+      {
+        "t": "il mercato",
+        "es": "el mercado"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "la bottega",
+    "means": "la tienda de barrio, el taller del artesano",
+    "looksLike": "la bodega",
+    "emoji": "🏚️",
+    "tip": "La bottega es la tiendecita o el taller de toda la vida. Una bodega de vino es una cantina, y una tienda de vinos, una enoteca."
+  },
+  "summary": [
+    "Probar: Posso assaggiare?",
+    "Regatear: Mi fa uno sconto?",
+    "Pagar: Pago in contanti; la busta = la bolsa",
+    "Repaso: delle arance, dei carciofi, al mercato, sul bancone",
+    "¡Ojo! la bottega = la tienda de barrio"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u09-l5"
+}

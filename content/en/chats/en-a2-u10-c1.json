@@ -1,0 +1,59 @@
+{
+  "id": "en-a2-u10-c1",
+  "unit": "en-a2-u10",
+  "title": "En el mostrador de facturación",
+  "setting": "Emma hace de empleada del mostrador de facturación. Vuelas a Nueva York.",
+  "emoji": "🧳",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Good morning! Could I see your passport, please?", "es": "¡Buenos días! ¿Me enseña su pasaporte, por favor?" },
+      "options": [
+        { "t": "Good morning. Here you are.", "es": "Buenos días. Aquí tiene.", "next": "n2", "ok": true },
+        { "t": "Good morning. Here you have.", "es": "Buenos días. Aquí tiene.", "next": "n2", "ok": false, "feedback": "Al dar algo se dice Here you are (o Here you go)." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Thank you. Are you checking in any bags today?", "es": "Gracias. ¿Factura alguna maleta hoy?" },
+      "options": [
+        { "t": "Yes, this suitcase. And I've got some hand luggage.", "es": "Sí, esta maleta. Y llevo equipaje de mano.", "next": "n3", "ok": true },
+        { "t": "Yes, this suitcase. And I've got two hand luggages.", "es": "Sí, esta maleta. Y llevo dos bultos de mano.", "next": "n3", "ok": false, "feedback": "Luggage es incontable: nunca luggages. Di two bags." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "I'm afraid your suitcase is a bit too heavy.", "es": "Me temo que su maleta pesa un poco demasiado." },
+      "options": [
+        { "t": "Oh no! Could I put some things in my bag?", "es": "¡Ay, no! ¿Podría pasar algunas cosas a mi bolsa?", "next": "n4", "ok": true },
+        { "t": "Oh no! Is it too much heavy?", "es": "¡Ay, no! ¿Pesa demasiado?", "next": "n4", "ok": false, "feedback": "Delante de un adjetivo, solo too: too heavy." },
+        { "t": "Oh no! Could I to put some things in my bag?", "es": "¡Ay, no! ¿Podría pasar algunas cosas a mi bolsa?", "next": "n4", "ok": false, "feedback": "Después de could, sin to: Could I put…?" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Of course. Is your bag big enough?", "es": "Claro. ¿Su bolsa es lo bastante grande?" },
+      "options": [
+        { "t": "Yes, it's big enough. There. Is that OK now?", "es": "Sí, es lo bastante grande. Ya está. ¿Así está bien?", "next": "n5", "ok": true },
+        { "t": "Yes, it's enough big. There. Is that OK now?", "es": "Sí, es lo bastante grande. Ya está. ¿Así está bien?", "next": "n5", "ok": false, "feedback": "Enough va detrás del adjetivo: big enough." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Perfect! Here's your boarding pass. Gate 31.", "es": "¡Perfecto! Aquí tiene su tarjeta de embarque. Puerta 31." },
+      "options": [
+        { "t": "Thank you. How do I get to the gate?", "es": "Gracias. ¿Cómo llego a la puerta?", "next": "n6", "ok": true },
+        { "t": "Thank you. How do I arrive to the gate?", "es": "Gracias. ¿Cómo llego a la puerta?", "next": "n6", "ok": false, "feedback": "Arrive nunca va con to. Para preguntar el camino: How do I get to…?" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Go through security and walk past the shops. Have a good flight!", "es": "Pase el control de seguridad y siga por delante de las tiendas. ¡Buen vuelo!" },
+      "options": [
+        { "t": "Thank you very much. Bye!", "es": "Muchas gracias. ¡Adiós!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

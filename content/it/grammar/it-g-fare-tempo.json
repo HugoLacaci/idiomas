@@ -1,0 +1,128 @@
+{
+  "id": "it-g-fare-tempo",
+  "lang": "it",
+  "level": "A2",
+  "title": "El tiempo con fare y essere (fa caldo, è nuvoloso)",
+  "short": "Che tempo fa? Fa caldo, è nuvoloso, c'è il sole, piove: cómo hablar del tiempo en presente y en pasado.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Che tempo fa?",
+      "emoji": "⛅",
+      "text": "Hablar del tiempo es la charla favorita de los italianos, ¡y de los españoles! La pregunta es ==Che tempo fa?== (¿Qué tiempo hace?).",
+      "examples": [
+        { "t": "Che tempo fa a Madrid? — ==Fa caldo!==", "es": "¿Qué tiempo hace en Madrid? — ¡Hace calor!", "hl": "Fa caldo!" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Cuatro maneras",
+      "emoji": "🧰",
+      "text": "Según la palabra, usamos ==fa==, ==è==, ==c'è== o un verbo solo.",
+      "table": {
+        "head": ["Con…", "Italiano", "Español"],
+        "rows": [
+          ["fare", "==fa== caldo / freddo / bel tempo", "hace calor / frío / buen tiempo"],
+          ["essere", "==è== nuvoloso / sereno / umido", "está nublado / despejado / húmedo"],
+          ["c'è", "==c'è== il sole / vento / nebbia", "hace sol / viento, hay niebla"],
+          ["verbo", "==piove==, ==nevica==, ==grandina==", "llueve, nieva, graniza"]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "Calor ≠ caldo",
+      "emoji": "🇪🇸",
+      "text": "En español «hace ==calor==» (un nombre). En italiano «fa ==caldo==» (un adjetivo). Y el sol y el viento no van con fare: ==c'è il sole==, ==c'è vento==.",
+      "examples": [
+        { "t": "Fa molto freddo.", "es": "Hace mucho frío." },
+        { "t": "Oggi c'è vento.", "es": "Hoy hace viento." }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Yo tengo calor",
+      "emoji": "🥵",
+      "text": "Si hablas de ti, como en español, usa ==avere==: ==ho caldo==, ==ho freddo==. Nunca «sono caldo».",
+      "examples": [
+        { "t": "Apri la finestra? Ho caldo.", "es": "¿Abres la ventana? Tengo calor." }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Y en pasado",
+      "emoji": "🕰️",
+      "text": "Para describir el tiempo de un día pasado, casi siempre ==imperfetto==. Para un hecho delimitado, passato prossimo.",
+      "table": {
+        "head": ["Presente", "Imperfetto", "Passato prossimo"],
+        "rows": [
+          ["fa caldo", "==faceva== caldo", "—"],
+          ["è nuvoloso", "==era== nuvoloso", "—"],
+          ["c'è il sole", "==c'era== il sole", "—"],
+          ["piove", "==pioveva==", "==ha piovuto== tutto il giorno"]
+        ]
+      }
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Fa calore* → ✅ fa ==caldo==. ❌ *Fa sole* → ✅ ==c'è il sole==. ❌ *Sono freddo* → ✅ ==ho freddo==."
+    },
+    {
+      "kind": "tip",
+      "title": "Los grados",
+      "emoji": "🌡️",
+      "text": "Para la temperatura: ==ci sono== trenta gradi (estamos a treinta grados). Y bajo cero: ==meno due==.",
+      "examples": [
+        { "t": "Oggi ci sono trentacinque gradi!", "es": "¡Hoy estamos a treinta y cinco grados!" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: hace calor, hace sol, hace viento, está nublado, estamos a 30 grados.",
+    "target": "En italiano: fa caldo (adjetivo), c'è il sole, c'è vento, è nuvoloso, ci sono 30 gradi. Y para la persona: ho caldo, como «tengo calor»."
+  },
+  "errors": [
+    { "wrong": "Oggi fa calore.", "right": "Oggi fa caldo.", "why": "Con fare va el adjetivo: fa caldo, fa freddo." },
+    { "wrong": "Fa sole e andiamo al mare.", "right": "C'è il sole e andiamo al mare.", "why": "El sol no va con fare: c'è il sole." },
+    { "wrong": "Sono molto freddo.", "right": "Ho molto freddo.", "why": "Una persona tiene frío: ho freddo, con avere." },
+    { "wrong": "Fa nuvoloso.", "right": "È nuvoloso.", "why": "Nuvoloso, sereno y umido van con essere." },
+    { "wrong": "Sono trenta gradi.", "right": "Ci sono trenta gradi.", "why": "La temperatura se dice con ci sono: ci sono trenta gradi." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Che tempo ___ oggi a Genova?", "es": "¿Qué tiempo hace hoy en Génova?", "options": ["fa", "è", "c'è"], "answer": "fa", "why": "La pregunta es siempre: Che tempo fa?", "g": "it-g-fare-tempo" },
+    { "id": "e2", "type": "choose", "q": "In agosto a Siviglia fa molto ___.", "es": "En agosto en Sevilla hace mucho calor.", "options": ["caldo", "calore", "caldi"], "answer": "caldo", "why": "Con fare va el adjetivo: fa caldo.", "g": "it-g-fare-tempo" },
+    { "id": "e3", "type": "choose", "q": "Oggi ___ il sole.", "es": "Hoy hace sol.", "options": ["c'è", "fa", "è"], "answer": "c'è", "why": "El sol «está»: c'è il sole.", "g": "it-g-fare-tempo" },
+    { "id": "e4", "type": "choose", "q": "Il cielo ___ nuvoloso.", "es": "El cielo está nublado.", "options": ["è", "fa", "ha"], "answer": "è", "why": "Nuvoloso va con essere: è nuvoloso.", "g": "it-g-fare-tempo" },
+    { "id": "e5", "type": "choose", "q": "Chiudi la finestra, per favore. ___ freddo.", "es": "Cierra la ventana, por favor. Tengo frío.", "options": ["Ho", "Sono", "Fa"], "answer": "Ho", "why": "«Tengo frío» = ho freddo, con avere.", "g": "it-g-fare-tempo" },
+    { "id": "e6", "type": "choose", "q": "Oggi ___ trenta gradi.", "es": "Hoy estamos a treinta grados.", "options": ["ci sono", "sono", "fa"], "answer": "ci sono", "why": "Temperatura: ci sono trenta gradi.", "g": "it-g-fare-tempo" },
+    { "id": "e7", "type": "choose", "q": "Ieri ___ bel tempo e siamo andati al mare.", "es": "Ayer hacía buen tiempo y fuimos a la playa.", "options": ["faceva", "ha fatto", "fa"], "answer": "faceva", "why": "Describir el tiempo de un día pasado: faceva.", "g": "it-g-fare-tempo" },
+    { "id": "e8", "type": "fill", "q": "Prendi l'ombrello: ___!", "es": "Coge el paraguas: ¡está lloviendo!", "answer": ["piove"], "bank": ["piove", "fa pioggia", "è pioggia"], "why": "Llueve = piove, un solo verbo.", "g": "it-g-fare-tempo" },
+    { "id": "e9", "type": "fill", "q": "In montagna ___ e le strade sono bianche.", "es": "En la montaña nieva y las carreteras están blancas.", "answer": ["nevica"], "bank": ["nevica", "fa neve", "c'è nevica"], "why": "Nieva = nevica.", "g": "it-g-fare-tempo" },
+    { "id": "e10", "type": "fill", "q": "Oggi ___ molto vento sulla spiaggia.", "es": "Hoy hace mucho viento en la playa.", "answer": ["c'è", "tira"], "bank": ["c'è", "fa", "è"], "why": "Viento: c'è vento (o tira vento).", "g": "it-g-fare-tempo" },
+    { "id": "e11", "type": "fill", "q": "Il cielo è ___: non c'è una nuvola.", "es": "El cielo está despejado: no hay ni una nube.", "answer": ["sereno"], "bank": ["sereno", "nuvoloso", "nebbia"], "why": "Sereno = despejado.", "g": "it-g-fare-tempo" },
+    { "id": "e12", "type": "fill", "q": "Quando siamo partiti, ___ la nebbia.", "es": "Cuando salimos, había niebla.", "answer": ["c'era"], "hint": "c'è en pasado", "why": "Escenario en pasado: c'era la nebbia.", "g": "it-g-fare-tempo" },
+    { "id": "e13", "type": "fill", "q": "Ieri ___ tutto il giorno.", "es": "Ayer llovió todo el día.", "answer": ["ha piovuto", "è piovuto"], "hint": "piovere", "why": "Un periodo cerrado (tutto il giorno): ha piovuto.", "g": "it-g-fare-tempo" },
+    { "id": "e14", "type": "fill", "q": "A dicembre ___ freddo anche a Roma.", "es": "En diciembre hace frío también en Roma.", "answer": ["fa"], "hint": "fare", "why": "Fa freddo, como «hace frío».", "g": "it-g-fare-tempo" },
+    { "id": "e15", "type": "conjugate", "verb": "fare", "person": "lui (il tempo)", "tense": "imperfetto", "q": "In Liguria ___ caldo, ma c'era un po' di vento.", "answer": ["faceva"], "why": "Fa → faceva en imperfetto.", "g": "it-g-fare-tempo" },
+    { "id": "e16", "type": "conjugate", "verb": "piovere", "person": "—", "tense": "imperfetto", "q": "Quando siamo arrivati, ___ forte.", "answer": ["pioveva"], "why": "Piove → pioveva.", "g": "it-g-fare-tempo" },
+    { "id": "e17", "type": "conjugate", "verb": "nevicare", "person": "—", "tense": "presente", "q": "Guarda fuori: ___!", "answer": ["nevica"], "why": "Nevicare → nevica.", "g": "it-g-fare-tempo" },
+    { "id": "e18", "type": "error", "q": "Oggi fa calore in città.", "wrong": "calore", "fix": "caldo", "why": "Fa + adjetivo: fa caldo.", "g": "it-g-fare-tempo" },
+    { "id": "e19", "type": "error", "q": "Sono freddo, prendo la giacca.", "wrong": "Sono", "fix": "Ho", "why": "Una persona tiene frío: ho freddo.", "g": "it-g-fare-tempo" },
+    { "id": "e20", "type": "error", "q": "Oggi fa nuvoloso.", "wrong": "fa", "fix": "è", "why": "Nuvoloso va con essere: è nuvoloso.", "g": "it-g-fare-tempo" },
+    { "id": "e21", "type": "error", "q": "A Roma sono venti gradi.", "wrong": "sono", "fix": "ci sono", "why": "La temperatura va con ci sono.", "g": "it-g-fare-tempo" },
+    { "id": "e22", "type": "transform", "instr": "Pásala al imperfetto", "q": "Fa freddo e c'è la nebbia.", "answer": ["Faceva freddo e c'era la nebbia."], "why": "Fa → faceva; c'è → c'era.", "g": "it-g-fare-tempo" },
+    { "id": "e23", "type": "transform", "instr": "Pásala al imperfetto", "q": "Il cielo è sereno e non c'è vento.", "answer": ["Il cielo era sereno e non c'era vento."], "why": "È → era; c'è → c'era.", "g": "it-g-fare-tempo" },
+    { "id": "e24", "type": "transform", "instr": "Di lo contrario", "q": "Fa bel tempo.", "answer": ["Fa brutto tempo."], "why": "Lo contrario de bel tempo es brutto tempo.", "g": "it-g-fare-tempo" },
+    { "id": "e25", "type": "order", "es": "Hoy hace sol pero hace frío.", "answer": "Oggi c'è il sole ma fa freddo", "alt": ["Oggi fa freddo ma c'è il sole"], "extra": ["calore"], "why": "C'è il sole; fa freddo.", "g": "it-g-fare-tempo" },
+    { "id": "e26", "type": "order", "es": "¿Qué tiempo hace en Madrid?", "answer": "Che tempo fa a Madrid", "extra": ["è"], "why": "Che tempo fa?", "g": "it-g-fare-tempo" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "Hace mucho calor y estamos a treinta grados.", "answer": ["Fa molto caldo e ci sono trenta gradi.", "Fa molto caldo e ci sono 30 gradi."], "why": "Fa caldo; ci sono trenta gradi.", "g": "it-g-fare-tempo" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "Ayer estaba nublado.", "answer": ["Ieri era nuvoloso.", "Ieri il cielo era nuvoloso."], "why": "Descripción en pasado: era nuvoloso.", "g": "it-g-fare-tempo" },
+    { "id": "e29", "type": "translate", "dir": "from", "q": "Che tempo fa da te?", "answer": ["¿Qué tiempo hace por ahí?", "¿Qué tiempo hace donde estás?", "¿Qué tiempo hace allí?", "¿Qué tiempo hace ahí?"], "why": "Da te = donde tú estás.", "g": "it-g-fare-tempo" },
+    { "id": "e30", "type": "situation", "context": "Tu hijo te llama desde Italia y te pregunta qué tiempo hace en España. Hace un sol espléndido.", "emoji": "☀️", "options": ["C'è un sole bellissimo!", "Fa un sole bellissimo!", "È un sole bellissimo!"], "answer": "C'è un sole bellissimo!", "why": "El sol va con c'è.", "g": "it-g-fare-tempo" },
+    { "id": "e31", "type": "situation", "context": "En el hotel tienes mucho calor y quieres pedir que enciendan el aire acondicionado.", "emoji": "🥵", "options": ["Ho molto caldo, può accendere l'aria condizionata?", "Sono molto caldo, può accendere l'aria condizionata?", "Fa molto caldo io, può accendere l'aria condizionata?"], "answer": "Ho molto caldo, può accendere l'aria condizionata?", "why": "Tú tienes calor: ho caldo.", "g": "it-g-fare-tempo" },
+    { "id": "e32", "type": "match", "pairs": [["fa freddo", "hace frío"], ["c'è vento", "hace viento"], ["è nuvoloso", "está nublado"], ["piove", "llueve"], ["ho caldo", "tengo calor"]], "why": "Cada expresión tiene su verbo.", "g": "it-g-fare-tempo" }
+  ],
+  "reviewed": false
+}

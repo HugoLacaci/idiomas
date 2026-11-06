@@ -1,0 +1,59 @@
+{
+  "id": "en-a2-u10-c2",
+  "unit": "en-a2-u10",
+  "title": "Una queja muy educada",
+  "setting": "Emma hace de recepcionista de un hotel. Tu habitación tiene varios problemas y bajas a recepción.",
+  "emoji": "🛎️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Good evening! How can I help you?", "es": "¡Buenas noches! ¿En qué puedo ayudarla?" },
+      "options": [
+        { "t": "Good evening. I'm afraid there's a problem with my room.", "es": "Buenas noches. Me temo que hay un problema con mi habitación.", "next": "n2", "ok": true },
+        { "t": "My room is horrible. I want another.", "es": "Mi habitación es horrible. Quiero otra.", "next": "n2", "ok": false, "feedback": "Suena muy brusco. Empieza suave: I'm afraid there's a problem with my room." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Oh, I'm sorry. What's the problem?", "es": "Vaya, lo siento. ¿Cuál es el problema?" },
+      "options": [
+        { "t": "It's too noisy. It's next to the lift.", "es": "Hay demasiado ruido. Está al lado del ascensor.", "next": "n3", "ok": true },
+        { "t": "It's too much noisy. It's next to the lift.", "es": "Hay demasiado ruido. Está al lado del ascensor.", "next": "n3", "ok": false, "feedback": "Delante de un adjetivo, solo too: too noisy." },
+        { "t": "It's very noisy. It's next to the lift.", "es": "Hay mucho ruido. Está al lado del ascensor.", "next": "n3", "ok": false, "feedback": "Se entiende, pero si es un problema de verdad, mejor too noisy." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "I see. Anything else?", "es": "Entiendo. ¿Algo más?" },
+      "options": [
+        { "t": "Yes. There aren't enough towels for two people.", "es": "Sí. No hay toallas suficientes para dos personas.", "next": "n4", "ok": true },
+        { "t": "Yes. There aren't towels enough for two people.", "es": "Sí. No hay toallas suficientes para dos personas.", "next": "n4", "ok": false, "feedback": "Con nombres, enough va delante: enough towels." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "I'm so sorry. We have a quiet room on the ninth floor.", "es": "Lo siento mucho. Tenemos una habitación tranquila en la novena planta." },
+      "options": [
+        { "t": "Lovely. Could I see it first?", "es": "Estupendo. ¿Podría verla primero?", "next": "n5", "ok": true },
+        { "t": "Lovely. Could I seeing it first?", "es": "Estupendo. ¿Podría verla primero?", "next": "n5", "ok": false, "feedback": "Could I + verbo sin -ing: Could I see…?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Of course. Take the lift up to the ninth floor. It's room 912.", "es": "Claro. Suba en ascensor a la novena planta. Es la 912." },
+      "options": [
+        { "t": "Thank you. Could you send the towels up too?", "es": "Gracias. ¿Podría subir también las toallas?", "next": "n6", "ok": true },
+        { "t": "Thank you. Send the towels.", "es": "Gracias. Mande las toallas.", "next": "n6", "ok": false, "feedback": "El imperativo suena brusco. Mejor: Could you send the towels up too?" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Certainly. Have a good night's sleep!", "es": "Por supuesto. ¡Que descanse!" },
+      "options": [
+        { "t": "Thank you. You're very kind.", "es": "Gracias. Es usted muy amable.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

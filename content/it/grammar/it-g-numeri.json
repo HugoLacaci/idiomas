@@ -1,0 +1,151 @@
+{
+  "id": "it-g-numeri",
+  "lang": "it",
+  "level": "A1",
+  "title": "Los números",
+  "short": "Contar de 0 a 1000 y decir precios: uno, due, tre… cento, mille.",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "🔢",
+      "title": "Contar en italiano",
+      "text": "Los números italianos se parecen muchísimo a los nuestros. ¡Vas a reconocer casi todos a la primera!",
+      "examples": [
+        { "t": "uno, due, tre", "es": "uno, dos, tres" },
+        { "t": "Tre caffè, per favore.", "es": "Tres cafés, por favor.", "hl": "Tre" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "✋",
+      "title": "Del 0 al 10",
+      "text": "Apréndelos de memoria: son la base de todo lo demás.",
+      "table": {
+        "head": ["", "Italiano", "Español"],
+        "rows": [
+          ["0", "zero", "cero"],
+          ["1", "uno", "uno"],
+          ["2", "due", "dos"],
+          ["3", "tre", "tres"],
+          ["4", "quattro", "cuatro"],
+          ["5", "cinque", "cinco"],
+          ["6", "sei", "seis"],
+          ["7", "sette", "siete"],
+          ["8", "otto", "ocho"],
+          ["9", "nove", "nueve"],
+          ["10", "dieci", "diez"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "emoji": "🧩",
+      "title": "Del 11 al 19",
+      "text": "Del 11 al 16, -dici va al final: un==dici==, do==dici==, se==dici==. Del 17 al 19, va delante: ==dicia==ssette, ==dici==otto, ==dicia==nnove.",
+      "examples": [
+        { "t": "undici, dodici, tredici", "es": "once, doce, trece" },
+        { "t": "quattordici, quindici, sedici", "es": "catorce, quince, dieciséis" },
+        { "t": "diciassette, diciotto, diciannove", "es": "diecisiete, dieciocho, diecinueve" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "emoji": "➕",
+      "title": "Del 20 en adelante",
+      "text": "Todo va junto. Ante uno y otto se cae la vocal: vent==uno==, vent==otto==, trent==uno==. Con tre, acento: venti==tré==.",
+      "examples": [
+        { "t": "ventuno, ventidue, ventitré", "es": "veintiuno, veintidós, veintitrés" },
+        { "t": "trentotto, quarantuno", "es": "treinta y ocho, cuarenta y uno" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "💯",
+      "title": "Decenas, cientos y miles",
+      "text": "Fíjate: mille es uno solo; desde dos, ==mila==.",
+      "table": {
+        "head": ["", "Italiano"],
+        "rows": [
+          ["20 · 30 · 40", "venti · trenta · quaranta"],
+          ["50 · 60 · 70", "cinquanta · sessanta · settanta"],
+          ["80 · 90", "ottanta · novanta"],
+          ["100 · 200 · 500", "cento · duecento · cinquecento"],
+          ["1000 · 2000", "mille · due==mila=="]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "emoji": "🇪🇸",
+      "title": "Español e italiano",
+      "text": "En español decimos «treinta ==y== uno». En italiano nunca hay «e» en medio: todo en una palabra.",
+      "examples": [
+        { "t": "trentuno", "es": "treinta y uno", "hl": "trentuno" },
+        { "t": "centocinquanta", "es": "ciento cincuenta", "hl": "centocinquanta" },
+        { "t": "duemilaventisei", "es": "dos mil veintiséis" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo con estos!",
+      "text": "❌ dieci euri → ✅ dieci ==euro==. ❌ duemille → ✅ due==mila==. ❌ ventitre → ✅ venti==tré==."
+    },
+    {
+      "kind": "tip",
+      "emoji": "💶",
+      "title": "Truco para los precios",
+      "text": "Euro no cambia en plural. Y los céntimos se dicen tras «e»: due euro ==e cinquanta== = 2,50 €.",
+      "examples": [
+        { "t": "Costa un euro e venti.", "es": "Cuesta un euro con veinte." }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español, del 31 en adelante separamos con «y» (treinta y uno, ochenta y cinco) y decimos «euros» en plural.",
+    "target": "En italiano el número va siempre junto (trentuno, ottantacinque), la vocal se cae ante uno y otto (ventotto) y «euro» no cambia: dieci euro."
+  },
+  "errors": [
+    { "wrong": "Costa dieci euri.", "right": "Costa dieci euro.", "why": "La palabra euro es invariable: un euro, dieci euro." },
+    { "wrong": "Ho trenta e uno anni.", "right": "Ho trentun anni.", "why": "En italiano no hay «y» entre decena y unidad: todo junto, y venti/trenta pierden la vocal ante uno." },
+    { "wrong": "duemille", "right": "duemila", "why": "Mille es solo para 1000; desde 2000 se dice -mila: duemila, tremila." },
+    { "wrong": "ventitre", "right": "ventitré", "why": "Cuando tre va al final de un número largo, lleva acento: ventitré, trentatré." },
+    { "wrong": "ventiotto", "right": "ventotto", "why": "Ante uno y otto, venti, trenta… pierden la última vocal: ventotto, trentuno." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Due più due fa ___.", "es": "Dos más dos son…", "options": ["quattro", "tre", "cinque"], "answer": "quattro", "why": "2 + 2 = 4, quattro. «Più» es «más» y «fa» es «son».", "g": "it-g-numeri" },
+    { "id": "e2", "type": "choose", "q": "Cinque più tre fa ___.", "options": ["otto", "sette", "sei"], "answer": "otto", "why": "5 + 3 = 8, otto. Fíjate en la doble t: ot-to.", "g": "it-g-numeri" },
+    { "id": "e3", "type": "choose", "q": "6 = ___", "options": ["sei", "sette", "seis"], "answer": "sei", "why": "6 es sei: como «seis», pero sin la s final.", "g": "it-g-numeri" },
+    { "id": "e4", "type": "choose", "q": "11 = ___", "options": ["undici", "onzi", "unodici"], "answer": "undici", "why": "Del 11 al 16, -dici va al final: undici, dodici, tredici…", "g": "it-g-numeri" },
+    { "id": "e5", "type": "choose", "q": "17 = ___", "options": ["diciassette", "settedici", "dicisette"], "answer": "diciassette", "why": "Del 17 al 19, dici- va delante: diciassette, diciotto, diciannove.", "g": "it-g-numeri" },
+    { "id": "e6", "type": "choose", "q": "30 = ___", "options": ["trenta", "treinta", "tredici"], "answer": "trenta", "why": "30 es trenta; tredici es 13.", "g": "it-g-numeri" },
+    { "id": "e7", "type": "choose", "q": "500 = ___", "options": ["cinquecento", "cinquanta", "cinquemila"], "answer": "cinquecento", "why": "Cinque + cento, todo junto: cinquecento. Cinquanta es 50.", "g": "it-g-numeri" },
+    { "id": "e8", "type": "fill", "q": "Uno, due, tre, ___, cinque.", "answer": ["quattro"], "why": "Entre tre y cinque va quattro (4), con doble t.", "g": "it-g-numeri" },
+    { "id": "e9", "type": "fill", "q": "Dieci più dieci fa ___.", "answer": ["venti"], "bank": ["venti", "dodici", "trenta"], "why": "10 + 10 = 20, venti.", "g": "it-g-numeri" },
+    { "id": "e10", "type": "fill", "q": "Venti più uno fa ___.", "answer": ["ventuno"], "bank": ["ventuno", "ventiuno", "vent'uno"], "why": "Ante uno, venti pierde la i: ventuno, sin apóstrofo.", "g": "it-g-numeri" },
+    { "id": "e11", "type": "fill", "q": "Venti più otto fa ___.", "answer": ["ventotto"], "hint": "La i de venti se cae.", "why": "Ante otto, venti pierde la i: ventotto.", "g": "it-g-numeri" },
+    { "id": "e12", "type": "fill", "q": "Venti più tre fa ___.", "answer": ["ventitré"], "bank": ["ventitré", "ventitre", "ventatre"], "why": "Tre al final de un número largo lleva acento: ventitré.", "g": "it-g-numeri" },
+    { "id": "e13", "type": "fill", "q": "Mille più mille fa ___.", "answer": ["duemila"], "bank": ["duemila", "duemille", "due mille"], "why": "Desde 2000 se usa -mila y todo junto: duemila.", "g": "it-g-numeri" },
+    { "id": "e14", "type": "choose", "q": "Mia madre ha ___ anni: 90!", "options": ["novanta", "nove", "diciannove"], "answer": "novanta", "why": "90 es novanta; nove es 9 y diciannove, 19.", "g": "it-g-numeri" },
+    { "id": "e15", "type": "match", "pairs": [["40", "quaranta"], ["50", "cinquanta"], ["60", "sessanta"], ["70", "settanta"], ["80", "ottanta"]], "why": "Las decenas acaban en -anta, salvo venti y trenta.", "g": "it-g-numeri" },
+    { "id": "e16", "type": "choose", "q": "19 = ___", "options": ["diciannove", "novedici", "diecinueve"], "answer": "diciannove", "why": "Del 17 al 19, dici- va delante: diciannove, con doble n.", "g": "it-g-numeri" },
+    { "id": "e17", "type": "transform", "instr": "Escribe el número en letras", "q": "31", "answer": ["trentuno"], "why": "Trenta + uno: la a se cae y queda trentuno.", "g": "it-g-numeri" },
+    { "id": "e18", "type": "transform", "instr": "Escribe el número en letras", "q": "48", "answer": ["quarantotto"], "why": "Quaranta + otto: la a se cae, quarantotto.", "g": "it-g-numeri" },
+    { "id": "e19", "type": "transform", "instr": "Escribe el número en letras", "q": "100", "answer": ["cento"], "why": "100 es cento, como «cien».", "g": "it-g-numeri" },
+    { "id": "e20", "type": "transform", "instr": "Escribe el número en letras", "q": "250", "answer": ["duecentocinquanta"], "why": "Todo en una palabra: duecento + cinquanta.", "g": "it-g-numeri" },
+    { "id": "e21", "type": "transform", "instr": "Escribe el número en letras", "q": "2000", "answer": ["duemila"], "why": "Mille solo es 1000; 2000 es duemila.", "g": "it-g-numeri" },
+    { "id": "e22", "type": "error", "q": "Il caffè costa due euri.", "wrong": "euri", "fix": "euro", "why": "Euro no cambia en plural: un euro, due euro.", "g": "it-g-numeri" },
+    { "id": "e23", "type": "error", "q": "Il biglietto costa trentauno euro.", "wrong": "trentauno", "fix": "trentuno", "why": "Ante uno, trenta pierde la a: trentuno.", "g": "it-g-numeri" },
+    { "id": "e24", "type": "error", "q": "Il viaggio costa duemille euro.", "wrong": "duemille", "fix": "duemila", "why": "Desde 2000 se dice -mila: duemila.", "g": "it-g-numeri" },
+    { "id": "e25", "type": "error", "q": "La mia camera è la ventitre.", "wrong": "ventitre", "fix": "ventitré", "why": "Ventitré lleva acento en la última e.", "g": "it-g-numeri" },
+    { "id": "e26", "type": "order", "es": "El pan cuesta dos euros.", "answer": "Il pane costa due euro", "extra": ["euri"], "why": "Euro no cambia en plural.", "g": "it-g-numeri" },
+    { "id": "e27", "type": "order", "es": "Mi habitación es la dieciocho.", "answer": "La mia camera è la diciotto", "why": "18 es diciotto: dici- delante y otto detrás.", "g": "it-g-numeri" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "veinticinco", "answer": ["venticinque"], "why": "Venti + cinque, todo junto: venticinque.", "g": "it-g-numeri" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "Cuesta cuarenta euros.", "answer": ["Costa quaranta euro"], "why": "40 es quaranta y euro no cambia en plural.", "g": "it-g-numeri" },
+    { "id": "e30", "type": "translate", "dir": "from", "q": "Sono sessanta euro.", "answer": ["Son sesenta euros", "Son 60 euros", "Son 60 €"], "why": "Sessanta es 60; para el precio se dice «sono» (son).", "g": "it-g-numeri" },
+    { "id": "e31", "type": "situation", "context": "En el mercado te dicen: «tre euro e cinquanta». ¿Cuánto pagas?", "emoji": "🍅", "options": ["3,50 €", "13,50 €", "3,15 €"], "answer": "3,50 €", "why": "Tre euro (3) e cinquanta (50 céntimos): 3,50 €.", "g": "it-g-numeri" },
+    { "id": "e32", "type": "situation", "context": "En el hotel te dan la habitación 105. ¿Qué te dice la recepcionista?", "emoji": "🛎️", "options": ["centocinque", "cinquecento", "centoquindici"], "answer": "centocinque", "why": "105 = cento + cinque: centocinque. Cinquecento es 500.", "g": "it-g-numeri" },
+    { "id": "e33", "type": "situation", "context": "Tu nieto pequeño cuenta hasta diez y se salta un número: «sei, sette, ___, nove». ¿Cuál falta?", "emoji": "🧒", "options": ["otto", "dieci", "cinque"], "answer": "otto", "why": "Entre sette (7) y nove (9) va otto (8).", "g": "it-g-numeri" }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "it-a2-u07-c2",
+  "unit": "it-a2-u07",
+  "title": "Giulia te pide un favor",
+  "setting": "Giulia te llama porque necesita ayuda con su viaje a España",
+  "emoji": "🙏",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, scusa! Mi fai un favore?", "es": "¡Yolanda, perdona! ¿Me haces un favor?" },
+      "options": [
+        { "t": "Certo! Dimmi tutto.", "es": "¡Claro! Cuéntame.", "next": "n2", "ok": true },
+        { "t": "Certo! Dico tutto.", "es": "¡Claro! Cuéntame.", "next": "n2", "ok": false, "feedback": "Para pedirle que hable: dimmi (dime)." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Il mese prossimo vado a Madrid. Mi consigli un hotel?", "es": "El mes que viene voy a Madrid. ¿Me recomiendas un hotel?" },
+      "options": [
+        { "t": "Sì, ti mando il nome di un hotel carino.", "es": "Sí, te mando el nombre de un hotel bonito.", "next": "n3", "ok": true },
+        { "t": "Sì, gli mando il nome di un hotel carino.", "es": "Sí, te mando el nombre de un hotel bonito.", "next": "n3", "ok": false, "feedback": "Hablas con Giulia, a ti: ti mando." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Grazie! E mio marito vuole vedere una partita del Real Madrid.", "es": "¡Gracias! Y mi marido quiere ver un partido del Real Madrid." },
+      "options": [
+        { "t": "Ho un amico allo stadio. Gli chiedo i biglietti?", "es": "Tengo un amigo en el estadio. ¿Le pido las entradas?", "next": "n4", "ok": true },
+        { "t": "Ho un amico allo stadio. Le chiedo i biglietti?", "es": "Tengo un amigo en el estadio. ¿Le pido las entradas?", "next": "n4", "ok": false, "feedback": "A tu amigo (él) → gli." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Sì, grazie! Gli puoi scrivere oggi?", "es": "¡Sí, gracias! ¿Le puedes escribir hoy?" },
+      "options": [
+        { "t": "Certo, gli scrivo subito.", "es": "Claro, le escribo enseguida.", "next": "n5", "ok": true },
+        { "t": "Certo, gli scrivo subito al mio amico.", "es": "Claro, le escribo enseguida a mi amigo.", "next": "n5", "ok": false, "feedback": "En italiano no se repite: gli scrivo o scrivo al mio amico, pero no las dos cosas." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "E la tua amica che parla italiano? Possiamo vederla?", "es": "¿Y tu amiga que habla italiano? ¿Podemos verla?" },
+      "options": [
+        { "t": "Sì! Le telefono stasera.", "es": "¡Sí! La llamo esta noche.", "next": "n6", "ok": true },
+        { "t": "Sì! Gli telefono stasera.", "es": "¡Sí! La llamo esta noche.", "next": "n6", "ok": false, "feedback": "A tu amiga (ella) → le telefono." },
+        { "t": "Sì! La telefono stasera.", "es": "¡Sí! La llamo esta noche.", "next": "n6", "ok": false, "feedback": "Telefonare lleva «a»: le telefono. Con chiamare sí sería la chiamo." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Sei un tesoro! Come posso ringraziarti?", "es": "¡Eres un sol! ¿Cómo puedo darte las gracias?" },
+      "options": [
+        { "t": "Mi porti un caffè italiano!", "es": "¡Tráeme un café italiano!", "next": "end", "ok": true },
+        { "t": "Ti porti un caffè italiano!", "es": "¡Tráeme un café italiano!", "next": "end", "ok": false, "feedback": "A mí → mi: mi porti." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

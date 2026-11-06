@@ -1,0 +1,61 @@
+{
+  "id": "en-a1-u08-c1",
+  "unit": "en-a1-u08",
+  "title": "¿Qué haces en tu tiempo libre?",
+  "setting": "Emma quiere saber cuáles son tus aficiones.",
+  "emoji": "🎨",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! What do you do in your free time?", "es": "¡Hola, Yolanda! ¿Qué haces en tu tiempo libre?" },
+      "options": [
+        { "t": "I love gardening and cooking.", "es": "Me encanta la jardinería y cocinar.", "next": "n2", "ok": true },
+        { "t": "I love garden and cook.", "es": "Me encanta la jardinería y cocinar.", "next": "n2", "ok": false, "feedback": "Las aficiones van con -ing: gardening, cooking." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Lovely! How often do you cook for your family?", "es": "¡Qué bien! ¿Cada cuánto cocinas para tu familia?" },
+      "options": [
+        { "t": "I usually cook on Sundays.", "es": "Normalmente cocino los domingos.", "next": "n3", "ok": true },
+        { "t": "I cook usually on Sundays.", "es": "Normalmente cocino los domingos.", "next": "n3", "ok": false, "feedback": "El adverbio va delante del verbo: I usually cook." },
+        { "t": "Usually I cooks on Sundays.", "es": "Normalmente cocino los domingos.", "next": "n3", "ok": false, "feedback": "Con I no hay -s: I usually cook." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Do you ever go dancing?", "es": "¿Vas a bailar alguna vez?" },
+      "options": [
+        { "t": "Yes, sometimes. I go with my friends.", "es": "Sí, a veces. Voy con mis amigas.", "next": "n4", "ok": true },
+        { "t": "Yes, sometimes. I go with my friend's.", "es": "Sí, a veces. Voy con mis amigas.", "next": "n4", "ok": false, "feedback": "El plural no lleva apóstrofo: my friends." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "I never dance! I'm always shy.", "es": "¡Yo nunca bailo! Siempre me da vergüenza." },
+      "options": [
+        { "t": "Oh, come with me one day!", "es": "¡Anda, ven conmigo un día!", "next": "n5", "ok": true },
+        { "t": "Oh, you always are shy? Come with me!", "es": "¿Siempre te da vergüenza? ¡Ven conmigo!", "next": "n5", "ok": false, "feedback": "Pregunta con to be: Are you always shy?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Maybe! I do yoga twice a week. Do you do any sport?", "es": "¡Quizás! Yo hago yoga dos veces a la semana. ¿Haces algún deporte?" },
+      "options": [
+        { "t": "I go swimming once a week.", "es": "Voy a nadar una vez a la semana.", "next": "n6", "ok": true },
+        { "t": "I go swimming one time in week.", "es": "Voy a nadar una vez a la semana.", "next": "n6", "ok": false, "feedback": "Una vez a la semana = once a week." },
+        { "t": "I go to swim once a week.", "es": "Voy a nadar una vez a la semana.", "next": "n6", "ok": false, "feedback": "Ir a nadar = go swimming." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Great! We're both very active.", "es": "¡Genial! Las dos somos muy activas." },
+      "options": [
+        { "t": "Yes! And I never feel tired.", "es": "¡Sí! Y nunca me siento cansada.", "next": "end", "ok": true },
+        { "t": "Yes! And I don't never feel tired.", "es": "¡Sí! Y nunca me siento cansada.", "next": "end", "ok": false, "feedback": "Never ya es negativo: I never feel tired." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

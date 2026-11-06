@@ -1,0 +1,61 @@
+{
+  "id": "en-a2-u05-c3",
+  "unit": "en-a2-u05",
+  "title": "¡Me perdí en York!",
+  "setting": "Le cuentas a Emma por teléfono lo que te pasó en York.",
+  "emoji": "🗺️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi Yolanda! Are you back from York?", "es": "¡Hola, Yolanda! ¿Ya has vuelto de York?" },
+      "options": [
+        { "t": "Yes! I came back yesterday. Guess what!", "es": "¡Sí! Volví ayer. ¿A que no sabes qué?", "next": "n2", "ok": true },
+        { "t": "Yes! I come back yesterday. Guess what!", "es": "¡Sí! Volví ayer. ¿A que no sabes qué?", "next": "n2", "ok": false, "feedback": "Con yesterday, pasado: came back." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "What? What happened?", "es": "¿Qué? ¿Qué pasó?" },
+      "options": [
+        { "t": "I got lost in the old town!", "es": "¡Me perdí en el casco antiguo!", "next": "n3", "ok": true },
+        { "t": "I getted lost in the old town!", "es": "¡Me perdí en el casco antiguo!", "next": "n3", "ok": false, "feedback": "Get es irregular: got lost." },
+        { "t": "I lost in the old town!", "es": "¡Me perdí en el casco antiguo!", "next": "n3", "ok": false, "feedback": "Perderse = get lost. I lost significa «perdí algo»." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Oh no! Did you have your phone?", "es": "¡Ay, no! ¿Llevabas el móvil?" },
+      "options": [
+        { "t": "No, I didn't. I left it at the hotel.", "es": "No. Me lo dejé en el hotel.", "next": "n4", "ok": true },
+        { "t": "No, I didn't. I leaved it at the hotel.", "es": "No. Me lo dejé en el hotel.", "next": "n4", "ok": false, "feedback": "Leave es irregular: left." },
+        { "t": "No, I didn't had it.", "es": "No, no lo tenía.", "next": "n4", "ok": false, "feedback": "Después de didn't, forma base: I didn't have it." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "So what did you do?", "es": "¿Y qué hiciste?" },
+      "options": [
+        { "t": "I asked a man for directions.", "es": "Le pregunté a un señor por el camino.", "next": "n5", "ok": true },
+        { "t": "I did ask a man for directions.", "es": "Le pregunté a un señor por el camino.", "next": "n5", "ok": false, "feedback": "En la afirmativa normal no se usa did: I asked." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Did he help you?", "es": "¿Te ayudó?" },
+      "options": [
+        { "t": "Yes! He took me to the hotel.", "es": "¡Sí! Me llevó hasta el hotel.", "next": "n6", "ok": true },
+        { "t": "Yes! He taked me to the hotel.", "es": "¡Sí! Me llevó hasta el hotel.", "next": "n6", "ok": false, "feedback": "Take es irregular: took." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "How kind! Were you scared?", "es": "¡Qué amable! ¿Pasaste miedo?" },
+      "options": [
+        { "t": "A little. But in the end, it was a funny story.", "es": "Un poco. Pero al final fue una historia graciosa.", "next": "end", "ok": true },
+        { "t": "A little. Did I was scared.", "es": "Un poco. Pasé miedo.", "next": "end", "ok": false, "feedback": "Con was no se usa did. Lo natural: A little. But in the end, it was a funny story." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

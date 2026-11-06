@@ -1,0 +1,60 @@
+{
+  "id": "en-a2-u07-c2",
+  "unit": "en-a2-u07",
+  "title": "Tras los pasos de los Beatles",
+  "setting": "Emma te lleva por Liverpool a ver los lugares de los Beatles. Estáis en Mathew Street, delante del Cavern Club.",
+  "emoji": "🎸",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "This is the Cavern Club. Do you like the Beatles?", "es": "Este es el Cavern Club. ¿Te gustan los Beatles?" },
+      "options": [
+        { "t": "Yes, I love them!", "es": "¡Sí, me encantan!", "next": "n2", "ok": true },
+        { "t": "Yes, I love they!", "es": "¡Sí, me encantan!", "next": "n2", "ok": false, "feedback": "Detrás del verbo: them. I love them." },
+        { "t": "Yes, me love them!", "es": "¡Sí, me encantan!", "next": "n2", "ok": false, "feedback": "El sujeto es I: I love them." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Me too. Which song do you like best?", "es": "A mí también. ¿Qué canción te gusta más?" },
+      "options": [
+        { "t": "Yesterday. I sing it in the kitchen!", "es": "Yesterday. ¡La canto en la cocina!", "next": "n3", "ok": true },
+        { "t": "Yesterday. I sing her in the kitchen!", "es": "Yesterday. ¡La canto en la cocina!", "next": "n3", "ok": false, "feedback": "Una canción es una cosa: it, no her." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Ha ha! My dad loved them too. He saw them here!", "es": "¡Ja, ja! A mi padre también le encantaban. ¡Los vio aquí!" },
+      "options": [
+        { "t": "Wow! Can you tell me about him?", "es": "¡Hala! ¿Me hablas de él?", "next": "n4", "ok": true },
+        { "t": "Wow! Can you tell I about he?", "es": "¡Hala! ¿Me hablas de él?", "next": "n4", "ok": false, "feedback": "Detrás de tell y de about: me y him." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "He was a young dancer. He loved dancing here.", "es": "Era un bailarín joven. Le encantaba bailar aquí." },
+      "options": [
+        { "t": "How nice! Do you enjoy dancing too?", "es": "¡Qué bonito! ¿Tú también disfrutas bailando?", "next": "n5", "ok": true },
+        { "t": "How nice! Do you enjoy to dance too?", "es": "¡Qué bonito! ¿Tú también disfrutas bailando?", "next": "n5", "ok": false, "feedback": "Enjoy siempre va con -ing: enjoy dancing." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Not really! I'm terrible at it. Shall we go in?", "es": "¡La verdad es que no! Se me da fatal. ¿Entramos?" },
+      "options": [
+        { "t": "Yes! Take a photo of us first.", "es": "¡Sí! Haznos una foto primero.", "next": "n6", "ok": true },
+        { "t": "Yes! Take a photo of we first.", "es": "¡Sí! Haznos una foto primero.", "next": "n6", "ok": false, "feedback": "Después de of: us." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Done! Lovely photo. Send it to your son!", "es": "¡Hecho! Qué foto tan bonita. ¡Mándasela a tu hijo!" },
+      "options": [
+        { "t": "Good idea. He's going to love it!", "es": "Buena idea. ¡Le va a encantar!", "next": "end", "ok": true },
+        { "t": "Good idea. He's going to love her!", "es": "Buena idea. ¡Le va a encantar!", "next": "end", "ok": false, "feedback": "La foto es una cosa: it." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

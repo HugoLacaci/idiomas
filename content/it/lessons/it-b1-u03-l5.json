@@ -1,0 +1,87 @@
+{
+  "id": "it-b1-u03-l5",
+  "unit": "it-b1-u03",
+  "title": "Reto: una domenica a Bologna",
+  "goal": "a contar una comida en Bolonia y explicar costumbres de la mesa con «si»",
+  "emoji": "🎓",
+  "photoQuery": "bologna porticoes street evening",
+  "vocab": [
+    { "id": "cucina-i-portici", "t": "i portici", "es": "los soportales", "emoji": "🏛️", "pos": "n", "ex": { "t": "A Bologna si cammina sotto i portici anche quando piove.", "es": "En Bolonia se camina bajo los soportales aunque llueva." } },
+    { "id": "cucina-luniversita", "t": "l'università", "es": "la universidad", "emoji": "🎓", "pos": "n", "ex": { "t": "L'università di Bologna è nata nel 1088.", "es": "La universidad de Bolonia nació en 1088." } },
+    { "id": "cucina-la-grassa", "t": "la Dotta, la Grassa, la Rossa", "es": "la Sabia, la Gorda, la Roja (apodos de Bolonia)", "emoji": "🔴", "pos": "phrase", "ex": { "t": "Bologna è la Grassa perché si mangia benissimo.", "es": "Bolonia es «la Gorda» porque se come de maravilla." } },
+    { "id": "cucina-laperitivo", "t": "l'aperitivo", "es": "el aperitivo", "emoji": "🍹", "pos": "n", "ex": { "t": "Alle sette si prende l'aperitivo con gli amici.", "es": "A las siete se toma el aperitivo con los amigos." } },
+    { "id": "cucina-la-cucina-regionale", "t": "la cucina regionale", "es": "la cocina regional", "emoji": "🗺️", "pos": "n", "ex": { "t": "In Italia la cucina regionale cambia tantissimo.", "es": "En Italia la cocina regional cambia muchísimo." } },
+    { "id": "cucina-tipico", "t": "tipico / tipica", "es": "típico / típica", "emoji": "⭐", "pos": "adj", "ex": { "t": "Qual è il dolce tipico di qui?", "es": "¿Cuál es el dulce típico de aquí?" } },
+    { "id": "cucina-squisito", "t": "squisito / squisita", "es": "exquisito, riquísimo", "emoji": "🤤", "pos": "adj", "ex": { "t": "Il ragù era squisito!", "es": "¡El ragú estaba riquísimo!" } },
+    { "id": "cucina-consigliare", "t": "consigliare", "es": "recomendar, aconsejar", "emoji": "👍", "pos": "v", "ex": { "t": "Mi può consigliare un vino della zona?", "es": "¿Me puede recomendar un vino de la zona?" } }
+  ],
+  "grammar": "it-g-si-impersonale",
+  "pron": {
+    "title": "Repaso: dobles y gl",
+    "tip": "Junta todo lo de la unidad: alarga las dobles (mortadella, tortellini) y suaviza la gl (tagliatelle). Dilo despacio y luego con alegría.",
+    "words": ["tagliatelle al ragù", "tortellini in brodo", "mortadella", "Bologna"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "text", "title": "Bolonia, la de los tres apodos", "text": "Bologna ha tre soprannomi: la Dotta, la Grassa e la Rossa. È la Dotta per l'università, fondata nel 1088: la più antica d'Occidente. È la Grassa perché si mangia benissimo. E la Rossa per il colore dei suoi tetti.", "questions": [
+      { "q": "¿Por qué la llaman «la Dotta» (la Sabia)?", "options": ["Por su universidad", "Por sus museos", "Por sus librerías"], "answer": "Por su universidad" },
+      { "q": "¿De qué año es la universidad?", "options": ["1088", "1488", "1880"], "answer": "1088" },
+      { "q": "¿Por qué es «la Grassa»?", "options": ["Porque se come muy bien", "Porque es muy grande", "Por sus mercados de aceite"], "answer": "Porque se come muy bien" }
+    ] },
+    { "id": "e2", "type": "reading", "kind": "message", "title": "Mensaje de Yolanda a sus amigas", "text": "Ciao ragazze! Siamo a Bologna. Ieri si è mangiato benissimo: tagliatelle al ragù e tortellini in brodo. Qui si cammina tanto sotto i portici. Stasera si va all'aperitivo! Un bacio", "questions": [
+      { "q": "¿Qué comieron ayer?", "options": ["Tagliatelle y tortellini", "Pizza y helado", "Lasaña"], "answer": "Tagliatelle y tortellini" },
+      { "q": "¿Dónde se camina mucho?", "options": ["Bajo los soportales", "Por el río", "En el parque"], "answer": "Bajo los soportales" },
+      { "q": "¿Qué harán esta noche?", "options": ["Ir al aperitivo", "Cocinar en casa", "Ir al cine"], "answer": "Ir al aperitivo" }
+    ] },
+    { "id": "e3", "type": "choose", "q": "Ieri sera ___ mangiato benissimo in trattoria.", "es": "Anoche se comió de maravilla en la trattoria.", "options": ["si è", "si ha", "ci è"], "answer": "si è", "why": "En pasado: si è + participio.", "g": "it-g-si-impersonale" },
+    { "id": "e4", "type": "choose", "q": "A Bologna ___ molto sotto i portici.", "es": "En Bolonia se camina mucho bajo los soportales.", "options": ["si cammina", "si camminano", "ci si cammina"], "answer": "si cammina", "why": "Camminare no es reflexivo y no hay cosa en plural: si cammina.", "g": "it-g-si-impersonale" },
+    { "id": "e5", "type": "choose", "q": "In vacanza ___ diverte sempre!", "es": "¡De vacaciones uno siempre se divierte!", "options": ["ci si", "si si", "se si"], "answer": "ci si", "why": "Divertirsi ya lleva si: ci si diverte.", "g": "it-g-si-impersonale" },
+    { "id": "e6", "type": "fill", "q": "Le tagliatelle si ___ con il ragù, non con la panna.", "es": "Los tallarines se sirven con ragú, no con nata.", "answer": ["servono"], "bank": ["servono", "serve", "servite"], "why": "Le tagliatelle es plural: si servono.", "g": "it-g-si-impersonale" },
+    { "id": "e7", "type": "fill", "q": "In Emilia si ___ un ottimo vino rosso frizzante.", "es": "En Emilia se bebe un vino tinto con burbujas muy bueno.", "answer": ["beve"], "hint": "bere", "why": "Un vino es singular: si beve.", "g": "it-g-si-impersonale" },
+    { "id": "e8", "type": "situation", "context": "Quieres saber si hay que reservar en una trattoria muy famosa.", "emoji": "📅", "options": ["Si deve prenotare?", "Si devono prenotare?", "Se deve prenotare?"], "answer": "Si deve prenotare?", "why": "Sin cosa en plural: si deve. Y en italiano, si.", "g": "it-g-si-impersonale" },
+    { "id": "e9", "type": "situation", "context": "Un italiano te pregunta qué dulces se comen en Navidad en España.", "emoji": "🎄", "options": ["Da noi si mangiano dolci di mandorle.", "Da noi si mangia dolci di mandorle.", "Da noi se mangiano dolci di mandorle."], "answer": "Da noi si mangiano dolci di mandorle.", "why": "Dolci es plural: si mangiano.", "g": "it-g-si-impersonale" },
+    { "id": "e10", "type": "error", "q": "Al bar si prendono un caffè al banco.", "wrong": "prendono", "fix": "prende", "why": "Un caffè es singular: si prende.", "g": "it-g-si-impersonale" },
+    { "id": "e11", "type": "error", "q": "Dopo il pranzo della domenica si è sempre stanco.", "wrong": "stanco", "fix": "stanchi", "why": "Con si è, el adjetivo va en plural: si è stanchi.", "g": "it-g-si-impersonale" },
+    { "id": "e12", "type": "order", "es": "Ayer se comió muy bien en Bolonia.", "answer": "Ieri si è mangiato molto bene a Bologna", "extra": ["ha"], "why": "Pasado del si impersonal: si è mangiato.", "g": "it-g-si-impersonale" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "La universidad de Bolonia es la más antigua de Occidente.", "answer": ["L'università di Bologna è la più antica d'Occidente.", "L'università di Bologna è la più antica dell'Occidente."], "why": "La más antigua = la più antica." },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "In Spagna si cena più tardi che in Italia.", "answer": ["En España se cena más tarde que en Italia."], "why": "Si cena = se cena.", "g": "it-g-si-impersonale" },
+    { "id": "e15", "type": "transform", "instr": "Hazla impersonal con si", "q": "Noi prenotiamo i tavoli per telefono.", "answer": ["Si prenotano i tavoli per telefono.", "I tavoli si prenotano per telefono."], "why": "I tavoli es plural: si prenotano.", "g": "it-g-si-impersonale" },
+    { "id": "e16", "type": "match", "pairs": [["si mangia", "se come"], ["si dice", "se dice"], ["ci si siede", "uno se sienta"], ["si è mangiato", "se comió"], ["si vendono", "se venden"]], "why": "Repaso del si impersonal.", "g": "it-g-si-impersonale" }
+  ],
+  "dialog": {
+    "title": "Bajo los soportales",
+    "setting": "Yolanda pasea por el centro de Bolonia con un guía, Paolo",
+    "emoji": "🏛️",
+    "lines": [
+      { "who": "Paolo", "t": "Ecco Piazza Maggiore, il cuore di Bologna.", "es": "Aquí está la Piazza Maggiore, el corazón de Bolonia." },
+      { "who": "Yolanda", "t": "Che bella! E perché si chiama «la Grassa»?", "es": "¡Qué bonita! ¿Y por qué la llaman «la Gorda»?" },
+      { "who": "Paolo", "t": "Perché qui si mangia benissimo: mortadella, tortellini, ragù…", "es": "Porque aquí se come de maravilla: mortadela, tortellini, ragú…" },
+      { "who": "Yolanda", "t": "È vero! Ieri si è mangiato divinamente.", "es": "¡Es verdad! Ayer se comió de maravilla." },
+      { "who": "Paolo", "t": "E lo sa che qui gli spaghetti alla bolognese non si fanno?", "es": "¿Y sabe que aquí los espaguetis a la boloñesa no se hacen?" },
+      { "who": "Yolanda", "t": "Davvero? E allora con il ragù cosa si mangia?", "es": "¿De verdad? ¿Y entonces con el ragú qué se come?" },
+      { "who": "Paolo", "t": "Le tagliatelle, signora! Sono più ruvide e tengono il sugo.", "es": "¡Los tallarines, señora! Son más rugosos y sujetan la salsa." },
+      { "who": "Yolanda", "t": "Allora stasera tagliatelle al ragù!", "es": "¡Pues esta noche, tagliatelle al ragú!" }
+    ],
+    "questions": [
+      { "q": "¿Por qué Bolonia es «la Grassa»?", "options": ["Porque se come muy bien", "Por su universidad", "Por sus tejados"], "answer": "Porque se come muy bien" },
+      { "q": "¿Qué no se hace en Bolonia, según Paolo?", "options": ["Espaguetis a la boloñesa", "Tortellini", "Mortadela"], "answer": "Espaguetis a la boloñesa" },
+      { "q": "¿Con qué pasta se come el ragú?", "options": ["Con tagliatelle", "Con espaguetis", "Con macarrones"], "answer": "Con tagliatelle" }
+    ]
+  },
+  "realLife": { "t": "Complimenti! Qui si mangia benissimo!", "es": "¡Enhorabuena! ¡Aquí se come de maravilla!", "context": "Para felicitar al dueño de un restaurante al despedirte" },
+  "same": {
+    "text": "Muchas palabras de la mesa son iguales o casi iguales en italiano y en español.",
+    "examples": [
+      { "t": "la cena", "es": "la cena" },
+      { "t": "il menù", "es": "el menú" },
+      { "t": "l'aperitivo", "es": "el aperitivo" },
+      { "t": "la ricetta", "es": "la receta" }
+    ]
+  },
+  "summary": [
+    "Si + singular o plural: si mangia bene; si mangiano le tagliatelle.",
+    "Pasado: si è mangiato benissimo. Reflexivos: ci si diverte.",
+    "Bolonia: la Dotta, la Grassa, la Rossa; universidad de 1088.",
+    "Para felicitar: Complimenti! Qui si mangia benissimo!"
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,433 @@
+{
+  "id": "en-a2-u09-l2",
+  "unit": "en-a2-u09",
+  "title": "Habla despacio, por favor",
+  "goal": "a decir cómo se hacen las cosas con adverbios: slowly, clearly, well, fast",
+  "emoji": "🐢",
+  "photoQuery": "old telephone desk window light",
+  "vocab": [
+    {
+      "id": "phone-slowly",
+      "t": "slowly",
+      "es": "despacio",
+      "emoji": "🐢",
+      "pos": "adv",
+      "ex": {
+        "t": "Please speak slowly. My English isn't perfect.",
+        "es": "Habla despacio, por favor. Mi inglés no es perfecto."
+      }
+    },
+    {
+      "id": "phone-quickly",
+      "t": "quickly",
+      "es": "rápido, deprisa",
+      "emoji": "⚡",
+      "pos": "adv",
+      "ex": {
+        "t": "The receptionist speaks very quickly.",
+        "es": "La recepcionista habla muy deprisa."
+      }
+    },
+    {
+      "id": "phone-clearly",
+      "t": "clearly",
+      "es": "claro, con claridad",
+      "emoji": "🔊",
+      "pos": "adv",
+      "ex": {
+        "t": "Say your name clearly after the beep.",
+        "es": "Di tu nombre con claridad después de la señal."
+      }
+    },
+    {
+      "id": "phone-loudly",
+      "t": "loudly",
+      "es": "alto, en voz alta",
+      "emoji": "📢",
+      "pos": "adv",
+      "ex": {
+        "t": "My grandson always talks loudly on the phone.",
+        "es": "Mi nieto siempre habla muy alto por teléfono."
+      }
+    },
+    {
+      "id": "phone-quietly",
+      "t": "quietly",
+      "es": "bajito, en voz baja",
+      "emoji": "🤫",
+      "pos": "adv",
+      "ex": {
+        "t": "Speak quietly, the baby is sleeping.",
+        "es": "Habla bajito, que el bebé está dormido."
+      }
+    },
+    {
+      "id": "phone-carefully",
+      "t": "carefully",
+      "es": "con cuidado, con atención",
+      "emoji": "🧐",
+      "pos": "adv",
+      "ex": {
+        "t": "Listen carefully to the message.",
+        "es": "Escucha el mensaje con atención."
+      }
+    },
+    {
+      "id": "phone-well",
+      "t": "well",
+      "es": "bien",
+      "emoji": "👍",
+      "pos": "adv",
+      "ex": {
+        "t": "My friend speaks English very well.",
+        "es": "Mi amiga habla inglés muy bien."
+      },
+      "note": "good → well (irregular)."
+    },
+    {
+      "id": "phone-fast",
+      "t": "fast",
+      "es": "rápido",
+      "emoji": "🏎️",
+      "pos": "adv",
+      "ex": {
+        "t": "Don't drive so fast!",
+        "es": "¡No conduzcas tan rápido!"
+      },
+      "note": "fast no cambia: nunca «fastly»."
+    },
+    {
+      "id": "phone-hard",
+      "t": "hard",
+      "es": "mucho, con esfuerzo",
+      "emoji": "💪",
+      "pos": "adv",
+      "ex": {
+        "t": "My son works very hard.",
+        "es": "Mi hijo trabaja muchísimo."
+      },
+      "note": "¡Ojo! hardly significa «apenas»."
+    }
+  ],
+  "grammar": "en-g-adverbs-manner",
+  "pron": {
+    "title": "La terminación -ly",
+    "tip": "La -ly final es muy suave, casi «li»: slowly («slóuli»), quietly («cuáietli»). El acento va en la primera parte, nunca en -ly.",
+    "words": [
+      "slowly",
+      "quickly",
+      "clearly",
+      "quietly",
+      "carefully",
+      "loudly"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Could you speak more ___, please?",
+      "options": [
+        "slowly",
+        "slow",
+        "slowy"
+      ],
+      "answer": "slowly",
+      "why": "Para decir cómo hablas necesitas un adverbio: slow → slowly.",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "My friend speaks English very ___.",
+      "options": [
+        "well",
+        "good",
+        "goodly"
+      ],
+      "answer": "well",
+      "why": "El adverbio de good es well: speaks English well.",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "She's a ___ driver. She never has accidents.",
+      "options": [
+        "careful",
+        "carefully"
+      ],
+      "answer": "careful",
+      "why": "Delante de un nombre (driver) va el adjetivo: a careful driver.",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "The train goes very ___.",
+      "options": [
+        "fast",
+        "fastly",
+        "fastily"
+      ],
+      "answer": "fast",
+      "why": "Fast es igual como adjetivo y como adverbio. «Fastly» no existe.",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Say your name ___ after the beep.",
+      "es": "Di tu nombre con claridad después de la señal.",
+      "answer": [
+        "clearly"
+      ],
+      "bank": [
+        "clearly",
+        "clear",
+        "clearer"
+      ],
+      "why": "Para decir cómo lo dices: clear → clearly.",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Speak ___, please. The baby is sleeping.",
+      "es": "Habla bajito, por favor. El bebé está dormido.",
+      "answer": [
+        "quietly"
+      ],
+      "bank": [
+        "quietly",
+        "quiet",
+        "quite"
+      ],
+      "why": "Quiet → quietly. ¡Ojo! quite significa «bastante».",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "My son works very ___.",
+      "es": "Mi hijo trabaja muchísimo.",
+      "answer": [
+        "hard"
+      ],
+      "why": "Hard no cambia. Hardly significa «apenas».",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Reescríbela con un adverbio (He drives…)",
+      "q": "He is a slow driver.",
+      "answer": [
+        "He drives slowly.",
+        "He drives slowly"
+      ],
+      "why": "a slow driver → drives slowly.",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Reescríbela con un adverbio (She cooks…)",
+      "q": "She is a good cook.",
+      "answer": [
+        "She cooks well.",
+        "She cooks well"
+      ],
+      "why": "a good cook → cooks well.",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "She speaks English very good.",
+      "wrong": "good",
+      "fix": "well",
+      "why": "Para decir cómo habla, adverbio: well. Good va con nombres: good English.",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "My grandson runs very fastly.",
+      "wrong": "fastly",
+      "fix": "fast",
+      "why": "Fast ya es adverbio. Nunca añadas -ly.",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "Mi amiga habla inglés muy bien",
+      "answer": "My friend speaks English very well",
+      "extra": [
+        "good"
+      ],
+      "why": "El adverbio va detrás del objeto: speaks English very well.",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "slow",
+          "slowly"
+        ],
+        [
+          "clear",
+          "clearly"
+        ],
+        [
+          "careful",
+          "carefully"
+        ],
+        [
+          "good",
+          "well"
+        ],
+        [
+          "fast",
+          "fast"
+        ]
+      ],
+      "why": "Casi siempre + -ly; good → well; fast no cambia.",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "Escucha con atención.",
+      "answer": [
+        "Listen carefully.",
+        "Listen carefully",
+        "Listen carefully, please.",
+        "Please listen carefully."
+      ],
+      "why": "Con atención / con cuidado = carefully.",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Llamas a un hotel en Dublín y la recepcionista habla tan deprisa que no la entiendes.",
+      "emoji": "🏨",
+      "options": [
+        "Sorry, could you speak more slowly?",
+        "Sorry, could you speak more slow?",
+        "Sorry, could you speak slowlier?"
+      ],
+      "answer": "Sorry, could you speak more slowly?",
+      "why": "«Más despacio» = more slowly.",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e16",
+      "type": "minimal",
+      "pair": [
+        "quiet",
+        "quite"
+      ],
+      "answer": "quiet",
+      "es": [
+        "tranquilo, bajito",
+        "bastante"
+      ],
+      "why": "Quiet tiene dos sílabas («cuáiet»); quite, una («cuait»)."
+    }
+  ],
+  "dialog": {
+    "title": "Más despacio, por favor",
+    "setting": "Yolanda llama a un pequeño hotel de Dublín para preguntar por su reserva",
+    "emoji": "🇮🇪",
+    "lines": [
+      {
+        "who": "Receptionist",
+        "t": "Good morning, River Hotel, Siobhan speaking.",
+        "es": "Buenos días, Hotel River, le atiende Siobhan."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Good morning. Sorry, could you speak more slowly?",
+        "es": "Buenos días. Perdone, ¿podría hablar más despacio?"
+      },
+      {
+        "who": "Receptionist",
+        "t": "Of course. How can I help you?",
+        "es": "Claro. ¿En qué puedo ayudarla?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I have a booking for Friday, for two people.",
+        "es": "Tengo una reserva para el viernes, para dos personas."
+      },
+      {
+        "who": "Receptionist",
+        "t": "Could you say the booking number clearly?",
+        "es": "¿Podría decirme el número de reserva con claridad?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes. Four, seven, two, nine.",
+        "es": "Sí. Cuatro, siete, dos, nueve."
+      },
+      {
+        "who": "Receptionist",
+        "t": "Thank you. Yes, everything's fine. You speak English very well!",
+        "es": "Gracias. Sí, todo está bien. ¡Habla usted inglés muy bien!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Thank you! I'm studying hard.",
+        "es": "¡Gracias! Estoy estudiando mucho."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué le pide Yolanda a la recepcionista?",
+        "options": [
+          "Que hable más despacio",
+          "Que hable más alto",
+          "Que la llame luego"
+        ],
+        "answer": "Que hable más despacio"
+      },
+      {
+        "q": "¿Para qué día es la reserva?",
+        "options": [
+          "Para el viernes",
+          "Para el lunes",
+          "Para el domingo"
+        ],
+        "answer": "Para el viernes"
+      },
+      {
+        "q": "¿Qué piensa la recepcionista del inglés de Yolanda?",
+        "options": [
+          "Que lo habla muy bien",
+          "Que habla muy deprisa",
+          "Que no se entiende"
+        ],
+        "answer": "Que lo habla muy bien"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Could you speak more slowly, please?",
+    "es": "¿Podría hablar más despacio, por favor?",
+    "context": "Cuando alguien habla demasiado rápido por teléfono"
+  },
+  "summary": [
+    "Adjetivo + -ly = adverbio: slow → slowly, clear → clearly",
+    "good → well; fast y hard no cambian",
+    "El adverbio va detrás del verbo o del objeto: speaks English well",
+    "Más despacio = more slowly"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u09-l2"
+}

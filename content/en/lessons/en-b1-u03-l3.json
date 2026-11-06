@@ -1,0 +1,101 @@
+{
+  "id": "en-b1-u03-l3",
+  "unit": "en-b1-u03",
+  "title": "Antes había una tienda aquí",
+  "goal": "a hablar de cómo han cambiado las cosas con frases de recuerdo y there used to be",
+  "emoji": "🏪",
+  "photoQuery": "old corner shop village street",
+  "vocab": [
+    { "id": "child-there-used-to-be", "t": "There used to be…", "es": "Antes había…", "emoji": "🏪", "pos": "phrase",
+      "ex": { "t": "There used to be a bakery on this corner.", "es": "Antes había una panadería en esta esquina." } },
+    { "id": "child-in-those-days", "t": "in those days", "es": "en aquellos tiempos", "emoji": "📜", "pos": "phrase",
+      "ex": { "t": "In those days, life was slower.", "es": "En aquellos tiempos la vida era más lenta." } },
+    { "id": "child-it-reminds-me-of", "t": "It reminds me of…", "es": "Me recuerda a…", "emoji": "💭", "pos": "phrase",
+      "ex": { "t": "This song reminds me of the summer.", "es": "Esta canción me recuerda al verano." },
+      "note": "remind = recordar a alguien algo; remember = acordarse." },
+    { "id": "child-i-remember", "t": "I remember…", "es": "Me acuerdo de…, recuerdo…", "emoji": "🧠", "pos": "phrase",
+      "ex": { "t": "I remember the smell of the bakery.", "es": "Me acuerdo del olor de la panadería." } },
+    { "id": "child-i-miss", "t": "I miss…", "es": "Echo de menos…", "emoji": "💔", "pos": "phrase",
+      "ex": { "t": "I miss the long summer holidays.", "es": "Echo de menos las vacaciones largas de verano." } },
+    { "id": "child-as-a-child", "t": "as a child", "es": "de niña, de pequeña", "emoji": "👧", "pos": "phrase",
+      "ex": { "t": "As a child, I was very shy.", "es": "De pequeña era muy tímida." } },
+    { "id": "child-good-old-days", "t": "the good old days", "es": "los buenos tiempos", "emoji": "🌅", "pos": "phrase",
+      "ex": { "t": "We talked about the good old days.", "es": "Hablamos de los buenos tiempos." } },
+    { "id": "child-things-have-changed", "t": "Things have changed a lot.", "es": "Las cosas han cambiado mucho.", "emoji": "🔄", "pos": "phrase",
+      "ex": { "t": "Things have changed a lot since I was young.", "es": "Las cosas han cambiado mucho desde que era joven." } }
+  ],
+  "grammar": "en-g-used-to",
+  "pron": {
+    "title": "¿Dónde va el acento?",
+    "tip": "Remember y remind llevan la fuerza en la segunda sílaba: re-MEM-ber, re-MIND. Childhood, en la primera: CHILD-hood.",
+    "words": ["remember", "remind", "childhood", "nowadays", "neighbourhood"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "There ___ be a cinema in the square. Now it's a bank.", "options": ["used to", "use to", "was used to"], "answer": "used to",
+      "why": "Antes había = there used to be.", "g": "en-g-used-to" },
+    { "id": "e2", "type": "choose", "q": "This song ___ me of my summers by the sea.", "options": ["reminds", "remembers", "misses"], "answer": "reminds",
+      "why": "Remind someone of something = recordarle algo a alguien.", "g": "en-g-used-to" },
+    { "id": "e3", "type": "choose", "q": "I ___ the long summer holidays. They were wonderful.", "options": ["miss", "lose", "remind"], "answer": "miss",
+      "why": "Echar de menos = miss. Lose es perder." },
+    { "id": "e4", "type": "fill", "q": "___ a child, I was very shy.", "es": "De pequeña era muy tímida.", "answer": ["As"], "bank": ["As", "Like", "How"],
+      "why": "De niña = as a child (as = como, en calidad de)." },
+    { "id": "e5", "type": "fill", "q": "Was there a market here? — Yes, there ___ to be one.", "es": "¿Había un mercado aquí? — Sí, antes había uno.", "answer": ["used"],
+      "why": "There used to be = antes había.", "g": "en-g-used-to" },
+    { "id": "e6", "type": "transform", "instr": "Escríbela con there used to be", "q": "There was a bakery here, but it closed.", "answer": ["There used to be a bakery here.", "There used to be a bakery here, but it closed."],
+      "why": "There used to be + cosa: algo que había antes y ya no.", "g": "en-g-used-to" },
+    { "id": "e7", "type": "transform", "instr": "Hazla pregunta", "q": "There used to be a cinema in the village.", "answer": ["Did there use to be a cinema in the village?"],
+      "why": "Pregunta: Did there use to be…? (sin -d).", "g": "en-g-used-to" },
+    { "id": "e8", "type": "error", "q": "I remember you to buy bread.", "wrong": "remember", "fix": "remind",
+      "why": "Para recordarle algo a otra persona se usa remind: I remind you to buy bread." },
+    { "id": "e9", "type": "order", "es": "En aquellos tiempos la vida era más lenta", "answer": "In those days life was slower", "extra": ["used"],
+      "why": "In those days va al principio, como en español." },
+    { "id": "e10", "type": "translate", "dir": "to", "q": "Antes había una panadería en esta esquina.", "answer": ["There used to be a bakery on this corner.", "There used to be a bakery on the corner.", "There used to be a baker's on this corner."],
+      "why": "Antes había = there used to be. En una esquina: on the corner.", "g": "en-g-used-to" },
+    { "id": "e11", "type": "translate", "dir": "from", "q": "Things have changed a lot.", "answer": ["Las cosas han cambiado mucho.", "Todo ha cambiado mucho."],
+      "why": "Have changed = han cambiado (presente perfecto)." },
+    { "id": "e12", "type": "situation", "context": "Paseas con una amiga inglesa por tu barrio y le cuentas que antes había un cine donde hoy hay un supermercado.", "emoji": "🎬",
+      "options": ["There used to be a cinema here.", "There use to be a cinema here.", "There is used to be a cinema here."], "answer": "There used to be a cinema here.",
+      "why": "Antes había = there used to be, con -d.", "g": "en-g-used-to" },
+    { "id": "e13", "type": "reading", "kind": "text", "title": "Mi barrio, antes y ahora",
+      "text": "There used to be a small market in my street. People used to chat there for hours. In those days, everybody knew your name. Now there's a big supermarket and nobody talks. Actually, I miss the old market.",
+      "questions": [
+        { "q": "¿Qué había antes en su calle?", "options": ["Un mercado pequeño", "Un supermercado", "Un cine"], "answer": "Un mercado pequeño" },
+        { "q": "¿Qué hacía la gente allí?", "options": ["Charlar durante horas", "Comprar deprisa", "Jugar a las cartas"], "answer": "Charlar durante horas" },
+        { "q": "¿Qué significa «Actually» en el texto?", "options": ["La verdad es que", "Actualmente", "Antes"], "answer": "La verdad es que" }
+      ],
+      "why": "¡Ojo! Actually = en realidad, la verdad es que. Actualmente = nowadays." },
+    { "id": "e14", "type": "match", "pairs": [["I miss…", "Echo de menos…"], ["It reminds me of…", "Me recuerda a…"], ["I remember…", "Me acuerdo de…"], ["in those days", "en aquellos tiempos"], ["the good old days", "los buenos tiempos"]],
+      "why": "Frases para hablar de recuerdos." },
+    { "id": "e15", "type": "speak", "t": "This street reminds me of my childhood.", "es": "Esta calle me recuerda a mi infancia." }
+  ],
+  "dialog": {
+    "title": "Paseo por el barrio",
+    "setting": "Yolanda pasea con Emma, que ha venido a visitarla a España",
+    "emoji": "🚶‍♀️",
+    "lines": [
+      { "who": "Emma", "t": "What a lovely street! Did you use to come here as a child?", "es": "¡Qué calle tan bonita! ¿Venías aquí de pequeña?" },
+      { "who": "Yolanda", "t": "Every day! There used to be a sweet shop on that corner.", "es": "¡Todos los días! Antes había una tienda de chuches en esa esquina." },
+      { "who": "Emma", "t": "And now it's a phone shop!", "es": "¡Y ahora es una tienda de móviles!" },
+      { "who": "Yolanda", "t": "Yes. Things have changed a lot.", "es": "Sí. Las cosas han cambiado mucho." },
+      { "who": "Emma", "t": "Do you miss the old days?", "es": "¿Echas de menos los viejos tiempos?" },
+      { "who": "Yolanda", "t": "Sometimes. In those days, everybody used to chat in the street.", "es": "A veces. En aquellos tiempos, todo el mundo charlaba en la calle." },
+      { "who": "Emma", "t": "That reminds me of my grandmother's village in Wales.", "es": "Eso me recuerda al pueblo de mi abuela en Gales." },
+      { "who": "Yolanda", "t": "Actually, I think small villages are the same everywhere!", "es": "¡En realidad, creo que los pueblos pequeños son iguales en todas partes!" }
+    ],
+    "questions": [
+      { "q": "¿Qué había antes en la esquina?", "options": ["Una tienda de chuches", "Una tienda de móviles", "Un banco"], "answer": "Una tienda de chuches" },
+      { "q": "¿Qué hacía antes la gente en la calle?", "options": ["Charlar", "Jugar al fútbol", "Vender fruta"], "answer": "Charlar" },
+      { "q": "¿A qué le recuerda el paseo a Emma?", "options": ["Al pueblo de su abuela", "A Londres", "A su colegio"], "answer": "Al pueblo de su abuela" }
+    ]
+  },
+  "realLife": { "t": "There used to be a… here.", "es": "Antes aquí había un/una…", "context": "Para enseñarle tu barrio a alguien y contarle cómo era antes" },
+  "falseFriend": { "word": "actually", "means": "en realidad, la verdad es que", "looksLike": "actualmente", "emoji": "🤔",
+    "tip": "Actualmente se dice nowadays o currently: Nowadays I live in a flat. Actually sirve para corregir o matizar: Actually, I prefer tea." },
+  "summary": [
+    "Antes había…: There used to be…",
+    "Recuerdos: I remember…, It reminds me of…, I miss…",
+    "in those days, as a child, the good old days",
+    "¡Ojo! actually = en realidad; actualmente = nowadays"
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,80 @@
+{
+  "id": "it-a2-u09-l5",
+  "unit": "it-a2-u09",
+  "title": "Reto en Verona",
+  "goal": "a organizar un viaje comparando ciudades, fechas y precios, y a dar tu opinión",
+  "emoji": "🎶",
+  "photoQuery": "verona arena roman amphitheatre",
+  "vocab": [
+    { "id": "regioni-secondo-me", "t": "secondo me", "es": "en mi opinión, para mí", "emoji": "💭", "pos": "phrase", "ex": { "t": "Secondo me Verona è più romantica di Milano.", "es": "Para mí Verona es más romántica que Milán." } },
+    { "id": "regioni-conviene", "t": "conviene", "es": "conviene, sale mejor", "emoji": "✅", "pos": "v", "ex": { "t": "Conviene prendere il treno, è più veloce.", "es": "Conviene coger el tren, es más rápido." } },
+    { "id": "regioni-meglio", "t": "meglio / peggio", "es": "mejor / peor (adverbio)", "emoji": "↕️", "pos": "adv", "ex": { "t": "È meglio prenotare prima.", "es": "Es mejor reservar antes." }, "note": "Con verbos: meglio. Con nombres: migliore." },
+    { "id": "regioni-la-gita", "t": "la gita", "es": "la excursión", "emoji": "🚌", "pos": "n", "ex": { "t": "Domani facciamo una gita al lago.", "es": "Mañana hacemos una excursión al lago." } },
+    { "id": "regioni-alta-stagione", "t": "l'alta stagione", "es": "la temporada alta", "emoji": "📅", "pos": "n", "ex": { "t": "In alta stagione tutto è più caro.", "es": "En temporada alta todo es más caro." } },
+    { "id": "regioni-veloce", "t": "veloce / lento", "es": "rápido / lento", "emoji": "🚄", "pos": "adj", "ex": { "t": "Il treno è più veloce dell'autobus.", "es": "El tren es más rápido que el autobús." } },
+    { "id": "regioni-romantico", "t": "romantico / romantica", "es": "romántico / romántica", "emoji": "💕", "pos": "adj", "ex": { "t": "Verona è una città molto romantica.", "es": "Verona es una ciudad muy romántica." } },
+    { "id": "regioni-il-biglietto-opera", "t": "il biglietto per l'opera", "es": "la entrada para la ópera", "emoji": "🎟️", "pos": "phrase", "ex": { "t": "Ho comprato due biglietti per l'opera.", "es": "He comprado dos entradas para la ópera." } }
+  ],
+  "grammar": "it-g-superlativi",
+  "pron": {
+    "title": "Que se oiga la doble: Arena, Verona… y città",
+    "tip": "Verona tiene una sola r y una sola n: no las alargues. En città la doble t se sostiene y el acento cae al final: cit-TÀ.",
+    "words": ["Verona", "Arena", "città", "biglietto", "romantica"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Il treno è più veloce ___ autobus.", "es": "El tren es más rápido que el autobús.", "options": ["dell'", "che l'", "come l'"], "answer": "dell'", "why": "Di + l' = dell': più veloce dell'autobus.", "g": "it-g-comparativi" },
+    { "id": "e2", "type": "choose", "q": "È ___ prenotare l'albergo prima.", "es": "Es mejor reservar el hotel antes.", "options": ["meglio", "migliore", "più buono"], "answer": "meglio", "why": "Con un verbo (prenotare) se usa meglio.", "g": "it-g-comparativi" },
+    { "id": "e3", "type": "choose", "q": "Verona è la città ___ romantica del viaggio.", "es": "Verona es la ciudad más romántica del viaje.", "options": ["più", "molto", "tanto"], "answer": "più", "why": "La más … = la più …", "g": "it-g-superlativi" },
+    { "id": "e4", "type": "fill", "q": "In alta stagione gli alberghi sono ___ cari.", "es": "En temporada alta los hoteles son carísimos.", "answer": ["carissimi"], "hint": "caro + -issimo", "why": "Gli alberghi: masculino plural → carissimi.", "g": "it-g-superlativi" },
+    { "id": "e5", "type": "fill", "q": "A settembre Verona è ___ affollata che ad agosto.", "es": "En septiembre Verona está menos llena que en agosto.", "answer": ["meno"], "bank": ["meno", "più", "tanto"], "why": "Menos = meno; y che porque sigue una preposición (ad agosto).", "g": "it-g-comparativi" },
+    { "id": "e6", "type": "error", "q": "Secondo me, è migliore andare in treno.", "wrong": "migliore", "fix": "meglio", "why": "Con un verbo (andare) se usa meglio.", "g": "it-g-comparativi" },
+    { "id": "e7", "type": "error", "q": "È la serata più bella di mia vita!", "wrong": "di", "fix": "della", "why": "Della mia vita: di + la.", "g": "it-g-superlativi" },
+    { "id": "e8", "type": "transform", "instr": "Cámbiala con «il più … di»", "q": "Nessun teatro della città è grande come l'Arena.", "answer": ["L'Arena è il teatro più grande della città."], "why": "Superlativo: il teatro più grande della città.", "g": "it-g-superlativi" },
+    { "id": "e9", "type": "order", "es": "En mi opinión, conviene coger el tren.", "answer": "Secondo me conviene prendere il treno", "extra": ["migliore"], "why": "Secondo me + conviene + infinitivo.", "g": "it-g-comparativi" },
+    { "id": "e10", "type": "translate", "dir": "to", "q": "Verona es más pequeña que Milán, pero es preciosa.", "answer": ["Verona è più piccola di Milano, ma è bellissima.", "Verona è meno grande di Milano, ma è bellissima."], "why": "Più piccola di + bellissima.", "g": "it-g-comparativi" },
+    { "id": "e11", "type": "translate", "dir": "from", "q": "Ho comprato due biglietti per l'opera.", "answer": ["He comprado dos entradas para la ópera.", "Compré dos entradas para la ópera."], "why": "Il biglietto = la entrada (o el billete).", "g": "it-g-superlativi" },
+    { "id": "e12", "type": "situation", "context": "Una amiga te pregunta qué ciudad te ha gustado más del viaje. Ha sido Verona.", "emoji": "💕", "options": ["Verona: è la città più bella che ho visto!", "Verona: è la città più bellissima!", "Verona: è la città bella di tutte!"], "answer": "Verona: è la città più bella che ho visto!", "why": "La più bella; nunca più + -issimo.", "g": "it-g-superlativi" },
+    { "id": "e13", "type": "speak", "t": "Secondo me, Verona è la città più romantica d'Italia.", "es": "Para mí, Verona es la ciudad más romántica de Italia." },
+    { "id": "e14", "type": "reading", "kind": "email", "title": "Respuesta del hotel", "text": "Gentile signora, a luglio abbiamo una camera doppia a 140 euro a notte. A settembre il prezzo è più basso: 95 euro. L'albergo è a cinque minuti dall'Arena. Il periodo migliore per l'opera è luglio-agosto. Cordiali saluti.", "questions": [
+      { "q": "¿Cuándo es más barato el hotel?", "options": ["En septiembre", "En julio", "Igual todo el año"], "answer": "En septiembre" },
+      { "q": "¿A qué distancia está de la Arena?", "options": ["A cinco minutos", "A media hora", "A un kilómetro"], "answer": "A cinco minutos" },
+      { "q": "¿Cuál es el mejor momento para la ópera, según el hotel?", "options": ["Julio y agosto", "Septiembre", "Invierno"], "answer": "Julio y agosto" }
+    ] }
+  ],
+  "dialog": {
+    "title": "Planeando Verona",
+    "setting": "Yolanda y su amiga Lucia organizan un viaje con el ordenador",
+    "emoji": "💻",
+    "lines": [
+      { "who": "Lucia", "t": "Andiamo a Verona a luglio o a settembre?", "es": "¿Vamos a Verona en julio o en septiembre?" },
+      { "who": "Yolanda", "t": "A luglio c'è l'opera all'Arena!", "es": "¡En julio hay ópera en la Arena!" },
+      { "who": "Lucia", "t": "Sì, ma è alta stagione: è carissimo.", "es": "Sí, pero es temporada alta: es carísimo." },
+      { "who": "Yolanda", "t": "A settembre è più economico e meno affollato.", "es": "En septiembre es más barato y hay menos gente." },
+      { "who": "Lucia", "t": "Ma l'opera è il momento più bello!", "es": "¡Pero la ópera es el mejor momento!" },
+      { "who": "Yolanda", "t": "Allora fine agosto: è meglio per tutte e due.", "es": "Pues a finales de agosto: es mejor para las dos." },
+      { "who": "Lucia", "t": "Ottima idea! In treno o in macchina?", "es": "¡Idea estupenda! ¿En tren o en coche?" },
+      { "who": "Yolanda", "t": "In treno: è più comodo e conviene.", "es": "En tren: es más cómodo y sale mejor." }
+    ],
+    "questions": [
+      { "q": "¿Por qué es caro julio?", "options": ["Es temporada alta", "Hay huelga", "No hay trenes"], "answer": "Es temporada alta" },
+      { "q": "¿Qué ventaja tiene septiembre?", "options": ["Es más barato y hay menos gente", "Hace más calor", "Hay más ópera"], "answer": "Es más barato y hay menos gente" },
+      { "q": "¿Cómo deciden viajar?", "options": ["En tren", "En coche", "En avión"], "answer": "En tren" }
+    ]
+  },
+  "realLife": { "t": "Secondo me, conviene andare a settembre: è più economico.", "es": "Para mí, conviene ir en septiembre: es más barato.", "context": "Para organizar un viaje con amigas y dar tu opinión" },
+  "same": {
+    "text": "Para opinar y comparar usas palabras muy cercanas al español.",
+    "examples": [
+      { "t": "romantico", "es": "romántico" },
+      { "t": "conviene", "es": "conviene" },
+      { "t": "lento", "es": "lento" }
+    ]
+  },
+  "summary": [
+    "Comparar: più / meno … di; più … che con verbos o preposiciones.",
+    "Meglio con verbos (è meglio prenotare); migliore con nombres.",
+    "Superlativos: la più bella del viaggio, carissimo, ottimo.",
+    "Opinar: secondo me…; aconsejar: conviene…"
+  ],
+  "reviewed": false
+}

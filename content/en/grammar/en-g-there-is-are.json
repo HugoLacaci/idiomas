@@ -1,0 +1,122 @@
+{
+  "id": "en-g-there-is-are",
+  "lang": "en",
+  "level": "A1",
+  "title": "There is / there are (hay)",
+  "short": "«Hay» se dice there is (una cosa) o there are (varias). Nunca con have.",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "🏠",
+      "title": "¿Cómo se dice «hay»?",
+      "text": "En español «hay» no cambia nunca. En inglés sí: ==there is== para una cosa y ==there are== para varias.",
+      "examples": [
+        { "t": "There's a sofa in the living room.", "es": "Hay un sofá en el salón.", "hl": "There's" },
+        { "t": "There are two bedrooms.", "es": "Hay dos dormitorios.", "hl": "There are" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "📋",
+      "title": "There is / there are",
+      "text": "Fíjate en que la negativa en plural lleva ==any==.",
+      "table": {
+        "head": ["", "Afirmativa", "Negativa", "Pregunta"],
+        "rows": [
+          ["Una cosa", "There ==is== (There's) a bath.", "There ==isn't== a bath.", "==Is there== a bath?"],
+          ["Varias", "There ==are== two chairs.", "There ==aren't any== chairs.", "==Are there any== chairs?"]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "emoji": "💬",
+      "title": "Respuestas cortas",
+      "text": "Se responde con ==there== y el verbo, sin repetir todo.",
+      "examples": [
+        { "t": "Is there a lift? Yes, there is.", "es": "¿Hay ascensor? Sí, sí que hay.", "hl": "there is" },
+        { "t": "Are there any shops? No, there aren't.", "es": "¿Hay tiendas? No, no hay.", "hl": "there aren't" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "emoji": "🇪🇸",
+      "title": "¡No es have!",
+      "text": "Muchos españoles dicen «In my house have…». ¡Ojo! Para «hay» se usa ==there is / there are==. Pero sí puedes decir ==My flat has two bedrooms== (mi piso tiene).",
+      "examples": [
+        { "t": "There are three bedrooms in my flat.", "es": "En mi piso hay tres dormitorios.", "hl": "There are" },
+        { "t": "My flat has three bedrooms.", "es": "Mi piso tiene tres dormitorios.", "hl": "has" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "emoji": "📍",
+      "title": "¿Hay o está?",
+      "text": "Para decir que algo **existe**: ==there is==. Para decir **dónde está** algo concreto: ==is / are==.",
+      "examples": [
+        { "t": "There's a bank near here.", "es": "Hay un banco cerca.", "hl": "There's" },
+        { "t": "The bank is next to the café.", "es": "El banco está al lado de la cafetería.", "hl": "is" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo con estos errores!",
+      "text": "❌ In the kitchen have a fridge → ✅ ==There's== a fridge in the kitchen. ❌ There is two bathrooms → ✅ There ==are== two bathrooms. ❌ Is a lift? → ✅ ==Is there== a lift?"
+    },
+    {
+      "kind": "tip",
+      "emoji": "💡",
+      "title": "Truco: mira lo que viene detrás",
+      "text": "Mira la primera cosa de la lista: si es una sola, ==there's== (There's a sofa and two chairs). Y recuerda: there's es la forma corta de there is; con are no hay forma corta escrita."
+    }
+  ],
+  "compare": {
+    "es": "En español «hay» es igual para una cosa o para muchas (hay un baño, hay dos baños) y nunca cambia.",
+    "target": "En inglés depende del número: there is (there's) + una cosa; there are + varias. En preguntas se invierte (Is there…? Are there any…?) y no se usa have para decir «hay»."
+  },
+  "errors": [
+    { "wrong": "In my flat have two bedrooms.", "right": "There are two bedrooms in my flat.", "why": "«Hay» no es have: se dice there are." },
+    { "wrong": "There is three chairs.", "right": "There are three chairs.", "why": "Tres sillas es plural: there are." },
+    { "wrong": "Is a supermarket near here?", "right": "Is there a supermarket near here?", "why": "La pregunta de «¿hay…?» necesita there: Is there…?" },
+    { "wrong": "There are a bathroom upstairs.", "right": "There's a bathroom upstairs.", "why": "Un baño es singular: there is (there's)." },
+    { "wrong": "There aren't chairs.", "right": "There aren't any chairs.", "why": "En negativa con plural solemos añadir any." },
+    { "wrong": "Where there is the station?", "right": "Where is the station?", "why": "Para preguntar dónde está algo concreto no se usa there: Where is…?" }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "There ___ a big sofa in the living room.", "es": "Hay un sofá grande en el salón.", "options": ["is", "are"], "answer": "is", "why": "Un sofá es singular: there is.", "g": "en-g-there-is-are" },
+    { "id": "e2", "type": "choose", "q": "There ___ two bathrooms in Hugo's flat.", "es": "Hay dos baños en el piso de Hugo.", "options": ["is", "are"], "answer": "are", "why": "Dos baños es plural: there are.", "g": "en-g-there-is-are" },
+    { "id": "e3", "type": "choose", "q": "___ a lift in the building?", "es": "¿Hay ascensor en el edificio?", "options": ["Is there", "There is", "Are there"], "answer": "Is there", "why": "En la pregunta se cambia el orden: Is there…?", "g": "en-g-there-is-are" },
+    { "id": "e4", "type": "choose", "q": "___ any shops near the hotel?", "es": "¿Hay tiendas cerca del hotel?", "options": ["Is there", "Are there", "Have"], "answer": "Are there", "why": "Tiendas es plural: Are there any…?", "g": "en-g-there-is-are" },
+    { "id": "e5", "type": "choose", "q": "There ___ any towels in the bathroom.", "es": "No hay toallas en el baño.", "options": ["isn't", "aren't"], "answer": "aren't", "why": "Toallas es plural: there aren't any.", "g": "en-g-there-is-are" },
+    { "id": "e6", "type": "choose", "q": "Is there a garden? Yes, there ___.", "es": "¿Hay jardín? Sí.", "options": ["is", "are", "has"], "answer": "is", "why": "Respuesta corta en singular: Yes, there is.", "g": "en-g-there-is-are" },
+    { "id": "e7", "type": "fill", "q": "There ___ a fridge and a cooker in the kitchen.", "es": "Hay una nevera y una cocina en la cocina.", "answer": ["is"], "bank": ["is", "are", "have"], "why": "La primera cosa de la lista es una sola (a fridge): there is.", "g": "en-g-there-is-are" },
+    { "id": "e8", "type": "fill", "q": "There ___ three bedrooms upstairs.", "es": "Arriba hay tres dormitorios.", "answer": ["are"], "bank": ["is", "are", "has"], "why": "Tres dormitorios: there are.", "g": "en-g-there-is-are" },
+    { "id": "e9", "type": "fill", "q": "There ___ a TV in my bedroom. I read books!", "es": "No hay tele en mi dormitorio. ¡Leo libros!", "answer": ["isn't", "is not"], "bank": ["isn't", "aren't", "don't"], "why": "Negativa en singular: there isn't.", "g": "en-g-there-is-are" },
+    { "id": "e10", "type": "fill", "q": "Are there any chairs? No, there ___.", "es": "¿Hay sillas? No.", "answer": ["aren't", "are not"], "why": "Respuesta corta negativa en plural: No, there aren't.", "g": "en-g-there-is-are" },
+    { "id": "e11", "type": "fill", "q": "___ there a chemist's near here?", "es": "¿Hay una farmacia cerca de aquí?", "answer": ["Is"], "why": "Una farmacia: Is there…?", "g": "en-g-there-is-are" },
+    { "id": "e12", "type": "fill", "q": "There aren't ___ glasses in the cupboard.", "es": "No hay vasos en el armario.", "answer": ["any"], "why": "En negativa con plural añadimos any.", "g": "en-g-there-is-are" },
+    { "id": "e13", "type": "match", "pairs": [["Hay un baño.", "There's a bathroom."], ["Hay dos baños.", "There are two bathrooms."], ["¿Hay jardín?", "Is there a garden?"], ["No hay sillas.", "There aren't any chairs."], ["Sí, hay.", "Yes, there is."]], "why": "Una cosa: is. Varias: are.", "g": "en-g-there-is-are" },
+    { "id": "e14", "type": "error", "q": "In the kitchen have a big table.", "wrong": "have", "fix": "there's", "why": "«Hay» no es have. Lo natural es: There's a big table in the kitchen.", "g": "en-g-there-is-are" },
+    { "id": "e15", "type": "error", "q": "There is four chairs in the dining room.", "wrong": "is", "fix": "are", "why": "Cuatro sillas: there are.", "g": "en-g-there-is-are" },
+    { "id": "e16", "type": "error", "q": "There are a microwave in the kitchen.", "wrong": "are", "fix": "is", "why": "Un microondas: there is.", "g": "en-g-there-is-are" },
+    { "id": "e17", "type": "error", "q": "Is there any towels?", "wrong": "Is", "fix": "Are", "why": "Towels es plural: Are there any…?", "g": "en-g-there-is-are" },
+    { "id": "e18", "type": "error", "q": "No, there isn't any cups.", "wrong": "isn't", "fix": "aren't", "why": "Cups es plural: there aren't any.", "g": "en-g-there-is-are" },
+    { "id": "e19", "type": "transform", "instr": "Hazla negativa", "q": "There's a garden.", "answer": ["There isn't a garden.", "There is not a garden.", "There's no garden."], "why": "Negativa en singular: there isn't a…", "g": "en-g-there-is-are" },
+    { "id": "e20", "type": "transform", "instr": "Hazla pregunta", "q": "There's a lift.", "answer": ["Is there a lift?"], "why": "En la pregunta, is va delante: Is there…?", "g": "en-g-there-is-are" },
+    { "id": "e21", "type": "transform", "instr": "Hazla pregunta (con any)", "q": "There are some shops.", "answer": ["Are there any shops?"], "why": "En preguntas con plural usamos any: Are there any…?", "g": "en-g-there-is-are" },
+    { "id": "e22", "type": "transform", "instr": "Pásala a plural (dos)", "q": "There's a window in the kitchen.", "answer": ["There are two windows in the kitchen."], "why": "Dos ventanas: there are + windows.", "g": "en-g-there-is-are" },
+    { "id": "e23", "type": "transform", "instr": "Hazla negativa", "q": "There are some plates on the table.", "answer": ["There aren't any plates on the table.", "There are not any plates on the table.", "There are no plates on the table."], "why": "Negativa en plural: there aren't any.", "g": "en-g-there-is-are" },
+    { "id": "e24", "type": "order", "es": "Hay dos dormitorios en mi piso", "answer": "There are two bedrooms in my flat", "extra": ["have", "is"], "why": "Hay + plural = there are.", "g": "en-g-there-is-are" },
+    { "id": "e25", "type": "order", "es": "¿Hay un supermercado cerca de aquí?", "answer": "Is there a supermarket near here", "extra": ["have"], "why": "Pregunta: Is there…?", "g": "en-g-there-is-are" },
+    { "id": "e26", "type": "order", "es": "No hay toallas en el baño", "answer": "There aren't any towels in the bathroom", "extra": ["isn't"], "why": "Negativa plural: there aren't any.", "g": "en-g-there-is-are" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "Hay una mesa en la cocina.", "answer": ["There's a table in the kitchen.", "There is a table in the kitchen."], "why": "Una mesa: there is (there's).", "g": "en-g-there-is-are" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "¿Hay wifi en el hotel?", "answer": ["Is there wifi in the hotel?", "Is there Wi-Fi in the hotel?", "Is there wifi at the hotel?", "Is there Wi-Fi at the hotel?"], "why": "Pregunta en singular: Is there…?", "g": "en-g-there-is-are" },
+    { "id": "e29", "type": "translate", "dir": "from", "q": "There are a lot of people in the market.", "answer": ["Hay mucha gente en el mercado.", "En el mercado hay mucha gente."], "why": "There are = hay. People es plural en inglés.", "g": "en-g-there-is-are" },
+    { "id": "e30", "type": "situation", "context": "Llegas al piso de vacaciones y quieres saber si hay lavadora.", "emoji": "🧺", "options": ["Is there a washing machine?", "Have a washing machine?", "There is a washing machine?"], "answer": "Is there a washing machine?", "why": "Para preguntar «¿hay…?»: Is there…?", "g": "en-g-there-is-are" },
+    { "id": "e31", "type": "situation", "context": "Una amiga inglesa pregunta cómo es tu piso. Tiene tres dormitorios.", "emoji": "🏠", "options": ["There are three bedrooms.", "There is three bedrooms.", "It have three bedrooms."], "answer": "There are three bedrooms.", "why": "Tres dormitorios: there are.", "g": "en-g-there-is-are" },
+    { "id": "e32", "type": "situation", "context": "Buscas la estación concreta de la que te ha hablado Hugo. Preguntas dónde está.", "emoji": "🚉", "options": ["Where is the station?", "Where there is the station?", "Is there the station?"], "answer": "Where is the station?", "why": "Para algo concreto preguntamos dónde está: Where is…?", "g": "en-g-there-is-are" },
+    { "id": "e33", "type": "conjugate", "verb": "there is / there are", "person": "plural (negativa)", "tense": "presente", "q": "There ___ any eggs in the fridge.", "answer": ["aren't", "are not"], "table": [["", "Singular", "Plural"], ["+", "there is", "there are"], ["−", "there isn't", "?"]], "why": "Eggs es plural: there aren't any.", "g": "en-g-there-is-are" }
+  ],
+  "reviewed": false
+}

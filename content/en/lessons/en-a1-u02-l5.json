@@ -1,0 +1,453 @@
+{
+  "id": "en-a1-u02-l5",
+  "unit": "en-a1-u02",
+  "title": "Reto en Buckingham Palace",
+  "goal": "a hablar de tu familia en una visita real: el palacio, los nietos y las fotos",
+  "emoji": "💂",
+  "photoQuery": "buckingham palace gates guards",
+  "vocab": [
+    {
+      "id": "palace",
+      "t": "palace",
+      "es": "palacio",
+      "emoji": "🏰",
+      "pos": "n",
+      "ex": {
+        "t": "The palace is very big.",
+        "es": "El palacio es muy grande."
+      }
+    },
+    {
+      "id": "king",
+      "t": "king",
+      "es": "rey",
+      "emoji": "👑",
+      "pos": "n",
+      "ex": {
+        "t": "Is the king at home today?",
+        "es": "¿Está el rey en casa hoy?"
+      },
+      "note": "Reina = queen."
+    },
+    {
+      "id": "flag",
+      "t": "flag",
+      "es": "bandera",
+      "emoji": "🚩",
+      "pos": "n",
+      "ex": {
+        "t": "Look at the king's flag!",
+        "es": "¡Mira la bandera del rey!"
+      }
+    },
+    {
+      "id": "guard",
+      "t": "guard",
+      "es": "guardia",
+      "emoji": "💂",
+      "pos": "n",
+      "ex": {
+        "t": "The guards' hats are very tall.",
+        "es": "Los gorros de los guardias son muy altos."
+      }
+    },
+    {
+      "id": "queue",
+      "t": "queue",
+      "es": "cola (de gente)",
+      "emoji": "🧍",
+      "pos": "n",
+      "ex": {
+        "t": "Excuse me, is this the queue?",
+        "es": "Perdone, ¿es esta la cola?"
+      },
+      "note": "Se pronuncia /kjuː/, como la letra Q. En EE. UU.: line."
+    },
+    {
+      "id": "ticket",
+      "t": "ticket",
+      "es": "entrada, billete",
+      "emoji": "🎟️",
+      "pos": "n",
+      "ex": {
+        "t": "Have you got the tickets?",
+        "es": "¿Tienes las entradas?"
+      }
+    },
+    {
+      "id": "take-a-photo",
+      "t": "Can you take a photo of us?",
+      "es": "¿Nos puede hacer una foto?",
+      "emoji": "📸",
+      "pos": "phrase",
+      "ex": {
+        "t": "Excuse me, can you take a photo of us?",
+        "es": "Perdone, ¿nos puede hacer una foto?"
+      }
+    },
+    {
+      "id": "send-me-a-photo",
+      "t": "Send me a photo!",
+      "es": "¡Mándame una foto!",
+      "emoji": "📲",
+      "pos": "phrase",
+      "ex": {
+        "t": "Mum, send me a photo of the kids!",
+        "es": "¡Mamá, mándame una foto de los niños!"
+      }
+    }
+  ],
+  "grammar": "en-g-have-got",
+  "pron": {
+    "title": "Buckingham: la -ham que casi no suena",
+    "tip": "En muchos nombres de lugares ingleses la terminación -ham suena /əm/, una vocal débil y una m: Buckingham /ˈbʌkɪŋəm/. Nada de «jam». Y repaso de la th suave: breathe acaba con la lengua entre los dientes; breed, con una d.",
+    "words": [
+      "Buckingham",
+      "Birmingham",
+      "Fulham",
+      "Tottenham"
+    ],
+    "pairs": [
+      [
+        "breathe",
+        "breed"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel en la verja",
+      "text": "BUCKINGHAM PALACE\nChanging the Guard: 11 am\nPlease queue here.\nState Rooms: open in summer only.",
+      "questions": [
+        {
+          "q": "¿A qué hora es el cambio de guardia?",
+          "options": [
+            "A las 11 de la mañana",
+            "A la 1 de la tarde"
+          ],
+          "answer": "A las 11 de la mañana"
+        },
+        {
+          "q": "¿Qué pide el cartel?",
+          "options": [
+            "Hacer cola aquí",
+            "No hacer fotos"
+          ],
+          "answer": "Hacer cola aquí"
+        },
+        {
+          "q": "¿Cuándo se pueden visitar los salones?",
+          "options": [
+            "Solo en verano",
+            "Todo el año"
+          ],
+          "answer": "Solo en verano"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "type": "situation",
+      "context": "Quieres que alguien os haga una foto a ti y a tus nietos.",
+      "emoji": "📸",
+      "options": [
+        "Excuse me, can you take a photo of us?",
+        "Excuse me, can you take a photo of we?",
+        "Excuse me, you take photo us?"
+      ],
+      "answer": "Excuse me, can you take a photo of us?",
+      "why": "Después de of va us (a nosotros), no we."
+    },
+    {
+      "id": "e3",
+      "type": "situation",
+      "context": "Un turista pregunta si Emma es tu hermana. Es una amiga de tu hijo.",
+      "emoji": "👩",
+      "options": [
+        "No, she's my son's friend.",
+        "No, she's my son friend.",
+        "No, she's the friend of my son's."
+      ],
+      "answer": "No, she's my son's friend.",
+      "why": "La amiga de mi hijo = my son's friend: dueño + 's + cosa.",
+      "g": "en-g-possessive-s"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "These are ___ grandchildren.",
+      "es": "Estos son mis nietos.",
+      "options": [
+        "my",
+        "me",
+        "mine"
+      ],
+      "answer": "my",
+      "why": "Mis nietos = my grandchildren. Delante de un sustantivo siempre my.",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "Look, the king's flag! The king ___ in the palace.",
+      "options": [
+        "is",
+        "are",
+        "has"
+      ],
+      "answer": "is",
+      "why": "Estar en un sitio = to be: The king is in the palace.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Sweetheart, where's ___ hat?",
+      "answer": [
+        "your"
+      ],
+      "bank": [
+        "your",
+        "you",
+        "her"
+      ],
+      "why": "Hablas con tu nieta: tu gorro = your hat.",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Hugo has ___ a new camera.",
+      "answer": [
+        "got"
+      ],
+      "why": "Has got = tiene. No olvides el got.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Usa 's",
+      "q": "the photos of my grandson",
+      "answer": [
+        "my grandson's photos"
+      ],
+      "why": "Dueño + 's + cosa: my grandson's photos.",
+      "g": "en-g-possessive-s"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "Your grandchildren have got tickets.",
+      "answer": [
+        "Have your grandchildren got tickets?",
+        "Have your grandchildren got tickets"
+      ],
+      "why": "Have va delante del sujeto y got se queda detrás.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "My granddaughter is with his brother.",
+      "wrong": "his",
+      "fix": "her",
+      "why": "El hermano es de tu nieta, una chica: her brother.",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "El hijo de Emma se llama Jack",
+      "answer": "Emma's son is called Jack",
+      "extra": [
+        "of"
+      ],
+      "why": "El hijo de Emma = Emma's son. «Se llama» = is called.",
+      "g": "en-g-possessive-s"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Tengo nietos.",
+      "answer": [
+        "I've got grandchildren.",
+        "I have got grandchildren.",
+        "I have grandchildren.",
+        "I've got grandkids.",
+        "I have grandkids."
+      ],
+      "why": "Tener familia = have got o have: I've got grandchildren.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "Have you got children?",
+          "Yes, a son."
+        ],
+        [
+          "What's his name?",
+          "Hugo."
+        ],
+        [
+          "Have you got grandchildren?",
+          "Yes, I have."
+        ],
+        [
+          "Where are they?",
+          "At the palace."
+        ]
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "breathe",
+        "breed"
+      ],
+      "answer": "breathe",
+      "es": [
+        "respirar",
+        "criar"
+      ],
+      "why": "Acababa con la th suave, con voz: breathe."
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "message",
+      "title": "Tu WhatsApp a Emma",
+      "text": "Hi Emma! I'm at Buckingham Palace with my grandchildren. 😍 My granddaughter's got her new red hat. My grandson's very tired!",
+      "questions": [
+        {
+          "q": "¿Con quién está Yolanda?",
+          "options": [
+            "Con sus nietos",
+            "Con Emma",
+            "Con Hugo"
+          ],
+          "answer": "Con sus nietos"
+        },
+        {
+          "q": "¿Qué lleva su nieta?",
+          "options": [
+            "Su gorro rojo nuevo",
+            "Su abrigo azul"
+          ],
+          "answer": "Su gorro rojo nuevo"
+        },
+        {
+          "q": "¿Cómo está su nieto?",
+          "options": [
+            "Muy cansado",
+            "Muy contento"
+          ],
+          "answer": "Muy cansado"
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "These are my grandchildren.",
+      "es": "Estos son mis nietos."
+    }
+  ],
+  "dialog": {
+    "title": "Frente al palacio",
+    "setting": "Ante la verja de Buckingham Palace, esperando el cambio de guardia con los nietos",
+    "emoji": "🏰",
+    "lines": [
+      {
+        "who": "Linda",
+        "t": "Excuse me, are you in the queue?",
+        "es": "Perdone, ¿está usted en la cola?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, we are. Are you here for the guards?",
+        "es": "Sí. ¿Viene a ver a los guardias?"
+      },
+      {
+        "who": "Linda",
+        "t": "Yes! My grandson loves soldiers.",
+        "es": "¡Sí! A mi nieto le encantan los soldados."
+      },
+      {
+        "who": "Yolanda",
+        "t": "My grandchildren too! This is my grandson.",
+        "es": "¡A mis nietos también! Este es mi nieto."
+      },
+      {
+        "who": "Linda",
+        "t": "Hello there! Have you got a camera?",
+        "es": "¡Hola, guapo! ¿Tienes cámara?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, he's got his dad's camera.",
+        "es": "Sí, tiene la cámara de su padre."
+      },
+      {
+        "who": "Linda",
+        "t": "Look! The king's flag is up.",
+        "es": "¡Mire! La bandera del rey está izada."
+      },
+      {
+        "who": "Yolanda",
+        "t": "So the king is at home!",
+        "es": "¡Entonces el rey está en casa!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Para qué están allí?",
+        "options": [
+          "Para ver a los guardias",
+          "Para comprar entradas"
+        ],
+        "answer": "Para ver a los guardias"
+      },
+      {
+        "q": "¿De quién es la cámara del nieto?",
+        "options": [
+          "De su padre",
+          "De Linda",
+          "De Yolanda"
+        ],
+        "answer": "De su padre"
+      },
+      {
+        "q": "¿Qué significa la bandera del rey?",
+        "options": [
+          "Que el rey está en casa",
+          "Que el palacio está cerrado"
+        ],
+        "answer": "Que el rey está en casa"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Can you take a photo of us, please?",
+    "es": "¿Nos puede hacer una foto, por favor?",
+    "context": "Para pedir que os hagan una foto en un viaje"
+  },
+  "summary": [
+    "Repaso: my, your, his, her… y el 's (my son's friend)",
+    "Have got para la familia y las cosas: my grandson's got a camera",
+    "Pedir una foto: Can you take a photo of us?",
+    "Queue = cola; ticket = entrada",
+    "Buckingham termina en /əm/, sin «jam»"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u02-l5"
+}

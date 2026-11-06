@@ -1,0 +1,41 @@
+{
+  "id": "it-a0-u00-c2",
+  "unit": "it-a0-u00",
+  "title": "Un caffè, per favore",
+  "setting": "Giulia te atiende en el bar de su familia, cerca del Panteón",
+  "emoji": "☕",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "Buongiorno! Prego?", "es": "¡Buenos días! ¿Qué te pongo?" },
+      "options": [
+        { "t": "Buongiorno! Un caffè, per favore.", "es": "¡Buenos días! Un café, por favor.", "next": "n2", "ok": true },
+        { "t": "Buonanotte! Un caffè.", "es": "¡Buenas noches! Un café.", "next": "n2", "ok": false, "feedback": "Por la mañana se dice «Buongiorno». Y no olvides «per favore»." }
+      ] },
+    { "id": "n2", "says": { "t": "Un caffè. Anche un cornetto?", "es": "Un café. ¿También un cruasán?" },
+      "options": [
+        { "t": "Sì, grazie!", "es": "¡Sí, gracias!", "next": "n3", "ok": true },
+        { "t": "Cornetto, prego!", "es": "¡Cruasán, de nada!", "next": "n3", "ok": false, "feedback": "«Prego» es «de nada». Para aceptar: «Sì, grazie!»." }
+      ] },
+    { "id": "n3", "says": { "t": "Ecco il caffè e il cornetto!", "es": "¡Aquí tienes el café y el cruasán!" },
+      "options": [
+        { "t": "Grazie mille!", "es": "¡Muchísimas gracias!", "next": "n4", "ok": true },
+        { "t": "Prego!", "es": "¡De nada!", "next": "n4", "ok": false, "feedback": "Cuando te dan algo, tú dices «Grazie». «Prego» lo dice Giulia después." }
+      ] },
+    { "id": "n4", "says": { "t": "Prego! È buono il caffè?", "es": "¡De nada! ¿Está bueno el café?" },
+      "options": [
+        { "t": "Buonissimo!", "es": "¡Buenísimo!", "next": "n5", "ok": true },
+        { "t": "Caldo... burro!", "es": "Caliente… ¡mantequilla!", "next": "n5", "ok": false, "feedback": "¡Cuidado con los falsos amigos! Para decir que está riquísimo: «Buonissimo!»." }
+      ] },
+    { "id": "n5", "says": { "t": "Grazie! Sono due euro.", "es": "¡Gracias! Son dos euros." },
+      "options": [
+        { "t": "Ecco!", "es": "¡Aquí tienes!", "next": "n6", "ok": true },
+        { "t": "Sette euro?", "es": "¿Siete euros?", "next": "n6", "ok": false, "feedback": "Ha dicho «due» (dos). «Sette» es siete, con doble t." }
+      ] },
+    { "id": "n6", "says": { "t": "Perfetto. Buona giornata!", "es": "Perfecto. ¡Que tengas buen día!" },
+      "options": [
+        { "t": "Grazie, anche a te! Ciao!", "es": "¡Gracias, igualmente! ¡Adiós!", "next": "end", "ok": true },
+        { "t": "Buonanotte!", "es": "¡Buenas noches!", "next": "end", "ok": false, "feedback": "Es por la mañana: para despedirte, «Ciao!» o «Buona giornata!»." }
+      ] }
+  ],
+  "reviewed": false
+}

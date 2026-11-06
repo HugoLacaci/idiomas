@@ -1,0 +1,59 @@
+{
+  "id": "it-a2-u01-c1",
+  "unit": "it-a2-u01",
+  "title": "Giulia pregunta por tu visita al museo",
+  "setting": "Giulia te escribe por WhatsApp mientras estás de viaje en Florencia",
+  "emoji": "🏛️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda! Allora, avete visitato gli Uffizi?", "es": "¡Hola, Yolanda! Entonces, ¿habéis visitado los Uffizi?" },
+      "options": [
+        { "t": "Sì, abbiamo visitato gli Uffizi ieri.", "es": "Sí, visitamos los Uffizi ayer.", "next": "n2", "ok": true },
+        { "t": "Sì, visitiamo gli Uffizi ieri.", "es": "Sí, visitamos los Uffizi ayer.", "next": "n2", "ok": false, "feedback": "Ya ha pasado: abbiamo visitato." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Bravi! Avete aspettato molto in fila?", "es": "¡Bien! ¿Habéis esperado mucho en la cola?" },
+      "options": [
+        { "t": "Abbiamo aspettato mezz'ora.", "es": "Esperamos media hora.", "next": "n3", "ok": true },
+        { "t": "Avete aspettato mezz'ora.", "es": "Esperasteis media hora.", "next": "n3", "ok": false, "feedback": "Hablas de vosotros (tu marido y tú): abbiamo." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Qual è il quadro più bello che hai visto?", "es": "¿Cuál es el cuadro más bonito que has visto?" },
+      "options": [
+        { "t": "Ho ammirato la Venere di Botticelli per dieci minuti!", "es": "¡Estuve diez minutos admirando la Venus de Botticelli!", "next": "n4", "ok": true },
+        { "t": "Ho ammirata la Venere di Botticelli per dieci minuti!", "es": "¡Estuve diez minutos admirando la Venus de Botticelli!", "next": "n4", "ok": false, "feedback": "Con avere el participio no cambia: ho ammirato." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Che meraviglia! E tuo marito?", "es": "¡Qué maravilla! ¿Y tu marido?" },
+      "options": [
+        { "t": "Lui ha fotografato tutte le sale.", "es": "Él ha fotografiado todas las salas.", "next": "n5", "ok": true },
+        { "t": "Lui hanno fotografato tutte le sale.", "es": "Él ha fotografiado todas las salas.", "next": "n5", "ok": false, "feedback": "Lui → ha." },
+        { "t": "Lui è fotografato tutte le sale.", "es": "Él ha fotografiado todas las salas.", "next": "n5", "ok": false, "feedback": "Fotografare va con avere: ha fotografato." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Avete già visto anche il David?", "es": "¿Habéis visto ya también el David?" },
+      "options": [
+        { "t": "No, non abbiamo ancora visto il David.", "es": "No, todavía no hemos visto el David.", "next": "n6", "ok": true },
+        { "t": "No, abbiamo ancora non visto il David.", "es": "No, todavía no hemos visto el David.", "next": "n6", "ok": false, "feedback": "Non va delante de avere: non abbiamo ancora visto." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Allora domani Accademia! Poi mandami le foto!", "es": "¡Pues mañana a la Accademia! ¡Luego mándame las fotos!" },
+      "options": [
+        { "t": "Certo, a domani!", "es": "¡Claro, hasta mañana!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

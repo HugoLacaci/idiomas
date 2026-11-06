@@ -1,0 +1,468 @@
+{
+  "id": "it-a1-u11-l3",
+  "unit": "it-a1-u11",
+  "title": "Scusi, come arrivo al museo?",
+  "goal": "a preguntar el camino, entender la respuesta y leer carteles de puertas y calles",
+  "emoji": "🚶‍♀️",
+  "photoQuery": "tourist map old town street",
+  "vocab": [
+    {
+      "id": "dir-come-arrivo",
+      "t": "Come arrivo a…?",
+      "es": "¿Cómo llego a…?",
+      "emoji": "🧭",
+      "pos": "phrase",
+      "ex": {
+        "t": "Scusi, come arrivo al duomo?",
+        "es": "Perdone, ¿cómo llego a la catedral?"
+      }
+    },
+    {
+      "id": "dir-e-lontano",
+      "t": "È lontano?",
+      "es": "¿Está lejos?",
+      "emoji": "📏",
+      "pos": "phrase",
+      "ex": {
+        "t": "Il porto è lontano da qui?",
+        "es": "¿El puerto está lejos de aquí?"
+      }
+    },
+    {
+      "id": "dir-a-piedi",
+      "t": "a piedi",
+      "es": "a pie, andando",
+      "emoji": "🚶",
+      "pos": "phrase",
+      "ex": {
+        "t": "Possiamo andare a piedi?",
+        "es": "¿Podemos ir andando?"
+      }
+    },
+    {
+      "id": "dir-a-cinque-minuti",
+      "t": "a cinque minuti",
+      "es": "a cinco minutos",
+      "emoji": "⏱️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Il museo è a cinque minuti.",
+        "es": "El museo está a cinco minutos."
+      }
+    },
+    {
+      "id": "dir-mi-sono-persa",
+      "t": "Mi sono persa.",
+      "es": "Me he perdido.",
+      "emoji": "😵‍💫",
+      "pos": "phrase",
+      "note": "Un hombre dice: Mi sono perso.",
+      "ex": {
+        "t": "Scusi, mi sono persa. Dov'è la piazza?",
+        "es": "Perdone, me he perdido. ¿Dónde está la plaza?"
+      }
+    },
+    {
+      "id": "dir-la-mappa",
+      "t": "la mappa",
+      "es": "el mapa, el plano",
+      "emoji": "🗺️",
+      "pos": "n",
+      "note": "Ojo: en italiano es femenino.",
+      "ex": {
+        "t": "Mi fa vedere sulla mappa?",
+        "es": "¿Me lo enseña en el mapa?"
+      }
+    },
+    {
+      "id": "dir-tirare",
+      "t": "TIRARE",
+      "es": "tirar de (en las puertas: TIRAR / JALAR)",
+      "emoji": "🚪",
+      "pos": "v",
+      "note": "¡Ojo! Falso amigo: en una puerta significa «tire hacia usted».",
+      "ex": {
+        "t": "La porta dice «tirare».",
+        "es": "La puerta dice «tirar»."
+      }
+    },
+    {
+      "id": "dir-spingere",
+      "t": "SPINGERE",
+      "es": "empujar (EMPUJE)",
+      "emoji": "🫸",
+      "pos": "v",
+      "ex": {
+        "t": "Spingi la porta, è pesante.",
+        "es": "Empuja la puerta, pesa mucho."
+      }
+    },
+    {
+      "id": "dir-non-girare",
+      "t": "Non girare!",
+      "es": "¡No gires!",
+      "emoji": "⛔",
+      "pos": "phrase",
+      "note": "Negativo de tú: non + infinitivo.",
+      "ex": {
+        "t": "Non girare qui, vai dritto.",
+        "es": "No gires aquí, sigue recto."
+      }
+    }
+  ],
+  "grammar": "it-g-imperativo-tu-intro",
+  "pron": {
+    "title": "La r vibrante de girare y tirare",
+    "tip": "La r italiana se pronuncia como nuestra r de «pero» entre vocales, y vibra fuerte cuando es doble: gira, tira, pero terra, ferro.",
+    "words": [
+      "gira",
+      "tirare",
+      "arrivo",
+      "terra",
+      "dritto"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Scusi, come ___ al museo?",
+      "es": "Perdone, ¿cómo llego al museo?",
+      "options": [
+        "arrivo",
+        "arriva",
+        "arrivi"
+      ],
+      "answer": "arrivo",
+      "why": "Hablas de ti: io arrivo.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Non ___ a destra, vai dritto!",
+      "es": "¡No gires a la derecha, sigue recto!",
+      "options": [
+        "girare",
+        "gira",
+        "giri"
+      ],
+      "answer": "girare",
+      "why": "El negativo de tú es non + infinitivo: non girare.",
+      "g": "it-g-imperativo-tu-intro"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Il porto è ___ cinque minuti a piedi.",
+      "es": "El puerto está a cinco minutos andando.",
+      "options": [
+        "a",
+        "in",
+        "di"
+      ],
+      "answer": "a",
+      "why": "Para la distancia en tiempo: a cinque minuti.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Non ___ la strada qui: è pericoloso!",
+      "es": "No cruces la calle aquí: ¡es peligroso!",
+      "answer": [
+        "attraversare"
+      ],
+      "bank": [
+        "attraversare",
+        "attraversa",
+        "attraversi"
+      ],
+      "why": "Negativo de tú: non + infinitivo.",
+      "g": "it-g-imperativo-tu-intro"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "La porta è chiusa? No, devi ___!",
+      "es": "¿La puerta está cerrada? No, ¡tienes que tirar!",
+      "answer": [
+        "tirare"
+      ],
+      "bank": [
+        "tirare",
+        "spingere",
+        "girare"
+      ],
+      "why": "Tirare es tirar hacia ti (en español, «tire»).",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "___ la mappa, è nella borsa.",
+      "es": "Coge el mapa, está en el bolso.",
+      "answer": [
+        "Prendi",
+        "prendi"
+      ],
+      "hint": "prendere, tú",
+      "why": "Prendere con tu: prendi.",
+      "g": "it-g-imperativo-tu-intro"
+    },
+    {
+      "id": "e7",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "Prendi l'autobus.",
+      "answer": [
+        "Non prendere l'autobus."
+      ],
+      "why": "Negativo de tú: non + infinitivo (prendere).",
+      "g": "it-g-imperativo-tu-intro"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "Vai a sinistra.",
+      "answer": [
+        "Non andare a sinistra."
+      ],
+      "why": "Non + andare, el infinitivo.",
+      "g": "it-g-imperativo-tu-intro"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Non gira a sinistra, Hugo!",
+      "wrong": "gira",
+      "fix": "girare",
+      "why": "Para prohibir con tú: non + infinitivo (non girare).",
+      "g": "it-g-imperativo-tu-intro"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Il museo è lontano di qui?",
+      "wrong": "di",
+      "fix": "da",
+      "why": "Lejos de = lontano da.",
+      "g": "it-g-avverbi-luogo"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Perdone, me he perdido.",
+      "answer": "Scusi mi sono persa",
+      "extra": [
+        "ho"
+      ],
+      "why": "Mi sono persa: frase hecha para pedir ayuda.",
+      "g": "it-g-tu-lei"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "¿Está lejos de aquí?",
+      "answer": "È lontano da qui",
+      "extra": [
+        "di"
+      ],
+      "why": "Lejos de = lontano da.",
+      "g": "it-g-avverbi-luogo"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "from",
+      "q": "Spingere",
+      "answer": [
+        "Empujar",
+        "Empuje",
+        "Empujen"
+      ],
+      "why": "Spingere es empujar. ¡No confundir con tirare (tirar)!",
+      "g": "it-g-imperativo-tu-intro"
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Carteles",
+      "text": "MUSEO ARCHEOLOGICO → 300 m\nPORTA: TIRARE\nUSCITA: SPINGERE\nNON ATTRAVERSARE: USARE IL SOTTOPASSAGGIO",
+      "questions": [
+        {
+          "q": "¿Qué haces para entrar por la puerta?",
+          "options": [
+            "Tirar hacia mí",
+            "Empujar",
+            "Llamar al timbre"
+          ],
+          "answer": "Tirar hacia mí"
+        },
+        {
+          "q": "¿Y para salir?",
+          "options": [
+            "Empujar",
+            "Tirar",
+            "Esperar"
+          ],
+          "answer": "Empujar"
+        },
+        {
+          "q": "¿Qué dice el último cartel?",
+          "options": [
+            "No cruzar: usar el paso subterráneo",
+            "Cruzar en verde",
+            "Calle cortada"
+          ],
+          "answer": "No cruzar: usar el paso subterráneo"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Te has perdido en el casco antiguo y quieres llegar a la catedral. Paras a un señor.",
+      "emoji": "😵‍💫",
+      "options": [
+        "Scusi, mi sono persa. Come arrivo al duomo?",
+        "Ciao, dov'è duomo?",
+        "Scusi, sono lontana il duomo?"
+      ],
+      "answer": "Scusi, mi sono persa. Come arrivo al duomo?",
+      "why": "Con un desconocido: Scusi + frase completa con come arrivo a…",
+      "g": "it-g-tu-lei"
+    },
+    {
+      "id": "e16",
+      "type": "match",
+      "pairs": [
+        [
+          "Come arrivo a…?",
+          "¿Cómo llego a…?"
+        ],
+        [
+          "È lontano?",
+          "¿Está lejos?"
+        ],
+        [
+          "a piedi",
+          "andando"
+        ],
+        [
+          "tirare",
+          "tirar de"
+        ],
+        [
+          "spingere",
+          "empujar"
+        ]
+      ],
+      "why": "Frases para orientarte."
+    }
+  ],
+  "dialog": {
+    "title": "Perdida en el casco antiguo",
+    "setting": "Yolanda se ha perdido en Ortigia, el casco antiguo de Siracusa, y pregunta a una chica",
+    "emoji": "🧭",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Scusi, mi sono persa. Come arrivo al duomo?",
+        "es": "Perdone, me he perdido. ¿Cómo llego a la catedral?"
+      },
+      {
+        "who": "Elena",
+        "t": "Non è lontano. Vede la farmacia?",
+        "es": "No está lejos. ¿Ve la farmacia?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, la vedo.",
+        "es": "Sí, la veo."
+      },
+      {
+        "who": "Elena",
+        "t": "Lì giri a sinistra e vada dritto.",
+        "es": "Allí gire a la izquierda y siga recto."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Posso andare a piedi?",
+        "es": "¿Puedo ir andando?"
+      },
+      {
+        "who": "Elena",
+        "t": "Certo, è a cinque minuti.",
+        "es": "Claro, está a cinco minutos."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Mi fa vedere sulla mappa?",
+        "es": "¿Me lo enseña en el mapa?"
+      },
+      {
+        "who": "Elena",
+        "t": "Ecco, siamo qui. Il duomo è qui.",
+        "es": "Mire, estamos aquí. La catedral está aquí."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie mille, è molto gentile!",
+        "es": "¡Muchísimas gracias, es muy amable!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Adónde quiere ir Yolanda?",
+        "options": [
+          "A la catedral",
+          "Al puerto",
+          "Al museo"
+        ],
+        "answer": "A la catedral"
+      },
+      {
+        "q": "¿Dónde tiene que girar?",
+        "options": [
+          "En la farmacia",
+          "En el semáforo",
+          "En el puente"
+        ],
+        "answer": "En la farmacia"
+      },
+      {
+        "q": "¿Cuánto se tarda?",
+        "options": [
+          "Cinco minutos",
+          "Media hora",
+          "Una hora"
+        ],
+        "answer": "Cinco minutos"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Scusi, mi sono persa. Mi fa vedere sulla mappa?",
+    "es": "Perdone, me he perdido. ¿Me lo enseña en el mapa?",
+    "context": "Cuando no encuentras un sitio y llevas el plano o el móvil en la mano"
+  },
+  "falseFriend": {
+    "word": "tirare",
+    "means": "tirar de, tirar hacia ti (en las puertas)",
+    "looksLike": "tirar (algo a la basura o al suelo)",
+    "emoji": "🚪",
+    "tip": "En una puerta italiana, TIRARE significa que tires de ella hacia ti, y SPINGERE que empujes. Tirar algo a la basura es buttare."
+  },
+  "summary": [
+    "Preguntar: Scusi, come arrivo a…? È lontano?",
+    "Respuestas: a piedi, a cinque minuti, non è lontano.",
+    "Negativo de tú: non + infinitivo (non girare, non andare).",
+    "Puertas: TIRARE = tire hacia usted; SPINGERE = empuje.",
+    "Los desconocidos te hablarán de usted: giri, vada."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u11-l3"
+}

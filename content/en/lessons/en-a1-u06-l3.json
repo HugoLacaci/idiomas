@@ -1,0 +1,425 @@
+{
+  "id": "en-a1-u06-l3",
+  "unit": "en-a1-u06",
+  "title": "Desayuno, comida y cena",
+  "goal": "a hablar de las comidas del día y de tus horarios, y a no caer en la trampa de attend",
+  "emoji": "🥐",
+  "photoQuery": "english breakfast table tea",
+  "vocab": [
+    {
+      "id": "breakfast",
+      "t": "breakfast",
+      "es": "el desayuno",
+      "emoji": "🥐",
+      "pos": "n",
+      "ex": {
+        "t": "Breakfast is my favourite meal.",
+        "es": "El desayuno es mi comida favorita."
+      }
+    },
+    {
+      "id": "lunch",
+      "t": "lunch",
+      "es": "la comida (del mediodía)",
+      "emoji": "🥗",
+      "pos": "n",
+      "ex": {
+        "t": "We have lunch at two in Spain.",
+        "es": "En España comemos a las dos."
+      },
+      "note": "En el Reino Unido, lunch suele ser algo ligero, sobre la una."
+    },
+    {
+      "id": "dinner",
+      "t": "dinner",
+      "es": "la cena",
+      "emoji": "🍝",
+      "pos": "n",
+      "ex": {
+        "t": "Dinner is ready!",
+        "es": "¡La cena está lista!"
+      },
+      "note": "Algunos británicos llaman tea a la cena temprana."
+    },
+    {
+      "id": "a-nap",
+      "t": "a nap",
+      "es": "una siesta",
+      "emoji": "😴",
+      "pos": "n",
+      "ex": {
+        "t": "I have a nap after lunch.",
+        "es": "Me echo la siesta después de comer."
+      }
+    },
+    {
+      "id": "at-lunchtime",
+      "t": "at lunchtime",
+      "es": "a la hora de comer",
+      "emoji": "🕐",
+      "pos": "phrase",
+      "ex": {
+        "t": "My son calls me at lunchtime.",
+        "es": "Mi hijo me llama a la hora de comer."
+      }
+    },
+    {
+      "id": "early-late",
+      "t": "early / late",
+      "es": "temprano / tarde",
+      "emoji": "🐓",
+      "pos": "adv",
+      "ex": {
+        "t": "We get up early and go to bed late.",
+        "es": "Nos levantamos temprano y nos acostamos tarde."
+      }
+    },
+    {
+      "id": "every-day",
+      "t": "every day",
+      "es": "todos los días",
+      "emoji": "🔁",
+      "pos": "phrase",
+      "ex": {
+        "t": "I go for a walk every day.",
+        "es": "Doy un paseo todos los días."
+      },
+      "note": "Sin preposición: every day, every morning."
+    },
+    {
+      "id": "attend",
+      "t": "attend",
+      "es": "asistir a (una clase, una reunión, misa)",
+      "emoji": "🎓",
+      "pos": "v",
+      "ex": {
+        "t": "We attend an English class on Tuesdays.",
+        "es": "Asistimos a una clase de inglés los martes."
+      },
+      "note": "¡Trampa! attend = asistir a. Assist = ayudar."
+    }
+  ],
+  "grammar": "en-g-present-simple",
+  "pron": {
+    "title": "«D'you…?»: el do que casi no se oye",
+    "tip": "En las preguntas rápidas, do you se junta y suena casi «yu» o «diu»: What time d'you have lunch? No te asustes si no oyes el do: está ahí, pero muy flojito.",
+    "words": [
+      "Do you…?",
+      "What time do you…?",
+      "Where do you…?",
+      "Do you like it?"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "breakfast",
+          "desayuno"
+        ],
+        [
+          "lunch",
+          "comida"
+        ],
+        [
+          "dinner",
+          "cena"
+        ],
+        [
+          "a nap",
+          "una siesta"
+        ],
+        [
+          "every day",
+          "todos los días"
+        ]
+      ],
+      "why": "Las tres comidas: breakfast, lunch y dinner."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "What time ___ you have lunch?",
+      "es": "¿A qué hora comes?",
+      "options": [
+        "do",
+        "are",
+        "have"
+      ],
+      "answer": "do",
+      "why": "Pregunta con What time + do + you.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "We ___ a class at the community centre.",
+      "es": "Asistimos a una clase en el centro cívico.",
+      "options": [
+        "attend",
+        "assist",
+        "attendant"
+      ],
+      "answer": "attend",
+      "why": "¡Trampa! Asistir a = attend. Assist = ayudar."
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "I go for a walk ___ day.",
+      "es": "Doy un paseo todos los días.",
+      "options": [
+        "every",
+        "all",
+        "each the"
+      ],
+      "answer": "every",
+      "why": "Todos los días = every day, sin preposición."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "I have a ___ after lunch. Just twenty minutes!",
+      "es": "Me echo la siesta después de comer. ¡Solo veinte minutos!",
+      "answer": [
+        "nap"
+      ],
+      "bank": [
+        "nap",
+        "sleep",
+        "bed"
+      ],
+      "why": "Siesta = a nap."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "In Spain we have dinner ___. At ten!",
+      "es": "En España cenamos tarde. ¡A las diez!",
+      "answer": [
+        "late"
+      ],
+      "bank": [
+        "late",
+        "early",
+        "lately"
+      ],
+      "why": "Tarde = late. Lately significa «últimamente»."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Where ___ you have breakfast? – In the kitchen.",
+      "es": "¿Dónde desayunas? – En la cocina.",
+      "answer": [
+        "do"
+      ],
+      "why": "Pregunta con Where + do + you.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "I assist an English class on Mondays.",
+      "wrong": "assist",
+      "fix": "attend",
+      "why": "Asistir a una clase = attend. Assist es ayudar."
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "What time you have dinner?",
+      "wrong": "you",
+      "fix": "do you",
+      "why": "Falta el ayudante do: What time do you have dinner?",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "¿A qué hora desayunas?",
+      "answer": "What time do you have breakfast",
+      "extra": [
+        "are",
+        "take"
+      ],
+      "why": "What time + do + you + have breakfast.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Comemos a las dos",
+      "answer": "We have lunch at two",
+      "extra": [
+        "eat",
+        "on"
+      ],
+      "why": "Comer (la comida) = have lunch.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Nos levantamos temprano todos los días.",
+      "answer": [
+        "We get up early every day.",
+        "Every day we get up early."
+      ],
+      "why": "Temprano = early; todos los días = every day.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "from",
+      "q": "Do you have a nap after lunch?",
+      "answer": [
+        "¿Te echas la siesta después de comer?",
+        "¿Duermes la siesta después de comer?",
+        "¿Os echáis la siesta después de comer?"
+      ],
+      "why": "Have a nap = echarse la siesta.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "text",
+      "title": "Meals in Spain and in the UK",
+      "text": "In the UK people have lunch at about one. They have dinner at about six or seven. In Spain we have lunch at two or three, and we have dinner at nine or ten. We don't eat early!",
+      "questions": [
+        {
+          "q": "¿A qué hora suelen comer en el Reino Unido?",
+          "options": [
+            "Sobre la una",
+            "A las tres",
+            "A las doce"
+          ],
+          "answer": "Sobre la una"
+        },
+        {
+          "q": "¿A qué hora cenan en España, según el texto?",
+          "options": [
+            "A las nueve o las diez",
+            "A las seis",
+            "A las siete"
+          ],
+          "answer": "A las nueve o las diez"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Una amiga inglesa te invita a cenar y te pregunta a qué hora cenas normalmente. Cenas a las nueve.",
+      "emoji": "🍝",
+      "options": [
+        "I usually have dinner at nine.",
+        "I have the dinner in nine.",
+        "I take dinner at nine."
+      ],
+      "answer": "I usually have dinner at nine.",
+      "why": "Have dinner, sin the, y at + hora.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "What time do you have lunch?",
+      "es": "¿A qué hora comes?"
+    }
+  ],
+  "dialog": {
+    "title": "Horarios distintos",
+    "setting": "Yolanda y su amiga Emma toman un café en Londres y comparan sus horarios",
+    "emoji": "☕",
+    "lines": [
+      {
+        "who": "Emma",
+        "t": "What time do you have lunch in Spain?",
+        "es": "¿A qué hora coméis en España?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "At two or half past two.",
+        "es": "A las dos o las dos y media."
+      },
+      {
+        "who": "Emma",
+        "t": "So late! And do you have a nap?",
+        "es": "¡Qué tarde! ¿Y os echáis la siesta?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sometimes, yes. Just a short nap.",
+        "es": "A veces, sí. Una siesta cortita."
+      },
+      {
+        "who": "Emma",
+        "t": "I don't have time for a nap!",
+        "es": "¡Yo no tengo tiempo para siestas!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "What time do you have dinner?",
+        "es": "¿A qué hora cenas?"
+      },
+      {
+        "who": "Emma",
+        "t": "At half past six.",
+        "es": "A las seis y media."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Half past six? In Spain that's snack time!",
+        "es": "¿A las seis y media? ¡En España es la hora de la merienda!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿A qué hora come Yolanda en España?",
+        "options": [
+          "A las dos o dos y media",
+          "A la una",
+          "A las doce"
+        ],
+        "answer": "A las dos o dos y media"
+      },
+      {
+        "q": "¿Se echa Emma la siesta?",
+        "options": [
+          "No, no tiene tiempo",
+          "Sí, todos los días",
+          "Solo los domingos"
+        ],
+        "answer": "No, no tiene tiempo"
+      },
+      {
+        "q": "¿A qué hora cena Emma?",
+        "options": [
+          "A las seis y media",
+          "A las nueve",
+          "A las ocho"
+        ],
+        "answer": "A las seis y media"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "What time do you have dinner here?",
+    "es": "¿A qué hora se cena aquí?",
+    "context": "Para adaptarte a los horarios cuando viajas"
+  },
+  "summary": [
+    "Las comidas con have: have breakfast, have lunch, have dinner",
+    "Preguntas: What time do you have lunch?",
+    "every day, early, late: sin preposición",
+    "¡Trampa! attend = asistir a; assist = ayudar"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u06-l3"
+}

@@ -1,0 +1,462 @@
+{
+  "id": "en-a1-u02-l4",
+  "unit": "en-a1-u02",
+  "title": "¿Tienes hermanos?",
+  "goal": "a decir lo que tienes con have got y a pronunciar la th de they",
+  "emoji": "👯",
+  "photoQuery": "old family photo album",
+  "vocab": [
+    {
+      "id": "have-got",
+      "t": "have got",
+      "es": "tener",
+      "emoji": "✋",
+      "pos": "v",
+      "ex": {
+        "t": "I've got two sisters.",
+        "es": "Tengo dos hermanas."
+      },
+      "note": "Con he, she, it: has got (she's got)."
+    },
+    {
+      "id": "twins",
+      "t": "twins",
+      "es": "gemelos, mellizos",
+      "emoji": "👯",
+      "pos": "n",
+      "ex": {
+        "t": "My sister has got twins.",
+        "es": "Mi hermana tiene gemelos."
+      }
+    },
+    {
+      "id": "baby",
+      "t": "baby",
+      "es": "bebé",
+      "emoji": "👶",
+      "pos": "n",
+      "ex": {
+        "t": "They've got a new baby!",
+        "es": "¡Tienen un bebé!"
+      }
+    },
+    {
+      "id": "pet",
+      "t": "pet",
+      "es": "mascota",
+      "emoji": "🐾",
+      "pos": "n",
+      "ex": {
+        "t": "Have you got any pets?",
+        "es": "¿Tienes mascotas?"
+      }
+    },
+    {
+      "id": "dog",
+      "t": "dog",
+      "es": "perro",
+      "emoji": "🐕",
+      "pos": "n",
+      "ex": {
+        "t": "Our dog is called Toby.",
+        "es": "Nuestro perro se llama Toby."
+      }
+    },
+    {
+      "id": "cat",
+      "t": "cat",
+      "es": "gato",
+      "emoji": "🐈",
+      "pos": "n",
+      "ex": {
+        "t": "Lucía has got a black cat.",
+        "es": "Lucía tiene un gato negro."
+      }
+    },
+    {
+      "id": "older",
+      "t": "older",
+      "es": "mayor (de edad)",
+      "emoji": "⬆️",
+      "pos": "adj",
+      "ex": {
+        "t": "I've got an older brother.",
+        "es": "Tengo un hermano mayor."
+      }
+    },
+    {
+      "id": "younger",
+      "t": "younger",
+      "es": "menor, más joven",
+      "emoji": "⬇️",
+      "pos": "adj",
+      "ex": {
+        "t": "My younger sister is a nurse.",
+        "es": "Mi hermana pequeña es enfermera."
+      }
+    },
+    {
+      "id": "big-family",
+      "t": "a big family",
+      "es": "una familia grande",
+      "emoji": "👨‍👩‍👧‍👦",
+      "pos": "n",
+      "ex": {
+        "t": "We're a big family.",
+        "es": "Somos una familia grande."
+      }
+    },
+    {
+      "id": "brothers-and-sisters",
+      "t": "brothers and sisters",
+      "es": "hermanos (chicos y chicas)",
+      "emoji": "👫",
+      "pos": "n",
+      "ex": {
+        "t": "Have you got brothers and sisters?",
+        "es": "¿Tienes hermanos?"
+      },
+      "note": "Brothers son solo chicos. Si hay chicos y chicas: brothers and sisters."
+    }
+  ],
+  "grammar": "en-g-have-got",
+  "pron": {
+    "title": "/ð/ y /d/: they o day",
+    "tip": "Para la th de they, those, there: punta de la lengua entre los dientes y deja salir la voz. Para la d inglesa, la lengua toca detrás de los dientes de arriba, como en «dedo».",
+    "words": [
+      "they",
+      "those",
+      "there",
+      "brother",
+      "with"
+    ],
+    "pairs": [
+      [
+        "they",
+        "day"
+      ],
+      [
+        "those",
+        "doze"
+      ],
+      [
+        "there",
+        "dare"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I've ___ two brothers.",
+      "options": [
+        "got",
+        "get",
+        "have"
+      ],
+      "answer": "got",
+      "why": "I've = I have, y luego va got: I've got (tengo).",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "My sister ___ got twins.",
+      "options": [
+        "has",
+        "have",
+        "is"
+      ],
+      "answer": "has",
+      "why": "Con he, she, it: has got.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "q": "We've got a dog. ___ name is Toby.",
+      "answer": [
+        "Its"
+      ],
+      "bank": [
+        "Its",
+        "It's",
+        "His"
+      ],
+      "why": "Su nombre (de un animal) = its name, sin apóstrofo.",
+      "g": "en-g-possessive-adj"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Has Hugo got a cat? — No, he ___.",
+      "answer": [
+        "hasn't",
+        "has not"
+      ],
+      "why": "Respuesta corta negativa con he: No, he hasn't.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e5",
+      "type": "conjugate",
+      "verb": "have got",
+      "person": "they",
+      "tense": "presente",
+      "q": "They ___ a baby girl.",
+      "answer": [
+        "have got"
+      ],
+      "table": [
+        [
+          "I / you / we / they",
+          "have got ('ve got)"
+        ],
+        [
+          "he / she / it",
+          "has got ('s got)"
+        ]
+      ],
+      "why": "Con they: have got.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e6",
+      "type": "conjugate",
+      "verb": "have got",
+      "person": "he",
+      "tense": "presente, negativa",
+      "q": "Tom ___ any pets.",
+      "answer": [
+        "hasn't got",
+        "has not got",
+        "doesn't have",
+        "does not have"
+      ],
+      "why": "Negativa con he: hasn't got (o doesn't have).",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e7",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "Your sister has got children.",
+      "answer": [
+        "Has your sister got children?",
+        "Has your sister got any children?"
+      ],
+      "why": "Has va delante del sujeto y got se queda detrás: Has your sister got…?",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "We've got a cat.",
+      "answer": [
+        "We haven't got a cat.",
+        "We have not got a cat.",
+        "We don't have a cat."
+      ],
+      "why": "Negativa: haven't got.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "My daughter have got a baby.",
+      "wrong": "have",
+      "fix": "has",
+      "why": "My daughter = she, así que va has got.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Tengo un hermano mayor",
+      "answer": "I have got an older brother",
+      "extra": [
+        "has"
+      ],
+      "why": "I have got + an older brother (an porque older empieza por vocal).",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Mi hermana tiene gemelos.",
+      "answer": [
+        "My sister has got twins.",
+        "My sister's got twins.",
+        "My sister has twins."
+      ],
+      "why": "Mi hermana = she: has got.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e12",
+      "type": "minimal",
+      "pair": [
+        "they",
+        "day"
+      ],
+      "answer": "day",
+      "es": [
+        "ellos",
+        "día"
+      ],
+      "why": "Era una d dura, sin la lengua entre los dientes: day."
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "there",
+        "dare"
+      ],
+      "answer": "there",
+      "es": [
+        "allí",
+        "atreverse"
+      ],
+      "why": "Has oído la th suave: there."
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "En la peluquería te preguntan si tienes mascotas. No tienes.",
+      "emoji": "🐾",
+      "options": [
+        "No, I haven't got any pets.",
+        "No, I haven't any pets got.",
+        "No, I'm not pets."
+      ],
+      "answer": "No, I haven't got any pets.",
+      "why": "Got va justo después de haven't: I haven't got any pets.",
+      "g": "en-g-have-got"
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "an older sister",
+          "una hermana mayor"
+        ],
+        [
+          "a younger brother",
+          "un hermano menor"
+        ],
+        [
+          "twins",
+          "gemelos"
+        ],
+        [
+          "a pet",
+          "una mascota"
+        ],
+        [
+          "a big family",
+          "una familia grande"
+        ]
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "They've got three children and a dog.",
+      "es": "Tienen tres hijos y un perro."
+    }
+  ],
+  "dialog": {
+    "title": "En la peluquería",
+    "setting": "En una peluquería de barrio en Londres",
+    "emoji": "💇‍♀️",
+    "lines": [
+      {
+        "who": "Kate",
+        "t": "Have you got any children?",
+        "es": "¿Tiene hijos?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I've got a son, Hugo.",
+        "es": "Sí, tengo un hijo, Hugo."
+      },
+      {
+        "who": "Kate",
+        "t": "Lovely! And have you got grandchildren?",
+        "es": "¡Qué bien! ¿Y tiene nietos?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I have. They're my treasure.",
+        "es": "Sí. Son mi tesoro."
+      },
+      {
+        "who": "Kate",
+        "t": "I've got two girls. They're twins!",
+        "es": "Yo tengo dos niñas. ¡Son gemelas!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Twins! Have you got any photos?",
+        "es": "¡Gemelas! ¿Tiene fotos?"
+      },
+      {
+        "who": "Kate",
+        "t": "Of course! These are Mia and Ella.",
+        "es": "¡Claro! Estas son Mia y Ella."
+      },
+      {
+        "who": "Yolanda",
+        "t": "They're beautiful!",
+        "es": "¡Son preciosas!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cómo se llama el hijo de Yolanda?",
+        "options": [
+          "Hugo",
+          "Tom",
+          "Toby"
+        ],
+        "answer": "Hugo"
+      },
+      {
+        "q": "¿Qué tiene de especial la familia de Kate?",
+        "options": [
+          "Tiene gemelas",
+          "Tiene cinco hijos"
+        ],
+        "answer": "Tiene gemelas"
+      },
+      {
+        "q": "¿Qué le pide Yolanda a Kate?",
+        "options": [
+          "Ver fotos",
+          "Un café",
+          "Su número"
+        ],
+        "answer": "Ver fotos"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Have you got any photos?",
+    "es": "¿Tienes fotos?",
+    "context": "Cuando alguien te habla de su familia"
+  },
+  "summary": [
+    "Tener: I've got / she's got (o I have / she has)",
+    "Negativa: I haven't got, she hasn't got",
+    "Pregunta: Have you got…? Has she got…? — Yes, I have. / No, she hasn't.",
+    "Hermanos (chicos y chicas) = brothers and sisters",
+    "/ð/ de they con la lengua entre los dientes; /d/ de day detrás"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u02-l4"
+}

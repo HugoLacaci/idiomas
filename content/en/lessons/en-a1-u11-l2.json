@@ -1,0 +1,454 @@
+{
+  "id": "en-a1-u11-l2",
+  "unit": "en-a1-u11",
+  "title": "Gira a la izquierda",
+  "goal": "a dar y entender indicaciones con el imperativo: turn left, go straight on",
+  "emoji": "🧭",
+  "photoQuery": "city street crossing signs",
+  "vocab": [
+    {
+      "id": "city-turn-left",
+      "t": "turn left",
+      "es": "gira a la izquierda",
+      "emoji": "⬅️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Turn left at the bank.",
+        "es": "Gira a la izquierda en el banco."
+      }
+    },
+    {
+      "id": "city-turn-right",
+      "t": "turn right",
+      "es": "gira a la derecha",
+      "emoji": "➡️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Turn right at the traffic lights.",
+        "es": "Gira a la derecha en el semáforo."
+      }
+    },
+    {
+      "id": "city-go-straight-on",
+      "t": "go straight on",
+      "es": "sigue todo recto",
+      "emoji": "⬆️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Go straight on for five minutes.",
+        "es": "Sigue recto cinco minutos."
+      },
+      "note": "En EE. UU.: go straight ahead."
+    },
+    {
+      "id": "city-take-the-first-left",
+      "t": "take the first left",
+      "es": "coge la primera a la izquierda",
+      "emoji": "1️⃣",
+      "pos": "phrase",
+      "ex": {
+        "t": "Take the first left after the church.",
+        "es": "Coge la primera a la izquierda después de la iglesia."
+      }
+    },
+    {
+      "id": "city-take-the-second-right",
+      "t": "take the second right",
+      "es": "coge la segunda a la derecha",
+      "emoji": "2️⃣",
+      "pos": "phrase",
+      "ex": {
+        "t": "Take the second right. The hotel is there.",
+        "es": "Coge la segunda a la derecha. El hotel está ahí."
+      }
+    },
+    {
+      "id": "city-cross-the-road",
+      "t": "cross the road",
+      "es": "cruza la calle",
+      "emoji": "🚶",
+      "pos": "phrase",
+      "ex": {
+        "t": "Cross the road here. It's safe.",
+        "es": "Cruza la calle aquí. Es seguro."
+      }
+    },
+    {
+      "id": "city-go-past",
+      "t": "go past",
+      "es": "pasa por delante de",
+      "emoji": "🏃",
+      "pos": "phrase",
+      "ex": {
+        "t": "Go past the museum.",
+        "es": "Pasa por delante del museo."
+      }
+    },
+    {
+      "id": "city-at-the-end-of",
+      "t": "at the end of the street",
+      "es": "al final de la calle",
+      "emoji": "🔚",
+      "pos": "phrase",
+      "ex": {
+        "t": "The station is at the end of the street.",
+        "es": "La estación está al final de la calle."
+      }
+    },
+    {
+      "id": "city-dont-worry",
+      "t": "Don't worry.",
+      "es": "No te preocupes.",
+      "emoji": "😌",
+      "pos": "phrase",
+      "ex": {
+        "t": "Don't worry, it's very easy.",
+        "es": "No te preocupes, es muy fácil."
+      }
+    }
+  ],
+  "grammar": "en-g-imperative",
+  "pron": {
+    "title": "Left y right",
+    "tip": "En left la l suena clara y la e es corta: «left». En right la r no vibra: la lengua no toca nada, como una r muy suave. Y la gh no suena: «rait».",
+    "words": [
+      "left",
+      "right",
+      "straight",
+      "turn left",
+      "turn right"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ left at the post office.",
+      "es": "Gira a la izquierda en Correos.",
+      "options": [
+        "Turn",
+        "Turns",
+        "You turning"
+      ],
+      "answer": "Turn",
+      "why": "Imperativo: el verbo tal cual al principio.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Go ___ on to the square.",
+      "es": "Sigue recto hasta la plaza.",
+      "options": [
+        "straight",
+        "street",
+        "right"
+      ],
+      "answer": "straight",
+      "why": "Seguir recto = go straight on.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "___ cross here. Use the traffic lights.",
+      "es": "No cruces aquí. Usa el semáforo.",
+      "options": [
+        "Don't",
+        "No",
+        "Not"
+      ],
+      "answer": "Don't",
+      "why": "Negativa del imperativo: Don't + verbo.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "___ the first right after the bridge.",
+      "es": "Coge la primera a la derecha después del puente.",
+      "answer": [
+        "Take"
+      ],
+      "bank": [
+        "Take",
+        "Takes",
+        "Taking"
+      ],
+      "why": "Coger una calle = take.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Go ___ the museum and turn left.",
+      "es": "Pasa por delante del museo y gira a la izquierda.",
+      "answer": [
+        "past"
+      ],
+      "bank": [
+        "past",
+        "pass",
+        "passed"
+      ],
+      "why": "Pasar por delante de = go past.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "The hotel is at the ___ of the street.",
+      "es": "El hotel está al final de la calle.",
+      "answer": [
+        "end"
+      ],
+      "why": "Al final de = at the end of.",
+      "g": "en-g-prep-place"
+    },
+    {
+      "id": "e7",
+      "type": "conjugate",
+      "verb": "to cross",
+      "person": "usted",
+      "tense": "imperativo",
+      "q": "___ the road at the corner.",
+      "answer": [
+        "Cross"
+      ],
+      "why": "Para tú y para usted, la misma forma: Cross.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "Take the bus.",
+      "answer": [
+        "Don't take the bus.",
+        "Do not take the bus."
+      ],
+      "why": "Don't + take.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Gira a la derecha en el semáforo",
+      "answer": "Turn right at the traffic lights",
+      "extra": [
+        "you"
+      ],
+      "why": "El imperativo no lleva sujeto.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Sigue recto y cruza el puente",
+      "answer": "Go straight on and cross the bridge",
+      "extra": [
+        "to"
+      ],
+      "why": "Dos imperativos unidos con and.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "You no turn left here.",
+      "wrong": "no",
+      "fix": "don't",
+      "why": "Negativa con don't. Y aún mejor sin sujeto: Don't turn left here.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "Goes straight on to the church.",
+      "wrong": "Goes",
+      "fix": "Go",
+      "why": "El imperativo no lleva -s.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "⬅️",
+          "turn left"
+        ],
+        [
+          "➡️",
+          "turn right"
+        ],
+        [
+          "⬆️",
+          "go straight on"
+        ],
+        [
+          "🚶",
+          "cross the road"
+        ],
+        [
+          "🔚",
+          "at the end"
+        ]
+      ],
+      "why": "Las flechas de las indicaciones."
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "Coge la segunda a la izquierda.",
+      "answer": [
+        "Take the second left.",
+        "Take the second left",
+        "Take the second turning on the left."
+      ],
+      "why": "Take the second left.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e15",
+      "type": "situation",
+      "context": "Un chico te pregunta por la estación. Está a la derecha, al final de la calle.",
+      "emoji": "🚉",
+      "options": [
+        "Turn right. It's at the end of the street.",
+        "You turns right. In the end street.",
+        "Right turn. The street end."
+      ],
+      "answer": "Turn right. It's at the end of the street.",
+      "why": "Imperativo + at the end of the street.",
+      "g": "en-g-imperative"
+    },
+    {
+      "id": "e16",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de tu amiga",
+      "text": "Hi Yolanda! From the station, go straight on. Go past the bank and take the first left. My flat is number 12. Don't worry, it's easy!",
+      "questions": [
+        {
+          "q": "¿Por delante de qué pasa?",
+          "options": [
+            "Del banco",
+            "Del museo",
+            "De la iglesia"
+          ],
+          "answer": "Del banco"
+        },
+        {
+          "q": "¿Qué calle coge?",
+          "options": [
+            "La primera a la izquierda",
+            "La segunda a la derecha",
+            "La primera a la derecha"
+          ],
+          "answer": "La primera a la izquierda"
+        },
+        {
+          "q": "¿Qué número es el piso?",
+          "options": [
+            "12",
+            "2",
+            "20"
+          ],
+          "answer": "12"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "title": "¿Por dónde se va?",
+    "setting": "En una calle de Londres, cerca de una parada de autobús",
+    "emoji": "🧭",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Excuse me, where's the museum, please?",
+        "es": "Perdone, ¿dónde está el museo, por favor?"
+      },
+      {
+        "who": "Man",
+        "t": "Go straight on to the traffic lights.",
+        "es": "Siga recto hasta el semáforo."
+      },
+      {
+        "who": "Yolanda",
+        "t": "To the traffic lights. OK.",
+        "es": "Hasta el semáforo. Vale."
+      },
+      {
+        "who": "Man",
+        "t": "Then turn left and go past the bank.",
+        "es": "Luego gire a la izquierda y pase por delante del banco."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Turn left, go past the bank…",
+        "es": "Gire a la izquierda, pase el banco…"
+      },
+      {
+        "who": "Man",
+        "t": "Take the second right. It's at the end of the street.",
+        "es": "Coja la segunda a la derecha. Está al final de la calle."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Thank you so much!",
+        "es": "¡Muchísimas gracias!"
+      },
+      {
+        "who": "Man",
+        "t": "Don't worry, you can't miss it!",
+        "es": "No se preocupe, ¡no tiene pérdida!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué busca Yolanda?",
+        "options": [
+          "El museo",
+          "El banco",
+          "La estación"
+        ],
+        "answer": "El museo"
+      },
+      {
+        "q": "¿Qué hace en el semáforo?",
+        "options": [
+          "Gira a la izquierda",
+          "Gira a la derecha",
+          "Cruza el puente"
+        ],
+        "answer": "Gira a la izquierda"
+      },
+      {
+        "q": "¿Dónde está el museo?",
+        "options": [
+          "Al final de la calle",
+          "Al lado del banco",
+          "En el semáforo"
+        ],
+        "answer": "Al final de la calle"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Sorry, can you say that again, please?",
+    "es": "Perdone, ¿me lo puede repetir, por favor?",
+    "context": "Cuando te dan indicaciones demasiado rápido"
+  },
+  "summary": [
+    "Imperativo = verbo tal cual, sin sujeto: Turn left.",
+    "Negativa: Don't + verbo: Don't cross here.",
+    "turn left / right, go straight on, take the first left",
+    "go past = pasar por delante; at the end of = al final de",
+    "Igual para tú, usted y vosotros"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u11-l2"
+}

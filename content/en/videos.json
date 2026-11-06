@@ -1,0 +1,546 @@
+[
+  {
+    "id": "I_tRSrPru94",
+    "lang": "en",
+    "level": "A1",
+    "title": "How to introduce yourself: Easy English Conversations 💬 Episode 1",
+    "channel": "BBC Learning English",
+    "topic": "Los presentadores se conocen por primera vez y muestran cómo saludar y presentarse.",
+    "minutes": 3,
+    "unit": "en-a1-u01",
+    "grammar": "en-g-to-be",
+    "questions": [
+      {"q": "¿De qué trata el vídeo?", "options": ["De cómo presentarse al conocer a alguien", "De cómo pedir comida", "De cómo comprar ropa"], "answer": "De cómo presentarse al conocer a alguien"},
+      {"q": "¿Qué tipo de vídeo es?", "options": ["Una película", "Una conversación sencilla entre presentadores", "Un telediario"], "answer": "Una conversación sencilla entre presentadores"},
+      {"q": "¿Qué frase esperas oír en este vídeo?", "options": ["Can I have the bill?", "Where is the station?", "Nice to meet you"], "answer": "Nice to meet you"}
+    ]
+  },
+  {
+    "id": "v9EU41cuhHY",
+    "lang": "en",
+    "level": "A1",
+    "title": "How to describe your family: Easy English Conversations 💬 Episode 15",
+    "channel": "BBC Learning English",
+    "topic": "Los presentadores hablan de quién hay en su familia y cómo nombrar a cada miembro.",
+    "minutes": 7,
+    "unit": "en-a1-u02",
+    "grammar": "en-g-possessive-adj",
+    "questions": [
+      {"q": "¿De qué hablan en el vídeo?", "options": ["De su familia", "Del tiempo", "De su trabajo"], "answer": "De su familia"},
+      {"q": "¿Qué pregunta encaja con el tema del vídeo?", "options": ["What time is it?", "Who's in your family?", "How much is it?"], "answer": "Who's in your family?"},
+      {"q": "¿Qué palabras vas a oír sobre todo?", "options": ["Partes del coche", "Nombres de países", "Miembros de la familia (mother, brother…)"], "answer": "Miembros de la familia (mother, brother…)"}
+    ]
+  },
+  {
+    "id": "Te-UyphkKRk",
+    "lang": "en",
+    "level": "A1",
+    "title": "Describing your home: Easy English Conversations Episode 20",
+    "channel": "BBC Learning English",
+    "topic": "Georgie tiene una casa nueva y vacía: aprendemos a hablar de habitaciones y muebles.",
+    "minutes": 6,
+    "unit": "en-a1-u04",
+    "grammar": "en-g-there-is-are",
+    "questions": [
+      {"q": "¿Qué le pasa a Georgie?", "options": ["Tiene una casa nueva", "Se va de vacaciones", "Está enferma"], "answer": "Tiene una casa nueva"},
+      {"q": "¿Cómo está la casa al principio?", "options": ["Muy desordenada", "Vacía", "Llena de gente"], "answer": "Vacía"},
+      {"q": "¿Qué vocabulario se practica?", "options": ["Comida y bebida", "Ropa y tallas", "Habitaciones y muebles"], "answer": "Habitaciones y muebles"}
+    ]
+  },
+  {
+    "id": "81MmK177K_c",
+    "lang": "en",
+    "level": "A1",
+    "title": "Learn to talk about the time! Easy English Conversations 💬 Episode 11",
+    "channel": "BBC Learning English",
+    "topic": "A qué hora se levantan y se acuestan los presentadores: decir la hora en inglés.",
+    "minutes": 6,
+    "unit": "en-a1-u05",
+    "grammar": "en-g-prep-time",
+    "questions": [
+      {"q": "¿Qué se aprende en este vídeo?", "options": ["A decir la hora", "A contar dinero", "A pedir direcciones"], "answer": "A decir la hora"},
+      {"q": "¿Sobre qué preguntan a los presentadores?", "options": ["Qué comen en Navidad", "A qué hora se levantan y se acuestan", "Dónde viven sus padres"], "answer": "A qué hora se levantan y se acuestan"},
+      {"q": "¿Qué pregunta oirás seguramente?", "options": ["Where are you from?", "Can you swim?", "What time do you get up?"], "answer": "What time do you get up?"}
+    ]
+  },
+  {
+    "id": "bq6GBbh3uhU",
+    "lang": "en",
+    "level": "A1",
+    "title": "How to talk about your daily routine: Easy English Conversations 💬 Episode 4",
+    "channel": "BBC Learning English",
+    "topic": "Qué hacen los presentadores cada día y qué desayunan: verbos básicos de la rutina.",
+    "minutes": 5,
+    "unit": "en-a1-u06",
+    "grammar": "en-g-present-simple",
+    "questions": [
+      {"q": "¿De qué trata el vídeo?", "options": ["De la rutina diaria", "De un viaje en avión", "De una fiesta de cumpleaños"], "answer": "De la rutina diaria"},
+      {"q": "¿Qué comida se menciona en la descripción del vídeo?", "options": ["La cena de Navidad", "El desayuno", "Un pícnic"], "answer": "El desayuno"},
+      {"q": "¿Qué tiempo verbal se usa para la rutina?", "options": ["Pasado (I got up)", "Futuro (I will get up)", "Presente simple (I get up, I have breakfast)"], "answer": "Presente simple (I get up, I have breakfast)"}
+    ]
+  },
+  {
+    "id": "sMg4vj6ugSs",
+    "lang": "en",
+    "level": "A1",
+    "title": "Describing the weather where you are: Easy English Conversations 💬 Episode 8",
+    "channel": "BBC Learning English",
+    "topic": "Los presentadores describen el tiempo que hace donde están.",
+    "minutes": 3,
+    "unit": "en-a1-u08",
+    "questions": [
+      {"q": "¿De qué hablan los presentadores?", "options": ["Del tiempo que hace", "De su familia", "De la comida"], "answer": "Del tiempo que hace"},
+      {"q": "¿Qué palabra esperas oír?", "options": ["kitchen", "sunny", "nephew"], "answer": "sunny"},
+      {"q": "¿Qué pregunta es típica en este vídeo?", "options": ["How old are you?", "What's your job?", "What's the weather like?"], "answer": "What's the weather like?"}
+    ]
+  },
+  {
+    "id": "wUF33157hYI",
+    "lang": "en",
+    "level": "A1",
+    "title": "How to talk about likes and dislikes: Easy English Conversations 💬 Episode 7",
+    "channel": "BBC Learning English",
+    "topic": "Qué les gusta y qué no a los presentadores, y qué les gusta hacer.",
+    "minutes": 4,
+    "unit": "en-a1-u08",
+    "questions": [
+      {"q": "¿De qué trata el vídeo?", "options": ["De lo que nos gusta y no nos gusta", "De cómo llegar a un sitio", "De los números"], "answer": "De lo que nos gusta y no nos gusta"},
+      {"q": "¿Qué verbo es el protagonista?", "options": ["go", "like", "buy"], "answer": "like"},
+      {"q": "¿Cuál es lo contrario de \"I like\"?", "options": ["I am like", "I likes", "I don't like"], "answer": "I don't like"}
+    ]
+  },
+  {
+    "id": "4C4wlOAscvY",
+    "lang": "en",
+    "level": "A1",
+    "title": "Talking about food 🍔🥒🍫 Real Easy English",
+    "channel": "BBC Learning English",
+    "topic": "Neil y Beth charlan en inglés fácil sobre sus comidas favoritas y con qué frecuencia las comen.",
+    "minutes": 6,
+    "unit": "en-a1-u09",
+    "questions": [
+      {"q": "¿De qué hablan Neil y Beth?", "options": ["De sus comidas favoritas", "De sus vacaciones", "De su casa"], "answer": "De sus comidas favoritas"},
+      {"q": "Además de qué comen, ¿de qué más hablan?", "options": ["De cuánto cuesta un coche", "De con qué frecuencia lo comen", "De su infancia"], "answer": "De con qué frecuencia lo comen"},
+      {"q": "¿Cómo es la conversación?", "options": ["Leída de un libro", "Cantada", "Real y en inglés fácil"], "answer": "Real y en inglés fácil"}
+    ]
+  },
+  {
+    "id": "1vUTq-Pd4Vs",
+    "lang": "en",
+    "level": "A1",
+    "title": "Talking about ability: Easy English Conversations 💬 Episode 9",
+    "channel": "BBC Learning English",
+    "topic": "¿Sabe cantar Georgie? ¿Sabe conducir Sian? Hablar de habilidades con \"can\".",
+    "minutes": 4,
+    "unit": "en-a1-u10",
+    "grammar": "en-g-can",
+    "questions": [
+      {"q": "¿Qué verbo se practica en el vídeo?", "options": ["can", "must", "will"], "answer": "can"},
+      {"q": "Según la descripción, ¿qué se pregunta sobre Georgie?", "options": ["Si sabe cocinar", "Si sabe cantar", "Si sabe nadar"], "answer": "Si sabe cantar"},
+      {"q": "¿Y sobre Sian?", "options": ["Si sabe bailar", "Si sabe dibujar", "Si sabe conducir"], "answer": "Si sabe conducir"}
+    ]
+  },
+  {
+    "id": "SHXPpsIJTb0",
+    "lang": "en",
+    "level": "A1",
+    "title": "Asking for and giving directions: Easy English Conversations 💬 Episode 5",
+    "channel": "BBC Learning English",
+    "topic": "Cómo preguntar por un sitio y cómo explicar el camino.",
+    "minutes": 4,
+    "unit": "en-a1-u11",
+    "grammar": "en-g-imperative",
+    "questions": [
+      {"q": "¿Qué se aprende en este vídeo?", "options": ["A pedir y dar direcciones", "A pedir un café", "A presentarse"], "answer": "A pedir y dar direcciones"},
+      {"q": "¿Qué expresión esperas oír?", "options": ["I'm sixty", "Turn left", "It's raining"], "answer": "Turn left"},
+      {"q": "¿Qué pregunta sirve para pedir direcciones?", "options": ["How are you?", "What do you do?", "How do I get to the station?"], "answer": "How do I get to the station?"}
+    ]
+  },
+  {
+    "id": "7CeNTtbhYLs",
+    "lang": "en",
+    "level": "A1",
+    "title": "Pronunciation of 'th' - English In A Minute",
+    "channel": "BBC Learning English",
+    "topic": "Explicación de un minuto de cómo pronunciar los dos sonidos de \"th\".",
+    "minutes": 1,
+    "questions": [
+      {"q": "¿Qué sonido explica el vídeo?", "options": ["El sonido th", "El sonido h", "El sonido r"], "answer": "El sonido th"},
+      {"q": "¿Cuántos sonidos de \"th\" hay en inglés según el vídeo?", "options": ["Uno", "Dos", "Cinco"], "answer": "Dos"},
+      {"q": "¿Cuánto dura más o menos?", "options": ["Media hora", "Una hora", "Un minuto"], "answer": "Un minuto"}
+    ]
+  },
+  {
+    "id": "aiUGN3TDvw4",
+    "lang": "en",
+    "level": "A2",
+    "title": "How to talk about activities: Easy English Conversations 💬 Episode 6",
+    "channel": "BBC Learning English",
+    "topic": "Hablar de lo que estamos haciendo ahora mismo con el presente continuo.",
+    "minutes": 3,
+    "unit": "en-a2-u01",
+    "grammar": "en-g-present-continuous",
+    "questions": [
+      {"q": "¿Qué tiempo verbal se practica?", "options": ["El presente continuo (I'm reading)", "El pasado simple (I read)", "El futuro (I will read)"], "answer": "El presente continuo (I'm reading)"},
+      {"q": "¿De qué tipo de actividades se habla?", "options": ["Deportes de riesgo", "Actividades de todos los días", "Trabajos científicos"], "answer": "Actividades de todos los días"},
+      {"q": "¿Qué pregunta encaja con el vídeo?", "options": ["Where were you born?", "How much is it?", "What are you doing?"], "answer": "What are you doing?"}
+    ]
+  },
+  {
+    "id": "xFsYrTIndhI",
+    "lang": "en",
+    "level": "A2",
+    "title": "Present Simple and Present Continuous - 6 Minute Grammar",
+    "channel": "BBC Learning English",
+    "topic": "Diferencia entre el presente simple (lo habitual) y el presente continuo (lo que pasa ahora).",
+    "minutes": 6,
+    "unit": "en-a2-u01",
+    "grammar": "en-g-simple-vs-continuous",
+    "questions": [
+      {"q": "¿Qué dos tiempos compara el vídeo?", "options": ["Presente simple y presente continuo", "Pasado y futuro", "Presente perfecto y pasado"], "answer": "Presente simple y presente continuo"},
+      {"q": "¿Cuánto dura el programa, según su nombre?", "options": ["Una hora", "Unos seis minutos", "Treinta segundos"], "answer": "Unos seis minutos"},
+      {"q": "¿Cuál de estas frases está en presente continuo?", "options": ["She cooks every day", "She cooked yesterday", "She is cooking now"], "answer": "She is cooking now"}
+    ]
+  },
+  {
+    "id": "FtruQRWZ44U",
+    "lang": "en",
+    "level": "A2",
+    "title": "Some and Any: The Grammar Gameshow Episode 8",
+    "channel": "BBC Learning English",
+    "topic": "Un concurso de gramática divertido para practicar \"some\" y \"any\".",
+    "minutes": 6,
+    "unit": "en-a2-u02",
+    "grammar": "en-g-some-any",
+    "questions": [
+      {"q": "¿Qué formato tiene el vídeo?", "options": ["Un concurso de televisión", "Una entrevista en la calle", "Una clase en directo"], "answer": "Un concurso de televisión"},
+      {"q": "¿Qué palabras se practican?", "options": ["can y could", "some y any", "this y that"], "answer": "some y any"},
+      {"q": "¿Cuál es correcta?", "options": ["Have you got some milks?", "Have you got a milk any?", "Have you got any milk?"], "answer": "Have you got any milk?"}
+    ]
+  },
+  {
+    "id": "b7WcAmzNZ88",
+    "lang": "en",
+    "level": "A2",
+    "title": "Everyday CONVERSATIONS and VOCABULARY for Shopping | Easy English 227",
+    "channel": "Easy English",
+    "topic": "Conversaciones y vocabulario cotidiano para ir de compras, grabado en la calle.",
+    "minutes": 8,
+    "unit": "en-a2-u02",
+    "questions": [
+      {"q": "¿De qué trata el vídeo?", "options": ["De ir de compras", "De ir al médico", "De la familia"], "answer": "De ir de compras"},
+      {"q": "¿Qué se aprende?", "options": ["Poesía inglesa", "Conversaciones y vocabulario cotidiano", "Historia de Inglaterra"], "answer": "Conversaciones y vocabulario cotidiano"},
+      {"q": "¿Qué frase es típica de una tienda?", "options": ["Turn left at the bank", "I was born in Madrid", "How much is this?"], "answer": "How much is this?"}
+    ]
+  },
+  {
+    "id": "2mnL9jPVzsk",
+    "lang": "en",
+    "level": "A2",
+    "title": "Talking about clothes shopping: Easy English Conversations Episode 19",
+    "channel": "BBC Learning English",
+    "topic": "Comprar ropa: pedir otra talla u otro color y decir \"me lo llevo\".",
+    "minutes": 8,
+    "unit": "en-a2-u03",
+    "questions": [
+      {"q": "¿Qué se compra en el vídeo?", "options": ["Ropa", "Fruta", "Billetes de tren"], "answer": "Ropa"},
+      {"q": "¿Qué significa \"Do you have this in a smaller size?\"?", "options": ["¿Cuánto cuesta?", "¿Lo tiene en una talla más pequeña?", "¿Dónde está el probador?"], "answer": "¿Lo tiene en una talla más pequeña?"},
+      {"q": "¿Qué dices cuando decides comprar algo?", "options": ["I'm sorry!", "See you later!", "I'll take it!"], "answer": "I'll take it!"}
+    ]
+  },
+  {
+    "id": "FAhpT7BH7GE",
+    "lang": "en",
+    "level": "A2",
+    "title": "Comparatives and superlatives - 6 Minute Grammar",
+    "channel": "BBC Learning English",
+    "topic": "Cómo comparar cosas con comparativos (better, bigger) y superlativos (the best).",
+    "minutes": 6,
+    "unit": "en-a2-u03",
+    "grammar": "en-g-comparatives",
+    "questions": [
+      {"q": "¿Qué se explica en el vídeo?", "options": ["Comparativos y superlativos", "Verbos irregulares", "Preposiciones de lugar"], "answer": "Comparativos y superlativos"},
+      {"q": "¿Cuál es un superlativo?", "options": ["better", "the best", "good"], "answer": "the best"},
+      {"q": "¿Cuál es un comparativo?", "options": ["biggest", "big", "bigger"], "answer": "bigger"}
+    ]
+  },
+  {
+    "id": "kTf0V4HyFtM",
+    "lang": "en",
+    "level": "A2",
+    "title": "Talk about what you did last weekend: Easy English Conversations 💬 Episode 13",
+    "channel": "BBC Learning English",
+    "topic": "¿Qué tal el fin de semana? Contar lo que hiciste con el pasado simple.",
+    "minutes": 5,
+    "unit": "en-a2-u04",
+    "grammar": "en-g-past-simple-regular",
+    "questions": [
+      {"q": "¿De qué hablan los presentadores?", "options": ["De lo que hicieron el fin de semana", "De sus planes para el verano", "De su trabajo"], "answer": "De lo que hicieron el fin de semana"},
+      {"q": "¿Qué tiempo verbal se practica?", "options": ["El presente continuo", "El pasado simple", "El futuro"], "answer": "El pasado simple"},
+      {"q": "¿Qué pregunta abre la conversación?", "options": ["How old are you?", "Where do you live?", "How was your weekend?"], "answer": "How was your weekend?"}
+    ]
+  },
+  {
+    "id": "886JeoBoQ7g",
+    "lang": "en",
+    "level": "A2",
+    "title": "6 Minute Vocabulary: How to use irregular verbs",
+    "channel": "BBC Learning English",
+    "topic": "Muchos verbos ingleses son irregulares en pasado: cómo aprenderlos y usarlos.",
+    "minutes": 6,
+    "unit": "en-a2-u05",
+    "grammar": "en-g-past-simple-irregular",
+    "questions": [
+      {"q": "¿De qué tipo de verbos trata el vídeo?", "options": ["Verbos irregulares", "Verbos modales", "Phrasal verbs"], "answer": "Verbos irregulares"},
+      {"q": "¿Cuál es el pasado de \"go\"?", "options": ["goed", "went", "gone"], "answer": "went"},
+      {"q": "¿Cuál es el pasado de \"see\"?", "options": ["seed", "seen", "saw"], "answer": "saw"}
+    ]
+  },
+  {
+    "id": "elPHkXNxi2g",
+    "lang": "en",
+    "level": "A2",
+    "title": "How to talk about the future - 6 Minute Grammar",
+    "channel": "BBC Learning English",
+    "topic": "Hablar del futuro: \"be going to\" para planes y otras formas.",
+    "minutes": 6,
+    "unit": "en-a2-u06",
+    "grammar": "en-g-going-to",
+    "questions": [
+      {"q": "¿De qué tiempo trata el vídeo?", "options": ["Del futuro", "Del pasado", "Del presente"], "answer": "Del futuro"},
+      {"q": "¿Qué estructura se menciona en la descripción?", "options": ["used to", "be going to", "have got"], "answer": "be going to"},
+      {"q": "¿Qué frase habla de un plan?", "options": ["I visited my sister", "I visit my sister", "I'm going to visit my sister"], "answer": "I'm going to visit my sister"}
+    ]
+  },
+  {
+    "id": "IoSLM2s3i0Q",
+    "lang": "en",
+    "level": "A2",
+    "title": "The Vocabulary Show: At the doctor's 👩‍⚕️🩺💉💊⚕️ Learn 26 English words and phrases in 10 minutes! 🏪",
+    "channel": "BBC Learning English",
+    "topic": "Dylan enseña 26 palabras y frases útiles para ir al médico.",
+    "minutes": 10,
+    "unit": "en-a2-u08",
+    "questions": [
+      {"q": "¿Dónde transcurre el tema del vídeo?", "options": ["En el médico", "En el aeropuerto", "En el supermercado"], "answer": "En el médico"},
+      {"q": "¿Cuántas palabras y frases promete enseñar?", "options": ["6", "26", "100"], "answer": "26"},
+      {"q": "¿Qué frase dirías en el médico?", "options": ["I'd like a coffee", "I'll take it", "I've got a headache"], "answer": "I've got a headache"}
+    ]
+  },
+  {
+    "id": "HUXXgVElADg",
+    "lang": "en",
+    "level": "A2",
+    "title": "'Have To' and 'must' - 6 Minute Grammar",
+    "channel": "BBC Learning English",
+    "topic": "Finn y Alice explican cómo hablar de obligaciones con \"have to\" y \"must\".",
+    "minutes": 6,
+    "unit": "en-a2-u08",
+    "grammar": "en-g-must-have-to",
+    "questions": [
+      {"q": "¿Qué dos formas se explican?", "options": ["have to y must", "can y could", "will y going to"], "answer": "have to y must"},
+      {"q": "¿Para qué sirven?", "options": ["Para hablar del pasado", "Para hablar de obligaciones", "Para comparar"], "answer": "Para hablar de obligaciones"},
+      {"q": "¿Cuál es correcta?", "options": ["I have take this medicine", "I must to take this medicine", "I have to take this medicine"], "answer": "I have to take this medicine"}
+    ]
+  },
+  {
+    "id": "8a7-cTDKCLw",
+    "lang": "en",
+    "level": "A2",
+    "title": "TOP 10 AMERICAN vs BRITISH FOOD DIFFERENCES | English Vocabulary Lesson",
+    "channel": "English with Lucy",
+    "topic": "Diez palabras de comida que cambian entre el inglés británico y el americano.",
+    "minutes": 7,
+    "questions": [
+      {"q": "¿Qué compara Lucy?", "options": ["Palabras de comida en inglés británico y americano", "Recetas inglesas e italianas", "Precios de supermercados"], "answer": "Palabras de comida en inglés británico y americano"},
+      {"q": "¿Cuántas diferencias presenta?", "options": ["3", "10", "50"], "answer": "10"},
+      {"q": "¿De qué país es el acento de Lucy?", "options": ["Australiano", "Americano", "Británico"], "answer": "Británico"}
+    ]
+  },
+  {
+    "id": "o-GWYDA4IQY",
+    "lang": "en",
+    "level": "B1",
+    "title": "Present perfect with 'ever' and 'never' - 6 Minute Grammar",
+    "channel": "BBC Learning English",
+    "topic": "Hablar de experiencias con el presente perfecto y \"ever\" / \"never\".",
+    "minutes": 6,
+    "unit": "en-b1-u01",
+    "grammar": "en-g-pp-ever-never",
+    "questions": [
+      {"q": "¿Qué tiempo verbal se explica?", "options": ["El presente perfecto", "El pasado continuo", "El condicional"], "answer": "El presente perfecto"},
+      {"q": "¿Qué dos palabras acompañan al tiempo?", "options": ["for y since", "ever y never", "some y any"], "answer": "ever y never"},
+      {"q": "¿Qué pregunta sirve para preguntar por experiencias?", "options": ["Did you go to Italy yesterday?", "Are you going to Italy?", "Have you ever been to Italy?"], "answer": "Have you ever been to Italy?"}
+    ]
+  },
+  {
+    "id": "sSZcAh42qtI",
+    "lang": "en",
+    "level": "B1",
+    "title": "Present perfect with 'for' and 'since' - 6 Minute Grammar",
+    "channel": "BBC Learning English",
+    "topic": "¿Desde cuándo? Usar el presente perfecto con \"for\" y \"since\".",
+    "minutes": 6,
+    "unit": "en-b1-u02",
+    "grammar": "en-g-for-since",
+    "questions": [
+      {"q": "¿Qué dos palabras se explican?", "options": ["for y since", "ever y never", "much y many"], "answer": "for y since"},
+      {"q": "¿Con qué tiempo verbal se usan aquí?", "options": ["Futuro", "Presente perfecto", "Pasado simple"], "answer": "Presente perfecto"},
+      {"q": "¿Cuál es correcta?", "options": ["I've lived here for 2010", "I live here since 2010", "I've lived here since 2010"], "answer": "I've lived here since 2010"}
+    ]
+  },
+  {
+    "id": "3dA7P5arkyc",
+    "lang": "en",
+    "level": "B1",
+    "title": "Used to - 6 Minute Grammar",
+    "channel": "BBC Learning English",
+    "topic": "Hablar de costumbres del pasado que ya no tenemos con \"used to\".",
+    "minutes": 6,
+    "unit": "en-b1-u03",
+    "grammar": "en-g-used-to",
+    "questions": [
+      {"q": "¿Qué expresión se explica?", "options": ["used to", "going to", "have to"], "answer": "used to"},
+      {"q": "¿Para qué sirve?", "options": ["Para planes futuros", "Para hábitos del pasado que ya no hacemos", "Para dar consejos"], "answer": "Para hábitos del pasado que ya no hacemos"},
+      {"q": "¿Qué significa \"I used to live in Seville\"?", "options": ["Voy a vivir en Sevilla", "Vivo en Sevilla", "Antes vivía en Sevilla"], "answer": "Antes vivía en Sevilla"}
+    ]
+  },
+  {
+    "id": "K-MKAjvvcsw",
+    "lang": "en",
+    "level": "B1",
+    "title": "How to use the zero and first conditional - 6 Minute Grammar",
+    "channel": "BBC Learning English",
+    "topic": "Condicionales cero y primero: \"If you study every day, your English will get better\".",
+    "minutes": 6,
+    "unit": "en-b1-u04",
+    "grammar": "en-g-zero-first-conditional",
+    "questions": [
+      {"q": "¿Qué se explica en el vídeo?", "options": ["El condicional cero y el primero", "El pasado continuo", "La voz pasiva"], "answer": "El condicional cero y el primero"},
+      {"q": "¿Con qué palabra empiezan muchas de estas frases?", "options": ["Because", "If", "When I was"], "answer": "If"},
+      {"q": "¿Cuál es un primer condicional?", "options": ["If it rained, we would stay at home", "It rained, so we stayed at home", "If it rains, we will stay at home"], "answer": "If it rains, we will stay at home"}
+    ]
+  },
+  {
+    "id": "3OuqzHxlrHc",
+    "lang": "en",
+    "level": "B1",
+    "title": "The second conditional  - 6 Minute Grammar",
+    "channel": "BBC Learning English",
+    "topic": "El segundo condicional para situaciones imaginarias o poco probables.",
+    "minutes": 6,
+    "unit": "en-b1-u05",
+    "grammar": "en-g-second-conditional",
+    "questions": [
+      {"q": "¿Qué estructura se explica?", "options": ["El segundo condicional", "El presente perfecto", "El imperativo"], "answer": "El segundo condicional"},
+      {"q": "¿Para qué sirve?", "options": ["Para dar órdenes", "Para situaciones imaginarias o poco probables", "Para hablar de la rutina"], "answer": "Para situaciones imaginarias o poco probables"},
+      {"q": "¿Cuál es un segundo condicional?", "options": ["If I win, I will travel", "I won and I travelled", "If I won the lottery, I would travel"], "answer": "If I won the lottery, I would travel"}
+    ]
+  },
+  {
+    "id": "nI5zaB6QL-o",
+    "lang": "en",
+    "level": "B1",
+    "title": "Present and past passives - 6 Minute Grammar",
+    "channel": "BBC Learning English",
+    "topic": "La voz pasiva en presente y pasado: \"was produced\", \"is made\"…",
+    "minutes": 6,
+    "unit": "en-b1-u06",
+    "grammar": "en-g-passive-basic",
+    "questions": [
+      {"q": "¿Qué se explica en el vídeo?", "options": ["La voz pasiva", "Los comparativos", "Los phrasal verbs"], "answer": "La voz pasiva"},
+      {"q": "¿En qué tiempos?", "options": ["Solo futuro", "Presente y pasado", "Condicional"], "answer": "Presente y pasado"},
+      {"q": "¿Cuál es una frase pasiva?", "options": ["My grandson made the cake", "My grandson is making a cake", "The cake was made by my grandson"], "answer": "The cake was made by my grandson"}
+    ]
+  },
+  {
+    "id": "yPvOJx3k1xA",
+    "lang": "en",
+    "level": "B1",
+    "title": "🎄🎅🎁 How do people talk about Christmas in the UK?",
+    "channel": "BBC Learning English",
+    "topic": "Gente de Londres cuenta qué es lo que más le apetece de la Navidad.",
+    "minutes": 1,
+    "unit": "en-b1-u06",
+    "questions": [
+      {"q": "¿De qué fiesta habla la gente?", "options": ["La Navidad", "Halloween", "Semana Santa"], "answer": "La Navidad"},
+      {"q": "¿En qué ciudad se grabaron las respuestas?", "options": ["Nueva York", "Londres", "Dublín"], "answer": "Londres"},
+      {"q": "¿Qué se les pregunta?", "options": ["Cuánto gastan en regalos", "Dónde nacieron", "Qué les hace ilusión de la Navidad"], "answer": "Qué les hace ilusión de la Navidad"}
+    ]
+  },
+  {
+    "id": "yyClpj_GJDc",
+    "lang": "en",
+    "level": "B1",
+    "title": "How to talk about your feelings! Easy English Conversations 💬 Episode 14",
+    "channel": "BBC Learning English",
+    "topic": "¿Cómo te sientes? Adjetivos para hablar de emociones.",
+    "minutes": 5,
+    "unit": "en-b1-u07",
+    "questions": [
+      {"q": "¿De qué trata el vídeo?", "options": ["De los sentimientos", "Del transporte", "De la ropa"], "answer": "De los sentimientos"},
+      {"q": "¿Qué tipo de palabras se usan?", "options": ["Números", "Adjetivos (happy, tired…)", "Preposiciones"], "answer": "Adjetivos (happy, tired…)"},
+      {"q": "¿Qué pregunta encaja con el tema?", "options": ["What time is it?", "Where's the bank?", "How are you feeling?"], "answer": "How are you feeling?"}
+    ]
+  },
+  {
+    "id": "L-wTVCByxzk",
+    "lang": "en",
+    "level": "B1",
+    "title": "How to use reported speech - 6 Minute Grammar",
+    "channel": "BBC Learning English",
+    "topic": "Cómo contar lo que ha dicho otra persona (estilo indirecto).",
+    "minutes": 6,
+    "unit": "en-b1-u08",
+    "grammar": "en-g-reported-speech-intro",
+    "questions": [
+      {"q": "¿Qué se explica en el vídeo?", "options": ["El estilo indirecto (reported speech)", "El imperativo", "Los números"], "answer": "El estilo indirecto (reported speech)"},
+      {"q": "¿Para qué sirve?", "options": ["Para pedir comida", "Para contar lo que dijo otra persona", "Para describir una casa"], "answer": "Para contar lo que dijo otra persona"},
+      {"q": "¿Cuál es una frase en estilo indirecto?", "options": ["I am tired", "Are you tired?", "She said she was tired"], "answer": "She said she was tired"}
+    ]
+  },
+  {
+    "id": "h8Q1XhjHhf4",
+    "lang": "en",
+    "level": "B1",
+    "title": "PHRASAL VERBS! 4 Helpful Hints & 10 Useful Phrasal Verbs",
+    "channel": "English with Lucy",
+    "topic": "Introducción a los phrasal verbs: 4 consejos y 10 verbos muy útiles.",
+    "minutes": 7,
+    "unit": "en-b1-u08",
+    "grammar": "en-g-phrasal-verbs",
+    "questions": [
+      {"q": "¿De qué trata el vídeo?", "options": ["De los phrasal verbs", "De la pronunciación de la r", "De los tiempos pasados"], "answer": "De los phrasal verbs"},
+      {"q": "¿Cuántos consejos da Lucy?", "options": ["10", "4", "20"], "answer": "4"},
+      {"q": "¿Cuál es un phrasal verb?", "options": ["beautiful", "quickly", "get up"], "answer": "get up"}
+    ]
+  },
+  {
+    "id": "61Pgo-puryk",
+    "lang": "en",
+    "level": "B1",
+    "title": "Travel English: In the Airport [5 Advanced Expressions]",
+    "channel": "Speak English With Vanessa",
+    "topic": "Vanessa enseña cinco expresiones útiles para moverse por un aeropuerto.",
+    "minutes": 6,
+    "questions": [
+      {"q": "¿Dónde se usan las expresiones del vídeo?", "options": ["En el aeropuerto", "En el médico", "En un restaurante"], "answer": "En el aeropuerto"},
+      {"q": "¿Cuántas expresiones enseña?", "options": ["50", "5", "2"], "answer": "5"},
+      {"q": "¿Qué acento tiene Vanessa?", "options": ["Británico", "Irlandés", "Americano"], "answer": "Americano"}
+    ]
+  },
+  {
+    "id": "Wm_DBxsvDwI",
+    "lang": "en",
+    "level": "B1",
+    "title": "Learn English with The Crown",
+    "channel": "Learn English With TV Series",
+    "topic": "Aprender inglés británico con escenas de la serie The Crown, sobre la familia real.",
+    "minutes": 23,
+    "questions": [
+      {"q": "¿Con qué serie se aprende inglés en este vídeo?", "options": ["The Crown", "Friends", "Downton Abbey"], "answer": "The Crown"},
+      {"q": "¿Sobre quién trata esa serie?", "options": ["Unos amigos en Nueva York", "La familia real británica", "Una familia de granjeros"], "answer": "La familia real británica"},
+      {"q": "¿Cómo se aprende con este canal?", "options": ["Con canciones infantiles", "Con dictados", "Con escenas de series y películas"], "answer": "Con escenas de series y películas"}
+    ]
+  }
+]

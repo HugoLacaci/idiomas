@@ -1,0 +1,47 @@
+{
+  "id": "it-a1-u01-c1",
+  "unit": "it-a1-u01",
+  "title": "Nos presentamos",
+  "setting": "Conoces a Giulia en una terraza de la Piazza Navona",
+  "emoji": "☕",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "Buongiorno! È libera questa sedia?", "es": "¡Buenos días! ¿Está libre esta silla?" },
+      "options": [
+        { "t": "Sì, prego!", "es": "¡Sí, adelante!", "next": "n2", "ok": true },
+        { "t": "No, grazie!", "es": "¡No, gracias!", "next": "n2", "ok": false, "feedback": "Si la silla está libre, di «Sì, prego!» (sí, adelante)." }
+      ] },
+    { "id": "n2", "says": { "t": "Grazie! Mi chiamo Giulia. E Lei?", "es": "¡Gracias! Me llamo Giulia. ¿Y usted?" },
+      "options": [
+        { "t": "Piacere, mi chiamo Yolanda.", "es": "Encantada, me llamo Yolanda.", "next": "n3", "ok": true },
+        { "t": "Piacere, ti chiami Yolanda.", "es": "Encantada, te llamas Yolanda.", "next": "n3", "ok": false, "feedback": "«Ti chiami» es «te llamas». Para hablar de ti: «mi chiamo»." }
+      ] },
+    { "id": "n3", "says": { "t": "Piacere! Lei è spagnola?", "es": "¡Encantada! ¿Es usted española?" },
+      "options": [
+        { "t": "Sì, sono spagnola.", "es": "Sí, soy española.", "next": "n4", "ok": true },
+        { "t": "Sì, è spagnola.", "es": "Sí, es española.", "next": "n4", "ok": false, "feedback": "Hablas de ti: «sono» (soy). «È» es «es»." },
+        { "t": "Sì, sei spagnola.", "es": "Sí, eres española.", "next": "n4", "ok": false, "feedback": "«Sei» es «eres». Para «soy»: «sono spagnola»." }
+      ] },
+    { "id": "n4", "says": { "t": "Che bello! Io sono di Roma. Possiamo darci del tu?", "es": "¡Qué bien! Yo soy de Roma. ¿Nos tuteamos?" },
+      "options": [
+        { "t": "Certo! Volentieri.", "es": "¡Claro! Con mucho gusto.", "next": "n5", "ok": true },
+        { "t": "ArrivederLa!", "es": "¡Adiós (de usted)!", "next": "n5", "ok": false, "feedback": "«ArrivederLa» es una despedida muy formal. Para aceptar el tú: «Certo!»." }
+      ] },
+    { "id": "n5", "says": { "t": "Allora, Yolanda, sei qui in vacanza?", "es": "Entonces, Yolanda, ¿estás aquí de vacaciones?" },
+      "options": [
+        { "t": "Sì, sono qui con mio figlio.", "es": "Sí, estoy aquí con mi hijo.", "next": "n6", "ok": true },
+        { "t": "Sì, sei qui con mio figlio.", "es": "Sí, estás aquí con mi hijo.", "next": "n6", "ok": false, "feedback": "Hablas de ti: «sono» (yo estoy)." }
+      ] },
+    { "id": "n6", "says": { "t": "Che bello! Come si chiama tuo figlio?", "es": "¡Qué bien! ¿Cómo se llama tu hijo?" },
+      "options": [
+        { "t": "Si chiama Hugo.", "es": "Se llama Hugo.", "next": "n7", "ok": true },
+        { "t": "Mi chiamo Hugo.", "es": "Me llamo Hugo.", "next": "n7", "ok": false, "feedback": "Hablas de tu hijo: «si chiama» (se llama). «Mi chiamo» es «me llamo»." }
+      ] },
+    { "id": "n7", "says": { "t": "Hugo! Bel nome. Ecco il cameriere!", "es": "¡Hugo! Bonito nombre. ¡Aquí está el camarero!" },
+      "options": [
+        { "t": "Due caffè, per favore!", "es": "¡Dos cafés, por favor!", "next": "end", "ok": true },
+        { "t": "Due cafè, prego!", "es": "¡Dos cafés, de nada!", "next": "end", "ok": false, "feedback": "Caffè lleva doble f, y para pedir se dice «per favore»." }
+      ] }
+  ],
+  "reviewed": false
+}

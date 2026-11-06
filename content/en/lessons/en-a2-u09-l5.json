@@ -1,0 +1,418 @@
+{
+  "id": "en-a2-u09-l5",
+  "unit": "en-a2-u09",
+  "title": "Reto en Dublín: pedir cita por teléfono",
+  "goal": "a pedir cita, cambiarla y dejar un mensaje claro en el buzón de voz",
+  "emoji": "🍀",
+  "photoQuery": "dublin trinity college library",
+  "vocab": [
+    {
+      "id": "phone-appointment",
+      "t": "appointment",
+      "es": "la cita (médico, peluquería…)",
+      "emoji": "📅",
+      "pos": "n",
+      "ex": {
+        "t": "Could I make an appointment for Monday?",
+        "es": "¿Podría pedir cita para el lunes?"
+      },
+      "note": "Cita con el médico = appointment; cita romántica = date."
+    },
+    {
+      "id": "phone-surgery",
+      "t": "surgery",
+      "es": "la consulta del médico",
+      "emoji": "🩺",
+      "pos": "n",
+      "ex": {
+        "t": "The surgery opens at half past eight.",
+        "es": "La consulta abre a las ocho y media."
+      },
+      "note": "En Reino Unido, surgery es la consulta. En EE. UU.: doctor's office."
+    },
+    {
+      "id": "phone-book-table",
+      "t": "to book a table",
+      "es": "reservar mesa",
+      "emoji": "🍽️",
+      "pos": "phrase",
+      "ex": {
+        "t": "I'd like to book a table for four.",
+        "es": "Quería reservar mesa para cuatro."
+      }
+    },
+    {
+      "id": "phone-cancel",
+      "t": "to cancel",
+      "es": "cancelar, anular",
+      "emoji": "🚫",
+      "pos": "v",
+      "ex": {
+        "t": "I need to cancel my appointment.",
+        "es": "Tengo que anular mi cita."
+      }
+    },
+    {
+      "id": "phone-change",
+      "t": "to change",
+      "es": "cambiar",
+      "emoji": "🔄",
+      "pos": "v",
+      "ex": {
+        "t": "Could I change my appointment to Friday?",
+        "es": "¿Podría cambiar la cita al viernes?"
+      }
+    },
+    {
+      "id": "phone-as-soon",
+      "t": "as soon as possible",
+      "es": "lo antes posible",
+      "emoji": "⏱️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Please call me back as soon as possible.",
+        "es": "Llámeme lo antes posible, por favor."
+      }
+    },
+    {
+      "id": "phone-my-number-is",
+      "t": "My number is…",
+      "es": "Mi número es…",
+      "emoji": "🔢",
+      "pos": "phrase",
+      "ex": {
+        "t": "My number is six, double four, seven…",
+        "es": "Mi número es seis, cuatro, cuatro, siete…"
+      },
+      "note": "Al decir números, los británicos dicen double para dos cifras iguales y oh para el cero."
+    }
+  ],
+  "grammar": "en-g-adverbs-manner",
+  "pron": {
+    "title": "Decir el número de teléfono",
+    "tip": "Los números se dicen de uno en uno, en grupos. 44 = double four; 0 = oh (como la letra o). Habla despacio y con pausas.",
+    "words": [
+      "oh",
+      "double four",
+      "seven",
+      "three",
+      "eight"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Could I make an ___ with the doctor?",
+      "options": [
+        "appointment",
+        "date",
+        "meeting"
+      ],
+      "answer": "appointment",
+      "why": "Cita médica = appointment. Date es una cita romántica."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Please say your number ___.",
+      "options": [
+        "slowly",
+        "slow",
+        "slowness"
+      ],
+      "answer": "slowly",
+      "why": "Cómo lo dices: adverbio con -ly.",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "___ I change my appointment to Friday?",
+      "options": [
+        "Could",
+        "Do",
+        "Am"
+      ],
+      "answer": "Could",
+      "why": "Pedir permiso con educación: Could I…?",
+      "g": "en-g-could-requests"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "I need to ___ my appointment. I'm ill.",
+      "es": "Tengo que anular la cita. Estoy enferma.",
+      "answer": [
+        "cancel"
+      ],
+      "bank": [
+        "cancel",
+        "record",
+        "spell"
+      ],
+      "why": "Anular = cancel."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Please call me back as soon as ___.",
+      "es": "Llámeme lo antes posible, por favor.",
+      "answer": [
+        "possible"
+      ],
+      "why": "Lo antes posible = as soon as possible."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I'd like to ___ a table for Saturday.",
+      "es": "Quería reservar mesa para el sábado.",
+      "answer": [
+        "book",
+        "reserve"
+      ],
+      "why": "Reservar mesa = book a table."
+    },
+    {
+      "id": "e7",
+      "type": "reading",
+      "kind": "message",
+      "title": "Mensaje en el buzón de voz",
+      "text": "Hello, this is a message for Green Lane Surgery. My name is Yolanda. I have an appointment on Tuesday at ten. I'm sorry, but I can't come. Could I change it to Thursday morning? Please call me back. Thank you!",
+      "questions": [
+        {
+          "q": "¿Cuándo tiene la cita ahora?",
+          "options": [
+            "El martes a las diez",
+            "El jueves a las diez",
+            "El lunes por la tarde"
+          ],
+          "answer": "El martes a las diez"
+        },
+        {
+          "q": "¿Qué quiere Yolanda?",
+          "options": [
+            "Cambiarla al jueves por la mañana",
+            "Anularla",
+            "Hablar con la enfermera"
+          ],
+          "answer": "Cambiarla al jueves por la mañana"
+        },
+        {
+          "q": "¿Qué pide al final?",
+          "options": [
+            "Que la llamen",
+            "Que le manden un correo",
+            "Que la esperen"
+          ],
+          "answer": "Que la llamen"
+        }
+      ],
+      "why": "Un mensaje claro: quién eres, qué cita tienes, qué quieres y que te llamen."
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "¿Podría cambiar mi cita al viernes?",
+      "answer": "Could I change my appointment to Friday",
+      "extra": [
+        "you"
+      ],
+      "why": "Could I + verbo: pides permiso para algo que haces tú.",
+      "g": "en-g-could-requests"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Could you speak more clear, please?",
+      "wrong": "clear",
+      "fix": "clearly",
+      "why": "Para decir cómo habla, adverbio: clearly.",
+      "g": "en-g-adverbs-manner"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Hazla más educada con Could",
+      "q": "Call me back as soon as possible.",
+      "answer": [
+        "Could you call me back as soon as possible?",
+        "Could you call me back as soon as possible, please?",
+        "Could you please call me back as soon as possible?"
+      ],
+      "why": "Could you…? convierte la orden en una petición amable.",
+      "g": "en-g-could-requests"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Podría pedir cita para el lunes?",
+      "answer": [
+        "Could I make an appointment for Monday?",
+        "Could I book an appointment for Monday?",
+        "Can I make an appointment for Monday?",
+        "Could I have an appointment for Monday?"
+      ],
+      "why": "Pedir cita = make an appointment.",
+      "g": "en-g-could-requests"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Saltó el buzón de voz de la peluquería. Tienes que empezar tu mensaje.",
+      "emoji": "📩",
+      "options": [
+        "Hello, this is Yolanda. I'm calling about my appointment.",
+        "Hello, I am the Yolanda. I call for appointment.",
+        "Hello, here speaks Yolanda."
+      ],
+      "answer": "Hello, this is Yolanda. I'm calling about my appointment.",
+      "why": "En un mensaje: This is… / It's… y I'm calling about… (llamo por…)."
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "La recepcionista te da una hora, pero habla muy deprisa y no la entiendes.",
+      "emoji": "⏰",
+      "options": [
+        "Sorry, could you repeat that more slowly?",
+        "Sorry, repeat more slow.",
+        "Sorry, could you repeating?"
+      ],
+      "answer": "Sorry, could you repeat that more slowly?",
+      "why": "Could you repeat that…? + more slowly.",
+      "g": "en-g-could-requests"
+    },
+    {
+      "id": "e14",
+      "type": "match",
+      "pairs": [
+        [
+          "make an appointment",
+          "pedir cita"
+        ],
+        [
+          "cancel",
+          "anular"
+        ],
+        [
+          "book a table",
+          "reservar mesa"
+        ],
+        [
+          "surgery",
+          "consulta del médico"
+        ],
+        [
+          "as soon as possible",
+          "lo antes posible"
+        ]
+      ],
+      "why": "Vocabulario para citas y reservas."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Hello, this is Yolanda. Could you call me back, please?",
+      "es": "Hola, soy Yolanda. ¿Me podría devolver la llamada, por favor?",
+      "why": "El cierre perfecto de un mensaje de voz.",
+      "g": "en-g-could-requests"
+    }
+  ],
+  "dialog": {
+    "title": "Cita en la consulta",
+    "setting": "Yolanda pasa unas semanas en Dublín y llama a la consulta del médico",
+    "emoji": "🩺",
+    "lines": [
+      {
+        "who": "Receptionist",
+        "t": "Good morning, Liffey Surgery. How can I help?",
+        "es": "Buenos días, consulta Liffey. ¿En qué puedo ayudarla?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Hello. Could I make an appointment with a doctor?",
+        "es": "Hola. ¿Podría pedir cita con un médico?"
+      },
+      {
+        "who": "Receptionist",
+        "t": "Of course. Is tomorrow at nine OK?",
+        "es": "Claro. ¿Le va bien mañana a las nueve?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sorry, could you speak more slowly?",
+        "es": "Perdone, ¿podría hablar más despacio?"
+      },
+      {
+        "who": "Receptionist",
+        "t": "Sure. Tomorrow. At nine o'clock.",
+        "es": "Claro. Mañana. A las nueve en punto."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfect, thank you. Could I ask one more thing?",
+        "es": "Perfecto, gracias. ¿Puedo preguntar una cosa más?"
+      },
+      {
+        "who": "Receptionist",
+        "t": "Yes, go ahead.",
+        "es": "Sí, dígame."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Could you send me the address by text?",
+        "es": "¿Me podría mandar la dirección por mensaje?"
+      },
+      {
+        "who": "Receptionist",
+        "t": "No problem. I'll send it now.",
+        "es": "Sin problema. Se la mando ahora."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué pide Yolanda primero?",
+        "options": [
+          "Una cita con un médico",
+          "Una receta",
+          "Hablar con la enfermera"
+        ],
+        "answer": "Una cita con un médico"
+      },
+      {
+        "q": "¿Cuándo es la cita?",
+        "options": [
+          "Mañana a las nueve",
+          "Hoy a las nueve",
+          "El viernes"
+        ],
+        "answer": "Mañana a las nueve"
+      },
+      {
+        "q": "¿Cómo recibirá la dirección?",
+        "options": [
+          "Por mensaje",
+          "Por correo postal",
+          "No la recibirá"
+        ],
+        "answer": "Por mensaje"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "I'm calling about my appointment.",
+    "es": "Llamo por lo de mi cita.",
+    "context": "Para empezar una llamada o un mensaje de voz a la consulta"
+  },
+  "summary": [
+    "make / change / cancel an appointment = pedir / cambiar / anular cita",
+    "Mensaje de voz: This is… · I'm calling about… · Could you call me back?",
+    "Pide que hablen slowly y clearly si no entiendes",
+    "Números de teléfono: double four, oh"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u09-l5"
+}

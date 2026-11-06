@@ -1,0 +1,74 @@
+{
+  "id": "en-b1-u03-c3",
+  "unit": "en-b1-u03",
+  "title": "Una anécdota en Sídney",
+  "setting": "Estás de viaje en Sídney. Emma te llama para que le cuentes qué tal.",
+  "emoji": "🦘",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hello, Australia! How's Sydney?", "es": "¡Hola, Australia! ¿Qué tal Sídney?" },
+      "options": [
+        { "t": "Wonderful! Yesterday we took the ferry across the harbour.", "es": "¡Maravilloso! Ayer cogimos el ferri por la bahía.", "next": "n2", "ok": true },
+        { "t": "Wonderful! Yesterday we were taking the ferry every day.", "es": "¡Maravilloso! Ayer cogíamos el ferri todos los días.", "next": "n2", "ok": false, "feedback": "Un viaje concreto ayer, una vez: pasado simple, we took." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Did you see the Opera House from the ferry?", "es": "¿Visteis la Ópera desde el ferri?" },
+      "options": [
+        { "t": "Yes! The sun was shining and it looked amazing.", "es": "¡Sí! Brillaba el sol y estaba preciosa.", "next": "n3", "ok": true },
+        { "t": "Yes! The sun was shine and it looked amazing.", "es": "¡Sí! Brillaba el sol y estaba preciosa.", "next": "n3", "ok": false, "feedback": "Pasado continuo: was + -ing → was shining." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "It's a World Heritage Site, you know.", "es": "Es Patrimonio de la Humanidad, ¿sabes?" },
+      "options": [
+        { "t": "I know, since 2007. But something funny happened…", "es": "Ya lo sé, desde 2007. Pero pasó una cosa graciosa…", "next": "n4", "ok": true },
+        { "t": "I know, since 1990. But something funny happened…", "es": "Ya lo sé, desde 1990. Pero pasó una cosa graciosa…", "next": "n4", "ok": false, "feedback": "Casi: la Ópera de Sídney es Patrimonio de la Humanidad desde 2007." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Oh! Tell me!", "es": "¡Anda! ¡Cuéntame!" },
+      "options": [
+        { "t": "I was taking a photo when a seagull stole my sandwich!", "es": "¡Estaba haciendo una foto cuando una gaviota me robó el bocadillo!", "next": "n5", "ok": true },
+        { "t": "I took a photo when a seagull was stealing my sandwich every day!", "es": "Hice una foto cuando una gaviota me robaba el bocadillo todos los días.", "next": "n5", "ok": false, "feedback": "La acción larga (was taking) en continuo; la corta que la interrumpe (stole), en pasado simple." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ha ha ha! Poor you! Were you hungry after that?", "es": "¡Ja, ja, ja! ¡Pobre! ¿Te quedaste con hambre?" },
+      "options": [
+        { "t": "Yes, I was! So we had fish and chips by the sea.", "es": "¡Sí! Así que comimos pescado con patatas junto al mar.", "next": "n6", "ok": true },
+        { "t": "Yes, I did! So we had fish and chips by the sea.", "es": "¡Sí! Así que comimos pescado con patatas junto al mar.", "next": "n6", "ok": false, "feedback": "La pregunta es con were (to be): la respuesta corta es Yes, I was." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Does Sydney remind you of anywhere?", "es": "¿Sídney te recuerda a algún sitio?" },
+      "options": [
+        { "t": "Yes, it reminds me of the summers of my childhood.", "es": "Sí, me recuerda a los veranos de mi infancia.", "next": "n7", "ok": true },
+        { "t": "Yes, it remembers me the summers of my childhood.", "es": "Sí, me recuerda a los veranos de mi infancia.", "next": "n7", "ok": false, "feedback": "Recordarle algo a alguien es remind someone of: it reminds me of." }
+      ]
+    },
+    {
+      "id": "n7",
+      "says": { "t": "Did you use to go to the beach a lot?", "es": "¿Ibas mucho a la playa?" },
+      "options": [
+        { "t": "Every summer! We used to stay there all day.", "es": "¡Todos los veranos! Nos quedábamos allí todo el día.", "next": "n8", "ok": true },
+        { "t": "Every summer! We were staying there all day.", "es": "¡Todos los veranos! Nos quedábamos allí todo el día.", "next": "n8", "ok": false, "feedback": "Es una costumbre repetida: we used to stay." }
+      ]
+    },
+    {
+      "id": "n8",
+      "says": { "t": "Lovely. Enjoy the rest of your trip, and watch out for seagulls!", "es": "Qué bonito. Disfruta del resto del viaje, ¡y cuidado con las gaviotas!" },
+      "options": [
+        { "t": "Ha ha! I will. Bye, Emma!", "es": "¡Ja, ja! Lo tendré. ¡Adiós, Emma!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

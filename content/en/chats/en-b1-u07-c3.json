@@ -1,0 +1,41 @@
+{
+  "id": "en-b1-u07-c3",
+  "unit": "en-b1-u07",
+  "title": "¡Qué vergüenza!",
+  "setting": "Emma te cuenta un día de emociones y tú le cuentas el tuyo",
+  "emoji": "😳",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "Yolanda, I had such an embarrassing day!", "es": "¡Yolanda, he tenido un día de lo más vergonzoso!" },
+      "options": [
+        { "t": "Oh no! What happened?", "es": "¡Ay, no! ¿Qué pasó?", "next": "n2", "ok": true },
+        { "t": "Congratulations! When is the baby due?", "es": "¡Enhorabuena! ¿Cuándo sale de cuentas?", "next": "n2", "ok": false, "feedback": "¡Ojo! Embarrassing es «que da vergüenza», no tiene nada que ver con estar embarazada (pregnant)." }
+      ] },
+    { "id": "n2", "says": { "t": "I called my new boss \"Mum\" in a meeting!", "es": "¡Llamé «mamá» a mi nueva jefa en una reunión!" },
+      "options": [
+        { "t": "Ha ha! You were so embarrassed, weren't you?", "es": "¡Ja, ja! Te moriste de vergüenza, ¿no?", "next": "n3", "ok": true },
+        { "t": "Ha ha! You were so embarrassed, didn't you?", "es": "(¡Ja, ja! Te moriste de vergüenza, ¿no?)", "next": "n3", "ok": false, "feedback": "La frase lleva were: la coletilla es weren't you?" }
+      ] },
+    { "id": "n3", "says": { "t": "Totally! But she laughed. She's a woman who laughs a lot.", "es": "¡Muchísimo! Pero se rio. Es una mujer que se ríe mucho." },
+      "options": [
+        { "t": "Good. It's nice to have a boss who is cheerful.", "es": "Bien. Es agradable tener una jefa alegre.", "next": "n4", "ok": true },
+        { "t": "Good. It's nice to have a boss which is cheerful.", "es": "(Bien. Es agradable tener una jefa que es alegre.)", "next": "n4", "ok": false, "feedback": "Una jefa es una persona: who." }
+      ] },
+    { "id": "n4", "says": { "t": "And you? How are you feeling today?", "es": "¿Y tú? ¿Cómo te sientes hoy?" },
+      "options": [
+        { "t": "Relieved! My friend's test results were fine.", "es": "¡Aliviada! Los resultados de las pruebas de mi amiga salieron bien.", "next": "n5", "ok": true },
+        { "t": "Relieving! My friend's test results were fine.", "es": "(¡Aliviante! Los resultados salieron bien.)", "next": "n5", "ok": false, "feedback": "Para cómo te sientes, la forma en -ed: relieved." }
+      ] },
+    { "id": "n5", "says": { "t": "Oh, that's great news! You were worried, weren't you?", "es": "¡Qué buena noticia! Estabas preocupada, ¿verdad?" },
+      "options": [
+        { "t": "Yes, very worried. Now I'm so grateful.", "es": "Sí, muy preocupada. Ahora estoy muy agradecida.", "next": "n6", "ok": true },
+        { "t": "Yes, very worried of her. Now I'm so grateful.", "es": "(Sí, muy preocupada de ella.)", "next": "n6", "ok": false, "feedback": "Preocupada por alguien = worried about someone." }
+      ] },
+    { "id": "n6", "says": { "t": "Give her a big hug from me.", "es": "Dale un abrazo muy fuerte de mi parte." },
+      "options": [
+        { "t": "I will. You're a very kind friend, Emma.", "es": "Lo haré. Eres una amiga muy buena, Emma.", "next": "end", "ok": true },
+        { "t": "I will. You're a very sympathetic friend, Emma.", "es": "(Lo haré. Eres una amiga muy comprensiva, Emma.)", "next": "end", "ok": true, "feedback": "Muy bien también: sympathetic es comprensiva (no simpática)." }
+      ] }
+  ],
+  "reviewed": false
+}

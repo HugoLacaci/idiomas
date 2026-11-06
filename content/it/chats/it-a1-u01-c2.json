@@ -1,0 +1,46 @@
+{
+  "id": "it-a1-u01-c2",
+  "unit": "it-a1-u01",
+  "title": "Jugamos al hotel: de usted",
+  "setting": "Giulia hace de recepcionista para que practiques el «Lei»",
+  "emoji": "🛎️",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "Giochiamo! Io sono la receptionist dell'hotel.", "es": "¡Juguemos! Yo soy la recepcionista del hotel." },
+      "options": [
+        { "t": "Va bene!", "es": "¡Vale!", "next": "n2", "ok": true },
+        { "t": "No, grazie.", "es": "No, gracias.", "next": "n2", "ok": false, "feedback": "¡Anímate, es para practicar! Di «Va bene!» (¡vale!)." }
+      ] },
+    { "id": "n2", "says": { "t": "Buonasera, signora. Come si chiama?", "es": "Buenas tardes, señora. ¿Cómo se llama?" },
+      "options": [
+        { "t": "Buonasera. Mi chiamo Yolanda.", "es": "Buenas tardes. Me llamo Yolanda.", "next": "n3", "ok": true },
+        { "t": "Ciao! Come ti chiami?", "es": "¡Hola! ¿Cómo te llamas?", "next": "n3", "ok": false, "feedback": "La recepcionista te pregunta a ti. Respóndele: «Mi chiamo Yolanda»." }
+      ] },
+    { "id": "n3", "says": { "t": "Benvenuta. Di dov'è, signora?", "es": "Bienvenida. ¿De dónde es usted, señora?" },
+      "options": [
+        { "t": "Sono spagnola.", "es": "Soy española.", "next": "n4", "ok": true },
+        { "t": "Sei spagnola.", "es": "Eres española.", "next": "n4", "ok": false, "feedback": "Hablas de ti: «sono» (soy). «Sei» es «eres»." }
+      ] },
+    { "id": "n4", "says": { "t": "Perfetto. Come sta? È stanca?", "es": "Perfecto. ¿Cómo está? ¿Está cansada?" },
+      "options": [
+        { "t": "Sto bene, grazie. E Lei?", "es": "Estoy bien, gracias. ¿Y usted?", "next": "n5", "ok": true },
+        { "t": "Sto bene, grazie. E tu?", "es": "Estoy bien, gracias. ¿Y tú?", "next": "n5", "ok": false, "feedback": "Con la recepcionista, de usted: «E Lei?»." }
+      ] },
+    { "id": "n5", "says": { "t": "Bene, grazie! Ecco la chiave. Camera dodici.", "es": "¡Bien, gracias! Aquí tiene la llave. Habitación doce." },
+      "options": [
+        { "t": "Grazie, Lei è molto gentile.", "es": "Gracias, es usted muy amable.", "next": "n6", "ok": true },
+        { "t": "Grazie, tu sei molto gentile.", "es": "Gracias, eres muy amable.", "next": "n6", "ok": false, "feedback": "Recuerda: de usted, «Lei è molto gentile»." }
+      ] },
+    { "id": "n6", "says": { "t": "Prego! Buona serata, signora.", "es": "¡De nada! Buenas noches, señora." },
+      "options": [
+        { "t": "Grazie, ArrivederLa!", "es": "¡Gracias, adiós!", "next": "n7", "ok": true },
+        { "t": "Ciao, bella!", "es": "¡Adiós, guapa!", "next": "n7", "ok": false, "feedback": "«Ciao, bella» es de mucha confianza. Con la recepcionista: «ArrivederLa» o «Arrivederci»." }
+      ] },
+    { "id": "n7", "says": { "t": "Bravissima! Il tuo Lei è perfetto!", "es": "¡Muy bien! ¡Tu «usted» es perfecto!" },
+      "options": [
+        { "t": "Grazie, Giulia!", "es": "¡Gracias, Giulia!", "next": "end", "ok": true },
+        { "t": "Prego, Giulia!", "es": "¡De nada, Giulia!", "next": "end", "ok": false, "feedback": "Giulia te ha felicitado: se contesta «Grazie!»." }
+      ] }
+  ],
+  "reviewed": false
+}

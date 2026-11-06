@@ -1,0 +1,494 @@
+{
+  "id": "it-a2-u01-l1",
+  "unit": "it-a2-u01",
+  "title": "Un giorno al museo",
+  "goal": "a nombrar lo que encuentras en un museo y a pedir las entradas",
+  "emoji": "🏛️",
+  "photoQuery": "art museum gallery paintings hall",
+  "vocab": [
+    {
+      "id": "museo-il-museo",
+      "t": "il museo",
+      "es": "el museo",
+      "emoji": "🏛️",
+      "pos": "n",
+      "ex": {
+        "t": "Il museo è vicino al Duomo.",
+        "es": "El museo está cerca de la catedral."
+      }
+    },
+    {
+      "id": "museo-la-mostra",
+      "t": "la mostra",
+      "es": "la exposición",
+      "emoji": "🖼️",
+      "pos": "n",
+      "ex": {
+        "t": "C'è una mostra nuova su Leonardo.",
+        "es": "Hay una exposición nueva sobre Leonardo."
+      }
+    },
+    {
+      "id": "museo-l-opera-d-arte",
+      "t": "l'opera d'arte",
+      "es": "la obra de arte",
+      "emoji": "🎨",
+      "pos": "n",
+      "note": "L'opera es «la obra»; también es la ópera, el espectáculo.",
+      "ex": {
+        "t": "Nel museo ci sono opere d'arte famose.",
+        "es": "En el museo hay obras de arte famosas."
+      }
+    },
+    {
+      "id": "museo-il-dipinto",
+      "t": "il dipinto",
+      "es": "la pintura, el cuadro",
+      "emoji": "🖌️",
+      "pos": "n",
+      "ex": {
+        "t": "Questo dipinto è di Botticelli.",
+        "es": "Esta pintura es de Botticelli."
+      }
+    },
+    {
+      "id": "museo-la-statua",
+      "t": "la statua",
+      "es": "la estatua",
+      "emoji": "🗿",
+      "pos": "n",
+      "ex": {
+        "t": "La statua del David è altissima.",
+        "es": "La estatua del David es altísima."
+      }
+    },
+    {
+      "id": "museo-il-biglietto",
+      "t": "il biglietto",
+      "es": "la entrada (también el billete)",
+      "emoji": "🎟️",
+      "pos": "n",
+      "note": "¡Ojo! Il biglietto es la entrada o el billete de tren. El billete de dinero es la banconota.",
+      "ex": {
+        "t": "Vorrei due biglietti, per favore.",
+        "es": "Quería dos entradas, por favor."
+      }
+    },
+    {
+      "id": "museo-la-biglietteria",
+      "t": "la biglietteria",
+      "es": "la taquilla",
+      "emoji": "🏪",
+      "pos": "n",
+      "ex": {
+        "t": "La biglietteria è a destra dell'ingresso.",
+        "es": "La taquilla está a la derecha de la entrada."
+      }
+    },
+    {
+      "id": "museo-la-guida",
+      "t": "la guida",
+      "es": "el guía, la guía (persona o libro)",
+      "emoji": "🧑‍🏫",
+      "pos": "n",
+      "note": "Siempre femenino, aunque sea un hombre: la guida è molto simpatica.",
+      "ex": {
+        "t": "La guida parla spagnolo.",
+        "es": "El guía habla español."
+      }
+    },
+    {
+      "id": "museo-l-audioguida",
+      "t": "l'audioguida",
+      "es": "la audioguía",
+      "emoji": "🎧",
+      "pos": "n",
+      "ex": {
+        "t": "Prendo l'audioguida in spagnolo.",
+        "es": "Cojo la audioguía en español."
+      }
+    },
+    {
+      "id": "museo-la-sala",
+      "t": "la sala",
+      "es": "la sala",
+      "emoji": "🚪",
+      "pos": "n",
+      "ex": {
+        "t": "In questa sala ci sono i quadri di Botticelli.",
+        "es": "En esta sala están los cuadros de Botticelli."
+      }
+    }
+  ],
+  "grammar": "it-g-passato-prossimo-intro",
+  "pron": {
+    "title": "Gli de biglietto",
+    "tip": "Gli suena parecido a nuestra «ll» de toda la vida, bien pegada al paladar: «bi-llet-to». Y no olvides la doble t al final.",
+    "words": [
+      "biglietto",
+      "biglietteria",
+      "famiglia",
+      "meraviglia"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Vorrei due ___ per la mostra, per favore.",
+      "es": "Quería dos entradas para la exposición, por favor.",
+      "options": [
+        "biglietti",
+        "banconote",
+        "carte"
+      ],
+      "answer": "biglietti",
+      "why": "La entrada de un museo es il biglietto; en plural, biglietti.",
+      "g": "it-g-vorrei"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "In questa sala ___ tre statue.",
+      "es": "En esta sala hay tres estatuas.",
+      "options": [
+        "ci sono",
+        "c'è",
+        "è"
+      ],
+      "answer": "ci sono",
+      "why": "Tre statue es plural: ci sono.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "___ guida parla spagnolo.",
+      "es": "El guía habla español.",
+      "options": [
+        "La",
+        "Il",
+        "Lo"
+      ],
+      "answer": "La",
+      "why": "Guida es siempre femenina: la guida.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Ieri ho ___ una mostra bellissima.",
+      "es": "Ayer vi una exposición preciosa.",
+      "options": [
+        "visto",
+        "vedo",
+        "vedito"
+      ],
+      "answer": "visto",
+      "why": "Vedere → visto.",
+      "g": "it-g-passato-prossimo-intro"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Prendo ___ audioguida in spagnolo.",
+      "es": "Cojo la audioguía en español.",
+      "answer": [
+        "l'"
+      ],
+      "bank": [
+        "l'",
+        "la",
+        "lo"
+      ],
+      "why": "Delante de vocal, la se convierte en l': l'audioguida.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Compriamo i biglietti alla ___.",
+      "es": "Compramos las entradas en la taquilla.",
+      "answer": [
+        "biglietteria"
+      ],
+      "bank": [
+        "biglietteria",
+        "banca",
+        "cassaforte"
+      ],
+      "why": "La taquilla = la biglietteria."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Questo ___ è di Botticelli.",
+      "es": "Esta pintura es de Botticelli.",
+      "answer": [
+        "dipinto",
+        "quadro"
+      ],
+      "hint": "pintura",
+      "why": "Il dipinto (o il quadro) = la pintura."
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Il guida è molto simpatica.",
+      "wrong": "Il",
+      "fix": "La",
+      "why": "Guida es femenina siempre: la guida.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Nel museo c'è tante opere d'arte.",
+      "wrong": "c'è",
+      "fix": "ci sono",
+      "why": "Tante opere es plural: ci sono.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Pásala a plural",
+      "q": "C'è una statua.",
+      "answer": [
+        "Ci sono due statue.",
+        "Ci sono statue.",
+        "Ci sono delle statue."
+      ],
+      "why": "Plural: ci sono + statue (-a → -e).",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Quería dos entradas y una audioguía, por favor.",
+      "answer": "Vorrei due biglietti e un'audioguida per favore",
+      "extra": [
+        "banconote"
+      ],
+      "why": "Vorrei + cosas + per favore.",
+      "g": "it-g-vorrei"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Dónde está la taquilla?",
+      "answer": [
+        "Dov'è la biglietteria?",
+        "Dove è la biglietteria?",
+        "Scusi, dov'è la biglietteria?"
+      ],
+      "why": "Taquilla = biglietteria; dónde está = dov'è.",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "from",
+      "q": "C'è una mostra nuova su Leonardo.",
+      "answer": [
+        "Hay una exposición nueva sobre Leonardo.",
+        "Hay una nueva exposición sobre Leonardo."
+      ],
+      "why": "La mostra = la exposición.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Llegas a la taquilla con tu marido y queréis dos entradas.",
+      "emoji": "🎟️",
+      "options": [
+        "Buongiorno, vorrei due biglietti, per favore.",
+        "Buongiorno, vorrei due banconote, per favore.",
+        "Buongiorno, voglio due mostre."
+      ],
+      "answer": "Buongiorno, vorrei due biglietti, per favore.",
+      "why": "Las entradas son biglietti, y vorrei es la forma amable.",
+      "g": "it-g-vorrei"
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel a la entrada",
+      "text": "Museo Civico — Mostra: «Il Rinascimento a Firenze». Biglietteria a destra. Audioguide in italiano, inglese e spagnolo. Vietato usare il flash.",
+      "questions": [
+        {
+          "q": "¿Dónde está la taquilla?",
+          "options": [
+            "A la derecha",
+            "A la izquierda",
+            "Arriba"
+          ],
+          "answer": "A la derecha"
+        },
+        {
+          "q": "¿Hay audioguía en español?",
+          "options": [
+            "Sí",
+            "No",
+            "Solo en inglés"
+          ],
+          "answer": "Sí"
+        },
+        {
+          "q": "¿Qué está prohibido?",
+          "options": [
+            "Usar el flash",
+            "Hablar",
+            "Comer en el bar"
+          ],
+          "answer": "Usar el flash"
+        }
+      ],
+      "why": "Vietato = prohibido."
+    },
+    {
+      "id": "e16",
+      "type": "match",
+      "pairs": [
+        [
+          "la mostra",
+          "la exposición"
+        ],
+        [
+          "il biglietto",
+          "la entrada"
+        ],
+        [
+          "la biglietteria",
+          "la taquilla"
+        ],
+        [
+          "la statua",
+          "la estatua"
+        ],
+        [
+          "l'opera d'arte",
+          "la obra de arte"
+        ]
+      ],
+      "why": "Ojo: biglietto es la entrada, no el billete de dinero."
+    },
+    {
+      "id": "e17",
+      "type": "speak",
+      "t": "Vorrei due biglietti per la mostra, per favore.",
+      "es": "Quería dos entradas para la exposición, por favor."
+    }
+  ],
+  "dialog": {
+    "title": "En la taquilla",
+    "setting": "Yolanda y su marido llegan a la taquilla de un museo de Florencia",
+    "emoji": "🎟️",
+    "lines": [
+      {
+        "who": "Impiegato",
+        "t": "Buongiorno! Desidera?",
+        "es": "¡Buenos días! ¿Qué desea?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Buongiorno, vorrei due biglietti, per favore.",
+        "es": "Buenos días, quería dos entradas, por favor."
+      },
+      {
+        "who": "Impiegato",
+        "t": "Per il museo o anche per la mostra?",
+        "es": "¿Para el museo o también para la exposición?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Anche per la mostra. C'è un'audioguida in spagnolo?",
+        "es": "También para la exposición. ¿Hay audioguía en español?"
+      },
+      {
+        "who": "Impiegato",
+        "t": "Sì, certo. Ne vuole due?",
+        "es": "Sí, claro. ¿Quiere dos?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, grazie. Dov'è la sala di Botticelli?",
+        "es": "Sí, gracias. ¿Dónde está la sala de Botticelli?"
+      },
+      {
+        "who": "Impiegato",
+        "t": "Al primo piano, a sinistra. Buona visita!",
+        "es": "En la primera planta, a la izquierda. ¡Buena visita!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuántas entradas pide Yolanda?",
+        "options": [
+          "Dos",
+          "Una",
+          "Tres"
+        ],
+        "answer": "Dos"
+      },
+      {
+        "q": "¿En qué idioma quiere la audioguía?",
+        "options": [
+          "En español",
+          "En inglés",
+          "En italiano"
+        ],
+        "answer": "En español"
+      },
+      {
+        "q": "¿Dónde está la sala de Botticelli?",
+        "options": [
+          "En la primera planta, a la izquierda",
+          "En la planta baja",
+          "A la derecha de la taquilla"
+        ],
+        "answer": "En la primera planta, a la izquierda"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "C'è un'audioguida in spagnolo?",
+    "es": "¿Hay audioguía en español?",
+    "context": "En la taquilla de cualquier museo o monumento"
+  },
+  "same": {
+    "text": "El vocabulario del arte es casi igual que en español. ¡Te vas a sentir en casa!",
+    "examples": [
+      {
+        "t": "il museo",
+        "es": "el museo"
+      },
+      {
+        "t": "la statua",
+        "es": "la estatua"
+      },
+      {
+        "t": "la sala",
+        "es": "la sala"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "il biglietto",
+    "means": "la entrada / el billete de tren o autobús",
+    "looksLike": "billete (de dinero)",
+    "emoji": "🎟️",
+    "tip": "En el museo pides biglietti. Para pagar con billetes de dinero, usa banconote."
+  },
+  "summary": [
+    "En el museo: la mostra, la sala, il dipinto, la statua.",
+    "Il biglietto es la entrada; se compra en la biglietteria.",
+    "La guida es siempre femenina.",
+    "Pedir: Vorrei due biglietti, per favore."
+  ],
+  "reviewed": false,
+  "photo": "it-a2-u01-l1"
+}

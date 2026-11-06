@@ -1,0 +1,59 @@
+{
+  "id": "it-a2-u10-c2",
+  "unit": "it-a2-u10",
+  "title": "Ensayo: reservar el hotel",
+  "setting": "Giulia hace de recepcionista de un hotel veneciano para que practiques la llamada antes de reservar de verdad",
+  "emoji": "🏨",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Albergo sul Canale, buongiorno! Mi dica.", "es": "Hotel junto al Canal, ¡buenos días! Dígame." },
+      "options": [
+        { "t": "Buongiorno, vorrei prenotare una camera doppia.", "es": "Buenos días, querría reservar una habitación doble.", "next": "n2", "ok": true },
+        { "t": "Buongiorno, voglio una camera doppia.", "es": "Buenos días, quiero una habitación doble.", "next": "n2", "ok": false, "feedback": "Se entiende, pero suena brusco. Con vorrei quedas mucho mejor." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Certo, signora. Per quante notti?", "es": "Claro, señora. ¿Para cuántas noches?" },
+      "options": [
+        { "t": "Per tre notti, dal dieci maggio.", "es": "Para tres noches, desde el diez de mayo.", "next": "n3", "ok": true },
+        { "t": "Per tre notte, dal dieci maggio.", "es": "Para tres noches, desde el diez de mayo.", "next": "n3", "ok": false, "feedback": "Notte en plural es notti." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Preferisce una camera sul canale o sul cortile?", "es": "¿Prefiere una habitación que dé al canal o al patio?" },
+      "options": [
+        { "t": "Mi piacerebbe una camera sul canale.", "es": "Me gustaría una habitación que dé al canal.", "next": "n4", "ok": true },
+        { "t": "Io piacerebbe una camera sul canale.", "es": "Me gustaría una habitación que dé al canal.", "next": "n4", "ok": false, "feedback": "Con piacere va el pronombre: mi piacerebbe." },
+        { "t": "Mi piacerei una camera sul canale.", "es": "Me gustaría una habitación que dé al canal.", "next": "n4", "ok": false, "feedback": "Lo que gusta es la camera (ella): mi piacerebbe." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Perfetto, è libera. Ha altre domande?", "es": "Perfecto, está libre. ¿Tiene más preguntas?" },
+      "options": [
+        { "t": "Sì: la colazione è inclusa?", "es": "Sí: ¿el desayuno está incluido?", "next": "n5", "ok": true },
+        { "t": "Sì: la colazione è incluso?", "es": "Sí: ¿el desayuno está incluido?", "next": "n5", "ok": false, "feedback": "La colazione es femenino: inclusa." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Sì, è inclusa. Le serve altro?", "es": "Sí, está incluido. ¿Necesita algo más?" },
+      "options": [
+        { "t": "Potrebbe mandarmi la conferma per email?", "es": "¿Podría mandarme la confirmación por correo?", "next": "n6", "ok": true },
+        { "t": "Potresti mandarmi la conferma per email?", "es": "¿Podrías mandarme la confirmación por correo?", "next": "n6", "ok": false, "feedback": "Al recepcionista le hablas de Lei: potrebbe." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Certamente. Brava, Yolanda: sembravi una vera signora veneziana!", "es": "Por supuesto. ¡Muy bien, Yolanda: parecías una auténtica señora veneciana!" },
+      "options": [
+        { "t": "Grazie, Giulia! Adesso chiamo l'albergo vero.", "es": "¡Gracias, Giulia! Ahora llamo al hotel de verdad.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

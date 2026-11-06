@@ -1,0 +1,466 @@
+{
+  "id": "it-a1-u09-l1",
+  "unit": "it-a1-u09",
+  "title": "Frutta e verdura",
+  "goal": "a nombrar las frutas y verduras que vas a encontrar en el mercado",
+  "emoji": "🍅",
+  "photoQuery": "italian market fruit vegetables stall",
+  "vocab": [
+    {
+      "id": "mercato-la-mela",
+      "t": "la mela",
+      "es": "la manzana",
+      "emoji": "🍎",
+      "pos": "n",
+      "note": "Plural: le mele.",
+      "ex": {
+        "t": "Le mele sono dolci.",
+        "es": "Las manzanas están dulces."
+      }
+    },
+    {
+      "id": "mercato-la-pesca",
+      "t": "la pesca",
+      "es": "el melocotón",
+      "emoji": "🍑",
+      "pos": "n",
+      "note": "Plural: le pesche, con h para que siga sonando «k».",
+      "ex": {
+        "t": "Vorrei un chilo di pesche.",
+        "es": "Quisiera un kilo de melocotones."
+      }
+    },
+    {
+      "id": "mercato-il-pomodoro",
+      "t": "il pomodoro",
+      "es": "el tomate",
+      "emoji": "🍅",
+      "pos": "n",
+      "ex": {
+        "t": "I pomodori sono maturi.",
+        "es": "Los tomates están maduros."
+      }
+    },
+    {
+      "id": "mercato-la-zucchina",
+      "t": "la zucchina",
+      "es": "el calabacín",
+      "emoji": "🥒",
+      "pos": "n",
+      "note": "Plural: le zucchine.",
+      "ex": {
+        "t": "Stasera cucino le zucchine.",
+        "es": "Esta noche cocino calabacines."
+      }
+    },
+    {
+      "id": "mercato-la-patata",
+      "t": "la patata",
+      "es": "la patata",
+      "emoji": "🥔",
+      "pos": "n",
+      "ex": {
+        "t": "Due chili di patate, per favore.",
+        "es": "Dos kilos de patatas, por favor."
+      }
+    },
+    {
+      "id": "mercato-la-fragola",
+      "t": "la fragola",
+      "es": "la fresa",
+      "emoji": "🍓",
+      "pos": "n",
+      "ex": {
+        "t": "Le fragole sono di stagione.",
+        "es": "Las fresas son de temporada."
+      }
+    },
+    {
+      "id": "mercato-l-uva",
+      "t": "l'uva",
+      "es": "la uva",
+      "emoji": "🍇",
+      "pos": "n",
+      "note": "Uva va en singular: l'uva è buona.",
+      "ex": {
+        "t": "L'uva è dolcissima.",
+        "es": "La uva está dulcísima."
+      }
+    },
+    {
+      "id": "mercato-l-arancia",
+      "t": "l'arancia",
+      "es": "la naranja",
+      "emoji": "🍊",
+      "pos": "n",
+      "note": "Plural: le arance.",
+      "ex": {
+        "t": "Compro le arance per la spremuta.",
+        "es": "Compro naranjas para el zumo."
+      }
+    },
+    {
+      "id": "mercato-la-cipolla",
+      "t": "la cipolla",
+      "es": "la cebolla",
+      "emoji": "🧅",
+      "pos": "n",
+      "ex": {
+        "t": "Compro una cipolla per il sugo.",
+        "es": "Compro una cebolla para la salsa."
+      }
+    },
+    {
+      "id": "mercato-il-cocomero",
+      "t": "il cocomero",
+      "es": "la sandía",
+      "emoji": "🍉",
+      "pos": "n",
+      "note": "¡Ojo! No es un pepino (= il cetriolo). En muchas zonas también dicen anguria.",
+      "ex": {
+        "t": "D'estate mangio sempre il cocomero.",
+        "es": "En verano siempre como sandía."
+      }
+    }
+  ],
+  "grammar": "it-g-genere-numero",
+  "pron": {
+    "title": "La ch de pesche y zucchine",
+    "tip": "Ch delante de e/i suena «k»: PES-ke, dzuk-KI-ne, KI-lo. Sin h, ce/ci suenan «che/chi» como en español: ci-POL-la.",
+    "words": [
+      "pesche",
+      "zucchine",
+      "chilo",
+      "cipolla",
+      "arance"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "la mela",
+          "la manzana"
+        ],
+        [
+          "la pesca",
+          "el melocotón"
+        ],
+        [
+          "la fragola",
+          "la fresa"
+        ],
+        [
+          "il cocomero",
+          "la sandía"
+        ],
+        [
+          "la cipolla",
+          "la cebolla"
+        ]
+      ],
+      "why": "Las frutas y verduras más comunes del mercado."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Vorrei un chilo di ___.",
+      "es": "Quisiera un kilo de melocotones.",
+      "options": [
+        "pesche",
+        "pesce",
+        "pesci"
+      ],
+      "answer": "pesche",
+      "why": "Pesca → pesche: la h mantiene el sonido «k». Pesce es pescado.",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Le ___ sono rosse e dolci.",
+      "es": "Las fresas son rojas y dulces.",
+      "options": [
+        "fragole",
+        "cipolle",
+        "patate"
+      ],
+      "answer": "fragole",
+      "why": "Rojas y dulces: le fragole, las fresas."
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "___ uva è buonissima.",
+      "es": "La uva está buenísima.",
+      "options": [
+        "L'",
+        "La",
+        "Le"
+      ],
+      "answer": "L'",
+      "why": "Uva empieza por vocal: l'uva.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Per il gazpacho compro i ___.",
+      "es": "Para el gazpacho compro tomates.",
+      "answer": [
+        "pomodori"
+      ],
+      "bank": [
+        "pomodori",
+        "cocomeri",
+        "fragole"
+      ],
+      "why": "Tomates = pomodori (i pomodori)."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Una zucchina, due ___.",
+      "es": "Un calabacín, dos calabacines.",
+      "answer": [
+        "zucchine"
+      ],
+      "why": "Femenino en -a → plural en -e: zucchine.",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Un'arancia, tre ___.",
+      "es": "Una naranja, tres naranjas.",
+      "answer": [
+        "arance"
+      ],
+      "why": "Arancia → arance: la i desaparece en plural.",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e8",
+      "type": "minimal",
+      "pair": [
+        "pesce",
+        "pesche"
+      ],
+      "answer": "pesche",
+      "es": [
+        "pescado",
+        "melocotones"
+      ],
+      "why": "Pesche lleva ch = «k»: PES-ke. Pesce suena «PE-she»."
+    },
+    {
+      "id": "e9",
+      "type": "minimal",
+      "pair": [
+        "amici",
+        "amiche"
+      ],
+      "answer": "amici",
+      "es": [
+        "amigos",
+        "amigas"
+      ],
+      "why": "Amici suena «a-MI-chi»; amiche, «a-MI-ke»."
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "Quisiera un kilo de tomates.",
+      "answer": [
+        "Vorrei un chilo di pomodori."
+      ],
+      "why": "Kilo = chilo; tomates = pomodori.",
+      "g": "it-g-vorrei"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "from",
+      "q": "Il cocomero è fresco.",
+      "answer": [
+        "La sandía está fresca.",
+        "La sandía es fresca."
+      ],
+      "why": "Cocomero es sandía, no pepino."
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "Vorrei due chili di cipole.",
+      "wrong": "cipole",
+      "fix": "cipolle",
+      "why": "Cipolla lleva doble l: cipolle."
+    },
+    {
+      "id": "e13",
+      "type": "order",
+      "es": "Las fresas son de temporada.",
+      "answer": "Le fragole sono di stagione",
+      "extra": [
+        "della"
+      ],
+      "why": "De temporada = di stagione."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel del puesto",
+      "text": "FRUTTA DI STAGIONE\nPesche gialle: 3 € al chilo\nFragole: 4 € la vaschetta\nCocomero: 1 € al chilo",
+      "questions": [
+        {
+          "q": "¿Qué cuesta 1 € el kilo?",
+          "options": [
+            "La sandía",
+            "Las fresas",
+            "Los melocotones"
+          ],
+          "answer": "La sandía"
+        },
+        {
+          "q": "¿Cómo se venden las fresas?",
+          "options": [
+            "Por tarrina",
+            "Por kilo",
+            "Por unidad"
+          ],
+          "answer": "Por tarrina"
+        }
+      ],
+      "why": "Al chilo = el kilo; la vaschetta = la tarrina."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Un chilo di pesche, per favore.",
+      "es": "Un kilo de melocotones, por favor."
+    }
+  ],
+  "dialog": {
+    "title": "En el puesto de fruta",
+    "setting": "En un mercado de Palermo, en el puesto de Salvo",
+    "emoji": "🍑",
+    "lines": [
+      {
+        "who": "Salvo",
+        "t": "Buongiorno, signora! Cosa desidera?",
+        "es": "¡Buenos días, señora! ¿Qué desea?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Buongiorno. Vorrei un chilo di pomodori.",
+        "es": "Buenos días. Quisiera un kilo de tomates."
+      },
+      {
+        "who": "Salvo",
+        "t": "Ecco. Altro?",
+        "es": "Aquí tiene. ¿Algo más?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì. Le pesche sono dolci?",
+        "es": "Sí. ¿Los melocotones están dulces?"
+      },
+      {
+        "who": "Salvo",
+        "t": "Dolcissime! Sono di stagione.",
+        "es": "¡Dulcísimos! Son de temporada."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Allora mezzo chilo di pesche.",
+        "es": "Entonces medio kilo de melocotones."
+      },
+      {
+        "who": "Salvo",
+        "t": "Perfetto. Basta così?",
+        "es": "Perfecto. ¿Nada más?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, grazie. Quant'è?",
+        "es": "Sí, gracias. ¿Cuánto es?"
+      },
+      {
+        "who": "Salvo",
+        "t": "Sei euro, signora.",
+        "es": "Seis euros, señora."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué compra primero Yolanda?",
+        "options": [
+          "Un kilo de tomates",
+          "Medio kilo de fresas",
+          "Una sandía"
+        ],
+        "answer": "Un kilo de tomates"
+      },
+      {
+        "q": "¿Cómo son los melocotones, según Salvo?",
+        "options": [
+          "Muy dulces",
+          "Caros",
+          "Verdes"
+        ],
+        "answer": "Muy dulces"
+      },
+      {
+        "q": "¿Cuánto paga?",
+        "options": [
+          "6 €",
+          "16 €",
+          "2 €"
+        ],
+        "answer": "6 €"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Sono di stagione?",
+    "es": "¿Son de temporada?",
+    "context": "En el mercado, para preguntar por la fruta más rica del momento"
+  },
+  "same": {
+    "text": "Igual que en español: muchas frutas y verduras se dicen casi igual.",
+    "examples": [
+      {
+        "t": "la patata",
+        "es": "la patata"
+      },
+      {
+        "t": "il melone",
+        "es": "el melón"
+      },
+      {
+        "t": "il limone",
+        "es": "el limón"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "il cocomero",
+    "means": "la sandía",
+    "looksLike": "el cohombro (pepino) o el inglés cucumber",
+    "emoji": "🍉",
+    "tip": "Si pides un cocomero te darán una sandía enorme. El pepino es il cetriolo."
+  },
+  "summary": [
+    "Fruta: la mela, la pesca, la fragola, l'uva, l'arancia",
+    "Verdura: il pomodoro, la zucchina, la patata, la cipolla",
+    "¡Ojo! il cocomero = la sandía",
+    "Plurales: pesche, arance, zucchine",
+    "Ch = «k»: pesche, chilo, zucchine"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u09-l1"
+}

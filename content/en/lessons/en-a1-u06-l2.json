@@ -1,0 +1,413 @@
+{
+  "id": "en-a1-u06-l2",
+  "unit": "en-a1-u06",
+  "title": "Yo sí, yo no: I work, I don't work",
+  "goal": "a contar lo que haces y lo que no haces con el presente simple (I, you, we, they)",
+  "emoji": "✅",
+  "photoQuery": "woman reading newspaper cafe",
+  "vocab": [
+    {
+      "id": "work-v",
+      "t": "work",
+      "es": "trabajar",
+      "emoji": "💼",
+      "pos": "v",
+      "ex": {
+        "t": "They work from Monday to Friday.",
+        "es": "Trabajan de lunes a viernes."
+      }
+    },
+    {
+      "id": "live-v",
+      "t": "live",
+      "es": "vivir",
+      "emoji": "🏠",
+      "pos": "v",
+      "ex": {
+        "t": "We live near the market.",
+        "es": "Vivimos cerca del mercado."
+      }
+    },
+    {
+      "id": "drink-v",
+      "t": "drink",
+      "es": "beber / tomar (bebida)",
+      "emoji": "🥤",
+      "pos": "v",
+      "ex": {
+        "t": "I drink a lot of water.",
+        "es": "Bebo mucha agua."
+      }
+    },
+    {
+      "id": "eat-v",
+      "t": "eat",
+      "es": "comer",
+      "emoji": "🍎",
+      "pos": "v",
+      "ex": {
+        "t": "We eat a lot of fruit.",
+        "es": "Comemos mucha fruta."
+      },
+      "note": "Para las comidas del día se usa have: have lunch = comer (al mediodía)."
+    },
+    {
+      "id": "watch-tv",
+      "t": "watch TV",
+      "es": "ver la tele",
+      "emoji": "📺",
+      "pos": "v",
+      "ex": {
+        "t": "We watch TV after dinner.",
+        "es": "Vemos la tele después de cenar."
+      }
+    },
+    {
+      "id": "read-the-news",
+      "t": "read the news",
+      "es": "leer las noticias",
+      "emoji": "📰",
+      "pos": "v",
+      "ex": {
+        "t": "I read the news on my phone.",
+        "es": "Leo las noticias en el móvil."
+      }
+    },
+    {
+      "id": "go-for-a-walk",
+      "t": "go for a walk",
+      "es": "dar un paseo",
+      "emoji": "🚶‍♀️",
+      "pos": "v",
+      "ex": {
+        "t": "We go for a walk in the evening.",
+        "es": "Damos un paseo por la tarde."
+      }
+    },
+    {
+      "id": "i-dont",
+      "t": "I don't…",
+      "es": "Yo no…",
+      "emoji": "🚫",
+      "pos": "phrase",
+      "ex": {
+        "t": "I don't drink coffee at night.",
+        "es": "No tomo café por la noche."
+      },
+      "note": "don't = do not. Va siempre delante del verbo."
+    }
+  ],
+  "grammar": "en-g-present-simple",
+  "pron": {
+    "title": "Don't: con la «o» de old",
+    "tip": "Don't no suena «dont» con nuestra o: suena «dount», como old o phone. Y la t final casi no se oye: «I dount know». Practica con frases cortas.",
+    "words": [
+      "don't",
+      "I don't know",
+      "we don't",
+      "they don't"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I ___ in a small town.",
+      "es": "Vivo en un pueblo pequeño.",
+      "options": [
+        "live",
+        "lives",
+        "am live"
+      ],
+      "answer": "live",
+      "why": "Con I el verbo va tal cual: I live.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "We ___ TV in the afternoon.",
+      "es": "Por la tarde no vemos la tele.",
+      "options": [
+        "don't watch",
+        "no watch",
+        "aren't watch"
+      ],
+      "answer": "don't watch",
+      "why": "Negativa: don't + verbo.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "My friends ___ tea with milk.",
+      "es": "Mis amigas toman el té con leche.",
+      "options": [
+        "drink",
+        "drinks",
+        "are drink"
+      ],
+      "answer": "drink",
+      "why": "My friends = they: drink.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "I ___ eat meat. I'm vegetarian.",
+      "es": "No como carne. Soy vegetariana.",
+      "answer": [
+        "don't",
+        "do not"
+      ],
+      "bank": [
+        "don't",
+        "no",
+        "not"
+      ],
+      "why": "Negativa: don't + eat.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "You ___ a lot of fruit. Very good!",
+      "es": "Comes mucha fruta. ¡Muy bien!",
+      "answer": [
+        "eat"
+      ],
+      "bank": [
+        "eat",
+        "eats",
+        "have"
+      ],
+      "why": "Con you el verbo no cambia: you eat.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "They ___ in Manchester.",
+      "es": "Viven en Mánchester.",
+      "answer": [
+        "live"
+      ],
+      "why": "Con they: live, sin -s.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e7",
+      "type": "conjugate",
+      "verb": "to work",
+      "person": "I (negativa)",
+      "tense": "presente",
+      "q": "I ___ on Saturdays.",
+      "answer": [
+        "don't work",
+        "do not work"
+      ],
+      "table": [
+        [
+          "afirmativa",
+          "I work"
+        ],
+        [
+          "negativa",
+          "I don't work"
+        ]
+      ],
+      "why": "Negativa: don't work.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "I no drink coffee in the evening.",
+      "wrong": "no",
+      "fix": "don't",
+      "why": "En inglés se niega con don't, no con no.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "We lives near the station.",
+      "wrong": "lives",
+      "fix": "live",
+      "why": "Con we el verbo no lleva -s.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Don't read the news. I'm too busy.",
+      "wrong": "Don't",
+      "fix": "I don't",
+      "why": "Falta el sujeto: I don't read the news.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "No vemos la tele por la mañana",
+      "answer": "We don't watch TV in the morning",
+      "extra": [
+        "no",
+        "on"
+      ],
+      "why": "We + don't + watch.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "Damos un paseo por la tarde",
+      "answer": "We go for a walk in the evening",
+      "extra": [
+        "do",
+        "at"
+      ],
+      "why": "Dar un paseo = go for a walk.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e13",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "I drink coffee at night.",
+      "answer": [
+        "I don't drink coffee at night.",
+        "I do not drink coffee at night."
+      ],
+      "why": "Añade don't delante del verbo.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e14",
+      "type": "transform",
+      "instr": "Hazla afirmativa",
+      "q": "They don't eat fish.",
+      "answer": [
+        "They eat fish."
+      ],
+      "why": "Quita don't y el verbo queda igual.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e15",
+      "type": "translate",
+      "dir": "to",
+      "q": "No trabajo los domingos.",
+      "answer": [
+        "I don't work on Sundays.",
+        "I do not work on Sundays.",
+        "I don't work on Sunday."
+      ],
+      "why": "I don't work + on Sundays.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e16",
+      "type": "situation",
+      "context": "En un restaurante te ofrecen vino, pero tú no bebes alcohol.",
+      "emoji": "🍷",
+      "options": [
+        "No, thank you. I don't drink alcohol.",
+        "No, thank you. I no drink alcohol.",
+        "No, thank you. Don't drink alcohol."
+      ],
+      "answer": "No, thank you. I don't drink alcohol.",
+      "why": "Sujeto + don't + verbo.",
+      "g": "en-g-present-simple"
+    }
+  ],
+  "dialog": {
+    "title": "Vecinas nuevas",
+    "setting": "En el rellano, Yolanda conoce a su vecina inglesa del piso de vacaciones",
+    "emoji": "🏢",
+    "lines": [
+      {
+        "who": "Anne",
+        "t": "Hello! I live next door. I'm Anne.",
+        "es": "¡Hola! Vivo en la puerta de al lado. Soy Anne."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Nice to meet you. I'm Yolanda, from Spain.",
+        "es": "Encantada. Soy Yolanda, de España."
+      },
+      {
+        "who": "Anne",
+        "t": "Lovely! I go for a walk every morning. Come with me!",
+        "es": "¡Qué bien! Doy un paseo todas las mañanas. ¡Ven conmigo!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Thank you! What time?",
+        "es": "¡Gracias! ¿A qué hora?"
+      },
+      {
+        "who": "Anne",
+        "t": "At seven.",
+        "es": "A las siete."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Seven? Oh no, I don't get up at seven on holiday!",
+        "es": "¿A las siete? ¡Ay, no, en vacaciones no me levanto a las siete!"
+      },
+      {
+        "who": "Anne",
+        "t": "Ha ha! And in the afternoon? I don't work on Fridays.",
+        "es": "¡Ja, ja! ¿Y por la tarde? Los viernes no trabajo."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfect. Friday afternoon, then!",
+        "es": "Perfecto. ¡El viernes por la tarde, entonces!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué hace Anne todas las mañanas?",
+        "options": [
+          "Da un paseo",
+          "Va a trabajar",
+          "Hace la compra"
+        ],
+        "answer": "Da un paseo"
+      },
+      {
+        "q": "¿Por qué Yolanda no quiere ir a las siete?",
+        "options": [
+          "Porque de vacaciones no se levanta tan pronto",
+          "Porque trabaja",
+          "Porque llueve"
+        ],
+        "answer": "Porque de vacaciones no se levanta tan pronto"
+      },
+      {
+        "q": "¿Cuándo van a pasear juntas?",
+        "options": [
+          "El viernes por la tarde",
+          "El sábado por la mañana",
+          "Mañana a las siete"
+        ],
+        "answer": "El viernes por la tarde"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Sorry, I don't understand.",
+    "es": "Perdone, no entiendo.",
+    "context": "Cuando alguien te habla demasiado rápido"
+  },
+  "summary": [
+    "Con I, you, we, they el verbo no cambia: I live, they live",
+    "Negativa: don't + verbo (I don't work)",
+    "❌ I no drink → ✅ I don't drink",
+    "Siempre con sujeto: I don't know"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u06-l2"
+}

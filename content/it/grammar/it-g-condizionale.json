@@ -1,0 +1,151 @@
+{
+  "id": "it-g-condizionale",
+  "lang": "it",
+  "level": "B1",
+  "title": "El condicional: mi piacerebbe, dovresti, sarebbe bello",
+  "short": "Todo el condicional presente: para desear (vorrei), aconsejar (dovresti), proponer (potremmo) y suponer con suavidad.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "De las fórmulas al verbo completo",
+      "emoji": "💭",
+      "text": "Ya usas *vorrei* y *potrebbe* para pedir. Ahora el condicional entero: con él sueñas, aconsejas y propones. ==Mi piacerebbe vivere vicino al mare.==",
+      "examples": [
+        { "t": "Al posto tuo ==andrei== a Trieste in primavera.", "es": "Yo que tú iría a Trieste en primavera.", "hl": "andrei" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Las terminaciones",
+      "emoji": "📋",
+      "text": "Misma raíz que el futuro (visiter-, prender-, partir-) + ==-ei, -esti, -ebbe, -emmo, -este, -ebbero==.",
+      "table": {
+        "head": ["Persona", "viaggiare", "prendere", "partire"],
+        "rows": [
+          ["io", "viagger==ei==", "prender==ei==", "partir==ei=="],
+          ["tu", "viagger==esti==", "prender==esti==", "partir==esti=="],
+          ["lui / lei / Lei", "viagger==ebbe==", "prender==ebbe==", "partir==ebbe=="],
+          ["noi", "viagger==emmo==", "prender==emmo==", "partir==emmo=="],
+          ["voi", "viagger==este==", "prender==este==", "partir==este=="],
+          ["loro", "viagger==ebbero==", "prender==ebbero==", "partir==ebbero=="]
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Irregulares: los del futuro",
+      "emoji": "⭐",
+      "text": "Si sabes *andrò*, sabes ==andrei==. La raíz es la misma del futuro.",
+      "table": {
+        "head": ["Infinitivo", "Futuro", "Condicional"],
+        "rows": [
+          ["essere", "sarò", "==sarei=="],
+          ["avere", "avrò", "==avrei=="],
+          ["andare", "andrò", "==andrei=="],
+          ["fare", "farò", "==farei=="],
+          ["volere", "vorrò", "==vorrei=="],
+          ["dovere / potere", "dovrò / potrò", "==dovrei== / ==potrei=="],
+          ["venire / bere", "verrò / berrò", "==verrei== / ==berrei=="]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "Tres usos de cada día",
+      "emoji": "🎯",
+      "text": "==Deseo==: mi piacerebbe, vorrei. ==Consejo==: dovresti, potresti, al posto tuo… ==Propuesta==: potremmo, ti andrebbe di…? Y para suponer sin afirmar: ==sarebbe== meglio.",
+      "examples": [
+        { "t": "Dovresti riposarti un po'.", "es": "Deberías descansar un poco." },
+        { "t": "Ti andrebbe di prendere un caffè?", "es": "¿Te apetecería tomar un café?" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Como en español",
+      "emoji": "🇪🇸",
+      "text": "Iría → ==andrei==, deberías → ==dovresti==, sería → ==sarebbe==. ¡Ojo con noi! Lleva ==doble m==: andremmo (iríamos) ≠ andremo (iremos).",
+      "examples": [
+        { "t": "Andremmo volentieri, ma non abbiamo tempo.", "es": "Iríamos con gusto, pero no tenemos tiempo." }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *viaggiarei* → ✅ viagg==e==rei. ❌ *vorremo* (querríamos) → ✅ vorre==mm==o. ❌ *Deberesti* → ✅ ==dovresti==. ❌ *andarei* → ✅ ==andrei==."
+    },
+    {
+      "kind": "tip",
+      "title": "Dar consejos con cariño",
+      "emoji": "💡",
+      "text": "Tres maneras suaves: ==Dovresti== + infinitivo. ==Al posto tuo== + condicional. ==Perché non== + presente? Así suenas a amiga, no a profesora.",
+      "examples": [
+        { "t": "Al posto tuo, prenoterei subito.", "es": "Yo que tú, reservaría ya." },
+        { "t": "Perché non chiami tuo figlio?", "es": "¿Por qué no llamas a tu hijo?" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: me gustaría, deberías, iríamos, sería mejor. La forma de nosotros acaba en -íamos.",
+    "target": "En italiano: mi piacerebbe, dovresti, andremmo, sarebbe meglio. La raíz es la del futuro y noi lleva doble m (-emmo), que lo distingue del futuro (-emo)."
+  },
+  "errors": [
+    { "wrong": "Mi piacerebbe viaggiarei di più.", "right": "Mi piacerebbe viaggiare di più.", "why": "Tras mi piacerebbe va el infinitivo, sin conjugar." },
+    { "wrong": "Al posto tuo andarei dal medico.", "right": "Al posto tuo andrei dal medico.", "why": "Andare usa la raíz del futuro: andr- → andrei." },
+    { "wrong": "Vorremo un tavolo vicino alla finestra.", "right": "Vorremmo un tavolo vicino alla finestra.", "why": "El condicional de noi lleva doble m; vorremo (una m) es futuro." },
+    { "wrong": "Dovressi chiamare tua sorella.", "right": "Dovresti chiamare tua sorella.", "why": "La terminación de tu es -esti, con una sola s." },
+    { "wrong": "Sarebbe meglio che andiamo domani.", "right": "Sarebbe meglio andare domani.", "why": "Con sarebbe meglio, lo más sencillo es seguir con infinitivo." },
+    { "wrong": "Mi piacerebbero un caffè.", "right": "Mi piacerebbe un caffè.", "why": "Un caffè es singular: piacerebbe. Piacerebbero va con plurales (mi piacerebbero due biglietti)." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Mi ___ vivere vicino al mare.", "es": "Me gustaría vivir cerca del mar.", "options": ["piacerebbe", "piacerei", "piacerà"], "answer": "piacerebbe", "why": "Mi piacerebbe = me gustaría.", "g": "it-g-condizionale" },
+    { "id": "e2", "type": "choose", "q": "Sei stanca: ___ riposarti un po'.", "es": "Estás cansada: deberías descansar un poco.", "options": ["dovresti", "dovrai", "devi"], "answer": "dovresti", "why": "Para un consejo suave: dovresti.", "g": "it-g-condizionale" },
+    { "id": "e3", "type": "choose", "q": "Noi ___ volentieri a Trieste, ma non abbiamo ferie.", "es": "Iríamos con gusto a Trieste, pero no tenemos vacaciones.", "options": ["andremmo", "andremo", "andiamo"], "answer": "andremmo", "why": "Condicional de noi: doble m, andremmo.", "g": "it-g-condizionale" },
+    { "id": "e4", "type": "choose", "q": "Al posto tuo ___ subito il treno.", "es": "Yo que tú reservaría ya el tren.", "options": ["prenoterei", "prenotarei", "prenoterò"], "answer": "prenoterei", "why": "Prenotare → prenoter- + -ei.", "g": "it-g-condizionale" },
+    { "id": "e5", "type": "choose", "q": "___ bello fare una gita a Miramare!", "es": "¡Sería bonito hacer una excursión a Miramare!", "options": ["Sarebbe", "Sarei", "Sarà stato"], "answer": "Sarebbe", "why": "Sarebbe bello = sería bonito.", "g": "it-g-condizionale" },
+    { "id": "e6", "type": "choose", "q": "Ti ___ di prendere un caffè in piazza?", "es": "¿Te apetecería tomar un café en la plaza?", "options": ["andrebbe", "andresti", "andrei"], "answer": "andrebbe", "why": "Ti andrebbe di…? = ¿te apetecería…? (el verbo va en tercera persona).", "g": "it-g-condizionale" },
+    { "id": "e7", "type": "choose", "q": "I miei nipoti ___ restare di più dai nonni.", "es": "A mis nietos les gustaría quedarse más con los abuelos.", "options": ["vorrebbero", "vorrebbe", "vorremmo"], "answer": "vorrebbero", "why": "Loro → vorrebbero.", "g": "it-g-condizionale" },
+    { "id": "e8", "type": "choose", "q": "Voi cosa ___ al posto mio?", "es": "¿Vosotros qué haríais en mi lugar?", "options": ["fareste", "farete", "farebbero"], "answer": "fareste", "why": "Voi → -este: fareste (farete es futuro).", "g": "it-g-condizionale" },
+    { "id": "e9", "type": "choose", "q": "Scusi, ___ dirmi dov'è il caffè San Marco?", "es": "Perdone, ¿podría decirme dónde está el café San Marco?", "options": ["saprebbe", "sapresti", "saprei"], "answer": "saprebbe", "why": "Con Lei: saprebbe (¿sabría?).", "g": "it-g-condizionale" },
+    { "id": "e10", "type": "choose", "q": "Io non ___ mai in un posto così freddo.", "es": "Yo no viviría nunca en un sitio tan frío.", "options": ["vivrei", "viverei", "vivrò"], "answer": "vivrei", "why": "Vivere es irregular: vivrei.", "g": "it-g-condizionale" },
+    { "id": "e11", "type": "fill", "q": "Mio marito ___ andare in pensione presto.", "es": "Mi marido querría jubilarse pronto.", "answer": ["vorrebbe"], "bank": ["vorrebbe", "vorrei", "vorrà"], "why": "Lui → vorrebbe.", "g": "it-g-condizionale" },
+    { "id": "e12", "type": "fill", "q": "Tu ___ parlare con tuo figlio.", "es": "Tú deberías hablar con tu hijo.", "answer": ["dovresti"], "bank": ["dovresti", "dovrei", "dovrebbe"], "why": "Tu → dovresti.", "g": "it-g-condizionale" },
+    { "id": "e13", "type": "fill", "q": "Noi ___ fare un corso di cucina insieme.", "es": "Podríamos hacer un curso de cocina juntas.", "answer": ["potremmo"], "bank": ["potremmo", "potremo", "possiamo"], "why": "Propuesta con noi: potremmo (doble m).", "g": "it-g-condizionale" },
+    { "id": "e14", "type": "fill", "q": "Con questa Bora, ___ meglio restare a casa.", "es": "Con este viento, sería mejor quedarse en casa.", "answer": ["sarebbe"], "bank": ["sarebbe", "sarei", "sarà"], "why": "Sarebbe meglio + infinitivo.", "g": "it-g-condizionale" },
+    { "id": "e15", "type": "fill", "q": "Le mie amiche ___ volentieri con noi.", "es": "Mis amigas vendrían con gusto con nosotros.", "answer": ["verrebbero"], "bank": ["verrebbero", "venirebbero", "verranno"], "why": "Venire → verr- + -ebbero.", "g": "it-g-condizionale" },
+    { "id": "e16", "type": "fill", "q": "Io ___ un altro caffè, grazie.", "es": "Yo me tomaría otro café, gracias.", "answer": ["berrei", "prenderei"], "hint": "bere", "why": "Bere → berr-: berrei.", "g": "it-g-condizionale" },
+    { "id": "e17", "type": "fill", "q": "Al posto tuo non ___ niente.", "es": "Yo que tú no diría nada.", "answer": ["direi"], "hint": "dire", "why": "Dire → direi.", "g": "it-g-condizionale" },
+    { "id": "e18", "type": "fill", "q": "Con più tempo, ___ un libro sulla mia famiglia.", "es": "Con más tiempo, escribiría un libro sobre mi familia.", "answer": ["scriverei"], "hint": "scrivere", "why": "Scrivere → scriver- + -ei.", "g": "it-g-condizionale" },
+    { "id": "e19", "type": "fill", "q": "Voi ___ un po' di tempo per noi stasera?", "es": "¿Vosotros tendríais un poco de tiempo para nosotros esta noche?", "answer": ["avreste"], "hint": "avere, voi", "why": "Avere → avr- + -este.", "g": "it-g-condizionale" },
+    { "id": "e20", "type": "fill", "q": "Hugo ___ contento di vederti.", "es": "Hugo estaría contento de verte.", "answer": ["sarebbe"], "hint": "essere", "why": "Lui → sarebbe.", "g": "it-g-condizionale" },
+    { "id": "e21", "type": "error", "q": "Mi piacerebbe viaggiarei di più.", "wrong": "viaggiarei", "fix": "viaggiare", "why": "Tras mi piacerebbe, infinitivo: viaggiare.", "g": "it-g-condizionale" },
+    { "id": "e22", "type": "error", "q": "Al posto tuo andarei dal medico.", "wrong": "andarei", "fix": "andrei", "why": "Andare → andrei (raíz del futuro).", "g": "it-g-condizionale" },
+    { "id": "e23", "type": "error", "q": "Vorremo un tavolo fuori, per favore.", "wrong": "Vorremo", "fix": "Vorremmo", "why": "Condicional de noi: doble m.", "g": "it-g-condizionale" },
+    { "id": "e24", "type": "error", "q": "Tu dovressi dormire di più.", "wrong": "dovressi", "fix": "dovresti", "why": "Tu → -esti: dovresti.", "g": "it-g-condizionale" },
+    { "id": "e25", "type": "error", "q": "Mio marito vorrei cambiare casa.", "wrong": "vorrei", "fix": "vorrebbe", "why": "Lui → vorrebbe.", "g": "it-g-condizionale" },
+    { "id": "e26", "type": "error", "q": "Le mie amiche verrebbe alla festa.", "wrong": "verrebbe", "fix": "verrebbero", "why": "Loro → verrebbero.", "g": "it-g-condizionale" },
+    { "id": "e27", "type": "transform", "instr": "Hazla más suave (condicional)", "q": "Devi mangiare meno dolci.", "answer": ["Dovresti mangiare meno dolci."], "why": "Devi → dovresti: un consejo amable.", "g": "it-g-condizionale" },
+    { "id": "e28", "type": "transform", "instr": "Conviértelo en propuesta (condicional)", "q": "Possiamo andare al caffè San Marco.", "answer": ["Potremmo andare al caffè San Marco."], "why": "Possiamo → potremmo.", "g": "it-g-condizionale" },
+    { "id": "e29", "type": "transform", "instr": "Pásala al condicional", "q": "Voglio imparare a ballare.", "answer": ["Vorrei imparare a ballare."], "why": "Voglio → vorrei.", "g": "it-g-condizionale" },
+    { "id": "e30", "type": "transform", "instr": "Pásala al condicional", "q": "Mi piace andare a Trieste.", "answer": ["Mi piacerebbe andare a Trieste."], "why": "Mi piace → mi piacerebbe.", "g": "it-g-condizionale" },
+    { "id": "e31", "type": "transform", "instr": "Cambia el futuro por el condicional", "q": "Andremo in Italia a settembre.", "answer": ["Andremmo in Italia a settembre."], "why": "Andremo (iremos) → andremmo (iríamos).", "g": "it-g-condizionale" },
+    { "id": "e32", "type": "transform", "instr": "Da el consejo con «Al posto tuo…»", "q": "Dovresti prenotare l'albergo.", "answer": ["Al posto tuo prenoterei l'albergo.", "Al posto tuo, prenoterei l'albergo."], "why": "Al posto tuo + condicional de io: prenoterei.", "g": "it-g-condizionale" },
+    { "id": "e33", "type": "conjugate", "verb": "viaggiare", "person": "noi", "tense": "condizionale", "q": "Con più tempo, ___ di più.", "es": "Con más tiempo, viajaríamos más.", "answer": ["viaggeremmo"], "table": [["io", "viaggerei"], ["tu", "viaggeresti"], ["lui/lei", "viaggerebbe"], ["noi", "viaggeremmo"], ["voi", "viaggereste"], ["loro", "viaggerebbero"]], "why": "Viaggiare pierde la i: viaggeremmo.", "g": "it-g-condizionale" },
+    { "id": "e34", "type": "conjugate", "verb": "potere", "person": "tu", "tense": "condizionale", "q": "___ chiamarmi stasera?", "answer": ["Potresti", "Mi potresti"], "why": "Tu → potresti.", "g": "it-g-condizionale" },
+    { "id": "e35", "type": "conjugate", "verb": "fare", "person": "lei", "tense": "condizionale", "q": "Mia sorella ___ di tutto per i nipoti.", "answer": ["farebbe"], "why": "Fare → far- + -ebbe.", "g": "it-g-condizionale" },
+    { "id": "e36", "type": "conjugate", "verb": "stare", "person": "io", "tense": "condizionale", "q": "In questo caffè ___ ore a chiacchierare.", "answer": ["starei", "resterei"], "why": "Stare → starei.", "g": "it-g-condizionale" },
+    { "id": "e37", "type": "order", "es": "Me gustaría aprender a hacer el tiramisú.", "answer": "Mi piacerebbe imparare a fare il tiramisù", "extra": ["piacerei"], "why": "Mi piacerebbe + infinitivo.", "g": "it-g-condizionale" },
+    { "id": "e38", "type": "order", "es": "Deberías llamar a tu amiga.", "answer": "Dovresti chiamare la tua amica", "extra": ["dovrei"], "why": "Dovresti + infinitivo.", "g": "it-g-condizionale" },
+    { "id": "e39", "type": "order", "es": "¿Te apetecería venir con nosotras?", "answer": "Ti andrebbe di venire con noi", "extra": ["andresti"], "why": "Ti andrebbe di + infinitivo.", "g": "it-g-condizionale" },
+    { "id": "e40", "type": "translate", "dir": "to", "q": "Yo que tú, iría al médico.", "answer": ["Al posto tuo andrei dal medico.", "Al posto tuo, andrei dal medico.", "Io al posto tuo andrei dal medico."], "why": "Al posto tuo + andrei; al médico = dal medico.", "g": "it-g-condizionale" },
+    { "id": "e41", "type": "translate", "dir": "to", "q": "Sería bonito vivir en Italia.", "answer": ["Sarebbe bello vivere in Italia."], "why": "Sarebbe bello + infinitivo.", "g": "it-g-condizionale" },
+    { "id": "e42", "type": "translate", "dir": "from", "q": "Potremmo prendere un caffè domani.", "answer": ["Podríamos tomar un café mañana.", "Mañana podríamos tomar un café."], "why": "Potremmo = podríamos.", "g": "it-g-condizionale" },
+    { "id": "e43", "type": "translate", "dir": "from", "q": "Dovresti uscire di più con le amiche.", "answer": ["Deberías salir más con las amigas.", "Deberías salir más con tus amigas."], "why": "Dovresti = deberías.", "g": "it-g-condizionale" },
+    { "id": "e44", "type": "situation", "context": "Tu amiga está agotada y duerme poco. Le das un consejo cariñoso.", "emoji": "😴", "options": ["Dovresti riposarti di più.", "Devi riposarti di più!", "Dovrei riposarti di più."], "answer": "Dovresti riposarti di più.", "why": "Dovresti suena a consejo amable; devi suena a orden.", "g": "it-g-condizionale" },
+    { "id": "e45", "type": "situation", "context": "Quieres proponer a Giulia ir juntas a una exposición el sábado.", "emoji": "🖼️", "options": ["Ti andrebbe di andare a una mostra sabato?", "Ti andresti a una mostra sabato?", "Vai a una mostra sabato!"], "answer": "Ti andrebbe di andare a una mostra sabato?", "why": "Ti andrebbe di…? es la propuesta más natural.", "g": "it-g-condizionale" },
+    { "id": "e46", "type": "situation", "context": "Te preguntan qué harías si te tocara un viaje. Te gustaría ir a Trieste.", "emoji": "🎁", "options": ["Mi piacerebbe andare a Trieste.", "Mi piacerei andare a Trieste.", "Io piacerebbe andare a Trieste."], "answer": "Mi piacerebbe andare a Trieste.", "why": "Mi piacerebbe + infinitivo.", "g": "it-g-condizionale" },
+    { "id": "e47", "type": "match", "pairs": [["io", "andrei"], ["tu", "andresti"], ["lui / lei", "andrebbe"], ["noi", "andremmo"], ["loro", "andrebbero"]], "why": "Andare en condicional: raíz andr- + -ei, -esti, -ebbe, -emmo, -ebbero.", "g": "it-g-condizionale" },
+    { "id": "e48", "type": "match", "pairs": [["dovresti", "deberías"], ["potremmo", "podríamos"], ["sarebbe meglio", "sería mejor"], ["vorrei", "querría"], ["ti andrebbe di…?", "¿te apetecería…?"]], "why": "Las expresiones más útiles del condicional.", "g": "it-g-condizionale" }
+  ],
+  "reviewed": false
+}

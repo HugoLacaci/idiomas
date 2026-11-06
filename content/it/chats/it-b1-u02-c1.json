@@ -1,0 +1,59 @@
+{
+  "id": "it-b1-u02-c1",
+  "unit": "it-b1-u02",
+  "title": "Regalos para los nietos",
+  "setting": "Giulia y tú estáis en una juguetería del centro de Roma",
+  "emoji": "🧸",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Allora, cosa regaliamo ai tuoi nipoti?", "es": "Bueno, ¿qué les regalamos a tus nietos?" },
+      "options": [
+        { "t": "Non lo so. Mi aiuti a scegliere?", "es": "No lo sé. ¿Me ayudas a elegir?", "next": "n2", "ok": true },
+        { "t": "Non lo so. Ti aiuti a scegliere?", "es": "No lo sé. ¿Me ayudas a elegir?", "next": "n2", "ok": false, "feedback": "Pides ayuda para ti: mi aiuti? (me ayudas)." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Certo! Guarda questo puzzle di legno. Ti piace?", "es": "¡Claro! Mira este puzle de madera. ¿Te gusta?" },
+      "options": [
+        { "t": "Sì, è carino! Lo prendo per il più piccolo.", "es": "¡Sí, es mono! Me lo llevo para el pequeño.", "next": "n3", "ok": true },
+        { "t": "Sì, è carino! La prendo per il più piccolo.", "es": "¡Sí, es mono! Me lo llevo para el pequeño.", "next": "n3", "ok": false, "feedback": "Il puzzle es masculino: lo prendo." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Lo facciamo incartare? La commessa è bravissima.", "es": "¿Hacemos que lo envuelvan? La dependienta lo hace muy bien." },
+      "options": [
+        { "t": "Sì, glielo chiedo io.", "es": "Sí, se lo pido yo.", "next": "n4", "ok": true },
+        { "t": "Sì, gli lo chiedo io.", "es": "Sí, se lo pido yo.", "next": "n4", "ok": false, "feedback": "Gli + lo se escriben juntos y con una e: glielo." },
+        { "t": "Sì, se lo chiedo io.", "es": "Sí, se lo pido yo.", "next": "n4", "ok": false, "feedback": "«Se lo» es español. En italiano se dice glielo." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E per il grande? Gli piacciono i libri?", "es": "¿Y para el mayor? ¿Le gustan los libros?" },
+      "options": [
+        { "t": "Sì, tantissimo! Gliene compro due.", "es": "¡Sí, muchísimo! Le compro dos.", "next": "n5", "ok": true },
+        { "t": "Sì, tantissimo! Ne gli compro due.", "es": "¡Sí, muchísimo! Le compro dos.", "next": "n5", "ok": false, "feedback": "Gli + ne van juntos y en este orden: gliene." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Perfetto. E il biglietto di auguri? Chi lo scrive?", "es": "Perfecto. ¿Y la tarjeta de felicitación? ¿Quién la escribe?" },
+      "options": [
+        { "t": "Lo scrivo io stasera e glielo mando con il pacco.", "es": "La escribo yo esta noche y se la mando con el paquete.", "next": "n6", "ok": true },
+        { "t": "Lo scrivo io stasera e gliela mando con il pacco.", "es": "La escribo yo esta noche y se la mando con el paquete.", "next": "n6", "ok": false, "feedback": "Il biglietto es masculino en italiano: glielo (aunque en español digamos «la tarjeta»)." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Che nonna fantastica! Andiamo a pagare?", "es": "¡Qué abuela tan fantástica! ¿Vamos a pagar?" },
+      "options": [
+        { "t": "Andiamo! E dopo ti offro un gelato.", "es": "¡Vamos! Y luego te invito a un helado.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

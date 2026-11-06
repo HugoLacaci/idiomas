@@ -1,0 +1,59 @@
+{
+  "id": "it-a2-u08-c2",
+  "unit": "it-a2-u08",
+  "title": "Ensayo en la farmacia",
+  "setting": "Giulia hace de farmacéutica para que practiques antes de entrar en una farmacia de verdad",
+  "emoji": "💊",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Facciamo una prova: io sono la farmacista. Buongiorno, signora, mi dica!", "es": "Hagamos una prueba: yo soy la farmacéutica. Buenos días, señora, ¡dígame!" },
+      "options": [
+        { "t": "Buongiorno. Avete qualcosa per la tosse?", "es": "Buenos días. ¿Tienen algo para la tos?", "next": "n2", "ok": true },
+        { "t": "Ciao! Dammi qualcosa per la tosse.", "es": "¡Hola! Dame algo para la tos.", "next": "n2", "ok": false, "feedback": "Con una farmacéutica, mejor de usted: Buongiorno, avete qualcosa per…?" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Certo. Ha anche la febbre?", "es": "Claro. ¿Tiene también fiebre?" },
+      "options": [
+        { "t": "No, per fortuna.", "es": "No, por suerte.", "next": "n3", "ok": true },
+        { "t": "Sì, un po'. Trentasette e mezzo.", "es": "Sí, un poco. Treinta y siete y medio.", "next": "n3", "ok": true },
+        { "t": "Sì, ho un po' di febbra.", "es": "Sí, tengo un poco de fiebre.", "next": "n3", "ok": false, "feedback": "Casi: es la febbre, con doble b y -e final." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Allora prenda questo sciroppo. È senza ricetta.", "es": "Entonces tómese este jarabe. Es sin receta." },
+      "options": [
+        { "t": "Quante volte al giorno lo prendo?", "es": "¿Cuántas veces al día me lo tomo?", "next": "n4", "ok": true },
+        { "t": "Quanti tempi al giorno lo prendo?", "es": "¿Cuántas veces al día me lo tomo?", "next": "n4", "ok": false, "feedback": "Veces = volte. «Tempo» es tiempo." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Legga il foglietto, ma di solito tre volte al giorno.", "es": "Lea el prospecto, pero normalmente tres veces al día." },
+      "options": [
+        { "t": "Perfetto. Scusi, avete anche dei cerotti?", "es": "Perfecto. Perdone, ¿tienen también tiritas?", "next": "n5", "ok": true },
+        { "t": "Perfetto. Scusa, avete anche dei cerotti?", "es": "Perfecto. Perdona, ¿tenéis también tiritas?", "next": "n5", "ok": false, "feedback": "Seguimos de usted con la farmacéutica: scusi." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Sì, eccoli. Altro?", "es": "Sí, aquí tiene. ¿Algo más?" },
+      "options": [
+        { "t": "No, grazie. Quanto le devo?", "es": "No, gracias. ¿Cuánto le debo?", "next": "n6", "ok": true },
+        { "t": "No, grazie. Quanto ti devo?", "es": "No, gracias. ¿Cuánto te debo?", "next": "n6", "ok": false, "feedback": "De usted: quanto le devo?" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Dodici euro. Fine della prova: sei stata bravissima!", "es": "Doce euros. Fin de la prueba: ¡lo has hecho genial!" },
+      "options": [
+        { "t": "Grazie, Giulia! Ora sono pronta.", "es": "¡Gracias, Giulia! Ahora estoy preparada.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

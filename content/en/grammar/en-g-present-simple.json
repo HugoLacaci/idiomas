@@ -1,0 +1,144 @@
+{
+  "id": "en-g-present-simple",
+  "lang": "en",
+  "level": "A1",
+  "title": "Presente simple (I, you, we, they)",
+  "short": "Para hábitos y rutinas: I work, I don't work, Do you work? – Yes, I do.",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "☀️",
+      "title": "El tiempo de la rutina",
+      "text": "El presente simple sirve para lo que haces normalmente: tu rutina, tus costumbres, dónde vives. Con ==I, you, we, they== el verbo no cambia nada.",
+      "examples": [
+        { "t": "I get up at eight.", "es": "Me levanto a las ocho.", "hl": "get up" },
+        { "t": "We live in a small town.", "es": "Vivimos en un pueblo pequeño.", "hl": "live" },
+        { "t": "They drink coffee.", "es": "Toman café.", "hl": "drink" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "📋",
+      "title": "Todo el presente simple de un vistazo",
+      "text": "Para negar y preguntar necesitamos un ayudante: ==do==. El verbo principal no cambia.",
+      "table": {
+        "head": ["", "Afirmativa", "Negativa", "Pregunta", "Respuesta corta"],
+        "rows": [
+          ["I", "I work.", "I ==don't== work.", "==Do== I work?", "Yes, you do. / No, you don't."],
+          ["you", "You work.", "You ==don't== work.", "==Do== you work?", "Yes, I ==do==. / No, I ==don't==."],
+          ["we", "We work.", "We ==don't== work.", "==Do== we work?", "Yes, we do. / No, we don't."],
+          ["they", "They work.", "They ==don't== work.", "==Do== they work?", "Yes, they do. / No, they don't."]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "emoji": "🚫",
+      "title": "Negativa: don't + verbo",
+      "text": "Pon ==don't== (do not) delante del verbo. El verbo queda igual. No vale «I no work».",
+      "examples": [
+        { "t": "I don't drink coffee at night.", "es": "No tomo café por la noche.", "hl": "don't" },
+        { "t": "We don't work on Sundays.", "es": "Los domingos no trabajamos.", "hl": "don't" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "emoji": "❓",
+      "title": "Preguntas: do + persona + verbo",
+      "text": "==Do== va al principio. Con palabras de pregunta, primero la palabra: ==What time do you== get up?",
+      "examples": [
+        { "t": "Do you cook every day?", "es": "¿Cocinas todos los días?", "hl": "Do" },
+        { "t": "Where do they live?", "es": "¿Dónde viven?", "hl": "do" },
+        { "t": "What time do you have lunch?", "es": "¿A qué hora comes?", "hl": "do" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "emoji": "🇪🇸",
+      "title": "Español e inglés",
+      "text": "En español el verbo ya dice quién es (==trabajo==, ==trabajas==) y no hay ayudante. En inglés siempre hace falta la persona (==I== work) y para negar o preguntar, ==do==.",
+      "examples": [
+        { "t": "Do you live here? – Yes, I do.", "es": "¿Vives aquí? – Sí.", "hl": "Do" },
+        { "t": "I don't know.", "es": "No sé.", "hl": "I don't" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo con estos errores!",
+      "text": "❌ I no like fish → ✅ I ==don't like== fish. ❌ You live here? → ✅ ==Do you== live here? ❌ Work in a shop → ✅ ==I== work in a shop. ❌ Yes, I like → ✅ Yes, I ==do==."
+    },
+    {
+      "kind": "tip",
+      "emoji": "💬",
+      "title": "Respuestas cortas",
+      "text": "A una pregunta con Do… se contesta con ==do== o ==don't==, sin repetir el verbo: Do you cook? – ==Yes, I do==. / ==No, I don't==. Suena mucho más natural."
+    },
+    {
+      "kind": "tip",
+      "emoji": "🔜",
+      "title": "¿Y he y she?",
+      "text": "Con he, she e it el verbo cambia un poquito (lleva ==-s==: she work==s==) y el ayudante es ==does==. Eso lo verás en la próxima unidad. ¡Hoy, solo I, you, we, they!"
+    }
+  ],
+  "compare": {
+    "es": "En español no hace falta decir «yo»: «trabajo» ya lo dice todo. Para negar ponemos «no» (no trabajo) y para preguntar cambiamos solo la entonación (¿trabajas?).",
+    "target": "En inglés el sujeto es obligatorio (I work). Para negar se usa don't + verbo (I don't work) y para preguntar Do + persona + verbo (Do you work?). Las respuestas cortas son Yes, I do / No, I don't."
+  },
+  "errors": [
+    { "wrong": "I no like coffee.", "right": "I don't like coffee.", "why": "En inglés no se niega con no delante del verbo: hace falta don't." },
+    { "wrong": "You live in Madrid?", "right": "Do you live in Madrid?", "why": "Para preguntar no basta la entonación: empieza con Do." },
+    { "wrong": "Get up at seven.", "right": "I get up at seven.", "why": "El sujeto (I, we, they…) es obligatorio en inglés." },
+    { "wrong": "Do you cook? – Yes, I cook.", "right": "Do you cook? – Yes, I do.", "why": "En la respuesta corta se repite do, no el verbo." },
+    { "wrong": "I don't works on Sunday.", "right": "I don't work on Sunday.", "why": "Después de don't el verbo va siempre en su forma base, sin -s." },
+    { "wrong": "What time you have breakfast?", "right": "What time do you have breakfast?", "why": "En preguntas con What, Where, When… también hace falta do." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "I ___ in a flat in the town centre.", "es": "Vivo en un piso en el centro.", "options": ["live", "lives", "living"], "answer": "live", "why": "Con I el verbo va tal cual: I live.", "g": "en-g-present-simple" },
+    { "id": "e2", "type": "choose", "q": "We ___ lunch at two.", "es": "Comemos a las dos.", "options": ["have", "has", "having"], "answer": "have", "why": "Con we el verbo no cambia: we have.", "g": "en-g-present-simple" },
+    { "id": "e3", "type": "choose", "q": "I ___ like fish.", "es": "No me gusta el pescado.", "options": ["don't", "no", "not"], "answer": "don't", "why": "La negativa es don't + verbo.", "g": "en-g-present-simple" },
+    { "id": "e4", "type": "choose", "q": "___ you cook every day?", "es": "¿Cocinas todos los días?", "options": ["Do", "Are", "Does"], "answer": "Do", "why": "Pregunta con un verbo normal y you: Do you…?", "g": "en-g-present-simple" },
+    { "id": "e5", "type": "choose", "q": "Do you walk to the market? – Yes, I ___.", "es": "¿Vas andando al mercado? – Sí.", "options": ["do", "walk", "am"], "answer": "do", "why": "Respuesta corta: Yes, I do.", "g": "en-g-present-simple" },
+    { "id": "e6", "type": "choose", "q": "Do they live near you? – No, they ___.", "es": "¿Viven cerca de ti? – No.", "options": ["don't", "aren't", "no"], "answer": "don't", "why": "Respuesta corta negativa: No, they don't.", "g": "en-g-present-simple" },
+    { "id": "e7", "type": "choose", "q": "What time ___ you get up?", "es": "¿A qué hora te levantas?", "options": ["do", "are", "—"], "answer": "do", "why": "Pregunta con What time: hace falta do.", "g": "en-g-present-simple" },
+    { "id": "e8", "type": "choose", "q": "My friends and I ___ tea in the afternoon.", "es": "Mis amigas y yo tomamos té por la tarde.", "options": ["drink", "drinks", "are drink"], "answer": "drink", "why": "My friends and I = we: drink, sin -s.", "g": "en-g-present-simple" },
+    { "id": "e9", "type": "fill", "q": "I ___ up at half past seven.", "es": "Me levanto a las siete y media.", "answer": ["get"], "bank": ["get", "go", "have"], "why": "Levantarse = get up.", "g": "en-g-present-simple" },
+    { "id": "e10", "type": "fill", "q": "We ___ breakfast in the kitchen.", "es": "Desayunamos en la cocina.", "answer": ["have"], "bank": ["have", "take", "eat"], "why": "Desayunar = have breakfast.", "g": "en-g-present-simple" },
+    { "id": "e11", "type": "fill", "q": "They ___ watch TV in the morning.", "es": "Por la mañana no ven la tele.", "answer": ["don't", "do not"], "bank": ["don't", "no", "aren't"], "why": "Negativa: don't + verbo.", "g": "en-g-present-simple" },
+    { "id": "e12", "type": "fill", "q": "___ you work on Saturdays?", "es": "¿Trabajas los sábados?", "answer": ["Do"], "bank": ["Do", "Are", "Is"], "why": "Pregunta con verbo normal: Do you…?", "g": "en-g-present-simple" },
+    { "id": "e13", "type": "fill", "q": "Where do you ___? – In Valencia.", "es": "¿Dónde vives? – En Valencia.", "answer": ["live"], "why": "Vivir = live. Después de do, el verbo en forma base.", "g": "en-g-present-simple" },
+    { "id": "e14", "type": "fill", "q": "I ___ to bed at eleven.", "es": "Me acuesto a las once.", "answer": ["go"], "why": "Acostarse = go to bed.", "g": "en-g-present-simple" },
+    { "id": "e15", "type": "fill", "q": "We don't ___ coffee at night.", "es": "No tomamos café por la noche.", "answer": ["drink", "have"], "why": "Después de don't, el verbo tal cual: drink.", "g": "en-g-present-simple" },
+    { "id": "e16", "type": "fill", "q": "Do you like the market? – Yes, I ___. It's lovely.", "es": "¿Te gusta el mercado? – Sí. Es precioso.", "answer": ["do"], "why": "Respuesta corta afirmativa: Yes, I do.", "g": "en-g-present-simple" },
+    { "id": "e17", "type": "conjugate", "verb": "to work", "person": "we", "tense": "presente (negativa)", "q": "We ___ on Sundays.", "answer": ["don't work", "do not work"], "table": [["I / you / we / they", "work"], ["negativa", "don't work"], ["pregunta", "Do … work?"]], "why": "Negativa: don't + work.", "g": "en-g-present-simple" },
+    { "id": "e18", "type": "conjugate", "verb": "to read", "person": "I", "tense": "presente", "q": "I ___ the news on my phone.", "answer": ["read"], "table": [["I / you / we / they", "read"], ["negativa", "don't read"], ["pregunta", "Do … read?"]], "why": "Con I el verbo no cambia: I read.", "g": "en-g-present-simple" },
+    { "id": "e19", "type": "conjugate", "verb": "to eat", "person": "they (negativa)", "tense": "presente", "q": "Lots of children ___ vegetables!", "answer": ["don't eat", "do not eat"], "why": "Children = they: don't eat.", "g": "en-g-present-simple" },
+    { "id": "e20", "type": "conjugate", "verb": "to walk", "person": "you (pregunta)", "tense": "presente", "q": "Do you ___ the dog every day?", "answer": ["walk"], "why": "En la pregunta, después de Do you, el verbo va en forma base: walk.", "g": "en-g-present-simple" },
+    { "id": "e21", "type": "error", "q": "I no drink coffee.", "wrong": "no", "fix": "don't", "why": "La negativa se hace con don't.", "g": "en-g-present-simple" },
+    { "id": "e22", "type": "error", "q": "We doesn't work on Sunday.", "wrong": "doesn't", "fix": "don't", "why": "Con we: don't (doesn't es solo para he/she/it).", "g": "en-g-present-simple" },
+    { "id": "e23", "type": "error", "q": "Are you live in London?", "wrong": "Are", "fix": "Do", "why": "Live es un verbo normal: la pregunta es con Do.", "g": "en-g-present-simple" },
+    { "id": "e24", "type": "error", "q": "I don't likes tea.", "wrong": "likes", "fix": "like", "why": "Después de don't, el verbo sin -s.", "g": "en-g-present-simple" },
+    { "id": "e25", "type": "error", "q": "Do you cook? – Yes, I am.", "wrong": "am.", "fix": "do", "why": "Si la pregunta lleva do, la respuesta corta también: Yes, I do.", "g": "en-g-present-simple" },
+    { "id": "e26", "type": "error", "q": "They lives in a big house.", "wrong": "lives", "fix": "live", "why": "Con they el verbo no lleva -s: they live.", "g": "en-g-present-simple" },
+    { "id": "e27", "type": "order", "es": "No trabajo los lunes", "answer": "I don't work on Mondays", "extra": ["no", "in"], "why": "Sujeto + don't + verbo.", "g": "en-g-present-simple" },
+    { "id": "e28", "type": "order", "es": "¿Vives cerca del centro?", "answer": "Do you live near the centre", "extra": ["Are"], "why": "Do + you + verbo.", "g": "en-g-present-simple" },
+    { "id": "e29", "type": "order", "es": "¿A qué hora cenáis?", "answer": "What time do you have dinner", "extra": ["are"], "why": "What time + do + persona + verbo.", "g": "en-g-present-simple" },
+    { "id": "e30", "type": "order", "es": "Desayunamos a las ocho", "answer": "We have breakfast at eight", "extra": ["take", "in"], "why": "Desayunar = have breakfast; a las ocho = at eight.", "g": "en-g-present-simple" },
+    { "id": "e31", "type": "transform", "instr": "Hazla negativa", "q": "I watch TV in the morning.", "answer": ["I don't watch TV in the morning.", "I do not watch TV in the morning."], "why": "Negativa: don't + verbo.", "g": "en-g-present-simple" },
+    { "id": "e32", "type": "transform", "instr": "Hazla pregunta", "q": "You walk to work.", "answer": ["Do you walk to work?"], "why": "Pregunta: Do al principio.", "g": "en-g-present-simple" },
+    { "id": "e33", "type": "transform", "instr": "Hazla negativa", "q": "We eat meat.", "answer": ["We don't eat meat.", "We do not eat meat."], "why": "We don't + eat.", "g": "en-g-present-simple" },
+    { "id": "e34", "type": "transform", "instr": "Hazla pregunta", "q": "They speak Spanish.", "answer": ["Do they speak Spanish?"], "why": "Do + they + speak.", "g": "en-g-present-simple" },
+    { "id": "e35", "type": "transform", "instr": "Cambia I por We", "q": "I go to the gym on Tuesdays.", "answer": ["We go to the gym on Tuesdays."], "why": "Con we el verbo tampoco cambia.", "g": "en-g-present-simple" },
+    { "id": "e36", "type": "translate", "dir": "to", "q": "Me levanto a las siete.", "answer": ["I get up at seven.", "I get up at seven o'clock.", "I get up at 7."], "why": "Sujeto obligatorio: I get up.", "g": "en-g-present-simple" },
+    { "id": "e37", "type": "translate", "dir": "to", "q": "No bebemos leche.", "answer": ["We don't drink milk.", "We do not drink milk."], "why": "We don't + drink.", "g": "en-g-present-simple" },
+    { "id": "e38", "type": "translate", "dir": "to", "q": "¿Hablas inglés?", "answer": ["Do you speak English?"], "why": "Pregunta con Do + you + speak.", "g": "en-g-present-simple" },
+    { "id": "e39", "type": "translate", "dir": "from", "q": "What time do you go to bed?", "answer": ["¿A qué hora te acuestas?", "¿A qué hora te vas a la cama?", "¿A qué hora os acostáis?"], "why": "Go to bed = acostarse.", "g": "en-g-present-simple" },
+    { "id": "e40", "type": "situation", "context": "Una amiga inglesa te pregunta si cocinas todos los días. Sí, cocinas.", "emoji": "🍳", "options": ["Yes, I do.", "Yes, I cook.", "Yes, I am."], "answer": "Yes, I do.", "why": "Respuesta corta a Do you…?: Yes, I do.", "g": "en-g-present-simple" },
+    { "id": "e41", "type": "situation", "context": "Le dices a la vecina que los domingos no trabajas.", "emoji": "🛋️", "options": ["I don't work on Sundays.", "I no work on Sundays.", "Don't work on Sundays."], "answer": "I don't work on Sundays.", "why": "Sujeto + don't + verbo.", "g": "en-g-present-simple" },
+    { "id": "e42", "type": "situation", "context": "Quieres saber dónde viven Emma y su novio.", "emoji": "🏠", "options": ["Where do you live?", "Where you live?", "Where are you live?"], "answer": "Where do you live?", "why": "Where + do + you + live.", "g": "en-g-present-simple" },
+    { "id": "e43", "type": "match", "pairs": [["Do you like tea?", "Yes, I do."], ["Do they live here?", "No, they don't."], ["What time do you get up?", "At seven."], ["Where do you work?", "In a school."], ["Do we need bread?", "Yes, we do."]], "why": "A Do…? se contesta con do/don't; a What time / Where, con la información.", "g": "en-g-present-simple" },
+    { "id": "e44", "type": "match", "pairs": [["get up", "levantarse"], ["have breakfast", "desayunar"], ["go to bed", "acostarse"], ["have a shower", "ducharse"], ["get dressed", "vestirse"]], "why": "Muchas acciones de la rutina se dicen con get, have o go.", "g": "en-g-present-simple" },
+    { "id": "e45", "type": "choose", "q": "I'm sorry, I ___ understand.", "es": "Lo siento, no entiendo.", "options": ["don't", "not", "am not"], "answer": "don't", "why": "Understand es un verbo normal: I don't understand.", "g": "en-g-present-simple" }
+  ],
+  "reviewed": false
+}

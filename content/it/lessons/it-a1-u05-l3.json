@@ -1,0 +1,433 @@
+{
+  "id": "it-a1-u05-l3",
+  "unit": "it-a1-u05",
+  "title": "Che lavoro fai? Leggo, scrivo, dormo",
+  "goal": "a hablar de tu trabajo y de tu día con verbos en -ere e -ire",
+  "emoji": "💼",
+  "photoQuery": "reading newspaper cafe terrace",
+  "vocab": [
+    {
+      "id": "che-lavoro-fai",
+      "t": "Che lavoro fai?",
+      "es": "¿En qué trabajas?",
+      "emoji": "❓",
+      "pos": "phrase",
+      "note": "De usted: Che lavoro fa?",
+      "ex": {
+        "t": "Che lavoro fai? — Sono infermiera.",
+        "es": "¿En qué trabajas? — Soy enfermera."
+      }
+    },
+    {
+      "id": "sono-in-pensione",
+      "t": "Sono in pensione.",
+      "es": "Estoy jubilada.",
+      "emoji": "🏖️",
+      "pos": "phrase",
+      "note": "¡Ojo! La pensione es también una pensión (hostal) y la paga de jubilación.",
+      "ex": {
+        "t": "Mio marito è in pensione da un anno.",
+        "es": "Mi marido está jubilado desde hace un año."
+      }
+    },
+    {
+      "id": "l-infermiera",
+      "t": "l'infermiera / l'infermiere",
+      "es": "la enfermera / el enfermero",
+      "emoji": "👩‍⚕️",
+      "pos": "n",
+      "ex": {
+        "t": "Mia sorella fa l'infermiera.",
+        "es": "Mi hermana es enfermera."
+      }
+    },
+    {
+      "id": "l-insegnante",
+      "t": "l'insegnante",
+      "es": "el / la profesor/a",
+      "emoji": "👩‍🏫",
+      "pos": "n",
+      "ex": {
+        "t": "La mia amica Carmen è insegnante.",
+        "es": "Mi amiga Carmen es profesora."
+      }
+    },
+    {
+      "id": "leggere",
+      "t": "leggere",
+      "es": "leer",
+      "emoji": "📖",
+      "pos": "v",
+      "ex": {
+        "t": "Leggo il giornale al bar.",
+        "es": "Leo el periódico en el bar."
+      }
+    },
+    {
+      "id": "scrivere",
+      "t": "scrivere",
+      "es": "escribir",
+      "emoji": "✍️",
+      "pos": "v",
+      "ex": {
+        "t": "Scrivo a Hugo su WhatsApp.",
+        "es": "Le escribo a Hugo por WhatsApp."
+      }
+    },
+    {
+      "id": "prendere",
+      "t": "prendere",
+      "es": "tomar, coger",
+      "emoji": "🚌",
+      "pos": "v",
+      "ex": {
+        "t": "Prendo l'autobus alle otto.",
+        "es": "Cojo el autobús a las ocho."
+      }
+    },
+    {
+      "id": "dormire",
+      "t": "dormire",
+      "es": "dormir",
+      "emoji": "😴",
+      "pos": "v",
+      "ex": {
+        "t": "Dopo pranzo dormo un po'.",
+        "es": "Después de comer duermo un poco."
+      }
+    },
+    {
+      "id": "partire",
+      "t": "partire",
+      "es": "salir (de viaje), irse",
+      "emoji": "✈️",
+      "pos": "v",
+      "ex": {
+        "t": "Domani parto per Bari!",
+        "es": "¡Mañana salgo para Bari!"
+      }
+    }
+  ],
+  "grammar": "it-g-presente-ere-ire",
+  "pron": {
+    "title": "Gg de leggere",
+    "tip": "Leggo con g dura (como «gato», pero larga); leggi y legge con una «y» fuerte, como en «yo». La doble se alarga un poco.",
+    "words": [
+      "leggo",
+      "leggi",
+      "legge",
+      "leggiamo",
+      "leggono"
+    ],
+    "pairs": [
+      [
+        "leggo",
+        "leggi"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "La mattina ___ il giornale.",
+      "es": "Por la mañana leo el periódico.",
+      "options": [
+        "leggo",
+        "legge",
+        "leggono"
+      ],
+      "answer": "leggo",
+      "why": "Io → -o: leggo.",
+      "g": "it-g-presente-ere-ire"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Mio marito ___ sul divano.",
+      "es": "Mi marido duerme en el sofá.",
+      "options": [
+        "dorma",
+        "dorme",
+        "dormi"
+      ],
+      "answer": "dorme",
+      "why": "Lui → -e: dorme.",
+      "g": "it-g-presente-ere-ire"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Che lavoro ___?",
+      "es": "¿En qué trabaja usted?",
+      "options": [
+        "fa",
+        "fai",
+        "faccio"
+      ],
+      "answer": "fa",
+      "why": "Con Lei (usted) se usa la 3.ª persona: fa."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Tu ___ l'autobus o la macchina?",
+      "es": "¿Coges el autobús o el coche?",
+      "answer": [
+        "prendi"
+      ],
+      "bank": [
+        "prendi",
+        "prende",
+        "prendes"
+      ],
+      "why": "Tu → -i: prendi.",
+      "g": "it-g-presente-ere-ire"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Le mie amiche ___ domani per Roma.",
+      "es": "Mis amigas salen mañana para Roma.",
+      "answer": [
+        "partono"
+      ],
+      "bank": [
+        "partono",
+        "partano",
+        "partite"
+      ],
+      "why": "Loro → -ono: partono.",
+      "g": "it-g-presente-ere-ire"
+    },
+    {
+      "id": "e6",
+      "type": "conjugate",
+      "verb": "scrivere",
+      "person": "noi",
+      "tense": "presente",
+      "q": "___ una cartolina ai nipoti.",
+      "answer": [
+        "Scriviamo"
+      ],
+      "why": "Noi → -iamo: scriviamo.",
+      "g": "it-g-presente-ere-ire"
+    },
+    {
+      "id": "e7",
+      "type": "conjugate",
+      "verb": "leggere",
+      "person": "voi",
+      "tense": "presente",
+      "q": "___ in italiano?",
+      "answer": [
+        "Leggete"
+      ],
+      "why": "Leggere es en -ere: voi leggete.",
+      "g": "it-g-presente-ere-ire"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Cambia a «io»",
+      "q": "Lei dorme poco.",
+      "answer": [
+        "Io dormo poco.",
+        "Dormo poco."
+      ],
+      "why": "Io → -o: dormo.",
+      "g": "it-g-presente-ere-ire"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "Mia sorella prende il treno.",
+      "answer": [
+        "Mia sorella non prende il treno."
+      ],
+      "why": "Non delante del verbo.",
+      "g": "it-g-presente-ere-ire"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "I nonni leggeno il giornale.",
+      "wrong": "leggeno",
+      "fix": "leggono",
+      "why": "Loro → -ono: leggono.",
+      "g": "it-g-presente-ere-ire"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Tu scrives a Hugo?",
+      "wrong": "scrives",
+      "fix": "scrivi",
+      "why": "Tu acaba en -i: scrivi.",
+      "g": "it-g-presente-ere-ire"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "Estoy jubilada y leo mucho.",
+      "answer": "Sono in pensione e leggo molto",
+      "extra": [
+        "legge"
+      ],
+      "why": "Io → leggo."
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "Mi hermana es enfermera.",
+      "answer": [
+        "Mia sorella è infermiera.",
+        "Mia sorella fa l'infermiera."
+      ],
+      "why": "Ser + profesión: è infermiera o fa l'infermiera."
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Una señora en Bari te pregunta «Che lavoro fa?». Tú ya no trabajas.",
+      "emoji": "🏖️",
+      "options": [
+        "Sono in pensione.",
+        "Sono pensione.",
+        "Ho la pensione."
+      ],
+      "answer": "Sono in pensione.",
+      "why": "Estar jubilada = essere in pensione."
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "leggo",
+        "leggi"
+      ],
+      "answer": "leggi",
+      "es": [
+        "leo",
+        "lees"
+      ],
+      "why": "Ggi suena como una «y» fuerte; ggo, con g dura."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "La sera leggo un libro e dormo.",
+      "es": "Por la noche leo un libro y duermo."
+    }
+  ],
+  "dialog": {
+    "title": "En la terraza del hotel",
+    "setting": "En el desayuno de un hotel de Bari, Yolanda conoce a Paolo",
+    "emoji": "☕",
+    "lines": [
+      {
+        "who": "Paolo",
+        "t": "Buongiorno! Lei è in vacanza?",
+        "es": "¡Buenos días! ¿Está usted de vacaciones?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, sono in pensione. E Lei, che lavoro fa?",
+        "es": "Sí, estoy jubilada. ¿Y usted, en qué trabaja?"
+      },
+      {
+        "who": "Paolo",
+        "t": "Sono insegnante. Scrivo anche libri.",
+        "es": "Soy profesor. También escribo libros."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Che bello! Io leggo molto.",
+        "es": "¡Qué bien! Yo leo mucho."
+      },
+      {
+        "who": "Paolo",
+        "t": "Quando parte?",
+        "es": "¿Cuándo se va?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Parto domenica. Prendo il treno per Roma.",
+        "es": "Me voy el domingo. Cojo el tren a Roma."
+      },
+      {
+        "who": "Paolo",
+        "t": "Buon viaggio, allora!",
+        "es": "¡Buen viaje, entonces!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿En qué trabaja Paolo?",
+        "options": [
+          "Es profesor",
+          "Es médico",
+          "Está jubilado"
+        ],
+        "answer": "Es profesor"
+      },
+      {
+        "q": "¿Qué más hace Paolo?",
+        "options": [
+          "Escribe libros",
+          "Cocina",
+          "Lee periódicos"
+        ],
+        "answer": "Escribe libros"
+      },
+      {
+        "q": "¿Cómo viaja Yolanda a Roma?",
+        "options": [
+          "En tren",
+          "En avión",
+          "En autobús"
+        ],
+        "answer": "En tren"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Che lavoro fa?",
+    "es": "¿En qué trabaja usted?",
+    "context": "Para preguntar a alguien a quien tratas de usted por su trabajo"
+  },
+  "same": {
+    "text": "Igual que en español: muchos verbos en -ere e -ire se parecen a nuestros -er e -ir.",
+    "examples": [
+      {
+        "t": "leggere",
+        "es": "leer"
+      },
+      {
+        "t": "scrivere",
+        "es": "escribir"
+      },
+      {
+        "t": "dormire",
+        "es": "dormir"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "salire",
+    "means": "subir (salire sull'autobus = subir al autobús)",
+    "looksLike": "salir",
+    "emoji": "⬆️",
+    "tip": "Para «salir de casa» se dice uscire; para «salir de viaje», partire. Salire es subir."
+  },
+  "summary": [
+    "-ere: -o, -i, -e, -iamo, -ete, -ono (leggo, legge, leggono)",
+    "-ire: igual, pero voi en -ite (dormite)",
+    "Trabajo: Che lavoro fai? Sono in pensione / Sono infermiera",
+    "Prendere = tomar, coger (el bus, un café)"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u05-l3"
+}

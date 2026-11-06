@@ -1,0 +1,58 @@
+{
+  "id": "it-a2-u05-c3",
+  "unit": "it-a2-u05",
+  "title": "Un día en las Cinque Terre",
+  "setting": "Por la noche, Giulia te llama para saber cómo ha ido tu día en las Cinque Terre",
+  "emoji": "🌊",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao! Allora, ti sono piaciute le Cinque Terre?", "es": "¡Hola! Bueno, ¿te han gustado las Cinque Terre?" },
+      "options": [
+        { "t": "Moltissimo! I paesini erano stupendi.", "es": "¡Muchísimo! Los pueblecitos eran preciosos.", "next": "n2", "ok": true },
+        { "t": "Moltissimo! I paesini sono stati stupendi.", "es": "¡Muchísimo! Los pueblecitos han sido preciosos.", "next": "n2", "ok": false, "feedback": "Para describir cómo eran, mejor el imperfetto: erano stupendi." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che tempo faceva?", "es": "¿Qué tiempo hacía?" },
+      "options": [
+        { "t": "Faceva bel tempo, ma c'era un po' di vento.", "es": "Hacía buen tiempo, pero había un poco de viento.", "next": "n3", "ok": true },
+        { "t": "Era bel tempo, ma faceva un po' di vento.", "es": "Hacía buen tiempo, pero había un poco de viento.", "next": "n3", "ok": false, "feedback": "Faceva bel tempo (con fare) y c'era vento (con c'è)." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Avete preso il battello?", "es": "¿Habéis cogido el barco?" },
+      "options": [
+        { "t": "No, il mare era mosso. Abbiamo preso il treno.", "es": "No, el mar estaba picado. Hemos cogido el tren.", "next": "n4", "ok": true },
+        { "t": "No, il mare è stato mosso. Prendevamo il treno.", "es": "No, el mar estaba picado. Cogíamos el tren.", "next": "n4", "ok": false, "feedback": "Al revés: el mar «estaba» (era mosso) y el tren lo cogisteis una vez (abbiamo preso)." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Hai fatto il bagno a Monterosso?", "es": "¿Te has bañado en Monterosso?" },
+      "options": [
+        { "t": "No, purtroppo ho dimenticato il costume!", "es": "No, ¡por desgracia me he olvidado el bañador!", "next": "n5", "ok": true },
+        { "t": "No, purtroppo ho dimenticato la costumbre!", "es": "No, ¡por desgracia me he olvidado el bañador!", "next": "n5", "ok": false, "feedback": "El bañador es il costume (da bagno). ¡Ojo con el falso amigo!" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Peccato! E a che ora siete tornati?", "es": "¡Qué pena! ¿Y a qué hora habéis vuelto?" },
+      "options": [
+        { "t": "Siamo tornati alle otto. Ero stanchissima!", "es": "Hemos vuelto a las ocho. ¡Estaba cansadísima!", "next": "n6", "ok": true },
+        { "t": "Tornavamo alle otto. Sono stata stanchissima!", "es": "Volvíamos a las ocho. ¡He estado cansadísima!", "next": "n6", "ok": false, "feedback": "La vuelta es un hecho: siamo tornati. Cómo estabas: ero stanchissima." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Allora riposati! Buonanotte, Yolanda!", "es": "¡Pues descansa! ¡Buenas noches, Yolanda!" },
+      "options": [
+        { "t": "Buonanotte, Giulia! A domani!", "es": "¡Buenas noches, Giulia! ¡Hasta mañana!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

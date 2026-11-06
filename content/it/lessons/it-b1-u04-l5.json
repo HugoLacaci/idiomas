@@ -1,0 +1,82 @@
+{
+  "id": "it-b1-u04-l5",
+  "unit": "it-b1-u04",
+  "title": "Reto en Parma: tu reseña",
+  "goal": "a escribir una opinión completa sobre un restaurante, una tienda o un sitio de Parma",
+  "emoji": "⭐",
+  "photoQuery": "parma cathedral square evening",
+  "vocab": [
+    { "id": "opin-la-recensione", "t": "la recensione", "es": "la reseña, la valoración", "emoji": "✍️", "pos": "n", "ex": { "t": "Ho scritto una recensione del ristorante.", "es": "He escrito una reseña del restaurante." } },
+    { "id": "opin-consigliare", "t": "consigliare", "es": "recomendar, aconsejar", "emoji": "👍", "pos": "v", "ex": { "t": "Consiglio questo posto a tutti.", "es": "Recomiendo este sitio a todo el mundo." } },
+    { "id": "opin-accogliente", "t": "accogliente", "es": "acogedor", "emoji": "🏡", "pos": "adj", "ex": { "t": "La trattoria è piccola ma accogliente.", "es": "La trattoria es pequeña pero acogedora." } },
+    { "id": "opin-il-servizio", "t": "il servizio", "es": "el servicio, la atención", "emoji": "🛎️", "pos": "n", "ex": { "t": "Penso che il servizio sia un po' lento.", "es": "Creo que el servicio es un poco lento." } },
+    { "id": "opin-deludente", "t": "deludente", "es": "decepcionante", "emoji": "😞", "pos": "adj", "ex": { "t": "Il dolce è stato deludente.", "es": "El postre ha sido decepcionante." } },
+    { "id": "opin-qualita-prezzo", "t": "il rapporto qualità-prezzo", "es": "la relación calidad-precio", "emoji": "⚖️", "pos": "n", "ex": { "t": "Credo che il rapporto qualità-prezzo sia ottimo.", "es": "Creo que la relación calidad-precio es excelente." } },
+    { "id": "opin-il-culatello", "t": "il culatello", "es": "el culatello (embutido curado de Parma)", "emoji": "🍖", "pos": "n", "ex": { "t": "Il culatello è più caro del prosciutto.", "es": "El culatello es más caro que el jamón." } },
+    { "id": "opin-da-non-perdere", "t": "da non perdere", "es": "imprescindible, que no te puedes perder", "emoji": "📌", "pos": "phrase", "ex": { "t": "Il Duomo di Parma è da non perdere.", "es": "La catedral de Parma es imprescindible." } }
+  ],
+  "grammar": "it-g-congiuntivo-intro",
+  "pron": {
+    "title": "Repaso: sia, abbia y el acento",
+    "tip": "Lee en voz alta frases enteras y marca bien el final: penso che sia, credo che abbia, non credo che costi. La vocal final es la que cambia el sentido.",
+    "words": ["penso che sia", "credo che abbia", "non credo che costi", "accogliente"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "text", "title": "Recensione: Trattoria del Borgo ⭐⭐⭐⭐", "text": "Siamo state qui sabato sera con le mie amiche. Il locale è piccolo ma accogliente. Gli anolini in brodo sono squisiti e penso che il culatello sia il migliore della città. Il servizio, invece, è un po' lento. Il dolce è stato deludente: troppo pesante. Credo che il rapporto qualità-prezzo sia buono. Lo consiglio!", "questions": [
+      { "q": "¿Con quién fue la autora?", "options": ["Con sus amigas", "Con su marido", "Sola"], "answer": "Con sus amigas" },
+      { "q": "¿Qué no le gustó?", "options": ["El postre", "Los anolini", "El culatello"], "answer": "El postre" },
+      { "q": "¿Recomienda el sitio?", "options": ["Sí", "No", "No lo dice"], "answer": "Sí" }
+    ], "why": "Fíjate en penso che sia y credo che sia: dos opiniones con congiuntivo.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e2", "type": "choose", "q": "Credo che il servizio ___ molto gentile.", "es": "Creo que el servicio es muy amable.", "options": ["sia", "è", "abbia"], "answer": "sia", "why": "Repaso: credo che + sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e3", "type": "choose", "q": "Il Duomo è ___: dovete vederlo!", "es": "La catedral es imprescindible: ¡tenéis que verla!", "options": ["da non perdere", "deludente", "insipido"], "answer": "da non perdere", "why": "Da non perdere = que no te puedes perder.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e4", "type": "choose", "q": "Penso che questa trattoria ___ i prezzi giusti.", "es": "Creo que esta trattoria tiene precios justos.", "options": ["abbia", "sia", "ha"], "answer": "abbia", "why": "Tener → avere → che abbia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e5", "type": "fill", "q": "Secondo me, il rapporto qualità-prezzo ___ ottimo.", "es": "Para mí, la relación calidad-precio es excelente.", "answer": ["è"], "bank": ["è", "sia", "abbia"], "why": "¡Ojo! Con secondo me no hace falta congiuntivo: è.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e6", "type": "fill", "q": "Vi ___ questo ristorante: è squisito!", "es": "Os recomiendo este restaurante: ¡está buenísimo!", "answer": ["consiglio"], "bank": ["consiglio", "consigli", "consigliare"], "why": "Io consiglio = yo recomiendo.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e7", "type": "fill", "q": "Non credo che il negozio ___ la domenica.", "es": "No creo que la tienda abra el domingo.", "answer": ["apra"], "hint": "aprire", "why": "Aprire → apra.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e8", "type": "error", "q": "Penso che il locale è molto accogliente.", "wrong": "è", "fix": "sia", "why": "Penso che + sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e9", "type": "error", "q": "La cena è stata delusionante.", "wrong": "delusionante", "fix": "deludente", "why": "Decepcionante se dice deludente.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e10", "type": "order", "es": "Creo que es la mejor heladería de Parma.", "answer": "Credo che sia la gelateria migliore di Parma", "extra": ["è"], "why": "Credo che + sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e11", "type": "transform", "instr": "Empieza con «Mi sembra che»", "q": "Il cameriere parla spagnolo.", "answer": ["Mi sembra che il cameriere parli spagnolo."], "why": "Parlare → parli.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Creo que el servicio es lento.", "answer": ["Penso che il servizio sia lento.", "Credo che il servizio sia lento."], "why": "Creo que es → penso che sia.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e13", "type": "translate", "dir": "from", "q": "Non credo che il dolce sia fatto in casa.", "answer": ["No creo que el postre sea casero.", "No creo que el postre esté hecho en casa.", "No creo que el dulce sea casero."], "why": "Non credo che sia = no creo que sea.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e14", "type": "situation", "context": "El camarero te pregunta qué tal la cena. Te ha encantado.", "emoji": "🍽️", "options": ["Tutto squisito, grazie! Lo consiglierò.", "È stata deludente.", "Penso di no."], "answer": "Tutto squisito, grazie! Lo consiglierò.", "why": "Squisito y consigliare: el mejor elogio.", "g": "it-g-congiuntivo-intro" },
+    { "id": "e15", "type": "match", "pairs": [["accogliente", "acogedor"], ["deludente", "decepcionante"], ["consigliare", "recomendar"], ["la recensione", "la reseña"], ["il servizio", "la atención"]], "why": "Palabras para escribir una reseña." },
+    { "id": "e16", "type": "speak", "t": "Penso che Parma sia una città da non perdere.", "es": "Creo que Parma es una ciudad imprescindible." }
+  ],
+  "dialog": {
+    "title": "¿Qué tal Parma?",
+    "setting": "Yolanda vuelve del viaje y habla por teléfono con su amiga italiana Giulia",
+    "emoji": "📞",
+    "lines": [
+      { "who": "Giulia", "t": "Allora, com'è Parma? Ti è piaciuta?", "es": "Bueno, ¿qué tal Parma? ¿Te ha gustado?" },
+      { "who": "Yolanda", "t": "Moltissimo! Penso che sia una città elegante e tranquilla.", "es": "¡Muchísimo! Creo que es una ciudad elegante y tranquila." },
+      { "who": "Giulia", "t": "E il cibo? Hai assaggiato il culatello?", "es": "¿Y la comida? ¿Probaste el culatello?" },
+      { "who": "Yolanda", "t": "Sì! Credo che sia ancora più buono del prosciutto.", "es": "¡Sí! Creo que está aún más bueno que el jamón." },
+      { "who": "Giulia", "t": "Sono d'accordo. E il Teatro Regio?", "es": "Estoy de acuerdo. ¿Y el Teatro Regio?" },
+      { "who": "Yolanda", "t": "Da non perdere. Mi sembra che abbia un'atmosfera magica.", "es": "Imprescindible. Me parece que tiene un ambiente mágico." },
+      { "who": "Giulia", "t": "Allora scrivi una recensione per il mio blog!", "es": "¡Pues escribe una reseña para mi blog!" },
+      { "who": "Yolanda", "t": "Va bene, ma in italiano non credo che sia perfetta!", "es": "Vale, pero en italiano no creo que quede perfecta." }
+    ],
+    "questions": [
+      { "q": "¿Cómo ve Yolanda Parma?", "options": ["Elegante y tranquila", "Grande y ruidosa", "Cara y fea"], "answer": "Elegante y tranquila" },
+      { "q": "¿Qué le gusta más que el jamón?", "options": ["El culatello", "El queso", "El vinagre"], "answer": "El culatello" },
+      { "q": "¿Qué le pide Giulia?", "options": ["Una reseña para su blog", "Una receta", "Una foto"], "answer": "Una reseña para su blog" }
+    ]
+  },
+  "realLife": { "t": "Lo consiglio a tutti!", "es": "¡Lo recomiendo a todo el mundo!", "context": "Para cerrar una reseña o recomendar un sitio a tus amigas" },
+  "same": {
+    "text": "Para valorar un sitio, muchas palabras son primas del español.",
+    "examples": [
+      { "t": "il servizio", "es": "el servicio" },
+      { "t": "accogliente", "es": "acogedor" },
+      { "t": "la qualità", "es": "la calidad" }
+    ]
+  },
+  "summary": [
+    "Una reseña: el sitio, la comida, el servicio, el precio y si lo recomiendas.",
+    "Opinar: penso che sia, credo che abbia, mi sembra che costi.",
+    "Secondo me + indicativo: secondo me è buono.",
+    "Parma: Parmigiano Reggiano, prosciutto y culatello."
+  ],
+  "reviewed": false
+}

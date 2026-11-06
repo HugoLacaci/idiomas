@@ -1,0 +1,60 @@
+{
+  "id": "en-a2-u07-c3",
+  "unit": "en-a2-u07",
+  "title": "¿Vienes a clase de baile?",
+  "setting": "Emma te manda un audio por WhatsApp: quiere apuntarse a una clase de baile y busca compañía.",
+  "emoji": "💃",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Hi! There's a dance class on Friday. Can you come with me?", "es": "¡Hola! Hay una clase de baile el viernes. ¿Puedes venir conmigo?" },
+      "options": [
+        { "t": "I'd love to! What time is it?", "es": "¡Me encantaría! ¿A qué hora es?", "next": "n2", "ok": true },
+        { "t": "I'd love dancing! What time is it?", "es": "¡Me encantaría! ¿A qué hora es?", "next": "n2", "ok": false, "feedback": "Para aceptar una invitación: I'd love to." },
+        { "t": "I love to come with you yesterday!", "es": "¡Me encanta ir contigo ayer!", "next": "n2", "ok": false, "feedback": "La clase es el viernes, no ayer. Para aceptar: I'd love to!" }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "At six. Can your friend from the market come too?", "es": "A las seis. ¿Puede venir también tu amiga del mercado?" },
+      "options": [
+        { "t": "I don't know. I'll ask her.", "es": "No sé. Le preguntaré.", "next": "n3", "ok": true },
+        { "t": "I don't know. I'll ask she.", "es": "No sé. Le preguntaré.", "next": "n3", "ok": false, "feedback": "Detrás de ask: her." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Great. Does she like dancing?", "es": "Genial. ¿Le gusta bailar?" },
+      "options": [
+        { "t": "Yes, she loves it. She dances at every wedding!", "es": "Sí, le encanta. ¡Baila en todas las bodas!", "next": "n4", "ok": true },
+        { "t": "Yes, she love it. She dances at every wedding!", "es": "Sí, le encanta. ¡Baila en todas las bodas!", "next": "n4", "ok": false, "feedback": "Con she: loves, con -s." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ha ha! And your husband? Does he enjoy dancing?", "es": "¡Ja, ja! ¿Y tu marido? ¿Disfruta bailando?" },
+      "options": [
+        { "t": "No, he hates it! He prefers watching football.", "es": "¡No, lo odia! Prefiere ver el fútbol.", "next": "n5", "ok": true },
+        { "t": "No, he hates it! He prefers watch football.", "es": "¡No, lo odia! Prefiere ver el fútbol.", "next": "n5", "ok": false, "feedback": "Prefer también va bien con -ing: prefers watching." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "OK, just us girls, then! I'll meet you at the door.", "es": "¡Vale, pues solo nosotras! Te veo en la puerta." },
+      "options": [
+        { "t": "Perfect. Send me the address, please.", "es": "Perfecto. Mándame la dirección, por favor.", "next": "n6", "ok": true },
+        { "t": "Perfect. Send I the address, please.", "es": "Perfecto. Mándame la dirección, por favor.", "next": "n6", "ok": false, "feedback": "Mándame = send me." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Done! See you on Friday. Wear comfortable shoes!", "es": "¡Hecho! Nos vemos el viernes. ¡Ponte zapatos cómodos!" },
+      "options": [
+        { "t": "Thanks! I can't wait.", "es": "¡Gracias! Estoy deseando.", "next": "end", "ok": true },
+        { "t": "Thanks! I don't mind wait.", "es": "¡Gracias! No me importa esperar.", "next": "end", "ok": false, "feedback": "Don't mind va con -ing, y aquí lo natural es «I can't wait» (¡estoy deseando!)." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

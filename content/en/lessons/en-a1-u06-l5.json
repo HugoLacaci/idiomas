@@ -1,0 +1,454 @@
+{
+  "id": "en-a1-u06-l5",
+  "unit": "en-a1-u06",
+  "title": "Reto en St Paul's: un día de turismo",
+  "goal": "a contar tu día de viaje y a preguntar por horarios y costumbres en una visita real",
+  "emoji": "⛪",
+  "photoQuery": "st pauls cathedral dome london",
+  "vocab": [
+    {
+      "id": "a-cathedral",
+      "t": "a cathedral",
+      "es": "una catedral",
+      "emoji": "⛪",
+      "pos": "n",
+      "ex": {
+        "t": "The cathedral is open every day.",
+        "es": "La catedral abre todos los días."
+      }
+    },
+    {
+      "id": "the-dome",
+      "t": "the dome",
+      "es": "la cúpula",
+      "emoji": "🏛️",
+      "pos": "n",
+      "ex": {
+        "t": "The view from the dome is amazing.",
+        "es": "La vista desde la cúpula es increíble."
+      }
+    },
+    {
+      "id": "steps",
+      "t": "steps",
+      "es": "escalones",
+      "emoji": "🪜",
+      "pos": "n",
+      "ex": {
+        "t": "There are a lot of steps!",
+        "es": "¡Hay muchísimos escalones!"
+      }
+    },
+    {
+      "id": "climb",
+      "t": "climb",
+      "es": "subir (escalando, a pie)",
+      "emoji": "🧗",
+      "pos": "v",
+      "ex": {
+        "t": "We climb to the top slowly.",
+        "es": "Subimos hasta arriba despacito."
+      }
+    },
+    {
+      "id": "a-service",
+      "t": "a service",
+      "es": "una misa / un oficio religioso",
+      "emoji": "🎶",
+      "pos": "n",
+      "ex": {
+        "t": "We attend the evening service.",
+        "es": "Asistimos al oficio de la tarde."
+      },
+      "note": "Attend a service = ir a misa / asistir a un oficio."
+    },
+    {
+      "id": "an-audio-guide",
+      "t": "an audio guide",
+      "es": "una audioguía",
+      "emoji": "🎧",
+      "pos": "n",
+      "ex": {
+        "t": "Do you have an audio guide in Spanish?",
+        "es": "¿Tiene una audioguía en español?"
+      }
+    },
+    {
+      "id": "visit",
+      "t": "visit",
+      "es": "visitar",
+      "emoji": "📸",
+      "pos": "v",
+      "ex": {
+        "t": "We visit a museum every day on holiday.",
+        "es": "En vacaciones visitamos un museo cada día."
+      }
+    },
+    {
+      "id": "whisper",
+      "t": "whisper",
+      "es": "susurrar",
+      "emoji": "🤫",
+      "pos": "v",
+      "ex": {
+        "t": "Whisper, please. People are praying.",
+        "es": "Habla bajito, por favor. Hay gente rezando."
+      }
+    }
+  ],
+  "grammar": "en-g-present-simple",
+  "pron": {
+    "title": "Repaso: v y b en frases",
+    "tip": "Practica frases enteras y exagera: «We ==v==isit a ==v==ery ==b==eautiful cathedral». V con los dientes en el labio; b con los labios juntos. Despacio primero, luego más rápido.",
+    "words": [
+      "We visit a very beautiful cathedral.",
+      "I love the view.",
+      "The best view in London."
+    ],
+    "pairs": [
+      [
+        "vase",
+        "base"
+      ],
+      [
+        "van",
+        "ban"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "text",
+      "title": "St Paul's Cathedral",
+      "text": "St Paul's is Christopher Wren's cathedral. It's from after the Great Fire of London of 1666. Today visitors climb more than five hundred steps to the top of the dome. In the Whispering Gallery you whisper next to the wall, and your friend on the other side hears you!",
+      "questions": [
+        {
+          "q": "¿Quién es el arquitecto de la catedral?",
+          "options": [
+            "Christopher Wren",
+            "Un rey",
+            "Un arquitecto español"
+          ],
+          "answer": "Christopher Wren"
+        },
+        {
+          "q": "¿Después de qué se construyó?",
+          "options": [
+            "Del Gran Incendio de 1666",
+            "De una guerra",
+            "De una inundación"
+          ],
+          "answer": "Del Gran Incendio de 1666"
+        },
+        {
+          "q": "¿Qué pasa en la Whispering Gallery?",
+          "options": [
+            "Se oye un susurro al otro lado",
+            "Se toma el té",
+            "Se compran recuerdos"
+          ],
+          "answer": "Se oye un susurro al otro lado"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "___ you have an audio guide in Spanish?",
+      "es": "¿Tienen audioguía en español?",
+      "options": [
+        "Do",
+        "Are",
+        "Is"
+      ],
+      "answer": "Do",
+      "why": "Pregunta con have como verbo normal: Do you have…?",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "We ___ the steps slowly.",
+      "es": "Subimos los escalones despacio.",
+      "options": [
+        "climb",
+        "climbs",
+        "are climb"
+      ],
+      "answer": "climb",
+      "why": "Con we el verbo no cambia: we climb.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "On holiday I ___ get up early.",
+      "es": "En vacaciones no me levanto temprano.",
+      "options": [
+        "don't",
+        "no",
+        "doesn't"
+      ],
+      "answer": "don't",
+      "why": "Con I la negativa es don't.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "We ___ the evening service on Sunday.",
+      "es": "El domingo asistimos al oficio de la tarde.",
+      "answer": [
+        "attend"
+      ],
+      "bank": [
+        "attend",
+        "assist",
+        "watch"
+      ],
+      "why": "Asistir a = attend. Assist = ayudar."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "What time ___ you open?",
+      "es": "¿A qué hora abren?",
+      "answer": [
+        "do"
+      ],
+      "bank": [
+        "do",
+        "are",
+        "is"
+      ],
+      "why": "What time + do + you + verbo.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e7",
+      "type": "conjugate",
+      "verb": "to visit",
+      "person": "we",
+      "tense": "presente",
+      "q": "Every summer we ___ a new city.",
+      "answer": [
+        "visit"
+      ],
+      "why": "Con we el verbo va tal cual: visit.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "We assist the service at six.",
+      "wrong": "assist",
+      "fix": "attend",
+      "why": "Asistir a misa u oficio = attend."
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "You sell postcards here?",
+      "wrong": "You",
+      "fix": "Do you",
+      "why": "La pregunta necesita Do: Do you sell postcards here?",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "No subimos a la cúpula",
+      "answer": "We don't climb to the dome",
+      "extra": [
+        "no",
+        "doesn't"
+      ],
+      "why": "We + don't + climb.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "You have tickets for today.",
+      "answer": [
+        "Do you have tickets for today?"
+      ],
+      "why": "Do al principio.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Visitamos la catedral por la mañana.",
+      "answer": [
+        "We visit the cathedral in the morning.",
+        "In the morning we visit the cathedral."
+      ],
+      "why": "We visit + in the morning.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "En la entrada de St Paul's quieres saber si tienen audioguía en español.",
+      "emoji": "🎧",
+      "options": [
+        "Do you have an audio guide in Spanish?",
+        "You have audio guide in Spanish?",
+        "Are you have an audio guide in Spanish?"
+      ],
+      "answer": "Do you have an audio guide in Spanish?",
+      "why": "Pregunta con Do + you + have.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Mandas un WhatsApp a tu hijo Hugo contándole vuestra rutina en Londres.",
+      "emoji": "💬",
+      "options": [
+        "We get up at eight and we visit a museum every day.",
+        "Get up at eight and visit a museum every day.",
+        "We gets up at eight and we visits a museum."
+      ],
+      "answer": "We get up at eight and we visit a museum every day.",
+      "why": "Con sujeto y sin -s: we get up, we visit.",
+      "g": "en-g-present-simple"
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "vase",
+        "base"
+      ],
+      "answer": "vase",
+      "es": [
+        "jarrón",
+        "base"
+      ],
+      "why": "Vase empieza con los dientes en el labio (v)."
+    },
+    {
+      "id": "e16",
+      "type": "match",
+      "pairs": [
+        [
+          "the dome",
+          "la cúpula"
+        ],
+        [
+          "steps",
+          "escalones"
+        ],
+        [
+          "a service",
+          "un oficio / una misa"
+        ],
+        [
+          "whisper",
+          "susurrar"
+        ],
+        [
+          "attend",
+          "asistir a"
+        ]
+      ],
+      "why": "Vocabulario de la visita a la catedral."
+    }
+  ],
+  "dialog": {
+    "title": "En la Whispering Gallery",
+    "setting": "Dentro de la catedral de St Paul's, con una guía",
+    "emoji": "⛪",
+    "lines": [
+      {
+        "who": "Grace",
+        "t": "Welcome to St Paul's! Do you have tickets?",
+        "es": "¡Bienvenidos a St Paul's! ¿Tienen entradas?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, we do. Do you have an audio guide in Spanish?",
+        "es": "Sí. ¿Tienen audioguía en español?"
+      },
+      {
+        "who": "Grace",
+        "t": "Yes, we do. Here you are.",
+        "es": "Sí. Aquí tiene."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Thank you. Do people climb to the top of the dome?",
+        "es": "Gracias. ¿La gente sube hasta lo alto de la cúpula?"
+      },
+      {
+        "who": "Grace",
+        "t": "Yes! There are more than five hundred steps.",
+        "es": "¡Sí! Hay más de quinientos escalones."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Five hundred? I don't climb five hundred steps!",
+        "es": "¿Quinientos? ¡Yo no subo quinientos escalones!"
+      },
+      {
+        "who": "Grace",
+        "t": "Then visit the Whispering Gallery. Whisper to the wall!",
+        "es": "Entonces visite la Galería de los Susurros. ¡Susúrrele a la pared!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Wonderful! My husband can hear me on the other side!",
+        "es": "¡Maravilloso! ¡Mi marido me oye desde el otro lado!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué pide Yolanda?",
+        "options": [
+          "Una audioguía en español",
+          "Un plano",
+          "Un café"
+        ],
+        "answer": "Una audioguía en español"
+      },
+      {
+        "q": "¿Cuántos escalones hay hasta arriba?",
+        "options": [
+          "Más de quinientos",
+          "Cien",
+          "Cincuenta"
+        ],
+        "answer": "Más de quinientos"
+      },
+      {
+        "q": "¿Qué hace Yolanda al final?",
+        "options": [
+          "Susurra en la Galería de los Susurros",
+          "Sube a la cúpula",
+          "Se va de la catedral"
+        ],
+        "answer": "Susurra en la Galería de los Susurros"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "What time do you close?",
+    "es": "¿A qué hora cierran?",
+    "context": "En un museo, una tienda o una iglesia"
+  },
+  "summary": [
+    "Rutina de viaje: we get up, we visit, we climb",
+    "Preguntas útiles: Do you have…? What time do you close?",
+    "attend a service = asistir a misa (assist = ayudar)",
+    "v ≠ b: vase / base, very / berry",
+    "Curiosidad: Christopher Wren reconstruyó St Paul's tras el Gran Incendio de Londres de 1666"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u06-l5"
+}

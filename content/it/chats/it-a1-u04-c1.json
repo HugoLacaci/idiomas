@@ -1,0 +1,61 @@
+{
+  "id": "it-a1-u04-c1",
+  "unit": "it-a1-u04",
+  "title": "Giulia pregunta por tu familia",
+  "setting": "Giulia te escribe por WhatsApp desde Roma",
+  "emoji": "👨‍👩‍👦",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda! Hai figli?", "es": "¡Hola, Yolanda! ¿Tienes hijos?" },
+      "options": [
+        { "t": "Sì, ho un figlio.", "es": "Sí, tengo un hijo.", "next": "n2", "ok": true },
+        { "t": "Sì, sono un figlio.", "es": "Sí, soy un hijo.", "next": "n2", "ok": false, "feedback": "Casi: para «tengo» usamos avere: ho un figlio." },
+        { "t": "Sì, ho una figlio.", "es": "Sí, tengo una hijo.", "next": "n2", "ok": false, "feedback": "Figlio es masculino: un figlio." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che bello! Come si chiama tuo figlio?", "es": "¡Qué bien! ¿Cómo se llama tu hijo?" },
+      "options": [
+        { "t": "Mio figlio si chiama Hugo.", "es": "Mi hijo se llama Hugo.", "next": "n3", "ok": true },
+        { "t": "Il mio figlio si chiama Hugo.", "es": "Mi hijo se llama Hugo.", "next": "n3", "ok": false, "feedback": "Con un familiar en singular no ponemos artículo: mio figlio." },
+        { "t": "Mia figlio si chiama Hugo.", "es": "Mi hijo se llama Hugo.", "next": "n3", "ok": false, "feedback": "Figlio es masculino: mio, no mia." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Hugo! Bel nome. È spagnolo come te?", "es": "¡Hugo! Bonito nombre. ¿Es español como tú?" },
+      "options": [
+        { "t": "Sì, è spagnolo.", "es": "Sí, es español.", "next": "n4", "ok": true },
+        { "t": "Sì, è spagnola.", "es": "Sí, es española.", "next": "n4", "ok": false, "feedback": "Hugo es un chico: spagnolo, en masculino." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Che bello! E i tuoi genitori? Abitano in Spagna?", "es": "¡Qué bien! ¿Y tus padres? ¿Viven en España?" },
+      "options": [
+        { "t": "Sì, i miei genitori abitano in Spagna.", "es": "Sí, mis padres viven en España.", "next": "n5", "ok": true },
+        { "t": "Sì, i miei parenti abitano in Spagna.", "es": "Sí, mis parientes viven en España.", "next": "n5", "ok": false, "feedback": "¡Falso amigo! Los padres son i genitori; i parenti son los parientes." },
+        { "t": "Sì, miei genitori abitano in Spagna.", "es": "Sí, mis padres viven en España.", "next": "n5", "ok": false, "feedback": "En plural vuelve el artículo: i miei genitori." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Io ho due figlie e tre nipoti. E tu, hai nipoti?", "es": "Yo tengo dos hijas y tres nietos. ¿Y tú, tienes nietos?" },
+      "options": [
+        { "t": "Sì, anch'io ho dei nipoti.", "es": "Sí, yo también tengo nietos.", "next": "n6", "ok": true },
+        { "t": "Sì, anch'io sono dei nipoti.", "es": "Sí, yo también soy nietos.", "next": "n6", "ok": false, "feedback": "Para «tengo» usamos avere: ho dei nipoti." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Che bello! Attenzione: nipote vuol dire anche sobrino. Brava, Yolanda!", "es": "¡Qué bien! Ojo: nipote también quiere decir sobrino. ¡Muy bien, Yolanda!" },
+      "options": [
+        { "t": "Grazie, Giulia! A presto!", "es": "¡Gracias, Giulia! ¡Hasta pronto!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,82 @@
+{
+  "id": "it-a1-u06-l1",
+  "unit": "it-a1-u06",
+  "title": "Benvenuta a casa mia",
+  "goal": "a nombrar las habitaciones y las partes de la casa",
+  "emoji": "🏠",
+  "photoQuery": "cozy italian apartment kitchen",
+  "vocab": [
+    { "id": "casa-la-cucina", "t": "la cucina", "es": "la cocina", "emoji": "🍳", "pos": "n", "ex": { "t": "La cucina è piccola ma bella.", "es": "La cocina es pequeña pero bonita." } },
+    { "id": "casa-il-bagno", "t": "il bagno", "es": "el baño", "emoji": "🛁", "pos": "n", "ex": { "t": "Il bagno è nuovo.", "es": "El baño es nuevo." } },
+    { "id": "casa-la-camera-da-letto", "t": "la camera da letto", "es": "el dormitorio", "emoji": "🛏️", "pos": "n", "ex": { "t": "La camera da letto è grande.", "es": "El dormitorio es grande." } },
+    { "id": "casa-il-soggiorno", "t": "il soggiorno", "es": "el salón", "emoji": "🛋️", "pos": "n", "note": "También se dice il salotto.", "ex": { "t": "La sera siamo in soggiorno.", "es": "Por la noche estamos en el salón." } },
+    { "id": "casa-il-balcone", "t": "il balcone", "es": "el balcón", "emoji": "🌿", "pos": "n", "ex": { "t": "Il balcone è pieno di piante.", "es": "El balcón está lleno de plantas." } },
+    { "id": "casa-la-finestra", "t": "la finestra", "es": "la ventana", "emoji": "🪟", "pos": "n", "ex": { "t": "Apro la finestra, fa caldo.", "es": "Abro la ventana, hace calor." } },
+    { "id": "casa-la-porta", "t": "la porta", "es": "la puerta", "emoji": "🚪", "pos": "n", "ex": { "t": "Chiudi la porta, per favore.", "es": "Cierra la puerta, por favor." } },
+    { "id": "casa-l-appartamento", "t": "l'appartamento", "es": "el piso (la vivienda)", "emoji": "🏢", "pos": "n", "ex": { "t": "Mio figlio ha un appartamento piccolo.", "es": "Mi hijo tiene un piso pequeño." } },
+    { "id": "casa-la-tovaglia", "t": "la tovaglia", "es": "el mantel", "emoji": "🍽️", "pos": "n", "note": "¡Ojo! No es «toalla» (toalla = asciugamano).", "ex": { "t": "Metto la tovaglia bianca.", "es": "Pongo el mantel blanco." } }
+  ],
+  "grammar": "it-g-articoli-det",
+  "pron": {
+    "title": "La gn de bagno",
+    "tip": "Gn suena como nuestra ñ: bagno se dice «baño». ¡Lo tienes regalado! Nunca pronuncies la g por separado.",
+    "words": ["bagno", "lasagne", "legno", "Spagna", "ogni"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "___ cucina è piccola.", "options": ["Il", "La", "Lo"], "answer": "La", "why": "Cucina es femenina y empieza por consonante: la cucina.", "g": "it-g-articoli-det" },
+    { "id": "e2", "type": "choose", "q": "___ appartamento di Hugo è nuovo.", "options": ["Il", "L'", "Lo"], "answer": "L'", "why": "Appartamento empieza por vocal: l'appartamento.", "g": "it-g-articoli-det" },
+    { "id": "e3", "type": "choose", "q": "Dov'è ___ bagno?", "es": "¿Dónde está el baño?", "options": ["il", "la", "lo"], "answer": "il", "why": "Bagno es masculino y empieza por consonante normal: il bagno.", "g": "it-g-articoli-det" },
+    { "id": "e4", "type": "fill", "q": "Apro ___ finestra.", "answer": ["la"], "bank": ["la", "il", "le"], "why": "Finestra es femenina singular: la finestra.", "g": "it-g-articoli-det" },
+    { "id": "e5", "type": "fill", "q": "Metto ___ tovaglia bianca.", "es": "Pongo el mantel blanco.", "answer": ["la"], "bank": ["la", "il", "lo"], "why": "Tovaglia es femenina: la tovaglia (aunque en español «mantel» sea masculino).", "g": "it-g-articoli-det" },
+    { "id": "e6", "type": "match", "pairs": [["la cucina", "la cocina"], ["il bagno", "el baño"], ["il soggiorno", "el salón"], ["la finestra", "la ventana"], ["la tovaglia", "el mantel"]], "why": "Las palabras básicas de la casa." },
+    { "id": "e7", "type": "error", "q": "Lo balcone è grande.", "wrong": "Lo", "fix": "Il", "why": "Lo solo va delante de s + consonante, z, gn…; balcone lleva il.", "g": "it-g-articoli-det" },
+    { "id": "e8", "type": "error", "q": "Prendo la toaglia per il bagno.", "wrong": "toaglia", "fix": "asciugamano", "why": "La toalla se dice l'asciugamano. La tovaglia es el mantel, para la mesa." },
+    { "id": "e9", "type": "order", "es": "La cocina es pequeña pero bonita.", "answer": "La cucina è piccola ma bella", "extra": ["il"], "why": "Artículo + nombre + è + adjetivo, como en español." },
+    { "id": "e10", "type": "translate", "dir": "to", "q": "el dormitorio y el baño", "answer": ["la camera da letto e il bagno", "la camera e il bagno"], "why": "Dormitorio = camera da letto (femenino); baño = il bagno." },
+    { "id": "e11", "type": "translate", "dir": "from", "q": "Chiudi la porta, per favore.", "answer": ["Cierra la puerta, por favor", "Cierra la puerta por favor"], "why": "Porta = puerta; chiudi = cierra." },
+    { "id": "e12", "type": "situation", "context": "Estás en casa de una amiga italiana y necesitas el baño. ¿Qué preguntas?", "emoji": "🚻", "options": ["Scusa, dov'è il bagno?", "Scusa, dov'è la tovaglia?", "Scusa, dov'è il balcone?"], "answer": "Scusa, dov'è il bagno?", "why": "Bagno = baño. Dov'è = ¿dónde está?" },
+    { "id": "e13", "type": "minimal", "pair": ["bagno", "banco"], "answer": "bagno", "es": ["baño", "banco, pupitre"], "why": "Gn suena ñ: «baño». Banco suena con n y k." },
+    { "id": "e14", "type": "reading", "kind": "message", "title": "WhatsApp de Hugo", "text": "Mamma, ecco il mio nuovo appartamento! La cucina è piccola, ma il soggiorno è grande e luminoso. Il bagno è nuovo. E c'è un balcone!", "questions": [
+      { "q": "¿Cómo es la cocina?", "options": ["Pequeña", "Grande", "Nueva"], "answer": "Pequeña" },
+      { "q": "¿Qué tiene además el piso?", "options": ["Un balcón", "Un jardín", "Dos baños"], "answer": "Un balcón" }
+    ], "why": "Piccola = pequeña; balcone = balcón." },
+    { "id": "e15", "type": "speak", "t": "Benvenuta a casa mia!", "es": "¡Bienvenida a mi casa!" }
+  ],
+  "dialog": {
+    "title": "Visita a casa de Paola",
+    "setting": "En el piso de una amiga italiana, en Roma",
+    "emoji": "🏠",
+    "lines": [
+      { "who": "Paola", "t": "Ciao Yolanda! Benvenuta a casa mia!", "es": "¡Hola, Yolanda! ¡Bienvenida a mi casa!" },
+      { "who": "Yolanda", "t": "Grazie! Che bella casa!", "es": "¡Gracias! ¡Qué casa tan bonita!" },
+      { "who": "Paola", "t": "Questo è il soggiorno.", "es": "Este es el salón." },
+      { "who": "Yolanda", "t": "È molto luminoso. E la cucina?", "es": "Es muy luminoso. ¿Y la cocina?" },
+      { "who": "Paola", "t": "La cucina è qui. È piccola.", "es": "La cocina está aquí. Es pequeña." },
+      { "who": "Yolanda", "t": "Piccola ma carina! Scusa, dov'è il bagno?", "es": "¡Pequeña pero mona! Perdona, ¿dónde está el baño?" },
+      { "who": "Paola", "t": "Lì, tra la camera da letto e la cucina.", "es": "Allí, entre el dormitorio y la cocina." },
+      { "who": "Yolanda", "t": "Grazie mille!", "es": "¡Muchísimas gracias!" }
+    ],
+    "questions": [
+      { "q": "¿Cómo es el salón?", "options": ["Muy luminoso", "Muy pequeño", "Muy viejo"], "answer": "Muy luminoso" },
+      { "q": "¿Cómo es la cocina?", "options": ["Pequeña", "Enorme", "Oscura"], "answer": "Pequeña" },
+      { "q": "¿Dónde está el baño?", "options": ["Entre el dormitorio y la cocina", "En el balcón", "Dentro de la cocina"], "answer": "Entre el dormitorio y la cocina" }
+    ]
+  },
+  "realLife": { "t": "Scusa, dov'è il bagno?", "es": "Perdona, ¿dónde está el baño?", "context": "En casa de alguien de confianza (de usted: Scusi, dov'è il bagno?)" },
+  "same": {
+    "text": "Muchas palabras de la casa se parecen muchísimo al español. Solo cambia un poco la terminación.",
+    "examples": [
+      { "t": "la cucina", "es": "la cocina" },
+      { "t": "il balcone", "es": "el balcón" },
+      { "t": "la porta", "es": "la puerta" }
+    ]
+  },
+  "falseFriend": { "word": "la tovaglia", "means": "el mantel", "looksLike": "la toalla (en italiano: l'asciugamano)", "emoji": "🍽️", "tip": "La tovaglia va en la mesa; el asciugamano, en el baño." },
+  "summary": [
+    "Habitaciones: la cucina, il bagno, la camera da letto, il soggiorno.",
+    "Partes de la casa: la porta, la finestra, il balcone.",
+    "Gn suena ñ: bagno = «baño».",
+    "La tovaglia es el mantel; la toalla es l'asciugamano."
+  ],
+  "reviewed": false
+}

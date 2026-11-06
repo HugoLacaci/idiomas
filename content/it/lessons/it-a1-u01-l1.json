@@ -1,0 +1,432 @@
+{
+  "id": "it-a1-u01-l1",
+  "unit": "it-a1-u01",
+  "title": "Buongiorno, buonasera, ciao",
+  "goal": "a saludar y despedirte en cada momento del día",
+  "emoji": "👋",
+  "photoQuery": "piazza navona rome morning",
+  "vocab": [
+    {
+      "id": "buongiorno",
+      "t": "buongiorno",
+      "es": "buenos días",
+      "emoji": "☀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Buongiorno, signora!",
+        "es": "¡Buenos días, señora!"
+      },
+      "note": "Se usa por la mañana y hasta media tarde, más o menos."
+    },
+    {
+      "id": "buonasera",
+      "t": "buonasera",
+      "es": "buenas tardes / buenas noches",
+      "emoji": "🌆",
+      "pos": "phrase",
+      "ex": {
+        "t": "Buonasera a tutti!",
+        "es": "¡Buenas tardes a todos!"
+      },
+      "note": "A partir de media tarde, al llegar a un sitio."
+    },
+    {
+      "id": "buonanotte",
+      "t": "buonanotte",
+      "es": "buenas noches (al irse a dormir)",
+      "emoji": "🌙",
+      "pos": "phrase",
+      "ex": {
+        "t": "Buonanotte, Hugo!",
+        "es": "¡Buenas noches, Hugo!"
+      }
+    },
+    {
+      "id": "salve",
+      "t": "salve",
+      "es": "hola (neutro)",
+      "emoji": "🙋‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Salve! Un biglietto, per favore.",
+        "es": "¡Hola! Una entrada, por favor."
+      },
+      "note": "Un «hola» que sirve con desconocidos."
+    },
+    {
+      "id": "arrivederci",
+      "t": "arrivederci",
+      "es": "adiós",
+      "emoji": "🚶‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Grazie, arrivederci!",
+        "es": "¡Gracias, adiós!"
+      }
+    },
+    {
+      "id": "a-presto",
+      "t": "a presto",
+      "es": "hasta pronto",
+      "emoji": "⏳",
+      "pos": "phrase",
+      "ex": {
+        "t": "Ciao, a presto!",
+        "es": "¡Adiós, hasta pronto!"
+      }
+    },
+    {
+      "id": "come-stai",
+      "t": "Come stai?",
+      "es": "¿Cómo estás?",
+      "emoji": "🙂",
+      "pos": "phrase",
+      "ex": {
+        "t": "Ciao, Giulia! Come stai?",
+        "es": "¡Hola, Giulia! ¿Cómo estás?"
+      }
+    },
+    {
+      "id": "bene-grazie",
+      "t": "Bene, grazie.",
+      "es": "Bien, gracias.",
+      "emoji": "👍",
+      "pos": "phrase",
+      "ex": {
+        "t": "Bene, grazie. E tu?",
+        "es": "Bien, gracias. ¿Y tú?"
+      }
+    },
+    {
+      "id": "piacere",
+      "t": "Piacere!",
+      "es": "¡Encantada! / ¡Mucho gusto!",
+      "emoji": "🤝",
+      "pos": "phrase",
+      "ex": {
+        "t": "Piacere, sono Yolanda.",
+        "es": "Encantada, soy Yolanda."
+      }
+    },
+    {
+      "id": "mi-chiamo",
+      "t": "mi chiamo",
+      "es": "me llamo",
+      "emoji": "📛",
+      "pos": "phrase",
+      "ex": {
+        "t": "Mi chiamo Yolanda.",
+        "es": "Me llamo Yolanda."
+      }
+    }
+  ],
+  "grammar": "it-g-pronomi-soggetto",
+  "pron": {
+    "title": "Ciao y buongiorno",
+    "tip": "Ciao se dice «chao»: la i no suena, solo marca el sonido «ch». En buongiorno pasa igual: gio suena «yo» fuerte, «buonyorno».",
+    "words": [
+      "ciao",
+      "buongiorno",
+      "buonasera",
+      "arrivederci",
+      "piacere"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Alle nove di mattina: ___!",
+      "es": "A las nueve de la mañana: ¡buenos días!",
+      "options": [
+        "Buongiorno",
+        "Buonasera",
+        "Buonanotte"
+      ],
+      "answer": "Buongiorno",
+      "why": "Por la mañana se saluda con buongiorno."
+    },
+    {
+      "id": "e2",
+      "type": "situation",
+      "context": "Entras en una tienda de Roma a las seis de la tarde.",
+      "emoji": "🛍️",
+      "options": [
+        "Buonasera!",
+        "Buonanotte!",
+        "Buongiorno, amore!"
+      ],
+      "answer": "Buonasera!",
+      "why": "Por la tarde, al llegar a un sitio, se dice buonasera."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "q": "Bene, grazie. E ___?",
+      "es": "Bien, gracias. ¿Y tú?",
+      "answer": [
+        "tu"
+      ],
+      "bank": [
+        "tu",
+        "io",
+        "lui"
+      ],
+      "g": "it-g-pronomi-soggetto",
+      "why": "Para devolver la pregunta a alguien de confianza: e tu? (¿y tú?)."
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Vado a dormire. ___, Hugo!",
+      "es": "Me voy a dormir. ¡Buenas noches, Hugo!",
+      "options": [
+        "Buonanotte",
+        "Buonasera",
+        "Buongiorno"
+      ],
+      "answer": "Buonanotte",
+      "why": "Buonanotte solo se dice al irse a dormir o al despedirse muy tarde."
+    },
+    {
+      "id": "e5",
+      "type": "order",
+      "es": "Encantada, soy Yolanda.",
+      "answer": "Piacere sono Yolanda",
+      "extra": [
+        "chiamo"
+      ],
+      "why": "Piacere = encantada; sono = soy."
+    },
+    {
+      "id": "e6",
+      "type": "situation",
+      "context": "Te despides de la dependienta de una tienda.",
+      "emoji": "🚪",
+      "options": [
+        "Arrivederci!",
+        "Ciao, amore!",
+        "Piacere!"
+      ],
+      "answer": "Arrivederci!",
+      "why": "Con desconocidos, arrivederci es lo más correcto. Ciao es para gente de confianza."
+    },
+    {
+      "id": "e7",
+      "type": "match",
+      "pairs": [
+        [
+          "Buongiorno",
+          "Buenos días"
+        ],
+        [
+          "Buonasera",
+          "Buenas tardes"
+        ],
+        [
+          "Buonanotte",
+          "Buenas noches (a dormir)"
+        ],
+        [
+          "Arrivederci",
+          "Adiós"
+        ],
+        [
+          "A presto",
+          "Hasta pronto"
+        ]
+      ],
+      "why": "El saludo cambia según la hora del día."
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "q": "Mi ___ Yolanda.",
+      "es": "Me llamo Yolanda.",
+      "answer": [
+        "chiamo"
+      ],
+      "bank": [
+        "chiamo",
+        "llamo",
+        "chiama"
+      ],
+      "why": "Me llamo = mi chiamo. Ojo: chi suena «qui»."
+    },
+    {
+      "id": "e9",
+      "type": "choose",
+      "q": "Ciao, Giulia! Come ___?",
+      "es": "¡Hola, Giulia! ¿Cómo estás?",
+      "options": [
+        "stai",
+        "sei",
+        "sta"
+      ],
+      "answer": "stai",
+      "g": "it-g-tu-lei",
+      "why": "Para preguntar a alguien de confianza cómo está: come stai?"
+    },
+    {
+      "id": "e10",
+      "type": "situation",
+      "context": "Te presentan a la vecina de tu amiga Giulia.",
+      "emoji": "🤝",
+      "options": [
+        "Piacere!",
+        "Arrivederci!",
+        "Buonanotte!"
+      ],
+      "answer": "Piacere!",
+      "why": "Al conocer a alguien se dice piacere: encantada."
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Buenos días, ¿cómo estás?",
+      "answer": [
+        "Buongiorno, come stai?",
+        "Buongiorno come stai"
+      ],
+      "why": "Buenos días = buongiorno; ¿cómo estás? = come stai?"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "¡Adiós, hasta pronto!",
+      "answer": "Ciao a presto",
+      "extra": [
+        "sera"
+      ],
+      "why": "A presto = hasta pronto."
+    },
+    {
+      "id": "e13",
+      "type": "error",
+      "q": "Buonanotte! Un caffè, per favore.",
+      "wrong": "Buonanotte",
+      "fix": "Buongiorno",
+      "es": "(Por la mañana, en el bar) ¡Buenos días! Un café, por favor.",
+      "why": "Por la mañana se saluda con buongiorno; buonanotte es para irse a dormir."
+    },
+    {
+      "id": "e14",
+      "type": "speak",
+      "t": "Piacere, mi chiamo Yolanda.",
+      "es": "Encantada, me llamo Yolanda."
+    }
+  ],
+  "dialog": {
+    "title": "La vecina del portal",
+    "setting": "En el portal de un edificio de Roma, por la mañana",
+    "emoji": "🏠",
+    "lines": [
+      {
+        "who": "Maria",
+        "t": "Buongiorno, signora!",
+        "es": "¡Buenos días, señora!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Buongiorno! Mi chiamo Yolanda.",
+        "es": "¡Buenos días! Me llamo Yolanda."
+      },
+      {
+        "who": "Maria",
+        "t": "Piacere, io sono Maria Bianchi.",
+        "es": "Encantada, yo soy Maria Bianchi."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Piacere! Come sta?",
+        "es": "¡Encantada! ¿Cómo está?"
+      },
+      {
+        "who": "Maria",
+        "t": "Bene, grazie. E Lei?",
+        "es": "Bien, gracias. ¿Y usted?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Molto bene, grazie!",
+        "es": "¡Muy bien, gracias!"
+      },
+      {
+        "who": "Maria",
+        "t": "Allora arrivederci, e a presto!",
+        "es": "Bueno, ¡adiós y hasta pronto!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Arrivederci, signora!",
+        "es": "¡Adiós, señora!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuándo se encuentran?",
+        "options": [
+          "Por la mañana",
+          "Por la noche"
+        ],
+        "answer": "Por la mañana"
+      },
+      {
+        "q": "¿Cómo se llama la vecina?",
+        "options": [
+          "Maria Bianchi",
+          "Giulia Rossi",
+          "Carla"
+        ],
+        "answer": "Maria Bianchi"
+      },
+      {
+        "q": "¿Cómo está Yolanda?",
+        "options": [
+          "Muy bien",
+          "Regular",
+          "Cansada"
+        ],
+        "answer": "Muy bien"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Piacere, sono Yolanda.",
+    "es": "Encantada, soy Yolanda.",
+    "context": "Cuando te presentan a alguien"
+  },
+  "same": {
+    "text": "Igual que en español, el saludo cambia según la hora del día.",
+    "examples": [
+      {
+        "t": "Buongiorno!",
+        "es": "¡Buenos días!"
+      },
+      {
+        "t": "Buonasera!",
+        "es": "¡Buenas tardes!"
+      },
+      {
+        "t": "Buonanotte!",
+        "es": "¡Buenas noches!"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "presto",
+    "means": "pronto, temprano",
+    "looksLike": "presto (listo, rápido)",
+    "emoji": "⏳",
+    "tip": "«A presto!» es «¡Hasta pronto!». Y al revés: «pronto» en italiano es «listo», y se dice al coger el teléfono: «Pronto?»."
+  },
+  "summary": [
+    "Buongiorno por la mañana, buonasera por la tarde",
+    "Buonanotte solo al irse a dormir",
+    "Ciao con amigos; arrivederci con todo el mundo",
+    "Para presentarte: Piacere, mi chiamo Yolanda"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u01-l1"
+}

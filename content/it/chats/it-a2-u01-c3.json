@@ -1,0 +1,60 @@
+{
+  "id": "it-a2-u01-c3",
+  "unit": "it-a2-u01",
+  "title": "Cuéntale a Giulia tu día en Florencia",
+  "setting": "Por la noche, Giulia te llama para que le cuentes tu día en Florencia",
+  "emoji": "⛪",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Allora, cosa avete fatto oggi?", "es": "Bueno, ¿qué habéis hecho hoy?" },
+      "options": [
+        { "t": "Abbiamo fatto un giro in centro.", "es": "Hemos dado una vuelta por el centro.", "next": "n2", "ok": true },
+        { "t": "Abbiamo fato un giro in centro.", "es": "Hemos dado una vuelta por el centro.", "next": "n2", "ok": false, "feedback": "Fatto lleva doble t: abbiamo fatto." },
+        { "t": "Abbiamo faciuto un giro in centro.", "es": "Hemos dado una vuelta por el centro.", "next": "n2", "ok": false, "feedback": "Fare es irregular: fatto." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "E avete visto il David?", "es": "¿Y habéis visto el David?" },
+      "options": [
+        { "t": "Sì, abbiamo visto il David stamattina. È enorme!", "es": "Sí, hemos visto el David esta mañana. ¡Es enorme!", "next": "n3", "ok": true },
+        { "t": "Sì, abbiamo vedito il David. È enorme!", "es": "Sí, hemos visto el David. ¡Es enorme!", "next": "n3", "ok": false, "feedback": "Vedere → visto." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Hai preso qualcosa per Hugo?", "es": "¿Has cogido algo para Hugo?" },
+      "options": [
+        { "t": "Sì, ho preso un libro su Michelangelo.", "es": "Sí, le he cogido un libro sobre Miguel Ángel.", "next": "n4", "ok": true },
+        { "t": "Sì, ho prenduto un libro su Michelangelo.", "es": "Sí, le he cogido un libro sobre Miguel Ángel.", "next": "n4", "ok": false, "feedback": "Prendere → preso." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Che bel pensiero! E le cartoline?", "es": "¡Qué detalle! ¿Y las postales?" },
+      "options": [
+        { "t": "Ho scritto tre cartoline al bar.", "es": "He escrito tres postales en el bar.", "next": "n5", "ok": true },
+        { "t": "Ho scrivuto tre cartoline al bar.", "es": "He escrito tres postales en el bar.", "next": "n5", "ok": false, "feedback": "Scrivere → scritto." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Lo sai che a Firenze è nato l'italiano di oggi?", "es": "¿Sabes que en Florencia nació el italiano de hoy?" },
+      "options": [
+        { "t": "Sì, ho letto la storia nella guida: grazie a Dante!", "es": "Sí, he leído la historia en la guía: ¡gracias a Dante!", "next": "n6", "ok": true },
+        { "t": "Sì, ho leggiuto la storia nella guida: grazie a Dante!", "es": "Sí, he leído la historia en la guía: ¡gracias a Dante!", "next": "n6", "ok": false, "feedback": "Leggere → letto." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Brava! Parli già come una fiorentina!", "es": "¡Muy bien! ¡Ya hablas como una florentina!" },
+      "options": [
+        { "t": "Grazie! Ho imparato tanto oggi.", "es": "¡Gracias! Hoy he aprendido mucho.", "next": "end", "ok": true },
+        { "t": "Grazie! Ho imparata tanto oggi.", "es": "¡Gracias! Hoy he aprendido mucho.", "next": "end", "ok": false, "feedback": "Con avere el participio no cambia: ho imparato." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,79 @@
+{
+  "id": "it-b1-u07-l2",
+  "unit": "it-b1-u07",
+  "title": "Se piove, resto a casa",
+  "goal": "a decir qué haces si pasa algo (Se piove, resto a casa) y a conocer las formas fossi, avessi, potessi",
+  "emoji": "☔",
+  "photoQuery": "rainy window seaside town",
+  "vocab": [
+    { "id": "sogni-se", "t": "se", "es": "si (condición)", "emoji": "❓", "pos": "other", "ex": { "t": "Se hai tempo, vieni con noi!", "es": "Si tienes tiempo, ¡vente con nosotros!" }, "note": "Se = si (condición). Sì, con tilde, = sí." },
+    { "id": "sogni-se-piove", "t": "se piove", "es": "si llueve", "emoji": "🌧️", "pos": "phrase", "ex": { "t": "Se piove, restiamo a casa e giochiamo a carte.", "es": "Si llueve, nos quedamos en casa y jugamos a las cartas." } },
+    { "id": "sogni-se-fa-bel-tempo", "t": "se fa bel tempo", "es": "si hace buen tiempo", "emoji": "☀️", "pos": "phrase", "ex": { "t": "Se fa bel tempo, domani andiamo al mare.", "es": "Si hace buen tiempo, mañana vamos a la playa." } },
+    { "id": "sogni-fossi", "t": "(se) fossi", "es": "(si) fuera / estuviera", "emoji": "✨", "pos": "v", "ex": { "t": "Se fossi più giovane, farei surf.", "es": "Si fuera más joven, haría surf." }, "note": "Congiuntivo imperfetto de essere. Vale para io y para tu." },
+    { "id": "sogni-avessi", "t": "(se) avessi", "es": "(si) tuviera", "emoji": "🤲", "pos": "v", "ex": { "t": "Se avessi più tempo, leggerei di più.", "es": "Si tuviera más tiempo, leería más." } },
+    { "id": "sogni-potessi", "t": "(se) potessi", "es": "(si) pudiera", "emoji": "🙌", "pos": "v", "ex": { "t": "Se potessi, partirei domani.", "es": "Si pudiera, me iría mañana." } },
+    { "id": "sogni-andassi", "t": "(se) andassi", "es": "(si) fuera (de ir)", "emoji": "🚶‍♀️", "pos": "v", "ex": { "t": "Se andassi in Sardegna, vedrei i nuraghi.", "es": "Si fuera a Cerdeña, vería los nuraghi." } },
+    { "id": "sogni-facessi", "t": "(se) facessi", "es": "(si) hiciera", "emoji": "🛠️", "pos": "v", "ex": { "t": "Se facessi più sport, starei meglio.", "es": "Si hiciera más deporte, estaría mejor." } },
+    { "id": "sogni-sapessi", "t": "(se) sapessi", "es": "(si) supiera", "emoji": "🧠", "pos": "v", "ex": { "t": "Se sapessi la risposta, te la direi.", "es": "Si supiera la respuesta, te la diría." } }
+  ],
+  "grammar": "it-g-periodo-ipotetico-intro",
+  "pron": {
+    "title": "La doble s de avessi, potessi",
+    "tip": "En el congiuntivo imperfetto casi todo lleva ss: avessi, potessi, andassi. Alarga un poquito la s, como un pequeño silbido: ave-ssi, pote-ssi.",
+    "words": ["avessi", "potessi", "andassi", "facessi", "fossi"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Se ___ tempo, vieni al mare con noi!", "es": "Si tienes tiempo, ¡vente a la playa con nosotros!", "options": ["hai", "avessi", "avresti"], "answer": "hai", "why": "Algo real: se + presente, y después puede ir un imperativo (vieni!).", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e2", "type": "choose", "q": "Se piove, ___ a casa.", "es": "Si llueve, me quedo en casa.", "options": ["resto", "resterei", "restassi"], "answer": "resto", "why": "Condición real: se + presente → presente, como en español.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e3", "type": "choose", "q": "Se domani fa bel tempo, ___ in spiaggia.", "es": "Si mañana hace buen tiempo, vamos a la playa.", "options": ["andiamo", "andassimo", "andare"], "answer": "andiamo", "why": "Con se + presente, la otra parte va en presente (o futuro): andiamo.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e4", "type": "fill", "q": "Se ___ stanca, riposati un po'.", "es": "Si estás cansada, descansa un poco.", "answer": ["sei"], "bank": ["sei", "fossi", "saresti"], "why": "Es algo real ahora mismo: se + presente (sei).", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e5", "type": "fill", "q": "Se mio figlio Hugo ___, gli dico di venire a cena.", "es": "Si mi hijo Hugo llama, le digo que venga a cenar.", "answer": ["chiama"], "hint": "chiamare (lui), presente", "why": "Condición real: se + presente. Lui → chiama.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e6", "type": "conjugate", "verb": "essere", "person": "io", "tense": "congiuntivo imperfetto", "q": "Se ___ ricca, comprerei una casa al mare.", "answer": ["fossi"], "table": [["io", "fossi"], ["tu", "fossi"], ["lui/lei", "fosse"], ["noi", "fossimo"], ["voi", "foste"], ["loro", "fossero"]], "why": "Essere es irregular: fossi (si fuera).", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e7", "type": "conjugate", "verb": "avere", "person": "noi", "tense": "congiuntivo imperfetto", "q": "Se ___ una barca, visiteremmo tutte le calette.", "answer": ["avessimo"], "table": [["io", "avessi"], ["tu", "avessi"], ["lui/lei", "avesse"], ["noi", "avessimo"], ["voi", "aveste"], ["loro", "avessero"]], "why": "Avere es regular: av- + -essimo.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e8", "type": "conjugate", "verb": "potere", "person": "tu", "tense": "congiuntivo imperfetto", "q": "Se ___, cosa faresti?", "answer": ["potessi"], "why": "Tu → potessi, igual que io.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e9", "type": "match", "pairs": [["essere", "fossi"], ["avere", "avessi"], ["fare", "facessi"], ["stare", "stessi"], ["dare", "dessi"]], "why": "Los más usados del congiuntivo imperfetto (io).", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e10", "type": "transform", "instr": "Cambia la persona: de tu a io", "q": "Se tu avessi tempo, cosa faresti?", "answer": ["Se io avessi tempo, cosa farei?", "Se avessi tempo, cosa farei?"], "why": "Avessi sirve para io y para tu; solo cambia el condicional: faresti → farei.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e11", "type": "error", "q": "Se stassi meglio, verrei con voi.", "wrong": "stassi", "fix": "stessi", "why": "Stare es irregular: stessi, con e (no «stassi»).", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e12", "type": "error", "q": "Se io fassi più sport, starei meglio.", "wrong": "fassi", "fix": "facessi", "why": "Fare usa la raíz fac-: facessi (como facevo).", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e13", "type": "order", "es": "Si llueve, nos quedamos en casa.", "answer": "Se piove restiamo a casa", "extra": ["restassimo"], "why": "Condición real: se + presente → presente.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e14", "type": "translate", "dir": "to", "q": "Si tienes tiempo, ¡llámame!", "answer": ["Se hai tempo, chiamami!", "Se hai tempo chiamami!"], "why": "Se + presente + imperativo: se hai tempo, chiamami!", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e15", "type": "situation", "context": "Tu amiga duda si venir mañana a la playa. Le dices que venga si hace buen tiempo.", "emoji": "☀️", "options": ["Se fa bel tempo, vieni!", "Se farebbe bel tempo, vieni!", "Se facesse bel tempo, vieni!"], "answer": "Se fa bel tempo, vieni!", "why": "Es algo real y probable: se + presente (fa) y después imperativo.", "g": "it-g-periodo-ipotetico-intro" },
+    { "id": "e16", "type": "minimal", "pair": ["avessi", "avesse"], "answer": "avessi", "es": ["(yo/tú) tuviera(s)", "(él/ella) tuviera"], "why": "Avessi acaba en -i (io, tu); avesse en -e (lui, lei)." }
+  ],
+  "dialog": {
+    "title": "¿Y si llueve?",
+    "setting": "Yolanda y su amiga Carla planean por teléfono un día de playa",
+    "emoji": "☔",
+    "lines": [
+      { "who": "Carla", "t": "Yolanda, domani andiamo al mare?", "es": "Yolanda, ¿mañana vamos a la playa?" },
+      { "who": "Yolanda", "t": "Sì, se fa bel tempo, vengo volentieri.", "es": "Sí, si hace buen tiempo, voy con gusto." },
+      { "who": "Carla", "t": "E se piove?", "es": "¿Y si llueve?" },
+      { "who": "Yolanda", "t": "Se piove, visitiamo il museo archeologico.", "es": "Si llueve, visitamos el museo arqueológico." },
+      { "who": "Carla", "t": "Buona idea. Se hai tempo, passa da me alle nove.", "es": "Buena idea. Si tienes tiempo, pásate por mi casa a las nueve." },
+      { "who": "Yolanda", "t": "Perfetto. Porto io la crema solare.", "es": "Perfecto. Llevo yo la crema solar." },
+      { "who": "Carla", "t": "Ah, se potessi, starei al mare tutto l'anno!", "es": "¡Ay, si pudiera, estaría en la playa todo el año!" },
+      { "who": "Yolanda", "t": "Anch'io! Se avessi una casa lì, lo farei.", "es": "¡Yo también! Si tuviera una casa allí, lo haría." }
+    ],
+    "questions": [
+      { "q": "¿Qué harán si llueve?", "options": ["Visitar el museo arqueológico", "Quedarse en casa", "Ir al cine"], "answer": "Visitar el museo arqueológico" },
+      { "q": "¿A qué hora se ven?", "options": ["A las nueve", "A las diez", "A las ocho"], "answer": "A las nueve" },
+      { "q": "¿Qué lleva Yolanda?", "options": ["La crema solar", "La sombrilla", "Los bocadillos"], "answer": "La crema solar" }
+    ]
+  },
+  "realLife": { "t": "Se hai tempo, passa da me!", "es": "Si tienes tiempo, ¡pásate por mi casa!", "context": "Para invitar a una amiga sin compromiso" },
+  "same": {
+    "text": "Se + presente funciona igual que «si» + presente en español.",
+    "examples": [
+      { "t": "Se piove, resto a casa.", "es": "Si llueve, me quedo en casa." },
+      { "t": "Se hai fame, mangia!", "es": "Si tienes hambre, ¡come!" },
+      { "t": "Se vuoi, andiamo insieme.", "es": "Si quieres, vamos juntas." }
+    ]
+  },
+  "summary": [
+    "Algo real: se + presente → presente, futuro o imperativo (Se piove, resto a casa).",
+    "Para soñar hace falta un tiempo nuevo: el congiuntivo imperfetto.",
+    "Formas clave: fossi, avessi, potessi, andassi, facessi, sapessi.",
+    "Io y tu son iguales: (io) avessi, (tu) avessi; lui/lei acaba en -e: avesse."
+  ],
+  "reviewed": false
+}

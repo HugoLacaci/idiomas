@@ -1,0 +1,60 @@
+{
+  "id": "en-a1-u10-c2",
+  "unit": "en-a1-u10",
+  "title": "¿Podemos subir a la noria?",
+  "setting": "Emma y tú estáis en la cola del London Eye, en South Bank. Hay mucha gente y tenéis algunas preguntas.",
+  "emoji": "🎡",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Look, the London Eye! It's 135 metres high. Can you see the top?", "es": "¡Mira, el London Eye! Mide 135 metros. ¿Ves la parte de arriba?" },
+      "options": [
+        { "t": "Yes, I can! It's very high.", "es": "¡Sí! Es muy alto.", "next": "n2", "ok": true },
+        { "t": "Yes, I see it can.", "es": "Sí, lo veo.", "next": "n2", "ok": false, "feedback": "Respuesta corta: Yes, I can." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "We need tickets. What do you want to ask the man?", "es": "Necesitamos entradas. ¿Qué le quieres preguntar al señor?" },
+      "options": [
+        { "t": "Excuse me, can I pay by card?", "es": "Perdone, ¿puedo pagar con tarjeta?", "next": "n3", "ok": true },
+        { "t": "Excuse me, do I can pay by card?", "es": "Perdone, ¿puedo pagar con tarjeta?", "next": "n3", "ok": false, "feedback": "can no necesita do: Can I pay by card?" },
+        { "t": "Excuse me, I can pay by card?", "es": "Perdone, ¿puedo pagar con tarjeta?", "next": "n3", "ok": false, "feedback": "En la pregunta, can va delante: Can I pay…?" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "He says yes. Oh! The queue is very long. Can you wait thirty minutes?", "es": "Dice que sí. ¡Ay! La cola es muy larga. ¿Puedes esperar treinta minutos?" },
+      "options": [
+        { "t": "Yes, no problem. Can we get a coffee first?", "es": "Sí, no pasa nada. ¿Podemos tomar un café antes?", "next": "n4", "ok": true },
+        { "t": "Yes, I can to wait.", "es": "Sí, puedo esperar.", "next": "n4", "ok": false, "feedback": "Sin to: Yes, I can wait. O simplemente: Yes, I can." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Good idea! …Now we're inside. You can see the river and Big Ben!", "es": "¡Buena idea! …Ya estamos dentro. ¡Se ven el río y el Big Ben!" },
+      "options": [
+        { "t": "It's beautiful! Can I take a photo?", "es": "¡Qué bonito! ¿Puedo hacer una foto?", "next": "n5", "ok": true },
+        { "t": "It's beautiful! Can I make a photo?", "es": "¡Qué bonito! ¿Puedo hacer una foto?", "next": "n5", "ok": false, "feedback": "Hacer una foto en inglés es take a photo, no make." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Of course you can! Let's take one together.", "es": "¡Claro que puedes! Vamos a hacernos una juntas." },
+      "options": [
+        { "t": "Excuse me, could you take a photo of us, please?", "es": "Perdone, ¿podría hacernos una foto, por favor?", "next": "n6", "ok": true },
+        { "t": "Excuse me, you take photo us?", "es": "Perdone, ¿nos hace foto?", "next": "n6", "ok": false, "feedback": "Para pedir un favor: Could you take a photo of us, please?" }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Perfect photo! Can you send it to me on WhatsApp?", "es": "¡Foto perfecta! ¿Me la mandas por WhatsApp?" },
+      "options": [
+        { "t": "Yes, of course. I can send it now.", "es": "Sí, claro. Te la puedo mandar ahora.", "next": "end", "ok": true },
+        { "t": "Yes, of course. I can sends it now.", "es": "Sí, claro. Te la puedo mandar ahora.", "next": "end", "ok": false, "feedback": "Detrás de can, el verbo sin -s: I can send it." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

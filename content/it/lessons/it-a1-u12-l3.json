@@ -1,0 +1,467 @@
+{
+  "id": "it-a1-u12-l3",
+  "unit": "it-a1-u12",
+  "title": "Anche a me!",
+  "goal": "a charlar sobre gustos: estar de acuerdo, preferir y proponer planes",
+  "emoji": "👭",
+  "photoQuery": "friends walking park autumn",
+  "vocab": [
+    {
+      "id": "tempo-anche-a-me",
+      "t": "anche a me",
+      "es": "a mí también",
+      "emoji": "🙋‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Mi piace il mare. — Anche a me!",
+        "es": "Me gusta el mar. — ¡A mí también!"
+      }
+    },
+    {
+      "id": "tempo-neanche-a-me",
+      "t": "neanche a me",
+      "es": "a mí tampoco",
+      "emoji": "🙅‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Non mi piace il freddo. — Neanche a me.",
+        "es": "No me gusta el frío. — A mí tampoco."
+      }
+    },
+    {
+      "id": "tempo-adoro",
+      "t": "adoro…",
+      "es": "me encanta…",
+      "emoji": "😍",
+      "pos": "phrase",
+      "note": "Adorare funciona como un verbo normal: adoro la pizza (yo adoro).",
+      "ex": {
+        "t": "Adoro la pizza napoletana.",
+        "es": "Me encanta la pizza napolitana."
+      }
+    },
+    {
+      "id": "tempo-preferisco",
+      "t": "preferisco",
+      "es": "prefiero",
+      "emoji": "⚖️",
+      "pos": "v",
+      "ex": {
+        "t": "Preferisco il mare alla montagna.",
+        "es": "Prefiero el mar a la montaña."
+      }
+    },
+    {
+      "id": "tempo-la-palestra",
+      "t": "la palestra",
+      "es": "el gimnasio",
+      "emoji": "🏋️‍♀️",
+      "pos": "n",
+      "note": "¡Ojo! El gimnasio se dice palestra. Il ginnasio es un tipo de instituto.",
+      "ex": {
+        "t": "Vado in palestra due volte a settimana.",
+        "es": "Voy al gimnasio dos veces por semana."
+      }
+    },
+    {
+      "id": "tempo-fare-una-passeggiata",
+      "t": "fare una passeggiata",
+      "es": "dar un paseo",
+      "emoji": "🚶‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Facciamo una passeggiata?",
+        "es": "¿Damos un paseo?"
+      }
+    },
+    {
+      "id": "tempo-uscire-con-le-amiche",
+      "t": "uscire con le amiche",
+      "es": "salir con las amigas",
+      "emoji": "👭",
+      "pos": "phrase",
+      "ex": {
+        "t": "Il venerdì esco con le amiche.",
+        "es": "Los viernes salgo con mis amigas."
+      }
+    },
+    {
+      "id": "tempo-il-fine-settimana",
+      "t": "il fine settimana",
+      "es": "el fin de semana",
+      "emoji": "📅",
+      "pos": "n",
+      "ex": {
+        "t": "Cosa fai il fine settimana?",
+        "es": "¿Qué haces el fin de semana?"
+      }
+    },
+    {
+      "id": "tempo-ogni-tanto",
+      "t": "ogni tanto",
+      "es": "de vez en cuando",
+      "emoji": "🔄",
+      "pos": "adv",
+      "ex": {
+        "t": "Ogni tanto vado a teatro.",
+        "es": "De vez en cuando voy al teatro."
+      }
+    }
+  ],
+  "grammar": "it-g-mi-piace",
+  "pron": {
+    "title": "Sc: uscire y esco",
+    "tip": "Sc delante de i o e suena como «sh»: uscire («ushire»), esce («eshe»). Delante de o, a, u suena «sk»: esco («esko»).",
+    "words": [
+      "uscire",
+      "esce",
+      "esco",
+      "pesce",
+      "scarpe"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Mi piace ballare. — ___ a me!",
+      "es": "Me gusta bailar. — ¡A mí también!",
+      "options": [
+        "Anche",
+        "Neanche",
+        "Non"
+      ],
+      "answer": "Anche",
+      "why": "«A mí también» = anche a me.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Non mi piace il freddo. — ___ a me.",
+      "es": "No me gusta el frío. — A mí tampoco.",
+      "options": [
+        "Neanche",
+        "Anche",
+        "Sì"
+      ],
+      "answer": "Neanche",
+      "why": "Para seguir una frase negativa: neanche a me.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Mio marito è pigro: non ___ piace la palestra.",
+      "es": "Mi marido es perezoso: no le gusta el gimnasio.",
+      "options": [
+        "gli",
+        "le",
+        "ti"
+      ],
+      "answer": "gli",
+      "why": "A él → gli piace.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "La mia amica Carla? ___ piacciono i gialli.",
+      "es": "¿Mi amiga Carla? Le gustan las novelas policiacas.",
+      "options": [
+        "Le",
+        "Gli",
+        "Mi"
+      ],
+      "answer": "Le",
+      "why": "A ella → le piacciono.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Io ___ il mare alla montagna.",
+      "es": "Yo prefiero el mar a la montaña.",
+      "answer": [
+        "preferisco"
+      ],
+      "bank": [
+        "preferisco",
+        "prefero",
+        "preferisce"
+      ],
+      "why": "Preferire lleva -isc-: io preferisco.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Il venerdì ___ con le amiche.",
+      "es": "Los viernes salgo con mis amigas.",
+      "answer": [
+        "esco"
+      ],
+      "bank": [
+        "esco",
+        "uscio",
+        "esce"
+      ],
+      "why": "Uscire es irregular: io esco.",
+      "g": "it-g-irregolari-andare-venire"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Facciamo una ___ al parco?",
+      "es": "¿Damos un paseo por el parque?",
+      "answer": [
+        "passeggiata"
+      ],
+      "hint": "paseo",
+      "why": "Dar un paseo = fare una passeggiata."
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Non mi piace il pesce. — Anche a me.",
+      "wrong": "Anche",
+      "fix": "Neanche",
+      "why": "Si los dos decimos que no, es neanche a me (a mí tampoco).",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Mi piace il cinema. — Anche io!",
+      "wrong": "io",
+      "fix": "me",
+      "why": "Con piacere se responde anche a me.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "De vez en cuando voy al gimnasio.",
+      "answer": "Ogni tanto vado in palestra",
+      "alt": [
+        "Vado in palestra ogni tanto"
+      ],
+      "extra": [
+        "alla"
+      ],
+      "why": "Se dice in palestra, sin artículo.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "¡A mí también!",
+      "answer": [
+        "Anche a me!",
+        "Anch'io!"
+      ],
+      "why": "Con gustos: anche a me.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "from",
+      "q": "Cosa fai il fine settimana?",
+      "answer": [
+        "¿Qué haces el fin de semana?",
+        "¿Qué haces los fines de semana?"
+      ],
+      "why": "Il fine settimana = el fin de semana."
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Una amiga te dice «Adoro la pizza!». A ti también te encanta.",
+      "emoji": "🍕",
+      "options": [
+        "Anche a me!",
+        "Neanche a me!",
+        "Non mi piace."
+      ],
+      "answer": "Anche a me!",
+      "why": "Estás de acuerdo con algo positivo: anche a me.",
+      "g": "it-g-mi-piace"
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel en el centro cívico",
+      "text": "Centro Sole — Il lunedì: yoga. Il mercoledì: ballo latino. Il sabato: passeggiata in gruppo. Tutti benvenuti!",
+      "questions": [
+        {
+          "q": "¿Qué día hay baile?",
+          "options": [
+            "El miércoles",
+            "El lunes",
+            "El sábado"
+          ],
+          "answer": "El miércoles"
+        },
+        {
+          "q": "¿Qué se hace el sábado?",
+          "options": [
+            "Un paseo en grupo",
+            "Yoga",
+            "Natación"
+          ],
+          "answer": "Un paseo en grupo"
+        }
+      ],
+      "why": "Il mercoledì = el miércoles; passeggiata in gruppo = paseo en grupo."
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "anche a me",
+          "a mí también"
+        ],
+        [
+          "neanche a me",
+          "a mí tampoco"
+        ],
+        [
+          "ogni tanto",
+          "de vez en cuando"
+        ],
+        [
+          "la palestra",
+          "el gimnasio"
+        ],
+        [
+          "adoro",
+          "me encanta"
+        ]
+      ],
+      "why": "Frases para charlar de gustos."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Ogni tanto esco con le amiche.",
+      "es": "De vez en cuando salgo con mis amigas."
+    }
+  ],
+  "dialog": {
+    "title": "A la salida de yoga",
+    "setting": "Yolanda y Carla, una compañera de la clase de yoga, se toman algo después",
+    "emoji": "🧘‍♀️",
+    "lines": [
+      {
+        "who": "Carla",
+        "t": "Ti piace lo yoga?",
+        "es": "¿Te gusta el yoga?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, molto! Ma preferisco ballare.",
+        "es": "¡Sí, mucho! Pero prefiero bailar."
+      },
+      {
+        "who": "Carla",
+        "t": "Anch'io adoro ballare!",
+        "es": "¡A mí también me encanta bailar!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Il mercoledì c'è ballo latino.",
+        "es": "Los miércoles hay baile latino."
+      },
+      {
+        "who": "Carla",
+        "t": "Perfetto! E la palestra?",
+        "es": "¡Perfecto! ¿Y el gimnasio?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, la palestra non mi piace.",
+        "es": "No, el gimnasio no me gusta."
+      },
+      {
+        "who": "Carla",
+        "t": "Neanche a me! Facciamo una passeggiata?",
+        "es": "¡A mí tampoco! ¿Damos un paseo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Volentieri!",
+        "es": "¡Con mucho gusto!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué prefiere Yolanda?",
+        "options": [
+          "Bailar",
+          "El yoga",
+          "El gimnasio"
+        ],
+        "answer": "Bailar"
+      },
+      {
+        "q": "¿Qué día hay baile latino?",
+        "options": [
+          "El miércoles",
+          "El lunes",
+          "El viernes"
+        ],
+        "answer": "El miércoles"
+      },
+      {
+        "q": "¿Qué deciden hacer al final?",
+        "options": [
+          "Dar un paseo",
+          "Ir al gimnasio",
+          "Ir al cine"
+        ],
+        "answer": "Dar un paseo"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Facciamo una passeggiata?",
+    "es": "¿Damos un paseo?",
+    "context": "Para proponer un plan tranquilo a una amiga"
+  },
+  "same": {
+    "text": "Para estar de acuerdo usamos la misma lógica que en español: «a mí también / a mí tampoco».",
+    "examples": [
+      {
+        "t": "Anche a me.",
+        "es": "A mí también."
+      },
+      {
+        "t": "Neanche a me.",
+        "es": "A mí tampoco."
+      },
+      {
+        "t": "Preferisco il mare.",
+        "es": "Prefiero el mar."
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "la palestra",
+    "means": "el gimnasio",
+    "looksLike": "palestra (lugar de lucha o debate: «salir a la palestra»)",
+    "emoji": "🏋️‍♀️",
+    "tip": "Vado in palestra = voy al gimnasio. Y il ginnasio no es el gimnasio, ¡es un instituto!"
+  },
+  "summary": [
+    "De acuerdo: anche a me (también) / neanche a me (tampoco).",
+    "A él: gli piace. A ella: le piace.",
+    "Adoro… = me encanta…; preferisco = prefiero.",
+    "La palestra es el gimnasio."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u12-l3"
+}

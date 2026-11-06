@@ -1,0 +1,431 @@
+{
+  "id": "en-a1-u10-l4",
+  "unit": "en-a1-u10",
+  "title": "¿Puedes…? ¿Puedo…?",
+  "goal": "a preguntar con can, contestar «Yes, I can / No, I can't», pedir permiso y pedir favores, y a oír la diferencia entre can y can't",
+  "emoji": "🙋",
+  "photoQuery": "tourists asking directions london",
+  "vocab": [
+    {
+      "id": "can-you",
+      "t": "Can you…?",
+      "es": "¿Sabes…? / ¿Puedes…?",
+      "emoji": "❓",
+      "pos": "phrase",
+      "ex": {
+        "t": "Can you swim?",
+        "es": "¿Sabes nadar?"
+      }
+    },
+    {
+      "id": "can-i",
+      "t": "Can I…?",
+      "es": "¿Puedo…?",
+      "emoji": "🙋",
+      "pos": "phrase",
+      "ex": {
+        "t": "Can I open the window?",
+        "es": "¿Puedo abrir la ventana?"
+      }
+    },
+    {
+      "id": "yes-i-can",
+      "t": "Yes, I can.",
+      "es": "Sí (sé / puedo).",
+      "emoji": "👍",
+      "pos": "phrase",
+      "ex": {
+        "t": "Can you cook? — Yes, I can.",
+        "es": "¿Sabes cocinar? — Sí."
+      },
+      "note": "Aquí can suena fuerte: «kæn»."
+    },
+    {
+      "id": "no-i-cant",
+      "t": "No, I can't.",
+      "es": "No (no sé / no puedo).",
+      "emoji": "👎",
+      "pos": "phrase",
+      "ex": {
+        "t": "Can you drive? — No, I can't.",
+        "es": "¿Sabes conducir? — No."
+      }
+    },
+    {
+      "id": "can-you-help-me",
+      "t": "Can you help me?",
+      "es": "¿Me puedes ayudar?",
+      "emoji": "🆘",
+      "pos": "phrase",
+      "ex": {
+        "t": "Excuse me, can you help me?",
+        "es": "Perdone, ¿me puede ayudar?"
+      }
+    },
+    {
+      "id": "can-i-sit-here",
+      "t": "Can I sit here?",
+      "es": "¿Puedo sentarme aquí?",
+      "emoji": "💺",
+      "pos": "phrase",
+      "ex": {
+        "t": "Excuse me, can I sit here?",
+        "es": "Perdone, ¿puedo sentarme aquí?"
+      }
+    },
+    {
+      "id": "can-i-pay-by-card",
+      "t": "Can I pay by card?",
+      "es": "¿Puedo pagar con tarjeta?",
+      "emoji": "💳",
+      "pos": "phrase",
+      "ex": {
+        "t": "Can I pay by card, please?",
+        "es": "¿Puedo pagar con tarjeta, por favor?"
+      }
+    },
+    {
+      "id": "of-course",
+      "t": "Of course.",
+      "es": "Claro, por supuesto.",
+      "emoji": "✅",
+      "pos": "phrase",
+      "ex": {
+        "t": "Can I come in? — Of course!",
+        "es": "¿Puedo pasar? — ¡Claro!"
+      }
+    }
+  ],
+  "grammar": "en-g-can",
+  "pron": {
+    "title": "kən, kæn y kaant",
+    "tip": "Tres sonidos para can: en la frase, flojito «kən» (I kən swim). En la respuesta corta, fuerte «kæn» (Yes, I ==can==). Y la negativa, larga y fuerte «kaant» (I ==can't==).",
+    "words": [
+      "I can swim.",
+      "Yes, I can.",
+      "No, I can't.",
+      "Can you help me?"
+    ],
+    "pairs": [
+      [
+        "She can drive.",
+        "She can't drive."
+      ],
+      [
+        "We can come.",
+        "We can't come."
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ you speak Spanish?",
+      "es": "¿Hablas español?",
+      "options": [
+        "Can",
+        "Do can",
+        "Are"
+      ],
+      "answer": "Can",
+      "why": "Pregunta: can delante del sujeto, sin do.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Can your grandson swim? — Yes, he ___.",
+      "es": "¿Sabe nadar tu nieto? — Sí.",
+      "options": [
+        "can",
+        "does",
+        "is"
+      ],
+      "answer": "can",
+      "why": "Respuesta corta: Yes, he can.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Can you dance? — No, I ___.",
+      "es": "¿Sabes bailar? — No.",
+      "options": [
+        "can't",
+        "don't",
+        "not"
+      ],
+      "answer": "can't",
+      "why": "Respuesta corta negativa: No, I can't.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Excuse me, ___ I sit here?",
+      "es": "Perdone, ¿puedo sentarme aquí?",
+      "answer": [
+        "can",
+        "could"
+      ],
+      "bank": [
+        "can",
+        "do",
+        "am"
+      ],
+      "why": "Pedir permiso: Can I…?",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "___ you help me with my suitcase, please?",
+      "es": "¿Podría ayudarme con la maleta, por favor?",
+      "answer": [
+        "Could",
+        "Can"
+      ],
+      "bank": [
+        "Could",
+        "Do",
+        "Are"
+      ],
+      "why": "Pedir un favor: Could you…? (o Can you…?).",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Can I pay ___ card?",
+      "es": "¿Puedo pagar con tarjeta?",
+      "answer": [
+        "by"
+      ],
+      "why": "Con tarjeta = by card."
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "¿Sabe cocinar tu marido?",
+      "answer": "Can your husband cook",
+      "extra": [
+        "does"
+      ],
+      "why": "Can + sujeto + verbo.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "¿Me puede ayudar, por favor?",
+      "answer": "Can you help me please",
+      "extra": [
+        "to"
+      ],
+      "why": "Can you + verbo sin to.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e9",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "Your friend can play the guitar.",
+      "answer": [
+        "Can your friend play the guitar?",
+        "Can your friend play the guitar"
+      ],
+      "why": "Can delante del sujeto.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Escribe la respuesta corta negativa",
+      "q": "Can they speak English?",
+      "answer": [
+        "No, they can't.",
+        "No, they can't",
+        "No they can't",
+        "No, they cannot."
+      ],
+      "why": "Repite el pronombre y can't.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Can she plays the piano?",
+      "wrong": "plays",
+      "fix": "play",
+      "why": "Después de can (también en preguntas), el verbo va sin -s: Can she play…?",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e12",
+      "type": "match",
+      "pairs": [
+        [
+          "Can I sit here?",
+          "Of course."
+        ],
+        [
+          "Can you swim?",
+          "Yes, I can."
+        ],
+        [
+          "Can she drive?",
+          "No, she can't."
+        ],
+        [
+          "Could you help me?",
+          "Sure!"
+        ],
+        [
+          "Can I pay by card?",
+          "Yes, no problem."
+        ]
+      ],
+      "why": "Respuestas naturales a preguntas con can.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "En el autobús hay un asiento libre junto a una señora.",
+      "emoji": "💺",
+      "options": [
+        "Excuse me, can I sit here?",
+        "Excuse me, I can sit here?",
+        "Excuse me, do I can sit here?"
+      ],
+      "answer": "Excuse me, can I sit here?",
+      "why": "Pedir permiso: Can I…? con can delante.",
+      "g": "en-g-can"
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "She can drive.",
+        "She can't drive."
+      ],
+      "answer": "She can drive.",
+      "es": [
+        "Sabe conducir.",
+        "No sabe conducir."
+      ],
+      "why": "Can sonaba flojito, «kən»; la fuerza iba en drive."
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "We can come.",
+        "We can't come."
+      ],
+      "answer": "We can't come.",
+      "es": [
+        "Podemos venir.",
+        "No podemos venir."
+      ],
+      "why": "Can't suena largo y fuerte: «kaant»."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Excuse me, could you help me, please?",
+      "es": "Perdone, ¿me podría ayudar, por favor?"
+    }
+  ],
+  "dialog": {
+    "title": "En el tren",
+    "setting": "En un tren de Londres a Oxford, Yolanda busca sitio",
+    "emoji": "🚆",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Excuse me, can I sit here?",
+        "es": "Perdone, ¿puedo sentarme aquí?"
+      },
+      {
+        "who": "Man",
+        "t": "Of course. Can I help you with your bag?",
+        "es": "Claro. ¿La ayudo con la bolsa?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, please. It's very heavy!",
+        "es": "Sí, por favor. ¡Pesa mucho!"
+      },
+      {
+        "who": "Man",
+        "t": "Wow! What's in it?",
+        "es": "¡Madre mía! ¿Qué lleva dentro?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Spanish food for my son. He can't cook!",
+        "es": "Comida española para mi hijo. ¡No sabe cocinar!"
+      },
+      {
+        "who": "Man",
+        "t": "Ha! Can you open a window? It's hot.",
+        "es": "¡Ja! ¿Puede abrir una ventana? Hace calor."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sorry, I can't. It doesn't open.",
+        "es": "Lo siento, no puedo. No se abre."
+      },
+      {
+        "who": "Man",
+        "t": "Never mind. Can I try some of that ham?",
+        "es": "No pasa nada. ¿Puedo probar un poco de ese jamón?"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué lleva Yolanda en la bolsa?",
+        "options": [
+          "Comida española",
+          "Ropa",
+          "Libros"
+        ],
+        "answer": "Comida española"
+      },
+      {
+        "q": "¿Por qué lleva comida a su hijo?",
+        "options": [
+          "Porque no sabe cocinar",
+          "Porque es su cumpleaños",
+          "Porque está malo"
+        ],
+        "answer": "Porque no sabe cocinar"
+      },
+      {
+        "q": "¿Por qué no abre la ventana?",
+        "options": [
+          "No se abre",
+          "Hace frío",
+          "No quiere"
+        ],
+        "answer": "No se abre"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Could you take a photo of us, please?",
+    "es": "¿Podría hacernos una foto, por favor?",
+    "context": "Para pedir a alguien que os haga una foto de viaje"
+  },
+  "summary": [
+    "Pregunta: Can you swim? (sin do)",
+    "Respuesta corta: Yes, I can / No, I can't",
+    "Permiso: Can I sit here?",
+    "Favor: Can you…? / Could you…? (más amable)",
+    "can flojo (kən), fuerte en Yes, I can (kæn), can't largo (kaant)"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u10-l4"
+}

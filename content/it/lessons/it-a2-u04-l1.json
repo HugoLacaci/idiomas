@@ -1,0 +1,483 @@
+{
+  "id": "it-a2-u04-l1",
+  "unit": "it-a2-u04",
+  "title": "La mia scuola elementare",
+  "goal": "a nombrar las cosas del colegio y de la infancia para empezar a contar recuerdos",
+  "emoji": "🎒",
+  "photoQuery": "old school classroom wooden desks",
+  "vocab": [
+    {
+      "id": "ricordi-la-scuola-elementare",
+      "t": "la scuola elementare",
+      "es": "la escuela primaria, el colegio",
+      "emoji": "🏫",
+      "pos": "n",
+      "ex": {
+        "t": "La mia scuola elementare era vicino a casa.",
+        "es": "Mi colegio estaba cerca de casa."
+      }
+    },
+    {
+      "id": "ricordi-la-maestra",
+      "t": "la maestra",
+      "es": "la maestra",
+      "emoji": "👩‍🏫",
+      "pos": "n",
+      "ex": {
+        "t": "La maestra era molto dolce.",
+        "es": "La maestra era muy dulce."
+      }
+    },
+    {
+      "id": "ricordi-il-compagno-di-classe",
+      "t": "il compagno / la compagna di classe",
+      "es": "el compañero / la compañera de clase",
+      "emoji": "👧",
+      "pos": "n",
+      "ex": {
+        "t": "La mia compagna di classe abitava qui vicino.",
+        "es": "Mi compañera de clase vivía aquí cerca."
+      }
+    },
+    {
+      "id": "ricordi-il-quaderno",
+      "t": "il quaderno",
+      "es": "el cuaderno",
+      "emoji": "📓",
+      "pos": "n",
+      "ex": {
+        "t": "Avevo un quaderno a quadretti.",
+        "es": "Tenía un cuaderno de cuadritos."
+      }
+    },
+    {
+      "id": "ricordi-la-penna",
+      "t": "la penna",
+      "es": "el bolígrafo, la pluma",
+      "emoji": "🖊️",
+      "pos": "n",
+      "note": "¡Ojo! No es «pena»: es el bolígrafo.",
+      "ex": {
+        "t": "Scrivevo con una penna blu.",
+        "es": "Escribía con un bolígrafo azul."
+      }
+    },
+    {
+      "id": "ricordi-la-lavagna",
+      "t": "la lavagna",
+      "es": "la pizarra",
+      "emoji": "🟩",
+      "pos": "n",
+      "ex": {
+        "t": "La maestra scriveva alla lavagna.",
+        "es": "La maestra escribía en la pizarra."
+      }
+    },
+    {
+      "id": "ricordi-la-cartella",
+      "t": "la cartella",
+      "es": "la cartera del colegio, la mochila",
+      "emoji": "🎒",
+      "pos": "n",
+      "ex": {
+        "t": "La mia cartella era molto pesante.",
+        "es": "Mi cartera era muy pesada."
+      }
+    },
+    {
+      "id": "ricordi-il-cortile",
+      "t": "il cortile",
+      "es": "el patio",
+      "emoji": "🌳",
+      "pos": "n",
+      "ex": {
+        "t": "Giocavamo in cortile dopo pranzo.",
+        "es": "Jugábamos en el patio después de comer."
+      }
+    },
+    {
+      "id": "ricordi-la-merenda",
+      "t": "la merenda",
+      "es": "la merienda, el almuerzo del recreo",
+      "emoji": "🥪",
+      "pos": "n",
+      "ex": {
+        "t": "Per merenda mangiavo pane e cioccolato.",
+        "es": "De merienda comía pan con chocolate."
+      }
+    },
+    {
+      "id": "ricordi-i-compiti",
+      "t": "i compiti",
+      "es": "los deberes",
+      "emoji": "✏️",
+      "pos": "n",
+      "ex": {
+        "t": "Facevo i compiti in cucina.",
+        "es": "Hacía los deberes en la cocina."
+      }
+    }
+  ],
+  "grammar": "it-g-imperfetto",
+  "pron": {
+    "title": "La sc de scuola",
+    "tip": "Sca, sco, scu suenan /sk/: «scuola» es «skuola». Pero sce y sci suenan como un «sh» suave: «scienze».",
+    "words": [
+      "scuola",
+      "scrivevo",
+      "scienze",
+      "uscivo",
+      "pesce"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "La ___ scriveva alla lavagna.",
+      "es": "La maestra escribía en la pizarra.",
+      "options": [
+        "maestra",
+        "merenda",
+        "cartella"
+      ],
+      "answer": "maestra",
+      "why": "Quien escribe en la pizarra es la maestra.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Facevo i ___ dopo la merenda.",
+      "es": "Hacía los deberes después de la merienda.",
+      "options": [
+        "compiti",
+        "cortili",
+        "quaderni"
+      ],
+      "answer": "compiti",
+      "why": "Fare i compiti = hacer los deberes.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "A ricreazione giocavamo in ___.",
+      "es": "En el recreo jugábamos en el patio.",
+      "options": [
+        "cortile",
+        "lavagna",
+        "penna"
+      ],
+      "answer": "cortile",
+      "why": "Il cortile = el patio.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Scrivevo con una ___ rossa.",
+      "es": "Escribía con un bolígrafo rojo.",
+      "answer": [
+        "penna"
+      ],
+      "bank": [
+        "penna",
+        "pena",
+        "lavagna"
+      ],
+      "why": "La penna = el bolígrafo. ¡Ojo, no es «pena»!",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "La mia ___ era piena di libri.",
+      "es": "Mi cartera estaba llena de libros.",
+      "answer": [
+        "cartella"
+      ],
+      "bank": [
+        "cartella",
+        "merenda",
+        "maestra"
+      ],
+      "why": "La cartella = la cartera del colegio.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Per ___ mangiavo un panino.",
+      "es": "De merienda comía un bocadillo.",
+      "answer": [
+        "merenda"
+      ],
+      "hint": "merienda",
+      "why": "La merenda = la merienda.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e7",
+      "type": "match",
+      "pairs": [
+        [
+          "la lavagna",
+          "la pizarra"
+        ],
+        [
+          "il quaderno",
+          "el cuaderno"
+        ],
+        [
+          "il cortile",
+          "el patio"
+        ],
+        [
+          "i compiti",
+          "los deberes"
+        ],
+        [
+          "la penna",
+          "el bolígrafo"
+        ]
+      ],
+      "why": "Palabras del colegio.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Facevo i deberi in cucina.",
+      "wrong": "deberi",
+      "fix": "compiti",
+      "why": "Los deberes del colegio son i compiti.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "La maestra scriveva alla pizarra.",
+      "wrong": "pizarra",
+      "fix": "lavagna",
+      "why": "La pizarra = la lavagna.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Mi colegio estaba cerca de casa.",
+      "answer": "La mia scuola era vicino a casa",
+      "extra": [
+        "ero"
+      ],
+      "why": "La scuola = lei: era.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "Tenía un cuaderno de cuadritos.",
+      "answer": "Avevo un quaderno a quadretti",
+      "extra": [
+        "aveva"
+      ],
+      "why": "Io → avevo.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "La maestra era muy simpática.",
+      "answer": [
+        "La maestra era molto simpatica."
+      ],
+      "why": "Descripción del pasado: era.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "from",
+      "q": "La mia compagna di classe abitava vicino a me.",
+      "answer": [
+        "Mi compañera de clase vivía cerca de mí.",
+        "Mi compañera de clase vivía cerca de casa."
+      ],
+      "why": "Abitava = vivía.",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Le enseñas a una amiga italiana una foto vieja del colegio y señalas a tu maestra.",
+      "emoji": "📷",
+      "options": [
+        "Questa era la mia maestra.",
+        "Questa è la mia lavagna.",
+        "Questa era la mia merenda."
+      ],
+      "answer": "Questa era la mia maestra.",
+      "why": "Era = era (ella, en el pasado).",
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "message",
+      "title": "Una foto antigua",
+      "text": "Guarda questa foto! Questa è la mia classe. La maestra era alta e molto paziente. Io ero la bambina con la cartella rossa. Il cortile era grande e a ricreazione giocavamo tutti insieme.",
+      "questions": [
+        {
+          "q": "¿Cómo era la maestra?",
+          "options": [
+            "Alta y paciente",
+            "Baja y seria",
+            "Joven y nerviosa"
+          ],
+          "answer": "Alta y paciente"
+        },
+        {
+          "q": "¿De qué color era su cartera?",
+          "options": [
+            "Roja",
+            "Azul",
+            "Verde"
+          ],
+          "answer": "Roja"
+        },
+        {
+          "q": "¿Qué hacían en el recreo?",
+          "options": [
+            "Jugaban todos juntos",
+            "Hacían los deberes",
+            "Comían en clase"
+          ],
+          "answer": "Jugaban todos juntos"
+        }
+      ],
+      "g": "it-g-imperfetto"
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Quando ero piccola, facevo i compiti in cucina.",
+      "es": "Cuando era pequeña, hacía los deberes en la cocina.",
+      "g": "it-g-imperfetto"
+    }
+  ],
+  "dialog": {
+    "title": "Fotos del colegio",
+    "setting": "Yolanda le enseña fotos antiguas del colegio a su amiga italiana Paola",
+    "emoji": "📷",
+    "lines": [
+      {
+        "who": "Paola",
+        "t": "Che bella foto! È la tua classe?",
+        "es": "¡Qué foto tan bonita! ¿Es tu clase?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, avevo sette anni. Io sono qui, con la cartella rossa.",
+        "es": "Sí, tenía siete años. Yo estoy aquí, con la cartera roja."
+      },
+      {
+        "who": "Paola",
+        "t": "E questa signora? Era la tua maestra?",
+        "es": "¿Y esta señora? ¿Era tu maestra?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, era molto dolce ma anche severa.",
+        "es": "Sí, era muy dulce, pero también estricta."
+      },
+      {
+        "who": "Paola",
+        "t": "La scuola era grande?",
+        "es": "¿El colegio era grande?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, era piccola, ma il cortile era enorme.",
+        "es": "No, era pequeño, pero el patio era enorme."
+      },
+      {
+        "who": "Paola",
+        "t": "E cosa mangiavi per merenda?",
+        "es": "¿Y qué comías de merienda?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Pane e cioccolato, tutti i giorni!",
+        "es": "¡Pan con chocolate, todos los días!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuántos años tenía Yolanda en la foto?",
+        "options": [
+          "Siete",
+          "Diez",
+          "Cinco"
+        ],
+        "answer": "Siete"
+      },
+      {
+        "q": "¿Cómo era la maestra?",
+        "options": [
+          "Dulce pero estricta",
+          "Muy joven",
+          "Antipática"
+        ],
+        "answer": "Dulce pero estricta"
+      },
+      {
+        "q": "¿Qué era enorme?",
+        "options": [
+          "El patio",
+          "La clase",
+          "La pizarra"
+        ],
+        "answer": "El patio"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Guarda, questa ero io da piccola!",
+    "es": "¡Mira, esta era yo de pequeña!",
+    "context": "Para enseñar una foto antigua tuya a la familia o a amigos"
+  },
+  "falseFriend": {
+    "word": "la penna",
+    "means": "el bolígrafo, la pluma",
+    "looksLike": "pena",
+    "emoji": "🖊️",
+    "tip": "«Scrivo con la penna» es «escribo con el bolígrafo». La pena (tristeza) se dice «la tristezza» o «il dispiacere»; y «¡qué pena!» es «che peccato!»."
+  },
+  "same": {
+    "text": "Muchas palabras del colegio son casi iguales que en español.",
+    "examples": [
+      {
+        "t": "la maestra",
+        "es": "la maestra"
+      },
+      {
+        "t": "il quaderno",
+        "es": "el cuaderno"
+      },
+      {
+        "t": "la merenda",
+        "es": "la merienda"
+      }
+    ]
+  },
+  "summary": [
+    "El colegio: la scuola elementare, la maestra, la lavagna, il cortile.",
+    "Fare i compiti = hacer los deberes.",
+    "La penna = el bolígrafo (no «pena»).",
+    "Ya suena el imperfetto: era, avevo, giocavamo."
+  ],
+  "reviewed": false,
+  "photo": "it-a2-u04-l1"
+}

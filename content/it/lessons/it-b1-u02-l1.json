@@ -1,0 +1,77 @@
+{
+  "id": "it-b1-u02-l1",
+  "unit": "it-b1-u02",
+  "title": "Un regalo per i nipoti",
+  "goal": "a hablar de regalos: elegirlos, envolverlos, darlos y dar las gracias",
+  "emoji": "🎁",
+  "photoQuery": "wrapped gifts red ribbon table",
+  "vocab": [
+    { "id": "regalo-il-regalo", "t": "il regalo", "es": "el regalo", "emoji": "🎁", "pos": "n", "ex": { "t": "Questo regalo è per i miei nipoti.", "es": "Este regalo es para mis nietos." } },
+    { "id": "regalo-incartare", "t": "incartare", "es": "envolver (para regalo)", "emoji": "✂️", "pos": "v", "ex": { "t": "Me lo può incartare, per favore?", "es": "¿Me lo puede envolver, por favor?" } },
+    { "id": "regalo-il-fiocco", "t": "il fiocco", "es": "el lazo", "emoji": "🎀", "pos": "n", "ex": { "t": "Metto un fiocco rosso sul pacchetto.", "es": "Pongo un lazo rojo en el paquetito." } },
+    { "id": "regalo-il-pacco", "t": "il pacco", "es": "el paquete", "emoji": "📦", "pos": "n", "note": "Uno pequeño, de regalo: il pacchetto.", "ex": { "t": "Il pacco arriva domani a casa.", "es": "El paquete llega mañana a casa." } },
+    { "id": "regalo-il-biglietto-di-auguri", "t": "il biglietto di auguri", "es": "la tarjeta de felicitación", "emoji": "💌", "pos": "n", "ex": { "t": "Scrivo un biglietto di auguri per un'amica.", "es": "Escribo una tarjeta de felicitación para una amiga." } },
+    { "id": "regalo-scegliere", "t": "scegliere", "es": "elegir", "emoji": "🤔", "pos": "v", "note": "Participio irregular: scelto (ho scelto).", "ex": { "t": "Non è facile scegliere un regalo per un bambino.", "es": "No es fácil elegir un regalo para un niño." } },
+    { "id": "regalo-la-sorpresa", "t": "la sorpresa", "es": "la sorpresa", "emoji": "🤫", "pos": "n", "ex": { "t": "È una sorpresa: non dire niente!", "es": "Es una sorpresa: ¡no digas nada!" } },
+    { "id": "regalo-ringraziare", "t": "ringraziare", "es": "dar las gracias, agradecer", "emoji": "🙏", "pos": "v", "ex": { "t": "Ti ringrazio per il bel regalo.", "es": "Te doy las gracias por el regalo tan bonito." } },
+    { "id": "regalo-che-bel-pensiero", "t": "Che bel pensiero!", "es": "¡Qué detalle!", "emoji": "💝", "pos": "phrase", "ex": { "t": "Un libro per me? Che bel pensiero!", "es": "¿Un libro para mí? ¡Qué detalle!" } },
+    { "id": "regalo-la-busta", "t": "la busta", "es": "el sobre; la bolsa", "emoji": "✉️", "pos": "n", "note": "¡Ojo! No es «el busto».", "ex": { "t": "Metto il biglietto nella busta.", "es": "Meto la tarjeta en el sobre." } }
+  ],
+  "grammar": "it-g-pronomi-indiretti",
+  "pron": {
+    "title": "Sce, sci: como un «sh» suave",
+    "tip": "Sc delante de e o i suena como cuando pides silencio: «sh». Scegliere = «she-llié-re». Delante de a, o, u vuelve a sonar «sk»: scatola.",
+    "words": ["scegliere", "la sciarpa", "lo sci", "la scelta", "la scatola"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "A Hugo? ___ regalo un orologio.", "es": "¿A Hugo? Le regalo un reloj.", "options": ["Gli", "Le", "Lo"], "answer": "Gli", "why": "A él (a Hugo) se dice gli: gli regalo.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e2", "type": "choose", "q": "Alla mia vicina ___ porto un dolce fatto in casa.", "es": "A mi vecina le llevo un dulce casero.", "options": ["le", "gli", "la"], "answer": "le", "why": "A ella (a la vecina) se dice le.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e3", "type": "fill", "q": "Mi può ___ il regalo, per favore? È per una bambina.", "es": "¿Me puede envolver el regalo, por favor? Es para una niña.", "answer": ["incartare"], "bank": ["incartare", "scegliere", "ringraziare"], "why": "Envolver un regalo es incartare (de carta, papel)." },
+    { "id": "e4", "type": "fill", "q": "Scrivo due righe sul biglietto e lo metto nella ___.", "es": "Escribo dos líneas en la tarjeta y la meto en el sobre.", "answer": ["busta"], "hint": "el sobre", "why": "El sobre de una carta es la busta." },
+    { "id": "e5", "type": "match", "pairs": [["il fiocco", "el lazo"], ["il pacco", "el paquete"], ["la busta", "el sobre"], ["scegliere", "elegir"], ["ringraziare", "dar las gracias"]], "why": "Palabras para preparar un regalo." },
+    { "id": "e6", "type": "order", "es": "Ya he elegido el regalo para los nietos.", "answer": "Ho già scelto il regalo per i nipoti", "extra": ["scegliuto"], "why": "Scegliere tiene participio irregular: ho scelto." },
+    { "id": "e7", "type": "translate", "dir": "to", "q": "¡Qué detalle! Muchas gracias.", "answer": ["Che bel pensiero! Grazie mille.", "Che bel pensiero! Mille grazie.", "Che bel pensiero! Grazie tante."], "why": "«¡Qué detalle!» se dice Che bel pensiero!" },
+    { "id": "e8", "type": "translate", "dir": "from", "q": "È una sorpresa: non dire niente a mio marito!", "answer": ["Es una sorpresa: ¡no le digas nada a mi marido!", "Es una sorpresa, no le digas nada a mi marido.", "Es una sorpresa: no digas nada a mi marido."], "why": "Non dire es el imperativo negativo de tú: no digas." },
+    { "id": "e9", "type": "situation", "context": "Abres el regalo de una amiga: es un pañuelo precioso. ¿Qué le dices?", "emoji": "🧣", "options": ["Che bel pensiero, ti ringrazio!", "Che bel pensare, ti ringrazio!", "Ti ringrazio a te!"], "answer": "Che bel pensiero, ti ringrazio!", "why": "La frase hecha es che bel pensiero; y con ringraziare basta ti, sin «a te»." },
+    { "id": "e10", "type": "error", "q": "Ai nipoti le regalo un gioco di legno.", "wrong": "le", "fix": "gli", "why": "Para «a ellos» (ai nipoti), en italiano se usa gli.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e11", "type": "reading", "kind": "message", "title": "WhatsApp de una amiga", "text": "Ciao Yolanda! Domani è il compleanno di Marta. Le regaliamo una borsa? Io la scelgo, tu la incarti con un bel fiocco. Il biglietto lo scriviamo insieme! Un bacio", "questions": [
+      { "q": "¿Qué le regalan a Marta?", "options": ["Un bolso", "Un libro", "Un pañuelo"], "answer": "Un bolso" },
+      { "q": "¿Qué tiene que hacer Yolanda?", "options": ["Envolverlo con un lazo", "Elegirlo", "Comprar la tarjeta"], "answer": "Envolverlo con un lazo" },
+      { "q": "¿Quién escribe la tarjeta?", "options": ["Las dos juntas", "Yolanda sola", "Marta"], "answer": "Las dos juntas" }
+    ] },
+    { "id": "e12", "type": "transform", "instr": "Cambia «a Hugo» por un pronombre", "q": "Regalo una sciarpa a Hugo.", "answer": ["Gli regalo una sciarpa."], "why": "A Hugo → gli, delante del verbo.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e13", "type": "choose", "q": "Il regalo è una ___: i bambini non sanno niente.", "es": "El regalo es una sorpresa: los niños no saben nada.", "options": ["sorpresa", "sorpreso", "busta"], "answer": "sorpresa", "why": "La sorpresa, igual que en español." },
+    { "id": "e14", "type": "speak", "t": "Me lo può incartare, per favore?", "es": "¿Me lo puede envolver, por favor?" },
+    { "id": "e15", "type": "conjugate", "verb": "scegliere", "person": "io", "tense": "presente", "q": "Per Natale ___ sempre libri per i nipoti.", "answer": ["scelgo"], "table": [["io", "scelgo"], ["tu", "scegli"], ["lui/lei", "sceglie"], ["noi", "scegliamo"]], "why": "Scegliere es irregular: io scelgo, tu scegli, lei sceglie." },
+    { "id": "e16", "type": "fill", "q": "Grazie, signora! La ___ per il bel regalo.", "es": "¡Gracias, señora! Le agradezco el regalo tan bonito.", "answer": ["ringrazio"], "hint": "ringraziare", "why": "Ringraziare con io: ringrazio. La = a usted." }
+  ],
+  "dialog": {
+    "title": "En la tienda de regalos",
+    "setting": "En una tienda de regalos de Roma, Yolanda busca algo para sus nietos",
+    "emoji": "🎁",
+    "lines": [
+      { "who": "Commessa", "t": "Buongiorno! Cerca un regalo?", "es": "¡Buenos días! ¿Busca un regalo?" },
+      { "who": "Yolanda", "t": "Sì, per i miei nipoti. Sono ancora piccoli.", "es": "Sí, para mis nietos. Todavía son pequeños." },
+      { "who": "Commessa", "t": "Questi puzzle di legno piacciono molto.", "es": "Estos puzles de madera gustan mucho." },
+      { "who": "Yolanda", "t": "Che carini! Prendo quello con gli animali.", "es": "¡Qué monos! Me llevo el de los animales." },
+      { "who": "Commessa", "t": "Glielo incarto? Con un fiocco rosso?", "es": "¿Se lo envuelvo? ¿Con un lazo rojo?" },
+      { "who": "Yolanda", "t": "Sì, grazie. E mi dà anche un biglietto di auguri?", "es": "Sí, gracias. ¿Y me da también una tarjeta de felicitación?" },
+      { "who": "Commessa", "t": "Certo. Ecco anche la busta per il biglietto.", "es": "Claro. Aquí tiene también el sobre para la tarjeta." },
+      { "who": "Yolanda", "t": "Perfetto. Sarà una bella sorpresa!", "es": "Perfecto. ¡Será una bonita sorpresa!" }
+    ],
+    "questions": [
+      { "q": "¿Para quién es el regalo?", "options": ["Para sus nietos", "Para su marido", "Para una amiga"], "answer": "Para sus nietos" },
+      { "q": "¿Qué elige Yolanda?", "options": ["Un puzle de animales", "Un libro", "Una pelota"], "answer": "Un puzle de animales" },
+      { "q": "¿De qué color es el lazo?", "options": ["Rojo", "Azul", "Dorado"], "answer": "Rojo" }
+    ]
+  },
+  "realLife": { "t": "Me lo può incartare, per favore?", "es": "¿Me lo puede envolver para regalo, por favor?", "context": "En una tienda, para que te envuelvan un regalo" },
+  "falseFriend": { "word": "la busta", "means": "el sobre (de una carta) o la bolsa", "looksLike": "el busto", "emoji": "✉️", "tip": "La busta es un sobre o una bolsa: la busta della spesa (la bolsa de la compra). El busto del cuerpo es il busto." },
+  "summary": [
+    "Regalos: il regalo, il pacco, il fiocco, la busta, il biglietto di auguri.",
+    "Incartare = envolver; scegliere = elegir (ho scelto).",
+    "Para agradecer un regalo: Che bel pensiero! Ti ringrazio!",
+    "Repaso: gli = a él (y a ellos), le = a ella."
+  ],
+  "reviewed": false
+}

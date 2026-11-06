@@ -1,0 +1,60 @@
+{
+  "id": "it-a2-u06-c1",
+  "unit": "it-a2-u06",
+  "title": "De tiendas con Giulia",
+  "setting": "Giulia y tú entráis en una tienda de ropa del centro de Roma",
+  "emoji": "🛍️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Guarda che bei maglioni! Cosa cerchi oggi?", "es": "¡Mira qué jerséis tan bonitos! ¿Qué buscas hoy?" },
+      "options": [
+        { "t": "Cerco un maglione per mio figlio Hugo.", "es": "Busco un jersey para mi hijo Hugo.", "next": "n2", "ok": true },
+        { "t": "Cerco una maglione per mio figlio Hugo.", "es": "Busco un jersey para mi hijo Hugo.", "next": "n2", "ok": false, "feedback": "Maglione es masculino: un maglione." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Di che colore lo vuoi?", "es": "¿De qué color lo quieres?" },
+      "options": [
+        { "t": "Blu o grigio. Lui porta sempre colori scuri.", "es": "Azul o gris. Él siempre lleva colores oscuros.", "next": "n3", "ok": true },
+        { "t": "Blu o grigia. Lui porta sempre colori scuri.", "es": "Azul o gris. Él siempre lleva colores oscuros.", "next": "n3", "ok": false, "feedback": "Hablas del maglione, masculino: grigio." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Questo grigio di lana è bellissimo. Ti piace?", "es": "Este gris de lana es precioso. ¿Te gusta?" },
+      "options": [
+        { "t": "Sì, mi piace molto! Lo prendo.", "es": "¡Sí, me gusta mucho! Me lo llevo.", "next": "n4", "ok": true },
+        { "t": "Sì, mi piace molto! La prendo.", "es": "¡Sí, me gusta mucho! Me lo llevo.", "next": "n4", "ok": false, "feedback": "Il maglione → lo prendo." },
+        { "t": "Sì, mi piace molto! Prendo lo.", "es": "¡Sí, me gusta mucho! Me lo llevo.", "next": "n4", "ok": false, "feedback": "El pronombre va delante del verbo: lo prendo." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E per te? Guarda quelle sciarpe di seta!", "es": "¿Y para ti? ¡Mira esos pañuelos de seda!" },
+      "options": [
+        { "t": "Che belle! Le guardo un attimo.", "es": "¡Qué bonitos! Los miro un momento.", "next": "n5", "ok": true },
+        { "t": "Che belle! Li guardo un attimo.", "es": "¡Qué bonitos! Los miro un momento.", "next": "n5", "ok": false, "feedback": "Sciarpe es femenino plural: le guardo." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Quante ne prendi?", "es": "¿Cuántos te llevas?" },
+      "options": [
+        { "t": "Ne prendo due: una per me e una per un'amica.", "es": "Me llevo dos: uno para mí y otro para una amiga.", "next": "n6", "ok": true },
+        { "t": "Prendo due: una per me e una per un'amica.", "es": "Me llevo dos: uno para mí y otro para una amiga.", "next": "n6", "ok": false, "feedback": "Con una cantidad, el italiano necesita ne: ne prendo due." },
+        { "t": "Le prendo due: una per me e una per un'amica.", "es": "Me llevo dos: uno para mí y otro para una amiga.", "next": "n6", "ok": false, "feedback": "Con un número se usa ne, no le." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Brava! Andiamo alla cassa?", "es": "¡Muy bien! ¿Vamos a la caja?" },
+      "options": [
+        { "t": "Sì, andiamo. Poi un caffè?", "es": "Sí, vamos. ¿Luego un café?", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

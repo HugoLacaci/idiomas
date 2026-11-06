@@ -1,0 +1,139 @@
+{
+  "id": "it-g-possessivi",
+  "lang": "it",
+  "level": "A1",
+  "title": "Los posesivos (la mia casa, pero mia madre)",
+  "short": "Mi, tu, su… en italiano llevan artículo, salvo con la familia en singular.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Mi casa, mi familia",
+      "emoji": "🏡",
+      "text": "En italiano el posesivo suele ir **con artículo**: «la mia casa» es, palabra por palabra, «la mía casa». Suena raro al principio, ¡pero enseguida te acostumbras!",
+      "examples": [
+        { "t": "==la mia== casa", "es": "mi casa", "hl": "la mia" },
+        { "t": "==il mio== telefono", "es": "mi móvil", "hl": "il mio" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Las formas",
+      "emoji": "📋",
+      "text": "El posesivo concuerda con **la cosa que se posee**, no con quien la tiene.",
+      "table": {
+        "head": ["", "masc. sing.", "fem. sing.", "masc. pl.", "fem. pl."],
+        "rows": [
+          ["mi", "il ==mio==", "la ==mia==", "i ==miei==", "le ==mie=="],
+          ["tu", "il ==tuo==", "la ==tua==", "i ==tuoi==", "le ==tue=="],
+          ["su (de él/ella/usted)", "il ==suo==", "la ==sua==", "i ==suoi==", "le ==sue=="],
+          ["nuestro", "il ==nostro==", "la ==nostra==", "i ==nostri==", "le ==nostre=="],
+          ["vuestro", "il ==vostro==", "la ==vostra==", "i ==vostri==", "le ==vostre=="],
+          ["su (de ellos)", "il ==loro==", "la ==loro==", "i ==loro==", "le ==loro=="]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "title": "La familia, sin artículo",
+      "emoji": "👨‍👩‍👦",
+      "text": "Con un familiar **en singular** quitamos el artículo: ==mia== madre, ==mio== figlio. En **plural** vuelve: ==i miei== figli.",
+      "examples": [
+        { "t": "==Mio== figlio si chiama Hugo.", "es": "Mi hijo se llama Hugo.", "hl": "Mio" },
+        { "t": "==I miei== nipoti sono piccoli.", "es": "Mis nietos son pequeños.", "hl": "I miei" },
+        { "t": "==La mia== famiglia è grande.", "es": "Mi familia es grande.", "hl": "La mia" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Suo: de él, de ella, de usted",
+      "emoji": "🔄",
+      "text": "**suo / sua** cambia según la cosa poseída. Por eso «su marido» de Yolanda es ==suo== marito y «su mujer» de Marco es ==sua== moglie.",
+      "examples": [
+        { "t": "Yolanda e ==suo== marito", "es": "Yolanda y su marido", "hl": "suo" },
+        { "t": "Marco e ==sua== sorella", "es": "Marco y su hermana", "hl": "sua" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "Español e italiano",
+      "emoji": "🇪🇸",
+      "text": "En español: mi, tu, su, sin artículo. En italiano: artículo + posesivo. Y **loro** nunca cambia y siempre lleva artículo: ==la loro== madre.",
+      "examples": [
+        { "t": "==il nostro== paese", "es": "nuestro pueblo", "hl": "il nostro" },
+        { "t": "==la loro== madre", "es": "su madre (de ellos)", "hl": "la loro" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "Errores típicos",
+      "emoji": "⚠️",
+      "text": "Ojo con olvidar el artículo con las cosas o ponerlo con la familia en singular.",
+      "examples": [
+        { "t": "❌ mia casa → ✅ ==la mia== casa", "es": "mi casa", "hl": "la mia" },
+        { "t": "❌ la mia madre → ✅ ==mia== madre", "es": "mi madre", "hl": "mia" },
+        { "t": "❌ mii figli → ✅ ==i miei== figli", "es": "mis hijos", "hl": "i miei" }
+      ]
+    },
+    {
+      "kind": "tip",
+      "title": "Truco",
+      "emoji": "💡",
+      "text": "Pregúntate: ¿es **un solo familiar**? Sin artículo. ¿Son varios, es una cosa o es **loro**? Con artículo. Con **mamma** y **papà** los italianos suelen decir ==la mia== mamma.",
+      "examples": [
+        { "t": "==mia== sorella / ==le mie== sorelle", "es": "mi hermana / mis hermanas", "hl": "mia" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español el posesivo va sin artículo (mi casa, mi madre) y «su» vale para todo.",
+    "target": "En italiano va con artículo (la mia casa), salvo con un familiar en singular (mia madre). Suo/sua concuerda con lo poseído y loro es invariable."
+  },
+  "errors": [
+    { "wrong": "mia casa è grande", "right": "la mia casa è grande", "why": "Con las cosas el posesivo lleva artículo." },
+    { "wrong": "la mia madre", "right": "mia madre", "why": "Con un familiar en singular no se pone artículo." },
+    { "wrong": "miei figli", "right": "i miei figli", "why": "Con familiares en plural el artículo vuelve." },
+    { "wrong": "Yolanda e sua marito", "right": "Yolanda e suo marito", "why": "Suo/sua concuerda con marito (masculino), no con Yolanda." },
+    { "wrong": "loro madre", "right": "la loro madre", "why": "Loro siempre lleva artículo, también con la familia." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "___ madre si chiama Pilar.", "es": "Mi madre se llama Pilar.", "options": ["Mia", "La mia", "Mio"], "answer": "Mia", "why": "Familiar en singular: sin artículo, mia madre.", "g": "it-g-possessivi" },
+    { "id": "e2", "type": "choose", "q": "___ casa è vicino al mercato.", "es": "Mi casa está cerca del mercado.", "options": ["Mia", "La mia", "Il mio"], "answer": "La mia", "why": "Casa no es un familiar: lleva artículo, la mia casa.", "g": "it-g-possessivi" },
+    { "id": "e3", "type": "choose", "q": "___ nipoti vivono vicino.", "es": "Mis nietos viven cerca.", "options": ["Miei", "I miei", "Mio"], "answer": "I miei", "why": "Familiares en plural: con artículo, i miei nipoti.", "g": "it-g-possessivi" },
+    { "id": "e4", "type": "choose", "q": "Yolanda parla con ___ figlio.", "es": "Yolanda habla con su hijo.", "options": ["sua", "suo", "il suo"], "answer": "suo", "why": "Figlio es masculino singular y familiar: suo, sin artículo.", "g": "it-g-possessivi" },
+    { "id": "e5", "type": "choose", "q": "Hugo chiama ___ nonna.", "es": "Hugo llama a su abuela.", "options": ["suo", "sua", "la sua"], "answer": "sua", "why": "Nonna es femenino: sua. Familiar en singular: sin artículo.", "g": "it-g-possessivi" },
+    { "id": "e6", "type": "choose", "q": "Come si chiama ___ marito, Carmen?", "es": "¿Cómo se llama tu marido, Carmen?", "options": ["tuo", "tua", "il tuo"], "answer": "tuo", "why": "Marito es masculino singular y familiar: tuo.", "g": "it-g-possessivi" },
+    { "id": "e7", "type": "choose", "q": "Anna e Marco vivono con ___ figli.", "es": "Anna y Marco viven con sus hijos.", "options": ["i loro", "loro", "i suoi"], "answer": "i loro", "why": "De ellos = loro, y loro siempre lleva artículo.", "g": "it-g-possessivi" },
+    { "id": "e8", "type": "fill", "q": "___ telefono è nuovo.", "es": "Mi móvil es nuevo.", "answer": ["Il mio"], "bank": ["Il mio", "Mio", "La mia"], "why": "Telefono es una cosa masculina: il mio.", "g": "it-g-possessivi" },
+    { "id": "e9", "type": "fill", "q": "___ nipoti sono simpatici.", "es": "Mis nietos son simpáticos.", "answer": ["I miei"], "bank": ["I miei", "Miei", "Le mie"], "why": "Nipoti masculino plural: i miei.", "g": "it-g-possessivi" },
+    { "id": "e10", "type": "fill", "q": "___ sorelle abitano al paese.", "es": "Mis hermanas viven en el pueblo.", "answer": ["Le mie"], "bank": ["Le mie", "Mie", "I miei"], "why": "Sorelle es femenino plural: le mie.", "g": "it-g-possessivi" },
+    { "id": "e11", "type": "fill", "q": "Signora, è ___ borsa?", "es": "Señora, ¿es su bolso?", "answer": ["la sua", "la Sua"], "bank": ["la sua", "sua", "il suo"], "why": "Con Lei usamos sua; borsa es una cosa: la sua.", "g": "it-g-possessivi" },
+    { "id": "e12", "type": "fill", "q": "___ famiglia è grande.", "es": "Nuestra familia es grande.", "answer": ["La nostra"], "why": "Famiglia no se trata como un familiar: lleva artículo, la nostra.", "g": "it-g-possessivi" },
+    { "id": "e13", "type": "fill", "q": "Dove abita ___ fratello?", "es": "¿Dónde vive tu hermano?", "answer": ["tuo"], "why": "Fratello es familiar en singular: tuo, sin artículo.", "g": "it-g-possessivi" },
+    { "id": "e14", "type": "fill", "q": "Ecco ___ amici di Valencia.", "es": "Aquí están mis amigos de Valencia.", "answer": ["i miei"], "why": "Amici no son familia y van en plural: i miei.", "g": "it-g-possessivi" },
+    { "id": "e15", "type": "transform", "instr": "Pásalo a plural", "q": "mio figlio", "answer": ["i miei figli"], "why": "En plural el artículo vuelve: i miei figli.", "g": "it-g-possessivi" },
+    { "id": "e16", "type": "transform", "instr": "Pásalo a plural", "q": "mia nipote", "answer": ["le mie nipoti"], "why": "Femenino plural: le mie nipoti.", "g": "it-g-possessivi" },
+    { "id": "e17", "type": "transform", "instr": "Pásalo a plural", "q": "la mia amica", "answer": ["le mie amiche"], "why": "La mia pasa a le mie, y amica a amiche.", "g": "it-g-possessivi" },
+    { "id": "e18", "type": "transform", "instr": "Cambia «mio» por «tuo»", "q": "Mio marito è alto.", "answer": ["Tuo marito è alto."], "why": "Mio y tuo funcionan igual: sin artículo con un familiar.", "g": "it-g-possessivi" },
+    { "id": "e19", "type": "transform", "instr": "Pásalo a singular", "q": "i suoi fratelli", "answer": ["suo fratello"], "why": "Un solo familiar: sin artículo, suo fratello.", "g": "it-g-possessivi" },
+    { "id": "e20", "type": "error", "q": "Mio madre cucina molto bene.", "wrong": "Mio", "fix": "Mia", "why": "Madre es femenino: mia madre (y sin artículo, porque es un familiar en singular).", "g": "it-g-possessivi" },
+    { "id": "e21", "type": "error", "q": "Mia casa è piccola.", "wrong": "Mia", "fix": "La mia", "why": "Casa es una cosa, así que necesita artículo: la mia casa.", "g": "it-g-possessivi" },
+    { "id": "e22", "type": "error", "q": "Yolanda chiama sua figlio.", "wrong": "sua", "fix": "suo", "why": "Concuerda con figlio, que es masculino: suo.", "g": "it-g-possessivi" },
+    { "id": "e23", "type": "error", "q": "Miei nipoti sono in Spagna.", "wrong": "Miei", "fix": "I miei", "why": "Familiares en plural llevan artículo: i miei nipoti.", "g": "it-g-possessivi" },
+    { "id": "e24", "type": "order", "es": "Mi hijo está en el trabajo.", "answer": "Mio figlio è al lavoro", "extra": ["il"], "why": "Mio figlio, sin artículo: es un familiar en singular.", "g": "it-g-possessivi" },
+    { "id": "e25", "type": "order", "es": "Mis nietos son muy buenos.", "answer": "I miei nipoti sono molto bravi", "extra": ["mie"], "why": "Plural: i miei nipoti.", "g": "it-g-possessivi" },
+    { "id": "e26", "type": "order", "es": "Su casa (de ellos) es bonita.", "answer": "La loro casa è bella", "extra": ["sua"], "why": "De ellos = la loro, siempre con artículo.", "g": "it-g-possessivi" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "mi marido", "answer": ["mio marito"], "why": "Familiar en singular: sin artículo.", "g": "it-g-possessivi" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "mis hijos", "answer": ["i miei figli"], "why": "En plural vuelve el artículo.", "g": "it-g-possessivi" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "nuestra casa", "answer": ["la nostra casa"], "why": "Casa es una cosa: artículo + posesivo.", "g": "it-g-possessivi" },
+    { "id": "e30", "type": "translate", "dir": "from", "q": "Sua moglie è italiana.", "answer": ["Su mujer es italiana", "Su esposa es italiana"], "why": "Sua concuerda con moglie: su mujer.", "g": "it-g-possessivi" },
+    { "id": "e31", "type": "match", "pairs": [["mia", "madre"], ["la mia", "casa"], ["i miei", "figli"], ["le mie", "nipoti"], ["il mio", "telefono"]], "why": "Familiar en singular sin artículo; plurales y cosas con artículo.", "g": "it-g-possessivi" },
+    { "id": "e32", "type": "situation", "context": "Le presentas tu nieta a una amiga italiana.", "emoji": "👭", "options": ["Questa è mia nipote.", "Questa è la mia nipote.", "Questa è mio nipote."], "answer": "Questa è mia nipote.", "why": "Aquí nipote es femenino y familiar en singular: mia nipote.", "g": "it-g-possessivi" },
+    { "id": "e33", "type": "situation", "context": "En el hotel no encuentras tu maleta y preguntas al recepcionista.", "emoji": "🧳", "options": ["Dov'è mia valigia?", "Dov'è la mia valigia?", "Dov'è il mio valigia?"], "answer": "Dov'è la mia valigia?", "why": "Valigia es una cosa femenina: la mia valigia.", "g": "it-g-possessivi" },
+    { "id": "e34", "type": "reading", "kind": "message", "title": "WhatsApp de Yolanda", "text": "Ciao Giulia! Ecco una foto della mia famiglia. Mio figlio Hugo è al centro. I miei nipoti sono a destra con i loro amici. Mia madre è a sinistra, con il cappello rosso!", "questions": [
+      { "q": "¿Dónde está Hugo en la foto?", "options": ["En el centro", "A la derecha", "A la izquierda"], "answer": "En el centro" },
+      { "q": "¿Con quién están los nietos?", "options": ["Con sus amigos", "Con Hugo", "Con Giulia"], "answer": "Con sus amigos" },
+      { "q": "¿Por qué «mia madre» no lleva artículo?", "options": ["Es un familiar en singular", "Es plural", "Es una cosa"], "answer": "Es un familiar en singular" }
+    ], "why": "Fíjate: mio figlio y mia madre sin artículo; i miei nipoti e i loro amici con artículo.", "g": "it-g-possessivi" }
+  ],
+  "reviewed": false
+}

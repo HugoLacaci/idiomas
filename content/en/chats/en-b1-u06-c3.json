@@ -1,0 +1,61 @@
+{
+  "id": "en-b1-u06-c3",
+  "unit": "en-b1-u06",
+  "title": "Postal desde Ciudad del Cabo",
+  "setting": "Estás de viaje en Ciudad del Cabo en diciembre y Emma te escribe para saber qué tal.",
+  "emoji": "⛰️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda! How's Cape Town? Is it hot?", "es": "¡Yolanda! ¿Qué tal Ciudad del Cabo? ¿Hace calor?" },
+      "options": [
+        { "t": "Very hot! Christmas is celebrated in summer here.", "es": "¡Muchísimo! Aquí la Navidad se celebra en verano.", "next": "n2", "ok": true },
+        { "t": "Very hot! Christmas celebrates in summer here.", "es": "¡Muchísimo! Aquí la Navidad se celebra en verano.", "next": "n2", "ok": false, "feedback": "«Se celebra» = is celebrated." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Have you been up Table Mountain?", "es": "¿Has subido a la Montaña de la Mesa?" },
+      "options": [
+        { "t": "Yes! We took the cable car. It was opened in 1929.", "es": "¡Sí! Cogimos el teleférico. Se inauguró en 1929.", "next": "n3", "ok": true },
+        { "t": "Yes! We took the cable car. It opened by 1929.", "es": "¡Sí! Cogimos el teleférico. Se inauguró en 1929.", "next": "n3", "ok": false, "feedback": "Para una fecha usa in: It was opened in 1929." },
+        { "t": "Yes! We took the cable car. It is opened in 1929.", "es": "¡Sí! Cogimos el teleférico. Se inauguró en 1929.", "next": "n3", "ok": false, "feedback": "1929 ya pasó: was opened." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Amazing! Was the view good?", "es": "¡Increíble! ¿Había buena vista?" },
+      "options": [
+        { "t": "At first, no. The mountain was covered by the tablecloth.", "es": "Al principio no. La montaña estaba tapada por el mantel.", "next": "n4", "ok": true },
+        { "t": "At first, no. The mountain was cover by the tablecloth.", "es": "Al principio no. La montaña estaba tapada por el mantel.", "next": "n4", "ok": false, "feedback": "Falta -ed: was covered." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "The tablecloth? Ha ha, the famous cloud! And have you seen penguins?", "es": "¿El mantel? ¡Ja, ja, la famosa nube! ¿Y has visto pingüinos?" },
+      "options": [
+        { "t": "Yes! Hundreds of penguins can be seen on the beach.", "es": "¡Sí! En la playa se pueden ver cientos de pingüinos.", "next": "n5", "ok": true },
+        { "t": "Yes! Hundreds of penguins can be see on the beach.", "es": "¡Sí! En la playa se pueden ver cientos de pingüinos.", "next": "n5", "ok": false, "feedback": "Can be + participio: can be seen." },
+        { "t": "Yes! Hundreds of penguins can are seen on the beach.", "es": "¡Sí! En la playa se pueden ver cientos de pingüinos.", "next": "n5", "ok": false, "feedback": "Después de can, be en forma base: can be seen." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "So jealous! What will you do on Christmas Day?", "es": "¡Qué envidia! ¿Qué vas a hacer el día de Navidad?" },
+      "options": [
+        { "t": "We've been invited to a braai on the beach!", "es": "¡Nos han invitado a una barbacoa en la playa!", "next": "n6", "ok": true },
+        { "t": "We've invited to a braai on the beach!", "es": "¡Nos han invitado a una barbacoa en la playa!", "next": "n6", "ok": false, "feedback": "Así significa que vosotros invitáis. «Nos han invitado» = we've been invited." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "A Christmas barbecue! Send me lots of photos.", "es": "¡Una barbacoa navideña! Mándame muchas fotos." },
+      "options": [
+        { "t": "I will! Merry Christmas from Cape Town!", "es": "¡Claro! ¡Feliz Navidad desde Ciudad del Cabo!", "next": "end", "ok": true },
+        { "t": "I will! Cheers from Cape Town!", "es": "¡Claro! ¡Feliz Navidad desde Ciudad del Cabo!", "next": "end", "ok": false, "feedback": "Cheers es para brindar (o «gracias»). Para felicitar: Merry Christmas!" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,462 @@
+{
+  "id": "it-a1-u10-l5",
+  "unit": "it-a1-u10",
+  "title": "Reto: tres días en Catania",
+  "goal": "a resolver tu estancia en un hotel de principio a fin: llegar, pedir, quejarte y despedirte",
+  "emoji": "🌋",
+  "photoQuery": "Catania Etna volcano city view",
+  "vocab": [
+    {
+      "id": "hotel-il-vulcano",
+      "t": "il vulcano",
+      "es": "el volcán",
+      "emoji": "🌋",
+      "pos": "n",
+      "ex": {
+        "t": "Dalla camera vediamo il vulcano.",
+        "es": "Desde la habitación vemos el volcán."
+      }
+    },
+    {
+      "id": "hotel-la-gita",
+      "t": "la gita",
+      "es": "la excursión",
+      "emoji": "🚌",
+      "pos": "n",
+      "ex": {
+        "t": "Domani facciamo una gita sull'Etna.",
+        "es": "Mañana hacemos una excursión al Etna."
+      }
+    },
+    {
+      "id": "hotel-consigliare",
+      "t": "consigliare",
+      "es": "recomendar, aconsejar",
+      "emoji": "💡",
+      "pos": "v",
+      "ex": {
+        "t": "Può consigliare un ristorante?",
+        "es": "¿Puede recomendar un restaurante?"
+      }
+    },
+    {
+      "id": "hotel-la-granita",
+      "t": "la granita",
+      "es": "el granizado siciliano",
+      "emoji": "🍧",
+      "pos": "n",
+      "note": "En Catania se toma con un bollo, la brioche.",
+      "ex": {
+        "t": "Vorrei una granita al limone.",
+        "es": "Quisiera un granizado de limón."
+      }
+    },
+    {
+      "id": "hotel-la-ricevuta",
+      "t": "la ricevuta",
+      "es": "el recibo, el justificante",
+      "emoji": "🧾",
+      "pos": "n",
+      "ex": {
+        "t": "Posso avere la ricevuta?",
+        "es": "¿Me puede dar el recibo?"
+      }
+    },
+    {
+      "id": "hotel-la-partenza",
+      "t": "la partenza",
+      "es": "la salida, la partida",
+      "emoji": "🛫",
+      "pos": "n",
+      "ex": {
+        "t": "Il giorno della partenza pago tutto.",
+        "es": "El día de la salida lo pago todo."
+      }
+    },
+    {
+      "id": "hotel-chiamare-un-taxi",
+      "t": "chiamare un taxi",
+      "es": "llamar a un taxi",
+      "emoji": "🚕",
+      "pos": "phrase",
+      "ex": {
+        "t": "Può chiamare un taxi, per favore?",
+        "es": "¿Puede llamar a un taxi, por favor?"
+      }
+    },
+    {
+      "id": "hotel-grazie-di-tutto",
+      "t": "Grazie di tutto!",
+      "es": "¡Gracias por todo!",
+      "emoji": "🙏",
+      "pos": "phrase",
+      "ex": {
+        "t": "Arrivederci e grazie di tutto!",
+        "es": "¡Adiós y gracias por todo!"
+      }
+    }
+  ],
+  "grammar": "it-g-modali",
+  "pron": {
+    "title": "Repaso: agudas y gl",
+    "tip": "Junta lo de la unidad: la fuerza al final en può, città, perché, y la gl suave de voglio y vogliamo. Dilo despacio y luego más rápido.",
+    "words": [
+      "può",
+      "città",
+      "perché",
+      "voglio",
+      "vogliamo"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "email",
+      "title": "Confirmación de la reserva",
+      "text": "Gentile signora,\nconfermiamo la Sua prenotazione: camera doppia con balcone, tre notti. La colazione è inclusa. Il parcheggio è gratuito. Se vuole, possiamo organizzare una gita sull'Etna.\nCordiali saluti,\nAlbergo Lava",
+      "questions": [
+        {
+          "q": "¿Cuántas noches ha reservado?",
+          "options": [
+            "Tres",
+            "Dos",
+            "Una"
+          ],
+          "answer": "Tres"
+        },
+        {
+          "q": "¿Qué pasa con el aparcamiento?",
+          "options": [
+            "Es gratis",
+            "Hay que pagarlo",
+            "No hay"
+          ],
+          "answer": "Es gratis"
+        },
+        {
+          "q": "¿Qué le ofrece el hotel?",
+          "options": [
+            "Organizar una excursión al Etna",
+            "Una cena gratis",
+            "Cambiar de habitación"
+          ],
+          "answer": "Organizar una excursión al Etna"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "type": "situation",
+      "context": "En recepción quieres que te recomienden un sitio para cenar.",
+      "emoji": "🍝",
+      "options": [
+        "Può consigliare un ristorante?",
+        "Deve consigliare un ristorante!",
+        "Sa un ristorante?"
+      ],
+      "answer": "Può consigliare un ristorante?",
+      "why": "Può + infinitivo es una petición educada a un desconocido (Lei).",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e3",
+      "type": "situation",
+      "context": "Es tu último día y necesitas un taxi para el aeropuerto.",
+      "emoji": "🚕",
+      "options": [
+        "Può chiamare un taxi, per favore?",
+        "Posso chiamare un taxi, per favore?",
+        "Voglio un taxi adesso!"
+      ],
+      "answer": "Può chiamare un taxi, per favore?",
+      "why": "Le pides a él que lo llame: può (usted puede). Posso sería «puedo yo».",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Domani ___ fare una gita sull'Etna.",
+      "es": "Mañana queremos hacer una excursión al Etna.",
+      "options": [
+        "vogliamo",
+        "vogliono",
+        "volemo"
+      ],
+      "answer": "vogliamo",
+      "why": "Noi de volere: vogliamo.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "Lei ___ dove posso comprare una granita?",
+      "es": "¿Usted sabe dónde puedo comprar un granizado?",
+      "options": [
+        "sa",
+        "conosce",
+        "sai"
+      ],
+      "answer": "sa",
+      "why": "Saber dónde está algo es sapere: Lei sa.",
+      "g": "it-g-sapere"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Posso avere la ___?",
+      "es": "¿Me puede dar el recibo?",
+      "answer": [
+        "ricevuta"
+      ],
+      "bank": [
+        "ricevuta",
+        "ricetta",
+        "coperta"
+      ],
+      "why": "El recibo es la ricevuta. La ricetta es la receta.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Mio figlio Hugo ___ dormire fino a tardi.",
+      "es": "Mi hijo Hugo quiere dormir hasta tarde.",
+      "answer": [
+        "vuole"
+      ],
+      "hint": "volere",
+      "why": "Lui de volere: vuole.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "q": "A che ora ___ lasciare la camera?",
+      "es": "¿A qué hora tengo que dejar la habitación?",
+      "answer": [
+        "devo"
+      ],
+      "bank": [
+        "devo",
+        "debo",
+        "ho"
+      ],
+      "why": "Tengo que = devo.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Gracias por todo, hasta la próxima.",
+      "answer": "Grazie di tutto alla prossima",
+      "extra": [
+        "per"
+      ],
+      "why": "Se dice grazie di tutto (o grazie per tutto); aquí usamos di.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Sabe dónde está la parada del taxi?",
+      "answer": [
+        "Sa dov'è la fermata del taxi?",
+        "Sa dove è la fermata del taxi?",
+        "Sa dov'è il posteggio dei taxi?"
+      ],
+      "why": "Saber dónde = sapere dove; usted = sa.",
+      "g": "it-g-sapere"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "from",
+      "q": "Non conosco Catania.",
+      "answer": [
+        "No conozco Catania."
+      ],
+      "why": "Conoscere un lugar = conocer.",
+      "g": "it-g-sapere"
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "Mio marito non sa bene Catania.",
+      "wrong": "sa",
+      "fix": "conosce",
+      "why": "Una ciudad se conoce: conoscere. Sapere es para datos o habilidades.",
+      "g": "it-g-sapere"
+    },
+    {
+      "id": "e13",
+      "type": "transform",
+      "instr": "Hazla más educada con vorrei",
+      "q": "Voglio una camera più tranquilla.",
+      "answer": [
+        "Vorrei una camera più tranquilla."
+      ],
+      "why": "Voglio suena brusco; vorrei es la forma amable.",
+      "g": "it-g-vorrei"
+    },
+    {
+      "id": "e14",
+      "type": "match",
+      "pairs": [
+        [
+          "la gita",
+          "la excursión"
+        ],
+        [
+          "la ricevuta",
+          "el recibo"
+        ],
+        [
+          "la partenza",
+          "la salida"
+        ],
+        [
+          "il vulcano",
+          "el volcán"
+        ],
+        [
+          "consigliare",
+          "recomendar"
+        ]
+      ],
+      "why": "Palabras del final de la estancia."
+    },
+    {
+      "id": "e15",
+      "type": "conjugate",
+      "verb": "potere",
+      "person": "voi",
+      "tense": "presente",
+      "q": "___ chiamare un taxi per noi?",
+      "answer": [
+        "Potete",
+        "potete"
+      ],
+      "why": "Voi de potere: potete, regular.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Arrivederci e grazie di tutto!",
+      "es": "¡Adiós y gracias por todo!"
+    }
+  ],
+  "dialog": {
+    "title": "El último día",
+    "setting": "Yolanda deja el hotel de Catania y habla con la recepcionista",
+    "emoji": "🧾",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Buongiorno. Lasciamo la camera.",
+        "es": "Buenos días. Dejamos la habitación."
+      },
+      {
+        "who": "Giorgia",
+        "t": "Tutto bene? Vi è piaciuta la camera?",
+        "es": "¿Todo bien? ¿Les ha gustado la habitación?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, bellissima! Il vulcano dal balcone…",
+        "es": "¡Sí, preciosa! El volcán desde el balcón…"
+      },
+      {
+        "who": "Giorgia",
+        "t": "Ecco il conto. Vuole la ricevuta?",
+        "es": "Aquí tiene la cuenta. ¿Quiere el recibo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, grazie. Può chiamare un taxi?",
+        "es": "Sí, gracias. ¿Puede llamar a un taxi?"
+      },
+      {
+        "who": "Giorgia",
+        "t": "Certo. Dove dovete andare?",
+        "es": "Claro. ¿Adónde tienen que ir?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "All'aeroporto. Sa quanto tempo ci vuole?",
+        "es": "Al aeropuerto. ¿Sabe cuánto se tarda?"
+      },
+      {
+        "who": "Giorgia",
+        "t": "Circa venti minuti. Buon viaggio!",
+        "es": "Unos veinte minutos. ¡Buen viaje!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie di tutto!",
+        "es": "¡Gracias por todo!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué le gustó a Yolanda?",
+        "options": [
+          "Ver el volcán desde el balcón",
+          "La piscina",
+          "El desayuno"
+        ],
+        "answer": "Ver el volcán desde el balcón"
+      },
+      {
+        "q": "¿Qué pide Yolanda?",
+        "options": [
+          "El recibo y un taxi",
+          "Otra noche",
+          "Una manta"
+        ],
+        "answer": "El recibo y un taxi"
+      },
+      {
+        "q": "¿Adónde van?",
+        "options": [
+          "Al aeropuerto",
+          "A la estación",
+          "Al Etna"
+        ],
+        "answer": "Al aeropuerto"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Può chiamare un taxi, per favore?",
+    "es": "¿Puede llamar a un taxi, por favor?",
+    "context": "En la recepción, el día que te vas del hotel"
+  },
+  "same": {
+    "text": "Para pedir algo a un recepcionista, la estructura es la misma que en español con usted.",
+    "examples": [
+      {
+        "t": "Può chiamare un taxi?",
+        "es": "¿Puede llamar a un taxi?"
+      },
+      {
+        "t": "Può consigliare un ristorante?",
+        "es": "¿Puede recomendar un restaurante?"
+      },
+      {
+        "t": "Sa dov'è…?",
+        "es": "¿Sabe dónde está…?"
+      }
+    ]
+  },
+  "summary": [
+    "Pedir con educación: Può chiamare un taxi? Può consigliare…?",
+    "Querer y tener que: vogliamo fare una gita, devo lasciare la camera.",
+    "Sapere para datos (Sa dov'è…?), conoscere para sitios (Non conosco Catania).",
+    "Despedirte: Arrivederci e grazie di tutto!"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u10-l5"
+}

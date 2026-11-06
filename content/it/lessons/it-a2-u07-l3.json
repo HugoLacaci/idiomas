@@ -1,0 +1,73 @@
+{
+  "id": "it-a2-u07-l3",
+  "unit": "it-a2-u07",
+  "title": "Posso lasciare un messaggio?",
+  "goal": "a usar las frases clave de una llamada: presentarte, preguntar por alguien y dejar un recado",
+  "emoji": "☎️",
+  "photoQuery": "vintage telephone on desk",
+  "vocab": [
+    { "id": "tel-chi-parla", "t": "Chi parla?", "es": "¿Quién es? / ¿De parte de quién?", "emoji": "❓", "pos": "phrase", "ex": { "t": "Pronto, chi parla?", "es": "¿Diga? ¿Quién es?" } },
+    { "id": "tel-sono-yolanda", "t": "Sono Yolanda.", "es": "Soy Yolanda.", "emoji": "🙋‍♀️", "pos": "phrase", "note": "Al teléfono te presentas con sono, no con mi chiamo.", "ex": { "t": "Buongiorno, sono Yolanda.", "es": "Buenos días, soy Yolanda." } },
+    { "id": "tel-c-e", "t": "C'è…?", "es": "¿Está…?", "emoji": "🏠", "pos": "phrase", "ex": { "t": "Buonasera, c'è il dottor Bianchi?", "es": "Buenas tardes, ¿está el doctor Bianchi?" } },
+    { "id": "tel-attenda-in-linea", "t": "Attenda in linea.", "es": "No cuelgue. / Espere un momento.", "emoji": "⏳", "pos": "phrase", "ex": { "t": "Attenda in linea, prego.", "es": "No cuelgue, por favor." } },
+    { "id": "tel-lasciare-un-messaggio", "t": "lasciare un messaggio", "es": "dejar un recado", "emoji": "📝", "pos": "phrase", "ex": { "t": "Posso lasciare un messaggio?", "es": "¿Puedo dejar un recado?" } },
+    { "id": "tel-non-ti-sento", "t": "Non ti sento bene.", "es": "No te oigo bien.", "emoji": "🔇", "pos": "phrase", "ex": { "t": "Scusa, non ti sento bene. Ripeti?", "es": "Perdona, no te oigo bien. ¿Lo repites?" } },
+    { "id": "tel-e-caduta-la-linea", "t": "È caduta la linea.", "es": "Se ha cortado la llamada.", "emoji": "📵", "pos": "phrase", "ex": { "t": "Scusa, è caduta la linea!", "es": "¡Perdona, se ha cortado!" } },
+    { "id": "tel-ho-sbagliato-numero", "t": "Ho sbagliato numero.", "es": "Me he equivocado de número.", "emoji": "🙊", "pos": "phrase", "ex": { "t": "Oh, scusi, ho sbagliato numero.", "es": "Oh, perdone, me he equivocado de número." } },
+    { "id": "tel-attendere", "t": "attendere", "es": "esperar (formal)", "emoji": "🕰️", "pos": "v", "ex": { "t": "Si prega di attendere.", "es": "Por favor, espere." } }
+  ],
+  "grammar": "it-g-pronomi-indiretti",
+  "pron": {
+    "title": "La entonación de Pronto?",
+    "tip": "Pronto? se dice subiendo al final, como una pregunta suave. Chi parla? baja un poco: es una pregunta con palabra interrogativa.",
+    "words": ["Pronto?", "Chi parla?", "C'è Marco?", "Posso lasciare un messaggio?"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Signora, ___ posso lasciare un messaggio?", "es": "Señora, ¿le puedo dejar un recado?", "options": ["Le", "La", "Gli"], "answer": "Le", "why": "A usted (Lei) → Le.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e2", "type": "choose", "q": "Il dottore non c'è. ___ posso dire chi lo cerca?", "es": "El doctor no está. ¿Le puedo decir quién lo busca?", "options": ["Gli", "Le", "Lo"], "answer": "Gli", "why": "A él (el doctor) → gli.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e3", "type": "choose", "q": "Ieri ___ ho scritto un messaggio, ma lei non ha risposto.", "es": "Ayer le escribí un mensaje, pero ella no contestó.", "options": ["le", "gli", "la"], "answer": "le", "why": "A ella → le. Con gli/le el participio no cambia: ho scritto.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e4", "type": "choose", "q": "Pronto, ___ Yolanda. C'è Paola?", "es": "¿Sí? Soy Yolanda. ¿Está Paola?", "options": ["sono", "mi chiamo", "è"], "answer": "sono", "why": "Al teléfono: sono Yolanda.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e5", "type": "fill", "q": "Posso ___ un messaggio?", "es": "¿Puedo dejar un recado?", "answer": ["lasciare"], "bank": ["lasciare", "attendere", "sbagliare"], "why": "Dejar un recado = lasciare un messaggio.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e6", "type": "fill", "q": "Paolo non c'è. Vuole lasciar___ un messaggio?", "es": "Paolo no está. ¿Quiere dejarle un recado?", "answer": ["gli"], "bank": ["gli", "le", "lo"], "why": "Con infinitivo, el pronombre va pegado: lasciargli.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e7", "type": "fill", "q": "Scusa, non ti ___ bene.", "es": "Perdona, no te oigo bien.", "answer": ["sento"], "hint": "sentire", "why": "Oír = sentire: non ti sento.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e8", "type": "error", "q": "Signora, gli posso fare una domanda?", "wrong": "gli", "fix": "Le", "why": "A usted (Lei) → Le, como «a ella».", "g": "it-g-pronomi-indiretti" },
+    { "id": "e9", "type": "error", "q": "Signora, gli richiamo dopo.", "wrong": "Gli", "fix": "La", "why": "Richiamare lleva objeto directo; a usted: La richiamo.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e10", "type": "order", "es": "Espere, por favor, no cuelgue.", "answer": "Attenda in linea per favore", "extra": ["aspetta"], "why": "Attenda in linea es la frase fija de las centralitas.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e11", "type": "transform", "instr": "Pega el pronombre al infinitivo", "q": "Gli voglio scrivere.", "answer": ["Voglio scrivergli."], "why": "Scrivere pierde la -e: scrivergli.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e12", "type": "translate", "dir": "to", "q": "Perdone, me he equivocado de número.", "answer": ["Scusi, ho sbagliato numero.", "Mi scusi, ho sbagliato numero."], "why": "Equivocarse de número = sbagliare numero.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e13", "type": "translate", "dir": "from", "q": "È caduta la linea.", "answer": ["Se ha cortado la llamada.", "Se ha cortado.", "Se ha caído la llamada.", "Se cortó la llamada."], "why": "Cadere la linea = cortarse la llamada.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e14", "type": "situation", "context": "Llamas al hotel y quieres hablar con la recepcionista, la señora Conti.", "emoji": "🏨", "options": ["Buongiorno, c'è la signora Conti?", "Buongiorno, è la signora Conti?", "Buongiorno, chi parla la signora Conti?"], "answer": "Buongiorno, c'è la signora Conti?", "why": "Para preguntar si alguien está: c'è…?", "g": "it-g-pronomi-indiretti" },
+    { "id": "e15", "type": "situation", "context": "La persona que buscas no está. Quieres dejarle un recado.", "emoji": "📝", "options": ["Posso lasciare un messaggio?", "Posso lasciare la linea?", "Ho sbagliato numero."], "answer": "Posso lasciare un messaggio?", "why": "Dejar un recado = lasciare un messaggio.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e16", "type": "match", "pairs": [["Chi parla?", "¿Quién es?"], ["Attenda in linea.", "No cuelgue."], ["Non ti sento.", "No te oigo."], ["È caduta la linea.", "Se ha cortado."], ["Ho sbagliato numero.", "Me he equivocado de número."]], "why": "Frases para el teléfono." }
+  ],
+  "dialog": {
+    "title": "Llamada al médico",
+    "setting": "Yolanda llama a una consulta médica de Turín",
+    "emoji": "🩺",
+    "lines": [
+      { "who": "Segretaria", "t": "Studio medico, buongiorno.", "es": "Consulta médica, buenos días." },
+      { "who": "Yolanda", "t": "Buongiorno, sono Yolanda. C'è il dottor Ferri?", "es": "Buenos días, soy Yolanda. ¿Está el doctor Ferri?" },
+      { "who": "Segretaria", "t": "Attenda in linea, per favore.", "es": "Espere un momento, por favor." },
+      { "who": "Segretaria", "t": "Mi dispiace, il dottore è occupato.", "es": "Lo siento, el doctor está ocupado." },
+      { "who": "Yolanda", "t": "Posso lasciargli un messaggio?", "es": "¿Puedo dejarle un recado?" },
+      { "who": "Segretaria", "t": "Certo. Cosa gli devo dire?", "es": "Claro. ¿Qué tengo que decirle?" },
+      { "who": "Yolanda", "t": "Gli dica che ho bisogno di un appuntamento.", "es": "Dígale que necesito una cita." },
+      { "who": "Segretaria", "t": "Va bene. La richiamiamo nel pomeriggio.", "es": "Muy bien. La llamamos por la tarde." }
+    ],
+    "questions": [
+      { "q": "¿Por qué no puede hablar el doctor?", "options": ["Está ocupado", "Está de vacaciones", "Ha salido a comer"], "answer": "Está ocupado" },
+      { "q": "¿Qué necesita Yolanda?", "options": ["Una cita", "Una receta", "Un taxi"], "answer": "Una cita" },
+      { "q": "¿Cuándo la llamarán?", "options": ["Por la tarde", "Mañana", "En una hora"], "answer": "Por la tarde" }
+    ]
+  },
+  "realLife": { "t": "Gli può dire che ho chiamato?", "es": "¿Le puede decir que he llamado?", "context": "Cuando la persona que buscas no puede ponerse al teléfono" },
+  "falseFriend": { "word": "attendere", "means": "esperar (en tono formal)", "looksLike": "atender (en italiano: occuparsi di, servire)", "emoji": "⏳", "tip": "Si oyes Attenda in linea, no te van a atender todavía: ¡te piden que esperes!" },
+  "summary": [
+    "Pronto, sono Yolanda. C'è…? Chi parla?",
+    "Attenda in linea = espere; posso lasciare un messaggio?",
+    "A usted: Le (Le posso fare una domanda?).",
+    "Con infinitivo: lasciargli, scrivergli.",
+    "Con gli/le el participio no cambia: le ho scritto."
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "it-a1-u06-c2",
+  "unit": "it-a1-u06",
+  "title": "El piso de Giulia en Roma",
+  "setting": "Giulia te ofrece su piso de Roma para unas vacaciones",
+  "emoji": "🔑",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, ad agosto io sono in montagna. Vuoi il mio appartamento a Roma?", "es": "Yolanda, en agosto yo estoy en la montaña. ¿Quieres mi piso de Roma?" },
+      "options": [
+        { "t": "Davvero? Che gentile! Com'è?", "es": "¿De verdad? ¡Qué amable! ¿Cómo es?", "next": "n2", "ok": true },
+        { "t": "Davvero? Che gentile! Come c'è?", "es": "¿De verdad? ¡Qué amable! ¿Cómo hay?", "next": "n2", "ok": false, "feedback": "Para describir se usa essere: Com'è? (¿cómo es?). C'è significa «hay»." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "È piccolo ma accogliente. Ci sono una camera e un divano letto.", "es": "Es pequeño pero acogedor. Hay un dormitorio y un sofá cama." },
+      "options": [
+        { "t": "Perfetto. A che piano è?", "es": "Perfecto. ¿En qué planta está?", "next": "n3", "ok": true },
+        { "t": "Perfetto. Quanti piani c'è?", "es": "Perfecto. ¿Cuántas plantas hay?", "next": "n3", "ok": false, "feedback": "Con quanti siempre plural: quanti piani ci sono? Pero aquí lo útil es: A che piano è?" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Al quarto piano.", "es": "En la cuarta planta." },
+      "options": [
+        { "t": "C'è l'ascensore?", "es": "¿Hay ascensor?", "next": "n4", "ok": true },
+        { "t": "Ci sono l'ascensore?", "es": "¿Hay ascensor?", "next": "n4", "ok": false, "feedback": "L'ascensore es singular: c'è l'ascensore?" },
+        { "t": "È l'ascensore?", "es": "¿Es el ascensor?", "next": "n4", "ok": false, "feedback": "Para «¿hay…?» usamos c'è: C'è l'ascensore?" }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Sì, per fortuna! E c'è anche l'aria condizionata.", "es": "¡Sí, por suerte! Y también hay aire acondicionado." },
+      "options": [
+        { "t": "Benissimo! Ci sono negozi vicino?", "es": "¡Estupendo! ¿Hay tiendas cerca?", "next": "n5", "ok": true },
+        { "t": "Benissimo! C'è negozi vicino?", "es": "¡Estupendo! ¿Hay tiendas cerca?", "next": "n5", "ok": false, "feedback": "Negozi es plural: ci sono negozi?" }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Sì, c'è un mercato tra casa mia e la metro.", "es": "Sí, hay un mercado entre mi casa y el metro." },
+      "options": [
+        { "t": "Che comodo! Grazie mille, Giulia.", "es": "¡Qué cómodo! Muchísimas gracias, Giulia.", "next": "n6", "ok": true },
+        { "t": "Che comodo! Affitto la casa?", "es": "¡Qué cómodo! ¿Alquilo la casa?", "next": "n6", "ok": false, "feedback": "Giulia te la deja gratis: mejor dar las gracias. Affittare = alquilar." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Figurati! Le chiavi sono da mia vicina, la signora Anna.", "es": "¡No hay de qué! Las llaves las tiene mi vecina, la señora Anna." },
+      "options": [
+        { "t": "Va bene, vado da lei. A presto!", "es": "Vale, voy a su casa. ¡Hasta pronto!", "next": "end", "ok": true },
+        { "t": "Va bene, vado a lei. A presto!", "es": "Vale, voy a ella. ¡Hasta pronto!", "next": "end", "ok": false, "feedback": "A casa de alguien se va con da: vado da lei." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

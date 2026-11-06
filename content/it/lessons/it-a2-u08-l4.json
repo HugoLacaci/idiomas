@@ -1,0 +1,86 @@
+{
+  "id": "it-a2-u08-l4",
+  "unit": "it-a2-u08",
+  "title": "Si sieda, signora",
+  "goal": "a entender al médico cuando te habla de usted: si sieda, apra la bocca, non si preoccupi",
+  "emoji": "🩺",
+  "photoQuery": "doctor stethoscope desk clinic",
+  "vocab": [
+    { "id": "salute-il-medico", "t": "il medico / la dottoressa", "es": "el médico / la doctora", "emoji": "👩‍⚕️", "pos": "n", "ex": { "t": "Domani ho appuntamento dal medico.", "es": "Mañana tengo cita con el médico." } },
+    { "id": "salute-la-visita", "t": "la visita", "es": "la consulta, el reconocimiento", "emoji": "🩺", "pos": "n", "ex": { "t": "La visita è durata dieci minuti.", "es": "La consulta ha durado diez minutos." } },
+    { "id": "salute-sedersi", "t": "Si sieda.", "es": "Siéntese.", "emoji": "🪑", "pos": "phrase", "ex": { "t": "Buongiorno, si sieda pure.", "es": "Buenos días, siéntese, por favor." } },
+    { "id": "salute-apra-la-bocca", "t": "Apra la bocca.", "es": "Abra la boca.", "emoji": "👄", "pos": "phrase", "ex": { "t": "Apra la bocca e dica «ah».", "es": "Abra la boca y diga «a»." } },
+    { "id": "salute-respiri", "t": "Respiri profondamente.", "es": "Respire hondo.", "emoji": "🌬️", "pos": "phrase", "ex": { "t": "Respiri profondamente, per favore.", "es": "Respire hondo, por favor." } },
+    { "id": "salute-la-spalla", "t": "la spalla", "es": "el hombro", "emoji": "💪", "pos": "n", "ex": { "t": "Mi fa male la spalla destra.", "es": "Me duele el hombro derecho." }, "note": "¡Ojo! La espalda es la schiena." },
+    { "id": "salute-la-pressione", "t": "la pressione", "es": "la tensión (arterial)", "emoji": "❤️", "pos": "n", "ex": { "t": "Le misuro la pressione.", "es": "Le tomo la tensión." } },
+    { "id": "salute-non-si-preoccupi", "t": "Non si preoccupi.", "es": "No se preocupe.", "emoji": "🙂", "pos": "phrase", "ex": { "t": "Non si preoccupi, non è niente.", "es": "No se preocupe, no es nada." } },
+    { "id": "salute-guarire", "t": "guarire", "es": "curarse, ponerse bien", "emoji": "🌈", "pos": "v", "ex": { "t": "In una settimana guarisce.", "es": "En una semana se pone bien." } }
+  ],
+  "grammar": "it-g-imperativo-lei",
+  "pron": {
+    "title": "Scusa o scusi: una vocal lo cambia todo",
+    "tip": "Al final, -a o -i cambian a quién hablas: senti (tú) / senta (usted). Pronuncia la última vocal muy clara.",
+    "words": ["scusa", "scusi", "senti", "senta", "prendi", "prenda"],
+    "pairs": [["scusa", "scusi"], ["senti", "senta"], ["prendi", "prenda"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "minimal", "pair": ["scusa", "scusi"], "answer": "scusi", "es": ["perdona", "perdone"], "why": "Scusi, con -i, es de usted.", "g": "it-g-imperativo-lei" },
+    { "id": "e2", "type": "minimal", "pair": ["senti", "senta"], "answer": "senta", "es": ["oye", "oiga"], "why": "Senta, con -a, es de usted.", "g": "it-g-imperativo-lei" },
+    { "id": "e3", "type": "choose", "q": "Signora, ___ la bocca, per favore.", "es": "Señora, abra la boca, por favor.", "options": ["apra", "apri", "aprire"], "answer": "apra", "why": "Aprire es en -ire: con Lei acaba en -a → apra.", "g": "it-g-imperativo-lei" },
+    { "id": "e4", "type": "choose", "q": "Prego, si ___.", "es": "Por favor, siéntese.", "options": ["sieda", "siedi", "siede"], "answer": "sieda", "why": "Sedersi con Lei: si sieda. El pronombre va delante.", "g": "it-g-imperativo-lei" },
+    { "id": "e5", "type": "choose", "q": "Non si ___, signora. Non è niente.", "es": "No se preocupe, señora. No es nada.", "options": ["preoccupi", "preoccupa", "preoccupare"], "answer": "preoccupi", "why": "Preoccuparsi es en -are: con Lei acaba en -i → si preoccupi.", "g": "it-g-imperativo-lei" },
+    { "id": "e6", "type": "fill", "q": "___ profondamente, per favore.", "es": "Respire hondo, por favor.", "answer": ["Respiri"], "bank": ["Respiri", "Respira", "Respirare"], "why": "Respirare (-are) con Lei: respiri.", "g": "it-g-imperativo-lei" },
+    { "id": "e7", "type": "fill", "q": "Domani ___ di nuovo alle nove.", "es": "Mañana venga otra vez a las nueve.", "answer": ["venga"], "hint": "venire (io vengo)", "why": "De vengo sale venga.", "g": "it-g-imperativo-lei" },
+    { "id": "e8", "type": "fill", "q": "Mi fa male la ___, non la schiena.", "es": "Me duele el hombro, no la espalda.", "answer": ["spalla"], "bank": ["spalla", "gola", "pancia"], "why": "El hombro = la spalla (¡no la espalda!).", "g": "it-g-imperativo-lei" },
+    { "id": "e9", "type": "error", "q": "Signora, prendi questa medicina dopo cena.", "wrong": "prendi", "fix": "prenda", "why": "A la señora le hablas de Lei: prenda.", "g": "it-g-imperativo-lei" },
+    { "id": "e10", "type": "error", "q": "Signora, si siedi qui, per favore.", "wrong": "siedi", "fix": "sieda", "why": "Con Lei: si sieda, con -a al final.", "g": "it-g-imperativo-lei" },
+    { "id": "e11", "type": "transform", "instr": "Pásala de tú a usted (Lei)", "q": "Apri la bocca.", "answer": ["Apra la bocca."], "why": "Apri (tú) → apra (Lei).", "g": "it-g-imperativo-lei" },
+    { "id": "e12", "type": "transform", "instr": "Pásala de tú a usted (Lei)", "q": "Non preoccuparti.", "answer": ["Non si preoccupi."], "why": "Con Lei: non si preoccupi, pronombre delante.", "g": "it-g-imperativo-lei" },
+    { "id": "e13", "type": "order", "es": "Siéntese y respire hondo.", "answer": "Si sieda e respiri profondamente", "extra": ["siediti"], "why": "Si sieda (pronombre delante) + respiri.", "g": "it-g-imperativo-lei" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "Mi fa male la spalla sinistra.", "answer": ["Me duele el hombro izquierdo."], "why": "La spalla = el hombro.", "g": "it-g-imperativo-lei" },
+    { "id": "e15", "type": "situation", "context": "El médico te dice algo y no lo has entendido. Le pides que lo repita.", "emoji": "🩺", "options": ["Scusi, può ripetere?", "Scusa, puoi ripetere?", "Ripeti, dottore!"], "answer": "Scusi, può ripetere?", "why": "Al médico, de usted: scusi, può.", "g": "it-g-imperativo-lei" }
+  ],
+  "dialog": {
+    "title": "En la consulta",
+    "setting": "Yolanda va al médico en Milán porque le duele el hombro",
+    "emoji": "🩺",
+    "lines": [
+      { "who": "Dottoressa", "t": "Buongiorno, signora. Si sieda pure.", "es": "Buenos días, señora. Siéntese, por favor." },
+      { "who": "Yolanda", "t": "Grazie. Mi fa male la spalla destra.", "es": "Gracias. Me duele el hombro derecho." },
+      { "who": "Dottoressa", "t": "Da quando?", "es": "¿Desde cuándo?" },
+      { "who": "Yolanda", "t": "Da una settimana. Ho portato valigie pesanti.", "es": "Desde hace una semana. He llevado maletas pesadas." },
+      { "who": "Dottoressa", "t": "Alzi il braccio… piano. Le fa male?", "es": "Levante el brazo… despacio. ¿Le duele?" },
+      { "who": "Yolanda", "t": "Un po', sì.", "es": "Un poco, sí." },
+      { "who": "Dottoressa", "t": "Non si preoccupi. Non porti pesi e si riposi.", "es": "No se preocupe. No lleve peso y descanse." },
+      { "who": "Yolanda", "t": "Va bene, grazie, dottoressa.", "es": "De acuerdo, gracias, doctora." }
+    ],
+    "questions": [
+      { "q": "¿Qué le duele a Yolanda?", "options": ["El hombro", "La espalda", "La cabeza"], "answer": "El hombro" },
+      { "q": "¿Por qué le duele?", "options": ["Por llevar maletas pesadas", "Por una caída", "Por dormir mal"], "answer": "Por llevar maletas pesadas" },
+      { "q": "¿Qué le aconseja la doctora?", "options": ["No llevar peso y descansar", "Hacer deporte", "Ir al hospital"], "answer": "No llevar peso y descansar" }
+    ]
+  },
+  "realLife": { "t": "Scusi, può parlare più piano?", "es": "Perdone, ¿puede hablar más despacio?", "context": "Cuando el médico o el farmacéutico habla muy rápido" },
+  "same": {
+    "text": "En la consulta, muchas órdenes se parecen a las nuestras de usted.",
+    "examples": [
+      { "t": "Respiri.", "es": "Respire." },
+      { "t": "Apra la bocca.", "es": "Abra la boca." },
+      { "t": "Si sieda.", "es": "Siéntese." }
+    ]
+  },
+  "falseFriend": {
+    "word": "la spalla",
+    "means": "el hombro",
+    "looksLike": "la espalda (en italiano, la schiena)",
+    "emoji": "💪",
+    "tip": "Mi fa male la spalla = me duele el hombro. Si te duele la espalda: mi fa male la schiena."
+  },
+  "summary": [
+    "De usted (Lei): -are → -i (respiri), -ere/-ire → -a (prenda, apra).",
+    "Los pronombres van delante: si sieda, non si preoccupi, mi dica.",
+    "Irregulares que salen del «io»: vengo → venga.",
+    "La spalla es el hombro; la espalda es la schiena."
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,462 @@
+{
+  "id": "en-a1-u05-l1",
+  "unit": "en-a1-u05",
+  "title": "Del uno al mil: números y precios",
+  "goal": "a decir los números hasta mil, preguntar precios y dar tu número de teléfono",
+  "emoji": "💷",
+  "photoQuery": "market stall price tags",
+  "vocab": [
+    {
+      "id": "thirteen",
+      "t": "thirteen",
+      "es": "trece",
+      "emoji": "🔢",
+      "pos": "n",
+      "ex": {
+        "t": "Our flat is number thirteen.",
+        "es": "Nuestro piso es el número trece."
+      },
+      "note": "Del 13 al 19 terminan en -teen: thirteen, fourteen, fifteen…"
+    },
+    {
+      "id": "thirty",
+      "t": "thirty",
+      "es": "treinta",
+      "emoji": "🗓️",
+      "pos": "n",
+      "ex": {
+        "t": "There are thirty days in June.",
+        "es": "Junio tiene treinta días."
+      },
+      "note": "Las decenas terminan en -ty: twenty, thirty, forty, fifty…"
+    },
+    {
+      "id": "a-hundred",
+      "t": "a hundred",
+      "es": "cien",
+      "emoji": "💯",
+      "pos": "n",
+      "ex": {
+        "t": "A hundred people at the wedding!",
+        "es": "¡Cien personas en la boda!"
+      },
+      "note": "Se dice a hundred o one hundred. 120 = a hundred and twenty."
+    },
+    {
+      "id": "a-thousand",
+      "t": "a thousand",
+      "es": "mil",
+      "emoji": "🧮",
+      "pos": "n",
+      "ex": {
+        "t": "A thousand pounds? That's expensive!",
+        "es": "¿Mil libras? ¡Qué caro!"
+      }
+    },
+    {
+      "id": "a-billion",
+      "t": "a billion",
+      "es": "mil millones",
+      "emoji": "🌍",
+      "pos": "n",
+      "ex": {
+        "t": "A billion is a thousand million.",
+        "es": "Un billion son mil millones."
+      },
+      "note": "¡Ojo, trampa! a billion = 1.000.000.000 (mil millones), no un billón español."
+    },
+    {
+      "id": "oh-zero",
+      "t": "oh (0)",
+      "es": "cero (al dictar números)",
+      "emoji": "0️⃣",
+      "pos": "n",
+      "ex": {
+        "t": "It's seven, oh, two.",
+        "es": "Es el siete, cero, dos."
+      },
+      "note": "En números de teléfono los británicos dicen «oh» para el 0. En matemáticas: zero."
+    },
+    {
+      "id": "how-much-is-it",
+      "t": "How much is it?",
+      "es": "¿Cuánto cuesta?",
+      "emoji": "🏷️",
+      "pos": "phrase",
+      "ex": {
+        "t": "How much is it? – It's ten pounds.",
+        "es": "¿Cuánto cuesta? – Diez libras."
+      }
+    },
+    {
+      "id": "a-pound",
+      "t": "a pound (£)",
+      "es": "una libra",
+      "emoji": "🪙",
+      "pos": "n",
+      "ex": {
+        "t": "The coffee is two pounds fifty.",
+        "es": "El café cuesta dos libras cincuenta."
+      },
+      "note": "1 pound = 100 pence. En la calle se dice «p»: 50p (fifty p)."
+    },
+    {
+      "id": "phone-number",
+      "t": "phone number",
+      "es": "número de teléfono",
+      "emoji": "📞",
+      "pos": "n",
+      "ex": {
+        "t": "What's your phone number, Emma?",
+        "es": "¿Cuál es tu número de teléfono, Emma?"
+      }
+    }
+  ],
+  "grammar": "en-g-how-old",
+  "pron": {
+    "title": "La th de three y thirty",
+    "tip": "Para la th de three, thirty y thousand pon la punta de la lengua entre los dientes y sopla, como nuestra z de Castilla. No digas «tri» ni «fri»: three suena «zri».",
+    "words": [
+      "three",
+      "thirteen",
+      "thirty",
+      "thousand"
+    ],
+    "pairs": [
+      [
+        "three",
+        "free"
+      ],
+      [
+        "thank",
+        "tank"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "13",
+          "thirteen"
+        ],
+        [
+          "30",
+          "thirty"
+        ],
+        [
+          "15",
+          "fifteen"
+        ],
+        [
+          "50",
+          "fifty"
+        ],
+        [
+          "100",
+          "a hundred"
+        ]
+      ],
+      "why": "Del 13 al 19 acaban en -teen; las decenas, en -ty."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Twenty and ten is ___.",
+      "es": "Veinte y diez son treinta.",
+      "options": [
+        "thirty",
+        "thirteen",
+        "three"
+      ],
+      "answer": "thirty",
+      "why": "30 = thirty (con -ty). Thirteen es 13."
+    },
+    {
+      "id": "e3",
+      "type": "transform",
+      "instr": "Escribe el precio con letras",
+      "q": "£250",
+      "answer": [
+        "two hundred and fifty pounds",
+        "two hundred fifty pounds"
+      ],
+      "why": "En inglés británico se pone and después de hundred: two hundred and fifty."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "One pound is a hundred ___.",
+      "es": "Una libra son cien peniques.",
+      "answer": [
+        "pence"
+      ],
+      "bank": [
+        "pence",
+        "pounds",
+        "euros"
+      ],
+      "why": "El plural de penny, cuando hablamos de dinero, es pence."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "___ much is it?",
+      "es": "¿Cuánto cuesta?",
+      "answer": [
+        "How"
+      ],
+      "bank": [
+        "How",
+        "What",
+        "Where"
+      ],
+      "why": "Para preguntar el precio: How much is it?"
+    },
+    {
+      "id": "e6",
+      "type": "choose",
+      "q": "A ___ is a thousand million.",
+      "es": "Mil millones.",
+      "options": [
+        "billion",
+        "million",
+        "hundred"
+      ],
+      "answer": "billion",
+      "why": "¡Trampa! A billion son mil millones, no un billón español."
+    },
+    {
+      "id": "e7",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Cuánto cuesta?",
+      "answer": [
+        "How much is it?",
+        "How much does it cost?",
+        "How much is this?"
+      ],
+      "why": "La forma más sencilla y natural es How much is it?"
+    },
+    {
+      "id": "e8",
+      "type": "translate",
+      "dir": "to",
+      "q": "mil libras",
+      "answer": [
+        "a thousand pounds",
+        "one thousand pounds",
+        "£1000",
+        "£1,000"
+      ],
+      "why": "Mil = a thousand (o one thousand), y libras en plural: pounds."
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "It's ten pound, please.",
+      "wrong": "pound",
+      "fix": "pounds",
+      "why": "Con más de una libra se pone plural: ten pounds."
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "The postcard is fifty pences.",
+      "wrong": "pences",
+      "fix": "pence",
+      "why": "Pence ya es plural: fifty pence (o fifty p). Nunca «pences»."
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "¿Cuál es tu número de teléfono?",
+      "answer": "What's your phone number",
+      "extra": [
+        "How",
+        "is"
+      ],
+      "why": "«¿Cuál es…?» con datos se dice What's…?"
+    },
+    {
+      "id": "e12",
+      "type": "reading",
+      "kind": "menu",
+      "title": "Greenwich Market – Café",
+      "text": "Tea – £1.80\nCoffee – £2.50\nCake – £3.50\nSandwich – £4.95\nWater – 90p",
+      "questions": [
+        {
+          "q": "¿Cuánto cuesta el café?",
+          "options": [
+            "Dos libras cincuenta",
+            "Una libra ochenta",
+            "Tres libras cincuenta"
+          ],
+          "answer": "Dos libras cincuenta"
+        },
+        {
+          "q": "¿Qué cuesta cuatro libras noventa y cinco?",
+          "options": [
+            "El sándwich",
+            "La tarta",
+            "El té"
+          ],
+          "answer": "El sándwich"
+        },
+        {
+          "q": "¿Cuánto cuesta el agua?",
+          "options": [
+            "Noventa peniques",
+            "Nueve libras",
+            "Diecinueve peniques"
+          ],
+          "answer": "Noventa peniques"
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "En una tienda de Londres quieres saber el precio de una postal.",
+      "emoji": "🏷️",
+      "options": [
+        "How much is it?",
+        "How many is it?",
+        "How old is it?"
+      ],
+      "answer": "How much is it?",
+      "why": "Para el precio: How much. How many es para contar cosas."
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "three",
+        "free"
+      ],
+      "answer": "three",
+      "es": [
+        "tres",
+        "gratis"
+      ],
+      "why": "Three lleva la lengua entre los dientes; free, el labio en los dientes."
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "thank",
+        "tank"
+      ],
+      "answer": "thank",
+      "es": [
+        "agradecer",
+        "depósito"
+      ],
+      "why": "Thank empieza soplando con la lengua entre los dientes; tank, con una t normal."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "It's three pounds fifty, please.",
+      "es": "Son tres libras cincuenta, por favor."
+    }
+  ],
+  "dialog": {
+    "title": "Un regalo en el mercado",
+    "setting": "En un puesto del mercado de Greenwich",
+    "emoji": "🧣",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Excuse me, how much is this scarf?",
+        "es": "Perdone, ¿cuánto cuesta esta bufanda?"
+      },
+      {
+        "who": "Tom",
+        "t": "It's thirty pounds.",
+        "es": "Treinta libras."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sorry, thirteen or thirty?",
+        "es": "Perdone, ¿trece o treinta?"
+      },
+      {
+        "who": "Tom",
+        "t": "Thirty. Three, oh.",
+        "es": "Treinta. Tres, cero."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Hmm. And the small scarf?",
+        "es": "Mmm. ¿Y la bufanda pequeña?"
+      },
+      {
+        "who": "Tom",
+        "t": "That one is fifteen pounds.",
+        "es": "Esa cuesta quince libras."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfect. It's a present for my son.",
+        "es": "Perfecto. Es un regalo para mi hijo."
+      },
+      {
+        "who": "Tom",
+        "t": "Lovely. Cash or card?",
+        "es": "Estupendo. ¿Efectivo o tarjeta?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Card, please.",
+        "es": "Con tarjeta, por favor."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuánto cuesta la primera bufanda?",
+        "options": [
+          "Treinta libras",
+          "Trece libras",
+          "Quince libras"
+        ],
+        "answer": "Treinta libras"
+      },
+      {
+        "q": "¿Por qué pregunta Yolanda «thirteen or thirty»?",
+        "options": [
+          "Porque suenan parecido",
+          "Porque no tiene dinero",
+          "Porque no le gusta"
+        ],
+        "answer": "Porque suenan parecido"
+      },
+      {
+        "q": "¿Cómo paga Yolanda?",
+        "options": [
+          "Con tarjeta",
+          "En efectivo",
+          "No la compra"
+        ],
+        "answer": "Con tarjeta"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Can I pay by card?",
+    "es": "¿Puedo pagar con tarjeta?",
+    "context": "Al pagar en una tienda, un mercado o un taxi"
+  },
+  "summary": [
+    "13–19 acaban en -teen; 20, 30, 40… en -ty",
+    "120 = a hundred and twenty (con and)",
+    "Precio: How much is it? – It's five pounds fifty",
+    "1 pound = 100 pence; nunca «pences»",
+    "¡Trampa! a billion = mil millones"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u05-l1"
+}

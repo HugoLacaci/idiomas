@@ -1,0 +1,508 @@
+{
+  "id": "it-a0-u00-l6",
+  "unit": "it-a0-u00",
+  "title": "Città, caffè, tavolo: el acento",
+  "goal": "a saber dónde va el acento y a leer en voz alta frases sencillas",
+  "emoji": "📖",
+  "photoQuery": "trevi fountain rome",
+  "vocab": [
+    {
+      "id": "la-citta",
+      "t": "la città",
+      "es": "la ciudad",
+      "emoji": "🏙️",
+      "pos": "n",
+      "ex": {
+        "t": "Roma è una città bellissima.",
+        "es": "Roma es una ciudad preciosa."
+      }
+    },
+    {
+      "id": "perche",
+      "t": "perché",
+      "es": "por qué / porque",
+      "emoji": "❓",
+      "pos": "other",
+      "ex": {
+        "t": "Perché? Perché sì!",
+        "es": "¿Por qué? ¡Porque sí!"
+      },
+      "note": "Una sola palabra para preguntar y para responder."
+    },
+    {
+      "id": "piu",
+      "t": "più",
+      "es": "más",
+      "emoji": "➕",
+      "pos": "adv",
+      "ex": {
+        "t": "Più piano, per favore.",
+        "es": "Más despacio, por favor."
+      }
+    },
+    {
+      "id": "cosi",
+      "t": "così",
+      "es": "así",
+      "emoji": "👌",
+      "pos": "adv",
+      "ex": {
+        "t": "Così è perfetto!",
+        "es": "¡Así está perfecto!"
+      }
+    },
+    {
+      "id": "il-tavolo",
+      "t": "il tavolo",
+      "es": "la mesa",
+      "emoji": "🪑",
+      "pos": "n",
+      "ex": {
+        "t": "Un tavolo per due, per favore.",
+        "es": "Una mesa para dos, por favor."
+      },
+      "note": "Acento en la primera sílaba: TA-vo-lo."
+    },
+    {
+      "id": "il-telefono",
+      "t": "il telefono",
+      "es": "el teléfono",
+      "emoji": "📱",
+      "pos": "n",
+      "ex": {
+        "t": "Dov'è il mio telefono?",
+        "es": "¿Dónde está mi teléfono?"
+      },
+      "note": "Como en español: te-LE-fo-no, pero sin tilde."
+    },
+    {
+      "id": "la-musica",
+      "t": "la musica",
+      "es": "la música",
+      "emoji": "🎵",
+      "pos": "n",
+      "ex": {
+        "t": "Amo la musica italiana.",
+        "es": "Me encanta la música italiana."
+      }
+    },
+    {
+      "id": "l-universita",
+      "t": "l'università",
+      "es": "la universidad",
+      "emoji": "🎓",
+      "pos": "n",
+      "ex": {
+        "t": "Chiara studia all'università.",
+        "es": "Chiara estudia en la universidad."
+      }
+    },
+    {
+      "id": "e-verbo",
+      "t": "è",
+      "es": "es / está",
+      "emoji": "✅",
+      "pos": "v",
+      "ex": {
+        "t": "Il caffè è pronto.",
+        "es": "El café está listo."
+      },
+      "note": "Con acento es el verbo. Sin acento, e significa «y»."
+    }
+  ],
+  "pron": {
+    "title": "¿Dónde va el acento?",
+    "tip": "Casi todas las palabras se acentúan en la penúltima sílaba: PIZ-za, a-MO-re. Si el acento cae al final, se escribe: città, caffè, perché. Algunas lo llevan antes (TA-vo-lo), y esas hay que aprenderlas.",
+    "words": [
+      "città",
+      "perché",
+      "tavolo",
+      "telefono",
+      "università"
+    ],
+    "pairs": [
+      [
+        "papa",
+        "papà"
+      ],
+      [
+        "meta",
+        "metà"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "minimal",
+      "pair": [
+        "papa",
+        "papà"
+      ],
+      "answer": "papà",
+      "es": [
+        "el papa",
+        "el papá"
+      ],
+      "why": "Papà lleva el acento al final; papa, en la primera sílaba."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Roma è una ___ bellissima.",
+      "es": "Roma es una ciudad preciosa.",
+      "options": [
+        "città",
+        "citta",
+        "cittá"
+      ],
+      "answer": "città",
+      "why": "El acento cae al final, así que se escribe: città, con la tilde hacia la izquierda (à)."
+    },
+    {
+      "id": "e3",
+      "type": "speak",
+      "t": "Roma è una città bellissima.",
+      "es": "Roma es una ciudad preciosa."
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Il caffè ___ buono.",
+      "es": "El café está bueno.",
+      "options": [
+        "è",
+        "e"
+      ],
+      "answer": "è",
+      "why": "è con acento = es / está. e sin acento = y."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Pane ___ olio.",
+      "es": "Pan y aceite.",
+      "answer": [
+        "e"
+      ],
+      "bank": [
+        "e",
+        "è",
+        "é"
+      ],
+      "why": "Aquí significa «y», así que va sin acento: e."
+    },
+    {
+      "id": "e6",
+      "type": "minimal",
+      "pair": [
+        "meta",
+        "metà"
+      ],
+      "answer": "metà",
+      "es": [
+        "la meta",
+        "la mitad"
+      ],
+      "why": "Metà, la mitad, se acentúa al final."
+    },
+    {
+      "id": "e7",
+      "type": "choose",
+      "q": "___ studi l'italiano? Per Roma!",
+      "es": "¿Por qué estudias italiano? ¡Por Roma!",
+      "options": [
+        "Perché",
+        "Perchè",
+        "Perche"
+      ],
+      "answer": "Perché",
+      "why": "Perché lleva tilde hacia la derecha (é): esa e se dice cerrada."
+    },
+    {
+      "id": "e8",
+      "type": "match",
+      "pairs": [
+        [
+          "città",
+          "ciudad"
+        ],
+        [
+          "perché",
+          "por qué / porque"
+        ],
+        [
+          "più",
+          "más"
+        ],
+        [
+          "così",
+          "así"
+        ],
+        [
+          "tavolo",
+          "mesa"
+        ]
+      ],
+      "why": "Las cuatro primeras se acentúan al final; tavolo, al principio."
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "q": "___ piano, per favore.",
+      "es": "Más despacio, por favor.",
+      "answer": [
+        "Più"
+      ],
+      "bank": [
+        "Più",
+        "Piu",
+        "Pìu"
+      ],
+      "why": "Più lleva acento en la u final."
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Una mesa para dos, por favor.",
+      "answer": "Un tavolo per due per favore",
+      "extra": [
+        "tavola"
+      ],
+      "why": "En el restaurante se pide un tavolo: TA-vo-lo."
+    },
+    {
+      "id": "e11",
+      "type": "minimal",
+      "pair": [
+        "pero",
+        "però"
+      ],
+      "answer": "però",
+      "es": [
+        "el peral",
+        "pero (sin embargo)"
+      ],
+      "why": "Però, «pero», se acentúa en la o final."
+    },
+    {
+      "id": "e12",
+      "type": "error",
+      "q": "Amo la musica e la citta.",
+      "wrong": "citta",
+      "fix": "città",
+      "es": "Me encantan la música y la ciudad.",
+      "why": "Città se acentúa al final, así que lleva tilde: città."
+    },
+    {
+      "id": "e13",
+      "type": "speak",
+      "t": "Il telefono è sul tavolo.",
+      "es": "El teléfono está en la mesa."
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "to",
+      "q": "Así está perfecto.",
+      "answer": [
+        "Così è perfetto",
+        "È perfetto così"
+      ],
+      "why": "Así = così, con acento en la i final."
+    },
+    {
+      "id": "e15",
+      "type": "order",
+      "es": "Chiara estudia en la universidad.",
+      "answer": "Chiara studia all'università",
+      "extra": [
+        "è"
+      ],
+      "why": "Università se acentúa al final: u-ni-ver-si-TÀ."
+    },
+    {
+      "id": "e16",
+      "type": "situation",
+      "context": "En la calle, alguien te da indicaciones muy deprisa. ¿Qué le pides?",
+      "emoji": "🐢",
+      "options": [
+        "Più piano, per favore.",
+        "Più caffè, per favore.",
+        "Perché, per favore."
+      ],
+      "answer": "Più piano, per favore.",
+      "why": "Più piano = más despacio. ¡Te salvará muchas veces!"
+    },
+    {
+      "id": "e17",
+      "type": "translate",
+      "dir": "from",
+      "q": "Dov'è il mio telefono?",
+      "answer": [
+        "¿Dónde está mi teléfono?",
+        "Dónde está mi móvil"
+      ],
+      "why": "Dov'è = ¿dónde está?"
+    },
+    {
+      "id": "e18",
+      "type": "speak",
+      "t": "Perché no? Andiamo!",
+      "es": "¿Por qué no? ¡Vamos!"
+    },
+    {
+      "id": "e19",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de Hugo",
+      "text": "Ciao mamma! Sono a Roma. La città è bellissima. Il caffè è buonissimo. Perché non vieni? Un bacio!",
+      "questions": [
+        {
+          "q": "¿Dónde está Hugo?",
+          "options": [
+            "En Roma",
+            "En Madrid",
+            "En Nápoles"
+          ],
+          "answer": "En Roma"
+        },
+        {
+          "q": "¿Qué le parece el café?",
+          "options": [
+            "Buenísimo",
+            "Caro",
+            "Frío"
+          ],
+          "answer": "Buenísimo"
+        },
+        {
+          "q": "¿Qué le propone a su madre?",
+          "options": [
+            "Que vaya a Roma",
+            "Que le llame",
+            "Que haga lasaña"
+          ],
+          "answer": "Que vaya a Roma"
+        }
+      ]
+    },
+    {
+      "id": "e20",
+      "type": "speak",
+      "t": "Più piano, per favore.",
+      "es": "Más despacio, por favor."
+    }
+  ],
+  "dialog": {
+    "title": "Una moneda en la Fontana di Trevi",
+    "setting": "Delante de la Fontana di Trevi, en Roma",
+    "emoji": "⛲",
+    "lines": [
+      {
+        "who": "Paolo",
+        "t": "Ecco la Fontana di Trevi!",
+        "es": "¡Aquí está la Fontana di Trevi!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Che meraviglia! Perché lanciano monete?",
+        "es": "¡Qué maravilla! ¿Por qué tiran monedas?"
+      },
+      {
+        "who": "Paolo",
+        "t": "Perché così si torna a Roma!",
+        "es": "¡Porque así se vuelve a Roma!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Allora una moneta per me!",
+        "es": "¡Entonces una moneda para mí!"
+      },
+      {
+        "who": "Paolo",
+        "t": "Con la mano destra, sopra la spalla sinistra.",
+        "es": "Con la mano derecha, por encima del hombro izquierdo."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Così? Perfetto!",
+        "es": "¿Así? ¡Perfecto!"
+      },
+      {
+        "who": "Paolo",
+        "t": "Brava! Lei torna a Roma, sicuro.",
+        "es": "¡Muy bien! Usted vuelve a Roma, seguro."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Dónde están?",
+        "options": [
+          "En la Fontana di Trevi",
+          "En el Coliseo",
+          "En la estación"
+        ],
+        "answer": "En la Fontana di Trevi"
+      },
+      {
+        "q": "¿Para qué tiran monedas?",
+        "options": [
+          "Para volver a Roma",
+          "Para pedir dinero",
+          "Para comprar un helado"
+        ],
+        "answer": "Para volver a Roma"
+      },
+      {
+        "q": "¿Con qué mano se tira la moneda?",
+        "options": [
+          "Con la derecha",
+          "Con la izquierda"
+        ],
+        "answer": "Con la derecha"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Più piano, per favore.",
+    "es": "Más despacio, por favor.",
+    "context": "Cuando un italiano te habla demasiado deprisa"
+  },
+  "same": {
+    "text": "Igual que en español: el acento suele ir en la penúltima sílaba, y muchas palabras esdrújulas coinciden.",
+    "examples": [
+      {
+        "t": "la musica",
+        "es": "la música"
+      },
+      {
+        "t": "il telefono",
+        "es": "el teléfono"
+      },
+      {
+        "t": "il medico",
+        "es": "el médico"
+      },
+      {
+        "t": "il numero",
+        "es": "el número"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "la gamba",
+    "means": "la pierna",
+    "looksLike": "la gamba (el marisco)",
+    "emoji": "🦵",
+    "tip": "«Mi fa male la gamba» es «me duele la pierna». La gamba que comemos es «il gambero»."
+  },
+  "summary": [
+    "Casi todas las palabras se acentúan en la penúltima sílaba",
+    "Si el acento va al final, se escribe: città, caffè, perché, più",
+    "è (con acento) = es / está; e (sin acento) = y",
+    "Para entender mejor: Più piano, per favore"
+  ],
+  "reviewed": false,
+  "photo": "it-a0-u00-l6"
+}

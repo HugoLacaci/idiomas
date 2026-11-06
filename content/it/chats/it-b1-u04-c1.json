@@ -1,0 +1,59 @@
+{
+  "id": "it-b1-u04-c1",
+  "unit": "it-b1-u04",
+  "title": "¿Qué te parece el parmesano?",
+  "setting": "Giulia te ha traído un trozo de Parmigiano de Parma y quiere saber tu opinión",
+  "emoji": "🧀",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Assaggia questo Parmigiano! Che ne pensi?", "es": "¡Prueba este parmesano! ¿Qué te parece?" },
+      "options": [
+        { "t": "Penso che sia squisito!", "es": "¡Creo que está riquísimo!", "next": "n2", "ok": true },
+        { "t": "Penso che è squisito!", "es": "¡Creo que está riquísimo!", "next": "n2", "ok": false, "feedback": "Casi. Detrás de penso che va el congiuntivo: sia." },
+        { "t": "Penso di squisito!", "es": "¡Creo de riquísimo!", "next": "n2", "ok": false, "feedback": "Penso di solo va con sì o no. Aquí: penso che sia squisito." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "È di trenta mesi. Ti sembra troppo forte?", "es": "Es de treinta meses. ¿Te parece demasiado fuerte?" },
+      "options": [
+        { "t": "No, mi sembra che abbia un sapore perfetto.", "es": "No, me parece que tiene un sabor perfecto.", "next": "n3", "ok": true },
+        { "t": "No, mi sembra che ha un sapore perfetto.", "es": "No, me parece que tiene un sabor perfecto.", "next": "n3", "ok": false, "feedback": "Mi sembra che + congiuntivo de avere: abbia." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Secondo te, è meglio con il vino rosso o bianco?", "es": "Para ti, ¿está mejor con vino tinto o blanco?" },
+      "options": [
+        { "t": "Dipende! Ma credo che il rosso sia più buono.", "es": "¡Depende! Pero creo que el tinto está más bueno.", "next": "n4", "ok": true },
+        { "t": "Dipende! Ma credo che il rosso è più buono.", "es": "¡Depende! Pero creo que el tinto está más bueno.", "next": "n4", "ok": false, "feedback": "Credo che + sia, no è." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Io lo mangio anche con un po' di aceto balsamico.", "es": "Yo lo como también con un poco de vinagre balsámico." },
+      "options": [
+        { "t": "Davvero? Non credo che mi piaccia, ma provo!", "es": "¿De verdad? No creo que me guste, ¡pero lo pruebo!", "next": "n5", "ok": true },
+        { "t": "Davvero? Non credo che mi piace, ma provo!", "es": "¿De verdad? No creo que me guste, ¡pero lo pruebo!", "next": "n5", "ok": false, "feedback": "Non credo che también pide congiuntivo: mi piaccia (como «me guste»)." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Allora? Com'è?", "es": "¿Y bien? ¿Qué tal?" },
+      "options": [
+        { "t": "Hai ragione, è buonissimo!", "es": "¡Tienes razón, está buenísimo!", "next": "n6", "ok": true },
+        { "t": "Hai ragione, sia buonissimo!", "es": "¡Tienes razón, está buenísimo!", "next": "n6", "ok": false, "feedback": "Sin penso che delante, usamos el indicativo normal: è buonissimo." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Te ne regalo un pezzo per tuo marito!", "es": "¡Te regalo un trozo para tu marido!" },
+      "options": [
+        { "t": "Grazie mille! Penso che sarà contentissimo.", "es": "¡Muchas gracias! Creo que estará contentísimo.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

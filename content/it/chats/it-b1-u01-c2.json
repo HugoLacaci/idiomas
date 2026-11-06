@@ -1,0 +1,59 @@
+{
+  "id": "it-b1-u01-c2",
+  "unit": "it-b1-u01",
+  "title": "Giulia necesita un consejo",
+  "setting": "Giulia te escribe preocupada: no sabe qué hacer y te pide consejo",
+  "emoji": "🤝",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, sono stanchissima. Lavoro troppo e dormo poco.", "es": "Yolanda, estoy cansadísima. Trabajo demasiado y duermo poco." },
+      "options": [
+        { "t": "Oh, Giulia! Dovresti riposarti di più.", "es": "¡Ay, Giulia! Deberías descansar más.", "next": "n2", "ok": true },
+        { "t": "Oh, Giulia! Dovrei riposarti di più.", "es": "¡Ay, Giulia! Deberías descansar más.", "next": "n2", "ok": false, "feedback": "Dovrei es «debería (yo)». Para aconsejarla a ella: dovresti." },
+        { "t": "Oh, Giulia! Devi dormire, subito!", "es": "¡Ay, Giulia! ¡Tienes que dormir, ya!", "next": "n2", "ok": false, "feedback": "Es correcto, pero suena a orden. Con dovresti suenas más cariñosa." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Lo so, ma la sera bevo il caffè per finire il lavoro.", "es": "Lo sé, pero por la tarde tomo café para terminar el trabajo." },
+      "options": [
+        { "t": "Al posto tuo non berrei caffè dopo pranzo.", "es": "Yo que tú no tomaría café después de comer.", "next": "n3", "ok": true },
+        { "t": "Al posto tuo non beresti caffè dopo pranzo.", "es": "Yo que tú no tomaría café después de comer.", "next": "n3", "ok": false, "feedback": "Al posto tuo habla de lo que harías tú (io): berrei." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Hai ragione. E per lo stress, cosa mi consigli?", "es": "Tienes razón. ¿Y para el estrés, qué me aconsejas?" },
+      "options": [
+        { "t": "Potresti provare a camminare ogni mattina.", "es": "Podrías probar a caminar cada mañana.", "next": "n4", "ok": true },
+        { "t": "Potresti provi a camminare ogni mattina.", "es": "Podrías probar a caminar cada mañana.", "next": "n4", "ok": false, "feedback": "Después de potresti va el infinitivo: provare." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Da sola mi annoio, però…", "es": "Sola me aburro, pero…" },
+      "options": [
+        { "t": "Potremmo camminare insieme quando vengo a Roma!", "es": "¡Podríamos caminar juntas cuando vaya a Roma!", "next": "n5", "ok": true },
+        { "t": "Potremo camminare insieme quando vengo a Roma!", "es": "¡Podremos caminar juntas cuando vaya a Roma!", "next": "n5", "ok": false, "feedback": "Para proponer, condicional con doble m: potremmo." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Che bella idea! E nel fine settimana?", "es": "¡Qué buena idea! ¿Y el fin de semana?" },
+      "options": [
+        { "t": "Sarebbe meglio spegnere il telefono e uscire con le amiche.", "es": "Sería mejor apagar el móvil y salir con las amigas.", "next": "n6", "ok": true },
+        { "t": "Sarei meglio spegnere il telefono e uscire con le amiche.", "es": "Sería mejor apagar el móvil y salir con las amigas.", "next": "n6", "ok": false, "feedback": "La expresión es sarebbe meglio (sería mejor)." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Grazie, Yolanda. Sei proprio un'amica saggia!", "es": "Gracias, Yolanda. ¡Eres una amiga muy sabia!" },
+      "options": [
+        { "t": "Di niente! Tu faresti lo stesso per me.", "es": "¡De nada! Tú harías lo mismo por mí.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

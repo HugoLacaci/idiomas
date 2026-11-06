@@ -1,0 +1,81 @@
+{
+  "id": "it-a2-u01-l4",
+  "unit": "it-a2-u01",
+  "title": "Ho fatto, ho visto, ho preso",
+  "goal": "a usar los participios irregulares más frecuentes y a pronunciar bien sus dobles",
+  "emoji": "✍️",
+  "photoQuery": "postcard writing cafe table",
+  "vocab": [
+    { "id": "museo-fatto", "t": "fatto (fare)", "es": "hecho", "emoji": "✅", "pos": "v", "ex": { "t": "Abbiamo fatto la fila per un'ora.", "es": "Hemos hecho cola durante una hora." } },
+    { "id": "museo-visto", "t": "visto (vedere)", "es": "visto", "emoji": "👀", "pos": "v", "ex": { "t": "Avete visto il David?", "es": "¿Habéis visto el David?" } },
+    { "id": "museo-preso", "t": "preso (prendere)", "es": "cogido, tomado", "emoji": "🤲", "pos": "v", "ex": { "t": "Ho preso l'audioguida in spagnolo.", "es": "He cogido la audioguía en español." } },
+    { "id": "museo-letto", "t": "letto (leggere)", "es": "leído", "emoji": "📖", "pos": "v", "note": "¡Ojo! Letto también es «cama». Por el contexto se entiende siempre.", "ex": { "t": "Hai letto la spiegazione del quadro?", "es": "¿Has leído la explicación del cuadro?" } },
+    { "id": "museo-scritto", "t": "scritto (scrivere)", "es": "escrito", "emoji": "✍️", "pos": "v", "ex": { "t": "Ho scritto una cartolina a mio figlio.", "es": "He escrito una postal a mi hijo." } },
+    { "id": "museo-detto", "t": "detto (dire)", "es": "dicho", "emoji": "💬", "pos": "v", "ex": { "t": "Cosa ha detto la guida?", "es": "¿Qué ha dicho la guía?" } },
+    { "id": "museo-aperto", "t": "aperto (aprire)", "es": "abierto", "emoji": "🔓", "pos": "adj", "note": "También es adjetivo: il museo è aperto.", "ex": { "t": "Hanno aperto una sala nuova.", "es": "Han abierto una sala nueva." } },
+    { "id": "museo-chiuso", "t": "chiuso (chiudere)", "es": "cerrado", "emoji": "🔒", "pos": "adj", "ex": { "t": "Oggi la sala è chiusa.", "es": "Hoy la sala está cerrada." } },
+    { "id": "museo-dipinto-participio", "t": "dipinto (dipingere)", "es": "pintado", "emoji": "🎨", "pos": "v", "ex": { "t": "Chi ha dipinto questo quadro?", "es": "¿Quién ha pintado este cuadro?" } }
+  ],
+  "grammar": "it-g-participi-irregolari",
+  "pron": {
+    "title": "Dobles: fatto, detto, scritto, letto",
+    "tip": "En la doble t para un instante, como si contuvieras el aire: «fat-to», «det-to», «scrit-to», «let-to». Fato con una t es otra palabra (el destino).",
+    "words": ["fatto", "detto", "scritto", "letto", "messo"],
+    "pairs": [["fatto", "fato"], ["sette", "sete"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Abbiamo ___ la fila per un'ora.", "es": "Hemos hecho cola durante una hora.", "options": ["fatto", "fato", "faciuto"], "answer": "fatto", "why": "Fare → fatto, con doble t.", "g": "it-g-participi-irregolari" },
+    { "id": "e2", "type": "choose", "q": "Hai ___ la spiegazione del quadro?", "es": "¿Has leído la explicación del cuadro?", "options": ["letto", "leggiuto", "leggito"], "answer": "letto", "why": "Leggere → letto.", "g": "it-g-participi-irregolari" },
+    { "id": "e3", "type": "choose", "q": "Chi ha ___ questo quadro?", "es": "¿Quién ha pintado este cuadro?", "options": ["dipinto", "dipingiuto", "dipingito"], "answer": "dipinto", "why": "Dipingere → dipinto.", "g": "it-g-participi-irregolari" },
+    { "id": "e4", "type": "fill", "q": "Cosa ha ___ la guida?", "es": "¿Qué ha dicho la guía?", "answer": ["detto"], "bank": ["detto", "dito", "diciuto"], "why": "Dire → detto.", "g": "it-g-participi-irregolari" },
+    { "id": "e5", "type": "fill", "q": "Ho ___ l'audioguida in spagnolo.", "es": "He cogido la audioguía en español.", "answer": ["preso"], "bank": ["preso", "prenduto", "prendito"], "why": "Prendere → preso.", "g": "it-g-participi-irregolari" },
+    { "id": "e6", "type": "fill", "q": "Hanno ___ una sala nuova al secondo piano.", "es": "Han abierto una sala nueva en la segunda planta.", "answer": ["aperto"], "hint": "aprire", "why": "Aprire → aperto, como «abierto».", "g": "it-g-participi-irregolari" },
+    { "id": "e7", "type": "fill", "q": "Ho ___ una cartolina a mio figlio.", "es": "He escrito una postal a mi hijo.", "answer": ["scritto"], "hint": "scrivere", "why": "Scrivere → scritto.", "g": "it-g-participi-irregolari" },
+    { "id": "e8", "type": "error", "q": "Ho prenduto due biglietti.", "wrong": "prenduto", "fix": "preso", "why": "Prendere → preso.", "g": "it-g-participi-irregolari" },
+    { "id": "e9", "type": "error", "q": "Ieri abbiamo fato tante foto.", "wrong": "fato", "fix": "fatto", "why": "Fatto lleva doble t; fato es «destino».", "g": "it-g-participi-irregolari" },
+    { "id": "e10", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Leggo la guida di Firenze.", "answer": ["Ho letto la guida di Firenze."], "why": "Leggo → ho letto.", "g": "it-g-participi-irregolari" },
+    { "id": "e11", "type": "transform", "instr": "Pásala a passato prossimo", "q": "Chiudono la sala.", "answer": ["Hanno chiuso la sala."], "why": "Chiudono → hanno chiuso.", "g": "it-g-participi-irregolari" },
+    { "id": "e12", "type": "order", "es": "¿Qué has hecho en Florencia?", "answer": "Cosa hai fatto a Firenze", "extra": ["fato", "in"], "why": "Hai fatto; con ciudades, a Firenze.", "g": "it-g-participi-irregolari" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "Hemos visto una exposición preciosa.", "answer": ["Abbiamo visto una mostra bellissima.", "Abbiamo visto una bellissima mostra."], "why": "Vedere → visto.", "g": "it-g-participi-irregolari" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "Ho messo i biglietti in borsa.", "answer": ["He metido las entradas en el bolso.", "He puesto las entradas en el bolso.", "Metí las entradas en el bolso."], "why": "Mettere → messo (metido, puesto).", "g": "it-g-participi-irregolari" },
+    { "id": "e15", "type": "match", "pairs": [["fare", "fatto"], ["leggere", "letto"], ["scrivere", "scritto"], ["prendere", "preso"], ["dipingere", "dipinto"]], "why": "Cinco participios irregulares muy frecuentes.", "g": "it-g-participi-irregolari" },
+    { "id": "e16", "type": "minimal", "pair": ["fatto", "fato"], "answer": "fatto", "es": ["hecho", "destino"], "why": "En fatto la t es doble: hay una pequeña pausa." },
+    { "id": "e17", "type": "situation", "context": "Hugo te escribe: «Mamma, cosa avete fatto oggi?». Habéis visto la cúpula y comprado postales.", "emoji": "📱", "options": ["Abbiamo visto la cupola e comprato cartoline.", "Abbiamo veduto la cupola e compruto cartoline.", "Vediamo la cupola e compriamo cartoline ieri."], "answer": "Abbiamo visto la cupola e comprato cartoline.", "why": "Visto (irregular) y comprato (regular). Cuando el sujeto es el mismo, no hace falta repetir abbiamo.", "g": "it-g-participi-irregolari" },
+    { "id": "e18", "type": "speak", "t": "Ho fatto, ho detto, ho scritto, ho letto.", "es": "He hecho, he dicho, he escrito, he leído." }
+  ],
+  "dialog": {
+    "title": "Postales desde Florencia",
+    "setting": "En un café junto al Duomo, Yolanda toma algo con Sara, una amiga florentina",
+    "emoji": "💌",
+    "lines": [
+      { "who": "Sara", "t": "Hai già scritto la cartolina a Hugo?", "es": "¿Ya has escrito la postal a Hugo?" },
+      { "who": "Yolanda", "t": "Sì, stamattina. Ho scritto tre righe!", "es": "Sí, esta mañana. ¡He escrito tres líneas!" },
+      { "who": "Sara", "t": "Brava! E cosa hai detto?", "es": "¡Muy bien! ¿Y qué le has dicho?" },
+      { "who": "Yolanda", "t": "Che abbiamo visto il David e fatto mille foto.", "es": "Que hemos visto el David y hecho mil fotos." },
+      { "who": "Sara", "t": "Hai messo anche la cupola?", "es": "¿Has puesto también la cúpula?" },
+      { "who": "Yolanda", "t": "Certo! E che ho preso un gelato enorme.", "es": "¡Claro! Y que me he tomado un helado enorme." },
+      { "who": "Sara", "t": "Perfetto! Ora la cartolina è pronta.", "es": "¡Perfecto! Ahora la postal está lista." }
+    ],
+    "questions": [
+      { "q": "¿Cuándo escribió Yolanda la postal?", "options": ["Esta mañana", "Ayer", "Todavía no"], "answer": "Esta mañana" },
+      { "q": "¿Qué cuenta en la postal?", "options": ["Que han visto el David y hecho fotos", "Que han perdido las entradas", "Que el museo estaba cerrado"], "answer": "Que han visto el David y hecho fotos" },
+      { "q": "¿Qué se ha tomado Yolanda?", "options": ["Un helado enorme", "Un café", "Una pizza"], "answer": "Un helado enorme" }
+    ]
+  },
+  "realLife": { "t": "Cosa avete fatto di bello?", "es": "¿Qué habéis hecho de bonito?", "context": "Para preguntar a tus amigas qué tal su día de viaje" },
+  "same": {
+    "text": "Muchos participios irregulares se parecen a los nuestros: si en español es raro, sospecha.",
+    "examples": [
+      { "t": "fatto", "es": "hecho" },
+      { "t": "scritto", "es": "escrito" },
+      { "t": "aperto", "es": "abierto" }
+    ]
+  },
+  "summary": [
+    "-tto: fatto, detto, scritto, letto.",
+    "-so / -sto: preso, chiuso, visto, chiesto.",
+    "Otros: aperto, messo, dipinto.",
+    "Pronuncia bien las dobles: fatto no es fato."
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,59 @@
+{
+  "id": "it-a2-u05-c1",
+  "unit": "it-a2-u05",
+  "title": "¿Qué tiempo hace por ahí?",
+  "setting": "Giulia te llama desde Roma un día de verano",
+  "emoji": "☀️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda! Qui a Roma fa un caldo terribile. Che tempo fa da te?", "es": "¡Hola, Yolanda! Aquí en Roma hace un calor horrible. ¿Qué tiempo hace por ahí?" },
+      "options": [
+        { "t": "Anche qui fa molto caldo!", "es": "¡Aquí también hace mucho calor!", "next": "n2", "ok": true },
+        { "t": "Anche qui fa molto calore!", "es": "¡Aquí también hace mucho calor!", "next": "n2", "ok": false, "feedback": "Con fare va el adjetivo: fa caldo, no «calore»." },
+        { "t": "Anche qui è molto caldo!", "es": "¡Aquí también hace mucho calor!", "next": "n2", "ok": false, "feedback": "Para el tiempo, mejor con fare: fa caldo." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Quanti gradi ci sono?", "es": "¿A cuántos grados estáis?" },
+      "options": [
+        { "t": "Ci sono trentasei gradi.", "es": "Estamos a treinta y seis grados.", "next": "n3", "ok": true },
+        { "t": "Sono trentasei gradi.", "es": "Estamos a treinta y seis grados.", "next": "n3", "ok": false, "feedback": "La temperatura va con ci sono: ci sono trentasei gradi." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Mamma mia! E c'è almeno un po' di vento?", "es": "¡Madre mía! ¿Y hace por lo menos un poco de viento?" },
+      "options": [
+        { "t": "No, il cielo è sereno e non c'è vento.", "es": "No, el cielo está despejado y no hace viento.", "next": "n4", "ok": true },
+        { "t": "No, il cielo fa sereno e non fa vento.", "es": "No, el cielo está despejado y no hace viento.", "next": "n4", "ok": false, "feedback": "Sereno va con essere (è sereno) y el viento con c'è (c'è vento)." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Io ho così caldo che non dormo di notte!", "es": "¡Yo tengo tanto calor que no duermo por la noche!" },
+      "options": [
+        { "t": "Anch'io ho caldo, anche con il ventilatore.", "es": "Yo también tengo calor, incluso con el ventilador.", "next": "n5", "ok": true },
+        { "t": "Anch'io sono calda, anche con il ventilatore.", "es": "Yo también tengo calor, incluso con el ventilador.", "next": "n5", "ok": false, "feedback": "Una persona tiene calor con avere: ho caldo." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Dicono che domani piove. Speriamo!", "es": "Dicen que mañana llueve. ¡Ojalá!" },
+      "options": [
+        { "t": "Speriamo! Un po' di pioggia fa bene.", "es": "¡Ojalá! Un poco de lluvia sienta bien.", "next": "n6", "ok": true },
+        { "t": "Speriamo! Un po' di piove fa bene.", "es": "¡Ojalá! Un poco de lluvia sienta bien.", "next": "n6", "ok": false, "feedback": "La lluvia (nombre) es la pioggia; piove es el verbo «llueve»." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Bevi tanta acqua, mi raccomando! Ciao!", "es": "¡Bebe mucha agua, eh! ¡Adiós!" },
+      "options": [
+        { "t": "Anche tu! Un abbraccio!", "es": "¡Tú también! ¡Un abrazo!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

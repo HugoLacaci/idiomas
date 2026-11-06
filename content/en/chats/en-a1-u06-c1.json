@@ -1,0 +1,61 @@
+{
+  "id": "en-a1-u06-c1",
+  "unit": "en-a1-u06",
+  "title": "¿Cómo son tus mañanas?",
+  "setting": "Emma te escribe un domingo por la mañana y te pregunta por tu rutina.",
+  "emoji": "☀️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Good morning, Yolanda! What time do you get up?", "es": "¡Buenos días, Yolanda! ¿A qué hora te levantas?" },
+      "options": [
+        { "t": "I get up at eight.", "es": "Me levanto a las ocho.", "next": "n2", "ok": true },
+        { "t": "Get up at eight.", "es": "Me levanto a las ocho.", "next": "n2", "ok": false, "feedback": "En inglés hace falta el sujeto: I get up at eight." },
+        { "t": "I get up in eight.", "es": "Me levanto a las ocho.", "next": "n2", "ok": false, "feedback": "Con la hora: at eight." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "And then? Do you have breakfast at home?", "es": "¿Y luego? ¿Desayunas en casa?" },
+      "options": [
+        { "t": "Yes, I do. Toast and coffee.", "es": "Sí. Tostadas y café.", "next": "n3", "ok": true },
+        { "t": "Yes, I have. Toast and coffee.", "es": "Sí. Tostadas y café.", "next": "n3", "ok": false, "feedback": "La pregunta lleva do, así que la respuesta corta también: Yes, I do." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Lovely. I don't have breakfast. No time!", "es": "Qué bien. Yo no desayuno. ¡No me da tiempo!" },
+      "options": [
+        { "t": "Oh no! Breakfast is very important.", "es": "¡Oh, no! El desayuno es muy importante.", "next": "n4", "ok": true },
+        { "t": "Oh no! The breakfast is bery important.", "es": "¡Oh, no! El desayuno es muy importante.", "next": "n4", "ok": false, "feedback": "Very se escribe con v (y suena con los dientes en el labio). Y breakfast en general va sin the." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "I know, I know! Do you go for a walk in the morning?", "es": "¡Ya lo sé, ya lo sé! ¿Das un paseo por la mañana?" },
+      "options": [
+        { "t": "No, I don't. I go shopping.", "es": "No. Hago la compra.", "next": "n5", "ok": true },
+        { "t": "No, I no. I go shopping.", "es": "No. Hago la compra.", "next": "n5", "ok": false, "feedback": "Respuesta corta negativa: No, I don't." },
+        { "t": "No, I don't. I go to shopping.", "es": "No. Hago la compra.", "next": "n5", "ok": false, "feedback": "Ir de compras = go shopping, sin to." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "And what time do you have lunch?", "es": "¿Y a qué hora comes?" },
+      "options": [
+        { "t": "At two. We have lunch late in Spain!", "es": "A las dos. ¡En España comemos tarde!", "next": "n6", "ok": true },
+        { "t": "At two. We take lunch late in Spain!", "es": "A las dos. ¡En España comemos tarde!", "next": "n6", "ok": false, "feedback": "Las comidas van con have: have lunch." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Two o'clock! I'm hungry at twelve. Have a nice Sunday!", "es": "¡A las dos! Yo tengo hambre a las doce. ¡Que pases buen domingo!" },
+      "options": [
+        { "t": "You too, Emma!", "es": "¡Igualmente, Emma!", "next": "end", "ok": true },
+        { "t": "Equally, Emma!", "es": "¡Igualmente, Emma!", "next": "end", "ok": false, "feedback": "«Igualmente» al despedirse es You too (o Same to you)." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

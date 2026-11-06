@@ -1,0 +1,458 @@
+{
+  "id": "it-a1-u10-l3",
+  "unit": "it-a1-u10",
+  "title": "Vorrei prenotare una camera",
+  "goal": "a reservar una habitación por teléfono y preguntar lo importante",
+  "emoji": "📞",
+  "photoQuery": "hotel room balcony sea view",
+  "vocab": [
+    {
+      "id": "hotel-vorrei-prenotare",
+      "t": "Vorrei prenotare una camera.",
+      "es": "Quisiera reservar una habitación.",
+      "emoji": "📞",
+      "pos": "phrase",
+      "ex": {
+        "t": "Vorrei prenotare una camera per maggio.",
+        "es": "Quisiera reservar una habitación para mayo."
+      }
+    },
+    {
+      "id": "hotel-per-quante-notti",
+      "t": "Per quante notti?",
+      "es": "¿Para cuántas noches?",
+      "emoji": "🌙",
+      "pos": "phrase",
+      "ex": {
+        "t": "Per quante notti? — Per tre.",
+        "es": "¿Para cuántas noches? —Para tres."
+      }
+    },
+    {
+      "id": "hotel-ce-una-camera-libera",
+      "t": "C'è una camera libera?",
+      "es": "¿Hay una habitación libre?",
+      "emoji": "🚪",
+      "pos": "phrase",
+      "ex": {
+        "t": "Scusi, c'è una camera libera stasera?",
+        "es": "Perdone, ¿hay una habitación libre esta noche?"
+      }
+    },
+    {
+      "id": "hotel-posso-vedere-la-camera",
+      "t": "Posso vedere la camera?",
+      "es": "¿Puedo ver la habitación?",
+      "emoji": "👀",
+      "pos": "phrase",
+      "ex": {
+        "t": "Prima posso vedere la camera?",
+        "es": "¿Antes puedo ver la habitación?"
+      }
+    },
+    {
+      "id": "hotel-con-vista-mare",
+      "t": "con vista sul mare",
+      "es": "con vistas al mar",
+      "emoji": "🌊",
+      "pos": "phrase",
+      "ex": {
+        "t": "Vorrei una camera con vista sul mare.",
+        "es": "Quisiera una habitación con vistas al mar."
+      }
+    },
+    {
+      "id": "hotel-il-balcone",
+      "t": "il balcone",
+      "es": "el balcón",
+      "emoji": "🌅",
+      "pos": "n",
+      "ex": {
+        "t": "La camera ha un balcone?",
+        "es": "¿La habitación tiene balcón?"
+      }
+    },
+    {
+      "id": "hotel-al-terzo-piano",
+      "t": "al terzo piano",
+      "es": "en el tercer piso",
+      "emoji": "🏢",
+      "pos": "phrase",
+      "ex": {
+        "t": "La vostra camera è al terzo piano.",
+        "es": "Vuestra habitación está en el tercer piso."
+      }
+    },
+    {
+      "id": "hotel-a-che-ora-colazione",
+      "t": "A che ora è la colazione?",
+      "es": "¿A qué hora es el desayuno?",
+      "emoji": "🥐",
+      "pos": "phrase",
+      "ex": {
+        "t": "Scusi, a che ora è la colazione?",
+        "es": "Perdone, ¿a qué hora es el desayuno?"
+      }
+    },
+    {
+      "id": "hotel-lasciare-la-camera",
+      "t": "lasciare la camera",
+      "es": "dejar la habitación",
+      "emoji": "🚶",
+      "pos": "phrase",
+      "ex": {
+        "t": "A che ora dobbiamo lasciare la camera?",
+        "es": "¿A qué hora tenemos que dejar la habitación?"
+      }
+    }
+  ],
+  "grammar": "it-g-modali",
+  "pron": {
+    "title": "Las dobbie de dobbiamo",
+    "tip": "Las consonantes dobles se alargan, como si hicieras una pausita: dob-biamo, pos-so, not-te. Camera, en cambio, lleva una m sencilla. Si no alargas las dobles, puede cambiar la palabra.",
+    "words": [
+      "dobbiamo",
+      "posso",
+      "possiamo",
+      "vorrei",
+      "notte"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ prenotare una camera, per favore.",
+      "es": "Quisiera reservar una habitación, por favor.",
+      "options": [
+        "Vorrei",
+        "Voglio",
+        "Devo"
+      ],
+      "answer": "Vorrei",
+      "why": "Para pedir con educación se usa vorrei. Voglio suena demasiado directo.",
+      "g": "it-g-vorrei"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "A che ora ___ lasciare la camera?",
+      "es": "¿A qué hora tenemos que dejar la habitación?",
+      "options": [
+        "dobbiamo",
+        "doviamo",
+        "devono"
+      ],
+      "answer": "dobbiamo",
+      "why": "Noi de dovere es irregular: dobbiamo.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Mia sorella ___ una camera con vista sul mare.",
+      "es": "Mi hermana quiere una habitación con vistas al mar.",
+      "options": [
+        "vuole",
+        "vuoi",
+        "voglie"
+      ],
+      "answer": "vuole",
+      "why": "Lei de volere: vuole.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Per quante ___?",
+      "es": "¿Para cuántas noches?",
+      "answer": [
+        "notti"
+      ],
+      "bank": [
+        "notti",
+        "notte",
+        "nottes"
+      ],
+      "why": "Varias noches: notti, plural de notte.",
+      "g": "it-g-genere-numero"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "___ vedere la camera, per favore?",
+      "es": "¿Puedo ver la habitación, por favor?",
+      "answer": [
+        "Posso",
+        "posso"
+      ],
+      "bank": [
+        "Posso",
+        "Devo",
+        "Puoi"
+      ],
+      "why": "Pedir permiso: posso + infinitivo.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "La camera è al terzo ___.",
+      "es": "La habitación está en el tercer piso.",
+      "answer": [
+        "piano"
+      ],
+      "hint": "piso",
+      "why": "El piso de un edificio es il piano.",
+      "g": "it-g-numeri"
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "¿Hay una habitación libre esta noche?",
+      "answer": "C'è una camera libera stasera",
+      "extra": [
+        "sono"
+      ],
+      "why": "C'è + una cosa, igual que «hay».",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e8",
+      "type": "order",
+      "es": "Queremos una habitación con balcón.",
+      "answer": "Vogliamo una camera con balcone",
+      "extra": [
+        "vuole"
+      ],
+      "why": "Noi de volere: vogliamo.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e9",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿A qué hora es el desayuno?",
+      "answer": [
+        "A che ora è la colazione?"
+      ],
+      "why": "Desayuno = colazione; a qué hora = a che ora.",
+      "g": "it-g-ora"
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "from",
+      "q": "Dobbiamo lasciare la camera.",
+      "answer": [
+        "Tenemos que dejar la habitación.",
+        "Debemos dejar la habitación."
+      ],
+      "why": "Dobbiamo = tenemos que / debemos.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Abbiamo che lasciare la camera.",
+      "wrong": "Abbiamo",
+      "fix": "Dobbiamo",
+      "why": "«Tener que» no se traduce con avere: se dice dovere (dobbiamo).",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e12",
+      "type": "reading",
+      "kind": "message",
+      "title": "Mensaje del hotel",
+      "text": "Gentile signora, la Sua camera è al terzo piano, con balcone e vista sul mare. La colazione è in terrazza. Può lasciare la camera entro le undici. A presto!",
+      "questions": [
+        {
+          "q": "¿Qué tiene la habitación?",
+          "options": [
+            "Balcón y vistas al mar",
+            "Piscina privada",
+            "Dos baños"
+          ],
+          "answer": "Balcón y vistas al mar"
+        },
+        {
+          "q": "¿Dónde es el desayuno?",
+          "options": [
+            "En la terraza",
+            "En la habitación",
+            "En el tercer piso"
+          ],
+          "answer": "En la terraza"
+        },
+        {
+          "q": "¿Hasta cuándo puede quedarse en la habitación el último día?",
+          "options": [
+            "Hasta las once",
+            "Hasta las tres",
+            "No lo dice"
+          ],
+          "answer": "Hasta las once"
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Llamas a un hotel de Catania para reservar. ¿Cómo empiezas?",
+      "emoji": "📞",
+      "options": [
+        "Buongiorno, vorrei prenotare una camera.",
+        "Buongiorno, voglio una camera subito.",
+        "Buongiorno, devo una camera."
+      ],
+      "answer": "Buongiorno, vorrei prenotare una camera.",
+      "why": "Vorrei + infinitivo es la forma amable de pedir.",
+      "g": "it-g-vorrei"
+    },
+    {
+      "id": "e14",
+      "type": "match",
+      "pairs": [
+        [
+          "Per quante notti?",
+          "¿Para cuántas noches?"
+        ],
+        [
+          "C'è una camera libera?",
+          "¿Hay una habitación libre?"
+        ],
+        [
+          "con vista sul mare",
+          "con vistas al mar"
+        ],
+        [
+          "al terzo piano",
+          "en el tercer piso"
+        ],
+        [
+          "Posso vedere la camera?",
+          "¿Puedo ver la habitación?"
+        ]
+      ],
+      "why": "Frases hechas para reservar."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Vorrei una camera con vista sul mare.",
+      "es": "Quisiera una habitación con vistas al mar."
+    }
+  ],
+  "dialog": {
+    "title": "Reservar por teléfono",
+    "setting": "Yolanda llama a un pequeño hotel de Catania para el viaje con su marido",
+    "emoji": "📞",
+    "lines": [
+      {
+        "who": "Luca",
+        "t": "Albergo Etna, buongiorno!",
+        "es": "¡Hotel Etna, buenos días!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Buongiorno. Vorrei prenotare una camera doppia.",
+        "es": "Buenos días. Quisiera reservar una habitación doble."
+      },
+      {
+        "who": "Luca",
+        "t": "Certo. Per quante notti?",
+        "es": "Claro. ¿Para cuántas noches?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Per tre notti. Con vista sul mare?",
+        "es": "Para tres noches. ¿Con vistas al mar?"
+      },
+      {
+        "who": "Luca",
+        "t": "Sì, al terzo piano, con balcone.",
+        "es": "Sí, en el tercer piso, con balcón."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Benissimo! Devo pagare adesso?",
+        "es": "¡Estupendo! ¿Tengo que pagar ahora?"
+      },
+      {
+        "who": "Luca",
+        "t": "No, può pagare in albergo.",
+        "es": "No, puede pagar en el hotel."
+      },
+      {
+        "who": "Yolanda",
+        "t": "E a che ora è la colazione?",
+        "es": "¿Y a qué hora es el desayuno?"
+      },
+      {
+        "who": "Luca",
+        "t": "Dalle sette. Il suo nome, per favore?",
+        "es": "Desde las siete. ¿Su nombre, por favor?"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué habitación reserva Yolanda?",
+        "options": [
+          "Una doble",
+          "Una individual",
+          "Una suite"
+        ],
+        "answer": "Una doble"
+      },
+      {
+        "q": "¿En qué piso está?",
+        "options": [
+          "En el tercero",
+          "En el primero",
+          "En la planta baja"
+        ],
+        "answer": "En el tercero"
+      },
+      {
+        "q": "¿Cuándo paga?",
+        "options": [
+          "En el hotel",
+          "Ahora por teléfono",
+          "No paga"
+        ],
+        "answer": "En el hotel"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "C'è una camera libera per stanotte?",
+    "es": "¿Hay una habitación libre para esta noche?",
+    "context": "Cuando buscas hotel sin reserva"
+  },
+  "same": {
+    "text": "Muchas frases del hotel se construyen igual que en español: verbo + infinitivo.",
+    "examples": [
+      {
+        "t": "Vorrei prenotare.",
+        "es": "Quisiera reservar."
+      },
+      {
+        "t": "Posso vedere la camera?",
+        "es": "¿Puedo ver la habitación?"
+      },
+      {
+        "t": "Dobbiamo partire.",
+        "es": "Tenemos que irnos."
+      }
+    ]
+  },
+  "summary": [
+    "Reservar: Vorrei prenotare una camera doppia.",
+    "Preguntas útiles: Per quante notti? C'è una camera libera?",
+    "Dovere con noi: dobbiamo (tenemos que).",
+    "Tener que = dovere, nunca avere che."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u10-l3"
+}

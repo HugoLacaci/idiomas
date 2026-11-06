@@ -1,0 +1,459 @@
+{
+  "id": "it-a1-u05-l5",
+  "unit": "it-a1-u05",
+  "title": "Reto: un día en Bari",
+  "goal": "a contar tu rutina de un día entero, de la mañana a la noche",
+  "emoji": "🎅",
+  "photoQuery": "bari old town basilica",
+  "vocab": [
+    {
+      "id": "la-giornata",
+      "t": "la giornata",
+      "es": "el día (lo que haces en él), la jornada",
+      "emoji": "📅",
+      "pos": "n",
+      "ex": {
+        "t": "Com'è la tua giornata?",
+        "es": "¿Cómo es tu día?"
+      }
+    },
+    {
+      "id": "di-solito",
+      "t": "di solito",
+      "es": "normalmente, por lo general",
+      "emoji": "🔁",
+      "pos": "adv",
+      "ex": {
+        "t": "Di solito pranzo all'una.",
+        "es": "Normalmente como a la una."
+      }
+    },
+    {
+      "id": "ogni-giorno",
+      "t": "ogni giorno",
+      "es": "cada día, todos los días",
+      "emoji": "📆",
+      "pos": "adv",
+      "ex": {
+        "t": "Ogni giorno parlo con Hugo.",
+        "es": "Todos los días hablo con Hugo."
+      }
+    },
+    {
+      "id": "prima-poi",
+      "t": "prima… poi…",
+      "es": "primero… luego…",
+      "emoji": "➡️",
+      "pos": "adv",
+      "ex": {
+        "t": "Prima faccio colazione, poi esco.",
+        "es": "Primero desayuno, luego salgo."
+      }
+    },
+    {
+      "id": "dopo",
+      "t": "dopo",
+      "es": "después",
+      "emoji": "⏭️",
+      "pos": "adv",
+      "ex": {
+        "t": "Dopo pranzo dormo un po'.",
+        "es": "Después de comer duermo un poco."
+      }
+    },
+    {
+      "id": "sempre-mai",
+      "t": "sempre / non… mai",
+      "es": "siempre / nunca",
+      "emoji": "♾️",
+      "pos": "adv",
+      "note": "Mai necesita non delante del verbo: non cucino mai.",
+      "ex": {
+        "t": "Non guardo mai la TV la mattina.",
+        "es": "Nunca veo la tele por la mañana."
+      }
+    },
+    {
+      "id": "la-basilica",
+      "t": "la basilica",
+      "es": "la basílica",
+      "emoji": "⛪",
+      "pos": "n",
+      "ex": {
+        "t": "Visitiamo la basilica di San Nicola.",
+        "es": "Visitamos la basílica de San Nicolás."
+      }
+    },
+    {
+      "id": "le-orecchiette",
+      "t": "le orecchiette",
+      "es": "las orecchiette (pasta típica de Bari)",
+      "emoji": "🍝",
+      "pos": "n",
+      "note": "Significa «orejitas»: en Bari las señoras las hacen a mano en la calle.",
+      "ex": {
+        "t": "Le signore preparano le orecchiette in strada.",
+        "es": "Las señoras preparan las orecchiette en la calle."
+      }
+    }
+  ],
+  "grammar": "it-g-presente-ere-ire",
+  "pron": {
+    "title": "Repaso: sc y c",
+    "tip": "En una frase: «Esco, capisco il pesce e cucino le orecchiette». Sc + o = «sk», sc + e = «sh», c + i = «ch».",
+    "words": [
+      "esco",
+      "capisco",
+      "pesce",
+      "cucino",
+      "orecchiette"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "message",
+      "title": "Yolanda escribe a Giulia desde Bari",
+      "text": "Ciao Giulia! La mattina prendo un caffè e visito la città vecchia. A pranzo mangio le orecchiette. Il pomeriggio dormo un po' e poi scrivo a Hugo. La sera ceniamo al porto. Non capisco il barese, ma tutti sono gentili!",
+      "questions": [
+        {
+          "q": "¿Qué come Yolanda a mediodía?",
+          "options": [
+            "Orecchiette",
+            "Pescado",
+            "Pizza"
+          ],
+          "answer": "Orecchiette"
+        },
+        {
+          "q": "¿Qué hace por la tarde?",
+          "options": [
+            "Duerme un poco y escribe a Hugo",
+            "Va al mercado",
+            "Ve la tele"
+          ],
+          "answer": "Duerme un poco y escribe a Hugo"
+        },
+        {
+          "q": "¿Qué no entiende Yolanda?",
+          "options": [
+            "El dialecto de Bari",
+            "El menú",
+            "A Giulia"
+          ],
+          "answer": "El dialecto de Bari"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Di solito io ___ alle otto.",
+      "es": "Normalmente desayuno a las ocho.",
+      "options": [
+        "faccio colazione",
+        "fa colazione",
+        "facciamo colazione"
+      ],
+      "answer": "faccio colazione",
+      "why": "Con io: faccio colazione."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Le signore ___ le orecchiette a mano.",
+      "es": "Las señoras preparan las orecchiette a mano.",
+      "options": [
+        "preparano",
+        "prepara",
+        "preparono"
+      ],
+      "answer": "preparano",
+      "why": "Preparare es en -are: loro → preparano.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Il pomeriggio mio marito ___ un po'.",
+      "es": "Por la tarde mi marido duerme un poco.",
+      "options": [
+        "dorme",
+        "dorma",
+        "dormono"
+      ],
+      "answer": "dorme",
+      "why": "Dormire, lui → dorme.",
+      "g": "it-g-presente-ere-ire"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Ogni giorno ___ un messaggio a Hugo.",
+      "es": "Cada día le escribo un mensaje a Hugo.",
+      "answer": [
+        "scrivo"
+      ],
+      "bank": [
+        "scrivo",
+        "scrive",
+        "scriviamo"
+      ],
+      "why": "Io → scrivo.",
+      "g": "it-g-presente-ere-ire"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Noi ___ la cena alle otto e mezza.",
+      "es": "Terminamos la cena a las ocho y media.",
+      "answer": [
+        "finiamo"
+      ],
+      "bank": [
+        "finiamo",
+        "finisciamo",
+        "finiscono"
+      ],
+      "why": "Noi sin -isc-: finiamo.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Non ___ mai la TV la mattina.",
+      "es": "Nunca veo la tele por la mañana.",
+      "answer": [
+        "guardo"
+      ],
+      "why": "Io → guardo; non… mai = nunca.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Cambia a «noi»",
+      "q": "Visito la basilica e poi pranzo al porto.",
+      "answer": [
+        "Visitiamo la basilica e poi pranziamo al porto."
+      ],
+      "why": "Noi → -iamo en los dos verbos.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e9",
+      "type": "conjugate",
+      "verb": "capire",
+      "person": "io",
+      "tense": "presente",
+      "q": "Non ___ il dialetto barese.",
+      "answer": [
+        "capisco"
+      ],
+      "why": "Capire, io → capisco.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "La sera noi ceniamo e poi leggono.",
+      "wrong": "leggono",
+      "fix": "leggiamo",
+      "why": "El sujeto es noi: leggiamo.",
+      "g": "it-g-presente-ere-ire"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Di solito io prefiero il pesce.",
+      "wrong": "prefiero",
+      "fix": "preferisco",
+      "why": "Preferire, io → preferisco.",
+      "g": "it-g-presente-isc"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "Primero desayuno, luego visito la ciudad.",
+      "answer": "Prima faccio colazione poi visito la città",
+      "extra": [
+        "dopo"
+      ],
+      "why": "Prima… poi… = primero… luego…"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "Todos los días hablo con mi hijo.",
+      "answer": [
+        "Ogni giorno parlo con mio figlio.",
+        "Parlo con mio figlio ogni giorno.",
+        "Tutti i giorni parlo con mio figlio."
+      ],
+      "why": "Io → parlo; mio figlio sin artículo.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Giulia te llama por la noche y te pregunta qué haces. Estás cenando en el puerto.",
+      "emoji": "🌙",
+      "options": [
+        "Ceno al porto!",
+        "Cena al porto!",
+        "Ceniamo al porto domani mattina!"
+      ],
+      "answer": "Ceno al porto!",
+      "why": "Hablas de ti, ahora: ceno.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "la mattina",
+          "faccio colazione"
+        ],
+        [
+          "a pranzo",
+          "mangio le orecchiette"
+        ],
+        [
+          "il pomeriggio",
+          "dormo un po'"
+        ],
+        [
+          "la sera",
+          "ceno al porto"
+        ],
+        [
+          "di notte",
+          "dormo"
+        ]
+      ],
+      "why": "Ordena el día de Yolanda en Bari."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Di solito la sera leggo e poi dormo.",
+      "es": "Normalmente por la noche leo y luego duermo."
+    }
+  ],
+  "dialog": {
+    "title": "Delante de San Nicola",
+    "setting": "En la plaza de la basílica de San Nicolás, en Bari vieja",
+    "emoji": "⛪",
+    "lines": [
+      {
+        "who": "Giulia",
+        "t": "Allora, com'è la tua giornata a Bari?",
+        "es": "Bueno, ¿cómo es tu día en Bari?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Prima prendo un caffè, poi visito la città.",
+        "es": "Primero me tomo un café y luego visito la ciudad."
+      },
+      {
+        "who": "Giulia",
+        "t": "E a pranzo?",
+        "es": "¿Y a mediodía?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Mangio le orecchiette. Le signore le preparano in strada!",
+        "es": "Como orecchiette. ¡Las señoras las preparan en la calle!"
+      },
+      {
+        "who": "Giulia",
+        "t": "Lo sai? Qui c'è San Nicola, il santo di Babbo Natale.",
+        "es": "¿Sabes? Aquí está San Nicolás, el santo de Papá Noel."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Davvero? Scrivo subito ai miei nipoti!",
+        "es": "¿De verdad? ¡Se lo escribo ahora mismo a mis nietos!"
+      },
+      {
+        "who": "Giulia",
+        "t": "E stasera ceniamo al porto?",
+        "es": "¿Y esta noche cenamos en el puerto?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì! Preferisco il pesce.",
+        "es": "¡Sí! Prefiero el pescado."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué hace Yolanda primero?",
+        "options": [
+          "Se toma un café",
+          "Visita la basílica",
+          "Come orecchiette"
+        ],
+        "answer": "Se toma un café"
+      },
+      {
+        "q": "¿Quién está en la basílica?",
+        "options": [
+          "San Nicolás",
+          "San Pedro",
+          "San Marcos"
+        ],
+        "answer": "San Nicolás"
+      },
+      {
+        "q": "¿A quién escribe Yolanda?",
+        "options": [
+          "A sus nietos",
+          "A Hugo",
+          "A su hermana"
+        ],
+        "answer": "A sus nietos"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Di solito pranzo all'una.",
+    "es": "Normalmente como a la una.",
+    "context": "Para contar tus horarios a una familia italiana que te invita"
+  },
+  "same": {
+    "text": "Igual que en español: contamos la rutina con el presente y con palabras parecidas.",
+    "examples": [
+      {
+        "t": "Visito la basilica.",
+        "es": "Visito la basílica."
+      },
+      {
+        "t": "sempre",
+        "es": "siempre"
+      },
+      {
+        "t": "Preferisco il pesce.",
+        "es": "Prefiero el pescado."
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "la giornata",
+    "means": "el día (cómo lo pasas: una bella giornata)",
+    "looksLike": "la jornada laboral",
+    "emoji": "📅",
+    "tip": "Buona giornata! es «¡que tengas un buen día!». No habla de tu horario de trabajo."
+  },
+  "summary": [
+    "Rutina: la mattina, a pranzo, il pomeriggio, la sera",
+    "Conectores: prima, poi, dopo, di solito, ogni giorno",
+    "Presente de -are, -ere, -ire e -isc- en un mismo texto",
+    "Nunca = non… mai"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u05-l5"
+}

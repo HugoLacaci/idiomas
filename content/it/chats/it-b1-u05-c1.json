@@ -1,0 +1,59 @@
+{
+  "id": "it-b1-u05-c1",
+  "unit": "it-b1-u05",
+  "title": "¿Por qué llegas tarde?",
+  "setting": "Habías quedado con Giulia en la estación Termini de Roma y llegas con media hora de retraso",
+  "emoji": "⏰",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Finalmente! Cos'è successo?", "es": "¡Por fin! ¿Qué ha pasado?" },
+      "options": [
+        { "t": "Scusa! Quando sono arrivata alla fermata, l'autobus era già partito.", "es": "¡Perdona! Cuando llegué a la parada, el autobús ya había salido.", "next": "n2", "ok": true },
+        { "t": "Scusa! Quando sono arrivata alla fermata, l'autobus aveva già partito.", "es": "¡Perdona! Cuando llegué a la parada, el autobús ya había salido.", "next": "n2", "ok": false, "feedback": "Partire va con essere: era già partito." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Ma eri uscita in ritardo?", "es": "¿Pero habías salido tarde?" },
+      "options": [
+        { "t": "Sì, perché avevo perso le chiavi di casa.", "es": "Sí, porque había perdido las llaves de casa.", "next": "n3", "ok": true },
+        { "t": "Sì, perché ero perso le chiavi di casa.", "es": "Sí, porque había perdido las llaves de casa.", "next": "n3", "ok": false, "feedback": "Perdere va con avere: avevo perso." },
+        { "t": "Sì, perché avevo perdere le chiavi di casa.", "es": "Sí, porque había perdido las llaves de casa.", "next": "n3", "ok": false, "feedback": "Detrás de avevo va el participio: perso." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Oh no! E dove erano?", "es": "¡Oh, no! ¿Y dónde estaban?" },
+      "options": [
+        { "t": "Le avevo lasciate nella borsa della spesa!", "es": "¡Las había dejado en la bolsa de la compra!", "next": "n4", "ok": true },
+        { "t": "Le ero lasciate nella borsa della spesa!", "es": "¡Las había dejado en la bolsa de la compra!", "next": "n4", "ok": false, "feedback": "Lasciare va con avere: le avevo lasciate." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Che storia! Ma avevi il mio numero, no?", "es": "¡Vaya historia! Pero tenías mi número, ¿no?" },
+      "options": [
+        { "t": "Sì, ma avevo dimenticato di caricare il telefono.", "es": "Sí, pero me había olvidado de cargar el móvil.", "next": "n5", "ok": true },
+        { "t": "Sì, ma ho dimenticare di caricare il telefono.", "es": "Sí, pero me había olvidado de cargar el móvil.", "next": "n5", "ok": false, "feedback": "Falta el participio: avevo dimenticato." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "E i biglietti per il museo? Li avevi comprati?", "es": "¿Y las entradas del museo? ¿Las habías comprado?" },
+      "options": [
+        { "t": "Sì, per fortuna li avevo comprati ieri online.", "es": "Sí, por suerte las había comprado ayer por internet.", "next": "n6", "ok": true },
+        { "t": "Sì, per fortuna li ero comprati ieri online.", "es": "Sí, por suerte las había comprado ayer por internet.", "next": "n6", "ok": false, "feedback": "Comprare va con avere: li avevo comprati." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Va bene, l'importante è che sei qui. Andiamo?", "es": "Bueno, lo importante es que estás aquí. ¿Vamos?" },
+      "options": [
+        { "t": "Andiamo! Il caffè lo offro io.", "es": "¡Vamos! El café lo pago yo.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,436 @@
+{
+  "id": "en-a1-u01-l5",
+  "unit": "en-a1-u01",
+  "title": "Reto en Trafalgar Square",
+  "goal": "a presentarte en una visita guiada y a deletrear tu apellido",
+  "emoji": "🦁",
+  "photoQuery": "trafalgar square fountain lions",
+  "vocab": [
+    {
+      "id": "excuse-me",
+      "t": "Excuse me",
+      "es": "Perdone (para llamar la atención)",
+      "emoji": "🙋‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Excuse me, are you the guide?",
+        "es": "Perdone, ¿es usted la guía?"
+      }
+    },
+    {
+      "id": "sorry-what",
+      "t": "Sorry?",
+      "es": "¿Perdón? (no te he oído)",
+      "emoji": "🤔",
+      "pos": "phrase",
+      "ex": {
+        "t": "Sorry? What's your name?",
+        "es": "¿Perdón? ¿Cómo se llama?"
+      },
+      "note": "Con tono de pregunta, Sorry? pide que te repitan algo."
+    },
+    {
+      "id": "surname",
+      "t": "surname",
+      "es": "apellido",
+      "emoji": "🪪",
+      "pos": "n",
+      "ex": {
+        "t": "My surname is García.",
+        "es": "Mi apellido es García."
+      },
+      "note": "En EE. UU. se dice más last name."
+    },
+    {
+      "id": "how-do-you-spell-it",
+      "t": "How do you spell it?",
+      "es": "¿Cómo se escribe?",
+      "emoji": "🔤",
+      "pos": "phrase",
+      "ex": {
+        "t": "García? How do you spell it?",
+        "es": "¿García? ¿Cómo se escribe?"
+      }
+    },
+    {
+      "id": "tour-guide",
+      "t": "tour guide",
+      "es": "guía turístico",
+      "emoji": "🚩",
+      "pos": "n",
+      "ex": {
+        "t": "Sarah is our tour guide.",
+        "es": "Sarah es nuestra guía."
+      }
+    },
+    {
+      "id": "tourist",
+      "t": "tourist",
+      "es": "turista",
+      "emoji": "📸",
+      "pos": "n",
+      "ex": {
+        "t": "We're tourists from Spain.",
+        "es": "Somos turistas de España."
+      }
+    },
+    {
+      "id": "square",
+      "t": "square",
+      "es": "plaza",
+      "emoji": "⛲",
+      "pos": "n",
+      "ex": {
+        "t": "The square is very big.",
+        "es": "La plaza es muy grande."
+      }
+    },
+    {
+      "id": "welcome",
+      "t": "Welcome!",
+      "es": "¡Bienvenido! / ¡Bienvenida!",
+      "emoji": "🎉",
+      "pos": "phrase",
+      "ex": {
+        "t": "Welcome to London!",
+        "es": "¡Bienvenida a Londres!"
+      }
+    }
+  ],
+  "grammar": "en-g-to-be",
+  "pron": {
+    "title": "La h y la y: hello / yellow",
+    "tip": "Repaso de la h: un soplo suave. Y la y inglesa (yes, yellow) es como la i de «hielo», nada de «ll». Hello y yellow solo se diferencian en ese primer sonido.",
+    "words": [
+      "hello",
+      "yellow",
+      "yes",
+      "you",
+      "how"
+    ],
+    "pairs": [
+      [
+        "hello",
+        "yellow"
+      ],
+      [
+        "hear",
+        "year"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel del tour",
+      "text": "WALKING TOUR – TRAFALGAR SQUARE\nMeeting point: Nelson's Column\nTime: 10 am\nYour guide: Sarah (red umbrella)",
+      "questions": [
+        {
+          "q": "¿Dónde es el punto de encuentro?",
+          "options": [
+            "En la columna de Nelson",
+            "En el hotel",
+            "En el museo"
+          ],
+          "answer": "En la columna de Nelson"
+        },
+        {
+          "q": "¿A qué hora empieza?",
+          "options": [
+            "A las 10 de la mañana",
+            "A las 10 de la noche"
+          ],
+          "answer": "A las 10 de la mañana"
+        },
+        {
+          "q": "¿Cómo reconoces a la guía?",
+          "options": [
+            "Lleva un paraguas rojo",
+            "Lleva un sombrero"
+          ],
+          "answer": "Lleva un paraguas rojo"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "type": "situation",
+      "context": "La guía dice su nombre muy rápido y no lo entiendes.",
+      "emoji": "😅",
+      "options": [
+        "Sorry? What's your name?",
+        "Goodbye!",
+        "I'm fine, thanks."
+      ],
+      "answer": "Sorry? What's your name?",
+      "why": "Sorry? con tono de pregunta sirve para pedir que te repitan."
+    },
+    {
+      "id": "e3",
+      "type": "situation",
+      "context": "Quieres preguntarle algo a un señor en la plaza.",
+      "emoji": "🙋‍♀️",
+      "options": [
+        "Excuse me!",
+        "Sorry?",
+        "Good night!"
+      ],
+      "answer": "Excuse me!",
+      "why": "Para llamar la atención de alguien: Excuse me (perdone)."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "How do you ___ it? — G-A-R-C-I-A.",
+      "answer": [
+        "spell"
+      ],
+      "bank": [
+        "spell",
+        "name",
+        "are"
+      ],
+      "why": "Deletrear es to spell: How do you spell it? (¿cómo se escribe?)."
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "Welcome! ___ you Yolanda García?",
+      "options": [
+        "Are",
+        "Is",
+        "Am"
+      ],
+      "answer": "Are",
+      "why": "Pregunta con you: Are you…?",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e6",
+      "type": "choose",
+      "q": "Are you on the tour? — Yes, I ___.",
+      "options": [
+        "am",
+        "'m",
+        "is"
+      ],
+      "answer": "am",
+      "why": "En la respuesta corta afirmativa no se contrae: Yes, I am (nunca Yes, I'm).",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e7",
+      "type": "transform",
+      "instr": "Contesta con una respuesta corta negativa",
+      "q": "Are you British?",
+      "answer": [
+        "No, I'm not.",
+        "No, I am not.",
+        "No, I'm not"
+      ],
+      "why": "Respuesta corta negativa: No, I'm not.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Hazla pregunta",
+      "q": "She is the tour guide.",
+      "answer": [
+        "Is she the tour guide?",
+        "Is she the tour guide"
+      ],
+      "why": "El verbo va delante del sujeto: Is she…?",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Mi apellido es García",
+      "answer": "My surname is García",
+      "extra": [
+        "am"
+      ],
+      "why": "Surname = apellido. My surname is… como My name is…"
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Es usted la guía?",
+      "answer": [
+        "Are you the guide?",
+        "Are you the tour guide?"
+      ],
+      "why": "Usted también es you, así que va are: Are you…?",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "We is from Spain.",
+      "wrong": "is",
+      "fix": "are",
+      "why": "Con we va are: We are from Spain.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e12",
+      "type": "match",
+      "pairs": [
+        [
+          "What's your name?",
+          "Yolanda."
+        ],
+        [
+          "Where are you from?",
+          "From Spain."
+        ],
+        [
+          "How are you?",
+          "Fine, thanks."
+        ],
+        [
+          "Are you on holiday?",
+          "Yes, I am."
+        ],
+        [
+          "How do you spell it?",
+          "Y-O-L-A-N-D-A."
+        ]
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "hello",
+        "yellow"
+      ],
+      "answer": "yellow",
+      "es": [
+        "hola",
+        "amarillo"
+      ],
+      "why": "Empezaba por el sonido de la i de «hielo»: yellow. Hello empieza con un soplo."
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Al final del tour te despides de la guía.",
+      "emoji": "👋",
+      "options": [
+        "Thank you! Goodbye!",
+        "Good morning!",
+        "Nice to meet you!"
+      ],
+      "answer": "Thank you! Goodbye!",
+      "why": "Al irte: Thank you! Goodbye! Nice to meet you es al conocer a alguien."
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "q": "Hi, I'm Sarah. I ___ your guide today.",
+      "answer": [
+        "am"
+      ],
+      "why": "Con I va am: I am your guide.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Excuse me, are you the guide?",
+      "es": "Perdone, ¿es usted la guía?"
+    }
+  ],
+  "dialog": {
+    "title": "El tour a pie",
+    "setting": "En Trafalgar Square, junto a la columna de Nelson",
+    "emoji": "🦁",
+    "lines": [
+      {
+        "who": "Sarah",
+        "t": "Good morning! Are you on the walking tour?",
+        "es": "¡Buenos días! ¿Viene al tour a pie?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, I am. I'm Yolanda García.",
+        "es": "Sí. Soy Yolanda García."
+      },
+      {
+        "who": "Sarah",
+        "t": "Welcome! I'm Sarah, your guide.",
+        "es": "¡Bienvenida! Soy Sarah, su guía."
+      },
+      {
+        "who": "Sarah",
+        "t": "How do you spell your surname?",
+        "es": "¿Cómo se escribe su apellido?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "G-A-R-C-I-A.",
+        "es": "G-A-R-C-I-A."
+      },
+      {
+        "who": "Sarah",
+        "t": "Thank you. Where are you from?",
+        "es": "Gracias. ¿De dónde es?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "I'm from Spain. Is this Nelson's Column?",
+        "es": "Soy de España. ¿Esta es la columna de Nelson?"
+      },
+      {
+        "who": "Sarah",
+        "t": "Yes, it is. It's for Admiral Nelson.",
+        "es": "Sí. Es en honor al almirante Nelson."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Quién es Sarah?",
+        "options": [
+          "La guía",
+          "Una turista",
+          "Una amiga de Hugo"
+        ],
+        "answer": "La guía"
+      },
+      {
+        "q": "¿Qué le pregunta Sarah?",
+        "options": [
+          "Cómo se escribe su apellido",
+          "Cuántos años tiene"
+        ],
+        "answer": "Cómo se escribe su apellido"
+      },
+      {
+        "q": "¿Dónde están?",
+        "options": [
+          "En Trafalgar Square",
+          "En Buckingham Palace"
+        ],
+        "answer": "En Trafalgar Square"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Sorry, can you speak slowly, please?",
+    "es": "Perdone, ¿puede hablar despacio, por favor?",
+    "context": "Cuando te hablan demasiado rápido"
+  },
+  "summary": [
+    "Llamar la atención: Excuse me. Pedir que repitan: Sorry?",
+    "Preguntas con to be: Are you the guide? — Yes, I am. / No, I'm not.",
+    "Deletrear: How do you spell it?",
+    "Surname = apellido"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u01-l5"
+}

@@ -1,0 +1,460 @@
+{
+  "id": "it-a1-u03-l5",
+  "unit": "it-a1-u03",
+  "title": "Reto: un giorno a Pompei",
+  "goal": "a comprar entradas, entender precios y horarios y pagar en una visita real",
+  "emoji": "🌋",
+  "photoQuery": "pompeii ruins vesuvius view",
+  "vocab": [
+    {
+      "id": "biglietto-intero",
+      "t": "il biglietto intero",
+      "es": "la entrada general",
+      "emoji": "🎟️",
+      "pos": "n",
+      "ex": {
+        "t": "Due biglietti interi, per favore.",
+        "es": "Dos entradas generales, por favor."
+      }
+    },
+    {
+      "id": "biglietto-ridotto",
+      "t": "il biglietto ridotto",
+      "es": "la entrada reducida",
+      "emoji": "🎫",
+      "pos": "n",
+      "ex": {
+        "t": "C'è un biglietto ridotto per i ragazzi?",
+        "es": "¿Hay entrada reducida para los chicos?"
+      }
+    },
+    {
+      "id": "la-biglietteria",
+      "t": "la biglietteria",
+      "es": "la taquilla",
+      "emoji": "🏛️",
+      "pos": "n",
+      "ex": {
+        "t": "Dov'è la biglietteria?",
+        "es": "¿Dónde está la taquilla?"
+      }
+    },
+    {
+      "id": "orario-apertura",
+      "t": "l'orario di apertura",
+      "es": "el horario de apertura",
+      "emoji": "🕘",
+      "pos": "n",
+      "ex": {
+        "t": "Qual è l'orario di apertura?",
+        "es": "¿Cuál es el horario de apertura?"
+      }
+    },
+    {
+      "id": "numero-duecento",
+      "t": "duecento",
+      "es": "doscientos",
+      "emoji": "💶",
+      "pos": "n",
+      "ex": {
+        "t": "Il volo costa duecento euro.",
+        "es": "El vuelo cuesta doscientos euros."
+      }
+    },
+    {
+      "id": "numero-mille",
+      "t": "mille",
+      "es": "mil",
+      "emoji": "💰",
+      "pos": "n",
+      "note": "Desde 2000: duemila, tremila…",
+      "ex": {
+        "t": "Mille grazie, signora!",
+        "es": "¡Mil gracias, señora!"
+      }
+    },
+    {
+      "id": "quanto-in-tutto",
+      "t": "Quanto costa in tutto?",
+      "es": "¿Cuánto es en total?",
+      "emoji": "🧮",
+      "pos": "phrase",
+      "ex": {
+        "t": "Due biglietti: quanto costa in tutto?",
+        "es": "Dos entradas: ¿cuánto es en total?"
+      }
+    },
+    {
+      "id": "il-resto",
+      "t": "il resto",
+      "es": "la vuelta, el cambio",
+      "emoji": "🪙",
+      "pos": "n",
+      "ex": {
+        "t": "Ecco il resto, signora.",
+        "es": "Aquí tiene la vuelta, señora."
+      }
+    },
+    {
+      "id": "il-conto-per-favore",
+      "t": "Il conto, per favore.",
+      "es": "La cuenta, por favor.",
+      "emoji": "🧾",
+      "pos": "phrase",
+      "ex": {
+        "t": "Scusi, il conto, per favore.",
+        "es": "Perdone, la cuenta, por favor."
+      }
+    }
+  ],
+  "grammar": "it-g-numeri",
+  "pron": {
+    "title": "Repaso: dobles y z",
+    "tip": "Alarga las dobles de mille, sette, otto y biglietto; y recuerda que la z de zero suena «dz», nunca como nuestra z.",
+    "words": [
+      "mille",
+      "biglietto",
+      "otto",
+      "zero"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Due biglietti da diciotto euro: ___ euro.",
+      "options": [
+        "trentasei",
+        "ventisei",
+        "sedici"
+      ],
+      "answer": "trentasei",
+      "why": "18 + 18 = 36: trentasei.",
+      "g": "it-g-numeri"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "q": "Il volo per Napoli costa ___ euro. (200)",
+      "answer": [
+        "duecento"
+      ],
+      "bank": [
+        "duecento",
+        "dodici",
+        "duemila"
+      ],
+      "why": "200 = due + cento, todo junto: duecento.",
+      "g": "it-g-numeri"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "q": "La crociera costa ___ euro. (1000)",
+      "answer": [
+        "mille"
+      ],
+      "why": "1000 es mille; 2000 ya es duemila.",
+      "g": "it-g-numeri"
+    },
+    {
+      "id": "e4",
+      "type": "conjugate",
+      "verb": "avere",
+      "person": "noi",
+      "tense": "presente",
+      "q": "Noi ___ già i biglietti.",
+      "answer": [
+        "abbiamo"
+      ],
+      "why": "Con noi: abbiamo, con doble b.",
+      "g": "it-g-avere"
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "___ costa in tutto?",
+      "options": [
+        "Quanto",
+        "Quanti",
+        "Come"
+      ],
+      "answer": "Quanto",
+      "why": "Para el precio total: quanto costa in tutto?",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e6",
+      "type": "match",
+      "pairs": [
+        [
+          "il biglietto",
+          "la entrada"
+        ],
+        [
+          "la biglietteria",
+          "la taquilla"
+        ],
+        [
+          "il resto",
+          "la vuelta"
+        ],
+        [
+          "il conto",
+          "la cuenta"
+        ],
+        [
+          "l'orario",
+          "el horario"
+        ]
+      ],
+      "why": "Palabras clave para cualquier visita."
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "¿A qué hora cierra la taquilla?",
+      "answer": "A che ora chiude la biglietteria",
+      "extra": [
+        "Che ore"
+      ],
+      "why": "A che ora…? = ¿A qué hora…?",
+      "g": "it-g-ora"
+    },
+    {
+      "id": "e8",
+      "type": "translate",
+      "dir": "to",
+      "q": "Tengo sesenta años.",
+      "answer": [
+        "Ho sessant'anni",
+        "Ho sessanta anni",
+        "Io ho sessant'anni",
+        "Io ho sessanta anni"
+      ],
+      "why": "La edad con avere: ho sessant'anni.",
+      "g": "it-g-avere"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "La mia vicina ha ottanta años.",
+      "wrong": "años",
+      "fix": "anni",
+      "why": "Años en italiano es anni.",
+      "g": "it-g-avere"
+    },
+    {
+      "id": "e10",
+      "type": "situation",
+      "context": "En la taquilla de Pompeya quieres dos entradas generales.",
+      "emoji": "🎟️",
+      "options": [
+        "Due biglietti interi, per favore.",
+        "Due biglietterie, per favore.",
+        "Ho due biglietti?"
+      ],
+      "answer": "Due biglietti interi, per favore.",
+      "why": "El billete o la entrada es il biglietto; la taquilla, la biglietteria."
+    },
+    {
+      "id": "e11",
+      "type": "situation",
+      "context": "Has comido en una trattoria y quieres pagar.",
+      "emoji": "🧾",
+      "options": [
+        "Il conto, per favore.",
+        "Il cuento, per favore.",
+        "Quanti anni ha?"
+      ],
+      "answer": "Il conto, per favore.",
+      "why": "La cuenta = il conto. Un cuento es una favola."
+    },
+    {
+      "id": "e12",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Scavi",
+      "text": "SCAVI – ORARIO ESTIVO\nApertura: 9:00\nChiusura: 19:00\nUltimo ingresso: 17:30\nBiglietto intero: 18 €",
+      "questions": [
+        {
+          "q": "¿Hasta qué hora puedes entrar?",
+          "options": [
+            "Hasta las 17:30",
+            "Hasta las 19:00",
+            "Hasta las 9:00"
+          ],
+          "answer": "Hasta las 17:30"
+        },
+        {
+          "q": "¿Cuánto cuesta la entrada general?",
+          "options": [
+            "18 €",
+            "8 €",
+            "80 €"
+          ],
+          "answer": "18 €"
+        },
+        {
+          "q": "¿A qué hora cierra?",
+          "options": [
+            "A las siete de la tarde",
+            "A las nueve",
+            "A las cinco y media"
+          ],
+          "answer": "A las siete de la tarde"
+        }
+      ],
+      "g": "it-g-ora"
+    },
+    {
+      "id": "e13",
+      "type": "speak",
+      "t": "Quanto costa in tutto?",
+      "es": "¿Cuánto es en total?"
+    },
+    {
+      "id": "e14",
+      "type": "transform",
+      "instr": "Escribe la hora en letras",
+      "q": "17:30",
+      "answer": [
+        "Sono le diciassette e trenta",
+        "Sono le diciassette e mezza",
+        "Sono le cinque e mezza",
+        "Sono le cinque e mezzo",
+        "Sono le diciassette e mezzo"
+      ],
+      "why": "Puedes decir le diciassette e trenta o, hablando, le cinque e mezza.",
+      "g": "it-g-ora"
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "q": "Ecco il ___: diciotto euro.",
+      "answer": [
+        "resto"
+      ],
+      "bank": [
+        "resto",
+        "conto",
+        "biglietto"
+      ],
+      "why": "Lo que te devuelven al pagar es il resto (la vuelta)."
+    }
+  ],
+  "dialog": {
+    "title": "En la taquilla",
+    "setting": "En la taquilla de las ruinas de Pompeya",
+    "emoji": "🏛️",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Buongiorno! Due biglietti interi, per favore.",
+        "es": "¡Buenos días! Dos entradas generales, por favor."
+      },
+      {
+        "who": "Impiegata",
+        "t": "Sono trentasei euro.",
+        "es": "Son treinta y seis euros."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Ecco cinquanta euro.",
+        "es": "Aquí tiene cincuenta euros."
+      },
+      {
+        "who": "Impiegata",
+        "t": "Ed ecco quattordici euro di resto.",
+        "es": "Y aquí tiene catorce euros de vuelta."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie. A che ora chiude?",
+        "es": "Gracias. ¿A qué hora cierra?"
+      },
+      {
+        "who": "Impiegata",
+        "t": "Alle sette. L'ultimo ingresso è alle cinque e mezza.",
+        "es": "A las siete. La última entrada es a las cinco y media."
+      },
+      {
+        "who": "Yolanda",
+        "t": "E dov'è il bagno?",
+        "es": "¿Y dónde está el baño?"
+      },
+      {
+        "who": "Impiegata",
+        "t": "Subito a destra. Buona visita!",
+        "es": "Nada más entrar, a la derecha. ¡Buena visita!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuántas entradas compra Yolanda?",
+        "options": [
+          "Dos",
+          "Tres",
+          "Una"
+        ],
+        "answer": "Dos"
+      },
+      {
+        "q": "¿Cuánto le devuelven?",
+        "options": [
+          "14 €",
+          "36 €",
+          "50 €"
+        ],
+        "answer": "14 €"
+      },
+      {
+        "q": "¿Hasta qué hora se puede entrar?",
+        "options": [
+          "Hasta las cinco y media",
+          "Hasta las siete",
+          "Hasta las cinco"
+        ],
+        "answer": "Hasta las cinco y media"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "C'è uno sconto per famiglie?",
+    "es": "¿Hay descuento para familias?",
+    "context": "En la taquilla, si vas con los nietos"
+  },
+  "same": {
+    "text": "Igual que en español: la edad se dice con «tener» (avere), y los precios se preguntan con «cuánto».",
+    "examples": [
+      {
+        "t": "Ho sessant'anni.",
+        "es": "Tengo sesenta años."
+      },
+      {
+        "t": "Quanto costa in tutto?",
+        "es": "¿Cuánto es en total?"
+      },
+      {
+        "t": "A che ora chiude?",
+        "es": "¿A qué hora cierra?"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "il conto",
+    "means": "la cuenta",
+    "looksLike": "el cuento",
+    "emoji": "🧾",
+    "tip": "Il conto, per favore = la cuenta, por favor. Un cuento para los nietos es una favola."
+  },
+  "summary": [
+    "Precios grandes: duecento, cinquecento, mille, duemila",
+    "En la taquilla: due biglietti interi, quanto costa in tutto?",
+    "Horarios: a che ora chiude? Alle sette",
+    "La edad con avere: ho sessant'anni",
+    "¡Ojo! Il conto es la cuenta, no un cuento"
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u03-l5"
+}

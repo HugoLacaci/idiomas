@@ -1,0 +1,449 @@
+{
+  "id": "en-a1-u04-l3",
+  "unit": "en-a1-u04",
+  "title": "¡Pasa, estás en tu casa!",
+  "goal": "a recibir visitas, hablar de los electrodomésticos y usar frases típicas de casa",
+  "emoji": "🚪",
+  "photoQuery": "bright kitchen fridge cooker",
+  "vocab": [
+    {
+      "id": "come-in",
+      "t": "Come in!",
+      "es": "¡Pasa! / ¡Adelante!",
+      "emoji": "🚪",
+      "pos": "phrase",
+      "ex": {
+        "t": "Come in, Emma! Nice to see you.",
+        "es": "¡Pasa, Emma! Qué alegría verte."
+      }
+    },
+    {
+      "id": "make-yourself-at-home",
+      "t": "Make yourself at home.",
+      "es": "Estás en tu casa.",
+      "emoji": "🤗",
+      "pos": "phrase",
+      "ex": {
+        "t": "Sit down and make yourself at home.",
+        "es": "Siéntate y ponte cómoda."
+      }
+    },
+    {
+      "id": "wheres-the-toilet",
+      "t": "Where's the toilet?",
+      "es": "¿Dónde está el servicio?",
+      "emoji": "🚻",
+      "pos": "phrase",
+      "ex": {
+        "t": "Sorry, where's the toilet?",
+        "es": "Perdona, ¿dónde está el servicio?"
+      },
+      "note": "En EE. UU.: bathroom o restroom."
+    },
+    {
+      "id": "fridge",
+      "t": "the fridge",
+      "es": "la nevera",
+      "emoji": "🧊",
+      "pos": "n",
+      "ex": {
+        "t": "There's some milk in the fridge.",
+        "es": "Hay leche en la nevera."
+      }
+    },
+    {
+      "id": "cooker",
+      "t": "the cooker",
+      "es": "la cocina (el fogón)",
+      "emoji": "🔥",
+      "pos": "n",
+      "ex": {
+        "t": "The soup is on the cooker.",
+        "es": "La sopa está en el fuego."
+      },
+      "note": "¡Ojo! A cook es un cocinero; el aparato es a cooker. En EE. UU.: stove."
+    },
+    {
+      "id": "washing-machine",
+      "t": "the washing machine",
+      "es": "la lavadora",
+      "emoji": "🧺",
+      "pos": "n",
+      "ex": {
+        "t": "Is there a washing machine?",
+        "es": "¿Hay lavadora?"
+      }
+    },
+    {
+      "id": "microwave",
+      "t": "the microwave",
+      "es": "el microondas",
+      "emoji": "📟",
+      "pos": "n",
+      "ex": {
+        "t": "Two minutes in the microwave.",
+        "es": "Dos minutos en el microondas."
+      }
+    },
+    {
+      "id": "dishwasher",
+      "t": "the dishwasher",
+      "es": "el lavavajillas",
+      "emoji": "🍽️",
+      "pos": "n",
+      "ex": {
+        "t": "There isn't a dishwasher in Hugo's flat.",
+        "es": "En el piso de Hugo no hay lavavajillas."
+      }
+    },
+    {
+      "id": "library",
+      "t": "a library",
+      "es": "una biblioteca",
+      "emoji": "📚",
+      "pos": "n",
+      "ex": {
+        "t": "There's a library near my house.",
+        "es": "Hay una biblioteca cerca de mi casa."
+      },
+      "note": "¡Ojo, falso amigo! Library = biblioteca. Librería = bookshop."
+    }
+  ],
+  "grammar": "en-g-there-is-are",
+  "pron": {
+    "title": "ch de kitchen y sh de shop",
+    "tip": "La ch inglesa (kitchen, chair, cheap) suena como nuestra «ch» de «chocolate». La sh (shop, washing, dishwasher) es un «shhh» de pedir silencio, sin golpe. No las confundas: chair es silla y share es compartir.",
+    "words": [
+      "kitchen",
+      "chair",
+      "washing machine",
+      "dishwasher",
+      "shop"
+    ],
+    "pairs": [
+      [
+        "chair",
+        "share"
+      ],
+      [
+        "cheap",
+        "sheep"
+      ],
+      [
+        "chop",
+        "shop"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "situation",
+      "context": "Llaman a la puerta. Es tu amiga Emma. ¿Qué le dices?",
+      "emoji": "🚪",
+      "options": [
+        "Come in, Emma!",
+        "Go in, Emma!",
+        "Enter you, Emma!"
+      ],
+      "answer": "Come in, Emma!",
+      "why": "Para invitar a pasar: Come in!"
+    },
+    {
+      "id": "e2",
+      "type": "situation",
+      "context": "Estás en casa de una familia inglesa y necesitas ir al servicio.",
+      "emoji": "🚻",
+      "options": [
+        "Sorry, where's the toilet?",
+        "Sorry, where's the library?",
+        "Sorry, is there the toilet?"
+      ],
+      "answer": "Sorry, where's the toilet?",
+      "why": "Preguntamos dónde está algo concreto: Where's the…?"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "I need a book. Is there a ___ near here?",
+      "es": "Necesito un libro. ¿Hay una biblioteca cerca?",
+      "options": [
+        "library",
+        "bookshop",
+        "kitchen"
+      ],
+      "answer": "library",
+      "why": "Para tomar prestado un libro: library (biblioteca). Bookshop es librería, donde se compra."
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "I want to buy a novel for Hugo. Is there a ___ near here?",
+      "es": "Quiero comprar una novela para Hugo. ¿Hay una librería cerca?",
+      "options": [
+        "library",
+        "bookshop"
+      ],
+      "answer": "bookshop",
+      "why": "Para comprar libros: bookshop. ¡Library es biblioteca!"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "The milk is in the ___.",
+      "es": "La leche está en la nevera.",
+      "answer": [
+        "fridge"
+      ],
+      "bank": [
+        "fridge",
+        "cooker",
+        "dishwasher"
+      ],
+      "why": "La leche se guarda en la nevera: fridge."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "There ___ a microwave and a dishwasher in the kitchen.",
+      "es": "Hay un microondas y un lavavajillas en la cocina.",
+      "answer": [
+        "is"
+      ],
+      "bank": [
+        "is",
+        "are",
+        "has"
+      ],
+      "why": "La primera cosa es una sola (a microwave): there is.",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e7",
+      "type": "match",
+      "pairs": [
+        [
+          "fridge",
+          "nevera"
+        ],
+        [
+          "cooker",
+          "fogón"
+        ],
+        [
+          "washing machine",
+          "lavadora"
+        ],
+        [
+          "dishwasher",
+          "lavavajillas"
+        ],
+        [
+          "library",
+          "biblioteca"
+        ]
+      ]
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Is there a library? I want to buy a cookbook.",
+      "wrong": "library",
+      "fix": "bookshop",
+      "why": "Para comprar se va a una bookshop (librería). Library es biblioteca."
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Siéntate y ponte cómoda",
+      "answer": "Sit down and make yourself at home",
+      "extra": [
+        "in"
+      ],
+      "why": "Expresión fija: make yourself at home."
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Hay lavavajillas?",
+      "answer": [
+        "Is there a dishwasher?"
+      ],
+      "why": "Una cosa: Is there a…?",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "There's a dishwasher in the flat.",
+      "answer": [
+        "There isn't a dishwasher in the flat.",
+        "There is not a dishwasher in the flat.",
+        "There's no dishwasher in the flat."
+      ],
+      "why": "Negativa en singular: there isn't a…",
+      "g": "en-g-there-is-are"
+    },
+    {
+      "id": "e12",
+      "type": "reading",
+      "kind": "message",
+      "title": "Nota de la anfitriona",
+      "text": "Welcome! Make yourself at home. There's milk and butter in the fridge. The washing machine is in the bathroom. There isn't a dishwasher, sorry! Sue",
+      "questions": [
+        {
+          "q": "¿Qué hay en la nevera?",
+          "options": [
+            "Leche y mantequilla",
+            "Huevos",
+            "Nada"
+          ],
+          "answer": "Leche y mantequilla"
+        },
+        {
+          "q": "¿Dónde está la lavadora?",
+          "options": [
+            "En el baño",
+            "En la cocina",
+            "En el jardín"
+          ],
+          "answer": "En el baño"
+        },
+        {
+          "q": "¿Qué falta en el piso?",
+          "options": [
+            "Lavavajillas",
+            "Lavadora",
+            "Nevera"
+          ],
+          "answer": "Lavavajillas"
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "chair",
+        "share"
+      ],
+      "answer": "chair",
+      "es": [
+        "silla",
+        "compartir"
+      ],
+      "why": "Chair empieza con un golpe, como «ch» de chocolate."
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "chop",
+        "shop"
+      ],
+      "answer": "shop",
+      "es": [
+        "picar",
+        "tienda"
+      ],
+      "why": "Shop empieza con un «shhh» suave, sin golpe."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Come in and make yourself at home!",
+      "es": "¡Pasa y estás en tu casa!"
+    }
+  ],
+  "dialog": {
+    "title": "Emma viene a cenar",
+    "setting": "En casa de Yolanda, Emma llega de visita",
+    "emoji": "🍷",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Hi, Emma! Come in!",
+        "es": "¡Hola, Emma! ¡Pasa!"
+      },
+      {
+        "who": "Emma",
+        "t": "Thank you. What a lovely house!",
+        "es": "Gracias. ¡Qué casa tan bonita!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Make yourself at home. Sit down, please.",
+        "es": "Estás en tu casa. Siéntate, por favor."
+      },
+      {
+        "who": "Emma",
+        "t": "Sorry, where's the toilet?",
+        "es": "Perdona, ¿dónde está el servicio?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "It's upstairs, on the left.",
+        "es": "Está arriba, a la izquierda."
+      },
+      {
+        "who": "Emma",
+        "t": "Thanks. Mmm, something smells good!",
+        "es": "Gracias. ¡Mmm, algo huele muy bien!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "It's a tortilla. It's on the cooker.",
+        "es": "Es una tortilla. Está en el fuego."
+      },
+      {
+        "who": "Emma",
+        "t": "Lovely! I'm very hungry.",
+        "es": "¡Qué rico! Tengo mucha hambre."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Dónde está el servicio?",
+        "options": [
+          "Arriba, a la izquierda",
+          "Abajo, a la derecha",
+          "Al lado de la cocina"
+        ],
+        "answer": "Arriba, a la izquierda"
+      },
+      {
+        "q": "¿Qué está cocinando Yolanda?",
+        "options": [
+          "Una tortilla",
+          "Una paella",
+          "Una sopa"
+        ],
+        "answer": "Una tortilla"
+      },
+      {
+        "q": "¿Qué piensa Emma de la casa?",
+        "options": [
+          "Que es muy bonita",
+          "Que es pequeña",
+          "Que es fría"
+        ],
+        "answer": "Que es muy bonita"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Make yourself at home.",
+    "es": "Estás en tu casa.",
+    "context": "Cuando recibes a alguien en casa (por ejemplo, a unos vecinos nuevos o a una amiga extranjera)"
+  },
+  "summary": [
+    "Recibir visitas: Come in! · Make yourself at home. · Sit down, please.",
+    "Electrodomésticos: fridge, cooker, washing machine, microwave, dishwasher",
+    "¡Falso amigo! library = biblioteca; librería = bookshop",
+    "ch de kitchen (golpe) frente a sh de shop (suave)"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u04-l3"
+}

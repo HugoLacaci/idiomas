@@ -1,0 +1,78 @@
+{
+  "id": "it-a2-u06-l2",
+  "unit": "it-a2-u06",
+  "title": "La gonna? La prendo!",
+  "goal": "a decir «lo, la, los, las» en italiano para no repetir la ropa que compras",
+  "emoji": "🛍️",
+  "photoQuery": "woman holding shopping bags street",
+  "vocab": [
+    { "id": "moda-provare", "t": "provare", "es": "probar(se)", "emoji": "🪞", "pos": "v", "ex": { "t": "Posso provare questa giacca?", "es": "¿Puedo probarme esta chaqueta?" } },
+    { "id": "moda-prendere", "t": "prendere", "es": "coger, quedarse con", "emoji": "🤲", "pos": "v", "note": "En una tienda, prendere = quedarte con algo, comprarlo.", "ex": { "t": "La gonna blu? La prendo!", "es": "¿La falda azul? ¡Me la quedo!" } },
+    { "id": "moda-portare", "t": "portare", "es": "llevar (puesto); usar una talla", "emoji": "👔", "pos": "v", "ex": { "t": "Porto spesso i jeans.", "es": "Llevo vaqueros a menudo." } },
+    { "id": "moda-cercare", "t": "cercare", "es": "buscar", "emoji": "🔍", "pos": "v", "ex": { "t": "Cerco una sciarpa per un'amica.", "es": "Busco una bufanda para una amiga." } },
+    { "id": "moda-regalare", "t": "regalare", "es": "regalar", "emoji": "🎁", "pos": "v", "ex": { "t": "Regalo una borsa alle mie amiche.", "es": "Les regalo un bolso a mis amigas." } },
+    { "id": "moda-la-commessa", "t": "la commessa", "es": "la dependienta", "emoji": "🙋‍♀️", "pos": "n", "note": "Si es un hombre: il commesso.", "ex": { "t": "La commessa è molto gentile.", "es": "La dependienta es muy amable." } },
+    { "id": "moda-la-maglietta", "t": "la maglietta", "es": "la camiseta", "emoji": "👕", "pos": "n", "ex": { "t": "Le magliette sono in offerta.", "es": "Las camisetas están de oferta." } },
+    { "id": "moda-i-jeans", "t": "i jeans", "es": "los vaqueros", "emoji": "👖", "pos": "n", "ex": { "t": "Questi jeans sono troppo lunghi.", "es": "Estos vaqueros son demasiado largos." } }
+  ],
+  "grammar": "it-g-pronomi-diretti",
+  "pron": {
+    "title": "Lo, la, li, le: vocales claras",
+    "tip": "Pronuncia bien la vocal final: lo, la, li, le. Es lo único que te dice si hablas de un jersey, una falda o varias cosas.",
+    "words": ["lo prendo", "la provo", "li compro", "le regalo"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Il maglione? ___ prendo!", "es": "¿El jersey? ¡Me lo quedo!", "options": ["Lo", "La", "Li"], "answer": "Lo", "why": "Il maglione es masculino singular: lo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e2", "type": "choose", "q": "La camicetta? ___ provo subito.", "es": "¿La blusa? Me la pruebo enseguida.", "options": ["La", "Lo", "Le"], "answer": "La", "why": "La camicetta es femenino singular: la.", "g": "it-g-pronomi-diretti" },
+    { "id": "e3", "type": "choose", "q": "I jeans? Non ___ porto mai.", "es": "¿Los vaqueros? No los llevo nunca.", "options": ["li", "le", "lo"], "answer": "li", "why": "I jeans es masculino plural: li.", "g": "it-g-pronomi-diretti" },
+    { "id": "e4", "type": "choose", "q": "Le magliette? ___ regalo alle mie amiche.", "es": "¿Las camisetas? Se las regalo a mis amigas.", "options": ["Le", "Li", "La"], "answer": "Le", "why": "Le magliette es femenino plural: le.", "g": "it-g-pronomi-diretti" },
+    { "id": "e5", "type": "fill", "q": "Le scarpe nere? Sì, ___ prendo.", "es": "¿Los zapatos negros? Sí, me los quedo.", "answer": ["le"], "bank": ["le", "li", "lo"], "why": "Scarpe es femenino en italiano: le scarpe → le.", "g": "it-g-pronomi-diretti" },
+    { "id": "e6", "type": "fill", "q": "Questa gonna è bella. ___ provo?", "es": "Esta falda es bonita. ¿Me la pruebo?", "answer": ["La"], "bank": ["La", "Lo", "Li"], "why": "Gonna → la.", "g": "it-g-pronomi-diretti" },
+    { "id": "e7", "type": "fill", "q": "Hugo? ___ chiamo stasera.", "es": "¿Hugo? Lo llamo esta noche.", "answer": ["Lo"], "hint": "a Hugo", "why": "Para una persona masculina también se usa lo: lo chiamo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e8", "type": "error", "q": "La giacca? Lo prendo.", "wrong": "Lo", "fix": "La", "why": "Giacca es femenino: la prendo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e9", "type": "error", "q": "I pantaloni? Le compro domani.", "wrong": "Le", "fix": "Li", "why": "Pantaloni es masculino plural: li.", "g": "it-g-pronomi-diretti" },
+    { "id": "e10", "type": "order", "es": "Hoy no la compro.", "answer": "Oggi non la compro", "extra": ["lo"], "why": "Non va delante del pronombre: non la compro.", "g": "it-g-pronomi-diretti" },
+    { "id": "e11", "type": "transform", "instr": "Cambia «i jeans» por un pronombre", "q": "Compro i jeans.", "answer": ["Li compro."], "why": "I jeans → li, delante del verbo: li compro.", "g": "it-g-pronomi-diretti" },
+    { "id": "e12", "type": "transform", "instr": "Usa el pronombre pegado al infinitivo", "q": "Posso provare la giacca?", "answer": ["Posso provarla?", "La posso provare?"], "why": "Con infinitivo, el pronombre se pega al final: provarla (o va delante: la posso provare).", "g": "it-g-pronomi-diretti" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "¿El vestido? Me lo pruebo.", "answer": ["Il vestito? Lo provo."], "why": "Vestito es masculino: lo provo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "Le scarpe rosse? Non le porto mai.", "answer": ["¿Los zapatos rojos? No los llevo nunca.", "¿Los zapatos rojos? Nunca los llevo.", "¿Los zapatos rojos? No me los pongo nunca."], "why": "Scarpe es femenino en italiano, pero en español decimos «los zapatos».", "g": "it-g-pronomi-diretti" },
+    { "id": "e15", "type": "situation", "context": "La dependienta te enseña una chaqueta que te encanta. Quieres comprarla.", "emoji": "🧥", "options": ["La prendo!", "Lo prendo!", "Prendo la!"], "answer": "La prendo!", "why": "La giacca → la, y va delante del verbo: la prendo.", "g": "it-g-pronomi-diretti" },
+    { "id": "e16", "type": "match", "pairs": [["il maglione", "lo"], ["la gonna", "la"], ["i jeans", "li"], ["le scarpe", "le"]], "why": "Cada pronombre según género y número." }
+  ],
+  "dialog": {
+    "title": "En el probador",
+    "setting": "En una tienda de ropa de Milán, Yolanda habla con la dependienta",
+    "emoji": "🪞",
+    "lines": [
+      { "who": "Commessa", "t": "Buongiorno! Posso aiutarla?", "es": "¡Buenos días! ¿Puedo ayudarla?" },
+      { "who": "Yolanda", "t": "Sì, cerco una giacca per l'autunno.", "es": "Sí, busco una chaqueta para el otoño." },
+      { "who": "Commessa", "t": "Le piace questa marrone? La vuole provare?", "es": "¿Le gusta esta marrón? ¿Se la quiere probar?" },
+      { "who": "Yolanda", "t": "Sì, la provo volentieri.", "es": "Sí, me la pruebo con gusto." },
+      { "who": "Commessa", "t": "Come va?", "es": "¿Qué tal le queda?" },
+      { "who": "Yolanda", "t": "Benissimo! La prendo.", "es": "¡Muy bien! Me la quedo." },
+      { "who": "Commessa", "t": "E questi pantaloni? Li vuole vedere?", "es": "¿Y estos pantalones? ¿Quiere verlos?" },
+      { "who": "Yolanda", "t": "No, grazie. Oggi non li compro.", "es": "No, gracias. Hoy no los compro." }
+    ],
+    "questions": [
+      { "q": "¿Qué busca Yolanda?", "options": ["Una chaqueta", "Una falda", "Unos zapatos"], "answer": "Una chaqueta" },
+      { "q": "¿De qué color es la chaqueta?", "options": ["Marrón", "Negra", "Roja"], "answer": "Marrón" },
+      { "q": "¿Compra los pantalones?", "options": ["No", "Sí, dos", "Sí, uno"], "answer": "No" }
+    ]
+  },
+  "realLife": { "t": "Posso provarlo?", "es": "¿Puedo probármelo?", "context": "Para pedir probarte una prenda en una tienda" },
+  "same": {
+    "text": "Lo y la funcionan como en español: van delante del verbo y sustituyen a la cosa o a la persona.",
+    "examples": [
+      { "t": "Lo prendo.", "es": "Lo cojo." },
+      { "t": "La compro.", "es": "La compro." },
+      { "t": "Non lo vedo.", "es": "No lo veo." }
+    ]
+  },
+  "summary": [
+    "Lo (él, masculino), la (ella, femenino), li (ellos), le (ellas).",
+    "Van delante del verbo: la prendo, non li compro.",
+    "Con infinitivo se pegan detrás: posso provarla.",
+    "¡Ojo! Le scarpe es femenino: le prendo."
+  ],
+  "reviewed": false
+}

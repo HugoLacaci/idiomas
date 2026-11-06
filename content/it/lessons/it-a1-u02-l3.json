@@ -1,0 +1,416 @@
+{
+  "id": "it-a1-u02-l3",
+  "unit": "it-a1-u02",
+  "title": "Vorrei un cappuccino",
+  "goal": "a pedir en la barra con educación y a pagar en la caja",
+  "emoji": "🗣️",
+  "photoQuery": "barista making cappuccino cafe",
+  "vocab": [
+    {
+      "id": "bar-vorrei",
+      "t": "Vorrei…",
+      "es": "Quería… / Querría…",
+      "emoji": "🙏",
+      "pos": "phrase",
+      "ex": {
+        "t": "Vorrei un caffè, per favore.",
+        "es": "Quería un café, por favor."
+      }
+    },
+    {
+      "id": "bar-prendo",
+      "t": "Prendo…",
+      "es": "Tomo… / Me tomo…",
+      "emoji": "✋",
+      "pos": "phrase",
+      "ex": {
+        "t": "Prendo un macchiato.",
+        "es": "Me tomo un cortado."
+      }
+    },
+    {
+      "id": "bar-per-me",
+      "t": "Per me…",
+      "es": "Para mí…",
+      "emoji": "🙋‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Per me un tè, grazie.",
+        "es": "Para mí un té, gracias."
+      }
+    },
+    {
+      "id": "bar-quant-e",
+      "t": "Quant'è?",
+      "es": "¿Cuánto es?",
+      "emoji": "💶",
+      "pos": "phrase",
+      "ex": {
+        "t": "Due caffè. Quant'è?",
+        "es": "Dos cafés. ¿Cuánto es?"
+      }
+    },
+    {
+      "id": "bar-al-banco",
+      "t": "al banco",
+      "es": "en la barra",
+      "emoji": "🧍",
+      "pos": "phrase",
+      "note": "Tomar el café de pie en la barra suele ser más barato que en la mesa.",
+      "ex": {
+        "t": "Lo prendo al banco.",
+        "es": "Me lo tomo en la barra."
+      }
+    },
+    {
+      "id": "bar-al-tavolo",
+      "t": "al tavolo",
+      "es": "en la mesa",
+      "emoji": "🪑",
+      "pos": "phrase",
+      "ex": {
+        "t": "Possiamo sederci al tavolo?",
+        "es": "¿Podemos sentarnos a la mesa?"
+      }
+    },
+    {
+      "id": "bar-da-portare-via",
+      "t": "da portare via",
+      "es": "para llevar",
+      "emoji": "🥡",
+      "pos": "phrase",
+      "ex": {
+        "t": "Un cornetto da portare via.",
+        "es": "Un cruasán para llevar."
+      }
+    },
+    {
+      "id": "bar-ecco-a-lei",
+      "t": "Ecco a lei.",
+      "es": "Aquí tiene.",
+      "emoji": "🤲",
+      "pos": "phrase",
+      "ex": {
+        "t": "Il suo cappuccino. Ecco a lei!",
+        "es": "Su capuchino. ¡Aquí tiene!"
+      }
+    },
+    {
+      "id": "bar-grazie-mille",
+      "t": "Grazie mille!",
+      "es": "¡Muchas gracias!",
+      "emoji": "💐",
+      "pos": "phrase",
+      "ex": {
+        "t": "Grazie mille, signora!",
+        "es": "¡Muchas gracias, señora!"
+      }
+    }
+  ],
+  "grammar": "it-g-vorrei",
+  "pron": {
+    "title": "La doble r de vorrei",
+    "tip": "Vorrei lleva doble r: suena fuerte, como nuestra rr de «perro». Si dices «vorei» con r suave, suena raro.",
+    "words": [
+      "vorrei",
+      "vorremmo",
+      "burro",
+      "arrivederci"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "___ un cappuccino, per favore.",
+      "options": [
+        "Vorrei",
+        "Voglio",
+        "Vorremmo"
+      ],
+      "answer": "Vorrei",
+      "why": "Vorrei es la forma amable para pedir algo para ti.",
+      "g": "it-g-vorrei"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Due caffè. ___?",
+      "es": "Dos cafés. ¿Cuánto es?",
+      "options": [
+        "Quant'è",
+        "Che cos'è",
+        "Dov'è"
+      ],
+      "answer": "Quant'è",
+      "why": "Quant'è? = ¿Cuánto es?"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "q": "Un cornetto da portare ___.",
+      "es": "Un cruasán para llevar.",
+      "answer": [
+        "via"
+      ],
+      "bank": [
+        "via",
+        "fuori",
+        "casa"
+      ],
+      "why": "Para llevar = da portare via."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Io e Hugo ___ due spremute.",
+      "answer": [
+        "vorremmo"
+      ],
+      "bank": [
+        "vorrei",
+        "vorremmo",
+        "voglio"
+      ],
+      "why": "Io e Hugo = noi: vorremmo.",
+      "g": "it-g-vorrei"
+    },
+    {
+      "id": "e5",
+      "type": "conjugate",
+      "verb": "prendere",
+      "person": "io",
+      "tense": "presente",
+      "q": "Io ___ un tè caldo.",
+      "answer": [
+        "prendo"
+      ],
+      "why": "Prendere con io: prendo."
+    },
+    {
+      "id": "e6",
+      "type": "error",
+      "q": "Vorrei paga alla cassa.",
+      "wrong": "paga",
+      "fix": "pagare",
+      "why": "Detrás de vorrei, el verbo va en infinitivo: pagare.",
+      "g": "it-g-vorrei"
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "Para mí un té caliente, gracias.",
+      "answer": "Per me un tè caldo grazie",
+      "extra": [
+        "io"
+      ],
+      "why": "Per me + cosa: para mí."
+    },
+    {
+      "id": "e8",
+      "type": "translate",
+      "dir": "to",
+      "q": "Quería un café en la barra.",
+      "answer": [
+        "Vorrei un caffè al banco."
+      ],
+      "why": "En la barra = al banco.",
+      "g": "it-g-vorrei"
+    },
+    {
+      "id": "e9",
+      "type": "translate",
+      "dir": "from",
+      "q": "Ecco a lei, signora.",
+      "answer": [
+        "Aquí tiene, señora.",
+        "Aquí tiene usted, señora."
+      ],
+      "why": "Ecco a lei = aquí tiene (de usted)."
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Hazla más amable",
+      "q": "Voglio una spremuta.",
+      "answer": [
+        "Vorrei una spremuta.",
+        "Vorrei una spremuta, per favore."
+      ],
+      "why": "Vorrei suena más educado que voglio.",
+      "g": "it-g-vorrei"
+    },
+    {
+      "id": "e11",
+      "type": "situation",
+      "context": "Quieres llevarte el cruasán para comértelo en el tren.",
+      "emoji": "🚆",
+      "options": [
+        "Un cornetto da portare via.",
+        "Un cornetto al tavolo.",
+        "Un cornetto al banco."
+      ],
+      "answer": "Un cornetto da portare via.",
+      "why": "Da portare via = para llevar."
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "El camarero te da el café y tú quieres darle las gracias de corazón.",
+      "emoji": "💐",
+      "options": [
+        "Grazie mille!",
+        "Prego!",
+        "Quant'è?"
+      ],
+      "answer": "Grazie mille!",
+      "why": "Grazie mille = muchísimas gracias. Prego lo dice quien recibe las gracias."
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "Quant'è?",
+          "¿Cuánto es?"
+        ],
+        [
+          "al banco",
+          "en la barra"
+        ],
+        [
+          "al tavolo",
+          "en la mesa"
+        ],
+        [
+          "da portare via",
+          "para llevar"
+        ],
+        [
+          "Ecco a lei",
+          "Aquí tiene"
+        ]
+      ],
+      "why": "Frases útiles del bar."
+    },
+    {
+      "id": "e14",
+      "type": "speak",
+      "t": "Vorrei un caffè al banco, per favore.",
+      "es": "Quería un café en la barra, por favor."
+    }
+  ],
+  "dialog": {
+    "title": "Primero la caja",
+    "setting": "En un bar del centro de Roma, a las ocho de la mañana",
+    "emoji": "🧾",
+    "lines": [
+      {
+        "who": "Cassiera",
+        "t": "Buongiorno, dica!",
+        "es": "¡Buenos días, dígame!"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Vorrei un cappuccino e un cornetto.",
+        "es": "Quería un capuchino y un cruasán."
+      },
+      {
+        "who": "Cassiera",
+        "t": "Al banco o al tavolo?",
+        "es": "¿En la barra o en la mesa?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Al banco. Quant'è?",
+        "es": "En la barra. ¿Cuánto es?"
+      },
+      {
+        "who": "Cassiera",
+        "t": "Tre euro. Ecco lo scontrino.",
+        "es": "Tres euros. Aquí tiene el tique."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Grazie. Dove lo do?",
+        "es": "Gracias. ¿Dónde lo doy?"
+      },
+      {
+        "who": "Cassiera",
+        "t": "Al barista, lì al bancone.",
+        "es": "Al camarero, ahí en la barra."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfetto, grazie mille!",
+        "es": "¡Perfecto, muchas gracias!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Dónde se toma Yolanda el desayuno?",
+        "options": [
+          "En la barra",
+          "En la mesa",
+          "Se lo lleva"
+        ],
+        "answer": "En la barra"
+      },
+      {
+        "q": "¿Cuánto paga?",
+        "options": [
+          "Tres euros",
+          "Dos euros",
+          "Cinco euros"
+        ],
+        "answer": "Tres euros"
+      },
+      {
+        "q": "¿A quién da el tique?",
+        "options": [
+          "Al camarero de la barra",
+          "A la cajera",
+          "A una amiga"
+        ],
+        "answer": "Al camarero de la barra"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Al banco o al tavolo?",
+    "es": "¿En la barra o en la mesa?",
+    "context": "Te lo preguntan en muchos bares: en la mesa el café suele costar más"
+  },
+  "same": {
+    "text": "Pedir en Italia se parece mucho a pedir en España: «Per me…» es «Para mí…» y «Prendo…» es «Tomo…».",
+    "examples": [
+      {
+        "t": "Per me un caffè.",
+        "es": "Para mí un café."
+      },
+      {
+        "t": "Prendo un tè.",
+        "es": "Tomo un té."
+      },
+      {
+        "t": "Quant'è?",
+        "es": "¿Cuánto es?"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "caldo",
+    "means": "caliente",
+    "looksLike": "caldo (sopa)",
+    "emoji": "🔥",
+    "tip": "Un tè caldo es un té caliente. El caldo de cocido en italiano es il brodo."
+  },
+  "summary": [
+    "Vorrei… es la forma amable de pedir; vorremmo, para varios.",
+    "Per me… y Prendo… también sirven para pedir.",
+    "Quant'è? para preguntar el precio; da portare via = para llevar.",
+    "En muchos bares se paga primero en la caja y se da el tique en la barra."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u02-l3"
+}

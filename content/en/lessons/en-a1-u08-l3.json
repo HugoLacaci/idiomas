@@ -1,0 +1,444 @@
+{
+  "id": "en-a1-u08-l3",
+  "unit": "en-a1-u08",
+  "title": "¿Qué tiempo hace?",
+  "goal": "a hablar del tiempo, el tema favorito de los británicos",
+  "emoji": "🌦️",
+  "photoQuery": "cloudy sky london park",
+  "vocab": [
+    {
+      "id": "whats-the-weather-like",
+      "t": "What's the weather like?",
+      "es": "¿Qué tiempo hace?",
+      "emoji": "🌤️",
+      "pos": "phrase",
+      "ex": {
+        "t": "What's the weather like in Spain?",
+        "es": "¿Qué tiempo hace en España?"
+      }
+    },
+    {
+      "id": "its-windy",
+      "t": "It's windy.",
+      "es": "Hace viento.",
+      "emoji": "🌬️",
+      "pos": "phrase",
+      "ex": {
+        "t": "It's windy today. Take a jacket.",
+        "es": "Hoy hace viento. Coge una chaqueta."
+      }
+    },
+    {
+      "id": "its-cloudy",
+      "t": "It's cloudy.",
+      "es": "Está nublado.",
+      "emoji": "☁️",
+      "pos": "phrase",
+      "ex": {
+        "t": "It's often cloudy in London.",
+        "es": "En Londres está nublado a menudo."
+      }
+    },
+    {
+      "id": "its-foggy",
+      "t": "It's foggy.",
+      "es": "Hay niebla.",
+      "emoji": "🌫️",
+      "pos": "phrase",
+      "ex": {
+        "t": "It's foggy this morning.",
+        "es": "Esta mañana hay niebla."
+      }
+    },
+    {
+      "id": "its-hot",
+      "t": "It's hot.",
+      "es": "Hace calor.",
+      "emoji": "🥵",
+      "pos": "phrase",
+      "ex": {
+        "t": "It's very hot in my town in August.",
+        "es": "En mi pueblo hace mucho calor en agosto."
+      }
+    },
+    {
+      "id": "its-warm",
+      "t": "It's warm.",
+      "es": "Hace buena temperatura, hace calorcito.",
+      "emoji": "🌡️",
+      "pos": "phrase",
+      "ex": {
+        "t": "It's warm today. Let's sit outside.",
+        "es": "Hoy se está bien. Vamos a sentarnos fuera."
+      }
+    },
+    {
+      "id": "the-weather-forecast",
+      "t": "the weather forecast",
+      "es": "el pronóstico del tiempo",
+      "emoji": "📺",
+      "pos": "n",
+      "ex": {
+        "t": "I always watch the weather forecast.",
+        "es": "Siempre veo el pronóstico del tiempo."
+      }
+    },
+    {
+      "id": "sensible",
+      "t": "sensible",
+      "es": "sensato, prudente",
+      "emoji": "🧠",
+      "pos": "adj",
+      "ex": {
+        "t": "Take an umbrella. It's sensible!",
+        "es": "Coge un paraguas. ¡Es lo sensato!"
+      },
+      "note": "¡Ojo, falso amigo! sensible = sensato. «Sensible» en español se dice sensitive."
+    },
+    {
+      "id": "sensitive",
+      "t": "sensitive",
+      "es": "sensible",
+      "emoji": "🥺",
+      "pos": "adj",
+      "ex": {
+        "t": "My skin is very sensitive to the sun.",
+        "es": "Mi piel es muy sensible al sol."
+      }
+    }
+  ],
+  "grammar": "en-g-adverbs-frequency",
+  "pron": {
+    "title": "weather y warm",
+    "tip": "Weather suena «uéder», con la th suave de there (lengua entre los dientes). Warm se dice con una «o» larga, «uoom»; no lo confundas con worm (gusano).",
+    "words": [
+      "weather",
+      "warm",
+      "windy",
+      "cloudy",
+      "foggy"
+    ],
+    "pairs": [
+      [
+        "warm",
+        "worm"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "match",
+      "pairs": [
+        [
+          "It's windy.",
+          "Hace viento."
+        ],
+        [
+          "It's cloudy.",
+          "Está nublado."
+        ],
+        [
+          "It's foggy.",
+          "Hay niebla."
+        ],
+        [
+          "It's hot.",
+          "Hace calor."
+        ],
+        [
+          "It's warm.",
+          "Se está bien de temperatura."
+        ]
+      ],
+      "why": "El tiempo se dice con It's + adjetivo."
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "___ hot today!",
+      "es": "¡Hoy hace calor!",
+      "options": [
+        "It's",
+        "Is",
+        "Makes"
+      ],
+      "answer": "It's",
+      "why": "Hace calor = It's hot. Nunca «makes hot».",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "What's the weather ___ in Madrid?",
+      "options": [
+        "like",
+        "as",
+        "how"
+      ],
+      "answer": "like",
+      "why": "¿Qué tiempo hace? = What's the weather like?"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Don't drive fast in the rain. Be ___!",
+      "es": "No corras con el coche bajo la lluvia. ¡Sé prudente!",
+      "options": [
+        "sensible",
+        "sensitive"
+      ],
+      "answer": "sensible",
+      "why": "Sensible = prudente, sensato. ¡Falso amigo!"
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "My eyes are very ___ to the light.",
+      "es": "Mis ojos son muy sensibles a la luz.",
+      "options": [
+        "sensitive",
+        "sensible"
+      ],
+      "answer": "sensitive",
+      "why": "Sensible en español = sensitive."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "It's ___ in London in November.",
+      "es": "En noviembre a menudo hay niebla en Londres.",
+      "answer": [
+        "often foggy"
+      ],
+      "bank": [
+        "often foggy",
+        "foggy often",
+        "fog often"
+      ],
+      "why": "Con to be: it's + often + foggy.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "I always watch the weather ___ on TV.",
+      "es": "Siempre veo el pronóstico del tiempo en la tele.",
+      "answer": [
+        "forecast"
+      ],
+      "why": "Pronóstico del tiempo = weather forecast."
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "In Seville it makes very hot in summer.",
+      "wrong": "makes",
+      "fix": "is",
+      "why": "En inglés el tiempo va con to be: it is hot.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "It's often foggy and it often rain in November.",
+      "wrong": "rain",
+      "fix": "rains",
+      "why": "It lleva -s: it rains, aunque haya un adverbio delante.",
+      "g": "en-g-present-simple-3rd"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "En Londres a menudo hace viento",
+      "answer": "It is often windy in London",
+      "extra": [
+        "makes"
+      ],
+      "why": "It + is + often + windy.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Añade «usually» en su sitio",
+      "q": "It is warm in May.",
+      "answer": [
+        "It is usually warm in May.",
+        "It's usually warm in May."
+      ],
+      "why": "Con to be: is usually.",
+      "g": "en-g-adverbs-frequency"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Qué tiempo hace hoy?",
+      "answer": [
+        "What's the weather like today?",
+        "What is the weather like today?",
+        "What's the weather like today"
+      ],
+      "why": "What's the weather like + today."
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Tu nieto quiere salir sin abrigo y hace mucho viento. Le dices…",
+      "emoji": "🧥",
+      "options": [
+        "Take your coat. It's very windy!",
+        "Take your coat. It makes wind!",
+        "Take your coat. There is windy!"
+      ],
+      "answer": "Take your coat. It's very windy!",
+      "why": "Hace viento = It's windy."
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "warm",
+        "worm"
+      ],
+      "answer": "warm",
+      "es": [
+        "templado",
+        "gusano"
+      ],
+      "why": "Warm tiene una «o» larga; worm suena como «uerm»."
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "text",
+      "title": "El tiempo para mañana",
+      "text": "TOMORROW: Cloudy and foggy in the morning. Sunny in the afternoon. Warm: 21°C. Windy at night.",
+      "questions": [
+        {
+          "q": "¿Cómo estará por la mañana?",
+          "options": [
+            "Nublado y con niebla",
+            "Soleado",
+            "Lloviendo"
+          ],
+          "answer": "Nublado y con niebla"
+        },
+        {
+          "q": "¿Qué temperatura hará?",
+          "options": [
+            "21 grados",
+            "12 grados",
+            "30 grados"
+          ],
+          "answer": "21 grados"
+        },
+        {
+          "q": "¿Cuándo hará viento?",
+          "options": [
+            "Por la noche",
+            "Por la mañana",
+            "Por la tarde"
+          ],
+          "answer": "Por la noche"
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "What's the weather like in London today?",
+      "es": "¿Qué tiempo hace hoy en Londres?"
+    }
+  ],
+  "dialog": {
+    "title": "Hablar del tiempo",
+    "setting": "En la parada del autobús, en Londres",
+    "emoji": "🚏",
+    "lines": [
+      {
+        "who": "Man",
+        "t": "Cold today, isn't it?",
+        "es": "Hoy hace frío, ¿verdad?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes! And it's very windy.",
+        "es": "¡Sí! Y hace mucho viento."
+      },
+      {
+        "who": "Man",
+        "t": "Where are you from?",
+        "es": "¿De dónde es usted?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "From Spain. It's usually warm there.",
+        "es": "De España. Allí normalmente se está bien de temperatura."
+      },
+      {
+        "who": "Man",
+        "t": "Lucky you! It's often grey here.",
+        "es": "¡Qué suerte! Aquí suele estar gris."
+      },
+      {
+        "who": "Yolanda",
+        "t": "What's the weather forecast for tomorrow?",
+        "es": "¿Qué dice el pronóstico para mañana?"
+      },
+      {
+        "who": "Man",
+        "t": "Foggy in the morning, then sunny.",
+        "es": "Niebla por la mañana y luego sol."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfect for a walk in the park!",
+        "es": "¡Perfecto para pasear por el parque!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué tiempo hace hoy?",
+        "options": [
+          "Frío y viento",
+          "Calor",
+          "Niebla"
+        ],
+        "answer": "Frío y viento"
+      },
+      {
+        "q": "Según el señor, ¿cómo suele estar Londres?",
+        "options": [
+          "Gris",
+          "Soleado",
+          "Caluroso"
+        ],
+        "answer": "Gris"
+      },
+      {
+        "q": "¿Qué tiempo hará mañana por la tarde?",
+        "options": [
+          "Sol",
+          "Lluvia",
+          "Nieve"
+        ],
+        "answer": "Sol"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Lovely day, isn't it?",
+    "es": "Qué día tan bonito, ¿verdad?",
+    "context": "Para empezar una charla con un británico: ¡el tiempo siempre funciona!"
+  },
+  "summary": [
+    "¿Qué tiempo hace? = What's the weather like?",
+    "It's windy / cloudy / foggy / hot / warm (nunca «it makes»)",
+    "Con to be el adverbio va detrás: It's often cloudy",
+    "Falso amigo: sensible = sensato; sensible = sensitive"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u08-l3"
+}

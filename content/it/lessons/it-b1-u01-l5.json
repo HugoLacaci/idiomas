@@ -1,0 +1,78 @@
+{
+  "id": "it-b1-u01-l5",
+  "unit": "it-b1-u01",
+  "title": "Reto: un fin de semana en Trieste",
+  "goal": "a expresar deseos, proponer planes y dar consejos para un viaje a Trieste, la ciudad del café",
+  "emoji": "⚓",
+  "photoQuery": "miramare castle sea italy",
+  "vocab": [
+    { "id": "desideri-la-bora", "t": "la Bora", "es": "la bora (viento fuerte de Trieste)", "emoji": "🌬️", "pos": "n", "ex": { "t": "Con la Bora dovresti portare una giacca pesante.", "es": "Con la bora deberías llevar una chaqueta gruesa." } },
+    { "id": "desideri-il-molo", "t": "il molo", "es": "el muelle, el malecón", "emoji": "⚓", "pos": "n", "ex": { "t": "Al tramonto mi piacerebbe passeggiare sul molo.", "es": "Al atardecer me gustaría pasear por el muelle." } },
+    { "id": "desideri-il-castello", "t": "il castello", "es": "el castillo", "emoji": "🏰", "pos": "n", "ex": { "t": "Il castello di Miramare è bianco e guarda il mare.", "es": "El castillo de Miramare es blanco y mira al mar." } },
+    { "id": "desideri-la-torrefazione", "t": "la torrefazione", "es": "el tostadero de café", "emoji": "🫘", "pos": "n", "ex": { "t": "In una torrefazione comprerei caffè per tutta la famiglia.", "es": "En un tostadero compraría café para toda la familia." } },
+    { "id": "desideri-il-porto", "t": "il porto", "es": "el puerto", "emoji": "🚢", "pos": "n", "ex": { "t": "Dal porto di Trieste arriva tanto caffè.", "es": "Al puerto de Trieste llega mucho café." } },
+    { "id": "desideri-lo-scrittore", "t": "lo scrittore / la scrittrice", "es": "el escritor / la escritora", "emoji": "✒️", "pos": "n", "ex": { "t": "Lo scrittore James Joyce ha vissuto a Trieste.", "es": "El escritor James Joyce vivió en Trieste." } },
+    { "id": "desideri-il-fine-settimana", "t": "il fine settimana", "es": "el fin de semana", "emoji": "🗓️", "pos": "n", "ex": { "t": "Potremmo passare il fine settimana a Trieste.", "es": "Podríamos pasar el fin de semana en Trieste." } },
+    { "id": "desideri-la-vista", "t": "la vista sul mare", "es": "las vistas al mar", "emoji": "🌊", "pos": "phrase", "ex": { "t": "Vorremmo un ristorante con vista sul mare.", "es": "Querríamos un restaurante con vistas al mar." } }
+  ],
+  "grammar": "it-g-condizionale",
+  "pron": {
+    "title": "La z de torrefazione",
+    "tip": "En -zione la z suena «ts»: tor-re-fa-TSIO-ne. Nunca como nuestra z de «zapato».",
+    "words": ["torrefazione", "stazione", "prenotazione", "colazione"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "reading", "kind": "text", "title": "Trieste en pocas líneas", "text": "Trieste è una città di mare al confine con la Slovenia. Il suo porto è da sempre importante per il caffè, e qui nel 1933 è nata l'azienda Illy. In città ci sono caffè storici dove si leggeva e si discuteva per ore. Quando soffia la Bora, il vento è fortissimo: meglio tenersi forte!", "questions": [ { "q": "¿Con qué país hace frontera Trieste?", "options": ["Con Eslovenia", "Con Francia", "Con Suiza"], "answer": "Con Eslovenia" }, { "q": "¿Qué se fundó en Trieste en 1933?", "options": ["La empresa Illy", "Un castillo", "Una universidad"], "answer": "La empresa Illy" }, { "q": "¿Qué es la Bora?", "options": ["Un viento muy fuerte", "Un café típico", "Una fiesta"], "answer": "Un viento muy fuerte" } ], "g": "it-g-condizionale" },
+    { "id": "e2", "type": "choose", "q": "Con la Bora ___ portare una giacca pesante.", "es": "Con la bora deberías llevar una chaqueta gruesa.", "options": ["dovresti", "dovrebbero", "dovremo"], "answer": "dovresti", "why": "Consejo a ti (tu): dovresti.", "g": "it-g-condizionale" },
+    { "id": "e3", "type": "choose", "q": "Mi ___ visitare il castello di Miramare.", "es": "Me gustaría visitar el castillo de Miramare.", "options": ["piacerebbe", "piacerebbero", "piacerei"], "answer": "piacerebbe", "why": "Con infinitivo: mi piacerebbe.", "g": "it-g-condizionale" },
+    { "id": "e4", "type": "choose", "q": "Noi ___ un ristorante con vista sul mare.", "es": "Querríamos un restaurante con vistas al mar.", "options": ["vorremmo", "vorremo", "vorrebbero"], "answer": "vorremmo", "why": "Noi → vorremmo (doble m).", "g": "it-g-condizionale" },
+    { "id": "e5", "type": "fill", "q": "___ passare il fine settimana a Trieste, che ne dite?", "es": "Podríamos pasar el fin de semana en Trieste, ¿qué os parece?", "answer": ["Potremmo"], "bank": ["Potremmo", "Potremo", "Potrei"], "why": "Propuesta con noi: potremmo.", "g": "it-g-condizionale" },
+    { "id": "e6", "type": "fill", "q": "In una torrefazione ___ caffè per tutta la famiglia.", "es": "En un tostadero compraría café para toda la familia.", "answer": ["comprerei", "prenderei"], "bank": ["comprerei", "comprarei", "comprerà"], "why": "Comprare → comprer- + -ei.", "g": "it-g-condizionale" },
+    { "id": "e7", "type": "fill", "q": "Le mie amiche ___ volentieri il molo al tramonto.", "es": "Mis amigas verían con gusto el muelle al atardecer.", "answer": ["vedrebbero"], "hint": "vedere, loro", "why": "Vedere → vedr- + -ebbero.", "g": "it-g-condizionale" },
+    { "id": "e8", "type": "error", "q": "Al posto tuo prenotarei l'albergo vicino al porto.", "wrong": "prenotarei", "fix": "prenoterei", "why": "Prenotare → prenoterei (a → e).", "g": "it-g-condizionale" },
+    { "id": "e9", "type": "error", "q": "Mi piacerebbero un capo in b, grazie.", "wrong": "piacerebbero", "fix": "piacerebbe", "why": "Un capo es singular: mi piacerebbe.", "g": "it-g-condizionale" },
+    { "id": "e10", "type": "transform", "instr": "Hazla un consejo con «dovresti»", "q": "Visita il castello di Miramare!", "answer": ["Dovresti visitare il castello di Miramare."], "why": "Imperativo → dovresti + infinitivo: más suave.", "g": "it-g-condizionale" },
+    { "id": "e11", "type": "transform", "instr": "Pásala al condicional (deseo)", "q": "Voglio vivere vicino al mare.", "answer": ["Vorrei vivere vicino al mare."], "why": "Voglio → vorrei.", "g": "it-g-condizionale" },
+    { "id": "e12", "type": "order", "es": "Sería bonito pasear juntas por el muelle.", "answer": "Sarebbe bello passeggiare insieme sul molo", "alt": ["Sarebbe bello passeggiare sul molo insieme"], "extra": ["sarei"], "why": "Sarebbe bello + infinitivo.", "g": "it-g-condizionale" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "¿Te apetecería ver el castillo conmigo?", "answer": ["Ti andrebbe di vedere il castello con me?", "Ti andrebbe di visitare il castello con me?"], "why": "Ti andrebbe di + infinitivo.", "g": "it-g-condizionale" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "Al posto tuo resterei un giorno in più.", "answer": ["Yo que tú me quedaría un día más.", "En tu lugar me quedaría un día más."], "why": "Al posto tuo = yo que tú; resterei = me quedaría.", "g": "it-g-condizionale" },
+    { "id": "e15", "type": "situation", "context": "Tu amiga va a Trieste y no sabe qué ver. Le aconsejas el castillo de Miramare.", "emoji": "🏰", "options": ["Dovresti vedere il castello di Miramare.", "Dovrei vedere il castello di Miramare.", "Devi vedevi il castello di Miramare."], "answer": "Dovresti vedere il castello di Miramare.", "why": "Consejo: dovresti + infinitivo.", "g": "it-g-condizionale" },
+    { "id": "e16", "type": "match", "pairs": [["mi piacerebbe", "deseo"], ["dovresti", "consejo"], ["potremmo", "propuesta"], ["sarebbe meglio", "consejo suave"], ["ti andrebbe di…?", "invitación"]], "why": "Cada forma del condicional tiene su trabajo.", "g": "it-g-condizionale" }
+  ],
+  "dialog": {
+    "title": "Planes para el último día",
+    "setting": "En la gran plaza junto al mar de Trieste, Yolanda organiza el domingo con sus amigas Pilar y Nives",
+    "emoji": "⚓",
+    "lines": [
+      { "who": "Pilar", "t": "Domani è l'ultimo giorno. Cosa vi piacerebbe fare?", "es": "Mañana es el último día. ¿Qué os gustaría hacer?" },
+      { "who": "Yolanda", "t": "A me piacerebbe tanto vedere il castello di Miramare.", "es": "A mí me gustaría muchísimo ver el castillo de Miramare." },
+      { "who": "Nives", "t": "Ottima idea, ma con questa Bora dovreste coprirvi bene.", "es": "Muy buena idea, pero con esta bora deberíais abrigaros bien." },
+      { "who": "Pilar", "t": "E dopo potremmo pranzare vicino al porto.", "es": "Y después podríamos comer cerca del puerto." },
+      { "who": "Yolanda", "t": "Perfetto! E poi vorrei comprare caffè in una torrefazione.", "es": "¡Perfecto! Y luego querría comprar café en un tostadero." },
+      { "who": "Nives", "t": "Al posto vostro andrei in quella vicino al molo: è buonissima.", "es": "Yo que vosotras iría al que está cerca del muelle: es buenísimo." },
+      { "who": "Pilar", "t": "Sarebbe bello finire con un capo al caffè storico.", "es": "Sería bonito terminar con un cortado en el café histórico." },
+      { "who": "Yolanda", "t": "Magari! Così la giornata sarebbe perfetta.", "es": "¡Ojalá! Así el día sería perfecto." }
+    ],
+    "questions": [
+      { "q": "¿Qué le gustaría ver a Yolanda?", "options": ["El castillo de Miramare", "Un museo", "La estación"], "answer": "El castillo de Miramare" },
+      { "q": "¿Qué consejo da Nives por la bora?", "options": ["Abrigarse bien", "Quedarse en casa", "Coger un taxi"], "answer": "Abrigarse bien" },
+      { "q": "¿Cómo les gustaría terminar el día?", "options": ["Con un cortado en el café histórico", "Con una cena en el puerto", "Con un paseo en barco"], "answer": "Con un cortado en el café histórico" }
+    ]
+  },
+  "realLife": { "t": "Mi piacerebbe tornare a Trieste: dovresti venire anche tu!", "es": "Me gustaría volver a Trieste: ¡deberías venir tú también!", "context": "Para contar un deseo y animar a una amiga" },
+  "same": {
+    "text": "La ciudad del mar se describe con palabras conocidas.",
+    "examples": [
+      { "t": "il castello", "es": "el castillo" },
+      { "t": "il porto", "es": "el puerto" },
+      { "t": "lo scrittore", "es": "el escritor" }
+    ]
+  },
+  "summary": [
+    "Desear: mi piacerebbe, vorrei, sarebbe bello.",
+    "Aconsejar: dovresti, al posto tuo, sarebbe meglio.",
+    "Proponer: potremmo, ti andrebbe di…?",
+    "Trieste: la Bora, il molo, il porto, il castello di Miramare, la torrefazione."
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,60 @@
+{
+  "id": "it-a2-u07-c1",
+  "unit": "it-a2-u07",
+  "title": "Giulia te llama",
+  "setting": "Suena tu móvil: es Giulia, que te llama desde Roma",
+  "emoji": "📞",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda, sono Giulia! Mi senti?", "es": "¡Hola, Yolanda, soy Giulia! ¿Me oyes?" },
+      "options": [
+        { "t": "Pronto? Sì, ti sento benissimo!", "es": "¿Sí? ¡Sí, te oigo perfectamente!", "next": "n2", "ok": true },
+        { "t": "Presto? Sì, ti sento benissimo!", "es": "¿Sí? ¡Sí, te oigo perfectamente!", "next": "n2", "ok": false, "feedback": "Al teléfono se dice Pronto? Presto significa temprano." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che stai facendo? Ti disturbo?", "es": "¿Qué estás haciendo? ¿Te molesto?" },
+      "options": [
+        { "t": "No, tranquilla. Sto cucinando.", "es": "No, tranquila. Estoy cocinando.", "next": "n3", "ok": true },
+        { "t": "No, tranquilla. Sono cucinando.", "es": "No, tranquila. Estoy cocinando.", "next": "n3", "ok": false, "feedback": "Estar + gerundio se dice con stare: sto cucinando." },
+        { "t": "No, tranquilla. Sto cucinendo.", "es": "No, tranquila. Estoy cocinando.", "next": "n3", "ok": false, "feedback": "Cucinare es de -are: cucinando." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Buon appetito! E tuo marito cosa fa?", "es": "¡Que aproveche! ¿Y qué hace tu marido?" },
+      "options": [
+        { "t": "Sta guardando la partita in TV.", "es": "Está viendo el partido en la tele.", "next": "n4", "ok": true },
+        { "t": "Stanno guardando la partita in TV.", "es": "Está viendo el partido en la tele.", "next": "n4", "ok": false, "feedback": "Tu marido = lui: sta guardando." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Senti, sabato è il mio compleanno. Venite a cena?", "es": "Oye, el sábado es mi cumpleaños. ¿Venís a cenar?" },
+      "options": [
+        { "t": "Che bello! Lo dico a mio marito.", "es": "¡Qué bien! Se lo digo a mi marido.", "next": "n5", "ok": true },
+        { "t": "Che bello! Le dico a mio marito.", "es": "¡Qué bien! Se lo digo a mi marido.", "next": "n5", "ok": false, "feedback": "Mejor: lo dico a mio marito (lo = eso). Si quieres un pronombre para él, gli dico." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Perfetto! Mi mandi un messaggio quando lo sai?", "es": "¡Perfecto! ¿Me mandas un mensaje cuando lo sepas?" },
+      "options": [
+        { "t": "Certo, ti scrivo stasera.", "es": "Claro, te escribo esta noche.", "next": "n6", "ok": true },
+        { "t": "Certo, mi scrivo stasera.", "es": "Claro, te escribo esta noche.", "next": "n6", "ok": false, "feedback": "Le escribes a ella (a te): ti scrivo." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ah, qualcosa sta bruciando? Sento odore di fumo!", "es": "Ah, ¿se está quemando algo? ¡Huele a humo!" },
+      "options": [
+        { "t": "Oh no! Ti richiamo dopo!", "es": "¡Oh, no! ¡Te llamo luego!", "next": "end", "ok": true },
+        { "t": "Oh no! Mi richiamo dopo!", "es": "¡Oh, no! ¡Te llamo luego!", "next": "end", "ok": false, "feedback": "Te llamo yo a ti: ti richiamo." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

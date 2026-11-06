@@ -1,0 +1,59 @@
+{
+  "id": "it-b1-u05-c3",
+  "unit": "it-b1-u05",
+  "title": "Nunca lo había visto",
+  "setting": "Giulia te enseña fotos de los mosaicos de Rávena y te pregunta por tus experiencias de viaje",
+  "emoji": "🖼️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Guarda questi mosaici di San Vitale! Li avevi già visti?", "es": "¡Mira estos mosaicos de San Vital! ¿Los habías visto ya?" },
+      "options": [
+        { "t": "No, prima di questo viaggio non li avevo mai visti.", "es": "No, antes de este viaje nunca los había visto.", "next": "n2", "ok": true },
+        { "t": "No, prima di questo viaggio non li ero mai visti.", "es": "No, antes de este viaje nunca los había visto.", "next": "n2", "ok": false, "feedback": "Vedere va con avere: non li avevo mai visti." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "E prima di Ravenna, eri mai stata in Emilia-Romagna?", "es": "¿Y antes de Rávena, habías estado alguna vez en Emilia-Romaña?" },
+      "options": [
+        { "t": "Sì, l'anno scorso ero stata a Bologna con mio marito.", "es": "Sí, el año pasado había estado en Bolonia con mi marido.", "next": "n3", "ok": true },
+        { "t": "Sì, l'anno scorso avevo stata a Bologna con mio marito.", "es": "Sí, el año pasado había estado en Bolonia con mi marido.", "next": "n3", "ok": false, "feedback": "Essere usa essere como auxiliar: ero stata." },
+        { "t": "Sì, l'anno scorso ero stato a Bologna con mio marito.", "es": "Sí, el año pasado había estado en Bolonia con mi marido.", "next": "n3", "ok": false, "feedback": "Tú eres mujer: ero stata." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "E avevi già assaggiato i cappelletti?", "es": "¿Y ya habías probado los cappelletti?" },
+      "options": [
+        { "t": "No, non li avevo ancora assaggiati. Sono squisiti!", "es": "No, todavía no los había probado. ¡Están riquísimos!", "next": "n4", "ok": true },
+        { "t": "No, non li avevo già assaggiati. Sono squisiti!", "es": "No, todavía no los había probado. ¡Están riquísimos!", "next": "n4", "ok": false, "feedback": "Todavía no = non… ancora." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Hai visto anche la tomba di Dante?", "es": "¿Viste también la tumba de Dante?" },
+      "options": [
+        { "t": "Sì! Avevo letto che Dante era morto a Ravenna, ma non avevo mai visto la tomba.", "es": "¡Sí! Había leído que Dante murió en Rávena, pero nunca había visto la tumba.", "next": "n5", "ok": true },
+        { "t": "Sì! Avevo leggiuto che Dante era morto a Ravenna.", "es": "¡Sí! Había leído que Dante murió en Rávena.", "next": "n5", "ok": false, "feedback": "El participio de leggere es letto: avevo letto." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Brava! E qual è stato il momento più bello?", "es": "¡Muy bien! ¿Y cuál fue el mejor momento?" },
+      "options": [
+        { "t": "Quando sono entrata in San Vitale. Non avevo mai visto tanto oro!", "es": "Cuando entré en San Vital. ¡Nunca había visto tanto oro!", "next": "n6", "ok": true },
+        { "t": "Quando ero entrata in San Vitale. Non ho mai visto tanto oro prima di allora!", "es": "Cuando entré en San Vital. ¡Nunca había visto tanto oro!", "next": "n6", "ok": false, "feedback": "Casi: la entrada es la acción principal (sono entrata) y lo de antes va en trapassato: non avevo mai visto." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Che bello! La prossima volta ci andiamo insieme.", "es": "¡Qué bonito! La próxima vez vamos juntas." },
+      "options": [
+        { "t": "Volentieri! Ti farò da guida io.", "es": "¡Con mucho gusto! Te haré yo de guía.", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

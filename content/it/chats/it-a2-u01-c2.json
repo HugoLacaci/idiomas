@@ -1,0 +1,59 @@
+{
+  "id": "it-a2-u01-c2",
+  "unit": "it-a2-u01",
+  "title": "En la taquilla con Giulia",
+  "setting": "Giulia trabaja hoy en la taquilla de un museo de Roma y te atiende cuando llegas",
+  "emoji": "🎟️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda! Che sorpresa! Cosa desideri?", "es": "¡Yolanda! ¡Qué sorpresa! ¿Qué deseas?" },
+      "options": [
+        { "t": "Vorrei due biglietti per la mostra, per favore.", "es": "Quería dos entradas para la exposición, por favor.", "next": "n2", "ok": true },
+        { "t": "Vorrei due banconote per la mostra, per favore.", "es": "Quería dos billetes de dinero para la exposición.", "next": "n2", "ok": false, "feedback": "¡Ojo! La entrada es il biglietto; la banconota es el billete de dinero." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Hai già comprato i biglietti online?", "es": "¿Ya has comprado las entradas por internet?" },
+      "options": [
+        { "t": "No, non ho ancora comprato i biglietti.", "es": "No, todavía no he comprado las entradas.", "next": "n3", "ok": true },
+        { "t": "No, non ho comprato ancora.", "es": "No, no he comprado todavía.", "next": "n3", "ok": false, "feedback": "Ancora va entre avere y el participio: non ho ancora comprato." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Nessun problema. Volete anche l'audioguida?", "es": "No hay problema. ¿Queréis también la audioguía?" },
+      "options": [
+        { "t": "Sì, in spagnolo, grazie.", "es": "Sí, en español, gracias.", "next": "n4", "ok": true },
+        { "t": "Sì, l'audioguido in spagnolo.", "es": "Sí, la audioguía en español.", "next": "n4", "ok": false, "feedback": "Se dice l'audioguida, femenino como la guida." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Ecco. Lo zaino va al guardaroba.", "es": "Aquí tienes. La mochila va al guardarropa." },
+      "options": [
+        { "t": "Va bene. Dov'è il guardaroba?", "es": "Vale. ¿Dónde está el guardarropa?", "next": "n5", "ok": true },
+        { "t": "Va bene. Dov'è la cassa?", "es": "Vale. ¿Dónde está la caja?", "next": "n5", "ok": false, "feedback": "La cassa es la caja para pagar. Para la mochila buscas il guardaroba." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Lì, a destra. Hai mai visto un quadro di Caravaggio?", "es": "Ahí, a la derecha. ¿Has visto alguna vez un cuadro de Caravaggio?" },
+      "options": [
+        { "t": "No, non ho mai visto un Caravaggio dal vivo.", "es": "No, nunca he visto un Caravaggio en persona.", "next": "n6", "ok": true },
+        { "t": "No, ho mai visto un Caravaggio dal vivo.", "es": "No, nunca he visto un Caravaggio en persona.", "next": "n6", "ok": false, "feedback": "Para «nunca» hace falta non: non ho mai visto." },
+        { "t": "No, non ho mai veduto un Caravaggio.", "es": "No, nunca he visto un Caravaggio.", "next": "n6", "ok": false, "feedback": "Veduto existe, pero hoy casi nadie lo usa: mejor visto." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Allora oggi è il tuo giorno fortunato! Buona visita!", "es": "¡Pues hoy es tu día de suerte! ¡Buena visita!" },
+      "options": [
+        { "t": "Grazie mille, Giulia!", "es": "¡Muchísimas gracias, Giulia!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

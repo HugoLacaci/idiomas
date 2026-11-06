@@ -1,0 +1,456 @@
+{
+  "id": "en-a1-u01-l1",
+  "unit": "en-a1-u01",
+  "title": "¡Hola! Me llamo Yolanda",
+  "goal": "a saludar, despedirte y decir cómo te llamas",
+  "emoji": "👋",
+  "photoQuery": "london cafe morning street",
+  "vocab": [
+    {
+      "id": "hello",
+      "t": "Hello",
+      "es": "Hola",
+      "emoji": "👋",
+      "pos": "phrase",
+      "ex": {
+        "t": "Hello, I'm Yolanda.",
+        "es": "Hola, soy Yolanda."
+      }
+    },
+    {
+      "id": "hi",
+      "t": "Hi",
+      "es": "Hola (más informal)",
+      "emoji": "🙋‍♀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Hi, Hugo! How are you?",
+        "es": "¡Hola, Hugo! ¿Qué tal?"
+      },
+      "note": "Hi es más cercano: para la familia y los amigos."
+    },
+    {
+      "id": "good-morning",
+      "t": "Good morning",
+      "es": "Buenos días",
+      "emoji": "🌅",
+      "pos": "phrase",
+      "ex": {
+        "t": "Good morning, Emma!",
+        "es": "¡Buenos días, Emma!"
+      }
+    },
+    {
+      "id": "good-afternoon",
+      "t": "Good afternoon",
+      "es": "Buenas tardes",
+      "emoji": "☀️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Good afternoon. I'm Yolanda García.",
+        "es": "Buenas tardes. Soy Yolanda García."
+      },
+      "note": "Desde mediodía hasta las seis, más o menos."
+    },
+    {
+      "id": "good-evening",
+      "t": "Good evening",
+      "es": "Buenas tardes / buenas noches (al llegar)",
+      "emoji": "🌆",
+      "pos": "phrase",
+      "ex": {
+        "t": "Good evening! A table for two, please.",
+        "es": "¡Buenas noches! Una mesa para dos, por favor."
+      },
+      "note": "Good evening es para saludar. Good night, solo para despedirte o irte a dormir."
+    },
+    {
+      "id": "goodbye",
+      "t": "Goodbye",
+      "es": "Adiós",
+      "emoji": "🚪",
+      "pos": "phrase",
+      "ex": {
+        "t": "Goodbye, Emma! Have a nice day.",
+        "es": "¡Adiós, Emma! Que tengas un buen día."
+      },
+      "note": "Más informal: Bye!"
+    },
+    {
+      "id": "see-you-later",
+      "t": "See you later",
+      "es": "Hasta luego",
+      "emoji": "🔜",
+      "pos": "phrase",
+      "ex": {
+        "t": "Bye, Hugo! See you later.",
+        "es": "¡Adiós, Hugo! Hasta luego."
+      }
+    },
+    {
+      "id": "my-name-is",
+      "t": "My name is…",
+      "es": "Me llamo…",
+      "emoji": "🏷️",
+      "pos": "phrase",
+      "ex": {
+        "t": "My name is Yolanda.",
+        "es": "Me llamo Yolanda."
+      },
+      "note": "Literalmente: «mi nombre es». También puedes decir I'm Yolanda."
+    },
+    {
+      "id": "whats-your-name",
+      "t": "What's your name?",
+      "es": "¿Cómo te llamas?",
+      "emoji": "❓",
+      "pos": "phrase",
+      "ex": {
+        "t": "Hello! What's your name?",
+        "es": "¡Hola! ¿Cómo te llamas?"
+      }
+    },
+    {
+      "id": "nice-to-meet-you",
+      "t": "Nice to meet you",
+      "es": "Encantada de conocerte",
+      "emoji": "🤝",
+      "pos": "phrase",
+      "ex": {
+        "t": "Nice to meet you, Emma.",
+        "es": "Encantada de conocerte, Emma."
+      },
+      "note": "Para contestar: Nice to meet you too."
+    }
+  ],
+  "grammar": "en-g-to-be",
+  "pron": {
+    "title": "La h de hello",
+    "tip": "La h inglesa es un soplo suave, como cuando empañas un cristal con el aliento. Nada de jota. Fíjate: tu hijo, en inglés, es /hjuːgəʊ/, con soplo.",
+    "words": [
+      "hello",
+      "hi",
+      "house",
+      "happy",
+      "Hugo"
+    ],
+    "pairs": [
+      [
+        "hat",
+        "at"
+      ],
+      [
+        "hair",
+        "air"
+      ],
+      [
+        "heart",
+        "art"
+      ],
+      [
+        "hold",
+        "old"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "situation",
+      "context": "Son las nueve de la mañana y entras en la cafetería del hotel.",
+      "emoji": "☕",
+      "options": [
+        "Good morning!",
+        "Good night!",
+        "Goodbye!"
+      ],
+      "answer": "Good morning!",
+      "why": "Por la mañana saludamos con Good morning. Good night es solo para despedirse por la noche."
+    },
+    {
+      "id": "e2",
+      "type": "situation",
+      "context": "Son las diez de la noche y te vas de casa de una amiga.",
+      "emoji": "🌙",
+      "options": [
+        "Good evening!",
+        "Good night!",
+        "Good morning!"
+      ],
+      "answer": "Good night!",
+      "why": "Good night es para despedirte de noche. Good evening es para saludar al llegar."
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Hello, I ___ Yolanda.",
+      "options": [
+        "am",
+        "is",
+        "are"
+      ],
+      "answer": "am",
+      "why": "Con I siempre va am: I am (I'm) Yolanda.",
+      "g": "en-g-to-be"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "___ name is Yolanda.",
+      "options": [
+        "My",
+        "I",
+        "Me"
+      ],
+      "answer": "My",
+      "why": "Para decir tu nombre: My name is… (mi nombre es…). I es «yo»; me es «me, a mí»."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "What's your ___? — Yolanda.",
+      "answer": [
+        "name"
+      ],
+      "bank": [
+        "name",
+        "hello",
+        "morning"
+      ],
+      "why": "What's your name? significa ¿Cómo te llamas? (literalmente: ¿cuál es tu nombre?)."
+    },
+    {
+      "id": "e6",
+      "type": "order",
+      "es": "Encantada de conocerte",
+      "answer": "Nice to meet you",
+      "extra": [
+        "for"
+      ],
+      "why": "Es una frase hecha: Nice to meet you. Se aprende entera, como un bloque."
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "Hola, me llamo Yolanda",
+      "answer": "Hello my name is Yolanda",
+      "extra": [
+        "I"
+      ],
+      "why": "En inglés decimos «mi nombre es»: My name is Yolanda."
+    },
+    {
+      "id": "e8",
+      "type": "translate",
+      "dir": "to",
+      "q": "Buenos días, Emma.",
+      "answer": [
+        "Good morning, Emma.",
+        "Good morning Emma",
+        "Morning, Emma."
+      ],
+      "why": "Buenos días = Good morning (sin plural, a diferencia del español)."
+    },
+    {
+      "id": "e9",
+      "type": "translate",
+      "dir": "from",
+      "q": "See you later!",
+      "answer": [
+        "¡Hasta luego!",
+        "Hasta luego",
+        "Nos vemos luego",
+        "Hasta después"
+      ],
+      "why": "See you later es nuestro «hasta luego»; literalmente, «te veo luego»."
+    },
+    {
+      "id": "e10",
+      "type": "match",
+      "pairs": [
+        [
+          "Good morning",
+          "Buenos días"
+        ],
+        [
+          "Goodbye",
+          "Adiós"
+        ],
+        [
+          "See you later",
+          "Hasta luego"
+        ],
+        [
+          "Nice to meet you",
+          "Encantada de conocerte"
+        ],
+        [
+          "Good night",
+          "Buenas noches (al irte)"
+        ]
+      ]
+    },
+    {
+      "id": "e11",
+      "type": "error",
+      "q": "Hello, me name is Yolanda.",
+      "wrong": "me",
+      "fix": "my",
+      "why": "«Mi nombre» es my name. Me significa «me, a mí»: Can you help me?"
+    },
+    {
+      "id": "e12",
+      "type": "minimal",
+      "pair": [
+        "hat",
+        "at"
+      ],
+      "answer": "hat",
+      "es": [
+        "sombrero",
+        "en"
+      ],
+      "why": "Has oído el soplo de la h: hat. Sin soplo sería at."
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "hair",
+        "air"
+      ],
+      "answer": "air",
+      "es": [
+        "pelo",
+        "aire"
+      ],
+      "why": "Aquí no había soplo al principio: air (aire). Con soplo sería hair (pelo)."
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de una desconocida",
+      "text": "Hi Yolanda! I'm Emma, Hugo's friend in London. Nice to meet you! See you on Monday. 😊",
+      "questions": [
+        {
+          "q": "¿Quién escribe?",
+          "options": [
+            "Emma",
+            "Hugo",
+            "Una vecina"
+          ],
+          "answer": "Emma"
+        },
+        {
+          "q": "¿Dónde vive Emma?",
+          "options": [
+            "En Londres",
+            "En Madrid",
+            "En Roma"
+          ],
+          "answer": "En Londres"
+        },
+        {
+          "q": "¿Cuándo se van a ver?",
+          "options": [
+            "El lunes",
+            "El martes",
+            "Hoy"
+          ],
+          "answer": "El lunes"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Hello! I'm Yolanda. Nice to meet you.",
+      "es": "¡Hola! Soy Yolanda. Encantada de conocerte."
+    }
+  ],
+  "dialog": {
+    "title": "En la recepción",
+    "setting": "En la recepción de un hotel de Londres, por la mañana",
+    "emoji": "🏨",
+    "lines": [
+      {
+        "who": "Tom",
+        "t": "Good morning! Welcome to the hotel.",
+        "es": "¡Buenos días! Bienvenida al hotel."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Good morning! My name is Yolanda García.",
+        "es": "¡Buenos días! Me llamo Yolanda García."
+      },
+      {
+        "who": "Tom",
+        "t": "Hello, Mrs García. I'm Tom.",
+        "es": "Hola, señora García. Soy Tom."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Nice to meet you, Tom.",
+        "es": "Encantada de conocerle, Tom."
+      },
+      {
+        "who": "Tom",
+        "t": "Nice to meet you too. Here's your key.",
+        "es": "Igualmente. Aquí tiene su llave."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Thank you! See you later.",
+        "es": "¡Gracias! Hasta luego."
+      },
+      {
+        "who": "Tom",
+        "t": "Goodbye! Have a nice day.",
+        "es": "¡Adiós! Que tenga un buen día."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿En qué momento del día están?",
+        "options": [
+          "Por la mañana",
+          "Por la noche"
+        ],
+        "answer": "Por la mañana"
+      },
+      {
+        "q": "¿Cómo se llama el recepcionista?",
+        "options": [
+          "Tom",
+          "Hugo",
+          "Emma"
+        ],
+        "answer": "Tom"
+      },
+      {
+        "q": "¿Qué le da Tom a Yolanda?",
+        "options": [
+          "La llave",
+          "Un café",
+          "Un mapa"
+        ],
+        "answer": "La llave"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Hello, I'm Hugo's mum.",
+    "es": "Hola, soy la madre de Hugo.",
+    "context": "Para presentarte a los amigos de tu hijo"
+  },
+  "summary": [
+    "Saludar: Hello / Hi / Good morning / Good afternoon / Good evening",
+    "Despedirte: Goodbye / See you later / Good night (solo por la noche)",
+    "Decir tu nombre: My name is… o I'm…",
+    "Preguntar el nombre: What's your name?",
+    "La h de hello es un soplo suave, no una jota"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u01-l1"
+}

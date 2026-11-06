@@ -1,0 +1,59 @@
+{
+  "id": "it-a2-u09-c1",
+  "unit": "it-a2-u09",
+  "title": "¿Roma o Milán?",
+  "setting": "Giulia, que es de Roma, te pica: quiere saber qué ciudad te gusta más",
+  "emoji": "⚖️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Allora, sii sincera: è più bella Roma o Milano?", "es": "A ver, sé sincera: ¿es más bonita Roma o Milán?" },
+      "options": [
+        { "t": "Per me Roma è più bella di Milano.", "es": "Para mí Roma es más bonita que Milán.", "next": "n2", "ok": true },
+        { "t": "Per me Roma è più bella que Milano.", "es": "Para mí Roma es más bonita que Milán.", "next": "n2", "ok": false, "feedback": "En italiano «que» aquí es di: più bella di Milano." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Brava! Ma Milano è più moderna, no?", "es": "¡Muy bien! Pero Milán es más moderna, ¿no?" },
+      "options": [
+        { "t": "Sì, ed è anche più cara.", "es": "Sí, y también es más cara.", "next": "n3", "ok": true },
+        { "t": "Sì, ma Roma è più antichissima.", "es": "Sí, pero Roma es más antiquísima.", "next": "n3", "ok": false, "feedback": "Nunca più + -issimo: o più antica, o antichissima." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "E il traffico? Roma è caotica!", "es": "¿Y el tráfico? ¡Roma es caótica!" },
+      "options": [
+        { "t": "È vero, è più caotica di Milano.", "es": "Es verdad, es más caótica que Milán.", "next": "n4", "ok": true },
+        { "t": "È vero, ma è caotica come Madrid.", "es": "Es verdad, pero es tan caótica como Madrid.", "next": "n4", "ok": true },
+        { "t": "È vero, è più caotica della Milano.", "es": "Es verdad, es más caótica que Milán.", "next": "n4", "ok": false, "feedback": "Con nombres de ciudad no hay artículo: di Milano." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E dove si mangia meglio?", "es": "¿Y dónde se come mejor?" },
+      "options": [
+        { "t": "A Roma! La carbonara è migliore.", "es": "¡En Roma! La carbonara es mejor.", "next": "n5", "ok": true },
+        { "t": "A Roma! La carbonara è più meglio.", "es": "¡En Roma! La carbonara es mejor.", "next": "n5", "ok": false, "feedback": "Con un nombre (la carbonara): migliore. Y nunca «più meglio»." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Hai ragione. Roma è la città più bella del mondo!", "es": "Tienes razón. ¡Roma es la ciudad más bonita del mundo!" },
+      "options": [
+        { "t": "Ahah, sei romana: non sei obiettiva!", "es": "¡Jaja, eres romana: no eres objetiva!", "next": "n6", "ok": true },
+        { "t": "Ahah, è la città la più bella!", "es": "¡Jaja, es la ciudad la más bonita!", "next": "n6", "ok": false, "feedback": "No se repite el artículo: la città più bella." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Forse… ma sono fiera della mia città!", "es": "Quizá… ¡pero estoy orgullosa de mi ciudad!" },
+      "options": [
+        { "t": "E fai benissimo!", "es": "¡Y haces muy bien!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

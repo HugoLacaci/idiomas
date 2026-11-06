@@ -1,0 +1,86 @@
+{
+  "id": "it-a1-u03-l2",
+  "unit": "it-a1-u03",
+  "title": "Ho due nipoti",
+  "goal": "a usar el verbo avere para hablar de tu familia, tu edad, el hambre o el frío",
+  "emoji": "🤲",
+  "photoQuery": "grandmother grandchildren park bench",
+  "vocab": [
+    { "id": "avere", "t": "avere", "es": "tener", "emoji": "🤲", "pos": "v", "ex": { "t": "Hai un momento?", "es": "¿Tienes un momento?" } },
+    { "id": "avere-anni", "t": "avere … anni", "es": "tener … años", "emoji": "🎂", "pos": "phrase", "ex": { "t": "La mia vicina ha ottantasei anni.", "es": "Mi vecina tiene ochenta y seis años." } },
+    { "id": "ho-due-nipoti", "t": "Ho due nipoti.", "es": "Tengo dos nietos.", "emoji": "👧", "pos": "phrase", "note": "Nipote es «nieto» y también «sobrino».", "ex": { "t": "Rosa ha due nipoti: Leo e Sara.", "es": "Rosa tiene dos nietos: Leo y Sara." } },
+    { "id": "avere-fame", "t": "avere fame", "es": "tener hambre", "emoji": "🍽️", "pos": "phrase", "ex": { "t": "Ho fame: andiamo a mangiare?", "es": "Tengo hambre: ¿vamos a comer?" } },
+    { "id": "avere-sete", "t": "avere sete", "es": "tener sed", "emoji": "💧", "pos": "phrase", "ex": { "t": "Hai sete? Ecco l'acqua.", "es": "¿Tienes sed? Aquí tienes el agua." } },
+    { "id": "avere-caldo", "t": "avere caldo", "es": "tener calor", "emoji": "🥵", "pos": "phrase", "ex": { "t": "Ad agosto ho sempre caldo.", "es": "En agosto siempre tengo calor." } },
+    { "id": "avere-freddo", "t": "avere freddo", "es": "tener frío", "emoji": "🥶", "pos": "phrase", "ex": { "t": "D'inverno Hugo ha sempre freddo.", "es": "En invierno Hugo siempre tiene frío." } },
+    { "id": "avere-fretta", "t": "avere fretta", "es": "tener prisa", "emoji": "⏱️", "pos": "phrase", "ex": { "t": "Scusi, ho fretta!", "es": "¡Perdone, tengo prisa!" } },
+    { "id": "avere-sonno", "t": "avere sonno", "es": "tener sueño", "emoji": "😴", "pos": "phrase", "ex": { "t": "I bambini hanno sonno.", "es": "Los niños tienen sueño." } }
+  ],
+  "grammar": "it-g-avere",
+  "pron": {
+    "title": "La h que no suena",
+    "tip": "En ho, hai, ha y hanno la h es muda, como en «hola». Ho suena igual que «o». En hanno, alarga la n: an-no.",
+    "words": ["ho", "hai", "ha", "hanno"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "conjugate", "verb": "avere", "person": "io", "tense": "presente", "q": "Io ___ fame.", "answer": ["ho"], "why": "Con io: ho, con h muda.", "g": "it-g-avere" },
+    { "id": "e2", "type": "conjugate", "verb": "avere", "person": "tu", "tense": "presente", "q": "Tu ___ freddo?", "answer": ["hai"], "why": "Con tu: hai.", "g": "it-g-avere" },
+    { "id": "e3", "type": "conjugate", "verb": "avere", "person": "lui", "tense": "presente", "q": "Hugo ___ un esame domani.", "answer": ["ha"], "why": "Hugo = lui: ha.", "g": "it-g-avere" },
+    { "id": "e4", "type": "conjugate", "verb": "avere", "person": "loro", "tense": "presente", "q": "I miei nipoti ___ sonno.", "answer": ["hanno"], "why": "I miei nipoti = loro: hanno.", "g": "it-g-avere" },
+    { "id": "e5", "type": "choose", "q": "Noi ___ fretta, scusi!", "options": ["abbiamo", "avete", "hanno"], "answer": "abbiamo", "why": "Con noi: abbiamo, con doble b.", "g": "it-g-avere" },
+    { "id": "e6", "type": "choose", "q": "La mia vicina ha ottanta ___.", "options": ["anni", "ani", "años"], "answer": "anni", "why": "Años = anni, con doble n.", "g": "it-g-avere" },
+    { "id": "e7", "type": "fill", "q": "Ho ___: un bicchiere d'acqua, per favore.", "answer": ["sete"], "bank": ["sete", "fame", "sonno"], "why": "Si pides agua, tienes sed: ho sete.", "g": "it-g-avere" },
+    { "id": "e8", "type": "match", "pairs": [["tengo hambre", "ho fame"], ["tengo sed", "ho sete"], ["tengo frío", "ho freddo"], ["tengo calor", "ho caldo"], ["tengo prisa", "ho fretta"]], "why": "Todas van con avere, como en español con tener.", "g": "it-g-avere" },
+    { "id": "e9", "type": "order", "es": "Mi hijo siempre tiene frío.", "answer": "Mio figlio ha sempre freddo", "extra": ["è"], "why": "Tener frío = avere freddo; mio figlio = lui: ha.", "g": "it-g-avere" },
+    { "id": "e10", "type": "translate", "dir": "to", "q": "¿Cuántos años tienes?", "answer": ["Quanti anni hai?", "Quanti anni hai"], "why": "La edad va con avere: quanti anni hai?", "g": "it-g-avere" },
+    { "id": "e11", "type": "error", "q": "Tengo caldo oggi.", "wrong": "Tengo", "fix": "Ho", "why": "Tener calor = avere caldo: ho caldo.", "g": "it-g-avere" },
+    { "id": "e12", "type": "situation", "context": "Llevas horas paseando por Roma y quieres comer algo.", "emoji": "🍕", "options": ["Ho fame!", "Sono fame!", "Ho sete!"], "answer": "Ho fame!", "why": "Tener hambre = avere fame: ho fame.", "g": "it-g-avere" },
+    { "id": "e13", "type": "transform", "instr": "Hazla negativa", "q": "Ho sonno.", "answer": ["Non ho sonno"], "why": "Non va delante del verbo: non ho sonno.", "g": "it-g-avere" },
+    { "id": "e14", "type": "speak", "t": "La mia vicina ha ottantasei anni.", "es": "Mi vecina tiene ochenta y seis años." }
+  ],
+  "dialog": {
+    "title": "En el parque",
+    "setting": "En un banco de un parque de Roma",
+    "emoji": "🌳",
+    "lines": [
+      { "who": "Yolanda", "t": "Che bei bambini! Sono i suoi nipoti?", "es": "¡Qué niños tan guapos! ¿Son sus nietos?" },
+      { "who": "Rosa", "t": "Sì, ho due nipoti.", "es": "Sí, tengo dos nietos." },
+      { "who": "Yolanda", "t": "Quanti anni hanno?", "es": "¿Cuántos años tienen?" },
+      { "who": "Rosa", "t": "Leo ha sei anni e Sara tre. E Lei ha figli?", "es": "Leo tiene seis años y Sara, tres. ¿Y usted tiene hijos?" },
+      { "who": "Yolanda", "t": "Sì, mio figlio si chiama Hugo.", "es": "Sí, mi hijo se llama Hugo." },
+      { "who": "Rosa", "t": "Con due nipoti ho sempre fretta!", "es": "¡Con dos nietos siempre tengo prisa!" },
+      { "who": "Yolanda", "t": "Ah ah! Ci credo!", "es": "¡Ja, ja! ¡Me lo creo!" },
+      { "who": "Rosa", "t": "Ecco, adesso i bambini hanno fame.", "es": "Mire, ahora los niños tienen hambre." },
+      { "who": "Yolanda", "t": "Allora, buon appetito!", "es": "Entonces, ¡que aproveche!" }
+    ],
+    "questions": [
+      { "q": "¿Cuántos nietos tiene Rosa?", "options": ["Dos", "Tres", "Cinco"], "answer": "Dos" },
+      { "q": "¿Cuántos años tiene Sara?", "options": ["Tres", "Seis", "Cinco"], "answer": "Tres" },
+      { "q": "¿Qué les pasa ahora a los niños?", "options": ["Tienen hambre", "Tienen frío", "Tienen sueño"], "answer": "Tienen hambre" }
+    ]
+  },
+  "realLife": { "t": "Hai bisogno di qualcosa?", "es": "¿Necesitas algo?", "context": "Para ofrecer ayuda a tu hijo o a una amiga" },
+  "same": {
+    "text": "Igual que en español: el hambre, la sed, el frío y la edad se «tienen».",
+    "examples": [
+      { "t": "Ho fame.", "es": "Tengo hambre." },
+      { "t": "Ho freddo.", "es": "Tengo frío." },
+      { "t": "Ha sei anni.", "es": "Tiene seis años." }
+    ]
+  },
+  "falseFriend": {
+    "word": "caldo",
+    "means": "calor / caliente",
+    "looksLike": "caldo (sopa)",
+    "emoji": "🥵",
+    "tip": "Ho caldo es «tengo calor», ¡no que tengas sopa! El caldo de la abuela en italiano es il brodo."
+  },
+  "summary": [
+    "Avere = tener: ho, hai, ha, abbiamo, avete, hanno",
+    "La h de ho, hai, ha, hanno no suena",
+    "La edad con avere: Ha sei anni",
+    "Ho fame, sete, freddo, caldo, fretta, sonno",
+    "¡Ojo! Caldo es calor; la sopa es il brodo"
+  ],
+  "reviewed": false
+}

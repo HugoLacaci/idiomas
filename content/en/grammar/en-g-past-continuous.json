@@ -1,0 +1,142 @@
+{
+  "id": "en-g-past-continuous",
+  "lang": "en",
+  "level": "B1",
+  "title": "Pasado continuo: I was cooking when…",
+  "short": "was / were + verbo con -ing: lo que estaba pasando en un momento del pasado, a menudo interrumpido por otra acción.",
+  "story": [
+    { "kind": "intro", "title": "La película en marcha", "emoji": "🎬",
+      "text": "Imagina que pulsas «pausa» en un momento del pasado. Lo que se estaba haciendo en ese instante va en ==pasado continuo==: was / were + -ing.",
+      "examples": [
+        { "t": "At nine, I was cooking dinner.", "es": "A las nueve estaba haciendo la cena.", "hl": "was cooking" },
+        { "t": "We were watching TV.", "es": "Estábamos viendo la tele.", "hl": "were watching" }
+      ] },
+    { "kind": "table", "title": "Cómo se forma", "emoji": "📋",
+      "text": "Es el to be en pasado (==was / were==) + verbo con ==-ing==. Igual que el presente continuo, pero en pasado.",
+      "table": {
+        "head": ["", "Afirmativa", "Negativa", "Pregunta"],
+        "rows": [
+          ["I / he / she / it", "She ==was== read==ing==.", "She ==wasn't== read==ing==.", "==Was== she read==ing==?"],
+          ["you / we / they", "They ==were== walk==ing==.", "They ==weren't== walk==ing==.", "==Were== they walk==ing==?"]
+        ]
+      } },
+    { "kind": "rule", "title": "Larga + corta", "emoji": "⚡",
+      "text": "La acción ==larga== (en marcha) va en pasado continuo. La acción ==corta== que la interrumpe, en pasado simple. When va con la corta; while, con la larga.",
+      "examples": [
+        { "t": "I was cooking when the phone rang.", "es": "Estaba cocinando cuando sonó el teléfono.", "hl": "was cooking" },
+        { "t": "While I was shopping, I met an old friend.", "es": "Mientras hacía la compra, me encontré a una vieja amiga.", "hl": "While I was shopping" }
+      ] },
+    { "kind": "rule", "title": "Para describir la escena", "emoji": "🌧️",
+      "text": "Al empezar una historia, el pasado continuo pinta el ==fondo==: el tiempo, lo que hacía la gente. Luego, en pasado simple, lo que ==pasó==.",
+      "examples": [
+        { "t": "It was raining and people were running. Then I saw him.", "es": "Llovía y la gente corría. Entonces lo vi.", "hl": "was raining" }
+      ] },
+    { "kind": "compare", "title": "Así en español, así en inglés", "emoji": "🇪🇸",
+      "text": "«Estaba cocinando» = ==was cooking==. Pero nuestro imperfecto «cocinaba» tiene dos caras: si es costumbre → ==used to cook==; si estaba en marcha → ==was cooking==.",
+      "examples": [
+        { "t": "When I was young, I used to cook a lot.", "es": "De joven cocinaba mucho. (Costumbre.)", "hl": "used to cook" },
+        { "t": "I was cooking when you arrived.", "es": "Cocinaba cuando llegaste. (En marcha.)", "hl": "was cooking" }
+      ] },
+    { "kind": "errors", "title": "Errores típicos", "emoji": "⚠️",
+      "text": "❌ When I cooked, the phone rang. ✅ When I ==was cooking==, the phone rang.\n❌ I was cook. ✅ I was cook==ing==.\n❌ We was walking. ✅ We ==were== walking.\n❌ I was knowing. ✅ I ==knew==." },
+    { "kind": "tip", "title": "Verbos que no se alargan", "emoji": "💡",
+      "text": "Know, like, want, need, believe… expresan estados, no acciones: no van con -ing. ==I knew== the answer, no «I was knowing».",
+      "examples": [
+        { "t": "I wanted a coffee.", "es": "Quería un café.", "hl": "wanted" }
+      ] }
+  ],
+  "compare": {
+    "es": "En español usamos «estaba + gerundio» (estaba cocinando) o el imperfecto (cocinaba) para lo que estaba en marcha. El imperfecto también sirve para costumbres.",
+    "target": "En inglés, lo que estaba en marcha va en pasado continuo: was / were + -ing (I was cooking). Las costumbres del pasado van con used to o con el pasado simple, no con el continuo."
+  },
+  "errors": [
+    { "wrong": "When I cooked, the phone rang.", "right": "When I was cooking, the phone rang.", "why": "La acción que estaba en marcha va en pasado continuo." },
+    { "wrong": "I was cook dinner.", "right": "I was cooking dinner.", "why": "Después de was / were, el verbo lleva -ing." },
+    { "wrong": "We was walking in the park.", "right": "We were walking in the park.", "why": "Con we, you y they: were." },
+    { "wrong": "I was knowing the answer.", "right": "I knew the answer.", "why": "Know es un estado: no se usa con -ing." },
+    { "wrong": "When I was little, I was playing in the street every day.", "right": "When I was little, I used to play in the street every day.", "why": "Para costumbres repetidas se usa used to, no el continuo." },
+    { "wrong": "While I cooked, my son was laying the table.", "right": "While I was cooking, my son was laying the table.", "why": "Dos acciones largas a la vez: las dos en pasado continuo." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "At eight o'clock I ___ having dinner.", "options": ["was", "were", "did"], "answer": "was",
+      "why": "I + was + -ing.", "g": "en-g-past-continuous" },
+    { "id": "e2", "type": "choose", "q": "My friends ___ waiting for me at the station.", "options": ["were", "was", "are"], "answer": "were",
+      "why": "My friends = they → were.", "g": "en-g-past-continuous" },
+    { "id": "e3", "type": "choose", "q": "I was reading when the doorbell ___.", "options": ["rang", "was ringing", "rings"], "answer": "rang",
+      "why": "La acción corta que interrumpe: pasado simple.", "g": "en-g-past-continuous" },
+    { "id": "e4", "type": "choose", "q": "While we ___ dinner, the lights went out.", "options": ["were having", "had", "have"], "answer": "were having",
+      "why": "While + acción larga en pasado continuo.", "g": "en-g-past-continuous" },
+    { "id": "e5", "type": "choose", "q": "It ___ heavily when we left the restaurant.", "options": ["was raining", "rained", "were raining"], "answer": "was raining",
+      "why": "Describe el fondo de la escena: was raining.", "g": "en-g-past-continuous" },
+    { "id": "e6", "type": "choose", "q": "I ___ the answer, so I put my hand up.", "options": ["knew", "was knowing", "were knowing"], "answer": "knew",
+      "why": "Know es un estado: no va con -ing.", "g": "en-g-past-continuous" },
+    { "id": "e7", "type": "choose", "q": "When I was a child, we ___ in the river every summer.", "options": ["used to swim", "were swimming", "was swimming"], "answer": "used to swim",
+      "why": "Costumbre repetida: used to, no el continuo.", "g": "en-g-past-continuous" },
+    { "id": "e8", "type": "fill", "q": "She was ___ the dog when she met her neighbour.", "es": "Estaba paseando al perro cuando se encontró a su vecina.", "answer": ["walking"], "bank": ["walking", "walk", "walked"],
+      "why": "was + walking.", "g": "en-g-past-continuous" },
+    { "id": "e9", "type": "fill", "q": "We ___ talking about you when you called!", "es": "¡Estábamos hablando de ti cuando llamaste!", "answer": ["were"], "bank": ["were", "was", "did"],
+      "why": "We + were + -ing.", "g": "en-g-past-continuous" },
+    { "id": "e10", "type": "fill", "q": "I ___ sleeping. I was just resting my eyes!", "es": "No estaba durmiendo. ¡Solo descansaba la vista!", "answer": ["wasn't", "was not"],
+      "why": "Negativa: wasn't + -ing.", "g": "en-g-past-continuous" },
+    { "id": "e11", "type": "fill", "q": "What ___ you doing at midnight?", "es": "¿Qué estabas haciendo a medianoche?", "answer": ["were"],
+      "why": "What + were + you + doing.", "g": "en-g-past-continuous" },
+    { "id": "e12", "type": "fill", "q": "The sun was ___ and the birds were singing.", "es": "Brillaba el sol y cantaban los pájaros.", "answer": ["shining"], "hint": "shine",
+      "why": "Shine pierde la -e: shining.", "g": "en-g-past-continuous" },
+    { "id": "e13", "type": "conjugate", "verb": "to cook", "person": "I", "tense": "pasado continuo", "q": "I ___ when you sent the message.", "answer": ["was cooking"],
+      "why": "I was + cooking.", "g": "en-g-past-continuous" },
+    { "id": "e14", "type": "conjugate", "verb": "to sit", "person": "we", "tense": "pasado continuo", "q": "We ___ on the terrace when it started to rain.", "answer": ["were sitting"],
+      "why": "Sit dobla la t: sitting.", "g": "en-g-past-continuous" },
+    { "id": "e15", "type": "conjugate", "verb": "to listen", "person": "you", "tense": "pasado continuo (negativa)", "q": "You ___ to me!", "answer": ["weren't listening", "were not listening"],
+      "why": "Negativa con you: weren't + listening.", "g": "en-g-past-continuous" },
+    { "id": "e16", "type": "transform", "instr": "Hazla negativa", "q": "She was working yesterday afternoon.", "answer": ["She wasn't working yesterday afternoon.", "She was not working yesterday afternoon."],
+      "why": "Negativa: wasn't + -ing.", "g": "en-g-past-continuous" },
+    { "id": "e17", "type": "transform", "instr": "Hazla pregunta", "q": "They were playing in the garden.", "answer": ["Were they playing in the garden?"],
+      "why": "Pregunta: Were + they + -ing.", "g": "en-g-past-continuous" },
+    { "id": "e18", "type": "transform", "instr": "Pásala a pasado continuo", "q": "I am watching a film.", "answer": ["I was watching a film."],
+      "why": "am → was, el -ing se queda.", "g": "en-g-past-continuous" },
+    { "id": "e19", "type": "transform", "instr": "Únelas con when", "q": "I was driving. My phone rang.", "answer": ["I was driving when my phone rang."],
+      "why": "Acción larga + when + acción corta.", "g": "en-g-past-continuous" },
+    { "id": "e20", "type": "transform", "instr": "Únelas con while", "q": "I was making coffee. I burnt my hand.", "answer": ["I burnt my hand while I was making coffee.", "While I was making coffee, I burnt my hand.", "I burned my hand while I was making coffee.", "While I was making coffee, I burned my hand."],
+      "why": "While va con la acción larga.", "g": "en-g-past-continuous" },
+    { "id": "e21", "type": "error", "q": "I was cook dinner when you arrived.", "wrong": "cook", "fix": "cooking",
+      "why": "Después de was, -ing: cooking.", "g": "en-g-past-continuous" },
+    { "id": "e22", "type": "error", "q": "We was walking along the beach.", "wrong": "was", "fix": "were",
+      "why": "Con we: were.", "g": "en-g-past-continuous" },
+    { "id": "e23", "type": "error", "q": "She were sleeping when I got home.", "wrong": "were", "fix": "was",
+      "why": "Con she: was.", "g": "en-g-past-continuous" },
+    { "id": "e24", "type": "error", "q": "My friends was playing cards in the bar.", "wrong": "was", "fix": "were",
+      "why": "My friends = they → were playing.", "g": "en-g-past-continuous" },
+    { "id": "e25", "type": "error", "q": "I was having a shower when somebody knock at the door.", "wrong": "knock", "fix": "knocked",
+      "why": "La acción corta que interrumpe va en pasado simple: somebody knocked.", "g": "en-g-past-continuous" },
+    { "id": "e26", "type": "order", "es": "Estaba haciendo la compra cuando te vi", "answer": "I was doing the shopping when I saw you", "extra": ["seeing"],
+      "why": "Was doing (larga) + when + saw (corta).", "g": "en-g-past-continuous" },
+    { "id": "e27", "type": "order", "es": "¿Qué estabais haciendo a las diez?", "answer": "What were you doing at ten", "extra": ["was"],
+      "why": "What + were + you + doing.", "g": "en-g-past-continuous" },
+    { "id": "e28", "type": "order", "es": "Mientras dormía, empezó a nevar", "answer": "While I was sleeping it started to snow", "extra": ["slept"],
+      "why": "While + pasado continuo, y lo que pasó en pasado simple.", "g": "en-g-past-continuous" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "Estaba conduciendo cuando sonó el teléfono.", "answer": ["I was driving when the phone rang.", "I was driving when my phone rang."],
+      "why": "Was driving + when + rang.", "g": "en-g-past-continuous" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "¿Estabas durmiendo?", "answer": ["Were you sleeping?", "Were you asleep?"],
+      "why": "Pregunta: Were you + -ing?", "g": "en-g-past-continuous" },
+    { "id": "e31", "type": "translate", "dir": "from", "q": "We were having lunch when the phone rang.", "answer": ["Estábamos comiendo cuando sonó el teléfono.", "Comíamos cuando sonó el teléfono.", "Estábamos almorzando cuando sonó el teléfono."],
+      "why": "Were having = estábamos comiendo; rang = sonó.", "g": "en-g-past-continuous" },
+    { "id": "e32", "type": "situation", "context": "Tu amiga te pregunta por qué no contestaste el WhatsApp. Estabas conduciendo.", "emoji": "🚗",
+      "options": ["Sorry, I was driving.", "Sorry, I drove.", "Sorry, I was drive."], "answer": "Sorry, I was driving.",
+      "why": "Explicas lo que estabas haciendo en ese momento: was driving.", "g": "en-g-past-continuous" },
+    { "id": "e33", "type": "situation", "context": "Empiezas a contar una anécdota: llovía y paseabais por el puerto.", "emoji": "🌧️",
+      "options": ["It was raining and we were walking by the harbour.", "It rained and we walked by the harbour every day.", "It used to rain and we were walk by the harbour."], "answer": "It was raining and we were walking by the harbour.",
+      "why": "Para pintar la escena: pasado continuo.", "g": "en-g-past-continuous" },
+    { "id": "e34", "type": "match", "pairs": [["I was cooking", "when the phone rang."], ["While we were walking,", "it started to rain."], ["What were you doing", "at ten last night?"], ["She wasn't listening", "because she was tired."]],
+      "why": "Une las dos partes de cada frase.", "g": "en-g-past-continuous" },
+    { "id": "e35", "type": "reading", "kind": "text", "title": "Una tarde con sorpresa",
+      "text": "Last Sunday I was making a cake and my grandchildren were playing in the garden. Suddenly, the doorbell rang. It was my old school friend! She was visiting the town and wanted to say hello.",
+      "questions": [
+        { "q": "¿Qué estaba haciendo la narradora?", "options": ["Un bizcocho", "La comida", "La compra"], "answer": "Un bizcocho" },
+        { "q": "¿Dónde jugaban los nietos?", "options": ["En el jardín", "En la calle", "En el salón"], "answer": "En el jardín" },
+        { "q": "¿Quién llamó al timbre?", "options": ["Una amiga del colegio", "Una vecina", "El cartero"], "answer": "Una amiga del colegio" }
+      ],
+      "why": "Was making y were playing pintan la escena; rang es lo que pasó.", "g": "en-g-past-continuous" },
+    { "id": "e36", "type": "speak", "t": "While I was cooking, the children were playing in the garden.", "es": "Mientras yo cocinaba, los niños jugaban en el jardín.", "g": "en-g-past-continuous" }
+  ],
+  "reviewed": false
+}

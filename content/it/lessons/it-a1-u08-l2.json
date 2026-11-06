@@ -1,0 +1,78 @@
+{
+  "id": "it-a1-u08-l2",
+  "unit": "it-a1-u08",
+  "title": "Vado, vengo, esco",
+  "goal": "a decir adónde vas, quién viene contigo y cuándo sales, con andare, venire y uscire",
+  "emoji": "🧳",
+  "photoQuery": "woman suitcase railway platform",
+  "vocab": [
+    { "id": "treno-andare", "t": "andare", "es": "ir", "emoji": "🚶", "pos": "v", "note": "Irregular: vado, vai, va, andiamo, andate, vanno.", "ex": { "t": "Vado a Napoli in treno.", "es": "Voy a Nápoles en tren." } },
+    { "id": "treno-venire", "t": "venire", "es": "venir", "emoji": "👋", "pos": "v", "note": "Irregular: vengo, vieni, viene, veniamo, venite, vengono.", "ex": { "t": "Vieni con me in stazione?", "es": "¿Vienes conmigo a la estación?" } },
+    { "id": "treno-uscire", "t": "uscire", "es": "salir", "emoji": "🚪", "pos": "v", "note": "Irregular: esco, esci, esce, usciamo, uscite, escono.", "ex": { "t": "Esco di casa alle otto.", "es": "Salgo de casa a las ocho." } },
+    { "id": "treno-arrivare", "t": "arrivare", "es": "llegar", "emoji": "🏁", "pos": "v", "ex": { "t": "Il treno arriva alle tre.", "es": "El tren llega a las tres." } },
+    { "id": "treno-la-valigia", "t": "la valigia", "es": "la maleta", "emoji": "🧳", "pos": "n", "note": "En plural: le valigie.", "ex": { "t": "La mia valigia è pesante.", "es": "Mi maleta pesa mucho." } },
+    { "id": "treno-il-viaggio", "t": "il viaggio", "es": "el viaje", "emoji": "🗺️", "pos": "n", "ex": { "t": "Il viaggio è lungo ma bello.", "es": "El viaje es largo pero bonito." } },
+    { "id": "treno-vengo", "t": "Vengo!", "es": "¡Voy!", "emoji": "🙋", "pos": "phrase", "note": "Cuando te llaman, en italiano se contesta Vengo!, no Vado!", "ex": { "t": "Yolanda, vieni? — Sì, vengo!", "es": "Yolanda, ¿vienes? —Sí, ¡voy!" } },
+    { "id": "treno-l-uscita", "t": "l'uscita", "es": "la salida", "emoji": "↗️", "pos": "n", "ex": { "t": "L'uscita è a destra.", "es": "La salida está a la derecha." } }
+  ],
+  "grammar": "it-g-irregolari-andare-venire",
+  "pron": {
+    "title": "El acento de vanno, vengono, escono",
+    "tip": "Con loro el acento va al principio: VAN-no, VEN-go-no, E-sco-no. Y en vanno alarga bien la doble n.",
+    "words": ["vanno", "vengono", "escono", "andiamo", "usciamo"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Io ___ a Roma domani.", "es": "Yo voy a Roma mañana.", "options": ["vado", "vai", "va"], "answer": "vado", "why": "Andare es irregular: con io, vado.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e2", "type": "choose", "q": "Tu ___ con noi in stazione?", "es": "¿Vienes con nosotros a la estación?", "options": ["vieni", "vengo", "viene"], "answer": "vieni", "why": "Venire con tu: vieni, como nuestro «vienes» sin la s.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e3", "type": "choose", "q": "A che ora ___ di casa, Yolanda?", "es": "¿A qué hora sales de casa, Yolanda?", "options": ["esci", "esce", "usci"], "answer": "esci", "why": "Uscire cambia la u por e en casi todas las personas: tu esci.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e4", "type": "conjugate", "verb": "andare", "person": "noi", "tense": "presente", "q": "___ a Bari in treno.", "answer": ["Andiamo"], "table": [["io", "vado"], ["tu", "vai"], ["noi", "?"]], "why": "Con noi andare es regular: andiamo.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e5", "type": "conjugate", "verb": "venire", "person": "loro", "tense": "presente", "q": "I miei nipoti ___ a cena stasera.", "answer": ["vengono"], "why": "Loro → vengono, con g como en vengo.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e6", "type": "conjugate", "verb": "uscire", "person": "lei", "tense": "presente", "q": "La mia amica ___ alle sette.", "answer": ["esce"], "why": "Lei → esce: la u inicial se convierte en e.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e7", "type": "fill", "q": "Voi ___ a Napoli o a Bari?", "es": "¿Vosotros vais a Nápoles o a Bari?", "answer": ["andate"], "bank": ["andate", "vanno", "andiamo"], "why": "Voi → andate, regular como parlate.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e8", "type": "fill", "q": "Mio figlio ___ a trovarmi domenica.", "es": "Mi hijo viene a verme el domingo.", "answer": ["viene"], "bank": ["viene", "va", "vene"], "why": "Viene hacia mí, así que es venire: lui viene.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e9", "type": "fill", "q": "Noi ___ stasera: andiamo al cinema.", "es": "Salimos esta noche: vamos al cine.", "answer": ["usciamo"], "why": "Con noi vuelve la u: usciamo.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e10", "type": "error", "q": "Loro andano in treno.", "wrong": "andano", "fix": "vanno", "why": "Loro de andare es vanno, nunca «andano».", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e11", "type": "error", "q": "Io uscio alle otto.", "wrong": "uscio", "fix": "esco", "why": "Io de uscire es esco, con e.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e12", "type": "transform", "instr": "Cambia a «loro»", "q": "Lei va a Palermo.", "answer": ["Loro vanno a Palermo.", "Vanno a Palermo."], "why": "Va → vanno.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e13", "type": "order", "es": "¿Vienes conmigo a la estación?", "answer": "Vieni con me in stazione", "extra": ["vai"], "why": "Venire = ir hacia donde está quien habla: vieni con me.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e14", "type": "translate", "dir": "to", "q": "Voy a Roma en tren.", "answer": ["Vado a Roma in treno.", "Io vado a Roma in treno."], "why": "Io → vado; a Roma; in treno.", "g": "it-g-irregolari-andare-venire" },
+    { "id": "e15", "type": "situation", "context": "Tu amiga italiana te llama desde la cocina: «Yolanda, vieni?». ¿Qué contestas?", "emoji": "🙋", "options": ["Sì, vengo!", "Sì, vado!", "Sì, esco!"], "answer": "Sì, vengo!", "why": "Si vas hacia quien te llama, en italiano se usa venire: Vengo!", "g": "it-g-irregolari-andare-venire" }
+  ],
+  "dialog": {
+    "title": "¿Vienes a Nápoles?",
+    "setting": "Yolanda habla por teléfono con su amiga italiana Carla",
+    "emoji": "📞",
+    "lines": [
+      { "who": "Carla", "t": "Ciao Yolanda! Domani vado a Napoli. Vieni anche tu?", "es": "¡Hola, Yolanda! Mañana voy a Nápoles. ¿Vienes tú también?" },
+      { "who": "Yolanda", "t": "Sì, vengo volentieri! Come andiamo?", "es": "¡Sí, voy encantada! ¿Cómo vamos?" },
+      { "who": "Carla", "t": "In treno. Parte alle nove.", "es": "En tren. Sale a las nueve." },
+      { "who": "Yolanda", "t": "Perfetto. A che ora usciamo di casa?", "es": "Perfecto. ¿A qué hora salimos de casa?" },
+      { "who": "Carla", "t": "Io esco alle otto e passo da te.", "es": "Yo salgo a las ocho y paso a buscarte." },
+      { "who": "Yolanda", "t": "Va bene. Vengono anche i tuoi figli?", "es": "Vale. ¿Vienen también tus hijos?" },
+      { "who": "Carla", "t": "No, loro vanno al mare con il papà.", "es": "No, ellos van a la playa con su padre." },
+      { "who": "Yolanda", "t": "Allora a domani, ciao!", "es": "Entonces hasta mañana, ¡adiós!" }
+    ],
+    "questions": [
+      { "q": "¿Adónde van mañana?", "options": ["A Nápoles", "A Roma", "A la playa"], "answer": "A Nápoles" },
+      { "q": "¿A qué hora sale Carla de casa?", "options": ["A las ocho", "A las nueve", "A las siete"], "answer": "A las ocho" },
+      { "q": "¿Adónde van los hijos de Carla?", "options": ["A la playa", "A Nápoles", "Al colegio"], "answer": "A la playa" }
+    ]
+  },
+  "realLife": { "t": "Vengo anch'io!", "es": "¡Yo también voy!", "context": "Cuando alguien propone un plan y te apuntas" },
+  "same": {
+    "text": "Igual que en español: venire se parece mucho a nuestro «venir», también en sus formas irregulares.",
+    "examples": [
+      { "t": "io vengo", "es": "yo vengo" },
+      { "t": "tu vieni", "es": "tú vienes" },
+      { "t": "lui viene", "es": "él viene" }
+    ]
+  },
+  "summary": [
+    "Andare: vado, vai, va, andiamo, andate, vanno",
+    "Venire: vengo, vieni, viene, veniamo, venite, vengono",
+    "Uscire: esco, esci, esce, usciamo, uscite, escono",
+    "Cuando te llaman: Vengo! (= ¡Voy!)",
+    "Acento atrás: VANno, VENgono, EScono"
+  ],
+  "reviewed": false
+}

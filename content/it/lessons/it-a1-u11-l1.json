@@ -1,0 +1,468 @@
+{
+  "id": "it-a1-u11-l1",
+  "unit": "it-a1-u11",
+  "title": "In piazza, davanti alla chiesa",
+  "goal": "a nombrar los lugares de una ciudad para poder preguntar por ellos",
+  "emoji": "🗺️",
+  "photoQuery": "italian town square church fountain",
+  "vocab": [
+    {
+      "id": "dir-la-piazza",
+      "t": "la piazza",
+      "es": "la plaza",
+      "emoji": "⛲",
+      "pos": "n",
+      "ex": {
+        "t": "Ci vediamo in piazza.",
+        "es": "Nos vemos en la plaza."
+      }
+    },
+    {
+      "id": "dir-la-chiesa",
+      "t": "la chiesa",
+      "es": "la iglesia",
+      "emoji": "⛪",
+      "pos": "n",
+      "note": "Chie suena «quie», y la s entre vocales suena suave, como un zumbido: «quiéza».",
+      "ex": {
+        "t": "La chiesa è in piazza.",
+        "es": "La iglesia está en la plaza."
+      }
+    },
+    {
+      "id": "dir-il-museo",
+      "t": "il museo",
+      "es": "el museo",
+      "emoji": "🏛️",
+      "pos": "n",
+      "ex": {
+        "t": "Il museo è aperto oggi?",
+        "es": "¿El museo está abierto hoy?"
+      }
+    },
+    {
+      "id": "dir-la-via",
+      "t": "la via",
+      "es": "la calle",
+      "emoji": "🛣️",
+      "pos": "n",
+      "note": "También la strada. En las direcciones se escribe Via Roma, Via Garibaldi…",
+      "ex": {
+        "t": "L'albergo è in via Roma.",
+        "es": "El hotel está en la calle Roma."
+      }
+    },
+    {
+      "id": "dir-il-ponte",
+      "t": "il ponte",
+      "es": "el puente",
+      "emoji": "🌉",
+      "pos": "n",
+      "ex": {
+        "t": "C'è un ponte sul fiume.",
+        "es": "Hay un puente sobre el río."
+      }
+    },
+    {
+      "id": "dir-l-incrocio",
+      "t": "l'incrocio",
+      "es": "el cruce",
+      "emoji": "✖️",
+      "pos": "n",
+      "ex": {
+        "t": "All'incrocio c'è una farmacia.",
+        "es": "En el cruce hay una farmacia."
+      }
+    },
+    {
+      "id": "dir-il-semaforo",
+      "t": "il semaforo",
+      "es": "el semáforo",
+      "emoji": "🚦",
+      "pos": "n",
+      "ex": {
+        "t": "Al semaforo gira a destra.",
+        "es": "En el semáforo gira a la derecha."
+      }
+    },
+    {
+      "id": "dir-la-fermata",
+      "t": "la fermata dell'autobus",
+      "es": "la parada del autobús",
+      "emoji": "🚏",
+      "pos": "n",
+      "ex": {
+        "t": "La fermata è davanti al museo.",
+        "es": "La parada está delante del museo."
+      }
+    },
+    {
+      "id": "dir-il-porto",
+      "t": "il porto",
+      "es": "el puerto",
+      "emoji": "⚓",
+      "pos": "n",
+      "ex": {
+        "t": "Il porto è vicino al centro.",
+        "es": "El puerto está cerca del centro."
+      }
+    },
+    {
+      "id": "dir-dov-e",
+      "t": "Dov'è…?",
+      "es": "¿Dónde está…?",
+      "emoji": "❓",
+      "pos": "phrase",
+      "ex": {
+        "t": "Scusi, dov'è il museo?",
+        "es": "Perdone, ¿dónde está el museo?"
+      }
+    }
+  ],
+  "grammar": "it-g-ce-ci-sono",
+  "pron": {
+    "title": "La zz de piazza",
+    "tip": "La z italiana no suena como nuestra z: suena «ts», y si es doble, más fuerte. Piazza se dice «piát-tsa». Igual en stazione y pizza.",
+    "words": [
+      "piazza",
+      "stazione",
+      "pizza",
+      "grazie",
+      "Venezia"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Scusi, dov'è ___ chiesa?",
+      "es": "Perdone, ¿dónde está la iglesia?",
+      "options": [
+        "la",
+        "il",
+        "lo"
+      ],
+      "answer": "la",
+      "why": "Chiesa es femenino: la chiesa.",
+      "g": "it-g-articoli-det"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "In piazza ___ due chiese.",
+      "es": "En la plaza hay dos iglesias.",
+      "options": [
+        "ci sono",
+        "c'è",
+        "sono"
+      ],
+      "answer": "ci sono",
+      "why": "Dos iglesias, plural: ci sono.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Vicino al porto ___ un museo.",
+      "es": "Cerca del puerto hay un museo.",
+      "options": [
+        "c'è",
+        "ci sono",
+        "è"
+      ],
+      "answer": "c'è",
+      "why": "Un museo, singular: c'è.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Scusi, ___ la fermata dell'autobus?",
+      "es": "Perdone, ¿dónde está la parada del autobús?",
+      "answer": [
+        "dov'è",
+        "dove è"
+      ],
+      "bank": [
+        "dov'è",
+        "dove sono",
+        "c'è"
+      ],
+      "why": "Una parada, singular: dov'è.",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Il museo è vicino ___ porto.",
+      "es": "El museo está cerca del puerto.",
+      "answer": [
+        "al"
+      ],
+      "bank": [
+        "al",
+        "il",
+        "del"
+      ],
+      "why": "Vicino a + il = vicino al.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "All'___ c'è un semaforo.",
+      "es": "En el cruce hay un semáforo.",
+      "answer": [
+        "incrocio"
+      ],
+      "hint": "el cruce",
+      "why": "El cruce es l'incrocio.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "Scusi, dove sono la chiesa?",
+      "wrong": "sono",
+      "fix": "è",
+      "why": "La chiesa es una: dov'è (dove è).",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "C'è due ponti sul fiume.",
+      "wrong": "C'è",
+      "fix": "Ci sono",
+      "why": "Due ponti es plural: ci sono.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Perdone, ¿dónde está el museo?",
+      "answer": "Scusi dov'è il museo",
+      "extra": [
+        "sono"
+      ],
+      "why": "Dov'è + lugar, igual que «¿dónde está…?».",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Hay una farmacia cerca?",
+      "answer": [
+        "C'è una farmacia vicino?",
+        "C'è una farmacia qui vicino?"
+      ],
+      "why": "Hay = c'è; cerca = vicino.",
+      "g": "it-g-ce-ci-sono"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "from",
+      "q": "La fermata è in piazza.",
+      "answer": [
+        "La parada está en la plaza."
+      ],
+      "why": "Fermata = parada; piazza = plaza.",
+      "g": "it-g-essere"
+    },
+    {
+      "id": "e12",
+      "type": "match",
+      "pairs": [
+        [
+          "la chiesa",
+          "la iglesia"
+        ],
+        [
+          "il ponte",
+          "el puente"
+        ],
+        [
+          "l'incrocio",
+          "el cruce"
+        ],
+        [
+          "il semaforo",
+          "el semáforo"
+        ],
+        [
+          "la via",
+          "la calle"
+        ]
+      ],
+      "why": "Lugares para orientarte en la ciudad."
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Paseando por Siracusa quieres encontrar la parada del autobús. Paras a una señora.",
+      "emoji": "🚏",
+      "options": [
+        "Scusi, dov'è la fermata dell'autobus?",
+        "Scusi, chi è la fermata dell'autobus?",
+        "Scusi, c'è sono fermate?"
+      ],
+      "answer": "Scusi, dov'è la fermata dell'autobus?",
+      "why": "Para preguntar por un lugar: Scusi, dov'è…?",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Cartel en la plaza",
+      "text": "← Museo\n→ Porto\n↑ Chiesa di Santa Lucia\nFermata autobus: 50 m",
+      "questions": [
+        {
+          "q": "¿Hacia dónde está el puerto?",
+          "options": [
+            "A la derecha",
+            "A la izquierda",
+            "Todo recto"
+          ],
+          "answer": "A la derecha"
+        },
+        {
+          "q": "¿Qué hay a la izquierda?",
+          "options": [
+            "El museo",
+            "La iglesia",
+            "La parada"
+          ],
+          "answer": "El museo"
+        },
+        {
+          "q": "¿A qué distancia está la parada?",
+          "options": [
+            "A 50 metros",
+            "A 5 kilómetros",
+            "No lo dice"
+          ],
+          "answer": "A 50 metros"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Scusi, dov'è la chiesa?",
+      "es": "Perdone, ¿dónde está la iglesia?"
+    }
+  ],
+  "dialog": {
+    "title": "Primera tarde en Siracusa",
+    "setting": "Yolanda y una amiga miran el mapa en la puerta del hotel",
+    "emoji": "🗺️",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Allora, dov'è il centro?",
+        "es": "A ver, ¿dónde está el centro?"
+      },
+      {
+        "who": "Carmen",
+        "t": "Dopo il ponte. C'è una piazza grande.",
+        "es": "Después del puente. Hay una plaza grande."
+      },
+      {
+        "who": "Yolanda",
+        "t": "E in piazza c'è una chiesa?",
+        "es": "¿Y en la plaza hay una iglesia?"
+      },
+      {
+        "who": "Carmen",
+        "t": "Sì, il duomo. E ci sono tanti bar.",
+        "es": "Sí, la catedral. Y hay muchos bares."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfetto! E il museo?",
+        "es": "¡Perfecto! ¿Y el museo?"
+      },
+      {
+        "who": "Carmen",
+        "t": "Il museo è vicino al porto.",
+        "es": "El museo está cerca del puerto."
+      },
+      {
+        "who": "Yolanda",
+        "t": "C'è una fermata dell'autobus?",
+        "es": "¿Hay una parada de autobús?"
+      },
+      {
+        "who": "Carmen",
+        "t": "Sì, ma andiamo a piedi!",
+        "es": "Sí, ¡pero vamos andando!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué hay antes de llegar a la plaza?",
+        "options": [
+          "Un puente",
+          "Un museo",
+          "Un semáforo"
+        ],
+        "answer": "Un puente"
+      },
+      {
+        "q": "¿Dónde está el museo?",
+        "options": [
+          "Cerca del puerto",
+          "En la plaza",
+          "Al lado del hotel"
+        ],
+        "answer": "Cerca del puerto"
+      },
+      {
+        "q": "¿Cómo deciden ir?",
+        "options": [
+          "Andando",
+          "En autobús",
+          "En taxi"
+        ],
+        "answer": "Andando"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Scusi, dov'è il centro?",
+    "es": "Perdone, ¿dónde está el centro?",
+    "context": "Al llegar a una ciudad nueva y no saber hacia dónde ir"
+  },
+  "same": {
+    "text": "Casi todos los lugares de la ciudad se parecen al español. ¡Los entenderás a la primera!",
+    "examples": [
+      {
+        "t": "il museo",
+        "es": "el museo"
+      },
+      {
+        "t": "il semaforo",
+        "es": "el semáforo"
+      },
+      {
+        "t": "il porto",
+        "es": "el puerto"
+      },
+      {
+        "t": "il ponte",
+        "es": "el puente"
+      }
+    ]
+  },
+  "summary": [
+    "Lugares: la piazza, la chiesa, il museo, il ponte, il porto.",
+    "En la calle: la via, l'incrocio, il semaforo, la fermata.",
+    "Preguntar: Scusi, dov'è…?",
+    "La zz suena «ts»: piazza, stazione."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u11-l1"
+}

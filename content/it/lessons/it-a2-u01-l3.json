@@ -1,0 +1,492 @@
+{
+  "id": "it-a2-u01-l3",
+  "unit": "it-a2-u01",
+  "title": "Hai già visto il David?",
+  "goal": "a moverte por un museo y decir lo que ya has visto, lo que todavía no y lo que nunca",
+  "emoji": "🗺️",
+  "photoQuery": "museum entrance corridor visitors",
+  "vocab": [
+    {
+      "id": "museo-l-ingresso",
+      "t": "l'ingresso",
+      "es": "la entrada (la puerta)",
+      "emoji": "🚪",
+      "pos": "n",
+      "note": "L'ingresso es el sitio por donde entras; el papelito para entrar es il biglietto.",
+      "ex": {
+        "t": "Ci vediamo all'ingresso del museo.",
+        "es": "Nos vemos en la entrada del museo."
+      }
+    },
+    {
+      "id": "museo-l-uscita",
+      "t": "l'uscita",
+      "es": "la salida",
+      "emoji": "🏃‍♀️",
+      "pos": "n",
+      "ex": {
+        "t": "Scusi, dov'è l'uscita?",
+        "es": "Perdone, ¿dónde está la salida?"
+      }
+    },
+    {
+      "id": "museo-il-guardaroba",
+      "t": "il guardaroba",
+      "es": "el guardarropa",
+      "emoji": "🧥",
+      "pos": "n",
+      "ex": {
+        "t": "Lascio lo zaino al guardaroba.",
+        "es": "Dejo la mochila en el guardarropa."
+      }
+    },
+    {
+      "id": "museo-la-visita-guidata",
+      "t": "la visita guidata",
+      "es": "la visita guiada",
+      "emoji": "👥",
+      "pos": "n",
+      "ex": {
+        "t": "La visita guidata è in spagnolo?",
+        "es": "¿La visita guiada es en español?"
+      }
+    },
+    {
+      "id": "museo-vietato-il-flash",
+      "t": "è vietato usare il flash",
+      "es": "está prohibido usar el flash",
+      "emoji": "🚫",
+      "pos": "phrase",
+      "ex": {
+        "t": "Attenzione: è vietato usare il flash.",
+        "es": "Atención: está prohibido usar el flash."
+      }
+    },
+    {
+      "id": "museo-gia",
+      "t": "già",
+      "es": "ya",
+      "emoji": "✔️",
+      "pos": "adv",
+      "ex": {
+        "t": "Ho già visto questa sala.",
+        "es": "Ya he visto esta sala."
+      }
+    },
+    {
+      "id": "museo-non-ancora",
+      "t": "non… ancora",
+      "es": "todavía no",
+      "emoji": "⏳",
+      "pos": "adv",
+      "ex": {
+        "t": "Non ho ancora visto il David.",
+        "es": "Todavía no he visto el David."
+      }
+    },
+    {
+      "id": "museo-non-mai",
+      "t": "non… mai",
+      "es": "nunca",
+      "emoji": "🙅‍♀️",
+      "pos": "adv",
+      "ex": {
+        "t": "Non ho mai visitato Firenze.",
+        "es": "Nunca he visitado Florencia."
+      }
+    },
+    {
+      "id": "museo-la-cassa",
+      "t": "la cassa",
+      "es": "la caja (para pagar)",
+      "emoji": "💰",
+      "pos": "n",
+      "note": "¡Ojo! No es «casa» (eso es la casa). Alla cassa = en caja.",
+      "ex": {
+        "t": "Si paga alla cassa, a destra.",
+        "es": "Se paga en caja, a la derecha."
+      }
+    }
+  ],
+  "grammar": "it-g-passato-prossimo-avere",
+  "pron": {
+    "title": "Cassa y casa",
+    "tip": "La doble s suena larga y fuerte: «cas-sa» (caja). Con una sola s, entre vocales, suena más suave: «casa». ¡Fíjate, que cambia el sentido!",
+    "words": [
+      "cassa",
+      "casa",
+      "rosso",
+      "rosa",
+      "passato"
+    ],
+    "pairs": [
+      [
+        "cassa",
+        "casa"
+      ],
+      [
+        "nonno",
+        "nono"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Ho ___ visto questa sala, andiamo avanti.",
+      "es": "Ya he visto esta sala, sigamos.",
+      "options": [
+        "già",
+        "mai",
+        "ancora"
+      ],
+      "answer": "già",
+      "why": "«Ya» = già, entre ho y visto.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Non ho ___ visto il David: andiamo domani?",
+      "es": "Todavía no he visto el David: ¿vamos mañana?",
+      "options": [
+        "ancora",
+        "già",
+        "sempre"
+      ],
+      "answer": "ancora",
+      "why": "«Todavía no» = non… ancora.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Mio marito non ha ___ visitato un museo così grande.",
+      "es": "Mi marido nunca ha visitado un museo tan grande.",
+      "options": [
+        "mai",
+        "già",
+        "ancora"
+      ],
+      "answer": "mai",
+      "why": "«Nunca» = non… mai.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e4",
+      "type": "choose",
+      "q": "Si paga alla ___.",
+      "es": "Se paga en caja.",
+      "options": [
+        "cassa",
+        "casa",
+        "sala"
+      ],
+      "answer": "cassa",
+      "why": "La caja para pagar es la cassa, con doble s."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Avete ___ prenotato la visita guidata?",
+      "es": "¿Ya habéis reservado la visita guiada?",
+      "answer": [
+        "già"
+      ],
+      "bank": [
+        "già",
+        "mai",
+        "non"
+      ],
+      "why": "Ya = già, entre avete y prenotato.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Lascio la giacca al ___.",
+      "es": "Dejo la chaqueta en el guardarropa.",
+      "answer": [
+        "guardaroba"
+      ],
+      "bank": [
+        "guardaroba",
+        "cassa",
+        "ingresso"
+      ],
+      "why": "El guardarropa = il guardaroba."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "Non abbiamo mai ___ un quadro di Caravaggio.",
+      "es": "Nunca hemos visto un cuadro de Caravaggio.",
+      "answer": [
+        "visto"
+      ],
+      "hint": "vedere",
+      "why": "Vedere → visto; mai va antes.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Avete già visitate la mostra?",
+      "wrong": "visitate",
+      "fix": "visitato",
+      "why": "Con avere el participio no cambia: avete già visitato.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Ho mai visitato Pisa.",
+      "wrong": "Ho",
+      "fix": "Non ho",
+      "why": "«Nunca» necesita non delante: non ho mai visitato.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Hazla pregunta para «voi» con già",
+      "q": "Abbiamo visto la mostra.",
+      "answer": [
+        "Avete già visto la mostra?"
+      ],
+      "why": "Voi → avete; già entre avete y visto.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Contesta que todavía no",
+      "q": "Hai già pagato i biglietti?",
+      "answer": [
+        "No, non ho ancora pagato i biglietti.",
+        "No, non li ho ancora pagati.",
+        "Non ho ancora pagato i biglietti."
+      ],
+      "why": "Todavía no = non ho ancora + participio.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e12",
+      "type": "order",
+      "es": "Perdone, ¿dónde está la salida?",
+      "answer": "Scusi dov'è l'uscita",
+      "extra": [
+        "l'ingresso"
+      ],
+      "why": "Salida = l'uscita; entrada = l'ingresso.",
+      "g": "it-g-interrogativi"
+    },
+    {
+      "id": "e13",
+      "type": "translate",
+      "dir": "to",
+      "q": "Nunca he visto Florencia.",
+      "answer": [
+        "Non ho mai visto Firenze."
+      ],
+      "why": "Non + ho + mai + visto.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e14",
+      "type": "translate",
+      "dir": "from",
+      "q": "È vietato usare il flash.",
+      "answer": [
+        "Está prohibido usar el flash.",
+        "Prohibido usar el flash."
+      ],
+      "why": "Vietato = prohibido."
+    },
+    {
+      "id": "e15",
+      "type": "reading",
+      "kind": "sign",
+      "title": "Normas del museo",
+      "text": "Benvenuti! Zaini e ombrelli al guardaroba. È vietato usare il flash. Non toccare le opere. Uscita a sinistra, dopo il negozio.",
+      "questions": [
+        {
+          "q": "¿Dónde se dejan las mochilas?",
+          "options": [
+            "En el guardarropa",
+            "En la caja",
+            "En la salida"
+          ],
+          "answer": "En el guardarropa"
+        },
+        {
+          "q": "¿Qué no se puede hacer?",
+          "options": [
+            "Usar el flash y tocar las obras",
+            "Hacer fotos sin flash",
+            "Hablar"
+          ],
+          "answer": "Usar el flash y tocar las obras"
+        },
+        {
+          "q": "¿Dónde está la salida?",
+          "options": [
+            "A la izquierda, después de la tienda",
+            "A la derecha",
+            "En la primera planta"
+          ],
+          "answer": "A la izquierda, después de la tienda"
+        }
+      ],
+      "why": "Zaini = mochilas; non toccare = no tocar."
+    },
+    {
+      "id": "e16",
+      "type": "situation",
+      "context": "Una señora en la cola te pregunta si ya has visitado la Galleria dell'Accademia. Nunca has ido.",
+      "emoji": "🗿",
+      "options": [
+        "No, non ho mai visitato la Galleria.",
+        "No, ho mai visitato la Galleria.",
+        "No, non ho visitato mai già."
+      ],
+      "answer": "No, non ho mai visitato la Galleria.",
+      "why": "Nunca = non + ho + mai + participio.",
+      "g": "it-g-passato-prossimo-avere"
+    },
+    {
+      "id": "e17",
+      "type": "minimal",
+      "pair": [
+        "cassa",
+        "casa"
+      ],
+      "answer": "cassa",
+      "es": [
+        "caja",
+        "casa"
+      ],
+      "why": "Cassa tiene la s doble y larga."
+    },
+    {
+      "id": "e18",
+      "type": "speak",
+      "t": "Non ho ancora visto il David.",
+      "es": "Todavía no he visto el David."
+    }
+  ],
+  "dialog": {
+    "title": "Dentro del museo",
+    "setting": "En un museo de Florencia, Yolanda habla con Lucia, una vigilante de sala muy amable",
+    "emoji": "🏛️",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Scusi, dov'è la sala di Michelangelo?",
+        "es": "Perdone, ¿dónde está la sala de Miguel Ángel?"
+      },
+      {
+        "who": "Lucia",
+        "t": "Sempre dritto. Ha già visto il David?",
+        "es": "Todo recto. ¿Ya ha visto el David?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, non ancora. È qui?",
+        "es": "No, todavía no. ¿Está aquí?"
+      },
+      {
+        "who": "Lucia",
+        "t": "No, è all'Accademia. Qui ci sono altre opere.",
+        "es": "No, está en la Accademia. Aquí hay otras obras."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Posso fare una foto?",
+        "es": "¿Puedo hacer una foto?"
+      },
+      {
+        "who": "Lucia",
+        "t": "Sì, ma è vietato usare il flash.",
+        "es": "Sí, pero está prohibido usar el flash."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Certo. E l'uscita?",
+        "es": "Claro. ¿Y la salida?"
+      },
+      {
+        "who": "Lucia",
+        "t": "A sinistra, dopo la cassa del negozio.",
+        "es": "A la izquierda, después de la caja de la tienda."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Ha visto ya Yolanda el David?",
+        "options": [
+          "Todavía no",
+          "Sí, ayer",
+          "Sí, dos veces"
+        ],
+        "answer": "Todavía no"
+      },
+      {
+        "q": "¿Dónde está el David?",
+        "options": [
+          "En la Accademia",
+          "En esta sala",
+          "En la tienda"
+        ],
+        "answer": "En la Accademia"
+      },
+      {
+        "q": "¿Qué está prohibido?",
+        "options": [
+          "Usar el flash",
+          "Hacer fotos",
+          "Hablar"
+        ],
+        "answer": "Usar el flash"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Scusi, dov'è il guardaroba?",
+    "es": "Perdone, ¿dónde está el guardarropa?",
+    "context": "Al entrar en un museo con mochila o abrigo"
+  },
+  "same": {
+    "text": "Già, ancora y mai se colocan como en español «ya he visto», pero en medio: entre avere y el participio.",
+    "examples": [
+      {
+        "t": "Ho già visto.",
+        "es": "Ya he visto."
+      },
+      {
+        "t": "Non ho ancora visto.",
+        "es": "Todavía no he visto."
+      },
+      {
+        "t": "Non ho mai visto.",
+        "es": "Nunca he visto."
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "la cassa",
+    "means": "la caja (para pagar)",
+    "looksLike": "casa",
+    "emoji": "💰",
+    "tip": "Pagare alla cassa = pagar en caja. Si dices casa con una s, hablas de tu hogar."
+  },
+  "summary": [
+    "Già (ya), non… ancora (todavía no), non… mai (nunca) van entre avere y el participio.",
+    "L'ingresso, l'uscita, il guardaroba, la cassa.",
+    "È vietato usare il flash = está prohibido usar el flash.",
+    "Para preguntar, las mismas palabras y el tono arriba: Hai già visto…?"
+  ],
+  "reviewed": false,
+  "photo": "it-a2-u01-l3"
+}

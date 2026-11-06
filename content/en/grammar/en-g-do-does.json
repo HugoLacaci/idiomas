@@ -1,0 +1,138 @@
+{
+  "id": "en-g-do-does",
+  "lang": "en",
+  "level": "A1",
+  "title": "do / does en preguntas y negativas",
+  "short": "Do you work? Does she work? She doesn't work. El ayudante se queda la -s.",
+  "story": [
+    { "kind": "intro", "title": "Un ayudante para preguntar", "emoji": "🤝",
+      "text": "En presente simple, para preguntar y negar necesitamos un ayudante: ==do== o ==does==. No se traduce: solo marca la pregunta o el «no».",
+      "examples": [
+        { "t": "Do you like tea?", "es": "¿Te gusta el té?", "hl": "Do" },
+        { "t": "My son doesn't eat fish.", "es": "Mi hijo no come pescado.", "hl": "doesn't" }
+      ] },
+    { "kind": "table", "title": "do con I, you, we, they", "emoji": "📋",
+      "text": "Con **I, you, we, they** el ayudante es ==do== (negativa: ==don't==).",
+      "table": {
+        "head": ["Afirmativa", "Negativa", "Pregunta", "Respuesta corta"],
+        "rows": [
+          ["I work.", "I ==don't== work.", "==Do== I work?", "Yes, you do. / No, you don't."],
+          ["You cook.", "You ==don't== cook.", "==Do== you cook?", "Yes, I do. / No, I don't."],
+          ["They live here.", "They ==don't== live here.", "==Do== they live here?", "Yes, they do. / No, they don't."]
+        ]
+      } },
+    { "kind": "table", "title": "does con he, she, it", "emoji": "📋",
+      "text": "Con **he, she, it** el ayudante es ==does== (negativa: ==doesn't==).",
+      "table": {
+        "head": ["Afirmativa", "Negativa", "Pregunta", "Respuesta corta"],
+        "rows": [
+          ["She works.", "She ==doesn't== work.", "==Does== she work?", "Yes, she does. / No, she doesn't."],
+          ["He lives here.", "He ==doesn't== live here.", "==Does== he live here?", "Yes, he does. / No, he doesn't."],
+          ["It opens at 9.", "It ==doesn't== open at 9.", "==Does== it open at 9?", "Yes, it does. / No, it doesn't."]
+        ]
+      } },
+    { "kind": "rule", "title": "La -s se la queda does", "emoji": "🎒",
+      "text": "La -s de **she works** se pasa al ayudante: d==oes==. Por eso el verbo vuelve a su forma base: Does she ==work==? She doesn't ==work==.",
+      "examples": [
+        { "t": "She works. → Does she work?", "es": "Trabaja. → ¿Trabaja?", "hl": "Does" },
+        { "t": "He has a car. → He doesn't have a car.", "es": "Tiene coche. → No tiene coche.", "hl": "doesn't have" }
+      ] },
+    { "kind": "rule", "title": "Con where, what, when…", "emoji": "❓",
+      "text": "Palabra de pregunta + ==do / does== + sujeto + verbo.",
+      "examples": [
+        { "t": "Where does your son work?", "es": "¿Dónde trabaja tu hijo?", "hl": "does" },
+        { "t": "What do you do?", "es": "¿A qué te dedicas?", "hl": "do" },
+        { "t": "When does the shop open?", "es": "¿Cuándo abre la tienda?", "hl": "does" }
+      ] },
+    { "kind": "compare", "title": "Así en español, así en inglés", "emoji": "🇪🇸",
+      "text": "En español preguntamos solo con el tono: ¿Trabaja tu hijo? En inglés hace falta el ayudante delante: ==Does== your son work?",
+      "examples": [
+        { "t": "Your son works. → Does your son work?", "es": "Tu hijo trabaja. → ¿Tu hijo trabaja?", "hl": "Does" }
+      ] },
+    { "kind": "errors", "title": "Errores típicos", "emoji": "⚠️",
+      "text": "❌ She don't like coffee. ✅ She ==doesn't== like coffee.\n❌ Does she works? ✅ Does she ==work==?\n❌ Where works your son? ✅ Where ==does== your son work?" },
+    { "kind": "tip", "title": "Truco: una sola -s", "emoji": "💡",
+      "text": "En cada frase con he/she/it solo hay ==una -s==. Si ya está en **does**, el verbo no la lleva." }
+  ],
+  "compare": {
+    "es": "En español la pregunta y la negativa se hacen con el mismo verbo: ¿Trabaja? No trabaja. Basta con el tono o con «no».",
+    "target": "En inglés el presente simple necesita el ayudante do/does: Does she work? She doesn't work. Con he/she/it usamos does y el verbo pierde la -s."
+  },
+  "errors": [
+    { "wrong": "She don't like coffee.", "right": "She doesn't like coffee.", "why": "Con she, he o it la negativa es doesn't." },
+    { "wrong": "Does she works in a shop?", "right": "Does she work in a shop?", "why": "La -s ya está en does: el verbo va sin -s." },
+    { "wrong": "He doesn't lives here.", "right": "He doesn't live here.", "why": "Después de doesn't, el verbo en forma base." },
+    { "wrong": "Where works your son?", "right": "Where does your son work?", "why": "En las preguntas hace falta does delante del sujeto." },
+    { "wrong": "You like tea?", "right": "Do you like tea?", "why": "En inglés la pregunta necesita do; no basta con el tono." },
+    { "wrong": "Yes, she do.", "right": "Yes, she does.", "why": "La respuesta corta repite el ayudante correcto: does." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "___ you like coffee?", "options": ["Do", "Does"], "answer": "Do",
+      "why": "Con you el ayudante es do.", "g": "en-g-do-does" },
+    { "id": "e2", "type": "choose", "q": "___ your son live in London?", "options": ["Do", "Does"], "answer": "Does",
+      "why": "Your son = he: does.", "g": "en-g-do-does" },
+    { "id": "e3", "type": "choose", "q": "She ___ eat meat.", "options": ["don't", "doesn't"], "answer": "doesn't",
+      "why": "Con she la negativa es doesn't.", "g": "en-g-do-does" },
+    { "id": "e4", "type": "choose", "q": "We ___ have a car.", "options": ["don't", "doesn't"], "answer": "don't",
+      "why": "Con we la negativa es don't.", "g": "en-g-do-does" },
+    { "id": "e5", "type": "choose", "q": "Does he ___ in a hospital?", "options": ["work", "works"], "answer": "work",
+      "why": "Después de does, el verbo sin -s.", "g": "en-g-do-does" },
+    { "id": "e6", "type": "choose", "q": "My grandson doesn't ___ vegetables.", "options": ["like", "likes"], "answer": "like",
+      "why": "Después de doesn't, el verbo sin -s.", "g": "en-g-do-does" },
+    { "id": "e7", "type": "choose", "q": "Does the shop open on Sundays? — No, it ___.", "options": ["doesn't", "don't", "isn't"], "answer": "doesn't",
+      "why": "Pregunta con does → respuesta corta con does/doesn't.", "g": "en-g-do-does" },
+    { "id": "e8", "type": "fill", "q": "___ she speak English?", "es": "¿Habla inglés?", "answer": ["Does"], "bank": ["Does", "Do", "Is"],
+      "why": "Con she: Does she speak…?", "g": "en-g-do-does" },
+    { "id": "e9", "type": "fill", "q": "Where ___ you live?", "es": "¿Dónde vives?", "answer": ["do"], "bank": ["do", "does", "are"],
+      "why": "Con you: Where do you live?", "g": "en-g-do-does" },
+    { "id": "e10", "type": "fill", "q": "What ___ your son do?", "es": "¿A qué se dedica tu hijo?", "answer": ["does"], "bank": ["does", "do", "is"],
+      "why": "Your son = he: What does your son do?", "g": "en-g-do-does" },
+    { "id": "e11", "type": "fill", "q": "My friend ___ drive. She takes the bus.", "es": "Mi amiga no conduce. Coge el autobús.", "answer": ["doesn't", "does not"],
+      "why": "Negativa con she: doesn't + verbo base.", "g": "en-g-do-does" },
+    { "id": "e12", "type": "fill", "q": "Do your grandchildren like pizza? — Yes, they ___.", "es": "¿A tus nietos les gusta la pizza? — Sí.", "answer": ["do"],
+      "why": "Respuesta corta con they: Yes, they do.", "g": "en-g-do-does" },
+    { "id": "e13", "type": "fill", "q": "Does your brother cook? — No, he ___.", "es": "¿Tu hermano cocina? — No.", "answer": ["doesn't", "does not"],
+      "why": "Respuesta corta negativa con he: No, he doesn't.", "g": "en-g-do-does" },
+    { "id": "e14", "type": "transform", "instr": "Hazla negativa", "q": "She works on Saturdays.", "answer": ["She doesn't work on Saturdays.", "She does not work on Saturdays."],
+      "why": "doesn't + work (sin -s).", "g": "en-g-do-does" },
+    { "id": "e15", "type": "transform", "instr": "Hazla negativa", "q": "My neighbour has a dog.", "answer": ["My neighbour doesn't have a dog.", "My neighbour does not have a dog."],
+      "why": "has vuelve a have después de doesn't.", "g": "en-g-do-does" },
+    { "id": "e16", "type": "transform", "instr": "Hazla negativa", "q": "I like football.", "answer": ["I don't like football.", "I do not like football."],
+      "why": "Con I: don't + verbo.", "g": "en-g-do-does" },
+    { "id": "e17", "type": "transform", "instr": "Hazla pregunta", "q": "He lives near here.", "answer": ["Does he live near here?", "Does he live near here"],
+      "why": "Does + he + live (sin -s).", "g": "en-g-do-does" },
+    { "id": "e18", "type": "transform", "instr": "Hazla pregunta", "q": "They speak Spanish.", "answer": ["Do they speak Spanish?", "Do they speak Spanish"],
+      "why": "Con they: Do they speak…?", "g": "en-g-do-does" },
+    { "id": "e19", "type": "transform", "instr": "Hazla pregunta", "q": "The museum opens at ten.", "answer": ["Does the museum open at ten?", "Does the museum open at 10?"],
+      "why": "The museum = it: Does… open.", "g": "en-g-do-does" },
+    { "id": "e20", "type": "error", "q": "She don't like coffee.", "wrong": "don't", "fix": "doesn't",
+      "why": "Con she: doesn't.", "g": "en-g-do-does" },
+    { "id": "e21", "type": "error", "q": "Does your daughter works here?", "wrong": "works", "fix": "work",
+      "why": "Con does el verbo va sin -s.", "g": "en-g-do-does" },
+    { "id": "e22", "type": "error", "q": "He doesn't lives in Madrid.", "wrong": "lives", "fix": "live",
+      "why": "Después de doesn't, forma base: live.", "g": "en-g-do-does" },
+    { "id": "e23", "type": "error", "q": "Do your friend play cards?", "wrong": "Do", "fix": "Does",
+      "why": "Your friend es una persona: Does.", "g": "en-g-do-does" },
+    { "id": "e24", "type": "order", "es": "¿Dónde trabaja tu hijo?", "answer": "Where does your son work", "extra": ["works"],
+      "why": "Where + does + sujeto + verbo base.", "g": "en-g-do-does" },
+    { "id": "e25", "type": "order", "es": "Mi nieto no come pescado", "answer": "My grandson doesn't eat fish", "extra": ["eats"],
+      "why": "doesn't + eat (sin -s).", "g": "en-g-do-does" },
+    { "id": "e26", "type": "order", "es": "¿A qué hora abre la tienda?", "answer": "What time does the shop open", "extra": ["do"],
+      "why": "The shop = it: does.", "g": "en-g-do-does" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "¿Tu hija habla inglés?", "answer": ["Does your daughter speak English?", "Does your daughter speak English"],
+      "why": "Does + your daughter + speak.", "g": "en-g-do-does" },
+    { "id": "e28", "type": "translate", "dir": "to", "q": "Mi amiga no trabaja los lunes.", "answer": ["My friend doesn't work on Mondays.", "My friend does not work on Mondays.", "My friend doesn't work on Monday."],
+      "why": "doesn't + work. Los lunes = on Mondays.", "g": "en-g-do-does" },
+    { "id": "e29", "type": "translate", "dir": "from", "q": "Does he like his job?", "answer": ["¿Le gusta su trabajo?", "¿A él le gusta su trabajo?"],
+      "why": "Does he like…? = ¿Le gusta…?", "g": "en-g-do-does" },
+    { "id": "e30", "type": "situation", "context": "Conoces a una señora en el mercado y quieres saber si vive en el barrio.", "emoji": "🏘️",
+      "options": ["Do you live near here?", "You live near here?", "Are you live near here?"], "answer": "Do you live near here?",
+      "why": "Pregunta en presente simple con you: Do you live…?", "g": "en-g-do-does" },
+    { "id": "e31", "type": "situation", "context": "Quieres preguntar a qué hora cierra la farmacia.", "emoji": "💊",
+      "options": ["What time does the chemist's close?", "What time closes the chemist's?", "What time do the chemist's close?"], "answer": "What time does the chemist's close?",
+      "why": "What time + does + it + verbo base.", "g": "en-g-do-does" },
+    { "id": "e32", "type": "match", "pairs": [["Do you cook?", "Yes, I do."], ["Does she drive?", "No, she doesn't."], ["Do they live here?", "Yes, they do."], ["Does it rain a lot?", "Yes, it does."], ["Does your friend work?", "Yes, she does."]],
+      "why": "La respuesta corta repite el ayudante: do o does.", "g": "en-g-do-does" }
+  ],
+  "reviewed": false
+}

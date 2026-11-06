@@ -1,0 +1,42 @@
+{
+  "id": "en-a1-u02-c1",
+  "unit": "en-a1-u02",
+  "title": "La familia de Emma",
+  "setting": "Emma te enseña fotos de su familia en el móvil",
+  "emoji": "📸",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "Look, Yolanda! This is my husband, Peter.", "es": "¡Mira, Yolanda! Este es mi marido, Peter." },
+      "options": [
+        { "t": "He's very handsome!", "es": "¡Qué guapo es!", "next": "n2", "ok": true },
+        { "t": "She's very handsome!", "es": "(¡Ella es muy guapa!)", "next": "n2", "ok": false, "feedback": "Peter es un hombre: he, no she." }
+      ] },
+    { "id": "n2", "says": { "t": "Thank you! And these are our kids, Jack and Sophie.", "es": "¡Gracias! Y estos son nuestros hijos, Jack y Sophie." },
+      "options": [
+        { "t": "Your kids are lovely!", "es": "¡Tus hijos son un encanto!", "next": "n3", "ok": true },
+        { "t": "You kids are lovely!", "es": "(¡Tú hijos son un encanto!)", "next": "n3", "ok": false, "feedback": "You es «tú»; para «tus» se dice your: your kids." }
+      ] },
+    { "id": "n3", "says": { "t": "Sophie's got two children.", "es": "Sophie tiene dos hijos." },
+      "options": [
+        { "t": "How lovely! What are their names?", "es": "¡Qué bien! ¿Cómo se llaman?", "next": "n4", "ok": true },
+        { "t": "How lovely! What are there names?", "es": "(¡Qué bien! ¿Cómo allí nombres?)", "next": "n4", "ok": false, "feedback": "Suenan igual, pero «sus» (de ellos) se escribe their. There es «allí»." }
+      ] },
+    { "id": "n4", "says": { "t": "Their names are Ruby and Sam. Have you got grandchildren?", "es": "Se llaman Ruby y Sam. ¿Tú tienes nietos?" },
+      "options": [
+        { "t": "Yes, I have.", "es": "Sí, tengo.", "next": "n5", "ok": true },
+        { "t": "Yes, I've got.", "es": "(Sí, tengo.)", "next": "n5", "ok": false, "feedback": "En la respuesta corta no va got: Yes, I have." },
+        { "t": "Yes, I am.", "es": "(Sí, soy.)", "next": "n5", "ok": false, "feedback": "Tener nietos va con have: Yes, I have." }
+      ] },
+    { "id": "n5", "says": { "t": "Have you got a photo?", "es": "¿Tienes una foto?" },
+      "options": [
+        { "t": "Of course! This is my granddaughter with her cat.", "es": "¡Claro! Esta es mi nieta con su gato.", "next": "n6", "ok": true },
+        { "t": "Of course! This is my granddaughter with his cat.", "es": "(¡Claro! Esta es mi nieta con su gato, de él.)", "next": "n6", "ok": false, "feedback": "El gato es de tu nieta, una niña: her cat." }
+      ] },
+    { "id": "n6", "says": { "t": "Aww, she's so sweet!", "es": "¡Ay, qué rica es!" },
+      "options": [
+        { "t": "Thank you! She's my treasure.", "es": "¡Gracias! Es mi tesoro.", "next": "end", "ok": true },
+        { "t": "Thank you! He's my treasure.", "es": "(¡Gracias! Él es mi tesoro.)", "next": "end", "ok": false, "feedback": "Tu nieta es una niña: she's my treasure." }
+      ] }
+  ],
+  "reviewed": false
+}

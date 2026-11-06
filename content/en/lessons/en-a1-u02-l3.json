@@ -1,0 +1,457 @@
+{
+  "id": "en-a1-u02-l3",
+  "unit": "en-a1-u02",
+  "title": "¿Estás casada? Familia y estado civil",
+  "goal": "a hablar del estado civil y a decir «el hijo de…» con 's",
+  "emoji": "💍",
+  "photoQuery": "wedding rings flowers table",
+  "vocab": [
+    {
+      "id": "married",
+      "t": "married",
+      "es": "casado, casada",
+      "emoji": "💍",
+      "pos": "adj",
+      "ex": {
+        "t": "My neighbour is married.",
+        "es": "Mi vecino está casado."
+      }
+    },
+    {
+      "id": "single",
+      "t": "single",
+      "es": "soltero, soltera",
+      "emoji": "🙋",
+      "pos": "adj",
+      "ex": {
+        "t": "My nephew is single.",
+        "es": "Mi sobrino está soltero."
+      }
+    },
+    {
+      "id": "divorced",
+      "t": "divorced",
+      "es": "divorciado, divorciada",
+      "emoji": "💔",
+      "pos": "adj",
+      "ex": {
+        "t": "My friend Pilar is divorced.",
+        "es": "Mi amiga Pilar está divorciada."
+      }
+    },
+    {
+      "id": "widowed",
+      "t": "widowed",
+      "es": "viudo, viuda",
+      "emoji": "🕊️",
+      "pos": "adj",
+      "ex": {
+        "t": "My aunt is widowed.",
+        "es": "Mi tía es viuda."
+      },
+      "note": "Una viuda = a widow; un viudo = a widower."
+    },
+    {
+      "id": "partner",
+      "t": "partner",
+      "es": "pareja",
+      "emoji": "💑",
+      "pos": "n",
+      "ex": {
+        "t": "This is Tom, my partner.",
+        "es": "Este es Tom, mi pareja."
+      }
+    },
+    {
+      "id": "girlfriend",
+      "t": "girlfriend",
+      "es": "novia",
+      "emoji": "💕",
+      "pos": "n",
+      "ex": {
+        "t": "My nephew's girlfriend is Irish.",
+        "es": "La novia de mi sobrino es irlandesa."
+      },
+      "note": "Novio = boyfriend."
+    },
+    {
+      "id": "relatives",
+      "t": "relatives",
+      "es": "parientes, familiares",
+      "emoji": "👪",
+      "pos": "n",
+      "ex": {
+        "t": "All my relatives are at the wedding.",
+        "es": "Todos mis parientes están en la boda."
+      },
+      "note": "¡Ojo, falso amigo! Padres (padre y madre) = parents."
+    },
+    {
+      "id": "mother-in-law",
+      "t": "mother-in-law",
+      "es": "suegra",
+      "emoji": "👵",
+      "pos": "n",
+      "ex": {
+        "t": "My friend's mother-in-law is very nice.",
+        "es": "La suegra de mi amiga es muy maja."
+      },
+      "note": "Suegro = father-in-law; la familia política = the in-laws."
+    },
+    {
+      "id": "how-many-children",
+      "t": "How many children have you got?",
+      "es": "¿Cuántos hijos tienes?",
+      "emoji": "🔢",
+      "pos": "phrase",
+      "ex": {
+        "t": "How many children have you got, Emma?",
+        "es": "¿Cuántos hijos tienes, Emma?"
+      }
+    },
+    {
+      "id": "only-child",
+      "t": "an only child",
+      "es": "hijo único, hija única",
+      "emoji": "1️⃣",
+      "pos": "n",
+      "ex": {
+        "t": "Emma is an only child.",
+        "es": "Emma es hija única."
+      }
+    }
+  ],
+  "grammar": "en-g-possessive-s",
+  "pron": {
+    "title": "La 's: /s/, /z/ o /ɪz/",
+    "tip": "La 's suena /s/ tras un sonido sordo (Kate's), /z/ tras vocal o sonido con voz (Hugo's, Emma's) y /ɪz/ si la palabra acaba en sonido de s, ch o j (George's, Rose's). La diferencia s/z también separa palabras: niece / knees.",
+    "words": [
+      "Kate's",
+      "Hugo's",
+      "Emma's",
+      "George's",
+      "Rose's"
+    ],
+    "pairs": [
+      [
+        "niece",
+        "knees"
+      ],
+      [
+        "price",
+        "prize"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "This is ___ car.",
+      "es": "Este es el coche de mi hijo.",
+      "options": [
+        "my son's",
+        "my sons",
+        "the son's my"
+      ],
+      "answer": "my son's",
+      "why": "El dueño va primero con 's: my son's car.",
+      "g": "en-g-possessive-s"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Peter is ___ husband.",
+      "es": "Peter es el marido de Emma.",
+      "options": [
+        "Emma's",
+        "Emma",
+        "of Emma"
+      ],
+      "answer": "Emma's",
+      "why": "El marido de Emma = Emma's husband.",
+      "g": "en-g-possessive-s"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "q": "My husband's mother is my ___.",
+      "answer": [
+        "mother-in-law"
+      ],
+      "bank": [
+        "mother-in-law",
+        "grandmother",
+        "aunt"
+      ],
+      "why": "La madre de tu marido es tu suegra: mother-in-law."
+    },
+    {
+      "id": "e4",
+      "type": "situation",
+      "context": "Tu amiga Pilar está divorciada. ¿Cómo lo dices?",
+      "emoji": "💔",
+      "options": [
+        "She's divorced.",
+        "She's divorce.",
+        "She has divorced."
+      ],
+      "answer": "She's divorced.",
+      "why": "El estado civil va con to be + adjetivo: she's divorced, I'm married."
+    },
+    {
+      "id": "e5",
+      "type": "situation",
+      "context": "Te preguntan: «Have you got children?» Quieres hablar de tu hijo Hugo.",
+      "emoji": "👦",
+      "options": [
+        "I've got a son, Hugo.",
+        "I have a son years, Hugo.",
+        "I'm a son, Hugo."
+      ],
+      "answer": "I've got a son, Hugo.",
+      "why": "Tener hijos = have got: I've got a son."
+    },
+    {
+      "id": "e6",
+      "type": "order",
+      "es": "¿Cuántos hijos tienes?",
+      "answer": "How many children have you got",
+      "extra": [
+        "has"
+      ],
+      "why": "How many + plural + have you got? Así se pregunta cuántos."
+    },
+    {
+      "id": "e7",
+      "type": "order",
+      "es": "La hermana de mi marido es profesora",
+      "answer": "My husband's sister is a teacher",
+      "extra": [
+        "of"
+      ],
+      "why": "Primero el dueño con 's: my husband's sister.",
+      "g": "en-g-possessive-s"
+    },
+    {
+      "id": "e8",
+      "type": "transform",
+      "instr": "Usa 's",
+      "q": "the husband of Carmen",
+      "answer": [
+        "Carmen's husband"
+      ],
+      "why": "Dueño + 's + cosa: Carmen's husband.",
+      "g": "en-g-possessive-s"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "This is Emma husband.",
+      "wrong": "Emma",
+      "fix": "Emma's",
+      "why": "Falta la 's del dueño: Emma's husband (el marido de Emma).",
+      "g": "en-g-possessive-s"
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "Estoy casada.",
+      "answer": [
+        "I'm married.",
+        "I am married."
+      ],
+      "why": "Estar casada = to be married. Nada de «I have married»."
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Soy hija única.",
+      "answer": [
+        "I'm an only child.",
+        "I am an only child."
+      ],
+      "why": "Hijo o hija único = an only child (con an porque only empieza por vocal)."
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "from",
+      "q": "Ana is my neighbour's wife.",
+      "answer": [
+        "Ana es la mujer de mi vecino.",
+        "Ana es la esposa de mi vecino."
+      ],
+      "why": "My neighbour's wife = la mujer de mi vecino.",
+      "g": "en-g-possessive-s"
+    },
+    {
+      "id": "e13",
+      "type": "match",
+      "pairs": [
+        [
+          "married",
+          "casada"
+        ],
+        [
+          "single",
+          "soltera"
+        ],
+        [
+          "divorced",
+          "divorciada"
+        ],
+        [
+          "widowed",
+          "viuda"
+        ],
+        [
+          "partner",
+          "pareja"
+        ]
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de Emma",
+      "text": "Hi Yolanda! Big news: my daughter's getting married in June! 💍 Her boyfriend is Scottish. He's lovely!",
+      "questions": [
+        {
+          "q": "¿Quién se casa?",
+          "options": [
+            "La hija de Emma",
+            "Emma",
+            "El hijo de Emma"
+          ],
+          "answer": "La hija de Emma"
+        },
+        {
+          "q": "¿Cuándo es la boda?",
+          "options": [
+            "En junio",
+            "En julio",
+            "En enero"
+          ],
+          "answer": "En junio"
+        },
+        {
+          "q": "¿De dónde es el novio?",
+          "options": [
+            "De Escocia",
+            "De Irlanda",
+            "De España"
+          ],
+          "answer": "De Escocia"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "type": "minimal",
+      "pair": [
+        "niece",
+        "knees"
+      ],
+      "answer": "niece",
+      "es": [
+        "sobrina",
+        "rodillas"
+      ],
+      "why": "Niece acaba en /s/, sin voz, como una serpiente. Knees acaba en /z/, con zumbido."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "My neighbour's wife is lovely.",
+      "es": "La mujer de mi vecino es un encanto."
+    }
+  ],
+  "dialog": {
+    "title": "Charla en el tren",
+    "setting": "En el tren de Londres a Oxford, Yolanda habla con una señora inglesa",
+    "emoji": "🚆",
+    "lines": [
+      {
+        "who": "Margaret",
+        "t": "Have you got children?",
+        "es": "¿Tiene hijos?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, a son, Hugo.",
+        "es": "Sí, un hijo, Hugo."
+      },
+      {
+        "who": "Margaret",
+        "t": "Hugo! What a nice name.",
+        "es": "¡Hugo! Qué nombre tan bonito."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Thank you. And you? Are you married?",
+        "es": "Gracias. ¿Y usted? ¿Está casada?"
+      },
+      {
+        "who": "Margaret",
+        "t": "I'm widowed. But I've got three children.",
+        "es": "Soy viuda. Pero tengo tres hijos."
+      },
+      {
+        "who": "Yolanda",
+        "t": "How many grandchildren have you got?",
+        "es": "¿Cuántos nietos tiene?"
+      },
+      {
+        "who": "Margaret",
+        "t": "Seven! My daughter's kids are twins.",
+        "es": "¡Siete! Los hijos de mi hija son gemelos."
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cuántos hijos tiene Margaret?",
+        "options": [
+          "Tres",
+          "Uno",
+          "Siete"
+        ],
+        "answer": "Tres"
+      },
+      {
+        "q": "¿Cuál es el estado civil de Margaret?",
+        "options": [
+          "Es viuda",
+          "Está divorciada",
+          "Está soltera"
+        ],
+        "answer": "Es viuda"
+      },
+      {
+        "q": "¿Quiénes son gemelos?",
+        "options": [
+          "Los hijos de la hija de Margaret",
+          "Los hijos de Margaret"
+        ],
+        "answer": "Los hijos de la hija de Margaret"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "How many grandchildren have you got?",
+    "es": "¿Cuántos nietos tienes?",
+    "context": "Para charlar con otras abuelas en el parque"
+  },
+  "summary": [
+    "Estado civil con to be: I'm married, she's divorced, he's single",
+    "'s para decir «de» alguien: Emma's husband, my son's car",
+    "Relatives = parientes; parents = padres",
+    "Preguntar: How many children have you got?",
+    "La 's suena /s/, /z/ o /ɪz/ según la palabra"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u02-l3"
+}

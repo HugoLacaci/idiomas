@@ -1,0 +1,58 @@
+{
+  "id": "it-b1-u01-c3",
+  "unit": "it-b1-u01",
+  "title": "¿Te apetecería un plan?",
+  "setting": "Giulia te propone planes para el fin de semana; tú aceptas, rechazas con cariño y propones",
+  "emoji": "☕",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ti andrebbe di andare a una mostra sabato mattina?", "es": "¿Te apetecería ir a una exposición el sábado por la mañana?" },
+      "options": [
+        { "t": "Verrei volentieri, ma sabato ho i nipoti.", "es": "Iría con gusto, pero el sábado tengo a los nietos.", "next": "n2", "ok": true },
+        { "t": "Verrò volentieri, ma sabato ho i nipoti.", "es": "Iré con gusto, pero el sábado tengo a los nietos.", "next": "n2", "ok": false, "feedback": "Si luego dices que no puedes, usa el condicional: verrei (iría)." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Peccato! E domenica? Che ne diresti di un pranzo al mare?", "es": "¡Qué pena! ¿Y el domingo? ¿Qué te parecería una comida en la playa?" },
+      "options": [
+        { "t": "Mi piacerebbe moltissimo! A che ora?", "es": "¡Me encantaría! ¿A qué hora?", "next": "n3", "ok": true },
+        { "t": "Mi piacerei moltissimo! A che ora?", "es": "¡Me encantaría! ¿A qué hora?", "next": "n3", "ok": false, "feedback": "Lo que gusta es el plan (él): mi piacerebbe." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Io partirei verso le dieci. Va bene?", "es": "Yo saldría hacia las diez. ¿Te va bien?" },
+      "options": [
+        { "t": "Preferirei un po' più tardi, se per te va bene.", "es": "Preferiría un poco más tarde, si te va bien.", "next": "n4", "ok": true },
+        { "t": "Preferisco più tardi e basta.", "es": "Prefiero más tarde y punto.", "next": "n4", "ok": false, "feedback": "Se entiende, pero suena seco. Preferirei… se per te va bene es mucho más amable." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Va bene, alle undici. Chiediamo anche a Marco?", "es": "Vale, a las once. ¿Se lo decimos también a Marco?" },
+      "options": [
+        { "t": "Sì! E potremmo invitare anche le mie amiche.", "es": "¡Sí! Y podríamos invitar también a mis amigas.", "next": "n5", "ok": true },
+        { "t": "Sì! E potremo invitare anche le mie amiche.", "es": "¡Sí! Y podremos invitar también a mis amigas.", "next": "n5", "ok": false, "feedback": "Para proponer: potremmo, con doble m." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Perfetto! Cosa porteresti tu?", "es": "¡Perfecto! ¿Qué llevarías tú?" },
+      "options": [
+        { "t": "Porterei una tortilla di patate!", "es": "¡Llevaría una tortilla de patatas!", "next": "n6", "ok": true },
+        { "t": "Porteresti una tortilla di patate!", "es": "¡Llevaría una tortilla de patatas!", "next": "n6", "ok": false, "feedback": "Hablas de ti: porterei (porteresti es tú)." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Fantastico! Sarebbe la prima volta che la assaggio.", "es": "¡Fantástico! Sería la primera vez que la pruebo." },
+      "options": [
+        { "t": "Allora sarà una domenica speciale!", "es": "¡Entonces será un domingo especial!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,59 @@
+{
+  "id": "it-b1-u01-c1",
+  "unit": "it-b1-u01",
+  "title": "¿Qué te gustaría hacer?",
+  "setting": "Giulia y tú tomáis un café en Roma y habláis de vuestros sueños pendientes",
+  "emoji": "💭",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, hai un sogno nel cassetto?", "es": "Yolanda, ¿tienes algún sueño pendiente?" },
+      "options": [
+        { "t": "Sì! Mi piacerebbe vivere qualche mese in Italia.", "es": "¡Sí! Me gustaría vivir unos meses en Italia.", "next": "n2", "ok": true },
+        { "t": "Sì! Io piacerebbe vivere qualche mese in Italia.", "es": "¡Sí! Me gustaría vivir unos meses en Italia.", "next": "n2", "ok": false, "feedback": "Con piacere necesitas el pronombre: mi piacerebbe." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che bello! E in quale città vivresti?", "es": "¡Qué bonito! ¿Y en qué ciudad vivirías?" },
+      "options": [
+        { "t": "Vivrei a Trieste, vicino al mare.", "es": "Viviría en Trieste, cerca del mar.", "next": "n3", "ok": true },
+        { "t": "Viverei a Trieste, vicino al mare.", "es": "Viviría en Trieste, cerca del mar.", "next": "n3", "ok": false, "feedback": "Vivere pierde la e: vivrei." },
+        { "t": "Vivrò a Trieste, vicino al mare.", "es": "Viviré en Trieste, cerca del mar.", "next": "n3", "ok": false, "feedback": "Vivrò es futuro (viviré). Para un sueño, condicional: vivrei." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "E tuo marito cosa ne pensa?", "es": "¿Y qué opina tu marido?" },
+      "options": [
+        { "t": "Lui verrebbe volentieri, ma lavora ancora.", "es": "Él vendría con gusto, pero todavía trabaja.", "next": "n4", "ok": true },
+        { "t": "Lui verrei volentieri, ma lavora ancora.", "es": "Él vendría con gusto, pero todavía trabaja.", "next": "n4", "ok": false, "feedback": "Con lui: verrebbe (verrei es para io)." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E cosa faresti tutto il giorno?", "es": "¿Y qué harías todo el día?" },
+      "options": [
+        { "t": "Farei un corso d'italiano e cucinerei tanto.", "es": "Haría un curso de italiano y cocinaría mucho.", "next": "n5", "ok": true },
+        { "t": "Farei un corso d'italiano e cucinarei tanto.", "es": "Haría un curso de italiano y cocinaría mucho.", "next": "n5", "ok": false, "feedback": "En -are la a pasa a e: cucinerei." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "E il tuo sogno più piccolo, per domani?", "es": "¿Y tu sueño más pequeño, para mañana?" },
+      "options": [
+        { "t": "Vorrei un altro caffè con te!", "es": "¡Querría otro café contigo!", "next": "n6", "ok": true },
+        { "t": "Vorrebbe un altro caffè con te!", "es": "¡Querría otro café contigo!", "next": "n6", "ok": false, "feedback": "Si hablas tú: vorrei." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Ahah, questo sogno lo realizziamo subito!", "es": "¡Jaja, este sueño lo cumplimos ahora mismo!" },
+      "options": [
+        { "t": "Magari tutti i sogni fossero così facili!", "es": "¡Ojalá todos los sueños fueran así de fáciles!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": "it-a0-u00-c3",
+  "unit": "it-a0-u00",
+  "title": "Grazie, Giulia!",
+  "setting": "Giulia te ayuda a encontrar el hotel con tu maleta",
+  "emoji": "🧳",
+  "start": "n1",
+  "nodes": [
+    { "id": "n1", "says": { "t": "Ciao, Yolanda! Ti aiuto con la valigia?", "es": "¡Hola, Yolanda! ¿Te ayudo con la maleta?" },
+      "options": [
+        { "t": "Sì, grazie!", "es": "¡Sí, gracias!", "next": "n2", "ok": true },
+        { "t": "No, ciao!", "es": "¡No, adiós!", "next": "n2", "ok": false, "feedback": "¡Mejor acepta la ayuda! Di «Sì, grazie!»." }
+      ] },
+    { "id": "n2", "says": { "t": "Dov'è il tuo hotel?", "es": "¿Dónde está tu hotel?" },
+      "options": [
+        { "t": "Hotel Roma, in via Cavour.", "es": "Hotel Roma, en la calle Cavour.", "next": "n3", "ok": true },
+        { "t": "Hotel pizza, per favore!", "es": "¡Hotel pizza, por favor!", "next": "n3", "ok": false, "feedback": "¡Ja, ja! Dile el nombre y la calle: «Hotel Roma, in via Cavour»." }
+      ] },
+    { "id": "n3", "says": { "t": "È vicino! Andiamo... Ecco l'hotel!", "es": "¡Está cerca! Vamos… ¡Aquí está el hotel!" },
+      "options": [
+        { "t": "Grazie mille, Giulia!", "es": "¡Muchísimas gracias, Giulia!", "next": "n4", "ok": true },
+        { "t": "Prego, Giulia!", "es": "¡De nada, Giulia!", "next": "n4", "ok": false, "feedback": "Giulia te ha ayudado a ti: dale las gracias con «Grazie mille!»." }
+      ] },
+    { "id": "n4", "says": { "t": "Prego! È un piacere.", "es": "¡De nada! Es un placer." },
+      "options": [
+        { "t": "Sei molto gentile!", "es": "¡Eres muy amable!", "next": "n5", "ok": true },
+        { "t": "Ciao, amore!", "es": "¡Adiós, cariño!", "next": "n5", "ok": false, "feedback": "«Amore» es para la pareja o la familia. A una amiga nueva: «Sei molto gentile!»." }
+      ] },
+    { "id": "n5", "says": { "t": "Grazie! Ci vediamo domani?", "es": "¡Gracias! ¿Nos vemos mañana?" },
+      "options": [
+        { "t": "Sì! A domani!", "es": "¡Sí! ¡Hasta mañana!", "next": "n6", "ok": true },
+        { "t": "Sì! Buongiorno!", "es": "¡Sí! ¡Buenos días!", "next": "n6", "ok": false, "feedback": "«Buongiorno» es para saludar al llegar. Para «hasta mañana»: «A domani!»." }
+      ] },
+    { "id": "n6", "says": { "t": "A domani! Ciao, Yolanda!", "es": "¡Hasta mañana! ¡Adiós, Yolanda!" },
+      "options": [
+        { "t": "Ciao, Giulia! Grazie di tutto!", "es": "¡Adiós, Giulia! ¡Gracias por todo!", "next": "end", "ok": true },
+        { "t": "Ciao, Giulia! Prego di tutto!", "es": "¡Adiós, Giulia! ¡De nada por todo!", "next": "end", "ok": false, "feedback": "Para agradecer se dice «Grazie di tutto» (gracias por todo)." }
+      ] }
+  ],
+  "reviewed": false
+}

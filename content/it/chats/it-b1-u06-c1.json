@@ -1,0 +1,60 @@
+{
+  "id": "it-b1-u06-c1",
+  "unit": "it-b1-u06",
+  "title": "¿Por qué estudias italiano?",
+  "setting": "Giulia te llama desde Roma y te pregunta por tu curso de italiano",
+  "emoji": "📚",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Yolanda, il tuo italiano migliora tanto! Perché lo studi?", "es": "Yolanda, ¡tu italiano mejora mucho! ¿Por qué lo estudias?" },
+      "options": [
+        { "t": "Perché voglio parlare con la gente quando viaggio.", "es": "Porque quiero hablar con la gente cuando viajo.", "next": "n2", "ok": true },
+        { "t": "Perché voglio di parlare con la gente quando viaggio.", "es": "Porque quiero hablar con la gente cuando viajo.", "next": "n2", "ok": false, "feedback": "Volere va directamente con el infinitivo, sin di: voglio parlare." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Che bello! E qual è il tuo obiettivo per quest'anno?", "es": "¡Qué bonito! ¿Y cuál es tu objetivo para este año?" },
+      "options": [
+        { "t": "Spero di superare l'esame B1.", "es": "Espero aprobar el examen B1.", "next": "n3", "ok": true },
+        { "t": "Spero che supero l'esame B1.", "es": "Espero aprobar el examen B1.", "next": "n3", "ok": false, "feedback": "Si eres tú quien espera y quien aprueba, usa di + infinitivo: spero di superare." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Brava! E la tua insegnante com'è?", "es": "¡Muy bien! ¿Y cómo es tu profesora?" },
+      "options": [
+        { "t": "È bravissima. Vuole che parliamo sempre in italiano.", "es": "Es buenísima. Quiere que hablemos siempre en italiano.", "next": "n4", "ok": true },
+        { "t": "È bravissima. Vuole che noi parlino sempre in italiano.", "es": "Es buenísima. Quiere que hablemos siempre en italiano.", "next": "n4", "ok": false, "feedback": "Con noi, el congiuntivo es igual que el presente: parliamo. Parlino es para loro." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "E i compiti? Ne avete tanti?", "es": "¿Y los deberes? ¿Tenéis muchos?" },
+      "options": [
+        { "t": "Sì, ma è importante che io ripassi ogni giorno.", "es": "Sí, pero es importante que repase cada día.", "next": "n5", "ok": true },
+        { "t": "Sì, ma è importante che io ripasso ogni giorno.", "es": "Sí, pero es importante que repase cada día.", "next": "n5", "ok": false, "feedback": "È importante che + congiuntivo: che io ripassi." },
+        { "t": "Sì, ma è importante di ripassare ogni giorno.", "es": "Sí, pero es importante repasar cada día.", "next": "n5", "ok": false, "feedback": "Casi: con è importante el infinitivo va sin di: è importante ripassare." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Hai ragione. Io spero che tu venga presto a Roma per fare pratica!", "es": "Tienes razón. ¡Yo espero que vengas pronto a Roma para practicar!" },
+      "options": [
+        { "t": "Magari! Spero che mio marito possa venire con me.", "es": "¡Ojalá! Espero que mi marido pueda venir conmigo.", "next": "n6", "ok": true },
+        { "t": "Magari! Spero che mio marito può venire con me.", "es": "¡Ojalá! Espero que mi marido pueda venir conmigo.", "next": "n6", "ok": false, "feedback": "Potere en congiuntivo: possa (como posso)." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Sarebbe fantastico! Sono contenta che tu abbia tanta voglia di imparare.", "es": "¡Sería fantástico! Me alegro de que tengas tantas ganas de aprender." },
+      "options": [
+        { "t": "Grazie! Anch'io sono contenta di parlare con te.", "es": "¡Gracias! Yo también me alegro de hablar contigo.", "next": "end", "ok": true },
+        { "t": "Grazie! Anch'io sono contenta che parlo con te.", "es": "¡Gracias! Yo también me alegro de hablar contigo.", "next": "end", "ok": false, "feedback": "Mismo sujeto (yo me alegro, yo hablo): sono contenta di parlare." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

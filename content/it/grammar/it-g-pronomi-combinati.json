@@ -1,0 +1,155 @@
+{
+  "id": "it-g-pronomi-combinati",
+  "lang": "it",
+  "level": "B1",
+  "title": "Pronombres combinados (me lo, te la, glielo)",
+  "short": "Te lo regalo, me la presti?, glielo porto io: dos pronombres juntos, como «se lo» en español.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "Dos pronombres juntos",
+      "emoji": "🎁",
+      "text": "¿La bufanda? ¿Para ti? ==Te la== regalo. Como en español: primero ==a quién==, después ==qué==.",
+      "examples": [
+        { "t": "La sciarpa? ==Te la== regalo!", "es": "¿La bufanda? ¡Te la regalo!", "hl": "Te la" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "La i se vuelve e",
+      "emoji": "🔄",
+      "text": "Delante de lo, la, li, le y ne: ==mi → me==, ==ti → te==, ==ci → ce==, ==vi → ve==.",
+      "examples": [
+        { "t": "Mi dai il libro? → ==Me lo== dai?", "es": "¿Me das el libro? → ¿Me lo das?", "hl": "Me lo" },
+        { "t": "Ci mandi le foto? → ==Ce le== mandi?", "es": "¿Nos mandas las fotos? → ¿Nos las mandas?", "hl": "Ce le" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "La tabla completa",
+      "emoji": "🧮",
+      "text": "Fíjate en la fila de ==glie-==: vale para él, para ella, para usted y para ellos. Y va todo junto.",
+      "table": {
+        "head": ["", "lo", "la", "li", "le", "ne"],
+        "rows": [
+          ["mi", "==me== lo", "==me== la", "==me== li", "==me== le", "==me== ne"],
+          ["ti", "==te== lo", "==te== la", "==te== li", "==te== le", "==te== ne"],
+          ["gli / le", "==glie==lo", "==glie==la", "==glie==li", "==glie==le", "==glie==ne"],
+          ["ci", "==ce== lo", "==ce== la", "==ce== li", "==ce== le", "==ce== ne"],
+          ["vi", "==ve== lo", "==ve== la", "==ve== li", "==ve== le", "==ve== ne"]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "«Se lo» = glielo",
+      "emoji": "🇪🇸",
+      "text": "En español, «le + lo» se convierte en ==se lo==. En italiano, gli o le + lo se convierte en ==glielo==, en una sola palabra.",
+      "examples": [
+        { "t": "Do il libro a Hugo. → ==Glielo== do.", "es": "Le doy el libro a Hugo. → Se lo doy.", "hl": "Glielo" },
+        { "t": "Porto la torta a un'amica. → ==Gliela== porto.", "es": "Le llevo la tarta a una amiga. → Se la llevo.", "hl": "Gliela" },
+        { "t": "==Glielo== incarto, signora?", "es": "¿Se lo envuelvo, señora?", "hl": "Glielo" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "¿Dónde van?",
+      "emoji": "📍",
+      "text": "Delante del verbo: ==te lo do==. Pegados al infinitivo y al imperativo de tú: ==darteli==, ==portamela==. Con da', fa', di' se dobla: ==dammelo==.",
+      "examples": [
+        { "t": "Posso ==prestartelo== domani.", "es": "Te lo puedo prestar mañana.", "hl": "prestartelo" },
+        { "t": "Il sale? ==Dammelo==, per favore.", "es": "¿La sal? Dámela, por favor.", "hl": "Dammelo" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "En pasado, concuerda",
+      "emoji": "🧾",
+      "text": "Lo y la se apostrofan (==gliel'ho==) y el participio concuerda con la cosa que regalas.",
+      "table": {
+        "head": ["Cosa", "Passato prossimo"],
+        "rows": [
+          ["il libro", "te l'ho regalat==o=="],
+          ["la sciarpa", "te l'ho regalat==a=="],
+          ["i guanti", "te li ho regalat==i=="],
+          ["le foto", "te le ho mandat==e=="]
+        ]
+      }
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Mi lo dai?* → ✅ ==me lo==. ❌ *Se lo do a Hugo* → ✅ ==glielo==. ❌ *Gli lo do* → ✅ ==glielo==, junto. ❌ *Te l'ho regalato* (la sciarpa) → ✅ ==regalata==."
+    },
+    {
+      "kind": "tip",
+      "title": "Tres frases de oro",
+      "emoji": "💡",
+      "text": "Apréndete estas de memoria y úsalas en cuanto puedas: ==Te lo regalo!== ==Me lo può incartare?== ==Glielo porto io!==",
+      "examples": [
+        { "t": "Ti piace? Te lo regalo!", "es": "¿Te gusta? ¡Te lo regalo!" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: «Te lo presto», «¿Me la das?», y «le + lo» se convierte en «se lo»: «Se lo doy a Hugo».",
+    "target": "En italiano: «Te lo presto», «Me la dai?» (mi, ti, ci, vi cambian a me, te, ce, ve), y «gli + lo» se convierte en una sola palabra: «Glielo do». Se usa glielo para él, ella, usted y ellos."
+  },
+  "errors": [
+    { "wrong": "Mi lo dai, per favore?", "right": "Me lo dai, per favore?", "why": "Delante de lo, la, li, le, ne, mi se convierte en me." },
+    { "wrong": "Se lo do a Hugo.", "right": "Glielo do (a Hugo).", "why": "«Se lo» es español. En italiano: glielo." },
+    { "wrong": "Gli lo regalo.", "right": "Glielo regalo.", "why": "Gli + lo se unen con una e: glielo, todo junto." },
+    { "wrong": "La sciarpa? Te l'ho regalato.", "right": "La sciarpa? Te l'ho regalata.", "why": "Con lo/la delante, el participio concuerda con la cosa: regalata." },
+    { "wrong": "Lo te presto.", "right": "Te lo presto.", "why": "Primero «a quién» (te) y después «qué» (lo), como en español." },
+    { "wrong": "Dammilo, per favore.", "right": "Dammelo, per favore.", "why": "También pegado al verbo, mi pasa a me: dammelo." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Il libro? ___ presto io.", "es": "¿El libro? Te lo presto yo.", "options": ["Te lo", "Ti lo", "Lo te"], "answer": "Te lo", "why": "Ti + lo → te lo, y primero el «a quién».", "g": "it-g-pronomi-combinati" },
+    { "id": "e2", "type": "choose", "q": "La torta? ___ porta mio figlio stasera.", "es": "¿La tarta? Nos la trae mi hijo esta noche.", "options": ["Ce la", "Ci la", "Ce lo"], "answer": "Ce la", "why": "Ci + la → ce la. La torta es femenino.", "g": "it-g-pronomi-combinati" },
+    { "id": "e3", "type": "choose", "q": "Le foto? ___ mando dopo, ragazzi.", "es": "¿Las fotos? Os las mando luego, chicos.", "options": ["Ve le", "Vi le", "Ve li"], "answer": "Ve le", "why": "Vi + le → ve le. Foto es femenino plural.", "g": "it-g-pronomi-combinati" },
+    { "id": "e4", "type": "choose", "q": "Il caffè? ___ porto subito, signora.", "es": "¿El café? Se lo traigo enseguida, señora.", "options": ["Glielo", "Le lo", "Se lo"], "answer": "Glielo", "why": "A usted (Le) + lo → glielo, todo junto.", "g": "it-g-pronomi-combinati" },
+    { "id": "e5", "type": "choose", "q": "La ricetta? A un'amica ___ mando su WhatsApp.", "es": "¿La receta? A una amiga se la mando por WhatsApp.", "options": ["gliela", "glielo", "le la"], "answer": "gliela", "why": "A ella (le) + la ricetta (la) → gliela.", "g": "it-g-pronomi-combinati" },
+    { "id": "e6", "type": "choose", "q": "I biscotti? Ai bambini ___ do dopo cena.", "es": "¿Las galletas? A los niños se las doy después de cenar.", "options": ["glieli", "gliele", "gli li"], "answer": "glieli", "why": "Biscotti es masculino plural: glieli.", "g": "it-g-pronomi-combinati" },
+    { "id": "e7", "type": "choose", "q": "Le caramelle? Alle nipotine ___ compro io.", "es": "¿Los caramelos? A las nietas se los compro yo.", "options": ["gliele", "glieli", "le le"], "answer": "gliele", "why": "Caramelle es femenino plural en italiano: gliele.", "g": "it-g-pronomi-combinati" },
+    { "id": "e8", "type": "choose", "q": "Vuoi delle mele? ___ do tre.", "es": "¿Quieres manzanas? Te doy tres.", "options": ["Te ne", "Ti ne", "Ne te"], "answer": "Te ne", "why": "Con una cantidad se usa ne: ti + ne → te ne.", "g": "it-g-pronomi-combinati" },
+    { "id": "e9", "type": "fill", "q": "Lo zaino? Te ___ presto per la gita.", "es": "¿La mochila? Te la presto para la excursión.", "answer": ["lo"], "bank": ["lo", "la", "li"], "why": "Lo zaino es masculino en italiano: te lo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e10", "type": "fill", "q": "La valigia? Ce ___ porta il tassista.", "es": "¿La maleta? Nos la lleva el taxista.", "answer": ["la"], "bank": ["la", "le", "lo"], "why": "La valigia → la; ci + la → ce la.", "g": "it-g-pronomi-combinati" },
+    { "id": "e11", "type": "fill", "q": "Gli scarponi? ___ presto io a tuo figlio.", "es": "¿Las botas? Se las presto yo a tu hijo.", "answer": ["Glieli"], "bank": ["Glieli", "Gliele", "Gli li"], "why": "Scarponi es masculino plural: glieli, en una palabra.", "g": "it-g-pronomi-combinati" },
+    { "id": "e12", "type": "fill", "q": "Le chiavi? Ve ___ lascio sul tavolo.", "es": "¿Las llaves? Os las dejo en la mesa.", "answer": ["le"], "bank": ["le", "li", "la"], "why": "Le chiavi es femenino plural: ve le.", "g": "it-g-pronomi-combinati" },
+    { "id": "e13", "type": "fill", "q": "Vuoi del pane? Te ___ do un pezzo.", "es": "¿Quieres pan? Te doy un trozo.", "answer": ["ne"], "bank": ["ne", "lo", "la"], "why": "Con una cantidad (un pezzo) va ne: te ne do un pezzo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e14", "type": "fill", "q": "Mi presti la penna? Sì, te ___ presto.", "es": "¿Me prestas el boli? Sí, te lo presto.", "answer": ["la"], "hint": "la penna", "why": "La penna es femenino: te la presto.", "g": "it-g-pronomi-combinati" },
+    { "id": "e15", "type": "fill", "q": "Dov'è il mio telefono? ___ lo dai, per favore?", "es": "¿Dónde está mi teléfono? ¿Me lo das, por favor?", "answer": ["Me"], "hint": "a mí", "why": "Mi + lo → me lo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e16", "type": "fill", "q": "Signora, il pacco ___ porto io domani.", "es": "Señora, el paquete se lo llevo yo mañana.", "answer": ["glielo"], "hint": "a usted + el paquete", "why": "A usted + lo → glielo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e17", "type": "fill", "q": "Gli orecchini? Me ___ ha regalati mio marito.", "es": "¿Los pendientes? Me los regaló mi marido.", "answer": ["li"], "hint": "gli orecchini", "why": "Orecchini es masculino plural: me li ha regalati.", "g": "it-g-pronomi-combinati" },
+    { "id": "e18", "type": "fill", "q": "Il tiramisù? Te ___ preparo per domenica.", "es": "¿El tiramisú? Te lo preparo para el domingo.", "answer": ["lo"], "why": "Il tiramisù es masculino singular: te lo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e19", "type": "order", "es": "Te lo regalo por tu cumpleaños.", "answer": "Te lo regalo per il tuo compleanno", "extra": ["ti"], "why": "Te lo delante del verbo; y en italiano: il tuo compleanno, con artículo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e20", "type": "order", "es": "Se lo llevo yo mañana.", "answer": "Glielo porto io domani", "extra": ["se"], "why": "«Se lo» en italiano es glielo, una sola palabra.", "g": "it-g-pronomi-combinati" },
+    { "id": "e21", "type": "order", "es": "¿Me la puedes prestar?", "answer": "Me la puoi prestare", "alt": ["Puoi prestarmela"], "extra": ["mi"], "why": "Con poter: me la puoi prestare o puoi prestarmela.", "g": "it-g-pronomi-combinati" },
+    { "id": "e22", "type": "order", "es": "No te los doy.", "answer": "Non te li do", "extra": ["ti"], "why": "Non va delante de los dos pronombres: non te li do.", "g": "it-g-pronomi-combinati" },
+    { "id": "e23", "type": "order", "es": "Nos hacen falta dos.", "answer": "Ce ne servono due", "extra": ["ci"], "why": "Ci + ne → ce ne: nos hacen falta dos (de ellos).", "g": "it-g-pronomi-combinati" },
+    { "id": "e24", "type": "transform", "instr": "Sustituye «il libro» por un pronombre", "q": "Ti do il libro.", "answer": ["Te lo do."], "why": "Ti + lo → te lo do.", "g": "it-g-pronomi-combinati" },
+    { "id": "e25", "type": "transform", "instr": "Sustituye «la ricetta» y «a Giulia» por pronombres", "q": "Mando la ricetta a Giulia.", "answer": ["Gliela mando."], "why": "A Giulia (le) + la ricetta (la) → gliela.", "g": "it-g-pronomi-combinati" },
+    { "id": "e26", "type": "transform", "instr": "Pega los pronombres al infinitivo", "q": "Te lo posso portare domani.", "answer": ["Posso portartelo domani."], "why": "Portare pierde la e y se pegan te + lo: portartelo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e27", "type": "transform", "instr": "Sustituye «il sale» por un pronombre", "q": "Dammi il sale, per favore.", "answer": ["Dammelo, per favore."], "why": "Dammi + lo → dammelo: mi pasa a me.", "g": "it-g-pronomi-combinati" },
+    { "id": "e28", "type": "transform", "instr": "Pásala al passato prossimo", "q": "Te la regalo.", "answer": ["Te l'ho regalata."], "why": "La se apostrofa (l'ho) y el participio va en femenino: regalata.", "g": "it-g-pronomi-combinati" },
+    { "id": "e29", "type": "transform", "instr": "Pásala al passato prossimo", "q": "Glieli mando.", "answer": ["Glieli ho mandati."], "why": "Li no se apostrofa; el participio va en masculino plural: mandati.", "g": "it-g-pronomi-combinati" },
+    { "id": "e30", "type": "transform", "instr": "Contesta con pronombres combinados", "q": "Mi presti la macchina? Sì, …", "answer": ["Sì, te la presto.", "Te la presto."], "why": "La macchina → la; a ti → te: te la presto.", "g": "it-g-pronomi-combinati" },
+    { "id": "e31", "type": "error", "q": "Mi lo dai, per favore?", "wrong": "Mi", "fix": "Me", "why": "Delante de lo, mi cambia a me.", "g": "it-g-pronomi-combinati" },
+    { "id": "e32", "type": "error", "q": "Il libro? Ti lo restituisco domani.", "wrong": "Ti", "fix": "Te", "why": "Delante de lo, ti cambia a te.", "g": "it-g-pronomi-combinati" },
+    { "id": "e33", "type": "error", "q": "La borsa? Glielo regalo per Natale.", "wrong": "Glielo", "fix": "Gliela", "why": "La borsa es femenino: gliela.", "g": "it-g-pronomi-combinati" },
+    { "id": "e34", "type": "error", "q": "Le foto? Te le ho mandato ieri.", "wrong": "mandato", "fix": "mandate", "why": "Con le delante, el participio concuerda: mandate.", "g": "it-g-pronomi-combinati" },
+    { "id": "e35", "type": "error", "q": "Il pane? Dammilo, per favore.", "wrong": "Dammilo", "fix": "Dammelo", "why": "Pegado al verbo, mi también pasa a me: dammelo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e36", "type": "translate", "dir": "to", "q": "¿El regalo? Se lo doy mañana.", "answer": ["Il regalo? Glielo do domani."], "why": "«Se lo» → glielo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e37", "type": "translate", "dir": "to", "q": "Te lo prometo.", "answer": ["Te lo prometto."], "why": "Igual que en español: te lo, delante del verbo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e38", "type": "translate", "dir": "to", "q": "¿Me lo puedes enviar?", "answer": ["Me lo puoi mandare?", "Puoi mandarmelo?", "Me lo puoi spedire?", "Puoi spedirmelo?"], "why": "Me lo delante de puoi, o pegado al infinitivo: mandarmelo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e39", "type": "translate", "dir": "from", "q": "Le foto? Gliele mando stasera.", "answer": ["¿Las fotos? Se las mando esta noche.", "¿Las fotos? Se las envío esta noche."], "why": "Gliele = se las.", "g": "it-g-pronomi-combinati" },
+    { "id": "e40", "type": "translate", "dir": "from", "q": "Me ne dai un po'?", "answer": ["¿Me das un poco?", "¿Me das un poco de eso?", "¿Me pones un poco?"], "why": "Me ne = me … de eso. En español muchas veces no se dice.", "g": "it-g-pronomi-combinati" },
+    { "id": "e41", "type": "situation", "context": "En una tienda, quieres que te envuelvan el jersey para regalo.", "emoji": "🎁", "options": ["Me lo può incartare?", "Mi lo può incartare?", "Se lo può incartare?"], "answer": "Me lo può incartare?", "why": "Para ti: me lo. «Se lo» no existe en italiano.", "g": "it-g-pronomi-combinati" },
+    { "id": "e42", "type": "situation", "context": "Tu amiga se ha dejado las gafas en tu casa. Le ofreces llevárselas mañana.", "emoji": "👓", "options": ["Te li porto domani!", "Ti li porto domani!", "Te le porto domani!"], "answer": "Te li porto domani!", "why": "Gli occhiali es masculino plural: te li.", "g": "it-g-pronomi-combinati" },
+    { "id": "e43", "type": "situation", "context": "En el tren, un señor mayor te pide el periódico que ya has leído. Se lo das.", "emoji": "📰", "options": ["Ecco, glielo do volentieri.", "Ecco, se lo do volentieri.", "Ecco, le lo do volentieri."], "answer": "Ecco, glielo do volentieri.", "why": "A usted + il giornale → glielo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e44", "type": "match", "pairs": [["me lo", "me lo"], ["te la", "te la"], ["glielo", "se lo"], ["ce li", "nos los"], ["ve le", "os las"]], "why": "En italiano no existe «se lo»: es glielo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e45", "type": "match", "pairs": [["mi + lo", "me lo"], ["ti + ne", "te ne"], ["gli + la", "gliela"], ["ci + le", "ce le"]], "why": "Mi, ti, ci, vi cambian la i por e; gli se une con una e.", "g": "it-g-pronomi-combinati" }
+  ],
+  "reviewed": false
+}

@@ -1,0 +1,59 @@
+{
+  "id": "it-b1-u03-c3",
+  "unit": "it-b1-u03",
+  "title": "De vuelta de Bolonia",
+  "setting": "Vuelves a Roma y Giulia te pregunta por tu viaje a Bolonia",
+  "emoji": "🎓",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Bentornata! Com'è andata a Bologna?", "es": "¡Bienvenida! ¿Qué tal en Bolonia?" },
+      "options": [
+        { "t": "Benissimo! Si è mangiato divinamente.", "es": "¡Muy bien! Se comió de maravilla.", "next": "n2", "ok": true },
+        { "t": "Benissimo! Si ha mangiato divinamente.", "es": "¡Muy bien! Se comió de maravilla.", "next": "n2", "ok": false, "feedback": "En pasado, el si va con essere: si è mangiato." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Ci credo! Che cosa hai assaggiato?", "es": "¡Me lo creo! ¿Qué probaste?" },
+      "options": [
+        { "t": "Le tagliatelle al ragù e i tortellini in brodo.", "es": "Los tallarines con ragú y los tortellini en caldo.", "next": "n3", "ok": true },
+        { "t": "Le tagliatele al ragù e i tortelini in brodo.", "es": "Los tallarines con ragú y los tortellini en caldo.", "next": "n3", "ok": false, "feedback": "¡Ojo con las dobles! Tagliatelle y tortellini llevan doble l." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "E gli spaghetti alla bolognese?", "es": "¿Y los espaguetis a la boloñesa?" },
+      "options": [
+        { "t": "No! A Bologna il ragù si mangia con le tagliatelle.", "es": "¡No! En Bolonia el ragú se come con tallarines.", "next": "n4", "ok": true },
+        { "t": "No! A Bologna il ragù si mangiano con le tagliatelle.", "es": "¡No! En Bolonia el ragú se come con tallarines.", "next": "n4", "ok": false, "feedback": "Lo que se come es il ragù, singular: si mangia." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Brava, hai imparato! E la città com'è?", "es": "¡Muy bien, has aprendido! ¿Y cómo es la ciudad?" },
+      "options": [
+        { "t": "Bellissima. Si cammina sempre sotto i portici.", "es": "Preciosa. Siempre se camina bajo los soportales.", "next": "n5", "ok": true },
+        { "t": "Bellissima. Ci si cammina sempre sotto i portici.", "es": "Preciosa. Siempre se camina bajo los soportales.", "next": "n5", "ok": false, "feedback": "Camminare no es reflexivo: si cammina, sin ci." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Hai visto l'università? È antichissima.", "es": "¿Viste la universidad? Es antiquísima." },
+      "options": [
+        { "t": "Sì, è del 1088: la più antica d'Occidente!", "es": "Sí, es de 1088: ¡la más antigua de Occidente!", "next": "n6", "ok": true },
+        { "t": "Sì, è del 1088: il più antico d'Occidente!", "es": "Sí, es de 1088: ¡la más antigua de Occidente!", "next": "n6", "ok": false, "feedback": "L'università es femenino: la più antica." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Che brava! E mi hai portato qualcosa?", "es": "¡Qué bien! ¿Y me has traído algo?" },
+      "options": [
+        { "t": "Certo! Un po' di mortadella. Te la do stasera.", "es": "¡Claro! Un poco de mortadela. Te la doy esta noche.", "next": "end", "ok": true },
+        { "t": "Certo! Un po' di mortadella. Te lo do stasera.", "es": "¡Claro! Un poco de mortadela. Te la doy esta noche.", "next": "end", "ok": false, "feedback": "La mortadella es femenino: te la do." }
+      ]
+    }
+  ],
+  "reviewed": false
+}

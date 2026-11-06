@@ -1,0 +1,77 @@
+{
+  "id": "it-b1-u03-l1",
+  "unit": "it-b1-u03",
+  "title": "Tagliatelle al ragù",
+  "goal": "a nombrar platos y productos típicos de la cocina italiana regional",
+  "emoji": "🍝",
+  "photoQuery": "fresh tagliatelle ragu plate",
+  "vocab": [
+    { "id": "cucina-le-tagliatelle", "t": "le tagliatelle", "es": "los tallarines (tagliatelle)", "emoji": "🍝", "pos": "n", "ex": { "t": "Le tagliatelle al ragù sono il piatto tipico di Bologna.", "es": "Los tallarines con ragú son el plato típico de Bolonia." } },
+    { "id": "cucina-il-ragu", "t": "il ragù", "es": "el ragú (salsa de carne)", "emoji": "🥩", "pos": "n", "ex": { "t": "Il ragù deve cuocere per tante ore.", "es": "El ragú tiene que cocer muchas horas." } },
+    { "id": "cucina-il-sugo", "t": "il sugo", "es": "la salsa (para la pasta)", "emoji": "🍅", "pos": "n", "note": "¡Ojo! El zumo es il succo.", "ex": { "t": "Preparo il sugo di pomodoro con il basilico.", "es": "Preparo la salsa de tomate con albahaca." } },
+    { "id": "cucina-la-mortadella", "t": "la mortadella", "es": "la mortadela", "emoji": "🥪", "pos": "n", "ex": { "t": "Un panino con la mortadella, per favore.", "es": "Un bocadillo de mortadela, por favor." } },
+    { "id": "cucina-i-tortellini", "t": "i tortellini", "es": "los tortellini (pasta rellena)", "emoji": "🥟", "pos": "n", "ex": { "t": "A Natale mangiamo i tortellini in brodo.", "es": "En Navidad comemos tortellini en caldo." } },
+    { "id": "cucina-il-brodo", "t": "il brodo", "es": "el caldo", "emoji": "🍲", "pos": "n", "note": "¡Ojo! En italiano caldo significa «caliente».", "ex": { "t": "Quando ho il raffreddore, bevo un brodo caldo.", "es": "Cuando estoy resfriada, tomo un caldo caliente." } },
+    { "id": "cucina-la-ricetta", "t": "la ricetta", "es": "la receta", "emoji": "📝", "pos": "n", "ex": { "t": "Mi dai la ricetta del tiramisù?", "es": "¿Me das la receta del tiramisú?" } },
+    { "id": "cucina-assaggiare", "t": "assaggiare", "es": "probar (una comida)", "emoji": "😋", "pos": "v", "note": "Para la comida: assaggiare. Para la ropa: provare.", "ex": { "t": "Vuoi assaggiare il mio sugo?", "es": "¿Quieres probar mi salsa?" } },
+    { "id": "cucina-il-piatto-tipico", "t": "il piatto tipico", "es": "el plato típico", "emoji": "🍽️", "pos": "n", "ex": { "t": "Qual è il piatto tipico della zona?", "es": "¿Cuál es el plato típico de la zona?" } },
+    { "id": "cucina-fatto-in-casa", "t": "fatto in casa", "es": "casero, hecho en casa", "emoji": "🏠", "pos": "adj", "note": "En femenino: fatta in casa.", "ex": { "t": "La pasta fatta in casa è più buona.", "es": "La pasta casera está más rica." } }
+  ],
+  "grammar": "it-g-si-impersonale",
+  "pron": {
+    "title": "La gl de tagliatelle",
+    "tip": "Gli suena como una «ll» suave seguida de i: «ta-llia-tél-le». No pronuncies la g como en «gato».",
+    "words": ["tagliatelle", "il tagliere", "l'aglio", "la foglia"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Vuole ___ il ragù? È fatto in casa.", "es": "¿Quiere probar el ragú? Es casero.", "options": ["assaggiare", "provare", "probare"], "answer": "assaggiare", "why": "Para probar comida se usa assaggiare; provare es para la ropa o para intentar algo." },
+    { "id": "e2", "type": "choose", "q": "Per i tortellini ci vuole un buon ___ di carne.", "es": "Para los tortellini hace falta un buen caldo de carne.", "options": ["brodo", "caldo", "sugo"], "answer": "brodo", "why": "El caldo español es il brodo; caldo en italiano significa «caliente»." },
+    { "id": "e3", "type": "choose", "q": "A Bologna le tagliatelle ___ ancora a mano.", "es": "En Bolonia los tallarines todavía se hacen a mano.", "options": ["si fanno", "si fa", "se fanno"], "answer": "si fanno", "why": "Como en español «se hacen»: si + verbo en plural porque tagliatelle es plural.", "g": "it-g-si-impersonale" },
+    { "id": "e4", "type": "fill", "q": "Un panino con la ___, per favore.", "es": "Un bocadillo de mortadela, por favor.", "answer": ["mortadella"], "bank": ["mortadella", "mortadela", "ricetta"], "why": "En italiano se escribe con doble l: mortadella." },
+    { "id": "e5", "type": "fill", "q": "Mi scrivi la ___ del ragù? La voglio fare a casa.", "es": "¿Me escribes la receta del ragú? La quiero hacer en casa.", "answer": ["ricetta"], "hint": "la receta", "why": "La receta es la ricetta, con doble t." },
+    { "id": "e6", "type": "match", "pairs": [["il sugo", "la salsa"], ["il brodo", "el caldo"], ["la ricetta", "la receta"], ["assaggiare", "probar (comida)"], ["fatto in casa", "casero"]], "why": "Palabras de cocina." },
+    { "id": "e7", "type": "order", "es": "¿Cuál es el plato típico de Bolonia?", "answer": "Qual è il piatto tipico di Bologna", "extra": ["della"], "why": "Con ciudades se usa di sin artículo: di Bologna." },
+    { "id": "e8", "type": "translate", "dir": "to", "q": "La pasta casera está más rica.", "answer": ["La pasta fatta in casa è più buona.", "La pasta fatta in casa è più buona!"], "why": "Casero = fatto in casa (fatta, porque pasta es femenino)." },
+    { "id": "e9", "type": "translate", "dir": "from", "q": "Il ragù deve cuocere per tante ore.", "answer": ["El ragú tiene que cocer durante muchas horas.", "El ragú tiene que cocerse muchas horas.", "El ragú debe cocer muchas horas.", "El ragú tiene que cocer muchas horas."], "why": "Cuocere = cocer; tante ore = muchas horas." },
+    { "id": "e10", "type": "error", "q": "Mi piacciono molto le tagliatele al ragù.", "wrong": "tagliatele", "fix": "tagliatelle", "why": "Tagliatelle lleva doble l, como mortadella." },
+    { "id": "e11", "type": "situation", "context": "En una trattoria de Bolonia quieres probar algo típico de la zona. ¿Qué preguntas?", "emoji": "🍽️", "options": ["Che cosa mi consiglia di tipico?", "Che cosa mi consiglia di tipica?", "Che cosa consiglio io?"], "answer": "Che cosa mi consiglia di tipico?", "why": "Detrás de qualcosa o che cosa, el adjetivo va con di y en masculino: di tipico." },
+    { "id": "e12", "type": "reading", "kind": "menu", "title": "Trattoria del Portico", "text": "PRIMI: Tagliatelle al ragù · Tortellini in brodo · Lasagne verdi. SECONDI: Cotoletta alla bolognese. DOLCI: Torta di riso. Pasta fatta in casa ogni giorno.", "questions": [
+      { "q": "¿Qué primer plato va en caldo?", "options": ["Los tortellini", "Los tallarines", "La lasaña"], "answer": "Los tortellini" },
+      { "q": "¿Cada cuánto hacen la pasta?", "options": ["Cada día", "Los domingos", "Una vez por semana"], "answer": "Cada día" },
+      { "q": "¿Cuál es el postre?", "options": ["Tarta de arroz", "Tiramisú", "Helado"], "answer": "Tarta de arroz" }
+    ] },
+    { "id": "e13", "type": "speak", "t": "Le tagliatelle al ragù sono buonissime!", "es": "¡Los tallarines con ragú están buenísimos!" },
+    { "id": "e14", "type": "transform", "instr": "Pásalo al plural", "q": "Il piatto tipico è buonissimo.", "answer": ["I piatti tipici sono buonissimi."], "why": "Piatto → piatti; tipico → tipici; buonissimo → buonissimi." },
+    { "id": "e15", "type": "conjugate", "verb": "assaggiare", "person": "tu", "tense": "presente", "q": "___ anche tu il sugo? È ancora caldo.", "answer": ["Assaggi"], "why": "Con tu, assaggiare pierde una i: assaggi (no «assaggii»)." },
+    { "id": "e16", "type": "minimal", "pair": ["sugo", "succo"], "es": ["salsa", "zumo"], "answer": "sugo", "why": "Sugo (salsa) tiene una g suave; succo (zumo) tiene una c doble y fuerte." }
+  ],
+  "dialog": {
+    "title": "¿Qué me recomienda?",
+    "setting": "En una trattoria de Bolonia, Yolanda pide la cena",
+    "emoji": "🍝",
+    "lines": [
+      { "who": "Cameriere", "t": "Buonasera! Ecco il menù. Oggi abbiamo i tortellini in brodo.", "es": "¡Buenas noches! Aquí tiene la carta. Hoy tenemos tortellini en caldo." },
+      { "who": "Yolanda", "t": "Mmm… Che cosa mi consiglia di tipico?", "es": "Mmm… ¿Qué me recomienda típico de aquí?" },
+      { "who": "Cameriere", "t": "Le tagliatelle al ragù. La pasta è fatta in casa.", "es": "Los tallarines con ragú. La pasta es casera." },
+      { "who": "Yolanda", "t": "Il ragù è con la carne?", "es": "¿El ragú lleva carne?" },
+      { "who": "Cameriere", "t": "Sì, manzo e maiale. Cuoce per tre ore.", "es": "Sí, ternera y cerdo. Cuece durante tres horas." },
+      { "who": "Yolanda", "t": "Perfetto, le prendo. E per cominciare?", "es": "Perfecto, me los pido. ¿Y para empezar?" },
+      { "who": "Cameriere", "t": "Un tagliere con mortadella e parmigiano?", "es": "¿Una tabla con mortadela y parmesano?" },
+      { "who": "Yolanda", "t": "Sì, grazie! Voglio assaggiare tutto!", "es": "¡Sí, gracias! ¡Quiero probarlo todo!" }
+    ],
+    "questions": [
+      { "q": "¿Qué le recomienda el camarero?", "options": ["Tallarines con ragú", "Tortellini en caldo", "Lasaña"], "answer": "Tallarines con ragú" },
+      { "q": "¿Cuántas horas cuece el ragú?", "options": ["Tres", "Una", "Cinco"], "answer": "Tres" },
+      { "q": "¿Qué lleva la tabla?", "options": ["Mortadela y parmesano", "Jamón y queso fresco", "Verduras"], "answer": "Mortadela y parmesano" }
+    ]
+  },
+  "realLife": { "t": "Che cosa mi consiglia di tipico?", "es": "¿Qué me recomienda típico de aquí?", "context": "En un restaurante, para probar la cocina de la zona" },
+  "falseFriend": { "word": "il sugo", "means": "la salsa (sobre todo la de la pasta)", "looksLike": "el jugo, el zumo", "emoji": "🍅", "tip": "El zumo es il succo (o la spremuta si es recién exprimido). Il sugo va en la pasta: il sugo al pomodoro." },
+  "summary": [
+    "Platos de Bolonia: tagliatelle al ragù, tortellini in brodo, mortadella.",
+    "Il sugo = la salsa; il brodo = el caldo.",
+    "Probar comida: assaggiare. Casero: fatto in casa.",
+    "Para pedir: Che cosa mi consiglia di tipico?"
+  ],
+  "reviewed": false
+}

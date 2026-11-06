@@ -1,0 +1,123 @@
+{
+  "id": "it-g-ne-partitivo",
+  "lang": "it",
+  "level": "A2",
+  "title": "El ne partitivo (ne prendo due)",
+  "short": "Quante ne vuole? Ne prendo due. Ne habla de una parte o cantidad de algo que ya has nombrado.",
+  "story": [
+    {
+      "kind": "intro",
+      "title": "¿Cuántas quiere?",
+      "emoji": "🧣",
+      "text": "En español contestas «quiero dos». En italiano falta una palabrita: ==ne==. *Ne voglio due.*",
+      "examples": [
+        { "t": "Quante sciarpe vuole? ==Ne== voglio due.", "es": "¿Cuántas bufandas quiere? Quiero dos.", "hl": "Ne" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "Ne = «de eso»",
+      "emoji": "🔢",
+      "text": "Ne significa más o menos ==«de ellas, de eso»==. Va delante del verbo, y la cantidad va al final.",
+      "examples": [
+        { "t": "==Ne== prendo tre.", "es": "Me llevo tres (de ellas).", "hl": "Ne" },
+        { "t": "==Ne== vorrei un paio.", "es": "Querría un par.", "hl": "Ne" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Ne con cantidades",
+      "emoji": "📦",
+      "text": "Cualquier número o cantidad pide ne.",
+      "table": {
+        "head": ["Pregunta", "Respuesta"],
+        "rows": [
+          ["Quanti calzini?", "==Ne== prendo due paia."],
+          ["Quante magliette?", "==Ne== ho molte."],
+          ["Quanto formaggio?", "==Ne== vorrei un etto."],
+          ["Hai delle buste?", "No, non ==ne== ho."]
+        ]
+      }
+    },
+    {
+      "kind": "compare",
+      "title": "¿Parte o todo?",
+      "emoji": "⚖️",
+      "text": "Una parte → ==ne==. Todo entero → ==lo, la, li, le==.",
+      "examples": [
+        { "t": "Le sciarpe? ==Ne== prendo una.", "es": "¿Las bufandas? Me llevo una.", "hl": "Ne" },
+        { "t": "Le sciarpe? ==Le== prendo tutte!", "es": "¿Las bufandas? ¡Me las llevo todas!", "hl": "Le" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "title": "No tengo",
+      "emoji": "🚫",
+      "text": "Para decir que no tienes ninguno: ==non ne ho==. En español basta «no tengo».",
+      "examples": [
+        { "t": "Taglia 38? Mi dispiace, non ==ne== abbiamo.", "es": "¿Talla 38? Lo siento, no tenemos.", "hl": "ne" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "title": "¡Ojo!",
+      "emoji": "⚠️",
+      "text": "❌ *Quante? Voglio due* → ✅ ==ne== voglio due. ❌ *Le prendo due* → ✅ ==ne== prendo due. ❌ *Non ho* (solo) → ✅ non ==ne== ho."
+    },
+    {
+      "kind": "tip",
+      "title": "Para el mercado también",
+      "emoji": "🍅",
+      "text": "Ne te salva en la tienda y en el mercado: ==Ne vorrei un chilo.== ==Ne prendo mezzo chilo.==",
+      "examples": [
+        { "t": "Pomodori? Ne vorrei un chilo.", "es": "¿Tomates? Querría un kilo." }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español: «¿Cuántas bufandas quiere? — Quiero dos.» «¿Tienes bolsas? — No, no tengo.» No hace falta ninguna palabra extra.",
+    "target": "En italiano hace falta ne: «Quante sciarpe vuole? — Ne voglio due.» «Hai delle buste? — No, non ne ho.»"
+  },
+  "errors": [
+    { "wrong": "Quante magliette vuole? Voglio tre.", "right": "Quante magliette vuole? Ne voglio tre.", "why": "Cuando dices una cantidad de algo ya nombrado, el italiano necesita ne." },
+    { "wrong": "Le scarpe? Le prendo due paia.", "right": "Le scarpe? Ne prendo due paia.", "why": "Con una cantidad (due paia) se usa ne, no le." },
+    { "wrong": "Calzini? Non ho.", "right": "Calzini? Non ne ho.", "why": "Para «no tengo» hace falta ne: non ne ho." },
+    { "wrong": "Ne le prendo tutte.", "right": "Le prendo tutte.", "why": "Si te llevas todas, es la cosa entera: le prendo tutte, sin ne." },
+    { "wrong": "Prendo ne due.", "right": "Ne prendo due.", "why": "Ne va delante del verbo conjugado." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Quante magliette compri? ___ compro tre.", "es": "¿Cuántas camisetas compras? Compro tres.", "options": ["Ne", "Le", "La"], "answer": "Ne", "why": "Con una cantidad, ne.", "g": "it-g-ne-partitivo" },
+    { "id": "e2", "type": "choose", "q": "Hai delle buste? No, non ___ ho.", "es": "¿Tienes bolsas? No, no tengo.", "options": ["ne", "le", "lo"], "answer": "ne", "why": "Non ne ho = no tengo.", "g": "it-g-ne-partitivo" },
+    { "id": "e3", "type": "choose", "q": "Le sciarpe? ___ prendo tutte.", "es": "¿Las bufandas? Me las llevo todas.", "options": ["Le", "Ne", "Li"], "answer": "Le", "why": "Todas = todo entero: le.", "g": "it-g-ne-partitivo" },
+    { "id": "e4", "type": "choose", "q": "Il maglione verde? ___ prendo!", "es": "¿El jersey verde? ¡Me lo quedo!", "options": ["Lo", "Ne", "Li"], "answer": "Lo", "why": "Una cosa concreta y entera: lo.", "g": "it-g-ne-partitivo" },
+    { "id": "e5", "type": "choose", "q": "Quanti figli ha la signora? Ne ___ due.", "es": "¿Cuántos hijos tiene la señora? Tiene dos.", "options": ["ha", "è", "hanno"], "answer": "ha", "why": "Ne ha due = tiene dos.", "g": "it-g-ne-partitivo" },
+    { "id": "e6", "type": "choose", "q": "Pomodori? Ne vorrei un ___.", "es": "¿Tomates? Querría un kilo.", "options": ["chilo", "paio", "pezzo"], "answer": "chilo", "why": "Para la fruta y la verdura: un chilo.", "g": "it-g-ne-partitivo" },
+    { "id": "e7", "type": "choose", "q": "Quante cinture hai? ___ ho molte.", "es": "¿Cuántos cinturones tienes? Tengo muchos.", "options": ["Ne", "Le", "Li"], "answer": "Ne", "why": "Molte es una cantidad: ne ho molte.", "g": "it-g-ne-partitivo" },
+    { "id": "e8", "type": "fill", "q": "Calzini? ___ prendo due paia.", "es": "¿Calcetines? Me llevo dos pares.", "answer": ["Ne"], "bank": ["Ne", "Li", "Lo"], "why": "Due paia es una cantidad: ne.", "g": "it-g-ne-partitivo" },
+    { "id": "e9", "type": "fill", "q": "Taglia 40? Mi dispiace, non ne ___.", "es": "¿Talla 40? Lo siento, no tenemos.", "answer": ["abbiamo"], "bank": ["abbiamo", "siamo", "hanno"], "why": "La tienda habla en plural: non ne abbiamo.", "g": "it-g-ne-partitivo" },
+    { "id": "e10", "type": "fill", "q": "Quanto pane vuole? Ne vorrei ___ po'.", "es": "¿Cuánto pan quiere? Querría un poco.", "answer": ["un"], "bank": ["un", "uno", "una"], "why": "Un po' = un poco.", "g": "it-g-ne-partitivo" },
+    { "id": "e11", "type": "fill", "q": "Belle queste borse! ___ prendo una.", "es": "¡Qué bonitos estos bolsos! Me llevo uno.", "answer": ["Ne"], "hint": "una parte", "why": "Una de las borse: ne prendo una.", "g": "it-g-ne-partitivo" },
+    { "id": "e12", "type": "fill", "q": "Regali per i nipoti? Ne ___ comprati tre.", "es": "¿Regalos para los nietos? He comprado tres.", "answer": ["ho"], "why": "Ne ho comprati tre: avere + participio.", "g": "it-g-ne-partitivo" },
+    { "id": "e13", "type": "fill", "q": "Quanti caffè bevi? Ne ___ due al giorno.", "es": "¿Cuántos cafés tomas? Tomo dos al día.", "answer": ["bevo"], "hint": "bere", "why": "Bere → io bevo.", "g": "it-g-ne-partitivo" },
+    { "id": "e14", "type": "error", "q": "Quante magliette vuole? Le voglio tre.", "wrong": "Le", "fix": "Ne", "why": "Con un número, ne.", "g": "it-g-ne-partitivo" },
+    { "id": "e15", "type": "error", "q": "Quanti ne vuole? Li voglio due.", "wrong": "Li", "fix": "Ne", "why": "Con un número no se usa li sino ne: ne voglio due.", "g": "it-g-ne-partitivo" },
+    { "id": "e16", "type": "error", "q": "Le borse? Ne prendo tutte.", "wrong": "Ne", "fix": "Le", "why": "Tutte = todas: le prendo tutte.", "g": "it-g-ne-partitivo" },
+    { "id": "e17", "type": "error", "q": "Pomodori? Ne vorrei due chila.", "wrong": "chila", "fix": "chili", "why": "El plural de chilo es chili.", "g": "it-g-ne-partitivo" },
+    { "id": "e18", "type": "error", "q": "Ho comprato due paio di scarpe.", "wrong": "paio", "fix": "paia", "why": "El plural de paio es paia: due paia.", "g": "it-g-ne-partitivo" },
+    { "id": "e19", "type": "transform", "instr": "Contesta con ne y «due»", "q": "Quante sciarpe prendi?", "answer": ["Ne prendo due."], "why": "Ne + verbo + cantidad.", "g": "it-g-ne-partitivo" },
+    { "id": "e20", "type": "transform", "instr": "Hazla negativa (no tengo ninguno)", "q": "Ne ho tre.", "answer": ["Non ne ho."], "why": "Non ne ho = no tengo.", "g": "it-g-ne-partitivo" },
+    { "id": "e21", "type": "transform", "instr": "Cambia «una gonna» por ne + una", "q": "Compro una gonna.", "answer": ["Ne compro una."], "why": "Ne sustituye a gonna; la cantidad (una) se queda.", "g": "it-g-ne-partitivo" },
+    { "id": "e22", "type": "transform", "instr": "Cambia la cantidad por «tutti»", "q": "I calzini? Ne prendo due.", "answer": ["I calzini? Li prendo tutti."], "why": "Todos = la cosa entera: li prendo tutti.", "g": "it-g-ne-partitivo" },
+    { "id": "e23", "type": "order", "es": "¿Bufandas? Me llevo tres.", "answer": "Sciarpe Ne prendo tre", "alt": ["Sciarpe ne prendo tre"], "extra": ["le"], "why": "Ne + verbo + número.", "g": "it-g-ne-partitivo" },
+    { "id": "e24", "type": "order", "es": "Lo siento, no tenemos.", "answer": "Mi dispiace non ne abbiamo", "extra": ["le"], "why": "Non ne abbiamo = no tenemos.", "g": "it-g-ne-partitivo" },
+    { "id": "e25", "type": "order", "es": "Querría un par de lana.", "answer": "Ne vorrei un paio di lana", "extra": ["paia"], "why": "Un paio en singular.", "g": "it-g-ne-partitivo" },
+    { "id": "e26", "type": "translate", "dir": "to", "q": "¿Cuántas quiere? Quiero cuatro.", "answer": ["Quante ne vuole? Ne voglio quattro.", "Quanti ne vuole? Ne voglio quattro."], "why": "En pregunta y respuesta aparece ne.", "g": "it-g-ne-partitivo" },
+    { "id": "e27", "type": "translate", "dir": "to", "q": "¿Bolsas? No tengo.", "answer": ["Buste? Non ne ho.", "Sacchetti? Non ne ho."], "why": "Non ne ho.", "g": "it-g-ne-partitivo" },
+    { "id": "e28", "type": "translate", "dir": "from", "q": "Ne prendo mezzo chilo.", "answer": ["Me llevo medio kilo.", "Cojo medio kilo.", "Llevo medio kilo."], "why": "Ne no se traduce: me llevo medio kilo.", "g": "it-g-ne-partitivo" },
+    { "id": "e29", "type": "translate", "dir": "from", "q": "Quanti nipoti ha Marta? Ne ha tre.", "answer": ["¿Cuántos nietos tiene Marta? Tiene tres.", "¿Cuántos sobrinos tiene Marta? Tiene tres."], "why": "Nipoti puede ser nietos o sobrinos; ne no se traduce.", "g": "it-g-ne-partitivo" },
+    { "id": "e30", "type": "situation", "context": "En el mercado te preguntan cuántos limones quieres. Quieres seis.", "emoji": "🍋", "options": ["Ne vorrei sei.", "Li vorrei sei.", "Vorrei sei ne."], "answer": "Ne vorrei sei.", "why": "Ne delante del verbo, el número al final.", "g": "it-g-ne-partitivo" },
+    { "id": "e31", "type": "situation", "context": "La dependienta te enseña cinco jerséis preciosos. ¡Te los llevas todos!", "emoji": "🧶", "options": ["Li prendo tutti!", "Ne prendo tutti!", "Ne prendo cinque tutti!"], "answer": "Li prendo tutti!", "why": "Todos = la cosa entera: li prendo tutti.", "g": "it-g-ne-partitivo" },
+    { "id": "e32", "type": "match", "pairs": [["Quanti ne vuole?", "Ne voglio due."], ["Hai delle buste?", "No, non ne ho."], ["Le sciarpe?", "Le prendo tutte."], ["Pomodori?", "Ne vorrei un chilo."]], "why": "Ne para una parte; le para el todo.", "g": "it-g-ne-partitivo" }
+  ],
+  "reviewed": false
+}

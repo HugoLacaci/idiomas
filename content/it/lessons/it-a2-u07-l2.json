@@ -1,0 +1,79 @@
+{
+  "id": "it-a2-u07-l2",
+  "unit": "it-a2-u07",
+  "title": "Gli scrivo un messaggio",
+  "goal": "a decir «le escribo, le mando, me dices» con los pronombres de objeto indirecto",
+  "emoji": "💬",
+  "photoQuery": "hands typing message smartphone",
+  "vocab": [
+    { "id": "tel-scrivere-a", "t": "scrivere a qualcuno", "es": "escribir a alguien", "emoji": "✍️", "pos": "v", "ex": { "t": "Scrivo a Hugo su WhatsApp.", "es": "Le escribo a Hugo por WhatsApp." } },
+    { "id": "tel-telefonare-a", "t": "telefonare a qualcuno", "es": "telefonear a alguien", "emoji": "☎️", "pos": "v", "note": "Telefonare lleva «a»: gli telefono. Chiamare no: lo chiamo.", "ex": { "t": "Telefono a mia madre la sera.", "es": "Llamo a mi madre por la noche." } },
+    { "id": "tel-mandare", "t": "mandare", "es": "mandar, enviar", "emoji": "📤", "pos": "v", "ex": { "t": "Ti mando una foto del mare.", "es": "Te mando una foto del mar." } },
+    { "id": "tel-dire", "t": "dire", "es": "decir", "emoji": "💭", "pos": "v", "ex": { "t": "Cosa ti ha detto?", "es": "¿Qué te ha dicho?" } },
+    { "id": "tel-chiedere", "t": "chiedere", "es": "pedir; preguntar", "emoji": "🙋‍♀️", "pos": "v", "ex": { "t": "Le chiedo il numero.", "es": "Le pido el número." } },
+    { "id": "tel-rispondere-a", "t": "rispondere a qualcuno", "es": "contestar a alguien", "emoji": "↩️", "pos": "v", "ex": { "t": "Gli rispondo subito.", "es": "Le contesto enseguida." } },
+    { "id": "tel-spiegare", "t": "spiegare", "es": "explicar", "emoji": "🧑‍🏫", "pos": "v", "ex": { "t": "Mi spieghi come funziona?", "es": "¿Me explicas cómo funciona?" } },
+    { "id": "tel-il-vocale", "t": "il vocale", "es": "el audio (mensaje de voz)", "emoji": "🎙️", "pos": "n", "note": "Es la forma corta de messaggio vocale.", "ex": { "t": "Le mando un vocale.", "es": "Le mando un audio." } }
+  ],
+  "grammar": "it-g-pronomi-indiretti",
+  "pron": {
+    "title": "Gli, el pronombre",
+    "tip": "Gli suena como «lli» con la lengua pegada al paladar. Gli scrivo: «lli-scrí-vo», todo junto.",
+    "words": ["gli scrivo", "gli telefono", "gli mando", "gli dico"]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Hugo? ___ scrivo stasera.", "es": "¿Hugo? Le escribo esta noche.", "options": ["Gli", "Le", "Lo"], "answer": "Gli", "why": "A él → gli.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e2", "type": "choose", "q": "Mia amica? ___ mando un vocale.", "es": "¿Mi amiga? Le mando un audio.", "options": ["Le", "Gli", "La"], "answer": "Le", "why": "A ella → le.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e3", "type": "choose", "q": "Mamma, ___ mando le foto del viaggio.", "es": "Mamá, te mando las fotos del viaje.", "options": ["ti", "mi", "ci"], "answer": "ti", "why": "A ti → ti.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e4", "type": "choose", "q": "Hugo ___ telefona ogni domenica.", "es": "Hugo me llama todos los domingos.", "options": ["mi", "ti", "gli"], "answer": "mi", "why": "A mí → mi.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e5", "type": "fill", "q": "Mio marito? ___ rispondo subito.", "es": "¿Mi marido? Le contesto enseguida.", "answer": ["Gli"], "bank": ["Gli", "Le", "Lo"], "why": "A él → gli.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e6", "type": "fill", "q": "Le mie amiche? ___ scrivo nel gruppo.", "es": "¿Mis amigas? Les escribo en el grupo.", "answer": ["Gli"], "bank": ["Gli", "Le", "Li"], "why": "A ellos o a ellas, en el italiano hablado: gli.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e7", "type": "fill", "q": "Ragazzi, ___ spiego come funziona.", "es": "Chicos, os explico cómo funciona.", "answer": ["vi"], "hint": "a voi", "why": "A vosotros → vi.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e8", "type": "error", "q": "Mio figlio? Le scrivo dopo.", "wrong": "Le", "fix": "Gli", "why": "Para un hombre, gli; le es solo para una mujer.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e9", "type": "error", "q": "La mia vicina? Gli telefono domani.", "wrong": "Gli", "fix": "Le", "why": "Para una mujer, le.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e10", "type": "order", "es": "Le mando un mensaje a Hugo.", "answer": "Mando un messaggio a Hugo", "extra": ["gli"], "why": "Si dices «a Hugo», no repitas gli: mando un messaggio a Hugo.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e11", "type": "transform", "instr": "Cambia «a Hugo» por un pronombre", "q": "Scrivo a Hugo.", "answer": ["Gli scrivo."], "why": "A Hugo → gli, delante del verbo.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e12", "type": "transform", "instr": "Cambia «a mia madre» por un pronombre", "q": "Telefono a mia madre.", "answer": ["Le telefono."], "why": "A una mujer → le.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "¿Me explicas cómo funciona?", "answer": ["Mi spieghi come funziona?"], "why": "A mí → mi.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "Gli mando un vocale.", "answer": ["Le mando un audio.", "Le mando un mensaje de voz.", "Les mando un audio.", "Les mando un mensaje de voz."], "why": "Gli = le (a él) o les (a ellos).", "g": "it-g-pronomi-indiretti" },
+    { "id": "e15", "type": "situation", "context": "Tu amiga te pide que le digas algo a tu marido. Le contestas que le escribes tú.", "emoji": "💬", "options": ["Va bene, gli scrivo io.", "Va bene, le scrivo io.", "Va bene, lo scrivo io."], "answer": "Va bene, gli scrivo io.", "why": "A tu marido (él) → gli.", "g": "it-g-pronomi-indiretti" },
+    { "id": "e16", "type": "match", "pairs": [["a me", "mi"], ["a te", "ti"], ["a lui", "gli"], ["a lei", "le"], ["a noi", "ci"]], "why": "Cada persona con su pronombre." }
+  ],
+  "dialog": {
+    "title": "El cumpleaños de Hugo",
+    "setting": "Yolanda y su marido buscan un regalo para Hugo en una tienda",
+    "emoji": "🎂",
+    "lines": [
+      { "who": "Marito", "t": "Presto è il compleanno di Hugo. Gli telefoniamo?", "es": "Pronto es el cumpleaños de Hugo. ¿Le llamamos?" },
+      { "who": "Yolanda", "t": "Sì, e gli mandiamo anche un regalo.", "es": "Sí, y le mandamos también un regalo." },
+      { "who": "Marito", "t": "Cosa gli regaliamo?", "es": "¿Qué le regalamos?" },
+      { "who": "Yolanda", "t": "Un maglione. Gli piacciono quelli di lana.", "es": "Un jersey. Le gustan los de lana." },
+      { "who": "Marito", "t": "Va bene. Chiediamo un consiglio alla commessa?", "es": "Vale. ¿Le pedimos consejo a la dependienta?" },
+      { "who": "Yolanda", "t": "Sì, le chiedo io quale colore va di moda.", "es": "Sí, le pregunto yo qué color se lleva." },
+      { "who": "Marito", "t": "Perfetto. Io intanto scrivo a Hugo.", "es": "Perfecto. Yo, mientras, le escribo a Hugo." },
+      { "who": "Yolanda", "t": "Ma non gli dire niente del regalo!", "es": "¡Pero no le digas nada del regalo!" }
+    ],
+    "questions": [
+      { "q": "¿Qué se celebra pronto?", "options": ["El cumpleaños de Hugo", "Un aniversario", "Navidad"], "answer": "El cumpleaños de Hugo" },
+      { "q": "¿Qué le van a regalar?", "options": ["Un jersey", "Un móvil", "Un libro"], "answer": "Un jersey" },
+      { "q": "¿A quién le pregunta Yolanda por el color?", "options": ["A la dependienta", "A Hugo", "A su marido"], "answer": "A la dependienta" }
+    ]
+  },
+  "realLife": { "t": "Ti mando un messaggio quando arrivo.", "es": "Te mando un mensaje cuando llegue.", "context": "Para tranquilizar a la familia antes de un viaje" },
+  "same": {
+    "text": "Mi, ti, ci y vi funcionan como me, te, nos y os: van delante del verbo.",
+    "examples": [
+      { "t": "Mi scrivi?", "es": "¿Me escribes?" },
+      { "t": "Ti mando una foto.", "es": "Te mando una foto." },
+      { "t": "Ci telefona.", "es": "Nos llama." }
+    ]
+  },
+  "summary": [
+    "Mi, ti, gli (a él), le (a ella), ci, vi, gli (a ellos).",
+    "El español «le» se divide: gli para él, le para ella.",
+    "Van delante del verbo: gli scrivo, le telefono.",
+    "Si ya dices «a Hugo», no repitas el pronombre.",
+    "Telefonare a → gli telefono; chiamare → lo chiamo."
+  ],
+  "reviewed": false
+}

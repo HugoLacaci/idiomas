@@ -1,0 +1,442 @@
+{
+  "id": "en-a2-u04-l5",
+  "unit": "en-a2-u04",
+  "title": "Un fin de semana en Edimburgo",
+  "goal": "a contar un viaje de fin de semana con was, were y verbos en -ed",
+  "emoji": "🏰",
+  "photoQuery": "edinburgh castle rock view",
+  "vocab": [
+    {
+      "id": "wkend-travelled",
+      "t": "we travelled",
+      "es": "viajamos",
+      "emoji": "🚆",
+      "pos": "v",
+      "ex": {
+        "t": "We travelled to Edinburgh by train.",
+        "es": "Viajamos a Edimburgo en tren."
+      },
+      "note": "En británico, doble l: travelled. En EE. UU.: traveled."
+    },
+    {
+      "id": "wkend-arrived",
+      "t": "we arrived",
+      "es": "llegamos",
+      "emoji": "🛬",
+      "pos": "v",
+      "ex": {
+        "t": "We arrived on Friday night.",
+        "es": "Llegamos el viernes por la noche."
+      },
+      "note": "Suena /d/: «a-RÁIVD»."
+    },
+    {
+      "id": "wkend-stayed-at-a-hotel",
+      "t": "we stayed at a hotel",
+      "es": "nos alojamos en un hotel",
+      "emoji": "🏨",
+      "pos": "phrase",
+      "ex": {
+        "t": "We stayed at a small hotel.",
+        "es": "Nos alojamos en un hotel pequeño."
+      }
+    },
+    {
+      "id": "wkend-the-castle",
+      "t": "the castle",
+      "es": "el castillo",
+      "emoji": "🏰",
+      "pos": "n",
+      "ex": {
+        "t": "The castle was amazing.",
+        "es": "El castillo era impresionante."
+      },
+      "note": "La t no suena: «KÁ-sol»."
+    },
+    {
+      "id": "wkend-the-old-town",
+      "t": "the old town",
+      "es": "el casco antiguo",
+      "emoji": "🏘️",
+      "pos": "n",
+      "ex": {
+        "t": "We walked around the old town.",
+        "es": "Paseamos por el casco antiguo."
+      }
+    },
+    {
+      "id": "wkend-it-rained",
+      "t": "it rained",
+      "es": "llovió",
+      "emoji": "🌧️",
+      "pos": "phrase",
+      "ex": {
+        "t": "It rained on Saturday afternoon.",
+        "es": "El sábado por la tarde llovió."
+      }
+    },
+    {
+      "id": "wkend-enjoyed",
+      "t": "I enjoyed it",
+      "es": "lo disfruté, me gustó mucho",
+      "emoji": "😊",
+      "pos": "phrase",
+      "ex": {
+        "t": "I really enjoyed the trip.",
+        "es": "Disfruté mucho del viaje."
+      },
+      "note": "Enjoy necesita algo detrás: I enjoyed it / the trip."
+    },
+    {
+      "id": "wkend-loved",
+      "t": "I loved it",
+      "es": "me encantó",
+      "emoji": "❤️",
+      "pos": "phrase",
+      "ex": {
+        "t": "Edinburgh? I loved it!",
+        "es": "¿Edimburgo? ¡Me encantó!"
+      }
+    }
+  ],
+  "grammar": "en-g-past-simple-regular",
+  "pron": {
+    "title": "Edinburgh se dice «É-din-bra»",
+    "tip": "La terminación -burgh de Edinburgh suena «bra», muy corta: «É-din-bra». Nada de «burg». Y castle sin t: «KÁ-sol».",
+    "words": [
+      "Edinburgh",
+      "castle",
+      "travelled",
+      "arrived",
+      "enjoyed"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "We ___ to Edinburgh by train.",
+      "options": [
+        "travelled",
+        "were travel",
+        "travel"
+      ],
+      "answer": "travelled",
+      "why": "Pasado de travel: travelled (en británico, doble l).",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "The castle ___ amazing.",
+      "options": [
+        "was",
+        "were",
+        "is"
+      ],
+      "answer": "was",
+      "why": "The castle = it, en pasado: was.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "The streets of the old town ___ very pretty.",
+      "options": [
+        "were",
+        "was"
+      ],
+      "answer": "were",
+      "why": "The streets = they: were.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "We ___ on Friday night. (arrive)",
+      "es": "Llegamos el viernes por la noche.",
+      "answer": [
+        "arrived"
+      ],
+      "bank": [
+        "arrived",
+        "arriveed",
+        "were arrive"
+      ],
+      "why": "Arrive acaba en -e: solo -d.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "It ___ all Saturday afternoon. (rain)",
+      "es": "Llovió toda la tarde del sábado.",
+      "answer": [
+        "rained"
+      ],
+      "why": "Rain + ed = rained.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "I really ___ the trip. (enjoy)",
+      "es": "Disfruté mucho del viaje.",
+      "answer": [
+        "enjoyed"
+      ],
+      "bank": [
+        "enjoyed",
+        "enjoied",
+        "enjoy"
+      ],
+      "why": "Vocal + y: solo -ed, enjoyed.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "q": "___ you tired after the trip? — Yes, very!",
+      "es": "¿Estabas cansada después del viaje? — ¡Sí, mucho!",
+      "answer": [
+        "Were"
+      ],
+      "bank": [
+        "Were",
+        "Was",
+        "Did"
+      ],
+      "why": "Pregunta con you: Were you…?",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "We was very happy in Edinburgh.",
+      "wrong": "was",
+      "fix": "were",
+      "why": "Con we: were.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "On Saturday we visit the castle.",
+      "wrong": "visit",
+      "fix": "visited",
+      "why": "Hablas del sábado pasado: visited.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e10",
+      "type": "order",
+      "es": "Nos alojamos en un hotel pequeño",
+      "answer": "We stayed at a small hotel",
+      "extra": [
+        "were"
+      ],
+      "why": "Stay + ed = stayed, sin were.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e11",
+      "type": "transform",
+      "instr": "Cuéntalo en pasado con «last weekend»",
+      "q": "We walk around the old town.",
+      "answer": [
+        "We walked around the old town last weekend.",
+        "Last weekend we walked around the old town.",
+        "Last weekend, we walked around the old town."
+      ],
+      "why": "Walk + ed = walked.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "El castillo era precioso y me encantó.",
+      "answer": [
+        "The castle was beautiful and I loved it.",
+        "The castle was lovely and I loved it.",
+        "The castle was beautiful, and I loved it."
+      ],
+      "why": "Was para describir; loved para lo que sentiste.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e13",
+      "type": "reading",
+      "kind": "message",
+      "title": "WhatsApp de Yolanda a su hijo",
+      "text": "Hi Hugo! We arrived in Edinburgh on Friday. The hotel was small but lovely. Yesterday we visited the castle. It's on an old volcano! It rained in the afternoon, so we stayed in a café. Love, Mum",
+      "questions": [
+        {
+          "q": "¿Cuándo llegaron?",
+          "options": [
+            "El viernes",
+            "El sábado",
+            "El jueves"
+          ],
+          "answer": "El viernes"
+        },
+        {
+          "q": "¿Dónde está el castillo?",
+          "options": [
+            "Sobre un antiguo volcán",
+            "Junto al mar",
+            "En el centro comercial"
+          ],
+          "answer": "Sobre un antiguo volcán"
+        },
+        {
+          "q": "¿Qué hicieron cuando llovió?",
+          "options": [
+            "Se quedaron en un café",
+            "Volvieron al hotel",
+            "Fueron al museo"
+          ],
+          "answer": "Se quedaron en un café"
+        }
+      ]
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Vuelves del viaje y tu vecina te pregunta qué tal Edimburgo.",
+      "emoji": "🏰",
+      "options": [
+        "It was wonderful. I loved it!",
+        "It is wonderful. I love it yesterday!",
+        "It were wonderful. I loved it!"
+      ],
+      "answer": "It was wonderful. I loved it!",
+      "why": "Pasado: it was, I loved.",
+      "g": "en-g-past-be"
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "travelled",
+          "viajamos"
+        ],
+        [
+          "arrived",
+          "llegamos"
+        ],
+        [
+          "stayed",
+          "nos alojamos"
+        ],
+        [
+          "rained",
+          "llovió"
+        ],
+        [
+          "enjoyed",
+          "disfruté"
+        ]
+      ],
+      "why": "Verbos regulares del viaje.",
+      "g": "en-g-past-simple-regular"
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "We visited the castle and walked around the old town.",
+      "es": "Visitamos el castillo y paseamos por el casco antiguo."
+    }
+  ],
+  "dialog": {
+    "title": "De vuelta de Edimburgo",
+    "setting": "Yolanda le cuenta a su amiga Carmen su fin de semana en Edimburgo",
+    "emoji": "🏴",
+    "lines": [
+      {
+        "who": "Carmen",
+        "t": "Welcome back! How was Edinburgh?",
+        "es": "¡Bienvenida! ¿Qué tal Edimburgo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Wonderful! We travelled by train from London.",
+        "es": "¡Maravilloso! Fuimos en tren desde Londres."
+      },
+      {
+        "who": "Carmen",
+        "t": "Was the hotel nice?",
+        "es": "¿Estaba bien el hotel?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Yes, it was small but very comfortable.",
+        "es": "Sí, era pequeño pero muy cómodo."
+      },
+      {
+        "who": "Carmen",
+        "t": "And the castle?",
+        "es": "¿Y el castillo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Amazing. It's on the rock of an old volcano!",
+        "es": "Impresionante. ¡Está sobre la roca de un antiguo volcán!"
+      },
+      {
+        "who": "Carmen",
+        "t": "Really? Was the weather good?",
+        "es": "¿En serio? ¿Hizo buen tiempo?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, it rained a lot. But I loved it!",
+        "es": "No, llovió mucho. ¡Pero me encantó!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Cómo viajaron a Edimburgo?",
+        "options": [
+          "En tren",
+          "En avión",
+          "En coche"
+        ],
+        "answer": "En tren"
+      },
+      {
+        "q": "¿Cómo era el hotel?",
+        "options": [
+          "Pequeño pero cómodo",
+          "Grande y caro",
+          "Viejo y feo"
+        ],
+        "answer": "Pequeño pero cómodo"
+      },
+      {
+        "q": "¿Qué tiempo hizo?",
+        "options": [
+          "Llovió mucho",
+          "Hizo sol",
+          "Nevó"
+        ],
+        "answer": "Llovió mucho"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "I really enjoyed it!",
+    "es": "¡Lo disfruté muchísimo!",
+    "context": "Para contar que algo te gustó mucho"
+  },
+  "summary": [
+    "Describir el pasado: The castle was amazing. The streets were pretty.",
+    "Contar acciones: we travelled, we arrived, we stayed, it rained",
+    "Pronunciación: arrived /d/, walked /t/, visited /ɪd/",
+    "Opinar: I loved it! I really enjoyed it!",
+    "Edimburgo: el castillo está sobre la roca de un volcán apagado"
+  ],
+  "reviewed": false,
+  "photo": "en-a2-u04-l5"
+}

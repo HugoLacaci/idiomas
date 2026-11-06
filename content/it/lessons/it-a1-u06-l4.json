@@ -1,0 +1,451 @@
+{
+  "id": "it-a1-u06-l4",
+  "unit": "it-a1-u06",
+  "title": "A casa, in cucina, da Hugo",
+  "goal": "a usar las preposiciones pequeñas: di, a, da, in, con, su, per, tra",
+  "emoji": "🧭",
+  "photoQuery": "wooden kitchen shelves drawers",
+  "vocab": [
+    {
+      "id": "casa-a-casa",
+      "t": "a casa",
+      "es": "en casa / a casa",
+      "emoji": "🏠",
+      "pos": "phrase",
+      "ex": {
+        "t": "Stasera sono a casa.",
+        "es": "Esta noche estoy en casa."
+      }
+    },
+    {
+      "id": "casa-in-cucina",
+      "t": "in cucina",
+      "es": "en la cocina",
+      "emoji": "🍳",
+      "pos": "phrase",
+      "note": "Con habitaciones, in sin artículo: in bagno, in camera.",
+      "ex": {
+        "t": "Mamma è in cucina.",
+        "es": "Mamá está en la cocina."
+      }
+    },
+    {
+      "id": "casa-da-hugo",
+      "t": "da Hugo",
+      "es": "en casa de Hugo / a casa de Hugo",
+      "emoji": "🧑",
+      "pos": "phrase",
+      "ex": {
+        "t": "Domenica vado da Hugo.",
+        "es": "El domingo voy a casa de Hugo."
+      }
+    },
+    {
+      "id": "casa-di-legno",
+      "t": "di legno",
+      "es": "de madera",
+      "emoji": "🪵",
+      "pos": "phrase",
+      "ex": {
+        "t": "Il tavolo è di legno.",
+        "es": "La mesa es de madera."
+      }
+    },
+    {
+      "id": "casa-con-le-amiche",
+      "t": "con le amiche",
+      "es": "con las amigas",
+      "emoji": "👭",
+      "pos": "phrase",
+      "ex": {
+        "t": "Prendo un caffè con le amiche.",
+        "es": "Me tomo un café con las amigas."
+      }
+    },
+    {
+      "id": "casa-per-te",
+      "t": "per te",
+      "es": "para ti",
+      "emoji": "🎁",
+      "pos": "phrase",
+      "ex": {
+        "t": "Questo cuscino è per te.",
+        "es": "Este cojín es para ti."
+      }
+    },
+    {
+      "id": "casa-tra",
+      "t": "tra / fra",
+      "es": "entre",
+      "emoji": "↔️",
+      "pos": "other",
+      "ex": {
+        "t": "Il bagno è tra la cucina e la camera.",
+        "es": "El baño está entre la cocina y el dormitorio."
+      }
+    },
+    {
+      "id": "casa-il-cassetto",
+      "t": "il cassetto",
+      "es": "el cajón",
+      "emoji": "🗄️",
+      "pos": "n",
+      "ex": {
+        "t": "Le chiavi sono in un cassetto.",
+        "es": "Las llaves están en un cajón."
+      }
+    },
+    {
+      "id": "casa-lo-scaffale",
+      "t": "lo scaffale",
+      "es": "la estantería",
+      "emoji": "📚",
+      "pos": "n",
+      "ex": {
+        "t": "I libri sono su uno scaffale.",
+        "es": "Los libros están en una estantería."
+      }
+    }
+  ],
+  "grammar": "it-g-prep-semplici",
+  "pron": {
+    "title": "Gn otra vez: sono o sogno",
+    "tip": "Con gn la lengua se pega arriba, como para decir ñ. Escucha la diferencia: sono (soy) y sogno (sueño, «soño»).",
+    "words": [
+      "sogno",
+      "legno",
+      "bagno",
+      "campagna",
+      "lasagne"
+    ],
+    "pairs": [
+      [
+        "sono",
+        "sogno"
+      ],
+      [
+        "campana",
+        "campagna"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Sono ___ cucina.",
+      "options": [
+        "in",
+        "a",
+        "di"
+      ],
+      "answer": "in",
+      "why": "Con las habitaciones usamos in: in cucina, in bagno.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Stasera resto ___ casa.",
+      "es": "Esta noche me quedo en casa.",
+      "options": [
+        "a",
+        "in",
+        "da"
+      ],
+      "answer": "a",
+      "why": "«En casa» se dice a casa.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Domenica pranzo ___ Hugo.",
+      "es": "El domingo como en casa de Hugo.",
+      "options": [
+        "da",
+        "di",
+        "a"
+      ],
+      "answer": "da",
+      "why": "Da + persona = en casa de esa persona.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Il tavolo è ___ legno.",
+      "answer": [
+        "di"
+      ],
+      "bank": [
+        "di",
+        "da",
+        "in"
+      ],
+      "why": "El material va con di: di legno (de madera).",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Questo regalo è ___ te.",
+      "answer": [
+        "per"
+      ],
+      "bank": [
+        "per",
+        "con",
+        "a"
+      ],
+      "why": "«Para ti» = per te.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Le chiavi sono ___ un cassetto.",
+      "es": "Las llaves están en un cajón.",
+      "answer": [
+        "in"
+      ],
+      "bank": [
+        "in",
+        "a",
+        "di"
+      ],
+      "why": "Dentro de algo: in un cassetto.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "Mia madre è a cucina.",
+      "wrong": "a",
+      "fix": "in",
+      "why": "Con las habitaciones usamos in: in cucina.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Una sedia de legno.",
+      "wrong": "de",
+      "fix": "di",
+      "why": "En italiano «de» se dice di: di legno.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "El baño está entre la cocina y el dormitorio.",
+      "answer": "Il bagno è tra la cucina e la camera",
+      "extra": [
+        "in"
+      ],
+      "why": "Tra = entre.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e10",
+      "type": "translate",
+      "dir": "to",
+      "q": "Esta noche voy a casa de una amiga.",
+      "answer": [
+        "Stasera vado da un'amica.",
+        "Stasera vado a casa di un'amica."
+      ],
+      "why": "Da + persona = a casa de alguien.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e11",
+      "type": "match",
+      "pairs": [
+        [
+          "di legno",
+          "de madera"
+        ],
+        [
+          "per te",
+          "para ti"
+        ],
+        [
+          "da Hugo",
+          "en casa de Hugo"
+        ],
+        [
+          "in bagno",
+          "en el baño"
+        ],
+        [
+          "tra",
+          "entre"
+        ]
+      ],
+      "why": "Cada preposición con su sentido.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "Tu amiga italiana no encuentra los libros. Están en una estantería del salón.",
+      "emoji": "📚",
+      "options": [
+        "Sono su uno scaffale in soggiorno.",
+        "Sono di uno scaffale a soggiorno.",
+        "Sono per uno scaffale da soggiorno."
+      ],
+      "answer": "Sono su uno scaffale in soggiorno.",
+      "why": "Su = sobre, en; in soggiorno = en el salón.",
+      "g": "it-g-prep-semplici"
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "sono",
+        "sogno"
+      ],
+      "answer": "sogno",
+      "es": [
+        "soy",
+        "sueño"
+      ],
+      "why": "Sogno lleva gn: suena «soño»."
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "campana",
+        "campagna"
+      ],
+      "answer": "campagna",
+      "es": [
+        "campana",
+        "campo"
+      ],
+      "why": "Campagna (el campo) lleva gn: «campaña»."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "Il tavolo è di legno.",
+      "es": "La mesa es de madera."
+    }
+  ],
+  "dialog": {
+    "title": "¿Dónde están las llaves?",
+    "setting": "Yolanda está en casa de Hugo y busca sus llaves",
+    "emoji": "🔑",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Hugo, dove sono le chiavi?",
+        "es": "Hugo, ¿dónde están las llaves?"
+      },
+      {
+        "who": "Hugo",
+        "t": "Sono in cucina, in un cassetto.",
+        "es": "Están en la cocina, en un cajón."
+      },
+      {
+        "who": "Yolanda",
+        "t": "No, non ci sono.",
+        "es": "No, no están."
+      },
+      {
+        "who": "Hugo",
+        "t": "Allora sono in soggiorno, su uno scaffale.",
+        "es": "Entonces están en el salón, en una estantería."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Ah, sì! Tra i libri!",
+        "es": "¡Ah, sí! ¡Entre los libros!"
+      },
+      {
+        "who": "Hugo",
+        "t": "Esci con le amiche stasera?",
+        "es": "¿Sales con las amigas esta noche?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, ceno da un'amica.",
+        "es": "Sí, ceno en casa de una amiga."
+      },
+      {
+        "who": "Hugo",
+        "t": "Allora buona serata, mamma!",
+        "es": "¡Pues que lo pases bien, mamá!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Dónde están por fin las llaves?",
+        "options": [
+          "Entre los libros",
+          "En un cajón",
+          "En la cocina"
+        ],
+        "answer": "Entre los libros"
+      },
+      {
+        "q": "¿Con quién sale Yolanda?",
+        "options": [
+          "Con las amigas",
+          "Con Hugo",
+          "Con su hermana"
+        ],
+        "answer": "Con las amigas"
+      },
+      {
+        "q": "¿Dónde cena?",
+        "options": [
+          "En casa de una amiga",
+          "En un restaurante",
+          "En casa de Hugo"
+        ],
+        "answer": "En casa de una amiga"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Stasera ceno da un'amica.",
+    "es": "Esta noche ceno en casa de una amiga.",
+    "context": "Para contar adónde vas a cenar"
+  },
+  "same": {
+    "text": "Muchas preposiciones funcionan igual que en español: con es con, per se parece a «para», di a «de».",
+    "examples": [
+      {
+        "t": "con mio figlio",
+        "es": "con mi hijo"
+      },
+      {
+        "t": "un caffè per te",
+        "es": "un café para ti"
+      },
+      {
+        "t": "la casa di Hugo",
+        "es": "la casa de Hugo"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "la cantina",
+    "means": "la bodega, el sótano",
+    "looksLike": "la cantina (bar o comedor)",
+    "emoji": "🍷",
+    "tip": "In cantina se guardan el vino y las cosas viejas. Para comer, mejor la mensa o la trattoria."
+  },
+  "summary": [
+    "a casa = en casa; in cucina, in bagno = en la cocina, en el baño.",
+    "da + persona = en casa de: da Hugo.",
+    "di = de (di legno); per = para (per te); con = con.",
+    "su = sobre, encima; tra / fra = entre."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u06-l4"
+}

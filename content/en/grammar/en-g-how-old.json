@@ -1,0 +1,127 @@
+{
+  "id": "en-g-how-old",
+  "lang": "en",
+  "level": "A1",
+  "title": "La edad con to be (I'm 60, no «I have»)",
+  "short": "En inglés la edad no se «tiene», se «es»: I'm sixty. How old are you?",
+  "story": [
+    {
+      "kind": "intro",
+      "emoji": "🎂",
+      "title": "Los años no se tienen…",
+      "text": "En español «==tenemos== años». En inglés los años se «==son==»: se usa el verbo to be. Es uno de los errores más famosos de los españoles.",
+      "examples": [
+        { "t": "I'm sixty.", "es": "Tengo sesenta años.", "hl": "I'm" },
+        { "t": "She's seven.", "es": "Tiene siete años.", "hl": "She's" }
+      ]
+    },
+    {
+      "kind": "table",
+      "emoji": "📋",
+      "title": "La edad en todas sus formas",
+      "text": "Es el mismo to be de siempre: ==am==, ==is==, ==are==.",
+      "table": {
+        "head": ["", "Afirmativa", "Negativa", "Pregunta", "Respuesta corta"],
+        "rows": [
+          ["I", "I=='m== 60.", "I=='m not== 60.", "==Am I== old?", "Yes, you are. / No, you aren't."],
+          ["he / she", "She==’s== 7.", "She ==isn't== 7.", "How old ==is== she?", "Is she 7? Yes, she is."],
+          ["you / we / they", "They==’re== 30.", "They ==aren't== 30.", "How old ==are== you?", "Are you 30? No, I'm not."]
+        ]
+      }
+    },
+    {
+      "kind": "rule",
+      "emoji": "🔢",
+      "title": "¿Con years old o sin él?",
+      "text": "Las dos formas están bien: ==I'm sixty== o ==I'm sixty years old==. Lo que no existe es «I'm sixty years» a secas. Con un año: ==one year old== (sin -s).",
+      "examples": [
+        { "t": "My neighbour is eighty years old.", "es": "Mi vecina tiene ochenta años.", "hl": "years old" },
+        { "t": "The baby is one year old.", "es": "El bebé tiene un año.", "hl": "one year old" }
+      ]
+    },
+    {
+      "kind": "rule",
+      "emoji": "❓",
+      "title": "Preguntar la edad",
+      "text": "==How old== + to be + persona. Literalmente: «¿cómo de mayor eres?».",
+      "examples": [
+        { "t": "How old are you?", "es": "¿Cuántos años tienes?", "hl": "How old are" },
+        { "t": "How old is your grandson?", "es": "¿Cuántos años tiene tu nieto?", "hl": "How old is" },
+        { "t": "How old is the cathedral?", "es": "¿Qué antigüedad tiene la catedral?", "hl": "How old is" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "emoji": "🇪🇸",
+      "title": "Español e inglés",
+      "text": "Español: «==Tengo== 60 años». Inglés: «==I am== 60». Piensa que el inglés dice «soy de 60». Y nunca uses have ni have got para la edad.",
+      "examples": [
+        { "t": "How old is she? – She's fifty-eight.", "es": "¿Cuántos años tiene? – Cincuenta y ocho.", "hl": "is" }
+      ]
+    },
+    {
+      "kind": "errors",
+      "emoji": "⚠️",
+      "title": "¡Ojo con estos errores!",
+      "text": "❌ I have 60 years → ✅ I=='m== 60. ❌ How many years have you? → ✅ ==How old are== you? ❌ She is 70 years → ✅ She's 70 / She's 70 ==years old==."
+    },
+    {
+      "kind": "tip",
+      "emoji": "💡",
+      "title": "Cumplir años",
+      "text": "Para decir que hoy cumples años, también con to be: ==I'm sixty today!== Y para felicitar: ==Happy birthday!== Ojo: preguntar la edad a un adulto puede sonar indiscreto en el Reino Unido.",
+      "examples": [
+        { "t": "My friend is fifty today!", "es": "¡Mi amiga cumple cincuenta hoy!", "hl": "is fifty today" }
+      ]
+    }
+  ],
+  "compare": {
+    "es": "En español la edad se «tiene»: tengo sesenta años, ¿cuántos años tienes? Siempre decimos «años».",
+    "target": "En inglés la edad se «es», con to be: I'm sixty (years old). Se pregunta con How old are you? «Years old» es opcional, pero «years» solo no se usa."
+  },
+  "errors": [
+    { "wrong": "I have sixty years.", "right": "I'm sixty. / I'm sixty years old.", "why": "La edad va con to be, nunca con have." },
+    { "wrong": "How many years have you?", "right": "How old are you?", "why": "La pregunta fija es How old + to be." },
+    { "wrong": "She is seventy years.", "right": "She is seventy. / She is seventy years old.", "why": "Si dices years, tiene que ir con old: years old. O di solo el número." },
+    { "wrong": "The baby is one years old.", "right": "The baby is one year old.", "why": "Un año es singular: one year old." },
+    { "wrong": "I've got fifty years.", "right": "I'm fifty.", "why": "Have got es para cosas que posees, no para la edad." },
+    { "wrong": "How old you are?", "right": "How old are you?", "why": "En la pregunta, el verbo va delante de la persona." }
+  ],
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "My teacher ___ sixty-two.", "es": "Mi profesora tiene sesenta y dos años.", "options": ["is", "has", "have"], "answer": "is", "why": "Edad con to be: she is.", "g": "en-g-how-old" },
+    { "id": "e2", "type": "choose", "q": "The little boy ___ four.", "es": "El niño tiene cuatro años.", "options": ["is", "has", "are"], "answer": "is", "why": "Con he/she/it: is.", "g": "en-g-how-old" },
+    { "id": "e3", "type": "choose", "q": "How old ___ your friends?", "es": "¿Cuántos años tienen tus amigas?", "options": ["are", "is", "have"], "answer": "are", "why": "Friends es plural: are.", "g": "en-g-how-old" },
+    { "id": "e4", "type": "choose", "q": "How ___ is your dog?", "es": "¿Cuántos años tiene tu perro?", "options": ["old", "many", "much"], "answer": "old", "why": "La edad se pregunta con How old.", "g": "en-g-how-old" },
+    { "id": "e5", "type": "choose", "q": "She is thirty ___.", "es": "Tiene treinta años.", "options": ["years old", "years", "olds"], "answer": "years old", "why": "Years siempre va con old: thirty years old.", "g": "en-g-how-old" },
+    { "id": "e6", "type": "choose", "q": "The baby is one ___ old.", "es": "El bebé tiene un año.", "options": ["year", "years"], "answer": "year", "why": "Un año: singular, one year old.", "g": "en-g-how-old" },
+    { "id": "e7", "type": "choose", "q": "They ___ seventy this year!", "es": "¡Este año cumplen setenta!", "options": ["are", "have", "is"], "answer": "are", "why": "Con they: are.", "g": "en-g-how-old" },
+    { "id": "e8", "type": "fill", "q": "How old ___ you, Emma?", "es": "¿Cuántos años tienes, Emma?", "answer": ["are"], "bank": ["are", "have", "do"], "why": "How old are you?", "g": "en-g-how-old" },
+    { "id": "e9", "type": "fill", "q": "My neighbour ___ ninety years old.", "es": "Mi vecino tiene noventa años.", "answer": ["is", "'s"], "bank": ["is", "has", "are"], "why": "Una persona: is.", "g": "en-g-how-old" },
+    { "id": "e10", "type": "fill", "q": "The twins ___ eleven.", "es": "Los gemelos tienen once años.", "answer": ["are"], "bank": ["are", "is", "have"], "why": "Twins es plural: are.", "g": "en-g-how-old" },
+    { "id": "e11", "type": "fill", "q": "How ___ is the cathedral?", "es": "¿Qué antigüedad tiene la catedral?", "answer": ["old"], "why": "Para la edad de cosas también: How old is…?", "g": "en-g-how-old" },
+    { "id": "e12", "type": "fill", "q": "He isn't fifty! He ___ forty-nine.", "es": "¡No tiene cincuenta! Tiene cuarenta y nueve.", "answer": ["is", "'s"], "why": "Con he: is.", "g": "en-g-how-old" },
+    { "id": "e13", "type": "fill", "q": "Is she twenty? – No, she ___.", "es": "¿Tiene veinte? – No.", "answer": ["isn't", "is not", "'s not"], "why": "Respuesta corta negativa: No, she isn't.", "g": "en-g-how-old" },
+    { "id": "e14", "type": "conjugate", "verb": "to be", "person": "they", "tense": "presente", "q": "My grandchildren ___ very young.", "answer": ["are", "'re"], "table": [["I", "am"], ["he / she / it", "is"], ["we / you / they", "are"]], "why": "Grandchildren = they: are.", "g": "en-g-how-old" },
+    { "id": "e15", "type": "conjugate", "verb": "to be", "person": "he", "tense": "presente", "q": "Hugo's friend ___ thirty-three.", "answer": ["is", "'s"], "table": [["I", "am"], ["he / she / it", "is"], ["we / you / they", "are"]], "why": "Una persona (he): is.", "g": "en-g-how-old" },
+    { "id": "e16", "type": "conjugate", "verb": "to be", "person": "she (negativa)", "tense": "presente", "q": "She ___ eighty! She's sixty!", "answer": ["isn't", "is not", "'s not"], "why": "Negativa con she: she isn't.", "g": "en-g-how-old" },
+    { "id": "e17", "type": "error", "q": "I have sixty years.", "wrong": "have", "fix": "am", "why": "La edad con to be: I am sixty.", "g": "en-g-how-old" },
+    { "id": "e18", "type": "error", "q": "My neighbour have seventy years old.", "wrong": "have", "fix": "is", "why": "Ni have ni has: My neighbour is seventy years old.", "g": "en-g-how-old" },
+    { "id": "e19", "type": "error", "q": "The baby is two year old.", "wrong": "year", "fix": "years", "why": "Dos años: plural, years old.", "g": "en-g-how-old" },
+    { "id": "e20", "type": "error", "q": "How many is your granddaughter?", "wrong": "many", "fix": "old", "why": "La edad se pregunta con How old.", "g": "en-g-how-old" },
+    { "id": "e21", "type": "error", "q": "How old you are?", "wrong": "you", "fix": "are you", "why": "En preguntas el verbo va antes: How old are you?", "g": "en-g-how-old" },
+    { "id": "e22", "type": "order", "es": "¿Cuántos años tienes?", "answer": "How old are you", "extra": ["have", "many"], "why": "How old + are + you.", "g": "en-g-how-old" },
+    { "id": "e23", "type": "order", "es": "La niña tiene tres años", "answer": "The girl is three years old", "extra": ["has"], "why": "Edad con is.", "g": "en-g-how-old" },
+    { "id": "e24", "type": "order", "es": "No tengo setenta años", "answer": "I'm not seventy", "extra": ["have", "don't"], "why": "Negativa con to be: I'm not.", "g": "en-g-how-old" },
+    { "id": "e25", "type": "transform", "instr": "Corrige la frase", "q": "She has fifty years.", "answer": ["She's fifty.", "She is fifty.", "She's fifty years old.", "She is fifty years old."], "why": "Edad con to be: she is fifty.", "g": "en-g-how-old" },
+    { "id": "e26", "type": "transform", "instr": "Hazla negativa", "q": "He's forty.", "answer": ["He isn't forty.", "He's not forty.", "He is not forty."], "why": "Negativa de is: isn't.", "g": "en-g-how-old" },
+    { "id": "e27", "type": "transform", "instr": "Pregunta la edad (How old…?)", "q": "Your cat is six.", "answer": ["How old is your cat?", "How old's your cat?"], "why": "How old + is + la persona.", "g": "en-g-how-old" },
+    { "id": "e28", "type": "transform", "instr": "Hazla pregunta de sí o no", "q": "You are sixty-five.", "answer": ["Are you sixty-five?"], "why": "Para preguntar, el verbo va delante: Are you…?", "g": "en-g-how-old" },
+    { "id": "e29", "type": "translate", "dir": "to", "q": "¿Cuántos años tiene tu hijo?", "answer": ["How old is your son?", "How old's your son?"], "why": "How old is…?", "g": "en-g-how-old" },
+    { "id": "e30", "type": "translate", "dir": "to", "q": "El perro tiene diez años.", "answer": ["The dog is ten.", "The dog is ten years old.", "The dog's ten.", "The dog's ten years old."], "why": "También para animales: is ten.", "g": "en-g-how-old" },
+    { "id": "e31", "type": "translate", "dir": "from", "q": "My friend is fifty today!", "answer": ["¡Mi amiga cumple cincuenta hoy!", "¡Mi amigo cumple cincuenta hoy!", "¡Mi amiga cumple cincuenta años hoy!", "¡Mi amigo cumple cincuenta años hoy!", "¡Hoy mi amiga cumple cincuenta!"], "why": "Is fifty today = cumple cincuenta hoy.", "g": "en-g-how-old" },
+    { "id": "e32", "type": "situation", "context": "Una señora en el parque te pregunta: «How old is the little boy?». Es un vecinito de cinco años.", "emoji": "🧒", "options": ["He's five.", "He has five years.", "He's five years."], "answer": "He's five.", "why": "Con to be y sin years suelto: He's five.", "g": "en-g-how-old" },
+    { "id": "e33", "type": "situation", "context": "Quieres preguntar con educación la edad de la hija de una amiga inglesa.", "emoji": "👧", "options": ["How old is your daughter?", "How many years has your daughter?", "How old has your daughter?"], "answer": "How old is your daughter?", "why": "How old + is.", "g": "en-g-how-old" },
+    { "id": "e34", "type": "match", "pairs": [["How old are you?", "I'm fifty-six."], ["How old is he?", "He's twelve."], ["How old are they?", "They're nine."], ["Is she sixty?", "Yes, she is."], ["Are you forty?", "No, I'm not."]], "why": "Pregunta y respuesta con la misma forma de to be.", "g": "en-g-how-old" }
+  ],
+  "reviewed": false
+}

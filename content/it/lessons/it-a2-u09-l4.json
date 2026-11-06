@@ -1,0 +1,79 @@
+{
+  "id": "it-a2-u09-l4",
+  "unit": "it-a2-u09",
+  "title": "Il più bello d'Italia",
+  "goal": "a decir que algo es el más bonito, el más famoso o buenísimo con los superlativos",
+  "emoji": "🏆",
+  "photoQuery": "venice grand canal gondola sunset",
+  "vocab": [
+    { "id": "regioni-bellissimo", "t": "bellissimo / bellissima", "es": "bellísimo, precioso", "emoji": "😍", "pos": "adj", "ex": { "t": "Venezia al tramonto è bellissima.", "es": "Venecia al atardecer es preciosa." } },
+    { "id": "regioni-il-piu-bello", "t": "il più bello / la più bella", "es": "el más bonito / la más bonita", "emoji": "🏆", "pos": "phrase", "ex": { "t": "Per me è il lago più bello d'Italia.", "es": "Para mí es el lago más bonito de Italia." } },
+    { "id": "regioni-famoso", "t": "famoso / famosa", "es": "famoso / famosa", "emoji": "🌟", "pos": "adj", "ex": { "t": "Il Colosseo è il monumento più famoso di Roma.", "es": "El Coliseo es el monumento más famoso de Roma." } },
+    { "id": "regioni-pittoresco", "t": "pittoresco / pittoresca", "es": "pintoresco / pintoresca", "emoji": "🎨", "pos": "adj", "ex": { "t": "Le Cinque Terre sono paesi pittoreschi.", "es": "Las Cinque Terre son pueblos pintorescos." } },
+    { "id": "regioni-ottimo", "t": "ottimo / ottima", "es": "buenísimo, excelente", "emoji": "👌", "pos": "adj", "ex": { "t": "Il caffè a Napoli è ottimo.", "es": "El café en Nápoles es buenísimo." } },
+    { "id": "regioni-grandissimo", "t": "grandissimo / grandissima", "es": "grandísimo, enorme", "emoji": "🐘", "pos": "adj", "ex": { "t": "La piazza è grandissima.", "es": "La plaza es enorme." } },
+    { "id": "regioni-il-piu-grande", "t": "il più grande / il più lungo", "es": "el más grande / el más largo", "emoji": "📏", "pos": "phrase", "ex": { "t": "Il Po è il fiume più lungo d'Italia.", "es": "El Po es el río más largo de Italia." } },
+    { "id": "regioni-l-arena", "t": "l'arena", "es": "el anfiteatro, la arena", "emoji": "🏟️", "pos": "n", "ex": { "t": "Ogni estate all'Arena di Verona c'è l'opera.", "es": "Cada verano hay ópera en la Arena de Verona." } }
+  ],
+  "grammar": "it-g-superlativi",
+  "pron": {
+    "title": "La doble s de -issimo",
+    "tip": "En -issimo la s es doble: bel-LIS-si-mo. Alarga la s un instante y el acento cae en la i de -is-.",
+    "words": ["bellissimo", "buonissimo", "grandissima", "carissimo"],
+    "pairs": [["caro", "carro"], ["nono", "nonno"], ["sete", "sette"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "minimal", "pair": ["nono", "nonno"], "answer": "nonno", "es": ["noveno", "abuelo"], "why": "Nonno, con doble n, es el abuelo.", "g": "it-g-superlativi" },
+    { "id": "e2", "type": "minimal", "pair": ["caro", "carro"], "answer": "caro", "es": ["caro", "carro"], "why": "Caro, con una sola r, es caro (o querido).", "g": "it-g-superlativi" },
+    { "id": "e3", "type": "choose", "q": "Il Garda è il lago più grande ___ paese.", "es": "El Garda es el lago más grande del país.", "options": ["del", "che il", "nel"], "answer": "del", "why": "El superlativo usa di: di + il = del paese.", "g": "it-g-superlativi" },
+    { "id": "e4", "type": "choose", "q": "Venezia al tramonto è ___!", "es": "¡Venecia al atardecer es preciosa!", "options": ["bellissima", "bellissimo", "più bellissima"], "answer": "bellissima", "why": "Venezia es femenina: bellissima. Y nunca más + -issimo.", "g": "it-g-superlativi" },
+    { "id": "e5", "type": "choose", "q": "Questa è la piazza più famosa ___ città.", "es": "Esta es la plaza más famosa de la ciudad.", "options": ["della", "di", "che la"], "answer": "della", "why": "Di + la = della.", "g": "it-g-superlativi" },
+    { "id": "e6", "type": "fill", "q": "La pizza qui è ___: la migliore che ho mangiato!", "es": "La pizza aquí es buenísima: ¡la mejor que he comido!", "answer": ["buonissima", "ottima"], "bank": ["buonissima", "buonissimo", "più buonissima"], "why": "La pizza es femenina: buonissima (u ottima).", "g": "it-g-superlativi" },
+    { "id": "e7", "type": "fill", "q": "Per me Garda è il lago ___ bello del nord.", "es": "Para mí el Garda es el lago más bonito del norte.", "answer": ["più"], "bank": ["più", "molto", "-issimo"], "why": "El más bonito = il più bello.", "g": "it-g-superlativi" },
+    { "id": "e8", "type": "fill", "q": "Le Cinque Terre sono paesi ___.", "es": "Las Cinque Terre son pueblos pintorescos.", "answer": ["pittoreschi"], "hint": "pittoresco", "why": "Pittoresco → pittoreschi (con h para mantener el sonido k).", "g": "it-g-aggettivi-accordo" },
+    { "id": "e9", "type": "error", "q": "Il Colosseo è il monumento più famoso que Roma.", "wrong": "que", "fix": "di", "why": "El más … de = il più … di.", "g": "it-g-superlativi" },
+    { "id": "e10", "type": "error", "q": "Questo gelato è più buonissimo.", "wrong": "buonissimo", "fix": "buono", "why": "-issimo ya significa «muy»: no se junta con più. O più buono, o buonissimo.", "g": "it-g-superlativi" },
+    { "id": "e11", "type": "transform", "instr": "Cámbiala con -issimo", "q": "La spiaggia è molto bella.", "answer": ["La spiaggia è bellissima."], "why": "Molto bella = bellissima.", "g": "it-g-superlativi" },
+    { "id": "e12", "type": "order", "es": "Es la ciudad más bonita del mundo.", "answer": "È la città più bella del mondo", "extra": ["che"], "why": "La città + più bella + del mondo.", "g": "it-g-superlativi" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "El café en Nápoles es buenísimo.", "answer": ["Il caffè a Napoli è buonissimo.", "Il caffè a Napoli è ottimo.", "A Napoli il caffè è buonissimo."], "why": "Buonissimo u ottimo.", "g": "it-g-superlativi" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "È il lago più grande d'Italia.", "answer": ["Es el lago más grande de Italia."], "why": "Il più grande d'Italia = el más grande de Italia.", "g": "it-g-superlativi" },
+    { "id": "e15", "type": "situation", "context": "Ves por primera vez la Arena de Verona y te quedas con la boca abierta.", "emoji": "🏟️", "options": ["È bellissima!", "È più bella!", "È bellissimo di tutti!"], "answer": "È bellissima!", "why": "L'Arena es femenina: bellissima.", "g": "it-g-superlativi" }
+  ],
+  "dialog": {
+    "title": "Una noche en la Arena",
+    "setting": "Yolanda y su amiga Lucia salen de la ópera en la Arena de Verona",
+    "emoji": "🎶",
+    "lines": [
+      { "who": "Lucia", "t": "Allora? Ti è piaciuta l'opera?", "es": "¿Y bien? ¿Te ha gustado la ópera?" },
+      { "who": "Yolanda", "t": "Bellissima! La serata più bella del viaggio.", "es": "¡Preciosa! La noche más bonita del viaje." },
+      { "who": "Lucia", "t": "L'Arena è uno dei teatri all'aperto più grandi del mondo.", "es": "La Arena es uno de los teatros al aire libre más grandes del mundo." },
+      { "who": "Yolanda", "t": "E antichissima! È romana, vero?", "es": "¡Y antiquísima! Es romana, ¿verdad?" },
+      { "who": "Lucia", "t": "Sì. Ora andiamo a mangiare qualcosa?", "es": "Sí. ¿Ahora vamos a comer algo?" },
+      { "who": "Yolanda", "t": "Sì, ho una fame grandissima!", "es": "Sí, ¡tengo un hambre enorme!" },
+      { "who": "Lucia", "t": "Conosco una trattoria ottima qui vicino.", "es": "Conozco una trattoria buenísima aquí cerca." },
+      { "who": "Yolanda", "t": "Perfetto, la migliore fine della serata!", "es": "¡Perfecto, el mejor final de la noche!" }
+    ],
+    "questions": [
+      { "q": "¿Qué le ha parecido la ópera a Yolanda?", "options": ["Preciosa", "Aburrida", "Demasiado larga"], "answer": "Preciosa" },
+      { "q": "¿De qué época es la Arena?", "options": ["Romana", "Moderna", "Medieval"], "answer": "Romana" },
+      { "q": "¿Adónde van después?", "options": ["A una trattoria", "Al hotel", "A la estación"], "answer": "A una trattoria" }
+    ]
+  },
+  "realLife": { "t": "È il posto più bello che ho visto!", "es": "¡Es el sitio más bonito que he visto!", "context": "Para expresar entusiasmo en un viaje" },
+  "same": {
+    "text": "El superlativo con -issimo es como nuestro -ísimo.",
+    "examples": [
+      { "t": "bellissimo", "es": "bellísimo" },
+      { "t": "carissimo", "es": "carísimo" },
+      { "t": "il più bello", "es": "el más bonito" }
+    ]
+  },
+  "summary": [
+    "El más … de = il più … di: il fiume più lungo d'Italia.",
+    "Muy = -issimo: bellissima, buonissimo, grandissima.",
+    "Nunca juntes più con -issimo.",
+    "Ottimo = buenísimo; il migliore = el mejor.",
+    "Pronuncia bien la doble s de -issimo."
+  ],
+  "reviewed": false
+}

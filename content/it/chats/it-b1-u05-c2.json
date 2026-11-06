@@ -1,0 +1,58 @@
+{
+  "id": "it-b1-u05-c2",
+  "unit": "it-b1-u05",
+  "title": "¡No te lo vas a creer!",
+  "setting": "Le cuentas a Giulia por teléfono una anécdota de tu viaje a Rávena",
+  "emoji": "📞",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Allora, com'è andato il viaggio a Ravenna?", "es": "Bueno, ¿qué tal el viaje a Rávena?" },
+      "options": [
+        { "t": "Benissimo! Ma sai cosa mi è successo? Non ci crederai!", "es": "¡Muy bien! Pero ¿sabes lo que me pasó? ¡No te lo vas a creer!", "next": "n2", "ok": true },
+        { "t": "Benissimo! Ma sai cosa mi ha successo?", "es": "¡Muy bien! Pero ¿sabes lo que me pasó?", "next": "n2", "ok": false, "feedback": "Succedere va con essere: mi è successo." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Dai, racconta!", "es": "¡Venga, cuenta!" },
+      "options": [
+        { "t": "Ero andata alla tomba di Dante e all'improvviso ho visto una mia vecchia amica.", "es": "Había ido a la tumba de Dante y de repente vi a una vieja amiga mía.", "next": "n3", "ok": true },
+        { "t": "Avevo andata alla tomba di Dante e all'improvviso ho visto una mia vecchia amica.", "es": "Había ido a la tumba de Dante y de repente vi a una vieja amiga mía.", "next": "n3", "ok": false, "feedback": "Andare va con essere: ero andata." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Davvero? Da quanto tempo non la vedevi?", "es": "¿De verdad? ¿Cuánto tiempo hacía que no la veías?" },
+      "options": [
+        { "t": "Tantissimo! Non l'avevo più vista dal matrimonio di mia cugina.", "es": "¡Muchísimo! No la había vuelto a ver desde la boda de mi prima.", "next": "n4", "ok": true },
+        { "t": "Tantissimo! Non l'ero più vista dal matrimonio di mia cugina.", "es": "¡Muchísimo! No la había vuelto a ver desde la boda de mi prima.", "next": "n4", "ok": false, "feedback": "Vedere va con avere: l'avevo vista." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Che coincidenza! E lei cosa ci faceva lì?", "es": "¡Qué casualidad! ¿Y ella qué hacía allí?" },
+      "options": [
+        { "t": "Era venuta con il marito per vedere i mosaici.", "es": "Había venido con su marido para ver los mosaicos.", "next": "n5", "ok": true },
+        { "t": "Era venuto con il marito per vedere i mosaici.", "es": "Había venido con su marido para ver los mosaicos.", "next": "n5", "ok": false, "feedback": "Hablas de tu amiga, una mujer: era venuta." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "E poi? Com'è finita?", "es": "¿Y luego? ¿Cómo acabó?" },
+      "options": [
+        { "t": "Alla fine abbiamo cenato insieme. Che bella serata!", "es": "Al final cenamos juntas. ¡Qué noche tan bonita!", "next": "n6", "ok": true },
+        { "t": "All'inizio abbiamo cenato insieme. Che bella serata!", "es": "Al principio cenamos juntas. ¡Qué noche tan bonita!", "next": "n6", "ok": false, "feedback": "Para el final de la historia: alla fine." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Che bella storia! Meno male che eri andata proprio quel giorno.", "es": "¡Qué historia tan bonita! Menos mal que fuiste justo ese día." },
+      "options": [
+        { "t": "Sì, è stato un caso fortunato!", "es": "¡Sí, fue una casualidad con suerte!", "next": "end", "ok": true }
+      ]
+    }
+  ],
+  "reviewed": false
+}

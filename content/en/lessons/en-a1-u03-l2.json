@@ -1,0 +1,435 @@
+{
+  "id": "en-a1-u03-l2",
+  "unit": "en-a1-u03",
+  "title": "Un huevo, el huevo",
+  "goal": "a usar bien a, an y the, y a saber cuándo no se pone artículo",
+  "emoji": "🥚",
+  "photoQuery": "kitchen table cups plates",
+  "vocab": [
+    {
+      "id": "a-cup",
+      "t": "a cup",
+      "es": "una taza",
+      "emoji": "☕",
+      "pos": "n",
+      "ex": {
+        "t": "A cup of tea, please.",
+        "es": "Una taza de té, por favor."
+      }
+    },
+    {
+      "id": "a-plate",
+      "t": "a plate",
+      "es": "un plato",
+      "emoji": "🍽️",
+      "pos": "n",
+      "ex": {
+        "t": "The plates are clean.",
+        "es": "Los platos están limpios."
+      }
+    },
+    {
+      "id": "an-egg",
+      "t": "an egg",
+      "es": "un huevo",
+      "emoji": "🥚",
+      "pos": "n",
+      "ex": {
+        "t": "I want an egg for breakfast.",
+        "es": "Quiero un huevo para desayunar."
+      }
+    },
+    {
+      "id": "an-orange",
+      "t": "an orange",
+      "es": "una naranja",
+      "emoji": "🍊",
+      "pos": "n",
+      "ex": {
+        "t": "An orange a day is good for you.",
+        "es": "Una naranja al día es buena para ti."
+      }
+    },
+    {
+      "id": "a-bottle",
+      "t": "a bottle",
+      "es": "una botella",
+      "emoji": "🍾",
+      "pos": "n",
+      "ex": {
+        "t": "A bottle of water, please.",
+        "es": "Una botella de agua, por favor."
+      }
+    },
+    {
+      "id": "a-box",
+      "t": "a box",
+      "es": "una caja",
+      "emoji": "📦",
+      "pos": "n",
+      "ex": {
+        "t": "The photos are in a box.",
+        "es": "Las fotos están en una caja."
+      }
+    },
+    {
+      "id": "a-glass",
+      "t": "a glass",
+      "es": "un vaso",
+      "emoji": "🥛",
+      "pos": "n",
+      "ex": {
+        "t": "A glass of milk for my grandson.",
+        "es": "Un vaso de leche para mi nieto."
+      },
+      "note": "¡Ojo! a glass = un vaso; glasses = vasos o gafas."
+    },
+    {
+      "id": "an-hour",
+      "t": "an hour",
+      "es": "una hora",
+      "emoji": "⏳",
+      "pos": "n",
+      "ex": {
+        "t": "The cake needs an hour.",
+        "es": "El bizcocho necesita una hora."
+      },
+      "note": "La h no suena: por eso an."
+    }
+  ],
+  "grammar": "en-g-articles",
+  "pron": {
+    "title": "The: «də» o «di»",
+    "tip": "The casi siempre se dice flojito, con una «e» corta: «ðə cup». Pero delante de vocal suena «ði»: «ði egg», «ði orange». Y escucha bien cup (taza, con «a» oscura) frente a cap (gorra, boca más abierta).",
+    "words": [
+      "the cup",
+      "the egg",
+      "the plate",
+      "the orange"
+    ],
+    "pairs": [
+      [
+        "cup",
+        "cap"
+      ],
+      [
+        "bag",
+        "bug"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "I'd like ___ egg, please.",
+      "es": "Quiero un huevo, por favor.",
+      "options": [
+        "a",
+        "an"
+      ],
+      "answer": "an",
+      "why": "Egg empieza por sonido de vocal: an egg.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Can I have ___ cup of tea?",
+      "es": "¿Me pones una taza de té?",
+      "options": [
+        "a",
+        "an"
+      ],
+      "answer": "a",
+      "why": "Cup empieza por consonante: a cup.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "The roast needs ___ hour in the oven.",
+      "es": "El asado necesita una hora en el horno.",
+      "options": [
+        "a",
+        "an"
+      ],
+      "answer": "an",
+      "why": "En hour la h no se pronuncia: an hour.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "I've got a cake. ___ cake is for Hugo.",
+      "es": "Tengo un bizcocho. El bizcocho es para Hugo.",
+      "answer": [
+        "The"
+      ],
+      "bank": [
+        "The",
+        "A",
+        "An"
+      ],
+      "why": "Ya hemos hablado del bizcocho: ahora es concreto, the.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e5",
+      "type": "choose",
+      "q": "I love ___ tea with milk.",
+      "es": "Me encanta el té con leche. (— = sin artículo)",
+      "options": [
+        "the",
+        "a",
+        "—"
+      ],
+      "answer": "—",
+      "why": "El té en general: en inglés sin artículo (I love tea).",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e6",
+      "type": "match",
+      "pairs": [
+        [
+          "an egg",
+          "un huevo"
+        ],
+        [
+          "a plate",
+          "un plato"
+        ],
+        [
+          "an orange",
+          "una naranja"
+        ],
+        [
+          "a box",
+          "una caja"
+        ],
+        [
+          "an hour",
+          "una hora"
+        ]
+      ]
+    },
+    {
+      "id": "e7",
+      "type": "error",
+      "q": "My sister is nurse in Valencia.",
+      "wrong": "nurse",
+      "fix": "a nurse",
+      "why": "Las profesiones llevan a/an en inglés: she is a nurse.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e8",
+      "type": "error",
+      "q": "Put the eggs in an box.",
+      "wrong": "an",
+      "fix": "a",
+      "why": "Box empieza por consonante: a box.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e9",
+      "type": "order",
+      "es": "Los platos están en la mesa",
+      "answer": "The plates are on the table",
+      "extra": [
+        "a"
+      ],
+      "why": "Platos y mesa concretos: the.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e10",
+      "type": "transform",
+      "instr": "Cambia «apple» por «banana» y ajusta el artículo",
+      "q": "I want an apple.",
+      "answer": [
+        "I want a banana."
+      ],
+      "why": "Banana empieza por consonante: a banana.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e11",
+      "type": "translate",
+      "dir": "to",
+      "q": "Una botella de agua, por favor.",
+      "answer": [
+        "A bottle of water, please.",
+        "A bottle of water please."
+      ],
+      "why": "Una botella cualquiera: a bottle.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e12",
+      "type": "situation",
+      "context": "En una cafetería de Londres quieres pedir un té.",
+      "emoji": "☕",
+      "options": [
+        "A cup of tea, please.",
+        "An cup of tea, please.",
+        "The cup of tea, please."
+      ],
+      "answer": "A cup of tea, please.",
+      "why": "Un té cualquiera: a cup of tea.",
+      "g": "en-g-articles"
+    },
+    {
+      "id": "e13",
+      "type": "minimal",
+      "pair": [
+        "cup",
+        "cap"
+      ],
+      "answer": "cup",
+      "es": [
+        "taza",
+        "gorra"
+      ],
+      "why": "Cup tiene una «a» corta y oscura; cap abre más la boca."
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "bag",
+        "bug"
+      ],
+      "answer": "bag",
+      "es": [
+        "bolso",
+        "bicho"
+      ],
+      "why": "Bag abre mucho la boca, casi como una «a» con sonrisa."
+    },
+    {
+      "id": "e15",
+      "type": "speak",
+      "t": "An egg and a cup of tea, please.",
+      "es": "Un huevo y una taza de té, por favor."
+    },
+    {
+      "id": "e16",
+      "type": "reading",
+      "kind": "menu",
+      "title": "Breakfast menu",
+      "text": "BREAKFAST\nAn egg on toast – £3\nA bowl of porridge – £3.50\nAn orange juice – £2\nA cup of tea – £1.80",
+      "questions": [
+        {
+          "q": "¿Cuánto cuesta el té?",
+          "options": [
+            "£1.80",
+            "£2",
+            "£3"
+          ],
+          "answer": "£1.80"
+        },
+        {
+          "q": "¿Qué lleva el huevo?",
+          "options": [
+            "Una tostada",
+            "Patatas",
+            "Beicon"
+          ],
+          "answer": "Una tostada"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "title": "El desayuno en el hotel",
+    "setting": "En el comedor de un hotel de Londres",
+    "emoji": "🍳",
+    "lines": [
+      {
+        "who": "Waiter",
+        "t": "Good morning! Tea or coffee?",
+        "es": "¡Buenos días! ¿Té o café?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "A cup of tea, please.",
+        "es": "Una taza de té, por favor."
+      },
+      {
+        "who": "Waiter",
+        "t": "And to eat?",
+        "es": "¿Y para comer?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "An egg on toast and an orange.",
+        "es": "Un huevo con tostada y una naranja."
+      },
+      {
+        "who": "Waiter",
+        "t": "The oranges are on that table.",
+        "es": "Las naranjas están en esa mesa."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Thank you. Is the egg very big?",
+        "es": "Gracias. ¿Es muy grande el huevo?"
+      },
+      {
+        "who": "Waiter",
+        "t": "No, it's a small egg.",
+        "es": "No, es un huevo pequeño."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Then two eggs, please!",
+        "es": "¡Entonces dos huevos, por favor!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué bebe Yolanda?",
+        "options": [
+          "Té",
+          "Café",
+          "Zumo"
+        ],
+        "answer": "Té"
+      },
+      {
+        "q": "¿Dónde están las naranjas?",
+        "options": [
+          "En otra mesa",
+          "En la cocina",
+          "En su plato"
+        ],
+        "answer": "En otra mesa"
+      },
+      {
+        "q": "¿Cuántos huevos pide al final?",
+        "options": [
+          "Dos",
+          "Uno",
+          "Tres"
+        ],
+        "answer": "Dos"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Could I have a glass of water, please?",
+    "es": "¿Me podría traer un vaso de agua, por favor?",
+    "context": "Para pedir agua en un restaurante o en el hotel"
+  },
+  "summary": [
+    "a + consonante (a cup), an + vocal (an egg, an hour)",
+    "the = algo concreto o ya nombrado: the cake",
+    "En general, sin artículo: I love tea",
+    "Profesiones con a/an: she's a nurse",
+    "the delante de vocal suena «ði»: the egg"
+  ],
+  "reviewed": false,
+  "photo": "en-a1-u03-l2"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "en-a1-u11-c3",
+  "unit": "en-a1-u11",
+  "title": "Ahora guías tú",
+  "setting": "Estás en Piccadilly Circus con Emma. A ella se le ha acabado la batería y tú llevas el plano. ¡Te toca dar las indicaciones!",
+  "emoji": "🗺️",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Oh no, my phone is dead! You have the map. Where's the theatre?", "es": "¡Ay, no, se me ha muerto el móvil! Tú tienes el plano. ¿Dónde está el teatro?" },
+      "options": [
+        { "t": "Don't worry! It's near here. Follow me.", "es": "¡No te preocupes! Está cerca. Sígueme.", "next": "n2", "ok": true },
+        { "t": "Not worry! Is near here.", "es": "¡No te preocupes! Está cerca.", "next": "n2", "ok": false, "feedback": "Imperativo negativo: Don't worry. Y no olvides el sujeto: It's near here." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "OK, you're the boss today! Which way?", "es": "¡Vale, hoy mandas tú! ¿Por dónde?" },
+      "options": [
+        { "t": "Go past the fountain and cross the road.", "es": "Pasa por delante de la fuente y cruza la calle.", "next": "n3", "ok": true },
+        { "t": "You go past the fountain and you crosses the road.", "es": "Pasa la fuente y cruza la calle.", "next": "n3", "ok": false, "feedback": "Para indicar el camino, el imperativo sin sujeto y sin -s: Go past… and cross…" }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Wait! The cars! Which way do I look?", "es": "¡Espera! ¡Los coches! ¿Hacia dónde miro?" },
+      "options": [
+        { "t": "Look right! In London cars drive on the left.", "es": "¡Mira a la derecha! En Londres los coches van por la izquierda.", "next": "n4", "ok": true },
+        { "t": "Look left, like in Spain.", "es": "Mira a la izquierda, como en España.", "next": "n4", "ok": false, "feedback": "¡Cuidado! En Reino Unido se conduce por la izquierda: normalmente hay que mirar primero a la derecha (Look right)." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Phew! Thanks. And now?", "es": "¡Uf! Gracias. ¿Y ahora?" },
+      "options": [
+        { "t": "Take the second left. The theatre is at the end of the street.", "es": "Coge la segunda a la izquierda. El teatro está al final de la calle.", "next": "n5", "ok": true },
+        { "t": "Take the second left. The theatre is in the end of the street.", "es": "Coge la segunda a la izquierda. El teatro está al final de la calle.", "next": "n5", "ok": false, "feedback": "Al final de la calle = at the end of the street." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Here it is! You're a great guide. The show starts at eight. What time is it now?", "es": "¡Aquí está! Eres una guía estupenda. La obra empieza a las ocho. ¿Qué hora es?" },
+      "options": [
+        { "t": "It's seven. Let's have dinner first!", "es": "Son las siete. ¡Cenemos primero!", "next": "n6", "ok": true },
+        { "t": "Are seven. Let's to have dinner.", "es": "Son las siete. Cenemos.", "next": "n6", "ok": false, "feedback": "La hora con it: It's seven. Y sin to: Let's have dinner." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Yes, let's! There's a little Italian place over there.", "es": "¡Sí, venga! Hay un italiano pequeñito allí." },
+      "options": [
+        { "t": "Perfect. Let's go!", "es": "Perfecto. ¡Vamos!", "next": "end", "ok": true },
+        { "t": "Perfect. Lets go!", "es": "Perfecto. ¡Vamos!", "next": "end", "ok": false, "feedback": "Casi: lleva apóstrofo, Let's go!" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

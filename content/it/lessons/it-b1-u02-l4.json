@@ -1,0 +1,73 @@
+{
+  "id": "it-b1-u02-l4",
+  "unit": "it-b1-u02",
+  "title": "Glielo porto subito!",
+  "goal": "a decir «se lo, se la» en italiano con glielo, gliela… y a hablar de la montaña en invierno",
+  "emoji": "⛷️",
+  "photoQuery": "mountain hut snow dolomites",
+  "vocab": [
+    { "id": "regalo-lo-sci", "t": "lo sci", "es": "el esquí", "emoji": "⛷️", "pos": "n", "note": "Plural: gli sci (no cambia).", "ex": { "t": "Quest'inverno provo lo sci per la prima volta.", "es": "Este invierno pruebo el esquí por primera vez." } },
+    { "id": "regalo-sciare", "t": "sciare", "es": "esquiar", "emoji": "🎿", "pos": "v", "ex": { "t": "In montagna i bambini imparano a sciare.", "es": "En la montaña los niños aprenden a esquiar." } },
+    { "id": "regalo-gli-scarponi", "t": "gli scarponi", "es": "las botas (de esquí o de montaña)", "emoji": "🥾", "pos": "n", "ex": { "t": "Gli scarponi nuovi? Glieli ho regalati io.", "es": "¿Las botas nuevas? Se las regalé yo." } },
+    { "id": "regalo-la-funivia", "t": "la funivia", "es": "el teleférico", "emoji": "🚡", "pos": "n", "ex": { "t": "Prendiamo la funivia fino in cima.", "es": "Cogemos el teleférico hasta la cima." } },
+    { "id": "regalo-il-rifugio", "t": "il rifugio", "es": "el refugio de montaña", "emoji": "🛖", "pos": "n", "ex": { "t": "A pranzo mangiamo in un rifugio.", "es": "A mediodía comemos en un refugio." } },
+    { "id": "regalo-la-tenda", "t": "la tenda", "es": "la tienda de campaña; la cortina", "emoji": "⛺", "pos": "n", "note": "¡Ojo! Una tienda para comprar es il negozio.", "ex": { "t": "D'estate dormiamo in tenda vicino al lago.", "es": "En verano dormimos en una tienda de campaña cerca del lago." } },
+    { "id": "regalo-i-guanti", "t": "i guanti", "es": "los guantes", "emoji": "🧤", "pos": "n", "ex": { "t": "I guanti di lana? Glieli porto io.", "es": "¿Los guantes de lana? Se los llevo yo." } },
+    { "id": "regalo-la-neve", "t": "la neve", "es": "la nieve", "emoji": "❄️", "pos": "n", "ex": { "t": "Oggi c'è tanta neve sulle Dolomiti.", "es": "Hoy hay mucha nieve en las Dolomitas." } },
+    { "id": "regalo-la-cioccolata-calda", "t": "la cioccolata calda", "es": "el chocolate caliente", "emoji": "☕", "pos": "n", "ex": { "t": "Dopo lo sci, una cioccolata calda!", "es": "Después del esquí, ¡un chocolate caliente!" } }
+  ],
+  "grammar": "it-g-pronomi-combinati",
+  "pron": {
+    "title": "Glielo, gliela: la gl suave",
+    "tip": "Gli suena como una «ll» muy suave pegada a la i: «llié-lo». Nunca con g dura como en «gato». Gli y li se distinguen solo por ese sonido.",
+    "words": ["glielo", "gliela", "glieli", "gliene"],
+    "pairs": [["gli", "li"], ["glielo", "gelo"]]
+  },
+  "exercises": [
+    { "id": "e1", "type": "choose", "q": "Gli scarponi? ___ ho regalati io per Natale.", "es": "¿Las botas? Se las regalé yo por Navidad.", "options": ["Glieli", "Gli li", "Se li"], "answer": "Glieli", "why": "Gli + li → glieli, todo junto. Scarponi es masculino plural.", "g": "it-g-pronomi-combinati" },
+    { "id": "e2", "type": "choose", "q": "La cioccolata? ___ porto subito, signora.", "es": "¿El chocolate? Se lo traigo enseguida, señora.", "options": ["Gliela", "Glielo", "Gli la"], "answer": "Gliela", "why": "La cioccolata es femenino: gliela (aunque en español digamos «el chocolate»).", "g": "it-g-pronomi-combinati" },
+    { "id": "e3", "type": "choose", "q": "Mio nipote vuole i guanti rossi? ___ compro domani.", "es": "¿Mi nieto quiere los guantes rojos? Se los compro mañana.", "options": ["Glieli", "Gliele", "Gliela"], "answer": "Glieli", "why": "I guanti es masculino plural: glieli.", "g": "it-g-pronomi-combinati" },
+    { "id": "e4", "type": "choose", "q": "Le foto della montagna? Alla mia amica ___ mando stasera.", "es": "¿Las fotos de la montaña? A mi amiga se las mando esta noche.", "options": ["gliele", "glieli", "le le"], "answer": "gliele", "why": "A ella también se usa glie-: gliele (foto es femenino plural).", "g": "it-g-pronomi-combinati" },
+    { "id": "e5", "type": "fill", "q": "Hugo vuole lo zaino? ___ presto io.", "es": "¿Hugo quiere la mochila? Se la presto yo.", "answer": ["Glielo"], "bank": ["Glielo", "Gliela", "Se lo"], "why": "Lo zaino es masculino en italiano: glielo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e6", "type": "fill", "q": "Le cartoline? Alle mie amiche ___ mando dalle Dolomiti.", "es": "¿Las postales? A mis amigas se las mando desde las Dolomitas.", "answer": ["gliele"], "hint": "a ellas + las postales", "why": "Gli sirve también para «a ellos/ellas»: gliele.", "g": "it-g-pronomi-combinati" },
+    { "id": "e7", "type": "fill", "q": "Signora, vuole delle mele? ___ do un chilo.", "es": "Señora, ¿quiere manzanas? Le doy un kilo.", "answer": ["Gliene"], "hint": "a usted + de ellas", "why": "Gli + ne → gliene: le doy un kilo (de manzanas).", "g": "it-g-pronomi-combinati" },
+    { "id": "e8", "type": "error", "q": "La tenda? A Marco glielo presto io.", "wrong": "glielo", "fix": "gliela", "why": "La tenda es femenino: gliela.", "g": "it-g-pronomi-combinati" },
+    { "id": "e9", "type": "error", "q": "La sciarpa? Gliel'ho regalato ieri.", "wrong": "regalato", "fix": "regalata", "why": "Con lo/la delante, el participio concuerda: la sciarpa → regalata.", "g": "it-g-pronomi-combinati" },
+    { "id": "e10", "type": "order", "es": "Se los llevo yo mañana.", "answer": "Glieli porto io domani", "extra": ["se"], "why": "«Se los» (a él) se dice glieli, en una sola palabra.", "g": "it-g-pronomi-combinati" },
+    { "id": "e11", "type": "transform", "instr": "Sustituye «il casco» y «a Hugo» por pronombres", "q": "Regalo il casco a Hugo.", "answer": ["Glielo regalo."], "why": "A Hugo (gli) + il casco (lo) → glielo.", "g": "it-g-pronomi-combinati" },
+    { "id": "e12", "type": "transform", "instr": "Pásala al passato prossimo", "q": "Gliela regalo.", "answer": ["Gliel'ho regalata."], "why": "Gliela + ho → gliel'ho, y el participio en femenino: regalata.", "g": "it-g-pronomi-combinati" },
+    { "id": "e13", "type": "translate", "dir": "to", "q": "¿El teleférico? Se lo recomiendo, señora.", "answer": ["La funivia? Gliela consiglio, signora.", "La funivia? Gliela raccomando, signora."], "why": "¡Trampa! La funivia es femenino: gliela.", "g": "it-g-pronomi-combinati" },
+    { "id": "e14", "type": "translate", "dir": "from", "q": "Gli scarponi? Glieli ho comprati in montagna.", "answer": ["¿Las botas? Se las compré en la montaña.", "¿Las botas? Se las he comprado en la montaña."], "why": "Glieli = se los / se las; scarponi en español son «las botas».", "g": "it-g-pronomi-combinati" },
+    { "id": "e15", "type": "minimal", "pair": ["gli", "li"], "es": ["le / les", "los"], "answer": "gli", "why": "Gli lleva el sonido suave de «ll»; li suena como en español." },
+    { "id": "e16", "type": "speak", "t": "Glielo porto subito, signora.", "es": "Se lo traigo enseguida, señora." }
+  ],
+  "dialog": {
+    "title": "En el refugio",
+    "setting": "En un refugio de montaña de las Dolomitas, después de esquiar",
+    "emoji": "🛖",
+    "lines": [
+      { "who": "Cameriere", "t": "Buongiorno! Benvenuta al rifugio. Cosa le porto?", "es": "¡Buenos días! Bienvenida al refugio. ¿Qué le traigo?" },
+      { "who": "Yolanda", "t": "Una cioccolata calda, per favore. Che freddo!", "es": "Un chocolate caliente, por favor. ¡Qué frío!" },
+      { "who": "Cameriere", "t": "Gliela porto subito. Con la panna?", "es": "Se lo traigo enseguida. ¿Con nata?" },
+      { "who": "Yolanda", "t": "Sì, grazie. E mio marito vorrebbe lo strudel.", "es": "Sí, gracias. Y mi marido querría el strudel." },
+      { "who": "Cameriere", "t": "Mi dispiace, lo strudel è finito. Ma ci sono i canederli.", "es": "Lo siento, el strudel se ha acabado. Pero hay canederli." },
+      { "who": "Yolanda", "t": "Che cosa sono?", "es": "¿Qué son?" },
+      { "who": "Cameriere", "t": "Palline di pane con lo speck, in brodo. Gliene porto due?", "es": "Bolitas de pan con speck, en caldo. ¿Le traigo dos?" },
+      { "who": "Yolanda", "t": "Sì, gliene porti due. Grazie!", "es": "Sí, tráigale dos. ¡Gracias!" }
+    ],
+    "questions": [
+      { "q": "¿Dónde están?", "options": ["En un refugio", "En un hotel", "En el teleférico"], "answer": "En un refugio" },
+      { "q": "¿Qué pide Yolanda?", "options": ["Un chocolate caliente", "Un café", "Un strudel"], "answer": "Un chocolate caliente" },
+      { "q": "¿Por qué no hay strudel?", "options": ["Se ha acabado", "No lo hacen", "Es muy tarde"], "answer": "Se ha acabado" }
+    ]
+  },
+  "realLife": { "t": "Glielo porto subito!", "es": "¡Se lo traigo enseguida!", "context": "Lo oirás mucho a los camareros en Italia: el glielo de cortesía" },
+  "falseFriend": { "word": "la tenda", "means": "la tienda de campaña; también la cortina", "looksLike": "la tienda (para comprar)", "emoji": "⛺", "tip": "Para comprar vas al negozio. La tenda es para dormir de acampada… o la cortina de la ventana." },
+  "summary": [
+    "Gli o le + lo/la/li/le/ne → glielo, gliela, glieli, gliele, gliene (todo junto).",
+    "Glielo = se lo (a él, a ella, a usted y también a ellos).",
+    "En pasado: gliel'ho regalata (la sciarpa), glieli ho comprati (gli scarponi).",
+    "Montaña: lo sci, gli scarponi, la funivia, il rifugio, la neve."
+  ],
+  "reviewed": false
+}

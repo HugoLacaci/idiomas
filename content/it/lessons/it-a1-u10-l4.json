@@ -1,0 +1,483 @@
+{
+  "id": "it-a1-u10-l4",
+  "unit": "it-a1-u10",
+  "title": "Non so perché non funziona",
+  "goal": "a explicar un problema en la habitación y a usar sapere (saber)",
+  "emoji": "🔧",
+  "photoQuery": "hotel bathroom towels shower",
+  "vocab": [
+    {
+      "id": "hotel-non-funziona",
+      "t": "non funziona",
+      "es": "no funciona",
+      "emoji": "🚫",
+      "pos": "phrase",
+      "ex": {
+        "t": "La doccia non funziona.",
+        "es": "La ducha no funciona."
+      }
+    },
+    {
+      "id": "hotel-l-aria-condizionata",
+      "t": "l'aria condizionata",
+      "es": "el aire acondicionado",
+      "emoji": "❄️",
+      "pos": "n",
+      "note": "En italiano es femenino: l'aria.",
+      "ex": {
+        "t": "L'aria condizionata fa rumore.",
+        "es": "El aire acondicionado hace ruido."
+      }
+    },
+    {
+      "id": "hotel-il-riscaldamento",
+      "t": "il riscaldamento",
+      "es": "la calefacción",
+      "emoji": "🔥",
+      "pos": "n",
+      "ex": {
+        "t": "Il riscaldamento è spento.",
+        "es": "La calefacción está apagada."
+      }
+    },
+    {
+      "id": "hotel-la-doccia",
+      "t": "la doccia",
+      "es": "la ducha",
+      "emoji": "🚿",
+      "pos": "n",
+      "ex": {
+        "t": "Non c'è acqua calda nella doccia.",
+        "es": "No hay agua caliente en la ducha."
+      }
+    },
+    {
+      "id": "hotel-l-asciugamano",
+      "t": "l'asciugamano",
+      "es": "la toalla",
+      "emoji": "🧖",
+      "pos": "n",
+      "note": "Masculino: l'asciugamano, gli asciugamani.",
+      "ex": {
+        "t": "Posso avere un altro asciugamano?",
+        "es": "¿Puedo tener otra toalla?"
+      }
+    },
+    {
+      "id": "hotel-la-coperta",
+      "t": "la coperta",
+      "es": "la manta",
+      "emoji": "🛏️",
+      "pos": "n",
+      "note": "¡Ojo! No es «cubierta».",
+      "ex": {
+        "t": "Vorrei una coperta in più.",
+        "es": "Quisiera una manta más."
+      }
+    },
+    {
+      "id": "hotel-rumoroso",
+      "t": "rumoroso / rumorosa",
+      "es": "ruidoso / ruidosa",
+      "emoji": "🔊",
+      "pos": "adj",
+      "ex": {
+        "t": "La camera è molto rumorosa.",
+        "es": "La habitación es muy ruidosa."
+      }
+    },
+    {
+      "id": "hotel-sporco",
+      "t": "sporco / sporca",
+      "es": "sucio / sucia",
+      "emoji": "🧽",
+      "pos": "adj",
+      "ex": {
+        "t": "Il bicchiere è sporco.",
+        "es": "El vaso está sucio."
+      }
+    },
+    {
+      "id": "hotel-non-lo-so",
+      "t": "Non lo so.",
+      "es": "No lo sé.",
+      "emoji": "🤷",
+      "pos": "phrase",
+      "ex": {
+        "t": "Perché non funziona? Non lo so.",
+        "es": "¿Por qué no funciona? No lo sé."
+      }
+    }
+  ],
+  "grammar": "it-g-sapere",
+  "pron": {
+    "title": "Palabras agudas con tilde: città, perché, può",
+    "tip": "Cuando la última vocal lleva tilde, ahí cae la fuerza de la voz: città, perché, può, così, più. Normalmente la tilde va hacia abajo (à, è, ò); en perché va hacia arriba porque esa e es cerrada.",
+    "words": [
+      "città",
+      "perché",
+      "può",
+      "più",
+      "così",
+      "caffè"
+    ],
+    "pairs": [
+      [
+        "papa",
+        "papà"
+      ],
+      [
+        "e",
+        "è"
+      ]
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Scusi, ___ dov'è l'ascensore?",
+      "es": "Perdone, ¿sabe dónde está el ascensor?",
+      "options": [
+        "sa",
+        "sai",
+        "so"
+      ],
+      "answer": "sa",
+      "why": "Con Lei (usted), sapere es sa.",
+      "g": "it-g-sapere"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Io non ___ perché la doccia non funziona.",
+      "es": "No sé por qué la ducha no funciona.",
+      "options": [
+        "so",
+        "sapo",
+        "sa"
+      ],
+      "answer": "so",
+      "why": "Io de sapere es so, una forma muy corta.",
+      "g": "it-g-sapere"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Mio marito ___ un buon ristorante qui vicino.",
+      "es": "Mi marido conoce un buen restaurante aquí cerca.",
+      "options": [
+        "conosce",
+        "sa",
+        "sapa"
+      ],
+      "answer": "conosce",
+      "why": "Conocer un lugar o a una persona es conoscere.",
+      "g": "it-g-sapere"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Tu ___ la password del wifi?",
+      "es": "¿Sabes la contraseña del wifi?",
+      "answer": [
+        "sai"
+      ],
+      "bank": [
+        "sai",
+        "sa",
+        "sapi"
+      ],
+      "why": "Tu de sapere: sai.",
+      "g": "it-g-sapere"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Non lo ___.",
+      "es": "No lo sé.",
+      "answer": [
+        "so"
+      ],
+      "bank": [
+        "so",
+        "sono",
+        "sa"
+      ],
+      "why": "No lo sé = Non lo so.",
+      "g": "it-g-sapere"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "L'aria condizionata non ___.",
+      "es": "El aire acondicionado no funciona.",
+      "answer": [
+        "funziona"
+      ],
+      "hint": "funcionar",
+      "why": "Funzionare con lui/lei: funziona.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e7",
+      "type": "conjugate",
+      "verb": "sapere",
+      "person": "noi",
+      "tense": "presente",
+      "q": "Noi non ___ parlare bene l'italiano.",
+      "answer": [
+        "sappiamo"
+      ],
+      "table": [
+        [
+          "io",
+          "so"
+        ],
+        [
+          "tu",
+          "sai"
+        ],
+        [
+          "lui/lei",
+          "sa"
+        ],
+        [
+          "noi",
+          "?"
+        ]
+      ],
+      "why": "Noi de sapere: sappiamo, con doble p.",
+      "g": "it-g-sapere"
+    },
+    {
+      "id": "e8",
+      "type": "conjugate",
+      "verb": "sapere",
+      "person": "loro",
+      "tense": "presente",
+      "q": "Loro ___ dov'è la piscina.",
+      "answer": [
+        "sanno"
+      ],
+      "why": "Loro de sapere: sanno.",
+      "g": "it-g-sapere"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Io non sé dov'è la chiave.",
+      "wrong": "sé",
+      "fix": "so",
+      "why": "En italiano «yo sé» es io so: non so.",
+      "g": "it-g-sapere"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "La camera è molto rumoroso.",
+      "wrong": "rumoroso",
+      "fix": "rumorosa",
+      "why": "Camera es femenino: rumorosa.",
+      "g": "it-g-aggettivi-accordo"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "¿Sabe por qué no funciona la ducha?",
+      "answer": "Sa perché la doccia non funziona",
+      "extra": [
+        "conosce"
+      ],
+      "why": "Saber algo (un dato, un porqué) es sapere.",
+      "g": "it-g-sapere"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "Quisiera otra manta.",
+      "answer": [
+        "Vorrei un'altra coperta.",
+        "Vorrei un'altra coperta, per favore.",
+        "Vorrei una coperta in più."
+      ],
+      "why": "Manta = coperta (no «cubierta»).",
+      "g": "it-g-vorrei"
+    },
+    {
+      "id": "e13",
+      "type": "situation",
+      "context": "Hace calor y el aire acondicionado de tu habitación no va. Llamas a recepción.",
+      "emoji": "🥵",
+      "options": [
+        "Scusi, l'aria condizionata non funziona.",
+        "Scusi, l'aria condizionata non sa.",
+        "Scusi, il riscaldamento è molto buono."
+      ],
+      "answer": "Scusi, l'aria condizionata non funziona.",
+      "why": "Para un aparato que no va: non funziona.",
+      "g": "it-g-presente-are"
+    },
+    {
+      "id": "e14",
+      "type": "minimal",
+      "pair": [
+        "papa",
+        "papà"
+      ],
+      "answer": "papà",
+      "es": [
+        "el papa",
+        "papá"
+      ],
+      "why": "Papà, con tilde, carga la voz al final: papá."
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "la doccia",
+          "la ducha"
+        ],
+        [
+          "la coperta",
+          "la manta"
+        ],
+        [
+          "l'asciugamano",
+          "la toalla"
+        ],
+        [
+          "il riscaldamento",
+          "la calefacción"
+        ],
+        [
+          "sporco",
+          "sucio"
+        ]
+      ],
+      "why": "Ojo: coperta es manta."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Scusi, la doccia non funziona.",
+      "es": "Perdone, la ducha no funciona."
+    }
+  ],
+  "dialog": {
+    "title": "Una noche fría",
+    "setting": "Yolanda llama a recepción desde su habitación por la noche",
+    "emoji": "🥶",
+    "lines": [
+      {
+        "who": "Paolo",
+        "t": "Reception, buonasera.",
+        "es": "Recepción, buenas noches."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Buonasera, sono della camera dodici.",
+        "es": "Buenas noches, soy de la habitación doce."
+      },
+      {
+        "who": "Paolo",
+        "t": "Mi dica, signora.",
+        "es": "Dígame, señora."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Il riscaldamento non funziona. Fa freddo!",
+        "es": "La calefacción no funciona. ¡Hace frío!"
+      },
+      {
+        "who": "Paolo",
+        "t": "Mi dispiace. Sa se è acceso?",
+        "es": "Lo siento. ¿Sabe si está encendida?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Non lo so. Non so come funziona.",
+        "es": "No lo sé. No sé cómo funciona."
+      },
+      {
+        "who": "Paolo",
+        "t": "Arrivo subito. Vuole anche una coperta?",
+        "es": "Voy ahora mismo. ¿Quiere también una manta?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, grazie, due coperte!",
+        "es": "¡Sí, gracias, dos mantas!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué no funciona?",
+        "options": [
+          "La calefacción",
+          "La ducha",
+          "El ascensor"
+        ],
+        "answer": "La calefacción"
+      },
+      {
+        "q": "¿Sabe Yolanda cómo funciona?",
+        "options": [
+          "No",
+          "Sí",
+          "No lo dice"
+        ],
+        "answer": "No"
+      },
+      {
+        "q": "¿Qué pide al final?",
+        "options": [
+          "Dos mantas",
+          "Dos toallas",
+          "Otra habitación"
+        ],
+        "answer": "Dos mantas"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Scusi, non funziona. Può venire a vedere?",
+    "es": "Perdone, no funciona. ¿Puede venir a verlo?",
+    "context": "Cuando algo se estropea en la habitación del hotel"
+  },
+  "same": {
+    "text": "Las palabras agudas con tilde se parecen mucho a las nuestras: la voz carga al final.",
+    "examples": [
+      {
+        "t": "la città",
+        "es": "la ciudad"
+      },
+      {
+        "t": "il caffè",
+        "es": "el café"
+      },
+      {
+        "t": "perché",
+        "es": "por qué / porque"
+      }
+    ]
+  },
+  "falseFriend": {
+    "word": "la coperta",
+    "means": "la manta",
+    "looksLike": "cubierta",
+    "emoji": "🛏️",
+    "tip": "Si tienes frío en el hotel, pide una coperta. La cubierta de un barco es il ponte."
+  },
+  "summary": [
+    "Sapere: so, sai, sa, sappiamo, sapete, sanno.",
+    "Saber un dato = sapere; conocer un sitio o a alguien = conoscere.",
+    "Problemas: … non funziona; la camera è rumorosa.",
+    "Agudas: città, perché, può llevan la fuerza al final."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u10-l4"
+}

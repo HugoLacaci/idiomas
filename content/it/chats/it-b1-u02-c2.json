@@ -1,0 +1,61 @@
+{
+  "id": "it-b1-u02-c2",
+  "unit": "it-b1-u02",
+  "title": "¿Me lo prestas?",
+  "setting": "Giulia te llama por teléfono: necesita unos favores antes de irse a la montaña",
+  "emoji": "📞",
+  "start": "n1",
+  "nodes": [
+    {
+      "id": "n1",
+      "says": { "t": "Ciao Yolanda! Ti posso chiedere un favore?", "es": "¡Hola, Yolanda! ¿Te puedo pedir un favor?" },
+      "options": [
+        { "t": "Certo, dimmi pure!", "es": "¡Claro, dime!", "next": "n2", "ok": true },
+        { "t": "Certo, mi dica pure!", "es": "¡Claro, dígame!", "next": "n2", "ok": false, "feedback": "Con Giulia te tuteas: dimmi pure. Mi dica es de usted." }
+      ]
+    },
+    {
+      "id": "n2",
+      "says": { "t": "Domenica vado in montagna. Mi presti la tua valigia grande?", "es": "El domingo me voy a la montaña. ¿Me prestas tu maleta grande?" },
+      "options": [
+        { "t": "Sì, te la presto volentieri.", "es": "Sí, te la presto con mucho gusto.", "next": "n3", "ok": true },
+        { "t": "Sì, te lo presto volentieri.", "es": "Sí, te la presto con mucho gusto.", "next": "n3", "ok": false, "feedback": "La valigia es femenino: te la presto." },
+        { "t": "Sì, ti la presto volentieri.", "es": "Sí, te la presto con mucho gusto.", "next": "n3", "ok": false, "feedback": "Delante de la, ti se convierte en te: te la." }
+      ]
+    },
+    {
+      "id": "n3",
+      "says": { "t": "Grazie! Quando posso passare a prenderla?", "es": "¡Gracias! ¿Cuándo puedo pasar a recogerla?" },
+      "options": [
+        { "t": "Non ti preoccupare, te la porto io domani.", "es": "No te preocupes, te la llevo yo mañana.", "next": "n4", "ok": true },
+        { "t": "Non ti preoccupare, la te porto io domani.", "es": "No te preocupes, te la llevo yo mañana.", "next": "n4", "ok": false, "feedback": "Primero «a quién» y luego «qué»: te la porto." }
+      ]
+    },
+    {
+      "id": "n4",
+      "says": { "t": "Sei un tesoro! E… hai anche dei guanti caldi?", "es": "¡Eres un tesoro! Y… ¿tienes también unos guantes calentitos?" },
+      "options": [
+        { "t": "Sì, ne ho due paia. Te ne presto un paio.", "es": "Sí, tengo dos pares. Te presto uno.", "next": "n5", "ok": true },
+        { "t": "Sì, ne ho due paia. Te li presto un paio.", "es": "Sí, tengo dos pares. Te presto uno.", "next": "n5", "ok": false, "feedback": "Con una cantidad (un paio) se usa ne: te ne presto un paio." }
+      ]
+    },
+    {
+      "id": "n5",
+      "says": { "t": "Ultima cosa: domani arriva un pacco per me, ma non sono a casa.", "es": "Una última cosa: mañana me llega un paquete, pero no estoy en casa." },
+      "options": [
+        { "t": "Te lo ritiro io, tranquilla!", "es": "¡Te lo recojo yo, tranquila!", "next": "n6", "ok": true },
+        { "t": "Te lo retiro io, tranquilla!", "es": "¡Te lo recojo yo, tranquila!", "next": "n6", "ok": false, "feedback": "En italiano es ritirare, con i: te lo ritiro." },
+        { "t": "Ti lo ritiro io, tranquilla!", "es": "¡Te lo recojo yo, tranquila!", "next": "n6", "ok": false, "feedback": "Delante de lo, ti pasa a te: te lo ritiro." }
+      ]
+    },
+    {
+      "id": "n6",
+      "says": { "t": "Grazie di cuore, Yolanda! Come posso ringraziarti?", "es": "¡Gracias de corazón, Yolanda! ¿Cómo te lo puedo agradecer?" },
+      "options": [
+        { "t": "Figurati! Mi porti un ricordo dalle Dolomiti?", "es": "¡No hay de qué! ¿Me traes un recuerdo de las Dolomitas?", "next": "end", "ok": true },
+        { "t": "Figurati! Me lo porti un ricordo dalle Dolomiti?", "es": "¡No hay de qué! ¿Me traes un recuerdo de las Dolomitas?", "next": "end", "ok": false, "feedback": "Aquí ya dices la cosa (un ricordo), así que sobra lo: mi porti un ricordo?" }
+      ]
+    }
+  ],
+  "reviewed": false
+}

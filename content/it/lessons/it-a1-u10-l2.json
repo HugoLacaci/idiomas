@@ -1,0 +1,459 @@
+{
+  "id": "it-a1-u10-l2",
+  "unit": "it-a1-u10",
+  "title": "Posso lasciare le valigie?",
+  "goal": "a pedir permiso y hablar de los servicios del hotel con potere, volere y dovere",
+  "emoji": "🧳",
+  "photoQuery": "hotel swimming pool sun loungers",
+  "vocab": [
+    {
+      "id": "hotel-posso",
+      "t": "Posso…?",
+      "es": "¿Puedo…?",
+      "emoji": "🙋",
+      "pos": "phrase",
+      "ex": {
+        "t": "Posso pagare con la carta?",
+        "es": "¿Puedo pagar con tarjeta?"
+      }
+    },
+    {
+      "id": "hotel-lasciare",
+      "t": "lasciare",
+      "es": "dejar",
+      "emoji": "📥",
+      "pos": "v",
+      "ex": {
+        "t": "Posso lasciare le valigie qui?",
+        "es": "¿Puedo dejar las maletas aquí?"
+      }
+    },
+    {
+      "id": "hotel-la-valigia",
+      "t": "la valigia",
+      "es": "la maleta",
+      "emoji": "🧳",
+      "pos": "n",
+      "note": "Plural: le valigie.",
+      "ex": {
+        "t": "La mia valigia è blu.",
+        "es": "Mi maleta es azul."
+      }
+    },
+    {
+      "id": "hotel-il-parcheggio",
+      "t": "il parcheggio",
+      "es": "el aparcamiento",
+      "emoji": "🅿️",
+      "pos": "n",
+      "ex": {
+        "t": "C'è un parcheggio per la macchina?",
+        "es": "¿Hay aparcamiento para el coche?"
+      }
+    },
+    {
+      "id": "hotel-la-piscina",
+      "t": "la piscina",
+      "es": "la piscina",
+      "emoji": "🏊",
+      "pos": "n",
+      "ex": {
+        "t": "Possiamo usare la piscina?",
+        "es": "¿Podemos usar la piscina?"
+      }
+    },
+    {
+      "id": "hotel-la-cassaforte",
+      "t": "la cassaforte",
+      "es": "la caja fuerte",
+      "emoji": "🔐",
+      "pos": "n",
+      "ex": {
+        "t": "Il passaporto è nella cassaforte.",
+        "es": "El pasaporte está en la caja fuerte."
+      }
+    },
+    {
+      "id": "hotel-la-password",
+      "t": "la password del wifi",
+      "es": "la contraseña del wifi",
+      "emoji": "📶",
+      "pos": "n",
+      "ex": {
+        "t": "Qual è la password del wifi?",
+        "es": "¿Cuál es la contraseña del wifi?"
+      }
+    },
+    {
+      "id": "hotel-pagare",
+      "t": "pagare",
+      "es": "pagar",
+      "emoji": "💳",
+      "pos": "v",
+      "ex": {
+        "t": "Devo pagare adesso?",
+        "es": "¿Tengo que pagar ahora?"
+      }
+    },
+    {
+      "id": "hotel-la-sveglia",
+      "t": "la sveglia",
+      "es": "el despertador / la llamada para despertar",
+      "emoji": "⏰",
+      "pos": "n",
+      "ex": {
+        "t": "Vorrei la sveglia alle sette.",
+        "es": "Quisiera que me despertaran a las siete."
+      }
+    }
+  ],
+  "grammar": "it-g-modali",
+  "pron": {
+    "title": "La gl de voglio",
+    "tip": "Gl delante de i suena parecido a nuestra ll bien pronunciada, con la lengua pegada al paladar: voglio, vogliamo, famiglia. Nada de «g» dura.",
+    "words": [
+      "voglio",
+      "vogliamo",
+      "vogliono",
+      "famiglia",
+      "bagagli"
+    ]
+  },
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "choose",
+      "q": "Scusi, ___ lasciare le valigie qui?",
+      "es": "Perdone, ¿puedo dejar las maletas aquí?",
+      "options": [
+        "posso",
+        "può",
+        "puoi"
+      ],
+      "answer": "posso",
+      "why": "Con io, potere es posso: posso lasciare.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e2",
+      "type": "choose",
+      "q": "Signora, Lei ___ usare la piscina.",
+      "es": "Señora, usted puede usar la piscina.",
+      "options": [
+        "può",
+        "posso",
+        "possono"
+      ],
+      "answer": "può",
+      "why": "Lei se conjuga como lui/lei: può.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e3",
+      "type": "choose",
+      "q": "Noi ___ pagare con la carta?",
+      "es": "¿Podemos pagar con tarjeta?",
+      "options": [
+        "possiamo",
+        "potiamo",
+        "possono"
+      ],
+      "answer": "possiamo",
+      "why": "Noi de potere: possiamo.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "q": "Mio marito ___ parcheggiare la macchina.",
+      "es": "Mi marido quiere aparcar el coche.",
+      "answer": [
+        "vuole"
+      ],
+      "bank": [
+        "vuole",
+        "vole",
+        "voglio"
+      ],
+      "why": "Lui de volere: vuole.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "q": "Io ___ pagare adesso?",
+      "es": "¿Tengo que pagar ahora?",
+      "answer": [
+        "devo"
+      ],
+      "bank": [
+        "devo",
+        "ho che",
+        "debo"
+      ],
+      "why": "Tener que es dovere: io devo. «Ho che» no existe.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "q": "Tu ___ venire in piscina con me?",
+      "es": "¿Quieres venir a la piscina conmigo?",
+      "answer": [
+        "vuoi"
+      ],
+      "hint": "volere, tu",
+      "why": "Tu de volere: vuoi.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e7",
+      "type": "conjugate",
+      "verb": "potere",
+      "person": "loro",
+      "tense": "presente",
+      "q": "I bambini ___ usare la piscina.",
+      "answer": [
+        "possono"
+      ],
+      "table": [
+        [
+          "io",
+          "posso"
+        ],
+        [
+          "tu",
+          "puoi"
+        ],
+        [
+          "lui/lei",
+          "può"
+        ],
+        [
+          "loro",
+          "?"
+        ]
+      ],
+      "why": "Loro de potere: possono.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e8",
+      "type": "conjugate",
+      "verb": "dovere",
+      "person": "voi",
+      "tense": "presente",
+      "q": "Voi ___ lasciare la chiave alla reception.",
+      "answer": [
+        "dovete"
+      ],
+      "why": "Voi de dovere: dovete, regular.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e9",
+      "type": "error",
+      "q": "Posso lascio la valigia qui?",
+      "wrong": "lascio",
+      "fix": "lasciare",
+      "why": "Después de posso, voglio o devo va el infinitivo: posso lasciare.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e10",
+      "type": "error",
+      "q": "Lei pole pagare dopo.",
+      "wrong": "pole",
+      "fix": "può",
+      "why": "Lui/lei de potere es può, con acento.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e11",
+      "type": "order",
+      "es": "¿Puedo usar la caja fuerte?",
+      "answer": "Posso usare la cassaforte",
+      "extra": [
+        "di"
+      ],
+      "why": "Posso + infinitivo, sin preposición.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e12",
+      "type": "translate",
+      "dir": "to",
+      "q": "¿Tengo que pagar ahora?",
+      "answer": [
+        "Devo pagare adesso?",
+        "Devo pagare ora?"
+      ],
+      "why": "Tener que = dovere: devo pagare.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e13",
+      "type": "transform",
+      "instr": "Hazla negativa",
+      "q": "Possiamo usare la piscina.",
+      "answer": [
+        "Non possiamo usare la piscina."
+      ],
+      "why": "Non va delante del verbo modal: non possiamo.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e14",
+      "type": "situation",
+      "context": "Llegas al hotel por la mañana y la habitación aún no está lista. Quieres dejar las maletas.",
+      "emoji": "🧳",
+      "options": [
+        "Posso lasciare le valigie qui?",
+        "Devo lasciare le valigie qui?",
+        "Posso di lasciare le valigie?"
+      ],
+      "answer": "Posso lasciare le valigie qui?",
+      "why": "Para pedir permiso: posso + infinitivo.",
+      "g": "it-g-modali"
+    },
+    {
+      "id": "e15",
+      "type": "match",
+      "pairs": [
+        [
+          "posso",
+          "puedo"
+        ],
+        [
+          "voglio",
+          "quiero"
+        ],
+        [
+          "devo",
+          "tengo que / debo"
+        ],
+        [
+          "può",
+          "puede"
+        ],
+        [
+          "dobbiamo",
+          "tenemos que"
+        ]
+      ],
+      "why": "Potere = poder, volere = querer, dovere = deber / tener que."
+    },
+    {
+      "id": "e16",
+      "type": "speak",
+      "t": "Scusi, posso lasciare le valigie qui?",
+      "es": "Perdone, ¿puedo dejar las maletas aquí?"
+    }
+  ],
+  "dialog": {
+    "title": "Demasiado pronto",
+    "setting": "Yolanda llega al hotel a las diez de la mañana; la habitación aún no está lista",
+    "emoji": "🕙",
+    "lines": [
+      {
+        "who": "Yolanda",
+        "t": "Buongiorno. La camera è pronta?",
+        "es": "Buenos días. ¿La habitación está lista?"
+      },
+      {
+        "who": "Sara",
+        "t": "Mi dispiace, non ancora.",
+        "es": "Lo siento, todavía no."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Posso lasciare le valigie qui?",
+        "es": "¿Puedo dejar las maletas aquí?"
+      },
+      {
+        "who": "Sara",
+        "t": "Certo. Vuole un caffè?",
+        "es": "Claro. ¿Quiere un café?"
+      },
+      {
+        "who": "Yolanda",
+        "t": "Sì, grazie. Devo pagare adesso?",
+        "es": "Sí, gracias. ¿Tengo que pagar ahora?"
+      },
+      {
+        "who": "Sara",
+        "t": "No, può pagare alla partenza.",
+        "es": "No, puede pagar a la salida."
+      },
+      {
+        "who": "Yolanda",
+        "t": "Perfetto. Possiamo usare la piscina?",
+        "es": "Perfecto. ¿Podemos usar la piscina?"
+      },
+      {
+        "who": "Sara",
+        "t": "Sì, potete andare subito!",
+        "es": "¡Sí, podéis ir ya mismo!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "¿Qué deja Yolanda en la recepción?",
+        "options": [
+          "Las maletas",
+          "El pasaporte",
+          "La llave"
+        ],
+        "answer": "Las maletas"
+      },
+      {
+        "q": "¿Cuándo paga?",
+        "options": [
+          "A la salida",
+          "Ahora",
+          "Por internet"
+        ],
+        "answer": "A la salida"
+      },
+      {
+        "q": "¿Qué pueden usar ya?",
+        "options": [
+          "La piscina",
+          "La habitación",
+          "El aparcamiento"
+        ],
+        "answer": "La piscina"
+      }
+    ]
+  },
+  "realLife": {
+    "t": "Posso lasciare le valigie qui?",
+    "es": "¿Puedo dejar las maletas aquí?",
+    "context": "Cuando llegas al hotel antes de la hora de entrada o te vas después de dejar la habitación"
+  },
+  "same": {
+    "text": "Posso, voglio y devo funcionan como puedo, quiero y debo: van seguidos de un infinitivo, sin nada en medio.",
+    "examples": [
+      {
+        "t": "Posso entrare?",
+        "es": "¿Puedo entrar?"
+      },
+      {
+        "t": "Voglio dormire.",
+        "es": "Quiero dormir."
+      },
+      {
+        "t": "Devo partire.",
+        "es": "Debo irme."
+      }
+    ]
+  },
+  "summary": [
+    "Potere: posso, puoi, può… → pedir permiso: Posso lasciare le valigie?",
+    "Volere: voglio, vuoi, vuole… → querer.",
+    "Dovere: devo, devi, deve… → tener que (¡nunca «ho che»!).",
+    "Después del modal, infinitivo directo: posso pagare."
+  ],
+  "reviewed": false,
+  "photo": "it-a1-u10-l2"
+}
