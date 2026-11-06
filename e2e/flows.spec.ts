@@ -48,10 +48,13 @@ test('primera entrada: felicitación, bienvenida, lección completa, repaso, cam
   test.setTimeout(240_000);
   await page.goto('./');
   // felicitación
-  await expect(page.getByText('Tienes un regalo')).toBeVisible();
-  await page.getByRole('button', { name: 'Abrir el regalo' }).first().click();
-  await expect(page.getByText(/Feliz cumpleaños/)).toBeVisible();
-  await page.getByRole('button', { name: /Vamos a empezar/ }).click();
+  // felicitación (solo si está activada en content/gift.json)
+  await page.waitForTimeout(1000);
+  if (await page.getByText('Tienes un regalo').isVisible()) {
+    await page.getByRole('button', { name: 'Abrir el regalo' }).first().click();
+    await expect(page.getByText(/Feliz cumpleaños/)).toBeVisible();
+    await page.getByRole('button', { name: /Vamos a empezar/ }).click();
+  }
 
   // bienvenida en 4 pasos
   await expect(page.getByRole('heading', { name: '¿Cómo te llamas?' })).toBeVisible();

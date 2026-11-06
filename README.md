@@ -56,6 +56,7 @@ Edita **`content/gift.json`**:
 ```
 
 - `photo`: pon la foto en `public/gift/foto.jpg` y escribe aquí solo el nombre (vacío = sin foto).
+- `enabled`: `true` para que la felicitación salga la primera vez que se abre (ahora está en `false`).
 - `pin`: PIN del **Modo Hugo** (se abre tocando 5 veces seguidas el logo de la pantalla de inicio o de Ajustes).
 - `url`: dirección publicada (la usa la tarjeta regalo y `npm run qr`).
 

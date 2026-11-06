@@ -6,6 +6,7 @@ import { LangShell } from '@/ui/LangShell';
 import { Loading } from '@/ui/Loading';
 import Home from '@/screens/Home';
 import Gift from '@/screens/Gift';
+import gift from '@content/gift.json';
 
 const Onboarding = lazy(() => import('@/screens/Onboarding'));
 const Today = lazy(() => import('@/screens/Today'));
@@ -54,7 +55,8 @@ function FirstRun({ children }: { children: React.ReactNode }) {
   const profile = useProfile();
   const loc = useLocation();
   const free = ['/regalo', '/bienvenida', '/hugo', '/design', '/tarjeta-regalo', '/creditos'].some((p) => loc.pathname.startsWith(p));
-  if (!free && !profile.giftSeen) return <Navigate to="/regalo" replace />;
+  // La felicitación se activa con "enabled": true en content/gift.json
+  if (!free && gift.enabled && !profile.giftSeen) return <Navigate to="/regalo" replace />;
   if (!free && !profile.onboarded) return <Navigate to="/bienvenida" replace />;
   return <>{children}</>;
 }
