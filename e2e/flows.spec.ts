@@ -68,10 +68,10 @@ test('primera entrada: felicitación, bienvenida, lección completa, repaso, cam
   await page.getByRole('button', { name: /Empezar la lección|Continuar/ }).click();
 
   // lección: intro → vocabulario → … → final
-  await page.getByRole('button', { name: 'Empezar' }).click();
+  await page.getByRole('button', { name: 'Empezar', exact: true }).click({ timeout: 30_000 });
   for (let guard = 0; guard < 400; guard++) {
     if (await page.getByText(/Lección terminada/).isVisible()) break;
-    const next = page.getByRole('button', { name: /^(Siguiente|¡Hecho! Seguir|Seguir|Ya la conozco, seguir|A practicar|Terminar la lección)$/ });
+    const next = page.getByRole('button', { name: /^(Empezar|Siguiente|¡Hecho! Seguir|Seguir|Ya la conozco, seguir|A practicar|Terminar la lección)$/ });
     if (await next.first().isVisible().catch(() => false)) {
       await next.first().click();
       continue;
